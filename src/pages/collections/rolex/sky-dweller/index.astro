@@ -1,0 +1,115 @@
+---
+import BaseLayout from "../../../../layouts/BaseLayout.astro";
+import QuestLuxoIntelligence from "../../../../components/QuestLuxoIntelligence.astro";
+import PrivateSourcingCTA from "../../../../components/PrivateSourcingCTA.astro";
+import ReferenceCard from "../../../../components/ReferenceCard.astro";
+import { skyDwellerAssets } from "../../../../data/assets/rolex-sky-dweller";
+---
+
+<BaseLayout title="Rolex Sky-Dweller | Quest Luxo">
+  <section class="hero">
+    <p class="eyebrow">ROLEX COLLECTION</p>
+    <h1>Sky-Dweller</h1>
+    <p>
+      The Rolex Sky-Dweller combines annual calendar functionality with dual-time
+      capability, making it one of Rolex’s most sophisticated modern travel watches.
+    </p>
+  </section>
+
+  <QuestLuxoIntelligence
+    title="Sky-Dweller Market Position"
+    paragraphs={[
+      "The Sky-Dweller occupies a unique position within Rolex as one of the brand’s most complicated modern watches, with strong demand across steel, two-tone, precious-metal, and Oysterflex configurations.",
+      "Quest Luxo evaluates Sky-Dweller acquisitions by reference, dial, bracelet, production generation, metal configuration, condition, set completeness, and current sourcing availability."
+    ]}
+  />
+
+  <section class="assets">
+    <div class="heading">
+      <p class="eyebrow">ASSET DIRECTORY</p>
+      <h2>Sky-Dweller Reference Profiles</h2>
+    </div>
+
+    <div class="grid">
+      {skyDwellerAssets.map((asset) => (
+        <ReferenceCard
+          asset={asset}
+          href={`/collections/rolex/sky-dweller/${asset.reference.toLowerCase()}`}
+        />
+      ))}
+    </div>
+  </section>
+
+  <PrivateSourcingCTA
+    title="Request Private Sky-Dweller Sourcing"
+    text="Quest Luxo coordinates discreet sourcing for clients seeking current, discontinued, and collector-grade Rolex Sky-Dweller references."
+  />
+</BaseLayout>
+
+<style>
+  .hero {
+    padding: 120px 30px 70px;
+    text-align: center;
+    background: #faf9f7;
+  }
+
+  .eyebrow {
+    color: #d4b06a;
+    letter-spacing: 4px;
+    font-size: 13px;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+
+  .hero h1 {
+    color: #173a5e;
+    font-size: 72px;
+    margin-bottom: 24px;
+  }
+
+  .hero p {
+    max-width: 820px;
+    margin: auto;
+    font-size: 22px;
+    line-height: 1.8;
+    color: #1f1f1f;
+  }
+
+  .assets {
+    background: #ffffff;
+    padding: 90px 60px 120px;
+  }
+
+  .heading {
+    text-align: center;
+    margin-bottom: 55px;
+  }
+
+  .heading h2 {
+    color: #173a5e;
+    font-size: 44px;
+    margin: 0;
+  }
+
+  .grid {
+    max-width: 1180px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+  }
+
+  @media (max-width: 900px) {
+    .grid {
+      grid-template-columns: 1fr;
+    }
+
+    .hero h1 {
+      font-size: 46px;
+    }
+
+    .assets {
+      padding: 70px 22px;
+    }
+  }
+</style>
