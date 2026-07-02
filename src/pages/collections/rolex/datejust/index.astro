@@ -1,0 +1,115 @@
+---
+import BaseLayout from "../../../../layouts/BaseLayout.astro";
+import QuestLuxoIntelligence from "../../../../components/QuestLuxoIntelligence.astro";
+import PrivateSourcingCTA from "../../../../components/PrivateSourcingCTA.astro";
+import ReferenceCard from "../../../../components/ReferenceCard.astro";
+import { datejustAssets } from "../../../../data/assets/rolex-datejust";
+---
+
+<BaseLayout title="Rolex Datejust | Quest Luxo">
+  <section class="hero">
+    <p class="eyebrow">ROLEX COLLECTION</p>
+    <h1>Datejust</h1>
+    <p>
+      The Rolex Datejust is the classic everyday Rolex, known for its versatility
+      across sizes, bezels, bracelets, metals, and dial configurations.
+    </p>
+  </section>
+
+  <QuestLuxoIntelligence
+    title="Datejust Market Position"
+    paragraphs={[
+      "The Datejust remains one of Rolex’s most versatile acquisition categories, with demand driven by dial selection, bracelet configuration, bezel type, size, and metal combination.",
+      "Quest Luxo evaluates Datejust acquisitions by reference, size, dial, bezel, bracelet, condition, set completeness, and current sourcing availability."
+    ]}
+  />
+
+  <section class="assets">
+    <div class="heading">
+      <p class="eyebrow">ASSET DIRECTORY</p>
+      <h2>Datejust Reference Profiles</h2>
+    </div>
+
+    <div class="grid">
+      {datejustAssets.map((asset) => (
+        <ReferenceCard
+          asset={asset}
+          href={`/collections/rolex/datejust/${asset.reference.toLowerCase()}`}
+        />
+      ))}
+    </div>
+  </section>
+
+  <PrivateSourcingCTA
+    title="Request Private Datejust Sourcing"
+    text="Quest Luxo coordinates discreet sourcing for clients seeking specific Rolex Datejust references, dial configurations, and bracelet combinations."
+  />
+</BaseLayout>
+
+<style>
+  .hero {
+    padding: 120px 30px 70px;
+    text-align: center;
+    background: #faf9f7;
+  }
+
+  .eyebrow {
+    color: #d4b06a;
+    letter-spacing: 4px;
+    font-size: 13px;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+
+  .hero h1 {
+    color: #173a5e;
+    font-size: 72px;
+    margin-bottom: 24px;
+  }
+
+  .hero p {
+    max-width: 820px;
+    margin: auto;
+    font-size: 22px;
+    line-height: 1.8;
+    color: #1f1f1f;
+  }
+
+  .assets {
+    background: #ffffff;
+    padding: 90px 60px 120px;
+  }
+
+  .heading {
+    text-align: center;
+    margin-bottom: 55px;
+  }
+
+  .heading h2 {
+    color: #173a5e;
+    font-size: 44px;
+    margin: 0;
+  }
+
+  .grid {
+    max-width: 1180px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+  }
+
+  @media (max-width: 900px) {
+    .grid {
+      grid-template-columns: 1fr;
+    }
+
+    .hero h1 {
+      font-size: 46px;
+    }
+
+    .assets {
+      padding: 70px 22px;
+    }
+  }
+</style>
