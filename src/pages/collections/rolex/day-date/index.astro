@@ -1,0 +1,115 @@
+---
+import BaseLayout from "../../../../layouts/BaseLayout.astro";
+import QuestLuxoIntelligence from "../../../../components/QuestLuxoIntelligence.astro";
+import PrivateSourcingCTA from "../../../../components/PrivateSourcingCTA.astro";
+import ReferenceCard from "../../../../components/ReferenceCard.astro";
+import { dayDateAssets } from "../../../../data/assets/rolex-day-date";
+---
+
+<BaseLayout title="Rolex Day-Date | Quest Luxo">
+  <section class="hero">
+    <p class="eyebrow">ROLEX COLLECTION</p>
+    <h1>Day-Date</h1>
+    <p>
+      The Rolex Day-Date is the brand’s iconic precious-metal flagship, long
+      associated with leadership, legacy, and enduring prestige.
+    </p>
+  </section>
+
+  <QuestLuxoIntelligence
+    title="Day-Date Market Position"
+    paragraphs={[
+      "The Day-Date remains one of Rolex’s strongest classic luxury categories, supported by precious-metal construction, President bracelet recognition, and broad demand across 36mm and 40mm configurations.",
+      "Quest Luxo evaluates Day-Date acquisitions by reference, metal, dial, bracelet condition, production status, set completeness, and current sourcing availability."
+    ]}
+  />
+
+  <section class="assets">
+    <div class="heading">
+      <p class="eyebrow">ASSET DIRECTORY</p>
+      <h2>Day-Date Reference Profiles</h2>
+    </div>
+
+    <div class="grid">
+      {dayDateAssets.map((asset) => (
+        <ReferenceCard
+          asset={asset}
+          href={`/collections/rolex/day-date/${asset.reference.toLowerCase()}`}
+        />
+      ))}
+    </div>
+  </section>
+
+  <PrivateSourcingCTA
+    title="Request Private Day-Date Sourcing"
+    text="Quest Luxo coordinates discreet sourcing for clients seeking current, discontinued, and collector-grade Rolex Day-Date references."
+  />
+</BaseLayout>
+
+<style>
+  .hero {
+    padding: 120px 30px 70px;
+    text-align: center;
+    background: #faf9f7;
+  }
+
+  .eyebrow {
+    color: #d4b06a;
+    letter-spacing: 4px;
+    font-size: 13px;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+
+  .hero h1 {
+    color: #173a5e;
+    font-size: 72px;
+    margin-bottom: 24px;
+  }
+
+  .hero p {
+    max-width: 820px;
+    margin: auto;
+    font-size: 22px;
+    line-height: 1.8;
+    color: #1f1f1f;
+  }
+
+  .assets {
+    background: #ffffff;
+    padding: 90px 60px 120px;
+  }
+
+  .heading {
+    text-align: center;
+    margin-bottom: 55px;
+  }
+
+  .heading h2 {
+    color: #173a5e;
+    font-size: 44px;
+    margin: 0;
+  }
+
+  .grid {
+    max-width: 1180px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+  }
+
+  @media (max-width: 900px) {
+    .grid {
+      grid-template-columns: 1fr;
+    }
+
+    .hero h1 {
+      font-size: 46px;
+    }
+
+    .assets {
+      padding: 70px 22px;
+    }
+  }
+</style>
