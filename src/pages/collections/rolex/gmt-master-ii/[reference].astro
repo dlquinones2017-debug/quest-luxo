@@ -1,0 +1,187 @@
+---
+import BaseLayout from "../../../../layouts/BaseLayout.astro";
+import PrivateSourcingCTA from "../../../../components/PrivateSourcingCTA.astro";
+import { gmtAssets } from "../../../../data/assets/rolex-gmt-master-ii";
+
+export function getStaticPaths() {
+  return gmtAssets.map((asset) => ({
+    params: { reference: asset.reference.toLowerCase() },
+    props: { asset },
+  }));
+}
+
+const { asset } = Astro.props;
+
+const formatUSD = (value: number | null) => {
+  if (!value) return "Historical MSRP research pending";
+
+  return new Intl.NumberFormat("en-US", {
+    style: "currency",
+    currency: "USD",
+    maximumFractionDigits: 0,
+  }).format(value);
+};
+---
+
+<BaseLayout title={`${asset.reference} | Rolex GMT-Master II | Quest Luxo`}>
+  <section class="hero">
+    <p class="eyebrow">ROLEX GMT-MASTER II</p>
+    <h1>Ref. {asset.reference}</h1>
+
+    <div class="nicknames">
+      {asset.configurations.map((config) => (
+        <span>{config.nickname} · {config.bracelet}</span>
+      ))}
+    </div>
+  </section>
+
+  <section class="profile">
+    <div class="image-placeholder">Image Pending</div>
+
+    <div class="details">
+      <h2>Asset Profile</h2>
+
+      <p><strong>Model</strong><span>{asset.model}</span></p>
+      <p><strong>Material</strong><span>{asset.material}</span></p>
+      <p><strong>Bezel</strong><span>{asset.bezel}</span></p>
+      <p><strong>Production</strong><span>{asset.productionStatus}</span></p>
+      <p><strong>Market Position</strong><span>{asset.marketPosition}</span></p>
+      <p><strong>Liquidity</strong><span>{asset.liquidity}</span></p>
+      <p><strong>Allocation Difficulty</strong><span>{asset.allocationDifficulty}</span></p>
+    </div>
+  </section>
+
+  <section class="msrp">
+    <h2>Original MSRP</h2>
+
+    {asset.configurations.map((config) => (
+      <p>
+        <strong>{config.nickname} · {config.bracelet}</strong>
+        <span>{formatUSD(config.originalMSRP)}</span>
+      </p>
+    ))}
+  </section>
+
+  <section class="view">
+    <p class="eyebrow">QUEST LUXO VIEW</p>
+    <h2>Advisory Perspective</h2>
+    <p>{asset.questLuxoView}</p>
+  </section>
+
+  <PrivateSourcingCTA
+    title={`Request Private Sourcing for Ref. ${asset.reference}`}
+    text="Quest Luxo coordinates discreet sourcing for clients seeking specific Rolex GMT-Master II references through trusted market relationships."
+  />
+</BaseLayout>
+
+<style>
+  .hero {
+    background: #faf9f7;
+    text-align: center;
+    padding: 120px 30px 80px;
+  }
+
+  .eyebrow {
+    color: #d4b06a;
+    letter-spacing: 4px;
+    font-size: 13px;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+
+  h1 {
+    color: #173a5e;
+    font-size: 72px;
+    margin-bottom: 26px;
+  }
+
+  .nicknames {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 14px;
+  }
+
+  .nicknames span {
+    color: #173a5e;
+    border: 1px solid #e8e3d8;
+    background: white;
+    padding: 10px 16px;
+  }
+
+  .profile {
+    max-width: 1180px;
+    margin: 90px auto;
+    padding: 0 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 42px;
+  }
+
+  .image-placeholder {
+    min-height: 420px;
+    background: white;
+    border: 1px solid #e8e3d8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #777;
+  }
+
+  .details {
+    background: #faf9f7;
+    border: 1px solid #e8e3d8;
+    padding: 34px;
+  }
+
+  h2 {
+    color: #173a5e;
+    font-size: 36px;
+    margin-top: 0;
+  }
+
+  .details p,
+  .msrp p {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    border-bottom: 1px solid #e8e3d8;
+    padding-bottom: 12px;
+    color: #444;
+  }
+
+  strong {
+    color: #173a5e;
+  }
+
+  span {
+    text-align: right;
+  }
+
+  .msrp,
+  .view {
+    max-width: 900px;
+    margin: 90px auto;
+    padding: 0 30px;
+  }
+
+  .view {
+    text-align: center;
+  }
+
+  .view p {
+    font-size: 21px;
+    line-height: 1.8;
+    color: #444;
+  }
+
+  @media (max-width: 900px) {
+    h1 {
+      font-size: 46px;
+    }
+
+    .profile {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>

@@ -1,0 +1,70 @@
+---
+const {
+  title = "Looking for a Specific Reference?",
+  text = "Quest Luxo provides discreet private sourcing for collectors seeking exceptional timepieces through our trusted global network.",
+  button = "Request Private Sourcing",
+} = Astro.props;
+---
+
+<section class="cta">
+  <div class="container">
+    <p class="eyebrow">PRIVATE SOURCING</p>
+
+    <h2>{title}</h2>
+
+    <p>{text}</p>
+
+    <a href="/contact" class="button">
+      {button}
+    </a>
+  </div>
+</section>
+
+<style>
+.cta{
+    background:#faf9f7;
+    padding:110px 30px;
+    text-align:center;
+    border-top:1px solid #e8e3d8;
+}
+
+.container{
+    max-width:760px;
+    margin:auto;
+}
+
+.eyebrow{
+    color:#d4b06a;
+    letter-spacing:4px;
+    font-size:13px;
+    font-weight:700;
+}
+
+h2{
+    color:#173a5e;
+    font-size:48px;
+    margin:18px 0 24px;
+}
+
+p{
+    font-size:21px;
+    line-height:1.8;
+    color:#444;
+}
+
+.button{
+    display:inline-block;
+    margin-top:34px;
+    background:#173a5e;
+    color:white;
+    text-decoration:none;
+    padding:18px 42px;
+    border-radius:6px;
+    font-weight:700;
+    transition:.2s;
+}
+
+.button:hover{
+    background:#1f4d7d;
+}
+</style>

@@ -1,0 +1,56 @@
+---
+interface Props {
+  eyebrow?: string;
+  title: string;
+  paragraphs: string[];
+}
+
+const {
+  eyebrow = "QUEST LUXO INTELLIGENCE",
+  title,
+  paragraphs = [],
+} = Astro.props;
+---
+
+<section class="intelligence">
+  <div>
+    <p class="eyebrow">{eyebrow}</p>
+    <h2>{title}</h2>
+
+    {paragraphs.map((paragraph: string) => (
+      <p>{paragraph}</p>
+    ))}
+  </div>
+</section>
+
+<style>
+  .intelligence {
+    background: #173a5e;
+    color: white;
+    padding: 90px 30px;
+    text-align: center;
+  }
+
+  .intelligence div {
+    max-width: 900px;
+    margin: auto;
+  }
+
+  .eyebrow {
+    color: #d4b06a;
+    letter-spacing: 4px;
+    font-size: 13px;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+
+  .intelligence h2 {
+    font-size: 44px;
+    margin-bottom: 24px;
+  }
+
+  .intelligence p {
+    font-size: 20px;
+    line-height: 1.8;
+  }
+</style>
