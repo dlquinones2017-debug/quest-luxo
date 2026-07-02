@@ -1,0 +1,162 @@
+---
+interface Configuration {
+  nickname: string;
+  bracelet?: string;
+  dial?: string;
+  originalMSRP: number | null;
+}
+
+interface Asset {
+  reference: string;
+  model: string;
+  configurations: Configuration[];
+  material: string;
+  bezel: string;
+  productionStatus: string;
+  marketPosition: string;
+  liquidity: string;
+  allocationDifficulty: string;
+  questLuxoView: string;
+  image?: string;
+}
+
+interface Props {
+  asset: Asset;
+  href: string;
+}
+
+const { asset, href } = Astro.props;
+
+const formatUSD = (value: number | null) => {
+  if (!value) return "Historical MSRP research pending";
+
+  return new Intl.NumberFormat("en-US", {
+    style: "currency",
+    currency: "USD",
+    maximumFractionDigits: 0,
+  }).format(value);
+};
+---
+
+<article class="card">
+  <div class="image-placeholder">Image Pending</div>
+
+  <p class="model">Rolex {asset.model}</p>
+
+  <h3>Ref. {asset.reference}</h3>
+
+  <div class="nicknames">
+    {asset.configurations.map((config) => (
+      <span>
+        {config.nickname}
+        {config.bracelet ? ` · ${config.bracelet}` : ""}
+        {config.dial ? ` · ${config.dial}` : ""}
+      </span>
+    ))}
+  </div>
+
+  <div class="details">
+    <p><strong>Material</strong><span>{asset.material}</span></p>
+    <p><strong>Bezel</strong><span>{asset.bezel}</span></p>
+    <p><strong>Production</strong><span>{asset.productionStatus}</span></p>
+    <p><strong>Market Position</strong><span>{asset.marketPosition}</span></p>
+    <p><strong>Liquidity</strong><span>{asset.liquidity}</span></p>
+    <p><strong>Allocation Difficulty</strong><span>{asset.allocationDifficulty}</span></p>
+  </div>
+
+  <div class="msrp">
+    <strong>Original MSRP</strong>
+
+    {asset.configurations.map((config) => (
+      <p>
+        {config.bracelet ?? config.dial ?? config.nickname}:
+        {formatUSD(config.originalMSRP)}
+      </p>
+    ))}
+  </div>
+
+  <div class="view">
+    <strong>Quest Luxo View</strong>
+    <p>{asset.questLuxoView}</p>
+  </div>
+
+  <a href={href} class="button">
+    View Asset Profile
+  </a>
+</article>
+
+<style>
+.card{
+  border:1px solid #e8e3d8;
+  background:#faf9f7;
+  padding:24px;
+}
+
+.image-placeholder{
+  height:220px;
+  background:white;
+  border:1px solid #eee8dc;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  color:#777;
+  margin-bottom:24px;
+}
+
+.model{
+  color:#777;
+  font-size:13px;
+  text-transform:uppercase;
+  letter-spacing:1.5px;
+}
+
+h3{
+  color:#173a5e;
+  font-size:28px;
+}
+
+.nicknames{
+  display:flex;
+  flex-direction:column;
+  gap:8px;
+  margin:18px 0;
+}
+
+.nicknames span{
+  color:#d4b06a;
+  font-weight:700;
+}
+
+.details{
+  display:grid;
+  gap:10px;
+  margin-bottom:20px;
+}
+
+.details p{
+  display:flex;
+  justify-content:space-between;
+  border-bottom:1px solid #e8e3d8;
+  padding-bottom:8px;
+  font-size:14px;
+}
+
+.msrp,
+.view{
+  background:white;
+  border:1px solid #eee8dc;
+  padding:18px;
+  margin-bottom:18px;
+}
+
+.button{
+  display:block;
+  text-align:center;
+  background:#173a5e;
+  color:white;
+  padding:14px;
+  text-decoration:none;
+  border-radius:6px;
+  font-weight:700;
+}
+</style>

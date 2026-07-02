@@ -3,47 +3,47 @@ import BaseLayout from "../../../../layouts/BaseLayout.astro";
 import QuestLuxoIntelligence from "../../../../components/QuestLuxoIntelligence.astro";
 import PrivateSourcingCTA from "../../../../components/PrivateSourcingCTA.astro";
 import ReferenceCard from "../../../../components/ReferenceCard.astro";
-import { gmtAssets } from "../../../../data/assets/rolex-gmt-master-ii";
+import { daytonaAssets } from "../../../../data/assets/rolex-daytona";
 ---
 
-<BaseLayout title="Rolex GMT-Master II | Quest Luxo">
+<BaseLayout title="Rolex Daytona | Quest Luxo">
   <section class="hero">
     <p class="eyebrow">ROLEX COLLECTION</p>
-    <h1>GMT-Master II</h1>
+    <h1>Cosmograph Daytona</h1>
     <p>
-      The Rolex GMT-Master II remains one of the most liquid and recognizable
-      travel watches in the luxury market, with strong demand across current,
-      discontinued, and collector-driven references.
+      The Rolex Daytona remains one of the most recognized chronographs in the
+      luxury market, with exceptional demand across steel, precious metal,
+      platinum, and discontinued references.
     </p>
   </section>
 
   <QuestLuxoIntelligence
-    title="GMT-Master II Market Position"
+    title="Daytona Market Position"
     paragraphs={[
-      "The GMT-Master II remains one of Rolex’s strongest modern sports watch categories due to broad recognition, high liquidity, and persistent collector demand across steel, two-tone, precious-metal, and discontinued references.",
-      "Quest Luxo evaluates each acquisition by reference, configuration, production status, bracelet, condition, set completeness, and current sourcing availability."
+      "The Daytona is one of Rolex’s most competitive acquisition categories, supported by historic motorsport relevance, strong liquidity, and persistent demand across current and discontinued references.",
+      "Quest Luxo evaluates Daytona acquisitions by reference, metal, dial configuration, production status, condition, set completeness, and current sourcing availability."
     ]}
   />
 
   <section class="assets">
     <div class="heading">
       <p class="eyebrow">ASSET DIRECTORY</p>
-      <h2>GMT-Master II Reference Profiles</h2>
+      <h2>Daytona Reference Profiles</h2>
     </div>
 
     <div class="grid">
-      {gmtAssets.map((asset) => (
+      {daytonaAssets.map((asset) => (
         <ReferenceCard
           asset={asset}
-          href={`/collections/rolex/gmt-master-ii/${asset.reference.toLowerCase()}`}
+          href={`/collections/rolex/daytona/${asset.reference.toLowerCase()}`}
         />
       ))}
     </div>
   </section>
 
   <PrivateSourcingCTA
-    title="Request Private GMT-Master II Sourcing"
-    text="Quest Luxo coordinates discreet sourcing for clients seeking current, discontinued, and collector-grade Rolex GMT-Master II references."
+    title="Request Private Daytona Sourcing"
+    text="Quest Luxo coordinates discreet sourcing for clients seeking current, discontinued, and collector-grade Rolex Daytona references."
   />
 </BaseLayout>
 

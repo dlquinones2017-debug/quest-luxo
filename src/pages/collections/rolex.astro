@@ -1,29 +1,45 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
-import { rolex } from "../../data/rolex/index";
+import { rolex } from "../../data/rolex";
 ---
 
 <BaseLayout title="Rolex | Quest Luxo">
   <section class="hero">
-    <p class="eyebrow">COLLECTIONS</p>
+    <p class="eyebrow">ROLEX COLLECTIONS</p>
     <h1>{rolex.name}</h1>
     <p>{rolex.description}</p>
   </section>
 
-  <section class="grid">
-    {rolex.collections.map((collection) => (
-      <a href={`/collections/rolex/${collection.slug}`} class="card">
-        <h2>{collection.name}</h2>
-        <p>{collection.description}</p>
-        <small>Private sourcing available →</small>
-      </a>
-    ))}
+  <section class="collections">
+    <div class="heading">
+      <p class="eyebrow">COLLECTION DIRECTORY</p>
+      <h2>Explore Rolex by Collection</h2>
+    </div>
+
+    <div class="grid">
+      {rolex.collections.map((collection) => (
+        <a href={`/collections/rolex/${collection.slug}`} class="card">
+          <div class="top">
+            <span class="category">{collection.category}</span>
+            <span class={collection.status.includes("Discontinued") ? "badge archive" : "badge"}>
+              {collection.status}
+            </span>
+          </div>
+
+          <h3>{collection.name}</h3>
+          <p class="tagline">{collection.tagline}</p>
+          <p class="description">{collection.description}</p>
+
+          <span class="link">Explore Collection →</span>
+        </a>
+      ))}
+    </div>
   </section>
 </BaseLayout>
 
 <style>
   .hero {
-    padding: 120px 30px 60px;
+    padding: 125px 30px 75px;
     text-align: center;
     background: #faf9f7;
   }
@@ -38,7 +54,7 @@ import { rolex } from "../../data/rolex/index";
 
   .hero h1 {
     color: #173a5e;
-    font-size: 72px;
+    font-size: 76px;
     margin-bottom: 24px;
   }
 
@@ -50,22 +66,40 @@ import { rolex } from "../../data/rolex/index";
     color: #1f1f1f;
   }
 
+  .collections {
+    background: #ffffff;
+    padding: 100px 60px 125px;
+  }
+
+  .heading {
+    text-align: center;
+    margin-bottom: 60px;
+  }
+
+  .heading h2 {
+    color: #173a5e;
+    font-size: 48px;
+    margin: 0;
+  }
+
   .grid {
     max-width: 1180px;
-    margin: 50px auto 110px;
+    margin: auto;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
-    padding: 0 30px;
+    gap: 22px;
   }
 
   .card {
-    background: white;
-    padding: 38px;
+    background: #faf9f7;
+    border: 1px solid #e8e3d8;
+    padding: 30px;
     text-decoration: none;
     color: #173a5e;
-    border: 1px solid #e8e3d8;
     transition: 0.2s ease;
+    display: flex;
+    flex-direction: column;
+    min-height: 320px;
   }
 
   .card:hover {
@@ -73,29 +107,72 @@ import { rolex } from "../../data/rolex/index";
     border-color: #d4b06a;
   }
 
-  .card h2 {
-    margin: 0 0 14px;
-    font-size: 28px;
+  .top {
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+    margin-bottom: 28px;
+    align-items: center;
   }
 
-  .card p {
+  .category {
+    color: #777;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1.6px;
+  }
+
+  .badge {
+    background: #173a5e;
+    color: white;
+    padding: 7px 10px;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+
+  .badge.archive {
+    background: #d4b06a;
+  }
+
+  h3 {
+    font-size: 30px;
+    margin: 0 0 10px;
+  }
+
+  .tagline {
+    color: #d4b06a;
+    font-weight: 700;
+    margin-bottom: 18px;
+  }
+
+  .description {
     color: #444;
     line-height: 1.7;
-    margin-bottom: 20px;
+    margin-bottom: 28px;
   }
 
-  .card small {
-    color: #d4b06a;
+  .link {
+    margin-top: auto;
+    color: #173a5e;
     font-weight: 700;
   }
 
   @media (max-width: 900px) {
+    .collections {
+      padding: 80px 22px;
+    }
+
     .grid {
       grid-template-columns: 1fr;
     }
 
     .hero h1 {
-      font-size: 46px;
+      font-size: 48px;
+    }
+
+    .heading h2 {
+      font-size: 36px;
     }
   }
 </style>
