@@ -1,116 +1,175 @@
 ---
 import BaseLayout from "../../../../layouts/BaseLayout.astro";
-import QuestLuxoIntelligence from "../../../../components/QuestLuxoIntelligence.astro";
+import QuestLuxoReferenceGrid from "../../../../components/QuestLuxoReferenceGrid.astro";
 import PrivateSourcingCTA from "../../../../components/PrivateSourcingCTA.astro";
-import ReferenceCard from "../../../../components/ReferenceCard.astro";
-import { gmtAssets } from "../../../../data/assets/rolex-gmt-master-ii";
+
+import { gmtMasterIIAssets } from "../../../../data/assets/rolex-gmt-master-ii";
+
+const assets = gmtMasterIIAssets;
+
+const currentCount = assets.filter((asset) => asset.productionStatus === "Current").length;
+const discontinuedCount = assets.filter((asset) => asset.productionStatus === "Discontinued").length;
+const peakDemandCount = assets.filter(
+  (asset) => asset.intelligence.collectorDemand >= 5
+).length;
+
+const averageLiquidity =
+  assets.reduce((total, asset) => total + asset.intelligence.liquidity, 0) /
+  assets.length;
 ---
 
 <BaseLayout title="Rolex GMT-Master II | Quest Luxo">
-  <section class="hero">
-    <p class="eyebrow">ROLEX COLLECTION</p>
-    <h1>GMT-Master II</h1>
-    <p>
-      The Rolex GMT-Master II remains one of the most liquid and recognizable
-      travel watches in the luxury market, with strong demand across current,
-      discontinued, and collector-driven references.
-    </p>
-  </section>
+  <main class="collection-page">
+    <section class="hero">
+      <p class="eyebrow">Rolex Factory Mode</p>
+      <h1>Rolex GMT-Master II</h1>
+      <p>
+        Dual-time Rolex sports references ranked by collector demand, liquidity,
+        allocation difficulty, market recognition, and private sourcing strength.
+      </p>
+    </section>
 
-  <QuestLuxoIntelligence
-    title="GMT-Master II Market Position"
-    paragraphs={[
-      "The GMT-Master II remains one of Rolex’s strongest modern sports watch categories due to broad recognition, high liquidity, and persistent collector demand across steel, two-tone, precious-metal, and discontinued references.",
-      "Quest Luxo evaluates each acquisition by reference, configuration, production status, bracelet, condition, set completeness, and current sourcing availability."
-    ]}
-  />
+    <section class="signals">
+      <div>
+        <strong>{assets.length}</strong>
+        <span>Tracked References</span>
+      </div>
 
-  <section class="assets">
-    <div class="heading">
-      <p class="eyebrow">ASSET DIRECTORY</p>
-      <h2>GMT-Master II Reference Profiles</h2>
-    </div>
+      <div>
+        <strong>{currentCount}</strong>
+        <span>Current Production</span>
+      </div>
 
-    <div class="grid">
-      {gmtAssets.map((asset) => (
-        <ReferenceCard
-          asset={asset}
-          href={`/collections/rolex/gmt-master-ii/${asset.reference.toLowerCase()}`}
-        />
-      ))}
-    </div>
-  </section>
+      <div>
+        <strong>{discontinuedCount}</strong>
+        <span>Discontinued</span>
+      </div>
 
-  <PrivateSourcingCTA
-    title="Request Private GMT-Master II Sourcing"
-    text="Quest Luxo coordinates discreet sourcing for clients seeking current, discontinued, and collector-grade Rolex GMT-Master II references."
-  />
+      <div>
+        <strong>{peakDemandCount}</strong>
+        <span>Peak Demand</span>
+      </div>
+
+      <div>
+        <strong>{averageLiquidity.toFixed(1)}/5</strong>
+        <span>Avg. Liquidity</span>
+      </div>
+    </section>
+
+    <section class="directory">
+      <div class="section-header">
+        <p class="eyebrow">Reference Directory</p>
+        <h2>GMT-Master II Asset Intelligence</h2>
+        <p>
+          Explore core steel, discontinued ceramic, two-tone, and precious-metal
+          GMT-Master II references built for the Quest Luxo luxury asset platform.
+        </p>
+      </div>
+
+      <QuestLuxoReferenceGrid
+        assets={assets}
+        basePath="/collections/rolex/gmt-master-ii"
+      />
+    </section>
+
+    <PrivateSourcingCTA
+      eyebrow="Private Sourcing"
+      title="Source a Rolex GMT-Master II"
+      body="Quest Luxo helps collectors evaluate, source, and position high-demand Rolex GMT-Master II references with private-market intelligence."
+    />
+  </main>
 </BaseLayout>
 
 <style>
+  .collection-page {
+    background:
+      radial-gradient(circle at top left, rgba(184, 164, 111, 0.12), transparent 34rem),
+      #050505;
+    color: #f6efe4;
+    min-height: 100vh;
+  }
+
+  .hero,
+  .signals,
+  .directory {
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 56px 24px;
+  }
+
   .hero {
-    padding: 120px 30px 70px;
-    text-align: center;
-    background: #faf9f7;
+    padding-top: 84px;
   }
 
   .eyebrow {
-    color: #d4b06a;
-    letter-spacing: 4px;
-    font-size: 13px;
-    font-weight: 700;
-    margin-bottom: 20px;
+    color: #b8a46f;
+    font-size: 0.75rem;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    margin-bottom: 16px;
   }
 
-  .hero h1 {
-    color: #173a5e;
-    font-size: 72px;
-    margin-bottom: 24px;
+  h1 {
+    font-size: clamp(3rem, 8vw, 6rem);
+    line-height: 0.92;
+    margin: 0 0 22px;
   }
 
-  .hero p {
+  h2 {
+    font-size: clamp(2rem, 4vw, 3.5rem);
+    line-height: 1;
+    margin: 0 0 18px;
+  }
+
+  .hero p,
+  .section-header p {
     max-width: 820px;
-    margin: auto;
-    font-size: 22px;
-    line-height: 1.8;
-    color: #1f1f1f;
+    color: #cfc7b8;
+    font-size: 1.08rem;
+    line-height: 1.7;
   }
 
-  .assets {
-    background: #ffffff;
-    padding: 90px 60px 120px;
-  }
-
-  .heading {
-    text-align: center;
-    margin-bottom: 55px;
-  }
-
-  .heading h2 {
-    color: #173a5e;
-    font-size: 44px;
-    margin: 0;
-  }
-
-  .grid {
-    max-width: 1180px;
-    margin: auto;
+  .signals {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 24px;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 16px;
+    padding-top: 16px;
   }
 
-  @media (max-width: 900px) {
-    .grid {
+  .signals div {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 22px;
+    background: rgba(255, 255, 255, 0.035);
+    padding: 22px;
+  }
+
+  .signals strong {
+    display: block;
+    color: #f6efe4;
+    font-size: 2rem;
+    margin-bottom: 8px;
+  }
+
+  .signals span {
+    color: #9f9788;
+    font-size: 0.82rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+
+  .section-header {
+    margin-bottom: 28px;
+  }
+
+  @media (max-width: 960px) {
+    .signals {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  @media (max-width: 640px) {
+    .signals {
       grid-template-columns: 1fr;
-    }
-
-    .hero h1 {
-      font-size: 46px;
-    }
-
-    .assets {
-      padding: 70px 22px;
     }
   }
 </style>

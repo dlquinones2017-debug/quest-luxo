@@ -1,0 +1,231 @@
+---
+import ReferenceCard from "./ReferenceCard.astro";
+import {
+  buildQuestLuxoIntelligence,
+} from "../lib/intelligence/questLuxoIntelligence";
+import type { QuestLuxoAsset } from "../types/questLuxo";
+
+interface Props {
+  assets: QuestLuxoAsset[];
+  basePath: string;
+}
+
+const { assets, basePath } = Astro.props as Props;
+---
+
+<section class="quest-reference-grid" data-reference-grid>
+  <div class="reference-grid-shell">
+    <div class="reference-grid-results" data-results-count>
+      Showing {assets.length} references
+    </div>
+
+    <div class="reference-grid" data-grid>
+      {
+        assets.map((asset) => {
+          const configurations = asset.configurations ?? [];
+
+          const searchContent = [
+            asset.reference,
+            asset.model,
+            asset.brand,
+            asset.collection,
+            asset.material,
+            asset.bezel,
+            asset.productionStatus,
+            asset.marketPosition,
+            asset.liquidity,
+            asset.allocationDifficulty,
+            ...configurations.map((configuration) => configuration.nickname ?? ""),
+            ...configurations.map((configuration) => configuration.bracelet ?? ""),
+            ...configurations.map((configuration) => configuration.dial ?? ""),
+          ]
+            .filter(Boolean)
+            .join(" ")
+            .toLowerCase();
+
+          const score = asset.intelligence
+            ? buildQuestLuxoIntelligence(asset.intelligence).overallScore
+            : 0;
+
+          return (
+            <div
+              class="reference-grid-item"
+              data-reference-item
+              data-search={searchContent}
+              data-material={asset.material ?? ""}
+              data-status={asset.productionStatus ?? ""}
+              data-liquidity={asset.liquidity ?? ""}
+              data-score={score}
+              data-reference={asset.reference}
+            >
+              <ReferenceCard
+                asset={asset}
+                href={`${basePath}/${asset.reference}`}
+              />
+            </div>
+          );
+        })
+      }
+    </div>
+
+    <div class="reference-grid-empty" data-empty-state hidden>
+      No references match your current filters.
+    </div>
+  </div>
+</section>
+
+<script>
+  const gridRoot = document.querySelector<HTMLElement>("[data-reference-grid]");
+
+  if (gridRoot) {
+    const items = Array.from(
+      gridRoot.querySelectorAll<HTMLElement>("[data-reference-item]")
+    );
+
+    const resultsCount =
+      gridRoot.querySelector<HTMLElement>("[data-results-count]");
+
+    const emptyState =
+      gridRoot.querySelector<HTMLElement>("[data-empty-state]");
+
+    const searchInput =
+      document.querySelector<HTMLInputElement>("[data-directory-search]");
+
+    const materialFilter =
+      document.querySelector<HTMLSelectElement>("[data-directory-material]");
+
+    const statusFilter =
+      document.querySelector<HTMLSelectElement>("[data-directory-status]");
+
+    const liquidityFilter =
+      document.querySelector<HTMLSelectElement>("[data-directory-liquidity]");
+
+    const sortSelect =
+      document.querySelector<HTMLSelectElement>("[data-directory-sort]");
+
+    const grid = gridRoot.querySelector<HTMLElement>("[data-grid]");
+
+    const getItemScore = (item: HTMLElement): number => {
+      const score = Number(item.dataset.score);
+      return Number.isFinite(score) ? score : 0;
+    };
+
+    const getItemReference = (item: HTMLElement): string => {
+      return item.dataset.reference ?? "";
+    };
+
+    const updateGrid = (): void => {
+      const query = searchInput?.value.trim().toLowerCase() ?? "";
+      const material = materialFilter?.value ?? "all";
+      const status = statusFilter?.value ?? "all";
+      const liquidity = liquidityFilter?.value ?? "all";
+      const sort = sortSelect?.value ?? "score-desc";
+
+      const visibleItems = items.filter((item) => {
+        const matchesSearch = query
+          ? (item.dataset.search ?? "").includes(query)
+          : true;
+
+        const matchesMaterial =
+          material === "all" || item.dataset.material === material;
+
+        const matchesStatus =
+          status === "all" || item.dataset.status === status;
+
+        const matchesLiquidity =
+          liquidity === "all" || item.dataset.liquidity === liquidity;
+
+        return (
+          matchesSearch &&
+          matchesMaterial &&
+          matchesStatus &&
+          matchesLiquidity
+        );
+      });
+
+      const sortedItems = [...visibleItems].sort((a, b) => {
+        if (sort === "score-asc") return getItemScore(a) - getItemScore(b);
+        if (sort === "reference-asc") return getItemReference(a).localeCompare(getItemReference(b));
+        if (sort === "reference-desc") return getItemReference(b).localeCompare(getItemReference(a));
+        return getItemScore(b) - getItemScore(a);
+      });
+
+      items.forEach((item) => {
+        item.hidden = true;
+      });
+
+      sortedItems.forEach((item) => {
+        item.hidden = false;
+        grid?.appendChild(item);
+      });
+
+      if (resultsCount) {
+        resultsCount.textContent = `Showing ${sortedItems.length} reference${
+          sortedItems.length === 1 ? "" : "s"
+        }`;
+      }
+
+      if (emptyState) {
+        emptyState.hidden = sortedItems.length > 0;
+      }
+    };
+
+    searchInput?.addEventListener("input", updateGrid);
+    materialFilter?.addEventListener("change", updateGrid);
+    statusFilter?.addEventListener("change", updateGrid);
+    liquidityFilter?.addEventListener("change", updateGrid);
+    sortSelect?.addEventListener("change", updateGrid);
+
+    updateGrid();
+  }
+</script>
+
+<style>
+  .quest-reference-grid {
+    width: 100%;
+  }
+
+  .reference-grid-shell {
+    display: grid;
+    gap: 1.25rem;
+  }
+
+  .reference-grid-results {
+    color: rgba(255, 255, 255, 0.62);
+    font-size: 0.85rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+
+  .reference-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 1rem;
+  }
+
+  .reference-grid-item[hidden],
+  .reference-grid-empty[hidden] {
+    display: none;
+  }
+
+  .reference-grid-empty {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 1.25rem;
+    padding: 2rem;
+    color: rgba(255, 255, 255, 0.66);
+    background: rgba(255, 255, 255, 0.035);
+    text-align: center;
+  }
+
+  @media (max-width: 1100px) {
+    .reference-grid {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
+
+  @media (max-width: 720px) {
+    .reference-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>

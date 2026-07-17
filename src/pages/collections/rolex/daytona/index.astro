@@ -1,44 +1,84 @@
 ---
 import BaseLayout from "../../../../layouts/BaseLayout.astro";
+import QuestLuxoCollectionHero from "../../../../components/QuestLuxoCollectionHero.astro";
+import QuestLuxoCollectionSignals from "../../../../components/QuestLuxoCollectionSignals.astro";
 import QuestLuxoIntelligence from "../../../../components/QuestLuxoIntelligence.astro";
+import QuestLuxoDirectoryToolbar from "../../../../components/QuestLuxoDirectoryToolbar.astro";
+import QuestLuxoReferenceGrid from "../../../../components/QuestLuxoReferenceGrid.astro";
 import PrivateSourcingCTA from "../../../../components/PrivateSourcingCTA.astro";
-import ReferenceCard from "../../../../components/ReferenceCard.astro";
 import { daytonaAssets } from "../../../../data/assets/rolex-daytona";
+import {
+  buildCollectionSignals,
+  buildCollectionSummary,
+} from "../../../../lib/intelligence/collectionFactory";
+
+const daytonaCollection = {
+  brand: "Rolex",
+  collection: "Daytona",
+  assets: daytonaAssets,
+};
+
+const summary = buildCollectionSummary(daytonaCollection);
+const collectionSignals = buildCollectionSignals(daytonaCollection);
 ---
 
 <BaseLayout title="Rolex Daytona | Quest Luxo">
-  <section class="hero">
-    <p class="eyebrow">ROLEX COLLECTION</p>
-    <h1>Cosmograph Daytona</h1>
-    <p>
-      The Rolex Daytona remains one of the most recognized chronographs in the
-      luxury market, with exceptional demand across steel, precious metal,
-      platinum, and discontinued references.
-    </p>
-  </section>
+  <QuestLuxoCollectionHero
+    eyebrow="ROLEX COLLECTION INTELLIGENCE"
+    title="Daytona"
+    description="The Rolex Cosmograph Daytona is one of the most important modern luxury chronographs, combining motorsport heritage, extreme allocation pressure, and deep collector demand across steel, precious-metal, Oysterflex, and platinum references."
+    stats={[
+      {
+        value: summary.totalAssets,
+        label: "Tracked References",
+      },
+      {
+        value: summary.currentReferences,
+        label: "Current Production",
+      },
+      {
+        value: summary.discontinuedReferences,
+        label: "Discontinued Icons",
+      },
+      {
+        value: summary.peakDemandReferences,
+        label: "Peak Demand Signals",
+      },
+    ]}
+  />
 
   <QuestLuxoIntelligence
     title="Daytona Market Position"
     paragraphs={[
-      "The Daytona is one of Rolex’s most competitive acquisition categories, supported by historic motorsport relevance, strong liquidity, and persistent demand across current and discontinued references.",
-      "Quest Luxo evaluates Daytona acquisitions by reference, metal, dial configuration, production status, condition, set completeness, and current sourcing availability."
+      "The Daytona sits at the center of modern Rolex collecting, supported by iconic design, strong secondary-market liquidity, and persistent allocation pressure across steel and select precious-metal configurations.",
+      "Quest Luxo evaluates Daytona references by generation, bezel type, dial configuration, production status, material, collector recognition, and long-term market desirability.",
     ]}
+  />
+
+  <QuestLuxoCollectionSignals
+    title="Quest Luxo Daytona Intelligence"
+    description="These scores summarize the current Daytona reference set inside Quest Luxo's Rolex intelligence directory."
+    signals={collectionSignals}
   />
 
   <section class="assets">
     <div class="heading">
       <p class="eyebrow">ASSET DIRECTORY</p>
       <h2>Daytona Reference Profiles</h2>
+      <p>
+        Search, filter, and sort Daytona references by generation, nickname,
+        material, production status, and Quest Luxo intelligence score.
+      </p>
     </div>
 
-    <div class="grid">
-      {daytonaAssets.map((asset) => (
-        <ReferenceCard
-          asset={asset}
-          href={`/collections/rolex/daytona/${asset.reference.toLowerCase()}`}
-        />
-      ))}
-    </div>
+    <QuestLuxoDirectoryToolbar totalCount={daytonaAssets.length} />
+
+    <QuestLuxoReferenceGrid
+      assets={daytonaAssets}
+      basePath="/collections/rolex/daytona"
+      emptyTitle="No Daytona references match this search."
+      emptyText="Try clearing your search, selecting All, or searching by reference, nickname, material, bezel, or market position."
+    />
   </section>
 
   <PrivateSourcingCTA
@@ -48,34 +88,6 @@ import { daytonaAssets } from "../../../../data/assets/rolex-daytona";
 </BaseLayout>
 
 <style>
-  .hero {
-    padding: 120px 30px 70px;
-    text-align: center;
-    background: #faf9f7;
-  }
-
-  .eyebrow {
-    color: #d4b06a;
-    letter-spacing: 4px;
-    font-size: 13px;
-    font-weight: 700;
-    margin-bottom: 20px;
-  }
-
-  .hero h1 {
-    color: #173a5e;
-    font-size: 72px;
-    margin-bottom: 24px;
-  }
-
-  .hero p {
-    max-width: 820px;
-    margin: auto;
-    font-size: 22px;
-    line-height: 1.8;
-    color: #1f1f1f;
-  }
-
   .assets {
     background: #ffffff;
     padding: 90px 60px 120px;
@@ -83,32 +95,34 @@ import { daytonaAssets } from "../../../../data/assets/rolex-daytona";
 
   .heading {
     text-align: center;
-    margin-bottom: 55px;
+    margin: 0 auto 55px;
+    max-width: 820px;
+  }
+
+  .eyebrow {
+    color: #d4b06a;
+    letter-spacing: 4px;
+    font-size: 12px;
+    font-weight: 800;
+    margin-bottom: 20px;
+    text-transform: uppercase;
   }
 
   .heading h2 {
     color: #173a5e;
-    font-size: 44px;
-    margin: 0;
+    font-size: clamp(34px, 5vw, 46px);
+    line-height: 1.1;
+    margin: 0 0 18px;
   }
 
-  .grid {
-    max-width: 1180px;
-    margin: auto;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 24px;
+  .heading p {
+    color: #4e5661;
+    line-height: 1.75;
+    font-size: 17px;
+    margin: 0 auto;
   }
 
   @media (max-width: 900px) {
-    .grid {
-      grid-template-columns: 1fr;
-    }
-
-    .hero h1 {
-      font-size: 46px;
-    }
-
     .assets {
       padding: 70px 22px;
     }

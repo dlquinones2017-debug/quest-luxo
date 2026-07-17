@@ -13,6 +13,14 @@ export const submarinerAssets = [
     allocationDifficulty: "High",
     questLuxoView:
       "The 126610LN is the modern benchmark Submariner Date, offering strong liquidity, broad recognition, and consistent collector demand.",
+    intelligence: {
+      collectorDemand: 5,
+      liquidity: 5,
+      wearability: 5,
+      collectability: 5,
+      allocationDifficulty: 5,
+      versatility: 5,
+    },
     image: "/images/rolex/submariner/126610LN.png",
   },
 
@@ -30,6 +38,14 @@ export const submarinerAssets = [
     allocationDifficulty: "Very High",
     questLuxoView:
       "The green-bezel Submariner Date remains one of the most actively requested modern Submariner configurations.",
+    intelligence: {
+      collectorDemand: 5,
+      liquidity: 5,
+      wearability: 5,
+      collectability: 5,
+      allocationDifficulty: 5,
+      versatility: 5,
+    },
     image: "/images/rolex/submariner/126610LV.png",
   },
 
@@ -47,6 +63,14 @@ export const submarinerAssets = [
     allocationDifficulty: "High",
     questLuxoView:
       "The 124060 appeals to collectors who prefer the clean symmetry and tool-watch purity of the no-date Submariner.",
+    intelligence: {
+      collectorDemand: 5,
+      liquidity: 5,
+      wearability: 5,
+      collectability: 5,
+      allocationDifficulty: 5,
+      versatility: 5,
+    },
     image: "/images/rolex/submariner/124060.png",
   },
 
@@ -65,6 +89,14 @@ export const submarinerAssets = [
     allocationDifficulty: "Secondary Market Only",
     questLuxoView:
       "The Hulk remains one of the most recognizable discontinued modern Submariners, supported by its green dial, green bezel, and strong collector demand.",
+    intelligence: {
+      collectorDemand: 5,
+      liquidity: 5,
+      wearability: 5,
+      collectability: 5,
+      allocationDifficulty: 5,
+      versatility: 4,
+    },
     image: "/images/rolex/submariner/116610LV.png",
   },
 
@@ -82,6 +114,14 @@ export const submarinerAssets = [
     allocationDifficulty: "Moderate to High",
     questLuxoView:
       "The 126619LB delivers Submariner utility in a discreet white-gold execution with one of the collection’s most recognizable modern nicknames.",
+    intelligence: {
+      collectorDemand: 4,
+      liquidity: 4,
+      wearability: 4,
+      collectability: 4,
+      allocationDifficulty: 4,
+      versatility: 4,
+    },
     image: "/images/rolex/submariner/126619LB.png",
   },
 
@@ -99,6 +139,14 @@ export const submarinerAssets = [
     allocationDifficulty: "Moderate",
     questLuxoView:
       "The Bluesy remains one of Rolex’s most iconic two-tone sports watches, balancing recognizability with a more expressive luxury profile.",
+    intelligence: {
+      collectorDemand: 4,
+      liquidity: 4,
+      wearability: 4,
+      collectability: 4,
+      allocationDifficulty: 3,
+      versatility: 4,
+    },
     image: "/images/rolex/submariner/126613LB.png",
   },
 ];

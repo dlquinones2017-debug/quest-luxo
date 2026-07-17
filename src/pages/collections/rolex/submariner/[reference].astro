@@ -1,6 +1,8 @@
 ---
 import BaseLayout from "../../../../layouts/BaseLayout.astro";
 import PrivateSourcingCTA from "../../../../components/PrivateSourcingCTA.astro";
+import AssetIntelligencePanel from "../../../../components/AssetIntelligencePanel.astro";
+import QuestLuxoScorecard from "../../../../components/QuestLuxoScorecard.astro";
 import { submarinerAssets } from "../../../../data/assets/rolex-submariner";
 
 export function getStaticPaths() {
@@ -21,12 +23,16 @@ const formatUSD = (value: number | null) => {
     maximumFractionDigits: 0,
   }).format(value);
 };
+
+const imageAlt = `${asset.reference} ${asset.model}`;
 ---
 
 <BaseLayout title={`${asset.reference} | Rolex Submariner | Quest Luxo`}>
   <section class="hero">
-    <p class="eyebrow">ROLEX SUBMARINER</p>
+    <p class="eyebrow">ROLEX SUBMARINER INTELLIGENCE</p>
     <h1>Ref. {asset.reference}</h1>
+
+    <p class="hero-summary">{asset.questLuxoView}</p>
 
     <div class="tags">
       {asset.configurations.map((config) => (
@@ -36,21 +42,54 @@ const formatUSD = (value: number | null) => {
   </section>
 
   <section class="profile">
-    <div class="image-placeholder">Image Pending</div>
+    <div class="image-card">
+      <img src={asset.image} alt={imageAlt} />
+    </div>
 
     <div class="details">
-      <h2>Asset Profile</h2>
-      <p><strong>Model</strong><span>{asset.model}</span></p>
-      <p><strong>Material</strong><span>{asset.material}</span></p>
-      <p><strong>Bezel</strong><span>{asset.bezel}</span></p>
-      <p><strong>Production</strong><span>{asset.productionStatus}</span></p>
-      <p><strong>Market Position</strong><span>{asset.marketPosition}</span></p>
-      <p><strong>Liquidity</strong><span>{asset.liquidity}</span></p>
-      <p><strong>Allocation Difficulty</strong><span>{asset.allocationDifficulty}</span></p>
+      <p class="section-label">Asset Profile</p>
+      <h2>{asset.marketPosition}</h2>
+
+      <div class="detail-grid">
+        <p><strong>Model</strong><span>{asset.model}</span></p>
+        <p><strong>Material</strong><span>{asset.material}</span></p>
+        <p><strong>Bezel</strong><span>{asset.bezel}</span></p>
+        <p><strong>Production</strong><span>{asset.productionStatus}</span></p>
+        <p><strong>Liquidity</strong><span>{asset.liquidity}</span></p>
+        <p><strong>Allocation</strong><span>{asset.allocationDifficulty}</span></p>
+      </div>
+    </div>
+  </section>
+
+  <QuestLuxoScorecard intelligence={asset.intelligence} />
+
+  <section class="market-signals">
+    <div>
+      <p class="section-label">Market Position</p>
+      <h2>Quest Luxo Signal</h2>
+      <p>{asset.questLuxoView}</p>
+    </div>
+
+    <div class="signal-cards">
+      <article>
+        <strong>{asset.liquidity}</strong>
+        <span>Liquidity</span>
+      </article>
+
+      <article>
+        <strong>{asset.allocationDifficulty}</strong>
+        <span>Allocation Difficulty</span>
+      </article>
+
+      <article>
+        <strong>{asset.productionStatus}</strong>
+        <span>Production Status</span>
+      </article>
     </div>
   </section>
 
   <section class="msrp">
+    <p class="section-label">Reference Data</p>
     <h2>Original MSRP</h2>
 
     {asset.configurations.map((config) => (
@@ -61,11 +100,15 @@ const formatUSD = (value: number | null) => {
     ))}
   </section>
 
-  <section class="view">
-    <p class="eyebrow">QUEST LUXO VIEW</p>
-    <h2>Advisory Perspective</h2>
-    <p>{asset.questLuxoView}</p>
-  </section>
+  <AssetIntelligencePanel
+    collectorDemand={asset.intelligence?.collectorDemand ?? 5}
+    liquidity={asset.intelligence?.liquidity ?? 5}
+    wearability={asset.intelligence?.wearability ?? 5}
+    collectability={asset.intelligence?.collectability ?? 5}
+    allocationDifficulty={asset.intelligence?.allocationDifficulty ?? 4}
+    versatility={asset.intelligence?.versatility ?? 5}
+    summary={asset.questLuxoView}
+  />
 
   <PrivateSourcingCTA
     title={`Request Private Sourcing for Ref. ${asset.reference}`}
@@ -75,23 +118,43 @@ const formatUSD = (value: number | null) => {
 
 <style>
   .hero {
-    background: #faf9f7;
+    background:
+      linear-gradient(rgba(250, 249, 247, 0.92), rgba(250, 249, 247, 0.92)),
+      radial-gradient(circle at top, rgba(212, 176, 106, 0.18), transparent 42%);
     text-align: center;
-    padding: 120px 30px 80px;
+    padding: 120px 30px 86px;
   }
 
-  .eyebrow {
+  .eyebrow,
+  .section-label {
     color: #d4b06a;
     letter-spacing: 4px;
-    font-size: 13px;
-    font-weight: 700;
-    margin-bottom: 20px;
+    font-size: 12px;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-bottom: 18px;
   }
 
   h1 {
     color: #173a5e;
-    font-size: 72px;
-    margin-bottom: 26px;
+    font-size: clamp(46px, 8vw, 76px);
+    margin: 0 0 24px;
+    line-height: 1;
+  }
+
+  h2 {
+    color: #173a5e;
+    font-size: clamp(32px, 5vw, 44px);
+    line-height: 1.08;
+    margin: 0 0 24px;
+  }
+
+  .hero-summary {
+    max-width: 780px;
+    margin: 0 auto 30px;
+    color: #4e5661;
+    font-size: 18px;
+    line-height: 1.7;
   }
 
   .tags {
@@ -105,47 +168,51 @@ const formatUSD = (value: number | null) => {
     color: #173a5e;
     border: 1px solid #e8e3d8;
     background: white;
-    padding: 10px 16px;
+    padding: 11px 18px;
+    border-radius: 999px;
+    font-weight: 700;
   }
 
   .profile {
     max-width: 1180px;
-    margin: 90px auto;
+    margin: 90px auto 0;
     padding: 0 30px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 42px;
+    align-items: stretch;
   }
 
-  .image-placeholder {
-    min-height: 420px;
-    background: white;
+  .image-card {
+    min-height: 440px;
+    background: #ffffff;
     border: 1px solid #e8e3d8;
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #777;
+    padding: 42px;
+  }
+
+  .image-card img {
+    max-width: 100%;
+    max-height: 390px;
+    object-fit: contain;
   }
 
   .details {
     background: #faf9f7;
     border: 1px solid #e8e3d8;
-    padding: 34px;
+    padding: 38px;
   }
 
-  h2 {
-    color: #173a5e;
-    font-size: 36px;
-    margin-top: 0;
-  }
-
-  .details p,
+  .detail-grid p,
   .msrp p {
     display: flex;
     justify-content: space-between;
     gap: 20px;
     border-bottom: 1px solid #e8e3d8;
-    padding-bottom: 12px;
+    padding: 0 0 14px;
+    margin: 0 0 16px;
     color: #444;
   }
 
@@ -157,30 +224,64 @@ const formatUSD = (value: number | null) => {
     text-align: right;
   }
 
-  .msrp,
-  .view {
+  .market-signals {
+    max-width: 1180px;
+    margin: 0 auto 90px;
+    padding: 56px 30px;
+    display: grid;
+    grid-template-columns: 1.05fr 1fr;
+    gap: 40px;
+    border-top: 1px solid #e8e3d8;
+    border-bottom: 1px solid #e8e3d8;
+  }
+
+  .market-signals p {
+    color: #4e5661;
+    line-height: 1.75;
+    font-size: 17px;
+  }
+
+  .signal-cards {
+    display: grid;
+    gap: 16px;
+  }
+
+  .signal-cards article {
+    background: #faf9f7;
+    border: 1px solid #e8e3d8;
+    padding: 24px;
+  }
+
+  .signal-cards strong {
+    display: block;
+    font-size: 24px;
+    margin-bottom: 8px;
+  }
+
+  .signal-cards span {
+    display: block;
+    text-align: left;
+    color: #6d7480;
+    font-size: 13px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 800;
+  }
+
+  .msrp {
     max-width: 900px;
     margin: 90px auto;
     padding: 0 30px;
   }
 
-  .view {
-    text-align: center;
-  }
-
-  .view p {
-    font-size: 21px;
-    line-height: 1.8;
-    color: #444;
-  }
-
   @media (max-width: 900px) {
-    h1 {
-      font-size: 46px;
+    .profile,
+    .market-signals {
+      grid-template-columns: 1fr;
     }
 
-    .profile {
-      grid-template-columns: 1fr;
+    .image-card {
+      min-height: 320px;
     }
   }
 </style>

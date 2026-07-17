@@ -1,42 +1,191 @@
 ---
 import BaseLayout from "../../../../layouts/BaseLayout.astro";
+import QuestLuxoCollectionHero from "../../../../components/QuestLuxoCollectionHero.astro";
+import QuestLuxoCollectionSignals from "../../../../components/QuestLuxoCollectionSignals.astro";
 import QuestLuxoIntelligence from "../../../../components/QuestLuxoIntelligence.astro";
 import PrivateSourcingCTA from "../../../../components/PrivateSourcingCTA.astro";
 import ReferenceCard from "../../../../components/ReferenceCard.astro";
 import { submarinerAssets } from "../../../../data/assets/rolex-submariner";
+import { buildQuestLuxoIntelligence } from "../../../../lib/intelligence/questLuxoIntelligence";
+
+const currentReferences = submarinerAssets.filter(
+  (asset) => asset.productionStatus === "Current"
+);
+
+const discontinuedReferences = submarinerAssets.filter(
+  (asset) => asset.productionStatus === "Discontinued"
+);
+
+const highestDemandReferences = submarinerAssets.filter(
+  (asset) => asset.intelligence?.collectorDemand === 5
+);
+
+const averageScore = (key: keyof typeof submarinerAssets[number]["intelligence"]) => {
+  const scores = submarinerAssets
+    .map((asset) => asset.intelligence?.[key])
+    .filter((score): score is number => typeof score === "number");
+
+  if (!scores.length) return 0;
+
+  return Math.round(
+    scores.reduce((total, score) => total + score, 0) / scores.length
+  );
+};
+
+const collectionSignals = [
+  { label: "Collector Demand", score: averageScore("collectorDemand") },
+  { label: "Liquidity", score: averageScore("liquidity") },
+  { label: "Wearability", score: averageScore("wearability") },
+  { label: "Collectability", score: averageScore("collectability") },
+];
+
+const getFilterTags = (asset: typeof submarinerAssets[number]) => {
+  const tags = ["all"];
+
+  if (asset.productionStatus === "Current") tags.push("current");
+  if (asset.productionStatus === "Discontinued") tags.push("discontinued");
+  if (asset.material === "Oystersteel") tags.push("oystersteel");
+  if (asset.material.includes("Gold")) tags.push("precious-metal");
+  if (asset.material.includes("Rolesor")) tags.push("two-tone");
+  if ((asset.intelligence?.collectorDemand ?? 0) >= 5) tags.push("peak-demand");
+
+  return tags.join(" ");
+};
+
+const getSearchText = (asset: typeof submarinerAssets[number]) => {
+  return `
+    ${asset.reference}
+    ${asset.model}
+    ${asset.material}
+    ${asset.bezel}
+    ${asset.productionStatus}
+    ${asset.marketPosition}
+    ${asset.liquidity}
+    ${asset.allocationDifficulty}
+    ${asset.configurations
+      .map((config) => `${config.nickname} ${config.dial ?? ""} ${config.bracelet ?? ""}`)
+      .join(" ")}
+  `.toLowerCase();
+};
+
+const getOverallScore = (asset: typeof submarinerAssets[number]) => {
+  if (!asset.intelligence) return 0;
+  return buildQuestLuxoIntelligence(asset.intelligence).overallScore;
+};
 ---
 
 <BaseLayout title="Rolex Submariner | Quest Luxo">
-  <section class="hero">
-    <p class="eyebrow">ROLEX COLLECTION</p>
-    <h1>Submariner</h1>
-    <p>
-      The Rolex Submariner remains the benchmark luxury dive watch, with enduring
-      demand across no-date, date, green-bezel, two-tone, and precious-metal references.
-    </p>
-  </section>
+  <QuestLuxoCollectionHero
+    eyebrow="ROLEX COLLECTION INTELLIGENCE"
+    title="Submariner"
+    description="The Rolex Submariner remains the benchmark luxury dive watch, with enduring demand across no-date, date, green-bezel, two-tone, and precious-metal references."
+    stats={[
+      {
+        value: submarinerAssets.length,
+        label: "Tracked References",
+      },
+      {
+        value: currentReferences.length,
+        label: "Current Production",
+      },
+      {
+        value: discontinuedReferences.length,
+        label: "Discontinued Icons",
+      },
+      {
+        value: highestDemandReferences.length,
+        label: "Peak Demand Signals",
+      },
+    ]}
+  />
 
   <QuestLuxoIntelligence
     title="Submariner Market Position"
     paragraphs={[
       "The Submariner is one of Rolex’s most liquid and universally recognized sports watch categories, supported by decades of dive-watch heritage and broad collector demand.",
-      "Quest Luxo evaluates Submariner acquisitions by reference, bezel, dial, metal, production status, condition, set completeness, and current sourcing availability."
+      "Quest Luxo evaluates Submariner acquisitions by reference, bezel, dial, metal, production status, condition, set completeness, and current sourcing availability.",
     ]}
+  />
+
+  <QuestLuxoCollectionSignals
+    title="Quest Luxo Submariner Intelligence"
+    description="These scores summarize the current reference set inside Quest Luxo's Submariner directory."
+    signals={collectionSignals}
   />
 
   <section class="assets">
     <div class="heading">
       <p class="eyebrow">ASSET DIRECTORY</p>
       <h2>Submariner Reference Profiles</h2>
+      <p>
+        Search, filter, and sort the directory by reference, nickname, production
+        status, material, and Quest Luxo intelligence score.
+      </p>
     </div>
 
-    <div class="grid">
+    <div class="directory-tools">
+      <input
+        id="submariner-search"
+        class="search-input"
+        type="search"
+        placeholder="Search by reference, nickname, material, bezel, or market position..."
+        aria-label="Search Submariner references"
+      />
+
+      <div class="tool-row">
+        <p id="result-count" class="result-count">
+          Showing {submarinerAssets.length} references
+        </p>
+
+        <label class="sort-label">
+          Sort
+          <select id="sort-select">
+            <option value="score-desc">Highest Quest Luxo Score</option>
+            <option value="demand-desc">Highest Collector Demand</option>
+            <option value="liquidity-desc">Highest Liquidity</option>
+            <option value="reference-asc">Reference A-Z</option>
+          </select>
+        </label>
+      </div>
+    </div>
+
+    <div class="filters" aria-label="Submariner reference filters">
+      <button class="filter-button active" type="button" data-filter="all">All</button>
+      <button class="filter-button" type="button" data-filter="current">Current</button>
+      <button class="filter-button" type="button" data-filter="discontinued">Discontinued</button>
+      <button class="filter-button" type="button" data-filter="oystersteel">Oystersteel</button>
+      <button class="filter-button" type="button" data-filter="precious-metal">Precious Metal</button>
+      <button class="filter-button" type="button" data-filter="two-tone">Two-Tone</button>
+      <button class="filter-button" type="button" data-filter="peak-demand">Peak Demand</button>
+    </div>
+
+    <div class="grid" id="submariner-grid">
       {submarinerAssets.map((asset) => (
-        <ReferenceCard
-          asset={asset}
-          href={`/collections/rolex/submariner/${asset.reference.toLowerCase()}`}
-        />
+        <div
+          class="asset-wrapper"
+          data-tags={getFilterTags(asset)}
+          data-search={getSearchText(asset)}
+          data-reference={asset.reference}
+          data-score={getOverallScore(asset)}
+          data-demand={asset.intelligence?.collectorDemand ?? 0}
+          data-liquidity-score={asset.intelligence?.liquidity ?? 0}
+        >
+          <ReferenceCard
+            asset={asset}
+            href={`/collections/rolex/submariner/${asset.reference.toLowerCase()}`}
+          />
+        </div>
       ))}
+    </div>
+
+    <div id="no-results" class="no-results hidden">
+      <p class="eyebrow">NO MATCHES FOUND</p>
+      <h3>No Submariner references match this search.</h3>
+      <p>
+        Try clearing your search, selecting All, or searching by nickname such as
+        Hulk, Starbucks, Bluesy, or Cookie Monster.
+      </p>
+      <button id="reset-directory" type="button">Reset Directory</button>
     </div>
   </section>
 
@@ -46,33 +195,130 @@ import { submarinerAssets } from "../../../../data/assets/rolex-submariner";
   />
 </BaseLayout>
 
-<style>
-  .hero {
-    padding: 120px 30px 70px;
-    text-align: center;
-    background: #faf9f7;
-  }
+<script>
+  const filterButtons = document.querySelectorAll<HTMLButtonElement>(".filter-button");
+  const assetCards = Array.from(document.querySelectorAll<HTMLElement>(".asset-wrapper"));
+  const grid = document.querySelector<HTMLElement>("#submariner-grid");
+  const searchInput = document.querySelector<HTMLInputElement>("#submariner-search");
+  const resultCount = document.querySelector<HTMLElement>("#result-count");
+  const sortSelect = document.querySelector<HTMLSelectElement>("#sort-select");
+  const noResults = document.querySelector<HTMLElement>("#no-results");
+  const resetButton = document.querySelector<HTMLButtonElement>("#reset-directory");
 
+  let activeFilter = "all";
+
+  const sortCards = () => {
+    const sortMode = sortSelect?.value ?? "score-desc";
+    const sortedCards = [...assetCards];
+
+    sortedCards.sort((a, b) => {
+      if (sortMode === "reference-asc") {
+        return (a.dataset.reference ?? "").localeCompare(b.dataset.reference ?? "");
+      }
+
+      if (sortMode === "demand-desc") {
+        return Number(b.dataset.demand ?? 0) - Number(a.dataset.demand ?? 0);
+      }
+
+      if (sortMode === "liquidity-desc") {
+        return Number(b.dataset.liquidityScore ?? 0) - Number(a.dataset.liquidityScore ?? 0);
+      }
+
+      return Number(b.dataset.score ?? 0) - Number(a.dataset.score ?? 0);
+    });
+
+    sortedCards.forEach((card) => grid?.appendChild(card));
+  };
+
+  const updateDirectory = () => {
+    const query = searchInput?.value.trim().toLowerCase() ?? "";
+    let visibleCount = 0;
+
+    assetCards.forEach((card) => {
+      const tags = card.dataset.tags?.split(" ") ?? [];
+      const searchText = card.dataset.search ?? "";
+
+      const matchesFilter = activeFilter === "all" || tags.includes(activeFilter);
+      const matchesSearch = !query || searchText.includes(query);
+      const shouldShow = matchesFilter && matchesSearch;
+
+      card.classList.toggle("hidden", !shouldShow);
+
+      if (shouldShow) visibleCount += 1;
+    });
+
+    if (resultCount) {
+      resultCount.textContent = `Showing ${visibleCount} reference${visibleCount === 1 ? "" : "s"}`;
+    }
+
+    noResults?.classList.toggle("hidden", visibleCount !== 0);
+    grid?.classList.toggle("empty", visibleCount === 0);
+  };
+
+  filterButtons.forEach((button) => {
+    button.addEventListener("click", () => {
+      activeFilter = button.dataset.filter ?? "all";
+
+      filterButtons.forEach((item) => item.classList.remove("active"));
+      button.classList.add("active");
+
+      updateDirectory();
+    });
+  });
+
+  searchInput?.addEventListener("input", updateDirectory);
+
+  sortSelect?.addEventListener("change", () => {
+    sortCards();
+    updateDirectory();
+  });
+
+  resetButton?.addEventListener("click", () => {
+    activeFilter = "all";
+
+    if (searchInput) searchInput.value = "";
+    if (sortSelect) sortSelect.value = "score-desc";
+
+    filterButtons.forEach((item) => {
+      item.classList.toggle("active", item.dataset.filter === "all");
+    });
+
+    sortCards();
+    updateDirectory();
+  });
+
+  sortCards();
+  updateDirectory();
+</script>
+
+<style>
   .eyebrow {
     color: #d4b06a;
     letter-spacing: 4px;
-    font-size: 13px;
-    font-weight: 700;
+    font-size: 12px;
+    font-weight: 800;
     margin-bottom: 20px;
+    text-transform: uppercase;
   }
 
-  .hero h1 {
-    color: #173a5e;
-    font-size: 72px;
-    margin-bottom: 24px;
-  }
-
-  .hero p {
+  .heading {
+    text-align: center;
+    margin: 0 auto 55px;
     max-width: 820px;
-    margin: auto;
-    font-size: 22px;
-    line-height: 1.8;
-    color: #1f1f1f;
+  }
+
+  .heading h2 {
+    color: #173a5e;
+    font-size: clamp(34px, 5vw, 46px);
+    line-height: 1.1;
+    margin: 0 0 18px;
+  }
+
+  .heading p {
+    color: #4e5661;
+    line-height: 1.75;
+    font-size: 17px;
+    margin: 0 auto;
   }
 
   .assets {
@@ -80,15 +326,92 @@ import { submarinerAssets } from "../../../../data/assets/rolex-submariner";
     padding: 90px 60px 120px;
   }
 
-  .heading {
-    text-align: center;
-    margin-bottom: 55px;
+  .directory-tools {
+    max-width: 980px;
+    margin: -24px auto 28px;
+    display: grid;
+    gap: 16px;
   }
 
-  .heading h2 {
+  .search-input {
+    width: 100%;
+    border: 1px solid #e8e3d8;
+    background: #faf9f7;
     color: #173a5e;
-    font-size: 44px;
+    padding: 16px 18px;
+    font-size: 15px;
+    outline: none;
+  }
+
+  .search-input:focus {
+    border-color: #d4b06a;
+    background: #ffffff;
+  }
+
+  .tool-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 18px;
+    flex-wrap: wrap;
+  }
+
+  .result-count {
+    color: #6d7480;
+    font-size: 13px;
+    font-weight: 800;
+    letter-spacing: 1.6px;
+    text-transform: uppercase;
+    text-align: center;
     margin: 0;
+  }
+
+  .sort-label {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #173a5e;
+    font-size: 12px;
+    font-weight: 900;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+  }
+
+  .sort-label select {
+    border: 1px solid #e8e3d8;
+    background: #faf9f7;
+    color: #173a5e;
+    padding: 11px 12px;
+    font-weight: 800;
+  }
+
+  .filters {
+    max-width: 980px;
+    margin: 0 auto 42px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+
+  .filter-button {
+    cursor: pointer;
+    border: 1px solid #e8e3d8;
+    background: #faf9f7;
+    color: #173a5e;
+    border-radius: 999px;
+    padding: 11px 17px;
+    font-weight: 800;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    font-size: 11px;
+  }
+
+  .filter-button.active,
+  .filter-button:hover {
+    background: #173a5e;
+    border-color: #173a5e;
+    color: #ffffff;
   }
 
   .grid {
@@ -99,17 +422,70 @@ import { submarinerAssets } from "../../../../data/assets/rolex-submariner";
     gap: 24px;
   }
 
+  .grid.empty {
+    display: none;
+  }
+
+  .asset-wrapper {
+    display: block;
+  }
+
+  .asset-wrapper.hidden {
+    display: none;
+  }
+
+  .no-results {
+    max-width: 760px;
+    margin: 40px auto 0;
+    text-align: center;
+    background: #faf9f7;
+    border: 1px solid #e8e3d8;
+    padding: 44px 30px;
+  }
+
+  .no-results.hidden {
+    display: none;
+  }
+
+  .no-results h3 {
+    color: #173a5e;
+    font-size: 34px;
+    margin: 0 0 16px;
+  }
+
+  .no-results p {
+    color: #4e5661;
+    line-height: 1.7;
+    margin: 0 auto 24px;
+    max-width: 560px;
+  }
+
+  .no-results button {
+    cursor: pointer;
+    border: 0;
+    background: #173a5e;
+    color: #ffffff;
+    padding: 13px 20px;
+    border-radius: 6px;
+    font-weight: 800;
+  }
+
   @media (max-width: 900px) {
     .grid {
       grid-template-columns: 1fr;
     }
 
-    .hero h1 {
-      font-size: 46px;
-    }
-
     .assets {
       padding: 70px 22px;
+    }
+
+    .filters {
+      justify-content: flex-start;
+    }
+
+    .tool-row {
+      align-items: flex-start;
+      flex-direction: column;
     }
   }
 </style>

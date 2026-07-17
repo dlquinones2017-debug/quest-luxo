@@ -1,0 +1,270 @@
+---
+interface FilterOption {
+  label: string;
+  value: string;
+}
+
+interface SortOption {
+  label: string;
+  value: string;
+}
+
+interface Props {
+  totalCount: number;
+  searchPlaceholder?: string;
+  filters?: FilterOption[];
+  sorts?: SortOption[];
+}
+
+const {
+  totalCount,
+  searchPlaceholder = "Search by reference, nickname, material, bezel, or market position...",
+  filters = [
+    { label: "All", value: "all" },
+    { label: "Current", value: "current" },
+    { label: "Discontinued", value: "discontinued" },
+    { label: "Oystersteel", value: "oystersteel" },
+    { label: "Precious Metal", value: "precious-metal" },
+    { label: "Two-Tone", value: "two-tone" },
+    { label: "Peak Demand", value: "peak-demand" },
+  ],
+  sorts = [
+    { label: "Highest Quest Luxo Score", value: "score-desc" },
+    { label: "Highest Collector Demand", value: "demand-desc" },
+    { label: "Highest Liquidity", value: "liquidity-desc" },
+    { label: "Reference A-Z", value: "reference-asc" },
+  ],
+} = Astro.props;
+---
+
+<div class="directory-tools">
+  <input
+    id="quest-luxo-search"
+    class="search-input"
+    type="search"
+    placeholder={searchPlaceholder}
+    aria-label="Search references"
+  />
+
+  <div class="tool-row">
+    <p id="quest-luxo-result-count" class="result-count">
+      Showing {totalCount} references
+    </p>
+
+    <label class="sort-label">
+      Sort
+      <select id="quest-luxo-sort-select">
+        {sorts.map((sort) => (
+          <option value={sort.value}>{sort.label}</option>
+        ))}
+      </select>
+    </label>
+  </div>
+
+  <div class="filters" aria-label="Reference filters">
+    {filters.map((filter, index) => (
+      <button
+        class:list={["filter-button", { active: index === 0 }]}
+        type="button"
+        data-filter={filter.value}
+      >
+        {filter.label}
+      </button>
+    ))}
+  </div>
+</div>
+
+<script>
+  const filterButtons = document.querySelectorAll<HTMLButtonElement>(".filter-button");
+  const assetCards = Array.from(document.querySelectorAll<HTMLElement>(".asset-wrapper"));
+  const grid = document.querySelector<HTMLElement>("#quest-luxo-reference-grid");
+  const searchInput = document.querySelector<HTMLInputElement>("#quest-luxo-search");
+  const resultCount = document.querySelector<HTMLElement>("#quest-luxo-result-count");
+  const sortSelect = document.querySelector<HTMLSelectElement>("#quest-luxo-sort-select");
+  const noResults = document.querySelector<HTMLElement>("#quest-luxo-no-results");
+  const resetButton = document.querySelector<HTMLButtonElement>("#quest-luxo-reset-directory");
+
+  let activeFilter = "all";
+
+  const sortCards = () => {
+    const sortMode = sortSelect?.value ?? "score-desc";
+    const sortedCards = [...assetCards];
+
+    sortedCards.sort((a, b) => {
+      if (sortMode === "reference-asc") {
+        return (a.dataset.reference ?? "").localeCompare(b.dataset.reference ?? "");
+      }
+
+      if (sortMode === "demand-desc") {
+        return Number(b.dataset.demand ?? 0) - Number(a.dataset.demand ?? 0);
+      }
+
+      if (sortMode === "liquidity-desc") {
+        return Number(b.dataset.liquidityScore ?? 0) - Number(a.dataset.liquidityScore ?? 0);
+      }
+
+      return Number(b.dataset.score ?? 0) - Number(a.dataset.score ?? 0);
+    });
+
+    sortedCards.forEach((card) => grid?.appendChild(card));
+  };
+
+  const updateDirectory = () => {
+    const query = searchInput?.value.trim().toLowerCase() ?? "";
+    let visibleCount = 0;
+
+    assetCards.forEach((card) => {
+      const tags = card.dataset.tags?.split(" ") ?? [];
+      const searchText = card.dataset.search ?? "";
+
+      const matchesFilter = activeFilter === "all" || tags.includes(activeFilter);
+      const matchesSearch = !query || searchText.includes(query);
+      const shouldShow = matchesFilter && matchesSearch;
+
+      card.classList.toggle("hidden", !shouldShow);
+
+      if (shouldShow) visibleCount += 1;
+    });
+
+    if (resultCount) {
+      resultCount.textContent = `Showing ${visibleCount} reference${visibleCount === 1 ? "" : "s"}`;
+    }
+
+    noResults?.classList.toggle("hidden", visibleCount !== 0);
+    grid?.classList.toggle("empty", visibleCount === 0);
+  };
+
+  filterButtons.forEach((button) => {
+    button.addEventListener("click", () => {
+      activeFilter = button.dataset.filter ?? "all";
+
+      filterButtons.forEach((item) => item.classList.remove("active"));
+      button.classList.add("active");
+
+      updateDirectory();
+    });
+  });
+
+  searchInput?.addEventListener("input", updateDirectory);
+
+  sortSelect?.addEventListener("change", () => {
+    sortCards();
+    updateDirectory();
+  });
+
+  resetButton?.addEventListener("click", () => {
+    activeFilter = "all";
+
+    if (searchInput) searchInput.value = "";
+    if (sortSelect) sortSelect.value = "score-desc";
+
+    filterButtons.forEach((item) => {
+      item.classList.toggle("active", item.dataset.filter === "all");
+    });
+
+    sortCards();
+    updateDirectory();
+  });
+
+  sortCards();
+  updateDirectory();
+</script>
+
+<style>
+  .directory-tools {
+    max-width: 980px;
+    margin: -24px auto 42px;
+    display: grid;
+    gap: 16px;
+  }
+
+  .search-input {
+    width: 100%;
+    border: 1px solid #e8e3d8;
+    background: #faf9f7;
+    color: #173a5e;
+    padding: 16px 18px;
+    font-size: 15px;
+    outline: none;
+  }
+
+  .search-input:focus {
+    border-color: #d4b06a;
+    background: #ffffff;
+  }
+
+  .tool-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 18px;
+    flex-wrap: wrap;
+  }
+
+  .result-count {
+    color: #6d7480;
+    font-size: 13px;
+    font-weight: 800;
+    letter-spacing: 1.6px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0;
+  }
+
+  .sort-label {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #173a5e;
+    font-size: 12px;
+    font-weight: 900;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+  }
+
+  .sort-label select {
+    border: 1px solid #e8e3d8;
+    background: #faf9f7;
+    color: #173a5e;
+    padding: 11px 12px;
+    font-weight: 800;
+  }
+
+  .filters {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+
+  .filter-button {
+    cursor: pointer;
+    border: 1px solid #e8e3d8;
+    background: #faf9f7;
+    color: #173a5e;
+    border-radius: 999px;
+    padding: 11px 17px;
+    font-weight: 800;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    font-size: 11px;
+  }
+
+  .filter-button.active,
+  .filter-button:hover {
+    background: #173a5e;
+    border-color: #173a5e;
+    color: #ffffff;
+  }
+
+  @media (max-width: 900px) {
+    .filters {
+      justify-content: flex-start;
+    }
+
+    .tool-row {
+      align-items: flex-start;
+      flex-direction: column;
+    }
+  }
+</style>

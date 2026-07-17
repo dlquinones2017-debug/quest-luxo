@@ -1,19 +1,28 @@
 ---
 import BaseLayout from "../../../../layouts/BaseLayout.astro";
 import PrivateSourcingCTA from "../../../../components/PrivateSourcingCTA.astro";
-import { gmtAssets } from "../../../../data/assets/rolex-gmt-master-ii";
+
+import { gmtMasterIIAssets } from "../../../../data/assets/rolex-gmt-master-ii";
+
+type GmtMasterIIAsset = (typeof gmtMasterIIAssets)[number];
 
 export function getStaticPaths() {
-  return gmtAssets.map((asset) => ({
-    params: { reference: asset.reference.toLowerCase() },
-    props: { asset },
+  return gmtMasterIIAssets.map((asset: GmtMasterIIAsset) => ({
+    params: {
+      reference: asset.reference.toLowerCase(),
+    },
+    props: {
+      asset,
+    },
   }));
 }
 
-const { asset } = Astro.props;
+const { asset } = Astro.props as { asset: GmtMasterIIAsset };
+
+const primaryConfig = asset.configurations?.[0];
 
 const formatUSD = (value: number | null) => {
-  if (!value) return "Historical MSRP research pending";
+  if (!value) return "MSRP research pending";
 
   return new Intl.NumberFormat("en-US", {
     style: "currency",
@@ -21,167 +30,215 @@ const formatUSD = (value: number | null) => {
     maximumFractionDigits: 0,
   }).format(value);
 };
+
+const intelligenceRows = [
+  ["Collector Demand", asset.intelligence.collectorDemand],
+  ["Liquidity", asset.intelligence.liquidity],
+  ["Wearability", asset.intelligence.wearability],
+  ["Collectability", asset.intelligence.collectability],
+  ["Allocation Difficulty", asset.intelligence.allocationDifficulty],
+  ["Versatility", asset.intelligence.versatility],
+];
 ---
 
 <BaseLayout title={`${asset.reference} | Rolex GMT-Master II | Quest Luxo`}>
-  <section class="hero">
-    <p class="eyebrow">ROLEX GMT-MASTER II</p>
-    <h1>Ref. {asset.reference}</h1>
+  <main class="reference-page">
+    <section class="hero">
+      <p class="eyebrow">Rolex GMT-Master II</p>
+      <h1>Ref. {asset.reference}</h1>
 
-    <div class="nicknames">
-      {asset.configurations.map((config) => (
-        <span>{config.nickname} · {config.bracelet}</span>
-      ))}
-    </div>
-  </section>
+      {primaryConfig?.nickname && (
+        <div class="nickname">{primaryConfig.nickname}</div>
+      )}
 
-  <section class="profile">
-    <div class="image-placeholder">Image Pending</div>
+      <p class="summary">{asset.questLuxoView}</p>
+    </section>
 
-    <div class="details">
-      <h2>Asset Profile</h2>
+    <section class="asset-grid">
+      <div class="image-card">
+        <img src={asset.image} alt={`Rolex GMT-Master II ${asset.reference}`} />
+      </div>
 
-      <p><strong>Model</strong><span>{asset.model}</span></p>
-      <p><strong>Material</strong><span>{asset.material}</span></p>
-      <p><strong>Bezel</strong><span>{asset.bezel}</span></p>
-      <p><strong>Production</strong><span>{asset.productionStatus}</span></p>
-      <p><strong>Market Position</strong><span>{asset.marketPosition}</span></p>
-      <p><strong>Liquidity</strong><span>{asset.liquidity}</span></p>
-      <p><strong>Allocation Difficulty</strong><span>{asset.allocationDifficulty}</span></p>
-    </div>
-  </section>
+      <div class="details-card">
+        <h2>Reference Profile</h2>
 
-  <section class="msrp">
-    <h2>Original MSRP</h2>
+        <dl>
+          <div><dt>Brand</dt><dd>{asset.brand}</dd></div>
+          <div><dt>Model</dt><dd>{asset.model}</dd></div>
+          <div><dt>Collection</dt><dd>{asset.collection}</dd></div>
+          <div><dt>Material</dt><dd>{asset.material}</dd></div>
+          <div><dt>Bezel</dt><dd>{asset.bezel}</dd></div>
+          <div><dt>Dial</dt><dd>{primaryConfig?.dial ?? "Research pending"}</dd></div>
+          <div><dt>Bracelet</dt><dd>{primaryConfig?.bracelet ?? "Research pending"}</dd></div>
+          <div><dt>Production Status</dt><dd>{asset.productionStatus}</dd></div>
 
-    {asset.configurations.map((config) => (
-      <p>
-        <strong>{config.nickname} · {config.bracelet}</strong>
-        <span>{formatUSD(config.originalMSRP)}</span>
-      </p>
-    ))}
-  </section>
+          {asset.discontinuedYear && (
+            <div><dt>Discontinued Year</dt><dd>{asset.discontinuedYear}</dd></div>
+          )}
 
-  <section class="view">
-    <p class="eyebrow">QUEST LUXO VIEW</p>
-    <h2>Advisory Perspective</h2>
-    <p>{asset.questLuxoView}</p>
-  </section>
+          <div><dt>Market Position</dt><dd>{asset.marketPosition}</dd></div>
+          <div><dt>Liquidity</dt><dd>{asset.liquidity}</dd></div>
+          <div><dt>Allocation Difficulty</dt><dd>{asset.allocationDifficulty}</dd></div>
+          <div><dt>Original MSRP</dt><dd>{formatUSD(primaryConfig?.originalMSRP ?? null)}</dd></div>
+        </dl>
+      </div>
+    </section>
 
-  <PrivateSourcingCTA
-    title={`Request Private Sourcing for Ref. ${asset.reference}`}
-    text="Quest Luxo coordinates discreet sourcing for clients seeking specific Rolex GMT-Master II references through trusted market relationships."
-  />
+    <section class="intelligence-panel">
+      <p class="eyebrow">Quest Luxo Intelligence</p>
+      <h2>Asset Intelligence Scorecard</h2>
+
+      <div class="score-grid">
+        {intelligenceRows.map(([label, score]) => (
+          <div class="score-card">
+            <span>{label}</span>
+            <strong>{score}/5</strong>
+          </div>
+        ))}
+      </div>
+    </section>
+
+    <PrivateSourcingCTA
+      eyebrow="Private Sourcing"
+      title={`Source a Rolex GMT-Master II ${asset.reference}`}
+      body="Quest Luxo helps collectors evaluate, source, and position high-demand luxury assets with private-market intelligence."
+    />
+  </main>
 </BaseLayout>
 
 <style>
-  .hero {
-    background: #faf9f7;
-    text-align: center;
-    padding: 120px 30px 80px;
+  .reference-page {
+    background:
+      radial-gradient(circle at top left, rgba(184, 164, 111, 0.12), transparent 34rem),
+      #050505;
+    color: #f6efe4;
+    min-height: 100vh;
+  }
+
+  .hero,
+  .asset-grid,
+  .intelligence-panel {
+    max-width: 1120px;
+    margin: 0 auto;
+    padding: 48px 24px;
   }
 
   .eyebrow {
-    color: #d4b06a;
-    letter-spacing: 4px;
-    font-size: 13px;
-    font-weight: 700;
-    margin-bottom: 20px;
+    color: #b8a46f;
+    font-size: 0.75rem;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    margin-bottom: 16px;
   }
 
   h1 {
-    color: #173a5e;
-    font-size: 72px;
-    margin-bottom: 26px;
+    font-size: clamp(2.6rem, 7vw, 5.5rem);
+    line-height: 0.95;
+    margin: 0 0 18px;
   }
 
-  .nicknames {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 14px;
+  .nickname {
+    display: inline-flex;
+    border: 1px solid rgba(184, 164, 111, 0.4);
+    border-radius: 999px;
+    padding: 8px 14px;
+    color: #e7dcc2;
+    background: rgba(184, 164, 111, 0.08);
+    margin-bottom: 24px;
   }
 
-  .nicknames span {
-    color: #173a5e;
-    border: 1px solid #e8e3d8;
-    background: white;
-    padding: 10px 16px;
+  .summary {
+    max-width: 820px;
+    color: #cfc7b8;
+    font-size: 1.08rem;
+    line-height: 1.7;
   }
 
-  .profile {
-    max-width: 1180px;
-    margin: 90px auto;
-    padding: 0 30px;
+  .asset-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 42px;
+    grid-template-columns: minmax(0, 1fr) minmax(320px, 440px);
+    gap: 24px;
   }
 
-  .image-placeholder {
-    min-height: 420px;
-    background: white;
-    border: 1px solid #e8e3d8;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #777;
+  .image-card,
+  .details-card,
+  .intelligence-panel,
+  .score-card {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 28px;
+    background: rgba(255, 255, 255, 0.035);
   }
 
-  .details {
-    background: #faf9f7;
-    border: 1px solid #e8e3d8;
-    padding: 34px;
+  .image-card,
+  .details-card {
+    padding: 24px;
   }
 
-  h2 {
-    color: #173a5e;
-    font-size: 36px;
-    margin-top: 0;
+  .image-card img {
+    width: 100%;
+    display: block;
+    border-radius: 20px;
   }
 
-  .details p,
-  .msrp p {
+  dl {
+    display: grid;
+    gap: 15px;
+    margin: 0;
+  }
+
+  dl div {
     display: flex;
     justify-content: space-between;
     gap: 20px;
-    border-bottom: 1px solid #e8e3d8;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
     padding-bottom: 12px;
-    color: #444;
   }
 
-  strong {
-    color: #173a5e;
+  dt {
+    color: #8f887d;
   }
 
-  span {
+  dd {
+    margin: 0;
     text-align: right;
+    color: #f4efe5;
   }
 
-  .msrp,
-  .view {
-    max-width: 900px;
-    margin: 90px auto;
-    padding: 0 30px;
+  .score-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+    margin-top: 24px;
   }
 
-  .view {
-    text-align: center;
+  .score-card {
+    padding: 20px;
   }
 
-  .view p {
-    font-size: 21px;
-    line-height: 1.8;
-    color: #444;
+  .score-card span {
+    display: block;
+    color: #aaa;
+    margin-bottom: 10px;
   }
 
-  @media (max-width: 900px) {
-    h1 {
-      font-size: 46px;
+  .score-card strong {
+    font-size: 1.5rem;
+    color: #f6efe4;
+  }
+
+  @media (max-width: 860px) {
+    .asset-grid,
+    .score-grid {
+      grid-template-columns: 1fr;
     }
 
-    .profile {
-      grid-template-columns: 1fr;
+    dl div {
+      flex-direction: column;
+      gap: 4px;
+    }
+
+    dd {
+      text-align: left;
     }
   }
 </style>
