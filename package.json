@@ -8,10 +8,12 @@
   "scripts": {
     "dev": "astro dev",
     "build": "astro build",
+    "start:production": "serve -s dist -l tcp://0.0.0.0:$PORT",
     "preview": "astro preview",
     "astro": "astro"
   },
   "dependencies": {
-    "astro": "^7.0.5"
+    "astro": "^7.0.5",
+    "serve": "^14.2.5"
   }
 }
