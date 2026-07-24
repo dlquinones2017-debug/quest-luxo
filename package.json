@@ -8,7 +8,7 @@
   "scripts": {
     "dev": "astro dev",
     "build": "astro build",
-    "start:production": "serve -s dist -l tcp://0.0.0.0:$PORT",
+    "start:production": "serve dist -l tcp://0.0.0.0:$PORT",
     "preview": "astro preview",
     "astro": "astro"
   },
