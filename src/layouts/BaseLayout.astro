@@ -1,7 +1,23 @@
 ---
 import Navbar from "../components/Navbar.astro";
 
-const { title = "Quest Luxo" } = Astro.props;
+interface Props {
+  title?: string;
+  description?: string;
+  canonicalPath?: string;
+  structuredData?: Record<string, unknown> | Record<string, unknown>[];
+  robots?: string;
+}
+
+const {
+  title = "Quest Luxo",
+  description = "Quest Luxo provides private luxury timepiece advisory, collection intelligence, and discreet global sourcing.",
+  canonicalPath = Astro.url.pathname,
+  structuredData,
+  robots = "index,follow",
+} = Astro.props as Props;
+const canonicalUrl = new URL(canonicalPath, Astro.site ?? Astro.url.origin);
+const analyticsPage = canonicalPath === "/" ? "home" : canonicalPath;
 ---
 
 <html lang="en">
@@ -9,10 +25,65 @@ const { title = "Quest Luxo" } = Astro.props;
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>{title}</title>
+    <meta name="description" content={description} />
+    <meta name="robots" content={robots} />
+    <link rel="canonical" href={canonicalUrl} />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Quest Luxo" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonicalUrl} />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    {structuredData && (
+      <script
+        type="application/ld+json"
+        set:html={JSON.stringify(structuredData).replace(/</g, "\\u003c")}
+      />
+    )}
   </head>
 
-  <body>
+  <body data-analytics-page={analyticsPage}>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
     <Navbar />
     <slot />
   </body>
 </html>
+
+<style is:global>
+  :root {
+    color-scheme: light;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    margin: 0;
+    color: #1f1f1f;
+    background: #ffffff;
+  }
+
+  .skip-link {
+    position: fixed;
+    z-index: 1000;
+    top: 12px;
+    left: 12px;
+    padding: 12px 16px;
+    color: #ffffff;
+    background: #173a5e;
+    transform: translateY(-150%);
+  }
+
+  .skip-link:focus {
+    transform: translateY(0);
+  }
+
+  :focus-visible {
+    outline: 3px solid #d4b06a;
+    outline-offset: 3px;
+  }
+</style>

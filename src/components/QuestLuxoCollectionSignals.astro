@@ -28,20 +28,24 @@ const renderScore = (score: number) => `${score}/5`;
     <p>{description}</p>
   </div>
 
-  <div class="signal-grid">
-    {signals.map((signal) => (
-      <article>
-        <div class="signal-topline">
-          <strong>{signal.label}</strong>
-          <span>{renderScore(signal.score)}</span>
-        </div>
+  {signals.length > 0 ? (
+    <div class="signal-grid">
+      {signals.map((signal) => (
+        <article>
+          <div class="signal-topline">
+            <strong>{signal.label}</strong>
+            <span>{renderScore(signal.score)}</span>
+          </div>
 
-        <div class="bar">
-          <div style={`width: ${(signal.score / 5) * 100}%`}></div>
-        </div>
-      </article>
-    ))}
-  </div>
+          <div class="bar">
+            <div style={`width: ${(signal.score / 5) * 100}%`}></div>
+          </div>
+        </article>
+      ))}
+    </div>
+  ) : (
+    <p class="coverage-note">Reference-level intelligence scoring is in progress for this collection.</p>
+  )}
 </section>
 
 <style>
@@ -89,6 +93,16 @@ const renderScore = (score: number) => `${score}/5`;
     gap: 18px;
   }
 
+  .coverage-note {
+    max-width: 720px;
+    margin: 0 auto;
+    border: 1px solid #e8e3d8;
+    background: #ffffff;
+    color: #4e5661;
+    padding: 24px;
+    text-align: center;
+  }
+
   .signal-grid article {
     background: #ffffff;
     border: 1px solid #e8e3d8;
@@ -107,7 +121,7 @@ const renderScore = (score: number) => `${score}/5`;
   }
 
   .signal-topline span {
-    color: #d4b06a;
+    color: #76540f;
     font-weight: 800;
   }
 

@@ -1,0 +1,110 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { brands } from "../../data/brands";
+import { getCollectionsForBrand } from "../../data/collectionRegistry";
+import { brandPath, collectionPath } from "../../lib/routes/collectionRoutes";
+
+export function getStaticPaths() {
+  return brands.map((brand) => ({
+    params: { brand: brand.slug },
+    props: { brand },
+  }));
+}
+
+const { brand } = Astro.props;
+const collections = getCollectionsForBrand(brand.slug);
+const canonicalPath = brandPath(brand.slug);
+const description = `Explore ${brand.name} collections and reference profiles through Quest Luxo's unified private timepiece advisory directory.`;
+const structuredData = [
+  {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    name: `${brand.name} collections`,
+    description,
+    url: new URL(canonicalPath, Astro.site ?? Astro.url.origin).href,
+    mainEntity: {
+      "@type": "ItemList",
+      numberOfItems: collections.length,
+      itemListElement: collections.map((collection, index) => ({
+        "@type": "ListItem",
+        position: index + 1,
+        name: collection.name,
+        url: new URL(
+          collectionPath(collection.brandSlug, collection.slug),
+          Astro.site ?? Astro.url.origin
+        ).href,
+      })),
+    },
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: new URL("/", Astro.site ?? Astro.url.origin).href },
+      { "@type": "ListItem", position: 2, name: brand.name, item: new URL(canonicalPath, Astro.site ?? Astro.url.origin).href },
+    ],
+  },
+];
+---
+
+<BaseLayout
+  title={`${brand.name} | Quest Luxo`}
+  description={description}
+  canonicalPath={canonicalPath}
+  structuredData={structuredData}
+>
+  <main id="main-content" data-brand-directory data-brand-slug={brand.slug}>
+    <section class="hero">
+      <p class="eyebrow">{brand.name.toUpperCase()} COLLECTIONS</p>
+      <h1>{brand.name}</h1>
+      <p>{brand.tagline} · Founded {brand.founded}</p>
+    </section>
+
+    <section class="collections">
+      <div class="heading">
+        <p class="eyebrow">COLLECTION DIRECTORY</p>
+        <h2>Explore {brand.name} by Collection</h2>
+      </div>
+
+      {collections.length > 0 ? (
+        <div class="grid">
+          {collections.map((collection) => (
+            <a
+              href={collectionPath(collection.brandSlug, collection.slug)}
+              class="card"
+              data-analytics-event="collection_open"
+              data-analytics-label={`${collection.brandSlug}:${collection.slug}`}
+            >
+              <span class="category">Quest Luxo Intelligence</span>
+              <h3>{collection.name}</h3>
+              <p>{collection.description}</p>
+              <span class="link">Explore Collection →</span>
+            </a>
+          ))}
+        </div>
+      ) : null}
+    </section>
+  </main>
+</BaseLayout>
+
+<style>
+  .hero { padding:125px 30px 75px; text-align:center; background:#faf9f7; }
+  .eyebrow { color:#d4b06a; letter-spacing:4px; font-size:12px; font-weight:800; text-transform:uppercase; }
+  .hero h1 { color:#173a5e; font-size:clamp(48px,8vw,76px); margin:20px 0 24px; }
+  .hero p { max-width:760px; margin:auto; font-size:22px; line-height:1.8; color:#1f1f1f; }
+  .collections { background:#fff; padding:100px 60px 125px; }
+  .heading { text-align:center; margin-bottom:60px; }
+  .heading h2 { color:#173a5e; font-size:clamp(36px,5vw,48px); margin:18px 0 0; }
+  .grid { max-width:1180px; margin:auto; display:grid; grid-template-columns:repeat(3,1fr); gap:22px; }
+  .card { background:#faf9f7; border:1px solid #e8e3d8; padding:30px; text-decoration:none; color:#173a5e; display:flex; flex-direction:column; min-height:280px; transition:.2s ease; }
+  .card:hover { transform:translateY(-4px); border-color:#d4b06a; }
+  .category { color:#777; font-size:12px; text-transform:uppercase; letter-spacing:1.6px; }
+  .card h3 { font-size:30px; margin:28px 0 12px; }
+  .card p { color:#444; line-height:1.7; }
+  .link { margin-top:auto; font-weight:700; }
+  .coming-soon { max-width:760px; margin:auto; padding:48px 30px; text-align:center; background:#faf9f7; border:1px solid #e8e3d8; }
+  .coming-soon h3 { color:#173a5e; font-size:32px; }
+  .coming-soon p { color:#4e5661; line-height:1.7; }
+  .coming-soon a { display:inline-block; margin-top:18px; padding:14px 24px; border-radius:6px; color:#fff; background:#173a5e; text-decoration:none; font-weight:800; }
+  @media (max-width:900px) { .collections { padding:80px 22px; } .grid { grid-template-columns:1fr; } }
+</style>

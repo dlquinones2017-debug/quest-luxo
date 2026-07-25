@@ -1,0 +1,87 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+
+---
+
+<BaseLayout
+  title="Begin Your Quest | Quest Luxo"
+  description="Begin a private luxury timepiece sourcing conversation with Quest Luxo."
+  canonicalPath="/contact"
+>
+  <main id="main-content">
+    <section class="contact">
+      <p class="eyebrow">PRIVATE CLIENT ADVISORY</p>
+      <h1>Begin Your Quest</h1>
+      <p class="intro" data-contact-intro>
+        Start a private conversation with Quest Luxo about the timepiece or
+        collection you are seeking.
+      </p>
+      <a
+        class="contact-button"
+        href="mailto:contact@questluxo.com?subject=Quest%20Luxo%20private%20sourcing%20inquiry"
+        data-contact-link
+      >
+        Contact Quest Luxo
+      </a>
+    </section>
+  </main>
+</BaseLayout>
+
+<script>
+  const requestedCollection = new URLSearchParams(window.location.search).get("collection");
+  const intro = document.querySelector<HTMLElement>("[data-contact-intro]");
+  const contactLink = document.querySelector<HTMLAnchorElement>("[data-contact-link]");
+
+  if (requestedCollection) {
+    if (intro) {
+      intro.textContent = `Start a private conversation about ${requestedCollection}.`;
+    }
+    if (contactLink) {
+      const subject = encodeURIComponent(`Quest Luxo inquiry: ${requestedCollection}`);
+      contactLink.href = `mailto:contact@questluxo.com?subject=${subject}`;
+    }
+  }
+</script>
+
+<style>
+  .contact {
+    min-height: 62vh;
+    padding: 130px 30px;
+    text-align: center;
+    background:
+      linear-gradient(rgba(250, 249, 247, 0.94), rgba(250, 249, 247, 0.94)),
+      radial-gradient(circle at top, rgba(212, 176, 106, 0.2), transparent 42%);
+  }
+
+  .eyebrow {
+    color: #d4b06a;
+    letter-spacing: 4px;
+    font-size: 12px;
+    font-weight: 800;
+  }
+
+  h1 {
+    color: #173a5e;
+    font-size: clamp(48px, 8vw, 76px);
+    margin: 20px 0 24px;
+  }
+
+  .intro {
+    max-width: 720px;
+    margin: 0 auto;
+    color: #4e5661;
+    font-size: 20px;
+    line-height: 1.8;
+  }
+
+  .contact-button {
+    display: inline-block;
+    margin-top: 36px;
+    padding: 17px 32px;
+    border-radius: 6px;
+    color: #ffffff;
+    background: #173a5e;
+    text-decoration: none;
+    font-weight: 800;
+  }
+</style>

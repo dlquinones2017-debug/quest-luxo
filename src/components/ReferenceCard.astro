@@ -37,7 +37,10 @@ const formatUSD = (value?: number | null) => {
 <article class="card">
   <div class="image-card">
     {asset.image ? (
-      <img src={asset.image} alt={imageAlt} />
+      <>
+        <img src={asset.image} alt={imageAlt} loading="lazy" decoding="async" />
+        <span class="image-fallback">Image Pending</span>
+      </>
     ) : (
       <span>Image Pending</span>
     )}
@@ -131,10 +134,23 @@ const formatUSD = (value?: number | null) => {
     </div>
   )}
 
-  <a href={href} class="button">
+  <a
+    href={href}
+    class="button"
+    data-analytics-event="reference_open"
+    data-analytics-label={`${asset.brand ?? "Rolex"}:${asset.reference}`}
+  >
     View Asset Profile
   </a>
 </article>
+
+<script>
+  document.querySelectorAll<HTMLImageElement>(".image-card img").forEach((image) => {
+    const showFallback = () => image.closest(".image-card")?.classList.add("missing-image");
+    if (image.complete && image.naturalWidth === 0) showFallback();
+    image.addEventListener("error", showFallback, { once: true });
+  });
+</script>
 
 <style>
   .card {
@@ -164,6 +180,18 @@ const formatUSD = (value?: number | null) => {
     max-width: 100%;
     max-height: 205px;
     object-fit: contain;
+  }
+
+  .image-fallback {
+    display: none;
+  }
+
+  .image-card.missing-image img {
+    display: none;
+  }
+
+  .image-card.missing-image .image-fallback {
+    display: block;
   }
 
   .badges {
@@ -220,7 +248,7 @@ const formatUSD = (value?: number | null) => {
   }
 
   .model {
-    color: #777;
+    color: #626262;
     font-size: 13px;
     text-transform: uppercase;
     letter-spacing: 1.5px;
@@ -234,7 +262,7 @@ const formatUSD = (value?: number | null) => {
   }
 
   .nickname {
-    color: #d4b06a;
+    color: #76540f;
     font-weight: 800;
     margin: 0 0 14px;
   }
@@ -292,7 +320,7 @@ const formatUSD = (value?: number | null) => {
   }
 
   .engine-topline span {
-    color: #d4b06a;
+    color: #76540f;
     font-weight: 900;
   }
 
@@ -330,7 +358,7 @@ const formatUSD = (value?: number | null) => {
   .engine-grid span {
     display: block;
     text-align: center;
-    color: #777;
+    color: #626262;
     font-size: 10px;
     font-weight: 800;
     letter-spacing: 1.1px;

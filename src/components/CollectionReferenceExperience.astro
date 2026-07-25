@@ -1,0 +1,209 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import PrivateSourcingCTA from "./PrivateSourcingCTA.astro";
+import AssetIntelligencePanel from "./AssetIntelligencePanel.astro";
+import QuestLuxoScorecard from "./QuestLuxoScorecard.astro";
+import {
+  brandPath,
+  collectionPath,
+  referencePath,
+} from "../lib/routes/collectionRoutes";
+import type { CollectionDefinition } from "../data/collectionRegistry";
+import type { QuestLuxoAsset } from "../types/questLuxo";
+
+interface Props {
+  collection: CollectionDefinition;
+  asset: QuestLuxoAsset;
+}
+
+const { collection, asset } = Astro.props as Props;
+const formatUSD = (value?: number | null) =>
+  value
+    ? new Intl.NumberFormat("en-US", {
+        style: "currency",
+        currency: "USD",
+        maximumFractionDigits: 0,
+      }).format(value)
+    : "MSRP research pending";
+const imageAlt = `${asset.reference} ${asset.model}`;
+const collectionUrl = collectionPath(collection.brandSlug, collection.slug);
+const canonicalPath = referencePath(
+  collection.brandSlug,
+  collection.slug,
+  asset.reference
+);
+const description =
+  asset.questLuxoView ??
+  `Quest Luxo reference profile for ${collection.brand} ${collection.name} ${asset.reference}.`;
+const structuredData = [
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    name: `${collection.brand} ${collection.name} ${asset.reference}`,
+    description,
+    url: new URL(canonicalPath, Astro.site ?? Astro.url.origin).href,
+    about: {
+      "@type": "Product",
+      name: `${collection.brand} ${asset.model}`,
+      model: asset.reference,
+      brand: { "@type": "Brand", name: collection.brand },
+      image: new URL(asset.image ?? "/images/watch-reference-placeholder.svg", Astro.site ?? Astro.url.origin).href,
+    },
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: new URL("/", Astro.site ?? Astro.url.origin).href },
+      { "@type": "ListItem", position: 2, name: collection.brand, item: new URL(brandPath(collection.brandSlug), Astro.site ?? Astro.url.origin).href },
+      { "@type": "ListItem", position: 3, name: collection.name, item: new URL(collectionUrl, Astro.site ?? Astro.url.origin).href },
+      { "@type": "ListItem", position: 4, name: `Ref. ${asset.reference}`, item: new URL(canonicalPath, Astro.site ?? Astro.url.origin).href },
+    ],
+  },
+];
+---
+
+<BaseLayout
+  title={`${asset.reference} | ${collection.brand} ${collection.name} | Quest Luxo`}
+  description={description}
+  canonicalPath={canonicalPath}
+  structuredData={structuredData}
+>
+  <main id="main-content" data-reference-experience>
+    <nav class="breadcrumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a><span aria-hidden="true">/</span>
+      <a href={brandPath(collection.brandSlug)}>{collection.brand}</a>
+      <span aria-hidden="true">/</span>
+      <a href={collectionUrl}>{collection.name}</a>
+      <span aria-hidden="true">/</span>
+      <span aria-current="page">Ref. {asset.reference}</span>
+    </nav>
+
+    <section class="hero">
+      <p class="eyebrow">{collection.brand.toUpperCase()} {collection.name.toUpperCase()} INTELLIGENCE</p>
+      <h1>Ref. {asset.reference}</h1>
+      <p class="hero-summary">{asset.questLuxoView}</p>
+      <div class="tags">
+        {(asset.configurations ?? []).map((config) => (
+          <span>{config.nickname ?? "Configuration"} · {config.dial ?? "Dial details pending"}</span>
+        ))}
+      </div>
+    </section>
+
+    <section class="profile">
+      <div class="image-card">
+        {asset.image ? (
+          <>
+            <img src={asset.image} alt={imageAlt} loading="eager" decoding="async" />
+            <span class="image-fallback">Image Pending</span>
+          </>
+        ) : <span>Image Pending</span>}
+      </div>
+
+      <div class="details">
+        <p class="section-label">Asset Profile</p>
+        <h2>{asset.marketPosition}</h2>
+        <div class="detail-grid">
+          <p><strong>Model</strong><span>{asset.model}</span></p>
+          <p><strong>Material</strong><span>{asset.material}</span></p>
+          <p><strong>Bezel</strong><span>{asset.bezel}</span></p>
+          <p><strong>Production</strong><span>{asset.productionStatus}</span></p>
+          <p><strong>Liquidity</strong><span>{asset.liquidity}</span></p>
+          <p><strong>Allocation</strong><span>{asset.allocationDifficulty}</span></p>
+        </div>
+      </div>
+    </section>
+
+    {asset.intelligence && <QuestLuxoScorecard intelligence={asset.intelligence} />}
+
+    <section class="market-signals">
+      <div>
+        <p class="section-label">Market Position</p>
+        <h2>Quest Luxo Signal</h2>
+        <p>{asset.questLuxoView}</p>
+      </div>
+      <div class="signal-cards">
+        <article><strong>{asset.liquidity}</strong><span>Liquidity</span></article>
+        <article><strong>{asset.allocationDifficulty}</strong><span>Allocation Difficulty</span></article>
+        <article><strong>{asset.productionStatus}</strong><span>Production Status</span></article>
+      </div>
+    </section>
+
+    <section class="msrp">
+      <p class="section-label">Reference Data</p>
+      <h2>Original MSRP</h2>
+      {(asset.configurations ?? []).map((config) => (
+        <p>
+          <strong>{config.nickname ?? "Configuration"} · {config.dial ?? "Dial details pending"}</strong>
+          <span>{formatUSD(config.originalMSRP)}</span>
+        </p>
+      ))}
+    </section>
+
+    {asset.intelligence && (
+      <AssetIntelligencePanel
+        collectorDemand={asset.intelligence.collectorDemand}
+        liquidity={asset.intelligence.liquidity}
+        wearability={asset.intelligence.wearability}
+        collectability={asset.intelligence.collectability}
+        allocationDifficulty={asset.intelligence.allocationDifficulty}
+        versatility={asset.intelligence.versatility}
+        summary={asset.questLuxoView ?? ""}
+      />
+    )}
+
+    <PrivateSourcingCTA
+      title={`Request Private Sourcing for Ref. ${asset.reference}`}
+      text={`Quest Luxo coordinates discreet sourcing for clients seeking specific ${collection.brand} ${collection.name} references through trusted market relationships.`}
+      button="Begin Your Quest"
+      href={`/contact?collection=${encodeURIComponent(`${collection.brand} ${collection.name} ${asset.reference}`)}`}
+    />
+  </main>
+</BaseLayout>
+
+<script>
+  document.querySelectorAll<HTMLImageElement>(".image-card img").forEach((image) => {
+    const showFallback = () => image.closest(".image-card")?.classList.add("missing-image");
+    if (image.complete && image.naturalWidth === 0) showFallback();
+    image.addEventListener("error", showFallback, { once: true });
+  });
+</script>
+
+<style>
+  .breadcrumbs { max-width:1180px; margin:0 auto; padding:26px 30px 0; display:flex; gap:10px; color:#6d7480; font-size:13px; }
+  .breadcrumbs a { color:#173a5e; text-decoration:none; }
+  .hero { background:linear-gradient(rgba(250,249,247,.92),rgba(250,249,247,.92)),radial-gradient(circle at top,rgba(212,176,106,.18),transparent 42%); text-align:center; padding:110px 30px 86px; }
+  .eyebrow,.section-label { color:#d4b06a; letter-spacing:4px; font-size:12px; font-weight:800; text-transform:uppercase; margin-bottom:18px; }
+  h1 { color:#173a5e; font-size:clamp(46px,8vw,76px); margin:0 0 24px; line-height:1; overflow-wrap:anywhere; }
+  h2 { color:#173a5e; font-size:clamp(32px,5vw,44px); line-height:1.08; margin:0 0 24px; }
+  .hero-summary { max-width:780px; margin:0 auto 30px; color:#4e5661; font-size:18px; line-height:1.7; }
+  .tags { display:flex; justify-content:center; flex-wrap:wrap; gap:14px; }
+  .tags span { color:#173a5e; border:1px solid #e8e3d8; background:white; padding:11px 18px; border-radius:999px; font-weight:700; }
+  .profile { max-width:1180px; margin:90px auto 0; padding:0 30px; display:grid; grid-template-columns:1fr 1fr; gap:42px; align-items:stretch; }
+  .image-card { min-height:440px; background:#fff; border:1px solid #e8e3d8; display:flex; align-items:center; justify-content:center; padding:42px; position:relative; color:#777; }
+  .image-card img { max-width:100%; max-height:390px; object-fit:contain; }
+  .image-fallback { display:none; }
+  .missing-image img { display:none; }
+  .missing-image .image-fallback { display:block; }
+  .details { background:#faf9f7; border:1px solid #e8e3d8; padding:38px; }
+  .detail-grid p,.msrp p { display:flex; justify-content:space-between; gap:20px; border-bottom:1px solid #e8e3d8; padding-bottom:12px; color:#4e5661; }
+  .detail-grid strong,.msrp strong { color:#173a5e; }
+  .detail-grid span,.msrp span { text-align:right; }
+  .market-signals { max-width:1180px; margin:90px auto; padding:0 30px; display:grid; grid-template-columns:1.1fr .9fr; gap:40px; align-items:start; }
+  .market-signals > div > p:last-child { color:#4e5661; line-height:1.8; font-size:18px; }
+  .signal-cards { display:grid; gap:14px; }
+  .signal-cards article { background:#faf9f7; border:1px solid #e8e3d8; padding:22px; display:flex; justify-content:space-between; gap:16px; }
+  .signal-cards strong { color:#173a5e; }
+  .signal-cards span { color:#6d7480; text-align:right; }
+  .msrp { max-width:900px; margin:90px auto; padding:0 30px; }
+  @media (max-width:900px) {
+    .breadcrumbs { padding-inline:22px; overflow-x:auto; white-space:nowrap; }
+    .profile,.market-signals { grid-template-columns:1fr; }
+    .profile { margin-top:60px; padding:0 22px; }
+    .market-signals,.msrp { margin:70px auto; padding:0 22px; }
+    .image-card { min-height:320px; padding:24px; }
+    .details { padding:28px 22px; }
+    .detail-grid p,.msrp p { align-items:flex-start; flex-direction:column; }
+    .detail-grid span,.msrp span { text-align:left; overflow-wrap:anywhere; }
+  }
+</style>

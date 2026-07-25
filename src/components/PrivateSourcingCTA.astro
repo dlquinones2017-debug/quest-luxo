@@ -3,6 +3,7 @@ const {
   title = "Looking for a Specific Reference?",
   text = "Quest Luxo provides discreet private sourcing for collectors seeking exceptional timepieces through our trusted global network.",
   button = "Request Private Sourcing",
+  href = "/contact",
 } = Astro.props;
 ---
 
@@ -14,7 +15,12 @@ const {
 
     <p>{text}</p>
 
-    <a href="/contact" class="button">
+    <a
+      href={href}
+      class="button"
+      data-analytics-event="begin_quest"
+      data-analytics-label={title}
+    >
       {button}
     </a>
   </div>
@@ -34,7 +40,7 @@ const {
 }
 
 .eyebrow{
-    color:#d4b06a;
+    color:#76540f;
     letter-spacing:4px;
     font-size:13px;
     font-weight:700;
@@ -44,6 +50,7 @@ h2{
     color:#173a5e;
     font-size:48px;
     margin:18px 0 24px;
+    overflow-wrap:anywhere;
 }
 
 p{

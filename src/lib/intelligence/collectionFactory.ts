@@ -1,37 +1,4 @@
-import type { IntelligenceMetrics } from "./questLuxoIntelligence";
-
-export interface QuestLuxoConfiguration {
-  nickname: string;
-  dial?: string;
-  bracelet?: string;
-  originalMSRP: number | null;
-}
-
-export interface QuestLuxoAsset {
-  reference: string;
-  model: string;
-  brand: string;
-  collection: string;
-
-  configurations: QuestLuxoConfiguration[];
-
-  material: string;
-  bezel?: string;
-
-  productionStatus: string;
-  discontinuedYear?: number;
-
-  marketPosition: string;
-
-  liquidity: string;
-  allocationDifficulty: string;
-
-  questLuxoView: string;
-
-  intelligence: IntelligenceMetrics;
-
-  image?: string;
-}
+import type { QuestLuxoAsset } from "../../types/questLuxo";
 
 export interface QuestLuxoCollection {
   brand: string;
@@ -53,7 +20,7 @@ export function buildCollectionSummary(
   );
 
   const highestDemand = assets.filter(
-    asset => asset.intelligence.collectorDemand >= 5
+    asset => (asset.intelligence?.collectorDemand ?? 0) >= 5
   );
 
   return {
@@ -75,7 +42,11 @@ export function buildCollectionSignals(
       values.reduce((a, b) => a + b, 0) / values.length
     );
 
-  const metrics = collection.assets.map(a => a.intelligence);
+  const metrics = collection.assets
+    .map(a => a.intelligence)
+    .filter((metric): metric is NonNullable<typeof metric> => Boolean(metric));
+
+  if (!metrics.length) return [];
 
   return [
     {

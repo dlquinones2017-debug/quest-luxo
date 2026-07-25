@@ -22,4 +22,5 @@ export interface QuestLuxoAsset {
   questLuxoView?: string;
   intelligence?: IntelligenceMetrics;
   image?: string;
+  imageVerified?: boolean;
 }

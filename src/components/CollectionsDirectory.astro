@@ -2,17 +2,22 @@
 import { brands } from "../data/brands";
 ---
 
-<section class="collections">
+<section class="collections" id="collections">
   <p class="eyebrow">CURATED COLLECTIONS</p>
 
   <h2>Explore the World’s Most Desired Watch Houses</h2>
 
   <div class="grid">
     {brands.map((brand) => (
-      <a href={`/collections/${brand.slug}`} class="card">
+      <a
+        href={`/collections/${brand.slug}`}
+        class="card"
+        data-analytics-event="brand_open"
+        data-analytics-label={brand.slug}
+      >
         <span>{brand.name}</span>
         <p>{brand.tagline}</p>
-        <small>Founded {brand.founded} · {brand.models} collections →</small>
+        <small>Founded {brand.founded} · Explore directory →</small>
       </a>
     ))}
   </div>

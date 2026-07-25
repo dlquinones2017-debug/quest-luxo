@@ -1,31 +1,24 @@
 ---
-const brands = [
-  "Rolex",
-  "Patek Philippe",
-  "Audemars Piguet",
-  "Richard Mille",
-  "Vacheron Constantin",
-  "F.P. Journe",
-  "Cartier",
-  "Omega",
-  "Tudor",
-  "Panerai",
-  "Breitling",
-  "IWC",
-];
 ---
 
 <header class="navbar">
-  <a href="/" class="brand-logo">
-  <img src="/images/quest-luxo-logo.png" alt="Quest Luxo" class="logo" />
+  <a href="/" class="brand-logo" data-analytics-event="navigation" data-analytics-label="home">
+  <img
+    src="/images/quest-luxo-logo.webp"
+    alt="Quest Luxo"
+    class="logo"
+    width="160"
+    height="160"
+    decoding="async"
+  />
 </a>
 
   <nav>
-    <a href="/brands">Collections</a>
-    <a href="/private-sourcing">Private Sourcing</a>
-    <a href="/services">Services</a>
-    <a href="/market-insights">Market Insights</a>
-    <a href="/contact">Contact</a>
+    <a href="/#collections" data-analytics-event="navigation" data-analytics-label="collections">Collections</a>
+    <a href="/contact" data-analytics-event="navigation" data-analytics-label="private-sourcing">Private Sourcing</a>
+    <a href="/#services" data-analytics-event="navigation" data-analytics-label="services">Services</a>
+    <a href="/#collections" data-analytics-event="navigation" data-analytics-label="market-insights">Market Insights</a>
+    <a href="/contact" data-analytics-event="navigation" data-analytics-label="contact">Contact</a>
   </nav>
 </header>
 
