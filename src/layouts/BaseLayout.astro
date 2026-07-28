@@ -8,6 +8,7 @@ interface Props {
   canonicalPath?: string;
   structuredData?: Record<string, unknown> | Record<string, unknown>[];
   robots?: string;
+  socialImagePath?: string;
 }
 
 const {
@@ -16,9 +17,40 @@ const {
   canonicalPath = Astro.url.pathname,
   structuredData,
   robots = "index,follow",
+  socialImagePath = "/images/quest-luxo-logo.webp",
 } = Astro.props as Props;
-const canonicalUrl = new URL(canonicalPath, Astro.site ?? Astro.url.origin);
+const siteUrl = Astro.site ?? Astro.url.origin;
+const canonicalUrl = new URL(canonicalPath, siteUrl);
+const socialImageUrl = new URL(socialImagePath, siteUrl);
 const analyticsPage = canonicalPath === "/" ? "home" : canonicalPath;
+const organizationId = new URL("/#organization", siteUrl).href;
+const baseStructuredData = [
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "@id": organizationId,
+    name: "Quest Luxo",
+    url: new URL("/", siteUrl).href,
+    logo: new URL("/images/quest-luxo-logo.webp", siteUrl).href,
+    email: "contact@questluxo.com",
+    description:
+      "Independent private luxury timepiece advisory and global sourcing.",
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "@id": new URL("/#website", siteUrl).href,
+    name: "Quest Luxo",
+    url: new URL("/", siteUrl).href,
+    publisher: { "@id": organizationId },
+  },
+];
+const pageStructuredData = structuredData
+  ? Array.isArray(structuredData)
+    ? structuredData
+    : [structuredData]
+  : [];
+const completeStructuredData = [...baseStructuredData, ...pageStructuredData];
 ---
 
 <html lang="en">
@@ -28,22 +60,25 @@ const analyticsPage = canonicalPath === "/" ? "home" : canonicalPath;
     <title>{title}</title>
     <meta name="description" content={description} />
     <meta name="robots" content={robots} />
+    <meta name="theme-color" content="#07111f" />
     <link rel="canonical" href={canonicalUrl} />
     <meta property="og:type" content="website" />
+    <meta property="og:locale" content="en_US" />
     <meta property="og:site_name" content="Quest Luxo" />
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
     <meta property="og:url" content={canonicalUrl} />
+    <meta property="og:image" content={socialImageUrl} />
+    <meta property="og:image:alt" content="Quest Luxo" />
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:title" content={title} />
     <meta name="twitter:description" content={description} />
-    {structuredData && (
-      <script
-        type="application/ld+json"
-        is:inline
-        set:html={JSON.stringify(structuredData).replace(/</g, "\\u003c")}
-      />
-    )}
+    <meta name="twitter:image" content={socialImageUrl} />
+    <script
+      type="application/ld+json"
+      is:inline
+      set:html={JSON.stringify(completeStructuredData).replace(/</g, "\\u003c")}
+    />
   </head>
 
   <body data-analytics-page={analyticsPage}>
@@ -57,7 +92,17 @@ const analyticsPage = canonicalPath === "/" ? "home" : canonicalPath;
 <style is:global>
   :root {
     color-scheme: light;
+    --color-navy: #173a5e;
+    --color-ink: #1f2933;
+    --color-muted: #4e5b67;
+    --color-accent: #d4b06a;
+    --color-accent-text: #76540f;
     font-family: Arial, Helvetica, sans-serif;
+    font-synthesis: none;
+  }
+
+  html {
+    text-size-adjust: 100%;
   }
 
   * {
@@ -66,8 +111,22 @@ const analyticsPage = canonicalPath === "/" ? "home" : canonicalPath;
 
   body {
     margin: 0;
-    color: #1f1f1f;
+    color: var(--color-ink);
     background: #ffffff;
+    line-height: 1.5;
+    overflow-wrap: break-word;
+  }
+
+  img,
+  svg {
+    max-width: 100%;
+  }
+
+  button,
+  input,
+  select,
+  textarea {
+    font: inherit;
   }
 
   .skip-link {
@@ -86,7 +145,18 @@ const analyticsPage = canonicalPath === "/" ? "home" : canonicalPath;
   }
 
   :focus-visible {
-    outline: 3px solid #d4b06a;
+    outline: 3px solid #8a682b;
     outline-offset: 3px;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      scroll-behavior: auto !important;
+      transition-duration: 0.01ms !important;
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+    }
   }
 </style>
