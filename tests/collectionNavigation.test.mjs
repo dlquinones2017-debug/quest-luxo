@@ -68,6 +68,23 @@ const waitForServer = async (url, attempts = 50) => {
 const escapeRegExp = (value) =>
   value.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 
+const assertMetadata = (html, route, pageSchema) => {
+  for (const contract of [
+    /<meta name="description" content="[^"]+"/,
+    /<link rel="canonical" href="https?:\/\/[^"]+"/,
+    /<meta property="og:title" content="[^"]+"/,
+    /<meta property="og:description" content="[^"]+"/,
+    /<meta property="og:url" content="https?:\/\/[^"]+"/,
+    /<meta property="og:image" content="https?:\/\/[^"]+"/,
+    /<meta name="twitter:image" content="https?:\/\/[^"]+"/,
+    /"@type":"Organization"/,
+    /"@type":"WebSite"/,
+    new RegExp(`"@type":"${pageSchema}"`),
+  ]) {
+    assert.match(html, contract, `${route} metadata contract`);
+  }
+};
+
 test("collection routes are registry-driven and inherit one shared implementation", async () => {
   const collectionRoute = await readFile(
     join(
@@ -150,15 +167,19 @@ test("production navigation resolves every collection, reference, brand, and lea
 
   const origin = `http://127.0.0.1:${port}`;
   await waitForServer(origin);
+  const renderedPages = new Map();
+  const discoveredRoutes = new Set(["/"]);
 
   for (const brandSlug of brandSlugs) {
     const brandRoute = `/collections/${brandSlug}`;
     const brandResponse = await fetch(`${origin}${brandRoute}`);
     const brandHtml = await brandResponse.text();
+    renderedPages.set(brandRoute, brandHtml);
+    discoveredRoutes.add(brandRoute);
     assert.equal(brandResponse.status, 200, brandRoute);
     assert.match(brandHtml, /data-brand-directory/, brandRoute);
-    assert.match(brandHtml, /rel="canonical"/, brandRoute);
-    assert.match(brandHtml, /application\/ld\+json/, brandRoute);
+    assertMetadata(brandHtml, brandRoute, "CollectionPage");
+    assert.match(brandHtml, /"@type":"BreadcrumbList"/, brandRoute);
 
     const collectionLinks = [
       ...brandHtml.matchAll(
@@ -173,14 +194,16 @@ test("production navigation resolves every collection, reference, brand, and lea
     for (const collectionRoute of new Set(collectionLinks)) {
       const collectionResponse = await fetch(`${origin}${collectionRoute}`);
       const collectionHtml = await collectionResponse.text();
+      renderedPages.set(collectionRoute, collectionHtml);
+      discoveredRoutes.add(collectionRoute);
       assert.equal(collectionResponse.status, 200, collectionRoute);
       assert.match(collectionHtml, /data-collection-experience/, collectionRoute);
       assert.match(collectionHtml, /data-directory-search/, collectionRoute);
       assert.match(collectionHtml, /data-directory-filter="all"/, collectionRoute);
       assert.match(collectionHtml, /data-directory-sort/, collectionRoute);
       assert.match(collectionHtml, /data-analytics-event="begin_quest"/, collectionRoute);
-      assert.match(collectionHtml, /rel="canonical"/, collectionRoute);
-      assert.match(collectionHtml, /application\/ld\+json/, collectionRoute);
+      assertMetadata(collectionHtml, collectionRoute, "CollectionPage");
+      assert.match(collectionHtml, /"@type":"BreadcrumbList"/, collectionRoute);
 
       const referenceLinks = [
         ...collectionHtml.matchAll(
@@ -200,11 +223,13 @@ test("production navigation resolves every collection, reference, brand, and lea
         );
         const referenceResponse = await fetch(`${origin}${referenceRoute}`);
         const referenceHtml = await referenceResponse.text();
+        renderedPages.set(referenceRoute, referenceHtml);
+        discoveredRoutes.add(referenceRoute);
         assert.equal(referenceResponse.status, 200, referenceRoute);
         assert.match(referenceHtml, /data-reference-experience/, referenceRoute);
         assert.match(referenceHtml, /data-analytics-event="begin_quest"/, referenceRoute);
-        assert.match(referenceHtml, /rel="canonical"/, referenceRoute);
-        assert.match(referenceHtml, /application\/ld\+json/, referenceRoute);
+        assertMetadata(referenceHtml, referenceRoute, "Product");
+        assert.match(referenceHtml, /"@type":"BreadcrumbList"/, referenceRoute);
         assert.match(
           referenceHtml,
           /\/images\/watch-reference-placeholder\.svg/,
@@ -216,6 +241,8 @@ test("production navigation resolves every collection, reference, brand, and lea
 
   const homeResponse = await fetch(origin);
   const homeHtml = await homeResponse.text();
+  renderedPages.set("/", homeHtml);
+  assertMetadata(homeHtml, "/", "Organization");
   const homeBrandLinks = [
     ...homeHtml.matchAll(/href="(\/collections\/[^"]+)"/g),
   ].map((match) => match[1]);
@@ -239,6 +266,8 @@ test("production navigation resolves every collection, reference, brand, and lea
     `${origin}/contact?collection=Rolex%20Daytona`
   );
   const contactHtml = await contactResponse.text();
+  renderedPages.set("/contact?collection=Rolex%20Daytona", contactHtml);
+  discoveredRoutes.add("/contact");
   assert.equal(contactResponse.status, 200);
   assert.match(contactHtml, /<title>Begin Your Quest \| Quest Luxo<\/title>/);
   assert.match(contactHtml, /data-contact-intro/);
@@ -270,4 +299,60 @@ test("production navigation resolves every collection, reference, brand, and lea
   const missingHtml = await missingResponse.text();
   assert.equal(missingResponse.status, 404);
   assert.match(missingHtml, /ROUTE NOT FOUND/);
+
+  const robotsResponse = await fetch(`${origin}/robots.txt`);
+  const robots = await robotsResponse.text();
+  assert.equal(robotsResponse.status, 200);
+  assert.match(
+    robotsResponse.headers.get("content-type") ?? "",
+    /text\/plain/
+  );
+  assert.match(robots, /Disallow: \/operations/);
+  assert.match(robots, /Disallow: \/api\//);
+  assert.match(robots, /Sitemap: https?:\/\/.+\/sitemap\.xml/);
+
+  const sitemapResponse = await fetch(`${origin}/sitemap.xml`);
+  const sitemap = await sitemapResponse.text();
+  assert.equal(sitemapResponse.status, 200);
+  assert.match(
+    sitemapResponse.headers.get("content-type") ?? "",
+    /application\/xml/
+  );
+  for (const route of discoveredRoutes) {
+    assert.match(
+      sitemap,
+      new RegExp(
+        `<loc>https?:\\/\\/[^<]+${escapeRegExp(route)}</loc>`
+      ),
+      `${route} appears in the sitemap`
+    );
+  }
+
+  const internalLinks = new Set();
+  for (const html of renderedPages.values()) {
+    for (const match of html.matchAll(/href="([^"]+)"/g)) {
+      const href = match[1].replaceAll("&amp;", "&");
+      if (!href.startsWith("/") || href.startsWith("//") || href.startsWith("/#")) {
+        continue;
+      }
+      internalLinks.add(href.split("#")[0]);
+    }
+  }
+  for (const href of internalLinks) {
+    const response = await fetch(`${origin}${href}`);
+    assert.ok(response.status < 400, `${href} resolves without an error`);
+  }
+
+  for (const legacyBrokerRoute of [
+    "/broker",
+    "/broker-console",
+    "/broker?key=legacy-access-key",
+  ]) {
+    const response = await fetch(`${origin}${legacyBrokerRoute}`);
+    assert.equal(
+      response.status,
+      404,
+      `${legacyBrokerRoute} is not a public authentication surface`
+    );
+  }
 });
