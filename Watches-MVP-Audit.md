@@ -6,7 +6,7 @@
 
 **Branch:** `codex/p0-collection-architecture`
 
-**Scope:** Critical launch-blocker remediation
+**Scope:** Critical and High-priority launch remediation
 **Current decision:** **CONDITIONAL NO-GO — external production and email verification pending**
 
 ## Executive Summary
@@ -29,6 +29,12 @@ Two external release gates cannot be represented as complete by source code:
 
 No Critical source-code blocker remains. The MVP remains a no-go for public
 traffic until both external gates are evidenced and this audit is updated.
+
+All eleven High-priority findings are also complete in repository-controlled
+scope. The public experience now uses one collection architecture, one route
+contract, a shared metadata and structured-data baseline, accessible global
+interaction defaults, optimized launch assets, exhaustive route/link
+regression coverage, and a CI quality gate.
 
 ## Critical Findings
 
@@ -147,6 +153,24 @@ Local production smoke checks returned `403` for cross-origin submission and
 - Regression coverage fails if that source route returns.
 - The dedicated development bundle is absent from the validated build.
 
+## High-Priority Findings
+
+| ID | Finding | Status | Verification |
+| --- | --- | --- | --- |
+| H-01 | Collection activation and route availability | Complete | All 22 watch houses, registered collections, and references resolve from the shared registry. |
+| H-02 | Universal shared collection architecture | Complete | Only the brand, collection, and reference dynamic routes remain; all collections inherit the canonical shared experiences. |
+| H-03 | Shared search, filter, and sorting behavior | Complete | Automated contracts and manual Daytona interaction checks passed. |
+| H-04 | SEO baseline | Complete | Canonicals, descriptions, Open Graph, Twitter images, Organization/WebSite/page schema, breadcrumbs, sitemap, and robots are present and tested. |
+| H-05 | Trust foundation | Complete | About, Contact, Transaction Standards, Privacy, Terms, and the global footer are published and linked. |
+| H-06 | Accessibility contrast and touch targets | Complete | Low-contrast public text tokens were removed; focus, reduced-motion, control sizing, and responsive overflow contracts passed. |
+| H-07 | Global styling foundation | Complete | Shared color, typography, form, image, focus, and motion defaults now govern public layouts. |
+| H-08 | Performance baseline | Complete | The unused 1.39 MB legacy logo was removed; the active logo is under 10 KB and key images declare intrinsic dimensions and loading priority. |
+| H-09 | Route conflicts and legacy navigation | Complete | Production build reports no conflicts; valid legacy URLs redirect to canonical destinations. |
+| H-10 | Route, link, metadata, and browser regression | Complete | Exhaustive production-server traversal, internal-link validation, responsive browser QA, and CI gates passed. |
+| H-11 | Transitional Broker Console authentication | Complete | No public Broker Console or query-key authentication route ships; `/broker`, `/broker-console`, and query-key variants return 404. |
+
+No High-priority source-code launch item remains open.
+
 ## Milestone Validation
 
 ### Milestone 1 — Route and Navigation Integrity
@@ -181,8 +205,8 @@ Local production smoke checks returned `403` for cross-origin submission and
 
 | Check | Result |
 | --- | --- |
-| `astro check` | 111 files; 0 errors, 0 warnings, 0 hints |
-| Full Node test runner | 27 passed, 0 failed |
+| `astro check` | 115 files; 0 errors, 0 warnings, 0 hints |
+| Full Node test runner | 32 passed, 0 failed |
 | `npm run build` | Passed |
 | Build route conflicts | None |
 | Production root | HTTP 200 |
@@ -196,6 +220,16 @@ Local production smoke checks returned `403` for cross-origin submission and
 | Oversized lead request | HTTP 413 |
 | Browser console/hydration errors | None observed |
 | Mobile horizontal overflow at 390 × 844 | None observed |
+| Tablet horizontal overflow at 820 × 1180 | None observed |
+| Daytona search, filter, and sort | Passed |
+| GMT-Master II mobile experience | Passed |
+| Hublot Big Bang tablet and CTA routing | Passed |
+
+## High-Priority Milestone Commits
+
+1. `7a09477` — shared collection navigation and UX hardening.
+2. `8f1e592` — SEO, accessibility, and performance baseline.
+3. `5280534` — exhaustive launch regression and CI quality gates.
 
 ## Remaining Launch Gates
 
