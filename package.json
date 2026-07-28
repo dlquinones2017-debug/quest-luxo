@@ -8,12 +8,20 @@
   "scripts": {
     "dev": "astro dev",
     "build": "astro build",
-    "start:production": "serve dist -l tcp://0.0.0.0:$PORT",
+    "check": "astro check",
+    "start:production": "node ./scripts/start-production.mjs",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "verify:production": "node ./scripts/verify-production-readiness.mjs",
+    "lead-storage": "node ./scripts/lead-storage.mjs"
   },
   "dependencies": {
-    "astro": "^7.0.5",
-    "serve": "^14.2.5"
+    "@astrojs/node": "^11.0.2",
+    "astro": "^7.0.5"
+  },
+  "devDependencies": {
+    "@astrojs/check": "^0.9.9",
+    "@types/node": "^26.1.1",
+    "typescript": "^6.0.3"
   }
 }

@@ -1,8 +1,6 @@
 import type { QuestLuxoAsset } from "../../types/questLuxo";
 
 export interface QuestLuxoCollection {
-  brand: string;
-  collection: string;
   assets: QuestLuxoAsset[];
 }
 

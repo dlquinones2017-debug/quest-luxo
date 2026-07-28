@@ -15,7 +15,6 @@ export const datejustAssets = [
     allocationDifficulty: "Moderate to High",
     questLuxoView:
       "The 126334 is one of the most requested Datejust 41 configurations, especially in blue, black, and Wimbledon dial variants.",
-    image: "/images/rolex/datejust/126334.png",
   },
 
   {
@@ -32,7 +31,6 @@ export const datejustAssets = [
     allocationDifficulty: "Moderate",
     questLuxoView:
       "The 126300 offers a cleaner, more understated Datejust profile with strong everyday wearability.",
-    image: "/images/rolex/datejust/126300.png",
   },
 
   {
@@ -49,7 +47,6 @@ export const datejustAssets = [
     allocationDifficulty: "Moderate",
     questLuxoView:
       "The 126333 represents the classic two-tone Datejust aesthetic with strong appeal among clients seeking traditional Rolex presence.",
-    image: "/images/rolex/datejust/126333.png",
   },
 
   {
@@ -66,7 +63,6 @@ export const datejustAssets = [
     allocationDifficulty: "Moderate",
     questLuxoView:
       "The 126234 preserves the classic 36mm Datejust proportions while offering modern movement, bracelet, and dial configurations.",
-    image: "/images/rolex/datejust/126234.png",
   },
 
   {
@@ -83,6 +79,5 @@ export const datejustAssets = [
     allocationDifficulty: "Moderate",
     questLuxoView:
       "The 126200 is a clean, versatile Datejust 36 suited for clients seeking understated daily wear.",
-    image: "/images/rolex/datejust/126200.png",
   },
 ];

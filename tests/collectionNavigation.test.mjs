@@ -115,7 +115,7 @@ test("collection routes are registry-driven and inherit one shared implementatio
 test("production navigation resolves every collection, reference, brand, and lead route", async (t) => {
   assert.equal(
     packageJson.scripts["start:production"],
-    "serve dist -l tcp://0.0.0.0:$PORT"
+    "node ./scripts/start-production.mjs"
   );
 
   await execFileAsync(
@@ -128,14 +128,19 @@ test("production navigation resolves every collection, reference, brand, and lea
   );
 
   const port = await getAvailablePort();
-  const serveCli = join(repositoryRoot, "node_modules", "serve", "build", "main.js");
+  const serverEntry = join(repositoryRoot, "dist", "server", "entry.mjs");
   const child = spawn(
     process.execPath,
-    [serveCli, "dist", "-l", `tcp://127.0.0.1:${port}`],
+    [serverEntry],
     {
       cwd: repositoryRoot,
       stdio: "ignore",
       windowsHide: true,
+      env: {
+        ...process.env,
+        HOST: "127.0.0.1",
+        PORT: String(port),
+      },
     }
   );
 
@@ -239,23 +244,24 @@ test("production navigation resolves every collection, reference, brand, and lea
   assert.match(contactHtml, /data-contact-intro/);
   assert.match(contactHtml, /data-contact-link/);
 
-  const privateSourcingResponse = await fetch(`${origin}/private-sourcing`);
-  const privateSourcingHtml = await privateSourcingResponse.text();
-  assert.equal(privateSourcingResponse.status, 200);
-  assert.match(privateSourcingHtml, /url=\/contact/);
-  assert.match(
-    privateSourcingHtml,
-    /rel="canonical" href="https:\/\/quest-luxo-production\.onrender\.com\/contact"/
-  );
+  const privateSourcingResponse = await fetch(`${origin}/private-sourcing`, {
+    redirect: "manual",
+  });
+  assert.ok([301, 302, 307, 308].includes(privateSourcingResponse.status));
+  assert.equal(privateSourcingResponse.headers.get("location"), "/contact");
 
   for (const [legacyRoute, target] of [
     ["/services", "/#services"],
     ["/market-insights", "/#collections"],
   ]) {
-    const response = await fetch(`${origin}${legacyRoute}`);
-    const html = await response.text();
-    assert.equal(response.status, 200, legacyRoute);
-    assert.match(html, new RegExp(`url=${escapeRegExp(target)}`), legacyRoute);
+    const response = await fetch(`${origin}${legacyRoute}`, {
+      redirect: "manual",
+    });
+    assert.ok(
+      [301, 302, 307, 308].includes(response.status),
+      `${legacyRoute} returns a redirect`
+    );
+    assert.equal(response.headers.get("location"), target, legacyRoute);
   }
 
   const missingResponse = await fetch(

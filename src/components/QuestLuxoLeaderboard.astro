@@ -1,14 +1,23 @@
 ---
 import type { RankedLuxuryAsset } from "../lib/intelligence/questLuxoRankings";
+import { referencePath } from "../lib/routes/collectionRoutes";
 
 interface Props {
   title: string;
   subtitle: string;
   items: RankedLuxuryAsset<any>[];
   scoreLabel?: string;
+  basePath: string;
 }
 
-const { title, subtitle, items, scoreLabel = "Score" } = Astro.props;
+const {
+  title,
+  subtitle,
+  items,
+  scoreLabel = "Score",
+  basePath,
+} = Astro.props;
+const [, , brandSlug = "", collectionSlug = ""] = basePath.split("/");
 ---
 
 <section class="leaderboard">
@@ -22,7 +31,7 @@ const { title, subtitle, items, scoreLabel = "Score" } = Astro.props;
     {items.map((item) => (
       <a
         class="ranking-card"
-        href={`/collections/rolex/submariner/${item.asset.reference.toLowerCase()}`}
+        href={referencePath(brandSlug, collectionSlug, item.asset.reference)}
       >
         <div class="rank">#{item.rank}</div>
 

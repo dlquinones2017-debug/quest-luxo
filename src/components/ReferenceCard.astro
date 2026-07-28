@@ -38,11 +38,18 @@ const formatUSD = (value?: number | null) => {
   <div class="image-card">
     {asset.image ? (
       <>
-        <img src={asset.image} alt={imageAlt} loading="lazy" decoding="async" />
-        <span class="image-fallback">Image Pending</span>
+        <img
+          src={asset.image}
+          alt={imageAlt}
+          width="960"
+          height="960"
+          loading="lazy"
+          decoding="async"
+        />
+        <span class="image-fallback">Reference illustration</span>
       </>
     ) : (
-      <span>Image Pending</span>
+      <span>Reference illustration</span>
     )}
 
     <div class="badges">

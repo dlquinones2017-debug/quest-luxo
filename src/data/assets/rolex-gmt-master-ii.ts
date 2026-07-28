@@ -28,7 +28,6 @@ export const gmtMasterIIAssets = [
       allocationDifficulty: 5,
       versatility: 5,
     },
-    image: "/images/rolex/gmt-master-ii/126710BLRO.png",
   },
 
   {
@@ -60,7 +59,6 @@ export const gmtMasterIIAssets = [
       allocationDifficulty: 5,
       versatility: 5,
     },
-    image: "/images/rolex/gmt-master-ii/126710BLNR.png",
   },
 
   {
@@ -92,7 +90,6 @@ export const gmtMasterIIAssets = [
       allocationDifficulty: 5,
       versatility: 4,
     },
-    image: "/images/rolex/gmt-master-ii/126720VTNR.png",
   },
 
   {
@@ -124,7 +121,6 @@ export const gmtMasterIIAssets = [
       allocationDifficulty: 4,
       versatility: 4,
     },
-    image: "/images/rolex/gmt-master-ii/126713GRNR.png",
   },
 
   {
@@ -156,7 +152,6 @@ export const gmtMasterIIAssets = [
       allocationDifficulty: 4,
       versatility: 3,
     },
-    image: "/images/rolex/gmt-master-ii/126718GRNR.png",
   },
 
   {
@@ -188,7 +183,6 @@ export const gmtMasterIIAssets = [
       allocationDifficulty: 4,
       versatility: 4,
     },
-    image: "/images/rolex/gmt-master-ii/126719BLRO.png",
   },
 
   {
@@ -221,7 +215,6 @@ export const gmtMasterIIAssets = [
       allocationDifficulty: 5,
       versatility: 5,
     },
-    image: "/images/rolex/gmt-master-ii/116710BLNR.png",
   },
 
   {
@@ -254,6 +247,5 @@ export const gmtMasterIIAssets = [
       allocationDifficulty: 4,
       versatility: 5,
     },
-    image: "/images/rolex/gmt-master-ii/116710LN.png",
   },
 ];

@@ -21,7 +21,6 @@ export const submarinerAssets = [
       allocationDifficulty: 5,
       versatility: 5,
     },
-    image: "/images/rolex/submariner/126610LN.png",
   },
 
   {
@@ -46,7 +45,6 @@ export const submarinerAssets = [
       allocationDifficulty: 5,
       versatility: 5,
     },
-    image: "/images/rolex/submariner/126610LV.png",
   },
 
   {
@@ -71,7 +69,6 @@ export const submarinerAssets = [
       allocationDifficulty: 5,
       versatility: 5,
     },
-    image: "/images/rolex/submariner/124060.png",
   },
 
   {
@@ -97,7 +94,6 @@ export const submarinerAssets = [
       allocationDifficulty: 5,
       versatility: 4,
     },
-    image: "/images/rolex/submariner/116610LV.png",
   },
 
   {
@@ -122,7 +118,6 @@ export const submarinerAssets = [
       allocationDifficulty: 4,
       versatility: 4,
     },
-    image: "/images/rolex/submariner/126619LB.png",
   },
 
   {
@@ -147,6 +142,5 @@ export const submarinerAssets = [
       allocationDifficulty: 3,
       versatility: 4,
     },
-    image: "/images/rolex/submariner/126613LB.png",
   },
 ];

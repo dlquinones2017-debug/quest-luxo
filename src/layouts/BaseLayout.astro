@@ -1,5 +1,6 @@
 ---
 import Navbar from "../components/Navbar.astro";
+import Footer from "../components/Footer.astro";
 
 interface Props {
   title?: string;
@@ -39,6 +40,7 @@ const analyticsPage = canonicalPath === "/" ? "home" : canonicalPath;
     {structuredData && (
       <script
         type="application/ld+json"
+        is:inline
         set:html={JSON.stringify(structuredData).replace(/</g, "\\u003c")}
       />
     )}
@@ -48,6 +50,7 @@ const analyticsPage = canonicalPath === "/" ? "home" : canonicalPath;
     <a class="skip-link" href="#main-content">Skip to main content</a>
     <Navbar />
     <slot />
+    <Footer />
   </body>
 </html>
 
