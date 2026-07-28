@@ -94,10 +94,18 @@ const structuredData = [
       <div class="image-card">
         {asset.image ? (
           <>
-            <img src={asset.image} alt={imageAlt} loading="eager" decoding="async" />
-            <span class="image-fallback">Image Pending</span>
+            <img
+              src={asset.image}
+              alt={imageAlt}
+              width="960"
+              height="960"
+              loading="eager"
+              decoding="async"
+              fetchpriority="high"
+            />
+            <span class="image-fallback">Reference illustration</span>
           </>
-        ) : <span>Image Pending</span>}
+        ) : <span>Reference illustration</span>}
       </div>
 
       <div class="details">

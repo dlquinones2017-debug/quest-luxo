@@ -1,5 +1,6 @@
 ---
 import { brands } from "../data/brands";
+import { brandPath } from "../lib/routes/collectionRoutes";
 ---
 
 <section class="collections" id="collections">
@@ -10,7 +11,7 @@ import { brands } from "../data/brands";
   <div class="grid">
     {brands.map((brand) => (
       <a
-        href={`/collections/${brand.slug}`}
+        href={brandPath(brand.slug)}
         class="card"
         data-analytics-event="brand_open"
         data-analytics-label={brand.slug}

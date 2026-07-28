@@ -2,23 +2,44 @@
 ---
 
 <header class="navbar">
-  <a href="/" class="brand-logo" data-analytics-event="navigation" data-analytics-label="home">
-  <img
-    src="/images/quest-luxo-logo.webp"
-    alt="Quest Luxo"
-    class="logo"
-    width="160"
-    height="160"
-    decoding="async"
-  />
-</a>
+  <a
+    href="/"
+    class="brand-logo"
+    data-analytics-event="navigation"
+    data-analytics-label="home"
+  >
+    <img
+      src="/images/quest-luxo-logo.webp"
+      alt="Quest Luxo"
+      class="logo"
+      width="160"
+      height="160"
+      decoding="async"
+      fetchpriority="high"
+    />
+  </a>
 
-  <nav>
-    <a href="/#collections" data-analytics-event="navigation" data-analytics-label="collections">Collections</a>
-    <a href="/contact" data-analytics-event="navigation" data-analytics-label="private-sourcing">Private Sourcing</a>
-    <a href="/#services" data-analytics-event="navigation" data-analytics-label="services">Services</a>
-    <a href="/#collections" data-analytics-event="navigation" data-analytics-label="market-insights">Market Insights</a>
-    <a href="/contact" data-analytics-event="navigation" data-analytics-label="contact">Contact</a>
+  <nav aria-label="Primary navigation">
+    <a href="/#collections" data-analytics-event="navigation" data-analytics-label="collections">
+      Collections
+    </a>
+    <a href="/about" data-analytics-event="navigation" data-analytics-label="about">
+      About
+    </a>
+    <a
+      href="/transaction-standards"
+      data-analytics-event="navigation"
+      data-analytics-label="transaction-standards"
+    >
+      Standards
+    </a>
+    <a
+      href="/contact"
+      data-analytics-event="navigation"
+      data-analytics-label="private-sourcing"
+    >
+      Private Sourcing
+    </a>
   </nav>
 </header>
 
@@ -30,16 +51,18 @@
     align-items: center;
     background: #ffffff;
     border-bottom: 1px solid #ececec;
-  }.brand-logo {
-  display: flex;
-  align-items: center;
-}
+  }
 
-.logo {
-  height: 60px;
-  width: auto;
-  display: block;
-}
+  .brand-logo {
+    display: flex;
+    align-items: center;
+  }
+
+  .logo {
+    height: 60px;
+    width: 60px;
+    display: block;
+  }
 
   .brand {
     font-family: Georgia, serif;
@@ -55,13 +78,16 @@
   }
 
   nav a {
+    display: inline-flex;
+    align-items: center;
+    min-height: 44px;
     color: #1f1f1f;
     text-decoration: none;
     font-size: 15px;
   }
 
   nav a:hover {
-    color: #d4b06a;
+    color: #76540f;
   }
 
   @media (max-width: 800px) {
@@ -74,7 +100,7 @@
     nav {
       flex-wrap: wrap;
       justify-content: center;
-      gap: 16px;
+      gap: 8px 16px;
     }
   }
 </style>
