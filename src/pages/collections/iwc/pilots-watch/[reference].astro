@@ -1,0 +1,7 @@
+---
+import ReferenceFactory from "../../../../components/ReferenceFactory.astro";
+import { iwcPilotsWatchLaunchAssets } from "../../../../data/iwc-intelligence";
+import { normalizeReferenceSlug } from "../../../../lib/factory/referenceGenerator";
+export function getStaticPaths() { return iwcPilotsWatchLaunchAssets.map((asset) => ({ params: { reference: normalizeReferenceSlug(asset.reference) } })); }
+---
+<ReferenceFactory brand="IWC" collection="Pilot's Watch" assets={iwcPilotsWatchLaunchAssets} basePath="/collections/iwc/pilots-watch" showBrokerageCTA={true} />

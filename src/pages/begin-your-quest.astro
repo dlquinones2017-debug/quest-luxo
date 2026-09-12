@@ -1,0 +1,474 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+---
+
+<BaseLayout title="Begin Your Quest | Quest Luxo">
+  <main class="quest-page">
+    <section class="hero">
+      <p class="eyebrow">Private Sourcing</p>
+      <h1>Begin Your Quest</h1>
+      <p>
+        Tell Quest Luxo what you want sourced. We will perform a market check,
+        review availability through our dealer network, and provide guidance on
+        pricing, timing, and next steps.
+      </p>
+    </section>
+
+    <section class="form-panel">
+      <section
+        class="context-panel"
+        data-brokerage-context
+        hidden
+        aria-live="polite"
+      >
+        <p class="eyebrow">Brokerage Context</p>
+        <p data-brokerage-message></p>
+      </section>
+
+      <form class="lead-form" data-lead-capture-form novalidate>
+        <div class="form-intro">
+          <p class="eyebrow">Brokerage Intake</p>
+          <h2>Tell us where to begin.</h2>
+          <p>
+            Share the essentials and a Quest Luxo broker will use this frontend
+            intake preview to understand the request.
+          </p>
+        </div>
+
+        <div class="form-grid">
+          <label>
+            Full Name <span>*</span>
+            <input
+              type="text"
+              name="name"
+              placeholder="Your full name"
+              autocomplete="name"
+              required
+            />
+          </label>
+
+          <label>
+            Email <span>*</span>
+            <input
+              type="email"
+              name="email"
+              placeholder="you@example.com"
+              autocomplete="email"
+              required
+            />
+          </label>
+
+          <label>
+            Phone
+            <input
+              type="tel"
+              name="phone"
+              placeholder="Your phone number"
+              autocomplete="tel"
+            />
+          </label>
+
+          <label>
+            Desired Watch
+            <input
+              type="text"
+              name="desiredWatch"
+              placeholder="Example: Omega Speedmaster Silver Snoopy"
+            />
+          </label>
+
+          <label>
+            Budget Range
+            <select name="budget">
+              <option value="">Select a budget range</option>
+              <option>Under $10,000</option>
+              <option>$10k&ndash;20k</option>
+              <option>$20k&ndash;50k</option>
+              <option>$50k&ndash;100k</option>
+              <option>$100k+</option>
+              <option>Prefer not to say</option>
+            </select>
+          </label>
+
+          <label>
+            Timeline
+            <select name="timeline">
+              <option value="">Select a timeline</option>
+              <option>Immediately</option>
+              <option>Within 30 days</option>
+              <option>1&ndash;3 months</option>
+              <option>3&ndash;6 months</option>
+              <option>Just researching</option>
+            </select>
+          </label>
+        </div>
+
+        <label>
+          Message
+          <textarea
+            name="message"
+            placeholder="Condition, box/papers, trade details, preferred configuration, valuation notes, or anything else we should know."
+          ></textarea>
+        </label>
+
+        <p class="form-message form-message--error" data-lead-error hidden></p>
+        <p class="form-message form-message--success" data-lead-success hidden></p>
+
+        <button type="submit" data-lead-submit>Begin My Quest</button>
+      </form>
+    </section>
+  </main>
+</BaseLayout>
+
+<style>
+  .quest-page {
+    background: #07111f;
+    color: #ffffff;
+    min-height: 100vh;
+  }
+
+  .hero {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 110px 24px 48px;
+  }
+
+  .eyebrow {
+    color: #d4b06a;
+    font-size: 13px;
+    font-weight: 800;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    margin: 0 0 18px;
+  }
+
+  h1 {
+    font-size: clamp(54px, 9vw, 108px);
+    line-height: 0.92;
+    margin: 0 0 28px;
+  }
+
+  h2 {
+    color: #173a5e;
+    font-size: clamp(32px, 5vw, 54px);
+    line-height: 1;
+    margin: 0 0 18px;
+  }
+
+  .hero p {
+    max-width: 760px;
+    color: rgba(255, 255, 255, 0.74);
+    font-size: 20px;
+    line-height: 1.7;
+  }
+
+  .form-panel {
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 0 24px 100px;
+  }
+
+  .context-panel {
+    margin: 0 0 24px;
+    padding: 24px;
+    border: 1px solid rgba(212, 176, 106, 0.34);
+    background: rgba(255, 255, 255, 0.055);
+  }
+
+  .context-panel[hidden] {
+    display: none;
+  }
+
+  .context-panel p:last-child {
+    color: rgba(255, 255, 255, 0.82);
+    font-size: 20px;
+    line-height: 1.6;
+    margin: 0;
+  }
+
+  .lead-form {
+    background: #faf9f7;
+    color: #173a5e;
+    border: 1px solid #e8e3d8;
+    padding: 36px;
+    display: grid;
+    gap: 22px;
+  }
+
+  .form-intro {
+    max-width: 720px;
+  }
+
+  .form-intro p:last-child {
+    color: #4e5661;
+    font-size: 18px;
+    line-height: 1.7;
+    margin: 0;
+  }
+
+  .form-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 18px;
+  }
+
+  label {
+    display: grid;
+    gap: 8px;
+    font-weight: 800;
+  }
+
+  label span {
+    color: #b18b3f;
+  }
+
+  input,
+  select,
+  textarea {
+    width: 100%;
+    border: 1px solid #d8d1c3;
+    background: #ffffff;
+    color: #173a5e;
+    padding: 14px;
+    font: inherit;
+  }
+
+  input:focus,
+  select:focus,
+  textarea:focus {
+    border-color: #d4b06a;
+    outline: 2px solid rgba(212, 176, 106, 0.22);
+  }
+
+  textarea {
+    min-height: 150px;
+    resize: vertical;
+  }
+
+  .form-message {
+    border: 1px solid;
+    line-height: 1.55;
+    margin: 0;
+    padding: 14px 16px;
+  }
+
+  .form-message[hidden] {
+    display: none;
+  }
+
+  .form-message--error {
+    background: #fff3f0;
+    border-color: #d9a092;
+    color: #7b2417;
+  }
+
+  .form-message--success {
+    background: #f3f8ef;
+    border-color: #a7c58d;
+    color: #31501e;
+  }
+
+  button {
+    background: #d4b06a;
+    color: #07111f;
+    border: 0;
+    padding: 16px 22px;
+    font-weight: 900;
+    cursor: pointer;
+  }
+
+  button:hover,
+  button:focus-visible {
+    background: #c6a05b;
+    outline: none;
+  }
+
+  button:disabled {
+    cursor: wait;
+    opacity: 0.72;
+  }
+
+  @media (max-width: 760px) {
+    .hero {
+      padding-top: 76px;
+    }
+
+    .lead-form {
+      padding: 26px;
+    }
+
+    .form-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>
+
+<script>
+  import {
+    createLeadContextSummary,
+    createLeadIntakeContext,
+    hasMeaningfulLeadContext,
+  } from "../lib/leads/leadIntakeContext";
+  import {
+    createLeadCapturePayload,
+    hasRequiredLeadContactFields,
+  } from "../lib/leads/leadCapture";
+
+  const contextPanel = document.querySelector<HTMLElement>(
+    "[data-brokerage-context]"
+  );
+  const messageTarget = document.querySelector<HTMLElement>(
+    "[data-brokerage-message]"
+  );
+  const form = document.querySelector<HTMLFormElement>(
+    "[data-lead-capture-form]"
+  );
+  const errorTarget = document.querySelector<HTMLElement>("[data-lead-error]");
+  const successTarget =
+    document.querySelector<HTMLElement>("[data-lead-success]");
+  const submitButton =
+    document.querySelector<HTMLButtonElement>("[data-lead-submit]");
+  const defaultSubmitText = submitButton?.textContent || "Begin My Quest";
+
+  const params = new URLSearchParams(window.location.search);
+  const leadContext = createLeadIntakeContext({
+    intent: params.get("intent"),
+    brand: params.get("brand"),
+    collection: params.get("collection"),
+    reference: params.get("reference"),
+  });
+
+  const hasContext = hasMeaningfulLeadContext(leadContext);
+  const message = hasContext ? createLeadContextSummary(leadContext) : "";
+
+  if (contextPanel && messageTarget && hasContext && message) {
+    messageTarget.textContent = message;
+    contextPanel.hidden = false;
+  }
+
+  const getFormValue = (formData: FormData, fieldName: string): string => {
+    const value = formData.get(fieldName);
+
+    return typeof value === "string" ? value : "";
+  };
+
+  const setSubmitting = (isSubmitting: boolean): void => {
+    if (!submitButton) return;
+
+    submitButton.disabled = isSubmitting;
+    submitButton.textContent = isSubmitting
+      ? "Submitting..."
+      : defaultSubmitText;
+  };
+
+  const showError = (message: string): void => {
+    if (successTarget) {
+      successTarget.hidden = true;
+    }
+
+    if (errorTarget) {
+      errorTarget.textContent = message;
+      errorTarget.hidden = false;
+    }
+  };
+
+  const showSuccess = (message: string): void => {
+    if (errorTarget) {
+      errorTarget.hidden = true;
+    }
+
+    if (successTarget) {
+      successTarget.textContent = message;
+      successTarget.hidden = false;
+    }
+  };
+
+  const parseJsonResponse = async (response: Response): Promise<unknown> => {
+    try {
+      return await response.json();
+    } catch {
+      return {};
+    }
+  };
+
+  const isResponseRecord = (value: unknown): value is Record<string, unknown> =>
+    typeof value === "object" && value !== null;
+
+  const getResponseError = (responseBody: unknown): string => {
+    if (
+      isResponseRecord(responseBody) &&
+      "error" in responseBody &&
+      typeof responseBody.error === "string"
+    ) {
+      return responseBody.error;
+    }
+
+    return "We could not submit your request. Please try again.";
+  };
+
+  const hasSuccessfulResponse = (responseBody: unknown): boolean =>
+    Boolean(
+      isResponseRecord(responseBody) &&
+        "success" in responseBody &&
+        responseBody.success === true
+    );
+
+  if (form) {
+    form.addEventListener("submit", async (event) => {
+      event.preventDefault();
+
+      const formData = new FormData(form);
+      const payload = createLeadCapturePayload({
+        name: getFormValue(formData, "name"),
+        email: getFormValue(formData, "email"),
+        phone: getFormValue(formData, "phone"),
+        intent: leadContext.intent,
+        brand: leadContext.brand,
+        collection: leadContext.collection,
+        reference: leadContext.reference,
+        desiredWatch: getFormValue(formData, "desiredWatch"),
+        budget: getFormValue(formData, "budget"),
+        timeline: getFormValue(formData, "timeline"),
+        message: getFormValue(formData, "message"),
+        source: "begin-your-quest",
+      });
+
+      if (!hasRequiredLeadContactFields(payload)) {
+        showError(
+          "Please enter your full name and a valid email before beginning your quest."
+        );
+
+        return;
+      }
+
+      setSubmitting(true);
+
+      try {
+        const response = await fetch("/api/leads/submit", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify(payload),
+        });
+        const responseBody = await parseJsonResponse(response);
+
+        if (!response.ok || !hasSuccessfulResponse(responseBody)) {
+          throw new Error(getResponseError(responseBody));
+        }
+
+        showSuccess(
+          "Your Quest Luxo lead has been submitted. A broker will review the request."
+        );
+      } catch (error) {
+        showError(
+          error instanceof Error
+            ? error.message
+            : "We could not submit your request. Please try again."
+        );
+      } finally {
+        setSubmitting(false);
+      }
+    });
+  }
+</script>

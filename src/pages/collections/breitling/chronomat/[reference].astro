@@ -1,0 +1,7 @@
+---
+import ReferenceFactory from "../../../../components/ReferenceFactory.astro";
+import { breitlingChronomatLaunchAssets } from "../../../../data/breitling-intelligence";
+import { normalizeReferenceSlug } from "../../../../lib/factory/referenceGenerator";
+export function getStaticPaths() { return breitlingChronomatLaunchAssets.map((asset) => ({ params: { reference: normalizeReferenceSlug(asset.reference) } })); }
+---
+<ReferenceFactory brand="Breitling" collection="Chronomat" assets={breitlingChronomatLaunchAssets} basePath="/collections/breitling/chronomat" showBrokerageCTA={true} />

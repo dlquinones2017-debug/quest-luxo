@@ -1,0 +1,35 @@
+---
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import BrokerageCTA from "../../../components/BrokerageCTA.astro";
+import BrokerageIntelligenceSection from "../../../components/BrokerageIntelligenceSection.astro";
+import { omegaSeamasterDiver300MIntelligence, omegaSeamasterLaunchAssets } from "../../../data/omega-intelligence";
+import { buildReferencePath } from "../../../lib/factory/referenceGenerator";
+import { getExpansionReferences } from "../../../data/reference-expansion";
+import { getCollectionLaunchQualityProfile } from "../../../data/collection-launch-quality";
+
+const asset = omegaSeamasterLaunchAssets[0];
+if (!asset) throw new Error("Omega Seamaster Diver 300M launch asset is missing.");
+const references = [...getExpansionReferences("omega", "seamaster"), ...omegaSeamasterLaunchAssets];
+const launchQuality = getCollectionLaunchQualityProfile("omega", "seamaster");
+const intelligenceItems = [
+  { title:"Collection Overview",body:launchQuality.overview },{ title:"Historical Background",body:launchQuality.historicalBackground },
+  { title:"Current Production Status",body:launchQuality.currentProductionStatus },{ title:"Market Demand",body:launchQuality.marketDemand },
+  { title:"Liquidity",label:omegaSeamasterDiver300MIntelligence.liquidityBand,body:launchQuality.liquidity },{ title:"Collector Profile",body:launchQuality.collectorProfile },
+  { title:"Investment Considerations",body:launchQuality.investmentConsiderations },{ title:"Buying Recommendations",body:launchQuality.buyingRecommendations },
+  { title:"Common Configurations",body:launchQuality.commonConfigurations },{ title:"Typical Price Tiers",body:launchQuality.typicalPriceTiers },
+  { title:"Brokerage Considerations",body:launchQuality.brokerageConsiderations },{ title:"Quest Luxo Market Perspective",body:launchQuality.perspective },
+];
+---
+
+<BaseLayout title="Omega Seamaster Diver 300M | Quest Luxo">
+  <main class="collection-page">
+    <section class="hero"><p class="eyebrow">Omega Brokerage Intelligence</p><h1>Omega Seamaster Diver 300M</h1><p>Focused launch coverage for the black-dial steel 210.30.42.20.01.001 and its ownership, condition, service, and transaction decisions.</p></section>
+    <BrokerageIntelligenceSection eyebrow="Seamaster Diver 300M Intelligence" title="Launch-quality collection guidance" intro="Collection context is separated from the exact generation, configuration, condition, service state, and transaction evidence of an individual watch." items={intelligenceItems} reviewedAt={launchQuality.reviewedAt} evidenceSources={omegaSeamasterDiver300MIntelligence.evidenceSources} />
+    <section class="priority-reference"><p class="eyebrow">Flagship References</p><div class="reference-grid">{references.map((reference) => <a href={buildReferencePath("omega", "seamaster", reference.reference)} class="reference-card"><span>{reference.productionStatus} · {reference.liquidity} Liquidity</span><h2>Omega {reference.reference}</h2><p>{reference.questLuxoView}</p><strong>View Brokerage Intelligence</strong></a>)}</div></section>
+    <BrokerageCTA brand="Omega" collection="Seamaster Diver 300M" headline="Looking for a Seamaster Diver 300M?" description="Source, sell, trade, or value a Diver 300M with exact context preserved for Quest Luxo brokerage." />
+  </main>
+</BaseLayout>
+
+<style>
+  .collection-page{background:#07111f;color:#fff;min-height:100vh}.hero,.priority-reference{max-width:1180px;margin:0 auto;padding-left:24px;padding-right:24px}.hero{padding-top:96px;padding-bottom:56px}.eyebrow{color:#d4b06a;font-size:13px;font-weight:800;letter-spacing:.18em;text-transform:uppercase;margin:0 0 14px}h1{font-size:clamp(48px,8vw,96px);line-height:.95;margin:0 0 24px}h2{font-size:clamp(30px,4vw,48px);margin:14px 0 18px}.hero p:not(.eyebrow),.reference-card p{max-width:760px;color:rgba(255,255,255,.72);font-size:18px;line-height:1.7}.priority-reference{padding-top:64px;padding-bottom:92px}.reference-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}.reference-card{display:flex;flex-direction:column;min-height:300px;border:1px solid rgba(255,255,255,.12);background:rgba(255,255,255,.05);color:#fff;padding:28px;text-decoration:none}.reference-card:hover{border-color:#d4b06a}.reference-card>span,.reference-card>strong{color:#d4b06a;font-size:12px;font-weight:900;letter-spacing:.12em;text-transform:uppercase}.reference-card>strong{margin-top:auto}@media(max-width:700px){.reference-grid{grid-template-columns:1fr}}@media(max-width:640px){.hero{padding-top:64px}}
+</style>

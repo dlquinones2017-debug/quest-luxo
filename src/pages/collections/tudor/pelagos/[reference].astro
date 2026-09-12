@@ -1,0 +1,7 @@
+---
+import ReferenceFactory from "../../../../components/ReferenceFactory.astro";
+import { tudorPelagosLaunchAssets } from "../../../../data/tudor-intelligence";
+import { normalizeReferenceSlug } from "../../../../lib/factory/referenceGenerator";
+export function getStaticPaths() { return tudorPelagosLaunchAssets.map((asset) => ({ params: { reference: normalizeReferenceSlug(asset.reference) } })); }
+---
+<ReferenceFactory brand="Tudor" collection="Pelagos" assets={tudorPelagosLaunchAssets} basePath="/collections/tudor/pelagos" showBrokerageCTA={true} />

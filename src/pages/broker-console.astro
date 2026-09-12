@@ -1,0 +1,4504 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { validateBrokerConsoleAccess } from "../lib/broker/brokerAuth";
+
+const brokerAuth = validateBrokerConsoleAccess(Astro.request);
+const isBrokerConsoleLocked = !brokerAuth.allowed;
+---
+
+<BaseLayout title="Broker Console MVP | Quest Luxo">
+  <main
+    class="console-page"
+    data-broker-console
+    data-broker-auth-configured={brokerAuth.configured ? "true" : "false"}
+    data-broker-auth-allowed={brokerAuth.allowed ? "true" : "false"}
+  >
+    <section class="console-shell">
+      <header class="console-header">
+        <div>
+          <p class="eyebrow">Internal Console</p>
+          <h1>Broker Leads</h1>
+          <p>
+            Private lead desk for locally persisted Begin Your Quest submissions.
+          </p>
+        </div>
+
+        <div class="summary-card" aria-live="polite">
+          <span data-lead-count>0</span>
+          <p>Saved Leads</p>
+        </div>
+      </header>
+
+      <section
+        class="state-panel state-panel--locked"
+        data-locked-state
+        hidden={!isBrokerConsoleLocked}
+      >
+        <p class="eyebrow">Locked</p>
+        <h2>Broker Console access key required.</h2>
+        <p data-locked-message>
+          Open this internal console with a valid access key in the URL.
+        </p>
+      </section>
+
+      <section
+        class="state-panel"
+        data-loading-state
+        aria-live="polite"
+        hidden={isBrokerConsoleLocked}
+      >
+        <p class="eyebrow">Loading</p>
+        <h2>Reading lead submissions...</h2>
+      </section>
+
+      <section class="state-panel" data-empty-state hidden>
+        <p class="eyebrow">Empty</p>
+        <h2>No saved leads yet.</h2>
+        <p>New valid brokerage submissions will appear here after they are saved.</p>
+      </section>
+
+      <section class="state-panel state-panel--error" data-error-state hidden>
+        <p class="eyebrow">Error</p>
+        <h2>Unable to load broker leads.</h2>
+        <p data-error-message>
+          Refresh the console or check the server logs for the broker leads API.
+        </p>
+      </section>
+
+      <section
+        class="brokerage-economics-anchor"
+        data-brokerage-economics-anchor
+        hidden={isBrokerConsoleLocked}
+      ></section>
+
+      <section class="lead-board" data-lead-board hidden>
+        <div class="board-heading">
+          <p class="eyebrow">Newest First</p>
+          <h2>Persisted Leads</h2>
+        </div>
+
+        <section class="metrics-panel" aria-label="Brokerage pipeline metrics">
+          <div class="metrics-group">
+            <div class="metrics-heading">
+              <p class="eyebrow">All Leads</p>
+              <h3>Pipeline Totals</h3>
+            </div>
+
+            <div class="metrics-grid">
+              <div class="metric-card">
+                <span data-metric-scope="all" data-metric-count="total">0</span>
+                <p>Total</p>
+              </div>
+              <div class="metric-card">
+                <span data-metric-scope="all" data-metric-count="new">0</span>
+                <p>New</p>
+              </div>
+              <div class="metric-card">
+                <span data-metric-scope="all" data-metric-count="contacted">0</span>
+                <p>Contacted</p>
+              </div>
+              <div class="metric-card">
+                <span data-metric-scope="all" data-metric-count="sourcing">0</span>
+                <p>Sourcing</p>
+              </div>
+              <div class="metric-card">
+                <span data-metric-scope="all" data-metric-count="offer-sent">0</span>
+                <p>Offer Sent</p>
+              </div>
+              <div class="metric-card">
+                <span data-metric-scope="all" data-metric-count="closed">0</span>
+                <p>Closed</p>
+              </div>
+              <div class="metric-card">
+                <span data-metric-scope="all" data-metric-count="lost">0</span>
+                <p>Lost</p>
+              </div>
+              <div class="metric-card metric-card--delivery">
+                <span data-metric-scope="all" data-metric-count="email-sent">0</span>
+                <p>Email Sent</p>
+              </div>
+              <div class="metric-card metric-card--delivery">
+                <span data-metric-scope="all" data-metric-count="email-skipped">0</span>
+                <p>Email Skipped</p>
+              </div>
+              <div class="metric-card metric-card--delivery">
+                <span data-metric-scope="all" data-metric-count="email-failed">0</span>
+                <p>Email Failed</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="metrics-group">
+            <div class="metrics-heading">
+              <p class="eyebrow">Filtered Results</p>
+              <h3>Current View</h3>
+            </div>
+
+            <div class="metrics-grid">
+              <div class="metric-card">
+                <span data-metric-scope="filtered" data-metric-count="total">0</span>
+                <p>Total</p>
+              </div>
+              <div class="metric-card">
+                <span data-metric-scope="filtered" data-metric-count="new">0</span>
+                <p>New</p>
+              </div>
+              <div class="metric-card">
+                <span data-metric-scope="filtered" data-metric-count="contacted">0</span>
+                <p>Contacted</p>
+              </div>
+              <div class="metric-card">
+                <span data-metric-scope="filtered" data-metric-count="sourcing">0</span>
+                <p>Sourcing</p>
+              </div>
+              <div class="metric-card">
+                <span data-metric-scope="filtered" data-metric-count="offer-sent">0</span>
+                <p>Offer Sent</p>
+              </div>
+              <div class="metric-card">
+                <span data-metric-scope="filtered" data-metric-count="closed">0</span>
+                <p>Closed</p>
+              </div>
+              <div class="metric-card">
+                <span data-metric-scope="filtered" data-metric-count="lost">0</span>
+                <p>Lost</p>
+              </div>
+              <div class="metric-card metric-card--delivery">
+                <span data-metric-scope="filtered" data-metric-count="email-sent">0</span>
+                <p>Email Sent</p>
+              </div>
+              <div class="metric-card metric-card--delivery">
+                <span data-metric-scope="filtered" data-metric-count="email-skipped">0</span>
+                <p>Email Skipped</p>
+              </div>
+              <div class="metric-card metric-card--delivery">
+                <span data-metric-scope="filtered" data-metric-count="email-failed">0</span>
+                <p>Email Failed</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section
+          class="economics-coverage"
+          aria-label="Economics coverage summary"
+        >
+          <div class="metrics-heading">
+            <div>
+              <p class="eyebrow">Latest Saved Analysis</p>
+              <h3>Economics Coverage</h3>
+            </div>
+          </div>
+
+          <div class="economics-coverage-grid">
+            <div class="metric-card">
+              <span data-economics-coverage-count="total">0</span>
+              <p>Total Leads</p>
+            </div>
+            <div class="metric-card">
+              <span data-economics-coverage-count="current-risk-guidance">0</span>
+              <p>Current Risk Guidance</p>
+            </div>
+            <div class="metric-card">
+              <span data-economics-coverage-count="not-analyzed">0</span>
+              <p>Not Analyzed</p>
+            </div>
+            <div class="metric-card">
+              <span data-economics-coverage-count="legacy-analysis">0</span>
+              <p>Legacy Analysis</p>
+            </div>
+            <div class="metric-card">
+              <span data-economics-coverage-count="protected">0</span>
+              <p>Protected</p>
+            </div>
+            <div class="metric-card">
+              <span data-economics-coverage-count="exposed">0</span>
+              <p>Exposed</p>
+            </div>
+            <div class="metric-card">
+              <span data-economics-coverage-count="fragile">0</span>
+              <p>Fragile</p>
+            </div>
+            <div class="metric-card">
+              <span data-economics-coverage-count="unprofitable">0</span>
+              <p>Unprofitable</p>
+            </div>
+            <div class="metric-card metric-card--delivery">
+              <span data-economics-coverage-count="model-cautions">0</span>
+              <p>Model Cautions</p>
+            </div>
+          </div>
+        </section>
+
+        <div class="console-tools">
+          <div class="lead-stats" aria-label="Lead summary counts">
+            <div class="lead-stat">
+              <span data-summary-count="total">0</span>
+              <p>Total</p>
+            </div>
+            <div class="lead-stat">
+              <span data-summary-count="new">0</span>
+              <p>New</p>
+            </div>
+            <div class="lead-stat">
+              <span data-summary-count="contacted">0</span>
+              <p>Contacted</p>
+            </div>
+            <div class="lead-stat">
+              <span data-summary-count="sourcing">0</span>
+              <p>Sourcing</p>
+            </div>
+            <div class="lead-stat">
+              <span data-summary-count="closed">0</span>
+              <p>Closed</p>
+            </div>
+            <div class="lead-stat">
+              <span data-summary-count="lost">0</span>
+              <p>Lost</p>
+            </div>
+          </div>
+
+          <div class="filter-controls">
+            <label>
+              Status
+              <select data-status-filter>
+                <option value="all">All</option>
+                <option value="new">New</option>
+                <option value="contacted">Contacted</option>
+                <option value="sourcing">Sourcing</option>
+                <option value="offer-sent">Offer Sent</option>
+                <option value="closed">Closed</option>
+                <option value="lost">Lost</option>
+              </select>
+            </label>
+
+            <label>
+              Economics
+              <select data-economics-filter>
+                <option value="all">All Economics</option>
+                <option value="not-analyzed">Not Analyzed</option>
+                <option value="legacy-analysis">Legacy Analysis</option>
+                <option value="protected">Protected</option>
+                <option value="exposed">Exposed</option>
+                <option value="fragile">Fragile</option>
+                <option value="unprofitable">Unprofitable</option>
+                <option value="incomplete">Incomplete</option>
+                <option value="model-caution">Model Caution</option>
+              </select>
+            </label>
+
+            <label>
+              Sort
+              <select data-economics-sort>
+                <option value="current">Current / Default Lead Order</option>
+                <option value="needs-analysis-first">Needs Analysis First</option>
+                <option value="highest-base-profit">Highest Base Profit</option>
+                <option value="lowest-base-profit">Lowest Base Profit</option>
+                <option value="highest-roi">Highest ROI</option>
+                <option value="lowest-roi">Lowest ROI</option>
+                <option value="most-recently-analyzed">Most Recently Analyzed</option>
+                <option value="least-recently-analyzed">Least Recently Analyzed</option>
+              </select>
+            </label>
+
+            <label>
+              Search
+              <input
+                type="search"
+                data-search-filter
+                placeholder="Name, email, watch, message, notes, or tags"
+                autocomplete="off"
+              />
+            </label>
+          </div>
+
+          <div class="export-controls">
+            <button type="button" data-export-csv disabled>Export CSV</button>
+            <p data-export-message>No filtered leads available to export.</p>
+          </div>
+        </div>
+
+        <section class="filter-empty" data-filter-empty hidden>
+          <p class="eyebrow">No Matches</p>
+          <h3>No leads match those filters.</h3>
+          <p>Adjust the status, economics, or search filters to widen the view.</p>
+        </section>
+
+        <div class="lead-list" data-lead-list></div>
+      </section>
+    </section>
+  </main>
+</BaseLayout>
+
+<script>
+  import { createBrokerLeadIntelligence } from "../lib/broker/brokerLeadIntelligence";
+  import { createBrokerLeadScore } from "../lib/broker/brokerLeadScore";
+  import {
+    buildBrokerageEconomics,
+    type BrokerageEconomics,
+    type BrokerageEconomicsInput,
+  } from "../lib/brokerage/brokerageEconomics";
+  import { buildBrokerageEconomicsRiskAnalysis } from "../lib/brokerage/brokerageEconomicsRisk";
+  import { createLeadEconomicsWorkspaceInput } from "../lib/brokerage/leadEconomicsWorkspace";
+  import type { BrokerageEconomicsSnapshot } from "../lib/brokerage/brokerageEconomicsSnapshot";
+  import {
+    createEconomicsCoverageCounts,
+    createLeadEconomicsQueueView,
+    deriveLatestLeadEconomicsSummary,
+    isLeadEconomicsFilter,
+    isLeadEconomicsSort,
+    replaceLeadEconomicsQueueRecord,
+    type LeadEconomicsFilter,
+    type LeadEconomicsSort,
+    type LeadEconomicsSummary,
+  } from "../lib/brokerage/leadEconomicsSummary";
+  import {
+    formatBrokerageCurrency,
+    formatBrokeragePercent,
+    getBrokerageRecommendationLabel,
+    getServiceExposureLabel,
+    getBrokerageValueTone,
+    normalizeBrokerageNumericInputValue,
+  } from "../lib/brokerage/brokerageEconomicsUi";
+
+  interface LeadEmailDeliveryResult {
+    readonly status?: string;
+    readonly configured?: boolean;
+    readonly reason?: string;
+    readonly providerStatus?: number;
+  }
+
+  type LeadStatus =
+    | "new"
+    | "contacted"
+    | "sourcing"
+    | "offer-sent"
+    | "closed"
+    | "lost";
+  type StatusFilter = LeadStatus | "all";
+  type MetricScope = "all" | "filtered";
+  type PipelineMetricKey =
+    | "total"
+    | LeadStatus
+    | "email-sent"
+    | "email-skipped"
+    | "email-failed";
+  type PipelineMetricCounts = Record<PipelineMetricKey, number>;
+  type BrokerageEconomicsMoneyInputName = Exclude<
+    keyof BrokerageEconomicsInput,
+    "reference"
+  >;
+  type BrokerageEconomicsOutputName = keyof Pick<
+    BrokerageEconomics,
+    | "grossProfit"
+    | "expectedExpenses"
+    | "netProfit"
+    | "capitalRequired"
+    | "roiPercent"
+    | "riskPenalty"
+    | "riskAdjustedProfit"
+    | "recommendation"
+  >;
+
+  interface BrokerageEconomicsWorkspaceController {
+    loadLead(record: LeadSubmissionRecord): void;
+    reset(): void;
+  }
+
+  interface LeadCapturePayload {
+    readonly name?: string | null;
+    readonly email?: string | null;
+    readonly phone?: string | null;
+    readonly intent?: string | null;
+    readonly brand?: string | null;
+    readonly collection?: string | null;
+    readonly reference?: string | null;
+    readonly desiredWatch?: string | null;
+    readonly budget?: string | null;
+    readonly timeline?: string | null;
+    readonly message?: string | null;
+    readonly source?: string | null;
+    readonly createdAt?: string | null;
+  }
+
+  interface LeadSubmissionRecord {
+    readonly id?: string;
+    readonly status?: LeadStatus;
+    readonly notes?: string | null;
+    readonly notesUpdatedAt?: string | null;
+    readonly tags?: readonly string[] | null;
+    readonly tagsUpdatedAt?: string | null;
+    readonly economicsSnapshots?: readonly BrokerageEconomicsSnapshot[] | null;
+    readonly payload?: LeadCapturePayload;
+    readonly savedAt?: string;
+    readonly emailDelivery?: LeadEmailDeliveryResult;
+  }
+
+  const brokerConsole = document.querySelector<HTMLElement>(
+    "[data-broker-console]"
+  );
+  const loadingState = document.querySelector<HTMLElement>(
+    "[data-loading-state]"
+  );
+  const lockedState = document.querySelector<HTMLElement>(
+    "[data-locked-state]"
+  );
+  const lockedMessage = document.querySelector<HTMLElement>(
+    "[data-locked-message]"
+  );
+  const emptyState = document.querySelector<HTMLElement>("[data-empty-state]");
+  const errorState = document.querySelector<HTMLElement>("[data-error-state]");
+  const errorMessage = document.querySelector<HTMLElement>(
+    "[data-error-message]"
+  );
+  const leadBoard = document.querySelector<HTMLElement>("[data-lead-board]");
+  const leadList = document.querySelector<HTMLElement>("[data-lead-list]");
+  const leadCount = document.querySelector<HTMLElement>("[data-lead-count]");
+  const statusFilter = document.querySelector<HTMLSelectElement>(
+    "[data-status-filter]"
+  );
+  const searchFilter = document.querySelector<HTMLInputElement>(
+    "[data-search-filter]"
+  );
+  const economicsFilter = document.querySelector<HTMLSelectElement>(
+    "[data-economics-filter]"
+  );
+  const economicsSort = document.querySelector<HTMLSelectElement>(
+    "[data-economics-sort]"
+  );
+  const exportCsvButton = document.querySelector<HTMLButtonElement>(
+    "[data-export-csv]"
+  );
+  const exportMessage = document.querySelector<HTMLElement>(
+    "[data-export-message]"
+  );
+  const filterEmpty = document.querySelector<HTMLElement>(
+    "[data-filter-empty]"
+  );
+  const brokerageEconomicsAnchor = document.querySelector<HTMLElement>(
+    "[data-brokerage-economics-anchor]"
+  );
+  const summaryCountTargets =
+    document.querySelectorAll<HTMLElement>("[data-summary-count]");
+  const metricCountTargets =
+    document.querySelectorAll<HTMLElement>("[data-metric-count]");
+  const economicsCoverageCountTargets =
+    document.querySelectorAll<HTMLElement>("[data-economics-coverage-count]");
+  const brokerAuthConfigured =
+    brokerConsole?.dataset.brokerAuthConfigured === "true";
+  const brokerAuthAllowed = brokerConsole?.dataset.brokerAuthAllowed === "true";
+  const activeBrokerConsoleKey =
+    new URLSearchParams(window.location.search).get("key")?.trim() ?? "";
+  let allLeadRecords: LeadSubmissionRecord[] = [];
+  let activeStatusFilter: StatusFilter = "all";
+  let activeSearchQuery = "";
+  let activeEconomicsFilter: LeadEconomicsFilter = "all";
+  let activeEconomicsSort: LeadEconomicsSort = "current";
+  let brokerageEconomicsWorkspaceController:
+    | BrokerageEconomicsWorkspaceController
+    | null = null;
+
+  const dateFormatter = new Intl.DateTimeFormat("en-US", {
+    dateStyle: "medium",
+    timeStyle: "short",
+  });
+
+  const leadStatusOptions: readonly {
+    readonly value: LeadStatus;
+    readonly label: string;
+  }[] = [
+    { value: "new", label: "New" },
+    { value: "contacted", label: "Contacted" },
+    { value: "sourcing", label: "Sourcing" },
+    { value: "offer-sent", label: "Offer Sent" },
+    { value: "closed", label: "Closed" },
+    { value: "lost", label: "Lost" },
+  ];
+  const suggestedLeadTags = [
+    "VIP",
+    "Hot Lead",
+    "Needs Follow-Up",
+    "Sourcing Active",
+    "Price Sensitive",
+    "Repeat Client",
+  ] as const;
+  const economicsSnapshotNoteMaxLength = 1000;
+  const brokerageEconomicsMoneyInputs: readonly {
+    readonly name: BrokerageEconomicsMoneyInputName;
+    readonly label: string;
+  }[] = [
+    { name: "purchasePrice", label: "Purchase price" },
+    { name: "estimatedMarketValue", label: "Estimated market value" },
+    { name: "estimatedServiceCost", label: "Estimated service cost" },
+    { name: "estimatedPolishCost", label: "Estimated polishing cost" },
+    { name: "estimatedShippingCost", label: "Estimated shipping cost" },
+    { name: "estimatedInsuranceCost", label: "Estimated insurance cost" },
+    { name: "estimatedSellingFees", label: "Estimated selling fees" },
+  ];
+  const brokerageEconomicsOutputFields: readonly {
+    readonly name: BrokerageEconomicsOutputName;
+    readonly label: string;
+    readonly format: "currency" | "percent" | "recommendation";
+  }[] = [
+    { name: "grossProfit", label: "Gross profit", format: "currency" },
+    { name: "expectedExpenses", label: "Expected expenses", format: "currency" },
+    { name: "netProfit", label: "Net profit", format: "currency" },
+    { name: "capitalRequired", label: "Capital required", format: "currency" },
+    { name: "roiPercent", label: "ROI percentage", format: "percent" },
+    { name: "riskPenalty", label: "Risk penalty", format: "currency" },
+    {
+      name: "riskAdjustedProfit",
+      label: "Risk-adjusted profit",
+      format: "currency",
+    },
+    { name: "recommendation", label: "Recommendation", format: "recommendation" },
+  ];
+
+  const setVisible = (element: HTMLElement | null, isVisible: boolean): void => {
+    if (element) element.hidden = !isVisible;
+  };
+
+  const isRecord = (value: unknown): value is Record<string, unknown> =>
+    typeof value === "object" && value !== null && !Array.isArray(value);
+
+  const normalizeLeadStatus = (status?: string | null): LeadStatus =>
+    leadStatusOptions.some((option) => option.value === status)
+      ? (status as LeadStatus)
+      : "new";
+
+  const normalizeStatusFilter = (status?: string | null): StatusFilter =>
+    status === "all" ? "all" : normalizeLeadStatus(status);
+
+  const getStatusLabel = (status?: string | null): string => {
+    const normalizedStatus = normalizeLeadStatus(status);
+
+    return (
+      leadStatusOptions.find((option) => option.value === normalizedStatus)
+        ?.label ?? "New"
+    );
+  };
+
+  const buildBrokerApiUrl = (path: string): string => {
+    if (!activeBrokerConsoleKey) return path;
+
+    const url = new URL(path, window.location.origin);
+
+    url.searchParams.set("key", activeBrokerConsoleKey);
+
+    return `${url.pathname}${url.search}`;
+  };
+
+  const createBrokerApiHeaders = (
+    headers: Record<string, string>
+  ): Record<string, string> =>
+    activeBrokerConsoleKey
+      ? {
+          ...headers,
+          "x-broker-console-key": activeBrokerConsoleKey,
+        }
+      : headers;
+
+  const cleanValue = (value?: string | number | boolean | null): string => {
+    if (value === null || value === undefined) return "Not provided";
+
+    const normalized = String(value).trim();
+
+    return normalized ? normalized : "Not provided";
+  };
+
+  const formatLeadIntent = (intent?: string | null): string => {
+    switch (intent) {
+      case "request-this-watch":
+        return "Request This Watch";
+      case "sell-your-watch":
+        return "Sell Your Watch";
+      case "trade-your-watch":
+        return "Trade Your Watch";
+      case "market-valuation":
+        return "Market Valuation";
+      case "talk-to-broker":
+        return "Talk to a Broker";
+      default:
+        return cleanValue(intent);
+    }
+  };
+
+  const formatDate = (value?: string): string => {
+    if (!value) return "Not provided";
+
+    const date = new Date(value);
+
+    return Number.isNaN(date.getTime()) ? cleanValue(value) : dateFormatter.format(date);
+  };
+
+  const getSavedAtTime = (record: LeadSubmissionRecord): number => {
+    const savedAt = record.savedAt ? Date.parse(record.savedAt) : 0;
+
+    return Number.isFinite(savedAt) ? savedAt : 0;
+  };
+
+  const getSortedLeadRecords = (
+    records: readonly LeadSubmissionRecord[]
+  ): LeadSubmissionRecord[] =>
+    [...records].sort((a, b) => getSavedAtTime(b) - getSavedAtTime(a));
+
+  const getRawValue = (value?: string | number | boolean | null): string =>
+    value === null || value === undefined ? "" : String(value).trim();
+
+  const normalizeTagList = (
+    tags?: readonly string[] | null
+  ): readonly string[] => {
+    if (!Array.isArray(tags)) return [];
+
+    const seenTags = new Set<string>();
+    const normalizedTags: string[] = [];
+
+    tags.forEach((tag) => {
+      const normalizedTag = getRawValue(tag);
+      const normalizedKey = normalizedTag.toLowerCase();
+
+      if (!normalizedTag || seenTags.has(normalizedKey)) return;
+
+      seenTags.add(normalizedKey);
+      normalizedTags.push(normalizedTag);
+    });
+
+    return normalizedTags;
+  };
+
+  const getActiveQueueViewOptions = () => ({
+    statusFilter: activeStatusFilter,
+    searchQuery: activeSearchQuery,
+    economicsFilter: activeEconomicsFilter,
+    economicsSort: activeEconomicsSort,
+  });
+
+  const matchesActiveFilters = (record: LeadSubmissionRecord): boolean =>
+    createLeadEconomicsQueueView([record], getActiveQueueViewOptions()).length >
+    0;
+
+  const getFilteredSortedRecords = (): LeadSubmissionRecord[] =>
+    createLeadEconomicsQueueView(
+      allLeadRecords,
+      getActiveQueueViewOptions()
+    );
+
+  const replaceLeadRecord = (updatedLead: LeadSubmissionRecord): void => {
+    if (!updatedLead.id) return;
+
+    allLeadRecords = replaceLeadEconomicsQueueRecord(
+      allLeadRecords,
+      updatedLead
+    );
+  };
+
+  const updateSummaryCounts = (records: readonly LeadSubmissionRecord[]): void => {
+    const counts: Record<StatusFilter, number> = {
+      all: records.length,
+      new: 0,
+      contacted: 0,
+      sourcing: 0,
+      "offer-sent": 0,
+      closed: 0,
+      lost: 0,
+    };
+
+    records.forEach((record) => {
+      counts[normalizeLeadStatus(record.status)] += 1;
+    });
+
+    summaryCountTargets.forEach((target) => {
+      const countKey = target.dataset.summaryCount;
+
+      if (countKey === "total") {
+        target.textContent = String(counts.all);
+        return;
+      }
+
+      if (countKey && countKey in counts) {
+        target.textContent = String(counts[countKey as StatusFilter]);
+      }
+    });
+  };
+
+  const createEmptyPipelineMetrics = (): PipelineMetricCounts => ({
+    total: 0,
+    new: 0,
+    contacted: 0,
+    sourcing: 0,
+    "offer-sent": 0,
+    closed: 0,
+    lost: 0,
+    "email-sent": 0,
+    "email-skipped": 0,
+    "email-failed": 0,
+  });
+
+  const getEmailDeliveryMetricKey = (
+    emailDelivery?: LeadEmailDeliveryResult
+  ): PipelineMetricKey | null => {
+    switch (emailDelivery?.status) {
+      case "sent":
+        return "email-sent";
+      case "skipped":
+        return "email-skipped";
+      case "failed":
+        return "email-failed";
+      default:
+        return null;
+    }
+  };
+
+  const createPipelineMetrics = (
+    records: readonly LeadSubmissionRecord[]
+  ): PipelineMetricCounts => {
+    const counts = createEmptyPipelineMetrics();
+
+    counts.total = records.length;
+
+    records.forEach((record) => {
+      counts[normalizeLeadStatus(record.status)] += 1;
+
+      const emailDeliveryKey = getEmailDeliveryMetricKey(record.emailDelivery);
+
+      if (emailDeliveryKey) counts[emailDeliveryKey] += 1;
+    });
+
+    return counts;
+  };
+
+  const updateExportState = (
+    filteredRecords: readonly LeadSubmissionRecord[]
+  ): void => {
+    if (exportCsvButton) {
+      exportCsvButton.disabled = filteredRecords.length === 0;
+    }
+
+    if (exportMessage) {
+      exportMessage.textContent =
+        filteredRecords.length === 0
+          ? "No filtered leads available to export."
+          : `Ready to export ${filteredRecords.length} filtered lead${
+              filteredRecords.length === 1 ? "" : "s"
+            }.`;
+    }
+  };
+
+  const updatePipelineMetrics = (
+    allRecords: readonly LeadSubmissionRecord[],
+    filteredRecords: readonly LeadSubmissionRecord[]
+  ): void => {
+    const countsByScope: Record<MetricScope, PipelineMetricCounts> = {
+      all: createPipelineMetrics(allRecords),
+      filtered: createPipelineMetrics(filteredRecords),
+    };
+
+    metricCountTargets.forEach((target) => {
+      const metricScope = target.dataset.metricScope;
+      const metricKey = target.dataset.metricCount;
+
+      if (
+        (metricScope === "all" || metricScope === "filtered") &&
+        metricKey &&
+        metricKey in countsByScope[metricScope]
+      ) {
+        target.textContent = String(
+          countsByScope[metricScope][metricKey as PipelineMetricKey]
+        );
+      }
+    });
+  };
+
+  const updateEconomicsCoverage = (
+    records: readonly LeadSubmissionRecord[]
+  ): void => {
+    const counts = createEconomicsCoverageCounts(records);
+    const values: Readonly<Record<string, number>> = {
+      total: counts.total,
+      "current-risk-guidance": counts.currentRiskGuidance,
+      "not-analyzed": counts.notAnalyzed,
+      "legacy-analysis": counts.legacyAnalysis,
+      protected: counts.protected,
+      exposed: counts.exposed,
+      fragile: counts.fragile,
+      unprofitable: counts.unprofitable,
+      "model-cautions": counts.modelCautions,
+    };
+
+    economicsCoverageCountTargets.forEach((target) => {
+      const countKey = target.dataset.economicsCoverageCount;
+
+      if (countKey && countKey in values) {
+        target.textContent = String(values[countKey]);
+      }
+    });
+  };
+
+  const updateDashboardMetrics = (
+    filteredRecords = getFilteredSortedRecords()
+  ): void => {
+    if (leadCount) leadCount.textContent = String(allLeadRecords.length);
+    updateSummaryCounts(allLeadRecords);
+    updatePipelineMetrics(allLeadRecords, filteredRecords);
+    updateEconomicsCoverage(allLeadRecords);
+    updateExportState(filteredRecords);
+  };
+
+  const csvHeaders = [
+    "id",
+    "status",
+    "score",
+    "tier",
+    "name",
+    "email",
+    "phone",
+    "brand",
+    "collection",
+    "reference",
+    "desiredWatch",
+    "budget",
+    "timeline",
+    "message",
+    "notes",
+    "tags",
+    "source",
+    "createdAt",
+    "savedAt",
+    "emailDeliveryStatus",
+  ] as const;
+
+  const escapeCsvValue = (value?: string | number | boolean | null): string => {
+    const normalized =
+      value === null || value === undefined ? "" : String(value);
+
+    return /[",\r\n]/.test(normalized)
+      ? `"${normalized.replace(/"/g, '""')}"`
+      : normalized;
+  };
+
+  const getCsvRows = (
+    records: readonly LeadSubmissionRecord[]
+  ): readonly string[][] =>
+    records.map((record) => {
+      const payload = record.payload ?? {};
+      const leadScore = createBrokerLeadScore(record);
+
+      return [
+        getRawValue(record.id),
+        normalizeLeadStatus(record.status),
+        String(leadScore.score),
+        leadScore.tier,
+        getRawValue(payload.name),
+        getRawValue(payload.email),
+        getRawValue(payload.phone),
+        getRawValue(payload.brand),
+        getRawValue(payload.collection),
+        getRawValue(payload.reference),
+        getRawValue(payload.desiredWatch),
+        getRawValue(payload.budget),
+        getRawValue(payload.timeline),
+        getRawValue(payload.message),
+        getRawValue(record.notes),
+        normalizeTagList(record.tags).join("; "),
+        getRawValue(payload.source),
+        getRawValue(payload.createdAt),
+        getRawValue(record.savedAt),
+        getRawValue(record.emailDelivery?.status),
+      ];
+    });
+
+  const createLeadsCsv = (
+    records: readonly LeadSubmissionRecord[]
+  ): string => {
+    const rows = [csvHeaders, ...getCsvRows(records)];
+
+    return rows
+      .map((row) => row.map((value) => escapeCsvValue(value)).join(","))
+      .join("\r\n");
+  };
+
+  const getCsvExportFilename = (): string => {
+    const today = new Date().toISOString().slice(0, 10);
+
+    return `quest-luxo-leads-${today}.csv`;
+  };
+
+  const exportFilteredLeadsCsv = (): void => {
+    const filteredRecords = getFilteredSortedRecords();
+
+    if (filteredRecords.length === 0) {
+      updateExportState(filteredRecords);
+      return;
+    }
+
+    const blob = new Blob([createLeadsCsv(filteredRecords)], {
+      type: "text/csv;charset=utf-8",
+    });
+    const downloadUrl = URL.createObjectURL(blob);
+    const link = document.createElement("a");
+
+    link.href = downloadUrl;
+    link.download = getCsvExportFilename();
+    document.body.append(link);
+    link.click();
+    link.remove();
+    URL.revokeObjectURL(downloadUrl);
+
+    if (exportMessage) {
+      exportMessage.textContent = `Exported ${filteredRecords.length} filtered lead${
+        filteredRecords.length === 1 ? "" : "s"
+      }.`;
+    }
+  };
+
+  const createField = (label: string, value?: string | number | boolean | null) => {
+    const item = document.createElement("div");
+    const term = document.createElement("dt");
+    const detail = document.createElement("dd");
+
+    term.textContent = label;
+    detail.textContent = cleanValue(value);
+    item.append(term, detail);
+
+    return item;
+  };
+
+  const createMessageBlock = (message?: string | null) => {
+    const block = document.createElement("div");
+    const label = document.createElement("p");
+    const body = document.createElement("p");
+
+    block.className = "lead-message";
+    label.className = "lead-message-label";
+    label.textContent = "Message";
+    body.textContent = cleanValue(message);
+    block.append(label, body);
+
+    return block;
+  };
+
+  const formatScoreTier = (tier: string): string =>
+    tier.charAt(0).toUpperCase() + tier.slice(1);
+
+  const createLeadScorePanel = (record: LeadSubmissionRecord) => {
+    const leadScore = createBrokerLeadScore(record);
+    const panel = document.createElement("section");
+    const heading = document.createElement("div");
+    const eyebrow = document.createElement("p");
+    const title = document.createElement("h4");
+    const scoreSummary = document.createElement("div");
+    const scoreValue = document.createElement("strong");
+    const tierValue = document.createElement("span");
+    const reasonsBlock = document.createElement("div");
+    const reasonsLabel = document.createElement("span");
+    const reasonsList = document.createElement("ul");
+
+    panel.className = "lead-score-panel";
+    panel.dataset.leadScorePanel = "true";
+    heading.className = "lead-score-heading";
+    eyebrow.className = "eyebrow";
+    eyebrow.textContent = "Lead Score";
+    title.textContent = "Pipeline Fit";
+    scoreSummary.className = "lead-score-summary";
+    scoreValue.textContent = String(leadScore.score);
+    tierValue.className = `lead-score-tier lead-score-tier--${leadScore.tier}`;
+    tierValue.textContent = formatScoreTier(leadScore.tier);
+    reasonsBlock.className = "lead-score-reasons";
+    reasonsLabel.textContent = "Score Reasons";
+
+    leadScore.reasons.forEach((reason) => {
+      const item = document.createElement("li");
+
+      item.textContent = reason;
+      reasonsList.append(item);
+    });
+
+    heading.append(eyebrow, title);
+    scoreSummary.append(scoreValue, tierValue);
+    reasonsBlock.append(reasonsLabel, reasonsList);
+    panel.append(heading, scoreSummary, reasonsBlock);
+
+    return panel;
+  };
+
+  const updateLeadScoreDisplay = (
+    card: HTMLElement | null,
+    record: LeadSubmissionRecord
+  ): void => {
+    if (!card) return;
+
+    const leadScore = createBrokerLeadScore(record);
+    const scoreSummary = card.querySelector<HTMLElement>(
+      "[data-lead-score-summary]"
+    );
+    const existingScorePanel = card.querySelector<HTMLElement>(
+      "[data-lead-score-panel]"
+    );
+
+    if (scoreSummary) {
+      const scoreValue = scoreSummary.querySelector("strong");
+
+      if (scoreValue) {
+        scoreValue.textContent = `${leadScore.score}/100 ${formatScoreTier(
+          leadScore.tier
+        )}`;
+      }
+    }
+
+    existingScorePanel?.replaceWith(createLeadScorePanel(record));
+  };
+
+  const getIntelligenceTone = (value: string): string => {
+    const normalized = value.toLowerCase();
+
+    if (
+      normalized.includes("high") ||
+      normalized.includes("immediate") ||
+      normalized.includes("strong")
+    ) {
+      return "high";
+    }
+
+    if (
+      normalized.includes("medium") ||
+      normalized.includes("moderate") ||
+      normalized.includes("soon") ||
+      normalized.includes("possible")
+    ) {
+      return "medium";
+    }
+
+    if (
+      normalized.includes("low") ||
+      normalized.includes("weak") ||
+      normalized.includes("research")
+    ) {
+      return "low";
+    }
+
+    return "neutral";
+  };
+
+  const createIntelligenceMetric = (
+    label: string,
+    value: string,
+    useBadge = true
+  ) => {
+    const item = document.createElement("div");
+    const labelElement = document.createElement("span");
+    const valueElement = document.createElement(useBadge ? "strong" : "p");
+
+    item.className = "intelligence-metric";
+    labelElement.textContent = label;
+    valueElement.textContent = cleanValue(value);
+
+    if (useBadge) {
+      valueElement.className = `intelligence-chip intelligence-chip--${getIntelligenceTone(
+        value
+      )}`;
+    }
+
+    item.append(labelElement, valueElement);
+
+    return item;
+  };
+
+  const createBrokerIntelligencePanel = (payload: LeadCapturePayload) => {
+    const snapshot = createBrokerLeadIntelligence(payload);
+    const panel = document.createElement("section");
+    const heading = document.createElement("div");
+    const eyebrow = document.createElement("p");
+    const title = document.createElement("h4");
+    const metrics = document.createElement("div");
+    const recommendation = document.createElement("div");
+    const recommendationLabel = document.createElement("span");
+    const recommendationText = document.createElement("p");
+
+    panel.className = "lead-intelligence-panel";
+    heading.className = "lead-intelligence-heading";
+    eyebrow.className = "eyebrow";
+    eyebrow.textContent = "Quest Luxo Intelligence";
+    title.textContent = "Broker Snapshot";
+    metrics.className = "lead-intelligence-grid";
+    recommendation.className = "lead-intelligence-recommendation";
+    recommendationLabel.textContent = "Broker Recommendation";
+    recommendationText.textContent = snapshot.brokerRecommendation;
+
+    metrics.append(
+      createIntelligenceMetric("Lead Priority", snapshot.leadPriority),
+      createIntelligenceMetric(
+        "Allocation Difficulty",
+        snapshot.allocationDifficulty
+      ),
+      createIntelligenceMetric(
+        "Sourcing Complexity",
+        snapshot.sourcingComplexity
+      ),
+      createIntelligenceMetric(
+        "Response Urgency",
+        snapshot.estimatedResponseUrgency
+      ),
+      createIntelligenceMetric("Budget Fit", snapshot.budgetAssessment),
+      createIntelligenceMetric("Watch Context", snapshot.watchContext, false)
+    );
+
+    heading.append(eyebrow, title);
+    recommendation.append(recommendationLabel, recommendationText);
+    panel.append(heading, metrics, recommendation);
+
+    return panel;
+  };
+
+  const getEmailStatusText = (
+    emailDelivery?: LeadEmailDeliveryResult
+  ): string => {
+    if (!emailDelivery?.status) return "Not provided";
+
+    const parts = [
+      emailDelivery.status,
+      emailDelivery.configured === false ? "local skip" : undefined,
+      emailDelivery.providerStatus
+        ? `provider ${emailDelivery.providerStatus}`
+        : undefined,
+    ].filter(Boolean);
+
+    return parts.join(" - ");
+  };
+
+  const getWatchInterest = (payload: LeadCapturePayload): string => {
+    const desiredWatch = getRawValue(payload.desiredWatch);
+
+    if (desiredWatch) return desiredWatch;
+
+    const watchParts = [
+      payload.brand,
+      payload.collection,
+      payload.reference,
+    ]
+      .map(getRawValue)
+      .filter(Boolean);
+
+    return watchParts.length > 0 ? watchParts.join(" ") : "Not provided";
+  };
+
+  const getLeadGreetingName = (payload: LeadCapturePayload): string => {
+    const name = getRawValue(payload.name);
+
+    return name ? name.split(/\s+/)[0] : "there";
+  };
+
+  const normalizePhoneHrefValue = (phone?: string | null): string => {
+    const rawPhone = getRawValue(phone);
+    const digits = rawPhone.replace(/\D/g, "");
+
+    if (!digits) return "";
+
+    return rawPhone.trim().startsWith("+") ? `+${digits}` : digits;
+  };
+
+  const createLeadEmailSubject = (payload: LeadCapturePayload): string => {
+    const watchInterest = getWatchInterest(payload);
+
+    return watchInterest === "Not provided"
+      ? "Quest Luxo | Your watch request"
+      : `Quest Luxo | ${watchInterest}`;
+  };
+
+  const createLeadEmailBody = (payload: LeadCapturePayload): string => {
+    const watchInterest = getWatchInterest(payload);
+    const watchLine =
+      watchInterest === "Not provided" ? "" : ` about ${watchInterest}`;
+
+    return [
+      `Hello ${getLeadGreetingName(payload)},`,
+      "",
+      `Thank you for beginning your Quest Luxo conversation${watchLine}. I reviewed your request and would be glad to help with sourcing, selling, trading, or market guidance.`,
+      "",
+      "What is the best time to connect?",
+      "",
+      "Best,",
+      "Quest Luxo",
+    ].join("\n");
+  };
+
+  const createBrokerActionLink = (
+    label: string,
+    helperText: string,
+    href: string
+  ) => {
+    const link = document.createElement("a");
+    const linkLabel = document.createElement("strong");
+    const linkHelper = document.createElement("span");
+
+    link.className = "broker-action-link";
+    link.href = href;
+    linkLabel.textContent = label;
+    linkHelper.textContent = helperText;
+    link.append(linkLabel, linkHelper);
+
+    return link;
+  };
+
+  const createBrokerActionsPanel = (payload: LeadCapturePayload) => {
+    const panel = document.createElement("section");
+    const heading = document.createElement("div");
+    const eyebrow = document.createElement("p");
+    const title = document.createElement("h4");
+    const actions = document.createElement("div");
+    const emptyMessage = document.createElement("p");
+    const email = getRawValue(payload.email);
+    const phoneHrefValue = normalizePhoneHrefValue(payload.phone);
+
+    panel.className = "lead-actions-panel";
+    heading.className = "lead-actions-heading";
+    eyebrow.className = "eyebrow";
+    eyebrow.textContent = "Broker Actions";
+    title.textContent = "Quick Contact";
+    actions.className = "lead-actions-grid";
+
+    if (email) {
+      const subject = encodeURIComponent(createLeadEmailSubject(payload));
+      const body = encodeURIComponent(createLeadEmailBody(payload));
+
+      actions.append(
+        createBrokerActionLink(
+          "Email Lead",
+          "Open a prepared Quest Luxo email",
+          `mailto:${encodeURIComponent(email)}?subject=${subject}&body=${body}`
+        )
+      );
+    }
+
+    if (phoneHrefValue) {
+      actions.append(
+        createBrokerActionLink(
+          "Call Lead",
+          "Start a phone call",
+          `tel:${phoneHrefValue}`
+        ),
+        createBrokerActionLink(
+          "Text Lead",
+          "Start an SMS message",
+          `sms:${phoneHrefValue}`
+        )
+      );
+    }
+
+    if (!actions.children.length) {
+      emptyMessage.className = "lead-actions-empty";
+      emptyMessage.textContent =
+        "No direct contact actions are available for this lead yet.";
+      actions.append(emptyMessage);
+    }
+
+    heading.append(eyebrow, title);
+    panel.append(heading, actions);
+
+    return panel;
+  };
+
+  const createBrokerageEconomicsMetric = (
+    label: string,
+    name: BrokerageEconomicsOutputName
+  ) => {
+    const metric = document.createElement("div");
+    const metricLabel = document.createElement("span");
+    const metricValue = document.createElement("strong");
+
+    metric.className = "brokerage-economics-metric";
+    metricLabel.textContent = label;
+    metricValue.dataset.brokerageEconomicsOutput = name;
+    metric.append(metricLabel, metricValue);
+
+    return { metric, metricValue };
+  };
+
+  const createBrokerageRiskMetric = (label: string, dataName: string) => {
+    const metric = document.createElement("div");
+    const metricLabel = document.createElement("span");
+    const metricValue = document.createElement("strong");
+
+    metric.className = "brokerage-economics-risk-metric";
+    metricLabel.textContent = label;
+    metricValue.dataset.riskMetric = dataName;
+    metric.append(metricLabel, metricValue);
+
+    return { metric, metricLabel, metricValue };
+  };
+
+  const formatContingencyAmount = (value: number): string =>
+    `$${value.toLocaleString("en-US", { maximumFractionDigits: 0 })}`;
+
+  const createBrokerageMoneyInput = (
+    name: BrokerageEconomicsMoneyInputName,
+    label: string
+  ) => {
+    const field = document.createElement("label");
+    const input = document.createElement("input");
+
+    field.textContent = label;
+    input.type = "number";
+    input.min = "0";
+    input.step = "0.01";
+    input.inputMode = "decimal";
+    input.autocomplete = "off";
+    input.dataset.brokerageEconomicsInput = name;
+    field.append(input);
+
+    return { field, input };
+  };
+
+  const formatBrokerageEconomicsOutput = (
+    economics: BrokerageEconomics,
+    name: BrokerageEconomicsOutputName,
+    format: "currency" | "percent" | "recommendation"
+  ): string => {
+    if (format === "recommendation") {
+      return getBrokerageRecommendationLabel(economics.recommendation);
+    }
+
+    const value = economics[name];
+
+    return format === "percent"
+      ? formatBrokeragePercent(value as number | null)
+      : formatBrokerageCurrency(value as number | null);
+  };
+
+  const isValidEconomicsSnapshotResult = (
+    economics: BrokerageEconomics
+  ): boolean =>
+    economics.grossProfit !== null &&
+    economics.netProfit !== null &&
+    economics.capitalRequired !== null &&
+    economics.riskAdjustedProfit !== null &&
+    Number.isFinite(economics.expectedExpenses) &&
+    Number.isFinite(economics.riskPenalty);
+
+  const createBrokerageEconomicsPanel = () => {
+    const panel = document.createElement("section");
+    const heading = document.createElement("div");
+    const headingText = document.createElement("div");
+    const eyebrow = document.createElement("p");
+    const title = document.createElement("h4");
+    const description = document.createElement("p");
+    const form = document.createElement("form");
+    const actionRow = document.createElement("div");
+    const contextLabel = document.createElement("p");
+    const resetButton = document.createElement("button");
+    const inputsGrid = document.createElement("div");
+    const referenceField = document.createElement("label");
+    const referenceInput = document.createElement("input");
+    const results = document.createElement("div");
+    const riskView = document.createElement("section");
+    const riskHeading = document.createElement("div");
+    const riskHeadingText = document.createElement("div");
+    const riskEyebrow = document.createElement("p");
+    const riskTitle = document.createElement("h5");
+    const riskAdvisory = document.createElement("p");
+    const riskGrid = document.createElement("div");
+    const riskExplanation = document.createElement("p");
+    const riskModelCaution = document.createElement("p");
+    const baseRiskMetric = createBrokerageRiskMetric(
+      "Base expected profit",
+      "base-expected-profit"
+    );
+    const moderateRiskMetric = createBrokerageRiskMetric(
+      "Profit after contingency",
+      "moderate-contingency-profit"
+    );
+    const severeRiskMetric = createBrokerageRiskMetric(
+      "Profit after contingency",
+      "severe-contingency-profit"
+    );
+    const classificationRiskMetric = createBrokerageRiskMetric(
+      "Service exposure",
+      "service-exposure"
+    );
+    const snapshotActions = document.createElement("div");
+    const snapshotNoteLabel = document.createElement("label");
+    const snapshotNote = document.createElement("textarea");
+    const snapshotActionRow = document.createElement("div");
+    const saveSnapshotButton = document.createElement("button");
+    const snapshotFeedback = document.createElement("p");
+    const outputTargets = new Map<BrokerageEconomicsOutputName, HTMLElement>();
+    const moneyInputs = new Map<
+      BrokerageEconomicsMoneyInputName,
+      HTMLInputElement
+    >();
+    let loadedLeadId: string | null = null;
+    let loadedLeadModelContext: LeadCapturePayload | null = null;
+    let isSavingSnapshot = false;
+    let snapshotFeedbackLocked = false;
+
+    panel.className = "brokerage-economics-panel";
+    heading.className = "brokerage-economics-heading";
+    eyebrow.className = "eyebrow";
+    eyebrow.textContent = "Brokerage Economics";
+    title.textContent = "Deal Calculator";
+    description.textContent =
+      "Enter local deal assumptions to calculate brokerage economics. Results are not saved until a snapshot is explicitly saved.";
+    form.className = "brokerage-economics-form";
+    actionRow.className = "brokerage-economics-actions";
+    contextLabel.className = "brokerage-economics-context";
+    contextLabel.hidden = true;
+    contextLabel.setAttribute("aria-live", "polite");
+    resetButton.type = "button";
+    resetButton.className = "brokerage-economics-reset";
+    resetButton.textContent = "Reset Calculator";
+    inputsGrid.className = "brokerage-economics-inputs";
+    results.className = "brokerage-economics-results";
+    results.setAttribute("aria-live", "polite");
+    riskView.className = "brokerage-economics-risk-view";
+    riskView.dataset.economicsRiskView = "";
+    riskView.hidden = true;
+    riskHeading.className = "brokerage-economics-risk-heading";
+    riskEyebrow.className = "eyebrow";
+    riskEyebrow.textContent = "Risk-Adjusted View";
+    riskTitle.textContent = "Service Exposure";
+    riskAdvisory.textContent = "Advisory guidance only; lead status and tags are unchanged.";
+    riskGrid.className = "brokerage-economics-risk-grid";
+    riskExplanation.className = "brokerage-economics-risk-explanation";
+    riskExplanation.dataset.riskExplanation = "";
+    riskModelCaution.className = "brokerage-economics-model-caution";
+    riskModelCaution.dataset.riskModelCaution = "";
+    riskModelCaution.hidden = true;
+    baseRiskMetric.metricValue.dataset.riskBaseExpectedProfit = "";
+    moderateRiskMetric.metricValue.dataset.riskModerateContingencyProfit = "";
+    severeRiskMetric.metricValue.dataset.riskSevereContingencyProfit = "";
+    classificationRiskMetric.metricValue.dataset.riskServiceExposure = "";
+    riskHeadingText.append(riskEyebrow, riskTitle);
+    riskHeading.append(riskHeadingText, riskAdvisory);
+    riskGrid.append(
+      baseRiskMetric.metric,
+      moderateRiskMetric.metric,
+      severeRiskMetric.metric,
+      classificationRiskMetric.metric
+    );
+    riskView.append(riskHeading, riskGrid, riskExplanation, riskModelCaution);
+    snapshotActions.className = "brokerage-economics-snapshot-actions";
+    snapshotNoteLabel.textContent = "Broker note for snapshot";
+    snapshotNote.rows = 3;
+    snapshotNote.maxLength = economicsSnapshotNoteMaxLength;
+    snapshotNote.placeholder = "Optional private note for this saved economics snapshot.";
+    snapshotActionRow.className = "brokerage-economics-snapshot-row";
+    saveSnapshotButton.type = "button";
+    saveSnapshotButton.className = "brokerage-economics-save";
+    saveSnapshotButton.textContent = "Save Economics Snapshot";
+    saveSnapshotButton.disabled = true;
+    snapshotFeedback.className = "brokerage-economics-save-feedback";
+    snapshotFeedback.setAttribute("aria-live", "polite");
+    referenceField.textContent = "Reference";
+    referenceInput.type = "text";
+    referenceInput.autocomplete = "off";
+    referenceInput.placeholder = "Optional reference";
+    referenceInput.value = "";
+    referenceInput.dataset.brokerageEconomicsInput = "reference";
+    referenceField.append(referenceInput);
+
+    brokerageEconomicsMoneyInputs.forEach(({ name, label }) => {
+      const { field, input } = createBrokerageMoneyInput(name, label);
+
+      moneyInputs.set(name, input);
+      inputsGrid.append(field);
+    });
+
+    brokerageEconomicsOutputFields.forEach(({ name, label }) => {
+      const { metric, metricValue } = createBrokerageEconomicsMetric(
+        label,
+        name
+      );
+
+      outputTargets.set(name, metricValue);
+      results.append(metric);
+    });
+
+    const getMoneyValue = (name: BrokerageEconomicsMoneyInputName): number | null =>
+      normalizeBrokerageNumericInputValue(moneyInputs.get(name)?.value ?? "");
+
+    const getCalculatorInput = (): BrokerageEconomicsInput => ({
+      reference: referenceInput.value,
+      purchasePrice: getMoneyValue("purchasePrice"),
+      estimatedMarketValue: getMoneyValue("estimatedMarketValue"),
+      estimatedServiceCost: getMoneyValue("estimatedServiceCost"),
+      estimatedPolishCost: getMoneyValue("estimatedPolishCost"),
+      estimatedShippingCost: getMoneyValue("estimatedShippingCost"),
+      estimatedInsuranceCost: getMoneyValue("estimatedInsuranceCost"),
+      estimatedSellingFees: getMoneyValue("estimatedSellingFees"),
+    });
+
+    const getSnapshotSaveBlocker = (): string | null => {
+      if (!loadedLeadId) return "Load a lead with Analyze Economics before saving.";
+
+      const calculatorInput = getCalculatorInput();
+      const economics = buildBrokerageEconomics(calculatorInput);
+
+      if (
+        calculatorInput.purchasePrice === null ||
+        calculatorInput.estimatedMarketValue === null
+      ) {
+        return "Enter purchase price and estimated market value before saving.";
+      }
+
+      if (!isValidEconomicsSnapshotResult(economics)) {
+        return "Enter valid economics assumptions before saving.";
+      }
+
+      if (snapshotNote.value.trim().length > economicsSnapshotNoteMaxLength) {
+        return `Broker note must be ${economicsSnapshotNoteMaxLength} characters or fewer.`;
+      }
+
+      return null;
+    };
+
+    const updateSnapshotSaveState = (): void => {
+      const blocker = getSnapshotSaveBlocker();
+
+      saveSnapshotButton.disabled = Boolean(blocker) || isSavingSnapshot;
+
+      if (!snapshotFeedbackLocked) {
+        snapshotFeedback.textContent = blocker ?? "Ready to save an economics snapshot.";
+        snapshotFeedback.dataset.state = blocker ? "idle" : "ready";
+      }
+    };
+
+    const setMoneyInputValue = (
+      name: BrokerageEconomicsMoneyInputName,
+      value: number | null
+    ): void => {
+      const input = moneyInputs.get(name);
+
+      if (!input) return;
+
+      input.value = value === null ? "" : String(value);
+    };
+
+    const clearLoadedLeadContext = (): void => {
+      loadedLeadId = null;
+      loadedLeadModelContext = null;
+      contextLabel.textContent = "";
+      contextLabel.hidden = true;
+    };
+
+    const resetCalculator = (): void => {
+      referenceInput.value = "";
+      moneyInputs.forEach((input) => {
+        input.value = "";
+      });
+      snapshotNote.value = "";
+      snapshotFeedbackLocked = false;
+      clearLoadedLeadContext();
+      renderEconomics();
+    };
+
+    const loadLeadIntoCalculator = (record: LeadSubmissionRecord): void => {
+      if (!record.id) {
+        loadedLeadId = null;
+        loadedLeadModelContext = null;
+        snapshotFeedbackLocked = true;
+        snapshotFeedback.textContent = "This lead cannot be analyzed because it is missing an identifier.";
+        snapshotFeedback.dataset.state = "error";
+        updateSnapshotSaveState();
+        return;
+      }
+
+      const mappedLead = createLeadEconomicsWorkspaceInput(record);
+
+      loadedLeadId = record.id;
+      loadedLeadModelContext = record.payload ?? null;
+      referenceInput.value = mappedLead.economicsInput.reference;
+      setMoneyInputValue("purchasePrice", mappedLead.economicsInput.purchasePrice);
+      setMoneyInputValue(
+        "estimatedMarketValue",
+        mappedLead.economicsInput.estimatedMarketValue
+      );
+      snapshotNote.value = "";
+      snapshotFeedbackLocked = false;
+      contextLabel.textContent = `Analyzing: ${mappedLead.contextLabel}`;
+      contextLabel.hidden = false;
+      renderEconomics();
+      panel.scrollIntoView({ behavior: "smooth", block: "start" });
+      referenceInput.focus({ preventScroll: true });
+    };
+
+    const renderEconomics = (): void => {
+      const economics = buildBrokerageEconomics(getCalculatorInput());
+
+      brokerageEconomicsOutputFields.forEach(({ name, format }) => {
+        const target = outputTargets.get(name);
+
+        if (!target) return;
+
+        target.textContent = formatBrokerageEconomicsOutput(
+          economics,
+          name,
+          format
+        );
+
+        if (format === "recommendation") {
+          target.dataset.recommendation = economics.recommendation;
+          delete target.dataset.tone;
+          return;
+        }
+
+        target.dataset.tone = getBrokerageValueTone(
+          economics[name] as number | null
+        );
+        delete target.dataset.recommendation;
+      });
+
+      const riskAnalysis = buildBrokerageEconomicsRiskAnalysis({
+        baseExpectedProfit: economics.netProfit,
+        modelContext: loadedLeadModelContext
+          ? {
+              ...loadedLeadModelContext,
+              reference:
+                economics.reference || loadedLeadModelContext.reference,
+            }
+          : null,
+      });
+      const moderateContingencyLabel = formatContingencyAmount(
+        riskAnalysis.moderateContingencyAmount
+      );
+      const severeContingencyLabel = formatContingencyAmount(
+        riskAnalysis.severeContingencyAmount
+      );
+
+      riskView.hidden =
+        riskAnalysis.serviceExposureClassification === "incomplete";
+      moderateRiskMetric.metricLabel.textContent =
+        `Profit after ${moderateContingencyLabel} contingency`;
+      severeRiskMetric.metricLabel.textContent =
+        `Profit after ${severeContingencyLabel} contingency`;
+      baseRiskMetric.metricValue.textContent = formatBrokerageCurrency(
+        riskAnalysis.baseExpectedProfit
+      );
+      moderateRiskMetric.metricValue.textContent = formatBrokerageCurrency(
+        riskAnalysis.profitAfterModerateContingency
+      );
+      severeRiskMetric.metricValue.textContent = formatBrokerageCurrency(
+        riskAnalysis.profitAfterSevereContingency
+      );
+      classificationRiskMetric.metricValue.textContent =
+        getServiceExposureLabel(
+          riskAnalysis.serviceExposureClassification
+        );
+      classificationRiskMetric.metricValue.dataset.classification =
+        riskAnalysis.serviceExposureClassification;
+      baseRiskMetric.metricValue.dataset.tone = getBrokerageValueTone(
+        riskAnalysis.baseExpectedProfit
+      );
+      moderateRiskMetric.metricValue.dataset.tone = getBrokerageValueTone(
+        riskAnalysis.profitAfterModerateContingency
+      );
+      severeRiskMetric.metricValue.dataset.tone = getBrokerageValueTone(
+        riskAnalysis.profitAfterSevereContingency
+      );
+      riskExplanation.textContent = riskAnalysis.explanation;
+
+      if (riskAnalysis.modelCaution && riskAnalysis.thinMarginModel) {
+        riskModelCaution.hidden = false;
+        riskModelCaution.textContent =
+          `Model caution — ${riskAnalysis.thinMarginModel.label}: confirm service, polishing, shipping, and condition exposure before proceeding.`;
+      } else {
+        riskModelCaution.hidden = true;
+        riskModelCaution.textContent = "";
+      }
+
+      updateSnapshotSaveState();
+    };
+
+    form.addEventListener("submit", (event) => {
+      event.preventDefault();
+    });
+    form.addEventListener("input", () => {
+      snapshotFeedbackLocked = false;
+      renderEconomics();
+    });
+    resetButton.addEventListener("click", () => {
+      resetCalculator();
+      referenceInput.focus();
+    });
+    saveSnapshotButton.addEventListener("click", async () => {
+      const blocker = getSnapshotSaveBlocker();
+
+      if (blocker || !loadedLeadId) {
+        snapshotFeedbackLocked = true;
+        snapshotFeedback.textContent = blocker ?? "Load a lead before saving.";
+        snapshotFeedback.dataset.state = "error";
+        updateSnapshotSaveState();
+        return;
+      }
+
+      isSavingSnapshot = true;
+      snapshotFeedbackLocked = true;
+      snapshotFeedback.textContent = "Saving economics snapshot...";
+      snapshotFeedback.dataset.state = "saving";
+      updateSnapshotSaveState();
+
+      try {
+        const updatedLead = await saveLeadEconomicsSnapshot(
+          loadedLeadId,
+          getCalculatorInput(),
+          snapshotNote.value
+        );
+
+        replaceLeadRecord(updatedLead);
+        applyFilters();
+        snapshotNote.value = "";
+        snapshotFeedback.textContent = "Economics snapshot saved.";
+        snapshotFeedback.dataset.state = "success";
+      } catch (error) {
+        snapshotFeedback.textContent =
+          error instanceof Error
+            ? error.message
+            : "Unable to save economics snapshot.";
+        snapshotFeedback.dataset.state = "error";
+      } finally {
+        isSavingSnapshot = false;
+        updateSnapshotSaveState();
+      }
+    });
+    headingText.append(eyebrow, title);
+    heading.append(headingText, description);
+    actionRow.append(contextLabel, resetButton);
+    snapshotNoteLabel.append(snapshotNote);
+    snapshotActionRow.append(saveSnapshotButton, snapshotFeedback);
+    snapshotActions.append(snapshotNoteLabel, snapshotActionRow);
+    form.append(
+      actionRow,
+      referenceField,
+      inputsGrid,
+      results,
+      riskView,
+      snapshotActions
+    );
+    panel.append(heading, form);
+    brokerageEconomicsWorkspaceController = Object.freeze({
+      loadLead: loadLeadIntoCalculator,
+      reset: resetCalculator,
+    });
+    renderEconomics();
+
+    return panel;
+  };
+  const getApiErrorMessage = (
+    responseBody: unknown,
+    fallbackMessage: string
+  ): string => {
+    if (
+      isRecord(responseBody) &&
+      typeof responseBody.error === "string" &&
+      responseBody.error.trim()
+    ) {
+      return responseBody.error;
+    }
+
+    return fallbackMessage;
+  };
+
+  const updateLeadStatus = async (
+    id: string,
+    status: LeadStatus
+  ): Promise<LeadSubmissionRecord> => {
+    const response = await fetch(buildBrokerApiUrl("/api/broker/leads/status"), {
+      method: "POST",
+      headers: createBrokerApiHeaders({
+        "Content-Type": "application/json",
+        Accept: "application/json",
+      }),
+      body: JSON.stringify({ id, status }),
+    });
+    let responseBody: unknown = {};
+
+    try {
+      responseBody = await response.json();
+    } catch {
+      responseBody = {};
+    }
+
+    if (!response.ok) {
+      throw new Error(
+        getApiErrorMessage(
+          responseBody,
+          `Status update failed with ${response.status}.`
+        )
+      );
+    }
+
+    if (!isRecord(responseBody) || !isRecord(responseBody.lead)) {
+      throw new Error("Status update returned an unexpected response.");
+    }
+
+    return responseBody.lead as LeadSubmissionRecord;
+  };
+
+  const updateLeadNotes = async (
+    id: string,
+    notes: string
+  ): Promise<LeadSubmissionRecord> => {
+    const response = await fetch(buildBrokerApiUrl("/api/broker/leads/notes"), {
+      method: "POST",
+      headers: createBrokerApiHeaders({
+        "Content-Type": "application/json",
+        Accept: "application/json",
+      }),
+      body: JSON.stringify({ id, notes }),
+    });
+    let responseBody: unknown = {};
+
+    try {
+      responseBody = await response.json();
+    } catch {
+      responseBody = {};
+    }
+
+    if (!response.ok) {
+      throw new Error(
+        getApiErrorMessage(
+          responseBody,
+          `Notes update failed with ${response.status}.`
+        )
+      );
+    }
+
+    if (!isRecord(responseBody) || !isRecord(responseBody.lead)) {
+      throw new Error("Notes update returned an unexpected response.");
+    }
+
+    return responseBody.lead as LeadSubmissionRecord;
+  };
+
+  const updateLeadTags = async (
+    id: string,
+    tags: readonly string[]
+  ): Promise<LeadSubmissionRecord> => {
+    const response = await fetch(buildBrokerApiUrl("/api/broker/leads/tags"), {
+      method: "POST",
+      headers: createBrokerApiHeaders({
+        "Content-Type": "application/json",
+        Accept: "application/json",
+      }),
+      body: JSON.stringify({ id, tags }),
+    });
+    let responseBody: unknown = {};
+
+    try {
+      responseBody = await response.json();
+    } catch {
+      responseBody = {};
+    }
+
+    if (!response.ok) {
+      throw new Error(
+        getApiErrorMessage(
+          responseBody,
+          `Tags update failed with ${response.status}.`
+        )
+      );
+    }
+
+    if (!isRecord(responseBody) || !isRecord(responseBody.lead)) {
+      throw new Error("Tags update returned an unexpected response.");
+    }
+
+    return responseBody.lead as LeadSubmissionRecord;
+  };
+
+  const saveLeadEconomicsSnapshot = async (
+    id: string,
+    economicsInput: BrokerageEconomicsInput,
+    brokerNote: string
+  ): Promise<LeadSubmissionRecord> => {
+    const response = await fetch(
+      buildBrokerApiUrl("/api/broker/leads/economics-snapshot"),
+      {
+        method: "POST",
+        headers: createBrokerApiHeaders({
+          "Content-Type": "application/json",
+          Accept: "application/json",
+        }),
+        body: JSON.stringify({ id, economicsInput, brokerNote }),
+      }
+    );
+    let responseBody: unknown = {};
+
+    try {
+      responseBody = await response.json();
+    } catch {
+      responseBody = {};
+    }
+
+    if (!response.ok) {
+      throw new Error(
+        getApiErrorMessage(
+          responseBody,
+          `Economics snapshot save failed with ${response.status}.`
+        )
+      );
+    }
+
+    if (!isRecord(responseBody) || !isRecord(responseBody.lead)) {
+      throw new Error("Economics snapshot save returned an unexpected response.");
+    }
+
+    return responseBody.lead as LeadSubmissionRecord;
+  };
+
+  const createStatusControl = (record: LeadSubmissionRecord) => {
+    const control = document.createElement("div");
+    const label = document.createElement("label");
+    const select = document.createElement("select");
+    const feedback = document.createElement("p");
+    let currentStatus = normalizeLeadStatus(record.status);
+
+    control.className = "status-control";
+    label.textContent = "Lead Status";
+    feedback.className = "status-feedback";
+    feedback.setAttribute("aria-live", "polite");
+
+    leadStatusOptions.forEach((option) => {
+      const item = document.createElement("option");
+
+      item.value = option.value;
+      item.textContent = option.label;
+      select.append(item);
+    });
+
+    select.value = currentStatus;
+
+    if (!record.id) {
+      select.disabled = true;
+      feedback.textContent = "Missing lead id.";
+      feedback.dataset.state = "error";
+    }
+
+    select.addEventListener("change", async () => {
+      if (!record.id) return;
+
+      const nextStatus = normalizeLeadStatus(select.value);
+
+      if (nextStatus === currentStatus) return;
+
+      select.disabled = true;
+      feedback.textContent = "Updating status...";
+      feedback.dataset.state = "updating";
+
+      try {
+        const updatedLead = await updateLeadStatus(record.id, nextStatus);
+
+        currentStatus = normalizeLeadStatus(updatedLead.status);
+        select.value = currentStatus;
+        replaceLeadRecord(updatedLead);
+        updateLeadScoreDisplay(control.closest(".lead-card"), updatedLead);
+        updateDashboardMetrics();
+        feedback.textContent = `Status updated to ${getStatusLabel(
+          currentStatus
+        )}.`;
+        feedback.dataset.state = "success";
+
+        if (!matchesActiveFilters(updatedLead)) {
+          applyFilters();
+        }
+      } catch (error) {
+        select.value = currentStatus;
+        feedback.textContent =
+          error instanceof Error
+            ? error.message
+            : "Unable to update lead status.";
+        feedback.dataset.state = "error";
+      } finally {
+        select.disabled = false;
+      }
+    });
+
+    label.append(select);
+    control.append(label, feedback);
+
+    return control;
+  };
+
+  const createNotesControl = (record: LeadSubmissionRecord) => {
+    const control = document.createElement("div");
+    const label = document.createElement("label");
+    const textarea = document.createElement("textarea");
+    const actions = document.createElement("div");
+    const saveButton = document.createElement("button");
+    const feedback = document.createElement("p");
+    let currentNotes = typeof record.notes === "string" ? record.notes : "";
+
+    control.className = "notes-control";
+    label.textContent = "Broker Notes";
+    textarea.value = currentNotes;
+    textarea.rows = 4;
+    textarea.placeholder = "Add private broker notes for this lead.";
+    saveButton.type = "button";
+    saveButton.textContent = "Save Notes";
+    feedback.className = "notes-feedback";
+    feedback.setAttribute("aria-live", "polite");
+
+    if (record.notesUpdatedAt) {
+      feedback.textContent = `Last saved ${formatDate(record.notesUpdatedAt)}.`;
+    }
+
+    if (!record.id) {
+      textarea.disabled = true;
+      saveButton.disabled = true;
+      feedback.textContent = "Missing lead id.";
+      feedback.dataset.state = "error";
+    }
+
+    saveButton.addEventListener("click", async () => {
+      if (!record.id) return;
+
+      textarea.disabled = true;
+      saveButton.disabled = true;
+      feedback.textContent = "Saving notes...";
+      feedback.dataset.state = "saving";
+
+      try {
+        const updatedLead = await updateLeadNotes(record.id, textarea.value);
+
+        currentNotes =
+          typeof updatedLead.notes === "string" ? updatedLead.notes : "";
+        textarea.value = currentNotes;
+        replaceLeadRecord(updatedLead);
+        feedback.textContent = updatedLead.notesUpdatedAt
+          ? `Notes saved ${formatDate(updatedLead.notesUpdatedAt)}.`
+          : "Notes saved.";
+        feedback.dataset.state = "success";
+
+        if (activeSearchQuery && !matchesActiveFilters(updatedLead)) {
+          applyFilters();
+        }
+      } catch (error) {
+        textarea.value = currentNotes;
+        feedback.textContent =
+          error instanceof Error
+            ? error.message
+            : "Unable to save lead notes.";
+        feedback.dataset.state = "error";
+      } finally {
+        textarea.disabled = false;
+        saveButton.disabled = false;
+      }
+    });
+
+    label.append(textarea);
+    actions.className = "notes-actions";
+    actions.append(saveButton, feedback);
+    control.append(label, actions);
+
+    return control;
+  };
+
+  const createTagsControl = (record: LeadSubmissionRecord) => {
+    const control = document.createElement("div");
+    const heading = document.createElement("div");
+    const label = document.createElement("span");
+    const currentTagsList = document.createElement("div");
+    const suggestedTagsList = document.createElement("div");
+    const addRow = document.createElement("div");
+    const tagInput = document.createElement("input");
+    const addButton = document.createElement("button");
+    const feedback = document.createElement("p");
+    let currentTags = [...normalizeTagList(record.tags)];
+
+    control.className = "tags-control";
+    heading.className = "tags-heading";
+    label.textContent = "Lead Tags";
+    currentTagsList.className = "current-tags-list";
+    suggestedTagsList.className = "suggested-tags-list";
+    addRow.className = "tags-add-row";
+    tagInput.type = "text";
+    tagInput.placeholder = "Add custom tag";
+    addButton.type = "button";
+    addButton.textContent = "Add Tag";
+    feedback.className = "tags-feedback";
+    feedback.setAttribute("aria-live", "polite");
+
+    if (record.tagsUpdatedAt) {
+      feedback.textContent = `Last saved ${formatDate(record.tagsUpdatedAt)}.`;
+    }
+
+    const setSavingState = (isSaving: boolean): void => {
+      tagInput.disabled = isSaving || !record.id;
+      addButton.disabled = isSaving || !record.id;
+      suggestedTagsList
+        .querySelectorAll<HTMLButtonElement>("button")
+        .forEach((button) => {
+          button.disabled = isSaving || !record.id;
+        });
+      currentTagsList
+        .querySelectorAll<HTMLButtonElement>("button")
+        .forEach((button) => {
+          button.disabled = isSaving || !record.id;
+        });
+    };
+
+    const renderCurrentTags = (): void => {
+      currentTagsList.replaceChildren();
+
+      if (currentTags.length === 0) {
+        const emptyTags = document.createElement("p");
+
+        emptyTags.className = "tags-empty";
+        emptyTags.textContent = "No tags yet.";
+        currentTagsList.append(emptyTags);
+        return;
+      }
+
+      currentTags.forEach((tag) => {
+        const tagButton = document.createElement("button");
+
+        tagButton.type = "button";
+        tagButton.textContent = `${tag} x`;
+        tagButton.addEventListener("click", () => {
+          saveTags(currentTags.filter((currentTag) => currentTag !== tag));
+        });
+        currentTagsList.append(tagButton);
+      });
+    };
+
+    const saveTags = async (nextTags: readonly string[]): Promise<void> => {
+      if (!record.id) return;
+
+      setSavingState(true);
+      feedback.textContent = "Saving tags...";
+      feedback.dataset.state = "saving";
+
+      try {
+        const updatedLead = await updateLeadTags(record.id, nextTags);
+
+        currentTags = [...normalizeTagList(updatedLead.tags)];
+        replaceLeadRecord(updatedLead);
+        renderCurrentTags();
+        updateLeadScoreDisplay(control.closest(".lead-card"), updatedLead);
+        feedback.textContent = updatedLead.tagsUpdatedAt
+          ? `Tags saved ${formatDate(updatedLead.tagsUpdatedAt)}.`
+          : "Tags saved.";
+        feedback.dataset.state = "success";
+
+        if (!matchesActiveFilters(updatedLead)) {
+          applyFilters();
+        } else {
+          updateDashboardMetrics();
+        }
+      } catch (error) {
+        feedback.textContent =
+          error instanceof Error
+            ? error.message
+            : "Unable to save lead tags.";
+        feedback.dataset.state = "error";
+      } finally {
+        setSavingState(false);
+      }
+    };
+
+    const addTag = (tag: string): void => {
+      const normalizedTag = getRawValue(tag);
+
+      if (!normalizedTag) return;
+
+      const nextTags = normalizeTagList([...currentTags, normalizedTag]);
+
+      tagInput.value = "";
+      saveTags(nextTags);
+    };
+
+    suggestedLeadTags.forEach((tag) => {
+      const tagButton = document.createElement("button");
+
+      tagButton.type = "button";
+      tagButton.textContent = tag;
+      tagButton.addEventListener("click", () => addTag(tag));
+      suggestedTagsList.append(tagButton);
+    });
+
+    addButton.addEventListener("click", () => addTag(tagInput.value));
+    tagInput.addEventListener("keydown", (event) => {
+      if (event.key !== "Enter") return;
+
+      event.preventDefault();
+      addTag(tagInput.value);
+    });
+
+    if (!record.id) {
+      feedback.textContent = "Missing lead id.";
+      feedback.dataset.state = "error";
+    }
+
+    heading.append(label);
+    addRow.append(tagInput, addButton);
+    renderCurrentTags();
+    setSavingState(false);
+    control.append(
+      heading,
+      currentTagsList,
+      suggestedTagsList,
+      addRow,
+      feedback
+    );
+
+    return control;
+  };
+
+  const getEconomicsSnapshots = (
+    record: LeadSubmissionRecord
+  ): readonly BrokerageEconomicsSnapshot[] =>
+    Array.isArray(record.economicsSnapshots) ? record.economicsSnapshots : [];
+
+  const getSnapshotTime = (snapshot: BrokerageEconomicsSnapshot): number => {
+    const createdAt = Date.parse(snapshot.createdAt);
+
+    return Number.isFinite(createdAt) ? createdAt : 0;
+  };
+
+  const createEconomicsHistoryMetric = (label: string, value: string) => {
+    const metric = document.createElement("div");
+    const labelElement = document.createElement("span");
+    const valueElement = document.createElement("strong");
+
+    metric.className = "economics-history-metric";
+    labelElement.textContent = label;
+    valueElement.textContent = value;
+    metric.append(labelElement, valueElement);
+
+    return metric;
+  };
+
+  const createEconomicsHistoryPanel = (record: LeadSubmissionRecord) => {
+    const panel = document.createElement("section");
+    const heading = document.createElement("div");
+    const eyebrow = document.createElement("p");
+    const title = document.createElement("h4");
+    const list = document.createElement("div");
+    const snapshots = [...getEconomicsSnapshots(record)].sort(
+      (a, b) => getSnapshotTime(b) - getSnapshotTime(a)
+    );
+
+    panel.className = "economics-history-panel";
+    heading.className = "economics-history-heading";
+    eyebrow.className = "eyebrow";
+    eyebrow.textContent = "Economics History";
+    title.textContent = "Saved Snapshots";
+    list.className = "economics-history-list";
+
+    if (snapshots.length === 0) {
+      const emptyMessage = document.createElement("p");
+
+      emptyMessage.className = "economics-history-empty";
+      emptyMessage.textContent = "No economics snapshots saved for this lead yet.";
+      list.append(emptyMessage);
+    }
+
+    snapshots.forEach((snapshot) => {
+      const item = document.createElement("article");
+      const itemHeading = document.createElement("div");
+      const savedAt = document.createElement("strong");
+      const recommendation = document.createElement("span");
+      const metrics = document.createElement("div");
+      const riskHistory = document.createElement("section");
+
+      item.className = "economics-history-card";
+      itemHeading.className = "economics-history-card-heading";
+      savedAt.textContent = formatDate(snapshot.createdAt);
+      recommendation.className = "economics-history-recommendation";
+      recommendation.dataset.recommendation = snapshot.recommendation;
+      recommendation.textContent = getBrokerageRecommendationLabel(
+        snapshot.recommendation
+      );
+      metrics.className = "economics-history-grid";
+      metrics.append(
+        createEconomicsHistoryMetric("Reference", cleanValue(snapshot.reference)),
+        createEconomicsHistoryMetric(
+          "Purchase Price",
+          formatBrokerageCurrency(snapshot.purchasePrice)
+        ),
+        createEconomicsHistoryMetric(
+          "Market Value",
+          formatBrokerageCurrency(snapshot.estimatedMarketValue)
+        ),
+        createEconomicsHistoryMetric(
+          "Expected Expenses",
+          formatBrokerageCurrency(snapshot.expectedExpenses)
+        ),
+        createEconomicsHistoryMetric(
+          "Net Profit",
+          formatBrokerageCurrency(snapshot.netProfit)
+        ),
+        createEconomicsHistoryMetric("ROI", formatBrokeragePercent(snapshot.roiPercent)),
+        createEconomicsHistoryMetric(
+          "Risk-Adjusted Profit",
+          formatBrokerageCurrency(snapshot.riskAdjustedProfit)
+        )
+      );
+
+      riskHistory.className = "economics-history-risk";
+      riskHistory.dataset.snapshotRiskView = "";
+
+      if (snapshot.riskAnalysis) {
+        const riskHeading = document.createElement("div");
+        const riskTitle = document.createElement("strong");
+        const classification = document.createElement("span");
+        const riskMetrics = document.createElement("div");
+        const explanation = document.createElement("p");
+        const moderateContingencyLabel = formatContingencyAmount(
+          snapshot.riskAnalysis.moderateContingencyAmount
+        );
+        const severeContingencyLabel = formatContingencyAmount(
+          snapshot.riskAnalysis.severeContingencyAmount
+        );
+
+        riskHeading.className = "economics-history-risk-heading";
+        riskTitle.textContent = "Risk-Adjusted View";
+        classification.className = "economics-history-classification";
+        classification.dataset.classification =
+          snapshot.riskAnalysis.serviceExposureClassification;
+        classification.dataset.snapshotServiceExposure = "";
+        classification.textContent = getServiceExposureLabel(
+          snapshot.riskAnalysis.serviceExposureClassification
+        );
+        riskMetrics.className = "economics-history-risk-grid";
+        riskMetrics.append(
+          createEconomicsHistoryMetric(
+            "Base Expected Profit",
+            formatBrokerageCurrency(snapshot.riskAnalysis.baseExpectedProfit)
+          ),
+          createEconomicsHistoryMetric(
+            `After ${moderateContingencyLabel} Contingency`,
+            formatBrokerageCurrency(
+              snapshot.riskAnalysis.profitAfterModerateContingency
+            )
+          ),
+          createEconomicsHistoryMetric(
+            `After ${severeContingencyLabel} Contingency`,
+            formatBrokerageCurrency(
+              snapshot.riskAnalysis.profitAfterSevereContingency
+            )
+          )
+        );
+        explanation.className = "economics-history-risk-explanation";
+        explanation.textContent = snapshot.riskAnalysis.explanation;
+        riskHeading.append(riskTitle, classification);
+        riskHistory.append(riskHeading, riskMetrics, explanation);
+
+        if (
+          snapshot.riskAnalysis.modelCaution &&
+          snapshot.riskAnalysis.thinMarginModel
+        ) {
+          const caution = document.createElement("p");
+
+          caution.className = "economics-history-model-caution";
+          caution.dataset.snapshotModelCaution = "";
+          caution.textContent =
+            `Model caution — ${snapshot.riskAnalysis.thinMarginModel.label}: confirm service, polishing, shipping, and condition exposure before proceeding.`;
+          riskHistory.append(caution);
+        }
+      } else {
+        const legacyMessage = document.createElement("p");
+
+        riskHistory.classList.add("economics-history-risk--legacy");
+        legacyMessage.textContent =
+          "Risk-adjusted guidance was not captured for this older snapshot.";
+        riskHistory.append(legacyMessage);
+      }
+
+      itemHeading.append(savedAt, recommendation);
+      item.append(itemHeading, metrics, riskHistory);
+
+      if (snapshot.brokerNote) {
+        const note = document.createElement("p");
+
+        note.className = "economics-history-note";
+        note.textContent = snapshot.brokerNote;
+        item.append(note);
+      }
+
+      list.append(item);
+    });
+
+    heading.append(eyebrow, title);
+    panel.append(heading, list);
+
+    return panel;
+  };
+
+  const createSummaryItem = (label: string, value: string) => {
+    const item = document.createElement("div");
+    const labelElement = document.createElement("span");
+    const valueElement = document.createElement("strong");
+
+    item.className = "lead-summary-item";
+    labelElement.textContent = label;
+    valueElement.textContent = value;
+    item.append(labelElement, valueElement);
+
+    return item;
+  };
+
+  const getLatestEconomicsStateLabel = (
+    summary: LeadEconomicsSummary
+  ): string => {
+    if (summary.state === "not-analyzed") return "Not Analyzed";
+    if (summary.state === "legacy-analysis") return "Legacy Analysis";
+
+    return getServiceExposureLabel(summary.state);
+  };
+
+  const createLatestEconomicsMetric = (
+    label: string,
+    value: string,
+    metricName: string
+  ) => {
+    const metric = createSummaryItem(label, value);
+
+    metric.classList.add("latest-economics-metric");
+    metric.dataset.latestEconomicsMetric = metricName;
+
+    return metric;
+  };
+
+  const createLatestEconomicsPanel = (record: LeadSubmissionRecord) => {
+    const summary = deriveLatestLeadEconomicsSummary(record);
+    const panel = document.createElement("section");
+    const heading = document.createElement("div");
+    const title = document.createElement("h4");
+    const state = document.createElement("span");
+
+    panel.className = "latest-economics-panel";
+    panel.dataset.latestEconomics = "";
+    panel.dataset.economicsState = summary.state;
+    heading.className = "latest-economics-heading";
+    title.textContent = "Latest Economics";
+    state.className = "latest-economics-state";
+    state.dataset.classification = summary.state;
+    state.textContent = getLatestEconomicsStateLabel(summary);
+    heading.append(title, state);
+    panel.append(heading);
+
+    if (summary.state === "not-analyzed") {
+      const message = document.createElement("p");
+
+      message.className = "latest-economics-message";
+      message.textContent = "Not Analyzed";
+      panel.append(message);
+
+      return panel;
+    }
+
+    if (summary.state === "legacy-analysis") {
+      const message = document.createElement("p");
+
+      message.className = "latest-economics-message";
+      message.textContent =
+        "A new economics analysis is required for current risk guidance.";
+      panel.append(message);
+
+      return panel;
+    }
+
+    const metrics = document.createElement("div");
+
+    metrics.className = "latest-economics-grid";
+    metrics.append(
+      createLatestEconomicsMetric(
+        "Base Expected Profit",
+        formatBrokerageCurrency(summary.baseExpectedProfit),
+        "base-profit"
+      ),
+      createLatestEconomicsMetric(
+        "ROI",
+        formatBrokeragePercent(summary.roiPercent),
+        "roi"
+      ),
+      createLatestEconomicsMetric(
+        "Analysis Date",
+        summary.snapshotTimestamp
+          ? formatDate(summary.snapshotTimestamp)
+          : "Unavailable",
+        "analysis-date"
+      )
+    );
+    panel.append(metrics);
+
+    if (summary.modelCaution) {
+      const caution = document.createElement("p");
+      const modelLabel = summary.modelCautionLabel
+        ? ` - ${summary.modelCautionLabel}`
+        : "";
+
+      caution.className = "latest-economics-caution";
+      caution.dataset.latestEconomicsModelCaution = "";
+      caution.textContent =
+        `Model caution${modelLabel}: confirm service, polishing, shipping, and condition exposure before proceeding.`;
+      panel.append(caution);
+    }
+
+    return panel;
+  };
+
+  const createAnalyzeEconomicsButton = (record: LeadSubmissionRecord) => {
+    const button = document.createElement("button");
+
+    button.type = "button";
+    button.className = "economics-load-button";
+    button.textContent = "Analyze Economics";
+    button.addEventListener("click", () => {
+      brokerageEconomicsWorkspaceController?.loadLead(record);
+    });
+
+    return button;
+  };
+
+  const createDetailsToggle = (drawer: HTMLElement) => {
+    const button = document.createElement("button");
+
+    button.type = "button";
+    button.className = "details-toggle";
+    button.textContent = "View Details";
+    button.setAttribute("aria-expanded", "false");
+
+    button.addEventListener("click", () => {
+      const isExpanded = button.getAttribute("aria-expanded") === "true";
+      const nextExpanded = !isExpanded;
+
+      button.setAttribute("aria-expanded", String(nextExpanded));
+      button.textContent = nextExpanded ? "Hide Details" : "View Details";
+      drawer.hidden = !nextExpanded;
+    });
+
+    return button;
+  };
+
+  const createLeadCard = (record: LeadSubmissionRecord) => {
+    const payload = record.payload ?? {};
+    const leadScore = createBrokerLeadScore(record);
+    const card = document.createElement("article");
+    const heading = document.createElement("div");
+    const titleGroup = document.createElement("div");
+    const title = document.createElement("h3");
+    const meta = document.createElement("p");
+    const summary = document.createElement("div");
+    const summaryMeta = document.createElement("div");
+    const summaryActions = document.createElement("div");
+    const drawer = document.createElement("section");
+    const details = document.createElement("dl");
+
+    card.className = "lead-card";
+    heading.className = "lead-card-header";
+    summary.className = "lead-summary";
+    summaryMeta.className = "lead-summary-meta";
+    summaryActions.className = "lead-summary-actions";
+    drawer.className = "lead-detail-drawer";
+    drawer.hidden = true;
+    title.textContent = cleanValue(payload.name);
+    meta.textContent = getWatchInterest(payload);
+
+    const scoreSummaryItem = createSummaryItem(
+      "Score",
+      `${leadScore.score}/100 ${formatScoreTier(leadScore.tier)}`
+    );
+
+    scoreSummaryItem.dataset.leadScoreSummary = "true";
+    titleGroup.append(title, meta);
+    summaryMeta.append(
+      scoreSummaryItem,
+      createSummaryItem("Budget", cleanValue(payload.budget)),
+      createSummaryItem("Timeline", cleanValue(payload.timeline)),
+      createSummaryItem("Saved", formatDate(record.savedAt))
+    );
+    summaryActions.append(
+      createStatusControl(record),
+      createAnalyzeEconomicsButton(record),
+      createDetailsToggle(drawer)
+    );
+    summary.append(summaryMeta, summaryActions);
+
+    details.append(
+      createField("Email", payload.email),
+      createField("Phone", payload.phone),
+      createField("Intent", formatLeadIntent(payload.intent)),
+      createField("Brand", payload.brand),
+      createField("Collection", payload.collection),
+      createField("Reference", payload.reference),
+      createField("Desired Watch", payload.desiredWatch),
+      createField("Source", payload.source),
+      createField("Created At", formatDate(payload.createdAt ?? undefined)),
+      createField("Saved At", formatDate(record.savedAt)),
+      createField("Email Delivery", getEmailStatusText(record.emailDelivery))
+    );
+
+    heading.append(titleGroup);
+    drawer.append(
+      createLeadScorePanel(record),
+      createBrokerIntelligencePanel(payload),
+      createBrokerActionsPanel(payload),
+      createEconomicsHistoryPanel(record),
+      details,
+      createMessageBlock(payload.message),
+      createTagsControl(record),
+      createNotesControl(record)
+    );
+
+    if (record.emailDelivery?.reason) {
+      drawer.append(
+        createMessageBlock(`Email delivery: ${record.emailDelivery.reason}`)
+      );
+    }
+
+    card.append(heading, summary, createLatestEconomicsPanel(record), drawer);
+
+    return card;
+  };
+
+  const showState = (
+    state: "loading" | "locked" | "empty" | "error" | "populated"
+  ): void => {
+    setVisible(loadingState, state === "loading");
+    setVisible(lockedState, state === "locked");
+    setVisible(emptyState, state === "empty");
+    setVisible(errorState, state === "error");
+    setVisible(leadBoard, state === "populated");
+    setVisible(brokerageEconomicsAnchor, state !== "locked");
+  };
+
+  const applyFilters = (): void => {
+    const filteredRecords = getFilteredSortedRecords();
+
+    updateDashboardMetrics(filteredRecords);
+    if (!leadList) return;
+
+    leadList.replaceChildren();
+
+    if (allLeadRecords.length === 0) {
+      setVisible(filterEmpty, false);
+      showState("empty");
+      return;
+    }
+
+    showState("populated");
+    setVisible(filterEmpty, filteredRecords.length === 0);
+
+    filteredRecords.forEach((record) => {
+      leadList.append(createLeadCard(record));
+    });
+  };
+
+  const renderLeads = (records: readonly LeadSubmissionRecord[]): void => {
+    allLeadRecords = getSortedLeadRecords(records);
+    applyFilters();
+  };
+
+  statusFilter?.addEventListener("change", () => {
+    activeStatusFilter = normalizeStatusFilter(statusFilter.value);
+    applyFilters();
+  });
+
+  searchFilter?.addEventListener("input", () => {
+    activeSearchQuery = searchFilter.value.trim();
+    applyFilters();
+  });
+
+  economicsFilter?.addEventListener("change", () => {
+    activeEconomicsFilter = isLeadEconomicsFilter(economicsFilter.value)
+      ? economicsFilter.value
+      : "all";
+    applyFilters();
+  });
+
+  economicsSort?.addEventListener("change", () => {
+    activeEconomicsSort = isLeadEconomicsSort(economicsSort.value)
+      ? economicsSort.value
+      : "current";
+    applyFilters();
+  });
+
+  exportCsvButton?.addEventListener("click", () => {
+    exportFilteredLeadsCsv();
+  });
+
+  const loadBrokerLeads = async (): Promise<void> => {
+    showState("loading");
+
+    try {
+      const response = await fetch(buildBrokerApiUrl("/api/broker/leads/"), {
+        headers: createBrokerApiHeaders({
+          Accept: "application/json",
+        }),
+        cache: "no-store",
+      });
+
+      if (response.status === 401) {
+        let responseBody: unknown = {};
+
+        try {
+          responseBody = await response.json();
+        } catch {
+          responseBody = {};
+        }
+
+        if (leadCount) leadCount.textContent = "0";
+        if (lockedMessage) {
+          lockedMessage.textContent = getApiErrorMessage(
+            responseBody,
+            "Broker Console access key is missing or invalid."
+          );
+        }
+        showState("locked");
+        return;
+      }
+
+      if (!response.ok) {
+        throw new Error(`Broker leads API returned ${response.status}.`);
+      }
+
+      const records: unknown = await response.json();
+
+      if (!Array.isArray(records)) {
+        throw new Error("Broker leads API returned an unexpected response.");
+      }
+
+      renderLeads(records as LeadSubmissionRecord[]);
+    } catch (error) {
+      if (leadCount) leadCount.textContent = "0";
+      if (errorMessage) {
+        errorMessage.textContent =
+          error instanceof Error
+            ? error.message
+            : "Unable to load broker leads.";
+      }
+      showState("error");
+    }
+  };
+
+  const startBrokerConsole = (): void => {
+    if (brokerAuthConfigured && !activeBrokerConsoleKey && !brokerAuthAllowed) {
+      if (leadCount) leadCount.textContent = "0";
+      if (lockedMessage) {
+        lockedMessage.textContent =
+          "Open this internal console with ?key=YOUR_ACCESS_KEY.";
+      }
+      showState("locked");
+      return;
+    }
+
+    loadBrokerLeads();
+  };
+
+  brokerageEconomicsAnchor?.append(createBrokerageEconomicsPanel());
+  startBrokerConsole();
+</script>
+
+<style>
+  .console-page {
+    min-height: 100vh;
+    background: #07111f;
+    color: #ffffff;
+  }
+
+  .console-shell {
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 84px 24px 88px;
+  }
+
+  .console-header {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 180px;
+    gap: 24px;
+    align-items: end;
+    margin-bottom: 28px;
+  }
+
+  .eyebrow {
+    margin: 0 0 12px;
+    color: #d4b06a;
+    font-size: 12px;
+    font-weight: 800;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+  }
+
+  h1,
+  h2,
+  h3,
+  p {
+    margin-top: 0;
+  }
+
+  h1 {
+    margin-bottom: 18px;
+    font-size: clamp(48px, 7vw, 86px);
+    line-height: 0.95;
+  }
+
+  h2 {
+    margin-bottom: 8px;
+    font-size: 28px;
+  }
+
+  h3 {
+    margin-bottom: 0;
+    color: #173a5e;
+    font-size: 24px;
+  }
+
+  .console-header p:not(.eyebrow) {
+    max-width: 720px;
+    margin-bottom: 0;
+    color: rgba(255, 255, 255, 0.72);
+    font-size: 18px;
+    line-height: 1.65;
+  }
+
+  .summary-card,
+  .state-panel,
+  .lead-board {
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    background: rgba(255, 255, 255, 0.05);
+  }
+
+  .summary-card {
+    padding: 22px;
+  }
+
+  .summary-card span {
+    display: block;
+    color: #d4b06a;
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 1;
+  }
+
+  .summary-card p {
+    margin: 10px 0 0;
+    color: rgba(255, 255, 255, 0.68);
+    font-weight: 800;
+  }
+
+  .state-panel {
+    padding: 34px;
+  }
+
+  .state-panel[hidden],
+  .lead-board[hidden] {
+    display: none;
+  }
+
+  .state-panel p:last-child {
+    max-width: 680px;
+    margin-bottom: 0;
+    color: rgba(255, 255, 255, 0.68);
+    font-size: 17px;
+    line-height: 1.65;
+  }
+
+  .state-panel--error {
+    border-color: rgba(217, 160, 146, 0.58);
+    background: rgba(123, 36, 23, 0.18);
+  }
+
+  .state-panel--locked {
+    border-color: rgba(212, 176, 106, 0.48);
+    background: rgba(212, 176, 106, 0.1);
+  }
+
+  .lead-board {
+    padding: 28px;
+  }
+
+  .board-heading {
+    margin-bottom: 20px;
+  }
+
+  .metrics-panel {
+    display: grid;
+    gap: 16px;
+    margin-bottom: 20px;
+  }
+
+  .economics-coverage {
+    margin-bottom: 20px;
+    border: 1px solid rgba(212, 176, 106, 0.28);
+    background: rgba(212, 176, 106, 0.07);
+    padding: 18px;
+  }
+
+  .economics-coverage-grid {
+    display: grid;
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    gap: 10px;
+  }
+
+  .metrics-group {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    background: rgba(255, 255, 255, 0.045);
+    padding: 18px;
+  }
+
+  .metrics-heading {
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+    align-items: end;
+    margin-bottom: 14px;
+  }
+
+  .metrics-heading .eyebrow {
+    margin-bottom: 0;
+  }
+
+  .metrics-heading h3 {
+    color: #ffffff;
+    font-size: 20px;
+  }
+
+  .metrics-grid {
+    display: grid;
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    gap: 10px;
+  }
+
+  .metric-card {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    background: rgba(255, 255, 255, 0.06);
+    min-height: 86px;
+    padding: 14px;
+  }
+
+  .metric-card--delivery {
+    border-color: rgba(212, 176, 106, 0.24);
+    background: rgba(212, 176, 106, 0.075);
+  }
+
+  .metric-card span {
+    display: block;
+    color: #d4b06a;
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 1;
+  }
+
+  .metric-card p {
+    margin: 9px 0 0;
+    color: rgba(255, 255, 255, 0.72);
+    font-size: 12px;
+    font-weight: 900;
+    letter-spacing: 0.08em;
+    line-height: 1.35;
+    text-transform: uppercase;
+  }
+
+  .console-tools {
+    display: grid;
+    gap: 18px;
+    margin-bottom: 20px;
+  }
+
+  .lead-stats {
+    display: grid;
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+    gap: 10px;
+  }
+
+  .lead-stat {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    background: rgba(255, 255, 255, 0.055);
+    padding: 14px;
+  }
+
+  .lead-stat span {
+    display: block;
+    color: #d4b06a;
+    font-size: 28px;
+    font-weight: 900;
+    line-height: 1;
+  }
+
+  .lead-stat p {
+    margin: 8px 0 0;
+    color: rgba(255, 255, 255, 0.72);
+    font-size: 12px;
+    font-weight: 900;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+
+  .filter-controls {
+    display: grid;
+    grid-template-columns: 170px 200px 230px minmax(0, 1fr);
+    gap: 12px;
+  }
+
+  .filter-controls label {
+    display: grid;
+    gap: 8px;
+    color: #d4b06a;
+    font-size: 12px;
+    font-weight: 900;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+
+  .filter-controls select,
+  .filter-controls input {
+    min-height: 44px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    background: #ffffff;
+    color: #173a5e;
+    font: inherit;
+    font-weight: 800;
+    padding: 0 12px;
+  }
+
+  .export-controls {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    align-items: center;
+  }
+
+  .export-controls button {
+    min-height: 44px;
+    border: 1px solid #d4b06a;
+    background: #d4b06a;
+    color: #07111f;
+    cursor: pointer;
+    font: inherit;
+    font-weight: 900;
+    padding: 0 18px;
+  }
+
+  .export-controls button:disabled {
+    border-color: rgba(255, 255, 255, 0.14);
+    background: rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 0.52);
+    cursor: not-allowed;
+  }
+
+  .export-controls p {
+    margin: 0;
+    color: rgba(255, 255, 255, 0.68);
+    font-size: 13px;
+    font-weight: 800;
+    line-height: 1.5;
+  }
+
+  .filter-empty {
+    border: 1px solid rgba(212, 176, 106, 0.32);
+    background: rgba(212, 176, 106, 0.08);
+    margin-bottom: 16px;
+    padding: 24px;
+  }
+
+  .filter-empty[hidden] {
+    display: none;
+  }
+
+  .filter-empty h3 {
+    color: #ffffff;
+  }
+
+  .filter-empty p:last-child {
+    margin-bottom: 0;
+    color: rgba(255, 255, 255, 0.7);
+    line-height: 1.6;
+  }
+
+  .lead-list {
+    display: grid;
+    gap: 16px;
+  }
+
+  .lead-card {
+    background: #faf9f7;
+    color: #173a5e;
+    border: 1px solid #e3dccf;
+    padding: 24px;
+  }
+
+  .lead-card-header {
+    margin-bottom: 16px;
+  }
+
+  .lead-card-header p {
+    margin: 0;
+    color: #6a7380;
+    font-weight: 800;
+  }
+
+  .lead-summary {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(220px, 300px);
+    gap: 18px;
+    align-items: start;
+  }
+
+  .lead-summary-meta {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 12px;
+  }
+
+  .lead-summary-item {
+    border: 1px solid #e3dccf;
+    background: #ffffff;
+    padding: 14px;
+  }
+
+  .lead-summary-item span {
+    display: block;
+    color: #8a6a3f;
+    font-size: 11px;
+    font-weight: 900;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+  }
+
+  .lead-summary-item strong {
+    display: block;
+    margin-top: 6px;
+    overflow-wrap: anywhere;
+    color: #173a5e;
+    font-size: 15px;
+    line-height: 1.45;
+  }
+
+  .lead-summary-actions {
+    display: grid;
+    gap: 10px;
+  }
+
+  .latest-economics-panel {
+    display: grid;
+    gap: 12px;
+    margin-top: 16px;
+    border: 1px solid #d8d0c3;
+    background: #f9f6f0;
+    padding: 16px;
+  }
+
+  .latest-economics-heading {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .latest-economics-heading h4 {
+    margin: 0;
+    color: #173a5e;
+    font-size: 16px;
+  }
+
+  .latest-economics-state {
+    border: 1px solid #d8d0c3;
+    background: #ffffff;
+    color: #173a5e;
+    font-size: 11px;
+    font-weight: 900;
+    letter-spacing: 0.04em;
+    padding: 6px 9px;
+    text-transform: uppercase;
+  }
+
+  .latest-economics-state[data-classification="protected"] {
+    border-color: rgba(31, 107, 71, 0.32);
+    background: rgba(31, 107, 71, 0.1);
+    color: #1f6b47;
+  }
+
+  .latest-economics-state[data-classification="exposed"],
+  .latest-economics-state[data-classification="legacy-analysis"],
+  .latest-economics-state[data-classification="incomplete"] {
+    border-color: rgba(212, 176, 106, 0.45);
+    background: rgba(212, 176, 106, 0.12);
+    color: #704f16;
+  }
+
+  .latest-economics-state[data-classification="fragile"],
+  .latest-economics-state[data-classification="unprofitable"] {
+    border-color: rgba(154, 47, 47, 0.28);
+    background: rgba(154, 47, 47, 0.09);
+    color: #9a2f2f;
+  }
+
+  .latest-economics-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 10px;
+  }
+
+  .latest-economics-metric {
+    padding: 11px 12px;
+  }
+
+  .latest-economics-message {
+    margin: 0;
+    color: #5a6571;
+    font-size: 13px;
+    font-weight: 800;
+    line-height: 1.55;
+  }
+
+  .latest-economics-caution {
+    margin: 0;
+    border: 1px solid rgba(154, 47, 47, 0.24);
+    background: rgba(154, 47, 47, 0.07);
+    color: #7b2417;
+    font-size: 13px;
+    font-weight: 900;
+    line-height: 1.5;
+    padding: 10px 12px;
+  }
+
+  .status-control {
+    display: grid;
+    gap: 8px;
+  }
+
+  .status-control label {
+    display: grid;
+    gap: 8px;
+    color: #8a6a3f;
+    font-size: 12px;
+    font-weight: 900;
+    text-transform: uppercase;
+  }
+
+  .status-control select {
+    min-height: 42px;
+    border: 1px solid #d8d0c3;
+    background: #ffffff;
+    color: #173a5e;
+    font: inherit;
+    font-weight: 800;
+    padding: 0 12px;
+  }
+
+  .status-control select:disabled {
+    cursor: wait;
+    opacity: 0.74;
+  }
+
+  .status-feedback {
+    min-height: 20px;
+    margin: 0;
+    color: #6a7380;
+    font-size: 13px;
+    line-height: 1.5;
+  }
+
+  .status-feedback[data-state="success"] {
+    color: #31501e;
+  }
+
+  .status-feedback[data-state="error"] {
+    color: #7b2417;
+  }
+
+  .status-feedback[data-state="updating"] {
+    color: #8a6a3f;
+  }
+
+  .details-toggle {
+    min-height: 42px;
+    border: 1px solid #173a5e;
+    background: transparent;
+    color: #173a5e;
+    cursor: pointer;
+    font: inherit;
+    font-weight: 900;
+    padding: 0 14px;
+    transition:
+      background 160ms ease,
+      color 160ms ease,
+      border-color 160ms ease;
+  }
+
+  .details-toggle:hover,
+  .details-toggle[aria-expanded="true"] {
+    border-color: #d4b06a;
+    background: #173a5e;
+    color: #ffffff;
+  }
+
+  .lead-detail-drawer {
+    margin-top: 20px;
+    border-top: 1px solid #e3dccf;
+    padding-top: 20px;
+  }
+
+  .lead-detail-drawer[hidden] {
+    display: none;
+  }
+
+  .lead-score-panel {
+    border: 1px solid #d8d0c3;
+    background: #ffffff;
+    margin-bottom: 20px;
+    padding: 18px;
+  }
+
+  .lead-score-heading {
+    display: flex;
+    justify-content: space-between;
+    gap: 14px;
+    align-items: end;
+    margin-bottom: 14px;
+  }
+
+  .lead-score-heading .eyebrow {
+    margin-bottom: 0;
+    color: #8a6a3f;
+  }
+
+  .lead-score-heading h4 {
+    margin: 0;
+    color: #173a5e;
+    font-size: 18px;
+  }
+
+  .lead-score-summary {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    align-items: center;
+    border: 1px solid #e3dccf;
+    background: #faf9f7;
+    padding: 14px;
+  }
+
+  .lead-score-summary strong {
+    color: #173a5e;
+    font-size: 34px;
+    font-weight: 900;
+    line-height: 1;
+  }
+
+  .lead-score-tier {
+    border: 1px solid #d8d0c3;
+    background: #ffffff;
+    color: #173a5e;
+    font-size: 12px;
+    font-weight: 900;
+    letter-spacing: 0.08em;
+    padding: 8px 10px;
+    text-transform: uppercase;
+  }
+
+  .lead-score-tier--warm {
+    border-color: rgba(212, 176, 106, 0.42);
+    background: rgba(212, 176, 106, 0.14);
+    color: #704f16;
+  }
+
+  .lead-score-tier--hot {
+    border-color: rgba(123, 36, 23, 0.28);
+    background: rgba(123, 36, 23, 0.08);
+    color: #7b2417;
+  }
+
+  .lead-score-tier--vip {
+    border-color: rgba(49, 80, 30, 0.34);
+    background: rgba(49, 80, 30, 0.1);
+    color: #31501e;
+  }
+
+  .lead-score-reasons {
+    border-top: 1px solid #e3dccf;
+    margin-top: 14px;
+    padding-top: 14px;
+  }
+
+  .lead-score-reasons span {
+    display: block;
+    color: #8a6a3f;
+    font-size: 11px;
+    font-weight: 900;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+  }
+
+  .lead-score-reasons ul {
+    display: grid;
+    gap: 7px;
+    margin: 10px 0 0;
+    padding-left: 18px;
+  }
+
+  .lead-score-reasons li {
+    color: #374656;
+    font-weight: 800;
+    line-height: 1.5;
+  }
+
+  .lead-intelligence-panel {
+    border: 1px solid #d8d0c3;
+    background: #ffffff;
+    margin-bottom: 20px;
+    padding: 18px;
+  }
+
+  .lead-intelligence-heading {
+    display: flex;
+    justify-content: space-between;
+    gap: 14px;
+    align-items: end;
+    margin-bottom: 14px;
+  }
+
+  .lead-intelligence-heading .eyebrow {
+    margin-bottom: 0;
+    color: #8a6a3f;
+  }
+
+  .lead-intelligence-heading h4 {
+    margin: 0;
+    color: #173a5e;
+    font-size: 18px;
+  }
+
+  .lead-intelligence-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 12px;
+  }
+
+  .intelligence-metric {
+    border: 1px solid #e3dccf;
+    background: #faf9f7;
+    min-height: 82px;
+    padding: 12px;
+  }
+
+  .intelligence-metric span,
+  .lead-intelligence-recommendation span {
+    display: block;
+    color: #8a6a3f;
+    font-size: 11px;
+    font-weight: 900;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+  }
+
+  .intelligence-metric p {
+    margin: 8px 0 0;
+    overflow-wrap: anywhere;
+    color: #173a5e;
+    font-weight: 800;
+    line-height: 1.45;
+  }
+
+  .intelligence-chip {
+    display: inline-flex;
+    width: fit-content;
+    margin-top: 8px;
+    border: 1px solid #d8d0c3;
+    background: #ffffff;
+    color: #173a5e;
+    font-size: 13px;
+    font-weight: 900;
+    line-height: 1;
+    padding: 8px 10px;
+  }
+
+  .intelligence-chip--high {
+    border-color: rgba(49, 80, 30, 0.34);
+    background: rgba(49, 80, 30, 0.1);
+    color: #31501e;
+  }
+
+  .intelligence-chip--medium {
+    border-color: rgba(212, 176, 106, 0.42);
+    background: rgba(212, 176, 106, 0.14);
+    color: #704f16;
+  }
+
+  .intelligence-chip--low {
+    border-color: rgba(123, 36, 23, 0.26);
+    background: rgba(123, 36, 23, 0.08);
+    color: #7b2417;
+  }
+
+  .intelligence-chip--neutral {
+    color: #6a7380;
+  }
+
+  .lead-intelligence-recommendation {
+    border-top: 1px solid #e3dccf;
+    margin-top: 14px;
+    padding-top: 14px;
+  }
+
+  .lead-intelligence-recommendation p {
+    margin: 8px 0 0;
+    color: #374656;
+    font-weight: 800;
+    line-height: 1.6;
+  }
+
+  .lead-actions-panel {
+    border: 1px solid #d8d0c3;
+    background: #faf9f7;
+    margin-bottom: 20px;
+    padding: 18px;
+  }
+
+  .lead-actions-heading {
+    display: flex;
+    justify-content: space-between;
+    gap: 14px;
+    align-items: end;
+    margin-bottom: 14px;
+  }
+
+  .lead-actions-heading .eyebrow {
+    margin-bottom: 0;
+    color: #8a6a3f;
+  }
+
+  .lead-actions-heading h4 {
+    margin: 0;
+    color: #173a5e;
+    font-size: 18px;
+  }
+
+  .lead-actions-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 12px;
+  }
+
+  .broker-action-link {
+    display: grid;
+    gap: 7px;
+    min-height: 76px;
+    border: 1px solid #173a5e;
+    background: #ffffff;
+    color: #173a5e;
+    padding: 14px;
+    text-decoration: none;
+    transition:
+      background 160ms ease,
+      border-color 160ms ease,
+      color 160ms ease;
+  }
+
+  .broker-action-link:hover {
+    border-color: #d4b06a;
+    background: #173a5e;
+    color: #ffffff;
+  }
+
+  .broker-action-link strong {
+    font-size: 15px;
+    font-weight: 900;
+    line-height: 1.2;
+  }
+
+  .broker-action-link span {
+    color: #6a7380;
+    font-size: 13px;
+    font-weight: 800;
+    line-height: 1.45;
+  }
+
+  .broker-action-link:hover span {
+    color: rgba(255, 255, 255, 0.78);
+  }
+
+  .lead-actions-empty {
+    grid-column: 1 / -1;
+    margin: 0;
+    border: 1px solid #e3dccf;
+    background: #ffffff;
+    color: #6a7380;
+    font-weight: 800;
+    line-height: 1.6;
+    padding: 14px;
+  }
+
+  .economics-history-panel {
+    display: grid;
+    gap: 14px;
+    margin-bottom: 20px;
+    border: 1px solid #d8d0c3;
+    background: #f9f6f0;
+    padding: 18px;
+  }
+
+  .economics-history-heading {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    gap: 14px;
+    align-items: end;
+  }
+
+  .economics-history-heading .eyebrow {
+    margin-bottom: 0;
+    color: #8a6a3f;
+  }
+
+  .economics-history-heading h4 {
+    margin: 0;
+    color: #173a5e;
+    font-size: 18px;
+  }
+
+  .economics-history-list {
+    display: grid;
+    gap: 12px;
+  }
+
+  .economics-history-empty {
+    margin: 0;
+    border: 1px solid #e3dccf;
+    background: #ffffff;
+    color: #6a7380;
+    font-weight: 800;
+    line-height: 1.6;
+    padding: 14px;
+  }
+
+  .economics-history-card {
+    display: grid;
+    gap: 12px;
+    border: 1px solid #e3dccf;
+    background: #ffffff;
+    padding: 14px;
+  }
+
+  .economics-history-card-heading {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .economics-history-card-heading strong {
+    color: #173a5e;
+    font-weight: 900;
+  }
+
+  .economics-history-recommendation {
+    border: 1px solid #d8d0c3;
+    background: #f9f6f0;
+    color: #173a5e;
+    font-size: 12px;
+    font-weight: 900;
+    padding: 7px 10px;
+    text-transform: uppercase;
+  }
+
+  .economics-history-recommendation[data-recommendation="strong-buy"],
+  .economics-history-recommendation[data-recommendation="buy"] {
+    border-color: rgba(31, 107, 71, 0.32);
+    background: rgba(31, 107, 71, 0.1);
+    color: #1f6b47;
+  }
+
+  .economics-history-recommendation[data-recommendation="neutral"] {
+    border-color: rgba(212, 176, 106, 0.45);
+    background: rgba(212, 176, 106, 0.12);
+    color: #704f16;
+  }
+
+  .economics-history-recommendation[data-recommendation="pass"] {
+    border-color: rgba(154, 47, 47, 0.28);
+    background: rgba(154, 47, 47, 0.09);
+    color: #9a2f2f;
+  }
+
+  .economics-history-grid {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 10px;
+  }
+
+  .economics-history-metric {
+    display: grid;
+    gap: 4px;
+    border: 1px solid #ebe4d7;
+    background: #fffdf8;
+    padding: 10px;
+  }
+
+  .economics-history-metric span {
+    color: #8a6a3f;
+    font-size: 11px;
+    font-weight: 900;
+    text-transform: uppercase;
+  }
+
+  .economics-history-metric strong {
+    overflow-wrap: anywhere;
+    color: #173a5e;
+    font-size: 13px;
+    font-weight: 900;
+  }
+
+  .economics-history-note {
+    margin: 0;
+    border-top: 1px solid #e3dccf;
+    color: #374656;
+    font-weight: 800;
+    line-height: 1.6;
+    padding-top: 12px;
+    white-space: pre-wrap;
+  }
+
+  .economics-history-risk {
+    display: grid;
+    gap: 10px;
+    border-top: 1px solid #e3dccf;
+    padding-top: 12px;
+  }
+
+  .economics-history-risk-heading {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .economics-history-risk-heading > strong {
+    color: #173a5e;
+    font-size: 14px;
+    font-weight: 900;
+  }
+
+  .economics-history-classification {
+    border: 1px solid #d8d0c3;
+    background: #f9f6f0;
+    color: #173a5e;
+    font-size: 11px;
+    font-weight: 900;
+    padding: 6px 9px;
+    text-transform: uppercase;
+  }
+
+  .economics-history-classification[data-classification="protected"] {
+    border-color: rgba(31, 107, 71, 0.32);
+    background: rgba(31, 107, 71, 0.1);
+    color: #1f6b47;
+  }
+
+  .economics-history-classification[data-classification="exposed"] {
+    border-color: rgba(212, 176, 106, 0.45);
+    background: rgba(212, 176, 106, 0.12);
+    color: #704f16;
+  }
+
+  .economics-history-classification[data-classification="fragile"],
+  .economics-history-classification[data-classification="unprofitable"] {
+    border-color: rgba(154, 47, 47, 0.28);
+    background: rgba(154, 47, 47, 0.09);
+    color: #9a2f2f;
+  }
+
+  .economics-history-risk-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 10px;
+  }
+
+  .economics-history-risk-explanation,
+  .economics-history-risk--legacy p {
+    margin: 0;
+    color: #5a6571;
+    font-size: 13px;
+    font-weight: 800;
+    line-height: 1.55;
+  }
+
+  .economics-history-model-caution {
+    margin: 0;
+    border: 1px solid rgba(154, 47, 47, 0.24);
+    background: rgba(154, 47, 47, 0.07);
+    color: #7b2417;
+    font-size: 13px;
+    font-weight: 900;
+    line-height: 1.5;
+    padding: 10px 12px;
+  }
+
+  .economics-load-button {
+    min-height: 42px;
+    border: 1px solid #173a5e;
+    background: #173a5e;
+    color: #ffffff;
+    cursor: pointer;
+    font: inherit;
+    font-weight: 900;
+    padding: 0 14px;
+  }
+
+  .economics-load-button:hover,
+  .economics-load-button:focus-visible {
+    border-color: #d4b06a;
+    background: #0f2740;
+    outline: none;
+  }
+
+  .brokerage-economics-panel {
+    border: 1px solid #d8d0c3;
+    background: #ffffff;
+    margin-bottom: 20px;
+    padding: 18px;
+  }
+
+  .brokerage-economics-heading {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(220px, 360px);
+    gap: 14px;
+    align-items: end;
+    margin-bottom: 16px;
+  }
+
+  .brokerage-economics-heading .eyebrow {
+    margin-bottom: 0;
+    color: #8a6a3f;
+  }
+
+  .brokerage-economics-heading h4 {
+    margin: 0;
+    color: #173a5e;
+    font-size: 18px;
+  }
+
+  .brokerage-economics-heading p:not(.eyebrow) {
+    margin: 0;
+    color: #6a7380;
+    font-size: 13px;
+    font-weight: 800;
+    line-height: 1.55;
+  }
+
+  .brokerage-economics-form {
+    display: grid;
+    gap: 14px;
+  }
+
+  .brokerage-economics-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .brokerage-economics-context {
+    margin: 0;
+    border: 1px solid rgba(212, 176, 106, 0.42);
+    background: rgba(212, 176, 106, 0.12);
+    color: #704f16;
+    font-size: 13px;
+    font-weight: 900;
+    line-height: 1.45;
+    padding: 10px 12px;
+  }
+
+  .brokerage-economics-context[hidden] {
+    display: none;
+  }
+
+  .brokerage-economics-reset {
+    min-height: 40px;
+    border: 1px solid #173a5e;
+    background: transparent;
+    color: #173a5e;
+    cursor: pointer;
+    font: inherit;
+    font-weight: 900;
+    padding: 0 14px;
+  }
+
+  .brokerage-economics-reset:hover,
+  .brokerage-economics-reset:focus-visible {
+    border-color: #d4b06a;
+    background: #173a5e;
+    color: #ffffff;
+    outline: none;
+  }
+
+  .brokerage-economics-snapshot-actions {
+    display: grid;
+    gap: 12px;
+    border-top: 1px solid #e3dccf;
+    padding-top: 14px;
+  }
+
+  .brokerage-economics-snapshot-actions textarea {
+    min-height: 88px;
+    resize: vertical;
+    border: 1px solid #d8d0c3;
+    background: #ffffff;
+    color: #173a5e;
+    font: inherit;
+    font-weight: 800;
+    line-height: 1.5;
+    padding: 10px 12px;
+  }
+
+  .brokerage-economics-snapshot-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    align-items: center;
+  }
+
+  .brokerage-economics-save {
+    min-height: 42px;
+    border: 1px solid #173a5e;
+    background: #173a5e;
+    color: #ffffff;
+    cursor: pointer;
+    font: inherit;
+    font-weight: 900;
+    padding: 0 16px;
+  }
+
+  .brokerage-economics-save:hover:not(:disabled),
+  .brokerage-economics-save:focus-visible:not(:disabled) {
+    border-color: #d4b06a;
+    background: #0f2740;
+    outline: none;
+  }
+
+  .brokerage-economics-save:disabled {
+    cursor: not-allowed;
+    opacity: 0.48;
+  }
+
+  .brokerage-economics-save-feedback {
+    margin: 0;
+    color: #6a7380;
+    font-size: 13px;
+    font-weight: 850;
+    line-height: 1.45;
+  }
+
+  .brokerage-economics-save-feedback[data-state="ready"],
+  .brokerage-economics-save-feedback[data-state="success"] {
+    color: #1f6b47;
+  }
+
+  .brokerage-economics-save-feedback[data-state="saving"] {
+    color: #8a6a3f;
+  }
+
+  .brokerage-economics-save-feedback[data-state="error"] {
+    color: #9a2f2f;
+  }
+
+  .brokerage-economics-form label {
+    display: grid;
+    gap: 8px;
+    color: #8a6a3f;
+    font-size: 12px;
+    font-weight: 900;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+  }
+
+  .brokerage-economics-form input {
+    min-height: 40px;
+    border: 1px solid #d8d0c3;
+    background: #ffffff;
+    color: #173a5e;
+    font: inherit;
+    font-weight: 800;
+    padding: 0 12px;
+  }
+
+  .brokerage-economics-inputs,
+  .brokerage-economics-results {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 12px;
+  }
+
+  .brokerage-economics-metric {
+    border: 1px solid #e3dccf;
+    background: #faf9f7;
+    min-height: 82px;
+    padding: 12px;
+  }
+
+  .brokerage-economics-metric span {
+    display: block;
+    color: #8a6a3f;
+    font-size: 11px;
+    font-weight: 900;
+    letter-spacing: 0.06em;
+    line-height: 1.35;
+    text-transform: uppercase;
+  }
+
+  .brokerage-economics-metric strong {
+    display: inline-flex;
+    width: fit-content;
+    margin-top: 8px;
+    overflow-wrap: anywhere;
+    color: #173a5e;
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 1.3;
+  }
+
+  .brokerage-economics-metric strong[data-tone="positive"] {
+    color: #31501e;
+  }
+
+  .brokerage-economics-metric strong[data-tone="negative"] {
+    color: #7b2417;
+  }
+
+  .brokerage-economics-metric strong[data-tone="unavailable"] {
+    color: #6a7380;
+  }
+
+  .brokerage-economics-metric strong[data-recommendation] {
+    border: 1px solid #d8d0c3;
+    background: #ffffff;
+    padding: 8px 10px;
+    text-transform: uppercase;
+  }
+
+  .brokerage-economics-metric strong[data-recommendation="strong-buy"],
+  .brokerage-economics-metric strong[data-recommendation="buy"] {
+    border-color: rgba(49, 80, 30, 0.34);
+    background: rgba(49, 80, 30, 0.1);
+    color: #31501e;
+  }
+
+  .brokerage-economics-metric strong[data-recommendation="neutral"] {
+    border-color: rgba(212, 176, 106, 0.42);
+    background: rgba(212, 176, 106, 0.14);
+    color: #704f16;
+  }
+
+  .brokerage-economics-metric strong[data-recommendation="pass"] {
+    border-color: rgba(123, 36, 23, 0.26);
+    background: rgba(123, 36, 23, 0.08);
+    color: #7b2417;
+  }
+
+  .brokerage-economics-risk-view {
+    display: grid;
+    gap: 12px;
+    border: 1px solid #d8d0c3;
+    background: #f9f6f0;
+    padding: 14px;
+  }
+
+  .brokerage-economics-risk-view[hidden] {
+    display: none;
+  }
+
+  .brokerage-economics-risk-heading {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(220px, 360px);
+    gap: 14px;
+    align-items: end;
+  }
+
+  .brokerage-economics-risk-heading .eyebrow {
+    margin-bottom: 0;
+    color: #8a6a3f;
+  }
+
+  .brokerage-economics-risk-heading h5 {
+    margin: 0;
+    color: #173a5e;
+    font-size: 16px;
+  }
+
+  .brokerage-economics-risk-heading > p {
+    margin: 0;
+    color: #6a7380;
+    font-size: 12px;
+    font-weight: 800;
+    line-height: 1.5;
+  }
+
+  .brokerage-economics-risk-grid {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 10px;
+  }
+
+  .brokerage-economics-risk-metric {
+    border: 1px solid #e3dccf;
+    background: #ffffff;
+    min-height: 78px;
+    padding: 11px;
+  }
+
+  .brokerage-economics-risk-metric span {
+    display: block;
+    color: #8a6a3f;
+    font-size: 10px;
+    font-weight: 900;
+    letter-spacing: 0.05em;
+    line-height: 1.35;
+    text-transform: uppercase;
+  }
+
+  .brokerage-economics-risk-metric strong {
+    display: inline-flex;
+    width: fit-content;
+    margin-top: 7px;
+    overflow-wrap: anywhere;
+    color: #173a5e;
+    font-size: 15px;
+    font-weight: 900;
+    line-height: 1.3;
+  }
+
+  .brokerage-economics-risk-metric strong[data-tone="positive"] {
+    color: #31501e;
+  }
+
+  .brokerage-economics-risk-metric strong[data-tone="negative"] {
+    color: #7b2417;
+  }
+
+  .brokerage-economics-risk-metric strong[data-classification] {
+    border: 1px solid #d8d0c3;
+    padding: 6px 8px;
+    text-transform: uppercase;
+  }
+
+  .brokerage-economics-risk-metric strong[data-classification="protected"] {
+    border-color: rgba(49, 80, 30, 0.34);
+    background: rgba(49, 80, 30, 0.1);
+    color: #31501e;
+  }
+
+  .brokerage-economics-risk-metric strong[data-classification="exposed"] {
+    border-color: rgba(212, 176, 106, 0.42);
+    background: rgba(212, 176, 106, 0.14);
+    color: #704f16;
+  }
+
+  .brokerage-economics-risk-metric strong[data-classification="fragile"],
+  .brokerage-economics-risk-metric strong[data-classification="unprofitable"] {
+    border-color: rgba(123, 36, 23, 0.26);
+    background: rgba(123, 36, 23, 0.08);
+    color: #7b2417;
+  }
+
+  .brokerage-economics-risk-explanation {
+    margin: 0;
+    color: #374656;
+    font-size: 13px;
+    font-weight: 800;
+    line-height: 1.55;
+  }
+
+  .brokerage-economics-model-caution {
+    margin: 0;
+    border: 1px solid rgba(123, 36, 23, 0.26);
+    background: rgba(123, 36, 23, 0.08);
+    color: #7b2417;
+    font-size: 13px;
+    font-weight: 900;
+    line-height: 1.5;
+    padding: 10px 12px;
+  }
+
+  .brokerage-economics-model-caution[hidden] {
+    display: none;
+  }
+
+  .tags-control {
+    margin-top: 20px;
+    padding-top: 18px;
+    border-top: 1px solid #e3dccf;
+  }
+
+  .tags-heading span {
+    display: block;
+    color: #8a6a3f;
+    font-size: 12px;
+    font-weight: 900;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+  }
+
+  .current-tags-list,
+  .suggested-tags-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 12px;
+  }
+
+  .current-tags-list button,
+  .suggested-tags-list button {
+    min-height: 34px;
+    border: 1px solid #d8d0c3;
+    background: #ffffff;
+    color: #173a5e;
+    cursor: pointer;
+    font: inherit;
+    font-size: 13px;
+    font-weight: 900;
+    padding: 0 10px;
+  }
+
+  .current-tags-list button {
+    border-color: #173a5e;
+    background: #173a5e;
+    color: #ffffff;
+  }
+
+  .current-tags-list button:disabled,
+  .suggested-tags-list button:disabled {
+    cursor: wait;
+    opacity: 0.7;
+  }
+
+  .tags-empty {
+    margin: 0;
+    color: #6a7380;
+    font-size: 13px;
+    font-weight: 800;
+  }
+
+  .tags-add-row {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    gap: 10px;
+    margin-top: 12px;
+  }
+
+  .tags-add-row input {
+    min-height: 40px;
+    border: 1px solid #d8d0c3;
+    background: #ffffff;
+    color: #173a5e;
+    font: inherit;
+    padding: 0 12px;
+  }
+
+  .tags-add-row button {
+    min-height: 40px;
+    border: 0;
+    background: #173a5e;
+    color: #ffffff;
+    cursor: pointer;
+    font: inherit;
+    font-weight: 900;
+    padding: 0 14px;
+  }
+
+  .tags-add-row input:disabled,
+  .tags-add-row button:disabled {
+    cursor: wait;
+    opacity: 0.72;
+  }
+
+  .tags-feedback {
+    min-height: 20px;
+    margin: 10px 0 0;
+    color: #6a7380;
+    font-size: 13px;
+    line-height: 1.5;
+  }
+
+  .tags-feedback[data-state="success"] {
+    color: #31501e;
+  }
+
+  .tags-feedback[data-state="error"] {
+    color: #7b2417;
+  }
+
+  .tags-feedback[data-state="saving"] {
+    color: #8a6a3f;
+  }
+
+  .notes-control {
+    margin-top: 20px;
+    padding-top: 18px;
+    border-top: 1px solid #e3dccf;
+  }
+
+  .notes-control label {
+    display: grid;
+    gap: 8px;
+    color: #8a6a3f;
+    font-size: 12px;
+    font-weight: 900;
+    text-transform: uppercase;
+  }
+
+  .notes-control textarea {
+    width: 100%;
+    min-height: 116px;
+    border: 1px solid #d8d0c3;
+    background: #ffffff;
+    color: #173a5e;
+    font: inherit;
+    line-height: 1.55;
+    padding: 12px;
+    resize: vertical;
+  }
+
+  .notes-control textarea:disabled {
+    cursor: wait;
+    opacity: 0.74;
+  }
+
+  .notes-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    align-items: center;
+    margin-top: 12px;
+  }
+
+  .notes-actions button {
+    min-height: 40px;
+    border: 0;
+    background: #173a5e;
+    color: #ffffff;
+    cursor: pointer;
+    font: inherit;
+    font-weight: 900;
+    padding: 0 16px;
+  }
+
+  .notes-actions button:disabled {
+    cursor: wait;
+    opacity: 0.72;
+  }
+
+  .notes-feedback {
+    margin: 0;
+    color: #6a7380;
+    font-size: 13px;
+    line-height: 1.5;
+  }
+
+  .notes-feedback[data-state="success"] {
+    color: #31501e;
+  }
+
+  .notes-feedback[data-state="error"] {
+    color: #7b2417;
+  }
+
+  .notes-feedback[data-state="saving"] {
+    color: #8a6a3f;
+  }
+
+  dl {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 14px 18px;
+    margin: 0;
+  }
+
+  dt,
+  .lead-message-label {
+    color: #8a6a3f;
+    font-size: 12px;
+    font-weight: 900;
+    text-transform: uppercase;
+  }
+
+  dd {
+    margin: 4px 0 0;
+    overflow-wrap: anywhere;
+    color: #173a5e;
+    font-weight: 800;
+    line-height: 1.45;
+  }
+
+  .lead-message {
+    margin-top: 20px;
+    padding-top: 18px;
+    border-top: 1px solid #e3dccf;
+  }
+
+  .lead-message p {
+    margin-bottom: 0;
+    overflow-wrap: anywhere;
+    color: #374656;
+    line-height: 1.65;
+  }
+
+  .lead-message-label {
+    margin-bottom: 6px;
+  }
+
+  @media (max-width: 820px) {
+    .console-header,
+    .filter-controls,
+    dl {
+      grid-template-columns: 1fr;
+    }
+
+    .lead-stats {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .export-controls {
+      display: grid;
+      align-items: stretch;
+    }
+
+    .metrics-heading {
+      display: grid;
+    }
+
+    .metrics-grid {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .economics-coverage-grid {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .lead-intelligence-heading,
+    .lead-intelligence-grid,
+    .lead-score-heading,
+    .lead-actions-heading,
+    .lead-actions-grid,
+    .economics-history-heading,
+    .economics-history-grid,
+    .economics-history-risk-grid,
+    .latest-economics-grid,
+    .brokerage-economics-heading,
+    .brokerage-economics-actions,
+    .brokerage-economics-risk-heading,
+    .brokerage-economics-risk-grid,
+    .brokerage-economics-snapshot-row,
+    .brokerage-economics-inputs,
+    .brokerage-economics-results,
+    .tags-add-row {
+      display: grid;
+      grid-template-columns: 1fr;
+    }
+
+    .summary-card {
+      max-width: 220px;
+    }
+
+    .lead-card-header {
+      display: grid;
+    }
+
+    .lead-summary,
+    .lead-summary-meta {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>

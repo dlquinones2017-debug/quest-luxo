@@ -1,0 +1,162 @@
+---
+import { buildQuestLuxoIntelligence } from "../lib/intelligence/questLuxoIntelligence";
+import { getRolexReferencePath } from "../lib/routing/rolexRoutes";
+import type { QuestLuxoAsset } from "../types/questLuxo";
+
+interface Props {
+  assets: QuestLuxoAsset[];
+  basePath?: string;
+  title?: string;
+  limit?: number;
+}
+
+const {
+  assets,
+  title = "Top Ranked References",
+  limit = 5,
+} = Astro.props as Props;
+
+const rankedAssets = assets.slice(0, limit);
+---
+
+<section class="top-references">
+  <div class="top-references-header">
+    <p class="eyebrow">Quest Luxo Rankings</p>
+    <h2>{title}</h2>
+  </div>
+
+  <div class="leaderboard">
+    {rankedAssets.map((asset, index) => {
+      const profile = asset.intelligence
+        ? buildQuestLuxoIntelligence({
+            collectorDemand: asset.intelligence.collectorDemand ?? 0,
+            liquidity: asset.intelligence.liquidity ?? 0,
+            wearability: asset.intelligence.wearability ?? 0,
+            collectability: asset.intelligence.collectability ?? 0,
+            allocationDifficulty: asset.intelligence.allocationDifficulty ?? 0,
+            versatility: asset.intelligence.versatility ?? 0,
+          })
+        : null;
+
+      return (
+        <a href={getRolexReferencePath(asset.collection ?? "", asset.reference)} class="leaderboard-row">
+          <div class="rank">#{index + 1}</div>
+
+          <div class="asset">
+            <strong>Rolex {asset.reference}</strong>
+            <span>{asset.collection}</span>
+          </div>
+
+          <div class="score">
+            <strong>{profile?.overallScore ?? 0}</strong>
+            <span>Quest Luxo</span>
+          </div>
+        </a>
+      );
+    })}
+  </div>
+</section>
+
+<style>
+  .top-references {
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 32px 24px;
+  }
+
+  .top-references-header {
+    margin-bottom: 22px;
+  }
+
+  .eyebrow {
+    color: #d4b06a;
+    font-size: 13px;
+    font-weight: 800;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    margin: 0 0 12px;
+  }
+
+  h2 {
+    font-size: clamp(30px, 5vw, 52px);
+    line-height: 1;
+    margin: 0;
+    color: #ffffff;
+  }
+
+  .leaderboard {
+    display: grid;
+    gap: 12px;
+  }
+
+  .leaderboard-row {
+    display: grid;
+    grid-template-columns: 80px 1fr 110px;
+    gap: 18px;
+    align-items: center;
+    padding: 18px 20px;
+    text-decoration: none;
+    color: #ffffff;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    background: rgba(255, 255, 255, 0.045);
+    transition: 0.2s ease;
+  }
+
+  .leaderboard-row:hover {
+    border-color: rgba(212, 176, 106, 0.65);
+    transform: translateY(-2px);
+  }
+
+  .rank {
+    color: #d4b06a;
+    font-size: 24px;
+    font-weight: 900;
+  }
+
+  .asset strong {
+    display: block;
+    font-size: 18px;
+  }
+
+  .asset span {
+    display: block;
+    margin-top: 4px;
+    color: rgba(255, 255, 255, 0.62);
+    font-size: 12px;
+    font-weight: 800;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+  }
+
+  .score {
+    text-align: right;
+  }
+
+  .score strong {
+    display: block;
+    color: #d4b06a;
+    font-size: 30px;
+  }
+
+  .score span {
+    display: block;
+    margin-top: 4px;
+    color: rgba(255, 255, 255, 0.62);
+    font-size: 12px;
+    font-weight: 800;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+  }
+
+  @media (max-width: 640px) {
+    .leaderboard-row {
+      grid-template-columns: 56px 1fr;
+    }
+
+    .score {
+      grid-column: 2;
+      text-align: left;
+      margin-top: 10px;
+    }
+  }
+</style>

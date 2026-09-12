@@ -1,9 +1,30 @@
 ---
+import { buildBeginYourQuestUrl } from "../lib/leads/leadIntakeContext";
+
+interface Props {
+  title?: string;
+  text?: string;
+  button?: string;
+  brand?: string;
+  collection?: string;
+  reference?: string;
+}
+
 const {
   title = "Looking for a Specific Reference?",
   text = "Quest Luxo provides discreet private sourcing for collectors seeking exceptional timepieces through our trusted global network.",
   button = "Request Private Sourcing",
-} = Astro.props;
+  brand,
+  collection,
+  reference,
+} = Astro.props as Props;
+
+const privateSourcingHref = buildBeginYourQuestUrl({
+  intent: "request",
+  brand,
+  collection,
+  reference,
+});
 ---
 
 <section class="cta">
@@ -14,7 +35,7 @@ const {
 
     <p>{text}</p>
 
-    <a href="/contact" class="button">
+    <a href={privateSourcingHref} class="button">
       {button}
     </a>
   </div>

@@ -7,10 +7,15 @@ import HowItWorks from "../components/HowItWorks.astro";
 import ServicesPreview from "../components/ServicesPreview.astro";
 ---
 
-<BaseLayout title="Quest Luxo | Private Luxury Timepiece Advisory">
-  <Hero />
+<BaseLayout
+  title="Quest Luxo | Private Luxury Timepiece Advisory"
+  description="Discreet watch sourcing, selling, trade coordination, and acquisition advisory supported by reference-level Quest Luxo intelligence."
+>
+  <main id="main-content">
+    <Hero />
   <CollectionsDirectory />
   <WhyQuestLuxo />
   <HowItWorks />
   <ServicesPreview />
+  </main>
 </BaseLayout>

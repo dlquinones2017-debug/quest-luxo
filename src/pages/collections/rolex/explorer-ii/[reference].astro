@@ -1,0 +1,187 @@
+---
+import BaseLayout from "../../../../layouts/BaseLayout.astro";
+import ReferenceCard from "../../../../components/ReferenceCard.astro";
+import { rolexExplorerIIAssets } from "../../../../data/rolex";
+
+export function getStaticPaths() {
+  return rolexExplorerIIAssets.map((asset) => ({
+    params: {
+      reference: asset.reference,
+    },
+    props: {
+      asset,
+    },
+  }));
+}
+
+const { asset } = Astro.props;
+const configurations = asset.configurations ?? [];
+---
+
+<BaseLayout title={`Rolex ${asset.reference} | Quest Luxo`}>
+  <main class="reference-page">
+    <section class="hero">
+      <a href="/collections/rolex/explorer-ii" class="back-link">
+        ← Back to Explorer II
+      </a>
+
+      <p class="eyebrow">Rolex Explorer II Reference</p>
+      <h1>Rolex {asset.reference}</h1>
+      <p>{asset.questLuxoView}</p>
+    </section>
+
+    <section class="profile">
+      <ReferenceCard asset={asset} href="/collections/rolex/explorer-ii" />
+
+      <div class="details-panel">
+        <p class="eyebrow">Asset Profile</p>
+        <h2>{asset.model}</h2>
+
+        <div class="specs">
+          <p><strong>Brand</strong><span>Rolex</span></p>
+<p><strong>Collection</strong><span>Explorer II</span></p>
+          <p><strong>Reference</strong><span>{asset.reference}</span></p>
+          <p><strong>Material</strong><span>{asset.material ?? "Research Pending"}</span></p>
+          <p><strong>Bezel</strong><span>{asset.bezel ?? "Research Pending"}</span></p>
+          <p><strong>Production</strong><span>{asset.productionStatus ?? "Research Pending"}</span></p>
+          <p><strong>Liquidity</strong><span>{asset.liquidity ?? "Research Pending"}</span></p>
+          <p><strong>Allocation</strong><span>{asset.allocationDifficulty ?? "Research Pending"}</span></p>
+        </div>
+
+        {configurations.length > 0 && (
+          <div class="configurations">
+            <h3>Known Configurations</h3>
+
+            {configurations.map((configuration) => (
+              <div>
+                <strong>{configuration.nickname ?? "Configuration"}</strong>
+                <span>
+                  {[configuration.bracelet, configuration.dial]
+                    .filter(Boolean)
+                    .join(" · ")}
+                </span>
+              </div>
+            ))}
+          </div>
+        )}
+      </div>
+    </section>
+  </main>
+</BaseLayout>
+
+<style>
+  .reference-page {
+    background: #07111f;
+    color: #ffffff;
+    min-height: 100vh;
+  }
+
+  .hero {
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 80px 24px 40px;
+  }
+
+  .back-link {
+    display: inline-block;
+    color: #d4b06a;
+    text-decoration: none;
+    font-weight: 800;
+    margin-bottom: 28px;
+  }
+
+  .eyebrow {
+    color: #d4b06a;
+    font-size: 13px;
+    font-weight: 800;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    margin: 0 0 14px;
+  }
+
+  h1 {
+    font-size: clamp(48px, 8vw, 96px);
+    line-height: 0.95;
+    margin: 0 0 24px;
+  }
+
+  h2 {
+    font-size: clamp(32px, 5vw, 56px);
+    line-height: 1;
+    margin: 0 0 24px;
+  }
+
+  h3 {
+    color: #173a5e;
+    margin: 0 0 16px;
+  }
+
+  .hero p {
+    max-width: 760px;
+    color: rgba(255, 255, 255, 0.72);
+    font-size: 18px;
+    line-height: 1.7;
+  }
+
+  .profile {
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 24px 24px 96px;
+    display: grid;
+    grid-template-columns: minmax(0, 420px) minmax(0, 1fr);
+    gap: 28px;
+    align-items: start;
+  }
+
+  .details-panel {
+    background: #faf9f7;
+    color: #173a5e;
+    border: 1px solid #e8e3d8;
+    padding: 32px;
+  }
+
+  .specs {
+    display: grid;
+    gap: 12px;
+  }
+
+  .specs p {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    border-bottom: 1px solid #e8e3d8;
+    padding-bottom: 10px;
+    margin: 0;
+  }
+
+  .specs span {
+    color: #4e5661;
+    text-align: right;
+  }
+
+  .configurations {
+    margin-top: 32px;
+  }
+
+  .configurations div {
+    border: 1px solid #eee8dc;
+    background: #ffffff;
+    padding: 16px;
+    margin-bottom: 10px;
+  }
+
+  .configurations strong {
+    display: block;
+    margin-bottom: 6px;
+  }
+
+  .configurations span {
+    color: #4e5661;
+  }
+
+  @media (max-width: 900px) {
+    .profile {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>

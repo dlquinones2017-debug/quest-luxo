@@ -1,0 +1,24 @@
+---
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import BrokerageCTA from "../../../components/BrokerageCTA.astro";
+import BrokerageIntelligenceSection from "../../../components/BrokerageIntelligenceSection.astro";
+import { cartierTankBrokerageIntelligence, cartierTankLaunchAssets } from "../../../data/cartier-intelligence";
+import { normalizeReferenceSlug } from "../../../lib/factory/referenceGenerator";
+import { getExpansionReferences } from "../../../data/reference-expansion";
+import { getCollectionLaunchQualityProfile } from "../../../data/collection-launch-quality";
+const intel = cartierTankBrokerageIntelligence;
+const references = [...getExpansionReferences("cartier", "tank"), ...cartierTankLaunchAssets];
+const launchQuality = getCollectionLaunchQualityProfile("cartier", "tank");
+const items = [
+  { title:"Collection Overview",body:launchQuality.overview },{ title:"Historical Background",body:launchQuality.historicalBackground },{ title:"Current Production Status",body:launchQuality.currentProductionStatus },{ title:"Market Demand",body:launchQuality.marketDemand },{ title:"Liquidity",label:intel.liquidityBand,body:launchQuality.liquidity },{ title:"Collector Profile",body:launchQuality.collectorProfile },{ title:"Investment Considerations",body:launchQuality.investmentConsiderations },{ title:"Buying Recommendations",body:launchQuality.buyingRecommendations },{ title:"Common Configurations",body:launchQuality.commonConfigurations },{ title:"Typical Price Tiers",body:launchQuality.typicalPriceTiers },{ title:"Brokerage Considerations",body:launchQuality.brokerageConsiderations },{ title:"Quest Luxo Market Perspective",body:launchQuality.perspective },
+];
+---
+<BaseLayout title="Cartier Tank | Quest Luxo"><main class="collection-page">
+  <section class="hero"><p class="eyebrow">Cartier Brokerage Intelligence</p><h1>Cartier Tank</h1><p>Launch-quality guidance centered on the steel quartz Tank Must Large WSTA0041.</p></section>
+  <BrokerageIntelligenceSection eyebrow="Tank Intelligence" title="Launch-quality collection guidance" intro="Tank design establishes context; sub-family, dimensions, movement, originality, condition, and ownership expectations determine the watch-level decision." items={items} reviewedAt={launchQuality.reviewedAt} evidenceSources={intel.evidenceSources} />
+  <section class="directory"><p class="eyebrow">Flagship References</p><h2>Tank launch set</h2><div class="grid">{references.map((asset) => <a class="card" href={`/collections/cartier/tank/${normalizeReferenceSlug(asset.reference)}`}><span>{asset.reference}</span><h3>{asset.model}</h3><p>{asset.marketPosition}</p><dl><div><dt>Liquidity</dt><dd>{asset.liquidity}</dd></div><div><dt>Production</dt><dd>{asset.productionStatus}</dd></div></dl><strong>View Brokerage Intelligence →</strong></a>)}</div></section>
+  <BrokerageCTA brand="Cartier" collection="Tank" headline="Looking for a Cartier Tank?" description="Source, sell, trade, or value a Tank with reference-specific guidance from Quest Luxo brokerage." />
+</main></BaseLayout>
+<style>
+  .collection-page{background:#07111f;color:#fff;min-height:100vh}.hero,.directory{max-width:1180px;margin:0 auto;padding-left:24px;padding-right:24px}.hero{padding-top:96px;padding-bottom:48px}.eyebrow{color:#d4b06a;font-size:13px;font-weight:800;letter-spacing:.18em;text-transform:uppercase;margin:0 0 14px}h1{font-size:clamp(48px,8vw,96px);line-height:.95;margin:0 0 24px}h2{font-size:clamp(32px,5vw,56px);margin:0 0 28px}.hero p:not(.eyebrow),.card p,dd{color:rgba(255,255,255,.72);line-height:1.7}.directory{padding-top:64px;padding-bottom:92px}.grid{display:grid;grid-template-columns:minmax(0,560px);gap:16px}.card{display:flex;flex-direction:column;min-height:350px;padding:24px;color:#fff;text-decoration:none;border:1px solid rgba(255,255,255,.12);background:rgba(255,255,255,.045)}.card>span,.card>strong{color:#d4b06a;font-size:12px;font-weight:900;letter-spacing:.1em;text-transform:uppercase}.card h3{font-size:28px;margin:24px 0 8px}.card dl{display:grid;gap:12px}.card dl div{border-top:1px solid rgba(255,255,255,.1);padding-top:10px}dt{font-size:11px;font-weight:900;text-transform:uppercase}dd{margin:4px 0 0}.card>strong{margin-top:auto}@media(max-width:700px){.hero{padding-top:64px}}
+</style>

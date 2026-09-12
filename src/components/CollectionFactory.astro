@@ -1,0 +1,184 @@
+---
+import QuestLuxoReferenceGrid from "./QuestLuxoReferenceGrid.astro";
+import QuestLuxoTopReferences from "./QuestLuxoTopReferences.astro";
+import PrivateSourcingCTA from "./PrivateSourcingCTA.astro";
+
+import { buildCollectionAnalytics } from "../lib/intelligence/collectionAnalytics";
+import type { QuestLuxoAsset } from "../types/questLuxo";
+
+interface Props {
+  brand: string;
+  collection: string;
+  description: string;
+  assets: QuestLuxoAsset[];
+  basePath: string;
+}
+
+const { brand, collection, description, assets, basePath } = Astro.props as Props;
+const analytics = buildCollectionAnalytics(assets);
+---
+
+<main class="collection-page">
+  <section class="hero">
+    <p class="eyebrow">{brand} Factory Mode</p>
+    <h1>{brand} {collection}</h1>
+    <p>{description}</p>
+  </section>
+
+  <section class="signals">
+    <div>
+      <strong>{analytics.referenceCount}</strong>
+      <span>Total References</span>
+    </div>
+
+    <div>
+      <strong>{analytics.currentProduction}</strong>
+      <span>Current Production</span>
+    </div>
+
+    <div>
+      <strong>{analytics.highestScore}</strong>
+      <span>Highest Score</span>
+    </div>
+
+    <div>
+      <strong>{analytics.peakDemand}</strong>
+      <span>Peak Demand</span>
+    </div>
+
+    <div>
+      <strong>{analytics.averageLiquidity}</strong>
+      <span>Avg. Liquidity</span>
+    </div>
+  </section>
+
+  <QuestLuxoTopReferences
+    assets={analytics.rankedAssets}
+    title={`Top ${collection} References`}
+    limit={5}
+  />
+
+  <section class="directory">
+    <div class="section-header">
+      <p class="eyebrow">Reference Directory</p>
+      <h2>{collection} Asset Intelligence</h2>
+      <p>
+        Explore {brand} {collection} references built for Quest Luxo private
+        sourcing, collector education, liquidity analysis, and inbound luxury
+        asset intelligence.
+      </p>
+    </div>
+
+    <QuestLuxoReferenceGrid
+      assets={analytics.rankedAssets}
+      basePath={basePath}
+    />
+  </section>
+
+  <PrivateSourcingCTA
+    title={`Source a ${brand} ${collection}`}
+    text={`Quest Luxo helps collectors evaluate, source, and position high-demand ${brand} ${collection} references through private-market intelligence and concierge sourcing.`}
+    brand={brand}
+    collection={collection}
+  />
+</main>
+
+<style>
+  .collection-page {
+    background: #07111f;
+    color: #ffffff;
+    min-height: 100vh;
+  }
+
+  .hero {
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 96px 24px 48px;
+  }
+
+  .eyebrow {
+    color: #d4b06a;
+    font-size: 13px;
+    font-weight: 800;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    margin: 0 0 14px;
+  }
+
+  h1 {
+    font-size: clamp(48px, 8vw, 96px);
+    line-height: 0.95;
+    margin: 0 0 24px;
+  }
+
+  h2 {
+    font-size: clamp(32px, 5vw, 56px);
+    line-height: 1;
+    margin: 0 0 18px;
+  }
+
+  .hero p,
+  .section-header p {
+    max-width: 760px;
+    color: rgba(255, 255, 255, 0.72);
+    font-size: 18px;
+    line-height: 1.7;
+  }
+
+  .signals {
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 0 24px 32px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 14px;
+  }
+
+  .signals div {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    background: rgba(255, 255, 255, 0.045);
+    padding: 20px;
+  }
+
+  .signals strong {
+    display: block;
+    color: #d4b06a;
+    font-size: 32px;
+    margin-bottom: 8px;
+  }
+
+  .signals span {
+    display: block;
+    color: rgba(255, 255, 255, 0.62);
+    font-size: 12px;
+    font-weight: 800;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+  }
+
+  .directory {
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 32px 24px 80px;
+  }
+
+  .section-header {
+    margin-bottom: 32px;
+  }
+
+  @media (max-width: 900px) {
+    .signals {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  @media (max-width: 560px) {
+    .signals {
+      grid-template-columns: 1fr;
+    }
+
+    .hero {
+      padding-top: 64px;
+    }
+  }
+</style>

@@ -1,0 +1,22 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import BrokerageCTA from "../../components/BrokerageCTA.astro";
+import BrokerageIntelligenceSection from "../../components/BrokerageIntelligenceSection.astro";
+import { bellRossCollections, bellRossSources } from "../../data/bell-and-ross";
+import { getFactoryCollectionPath } from "../../lib/factory/brandFactory";
+import { buildBeginYourQuestUrl } from "../../lib/leads/leadIntakeContext";
+const items = [
+ { title: "Brokerage Positioning", body: "Quest Luxo assists with sourcing, selling, trading and valuation through exact reference identification, condition review and fit. BR 01 and BR 03 case generations must remain distinct in comparisons." },
+ { title: "Brand Overview", body: "Bell & Ross brings cockpit-instrument design to square watches. The launch selection compares the large BR 01-92 Steel with the smaller BR 03-92 Black Matte; steel and ceramic create different condition and ownership questions." },
+ { title: "Quest Luxo Perspective", body: "Choose the format for its design and fit. Require transaction evidence, a service allowance and verified configuration before treating an asking-price discount as an opportunity." },
+];
+---
+<BaseLayout title="Bell & Ross BR 01 and BR 03 | Quest Luxo" description="Reference-specific Bell & Ross BR 01 and BR 03 guidance for sourcing, condition, ownership and brokerage.">
+<main><section class="hero"><div class="hero-copy"><p class="eyebrow">Bell & Ross · Maison Intelligence</p><h1>Instrument design.<br /><em>Reference precision.</em></h1><p class="lede">Explore BR 01 and BR 03 through case format, exact configuration, and ownership requirements.</p><a class="action" href={buildBeginYourQuestUrl({intent:"broker",brand:"Bell & Ross"})}>Begin Your Bell & Ross Quest</a></div><div class="hero-index" aria-label="Launch collection summary"><span>01</span><strong>BR 01</strong><small>46 mm · Steel</small><span>03</span><strong>BR 03</strong><small>42 mm · Matte ceramic</small></div></section>
+<BrokerageIntelligenceSection eyebrow="Maison Intelligence" title="Choose the right instrument" items={items} evidenceSources={bellRossSources} reviewedAt="September 7, 2026" />
+<section class="directory"><p class="eyebrow">Two instrument formats</p><h2>Explore the collections</h2><div class="grid">{bellRossCollections.map((c,index) => <a class="card" href={getFactoryCollectionPath("bell-and-ross",c.slug)}><span>0{index+1}</span><h3>{c.name}</h3><p>{c.description}</p><strong>Explore reference intelligence →</strong></a>)}</div></section>
+<BrokerageCTA brand="Bell & Ross" headline="Discuss your Bell & Ross" description="Source, sell, trade or value a watch with its reference and ownership requirements in view." /></main>
+</BaseLayout>
+<style>
+main{background:#07111f;color:white;min-height:100vh}.hero,.directory{max-width:1180px;margin:auto;padding:clamp(72px,10vw,132px) 24px}.hero{display:grid;grid-template-columns:minmax(0,1fr) 280px;gap:80px;align-items:end;border-bottom:1px solid #ffffff1f}.eyebrow,.card strong{color:#d4b06a}.eyebrow{font-size:12px;font-weight:800;letter-spacing:.2em;text-transform:uppercase}.hero h1{font-size:clamp(52px,7.5vw,96px);line-height:.92;margin:20px 0 30px}.hero h1 em{color:#d4b06a;font-weight:400}.lede{font-size:clamp(17px,2vw,20px)}h2{font-size:clamp(40px,5vw,62px);margin:14px 0 38px}h3{font-size:42px;margin:30px 0 14px}p{max-width:760px;line-height:1.75;color:#c7ced7}.action{display:inline-block;background:#d4b06a;padding:16px 22px;color:#07111f;font-weight:800;text-decoration:none;margin-top:20px;transition:transform .25s ease,background .25s ease}.action:hover{background:#e1c184;transform:translateY(-2px)}.hero-index{display:grid;grid-template-columns:44px 1fr;gap:12px 16px;border-left:1px solid #ffffff26;padding-left:28px}.hero-index span{color:#d4b06a;font-family:Georgia,serif;font-size:26px}.hero-index strong{font-size:18px}.hero-index small{grid-column:2;color:#98a5b3;margin-top:-10px}.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}.card{position:relative;padding:38px;border:1px solid #ffffff33;color:white;text-decoration:none;transition:transform .3s ease,border-color .3s ease,background .3s ease}.card:hover{transform:translateY(-5px);border-color:#d4b06a;background:#ffffff08}.card>span{color:#778595;font-family:Georgia,serif;font-size:18px}@media(max-width:760px){.hero{grid-template-columns:1fr;gap:52px}.hero-index{max-width:280px}.grid{grid-template-columns:1fr}.hero,.directory{padding-left:20px;padding-right:20px}}
+</style>

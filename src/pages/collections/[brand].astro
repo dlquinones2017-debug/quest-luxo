@@ -1,0 +1,151 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { brands } from "../../data/brands";
+import { isFactoryLive } from "../../lib/factory";
+
+export function getStaticPaths() {
+  return brands
+    .filter((brand) => !isFactoryLive(brand.slug) && brand.slug !== "bell-and-ross")
+    .map((brand) => ({
+      params: {
+        brand: brand.slug,
+      },
+      props: {
+        brand,
+      },
+    }));
+}
+
+const { brand } = Astro.props;
+---
+
+<BaseLayout title={`${brand.name} | Quest Luxo`}>
+  <main class="brand-page">
+    <section class="hero">
+      <p class="eyebrow">Factory Coming Soon</p>
+      <h1>{brand.name}</h1>
+      <p>
+        The Quest Luxo Intelligence Factory for {brand.name} is currently being
+        assembled. We can still source authentic {brand.name} watches through
+        our private dealer network.
+      </p>
+
+      <div class="actions">
+        <a href="/begin-your-quest" class="primary">Begin Your Quest</a>
+        <a href="/collections" class="secondary">Explore All Collections</a>
+      </div>
+    </section>
+
+    <section class="panel">
+      <p class="eyebrow">Private Sourcing</p>
+      <h2>{brand.tagline}</h2>
+      <p>{brand.description}</p>
+
+      <div class="meta">
+        <span>Founded {brand.founded}</span>
+        <span>{brand.models} Planned Models</span>
+        <span>Launch Phase {brand.launchPhase}</span>
+      </div>
+    </section>
+  </main>
+</BaseLayout>
+
+<style>
+  .brand-page {
+    background: #07111f;
+    color: #ffffff;
+    min-height: 100vh;
+  }
+
+  .hero {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 120px 24px 70px;
+  }
+
+  .eyebrow {
+    color: #d4b06a;
+    font-size: 13px;
+    font-weight: 800;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    margin: 0 0 18px;
+  }
+
+  h1 {
+    font-size: clamp(54px, 9vw, 112px);
+    line-height: 0.92;
+    margin: 0 0 28px;
+  }
+
+  h2 {
+    color: #173a5e;
+    font-size: clamp(34px, 5vw, 56px);
+    line-height: 1;
+    margin: 0 0 20px;
+  }
+
+  .hero p {
+    max-width: 780px;
+    color: rgba(255, 255, 255, 0.74);
+    font-size: 20px;
+    line-height: 1.7;
+  }
+
+  .actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+    margin-top: 34px;
+  }
+
+  .primary,
+  .secondary {
+    padding: 15px 22px;
+    text-decoration: none;
+    font-weight: 800;
+  }
+
+  .primary {
+    background: #d4b06a;
+    color: #07111f;
+  }
+
+  .secondary {
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    color: #ffffff;
+  }
+
+  .panel {
+    max-width: 1100px;
+    margin: 0 auto;
+    background: #faf9f7;
+    color: #173a5e;
+    padding: 42px;
+    border: 1px solid #e8e3d8;
+  }
+
+  .panel p {
+    max-width: 760px;
+    color: #4e5661;
+    font-size: 18px;
+    line-height: 1.7;
+  }
+
+  .meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-top: 28px;
+  }
+
+  .meta span {
+    background: #173a5e;
+    color: #ffffff;
+    padding: 10px 12px;
+    font-size: 12px;
+    font-weight: 800;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+  }
+</style>

@@ -1,0 +1,7 @@
+---
+import ReferenceFactory from "../../../../components/ReferenceFactory.astro";
+import { tudorBlackBayLaunchAssets } from "../../../../data/tudor-intelligence";
+import { normalizeReferenceSlug } from "../../../../lib/factory/referenceGenerator";
+export function getStaticPaths() { return tudorBlackBayLaunchAssets.map((asset) => ({ params: { reference: normalizeReferenceSlug(asset.reference) } })); }
+---
+<ReferenceFactory brand="Tudor" collection="Black Bay" assets={tudorBlackBayLaunchAssets} basePath="/collections/tudor/black-bay" showBrokerageCTA={true} />

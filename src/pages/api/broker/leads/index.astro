@@ -1,0 +1,56 @@
+---
+import {
+  createBrokerAuthJsonResponse,
+  validateBrokerConsoleAccess,
+} from "../../../../lib/broker/brokerAuth";
+import { readLeadSubmissions } from "../../../../lib/leads/leadStorage";
+
+export const prerender = false;
+
+const serializeJson = (value: unknown): string =>
+  JSON.stringify(value).replace(/[<>&]/g, (character) => {
+    const escapes: Readonly<Record<string, string>> = {
+      "<": "\\u003c",
+      ">": "\\u003e",
+      "&": "\\u0026",
+    };
+
+    return escapes[character] ?? character;
+  });
+
+const brokerAuth = validateBrokerConsoleAccess(Astro.request);
+
+if (!brokerAuth.allowed) {
+  return createBrokerAuthJsonResponse(brokerAuth);
+}
+
+let responseBody: string;
+
+try {
+  responseBody = serializeJson(await readLeadSubmissions());
+} catch (error) {
+  console.error("Quest Luxo Broker Leads Read Error", {
+    error:
+      error instanceof Error
+        ? {
+            message: error.message,
+            name: error.name,
+            stack: error.stack,
+          }
+        : error,
+  });
+
+  Astro.response.status = 500;
+  responseBody = serializeJson({
+    success: false,
+    error: "Unable to read broker leads.",
+  });
+}
+
+return new Response(responseBody, {
+  status: Astro.response.status,
+  headers: {
+    "Content-Type": "application/json",
+  },
+});
+---

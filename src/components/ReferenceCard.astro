@@ -3,23 +3,37 @@ import {
   buildQuestLuxoIntelligence,
 } from "../lib/intelligence/questLuxoIntelligence";
 import type { QuestLuxoAsset } from "../types/questLuxo";
+import { watchPhotographs } from "../data/watch-photography";
+import { approvedPhotograph } from "../lib/media/watchPhotography";
 
 interface Props {
   asset: QuestLuxoAsset;
   href: string;
+  showIntelligenceProfile?: boolean;
+  showMissingImagePlaceholder?: boolean;
+  showMsrp?: boolean;
+  linkLabel?: string;
 }
 
-const { asset, href } = Astro.props as Props;
+const {
+  asset,
+  href,
+  showIntelligenceProfile = true,
+  showMissingImagePlaceholder = true,
+  showMsrp = true,
+  linkLabel = "View Asset Profile",
+} = Astro.props as Props;
 
 const configurations = asset.configurations ?? [];
 const primaryConfig = configurations[0];
 
 const topNickname = primaryConfig?.nickname ?? asset.reference;
 const collectorDemand = asset.intelligence?.collectorDemand ?? 0;
-const isPeakDemand = collectorDemand >= 5;
-const imageAlt = `${asset.reference} ${asset.model}`;
+const isPeakDemand = showIntelligenceProfile && collectorDemand >= 5;
+const photograph = approvedPhotograph(asset, watchPhotographs);
+const imageAlt = photograph?.alt ?? `${asset.reference} ${asset.model}`;
 
-const intelligenceProfile = asset.intelligence
+const intelligenceProfile = showIntelligenceProfile && asset.intelligence
   ? buildQuestLuxoIntelligence(asset.intelligence)
   : null;
 
@@ -35,25 +49,29 @@ const formatUSD = (value?: number | null) => {
 ---
 
 <article class="card">
-  <div class="image-card">
-    {asset.image ? (
-      <img src={asset.image} alt={imageAlt} />
-    ) : (
-      <span>Image Pending</span>
-    )}
+  {
+    (photograph || showMissingImagePlaceholder) && (
+      <div class="image-card">
+        {photograph ? (
+          <figure><img src={photograph.src} alt={imageAlt} loading="lazy" />{photograph.attribution && <figcaption>{photograph.attribution}</figcaption>}</figure>
+        ) : (
+          <span>Image Pending</span>
+        )}
 
-    <div class="badges">
-      {asset.productionStatus && <span>{asset.productionStatus}</span>}
-      {isPeakDemand && <span>Peak Demand</span>}
-    </div>
+        <div class="badges">
+          {asset.productionStatus && <span>{asset.productionStatus}</span>}
+          {isPeakDemand && <span>Peak Demand</span>}
+        </div>
 
-    {intelligenceProfile && (
-      <div class="score-badge">
-        <strong>{intelligenceProfile.overallScore}</strong>
-        <span>{intelligenceProfile.grade}</span>
+        {intelligenceProfile && (
+          <div class="score-badge">
+            <strong>{intelligenceProfile.overallScore}</strong>
+            <span>{intelligenceProfile.grade}</span>
+          </div>
+        )}
       </div>
-    )}
-  </div>
+    )
+  }
 
   <p class="model">{asset.brand ?? "Rolex"} {asset.model}</p>
 
@@ -111,7 +129,7 @@ const formatUSD = (value?: number | null) => {
     </div>
   )}
 
-  {configurations.length > 0 && (
+  {showMsrp && configurations.length > 0 && (
     <div class="msrp">
       <strong>Original MSRP</strong>
 
@@ -132,11 +150,13 @@ const formatUSD = (value?: number | null) => {
   )}
 
   <a href={href} class="button">
-    View Asset Profile
+    {linkLabel}
   </a>
 </article>
 
 <style>
+  figure { margin: 0; }
+  figcaption { padding: 8px 12px; font-size: 12px; color: #173a5e; background: white; }
   .card {
     border: 1px solid #e8e3d8;
     background: #faf9f7;

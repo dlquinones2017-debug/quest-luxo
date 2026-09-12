@@ -1,6 +1,35 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
-import { rolex } from "../../data/rolex";
+import { rolexRegistry } from "../../data/rolex";
+
+const rolex = {
+  name: "Rolex",
+  description:
+    "Rolex is the benchmark for modern luxury watch collecting, spanning daily-wear icons, professional sports references, precious-metal statement pieces, and highly liquid private-market demand.",
+};
+
+const engineCards = [
+  {
+    name: "Rolex Intelligence",
+    slug: "intelligence",
+    category: "Analytics",
+    status: "Quest Luxo Engine",
+    tagline: "Brand-level Rolex rankings and market signals.",
+    description:
+      "Explore Rolex-wide intelligence, top-ranked references, average scores, liquidity, peak demand, and collection coverage powered by the Quest Luxo Intelligence Engine.",
+  },
+  {
+    name: "Rolex Rankings",
+    slug: "rankings",
+    category: "Rankings",
+    status: "Quest Luxo Engine",
+    tagline: "Top Rolex references ranked by intelligence.",
+    description:
+      "View Rolex references ranked across collector demand, liquidity, wearability, collectability, allocation pressure, and versatility.",
+  },
+];
+
+const collections = [...engineCards, ...rolexRegistry];
 ---
 
 <BaseLayout title="Rolex | Quest Luxo">
@@ -17,7 +46,7 @@ import { rolex } from "../../data/rolex";
     </div>
 
     <div class="grid">
-      {rolex.collections.map((collection) => (
+      {collections.map((collection) => (
         <a href={`/collections/rolex/${collection.slug}`} class="card">
           <div class="top">
             <span class="category">{collection.category}</span>

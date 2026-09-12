@@ -1,0 +1,264 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { brands } from "../../data/brands";
+import { liveFactories, isFactoryLive } from "../../lib/factory";
+
+const liveFactoryBrands = brands
+  .filter((brand) => isFactoryLive(brand.slug))
+  .sort((a, b) => a.questLuxoPriority - b.questLuxoPriority);
+
+const launchBrands = brands
+  .filter((brand) => !isFactoryLive(brand.slug) && brand.featured)
+  .sort((a, b) => a.questLuxoPriority - b.questLuxoPriority);
+
+const futureBrands = brands
+  .filter((brand) => !brand.featured && brand.slug !== "bell-and-ross")
+  .sort((a, b) => a.questLuxoPriority - b.questLuxoPriority);
+---
+
+<BaseLayout title="Watch Collections | Quest Luxo">
+  <main class="collections-page">
+    <section class="hero">
+      <p class="eyebrow">Quest Luxo Factories</p>
+      <h1>Luxury Watch Collections</h1>
+      <p>
+        Explore live intelligence factories, upcoming brand coverage, and private
+        sourcing access across the most important luxury watch manufacturers.
+      </p>
+    </section>
+
+    <section class="brands">
+      <div class="section-header">
+        <p class="eyebrow">Live Factories</p>
+        <h2>Available Now</h2>
+      </div>
+
+      <div class="grid">
+        {liveFactoryBrands.map((brand) => {
+          const factory = liveFactories.find((item) => item.slug === brand.slug);
+
+          return (
+            <a href={`/collections/${brand.slug}`} class="card live-card">
+              <div class="top">
+                <span>{brand.launchPhase}</span>
+                <strong>Live</strong>
+              </div>
+
+              <h3>{brand.name}</h3>
+              <p class="tagline">{brand.tagline}</p>
+              <p>{brand.description}</p>
+
+              <div class="meta">
+                <span>Founded {brand.founded}</span>
+                <span>{factory?.collections.length ?? brand.models} Collections</span>
+              </div>
+            </a>
+          );
+        })}
+      </div>
+    </section>
+
+    <section class="brands">
+      <div class="section-header">
+        <p class="eyebrow">Launch Pipeline</p>
+        <h2>Coming Soon</h2>
+      </div>
+
+      <div class="grid">
+        {launchBrands.map((brand) => (
+          <article class="card">
+            <div class="top">
+              <span>{brand.launchPhase}</span>
+              <strong>Coming Soon</strong>
+            </div>
+
+            <h3>{brand.name}</h3>
+            <p class="tagline">{brand.tagline}</p>
+            <p>{brand.description}</p>
+
+            <div class="meta">
+              <span>Founded {brand.founded}</span>
+              <span>{brand.models} Models</span>
+            </div>
+          </article>
+        ))}
+      </div>
+    </section>
+
+    <section class="brands">
+      <div class="section-header"><p class="eyebrow">New Collection Intelligence</p><h2>Bell &amp; Ross</h2></div>
+      <div class="grid"><a class="card" href="/collections/bell-and-ross"><h3>BR 01 and BR 03</h3><p>Compare square instrument-watch formats, reference configurations and ownership considerations.</p><strong>Explore Bell &amp; Ross →</strong></a></div>
+    </section>
+
+    <section class="brands future">
+      <div class="section-header">
+        <p class="eyebrow">Future Coverage</p>
+        <h2>Additional Factories</h2>
+      </div>
+
+      <div class="grid compact">
+        {futureBrands.map((brand) => (
+          <article class="card">
+            <h3>{brand.name}</h3>
+            <p class="tagline">{brand.tagline}</p>
+            <p>{brand.description}</p>
+          </article>
+        ))}
+      </div>
+    </section>
+  </main>
+</BaseLayout>
+
+<style>
+  .collections-page {
+    background: #07111f;
+    color: #ffffff;
+    min-height: 100vh;
+  }
+
+  .hero,
+  .brands {
+    max-width: 1180px;
+    margin: 0 auto;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
+  .hero {
+    padding-top: 110px;
+    padding-bottom: 56px;
+  }
+
+  .eyebrow {
+    color: #d4b06a;
+    font-size: 13px;
+    font-weight: 800;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    margin: 0 0 16px;
+  }
+
+  h1 {
+    font-size: clamp(54px, 9vw, 108px);
+    line-height: 0.92;
+    margin: 0 0 26px;
+  }
+
+  h2 {
+    font-size: clamp(34px, 5vw, 56px);
+    line-height: 1;
+    margin: 0;
+  }
+
+  .hero p {
+    max-width: 780px;
+    color: rgba(255, 255, 255, 0.72);
+    font-size: 20px;
+    line-height: 1.7;
+  }
+
+  .section-header {
+    margin-bottom: 28px;
+  }
+
+  .brands {
+    padding-bottom: 70px;
+  }
+
+  .future {
+    padding-bottom: 110px;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 18px;
+  }
+
+  .card {
+    color: #173a5e;
+    background: #faf9f7;
+    border: 1px solid #e8e3d8;
+    padding: 28px;
+    text-decoration: none;
+    transition: 0.2s ease;
+    min-height: 290px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .live-card {
+    border-color: rgba(212, 176, 106, 0.8);
+  }
+
+  .card:hover {
+    transform: translateY(-4px);
+    border-color: #d4b06a;
+  }
+
+  .top,
+  .meta {
+    display: flex;
+    justify-content: space-between;
+    gap: 14px;
+    align-items: center;
+  }
+
+  .top {
+    margin-bottom: 24px;
+  }
+
+  .top span,
+  .meta span {
+    color: #777;
+    font-size: 12px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+  }
+
+  .top strong {
+    background: #173a5e;
+    color: #ffffff;
+    padding: 7px 10px;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+  }
+
+  .live-card .top strong {
+    background: #d4b06a;
+    color: #07111f;
+  }
+
+  h3 {
+    font-size: 29px;
+    margin: 0 0 10px;
+  }
+
+  .tagline {
+    color: #d4b06a;
+    font-weight: 800;
+    margin-bottom: 14px;
+  }
+
+  .card p {
+    color: #4e5661;
+    line-height: 1.65;
+  }
+
+  .meta {
+    margin-top: auto;
+    padding-top: 22px;
+  }
+
+  .compact .card {
+    min-height: 230px;
+  }
+
+  @media (max-width: 900px) {
+    .grid {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>

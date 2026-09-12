@@ -1,0 +1,9 @@
+---
+import ReferenceFactory from "../../../../components/ReferenceFactory.astro";
+import { referenceExpansionAssets } from "../../../../data/reference-expansion";
+import { normalizeReferenceSlug } from "../../../../lib/factory/referenceGenerator";
+
+export function getStaticPaths() { return referenceExpansionAssets.filter((asset) => asset.brandSlug === "cartier" && asset.collectionSlug !== "tank").map((asset) => ({ params: { collection: asset.collectionSlug, reference: normalizeReferenceSlug(asset.reference) }, props: { asset } })); }
+const { asset } = Astro.props;
+---
+<ReferenceFactory brand={asset.brand} collection={asset.collection} assets={[asset]} basePath={`/collections/${asset.brandSlug}/${asset.collectionSlug}`} showBrokerageCTA={true} />

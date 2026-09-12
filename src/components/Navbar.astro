@@ -1,4 +1,6 @@
 ---
+import { buildBeginYourQuestUrl } from "../lib/leads/leadIntakeContext";
+
 const brands = [
   "Rolex",
   "Patek Philippe",
@@ -13,6 +15,9 @@ const brands = [
   "Breitling",
   "IWC",
 ];
+
+const privateSourcingHref = buildBeginYourQuestUrl({ intent: "request" });
+const brokerContactHref = buildBeginYourQuestUrl({ intent: "broker" });
 ---
 
 <header class="navbar">
@@ -21,32 +26,38 @@ const brands = [
 </a>
 
   <nav>
-    <a href="/brands">Collections</a>
-    <a href="/private-sourcing">Private Sourcing</a>
-    <a href="/services">Services</a>
-    <a href="/market-insights">Market Insights</a>
-    <a href="/contact">Contact</a>
+    <a href="/collections">Collections</a>
+    <a href={privateSourcingHref}>Private Sourcing</a>
+    <a href="/#services">Services</a>
+    <a href={brokerContactHref}>Contact</a>
   </nav>
 </header>
 
 <style>
   .navbar {
-    padding: 24px 60px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    min-height: 88px;
+    padding: 14px clamp(22px, 5vw, 68px);
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: #ffffff;
-    border-bottom: 1px solid #ececec;
-  }.brand-logo {
-  display: flex;
-  align-items: center;
-}
+    background: rgba(255, 255, 255, 0.94);
+    border-bottom: 1px solid #e8e3d8;
+    backdrop-filter: blur(14px);
+  }
 
-.logo {
-  height: 60px;
-  width: auto;
-  display: block;
-}
+  .brand-logo {
+    display: flex;
+    align-items: center;
+  }
+
+  .logo {
+    height: 58px;
+    width: auto;
+    display: block;
+  }
 
   .brand {
     font-family: Georgia, serif;
@@ -62,26 +73,45 @@ const brands = [
   }
 
   nav a {
-    color: #1f1f1f;
+    position: relative;
+    color: #173a5e;
     text-decoration: none;
-    font-size: 15px;
+    font-size: 12px;
+    font-weight: 750;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
   }
 
-  nav a:hover {
+  nav a:hover,
+  nav a:focus-visible {
     color: #d4b06a;
   }
 
   @media (max-width: 800px) {
     .navbar {
-      padding: 22px;
+      position: relative;
+      min-height: auto;
+      padding: 14px 18px 12px;
+      align-items: flex-start;
+      gap: 12px;
       flex-direction: column;
-      gap: 18px;
     }
 
     nav {
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: 16px;
+      width: 100%;
+      overflow-x: auto;
+      justify-content: flex-start;
+      gap: 22px;
+      padding-bottom: 4px;
+      scrollbar-width: none;
+    }
+
+    nav::-webkit-scrollbar {
+      display: none;
+    }
+
+    nav a {
+      flex: 0 0 auto;
     }
   }
 </style>

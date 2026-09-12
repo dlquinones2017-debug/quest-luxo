@@ -1,0 +1,39 @@
+---
+import ReferenceFactory from "../../../../components/ReferenceFactory.astro";
+import {
+  getVacheronConstantinOverseasReferenceFactoryProps,
+  vacheronConstantinOverseasReferenceMetadata,
+  vacheronConstantinOverseasReferences,
+} from "../../../../data/brands/vacheron-constantin/overseas";
+
+const referenceFactoryProps =
+  getVacheronConstantinOverseasReferenceFactoryProps();
+const currentReferenceSlug = Astro.params.reference ?? "";
+const currentReferenceMetadata = vacheronConstantinOverseasReferenceMetadata.find(
+  (reference) => reference.normalizedReferenceSlug === currentReferenceSlug
+);
+const currentReferenceSeo = vacheronConstantinOverseasReferences.find(
+  (reference) =>
+    reference.referenceFamily ===
+    currentReferenceMetadata?.asset.referenceFamily
+)?.seo;
+
+export function getStaticPaths() {
+  return vacheronConstantinOverseasReferenceMetadata.map((reference) => ({
+    params: {
+      reference: reference.normalizedReferenceSlug,
+    },
+  }));
+}
+---
+
+<ReferenceFactory
+  brand={referenceFactoryProps.brand}
+  collection={referenceFactoryProps.collection}
+  assets={referenceFactoryProps.assets}
+  basePath={referenceFactoryProps.basePath}
+  showBrokerageCTA
+  seoTitle={currentReferenceSeo?.title}
+  seoDescription={currentReferenceSeo?.description}
+  canonicalUrl={currentReferenceSeo?.canonicalUrl}
+/>

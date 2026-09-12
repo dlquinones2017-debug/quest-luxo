@@ -1,0 +1,27 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import BrokerageCTA from "../../components/BrokerageCTA.astro";
+import BrokerageIntelligenceSection from "../../components/BrokerageIntelligenceSection.astro";
+import { breitlingBrandIntelligence, breitlingCollectionSummaries } from "../../data/breitling-intelligence";
+import { breitlingFactory } from "../../lib/factory/breitlingFactory";
+import { buildBeginYourQuestUrl } from "../../lib/leads/leadIntakeContext";
+
+const beginBreitlingQuestUrl = buildBeginYourQuestUrl({ intent: "broker", brand: "Breitling" });
+const items = [
+  { title: "Brokerage Positioning", body: breitlingBrandIntelligence.brokeragePositioning },
+  { title: "Brand Overview", body: breitlingBrandIntelligence.overview },
+  { title: "Quest Luxo Perspective", body: breitlingBrandIntelligence.perspective },
+];
+---
+
+<BaseLayout title="Breitling | Quest Luxo">
+  <main class="brand-page">
+    <section class="hero"><p class="eyebrow">Breitling Factory</p><h1>Breitling</h1><p>Reference-led brokerage intelligence for Navitimer and Chronomat, focused on three launch-priority configurations.</p><div class="actions"><a href={beginBreitlingQuestUrl} class="primary">Begin Your Breitling Quest</a><a href="/collections/breitling/navitimer" class="secondary">Explore Navitimer</a></div></section>
+    <BrokerageIntelligenceSection eyebrow="Breitling Intelligence" title="Configuration-specific guidance for Breitling decisions" intro="Quest Luxo separates collection recognition from exact movement, proportions, dial, bracelet, condition, service state, and market evidence." items={items} evidenceSources={breitlingBrandIntelligence.evidenceSources} />
+    <section class="collections"><p class="eyebrow">Collection Summaries</p><h2>Launch coverage</h2><div class="grid">{breitlingFactory.collections.map((collection) => <a href={`/collections/breitling/${collection.slug}`} class="card"><span>{collection.category}</span><h3>{collection.name}</h3><p>{breitlingCollectionSummaries[collection.slug as keyof typeof breitlingCollectionSummaries]}</p><strong>{collection.assetCount} Priority {collection.assetCount === 1 ? "Reference" : "References"} →</strong></a>)}</div></section>
+    <BrokerageCTA brand="Breitling" headline="Begin a Breitling conversation" description="Request, sell, trade, value, or discuss a Breitling with context preserved for the Quest Luxo brokerage team." />
+  </main>
+</BaseLayout>
+<style>
+  .brand-page{background:#07111f;color:#fff;min-height:100vh}.hero,.collections{max-width:1180px;margin:0 auto;padding-left:24px;padding-right:24px}.hero{padding-top:96px;padding-bottom:56px}.eyebrow{color:#d4b06a;font-size:13px;font-weight:800;letter-spacing:.18em;text-transform:uppercase;margin:0 0 14px}h1{font-size:clamp(54px,9vw,112px);line-height:.92;margin:0 0 28px}h2{font-size:clamp(34px,5vw,56px);margin:0 0 28px}.hero>p:not(.eyebrow),.card p{color:rgba(255,255,255,.72);font-size:18px;line-height:1.7;max-width:780px}.actions{display:flex;flex-wrap:wrap;gap:14px;margin-top:34px}.primary,.secondary{padding:15px 22px;text-decoration:none;font-weight:800}.primary{background:#d4b06a;color:#07111f}.secondary{border:1px solid rgba(255,255,255,.18);color:#fff}.collections{padding-top:64px;padding-bottom:88px}.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}.card{display:flex;flex-direction:column;min-height:260px;padding:24px;border:1px solid rgba(255,255,255,.12);background:rgba(255,255,255,.05);color:#fff;text-decoration:none}.card>span,.card>strong{color:#d4b06a;font-size:12px;font-weight:800;letter-spacing:.1em;text-transform:uppercase}.card h3{font-size:32px;margin:28px 0 8px}.card strong{margin-top:auto}@media(max-width:700px){.grid{grid-template-columns:1fr}.hero{padding-top:64px}}
+</style>

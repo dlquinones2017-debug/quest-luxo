@@ -1,0 +1,92 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import BrokerageCTA from "./BrokerageCTA.astro";
+import BrokerageIntelligenceSection from "./BrokerageIntelligenceSection.astro";
+import type { CollectionExpansionGuide } from "../data/collection-expansion";
+import { getExpansionReferences } from "../data/reference-expansion";
+import { getCollectionLaunchQualityProfile } from "../data/collection-launch-quality";
+import { normalizeReferenceSlug } from "../lib/factory/referenceGenerator";
+
+interface Props {
+  guide: CollectionExpansionGuide;
+}
+
+const { guide } = Astro.props as Props;
+const intelligence = guide.intelligence;
+const launchQuality = getCollectionLaunchQualityProfile(guide.brandSlug, guide.collectionSlug);
+const references = getExpansionReferences(guide.brandSlug, guide.collectionSlug);
+const items = [
+  { title: "Collection Overview", body: launchQuality.overview },
+  { title: "Historical Background", body: launchQuality.historicalBackground },
+  { title: "Current Production Status", body: launchQuality.currentProductionStatus },
+  { title: "Market Demand", body: launchQuality.marketDemand },
+  { title: "Liquidity", label: intelligence.liquidityBand, body: launchQuality.liquidity },
+  { title: "Collector Profile", body: launchQuality.collectorProfile },
+  { title: "Investment Considerations", body: launchQuality.investmentConsiderations },
+  { title: "Buying Recommendations", body: launchQuality.buyingRecommendations },
+  { title: "Common Configurations", body: launchQuality.commonConfigurations },
+  { title: "Typical Price Tiers", body: launchQuality.typicalPriceTiers },
+  { title: "Brokerage Considerations", body: launchQuality.brokerageConsiderations },
+  { title: "Quest Luxo Market Perspective", body: launchQuality.perspective },
+];
+---
+
+<BaseLayout title={`${guide.brand} ${guide.collection} | Quest Luxo`}>
+  <main class="collection-page">
+    <section class="hero">
+      <p class="eyebrow">{guide.brand} Brokerage Intelligence</p>
+      <h1>{guide.brand} {guide.collection}</h1>
+      <p>{guide.description}</p>
+    </section>
+
+    <BrokerageIntelligenceSection
+      eyebrow={`${guide.collection} Intelligence`}
+      title="Collection-level brokerage guidance"
+      intro={guide.intro}
+      items={items}
+      reviewedAt={launchQuality.reviewedAt}
+      evidenceSources={intelligence.evidenceSources}
+    />
+
+    <section class="reference-status">
+      <p class="eyebrow">Flagship References</p>
+      <h2>Reference intelligence</h2>
+      <div class="reference-grid">
+        {references.map((asset) => (
+          <a class="reference-card" href={`/collections/${guide.brandSlug}/${guide.collectionSlug}/${normalizeReferenceSlug(asset.reference)}`}>
+            <span>{asset.productionStatus}</span>
+            <h3>{asset.reference}</h3>
+            <p>{asset.marketPosition}</p>
+            <strong>View Brokerage Intelligence →</strong>
+          </a>
+        ))}
+      </div>
+    </section>
+
+    <BrokerageCTA
+      brand={guide.brand}
+      collection={guide.collection}
+      headline={`Looking for a ${guide.brand} ${guide.collection}?`}
+      description={`Source, sell, trade, or value a ${guide.collection} with collection context preserved for Quest Luxo brokerage.`}
+    />
+  </main>
+</BaseLayout>
+
+<style>
+  .collection-page { background: #07111f; color: #fff; min-height: 100vh; }
+  .hero, .reference-status { max-width: 1180px; margin: 0 auto; padding-left: 24px; padding-right: 24px; }
+  .hero { padding-top: 96px; padding-bottom: 56px; }
+  .eyebrow { color: #d4b06a; font-size: 13px; font-weight: 800; letter-spacing: .18em; text-transform: uppercase; margin: 0 0 14px; }
+  h1 { font-size: clamp(48px, 8vw, 96px); line-height: .95; margin: 0 0 24px; }
+  h2 { font-size: clamp(32px, 5vw, 56px); line-height: 1; margin: 0 0 18px; }
+  .hero > p:not(.eyebrow), .reference-status > p:not(.eyebrow) { max-width: 780px; color: rgba(255,255,255,.72); font-size: 18px; line-height: 1.7; }
+  .reference-status { padding-top: 64px; padding-bottom: 80px; }
+  .reference-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:16px; }
+  .reference-card { display:flex; flex-direction:column; min-height:260px; padding:24px; color:#fff; text-decoration:none; border:1px solid rgba(255,255,255,.12); background:rgba(255,255,255,.045); }
+  .reference-card>span,.reference-card>strong { color:#d4b06a; font-size:12px; font-weight:900; letter-spacing:.1em; text-transform:uppercase; }
+  .reference-card h3 { color:#fff; font-size:30px; margin:28px 0 8px; }
+  .reference-card p { color:rgba(255,255,255,.72); line-height:1.7; }
+  .reference-card strong { margin-top:auto; }
+  @media (max-width: 700px) { .reference-grid { grid-template-columns:1fr; } }
+  @media (max-width: 640px) { .hero { padding-top: 64px; } }
+</style>

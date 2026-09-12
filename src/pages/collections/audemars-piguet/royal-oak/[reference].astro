@@ -1,0 +1,31 @@
+---
+import ReferenceFactory from "../../../../components/ReferenceFactory.astro";
+import { audemarsPiguetRoyalOakLaunchAssets } from "../../../../data/audemars-piguet-intelligence";
+import { normalizeReferenceSlug } from "../../../../lib/factory/referenceGenerator";
+
+export function getStaticPaths() {
+  return audemarsPiguetRoyalOakLaunchAssets
+    .filter((asset) => asset.brokerageIntelligence)
+    .map((asset) => ({
+      params: {
+        reference: normalizeReferenceSlug(asset.reference),
+      },
+      props: {
+        reference: asset.reference,
+      },
+    }));
+}
+
+const { reference } = Astro.props as { reference: string };
+---
+
+<ReferenceFactory
+  brand="Audemars Piguet"
+  collection="Royal Oak"
+  assets={audemarsPiguetRoyalOakLaunchAssets}
+  basePath="/collections/audemars-piguet/royal-oak"
+  showBrokerageCTA={true}
+  seoTitle={`Audemars Piguet Royal Oak ${reference} | Quest Luxo`}
+  seoDescription={`Audemars Piguet Royal Oak ${reference} configuration, liquidity, ownership, buyer, seller, and brokerage intelligence from Quest Luxo.`}
+  canonicalUrl={`/collections/audemars-piguet/royal-oak/${normalizeReferenceSlug(reference)}`}
+/>

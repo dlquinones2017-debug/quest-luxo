@@ -1,0 +1,34 @@
+---
+import ReferenceFactory from "../../../../components/ReferenceFactory.astro";
+import {
+  getUlysseNardinReferencesForCollection,
+  ulysseNardinReferenceAssets,
+} from "../../../../data/ulysse-nardin-references";
+import { normalizeReferenceSlug } from "../../../../lib/factory/referenceGenerator";
+
+export function getStaticPaths() {
+  return ulysseNardinReferenceAssets.map((asset) => ({
+    params: {
+      collection: asset.collectionSlug,
+      reference: normalizeReferenceSlug(asset.reference),
+    },
+    props: { collectionSlug: asset.collectionSlug },
+  }));
+}
+
+const { collectionSlug } = Astro.props;
+const assets = getUlysseNardinReferencesForCollection(collectionSlug);
+const collection = assets[0]?.collection;
+
+if (!collection) {
+  throw new Error(`Ulysse Nardin reference collection ${collectionSlug} was not found.`);
+}
+---
+
+<ReferenceFactory
+  brand="Ulysse Nardin"
+  collection={collection}
+  assets={assets}
+  basePath={`/collections/ulysse-nardin/${collectionSlug}`}
+  showBrokerageCTA={true}
+/>

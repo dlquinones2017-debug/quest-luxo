@@ -1,0 +1,29 @@
+---
+import ReferenceFactory from "../../../../components/ReferenceFactory.astro";
+import {
+  cartierSantosReferenceMetadata,
+  getCartierSantosReferenceFactoryProps,
+} from "../../../../data/brands/cartier/santos";
+import { cartierSantosLaunchAssets } from "../../../../data/cartier-intelligence";
+import { normalizeReferenceSlug } from "../../../../lib/factory/referenceGenerator";
+
+const referenceFactoryProps = getCartierSantosReferenceFactoryProps();
+const combinedAssets = [...referenceFactoryProps.assets, ...cartierSantosLaunchAssets];
+const isPriorityReference = cartierSantosLaunchAssets.some((asset) => normalizeReferenceSlug(asset.reference) === Astro.params.reference);
+
+export function getStaticPaths() {
+  return [...cartierSantosReferenceMetadata.map((reference) => ({
+    params: {
+      reference: reference.normalizedReferenceSlug,
+    },
+  })), ...cartierSantosLaunchAssets.map((asset) => ({ params: { reference: normalizeReferenceSlug(asset.reference) } }))];
+}
+---
+
+<ReferenceFactory
+  brand={referenceFactoryProps.brand}
+  collection={isPriorityReference ? "Santos de Cartier" : referenceFactoryProps.collection}
+  assets={combinedAssets}
+  basePath={referenceFactoryProps.basePath}
+  showBrokerageCTA
+/>

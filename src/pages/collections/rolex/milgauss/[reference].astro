@@ -1,0 +1,20 @@
+---
+import ReferenceFactory from "../../../../components/ReferenceFactory.astro";
+import { rolexMilgaussAssets } from "../../../../data/rolex";
+
+export function getStaticPaths() {
+  return rolexMilgaussAssets.map((asset) => ({
+    params: {
+      reference: asset.reference,
+    },
+  }));
+}
+---
+
+<ReferenceFactory
+  brand="Rolex"
+  collection="Milgauss"
+  assets={rolexMilgaussAssets}
+  basePath="/collections/rolex/milgauss"
+  showBrokerageCTA={true}
+/>

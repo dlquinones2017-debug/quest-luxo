@@ -1,0 +1,11 @@
+---
+import CollectionIntelligenceLanding from "../../../components/CollectionIntelligenceLanding.astro";
+import { getCollectionExpansionGuides } from "../../../data/collection-expansion";
+
+export function getStaticPaths() {
+  return getCollectionExpansionGuides("panerai").map((guide) => ({ params: { collection: guide.collectionSlug }, props: { guide } }));
+}
+
+const { guide } = Astro.props;
+---
+<CollectionIntelligenceLanding guide={guide} />

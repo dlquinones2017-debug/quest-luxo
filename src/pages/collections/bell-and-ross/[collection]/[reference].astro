@@ -1,0 +1,9 @@
+---
+import ReferenceFactory from "../../../../components/ReferenceFactory.astro";
+import { bellRossCollections } from "../../../../data/bell-and-ross";
+import { getFactoryCollectionPath } from "../../../../lib/factory/brandFactory";
+import { normalizeReferenceSlug } from "../../../../lib/factory/referenceGenerator";
+export function getStaticPaths(){return bellRossCollections.flatMap(c=>c.assets.map(a=>({params:{collection:c.slug,reference:normalizeReferenceSlug(a.reference)},props:{collection:c}})));}
+const {collection:c}=Astro.props;
+---
+<ReferenceFactory brand="Bell & Ross" collection={c.name} assets={c.assets} basePath={getFactoryCollectionPath("bell-and-ross",c.slug)} showBrokerageCTA={true} />

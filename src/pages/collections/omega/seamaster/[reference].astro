@@ -1,0 +1,13 @@
+---
+import ReferenceFactory from "../../../../components/ReferenceFactory.astro";
+import { omegaSeamasterLaunchAssets } from "../../../../data/omega-intelligence";
+import { getExpansionReferences } from "../../../../data/reference-expansion";
+import { normalizeReferenceSlug } from "../../../../lib/factory/referenceGenerator";
+
+const assets = [...getExpansionReferences("omega", "seamaster"), ...omegaSeamasterLaunchAssets];
+export function getStaticPaths() {
+  return [...getExpansionReferences("omega", "seamaster"), ...omegaSeamasterLaunchAssets].map((asset) => ({ params: { reference: normalizeReferenceSlug(asset.reference) } }));
+}
+---
+
+<ReferenceFactory brand="Omega" collection="Seamaster Diver 300M" assets={assets} basePath="/collections/omega/seamaster" showBrokerageCTA={true} />

@@ -1,0 +1,19 @@
+---
+import ReferenceFactory from "../../../../components/ReferenceFactory.astro";
+import { patekPhilippeAquanautLaunchAssets } from "../../../../data/patek-philippe-intelligence";
+import { normalizeReferenceSlug } from "../../../../lib/factory/referenceGenerator";
+
+export function getStaticPaths() {
+  return patekPhilippeAquanautLaunchAssets.map((asset) => ({
+    params: { reference: normalizeReferenceSlug(asset.reference) },
+  }));
+}
+---
+
+<ReferenceFactory
+  brand="Patek Philippe"
+  collection="Aquanaut"
+  assets={patekPhilippeAquanautLaunchAssets}
+  basePath="/collections/patek-philippe/aquanaut"
+  showBrokerageCTA={true}
+/>

@@ -1,0 +1,11 @@
+---
+import ReferenceFactory from "../../../../components/ReferenceFactory.astro";
+import { omegaSpeedmasterLaunchAssets } from "../../../../data/omega-intelligence";
+import { normalizeReferenceSlug } from "../../../../lib/factory/referenceGenerator";
+
+export function getStaticPaths() {
+  return omegaSpeedmasterLaunchAssets.filter((asset) => asset.brokerageIntelligence).map((asset) => ({ params: { reference: normalizeReferenceSlug(asset.reference) } }));
+}
+---
+
+<ReferenceFactory brand="Omega" collection="Speedmaster" assets={omegaSpeedmasterLaunchAssets} basePath="/collections/omega/speedmaster" showBrokerageCTA={true} />

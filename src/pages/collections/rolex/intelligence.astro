@@ -1,0 +1,222 @@
+---
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import { rolexAssets, rolexRegistry } from "../../../data/rolex";
+import { buildBrandAnalytics } from "../../../lib/intelligence/brandAnalytics";
+import QuestLuxoTopReferences from "../../../components/QuestLuxoTopReferences.astro";
+
+const analytics = buildBrandAnalytics(rolexAssets);
+---
+
+<BaseLayout title="Rolex Intelligence | Quest Luxo">
+  <main class="intelligence-page">
+    <section class="hero">
+      <p class="eyebrow">Quest Luxo Intelligence</p>
+      <h1>Rolex Intelligence Dashboard</h1>
+      <p>
+        Brand-level Rolex analytics powered by the Quest Luxo Intelligence
+        Engine. Track ranked references, market strength, liquidity, production
+        status, and collector demand across the Rolex Factory.
+      </p>
+    </section>
+
+    <section class="signals">
+      <div>
+        <strong>{analytics.totalReferences}</strong>
+        <span>Total References</span>
+      </div>
+
+      <div>
+        <strong>{analytics.averageScore}</strong>
+        <span>Average Score</span>
+      </div>
+
+      <div>
+        <strong>{analytics.highestScore}</strong>
+        <span>Highest Score</span>
+      </div>
+
+      <div>
+        <strong>{analytics.averageLiquidity}</strong>
+        <span>Avg. Liquidity</span>
+      </div>
+
+      <div>
+        <strong>{analytics.peakDemandReferences}</strong>
+        <span>Peak Demand</span>
+      </div>
+    </section>
+
+    {analytics.topReference && (
+      <section class="featured">
+        <div>
+          <p class="eyebrow">Top Rolex Reference</p>
+          <h2>Rolex {analytics.topReference.reference}</h2>
+          <p>{analytics.topReference.questLuxoView}</p>
+        </div>
+      </section>
+    )}
+
+    <section class="collections">
+      <div class="section-header">
+        <p class="eyebrow">Rolex Factory</p>
+        <h2>Collection Coverage</h2>
+      </div>
+
+      <div class="collection-grid">
+{rolexRegistry.map((collection) => (          <a href={`/collections/rolex/${collection.slug}`} class="collection-card">
+            <strong>{collection.name}</strong>
+            <span>{collection.assets.length} References</span>
+          </a>
+        ))}
+      </div>
+    </section>
+
+    <QuestLuxoTopReferences
+      assets={analytics.rankedAssets}
+      basePath="/collections/rolex/datejust"
+      title="Top Rolex References"
+      limit={10}
+    />
+  </main>
+</BaseLayout>
+
+<style>
+  .intelligence-page {
+    background: #07111f;
+    color: #ffffff;
+    min-height: 100vh;
+  }
+
+  .hero {
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 96px 24px 48px;
+  }
+
+  .eyebrow {
+    color: #d4b06a;
+    font-size: 13px;
+    font-weight: 800;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    margin: 0 0 14px;
+  }
+
+  h1 {
+    font-size: clamp(48px, 8vw, 96px);
+    line-height: 0.95;
+    margin: 0 0 24px;
+  }
+
+  h2 {
+    font-size: clamp(32px, 5vw, 56px);
+    line-height: 1;
+    margin: 0 0 18px;
+  }
+
+  .hero p,
+  .featured p {
+    max-width: 780px;
+    color: rgba(255, 255, 255, 0.72);
+    font-size: 18px;
+    line-height: 1.7;
+  }
+
+  .signals {
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 0 24px 40px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 14px;
+  }
+
+  .signals div,
+  .featured,
+  .collection-card {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    background: rgba(255, 255, 255, 0.045);
+  }
+
+  .signals div {
+    padding: 20px;
+  }
+
+  .signals strong {
+    display: block;
+    color: #d4b06a;
+    font-size: 32px;
+    margin-bottom: 8px;
+  }
+
+  .signals span,
+  .collection-card span {
+    display: block;
+    color: rgba(255, 255, 255, 0.62);
+    font-size: 12px;
+    font-weight: 800;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+  }
+
+  .featured {
+    max-width: 1180px;
+    margin: 0 auto 48px;
+    padding: 32px 24px;
+    border-top-color: rgba(212, 176, 106, 0.35);
+    border-bottom-color: rgba(212, 176, 106, 0.35);
+  }
+
+  .collections {
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 32px 24px;
+  }
+
+  .section-header {
+    margin-bottom: 24px;
+  }
+
+  .collection-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 14px;
+  }
+
+  .collection-card {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 22px;
+    transition: 0.2s ease;
+  }
+
+  .collection-card:hover {
+    border-color: rgba(212, 176, 106, 0.65);
+    transform: translateY(-2px);
+  }
+
+  .collection-card strong {
+    display: block;
+    color: #ffffff;
+    font-size: 22px;
+    margin-bottom: 8px;
+  }
+
+  @media (max-width: 900px) {
+    .signals,
+    .collection-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  @media (max-width: 560px) {
+    .signals,
+    .collection-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .hero {
+      padding-top: 64px;
+    }
+  }
+</style>

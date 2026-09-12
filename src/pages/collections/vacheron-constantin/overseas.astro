@@ -1,0 +1,525 @@
+---
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import BrokerageCTA from "../../../components/BrokerageCTA.astro";
+import {
+  getVacheronConstantinCollectionFoundation,
+  vacheronConstantinBrandFoundation,
+  vacheronConstantinOverseasCollection,
+  vacheronConstantinOverseasReferenceAssets,
+  vacheronConstantinOverseasReferenceMetadata,
+  vacheronConstantinOverseasReferences,
+} from "../../../data/brands/vacheron-constantin";
+import type { FactoryBrand, FactoryCollection } from "../../../lib/factory/brandFactory";
+import { createCollectionMetadata } from "../../../lib/factory/collectionGenerator";
+
+const overseasFactoryCollection =
+  getVacheronConstantinCollectionFoundation("overseas");
+
+if (!overseasFactoryCollection) {
+  throw new Error("Vacheron Constantin Overseas collection metadata is missing.");
+}
+
+const vacheronFactory = {
+  name: vacheronConstantinBrandFoundation.name,
+  slug: vacheronConstantinBrandFoundation.slug,
+  factoryLive: vacheronConstantinBrandFoundation.factoryLive,
+  launchPhase: vacheronConstantinBrandFoundation.launchPhase,
+  collections: vacheronConstantinBrandFoundation.collections.map(
+    (collection) => ({ ...collection })
+  ),
+} satisfies FactoryBrand;
+
+const overseasCollection = {
+  ...overseasFactoryCollection,
+} satisfies FactoryCollection;
+
+const collectionMetadata = createCollectionMetadata({
+  brand: vacheronFactory,
+  collection: overseasCollection,
+  references: vacheronConstantinOverseasReferenceAssets.map(
+    (asset) => asset.reference
+  ),
+});
+
+const intelligenceEntries = [
+  {
+    label: "Quest Luxo Overview",
+    value: vacheronConstantinOverseasCollection.intelligence.questLuxoOverview,
+  },
+  {
+    label: "Collector Profile",
+    value: vacheronConstantinOverseasCollection.intelligence.collectorProfile,
+  },
+  {
+    label: "Market Positioning",
+    value: vacheronConstantinOverseasCollection.intelligence.marketPositioning,
+  },
+  {
+    label: "Liquidity Assessment",
+    value: vacheronConstantinOverseasCollection.intelligence.liquidityAssessment,
+  },
+  {
+    label: "Allocation Difficulty",
+    value: vacheronConstantinOverseasCollection.intelligence.allocationDifficulty,
+  },
+  {
+    label: "Investment Considerations",
+    value:
+      vacheronConstantinOverseasCollection.intelligence
+        .investmentConsiderations,
+  },
+  {
+    label: "Ownership Experience",
+    value: vacheronConstantinOverseasCollection.intelligence.ownershipExperience,
+  },
+  {
+    label: "Buying Recommendations",
+    value: vacheronConstantinOverseasCollection.intelligence.buyingRecommendations,
+  },
+];
+
+const currentReferenceCount = vacheronConstantinOverseasReferences.filter(
+  (reference) => reference.productionStatus === "Current Production"
+).length;
+const discontinuedReferenceCount = vacheronConstantinOverseasReferences.filter(
+  (reference) => reference.productionStatus === "Discontinued"
+).length;
+const placeholderReferenceCount = vacheronConstantinOverseasReferences.filter(
+  (reference) => reference.productionStatus === "Foundation Placeholder"
+).length;
+
+const referenceCards = vacheronConstantinOverseasReferences.map(
+  (reference, index) => ({
+    reference,
+    metadata: vacheronConstantinOverseasReferenceMetadata[index],
+  })
+);
+---
+
+<BaseLayout
+  title={vacheronConstantinOverseasCollection.seo.title}
+  description={vacheronConstantinOverseasCollection.seo.description}
+  canonicalUrl={vacheronConstantinOverseasCollection.seo.canonicalUrl}
+>
+  <main class="collection-page">
+    <section class="hero">
+      <p class="eyebrow">Vacheron Constantin Factory Launch</p>
+      <h1>Vacheron Constantin Overseas</h1>
+      <p>
+        Quest Luxo Overseas coverage launches Vacheron Constantin with a
+        collection-first foundation for Holy Trinity sport-watch demand,
+        exceptional finishing, strap versatility, and high brokerage potential.
+      </p>
+    </section>
+
+    <section class="signals" aria-label="Overseas launch signals">
+      <div>
+        <strong>{collectionMetadata.assetCount}</strong>
+        <span>Reference Families</span>
+      </div>
+
+      <div>
+        <strong>{vacheronConstantinOverseasCollection.launchYear}</strong>
+        <span>Launch Year</span>
+      </div>
+
+      <div>
+        <strong>{currentReferenceCount}</strong>
+        <span>Current</span>
+      </div>
+
+      <div>
+        <strong>{placeholderReferenceCount}</strong>
+        <span>Placeholders</span>
+      </div>
+
+      <div>
+        <strong>On</strong>
+        <span>Family Pages</span>
+      </div>
+    </section>
+
+    <section class="overview">
+      <div>
+        <p class="eyebrow">Launch Slice</p>
+        <h2>Overseas opens the Vacheron path</h2>
+      </div>
+
+      <p>
+        This first public Vacheron Constantin collection page exposes Overseas
+        collection intelligence with family-level reference pages. Individual
+        configuration pages are still intentionally dormant, and the
+        non-Overseas Vacheron collections remain reserved for later factory
+        expansion.
+      </p>
+    </section>
+
+    <section class="positioning" aria-label="Overseas positioning">
+      <div class="section-header">
+        <p class="eyebrow">Collection Positioning</p>
+        <h2>{vacheronConstantinOverseasCollection.category}</h2>
+      </div>
+
+      <div class="positioning-grid">
+        {
+          vacheronConstantinOverseasCollection.positioning.map((signal) => (
+            <span>{signal}</span>
+          ))
+        }
+      </div>
+    </section>
+
+    <section class="intelligence" aria-label="Overseas collection intelligence">
+      <div class="section-header">
+        <p class="eyebrow">Quest Luxo Intelligence</p>
+        <h2>Overseas buying context</h2>
+      </div>
+
+      <div class="intelligence-grid">
+        {
+          intelligenceEntries.map((entry) => (
+            <article>
+              <h3>{entry.label}</h3>
+              <p>{entry.value}</p>
+            </article>
+          ))
+        }
+      </div>
+    </section>
+
+    <section class="directory">
+      <div class="section-header">
+        <p class="eyebrow">Reference Directory</p>
+        <h2>Overseas Foundation References</h2>
+      </div>
+
+      <div class="reference-grid">
+        {
+          referenceCards.map(({ reference, metadata }) => (
+            <article
+              class="reference-card"
+              aria-label={`${reference.referenceFamily} preview`}
+            >
+              <div class="card-top">
+                <span>{reference.referenceFamily}</span>
+                <strong>{reference.productionStatus}</strong>
+              </div>
+
+              <h3>{reference.model}</h3>
+              <p class="configuration">{reference.complication}</p>
+
+              <dl class="specs">
+                <div>
+                  <dt>Target Buyer</dt>
+                  <dd>{reference.targetBuyer}</dd>
+                </div>
+                <div>
+                  <dt>Market Position</dt>
+                  <dd>{reference.marketPositioning}</dd>
+                </div>
+                <div>
+                  <dt>Brokerage Notes</dt>
+                  <dd>{reference.brokerageNotes}</dd>
+                </div>
+              </dl>
+
+              <p class="view">{reference.intelligenceSummary}</p>
+
+              <a
+                class="reference-link"
+                href={metadata?.referencePath ?? collectionMetadata.collectionPath}
+              >
+                View reference family
+              </a>
+            </article>
+          ))
+        }
+      </div>
+    </section>
+
+    <BrokerageCTA
+      brand="Vacheron Constantin"
+      collection="Overseas"
+      headline="Looking for your next Overseas?"
+      description="Source, sell, trade, or value a Vacheron Constantin Overseas with discreet guidance from Quest Luxo brokerage."
+    />
+  </main>
+</BaseLayout>
+
+<style>
+  .collection-page {
+    background: #07111f;
+    color: #ffffff;
+    min-height: 100vh;
+  }
+
+  .hero {
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 96px 24px 48px;
+  }
+
+  .eyebrow {
+    color: #d4b06a;
+    font-size: 13px;
+    font-weight: 800;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    margin: 0 0 14px;
+  }
+
+  h1 {
+    font-size: clamp(48px, 8vw, 96px);
+    line-height: 0.95;
+    margin: 0 0 24px;
+  }
+
+  h2 {
+    font-size: clamp(32px, 5vw, 56px);
+    line-height: 1;
+    margin: 0;
+  }
+
+  .hero p,
+  .overview p {
+    max-width: 760px;
+    color: rgba(255, 255, 255, 0.72);
+    font-size: 18px;
+    line-height: 1.7;
+  }
+
+  .signals {
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 0 24px 32px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 14px;
+  }
+
+  .signals div {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    background: rgba(255, 255, 255, 0.045);
+    padding: 20px;
+  }
+
+  .signals strong {
+    display: block;
+    color: #d4b06a;
+    font-size: 32px;
+    margin-bottom: 8px;
+  }
+
+  .signals span {
+    display: block;
+    color: rgba(255, 255, 255, 0.62);
+    font-size: 12px;
+    font-weight: 800;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+  }
+
+  .overview,
+  .positioning,
+  .intelligence,
+  .directory {
+    max-width: 1180px;
+    margin: 0 auto;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
+  .overview {
+    display: grid;
+    grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
+    gap: 36px;
+    align-items: start;
+    padding-top: 20px;
+    padding-bottom: 36px;
+  }
+
+  .positioning,
+  .intelligence {
+    padding-top: 32px;
+    padding-bottom: 36px;
+  }
+
+  .directory {
+    padding-top: 32px;
+    padding-bottom: 92px;
+  }
+
+  .section-header {
+    margin-bottom: 32px;
+  }
+
+  .positioning-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .positioning-grid span {
+    border: 1px solid rgba(212, 176, 106, 0.34);
+    background: rgba(212, 176, 106, 0.08);
+    color: #d4b06a;
+    font-size: 12px;
+    font-weight: 900;
+    letter-spacing: 0.11em;
+    padding: 12px 14px;
+    text-transform: uppercase;
+  }
+
+  .intelligence-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 16px;
+  }
+
+  .intelligence-grid article,
+  .reference-card {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    background: rgba(255, 255, 255, 0.045);
+    padding: 22px;
+  }
+
+  .intelligence-grid h3,
+  .reference-card h3 {
+    font-size: 26px;
+    line-height: 1.08;
+    margin: 0 0 12px;
+  }
+
+  .intelligence-grid p {
+    color: rgba(255, 255, 255, 0.72);
+    line-height: 1.65;
+    margin: 0;
+  }
+
+  .reference-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 16px;
+  }
+
+  .reference-card {
+    display: flex;
+    flex-direction: column;
+    min-height: 560px;
+  }
+
+  .card-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 14px;
+    margin-bottom: 20px;
+  }
+
+  .card-top span {
+    color: #d4b06a;
+    font-size: 13px;
+    font-weight: 900;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+  }
+
+  .card-top strong {
+    border: 1px solid rgba(212, 176, 106, 0.42);
+    color: #d4b06a;
+    padding: 8px 10px;
+    text-align: center;
+    font-size: 11px;
+    font-weight: 900;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+  }
+
+  .configuration {
+    color: rgba(255, 255, 255, 0.68);
+    line-height: 1.55;
+    margin: 0 0 22px;
+  }
+
+  .specs {
+    display: grid;
+    gap: 14px;
+    margin: 0 0 22px;
+  }
+
+  .specs div {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    padding-top: 12px;
+  }
+
+  dt {
+    color: rgba(255, 255, 255, 0.48);
+    font-size: 11px;
+    font-weight: 900;
+    letter-spacing: 0.13em;
+    text-transform: uppercase;
+    margin-bottom: 6px;
+  }
+
+  dd {
+    color: rgba(255, 255, 255, 0.82);
+    line-height: 1.55;
+    margin: 0;
+  }
+
+  .view {
+    color: rgba(255, 255, 255, 0.72);
+    line-height: 1.65;
+    margin: 0 0 24px;
+  }
+
+  .reference-link {
+    display: block;
+    margin-top: auto;
+    border: 1px solid rgba(255, 255, 255, 0.14);
+    color: rgba(255, 255, 255, 0.62);
+    padding: 13px 14px;
+    font-size: 12px;
+    font-weight: 900;
+    letter-spacing: 0.11em;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+
+  .reference-link:hover,
+  .reference-link:focus-visible {
+    border-color: rgba(212, 176, 106, 0.56);
+    color: #d4b06a;
+    outline: none;
+  }
+
+  @media (max-width: 1060px) {
+    .reference-grid {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
+
+  @media (max-width: 900px) {
+    .signals,
+    .intelligence-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    .overview {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  @media (max-width: 640px) {
+    .signals,
+    .intelligence-grid,
+    .reference-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .hero {
+      padding-top: 64px;
+    }
+  }
+</style>

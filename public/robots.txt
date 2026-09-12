@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /broker
+Disallow: /broker-console
+Disallow: /dev/
+

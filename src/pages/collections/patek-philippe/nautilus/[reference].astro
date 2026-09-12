@@ -1,0 +1,19 @@
+---
+import ReferenceFactory from "../../../../components/ReferenceFactory.astro";
+import { patekPhilippeNautilusLaunchAssets } from "../../../../data/patek-philippe-intelligence";
+import { normalizeReferenceSlug } from "../../../../lib/factory/referenceGenerator";
+
+export function getStaticPaths() {
+  return patekPhilippeNautilusLaunchAssets
+    .filter((asset) => asset.brokerageIntelligence)
+    .map((asset) => ({ params: { reference: normalizeReferenceSlug(asset.reference) } }));
+}
+---
+
+<ReferenceFactory
+  brand="Patek Philippe"
+  collection="Nautilus"
+  assets={patekPhilippeNautilusLaunchAssets}
+  basePath="/collections/patek-philippe/nautilus"
+  showBrokerageCTA={true}
+/>

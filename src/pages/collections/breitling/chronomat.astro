@@ -1,0 +1,21 @@
+---
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import BrokerageCTA from "../../../components/BrokerageCTA.astro";
+import BrokerageIntelligenceSection from "../../../components/BrokerageIntelligenceSection.astro";
+import { breitlingChronomatIntelligence, breitlingChronomatLaunchAssets } from "../../../data/breitling-intelligence";
+import { normalizeReferenceSlug } from "../../../lib/factory/referenceGenerator";
+const intel = breitlingChronomatIntelligence;
+const items = [
+  { title:"Collection Overview",body:intel.overview },{ title:"Market Position",body:intel.marketPosition },{ title:"Liquidity Guidance",label:intel.liquidityBand,body:intel.liquidityGuidance },
+  { title:"Buyer Profile",body:intel.buyerProfile },{ title:"Seller Profile",body:intel.sellerProfile },{ title:"Ownership Considerations",body:intel.ownershipConsiderations },{ title:"Brokerage Insight",body:intel.brokerageInsight },{ title:"Market Commentary",body:intel.marketCommentary },{ title:"Quest Luxo Perspective",body:intel.perspective },
+];
+---
+<BaseLayout title="Breitling Chronomat | Quest Luxo"><main class="collection-page">
+  <section class="hero"><p class="eyebrow">Breitling Brokerage Intelligence</p><h1>Breitling Chronomat</h1><p>Launch-quality guidance centered on the steel Chronomat B01 42 AB0134101B1A1.</p></section>
+  <BrokerageIntelligenceSection eyebrow="Chronomat Intelligence" title="Collection-level brokerage guidance" intro="Sport-chronograph specifications establish context; fit, polished condition, bracelet completeness, service evidence, and acquisition basis determine the example-level decision." items={items} reviewedAt={intel.reviewedAt} evidenceSources={intel.evidenceSources} />
+  <section class="directory"><p class="eyebrow">Priority Reference</p><h2>Chronomat launch set</h2><div class="grid">{breitlingChronomatLaunchAssets.map((asset) => <a class="card" href={`/collections/breitling/chronomat/${normalizeReferenceSlug(asset.reference)}`}><span>{asset.reference}</span><h3>{asset.model}</h3><p>{asset.marketPosition}</p><dl><div><dt>Liquidity</dt><dd>{asset.liquidity}</dd></div><div><dt>Production</dt><dd>{asset.productionStatus}</dd></div></dl><strong>View Brokerage Intelligence →</strong></a>)}</div></section>
+  <BrokerageCTA brand="Breitling" collection="Chronomat" headline="Looking for a Chronomat?" description="Source, sell, trade, or value a Chronomat with reference-specific guidance from Quest Luxo brokerage." />
+</main></BaseLayout>
+<style>
+  .collection-page{background:#07111f;color:#fff;min-height:100vh}.hero,.directory{max-width:1180px;margin:0 auto;padding-left:24px;padding-right:24px}.hero{padding-top:96px;padding-bottom:48px}.eyebrow{color:#d4b06a;font-size:13px;font-weight:800;letter-spacing:.18em;text-transform:uppercase;margin:0 0 14px}h1{font-size:clamp(48px,8vw,96px);line-height:.95;margin:0 0 24px}h2{font-size:clamp(32px,5vw,56px);margin:0 0 28px}.hero p:not(.eyebrow),.card p,dd{color:rgba(255,255,255,.72);line-height:1.7}.directory{padding-top:64px;padding-bottom:92px}.grid{display:grid;grid-template-columns:minmax(0,560px);gap:16px}.card{display:flex;flex-direction:column;min-height:350px;padding:24px;color:#fff;text-decoration:none;border:1px solid rgba(255,255,255,.12);background:rgba(255,255,255,.045)}.card>span,.card>strong{color:#d4b06a;font-size:12px;font-weight:900;letter-spacing:.1em;text-transform:uppercase}.card h3{font-size:28px;margin:24px 0 8px}.card dl{display:grid;gap:12px}.card dl div{border-top:1px solid rgba(255,255,255,.1);padding-top:10px}dt{font-size:11px;font-weight:900;text-transform:uppercase}dd{margin:4px 0 0}.card>strong{margin-top:auto}@media(max-width:700px){.hero{padding-top:64px}}
+</style>

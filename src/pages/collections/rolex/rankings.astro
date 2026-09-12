@@ -1,0 +1,66 @@
+---
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import { rolexAssets } from "../../../data/rolex";
+import { buildBrandAnalytics } from "../../../lib/intelligence/brandAnalytics";
+import QuestLuxoTopReferences from "../../../components/QuestLuxoTopReferences.astro";
+
+const analytics = buildBrandAnalytics(rolexAssets);
+---
+
+<BaseLayout title="Rolex Rankings | Quest Luxo">
+  <main class="rankings-page">
+    <section class="hero">
+      <p class="eyebrow">Quest Luxo Rankings</p>
+      <h1>Top Rolex References</h1>
+      <p>
+        A ranked view of Rolex references across the Quest Luxo Intelligence
+        Engine, combining collector demand, liquidity, wearability,
+        collectability, allocation pressure, and versatility.
+      </p>
+    </section>
+
+    <QuestLuxoTopReferences
+      assets={analytics.rankedAssets}
+      basePath="/collections/rolex/datejust"
+      title="Global Rolex Rankings"
+      limit={25}
+    />
+  </main>
+</BaseLayout>
+
+<style>
+  .rankings-page {
+    background: #07111f;
+    color: #ffffff;
+    min-height: 100vh;
+    padding-bottom: 80px;
+  }
+
+  .hero {
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 96px 24px 40px;
+  }
+
+  .eyebrow {
+    color: #d4b06a;
+    font-size: 13px;
+    font-weight: 800;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    margin: 0 0 14px;
+  }
+
+  h1 {
+    font-size: clamp(48px, 8vw, 96px);
+    line-height: 0.95;
+    margin: 0 0 24px;
+  }
+
+  .hero p {
+    max-width: 780px;
+    color: rgba(255, 255, 255, 0.72);
+    font-size: 18px;
+    line-height: 1.7;
+  }
+</style>

@@ -1,0 +1,16 @@
+---
+import ComparisonGuide from "../../components/ComparisonGuide.astro";
+import { comparisonGuideRegistry } from "../../lib/comparisons/comparisonGuideRegistry";
+import type { ComparisonGuide as ComparisonGuideModel } from "../../types/comparisonGuide";
+
+export function getStaticPaths() {
+  return comparisonGuideRegistry.map((guide) => ({
+    params: { slug: guide.slug },
+    props: { guide },
+  }));
+}
+
+const { guide } = Astro.props as { guide: ComparisonGuideModel };
+---
+
+<ComparisonGuide guide={guide} />

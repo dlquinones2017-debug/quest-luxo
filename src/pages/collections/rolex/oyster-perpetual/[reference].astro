@@ -1,0 +1,20 @@
+---
+import ReferenceFactory from "../../../../components/ReferenceFactory.astro";
+import { rolexOysterPerpetualAssets } from "../../../../data/rolex";
+
+export function getStaticPaths() {
+  return rolexOysterPerpetualAssets.map((asset) => ({
+    params: {
+      reference: asset.reference,
+    },
+  }));
+}
+---
+
+<ReferenceFactory
+  brand="Rolex"
+  collection="Oyster Perpetual"
+  assets={rolexOysterPerpetualAssets}
+  basePath="/collections/rolex/oyster-perpetual"
+  showBrokerageCTA={true}
+/>

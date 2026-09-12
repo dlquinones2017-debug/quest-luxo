@@ -1,0 +1,415 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import BrokerageCTA from "../../components/BrokerageCTA.astro";
+import BrokerageIntelligenceSection from "../../components/BrokerageIntelligenceSection.astro";
+import { audemarsPiguetBrandIntelligence } from "../../data/audemars-piguet-intelligence";
+import { brands } from "../../data/brands";
+import { audemarsPiguetFactory } from "../../lib/factory/audemarsPiguetFactory";
+import { buildBeginYourQuestUrl } from "../../lib/leads/leadIntakeContext";
+
+const brand = brands.find((item) => item.slug === audemarsPiguetFactory.slug);
+
+if (!brand) {
+  throw new Error("Audemars Piguet brand metadata is missing.");
+}
+
+const coveredCollectionSlugs = new Set([
+  "royal-oak",
+  "royal-oak-jumbo",
+  "royal-oak-chronograph",
+  "royal-oak-offshore",
+  "offshore-diver",
+  "code-1159",
+]);
+const liveCollections = audemarsPiguetFactory.collections.filter((collection) =>
+  coveredCollectionSlugs.has(collection.slug)
+);
+const comingSoonCollections = audemarsPiguetFactory.collections.filter(
+  (collection) => !coveredCollectionSlugs.has(collection.slug)
+);
+const beginAudemarsPiguetQuestUrl = buildBeginYourQuestUrl({
+  intent: "broker",
+  brand: "Audemars Piguet",
+});
+const brandIntelligenceItems = [
+  {
+    title: "Brokerage Positioning",
+    body: audemarsPiguetBrandIntelligence.brokeragePositioning,
+  },
+  {
+    title: "Brand Overview",
+    body: audemarsPiguetBrandIntelligence.overview,
+  },
+  {
+    title: "Quest Luxo Perspective",
+    body: audemarsPiguetBrandIntelligence.perspective,
+  },
+];
+---
+
+<BaseLayout title="Audemars Piguet | Quest Luxo">
+  <main class="brand-page">
+    <section class="hero">
+      <p class="eyebrow">Audemars Piguet Factory</p>
+      <h1>Audemars Piguet</h1>
+      <p>
+        A focused Quest Luxo launch slice for Audemars Piguet, beginning with
+        Royal Oak intelligence and controlled collection coverage before wider
+        AP factory activation.
+      </p>
+
+      <div class="actions">
+        <a href={beginAudemarsPiguetQuestUrl} class="primary">
+          Begin Your AP Quest
+        </a>
+        <a href="/collections/audemars-piguet/royal-oak" class="secondary">
+          Explore Royal Oak
+        </a>
+      </div>
+    </section>
+
+    <BrokerageIntelligenceSection
+      eyebrow="Audemars Piguet Intelligence"
+      title="A brokerage framework for AP decisions"
+      intro="Quest Luxo separates the strength of the manufacture from the realities of a specific reference, configuration, and physical example."
+      items={brandIntelligenceItems}
+      evidenceSources={audemarsPiguetBrandIntelligence.evidenceSources}
+    />
+
+    <section class="overview">
+      <div>
+        <p class="eyebrow">Le Brassus Legacy</p>
+        <h2>Independent high watchmaking with Royal Oak gravity</h2>
+      </div>
+
+      <div class="overview-copy">
+        <p>
+          Founded in 1875, Audemars Piguet remains one of the defining
+          independent Swiss manufactures, known for complicated watchmaking,
+          bold case architecture, and the integrated-bracelet Royal Oak.
+        </p>
+        <p>
+          Quest Luxo AP coverage starts where private-client demand is most
+          concentrated: steel Royal Oak references with collector liquidity,
+          allocation pressure, and durable recognition across modern and
+          discontinued markets.
+        </p>
+      </div>
+    </section>
+
+    <section class="summary-panel">
+      <p class="eyebrow">Quest Luxo Summary</p>
+      <h2>{brand.tagline}</h2>
+      <p>{brand.description}</p>
+
+      <div class="meta">
+        <span>Founded {brand.founded}</span>
+        <span>{liveCollections.length} Live Collection</span>
+        <span>{comingSoonCollections.length} Coming Soon</span>
+        <span>Launch Phase {brand.launchPhase}</span>
+      </div>
+    </section>
+
+    <section class="collections live">
+      <div class="section-header">
+        <p class="eyebrow">Live Collections</p>
+        <h2>Available Now</h2>
+      </div>
+
+      <div class="grid">
+        {
+          liveCollections.map((collection) => (
+            <a
+              href={`/collections/audemars-piguet/${collection.slug}`}
+              class="card active-card"
+            >
+              <div class="top">
+                <span>{collection.category}</span>
+                <strong>Live</strong>
+              </div>
+
+              <h3>{collection.name}</h3>
+              <p class="tagline">{collection.tagline}</p>
+              <p>{collection.description}</p>
+
+              <div class="meta-row">
+                <span>{collection.assetCount ?? 0} Seed References</span>
+                <span>Explore Collection</span>
+              </div>
+            </a>
+          ))
+        }
+      </div>
+    </section>
+
+    <section class="collections coming-soon">
+      <div class="section-header">
+        <p class="eyebrow">Coming Soon Collections</p>
+        <h2>AP Factory Pipeline</h2>
+      </div>
+
+      <div class="grid">
+        {
+          comingSoonCollections.map((collection) => (
+            <article class="card muted-card">
+              <div class="top">
+                <span>{collection.category}</span>
+                <strong>Coming Soon</strong>
+              </div>
+
+              <h3>{collection.name}</h3>
+              <p class="tagline">{collection.tagline}</p>
+              <p>{collection.description}</p>
+
+              <div class="meta-row">
+                <span>Not Activated</span>
+                <span>Factory Scaffold</span>
+              </div>
+            </article>
+          ))
+        }
+      </div>
+    </section>
+
+    <BrokerageCTA
+      brand="Audemars Piguet"
+      headline="Begin an Audemars Piguet conversation"
+      description="Request, sell, trade, value, or discuss an Audemars Piguet with context preserved for the Quest Luxo brokerage team."
+    />
+  </main>
+</BaseLayout>
+
+<style>
+  .brand-page {
+    background: #07111f;
+    color: #ffffff;
+    min-height: 100vh;
+  }
+
+  .hero,
+  .overview,
+  .summary-panel,
+  .collections {
+    max-width: 1180px;
+    margin: 0 auto;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
+  .hero {
+    padding-top: 110px;
+    padding-bottom: 58px;
+  }
+
+  .eyebrow {
+    color: #d4b06a;
+    font-size: 13px;
+    font-weight: 800;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    margin: 0 0 16px;
+  }
+
+  h1 {
+    font-size: clamp(54px, 9vw, 108px);
+    line-height: 0.92;
+    margin: 0 0 26px;
+  }
+
+  h2 {
+    font-size: clamp(34px, 5vw, 56px);
+    line-height: 1;
+    margin: 0;
+  }
+
+  .hero p,
+  .overview-copy p {
+    max-width: 780px;
+    color: rgba(255, 255, 255, 0.72);
+    font-size: 18px;
+    line-height: 1.7;
+  }
+
+  .actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+    margin-top: 34px;
+  }
+
+  .primary,
+  .secondary {
+    padding: 15px 22px;
+    text-decoration: none;
+    font-weight: 800;
+  }
+
+  .primary {
+    background: #d4b06a;
+    color: #07111f;
+  }
+
+  .secondary {
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    color: #ffffff;
+  }
+
+  .overview {
+    display: grid;
+    grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
+    gap: 36px;
+    padding-top: 24px;
+    padding-bottom: 44px;
+  }
+
+  .overview-copy p {
+    margin-top: 0;
+  }
+
+  .summary-panel {
+    background: #faf9f7;
+    color: #173a5e;
+    padding-top: 42px;
+    padding-bottom: 42px;
+    border: 1px solid #e8e3d8;
+  }
+
+  .summary-panel h2 {
+    color: #173a5e;
+    margin-bottom: 18px;
+  }
+
+  .summary-panel p {
+    max-width: 760px;
+    color: #4e5661;
+    font-size: 18px;
+    line-height: 1.7;
+  }
+
+  .meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-top: 28px;
+  }
+
+  .meta span {
+    background: #173a5e;
+    color: #ffffff;
+    padding: 10px 12px;
+    font-size: 12px;
+    font-weight: 800;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+  }
+
+  .collections {
+    padding-top: 70px;
+  }
+
+  .coming-soon {
+    padding-bottom: 70px;
+  }
+
+  .section-header {
+    margin-bottom: 28px;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 18px;
+  }
+
+  .card {
+    color: #173a5e;
+    background: #faf9f7;
+    border: 1px solid #e8e3d8;
+    padding: 28px;
+    text-decoration: none;
+    min-height: 290px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .active-card {
+    border-color: rgba(212, 176, 106, 0.8);
+    transition: 0.2s ease;
+  }
+
+  .active-card:hover {
+    transform: translateY(-4px);
+    border-color: #d4b06a;
+  }
+
+  .muted-card {
+    opacity: 0.86;
+  }
+
+  .top,
+  .meta-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 14px;
+    align-items: center;
+  }
+
+  .top {
+    margin-bottom: 24px;
+  }
+
+  .top span,
+  .meta-row span {
+    color: #777;
+    font-size: 12px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+  }
+
+  .top strong {
+    background: #173a5e;
+    color: #ffffff;
+    padding: 7px 10px;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+  }
+
+  .active-card .top strong {
+    background: #d4b06a;
+    color: #07111f;
+  }
+
+  h3 {
+    font-size: 29px;
+    margin: 0 0 10px;
+  }
+
+  .tagline {
+    color: #d4b06a;
+    font-weight: 800;
+    margin-bottom: 14px;
+  }
+
+  .card p {
+    color: #4e5661;
+    line-height: 1.65;
+  }
+
+  .meta-row {
+    margin-top: auto;
+    padding-top: 22px;
+  }
+
+  @media (max-width: 900px) {
+    .overview,
+    .grid {
+      grid-template-columns: 1fr;
+    }
+
+    .hero {
+      padding-top: 82px;
+    }
+  }
+</style>

@@ -1,0 +1,64 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import BrokerageCTA from "../../components/BrokerageCTA.astro";
+import BrokerageIntelligenceSection from "../../components/BrokerageIntelligenceSection.astro";
+import { ulysseNardinBrandSections, ulysseNardinSources } from "../../data/ulysse-nardin";
+import { ulysseNardinFactory, getUlysseNardinCollectionPath } from "../../lib/factory/ulysseNardinFactory";
+import { buildBeginYourQuestUrl } from "../../lib/leads/leadIntakeContext";
+
+const beginQuestUrl = buildBeginYourQuestUrl({ intent: "broker", brand: "Ulysse Nardin" });
+---
+
+<BaseLayout
+  title="Ulysse Nardin Watches | Quest Luxo"
+  description="Explore launch-quality Ulysse Nardin brand and collection intelligence for Marine, Diver, Freak, Executive, Blast, and Moonstruck."
+>
+  <main class="brand-page">
+    <section class="hero">
+      <p class="eyebrow">Ulysse Nardin Factory</p>
+      <h1>Ulysse Nardin</h1>
+      <p>
+        Independent Swiss watchmaking shaped by marine chronometry, silicon
+        technology, unconventional complications, and a willingness to make
+        mechanics visible.
+      </p>
+      <div class="actions">
+        <a href={beginQuestUrl} class="primary">Begin Your Ulysse Nardin Quest</a>
+        <a href={getUlysseNardinCollectionPath("freak")} class="secondary">Explore Freak</a>
+      </div>
+    </section>
+
+    <BrokerageIntelligenceSection
+      eyebrow="Ulysse Nardin Intelligence"
+      title="From marine precision to modern independent horology"
+      intro="Quest Luxo evaluates the brand through the exact collection, generation, complication, condition, service history, and collector use case—not heritage alone."
+      items={ulysseNardinBrandSections.map((section) => ({ title: section.title, body: section.body }))}
+      evidenceSources={[ulysseNardinSources.heritage]}
+    />
+
+    <section class="collections">
+      <p class="eyebrow">Launch Collections</p>
+      <h2>Six ways into the manufacture</h2>
+      <div class="grid">
+        {ulysseNardinFactory.collections.map((collection) => (
+          <a href={getUlysseNardinCollectionPath(collection.slug)} class="card">
+            <span>{collection.category}</span>
+            <h3>{collection.name}</h3>
+            <p>{collection.description}</p>
+            <strong>Explore Collection →</strong>
+          </a>
+        ))}
+      </div>
+    </section>
+
+    <BrokerageCTA
+      brand="Ulysse Nardin"
+      headline="Begin an Ulysse Nardin conversation"
+      description="Request, sell, trade, value, or discuss an Ulysse Nardin watch with collection context preserved for the Quest Luxo brokerage team."
+    />
+  </main>
+</BaseLayout>
+
+<style>
+  .brand-page{background:#07111f;color:#fff;min-height:100vh}.hero,.collections{max-width:1180px;margin:0 auto;padding-left:24px;padding-right:24px}.hero{padding-top:96px;padding-bottom:56px}.eyebrow{color:#d4b06a;font-size:13px;font-weight:800;letter-spacing:.18em;text-transform:uppercase;margin:0 0 14px}h1{font-size:clamp(54px,9vw,112px);line-height:.92;margin:0 0 28px}h2{font-size:clamp(34px,5vw,56px);line-height:1;margin:0 0 28px}.hero>p:not(.eyebrow),.card p{max-width:780px;color:rgba(255,255,255,.72);font-size:18px;line-height:1.7}.actions{display:flex;flex-wrap:wrap;gap:14px;margin-top:34px}.primary,.secondary{padding:15px 22px;text-decoration:none;font-weight:800}.primary{background:#d4b06a;color:#07111f}.secondary{border:1px solid rgba(255,255,255,.18);color:#fff}.collections{padding-top:72px;padding-bottom:88px}.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}.card{display:flex;flex-direction:column;min-height:280px;padding:24px;border:1px solid rgba(255,255,255,.12);background:rgba(255,255,255,.05);color:#fff;text-decoration:none}.card:hover{border-color:#d4b06a}.card>span,.card>strong{color:#d4b06a;font-size:12px;font-weight:900;letter-spacing:.1em;text-transform:uppercase}.card h3{font-size:32px;margin:28px 0 8px}.card strong{margin-top:auto}@media(max-width:700px){.grid{grid-template-columns:1fr}.hero{padding-top:64px}}
+</style>

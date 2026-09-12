@@ -1,0 +1,483 @@
+---
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import BrokerageCTA from "../../../components/BrokerageCTA.astro";
+import BrokerageIntelligenceSection from "../../../components/BrokerageIntelligenceSection.astro";
+import {
+  audemarsPiguetRoyalOakIntelligence,
+  audemarsPiguetRoyalOakLaunchAssets,
+  isAudemarsPiguetPriorityReference,
+} from "../../../data/audemars-piguet-intelligence";
+import {
+  audemarsPiguetFactory,
+  getAudemarsPiguetCollectionFactory,
+} from "../../../lib/factory/audemarsPiguetFactory";
+import { createCollectionMetadata } from "../../../lib/factory/collectionGenerator";
+import { listReferenceMetadataFromAssets } from "../../../lib/factory/referenceGenerator";
+
+const royalOakCollection = getAudemarsPiguetCollectionFactory("royal-oak");
+
+if (!royalOakCollection) {
+  throw new Error("Audemars Piguet Royal Oak factory metadata is missing.");
+}
+
+const collectionMetadata = createCollectionMetadata({
+  brand: audemarsPiguetFactory,
+  collection: royalOakCollection,
+  references: audemarsPiguetRoyalOakLaunchAssets.map((asset) => asset.reference),
+});
+
+const referenceMetadata = listReferenceMetadataFromAssets({
+  brand: audemarsPiguetFactory.name,
+  brandSlug: audemarsPiguetFactory.slug,
+  collection: royalOakCollection.name,
+  collectionSlug: royalOakCollection.slug,
+  assets: audemarsPiguetRoyalOakLaunchAssets,
+  basePath: collectionMetadata.collectionPath,
+});
+
+const referenceCards = audemarsPiguetRoyalOakLaunchAssets.map((asset) => {
+  const metadata = referenceMetadata.find(
+    (reference) => reference.reference === asset.reference
+  );
+
+  return {
+    asset,
+    metadata,
+    configuration: asset.configurations?.[0],
+    isPriority: isAudemarsPiguetPriorityReference(asset),
+  };
+});
+
+const currentSeedCount = audemarsPiguetRoyalOakLaunchAssets.filter((asset) =>
+  asset.productionStatus?.includes("Current")
+).length;
+const discontinuedSeedCount = audemarsPiguetRoyalOakLaunchAssets.filter((asset) =>
+  asset.productionStatus?.includes("Discontinued")
+).length;
+const priorityReferenceCount = referenceCards.filter(
+  (reference) => reference.isPriority
+).length;
+const collectionIntelligenceItems = [
+  {
+    title: "Collection Overview",
+    body: audemarsPiguetRoyalOakIntelligence.overview,
+  },
+  {
+    title: "Market Position",
+    body: audemarsPiguetRoyalOakIntelligence.marketPosition,
+  },
+  {
+    title: "Liquidity Guidance",
+    label: audemarsPiguetRoyalOakIntelligence.liquidityBand,
+    body: audemarsPiguetRoyalOakIntelligence.liquidityGuidance,
+  },
+  {
+    title: "Buyer Profile",
+    body: audemarsPiguetRoyalOakIntelligence.buyerProfile,
+  },
+  {
+    title: "Seller Profile",
+    body: audemarsPiguetRoyalOakIntelligence.sellerProfile,
+  },
+  {
+    title: "Ownership Considerations",
+    body: audemarsPiguetRoyalOakIntelligence.ownershipConsiderations,
+  },
+  {
+    title: "Brokerage Insight",
+    body: audemarsPiguetRoyalOakIntelligence.brokerageInsight,
+  },
+  {
+    title: "Market Commentary",
+    body: audemarsPiguetRoyalOakIntelligence.marketCommentary,
+  },
+  {
+    title: "Quest Luxo Perspective",
+    body: audemarsPiguetRoyalOakIntelligence.perspective,
+  },
+];
+---
+
+<BaseLayout title="Audemars Piguet Royal Oak | Quest Luxo">
+  <main class="collection-page">
+    <section class="hero">
+      <p class="eyebrow">Audemars Piguet Brokerage Intelligence</p>
+      <h1>Audemars Piguet Royal Oak</h1>
+      <p>
+        Compare six reference-backed steel Royal Oak families, with focused
+        priority intelligence for current Selfwinding and Jumbo decisions.
+      </p>
+    </section>
+
+    <section class="signals" aria-label="Royal Oak launch signals">
+      <div>
+        <strong>{collectionMetadata.assetCount}</strong>
+        <span>Covered References</span>
+      </div>
+
+      <div>
+        <strong>{currentSeedCount}</strong>
+        <span>Current Gen</span>
+      </div>
+
+      <div>
+        <strong>{discontinuedSeedCount}</strong>
+        <span>Discontinued</span>
+      </div>
+
+      <div>
+        <strong>{priorityReferenceCount}</strong>
+        <span>Priority References</span>
+      </div>
+
+      <div>
+        <strong>Jul 2026</strong>
+        <span>Market Review</span>
+      </div>
+    </section>
+
+    <section class="overview">
+      <div>
+        <p class="eyebrow">Collection Position</p>
+        <h2>One design language, several buyer markets</h2>
+      </div>
+
+      <p>
+        Current 41mm Selfwinding, Jumbo Extra-Thin, discontinued 41mm, and
+        neo-vintage Royal Oak references should not inherit one blanket view.
+        Configuration, proportions, condition, and ownership evidence shape the
+        brokerage decision.
+      </p>
+    </section>
+
+    <BrokerageIntelligenceSection
+      eyebrow="Royal Oak Intelligence"
+      title="Collection guidance before reference selection"
+      intro="The collection-level view establishes the buyer, seller, ownership, liquidity, and brokerage questions that should be answered before comparing individual examples."
+      items={collectionIntelligenceItems}
+      reviewedAt={audemarsPiguetRoyalOakIntelligence.reviewedAt}
+      evidenceSources={audemarsPiguetRoyalOakIntelligence.evidenceSources}
+    />
+
+    <section class="directory">
+      <div class="section-header">
+        <p class="eyebrow">Reference Directory</p>
+        <h2>Royal Oak Reference Coverage</h2>
+        <p>
+          Priority references open full brokerage intelligence. Supporting
+          references remain collection-level guidance until their evidence and
+          editorial review are complete.
+        </p>
+      </div>
+
+      <div class="reference-grid">
+        {
+          referenceCards.map(({ asset, configuration, metadata, isPriority }) => (
+            <article
+              class:list={["reference-card", { "reference-card--priority": isPriority }]}
+              aria-label={`${asset.reference} coverage`}
+            >
+              <div class="card-top">
+                <span>{asset.reference}</span>
+                <strong>{isPriority ? "Priority" : "Coverage"}</strong>
+              </div>
+
+              <h3>{asset.model}</h3>
+              <p class="configuration">
+                {configuration?.nickname ?? "Royal Oak"} |{" "}
+                {configuration?.dial ?? "Dial TBC"}
+              </p>
+
+              <dl class="specs">
+                <div>
+                  <dt>Production</dt>
+                  <dd>{asset.productionStatus}</dd>
+                </div>
+                <div>
+                  <dt>Market Position</dt>
+                  <dd>{asset.marketPosition}</dd>
+                </div>
+                <div>
+                  <dt>Liquidity</dt>
+                  <dd>{asset.liquidity}</dd>
+                </div>
+                <div>
+                  <dt>Allocation</dt>
+                  <dd>{asset.allocationDifficulty}</dd>
+                </div>
+              </dl>
+
+              <p class="view">{asset.questLuxoView}</p>
+
+              {
+                isPriority && metadata ? (
+                  <a class="reference-link" href={metadata.referencePath}>
+                    Explore Reference Intelligence
+                  </a>
+                ) : (
+                  <span class="disabled-link">
+                    Collection Guidance Available
+                  </span>
+                )
+              }
+            </article>
+          ))
+        }
+      </div>
+    </section>
+
+    <BrokerageCTA
+      brand="Audemars Piguet"
+      collection="Royal Oak"
+      headline="Looking for your next Royal Oak?"
+      description="Source, sell, trade, or value a Royal Oak with discreet guidance from Quest Luxo brokerage."
+    />
+  </main>
+</BaseLayout>
+
+<style>
+  .collection-page {
+    background: #07111f;
+    color: #ffffff;
+    min-height: 100vh;
+  }
+
+  .hero {
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 96px 24px 48px;
+  }
+
+  .eyebrow {
+    color: #d4b06a;
+    font-size: 13px;
+    font-weight: 800;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    margin: 0 0 14px;
+  }
+
+  h1 {
+    font-size: clamp(48px, 8vw, 96px);
+    line-height: 0.95;
+    margin: 0 0 24px;
+  }
+
+  h2 {
+    font-size: clamp(32px, 5vw, 56px);
+    line-height: 1;
+    margin: 0;
+  }
+
+  .hero p,
+  .overview p,
+  .section-header p {
+    max-width: 760px;
+    color: rgba(255, 255, 255, 0.72);
+    font-size: 18px;
+    line-height: 1.7;
+  }
+
+  .signals {
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 0 24px 32px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 14px;
+  }
+
+  .signals div {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    background: rgba(255, 255, 255, 0.045);
+    padding: 20px;
+  }
+
+  .signals strong {
+    display: block;
+    color: #d4b06a;
+    font-size: 32px;
+    margin-bottom: 8px;
+  }
+
+  .signals span {
+    display: block;
+    color: rgba(255, 255, 255, 0.62);
+    font-size: 12px;
+    font-weight: 800;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+  }
+
+  .overview,
+  .directory {
+    max-width: 1180px;
+    margin: 0 auto;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
+  .overview {
+    display: grid;
+    grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
+    gap: 36px;
+    align-items: start;
+    padding-top: 20px;
+    padding-bottom: 36px;
+  }
+
+  .directory {
+    padding-top: 32px;
+    padding-bottom: 92px;
+  }
+
+  .section-header {
+    margin-bottom: 32px;
+  }
+
+  .section-header p {
+    margin-bottom: 0;
+  }
+
+  .reference-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 16px;
+  }
+
+  .reference-card {
+    display: flex;
+    flex-direction: column;
+    min-height: 520px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    background: rgba(255, 255, 255, 0.045);
+    padding: 22px;
+  }
+
+  .reference-card--priority {
+    border-color: rgba(212, 176, 106, 0.58);
+  }
+
+  .card-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 14px;
+    margin-bottom: 20px;
+  }
+
+  .card-top span {
+    color: #d4b06a;
+    font-size: 13px;
+    font-weight: 900;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+  }
+
+  .card-top strong {
+    color: #07111f;
+    background: #d4b06a;
+    padding: 8px 10px;
+    text-align: center;
+    font-size: 10px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+  }
+
+  h3 {
+    font-size: 26px;
+    line-height: 1.08;
+    margin: 0 0 12px;
+  }
+
+  .configuration {
+    color: rgba(255, 255, 255, 0.68);
+    line-height: 1.55;
+    margin: 0 0 22px;
+  }
+
+  .specs {
+    display: grid;
+    gap: 14px;
+    margin: 0 0 22px;
+  }
+
+  .specs div {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    padding-top: 12px;
+  }
+
+  dt {
+    color: rgba(255, 255, 255, 0.48);
+    font-size: 11px;
+    font-weight: 900;
+    letter-spacing: 0.13em;
+    text-transform: uppercase;
+    margin-bottom: 6px;
+  }
+
+  dd {
+    color: rgba(255, 255, 255, 0.82);
+    line-height: 1.55;
+    margin: 0;
+  }
+
+  .view {
+    color: rgba(255, 255, 255, 0.72);
+    line-height: 1.65;
+    margin: 0 0 24px;
+  }
+
+  .disabled-link,
+  .reference-link {
+    display: block;
+    margin-top: auto;
+    border: 1px solid rgba(255, 255, 255, 0.14);
+    color: rgba(255, 255, 255, 0.62);
+    padding: 13px 14px;
+    font-size: 12px;
+    font-weight: 900;
+    letter-spacing: 0.11em;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  .reference-link {
+    border-color: rgba(212, 176, 106, 0.58);
+    color: #d4b06a;
+    text-decoration: none;
+  }
+
+  .reference-link:hover,
+  .reference-link:focus-visible {
+    background: rgba(212, 176, 106, 0.1);
+    outline: none;
+  }
+
+  @media (max-width: 1060px) {
+    .reference-grid {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
+
+  @media (max-width: 900px) {
+    .signals {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    .overview {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  @media (max-width: 640px) {
+    .signals,
+    .reference-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .hero {
+      padding-top: 64px;
+    }
+  }
+</style>

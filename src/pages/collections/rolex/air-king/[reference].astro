@@ -1,0 +1,20 @@
+---
+import ReferenceFactory from "../../../../components/ReferenceFactory.astro";
+import { rolexAirKingAssets } from "../../../../data/rolex";
+
+export function getStaticPaths() {
+  return rolexAirKingAssets.map((asset) => ({
+    params: {
+      reference: asset.reference,
+    },
+  }));
+}
+---
+
+<ReferenceFactory
+  brand="Rolex"
+  collection="Air-King"
+  assets={rolexAirKingAssets}
+  basePath="/collections/rolex/air-king"
+  showBrokerageCTA={true}
+/>

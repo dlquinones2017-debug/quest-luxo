@@ -1,14 +1,17 @@
 ---
 import { brands } from "../data/brands";
+import { isFactoryLive } from "../lib/factory";
+
+const liveBrands = brands.filter((brand) => isFactoryLive(brand.slug));
 ---
 
 <section class="collections">
   <p class="eyebrow">CURATED COLLECTIONS</p>
 
-  <h2>Explore the World’s Most Desired Watch Houses</h2>
+  <h2>Explore Live Quest Luxo Watch Intelligence</h2>
 
   <div class="grid">
-    {brands.map((brand) => (
+    {liveBrands.map((brand) => (
       <a href={`/collections/${brand.slug}`} class="card">
         <span>{brand.name}</span>
         <p>{brand.tagline}</p>

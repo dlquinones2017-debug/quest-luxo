@@ -1,0 +1,28 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import BrokerageCTA from "../../components/BrokerageCTA.astro";
+import BrokerageIntelligenceSection from "../../components/BrokerageIntelligenceSection.astro";
+import { cartierCollectionSummaries, cartierLaunchBrandIntelligence } from "../../data/cartier-intelligence";
+import { cartierFactory } from "../../lib/factory/cartierFactory";
+import { buildBeginYourQuestUrl } from "../../lib/leads/leadIntakeContext";
+
+const coveredSlugs = new Set(["santos", "tank", "ballon-bleu", "pasha"]);
+const coveredCollections = cartierFactory.collections.filter((collection) => coveredSlugs.has(collection.slug));
+const futureCollections = cartierFactory.collections.filter((collection) => !coveredSlugs.has(collection.slug));
+const beginCartierQuestUrl = buildBeginYourQuestUrl({ intent: "broker", brand: "Cartier" });
+const items = [
+  { title: "Brokerage Positioning", body: cartierLaunchBrandIntelligence.brokeragePositioning },
+  { title: "Brand Overview", body: cartierLaunchBrandIntelligence.overview },
+  { title: "Quest Luxo Perspective", body: cartierLaunchBrandIntelligence.perspective },
+];
+---
+<BaseLayout title="Cartier | Quest Luxo"><main class="brand-page">
+  <section class="hero"><p class="eyebrow">Cartier Factory</p><h1>Cartier</h1><p>Design-led brokerage intelligence for Santos de Cartier and Tank, with existing Santos family discovery preserved.</p><div class="actions"><a href={beginCartierQuestUrl} class="primary">Begin Your Cartier Quest</a><a href="/collections/cartier/santos" class="secondary">Explore Santos</a></div></section>
+  <BrokerageIntelligenceSection eyebrow="Cartier Intelligence" title="Proportion- and configuration-led Cartier guidance" intro="Quest Luxo separates iconic design recognition from exact size, movement, material, condition, completeness, and service state." items={items} evidenceSources={cartierLaunchBrandIntelligence.evidenceSources} />
+  <section class="collections"><p class="eyebrow">Collection Summaries</p><h2>Launch coverage</h2><div class="grid">{coveredCollections.map((collection) => <a href={`/collections/cartier/${collection.slug}`} class="card active"><span>{collection.category}</span><h3>{collection.name === "Santos" ? "Santos de Cartier" : collection.name}</h3><p>{cartierCollectionSummaries[collection.slug as keyof typeof cartierCollectionSummaries] ?? collection.description}</p><strong>Explore Collection →</strong></a>)}</div></section>
+  <section class="collections future"><p class="eyebrow">Existing Factory Scaffold</p><h2>Future Cartier coverage</h2><div class="grid">{futureCollections.map((collection) => <article class="card"><span>{collection.category}</span><h3>{collection.name}</h3><p>{collection.description}</p><strong>Not Activated</strong></article>)}</div></section>
+  <BrokerageCTA brand="Cartier" headline="Begin a Cartier conversation" description="Request, sell, trade, value, or discuss a Cartier with context preserved for the Quest Luxo brokerage team." />
+</main></BaseLayout>
+<style>
+  .brand-page{background:#07111f;color:#fff;min-height:100vh}.hero,.collections{max-width:1180px;margin:0 auto;padding-left:24px;padding-right:24px}.hero{padding-top:96px;padding-bottom:56px}.eyebrow{color:#d4b06a;font-size:13px;font-weight:800;letter-spacing:.18em;text-transform:uppercase;margin:0 0 14px}h1{font-size:clamp(54px,9vw,112px);line-height:.92;margin:0 0 28px}h2{font-size:clamp(34px,5vw,56px);margin:0 0 28px}.hero>p:not(.eyebrow),.card p{color:rgba(255,255,255,.72);font-size:18px;line-height:1.7;max-width:780px}.actions{display:flex;flex-wrap:wrap;gap:14px;margin-top:34px}.primary,.secondary{padding:15px 22px;text-decoration:none;font-weight:800}.primary{background:#d4b06a;color:#07111f}.secondary{border:1px solid rgba(255,255,255,.18);color:#fff}.collections{padding-top:64px;padding-bottom:32px}.future{padding-bottom:88px}.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}.card{display:flex;flex-direction:column;min-height:260px;padding:24px;border:1px solid rgba(255,255,255,.12);background:rgba(255,255,255,.035);color:#fff;text-decoration:none}.active{background:rgba(255,255,255,.055)}.card>span,.card>strong{color:#d4b06a;font-size:12px;font-weight:800;letter-spacing:.1em;text-transform:uppercase}.card h3{font-size:32px;margin:28px 0 8px}.card strong{margin-top:auto}@media(max-width:700px){.grid{grid-template-columns:1fr}.hero{padding-top:64px}}
+</style>
