@@ -5,13 +5,30 @@ interface Props {
   title?: string;
   description?: string;
   canonicalUrl?: string;
+  canonicalPath?: string;
+  structuredData?: Record<string, unknown> | Record<string, unknown>[];
+  robots?: string;
+  socialImagePath?: string;
 }
 
 const {
   title = "Quest Luxo",
   description = "Private luxury timepiece sourcing, brokerage, and acquisition advisory for discerning collectors.",
   canonicalUrl,
+  canonicalPath,
+  structuredData,
+  robots = "index,follow",
+  socialImagePath = "/images/quest-luxo-logo.webp",
 } = Astro.props as Props;
+
+const siteUrl = Astro.site ?? Astro.url.origin;
+const resolvedCanonicalUrl = canonicalUrl ?? new URL(canonicalPath ?? Astro.url.pathname, siteUrl).href;
+const socialImageUrl = new URL(socialImagePath, siteUrl).href;
+const pageStructuredData = structuredData
+  ? Array.isArray(structuredData)
+    ? structuredData
+    : [structuredData]
+  : [];
 ---
 
 <html lang="en">
@@ -21,7 +38,21 @@ const {
     <meta name="theme-color" content="#07111f" />
     <title>{title}</title>
     <meta name="description" content={description} />
-    {canonicalUrl && <link rel="canonical" href={canonicalUrl} />}
+    <meta name="robots" content={robots} />
+    <link rel="canonical" href={resolvedCanonicalUrl} />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Quest Luxo" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={resolvedCanonicalUrl} />
+    <meta property="og:image" content={socialImageUrl} />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={socialImageUrl} />
+    {pageStructuredData.map((entry) => (
+      <script type="application/ld+json" is:inline set:html={JSON.stringify(entry).replace(/</g, "\\u003c")} />
+    ))}
   </head>
 
   <body>

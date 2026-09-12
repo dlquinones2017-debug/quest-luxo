@@ -1,0 +1,107 @@
+---
+const currentYear = new Date().getUTCFullYear();
+---
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-intro">
+      <a class="footer-brand" href="/" aria-label="Quest Luxo home">QUEST LUXO</a>
+      <p>
+        Private luxury timepiece advisory and discreet global sourcing.
+      </p>
+    </div>
+
+    <nav class="footer-links" aria-label="Company and legal">
+      <a href="/about">About</a>
+      <a href="/contact">Contact</a>
+      <a href="/transaction-standards">Transaction Standards</a>
+      <a href="/privacy">Privacy</a>
+      <a href="/terms">Terms</a>
+    </nav>
+
+    <div class="footer-contact">
+      <p>Private client inquiries</p>
+      <a href="mailto:contact@questluxo.com">contact@questluxo.com</a>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <span>&copy; {currentYear} Quest Luxo. All rights reserved.</span>
+    <span>Independent luxury asset advisory.</span>
+  </div>
+</footer>
+
+<style>
+  .site-footer {
+    color: #e8edf3;
+    background: #07111f;
+    border-top: 1px solid rgba(212, 176, 106, 0.35);
+    padding: 54px 30px 24px;
+  }
+
+  .footer-inner {
+    display: grid;
+    grid-template-columns: 1.2fr 1fr 1fr;
+    gap: 42px;
+    max-width: 1180px;
+    margin: 0 auto 42px;
+  }
+
+  .footer-brand {
+    color: #ffffff;
+    font-size: 19px;
+    font-weight: 900;
+    letter-spacing: 0.18em;
+    text-decoration: none;
+  }
+
+  .footer-intro p,
+  .footer-contact p {
+    max-width: 360px;
+    color: #b9c3ce;
+    line-height: 1.7;
+  }
+
+  .footer-links {
+    display: grid;
+    align-content: start;
+    gap: 13px;
+  }
+
+  .footer-links a,
+  .footer-contact a {
+    display: inline-flex;
+    align-items: center;
+    min-height: 44px;
+    width: fit-content;
+    color: #ffffff;
+    text-underline-offset: 4px;
+  }
+
+  .footer-links a:hover,
+  .footer-contact a:hover {
+    color: #e4c57f;
+  }
+
+  .footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    max-width: 1180px;
+    margin: 0 auto;
+    padding-top: 22px;
+    border-top: 1px solid rgba(255, 255, 255, 0.12);
+    color: #a8b3c0;
+    font-size: 13px;
+  }
+
+  @media (max-width: 800px) {
+    .footer-inner {
+      grid-template-columns: 1fr;
+    }
+
+    .footer-bottom {
+      flex-direction: column;
+    }
+  }
+</style>

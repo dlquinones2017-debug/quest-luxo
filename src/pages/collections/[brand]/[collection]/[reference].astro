@@ -1,0 +1,22 @@
+---
+import CollectionReferenceExperience from "../../../../components/CollectionReferenceExperience.astro";
+import { collectionRegistry } from "../../../../data/collectionRegistry";
+import { referenceRouteParam } from "../../../../lib/routes/collectionRoutes";
+
+export function getStaticPaths() {
+  return collectionRegistry.flatMap((collection) =>
+    collection.assets.map((asset) => ({
+      params: {
+        brand: collection.brandSlug,
+        collection: collection.slug,
+        reference: referenceRouteParam(asset.reference),
+      },
+      props: { collection, asset },
+    }))
+  );
+}
+
+const { collection, asset } = Astro.props;
+---
+
+<CollectionReferenceExperience collection={collection} asset={asset} />

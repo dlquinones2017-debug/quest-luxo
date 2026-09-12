@@ -8,13 +8,13 @@
   "scripts": {
     "dev": "astro dev",
     "build": "astro build",
+    "check": "astro check",
     "preview": "astro preview",
     "astro": "astro",
     "start:production": "node --experimental-strip-types scripts/start-production.mjs",
     "verify:production": "node --experimental-strip-types scripts/verify-production-readiness.mjs",
     "lead-storage": "node --experimental-strip-types scripts/lead-storage-operator.mjs",
-    "test:deal-agent": "node --test tests/dealAgent.test.mjs",
-    "check": "astro check"
+    "test:deal-agent": "node --test tests/dealAgent.test.mjs"
   },
   "dependencies": {
     "@astrojs/node": "^11.0.2",

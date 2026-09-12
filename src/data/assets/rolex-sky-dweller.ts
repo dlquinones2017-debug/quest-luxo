@@ -15,7 +15,6 @@ export const skyDwellerAssets = [
     allocationDifficulty: "High",
     questLuxoView:
       "The 336934 is one of the most requested Sky-Dweller configurations, especially in blue dial variants, due to its complication set and wearable steel profile.",
-    image: "/images/rolex/sky-dweller/336934.png",
   },
 
   {
@@ -32,7 +31,6 @@ export const skyDwellerAssets = [
     allocationDifficulty: "Moderate to High",
     questLuxoView:
       "The 336933 combines Rolex’s annual calendar travel complication with a classic two-tone luxury profile.",
-    image: "/images/rolex/sky-dweller/336933.png",
   },
 
   {
@@ -49,7 +47,6 @@ export const skyDwellerAssets = [
     allocationDifficulty: "High",
     questLuxoView:
       "The 336238 delivers Sky-Dweller complexity in a sport-luxury Oysterflex configuration suited for clients seeking precious metal without a full bracelet.",
-    image: "/images/rolex/sky-dweller/336238.png",
   },
 
   {
@@ -66,7 +63,6 @@ export const skyDwellerAssets = [
     allocationDifficulty: "High",
     questLuxoView:
       "The 336235 is a strong choice for clients seeking the Sky-Dweller’s advanced complication in a warmer precious-metal execution.",
-    image: "/images/rolex/sky-dweller/336235.png",
   },
 
   {
@@ -84,6 +80,5 @@ export const skyDwellerAssets = [
     allocationDifficulty: "Secondary Market Only",
     questLuxoView:
       "The 326934 remains highly relevant as the prior-generation steel Sky-Dweller and continues to see strong secondary-market interest.",
-    image: "/images/rolex/sky-dweller/326934.png",
   },
 ];

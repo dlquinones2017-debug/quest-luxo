@@ -3,229 +3,202 @@ import ReferenceCard from "./ReferenceCard.astro";
 import {
   buildQuestLuxoIntelligence,
 } from "../lib/intelligence/questLuxoIntelligence";
+import { referencePath } from "../lib/routes/collectionRoutes";
 import type { QuestLuxoAsset } from "../types/questLuxo";
 
 interface Props {
   assets: QuestLuxoAsset[];
   basePath: string;
+  collectionName: string;
 }
 
-const { assets, basePath } = Astro.props as Props;
+const { assets, basePath, collectionName } = Astro.props as Props;
+const pathSegments = basePath.split("/");
+const brandSlug = pathSegments[2] ?? "";
+const collectionSlug = pathSegments[3] ?? "";
+
+const getFilterTags = (asset: QuestLuxoAsset) => {
+  const material = (asset.material ?? "").toLowerCase();
+  const tags = ["all"];
+
+  if (asset.productionStatus?.toLowerCase() === "current") tags.push("current");
+  if (asset.productionStatus?.toLowerCase() === "discontinued") tags.push("discontinued");
+  if (material.includes("oystersteel")) tags.push("oystersteel");
+  if (material.includes("gold") || material.includes("platinum")) tags.push("precious-metal");
+  if (material.includes("rolesor") || material.includes("two-tone")) tags.push("two-tone");
+  if ((asset.intelligence?.collectorDemand ?? 0) >= 5) tags.push("peak-demand");
+
+  return tags.join(" ");
+};
 ---
 
 <section class="quest-reference-grid" data-reference-grid>
-  <div class="reference-grid-shell">
-    <div class="reference-grid-results" data-results-count>
-      Showing {assets.length} references
-    </div>
+  <div class="reference-grid">
+    {assets.map((asset) => {
+      const configurations = asset.configurations ?? [];
+      const searchContent = [
+        asset.reference,
+        asset.model,
+        asset.brand,
+        asset.collection,
+        asset.material,
+        asset.bezel,
+        asset.productionStatus,
+        asset.marketPosition,
+        asset.liquidity,
+        asset.allocationDifficulty,
+        ...configurations.map((configuration) => configuration.nickname ?? ""),
+        ...configurations.map((configuration) => configuration.bracelet ?? ""),
+        ...configurations.map((configuration) => configuration.dial ?? ""),
+      ].filter(Boolean).join(" ").toLowerCase();
+      const score = asset.intelligence
+        ? buildQuestLuxoIntelligence(asset.intelligence).overallScore
+        : 0;
 
-    <div class="reference-grid" data-grid>
-      {
-        assets.map((asset) => {
-          const configurations = asset.configurations ?? [];
+      return (
+        <div
+          class="reference-grid-item"
+          data-reference-item
+          data-search={searchContent}
+          data-tags={getFilterTags(asset)}
+          data-score={score}
+          data-demand={asset.intelligence?.collectorDemand ?? 0}
+          data-liquidity-score={asset.intelligence?.liquidity ?? 0}
+          data-reference={asset.reference}
+        >
+          <ReferenceCard
+            asset={asset}
+            href={referencePath(brandSlug, collectionSlug, asset.reference)}
+          />
+        </div>
+      );
+    })}
+  </div>
 
-          const searchContent = [
-            asset.reference,
-            asset.model,
-            asset.brand,
-            asset.collection,
-            asset.material,
-            asset.bezel,
-            asset.productionStatus,
-            asset.marketPosition,
-            asset.liquidity,
-            asset.allocationDifficulty,
-            ...configurations.map((configuration) => configuration.nickname ?? ""),
-            ...configurations.map((configuration) => configuration.bracelet ?? ""),
-            ...configurations.map((configuration) => configuration.dial ?? ""),
-          ]
-            .filter(Boolean)
-            .join(" ")
-            .toLowerCase();
-
-          const score = asset.intelligence
-            ? buildQuestLuxoIntelligence(asset.intelligence).overallScore
-            : 0;
-
-          return (
-            <div
-              class="reference-grid-item"
-              data-reference-item
-              data-search={searchContent}
-              data-material={asset.material ?? ""}
-              data-status={asset.productionStatus ?? ""}
-              data-liquidity={asset.liquidity ?? ""}
-              data-score={score}
-              data-reference={asset.reference}
-            >
-              <ReferenceCard
-                asset={asset}
-                href={`${basePath}/${asset.reference}`}
-              />
-            </div>
-          );
-        })
-      }
-    </div>
-
-    <div class="reference-grid-empty" data-empty-state hidden>
-      No references match your current filters.
-    </div>
+  <div class="reference-grid-empty" data-empty-state hidden>
+    <p class="empty-eyebrow">NO MATCHES FOUND</p>
+    <h3>No {collectionName} references match this search.</h3>
+    <p>Try clearing the search or selecting a different filter.</p>
+    <button type="button" data-directory-reset>Reset Directory</button>
   </div>
 </section>
 
 <script>
   const gridRoot = document.querySelector<HTMLElement>("[data-reference-grid]");
+  const toolbar = document.querySelector<HTMLElement>("[data-collection-toolbar]");
 
-  if (gridRoot) {
+  if (gridRoot && toolbar) {
+    const grid = gridRoot.querySelector<HTMLElement>(".reference-grid");
     const items = Array.from(
       gridRoot.querySelectorAll<HTMLElement>("[data-reference-item]")
     );
-
-    const resultsCount =
-      gridRoot.querySelector<HTMLElement>("[data-results-count]");
-
+    const resultCount =
+      toolbar.querySelector<HTMLElement>("[data-directory-results]");
     const emptyState =
       gridRoot.querySelector<HTMLElement>("[data-empty-state]");
-
     const searchInput =
-      document.querySelector<HTMLInputElement>("[data-directory-search]");
-
-    const materialFilter =
-      document.querySelector<HTMLSelectElement>("[data-directory-material]");
-
-    const statusFilter =
-      document.querySelector<HTMLSelectElement>("[data-directory-status]");
-
-    const liquidityFilter =
-      document.querySelector<HTMLSelectElement>("[data-directory-liquidity]");
-
+      toolbar.querySelector<HTMLInputElement>("[data-directory-search]");
     const sortSelect =
-      document.querySelector<HTMLSelectElement>("[data-directory-sort]");
+      toolbar.querySelector<HTMLSelectElement>("[data-directory-sort]");
+    const filterButtons = Array.from(
+      toolbar.querySelectorAll<HTMLButtonElement>("[data-directory-filter]")
+    );
+    const resetButton =
+      gridRoot.querySelector<HTMLButtonElement>("[data-directory-reset]");
+    let activeFilter = "all";
 
-    const grid = gridRoot.querySelector<HTMLElement>("[data-grid]");
-
-    const getItemScore = (item: HTMLElement): number => {
-      const score = Number(item.dataset.score);
-      return Number.isFinite(score) ? score : 0;
+    const numericValue = (item: HTMLElement, key: string) => {
+      const value = Number(item.dataset[key] ?? 0);
+      return Number.isFinite(value) ? value : 0;
     };
 
-    const getItemReference = (item: HTMLElement): string => {
-      return item.dataset.reference ?? "";
-    };
-
-    const updateGrid = (): void => {
+    const updateGrid = () => {
       const query = searchInput?.value.trim().toLowerCase() ?? "";
-      const material = materialFilter?.value ?? "all";
-      const status = statusFilter?.value ?? "all";
-      const liquidity = liquidityFilter?.value ?? "all";
-      const sort = sortSelect?.value ?? "score-desc";
-
+      const sortMode = sortSelect?.value ?? "score-desc";
       const visibleItems = items.filter((item) => {
-        const matchesSearch = query
-          ? (item.dataset.search ?? "").includes(query)
-          : true;
-
-        const matchesMaterial =
-          material === "all" || item.dataset.material === material;
-
-        const matchesStatus =
-          status === "all" || item.dataset.status === status;
-
-        const matchesLiquidity =
-          liquidity === "all" || item.dataset.liquidity === liquidity;
-
-        return (
-          matchesSearch &&
-          matchesMaterial &&
-          matchesStatus &&
-          matchesLiquidity
-        );
+        const tags = item.dataset.tags?.split(" ") ?? [];
+        const matchesFilter =
+          activeFilter === "all" || tags.includes(activeFilter);
+        const matchesSearch =
+          !query || (item.dataset.search ?? "").includes(query);
+        return matchesFilter && matchesSearch;
       });
 
-      const sortedItems = [...visibleItems].sort((a, b) => {
-        if (sort === "score-asc") return getItemScore(a) - getItemScore(b);
-        if (sort === "reference-asc") return getItemReference(a).localeCompare(getItemReference(b));
-        if (sort === "reference-desc") return getItemReference(b).localeCompare(getItemReference(a));
-        return getItemScore(b) - getItemScore(a);
+      visibleItems.sort((a, b) => {
+        if (sortMode === "reference-asc") {
+          return (a.dataset.reference ?? "").localeCompare(
+            b.dataset.reference ?? ""
+          );
+        }
+        if (sortMode === "demand-desc") {
+          return numericValue(b, "demand") - numericValue(a, "demand");
+        }
+        if (sortMode === "liquidity-desc") {
+          return (
+            numericValue(b, "liquidityScore") -
+            numericValue(a, "liquidityScore")
+          );
+        }
+        return numericValue(b, "score") - numericValue(a, "score");
       });
 
       items.forEach((item) => {
         item.hidden = true;
       });
-
-      sortedItems.forEach((item) => {
+      visibleItems.forEach((item) => {
         item.hidden = false;
         grid?.appendChild(item);
       });
 
-      if (resultsCount) {
-        resultsCount.textContent = `Showing ${sortedItems.length} reference${
-          sortedItems.length === 1 ? "" : "s"
+      if (resultCount) {
+        resultCount.textContent = `Showing ${visibleItems.length} reference${
+          visibleItems.length === 1 ? "" : "s"
         }`;
       }
-
-      if (emptyState) {
-        emptyState.hidden = sortedItems.length > 0;
-      }
+      if (emptyState) emptyState.hidden = visibleItems.length > 0;
+      if (grid) grid.classList.toggle("empty", visibleItems.length === 0);
     };
 
+    filterButtons.forEach((button) => {
+      button.addEventListener("click", () => {
+        activeFilter = button.dataset.directoryFilter ?? "all";
+        filterButtons.forEach((item) => {
+          const isActive = item === button;
+          item.classList.toggle("active", isActive);
+          item.setAttribute("aria-pressed", String(isActive));
+        });
+        updateGrid();
+      });
+    });
     searchInput?.addEventListener("input", updateGrid);
-    materialFilter?.addEventListener("change", updateGrid);
-    statusFilter?.addEventListener("change", updateGrid);
-    liquidityFilter?.addEventListener("change", updateGrid);
     sortSelect?.addEventListener("change", updateGrid);
+    resetButton?.addEventListener("click", () => {
+      activeFilter = "all";
+      if (searchInput) searchInput.value = "";
+      if (sortSelect) sortSelect.value = "score-desc";
+      filterButtons.forEach((button) => {
+        const isActive = button.dataset.directoryFilter === "all";
+        button.classList.toggle("active", isActive);
+        button.setAttribute("aria-pressed", String(isActive));
+      });
+      updateGrid();
+      searchInput?.focus();
+    });
 
     updateGrid();
   }
 </script>
 
 <style>
-  .quest-reference-grid {
-    width: 100%;
-  }
-
-  .reference-grid-shell {
-    display: grid;
-    gap: 1.25rem;
-  }
-
-  .reference-grid-results {
-    color: rgba(255, 255, 255, 0.62);
-    font-size: 0.85rem;
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
-  }
-
-  .reference-grid {
-    display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-    gap: 1rem;
-  }
-
-  .reference-grid-item[hidden],
-  .reference-grid-empty[hidden] {
-    display: none;
-  }
-
-  .reference-grid-empty {
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    border-radius: 1.25rem;
-    padding: 2rem;
-    color: rgba(255, 255, 255, 0.66);
-    background: rgba(255, 255, 255, 0.035);
-    text-align: center;
-  }
-
-  @media (max-width: 1100px) {
-    .reference-grid {
-      grid-template-columns: repeat(2, minmax(0, 1fr));
-    }
-  }
-
-  @media (max-width: 720px) {
-    .reference-grid {
-      grid-template-columns: 1fr;
-    }
-  }
+  .quest-reference-grid { width:100%; max-width:1180px; margin:0 auto; }
+  .reference-grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:24px; }
+  .reference-grid.empty { display:none; }
+  .reference-grid-item[hidden],.reference-grid-empty[hidden] { display:none; }
+  .reference-grid-empty { max-width:760px; margin:40px auto 0; text-align:center; background:#faf9f7; border:1px solid #e8e3d8; padding:44px 30px; }
+  .reference-grid-empty h3 { color:#173a5e; font-size:34px; margin:0 0 16px; }
+  .reference-grid-empty p { color:#4e5661; line-height:1.7; }
+  .reference-grid-empty .empty-eyebrow { color:var(--color-accent-text); letter-spacing:4px; font-size:12px; font-weight:800; text-transform:uppercase; }
+  .reference-grid-empty button { cursor:pointer; border:0; background:#173a5e; color:#fff; padding:13px 20px; border-radius:6px; font-weight:800; }
+  @media (max-width:1100px) { .reference-grid { grid-template-columns:repeat(2,minmax(0,1fr)); } }
+  @media (max-width:720px) { .reference-grid { grid-template-columns:1fr; } }
 </style>

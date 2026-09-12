@@ -28,7 +28,6 @@ export const daytonaAssets = [
       allocationDifficulty: 5,
       versatility: 5,
     },
-    image: "/images/rolex/daytona/126500LN.png",
   },
 
   {
@@ -61,7 +60,6 @@ export const daytonaAssets = [
       allocationDifficulty: 5,
       versatility: 5,
     },
-    image: "/images/rolex/daytona/116500LN.png",
   },
 
   {
@@ -94,7 +92,6 @@ export const daytonaAssets = [
       allocationDifficulty: 5,
       versatility: 5,
     },
-    image: "/images/rolex/daytona/116520.png",
   },
 
   {
@@ -126,7 +123,6 @@ export const daytonaAssets = [
       allocationDifficulty: 5,
       versatility: 4,
     },
-    image: "/images/rolex/daytona/16520.png",
   },
 
   {
@@ -158,7 +154,6 @@ export const daytonaAssets = [
       allocationDifficulty: 4,
       versatility: 4,
     },
-    image: "/images/rolex/daytona/126508.png",
   },
 
   {
@@ -190,7 +185,6 @@ export const daytonaAssets = [
       allocationDifficulty: 4,
       versatility: 5,
     },
-    image: "/images/rolex/daytona/126515LN.png",
   },
 
   {
@@ -222,7 +216,6 @@ export const daytonaAssets = [
       allocationDifficulty: 4,
       versatility: 5,
     },
-    image: "/images/rolex/daytona/126519LN.png",
   },
 
   {
@@ -254,6 +247,5 @@ export const daytonaAssets = [
       allocationDifficulty: 5,
       versatility: 4,
     },
-    image: "/images/rolex/daytona/126506.png",
   },
 ];

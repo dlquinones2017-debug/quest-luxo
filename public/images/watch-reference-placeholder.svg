@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="960" viewBox="0 0 960 960" role="img" aria-labelledby="title description">
+  <title id="title">Quest Luxo reference image placeholder</title>
+  <desc id="description">A neutral line drawing of a watch used while approved reference photography is being curated.</desc>
+  <rect width="960" height="960" fill="#faf9f7"/>
+  <rect x="396" y="55" width="168" height="850" rx="76" fill="#f1ede5" stroke="#d8c9aa" stroke-width="5"/>
+  <circle cx="480" cy="480" r="238" fill="#fff" stroke="#173a5e" stroke-width="12"/>
+  <circle cx="480" cy="480" r="206" fill="none" stroke="#d4b06a" stroke-width="4"/>
+  <path d="M480 320v160l112 68" fill="none" stroke="#173a5e" stroke-linecap="round" stroke-width="14"/>
+  <circle cx="480" cy="480" r="17" fill="#d4b06a"/>
+  <g fill="#173a5e">
+    <rect x="474" y="289" width="12" height="33" rx="6"/>
+    <rect x="474" y="638" width="12" height="33" rx="6"/>
+    <rect x="638" y="474" width="33" height="12" rx="6"/>
+    <rect x="289" y="474" width="33" height="12" rx="6"/>
+  </g>
+  <text x="480" y="775" text-anchor="middle" fill="#173a5e" font-family="Georgia, serif" font-size="34">QUEST LUXO</text>
+  <text x="480" y="819" text-anchor="middle" fill="#6d7480" font-family="Arial, sans-serif" font-size="21" letter-spacing="3">REFERENCE IMAGERY CURATION</text>
+</svg>

@@ -40,4 +40,5 @@ export interface QuestLuxoAsset {
   brokerageIntelligence?: ReferenceBrokerageIntelligence;
   intelligence?: QuestLuxoIntelligence;
   image?: string;
+  imageVerified?: boolean;
 }

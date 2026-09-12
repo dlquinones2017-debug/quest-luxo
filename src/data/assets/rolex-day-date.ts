@@ -13,7 +13,6 @@ export const dayDateAssets = [
     allocationDifficulty: "High",
     questLuxoView:
       "The 228238 is one of the definitive modern Day-Date references, combining the President bracelet, precious metal construction, and strong collector recognition.",
-    image: "/images/rolex/day-date/228238.png",
   },
 
   {
@@ -30,7 +29,6 @@ export const dayDateAssets = [
     allocationDifficulty: "High",
     questLuxoView:
       "The 228239 offers the presence of a modern Day-Date in a more understated white-gold execution.",
-    image: "/images/rolex/day-date/228239.png",
   },
 
   {
@@ -47,7 +45,6 @@ export const dayDateAssets = [
     allocationDifficulty: "High",
     questLuxoView:
       "The 228235 gives the Day-Date a warmer precious-metal profile and remains highly relevant for clients seeking a statement Rolex with modern proportions.",
-    image: "/images/rolex/day-date/228235.png",
   },
 
   {
@@ -64,7 +61,6 @@ export const dayDateAssets = [
     allocationDifficulty: "Very High",
     questLuxoView:
       "The platinum Day-Date represents one of Rolex’s highest-status classic references, often pursued by clients seeking maximum discretion with exceptional material value.",
-    image: "/images/rolex/day-date/228206.png",
   },
 
   {
@@ -81,7 +77,6 @@ export const dayDateAssets = [
     allocationDifficulty: "Moderate to High",
     questLuxoView:
       "The 128238 preserves the classic 36mm Day-Date profile while offering modern Rolex movement and finishing.",
-    image: "/images/rolex/day-date/128238.png",
   },
 
   {
@@ -98,6 +93,5 @@ export const dayDateAssets = [
     allocationDifficulty: "Secondary Market Only",
     questLuxoView:
       "The 118238 remains a strong discontinued Day-Date option for clients seeking classic proportions and established President-watch appeal.",
-    image: "/images/rolex/day-date/118238.png",
   },
 ];

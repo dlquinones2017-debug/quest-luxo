@@ -1,0 +1,34 @@
+services:
+  - type: web
+    name: quest-luxo-production
+    runtime: node
+    plan: starter
+    region: ohio
+    branch: main
+    autoDeploy: true
+    buildCommand: npm ci && npm run build
+    startCommand: node scripts/start-production.mjs
+    healthCheckPath: /api/health
+    disk:
+      name: quest-luxo-leads
+      mountPath: /var/data/quest-luxo
+      sizeGB: 1
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: SITE_URL
+        sync: false
+      - key: LEAD_STORAGE_DIRECTORY
+        value: /var/data/quest-luxo
+      - key: EMAIL_PROVIDER_API_URL
+        value: https://api.resend.com/emails
+      - key: EMAIL_PROVIDER_API_KEY
+        sync: false
+      - key: LEAD_EMAIL_FROM
+        sync: false
+      - key: LEAD_EMAIL_TO
+        sync: false
+      - key: PUBLIC_CONTACT_EMAIL
+        value: contact@questluxo.com
+      - key: LEAD_ABUSE_HASH_SECRET
+        generateValue: true

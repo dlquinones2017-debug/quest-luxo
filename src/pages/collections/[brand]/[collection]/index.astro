@@ -1,0 +1,18 @@
+---
+import CollectionExperience from "../../../../components/CollectionExperience.astro";
+import { collectionRegistry } from "../../../../data/collectionRegistry";
+
+export function getStaticPaths() {
+  return collectionRegistry.map((collection) => ({
+    params: {
+      brand: collection.brandSlug,
+      collection: collection.slug,
+    },
+    props: { collection },
+  }));
+}
+
+const { collection } = Astro.props;
+---
+
+<CollectionExperience collection={collection} />
