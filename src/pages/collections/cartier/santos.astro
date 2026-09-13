@@ -13,6 +13,7 @@ import {
 } from "../../../data/brands/cartier";
 import type { FactoryBrand, FactoryCollection } from "../../../lib/factory/brandFactory";
 import { createCollectionMetadata } from "../../../lib/factory/collectionGenerator";
+import { watchPhotographs } from "../../../data/watch-photography";
 
 const santosFactoryCollection = getCartierCollectionFoundation("santos");
 
@@ -89,6 +90,14 @@ const referenceCards = cartierSantosReferenceFamilies.map((reference, index) => 
   metadata: cartierSantosReferenceMetadata[index],
 }));
 const standardIntelligence = cartierSantosBrokerageIntelligence;
+const collectionPhotograph = watchPhotographs.find(
+  (photograph) =>
+    photograph.brand === "Cartier" &&
+    photograph.collection === "Santos" &&
+    photograph.collectionOnly &&
+    photograph.websiteApproved &&
+    photograph.authenticPhotography
+);
 const standardIntelligenceItems = [
   { title: "Collection Overview", body: standardIntelligence.overview }, { title: "Market Position", body: standardIntelligence.marketPosition },
   { title: "Liquidity Guidance", label: standardIntelligence.liquidityBand, body: standardIntelligence.liquidityGuidance }, { title: "Buyer Profile", body: standardIntelligence.buyerProfile },
@@ -112,6 +121,14 @@ const standardIntelligenceItems = [
         foundation for design-led luxury, pilot-watch heritage, strong unisex
         demand, bracelet versatility, and private brokerage opportunity.
       </p>
+      {collectionPhotograph && <figure class="collection-photograph">
+        <img src={collectionPhotograph.src} alt={collectionPhotograph.alt} width="1200" height="1637" loading="eager" />
+        <figcaption>
+          Cartier Santos collection imagery — not an exact reference listing. {collectionPhotograph.attribution}
+          <a href={collectionPhotograph.sourceUrl} rel="license external">Source</a> ·
+          <a href={collectionPhotograph.licenseUrl} rel="license external">{collectionPhotograph.licenseLabel}</a>
+        </figcaption>
+      </figure>}
     </section>
 
     <BrokerageIntelligenceSection eyebrow="Santos Brokerage Intelligence" title="Collection-level brokerage guidance" intro="The existing Santos family foundation remains intact; this launch layer adds reference-specific buyer, seller, ownership, liquidity, and market guidance." items={standardIntelligenceItems} reviewedAt={standardIntelligence.reviewedAt} evidenceSources={standardIntelligence.evidenceSources} />
@@ -294,6 +311,30 @@ const standardIntelligenceItems = [
     color: rgba(255, 255, 255, 0.72);
     font-size: 18px;
     line-height: 1.7;
+  }
+
+  .collection-photograph {
+    max-width: 480px;
+    margin: 32px 0 0;
+  }
+
+  .collection-photograph img {
+    display: block;
+    width: 100%;
+    height: auto;
+    background: #ffffff;
+  }
+
+  .collection-photograph figcaption {
+    margin-top: 9px;
+    color: rgba(255, 255, 255, 0.62);
+    font-size: 11px;
+    line-height: 1.5;
+  }
+
+  .collection-photograph a {
+    color: #d4b06a;
+    margin-left: 4px;
   }
 
   .signals {

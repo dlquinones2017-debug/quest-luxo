@@ -1,0 +1,19 @@
+{
+  "brand": "Cartier",
+  "collection": "Santos",
+  "model": "Cartier Santos wristwatch",
+  "exactReference": null,
+  "author": "Pittigrilli",
+  "sourcePage": "https://commons.wikimedia.org/wiki/File:Cartier_Santos_wristwatch.jpg",
+  "license": "CC BY-SA 4.0",
+  "retrievedAt": "2026-09-13",
+  "originalFilename": "cartier-santos-wristwatch-original.jpg",
+  "originalDimensions": {
+    "width": 1557,
+    "height": 2124
+  },
+  "sha256": "0d0cb23cd8d6e1ec997366098e25a34992fd23445587b83343a012a2fb2cec60",
+  "sourceMetadata": "Wikimedia metadata identifies the subject as 'Cartier Santos wristwatch' in the Cartier shop in Prague. No exact Cartier model or reference is supplied.",
+  "targetSurface": "/collections/cartier/santos",
+  "modifications": "None. Original source preserved without processing."
+}
