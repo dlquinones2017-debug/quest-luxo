@@ -12,7 +12,7 @@ export function getRolexCollectionRoute(model: string): string {
 }
 
 export function getRolexReferenceRoute(model: string, reference: string): string {
-  return `${getRolexCollectionRoute(model)}/${reference}`;
+  return `${getRolexCollectionRoute(model)}/${reference.toLowerCase()}`;
 }
 
 export function getRolexReferencePath(model: string, reference: string): string {

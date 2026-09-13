@@ -6,12 +6,14 @@ import type { QuestLuxoAsset } from "../types/questLuxo";
 interface Props {
   assets: QuestLuxoAsset[];
   basePath?: string;
+  collection?: string;
   title?: string;
   limit?: number;
 }
 
 const {
   assets,
+  collection,
   title = "Top Ranked References",
   limit = 5,
 } = Astro.props as Props;
@@ -39,7 +41,10 @@ const rankedAssets = assets.slice(0, limit);
         : null;
 
       return (
-        <a href={getRolexReferencePath(asset.collection ?? "", asset.reference)} class="leaderboard-row">
+        <a
+          href={getRolexReferencePath(collection ?? asset.collection ?? asset.model ?? "", asset.reference)}
+          class="leaderboard-row"
+        >
           <div class="rank">#{index + 1}</div>
 
           <div class="asset">

@@ -53,7 +53,7 @@ const formatUSD = (value?: number | null) => {
     (photograph || showMissingImagePlaceholder) && (
       <div class="image-card">
         {photograph ? (
-          <figure><img src={photograph.src} alt={imageAlt} width="960" height="960" loading="lazy" />{photograph.attribution && <figcaption>{photograph.attribution}</figcaption>}</figure>
+          <figure><img src={photograph.src} alt={imageAlt} width="960" height="960" loading="lazy" />{photograph.attribution && <figcaption>{photograph.attribution} <a href={photograph.sourceUrl} rel="license external">Source</a> · <a href="https://creativecommons.org/licenses/by/2.0/" rel="license external">CC BY 2.0</a></figcaption>}</figure>
         ) : (
           <span>Image Pending</span>
         )}
