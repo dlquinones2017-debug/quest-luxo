@@ -1,0 +1,18 @@
+{
+  "brand": "Ulysse Nardin",
+  "collection": "Freak",
+  "model": "Freak Vision",
+  "author": "Ulysse Nardin",
+  "sourcePage": "https://commons.wikimedia.org/wiki/File:Freak_Vision.jpg",
+  "license": "CC BY-SA 4.0",
+  "retrievedAt": "2026-09-13",
+  "originalFilename": "ulysse-nardin-freak-vision-original.jpg",
+  "originalDimensions": {
+    "width": 6002,
+    "height": 8994
+  },
+  "sha256": "7aa166a23e55da7148ca770ffe73fbee96b1330ad88b380efdc41f52c879a668",
+  "sourceMetadata": "The supplied Wikimedia source page filename identifies Freak Vision; embedded image metadata contains no separate model field.",
+  "targetSurface": "/collections/ulysse-nardin/freak",
+  "modifications": "None. Original source preserved without processing."
+}

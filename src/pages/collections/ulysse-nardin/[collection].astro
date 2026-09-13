@@ -7,6 +7,7 @@ import { getUlysseNardinReferencesForCollection } from "../../../data/ulysse-nar
 import { ulysseNardinFactory } from "../../../lib/factory/ulysseNardinFactory";
 import { createCollectionMetadata } from "../../../lib/factory/collectionGenerator";
 import { buildReferencePath } from "../../../lib/factory/referenceGenerator";
+import { watchPhotographs } from "../../../data/watch-photography";
 
 export function getStaticPaths() {
   return ulysseNardinCollections.map((collection) => ({ params: { collection: collection.slug }, props: { collection } }));
@@ -18,6 +19,14 @@ if (!factoryCollection) throw new Error(`Ulysse Nardin collection registration m
 const metadata = createCollectionMetadata({ brand: ulysseNardinFactory, collection: factoryCollection });
 const intelligence = collection.intelligence;
 const references = getUlysseNardinReferencesForCollection(collection.slug);
+const collectionPhotograph = watchPhotographs.find(
+  (photograph) =>
+    photograph.brand === "Ulysse Nardin" &&
+    photograph.collection === collection.name &&
+    photograph.collectionOnly &&
+    photograph.websiteApproved &&
+    photograph.authenticPhotography
+);
 const intelligenceItems = [
   { title: "History", body: intelligence.historicalOverview },
   { title: "Innovations", body: intelligence.technicalHighlights },
@@ -46,6 +55,14 @@ const intelligenceItems = [
       <p class="eyebrow">Ulysse Nardin Brokerage Intelligence</p>
       <h1>Ulysse Nardin {collection.name}</h1>
       <p>{collection.description}</p>
+      {collectionPhotograph && <figure class="collection-photograph">
+        <img src={collectionPhotograph.src} alt={collectionPhotograph.alt} width="1600" height="2398" loading="eager" />
+        <figcaption>
+          Freak Vision collection imagery — not an exact reference listing. {collectionPhotograph.attribution}
+          <a href={collectionPhotograph.sourceUrl} rel="license external">Source</a> ·
+          <a href={collectionPhotograph.licenseUrl} rel="license external">{collectionPhotograph.licenseLabel}</a>
+        </figcaption>
+      </figure>}
     </section>
 
     <BrokerageIntelligenceSection
@@ -96,5 +113,5 @@ const intelligenceItems = [
 </BaseLayout>
 
 <style>
-  .collection-page{background:#07111f;color:#fff;min-height:100vh}.hero,.models{max-width:1180px;margin:0 auto;padding-left:24px;padding-right:24px}.hero{padding-top:80px;padding-bottom:56px}.back-link{display:inline-block;color:#d4b06a;text-decoration:none;font-weight:800;margin-bottom:30px}.eyebrow{color:#d4b06a;font-size:13px;font-weight:800;letter-spacing:.18em;text-transform:uppercase;margin:0 0 14px}h1{font-size:clamp(48px,8vw,96px);line-height:.95;margin:0 0 24px}h2{font-size:clamp(34px,5vw,56px);line-height:1;margin:0 0 28px}.hero>p:not(.eyebrow),.model-card p,.route-note{max-width:780px;color:rgba(255,255,255,.72);font-size:18px;line-height:1.7}.models{padding-top:64px;padding-bottom:88px}.model-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}.model-card{display:flex;flex-direction:column;min-height:220px;padding:24px;border:1px solid rgba(255,255,255,.12);background:rgba(255,255,255,.045);color:#fff;text-decoration:none}.model-card:hover{border-color:#d4b06a}.model-card span,.model-card strong{color:#d4b06a;font-size:12px;font-weight:900;letter-spacing:.1em;text-transform:uppercase}.model-card h3{font-size:28px;margin:24px 0 8px}.model-card strong{margin-top:auto}.route-note{font-size:13px;margin-top:24px}@media(max-width:700px){.model-grid{grid-template-columns:1fr}.hero{padding-top:64px}}
+  .collection-page{background:#07111f;color:#fff;min-height:100vh}.hero,.models{max-width:1180px;margin:0 auto;padding-left:24px;padding-right:24px}.hero{padding-top:80px;padding-bottom:56px}.back-link{display:inline-block;color:#d4b06a;text-decoration:none;font-weight:800;margin-bottom:30px}.eyebrow{color:#d4b06a;font-size:13px;font-weight:800;letter-spacing:.18em;text-transform:uppercase;margin:0 0 14px}h1{font-size:clamp(48px,8vw,96px);line-height:.95;margin:0 0 24px}h2{font-size:clamp(34px,5vw,56px);line-height:1;margin:0 0 28px}.hero>p:not(.eyebrow),.model-card p,.route-note{max-width:780px;color:rgba(255,255,255,.72);font-size:18px;line-height:1.7}.collection-photograph{max-width:520px;margin:32px 0 0}.collection-photograph img{display:block;width:100%;height:auto;background:#000}.collection-photograph figcaption{margin-top:9px;color:rgba(255,255,255,.62);font-size:11px;line-height:1.5}.collection-photograph a{color:#d4b06a;margin-left:4px}.models{padding-top:64px;padding-bottom:88px}.model-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}.model-card{display:flex;flex-direction:column;min-height:220px;padding:24px;border:1px solid rgba(255,255,255,.12);background:rgba(255,255,255,.045);color:#fff;text-decoration:none}.model-card:hover{border-color:#d4b06a}.model-card span,.model-card strong{color:#d4b06a;font-size:12px;font-weight:900;letter-spacing:.1em;text-transform:uppercase}.model-card h3{font-size:28px;margin:24px 0 8px}.model-card strong{margin-top:auto}.route-note{font-size:13px;margin-top:24px}@media(max-width:700px){.model-grid{grid-template-columns:1fr}.hero{padding-top:64px}}
 </style>

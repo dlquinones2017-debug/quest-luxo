@@ -7,7 +7,7 @@ export interface WatchPhotograph {
   configuration: { dial: string; bracelet: string; material: string; caseSize?: string };
   src: string;
   alt: string;
-  background: "white" | "mirrored-acrylic";
+  background: "white" | "mirrored-acrylic" | "black-studio";
   authenticPhotography: boolean;
   exactConfigurationVerified: boolean;
   sourceUrl: string;
@@ -24,6 +24,7 @@ export interface WatchPhotograph {
   sha256: string;
   attribution: string;
   hero: boolean;
+  collectionOnly?: boolean;
 }
 const known=(s: unknown): s is string => typeof s === "string" && !!s.trim() && !/unknown|tbd|pending|requires verification/i.test(s);
 export function approvedPhotograph(asset: QuestLuxoAsset, photos: readonly WatchPhotograph[], now=new Date()): WatchPhotograph | undefined {
@@ -34,7 +35,7 @@ export function approvedPhotograph(asset: QuestLuxoAsset, photos: readonly Watch
       (p.commercialUse==="allowed" || p.commercialUse==="allowed-with-conditions") && p.usageConditionsSatisfied===true &&
       [p.assetId,p.sourceUrl,p.photographer,p.licenseRecord,p.reviewer,p.alt,p.configuration.dial,p.configuration.bracelet,p.configuration.material].every(known) &&
       p.sourceUrl.startsWith("https://") && /^\/images\/watches\/[a-zA-Z0-9/_-]+\.(webp|png|jpe?g)$/.test(p.src) &&
-      /^[a-f0-9]{64}$/i.test(p.sha256) && ["white","mirrored-acrylic"].includes(p.background) && datesValid &&
+      /^[a-f0-9]{64}$/i.test(p.sha256) && ["white","mirrored-acrylic","black-studio"].includes(p.background) && datesValid &&
       asset.material===p.configuration.material && asset.configurations?.some(c=>c.dial===p.configuration.dial && c.bracelet===p.configuration.bracelet && (!p.configuration.caseSize || c.caseSize===p.configuration.caseSize));
   });
 }
