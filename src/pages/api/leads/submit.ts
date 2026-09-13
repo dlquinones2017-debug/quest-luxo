@@ -3,8 +3,8 @@ import {
   createLeadCapturePayload,
   hasRequiredLeadContactFields,
   type LeadCapturePayloadInput,
-} from "../../../lib/leads/leadCapture";
-import { processLeadSubmission } from "../../../lib/leads/leadSubmission";
+} from "../../../lib/leads/leadCapture.ts";
+import { processLeadSubmission } from "../../../lib/leads/leadSubmission.ts";
 
 export const prerender = false;
 

@@ -8,6 +8,7 @@ interface Props {
   brand?: string;
   collection?: string;
   reference?: string;
+  href?: string;
 }
 
 const {
@@ -17,9 +18,10 @@ const {
   brand,
   collection,
   reference,
+  href,
 } = Astro.props as Props;
 
-const privateSourcingHref = buildBeginYourQuestUrl({
+const privateSourcingHref = href ?? buildBeginYourQuestUrl({
   intent: "request",
   brand,
   collection,

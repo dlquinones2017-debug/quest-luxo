@@ -43,7 +43,7 @@ const imageAlt = `${asset.reference} ${asset.model}`;
 
   <section class="profile">
     <div class="image-card">
-      <img src={asset.image} alt={imageAlt} />
+      <img src={(asset as { image?: string }).image ?? "/images/watch-reference-placeholder.svg"} alt={imageAlt} />
     </div>
 
     <div class="details">

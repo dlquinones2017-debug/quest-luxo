@@ -1,22 +1,22 @@
 ---
 interface Props {
-  collectorDemand: number;
-  liquidity: number;
-  wearability: number;
-  collectability: number;
-  allocationDifficulty: number;
-  versatility: number;
+  collectorDemand?: number;
+  liquidity?: number;
+  wearability?: number;
+  collectability?: number;
+  allocationDifficulty?: number;
+  versatility?: number;
 
   summary: string;
 }
 
 const {
-  collectorDemand,
-  liquidity,
-  wearability,
-  collectability,
-  allocationDifficulty,
-  versatility,
+  collectorDemand = 0,
+  liquidity = 0,
+  wearability = 0,
+  collectability = 0,
+  allocationDifficulty = 0,
+  versatility = 0,
   summary,
 } = Astro.props;
 

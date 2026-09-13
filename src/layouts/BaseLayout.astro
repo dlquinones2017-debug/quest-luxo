@@ -1,5 +1,6 @@
 ---
 import Navbar from "../components/Navbar.astro";
+import Footer from "../components/Footer.astro";
 
 interface Props {
   title?: string;
@@ -59,6 +60,7 @@ const pageStructuredData = structuredData
     <a class="skip-link" href="#main-content">Skip to main content</a>
     <Navbar />
     <slot />
+    <Footer />
   </body>
 </html>
 

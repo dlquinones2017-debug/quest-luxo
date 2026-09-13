@@ -6,7 +6,7 @@ import {
 import {
   isLeadStatus,
   updateLeadSubmissionStatus,
-} from "../../../../lib/leads/leadStorage";
+} from "../../../../lib/leads/leadStorage.ts";
 
 export const prerender = false;
 

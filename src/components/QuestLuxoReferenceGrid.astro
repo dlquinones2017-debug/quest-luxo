@@ -9,10 +9,10 @@ import type { QuestLuxoAsset } from "../types/questLuxo";
 interface Props {
   assets: QuestLuxoAsset[];
   basePath: string;
-  collectionName: string;
+  collectionName?: string;
 }
 
-const { assets, basePath, collectionName } = Astro.props as Props;
+const { assets, basePath, collectionName = "collection" } = Astro.props as Props;
 const pathSegments = basePath.split("/");
 const brandSlug = pathSegments[2] ?? "";
 const collectionSlug = pathSegments[3] ?? "";

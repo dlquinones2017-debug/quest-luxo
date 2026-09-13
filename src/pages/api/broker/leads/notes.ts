@@ -3,7 +3,7 @@ import {
   createBrokerAuthJsonResponse,
   validateBrokerConsoleAccess,
 } from "../../../../lib/broker/brokerAuth";
-import { updateLeadSubmissionNotes } from "../../../../lib/leads/leadStorage";
+import { updateLeadSubmissionNotes } from "../../../../lib/leads/leadStorage.ts";
 
 export const prerender = false;
 

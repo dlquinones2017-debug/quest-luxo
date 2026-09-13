@@ -49,27 +49,27 @@ export function buildCollectionSignals(
   return [
     {
       label: "Collector Demand",
-      score: average(metrics.map(m => m.collectorDemand)),
+      score: average(metrics.map(m => m.collectorDemand ?? 0)),
     },
     {
       label: "Liquidity",
-      score: average(metrics.map(m => m.liquidity)),
+      score: average(metrics.map(m => m.liquidity ?? 0)),
     },
     {
       label: "Wearability",
-      score: average(metrics.map(m => m.wearability)),
+      score: average(metrics.map(m => m.wearability ?? 0)),
     },
     {
       label: "Collectability",
-      score: average(metrics.map(m => m.collectability)),
+      score: average(metrics.map(m => m.collectability ?? 0)),
     },
     {
       label: "Allocation Difficulty",
-      score: average(metrics.map(m => m.allocationDifficulty)),
+      score: average(metrics.map(m => m.allocationDifficulty ?? 0)),
     },
     {
       label: "Versatility",
-      score: average(metrics.map(m => m.versatility)),
+      score: average(metrics.map(m => m.versatility ?? 0)),
     },
   ];
 }

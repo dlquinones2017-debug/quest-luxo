@@ -1,11 +1,11 @@
 ---
 import {
   buildQuestLuxoIntelligence,
-  type IntelligenceMetrics,
 } from "../lib/intelligence/questLuxoIntelligence";
+import type { QuestLuxoIntelligence } from "../types/questLuxo";
 
 interface Props {
-  intelligence: IntelligenceMetrics;
+  intelligence: QuestLuxoIntelligence;
 }
 
 const { intelligence } = Astro.props;

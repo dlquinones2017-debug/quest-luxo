@@ -7,7 +7,7 @@ import type { BrokerageEconomicsInput } from "../../../../lib/brokerage/brokerag
 import {
   BrokerageEconomicsSnapshotValidationError,
 } from "../../../../lib/brokerage/brokerageEconomicsSnapshot";
-import { addLeadSubmissionEconomicsSnapshot } from "../../../../lib/leads/leadStorage";
+import { addLeadSubmissionEconomicsSnapshot } from "../../../../lib/leads/leadStorage.ts";
 
 export const prerender = false;
 

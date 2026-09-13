@@ -56,7 +56,7 @@ const intelligenceRows = [
 
     <section class="asset-grid">
       <div class="image-card">
-        <img src={asset.image} alt={`Rolex GMT-Master II ${asset.reference}`} />
+        <img src={(asset as { image?: string }).image ?? "/images/watch-reference-placeholder.svg"} alt={`Rolex GMT-Master II ${asset.reference}`} />
       </div>
 
       <div class="details-card">
