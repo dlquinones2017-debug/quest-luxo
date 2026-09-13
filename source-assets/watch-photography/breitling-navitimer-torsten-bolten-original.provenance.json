@@ -1,0 +1,19 @@
+{
+  "brand": "Breitling",
+  "collection": "Navitimer",
+  "model": "Breitling Navitimer",
+  "exactReference": null,
+  "author": "Torsten Bolten",
+  "sourcePage": "https://commons.wikimedia.org/wiki/File:Breitling-Navitimer.jpg",
+  "license": "CC BY-SA 3.0",
+  "retrievedAt": "2026-09-13",
+  "originalFilename": "breitling-navitimer-torsten-bolten-original.jpg",
+  "originalDimensions": {
+    "width": 2400,
+    "height": 1600
+  },
+  "sha256": "7c3d66b27151419c1dc3a75e3940f561a22f4bed3ef066f22deaa2724439051f",
+  "sourceMetadata": "Wikimedia ObjectName and ImageDescription identify 'Breitling-Navitimer' / 'Breitling Navitimer'. No exact reference is supplied.",
+  "targetSurface": "/collections/breitling/navitimer",
+  "modifications": "None. Original source preserved without processing."
+}
