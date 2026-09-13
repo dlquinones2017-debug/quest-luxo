@@ -13,6 +13,8 @@ import {
 } from "../../../lib/factory/patekPhilippeFactory";
 import { createCollectionMetadata } from "../../../lib/factory/collectionGenerator";
 import { listReferenceMetadataFromAssets } from "../../../lib/factory/referenceGenerator";
+import { watchPhotographs } from "../../../data/watch-photography";
+import { approvedPhotograph } from "../../../lib/media/watchPhotography";
 
 const nautilusCollection = getPatekPhilippeCollectionFactory("nautilus");
 
@@ -38,6 +40,7 @@ const referenceCards = patekPhilippeNautilusLaunchAssets.map((asset) => ({
   metadata: referenceMetadata.find((entry) => entry.reference === asset.reference),
   configuration: asset.configurations?.[0],
   priority: isPatekPhilippePriorityReference(asset),
+  photograph: approvedPhotograph(asset, watchPhotographs),
 }));
 const currentCount = patekPhilippeNautilusLaunchAssets.filter((asset) =>
   asset.productionStatus?.includes("Current")
@@ -95,10 +98,11 @@ const intelligenceItems = [
 
       <div class="reference-grid">
         {
-          referenceCards.map(({ asset, configuration, metadata, priority }) => {
+          referenceCards.map(({ asset, configuration, metadata, priority, photograph }) => {
             const content = (
               <>
                 <div class="card-top"><span>{asset.reference}</span><strong>{priority ? "Priority" : "Covered"}</strong></div>
+                {photograph && <figure class="watch-photograph"><img src={photograph.src} alt={photograph.alt} width="1200" height="1501" loading="lazy" /><figcaption>{photograph.attribution} <a href={photograph.sourceUrl} rel="license external">Source</a> · <a href={photograph.licenseUrl} rel="license external">{photograph.licenseLabel}</a></figcaption></figure>}
                 <h3>{asset.model}</h3>
                 <p class="configuration">{configuration?.nickname ?? "Nautilus"} · {configuration?.dial ?? "Configuration-specific"}</p>
                 <dl class="specs">
@@ -149,6 +153,7 @@ const intelligenceItems = [
   .reference-card { display:flex; flex-direction:column; min-height:500px; padding:22px; color:#fff; text-decoration:none; }
   .active-card:hover { border-color:#d4b06a; }
   .card-top { display:flex; justify-content:space-between; gap:14px; margin-bottom:20px; color:#d4b06a; font-size:12px; font-weight:900; letter-spacing:.12em; text-transform:uppercase; }
+  .watch-photograph { margin:0 0 18px; }.watch-photograph img { display:block; width:100%; height:auto; background:#fff; }.watch-photograph figcaption { margin-top:8px; color:rgba(255,255,255,.62); font-size:11px; line-height:1.5; }.watch-photograph a { color:#d4b06a; }
   .reference-card h3 { font-size:26px; line-height:1.08; margin:0 0 12px; }
   .configuration,.view,dd { color:rgba(255,255,255,.7); line-height:1.6; }
   .specs { display:grid; gap:14px; margin:16px 0 22px; }
