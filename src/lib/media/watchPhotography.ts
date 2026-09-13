@@ -7,7 +7,7 @@ export interface WatchPhotograph {
   configuration: { dial: string; bracelet: string; material: string; caseSize?: string };
   src: string;
   alt: string;
-  background: "white" | "mirrored-acrylic" | "black-studio";
+  background: "white" | "mirrored-acrylic" | "black-studio" | "source-context";
   authenticPhotography: boolean;
   exactConfigurationVerified: boolean;
   sourceUrl: string;

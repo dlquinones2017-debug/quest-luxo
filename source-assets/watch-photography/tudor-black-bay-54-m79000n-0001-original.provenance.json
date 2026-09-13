@@ -1,0 +1,19 @@
+{
+  "brand": "Tudor",
+  "collection": "Black Bay",
+  "model": "Black Bay 54",
+  "exactReference": "M79000N-0001",
+  "author": "EMore98",
+  "sourcePage": "https://commons.wikimedia.org/wiki/File:Tudor_Black_Bay_54_ref._m79000n-0001.jpg",
+  "license": "CC BY-SA 4.0",
+  "retrievedAt": "2026-09-13",
+  "originalFilename": "tudor-black-bay-54-m79000n-0001-original.jpg",
+  "originalDimensions": {
+    "width": 823,
+    "height": 932
+  },
+  "sha256": "0e909b7cd9079cc824d4b41fc0a7836b0b63ed69d31847e95ecf8ede39024761",
+  "sourceMetadata": "Wikimedia ObjectName and ImageDescription both identify 'Tudor Black Bay 54 ref. m79000n-0001'.",
+  "targetSurface": "/collections/tudor/black-bay",
+  "modifications": "None. Original source preserved without processing."
+}
