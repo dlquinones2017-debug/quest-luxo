@@ -31,6 +31,8 @@ const topNickname = primaryConfig?.nickname ?? asset.reference;
 const collectorDemand = asset.intelligence?.collectorDemand ?? 0;
 const isPeakDemand = showIntelligenceProfile && collectorDemand >= 5;
 const photograph = approvedPhotograph(asset, watchPhotographs);
+const licenseUrl = photograph?.licenseUrl ?? "https://creativecommons.org/licenses/by/2.0/";
+const licenseLabel = photograph?.licenseLabel ?? "CC BY 2.0";
 const imageAlt = photograph?.alt ?? `${asset.reference} ${asset.model}`;
 
 const intelligenceProfile = showIntelligenceProfile && asset.intelligence
@@ -53,7 +55,7 @@ const formatUSD = (value?: number | null) => {
     (photograph || showMissingImagePlaceholder) && (
       <div class="image-card">
         {photograph ? (
-          <figure><img src={photograph.src} alt={imageAlt} width="960" height="960" loading="lazy" />{photograph.attribution && <figcaption>{photograph.attribution} <a href={photograph.sourceUrl} rel="license external">Source</a> · <a href="https://creativecommons.org/licenses/by/2.0/" rel="license external">CC BY 2.0</a></figcaption>}</figure>
+          <figure><img src={photograph.src} alt={imageAlt} width="960" height="960" loading="lazy" />{photograph.attribution && <figcaption>{photograph.attribution} <a href={photograph.sourceUrl} rel="license external">Source</a> · <a href={licenseUrl} rel="license external">{licenseLabel}</a></figcaption>}</figure>
         ) : (
           <span>Image Pending</span>
         )}

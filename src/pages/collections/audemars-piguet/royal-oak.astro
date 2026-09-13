@@ -13,6 +13,8 @@ import {
 } from "../../../lib/factory/audemarsPiguetFactory";
 import { createCollectionMetadata } from "../../../lib/factory/collectionGenerator";
 import { listReferenceMetadataFromAssets } from "../../../lib/factory/referenceGenerator";
+import { watchPhotographs } from "../../../data/watch-photography";
+import { approvedPhotograph } from "../../../lib/media/watchPhotography";
 
 const royalOakCollection = getAudemarsPiguetCollectionFactory("royal-oak");
 
@@ -45,6 +47,7 @@ const referenceCards = audemarsPiguetRoyalOakLaunchAssets.map((asset) => {
     metadata,
     configuration: asset.configurations?.[0],
     isPriority: isAudemarsPiguetPriorityReference(asset),
+    photograph: approvedPhotograph(asset, watchPhotographs),
   };
 });
 
@@ -172,7 +175,7 @@ const collectionIntelligenceItems = [
 
       <div class="reference-grid">
         {
-          referenceCards.map(({ asset, configuration, metadata, isPriority }) => (
+          referenceCards.map(({ asset, configuration, metadata, isPriority, photograph }) => (
             <article
               class:list={["reference-card", { "reference-card--priority": isPriority }]}
               aria-label={`${asset.reference} coverage`}
@@ -181,6 +184,15 @@ const collectionIntelligenceItems = [
                 <span>{asset.reference}</span>
                 <strong>{isPriority ? "Priority" : "Coverage"}</strong>
               </div>
+
+              {photograph && (
+                <figure class="watch-photograph">
+                  <img src={photograph.src} alt={photograph.alt} width="1200" height="1667" loading="lazy" />
+                  <figcaption>
+                    {photograph.attribution} <a href={photograph.sourceUrl} rel="license external">Source</a> · <a href={photograph.licenseUrl} rel="license external">{photograph.licenseLabel}</a>
+                  </figcaption>
+                </figure>
+              )}
 
               <h3>{asset.model}</h3>
               <p class="configuration">
@@ -365,6 +377,11 @@ const collectionIntelligenceItems = [
     gap: 14px;
     margin-bottom: 20px;
   }
+
+  .watch-photograph { margin: 0 0 18px; }
+  .watch-photograph img { display: block; width: 100%; height: auto; background: #ffffff; }
+  .watch-photograph figcaption { margin-top: 8px; color: rgba(255, 255, 255, 0.62); font-size: 11px; line-height: 1.5; }
+  .watch-photograph a { color: #d4b06a; }
 
   .card-top span {
     color: #d4b06a;

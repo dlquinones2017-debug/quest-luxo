@@ -13,6 +13,8 @@ export interface WatchPhotograph {
   sourceUrl: string;
   photographer: string;
   licenseRecord: string;
+  licenseUrl?: string;
+  licenseLabel?: string;
   websiteApproved: boolean;
   commercialUse: "allowed" | "allowed-with-conditions" | "unknown" | "not-allowed";
   usageConditionsSatisfied: boolean;
