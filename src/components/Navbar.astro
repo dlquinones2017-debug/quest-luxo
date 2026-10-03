@@ -22,7 +22,7 @@ const brokerContactHref = buildBeginYourQuestUrl({ intent: "broker" });
 
 <header class="navbar">
   <a href="/" class="brand-logo">
-  <img src="/images/quest-luxo-logo.png" alt="Quest Luxo" class="logo" />
+  <img src="/images/quest-luxo-logo.webp" alt="Quest Luxo" class="logo" width="160" height="160" fetchpriority="high" decoding="async" />
 </a>
 
   <nav>
@@ -74,6 +74,9 @@ const brokerContactHref = buildBeginYourQuestUrl({ intent: "broker" });
 
   nav a {
     position: relative;
+    min-height: 44px;
+    display: inline-flex;
+    align-items: center;
     color: #173a5e;
     text-decoration: none;
     font-size: 12px;
