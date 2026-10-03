@@ -5,6 +5,16 @@ import { gmtMasterIIAssets } from "./assets/rolex-gmt-master-ii";
 import { skyDwellerAssets } from "./assets/rolex-sky-dweller";
 import { submarinerAssets } from "./assets/rolex-submariner";
 import { yachtMasterAssets } from "./assets/rolex-yacht-master";
+import { omegaSpeedmasterAssets } from "./omega";
+import { breitlingNavitimerAssets } from "./breitling";
+import { audemarsPiguetRoyalOakAssets } from "./audemars-piguet";
+import { patekPhilippeNautilusAssets } from "./patek-philippe";
+import { cartierSantosLaunchAssets } from "./cartier-intelligence";
+import { tudorBlackBayAssets } from "./tudor";
+import { getExpansionReferences } from "./reference-expansion";
+import { getUlysseNardinReferencesForCollection } from "./ulysse-nardin-references";
+import { watchPhotographs } from "./watch-photography";
+import { approvedPhotograph } from "../lib/media/watchPhotography";
 import type { QuestLuxoAsset } from "../types/questLuxo";
 
 export interface CollectionDefinition {
@@ -25,13 +35,17 @@ const defineCollection = (
   definition: CollectionDefinition
 ): CollectionDefinition => ({
   ...definition,
-  assets: definition.assets.map((asset) => ({
-    ...asset,
-    image:
-      asset.image && asset.imageVerified
-        ? asset.image
-        : "/images/watch-reference-placeholder.svg",
-  })),
+  assets: definition.assets.map((asset) => {
+    const approved = approvedPhotograph(asset, watchPhotographs);
+    const verifiedImage =
+      approved?.src ?? (asset.image && asset.imageVerified ? asset.image : undefined);
+
+    return {
+      ...asset,
+      image: verifiedImage ?? "/images/watch-reference-placeholder.svg",
+      imageVerified: Boolean(verifiedImage),
+    };
+  }),
 });
 
 const rolexCollections = [
@@ -445,6 +459,31 @@ const houseCollectionSeeds: HouseCollectionSeed[] = [
   },
 ];
 
+const getCuratedAssetsForSeed = (seed: HouseCollectionSeed): QuestLuxoAsset[] => {
+  const key = `${seed.brandSlug}/${seed.slug}`;
+
+  switch (key) {
+    case "omega/speedmaster":
+      return omegaSpeedmasterAssets;
+    case "breitling/navitimer":
+      return breitlingNavitimerAssets;
+    case "audemars-piguet/royal-oak":
+      return audemarsPiguetRoyalOakAssets;
+    case "patek-philippe/nautilus":
+      return patekPhilippeNautilusAssets;
+    case "cartier/santos-de-cartier":
+      return cartierSantosLaunchAssets;
+    case "tudor/black-bay":
+      return tudorBlackBayAssets;
+    case "ulysse-nardin/freak":
+      return getUlysseNardinReferencesForCollection("freak");
+    default: {
+      const expanded = getExpansionReferences(seed.brandSlug, seed.slug);
+      return expanded.length ? expanded : [];
+    }
+  }
+};
+
 const buildHouseCollection = (
   seed: HouseCollectionSeed
 ): CollectionDefinition => {
@@ -472,6 +511,8 @@ const buildHouseCollection = (
     image: "/images/watch-reference-placeholder.svg",
   };
 
+  const curatedAssets = getCuratedAssetsForSeed(seed);
+
   return defineCollection({
     brand: seed.brand,
     brandSlug: seed.brandSlug,
@@ -490,7 +531,7 @@ const buildHouseCollection = (
       `Search, filter, and sort ${seed.name} reference profiles using the shared Quest Luxo directory.`,
     sourcingText:
       `Quest Luxo coordinates discreet sourcing for clients seeking ${seed.brand} ${seed.name} references.`,
-    assets: [asset],
+    assets: curatedAssets.length ? curatedAssets : [asset],
   });
 };
 
