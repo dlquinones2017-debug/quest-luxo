@@ -14,6 +14,7 @@ import { tudorBlackBayAssets } from "./tudor";
 import { getExpansionReferences, referenceExpansionAssets } from "./reference-expansion";
 import { getUlysseNardinReferencesForCollection } from "./ulysse-nardin-references";
 import { ulysseNardinCollections } from "./ulysse-nardin";
+import { bellRossCollections } from "./bell-and-ross";
 import { watchPhotographs } from "./watch-photography";
 import { approvedPhotograph } from "../lib/media/watchPhotography";
 import type { QuestLuxoAsset } from "../types/questLuxo";
@@ -478,6 +479,8 @@ const getCuratedAssetsForSeed = (seed: HouseCollectionSeed): QuestLuxoAsset[] =>
       return tudorBlackBayAssets;
     case "ulysse-nardin/freak":
       return getUlysseNardinReferencesForCollection("freak");
+    case "bell-and-ross/br-03":
+      return bellRossCollections.find((collection) => collection.slug === "br-03")?.assets ?? [];
     default: {
       const expanded = getExpansionReferences(seed.brandSlug, seed.slug);
       return expanded.length ? expanded : [];
@@ -577,6 +580,33 @@ const expansionCollections = Array.from(
   });
 });
 
+const bellRossExpandedCollections = bellRossCollections
+  .filter((collection) => {
+    const key = `bell-and-ross/${collection.slug}`;
+    return !representedCollectionKeys.has(key);
+  })
+  .map((collection) =>
+    defineCollection({
+      brand: "Bell & Ross",
+      brandSlug: "bell-and-ross",
+      name: collection.name,
+      slug: collection.slug,
+      description: collection.description,
+      intelligenceTitle: `${collection.name} Collection Position`,
+      intelligenceParagraphs: [
+        collection.ownership,
+        collection.configurations,
+      ],
+      signalsDescription:
+        "Signals reflect reviewed reference intelligence where available.",
+      directoryDescription:
+        `Search, filter, and sort Bell & Ross ${collection.name} reference profiles.`,
+      sourcingText:
+        `Quest Luxo coordinates discreet sourcing for Bell & Ross ${collection.name} references.`,
+      assets: collection.assets,
+    })
+  );
+
 const ulysseNardinExpandedCollections = ulysseNardinCollections
   .filter((collection) => {
     const key = `ulysse-nardin/${collection.slug}`;
@@ -610,6 +640,7 @@ export const collectionRegistry = [
   ...seedCollections,
   ...expansionCollections,
   ...ulysseNardinExpandedCollections,
+  ...bellRossExpandedCollections,
 ] satisfies CollectionDefinition[];
 
 export const getCollection = (brandSlug: string, collectionSlug: string) =>
