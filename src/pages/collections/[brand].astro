@@ -1,151 +1,88 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
+import PrivateSourcingCTA from "../../components/PrivateSourcingCTA.astro";
 import { brands } from "../../data/brands";
-import { isFactoryLive } from "../../lib/factory";
+import { getCollectionsForBrand } from "../../data/collectionRegistry";
+import { collectionPath } from "../../lib/routes/collectionRoutes";
 
 export function getStaticPaths() {
   return brands
-    .filter((brand) => !isFactoryLive(brand.slug) && brand.slug !== "bell-and-ross")
-    .map((brand) => ({
-      params: {
-        brand: brand.slug,
-      },
-      props: {
-        brand,
-      },
+    .map((brand) => ({ brand, collections: getCollectionsForBrand(brand.slug) }))
+    .filter(({ collections }) => collections.length > 0)
+    .map(({ brand, collections }) => ({
+      params: { brand: brand.slug },
+      props: { brand, collections },
     }));
 }
 
-const { brand } = Astro.props;
+const { brand, collections } = Astro.props;
 ---
 
-<BaseLayout title={`${brand.name} | Quest Luxo`}>
-  <main class="brand-page">
+<BaseLayout
+  title={`${brand.name} Watch Collections | Quest Luxo`}
+  description={`Explore Quest Luxo reference intelligence and private sourcing coverage for ${brand.name}.`}
+  canonicalPath={`/collections/${brand.slug}`}
+>
+  <main class="brand-page" id="main-content">
     <section class="hero">
-      <p class="eyebrow">Factory Coming Soon</p>
+      <p class="eyebrow">QUEST LUXO WATCH HOUSE</p>
       <h1>{brand.name}</h1>
-      <p>
-        The Quest Luxo Intelligence Factory for {brand.name} is currently being
-        assembled. We can still source authentic {brand.name} watches through
-        our private dealer network.
-      </p>
-
-      <div class="actions">
-        <a href="/begin-your-quest" class="primary">Begin Your Quest</a>
-        <a href="/collections" class="secondary">Explore All Collections</a>
-      </div>
-    </section>
-
-    <section class="panel">
-      <p class="eyebrow">Private Sourcing</p>
-      <h2>{brand.tagline}</h2>
       <p>{brand.description}</p>
-
       <div class="meta">
         <span>Founded {brand.founded}</span>
-        <span>{brand.models} Planned Models</span>
-        <span>Launch Phase {brand.launchPhase}</span>
+        <span>{collections.length} {collections.length === 1 ? "Collection" : "Collections"}</span>
+        <span>Private Sourcing Available</span>
       </div>
     </section>
+
+    <section class="collections" aria-labelledby="brand-collections-title">
+      <div class="section-header">
+        <p class="eyebrow">REFERENCE INTELLIGENCE</p>
+        <h2 id="brand-collections-title">{brand.name} Collections</h2>
+        <p>
+          Each collection uses the shared Quest Luxo architecture for reference profiles,
+          configuration intelligence, verified photography, and private sourcing.
+        </p>
+      </div>
+
+      <div class="grid">
+        {collections.map((collection) => (
+          <a class="card" href={collectionPath(collection.brandSlug, collection.slug)}>
+            <span>{collection.assets.length} {collection.assets.length === 1 ? "reference" : "references"}</span>
+            <h3>{collection.name}</h3>
+            <p>{collection.description}</p>
+            <strong>Explore Collection →</strong>
+          </a>
+        ))}
+      </div>
+    </section>
+
+    <PrivateSourcingCTA
+      title={`Request Private ${brand.name} Sourcing`}
+      text={`Tell Quest Luxo the exact ${brand.name} reference or configuration you want. We will qualify the mandate before sourcing.`}
+      button="Begin Your Quest"
+      href={`/contact?brand=${encodeURIComponent(brand.name)}`}
+    />
   </main>
 </BaseLayout>
 
 <style>
-  .brand-page {
-    background: #07111f;
-    color: #ffffff;
-    min-height: 100vh;
-  }
-
-  .hero {
-    max-width: 1100px;
-    margin: 0 auto;
-    padding: 120px 24px 70px;
-  }
-
-  .eyebrow {
-    color: #f0d7a0;
-    font-size: 13px;
-    font-weight: 800;
-    letter-spacing: 0.18em;
-    text-transform: uppercase;
-    margin: 0 0 18px;
-  }
-
-  h1 {
-    font-size: clamp(54px, 9vw, 112px);
-    line-height: 0.92;
-    margin: 0 0 28px;
-  }
-
-  h2 {
-    color: #173a5e;
-    font-size: clamp(34px, 5vw, 56px);
-    line-height: 1;
-    margin: 0 0 20px;
-  }
-
-  .hero p {
-    max-width: 780px;
-    color: rgba(255, 255, 255, 0.74);
-    font-size: 20px;
-    line-height: 1.7;
-  }
-
-  .actions {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 14px;
-    margin-top: 34px;
-  }
-
-  .primary,
-  .secondary {
-    padding: 15px 22px;
-    text-decoration: none;
-    font-weight: 800;
-  }
-
-  .primary {
-    background: #d4b06a;
-    color: #07111f;
-  }
-
-  .secondary {
-    border: 1px solid rgba(255, 255, 255, 0.18);
-    color: #ffffff;
-  }
-
-  .panel {
-    max-width: 1100px;
-    margin: 0 auto;
-    background: #faf9f7;
-    color: #173a5e;
-    padding: 42px;
-    border: 1px solid #e8e3d8;
-  }
-
-  .panel p {
-    max-width: 760px;
-    color: #4e5661;
-    font-size: 18px;
-    line-height: 1.7;
-  }
-
-  .meta {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 12px;
-    margin-top: 28px;
-  }
-
-  .meta span {
-    background: #173a5e;
-    color: #ffffff;
-    padding: 10px 12px;
-    font-size: 12px;
-    font-weight: 800;
-    letter-spacing: 0.12em;
-    text-transform: uppercase;
-  }
+  .brand-page{background:#07111f;color:#fff;min-height:100vh}
+  .hero,.collections{max-width:1180px;margin:0 auto;padding-left:24px;padding-right:24px}
+  .hero{padding-top:96px;padding-bottom:64px}
+  .eyebrow{color:#f0d7a0;font-size:13px;font-weight:800;letter-spacing:.18em;text-transform:uppercase;margin:0 0 14px}
+  h1{font-size:clamp(54px,9vw,112px);line-height:.92;margin:0 0 28px}
+  h2{font-size:clamp(34px,5vw,56px);line-height:1;margin:0 0 18px}
+  .hero>p,.section-header>p:not(.eyebrow),.card p{color:rgba(255,255,255,.78);font-size:18px;line-height:1.7;max-width:820px}
+  .meta{display:flex;flex-wrap:wrap;gap:10px;margin-top:32px}
+  .meta span{border:1px solid rgba(255,255,255,.2);padding:10px 12px;font-size:11px;font-weight:800;letter-spacing:.11em;text-transform:uppercase}
+  .collections{padding-top:56px;padding-bottom:96px}
+  .section-header{margin-bottom:30px}
+  .grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+  .card{display:flex;flex-direction:column;min-height:300px;padding:26px;border:1px solid rgba(255,255,255,.13);background:rgba(255,255,255,.05);color:#fff;text-decoration:none}
+  .card>span,.card>strong{color:#f0d7a0;font-size:12px;font-weight:900;letter-spacing:.1em;text-transform:uppercase}
+  .card h3{font-size:32px;margin:28px 0 10px}
+  .card strong{margin-top:auto}
+  .card:hover,.card:focus-visible{border-color:#f0d7a0}
+  @media(max-width:700px){.grid{grid-template-columns:1fr}.hero{padding-top:64px}}
 </style>
