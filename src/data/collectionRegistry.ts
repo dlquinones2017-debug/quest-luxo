@@ -11,8 +11,9 @@ import { audemarsPiguetRoyalOakAssets } from "./audemars-piguet";
 import { patekPhilippeNautilusAssets } from "./patek-philippe";
 import { cartierSantosLaunchAssets } from "./cartier-intelligence";
 import { tudorBlackBayAssets } from "./tudor";
-import { getExpansionReferences } from "./reference-expansion";
+import { getExpansionReferences, referenceExpansionAssets } from "./reference-expansion";
 import { getUlysseNardinReferencesForCollection } from "./ulysse-nardin-references";
+import { ulysseNardinCollections } from "./ulysse-nardin";
 import { watchPhotographs } from "./watch-photography";
 import { approvedPhotograph } from "../lib/media/watchPhotography";
 import type { QuestLuxoAsset } from "../types/questLuxo";
@@ -535,9 +536,80 @@ const buildHouseCollection = (
   });
 };
 
+const seedCollections = houseCollectionSeeds.map(buildHouseCollection);
+const representedCollectionKeys = new Set(
+  [...rolexCollections, ...seedCollections].map(
+    (collection) => `${collection.brandSlug}/${collection.slug}`
+  )
+);
+
+const expansionCollections = Array.from(
+  referenceExpansionAssets.reduce((groups, asset) => {
+    const key = `${asset.brandSlug}/${asset.collectionSlug}`;
+    if (representedCollectionKeys.has(key)) return groups;
+    const existing = groups.get(key) ?? [];
+    existing.push(asset);
+    groups.set(key, existing);
+    return groups;
+  }, new Map<string, QuestLuxoAsset[]>())
+).map(([key, assets]) => {
+  const [brandSlug, slug] = key.split("/");
+  const first = assets[0];
+  return defineCollection({
+    brand: first.brand ?? brandSlug,
+    brandSlug,
+    name: first.collection ?? slug,
+    slug,
+    description:
+      `Explore ${first.brand ?? brandSlug} ${first.collection ?? slug} references through Quest Luxo's unified collection directory and private sourcing workflow.`,
+    intelligenceTitle: `${first.collection ?? slug} Collection Position`,
+    intelligenceParagraphs: [
+      `Quest Luxo evaluates ${first.collection ?? slug} references by exact configuration, condition, completeness, service history, and transaction evidence.`,
+      "Reference-level conclusions remain configuration-specific; collection reputation does not replace watch-level diligence.",
+    ],
+    signalsDescription:
+      "Signals reflect reviewed reference intelligence where available.",
+    directoryDescription:
+      `Search, filter, and sort ${first.collection ?? slug} reference profiles in the shared Quest Luxo directory.`,
+    sourcingText:
+      `Quest Luxo coordinates discreet sourcing for qualified ${first.brand ?? brandSlug} ${first.collection ?? slug} mandates.`,
+    assets,
+  });
+});
+
+const ulysseNardinExpandedCollections = ulysseNardinCollections
+  .filter((collection) => {
+    const key = `ulysse-nardin/${collection.slug}`;
+    return !representedCollectionKeys.has(key);
+  })
+  .map((collection) =>
+    defineCollection({
+      brand: "Ulysse Nardin",
+      brandSlug: "ulysse-nardin",
+      name: collection.name,
+      slug: collection.slug,
+      description: collection.description,
+      intelligenceTitle: `${collection.name} Collection Position`,
+      intelligenceParagraphs: [
+        collection.intelligence.marketPositioning,
+        collection.intelligence.brokerageConsiderations,
+      ],
+      signalsDescription:
+        "Signals reflect reviewed reference intelligence where available.",
+      directoryDescription:
+        `Search, filter, and sort Ulysse Nardin ${collection.name} reference profiles.`,
+      sourcingText:
+        `Quest Luxo coordinates discreet sourcing for Ulysse Nardin ${collection.name} references.`,
+      assets: getUlysseNardinReferencesForCollection(collection.slug),
+    })
+  )
+  .filter((collection) => collection.assets.length > 0);
+
 export const collectionRegistry = [
   ...rolexCollections,
-  ...houseCollectionSeeds.map(buildHouseCollection),
+  ...seedCollections,
+  ...expansionCollections,
+  ...ulysseNardinExpandedCollections,
 ] satisfies CollectionDefinition[];
 
 export const getCollection = (brandSlug: string, collectionSlug: string) =>
