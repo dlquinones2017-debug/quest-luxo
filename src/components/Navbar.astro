@@ -1,21 +1,6 @@
 ---
 import { buildBeginYourQuestUrl } from "../lib/leads/leadIntakeContext";
 
-const brands = [
-  "Rolex",
-  "Patek Philippe",
-  "Audemars Piguet",
-  "Richard Mille",
-  "Vacheron Constantin",
-  "F.P. Journe",
-  "Cartier",
-  "Omega",
-  "Tudor",
-  "Panerai",
-  "Breitling",
-  "IWC",
-];
-
 const privateSourcingHref = buildBeginYourQuestUrl({ intent: "request" });
 const brokerContactHref = buildBeginYourQuestUrl({ intent: "broker" });
 ---
@@ -25,10 +10,10 @@ const brokerContactHref = buildBeginYourQuestUrl({ intent: "broker" });
   <img src="/images/quest-luxo-logo.webp" alt="Quest Luxo" class="logo" width="160" height="160" fetchpriority="high" decoding="async" />
 </a>
 
-  <nav>
+  <nav aria-label="Primary navigation">
     <a href="/collections">Collections</a>
     <a href={privateSourcingHref}>Private Sourcing</a>
-    <a href="/#services">Services</a>
+    <a href="/transaction-standards">Transaction Standards</a>
     <a href={brokerContactHref}>Contact</a>
   </nav>
 </header>
