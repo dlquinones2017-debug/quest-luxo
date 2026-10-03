@@ -1,0 +1,31 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import CollectionsDirectory from "../components/CollectionsDirectory.astro";
+---
+
+<BaseLayout
+  title="Watch Collections | Quest Luxo"
+  description="Explore Quest Luxo reference intelligence and private sourcing coverage across leading luxury watch houses."
+  canonicalPath="/collections"
+>
+  <main id="main-content" class="collections-index">
+    <section class="hero">
+      <p class="eyebrow">QUEST LUXO WATCH INTELLIGENCE</p>
+      <h1>Luxury Watch Collections</h1>
+      <p>
+        Explore reference-led collection intelligence across the Quest Luxo watch-house directory.
+        Every listed collection uses the same reference, configuration, photography, and private-sourcing architecture.
+      </p>
+    </section>
+    <CollectionsDirectory />
+  </main>
+</BaseLayout>
+
+<style>
+  .collections-index{background:#07111f;min-height:100vh}
+  .hero{max-width:1180px;margin:0 auto;padding:96px 24px 64px;color:#fff}
+  .eyebrow{color:#f0d7a0;font-size:13px;font-weight:800;letter-spacing:.18em;text-transform:uppercase;margin:0 0 16px}
+  h1{font-size:clamp(54px,9vw,108px);line-height:.92;margin:0 0 26px}
+  .hero>p:not(.eyebrow){max-width:820px;color:rgba(255,255,255,.78);font-size:20px;line-height:1.7}
+  @media(max-width:700px){.hero{padding-top:64px}}
+</style>

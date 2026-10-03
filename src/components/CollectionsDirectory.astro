@@ -1,101 +1,40 @@
 ---
 import { brands } from "../data/brands";
-import { isFactoryLive } from "../lib/factory";
+import { getCollectionsForBrand } from "../data/collectionRegistry";
+import { brandPath } from "../lib/routes/collectionRoutes";
 
-const liveBrands = brands.filter((brand) => isFactoryLive(brand.slug));
+const directoryBrands = brands
+  .map((brand) => ({ ...brand, collections: getCollectionsForBrand(brand.slug) }))
+  .filter((brand) => brand.collections.length > 0)
+  .sort((a, b) => a.questLuxoPriority - b.questLuxoPriority);
 ---
 
-<section class="collections">
-  <p class="eyebrow">CURATED COLLECTIONS</p>
-
-  <h2>Explore Live Quest Luxo Watch Intelligence</h2>
+<section class="collections" aria-labelledby="collections-directory-title">
+  <p class="eyebrow">QUEST LUXO WATCH HOUSES</p>
+  <h2 id="collections-directory-title">Explore the Quest Luxo Watch Intelligence Directory</h2>
 
   <div class="grid">
-    {liveBrands.map((brand) => (
-      <a href={`/collections/${brand.slug}`} class="card">
+    {directoryBrands.map((brand) => (
+      <a href={brandPath(brand.slug)} class="card">
         <span>{brand.name}</span>
         <p>{brand.tagline}</p>
-        <small>Founded {brand.founded} · {brand.models} collections →</small>
+        <small>
+          Founded {brand.founded} · {brand.collections.length} {brand.collections.length === 1 ? "collection" : "collections"} →
+        </small>
       </a>
     ))}
   </div>
 </section>
 
 <style>
-  .collections {
-    padding: 120px 60px;
-    background: #ffffff;
-    text-align: center;
-  }
-
-  .eyebrow {
-    color: #d4b06a;
-    letter-spacing: 4px;
-    font-size: 13px;
-    font-weight: 700;
-    margin-bottom: 20px;
-  }
-
-  h2 {
-    color: #173a5e;
-    font-size: 44px;
-    max-width: 780px;
-    margin: 0 auto 55px;
-    line-height: 1.2;
-  }
-
-  .grid {
-    max-width: 1180px;
-    margin: auto;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 18px;
-  }
-
-  .card {
-    padding: 34px 24px;
-    border: 1px solid #e8e3d8;
-    background: #faf9f7;
-    color: #173a5e;
-    text-decoration: none;
-    transition: 0.2s ease;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-  }
-
-  .card span {
-    font-size: 21px;
-    font-weight: 700;
-  }
-
-  .card p {
-    margin: 0;
-    color: #555;
-    font-size: 15px;
-  }
-
-  .card small {
-    color: #6c6c6c;
-    font-size: 14px;
-  }
-
-  .card:hover {
-    border-color: #d4b06a;
-    transform: translateY(-3px);
-  }
-
-  @media (max-width: 800px) {
-    .collections {
-      padding: 80px 22px;
-    }
-
-    .grid {
-      grid-template-columns: 1fr;
-    }
-
-    h2 {
-      font-size: 34px;
-    }
-  }
+  .collections { padding:120px 60px; background:#fff; text-align:center; }
+  .eyebrow { color:#76540f; letter-spacing:4px; font-size:13px; font-weight:700; margin-bottom:20px; }
+  h2 { color:#173a5e; font-size:44px; max-width:780px; margin:0 auto 55px; line-height:1.2; }
+  .grid { max-width:1180px; margin:auto; display:grid; grid-template-columns:repeat(3,1fr); gap:18px; }
+  .card { padding:34px 24px; border:1px solid #e8e3d8; background:#faf9f7; color:#173a5e; text-decoration:none; transition:.2s ease; display:flex; flex-direction:column; gap:10px; min-height:170px; }
+  .card span { font-size:21px; font-weight:700; }
+  .card p { margin:0; color:#4e5661; font-size:15px; line-height:1.55; }
+  .card small { color:#555; font-size:14px; margin-top:auto; }
+  .card:hover,.card:focus-visible { border-color:#76540f; transform:translateY(-3px); }
+  @media(max-width:800px){ .collections{padding:80px 22px}.grid{grid-template-columns:1fr}h2{font-size:34px} }
 </style>

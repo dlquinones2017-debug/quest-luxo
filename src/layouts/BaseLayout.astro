@@ -25,11 +25,30 @@ const {
 const siteUrl = Astro.site ?? Astro.url.origin;
 const resolvedCanonicalUrl = canonicalUrl ?? new URL(canonicalPath ?? Astro.url.pathname, siteUrl).href;
 const socialImageUrl = new URL(socialImagePath, siteUrl).href;
-const pageStructuredData = structuredData
-  ? Array.isArray(structuredData)
-    ? structuredData
-    : [structuredData]
-  : [];
+const institutionalStructuredData = [
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    name: "Quest Luxo",
+    url: new URL("/", siteUrl).href,
+    logo: socialImageUrl,
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    name: "Quest Luxo",
+    url: new URL("/", siteUrl).href,
+  },
+];
+
+const pageStructuredData = [
+  ...institutionalStructuredData,
+  ...(structuredData
+    ? Array.isArray(structuredData)
+      ? structuredData
+      : [structuredData]
+    : []),
+];
 ---
 
 <html lang="en">
@@ -116,7 +135,7 @@ const pageStructuredData = structuredData
   }
 
   :focus-visible {
-    outline: 2px solid var(--ql-gold);
+    outline: 3px solid #8a682b;
     outline-offset: 4px;
   }
 

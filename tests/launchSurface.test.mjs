@@ -75,14 +75,16 @@ test("robots policy keeps internal and mutation surfaces out of discovery", asyn
 
 test("Bell & Ross launch data keeps Black Matte distinct from Black Steel", async () => {
   const data = await readRepositoryFile("src/data/bell-and-ross.ts");
-  const brandRoute = await readRepositoryFile("src/pages/collections/bell-and-ross.astro");
-  const collectionRoute = await readRepositoryFile("src/pages/collections/bell-and-ross/[collection]/index.astro");
+  const registry = await readRepositoryFile("src/data/collectionRegistry.ts");
+  const collectionRoute = await readRepositoryFile(
+    "src/pages/collections/[brand]/[collection]/index.astro"
+  );
 
   assert.match(data, /BR0192-BL-ST/);
   assert.match(data, /BR0392-BL-CE/);
   assert.match(data, /Matte black ceramic/);
   assert.doesNotMatch(data, /BR0392-BLC-ST/);
-  assert.match(brandRoute, /BR 01/);
-  assert.match(brandRoute, /BR 03/);
-  assert.match(collectionRoute, /showMissingImagePlaceholder=\{true\}/);
+  assert.match(registry, /bellRossCollections/);
+  assert.match(registry, /bell-and-ross\/br-03/);
+  assert.match(collectionRoute, /<CollectionExperience/);
 });

@@ -9,6 +9,9 @@ export interface QuestLuxoConfiguration {
   movement?: string;
   waterResistance?: string;
   originalMSRP?: number | null;
+  currentMSRP?: number | null;
+  msrpEffectiveDate?: string | null;
+  msrpSource?: string | null;
 }
 
 export type QuestLuxoIntelligence = Partial<IntelligenceMetrics> & {

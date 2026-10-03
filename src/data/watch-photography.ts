@@ -129,7 +129,7 @@ export const watchPhotographs: readonly WatchPhotograph[] = [
     assetId: "patek-philippe-5711-1a-010-nautilus-hero-cc-by-sa-4",
     brand: "Patek Philippe",
     collection: "Nautilus",
-    reference: "5711/1A",
+    reference: "5711/1A-010",
     configuration: {
       dial: "Blue",
       bracelet: "Integrated Bracelet",

@@ -5,6 +5,18 @@ import { gmtMasterIIAssets } from "./assets/rolex-gmt-master-ii";
 import { skyDwellerAssets } from "./assets/rolex-sky-dweller";
 import { submarinerAssets } from "./assets/rolex-submariner";
 import { yachtMasterAssets } from "./assets/rolex-yacht-master";
+import { omegaSpeedmasterAssets } from "./omega";
+import { breitlingNavitimerAssets } from "./breitling";
+import { audemarsPiguetRoyalOakAssets } from "./audemars-piguet";
+import { patekPhilippeNautilusAssets } from "./patek-philippe";
+import { cartierSantosLaunchAssets } from "./cartier-intelligence";
+import { tudorBlackBayAssets } from "./tudor";
+import { getExpansionReferences, referenceExpansionAssets } from "./reference-expansion";
+import { getUlysseNardinReferencesForCollection } from "./ulysse-nardin-references";
+import { ulysseNardinCollections } from "./ulysse-nardin";
+import { bellRossCollections } from "./bell-and-ross";
+import { watchPhotographs } from "./watch-photography";
+import { approvedPhotograph } from "../lib/media/watchPhotography";
 import type { QuestLuxoAsset } from "../types/questLuxo";
 
 export interface CollectionDefinition {
@@ -25,13 +37,17 @@ const defineCollection = (
   definition: CollectionDefinition
 ): CollectionDefinition => ({
   ...definition,
-  assets: definition.assets.map((asset) => ({
-    ...asset,
-    image:
-      asset.image && asset.imageVerified
-        ? asset.image
-        : "/images/watch-reference-placeholder.svg",
-  })),
+  assets: definition.assets.map((asset) => {
+    const approved = approvedPhotograph(asset, watchPhotographs);
+    const verifiedImage =
+      approved?.src ?? (asset.image && asset.imageVerified ? asset.image : undefined);
+
+    return {
+      ...asset,
+      image: verifiedImage ?? "/images/watch-reference-placeholder.svg",
+      imageVerified: Boolean(verifiedImage),
+    };
+  }),
 });
 
 const rolexCollections = [
@@ -445,6 +461,33 @@ const houseCollectionSeeds: HouseCollectionSeed[] = [
   },
 ];
 
+const getCuratedAssetsForSeed = (seed: HouseCollectionSeed): QuestLuxoAsset[] => {
+  const key = `${seed.brandSlug}/${seed.slug}`;
+
+  switch (key) {
+    case "omega/speedmaster":
+      return omegaSpeedmasterAssets;
+    case "breitling/navitimer":
+      return breitlingNavitimerAssets;
+    case "audemars-piguet/royal-oak":
+      return audemarsPiguetRoyalOakAssets;
+    case "patek-philippe/nautilus":
+      return patekPhilippeNautilusAssets;
+    case "cartier/santos-de-cartier":
+      return cartierSantosLaunchAssets;
+    case "tudor/black-bay":
+      return tudorBlackBayAssets;
+    case "ulysse-nardin/freak":
+      return getUlysseNardinReferencesForCollection("freak");
+    case "bell-and-ross/br-03":
+      return bellRossCollections.find((collection) => collection.slug === "br-03")?.assets ?? [];
+    default: {
+      const expanded = getExpansionReferences(seed.brandSlug, seed.slug);
+      return expanded.length ? expanded : [];
+    }
+  }
+};
+
 const buildHouseCollection = (
   seed: HouseCollectionSeed
 ): CollectionDefinition => {
@@ -472,6 +515,8 @@ const buildHouseCollection = (
     image: "/images/watch-reference-placeholder.svg",
   };
 
+  const curatedAssets = getCuratedAssetsForSeed(seed);
+
   return defineCollection({
     brand: seed.brand,
     brandSlug: seed.brandSlug,
@@ -490,13 +535,112 @@ const buildHouseCollection = (
       `Search, filter, and sort ${seed.name} reference profiles using the shared Quest Luxo directory.`,
     sourcingText:
       `Quest Luxo coordinates discreet sourcing for clients seeking ${seed.brand} ${seed.name} references.`,
-    assets: [asset],
+    assets: curatedAssets.length ? curatedAssets : [asset],
   });
 };
 
+const seedCollections = houseCollectionSeeds.map(buildHouseCollection);
+const representedCollectionKeys = new Set(
+  [...rolexCollections, ...seedCollections].map(
+    (collection) => `${collection.brandSlug}/${collection.slug}`
+  )
+);
+
+const expansionCollections = Array.from(
+  referenceExpansionAssets.reduce((groups, asset) => {
+    const key = `${asset.brandSlug}/${asset.collectionSlug}`;
+    if (representedCollectionKeys.has(key)) return groups;
+    const existing = groups.get(key) ?? [];
+    existing.push(asset);
+    groups.set(key, existing);
+    return groups;
+  }, new Map<string, QuestLuxoAsset[]>())
+).map(([key, assets]) => {
+  const [brandSlug, slug] = key.split("/");
+  const first = assets[0];
+  return defineCollection({
+    brand: first.brand ?? brandSlug,
+    brandSlug,
+    name: first.collection ?? slug,
+    slug,
+    description:
+      `Explore ${first.brand ?? brandSlug} ${first.collection ?? slug} references through Quest Luxo's unified collection directory and private sourcing workflow.`,
+    intelligenceTitle: `${first.collection ?? slug} Collection Position`,
+    intelligenceParagraphs: [
+      `Quest Luxo evaluates ${first.collection ?? slug} references by exact configuration, condition, completeness, service history, and transaction evidence.`,
+      "Reference-level conclusions remain configuration-specific; collection reputation does not replace watch-level diligence.",
+    ],
+    signalsDescription:
+      "Signals reflect reviewed reference intelligence where available.",
+    directoryDescription:
+      `Search, filter, and sort ${first.collection ?? slug} reference profiles in the shared Quest Luxo directory.`,
+    sourcingText:
+      `Quest Luxo coordinates discreet sourcing for qualified ${first.brand ?? brandSlug} ${first.collection ?? slug} mandates.`,
+    assets,
+  });
+});
+
+const bellRossExpandedCollections = bellRossCollections
+  .filter((collection) => {
+    const key = `bell-and-ross/${collection.slug}`;
+    return !representedCollectionKeys.has(key);
+  })
+  .map((collection) =>
+    defineCollection({
+      brand: "Bell & Ross",
+      brandSlug: "bell-and-ross",
+      name: collection.name,
+      slug: collection.slug,
+      description: collection.description,
+      intelligenceTitle: `${collection.name} Collection Position`,
+      intelligenceParagraphs: [
+        collection.ownership,
+        collection.configurations,
+      ],
+      signalsDescription:
+        "Signals reflect reviewed reference intelligence where available.",
+      directoryDescription:
+        `Search, filter, and sort Bell & Ross ${collection.name} reference profiles.`,
+      sourcingText:
+        `Quest Luxo coordinates discreet sourcing for Bell & Ross ${collection.name} references.`,
+      assets: collection.assets,
+    })
+  );
+
+const ulysseNardinExpandedCollections = ulysseNardinCollections
+  .filter((collection) => {
+    const key = `ulysse-nardin/${collection.slug}`;
+    return !representedCollectionKeys.has(key);
+  })
+  .map((collection) =>
+    defineCollection({
+      brand: "Ulysse Nardin",
+      brandSlug: "ulysse-nardin",
+      name: collection.name,
+      slug: collection.slug,
+      description: collection.description,
+      intelligenceTitle: `${collection.name} Collection Position`,
+      intelligenceParagraphs: [
+        collection.intelligence.marketPositioning,
+        collection.intelligence.brokerageConsiderations,
+      ],
+      signalsDescription:
+        "Signals reflect reviewed reference intelligence where available.",
+      directoryDescription:
+        `Search, filter, and sort Ulysse Nardin ${collection.name} reference profiles.`,
+      sourcingText:
+        `Quest Luxo coordinates discreet sourcing for Ulysse Nardin ${collection.name} references.`,
+      assets: getUlysseNardinReferencesForCollection(collection.slug),
+    })
+  )
+  .filter((collection) => collection.assets.length > 0);
+
 export const collectionRegistry = [
   ...rolexCollections,
-  ...houseCollectionSeeds.map(buildHouseCollection),
+  ...seedCollections,
+  ...expansionCollections,
+  ...ulysseNardinExpandedCollections,
+  ...bellRossExpandedCollections,
 ] satisfies CollectionDefinition[];
 
 export const getCollection = (brandSlug: string, collectionSlug: string) =>
