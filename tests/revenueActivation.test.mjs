@@ -1,0 +1,9 @@
+import test from "node:test";import assert from "node:assert/strict";
+import {ingestRevenueRecord,revenueFounderQueue} from "../src/lib/command/revenueActivation.ts";
+const now=new Date("2026-10-06T22:45:00Z");
+const base={stage:"FOLLOW_UP",status:"REQUIRES_FOUNDER",reason:"Founder follow-up required.",sourceSystem:"crm",updatedAt:"2026-10-06T22:00:00Z",evidenceIds:["ev-1"],evidenceState:"VERIFIED",estimatedRevenue:5000,probability:.5,urgency:50};
+test("verified record calculates evidence-backed expected revenue",()=>{const a=ingestRevenueRecord({...base,division:"WATCH_BROKERAGE",recordId:"w1"},now);assert.equal(a.expectedRevenue,2500);assert.equal(a.revenueScore,3750)});
+test("stale evidence becomes UNKNOWN and loses commercial estimate",()=>{const a=ingestRevenueRecord({...base,division:"REALTY",recordId:"r1",updatedAt:"2026-08-01T00:00:00Z"},now);assert.equal(a.status,"UNKNOWN");assert.equal(a.expectedRevenue,null)});
+test("unverified evidence never ranks as verified revenue",()=>{const a=ingestRevenueRecord({...base,division:"CAPITAL_ADVISORY",recordId:"c1",evidenceState:"REQUIRES_VERIFICATION"},now);assert.equal(a.status,"UNKNOWN");assert.equal(a.revenueScore,null)});
+test("queue ranks actionable verified revenue above unknowns",()=>{const q=revenueFounderQueue([{...base,division:"REALTY",recordId:"r",estimatedRevenue:10000,probability:.4},{...base,division:"WATCH_BROKERAGE",recordId:"w",estimatedRevenue:3000,probability:.9},{...base,division:"CAPITAL_ADVISORY",recordId:"c",evidenceState:"UNKNOWN"}],now);assert.deepEqual(q.map(x=>x.recordId),["r","w","c"])});
+test("dedup keeps newest stage record",()=>{const q=revenueFounderQueue([{...base,division:"WATCH_BROKERAGE",recordId:"w"},{...base,division:"WATCH_BROKERAGE",recordId:"w",updatedAt:"2026-10-06T22:30:00Z",estimatedRevenue:7000}],now);assert.equal(q.length,1);assert.equal(q[0].estimatedRevenue,7000)});
