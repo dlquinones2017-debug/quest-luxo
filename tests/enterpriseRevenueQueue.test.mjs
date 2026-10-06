@@ -35,7 +35,7 @@ test("deduplicates the same division record and stage using the latest evidence"
   assert.equal(q[0].estimatedRevenue, 4000);
 });
 
-test("preserves founder-required actions ahead of autonomous-ready work", () => {
+test("preserves founder-required action without overriding revenue ranking", () => {
   const q = enterpriseRevenueFounderQueue({
     brokerage: [record("WATCH_BROKERAGE", "ready", { estimatedRevenue: 10000, probability: 1 })],
     capital: [record("CAPITAL_ADVISORY", "founder", {
@@ -43,9 +43,10 @@ test("preserves founder-required actions ahead of autonomous-ready work", () => 
       estimatedRevenue: 1000, probability: 0.5,
     })],
   }, now);
-  assert.equal(q[0].recordId, "founder");
-  assert.equal(q[0].status, "REQUIRES_FOUNDER");
-  assert.equal(q[0].requiredHumanAction, "Founder approval required");
+  assert.deepEqual(q.map(x => x.recordId), ["ready", "founder"]);
+  const founder = q.find(x => x.recordId === "founder");
+  assert.equal(founder?.status, "REQUIRES_FOUNDER");
+  assert.equal(founder?.requiredHumanAction, "Founder approval required");
 });
 
 test("rejects records routed through the wrong division input", () => {
