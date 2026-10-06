@@ -1,0 +1,12 @@
+import test from "node:test";import assert from "node:assert/strict";
+import {intakeLead,underwrite,strategyFit,diligenceGate,prohibitRealtyAction,recordRealtyOutcome} from "../src/lib/realty/realtyAgents.ts";
+const p={leadId:"P1",address:"100 Main St",askingPrice:100000,propertyType:"SFR",identity:"VERIFIED"};
+test("verified identity advances",()=>assert.equal(intakeLead(p).stage,"EVIDENCE"));
+test("missing identity blocks",()=>assert.equal(intakeLead({...p,identity:"UNKNOWN"}).status,"BLOCKED"));
+test("unknown rehab remains explicit",()=>assert.match(underwrite(p,{leadId:"P1",compEvidenceIds:[],arvState:"UNKNOWN",rentState:"UNKNOWN",rehabState:"UNKNOWN"}).assumptions.join(" "),/Rehab UNKNOWN/));
+test("no comp evidence prevents claimed ARV",()=>assert.equal(underwrite(p,{leadId:"P1",compEvidenceIds:[],arvState:"UNKNOWN",rentState:"UNKNOWN",rehabState:"VERIFIED",rehab:20000}).arv,null));
+test("strategy fit requires verified inputs",()=>assert.deepEqual(strategyFit({leadId:"P1",compEvidenceIds:["C"],arv:160000,rent:1500,rehab:20000,arvState:"VERIFIED",rentState:"VERIFIED",rehabState:"VERIFIED"}),["FIX_FLIP","BRRRR","BUY_HOLD"]));
+test("diligence uncertainty blocks",()=>assert.equal(diligenceGate("P1",{title:"VERIFIED",flood:"UNKNOWN",zoning:"VERIFIED",occupancy:"VERIFIED",evidenceIds:["T"]}).status,"BLOCKED"));
+test("passed diligence still requires founder",()=>assert.equal(diligenceGate("P1",{title:"VERIFIED",flood:"VERIFIED",zoning:"VERIFIED",occupancy:"VERIFIED",evidenceIds:["T","F","Z","O"]}).status,"REQUIRES_FOUNDER"));
+test("agent cannot autonomously offer",()=>assert.equal(prohibitRealtyAction("P1","OFFER").status,"REQUIRES_FOUNDER"));
+test("outcome requires evidence",()=>assert.equal(recordRealtyOutcome("P1","ACQUIRED").status,"BLOCKED"));
