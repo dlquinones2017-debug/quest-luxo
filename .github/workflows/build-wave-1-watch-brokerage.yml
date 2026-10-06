@@ -1,0 +1,29 @@
+name: Build Wave 1 Watch Brokerage Acceptance
+
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - "src/lib/broker/**"
+      - "src/lib/intelligence/**"
+      - "tests/brokerage*.test.mjs"
+      - "package.json"
+      - ".github/workflows/build-wave-1-watch-brokerage.yml"
+  workflow_dispatch:
+
+jobs:
+  acceptance:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22.12.0"
+          cache: npm
+      - run: npm ci
+      - name: Brokerage boundary tests
+        run: node --experimental-strip-types --test tests/brokerageAgents.test.mjs tests/brokerageLifecycle.test.mjs
+      - name: Astro / TypeScript check
+        run: npm run check
+      - name: Production build
+        run: npm run build
