@@ -1,6 +1,7 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
 import { validateBrokerConsoleAccess } from "../lib/broker/brokerAuth";
+import FounderRevenuePanel from "../components/FounderRevenuePanel.astro";
 
 const brokerAuth = validateBrokerConsoleAccess(Astro.request);
 const isBrokerConsoleLocked = !brokerAuth.allowed;
@@ -28,6 +29,8 @@ const isBrokerConsoleLocked = !brokerAuth.allowed;
           <p>Saved Leads</p>
         </div>
       </header>
+
+      <FounderRevenuePanel hidden={isBrokerConsoleLocked} />
 
       <section
         class="state-panel state-panel--locked"
