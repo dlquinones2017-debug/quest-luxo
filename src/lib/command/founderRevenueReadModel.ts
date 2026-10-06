@@ -7,7 +7,7 @@ export interface FounderRevenueReadModel {
   verifiedEstimatedRevenue:number;
   verifiedExpectedRevenue:number;
   queue:readonly {division:string;recordId:string;status:string;reason:string}[];
-  founderActions:readonly {division:string;recordId:string;action:string;reason:string}[];
+  founderActions:readonly {division:string;recordId:string;action:string;expectedRevenue:number|null;revenueScore:number|null}[];
 }
 
 export async function founderRevenueReadModel(now=new Date(),readers?:EnterpriseRevenueStoreReaders):Promise<FounderRevenueReadModel>{
@@ -28,7 +28,8 @@ export async function founderRevenueReadModel(now=new Date(),readers?:Enterprise
       division:item.division,
       recordId:item.recordId,
       action:item.requiredHumanAction,
-      reason:item.reason,
+      expectedRevenue:item.expectedRevenue,
+      revenueScore:item.revenueScore,
     }))),
   });
 }
