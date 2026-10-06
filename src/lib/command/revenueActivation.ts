@@ -31,7 +31,7 @@ export function revenueFounderQueue(records:readonly RevenueRecord[],now=new Dat
   const latest=new Map<string,RevenueAction>();
   for(const raw of records){const a=ingestRevenueRecord(raw,now);const old=latest.get(a.key);if(!old||Date.parse(a.updatedAt)>=Date.parse(old.updatedAt))latest.set(a.key,a);}
   return Object.freeze([...latest.values()].sort((a,b)=>{
-    const actionable=s=>s==="REQUIRES_FOUNDER"||s==="READY"?0:s==="BLOCKED"?1:2;
+    const actionable=(s: EnterpriseStatus):number=>s==="REQUIRES_FOUNDER"||s==="READY"?0:s==="BLOCKED"?1:2;
     return actionable(a.status)-actionable(b.status)||(b.revenueScore??-1)-(a.revenueScore??-1)||b.urgency-a.urgency||Date.parse(b.updatedAt)-Date.parse(a.updatedAt);
   }));
 }
