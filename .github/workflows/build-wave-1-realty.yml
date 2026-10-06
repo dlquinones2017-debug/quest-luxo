@@ -1,0 +1,18 @@
+name: Build Wave 1 Realty Acceptance
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - "src/lib/realty/**"
+      - "tests/realty*.test.mjs"
+      - ".github/workflows/build-wave-1-realty.yml"
+jobs:
+  realty-acceptance:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Run Realty boundary and lifecycle acceptance
+        run: node --experimental-strip-types --test tests/realtyAgents.test.mjs tests/realtyLifecycle.test.mjs
