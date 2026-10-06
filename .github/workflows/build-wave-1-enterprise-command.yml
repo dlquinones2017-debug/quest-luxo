@@ -1,0 +1,17 @@
+name: Build Wave 1 Enterprise Command Acceptance
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - "src/lib/command/**"
+      - "tests/enterprise*.test.mjs"
+      - ".github/workflows/build-wave-1-enterprise-command.yml"
+jobs:
+  acceptance:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - run: node --experimental-strip-types --test tests/enterpriseCommand.test.mjs tests/enterpriseWave1.test.mjs
