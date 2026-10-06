@@ -1,0 +1,2 @@
+import type { RevenueRecord } from "./revenueActivation.ts";import type { RealtyPipelineRecord } from "../realty/realtyPipelineStore.ts";
+export function realtyRevenueRecord(r:RealtyPipelineRecord):RevenueRecord{return Object.freeze({division:"REALTY",recordId:r.leadId,stage:r.stage,status:r.status,reason:r.reason,sourceSystem:"REALTY_PIPELINE",updatedAt:r.updatedAt,evidenceIds:Object.freeze([...r.evidenceIds]),evidenceState:r.evidenceState,estimatedRevenue:r.estimatedRevenue,probability:r.probability,urgency:r.urgency,requiredHumanAction:r.requiredHumanAction})}
