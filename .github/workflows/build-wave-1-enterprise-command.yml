@@ -7,6 +7,7 @@ on:
       - "tests/enterprise*.test.mjs"
       - "tests/revenueRecoveryAgent.test.mjs"
       - "tests/relationshipIntelligence.test.mjs"
+      - "tests/nextBestActionAgent.test.mjs"
       - ".github/workflows/build-wave-1-enterprise-command.yml"
 jobs:
   acceptance:
@@ -16,4 +17,4 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: "22"
-      - run: node --experimental-strip-types --test tests/enterpriseCommand.test.mjs tests/enterpriseWave1.test.mjs tests/revenueRecoveryAgent.test.mjs tests/relationshipIntelligence.test.mjs
+      - run: node --experimental-strip-types --test tests/enterpriseCommand.test.mjs tests/enterpriseWave1.test.mjs tests/revenueRecoveryAgent.test.mjs tests/relationshipIntelligence.test.mjs tests/nextBestActionAgent.test.mjs
