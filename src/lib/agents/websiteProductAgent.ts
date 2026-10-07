@@ -1,0 +1,3 @@
+export interface WebsiteProductSignal{area:string;healthy:boolean;issues:readonly string[];updatedAt:string}
+export interface WebsiteProductRecommendation{area:string;status:"READY"|"BLOCKED";priority:number;nextAction:string}
+export function websiteProductAgent(signals:readonly WebsiteProductSignal[]):readonly WebsiteProductRecommendation[]{return Object.freeze(signals.map(s=>Object.freeze({area:s.area,status:s.healthy&&s.issues.length===0?"READY":"BLOCKED",priority:s.healthy?20:100,nextAction:s.healthy?"Maintain verified production state.":"Resolve production blocker before expanding traffic."})).sort((a,b)=>b.priority-a.priority))}
