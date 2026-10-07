@@ -1,0 +1,4 @@
+export interface RealtyMarketSignal{id:string;market:string;propertyType:string;evidenceState:"VERIFIED"|"UNKNOWN"|"REQUIRES_VERIFICATION";demand:number;dealFlow:number;strategicFit:number}
+export interface RealtyMarketRecommendation{id:string;score:number|null;priority:"HIGH"|"MEDIUM"|"LOW"|"VERIFY";nextAction:string}
+const c=(n:number)=>Math.max(0,Math.min(100,n));
+export function realtyMarketIntelligenceAgent(s:RealtyMarketSignal):RealtyMarketRecommendation{if(s.evidenceState!=="VERIFIED")return{id:s.id,score:null,priority:"VERIFY",nextAction:"Verify market evidence before acquisition activity."};const score=Math.round(c(s.demand)*.3+c(s.dealFlow)*.35+c(s.strategicFit)*.35);return{id:s.id,score,priority:score>=75?"HIGH":score>=60?"MEDIUM":"LOW",nextAction:"Advance verified market to property-level screening."}}

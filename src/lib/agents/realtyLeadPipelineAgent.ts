@@ -1,0 +1,2 @@
+export interface RealtyLead{id:string;type:"SELLER"|"BUYER"|"WHOLESALER"|"REFERRAL";evidenceState:"VERIFIED"|"UNKNOWN"|"REQUIRES_VERIFICATION";motivation:number;accessibility:number;dealFit:number}
+export function realtyLeadPipelineAgent(leads:readonly RealtyLead[]){return Object.freeze(leads.map(l=>{if(l.evidenceState!=="VERIFIED")return{id:l.id,score:null,status:"VERIFY" as const};const score=Math.round(l.motivation*.4+l.accessibility*.2+l.dealFit*.4);return{id:l.id,score,status:score>=70?"PRIORITY" as const:"NURTURE" as const}}).sort((a,b)=>(b.score??-1)-(a.score??-1)))}
