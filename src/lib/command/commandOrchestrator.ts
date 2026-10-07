@@ -1,0 +1,3 @@
+import type { EnterpriseAgentRecommendation } from "./enterpriseAgentCoordinator.ts";
+export interface CommandDecision{recordId:string;division:string;priority:number;status:"FOUNDER_QUEUE"|"VERIFY";action:string}
+export function commandOrchestrator(queue:readonly EnterpriseAgentRecommendation[]):readonly CommandDecision[]{return Object.freeze(queue.map(i=>Object.freeze({recordId:i.recordId,division:i.division,priority:i.priority,status:i.status==="READY_FOR_FOUNDER"?"FOUNDER_QUEUE" as const:"VERIFY" as const,action:i.action})).sort((a,b)=>b.priority-a.priority||a.recordId.localeCompare(b.recordId)))}
