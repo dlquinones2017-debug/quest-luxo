@@ -1,0 +1,5 @@
+import test from"node:test";import assert from"node:assert/strict";import{luxuryClientQualificationAgent}from"../src/lib/agents/luxuryClientQualificationAgent.ts";import{luxuryFollowUpAgent}from"../src/lib/agents/luxuryFollowUpAgent.ts";import{watchSourcingAgent}from"../src/lib/agents/watchSourcingAgent.ts";
+test("qualification holds unverified mandate",()=>assert.equal(luxuryClientQualificationAgent({id:"m",evidenceState:"UNKNOWN"}).status,"VERIFY"));
+test("qualification recognizes complete mandate",()=>assert.equal(luxuryClientQualificationAgent({id:"m",evidenceState:"VERIFIED",brand:"Rolex",reference:"126610LN",budget:14000,timeline:"30 days",conditionTolerance:"excellent",boxPapers:"required"}).status,"QUALIFIED"));
+test("follow-up surfaces due active mandate",()=>assert.equal(luxuryFollowUpAgent([{id:"f",evidenceState:"VERIFIED",nextFollowUpAt:"2026-01-01",mandateStatus:"ACTIVE"}],new Date("2026-10-07"))[0].status,"DUE"));
+test("sourcing ranks verified fit",()=>assert.equal(watchSourcingAgent([{id:"s",evidenceState:"VERIFIED",reference:"x",ask:9000,conditionFit:90,dealerConfidence:90,completeness:100}],10000)[0].status,"SHORTLIST"));
