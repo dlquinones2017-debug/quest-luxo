@@ -1,0 +1,5 @@
+import test from "node:test";import assert from "node:assert/strict";import{websiteProductAgent}from "../src/lib/agents/websiteProductAgent.ts";import{leadOperationsAgent}from "../src/lib/agents/leadOperationsAgent.ts";
+test("healthy website surface stays ready",()=>{const r=websiteProductAgent([{area:"lead-capture",healthy:true,issues:[],updatedAt:new Date().toISOString()}]);assert.equal(r[0].status,"READY")});
+test("website blocker is prioritized",()=>{const r=websiteProductAgent([{area:"lead-capture",healthy:false,issues:["storage"],updatedAt:new Date().toISOString()}]);assert.equal(r[0].status,"BLOCKED");assert.equal(r[0].priority,100)});
+test("lead operations fails closed",()=>{const r=leadOperationsAgent({productionMode:true,storageWritable:false,notificationsConfigured:true,brokerProtectionActive:true});assert.equal(r.healthy,false);assert.ok(r.issues.includes("LEAD_STORAGE"))});
+test("lead operations recognizes healthy state",()=>{const r=leadOperationsAgent({productionMode:true,storageWritable:true,notificationsConfigured:true,brokerProtectionActive:true});assert.equal(r.healthy,true)});
