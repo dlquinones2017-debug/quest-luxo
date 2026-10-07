@@ -1,0 +1,2 @@
+export interface LenderOption{id:string;verified:boolean;product:string;softPullQualification:boolean;requiresRevenueDocs:boolean;requiresTaxReturns:boolean;fitScore:number}
+export function lenderIntelligenceAgent(options:readonly LenderOption[]){return Object.freeze(options.filter(o=>o.verified).map(o=>Object.freeze({...o,priorityScore:Math.round(o.fitScore+(o.softPullQualification?10:0)-(o.requiresRevenueDocs?8:0)-(o.requiresTaxReturns?8:0)),founderAction:"Founder approves lender introduction or application."})).sort((a,b)=>b.priorityScore-a.priorityScore))}
