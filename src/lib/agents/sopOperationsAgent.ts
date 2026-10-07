@@ -1,0 +1,2 @@
+export interface ProvenWorkflow{id:string;name:string;verifiedRuns:number;failedRuns:number;steps:readonly string[]}
+export function sopOperationsAgent(w:ProvenWorkflow){const total=w.verifiedRuns+w.failedRuns;const successRate=total?w.verifiedRuns/total:0;return Object.freeze({id:w.id,name:w.name,status:w.verifiedRuns>=3&&successRate>=.8&&w.steps.length>0?"READY_TO_STANDARDIZE" as const:"KEEP_PROVING" as const,successRate,steps:Object.freeze([...w.steps])})}
