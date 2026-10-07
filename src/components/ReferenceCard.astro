@@ -48,6 +48,9 @@ const formatUSD = (value?: number | null) => {
     maximumFractionDigits: 0,
   }).format(value);
 };
+
+const hasVerifiedCurrentMsrp = (value?: number | null): value is number =>
+  typeof value === "number" && value > 0;
 ---
 
 <article class="card">
@@ -133,13 +136,37 @@ const formatUSD = (value?: number | null) => {
 
   {showMsrp && configurations.length > 0 && (
     <div class="msrp">
-      <strong>Original MSRP</strong>
-
       {configurations.map((config) => (
-        <p>
-          {config.bracelet ?? config.dial ?? config.nickname ?? "Configuration"}:{" "}
-          {formatUSD(config.originalMSRP)}
-        </p>
+        <section class="msrp-configuration">
+          <strong class="msrp-configuration-name">
+            {config.bracelet ?? config.dial ?? config.nickname ?? "Configuration"}
+          </strong>
+          <p><strong>Original MSRP</strong><span>{formatUSD(config.originalMSRP)}</span></p>
+          <p>
+            <strong>Current MSRP</strong>
+            <span>
+              {hasVerifiedCurrentMsrp(config.currentMSRP)
+                ? formatUSD(config.currentMSRP)
+                : "Retail price requires verification"}
+            </span>
+          </p>
+          {hasVerifiedCurrentMsrp(config.currentMSRP) && (
+            <>
+              <p>
+                <strong>MSRP effective date</strong>
+                <span>{config.msrpEffectiveDate ?? "Not provided"}</span>
+              </p>
+              <p>
+                <strong>Official source</strong>
+                <span>
+                  {config.msrpSource ? (
+                    <a href={config.msrpSource} rel="external noopener">Official source</a>
+                  ) : "Not provided"}
+                </span>
+              </p>
+            </>
+          )}
+        </section>
       ))}
     </div>
   )}
@@ -373,6 +400,35 @@ const formatUSD = (value?: number | null) => {
     font-size: 14px;
     line-height: 1.6;
     margin-bottom: 0;
+  }
+
+  .msrp-configuration + .msrp-configuration {
+    border-top: 1px solid #e8e3d8;
+    margin-top: 14px;
+    padding-top: 14px;
+  }
+
+  .msrp-configuration-name {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  .msrp p {
+    display: flex;
+    justify-content: space-between;
+    gap: 18px;
+    border-bottom: 1px solid #e8e3d8;
+    padding-bottom: 8px;
+    margin: 0 0 10px;
+  }
+
+  .msrp p span {
+    color: #4e5661;
+    text-align: right;
+  }
+
+  .msrp a {
+    color: #173a5e;
   }
 
   .button {
