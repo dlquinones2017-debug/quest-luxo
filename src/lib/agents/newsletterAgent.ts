@@ -1,0 +1,3 @@
+import type { ContentDraft } from "./contentProductionAgent.ts";
+export interface NewsletterIssue { issueId:string; drafts:readonly ContentDraft[]; founderApprovalRequired:true; }
+export function assembleNewsletter(issueId:string,drafts:readonly ContentDraft[]):NewsletterIssue{return Object.freeze({issueId,drafts:Object.freeze([...drafts].filter(d=>d.draft.length>0)),founderApprovalRequired:true});}
