@@ -1,0 +1,48 @@
+---
+interface Props { hidden?: boolean }
+const { hidden=false }=Astro.props;
+---
+<section class="founder-revenue-panel" data-founder-revenue-panel hidden={hidden} aria-label="Enterprise revenue brief">
+  <div>
+    <p class="eyebrow">Enterprise Revenue</p>
+    <h2>Founder Revenue Brief</h2>
+    <p data-founder-revenue-state>Loading verified revenue state...</p>
+  </div>
+  <div class="founder-revenue-metrics">
+    <div><strong data-founder-revenue="records">—</strong><span>Records</span></div>
+    <div><strong data-founder-revenue="unknown">—</strong><span>Unknown</span></div>
+    <div><strong data-founder-revenue="estimated">—</strong><span>Verified Est.</span></div>
+    <div><strong data-founder-revenue="expected">—</strong><span>Expected</span></div>
+    <div><strong data-founder-revenue="actions">—</strong><span>Founder Actions</span></div>
+  </div>
+</section>
+<script>
+ const panel=document.querySelector<HTMLElement>("[data-founder-revenue-panel]");
+ const state=panel?.querySelector<HTMLElement>("[data-founder-revenue-state]");
+ const set=(key:string,value:string)=>{const el=panel?.querySelector<HTMLElement>(`[data-founder-revenue="${key}"]`);if(el)el.textContent=value;};
+ if(panel&&!panel.hidden){
+   fetch("/api/broker/revenue",{headers:{Accept:"application/json"}})
+    .then(async response=>{if(!response.ok)throw new Error("Revenue state unavailable");return response.json();})
+    .then(model=>{
+      set("records",String(model.totalRecords??0));
+      set("unknown",String(model.unknownRecords??0));
+      set("estimated",new Intl.NumberFormat("en-US",{style:"currency",currency:"USD",maximumFractionDigits:0}).format(model.verifiedEstimatedRevenue??0));
+      set("expected",new Intl.NumberFormat("en-US",{style:"currency",currency:"USD",maximumFractionDigits:0}).format(model.verifiedExpectedRevenue??0));
+      set("actions",String(Array.isArray(model.founderActions)?model.founderActions.length:0));
+      if(state)state.textContent=model.totalRecords===0?"No verified enterprise revenue records yet.":"Read-only view from authoritative enterprise stores.";
+    })
+    .catch(()=>{if(state)state.textContent="Unable to load enterprise revenue state.";});
+ }
+</script>
+<style>
+ .founder-revenue-panel{display:grid;gap:18px;border:1px solid #d8d0c3;background:#f9f6f0;padding:20px;margin:0 0 24px}
+ .founder-revenue-panel[hidden]{display:none}
+ .founder-revenue-panel h2{margin:4px 0;color:#173a5e}
+ .founder-revenue-panel p{margin:0;color:#6a7380}
+ .founder-revenue-metrics{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:10px}
+ .founder-revenue-metrics div{border:1px solid #e3dccf;background:#fff;padding:12px}
+ .founder-revenue-metrics strong,.founder-revenue-metrics span{display:block}
+ .founder-revenue-metrics strong{color:#173a5e;font-size:20px}
+ .founder-revenue-metrics span{margin-top:5px;color:#8a6a3f;font-size:11px;font-weight:900;text-transform:uppercase}
+ @media(max-width:820px){.founder-revenue-metrics{grid-template-columns:repeat(2,minmax(0,1fr))}}
+</style>
