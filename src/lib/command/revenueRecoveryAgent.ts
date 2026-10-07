@@ -25,7 +25,9 @@ const ageDays=(updatedAt:string,now:Date)=>{
   return Number.isFinite(parsed)?Math.max(0,Math.floor((now.getTime()-parsed)/DAY)):null;
 };
 
-function inferVerifiedStall(action:RevenueAction,age:number){
+type DetectedStall={reason:RecoveryStallReason;next:RecoveryAction;rationale:string};
+
+function inferVerifiedStall(action:RevenueAction,age:number):DetectedStall|null{
   if(action.status==="REQUIRES_FOUNDER") return {reason:"FOUNDER_ACTION_PENDING" as const,next:"ESCALATE_TO_FOUNDER" as const,rationale:"Verified opportunity is waiting on an explicit founder decision."};
   const text=`${action.stage} ${action.reason}`.toLowerCase();
   if(/qualif/.test(text)) return {reason:"QUALIFICATION_INCOMPLETE" as const,next:"QUALIFY" as const,rationale:"Verified opportunity indicates incomplete qualification."};
@@ -43,7 +45,7 @@ export function revenueRecoveryAgent(actions:readonly RevenueAction[],now=new Da
   const recommendations:RecoveryRecommendation[]=[];
   for(const action of latest.values()){
     const age=ageDays(action.updatedAt,now); if(age===null)continue;
-    let detected:ReturnType<typeof inferVerifiedStall>;
+    let detected:DetectedStall|null;
     let lastVerifiedActivity:string|null=action.updatedAt;
     if(action.evidenceState!=="VERIFIED"||action.evidenceIds.length===0||action.status==="UNKNOWN"){
       const stale=/stale/i.test(action.reason);
