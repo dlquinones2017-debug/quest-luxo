@@ -1,0 +1,5 @@
+import test from "node:test";import assert from "node:assert/strict";import{scoreContentSignal,rankContentSignals}from "../src/lib/agents/contentIntelligenceAgent.ts";
+const base={id:"s1",source:"MARKET",topic:"market brief",evidenceState:"VERIFIED",relevance:90,timeliness:90,commercialRelevance:80,notes:"verified"};
+test("high verified signal becomes high priority",()=>{const r=scoreContentSignal(base);assert.equal(r.priority,"HIGH");assert.equal(r.recommendedFormat,"MARKET_BRIEF")});
+test("unverified signal is held",()=>{const r=scoreContentSignal({...base,evidenceState:"REQUIRES_VERIFICATION"});assert.equal(r.priority,"VERIFY");assert.equal(r.score,null)});
+test("ranking is deterministic",()=>{const r=rankContentSignals([base,{...base,id:"s2",relevance:20,timeliness:20,commercialRelevance:20}]);assert.equal(r[0].signalId,"s1")});
