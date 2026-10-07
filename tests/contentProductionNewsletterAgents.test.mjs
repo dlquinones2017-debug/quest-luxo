@@ -1,0 +1,5 @@
+import test from "node:test";import assert from "node:assert/strict";import{draftContent}from "../src/lib/agents/contentProductionAgent.ts";import{assembleNewsletter}from "../src/lib/agents/newsletterAgent.ts";
+const opportunity={signalId:"s1",topic:"secondary market liquidity",score:90,priority:"HIGH",recommendedFormat:"MARKET_BRIEF",founderAction:"approve"};
+test("production agent drafts verified opportunities",()=>{const r=draftContent(opportunity);assert.equal(r.founderApprovalRequired,true);assert.ok(r.draft.length>0);});
+test("verification blocks drafting",()=>{const r=draftContent({...opportunity,priority:"VERIFY"});assert.equal(r.draft,"");});
+test("newsletter assembles drafts",()=>{const r=assembleNewsletter("issue-1",[draftContent(opportunity)]);assert.equal(r.drafts.length,1);assert.equal(r.founderApprovalRequired,true);});
