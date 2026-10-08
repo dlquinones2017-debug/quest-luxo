@@ -1,0 +1,23 @@
+import test from "node:test";import assert from "node:assert/strict";
+import {enterpriseRevenueFounderQueue} from "../src/lib/command/enterpriseRevenueQueue.ts";
+import {wave3RevenueIntelligence} from "../src/lib/command/wave3RevenueIntelligence.ts";
+const now=new Date("2026-10-07T22:00:00Z");
+const record=(division,recordId,o={})=>({division,recordId,stage:"ACTIVE",status:"READY",reason:"Verified opportunity",sourceSystem:"test",updatedAt:"2026-09-28T20:00:00Z",evidenceIds:[`ev-${recordId}`],evidenceState:"VERIFIED",estimatedRevenue:2000,probability:.5,urgency:20,...o});
+test("Wave 3 composes recovery, relationships, next action, learning, and the founder queue without mutation",()=>{
+ const founder=record("CAPITAL_ADVISORY","capital-1",{status:"REQUIRES_FOUNDER",requiredHumanAction:"Approve lender introduction"});
+ const unknown=record("REALTY","realty-1",{status:"READY",evidenceState:"REQUIRES_VERIFICATION",evidenceIds:[],estimatedRevenue:900000,probability:1});
+ const watch=record("WATCH_BROKERAGE","watch-1");
+ const input={brokerage:[watch],capital:[founder],realty:[unknown]};const before=structuredClone(input);
+ const queue=enterpriseRevenueFounderQueue(input,now);const queueBefore=structuredClone(queue);
+ const observations=[{observationId:"watch-person",division:"WATCH_BROKERAGE",role:"BUYER",evidence:[{kind:"EMAIL",value:"client@example.com",verified:true,evidenceId:"identity-watch"}]},{observationId:"capital-person",division:"CAPITAL_ADVISORY",role:"BORROWER",evidence:[{kind:"EMAIL",value:"client@example.com",verified:true,evidenceId:"identity-capital"}]}];
+ const outcomes=[{outcomeId:"engagement",opportunityKey:queue.find(x=>x.recordId==="watch-1").key,division:"WATCH_BROKERAGE",recordId:"watch-1",outcomeType:"ENGAGEMENT_ONLY",evidenceState:"VERIFIED",evidenceIds:["email-open"],sourceSystem:"engagement",observedAt:"2026-10-07T21:00:00Z",realizedRevenue:50000}];
+ const result=wave3RevenueIntelligence(queue,observations,outcomes,now);
+ assert.equal(result.recovery.some(x=>x.recordId==="watch-1"),true);
+ assert.equal(result.relationships[0].state,"VERIFIED");
+ assert.equal(result.nextBestActions.find(x=>x.recordId==="capital-1").founderActionRequired,true);
+ assert.equal(result.nextBestActions.find(x=>x.recordId==="capital-1").requiredHumanAction,"Approve lender introduction");
+ assert.equal(result.nextBestActions.find(x=>x.recordId==="realty-1").actionType,"COLLECT_EVIDENCE");
+ assert.equal(result.learning[0].learningState,"UNKNOWN");assert.equal(result.learning[0].realizedRevenue,null);
+ assert.deepEqual(input,before);assert.deepEqual(queue,queueBefore);
+ assert.deepEqual(wave3RevenueIntelligence(queue,observations,outcomes,now),result);
+});
