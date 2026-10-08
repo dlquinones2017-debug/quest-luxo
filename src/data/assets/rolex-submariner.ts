@@ -50,6 +50,8 @@ export const submarinerAssets = [
   {
     reference: "124060",
     model: "Submariner No-Date",
+    brand: "Rolex",
+    collection: "Submariner",
     configurations: [
       { nickname: "No-Date Submariner", dial: "Black", bracelet: "Oyster", originalMSRP: null },
     ],
