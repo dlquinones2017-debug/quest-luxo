@@ -28,7 +28,7 @@ test("reference cards separate historical MSRP from verified current retail meta
   assert.doesNotMatch(card, /currentMSRP\s*:\s*config\.originalMSRP/);
 });
 
-test("Wave 1 applies only approved exact MSRP records and leaves generic seeds unpriced", async () => {
+test("Wave 1 applies only approved MSRP records and leaves unverified generic seeds unpriced", async () => {
   const submariner = await source("src", "data", "rolex", "submariner.ts");
   const gmtMasterII = await source("src", "data", "rolex", "gmt-master-ii.ts");
   const daytona = await source("src", "data", "rolex", "daytona.ts");
@@ -41,6 +41,6 @@ test("Wave 1 applies only approved exact MSRP records and leaves generic seeds u
   assert.match(gmtMasterII, /nickname: "Batgirl \/ Jubilee"[\s\S]*?currentMSRP: 12000[\s\S]*?m126710blnr-0002/);
   assert.match(daytona, /reference: "126500LN"[\s\S]*?currentMSRP: 16900[\s\S]*?m126500ln-0001/);
   assert.match(breitling, /reference: "AB0138211B1A1"[\s\S]*?currentMSRP: 10700[\s\S]*?AB0138211B1A1/);
-  assert.doesNotMatch(patek, /currentMSRP:/);
+  assert.match(patek, /reference: "aquanaut-5167a-seed"[\s\S]*?currentMSRP: 27257[\s\S]*?5167A-001/);
   assert.doesNotMatch(audemarsPiguet, /currentMSRP:/);
 });
