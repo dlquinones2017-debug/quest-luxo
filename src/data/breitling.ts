@@ -24,7 +24,17 @@ export const breitlingNavitimerAssets: BreitlingAsset[] = [
     brand: "Breitling",
     collection: "Navitimer",
     collectionSlug: "navitimer",
-    configurations: [{ nickname: "B01 Chronograph 43 Black", bracelet: "Stainless Steel Navitimer Bracelet", dial: "Black" }],
+    configurations: [
+      {
+        nickname: "B01 Chronograph 43 Black",
+        bracelet: "Stainless Steel Navitimer Bracelet",
+        dial: "Black",
+        currentMSRP: 10700,
+        msrpEffectiveDate: null,
+        msrpSource:
+          "https://www.breitling.com/us-en/watches/navitimer/navitimer-b01-chronograph-43-my22/AB0138211B1A1/",
+      },
+    ],
     material: "Stainless Steel",
     bezel: "Bidirectional Slide Rule",
     productionStatus: "Current Production",
