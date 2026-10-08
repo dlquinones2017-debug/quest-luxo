@@ -27,3 +27,20 @@ test("reference cards separate historical MSRP from verified current retail meta
   assert.match(card, /hasVerifiedCurrentMsrp\(config\.currentMSRP\)/);
   assert.doesNotMatch(card, /currentMSRP\s*:\s*config\.originalMSRP/);
 });
+
+test("Wave 1 applies only approved exact MSRP records and leaves generic seeds unpriced", async () => {
+  const submariner = await source("src", "data", "rolex", "submariner.ts");
+  const gmtMasterII = await source("src", "data", "rolex", "gmt-master-ii.ts");
+  const daytona = await source("src", "data", "rolex", "daytona.ts");
+  const breitling = await source("src", "data", "breitling.ts");
+  const patek = await source("src", "data", "patek-philippe.ts");
+  const audemarsPiguet = await source("src", "data", "audemars-piguet.ts");
+
+  assert.match(submariner, /reference: "124060"[\s\S]*?currentMSRP: 10050[\s\S]*?msrpEffectiveDate: null[\s\S]*?m124060-0001/);
+  assert.match(gmtMasterII, /nickname: "Batman \/ Oyster"[\s\S]*?currentMSRP: 11800[\s\S]*?m126710blnr-0003/);
+  assert.match(gmtMasterII, /nickname: "Batgirl \/ Jubilee"[\s\S]*?currentMSRP: 12000[\s\S]*?m126710blnr-0002/);
+  assert.match(daytona, /reference: "126500LN"[\s\S]*?currentMSRP: 16900[\s\S]*?m126500ln-0001/);
+  assert.match(breitling, /reference: "AB0138211B1A1"[\s\S]*?currentMSRP: 10700[\s\S]*?AB0138211B1A1/);
+  assert.doesNotMatch(patek, /currentMSRP:/);
+  assert.doesNotMatch(audemarsPiguet, /currentMSRP:/);
+});
