@@ -1,11 +1,11 @@
 {
-  "reviewedAt": "2026-10-13T04:02:51.440Z",
+  "reviewedAt": "2026-10-13T04:52:39.426Z",
   "note": "Generated from all exported source datasets and built routes. Source-only and duplicate configuration records are retained for review; this register is not proof of image rights. Source URLs identify research leads, not licenses.",
   "summary": {
-    "sourceConfigurations": 268,
-    "builtReferenceRoutes": 148,
+    "sourceConfigurations": 327,
+    "builtReferenceRoutes": 165,
     "collectionRoutes": 71,
-    "approvedReferenceConfigurations": 6,
+    "approvedReferenceConfigurations": 47,
     "unmatchedReferenceRoutes": 0
   },
   "collections": [
@@ -444,6 +444,7 @@
         "/collections/rolex/datejust/126200",
         "/collections/rolex/datejust/126234",
         "/collections/rolex/datejust/126300",
+        "/collections/rolex/datejust/126303",
         "/collections/rolex/datejust/126333",
         "/collections/rolex/datejust/126334"
       ],
@@ -458,6 +459,7 @@
         "/collections/rolex/day-date/128238",
         "/collections/rolex/day-date/228206",
         "/collections/rolex/day-date/228235",
+        "/collections/rolex/day-date/228236",
         "/collections/rolex/day-date/228238",
         "/collections/rolex/day-date/228239"
       ],
@@ -549,7 +551,9 @@
         "/collections/rolex/sky-dweller/336235",
         "/collections/rolex/sky-dweller/336238",
         "/collections/rolex/sky-dweller/336933",
-        "/collections/rolex/sky-dweller/336934"
+        "/collections/rolex/sky-dweller/336934",
+        "/collections/rolex/sky-dweller/336935",
+        "/collections/rolex/sky-dweller/336938"
       ],
       "nextAction": "Select one exact-reference hero from approved reference photography; label the depicted configuration."
     },
@@ -563,6 +567,7 @@
         "/collections/rolex/submariner/126610ln",
         "/collections/rolex/submariner/126610lv",
         "/collections/rolex/submariner/126613lb",
+        "/collections/rolex/submariner/126618lb",
         "/collections/rolex/submariner/126619lb"
       ],
       "nextAction": "Select one exact-reference hero from approved reference photography; label the depicted configuration."
@@ -587,6 +592,7 @@
       "status": "Requires Verification",
       "referenceRoutes": [
         "/collections/tudor/black-bay/79030n",
+        "/collections/tudor/black-bay/m79000n-0001",
         "/collections/tudor/black-bay/m7941a1a0nu"
       ],
       "nextAction": "Select one exact-reference hero from approved reference photography; label the depicted configuration."
@@ -596,6 +602,7 @@
       "heroAssetId": null,
       "status": "Requires Verification",
       "referenceRoutes": [
+        "/collections/tudor/pelagos/m25407n-0001",
         "/collections/tudor/pelagos/m25600tn-0001"
       ],
       "nextAction": "Select one exact-reference hero from approved reference photography; label the depicted configuration."
@@ -625,6 +632,7 @@
       "heroAssetId": null,
       "status": "Requires Verification",
       "referenceRoutes": [
+        "/collections/ulysse-nardin/blast/3713-260-3-03",
         "/collections/ulysse-nardin/blast/blast",
         "/collections/ulysse-nardin/blast/blast-tourbillon"
       ],
@@ -635,6 +643,9 @@
       "heroAssetId": null,
       "status": "Requires Verification",
       "referenceRoutes": [
+        "/collections/ulysse-nardin/diver/1183-170-3-92",
+        "/collections/ulysse-nardin/diver/1183-170-3-93",
+        "/collections/ulysse-nardin/diver/1183-170-7m-92",
         "/collections/ulysse-nardin/diver/diver-chronograph",
         "/collections/ulysse-nardin/diver/diver-x-skeleton",
         "/collections/ulysse-nardin/diver/maxi-marine-diver"
@@ -655,6 +666,9 @@
       "heroAssetId": null,
       "status": "Requires Verification",
       "referenceRoutes": [
+        "/collections/ulysse-nardin/freak/2303-270-03",
+        "/collections/ulysse-nardin/freak/2303-270-1-black",
+        "/collections/ulysse-nardin/freak/2405-500-2a-3a",
         "/collections/ulysse-nardin/freak/freak",
         "/collections/ulysse-nardin/freak/freak-one",
         "/collections/ulysse-nardin/freak/freak-x"
@@ -666,6 +680,9 @@
       "heroAssetId": null,
       "status": "Requires Verification",
       "referenceRoutes": [
+        "/collections/ulysse-nardin/marine/1183-310-3-40",
+        "/collections/ulysse-nardin/marine/1183-310-3a-0a",
+        "/collections/ulysse-nardin/marine/1183-310-40",
         "/collections/ulysse-nardin/marine/marine-chronometer",
         "/collections/ulysse-nardin/marine/marine-torpilleur"
       ],
@@ -753,8 +770,7 @@
       ],
       "material": "Oystersteel / White Gold",
       "sources": [
-        "src/data/assets/rolex-datejust.ts",
-        "src/data/collectionRegistry.ts"
+        "src/data/assets/rolex-datejust.ts"
       ],
       "routes": [
         "/collections/rolex/datejust/126334"
@@ -783,8 +799,7 @@
       ],
       "material": "Oystersteel",
       "sources": [
-        "src/data/assets/rolex-datejust.ts",
-        "src/data/collectionRegistry.ts"
+        "src/data/assets/rolex-datejust.ts"
       ],
       "routes": [
         "/collections/rolex/datejust/126300"
@@ -813,8 +828,7 @@
       ],
       "material": "Yellow Rolesor",
       "sources": [
-        "src/data/assets/rolex-datejust.ts",
-        "src/data/collectionRegistry.ts"
+        "src/data/assets/rolex-datejust.ts"
       ],
       "routes": [
         "/collections/rolex/datejust/126333"
@@ -843,8 +857,7 @@
       ],
       "material": "Oystersteel / White Gold",
       "sources": [
-        "src/data/assets/rolex-datejust.ts",
-        "src/data/collectionRegistry.ts"
+        "src/data/assets/rolex-datejust.ts"
       ],
       "routes": [
         "/collections/rolex/datejust/126234"
@@ -873,8 +886,7 @@
       ],
       "material": "Oystersteel",
       "sources": [
-        "src/data/assets/rolex-datejust.ts",
-        "src/data/collectionRegistry.ts"
+        "src/data/assets/rolex-datejust.ts"
       ],
       "routes": [
         "/collections/rolex/datejust/126200"
@@ -903,8 +915,7 @@
       ],
       "material": "18k Yellow Gold",
       "sources": [
-        "src/data/assets/rolex-day-date.ts",
-        "src/data/collectionRegistry.ts"
+        "src/data/assets/rolex-day-date.ts"
       ],
       "routes": [
         "/collections/rolex/day-date/228238"
@@ -933,8 +944,7 @@
       ],
       "material": "18k White Gold",
       "sources": [
-        "src/data/assets/rolex-day-date.ts",
-        "src/data/collectionRegistry.ts"
+        "src/data/assets/rolex-day-date.ts"
       ],
       "routes": [
         "/collections/rolex/day-date/228239"
@@ -963,8 +973,7 @@
       ],
       "material": "18k Everose Gold",
       "sources": [
-        "src/data/assets/rolex-day-date.ts",
-        "src/data/collectionRegistry.ts"
+        "src/data/assets/rolex-day-date.ts"
       ],
       "routes": [
         "/collections/rolex/day-date/228235"
@@ -993,8 +1002,7 @@
       ],
       "material": "950 Platinum",
       "sources": [
-        "src/data/assets/rolex-day-date.ts",
-        "src/data/collectionRegistry.ts"
+        "src/data/assets/rolex-day-date.ts"
       ],
       "routes": [
         "/collections/rolex/day-date/228206"
@@ -1023,8 +1031,7 @@
       ],
       "material": "18k Yellow Gold",
       "sources": [
-        "src/data/assets/rolex-day-date.ts",
-        "src/data/collectionRegistry.ts"
+        "src/data/assets/rolex-day-date.ts"
       ],
       "routes": [
         "/collections/rolex/day-date/128238"
@@ -1053,8 +1060,7 @@
       ],
       "material": "18k Yellow Gold",
       "sources": [
-        "src/data/assets/rolex-day-date.ts",
-        "src/data/collectionRegistry.ts"
+        "src/data/assets/rolex-day-date.ts"
       ],
       "routes": [
         "/collections/rolex/day-date/118238"
@@ -1083,8 +1089,7 @@
       ],
       "material": "Oystersteel",
       "sources": [
-        "src/data/assets/rolex-daytona.ts",
-        "src/data/collectionRegistry.ts"
+        "src/data/assets/rolex-daytona.ts"
       ],
       "routes": [
         "/collections/rolex/daytona/126500ln"
@@ -1353,8 +1358,7 @@
       ],
       "material": "Oystersteel",
       "sources": [
-        "src/data/assets/rolex-gmt-master-ii.ts",
-        "src/data/collectionRegistry.ts"
+        "src/data/assets/rolex-gmt-master-ii.ts"
       ],
       "routes": [
         "/collections/rolex/gmt-master-ii/126710blnr"
@@ -1383,8 +1387,7 @@
       ],
       "material": "Oystersteel",
       "sources": [
-        "src/data/assets/rolex-gmt-master-ii.ts",
-        "src/data/collectionRegistry.ts"
+        "src/data/assets/rolex-gmt-master-ii.ts"
       ],
       "routes": [
         "/collections/rolex/gmt-master-ii/126720vtnr"
@@ -1575,8 +1578,7 @@
       ],
       "material": "Oystersteel / White Gold",
       "sources": [
-        "src/data/assets/rolex-sky-dweller.ts",
-        "src/data/collectionRegistry.ts"
+        "src/data/assets/rolex-sky-dweller.ts"
       ],
       "routes": [
         "/collections/rolex/sky-dweller/336934"
@@ -1605,8 +1607,7 @@
       ],
       "material": "Yellow Rolesor",
       "sources": [
-        "src/data/assets/rolex-sky-dweller.ts",
-        "src/data/collectionRegistry.ts"
+        "src/data/assets/rolex-sky-dweller.ts"
       ],
       "routes": [
         "/collections/rolex/sky-dweller/336933"
@@ -1635,8 +1636,7 @@
       ],
       "material": "18k Yellow Gold",
       "sources": [
-        "src/data/assets/rolex-sky-dweller.ts",
-        "src/data/collectionRegistry.ts"
+        "src/data/assets/rolex-sky-dweller.ts"
       ],
       "routes": [
         "/collections/rolex/sky-dweller/336238"
@@ -1665,8 +1665,7 @@
       ],
       "material": "18k Everose Gold",
       "sources": [
-        "src/data/assets/rolex-sky-dweller.ts",
-        "src/data/collectionRegistry.ts"
+        "src/data/assets/rolex-sky-dweller.ts"
       ],
       "routes": [
         "/collections/rolex/sky-dweller/336235"
@@ -1695,8 +1694,7 @@
       ],
       "material": "Oystersteel / White Gold",
       "sources": [
-        "src/data/assets/rolex-sky-dweller.ts",
-        "src/data/collectionRegistry.ts"
+        "src/data/assets/rolex-sky-dweller.ts"
       ],
       "routes": [
         "/collections/rolex/sky-dweller/326934"
@@ -1725,8 +1723,7 @@
       ],
       "material": "Oystersteel",
       "sources": [
-        "src/data/assets/rolex-submariner.ts",
-        "src/data/collectionRegistry.ts"
+        "src/data/assets/rolex-submariner.ts"
       ],
       "routes": [
         "/collections/rolex/submariner/126610ln"
@@ -1755,8 +1752,7 @@
       ],
       "material": "Oystersteel",
       "sources": [
-        "src/data/assets/rolex-submariner.ts",
-        "src/data/collectionRegistry.ts"
+        "src/data/assets/rolex-submariner.ts"
       ],
       "routes": [
         "/collections/rolex/submariner/126610lv"
@@ -1815,8 +1811,7 @@
       ],
       "material": "Oystersteel",
       "sources": [
-        "src/data/assets/rolex-submariner.ts",
-        "src/data/collectionRegistry.ts"
+        "src/data/assets/rolex-submariner.ts"
       ],
       "routes": [
         "/collections/rolex/submariner/116610lv"
@@ -1845,8 +1840,7 @@
       ],
       "material": "18k White Gold",
       "sources": [
-        "src/data/assets/rolex-submariner.ts",
-        "src/data/collectionRegistry.ts"
+        "src/data/assets/rolex-submariner.ts"
       ],
       "routes": [
         "/collections/rolex/submariner/126619lb"
@@ -1875,8 +1869,7 @@
       ],
       "material": "Yellow Rolesor",
       "sources": [
-        "src/data/assets/rolex-submariner.ts",
-        "src/data/collectionRegistry.ts"
+        "src/data/assets/rolex-submariner.ts"
       ],
       "routes": [
         "/collections/rolex/submariner/126613lb"
@@ -1911,8 +1904,7 @@
       ],
       "material": "Oystersteel / Platinum",
       "sources": [
-        "src/data/assets/rolex-yacht-master.ts",
-        "src/data/collectionRegistry.ts"
+        "src/data/assets/rolex-yacht-master.ts"
       ],
       "routes": [
         "/collections/rolex/yacht-master/126622"
@@ -1941,8 +1933,7 @@
       ],
       "material": "Everose Rolesor",
       "sources": [
-        "src/data/assets/rolex-yacht-master.ts",
-        "src/data/collectionRegistry.ts"
+        "src/data/assets/rolex-yacht-master.ts"
       ],
       "routes": [
         "/collections/rolex/yacht-master/126621"
@@ -1971,8 +1962,7 @@
       ],
       "material": "18k Everose Gold",
       "sources": [
-        "src/data/assets/rolex-yacht-master.ts",
-        "src/data/collectionRegistry.ts"
+        "src/data/assets/rolex-yacht-master.ts"
       ],
       "routes": [
         "/collections/rolex/yacht-master/126655"
@@ -2001,8 +1991,7 @@
       ],
       "material": "18k White Gold",
       "sources": [
-        "src/data/assets/rolex-yacht-master.ts",
-        "src/data/collectionRegistry.ts"
+        "src/data/assets/rolex-yacht-master.ts"
       ],
       "routes": [
         "/collections/rolex/yacht-master/226659"
@@ -2031,8 +2020,7 @@
       ],
       "material": "18k Yellow Gold",
       "sources": [
-        "src/data/assets/rolex-yacht-master.ts",
-        "src/data/collectionRegistry.ts"
+        "src/data/assets/rolex-yacht-master.ts"
       ],
       "routes": [
         "/collections/rolex/yacht-master/226658"
@@ -2061,8 +2049,7 @@
       ],
       "material": "Oystersteel / Platinum",
       "sources": [
-        "src/data/assets/rolex-yacht-master.ts",
-        "src/data/collectionRegistry.ts"
+        "src/data/assets/rolex-yacht-master.ts"
       ],
       "routes": [
         "/collections/rolex/yacht-master/268622"
@@ -2952,6 +2939,1152 @@
     },
     {
       "brand": "Rolex",
+      "collection": "GMT-Master II",
+      "reference": "126710BLNR",
+      "configurations": [
+        {
+          "nickname": "Batman / Batgirl",
+          "dial": "Black",
+          "bracelet": "Jubilee or Oyster",
+          "originalMSRP": null
+        },
+        {
+          "dial": "Black",
+          "bracelet": "Oyster",
+          "caseSize": "40 mm",
+          "nickname": "Black / Oyster",
+          "originalMSRP": null,
+          "currentMSRP": null
+        },
+        {
+          "dial": "Black",
+          "bracelet": "Jubilee",
+          "caseSize": "40 mm",
+          "nickname": "Black / Jubilee",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "Oystersteel",
+      "sources": [
+        "src/data/collectionRegistry.ts"
+      ],
+      "routes": [
+        "/collections/rolex/gmt-master-ii/126710blnr"
+      ],
+      "scope": "built-reference",
+      "existingImage": "/images/watches/rolex/rolex-gmt-master-ii-126710blnr-oyster-web.webp",
+      "existingImageFilePresent": true,
+      "photoAssetId": "manufacturer-library-1AWywF10BySwcLwkVh_FVcP2QBjisof7W",
+      "status": "approved",
+      "sourceUrl": "https://www.rolex.com/en-us/watches/gmt-master-ii/m126710blnr-0003",
+      "licenseRecord": "Founder confirmed Quest Luxo website-use permission for existing Drive manufacturer photographs on October 13, 2026. Preserved RAW file: 1AWywF10BySwcLwkVh_FVcP2QBjisof7W. Exact configuration reviewed against the official reference and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
+      "brand": "Rolex",
+      "collection": "GMT-Master II",
+      "reference": "126720VTNR",
+      "configurations": [
+        {
+          "nickname": "Sprite",
+          "dial": "Black",
+          "bracelet": "Jubilee or Oyster",
+          "originalMSRP": null
+        },
+        {
+          "dial": "Black",
+          "bracelet": "Jubilee",
+          "caseSize": "40 mm",
+          "nickname": "Black / Jubilee",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "Oystersteel",
+      "sources": [
+        "src/data/collectionRegistry.ts"
+      ],
+      "routes": [
+        "/collections/rolex/gmt-master-ii/126720vtnr"
+      ],
+      "scope": "built-reference",
+      "existingImage": "/images/watches/rolex/rolex-gmt-master-ii-126720vtnr-web.webp",
+      "existingImageFilePresent": true,
+      "photoAssetId": "manufacturer-library-1ONQmo1QvN40zf7K_u8OQ-2Q-ifO8WWwV",
+      "status": "approved",
+      "sourceUrl": "https://www.rolex.com/en-sg/watches/gmt-master-ii/m126720vtnr-0002",
+      "licenseRecord": "Founder confirmed Quest Luxo website-use permission for existing Drive manufacturer photographs on October 13, 2026. Preserved RAW file: 1ONQmo1QvN40zf7K_u8OQ-2Q-ifO8WWwV. Exact configuration reviewed against the official reference and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
+      "brand": "Rolex",
+      "collection": "Daytona",
+      "reference": "126500LN",
+      "configurations": [
+        {
+          "nickname": "Modern Ceramic Daytona",
+          "dial": "White or Black",
+          "bracelet": "Oyster",
+          "originalMSRP": null
+        },
+        {
+          "dial": "White",
+          "bracelet": "Oyster",
+          "caseSize": "40 mm",
+          "nickname": "White / Oyster",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "Oystersteel",
+      "sources": [
+        "src/data/collectionRegistry.ts"
+      ],
+      "routes": [
+        "/collections/rolex/daytona/126500ln"
+      ],
+      "scope": "built-reference",
+      "existingImage": "/images/watches/rolex/rolex-cosmograph-daytona-126500ln-white-dial-web.webp",
+      "existingImageFilePresent": true,
+      "photoAssetId": "manufacturer-library-1SNt_1pPAHb_rOoP8NBHIOeqPVG6gNpeO",
+      "status": "approved",
+      "sourceUrl": "https://www.rolex.com/en-us/watches/cosmograph-daytona/m126500ln-0001",
+      "licenseRecord": "Founder confirmed Quest Luxo website-use permission for existing Drive manufacturer photographs on October 13, 2026. Preserved RAW file: 1SNt_1pPAHb_rOoP8NBHIOeqPVG6gNpeO. Exact configuration reviewed against the official reference and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
+      "brand": "Rolex",
+      "collection": "Submariner",
+      "reference": "126610LN",
+      "configurations": [
+        {
+          "dial": "Black",
+          "bracelet": "Oyster",
+          "caseSize": "41 mm",
+          "nickname": "Black Submariner Date",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "Oystersteel",
+      "sources": [
+        "src/data/collectionRegistry.ts"
+      ],
+      "routes": [
+        "/collections/rolex/submariner/126610ln"
+      ],
+      "scope": "built-reference",
+      "existingImage": "/images/watches/rolex/rolex-submariner-date-126610ln-web.webp",
+      "existingImageFilePresent": true,
+      "photoAssetId": "manufacturer-library-16Cjjd7k3Xhgob5Gki84a3GnJcMziuX59",
+      "status": "approved",
+      "sourceUrl": "https://www.rolex.com/en-us/watches/submariner/m126610ln-0001",
+      "licenseRecord": "Founder confirmed Quest Luxo website-use permission for existing Drive manufacturer photographs on October 13, 2026. Preserved RAW file: 16Cjjd7k3Xhgob5Gki84a3GnJcMziuX59. Exact configuration reviewed against the official reference and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
+      "brand": "Rolex",
+      "collection": "Submariner",
+      "reference": "126610LV",
+      "configurations": [
+        {
+          "dial": "Black",
+          "bracelet": "Oyster",
+          "caseSize": "41 mm",
+          "nickname": "Starbucks",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "Oystersteel",
+      "sources": [
+        "src/data/collectionRegistry.ts"
+      ],
+      "routes": [
+        "/collections/rolex/submariner/126610lv"
+      ],
+      "scope": "built-reference",
+      "existingImage": "/images/watches/rolex/rolex-submariner-date-126610lv-web.webp",
+      "existingImageFilePresent": true,
+      "photoAssetId": "manufacturer-library-1cSYtLb0cCJtkch_yTEgpW4z8pFFPIDQK",
+      "status": "approved",
+      "sourceUrl": "https://www.rolex.com/en-us/watches/submariner/m126610lv-0002",
+      "licenseRecord": "Founder confirmed Quest Luxo website-use permission for existing Drive manufacturer photographs on October 13, 2026. Preserved RAW file: 1cSYtLb0cCJtkch_yTEgpW4z8pFFPIDQK. Exact configuration reviewed against the official reference and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
+      "brand": "Rolex",
+      "collection": "Submariner",
+      "reference": "116610LV",
+      "configurations": [
+        {
+          "nickname": "Hulk",
+          "dial": "Green",
+          "bracelet": "Oyster",
+          "originalMSRP": null
+        }
+      ],
+      "material": "Oystersteel",
+      "sources": [
+        "src/data/collectionRegistry.ts"
+      ],
+      "routes": [
+        "/collections/rolex/submariner/116610lv"
+      ],
+      "scope": "built-reference",
+      "existingImage": "/images/watch-reference-placeholder.svg",
+      "existingImageFilePresent": true,
+      "photoAssetId": null,
+      "status": "Requires Verification",
+      "sourceUrl": null,
+      "licenseRecord": null,
+      "websiteApproved": false,
+      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+    },
+    {
+      "brand": "Rolex",
+      "collection": "Submariner",
+      "reference": "126619LB",
+      "configurations": [
+        {
+          "nickname": "Cookie Monster",
+          "dial": "Black",
+          "bracelet": "White Gold Oyster",
+          "originalMSRP": null
+        }
+      ],
+      "material": "18k White Gold",
+      "sources": [
+        "src/data/collectionRegistry.ts"
+      ],
+      "routes": [
+        "/collections/rolex/submariner/126619lb"
+      ],
+      "scope": "built-reference",
+      "existingImage": "/images/watch-reference-placeholder.svg",
+      "existingImageFilePresent": true,
+      "photoAssetId": null,
+      "status": "Requires Verification",
+      "sourceUrl": null,
+      "licenseRecord": null,
+      "websiteApproved": false,
+      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+    },
+    {
+      "brand": "Rolex",
+      "collection": "Submariner",
+      "reference": "126613LB",
+      "configurations": [
+        {
+          "dial": "Blue",
+          "bracelet": "Two-Tone Oyster",
+          "caseSize": "41 mm",
+          "nickname": "Bluesy",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "Yellow Rolesor",
+      "sources": [
+        "src/data/collectionRegistry.ts"
+      ],
+      "routes": [
+        "/collections/rolex/submariner/126613lb"
+      ],
+      "scope": "built-reference",
+      "existingImage": "/images/watches/rolex/rolex-submariner-date-126613lb-web.webp",
+      "existingImageFilePresent": true,
+      "photoAssetId": "manufacturer-library-1ROtz1H0mpVjmrWjf7Sx51rWZGdoVdDg9",
+      "status": "approved",
+      "sourceUrl": "https://www.rolex.com/en-us/watches/submariner/m126613lb-0002",
+      "licenseRecord": "Founder confirmed Quest Luxo website-use permission for existing Drive manufacturer photographs on October 13, 2026. Preserved RAW file: 1ROtz1H0mpVjmrWjf7Sx51rWZGdoVdDg9. Exact configuration reviewed against the official reference and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
+      "brand": "Rolex",
+      "collection": "Submariner",
+      "reference": "126618LB",
+      "configurations": [
+        {
+          "dial": "Blue",
+          "bracelet": "Gold Oyster",
+          "caseSize": "41 mm",
+          "nickname": "Blue / Gold Oyster",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "18 ct Yellow Gold",
+      "sources": [
+        "src/data/collectionRegistry.ts",
+        "src/data/photography-expansion.ts"
+      ],
+      "routes": [
+        "/collections/rolex/submariner/126618lb"
+      ],
+      "scope": "built-reference",
+      "existingImage": "/images/watches/rolex/rolex-submariner-date-126618lb-web.webp",
+      "existingImageFilePresent": true,
+      "photoAssetId": "manufacturer-library-1WHsQJd3A_sKnDLl5gADMEfKVk4qKMHNT",
+      "status": "approved",
+      "sourceUrl": "https://www.rolex.com/watches/submariner/m126618lb-0002",
+      "licenseRecord": "Founder confirmed Quest Luxo website-use permission for existing Drive manufacturer photographs on October 13, 2026. Preserved RAW file: 1WHsQJd3A_sKnDLl5gADMEfKVk4qKMHNT. Exact configuration reviewed against the official reference and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
+      "brand": "Rolex",
+      "collection": "Datejust",
+      "reference": "126334",
+      "configurations": [
+        {
+          "nickname": "Wimbledon",
+          "dial": "Wimbledon",
+          "bracelet": "Jubilee / Oyster",
+          "originalMSRP": null
+        },
+        {
+          "nickname": "Blue Dial",
+          "dial": "Blue",
+          "bracelet": "Jubilee / Oyster",
+          "originalMSRP": null
+        },
+        {
+          "nickname": "Black Dial",
+          "dial": "Black",
+          "bracelet": "Jubilee / Oyster",
+          "originalMSRP": null
+        },
+        {
+          "dial": "Bright Blue",
+          "bracelet": "Oyster",
+          "caseSize": "41 mm",
+          "nickname": "Bright Blue / Oyster",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "Oystersteel / White Gold",
+      "sources": [
+        "src/data/collectionRegistry.ts"
+      ],
+      "routes": [
+        "/collections/rolex/datejust/126334"
+      ],
+      "scope": "built-reference",
+      "existingImage": "/images/watches/rolex/rolex-datejust-41-126334-bright-blue-oyster-web.webp",
+      "existingImageFilePresent": true,
+      "photoAssetId": "manufacturer-library-1STULSZLuGzQCOhWqkcjXF7g6u4JZGFTe",
+      "status": "approved",
+      "sourceUrl": "https://www.rolex.com/en-us/watches/datejust/m126334-0001",
+      "licenseRecord": "Founder confirmed Quest Luxo website-use permission for existing Drive manufacturer photographs on October 13, 2026. Preserved RAW file: 1STULSZLuGzQCOhWqkcjXF7g6u4JZGFTe. Exact configuration reviewed against the official reference and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
+      "brand": "Rolex",
+      "collection": "Datejust",
+      "reference": "126300",
+      "configurations": [
+        {
+          "nickname": "Smooth Bezel Datejust",
+          "dial": "Multiple Dial Options",
+          "bracelet": "Oyster / Jubilee",
+          "originalMSRP": null
+        },
+        {
+          "dial": "Bright Blue",
+          "bracelet": "Oyster",
+          "caseSize": "41 mm",
+          "nickname": "Bright Blue / Oyster",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "Oystersteel",
+      "sources": [
+        "src/data/collectionRegistry.ts"
+      ],
+      "routes": [
+        "/collections/rolex/datejust/126300"
+      ],
+      "scope": "built-reference",
+      "existingImage": "/images/watches/rolex/rolex-datejust-41-126300-bright-blue-oyster-web.webp",
+      "existingImageFilePresent": true,
+      "photoAssetId": "manufacturer-library-1Laqm2Uvg8ly4lLs33Ph_CqxK6Tif138K",
+      "status": "approved",
+      "sourceUrl": "https://www.rolex.com/en-us/watches/datejust/m126300-0001",
+      "licenseRecord": "Founder confirmed Quest Luxo website-use permission for existing Drive manufacturer photographs on October 13, 2026. Preserved RAW file: 1Laqm2Uvg8ly4lLs33Ph_CqxK6Tif138K. Exact configuration reviewed against the official reference and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
+      "brand": "Rolex",
+      "collection": "Datejust",
+      "reference": "126333",
+      "configurations": [
+        {
+          "nickname": "Two-Tone Datejust",
+          "dial": "Multiple Dial Options",
+          "bracelet": "Jubilee / Oyster",
+          "originalMSRP": null
+        },
+        {
+          "dial": "Silver",
+          "bracelet": "Two-Tone Oyster",
+          "caseSize": "41 mm",
+          "nickname": "Silver / Two-Tone Oyster",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "Yellow Rolesor",
+      "sources": [
+        "src/data/collectionRegistry.ts"
+      ],
+      "routes": [
+        "/collections/rolex/datejust/126333"
+      ],
+      "scope": "built-reference",
+      "existingImage": "/images/watches/rolex/rolex-datejust-41-126333-silver-oyster-web.webp",
+      "existingImageFilePresent": true,
+      "photoAssetId": "manufacturer-library-19sZHcLpPPH09jG_p6PBT-kuILAILy2an",
+      "status": "approved",
+      "sourceUrl": "https://www.rolex.com/en-us/watches/datejust/m126333-0001",
+      "licenseRecord": "Founder confirmed Quest Luxo website-use permission for existing Drive manufacturer photographs on October 13, 2026. Preserved RAW file: 19sZHcLpPPH09jG_p6PBT-kuILAILy2an. Exact configuration reviewed against the official reference and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
+      "brand": "Rolex",
+      "collection": "Datejust",
+      "reference": "126234",
+      "configurations": [
+        {
+          "nickname": "Datejust 36 Fluted",
+          "dial": "Multiple Dial Options",
+          "bracelet": "Jubilee / Oyster",
+          "originalMSRP": null
+        }
+      ],
+      "material": "Oystersteel / White Gold",
+      "sources": [
+        "src/data/collectionRegistry.ts"
+      ],
+      "routes": [
+        "/collections/rolex/datejust/126234"
+      ],
+      "scope": "built-reference",
+      "existingImage": "/images/watch-reference-placeholder.svg",
+      "existingImageFilePresent": true,
+      "photoAssetId": null,
+      "status": "Requires Verification",
+      "sourceUrl": null,
+      "licenseRecord": null,
+      "websiteApproved": false,
+      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+    },
+    {
+      "brand": "Rolex",
+      "collection": "Datejust",
+      "reference": "126200",
+      "configurations": [
+        {
+          "nickname": "Smooth Bezel Datejust 36",
+          "dial": "Multiple Dial Options",
+          "bracelet": "Oyster / Jubilee",
+          "originalMSRP": null
+        }
+      ],
+      "material": "Oystersteel",
+      "sources": [
+        "src/data/collectionRegistry.ts"
+      ],
+      "routes": [
+        "/collections/rolex/datejust/126200"
+      ],
+      "scope": "built-reference",
+      "existingImage": "/images/watch-reference-placeholder.svg",
+      "existingImageFilePresent": true,
+      "photoAssetId": null,
+      "status": "Requires Verification",
+      "sourceUrl": null,
+      "licenseRecord": null,
+      "websiteApproved": false,
+      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+    },
+    {
+      "brand": "Rolex",
+      "collection": "Datejust",
+      "reference": "126303",
+      "configurations": [
+        {
+          "dial": "Silver",
+          "bracelet": "Two-Tone Oyster",
+          "caseSize": "41 mm",
+          "nickname": "Silver / Two-Tone Oyster",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "Yellow Rolesor",
+      "sources": [
+        "src/data/collectionRegistry.ts",
+        "src/data/photography-expansion.ts"
+      ],
+      "routes": [
+        "/collections/rolex/datejust/126303"
+      ],
+      "scope": "built-reference",
+      "existingImage": "/images/watches/rolex/rolex-datejust-41-126303-silver-oyster-web.webp",
+      "existingImageFilePresent": true,
+      "photoAssetId": "manufacturer-library-1Dy2nJl7Eo_RgbODNhZJlCL1EEbmz29e9",
+      "status": "approved",
+      "sourceUrl": "https://www.rolex.com/en-us/watches/datejust/m126303-0001",
+      "licenseRecord": "Founder confirmed Quest Luxo website-use permission for existing Drive manufacturer photographs on October 13, 2026. Preserved RAW file: 1Dy2nJl7Eo_RgbODNhZJlCL1EEbmz29e9. Exact configuration reviewed against the official reference and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
+      "brand": "Rolex",
+      "collection": "Day-Date",
+      "reference": "228238",
+      "configurations": [
+        {
+          "nickname": "Yellow Gold President",
+          "dial": "Multiple Dial Options",
+          "bracelet": "President",
+          "originalMSRP": null
+        }
+      ],
+      "material": "18k Yellow Gold",
+      "sources": [
+        "src/data/collectionRegistry.ts"
+      ],
+      "routes": [
+        "/collections/rolex/day-date/228238"
+      ],
+      "scope": "built-reference",
+      "existingImage": "/images/watch-reference-placeholder.svg",
+      "existingImageFilePresent": true,
+      "photoAssetId": null,
+      "status": "Requires Verification",
+      "sourceUrl": null,
+      "licenseRecord": null,
+      "websiteApproved": false,
+      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+    },
+    {
+      "brand": "Rolex",
+      "collection": "Day-Date",
+      "reference": "228239",
+      "configurations": [
+        {
+          "nickname": "White Gold President",
+          "dial": "Multiple Dial Options",
+          "bracelet": "President",
+          "originalMSRP": null
+        }
+      ],
+      "material": "18k White Gold",
+      "sources": [
+        "src/data/collectionRegistry.ts"
+      ],
+      "routes": [
+        "/collections/rolex/day-date/228239"
+      ],
+      "scope": "built-reference",
+      "existingImage": "/images/watch-reference-placeholder.svg",
+      "existingImageFilePresent": true,
+      "photoAssetId": null,
+      "status": "Requires Verification",
+      "sourceUrl": null,
+      "licenseRecord": null,
+      "websiteApproved": false,
+      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+    },
+    {
+      "brand": "Rolex",
+      "collection": "Day-Date",
+      "reference": "228235",
+      "configurations": [
+        {
+          "nickname": "Everose President",
+          "dial": "Multiple Dial Options",
+          "bracelet": "President",
+          "originalMSRP": null
+        },
+        {
+          "dial": "Chocolate set with diamonds",
+          "bracelet": "President",
+          "caseSize": "40 mm",
+          "nickname": "Chocolate set with diamonds / President",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "18k Everose Gold",
+      "sources": [
+        "src/data/collectionRegistry.ts"
+      ],
+      "routes": [
+        "/collections/rolex/day-date/228235"
+      ],
+      "scope": "built-reference",
+      "existingImage": "/images/watches/rolex/rolex-day-date-40-228235-chocolate-diamond-dial-web.webp",
+      "existingImageFilePresent": true,
+      "photoAssetId": "manufacturer-library-16DYyJCFlXetRWQA3cLfvmrWq_DvXfpBM",
+      "status": "approved",
+      "sourceUrl": "https://www.rolex.com/en-us/watches/day-date/m228235-0003",
+      "licenseRecord": "Founder confirmed Quest Luxo website-use permission for existing Drive manufacturer photographs on October 13, 2026. Preserved RAW file: 16DYyJCFlXetRWQA3cLfvmrWq_DvXfpBM. Exact configuration reviewed against the official reference and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
+      "brand": "Rolex",
+      "collection": "Day-Date",
+      "reference": "228206",
+      "configurations": [
+        {
+          "nickname": "Platinum President",
+          "dial": "Multiple Dial Options",
+          "bracelet": "President",
+          "originalMSRP": null
+        }
+      ],
+      "material": "950 Platinum",
+      "sources": [
+        "src/data/collectionRegistry.ts"
+      ],
+      "routes": [
+        "/collections/rolex/day-date/228206"
+      ],
+      "scope": "built-reference",
+      "existingImage": "/images/watch-reference-placeholder.svg",
+      "existingImageFilePresent": true,
+      "photoAssetId": null,
+      "status": "Requires Verification",
+      "sourceUrl": null,
+      "licenseRecord": null,
+      "websiteApproved": false,
+      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+    },
+    {
+      "brand": "Rolex",
+      "collection": "Day-Date",
+      "reference": "128238",
+      "configurations": [
+        {
+          "nickname": "Yellow Gold Day-Date 36",
+          "dial": "Multiple Dial Options",
+          "bracelet": "President",
+          "originalMSRP": null
+        }
+      ],
+      "material": "18k Yellow Gold",
+      "sources": [
+        "src/data/collectionRegistry.ts"
+      ],
+      "routes": [
+        "/collections/rolex/day-date/128238"
+      ],
+      "scope": "built-reference",
+      "existingImage": "/images/watch-reference-placeholder.svg",
+      "existingImageFilePresent": true,
+      "photoAssetId": null,
+      "status": "Requires Verification",
+      "sourceUrl": null,
+      "licenseRecord": null,
+      "websiteApproved": false,
+      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+    },
+    {
+      "brand": "Rolex",
+      "collection": "Day-Date",
+      "reference": "118238",
+      "configurations": [
+        {
+          "nickname": "Five-Digit Era President",
+          "dial": "Multiple Dial Options",
+          "bracelet": "President",
+          "originalMSRP": null
+        }
+      ],
+      "material": "18k Yellow Gold",
+      "sources": [
+        "src/data/collectionRegistry.ts"
+      ],
+      "routes": [
+        "/collections/rolex/day-date/118238"
+      ],
+      "scope": "built-reference",
+      "existingImage": "/images/watch-reference-placeholder.svg",
+      "existingImageFilePresent": true,
+      "photoAssetId": null,
+      "status": "Requires Verification",
+      "sourceUrl": null,
+      "licenseRecord": null,
+      "websiteApproved": false,
+      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+    },
+    {
+      "brand": "Rolex",
+      "collection": "Day-Date",
+      "reference": "228236",
+      "configurations": [
+        {
+          "dial": "Meteorite set with diamonds",
+          "bracelet": "President",
+          "caseSize": "40 mm",
+          "nickname": "Meteorite set with diamonds / President",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "Platinum",
+      "sources": [
+        "src/data/collectionRegistry.ts",
+        "src/data/photography-expansion.ts"
+      ],
+      "routes": [
+        "/collections/rolex/day-date/228236"
+      ],
+      "scope": "built-reference",
+      "existingImage": "/images/watches/rolex/rolex-day-date-40-228236-platinum-web.webp",
+      "existingImageFilePresent": true,
+      "photoAssetId": "manufacturer-library-1SRefEEDaxumH070vcq-4WP0CBUYOTqR8",
+      "status": "approved",
+      "sourceUrl": "https://www.rolex.com/en-us/watches/day-date/m228236-0011",
+      "licenseRecord": "Founder confirmed Quest Luxo website-use permission for existing Drive manufacturer photographs on October 13, 2026. Preserved RAW file: 1SRefEEDaxumH070vcq-4WP0CBUYOTqR8. Exact configuration reviewed against the official reference and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
+      "brand": "Rolex",
+      "collection": "Sky-Dweller",
+      "reference": "336934",
+      "configurations": [
+        {
+          "nickname": "Blue Dial Sky-Dweller",
+          "dial": "Blue",
+          "bracelet": "Oyster / Jubilee",
+          "originalMSRP": null
+        },
+        {
+          "nickname": "White Dial Sky-Dweller",
+          "dial": "White",
+          "bracelet": "Oyster / Jubilee",
+          "originalMSRP": null
+        },
+        {
+          "nickname": "Black Dial Sky-Dweller",
+          "dial": "Black",
+          "bracelet": "Oyster / Jubilee",
+          "originalMSRP": null
+        },
+        {
+          "dial": "Mint Green",
+          "bracelet": "Oyster",
+          "caseSize": "42 mm",
+          "nickname": "Mint Green / Oyster",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "Oystersteel / White Gold",
+      "sources": [
+        "src/data/collectionRegistry.ts"
+      ],
+      "routes": [
+        "/collections/rolex/sky-dweller/336934"
+      ],
+      "scope": "built-reference",
+      "existingImage": "/images/watches/rolex/rolex-sky-dweller-336934-mint-green-oyster-web.webp",
+      "existingImageFilePresent": true,
+      "photoAssetId": "manufacturer-library-12p8l54ac1w2gv22lTg2Psa2jy8LjyTyn",
+      "status": "approved",
+      "sourceUrl": "https://www.rolex.com/en-us/watches/sky-dweller/m336934-0001",
+      "licenseRecord": "Founder confirmed Quest Luxo website-use permission for existing Drive manufacturer photographs on October 13, 2026. Preserved RAW file: 12p8l54ac1w2gv22lTg2Psa2jy8LjyTyn. Exact configuration reviewed against the official reference and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
+      "brand": "Rolex",
+      "collection": "Sky-Dweller",
+      "reference": "336933",
+      "configurations": [
+        {
+          "nickname": "Yellow Rolesor Sky-Dweller",
+          "dial": "Multiple Dial Options",
+          "bracelet": "Oyster / Jubilee",
+          "originalMSRP": null
+        },
+        {
+          "dial": "Bright Black",
+          "bracelet": "Two-Tone Oyster",
+          "caseSize": "42 mm",
+          "nickname": "Bright Black / Two-Tone Oyster",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "Yellow Rolesor",
+      "sources": [
+        "src/data/collectionRegistry.ts"
+      ],
+      "routes": [
+        "/collections/rolex/sky-dweller/336933"
+      ],
+      "scope": "built-reference",
+      "existingImage": "/images/watches/rolex/rolex-sky-dweller-336933-bright-black-oyster-web.webp",
+      "existingImageFilePresent": true,
+      "photoAssetId": "manufacturer-library-1mz5g7OQ0GnbGTC9XsWlH8IA51OKA-S68",
+      "status": "approved",
+      "sourceUrl": "https://www.rolex.com/en-us/watches/sky-dweller/m336933-0003",
+      "licenseRecord": "Founder confirmed Quest Luxo website-use permission for existing Drive manufacturer photographs on October 13, 2026. Preserved RAW file: 1mz5g7OQ0GnbGTC9XsWlH8IA51OKA-S68. Exact configuration reviewed against the official reference and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
+      "brand": "Rolex",
+      "collection": "Sky-Dweller",
+      "reference": "336238",
+      "configurations": [
+        {
+          "nickname": "Yellow Gold Oysterflex",
+          "dial": "Multiple Dial Options",
+          "bracelet": "Oysterflex",
+          "originalMSRP": null
+        }
+      ],
+      "material": "18k Yellow Gold",
+      "sources": [
+        "src/data/collectionRegistry.ts"
+      ],
+      "routes": [
+        "/collections/rolex/sky-dweller/336238"
+      ],
+      "scope": "built-reference",
+      "existingImage": "/images/watch-reference-placeholder.svg",
+      "existingImageFilePresent": true,
+      "photoAssetId": null,
+      "status": "Requires Verification",
+      "sourceUrl": null,
+      "licenseRecord": null,
+      "websiteApproved": false,
+      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+    },
+    {
+      "brand": "Rolex",
+      "collection": "Sky-Dweller",
+      "reference": "336235",
+      "configurations": [
+        {
+          "nickname": "Everose Gold Sky-Dweller",
+          "dial": "Multiple Dial Options",
+          "bracelet": "Everose Oyster / Oysterflex",
+          "originalMSRP": null
+        }
+      ],
+      "material": "18k Everose Gold",
+      "sources": [
+        "src/data/collectionRegistry.ts"
+      ],
+      "routes": [
+        "/collections/rolex/sky-dweller/336235"
+      ],
+      "scope": "built-reference",
+      "existingImage": "/images/watch-reference-placeholder.svg",
+      "existingImageFilePresent": true,
+      "photoAssetId": null,
+      "status": "Requires Verification",
+      "sourceUrl": null,
+      "licenseRecord": null,
+      "websiteApproved": false,
+      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+    },
+    {
+      "brand": "Rolex",
+      "collection": "Sky-Dweller",
+      "reference": "326934",
+      "configurations": [
+        {
+          "nickname": "Previous Generation Steel Sky-Dweller",
+          "dial": "Multiple Dial Options",
+          "bracelet": "Oyster / Jubilee",
+          "originalMSRP": null
+        }
+      ],
+      "material": "Oystersteel / White Gold",
+      "sources": [
+        "src/data/collectionRegistry.ts"
+      ],
+      "routes": [
+        "/collections/rolex/sky-dweller/326934"
+      ],
+      "scope": "built-reference",
+      "existingImage": "/images/watch-reference-placeholder.svg",
+      "existingImageFilePresent": true,
+      "photoAssetId": null,
+      "status": "Requires Verification",
+      "sourceUrl": null,
+      "licenseRecord": null,
+      "websiteApproved": false,
+      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+    },
+    {
+      "brand": "Rolex",
+      "collection": "Sky-Dweller",
+      "reference": "336938",
+      "configurations": [
+        {
+          "dial": "Intense White",
+          "bracelet": "Gold Oyster",
+          "caseSize": "42 mm",
+          "nickname": "Intense White / Gold Oyster",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "18 ct Yellow Gold",
+      "sources": [
+        "src/data/collectionRegistry.ts",
+        "src/data/photography-expansion.ts"
+      ],
+      "routes": [
+        "/collections/rolex/sky-dweller/336938"
+      ],
+      "scope": "built-reference",
+      "existingImage": "/images/watches/rolex/rolex-sky-dweller-336938-intense-white-oyster-web.webp",
+      "existingImageFilePresent": true,
+      "photoAssetId": "manufacturer-library-1p-TMTT6dNw9eyBjQFvTd0BlWDT4UFSOM",
+      "status": "approved",
+      "sourceUrl": "https://www.rolex.com/en-us/watches/sky-dweller/m336938-0003",
+      "licenseRecord": "Founder confirmed Quest Luxo website-use permission for existing Drive manufacturer photographs on October 13, 2026. Preserved RAW file: 1p-TMTT6dNw9eyBjQFvTd0BlWDT4UFSOM. Exact configuration reviewed against the official reference and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
+      "brand": "Rolex",
+      "collection": "Sky-Dweller",
+      "reference": "336935",
+      "configurations": [
+        {
+          "dial": "Intense White",
+          "bracelet": "Gold Jubilee",
+          "caseSize": "42 mm",
+          "nickname": "Intense White / Gold Jubilee",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "18 ct Everose Gold",
+      "sources": [
+        "src/data/collectionRegistry.ts",
+        "src/data/photography-expansion.ts"
+      ],
+      "routes": [
+        "/collections/rolex/sky-dweller/336935"
+      ],
+      "scope": "built-reference",
+      "existingImage": "/images/watches/rolex/rolex-sky-dweller-336935-intense-white-jubilee-web.webp",
+      "existingImageFilePresent": true,
+      "photoAssetId": "manufacturer-library-1FDVc5ijQS4ASFWl1tG-aedw3iIysDZNy",
+      "status": "approved",
+      "sourceUrl": "https://www.rolex.com/en-us/watches/sky-dweller/m336935-0007",
+      "licenseRecord": "Founder confirmed Quest Luxo website-use permission for existing Drive manufacturer photographs on October 13, 2026. Preserved RAW file: 1FDVc5ijQS4ASFWl1tG-aedw3iIysDZNy. Exact configuration reviewed against the official reference and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
+      "brand": "Rolex",
+      "collection": "Yacht-Master",
+      "reference": "126622",
+      "configurations": [
+        {
+          "nickname": "Rhodium Dial",
+          "dial": "Slate / Rhodium",
+          "bracelet": "Oyster",
+          "originalMSRP": null
+        },
+        {
+          "nickname": "Blue Dial",
+          "dial": "Blue",
+          "bracelet": "Oyster",
+          "originalMSRP": null
+        }
+      ],
+      "material": "Oystersteel / Platinum",
+      "sources": [
+        "src/data/collectionRegistry.ts"
+      ],
+      "routes": [
+        "/collections/rolex/yacht-master/126622"
+      ],
+      "scope": "built-reference",
+      "existingImage": "/images/watch-reference-placeholder.svg",
+      "existingImageFilePresent": true,
+      "photoAssetId": null,
+      "status": "Requires Verification",
+      "sourceUrl": null,
+      "licenseRecord": null,
+      "websiteApproved": false,
+      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+    },
+    {
+      "brand": "Rolex",
+      "collection": "Yacht-Master",
+      "reference": "126621",
+      "configurations": [
+        {
+          "nickname": "Everose Rolesor Yacht-Master",
+          "dial": "Multiple Dial Options",
+          "bracelet": "Oyster",
+          "originalMSRP": null
+        }
+      ],
+      "material": "Everose Rolesor",
+      "sources": [
+        "src/data/collectionRegistry.ts"
+      ],
+      "routes": [
+        "/collections/rolex/yacht-master/126621"
+      ],
+      "scope": "built-reference",
+      "existingImage": "/images/watch-reference-placeholder.svg",
+      "existingImageFilePresent": true,
+      "photoAssetId": null,
+      "status": "Requires Verification",
+      "sourceUrl": null,
+      "licenseRecord": null,
+      "websiteApproved": false,
+      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+    },
+    {
+      "brand": "Rolex",
+      "collection": "Yacht-Master",
+      "reference": "126655",
+      "configurations": [
+        {
+          "nickname": "Everose Oysterflex",
+          "dial": "Black",
+          "bracelet": "Oysterflex",
+          "originalMSRP": null
+        }
+      ],
+      "material": "18k Everose Gold",
+      "sources": [
+        "src/data/collectionRegistry.ts"
+      ],
+      "routes": [
+        "/collections/rolex/yacht-master/126655"
+      ],
+      "scope": "built-reference",
+      "existingImage": "/images/watch-reference-placeholder.svg",
+      "existingImageFilePresent": true,
+      "photoAssetId": null,
+      "status": "Requires Verification",
+      "sourceUrl": null,
+      "licenseRecord": null,
+      "websiteApproved": false,
+      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+    },
+    {
+      "brand": "Rolex",
+      "collection": "Yacht-Master",
+      "reference": "226659",
+      "configurations": [
+        {
+          "nickname": "White Gold Oysterflex",
+          "dial": "Black",
+          "bracelet": "Oysterflex",
+          "originalMSRP": null
+        }
+      ],
+      "material": "18k White Gold",
+      "sources": [
+        "src/data/collectionRegistry.ts"
+      ],
+      "routes": [
+        "/collections/rolex/yacht-master/226659"
+      ],
+      "scope": "built-reference",
+      "existingImage": "/images/watch-reference-placeholder.svg",
+      "existingImageFilePresent": true,
+      "photoAssetId": null,
+      "status": "Requires Verification",
+      "sourceUrl": null,
+      "licenseRecord": null,
+      "websiteApproved": false,
+      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+    },
+    {
+      "brand": "Rolex",
+      "collection": "Yacht-Master",
+      "reference": "226658",
+      "configurations": [
+        {
+          "nickname": "Yellow Gold Oysterflex",
+          "dial": "Black",
+          "bracelet": "Oysterflex",
+          "originalMSRP": null
+        }
+      ],
+      "material": "18k Yellow Gold",
+      "sources": [
+        "src/data/collectionRegistry.ts"
+      ],
+      "routes": [
+        "/collections/rolex/yacht-master/226658"
+      ],
+      "scope": "built-reference",
+      "existingImage": "/images/watch-reference-placeholder.svg",
+      "existingImageFilePresent": true,
+      "photoAssetId": null,
+      "status": "Requires Verification",
+      "sourceUrl": null,
+      "licenseRecord": null,
+      "websiteApproved": false,
+      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+    },
+    {
+      "brand": "Rolex",
+      "collection": "Yacht-Master",
+      "reference": "268622",
+      "configurations": [
+        {
+          "nickname": "Rolesium Yacht-Master 37",
+          "dial": "Multiple Dial Options",
+          "bracelet": "Oyster",
+          "originalMSRP": null
+        }
+      ],
+      "material": "Oystersteel / Platinum",
+      "sources": [
+        "src/data/collectionRegistry.ts"
+      ],
+      "routes": [
+        "/collections/rolex/yacht-master/268622"
+      ],
+      "scope": "built-reference",
+      "existingImage": "/images/watch-reference-placeholder.svg",
+      "existingImageFilePresent": true,
+      "photoAssetId": null,
+      "status": "Requires Verification",
+      "sourceUrl": null,
+      "licenseRecord": null,
+      "websiteApproved": false,
+      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+    },
+    {
+      "brand": "Rolex",
       "collection": "Explorer",
       "reference": "224270",
       "configurations": [
@@ -3703,6 +4836,38 @@
       "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
     },
     {
+      "brand": "Tudor",
+      "collection": "Black Bay",
+      "reference": "M79000N-0001",
+      "configurations": [
+        {
+          "dial": "Black",
+          "bracelet": "Stainless-steel bracelet",
+          "caseSize": "37 mm",
+          "nickname": "Black / Stainless-steel bracelet",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "Stainless Steel",
+      "sources": [
+        "src/data/collectionRegistry.ts",
+        "src/data/photography-expansion.ts"
+      ],
+      "routes": [
+        "/collections/tudor/black-bay/m79000n-0001"
+      ],
+      "scope": "built-reference",
+      "existingImage": "/images/watches/tudor/tudor-black-bay-54-m79000n-0001-web.webp",
+      "existingImageFilePresent": true,
+      "photoAssetId": "manufacturer-library-1OSmR4Gvl5ZC50CNYyPVAUcUssYFA6lmQ",
+      "status": "approved",
+      "sourceUrl": "https://www.tudorwatch.com/en/watches/black-bay-54/m79000n-0001",
+      "licenseRecord": "Founder confirmed Quest Luxo website-use permission for existing Drive manufacturer photographs on October 13, 2026. Preserved RAW file: 1OSmR4Gvl5ZC50CNYyPVAUcUssYFA6lmQ. Exact configuration reviewed against the official reference and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
       "brand": "Panerai",
       "collection": "Luminor",
       "reference": "PAM01312",
@@ -3913,6 +5078,108 @@
       "licenseRecord": null,
       "websiteApproved": false,
       "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+    },
+    {
+      "brand": "Ulysse Nardin",
+      "collection": "Freak",
+      "reference": "2303-270/03",
+      "configurations": [
+        {
+          "dial": "Blue movement display (no conventional dial)",
+          "bracelet": "Blue alligator strap",
+          "caseSize": "43 mm",
+          "movement": "UN-230 self-winding",
+          "waterResistance": "50 m",
+          "nickname": "Blue movement display (no conventional dial) / Blue alligator strap",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "Titanium / blue PVD",
+      "sources": [
+        "src/data/collectionRegistry.ts",
+        "src/data/photography-expansion.ts"
+      ],
+      "routes": [
+        "/collections/ulysse-nardin/freak/2303-270-03"
+      ],
+      "scope": "built-reference",
+      "existingImage": "/images/watches/ulysse-nardin/ulysse-nardin-freak-x-ti-blue-2303-270-03-web.webp",
+      "existingImageFilePresent": true,
+      "photoAssetId": "manufacturer-library-1-ph8KGUe0R-SuqDVx2zQBQsWXp_F-cQv",
+      "status": "approved",
+      "sourceUrl": "https://www.ulysse-nardin.com/watches/freak/2303-270-03",
+      "licenseRecord": "Founder confirmed Quest Luxo website-use permission for existing Drive manufacturer photographs on October 13, 2026. Preserved RAW file: 1-ph8KGUe0R-SuqDVx2zQBQsWXp_F-cQv. Exact configuration reviewed against the official reference and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
+      "brand": "Ulysse Nardin",
+      "collection": "Freak",
+      "reference": "2303-270.1/BLACK",
+      "configurations": [
+        {
+          "dial": "Black movement display (no conventional dial)",
+          "bracelet": "Black openwork calf leather strap",
+          "caseSize": "43 mm",
+          "movement": "UN-230 self-winding",
+          "waterResistance": "50 m",
+          "nickname": "Black movement display (no conventional dial) / Black openwork calf leather strap",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "Titanium / black PVD",
+      "sources": [
+        "src/data/collectionRegistry.ts",
+        "src/data/photography-expansion.ts"
+      ],
+      "routes": [
+        "/collections/ulysse-nardin/freak/2303-270-1-black"
+      ],
+      "scope": "built-reference",
+      "existingImage": "/images/watches/ulysse-nardin/ulysse-nardin-freak-x-ti-black-2303-270-1-black-web.webp",
+      "existingImageFilePresent": true,
+      "photoAssetId": "manufacturer-library-1p27ygHSb39fVRGnRS1b8LZXrmyAJKuVH",
+      "status": "approved",
+      "sourceUrl": "https://www.ulysse-nardin.com/watches/freak/2303-270-1-black",
+      "licenseRecord": "Founder confirmed Quest Luxo website-use permission for existing Drive manufacturer photographs on October 13, 2026. Preserved RAW file: 1p27ygHSb39fVRGnRS1b8LZXrmyAJKuVH. Exact configuration reviewed against the official reference and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
+      "brand": "Ulysse Nardin",
+      "collection": "Freak",
+      "reference": "2405-500-2A/3A",
+      "configurations": [
+        {
+          "dial": "Movement display (no conventional dial)",
+          "bracelet": "Black rubber strap",
+          "caseSize": "44 mm",
+          "movement": "UN-240 self-winding",
+          "waterResistance": "30 m",
+          "nickname": "Movement display (no conventional dial) / Black rubber strap",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "Titanium / 18 ct gold",
+      "sources": [
+        "src/data/collectionRegistry.ts",
+        "src/data/photography-expansion.ts"
+      ],
+      "routes": [
+        "/collections/ulysse-nardin/freak/2405-500-2a-3a"
+      ],
+      "scope": "built-reference",
+      "existingImage": "/images/watches/ulysse-nardin/ulysse-nardin-freak-one-2405-500-2a-3a-web.webp",
+      "existingImageFilePresent": true,
+      "photoAssetId": "manufacturer-library-1C5mhNWxyqD6s9gR92Zk8JOh1AZAfbXqg",
+      "status": "approved",
+      "sourceUrl": "https://www.ulysse-nardin.com/en-eu/watches/freak/2405-500-2a-3a",
+      "licenseRecord": "Founder confirmed Quest Luxo website-use permission for existing Drive manufacturer photographs on October 13, 2026. Preserved RAW file: 1C5mhNWxyqD6s9gR92Zk8JOh1AZAfbXqg. Exact configuration reviewed against the official reference and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
     },
     {
       "brand": "Franck Muller",
@@ -5063,6 +6330,108 @@
     },
     {
       "brand": "Ulysse Nardin",
+      "collection": "Marine",
+      "reference": "1183-310/40",
+      "configurations": [
+        {
+          "dial": "White lacquered, Roman numerals",
+          "bracelet": "Black alligator strap",
+          "caseSize": "42 mm",
+          "movement": "UN-118 self-winding",
+          "waterResistance": "50 m",
+          "nickname": "White lacquered, Roman numerals / Black alligator strap",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "Stainless steel",
+      "sources": [
+        "src/data/collectionRegistry.ts",
+        "src/data/photography-expansion.ts"
+      ],
+      "routes": [
+        "/collections/ulysse-nardin/marine/1183-310-40"
+      ],
+      "scope": "built-reference",
+      "existingImage": "/images/watches/ulysse-nardin/ulysse-nardin-marine-torpilleur-1183-310-40-web.webp",
+      "existingImageFilePresent": true,
+      "photoAssetId": "manufacturer-library-1IYW4HtcVmrLJN2Isi1S9A3-2aL5RDTyd",
+      "status": "approved",
+      "sourceUrl": "https://www.ulysse-nardin.com/en-us/watches/marine/1183-310-40",
+      "licenseRecord": "Founder confirmed Quest Luxo website-use permission for existing Drive manufacturer photographs on October 13, 2026. Preserved RAW file: 1IYW4HtcVmrLJN2Isi1S9A3-2aL5RDTyd. Exact configuration reviewed against the official reference and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
+      "brand": "Ulysse Nardin",
+      "collection": "Marine",
+      "reference": "1183-310-3A/0A",
+      "configurations": [
+        {
+          "dial": "Blue, Roman numerals",
+          "bracelet": "Blue fabric strap",
+          "caseSize": "42 mm",
+          "movement": "UN-118 self-winding",
+          "waterResistance": "50 m",
+          "nickname": "Blue, Roman numerals / Blue fabric strap",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "Stainless steel",
+      "sources": [
+        "src/data/collectionRegistry.ts",
+        "src/data/photography-expansion.ts"
+      ],
+      "routes": [
+        "/collections/ulysse-nardin/marine/1183-310-3a-0a"
+      ],
+      "scope": "built-reference",
+      "existingImage": "/images/watches/ulysse-nardin/ulysse-nardin-marine-torpilleur-1183-310-3a-0a-web.webp",
+      "existingImageFilePresent": true,
+      "photoAssetId": "manufacturer-library-1bqXVSvbjP7LBpOzfiwAjaX4hwZZMzMMt",
+      "status": "approved",
+      "sourceUrl": "https://www.ulysse-nardin.com/en-us/watches/marine/1183-310-3a-0a",
+      "licenseRecord": "Founder confirmed Quest Luxo website-use permission for existing Drive manufacturer photographs on October 13, 2026. Preserved RAW file: 1bqXVSvbjP7LBpOzfiwAjaX4hwZZMzMMt. Exact configuration reviewed against the official reference and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
+      "brand": "Ulysse Nardin",
+      "collection": "Marine",
+      "reference": "1183-310-3/40",
+      "configurations": [
+        {
+          "dial": "White lacquered, Roman numerals",
+          "bracelet": "Black rubber / titanium strap",
+          "caseSize": "42 mm",
+          "movement": "UN-118 self-winding",
+          "waterResistance": "50 m",
+          "nickname": "White lacquered, Roman numerals / Black rubber / titanium strap",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "Stainless steel",
+      "sources": [
+        "src/data/collectionRegistry.ts",
+        "src/data/photography-expansion.ts"
+      ],
+      "routes": [
+        "/collections/ulysse-nardin/marine/1183-310-3-40"
+      ],
+      "scope": "built-reference",
+      "existingImage": "/images/watches/ulysse-nardin/ulysse-nardin-marine-torpilleur-1183-310-3-40-web.webp",
+      "existingImageFilePresent": true,
+      "photoAssetId": "manufacturer-library-1HKNMW-64_XvfEkrBr8Y1E7TGqrd4DwmR",
+      "status": "approved",
+      "sourceUrl": "https://www.ulysse-nardin.com/en-us/watches/marine/1183-310-3-40",
+      "licenseRecord": "Founder confirmed Quest Luxo website-use permission for existing Drive manufacturer photographs on October 13, 2026. Preserved RAW file: 1HKNMW-64_XvfEkrBr8Y1E7TGqrd4DwmR. Exact configuration reviewed against the official reference and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
+      "brand": "Ulysse Nardin",
       "collection": "Diver",
       "reference": "Diver Chronograph",
       "configurations": [
@@ -5156,6 +6525,108 @@
       "licenseRecord": null,
       "websiteApproved": false,
       "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+    },
+    {
+      "brand": "Ulysse Nardin",
+      "collection": "Diver",
+      "reference": "1183-170-7M/92",
+      "configurations": [
+        {
+          "dial": "Black",
+          "bracelet": "Titanium bracelet",
+          "caseSize": "44 mm",
+          "movement": "UN-118 self-winding",
+          "waterResistance": "300 m",
+          "nickname": "Black / Titanium bracelet",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "Titanium",
+      "sources": [
+        "src/data/collectionRegistry.ts",
+        "src/data/photography-expansion.ts"
+      ],
+      "routes": [
+        "/collections/ulysse-nardin/diver/1183-170-7m-92"
+      ],
+      "scope": "built-reference",
+      "existingImage": "/images/watches/ulysse-nardin/ulysse-nardin-diver-44-1183-170-7m-92-web.webp",
+      "existingImageFilePresent": true,
+      "photoAssetId": "manufacturer-library-1WHwOSoIXGgOfqkrkPOnPYY2tPdK8bBJl",
+      "status": "approved",
+      "sourceUrl": "https://www.ulysse-nardin.com/en-sg/watches/diver/1183-170-7m-92",
+      "licenseRecord": "Founder confirmed Quest Luxo website-use permission for existing Drive manufacturer photographs on October 13, 2026. Preserved RAW file: 1WHwOSoIXGgOfqkrkPOnPYY2tPdK8bBJl. Exact configuration reviewed against the official reference and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
+      "brand": "Ulysse Nardin",
+      "collection": "Diver",
+      "reference": "1183-170-3/93",
+      "configurations": [
+        {
+          "dial": "Blue",
+          "bracelet": "Blue rubber / titanium strap",
+          "caseSize": "44 mm",
+          "movement": "UN-118 self-winding",
+          "waterResistance": "300 m",
+          "nickname": "Blue / Blue rubber / titanium strap",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "Titanium",
+      "sources": [
+        "src/data/collectionRegistry.ts",
+        "src/data/photography-expansion.ts"
+      ],
+      "routes": [
+        "/collections/ulysse-nardin/diver/1183-170-3-93"
+      ],
+      "scope": "built-reference",
+      "existingImage": "/images/watches/ulysse-nardin/ulysse-nardin-diver-44-1183-170-3-93-web.webp",
+      "existingImageFilePresent": true,
+      "photoAssetId": "manufacturer-library-1Shwn23mWZsg9e9SXFBtMSyiVovHMwtON",
+      "status": "approved",
+      "sourceUrl": "https://www.ulysse-nardin.com/en-us/watches/diver/1183-170-3-93",
+      "licenseRecord": "Founder confirmed Quest Luxo website-use permission for existing Drive manufacturer photographs on October 13, 2026. Preserved RAW file: 1Shwn23mWZsg9e9SXFBtMSyiVovHMwtON. Exact configuration reviewed against the official reference and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
+      "brand": "Ulysse Nardin",
+      "collection": "Diver",
+      "reference": "1183-170-3/92",
+      "configurations": [
+        {
+          "dial": "Black",
+          "bracelet": "Black rubber / titanium strap",
+          "caseSize": "44 mm",
+          "movement": "UN-118 self-winding",
+          "waterResistance": "300 m",
+          "nickname": "Black / Black rubber / titanium strap",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "Titanium",
+      "sources": [
+        "src/data/collectionRegistry.ts",
+        "src/data/photography-expansion.ts"
+      ],
+      "routes": [
+        "/collections/ulysse-nardin/diver/1183-170-3-92"
+      ],
+      "scope": "built-reference",
+      "existingImage": "/images/watches/ulysse-nardin/ulysse-nardin-diver-44-1183-170-3-92-web.webp",
+      "existingImageFilePresent": true,
+      "photoAssetId": "manufacturer-library-1EjTQI0yV6tQXCOyuFUjaSLbJ0CAj28vF",
+      "status": "approved",
+      "sourceUrl": "https://www.ulysse-nardin.com/en-gb/watches/diver/1183-170-3-92",
+      "licenseRecord": "Founder confirmed Quest Luxo website-use permission for existing Drive manufacturer photographs on October 13, 2026. Preserved RAW file: 1EjTQI0yV6tQXCOyuFUjaSLbJ0CAj28vF. Exact configuration reviewed against the official reference and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
     },
     {
       "brand": "Ulysse Nardin",
@@ -5255,6 +6726,40 @@
     },
     {
       "brand": "Ulysse Nardin",
+      "collection": "Blast",
+      "reference": "3713-260-3/03",
+      "configurations": [
+        {
+          "dial": "Skeletonized movement display",
+          "bracelet": "Blue rubber strap",
+          "caseSize": "42 mm",
+          "movement": "UN-371 manual-winding",
+          "waterResistance": "50 m",
+          "nickname": "Skeletonized movement display / Blue rubber strap",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "Titanium",
+      "sources": [
+        "src/data/collectionRegistry.ts",
+        "src/data/photography-expansion.ts"
+      ],
+      "routes": [
+        "/collections/ulysse-nardin/blast/3713-260-3-03"
+      ],
+      "scope": "built-reference",
+      "existingImage": "/images/watches/ulysse-nardin/ulysse-nardin-blast-skeleton-x-3713-260-3-03-web.webp",
+      "existingImageFilePresent": true,
+      "photoAssetId": "manufacturer-library-1JdZm5Mww0bDFORYUozO37TtET0RgvW6k",
+      "status": "approved",
+      "sourceUrl": "https://www.ulysse-nardin.com/watches/blast/3713-260-3-03",
+      "licenseRecord": "Founder confirmed Quest Luxo website-use permission for existing Drive manufacturer photographs on October 13, 2026. Preserved RAW file: 1JdZm5Mww0bDFORYUozO37TtET0RgvW6k. Exact configuration reviewed against the official reference and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
+      "brand": "Ulysse Nardin",
       "collection": "Moonstruck",
       "reference": "Moonstruck",
       "configurations": [
@@ -5350,6 +6855,38 @@
       "licenseRecord": null,
       "websiteApproved": false,
       "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+    },
+    {
+      "brand": "Tudor",
+      "collection": "Pelagos",
+      "reference": "M25407N-0001",
+      "configurations": [
+        {
+          "dial": "Black",
+          "bracelet": "Titanium bracelet",
+          "caseSize": "39 mm",
+          "nickname": "Black / Titanium bracelet",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "Titanium",
+      "sources": [
+        "src/data/collectionRegistry.ts",
+        "src/data/photography-expansion.ts"
+      ],
+      "routes": [
+        "/collections/tudor/pelagos/m25407n-0001"
+      ],
+      "scope": "built-reference",
+      "existingImage": "/images/watches/tudor/tudor-pelagos-39-m25407n-0001-web.webp",
+      "existingImageFilePresent": true,
+      "photoAssetId": "manufacturer-library-14tErGD4-qbFiVwt7p_10ZwNfVdIB1HYS",
+      "status": "approved",
+      "sourceUrl": "https://www.tudorwatch.com/en/watches/pelagos/m25407n-0001",
+      "licenseRecord": "Founder confirmed Quest Luxo website-use permission for existing Drive manufacturer photographs on October 13, 2026. Preserved RAW file: 14tErGD4-qbFiVwt7p_10ZwNfVdIB1HYS. Exact configuration reviewed against the official reference and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
     },
     {
       "brand": "Breitling",
@@ -6186,6 +7723,386 @@
       "licenseRecord": null,
       "websiteApproved": false,
       "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+    },
+    {
+      "brand": "Rolex",
+      "collection": "Submariner",
+      "reference": "126613LB",
+      "configurations": [
+        {
+          "dial": "Blue",
+          "bracelet": "Two-Tone Oyster",
+          "caseSize": "41 mm",
+          "nickname": "Blue / Two-Tone Oyster",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "Yellow Rolesor",
+      "sources": [
+        "src/data/photography-expansion.ts"
+      ],
+      "routes": [
+        "/collections/rolex/submariner/126613lb"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": "manufacturer-library-1ROtz1H0mpVjmrWjf7Sx51rWZGdoVdDg9",
+      "status": "approved",
+      "sourceUrl": "https://www.rolex.com/en-us/watches/submariner/m126613lb-0002",
+      "licenseRecord": "Founder confirmed Quest Luxo website-use permission for existing Drive manufacturer photographs on October 13, 2026. Preserved RAW file: 1ROtz1H0mpVjmrWjf7Sx51rWZGdoVdDg9. Exact configuration reviewed against the official reference and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
+      "brand": "Rolex",
+      "collection": "Submariner",
+      "reference": "126610LV",
+      "configurations": [
+        {
+          "dial": "Black",
+          "bracelet": "Oyster",
+          "caseSize": "41 mm",
+          "nickname": "Black / Oyster",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "Oystersteel",
+      "sources": [
+        "src/data/photography-expansion.ts"
+      ],
+      "routes": [
+        "/collections/rolex/submariner/126610lv"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": "manufacturer-library-1cSYtLb0cCJtkch_yTEgpW4z8pFFPIDQK",
+      "status": "approved",
+      "sourceUrl": "https://www.rolex.com/en-us/watches/submariner/m126610lv-0002",
+      "licenseRecord": "Founder confirmed Quest Luxo website-use permission for existing Drive manufacturer photographs on October 13, 2026. Preserved RAW file: 1cSYtLb0cCJtkch_yTEgpW4z8pFFPIDQK. Exact configuration reviewed against the official reference and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
+      "brand": "Rolex",
+      "collection": "Submariner",
+      "reference": "126610LN",
+      "configurations": [
+        {
+          "dial": "Black",
+          "bracelet": "Oyster",
+          "caseSize": "41 mm",
+          "nickname": "Black / Oyster",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "Oystersteel",
+      "sources": [
+        "src/data/photography-expansion.ts"
+      ],
+      "routes": [
+        "/collections/rolex/submariner/126610ln"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": "manufacturer-library-16Cjjd7k3Xhgob5Gki84a3GnJcMziuX59",
+      "status": "approved",
+      "sourceUrl": "https://www.rolex.com/en-us/watches/submariner/m126610ln-0001",
+      "licenseRecord": "Founder confirmed Quest Luxo website-use permission for existing Drive manufacturer photographs on October 13, 2026. Preserved RAW file: 16Cjjd7k3Xhgob5Gki84a3GnJcMziuX59. Exact configuration reviewed against the official reference and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
+      "brand": "Rolex",
+      "collection": "Sky-Dweller",
+      "reference": "336934",
+      "configurations": [
+        {
+          "dial": "Mint Green",
+          "bracelet": "Oyster",
+          "caseSize": "42 mm",
+          "nickname": "Mint Green / Oyster",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "Oystersteel / White Gold",
+      "sources": [
+        "src/data/photography-expansion.ts"
+      ],
+      "routes": [
+        "/collections/rolex/sky-dweller/336934"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": "manufacturer-library-12p8l54ac1w2gv22lTg2Psa2jy8LjyTyn",
+      "status": "approved",
+      "sourceUrl": "https://www.rolex.com/en-us/watches/sky-dweller/m336934-0001",
+      "licenseRecord": "Founder confirmed Quest Luxo website-use permission for existing Drive manufacturer photographs on October 13, 2026. Preserved RAW file: 12p8l54ac1w2gv22lTg2Psa2jy8LjyTyn. Exact configuration reviewed against the official reference and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
+      "brand": "Rolex",
+      "collection": "Sky-Dweller",
+      "reference": "336933",
+      "configurations": [
+        {
+          "dial": "Bright Black",
+          "bracelet": "Two-Tone Oyster",
+          "caseSize": "42 mm",
+          "nickname": "Bright Black / Two-Tone Oyster",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "Yellow Rolesor",
+      "sources": [
+        "src/data/photography-expansion.ts"
+      ],
+      "routes": [
+        "/collections/rolex/sky-dweller/336933"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": "manufacturer-library-1mz5g7OQ0GnbGTC9XsWlH8IA51OKA-S68",
+      "status": "approved",
+      "sourceUrl": "https://www.rolex.com/en-us/watches/sky-dweller/m336933-0003",
+      "licenseRecord": "Founder confirmed Quest Luxo website-use permission for existing Drive manufacturer photographs on October 13, 2026. Preserved RAW file: 1mz5g7OQ0GnbGTC9XsWlH8IA51OKA-S68. Exact configuration reviewed against the official reference and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
+      "brand": "Rolex",
+      "collection": "GMT-Master II",
+      "reference": "126720VTNR",
+      "configurations": [
+        {
+          "dial": "Black",
+          "bracelet": "Jubilee",
+          "caseSize": "40 mm",
+          "nickname": "Black / Jubilee",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "Oystersteel",
+      "sources": [
+        "src/data/photography-expansion.ts"
+      ],
+      "routes": [
+        "/collections/rolex/gmt-master-ii/126720vtnr"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": "manufacturer-library-1ONQmo1QvN40zf7K_u8OQ-2Q-ifO8WWwV",
+      "status": "approved",
+      "sourceUrl": "https://www.rolex.com/en-sg/watches/gmt-master-ii/m126720vtnr-0002",
+      "licenseRecord": "Founder confirmed Quest Luxo website-use permission for existing Drive manufacturer photographs on October 13, 2026. Preserved RAW file: 1ONQmo1QvN40zf7K_u8OQ-2Q-ifO8WWwV. Exact configuration reviewed against the official reference and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
+      "brand": "Rolex",
+      "collection": "GMT-Master II",
+      "reference": "126710BLNR",
+      "configurations": [
+        {
+          "dial": "Black",
+          "bracelet": "Oyster",
+          "caseSize": "40 mm",
+          "nickname": "Black / Oyster",
+          "originalMSRP": null,
+          "currentMSRP": null
+        },
+        {
+          "dial": "Black",
+          "bracelet": "Jubilee",
+          "caseSize": "40 mm",
+          "nickname": "Black / Jubilee",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "Oystersteel",
+      "sources": [
+        "src/data/photography-expansion.ts"
+      ],
+      "routes": [
+        "/collections/rolex/gmt-master-ii/126710blnr"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": "manufacturer-library-1AWywF10BySwcLwkVh_FVcP2QBjisof7W",
+      "status": "approved",
+      "sourceUrl": "https://www.rolex.com/en-us/watches/gmt-master-ii/m126710blnr-0003",
+      "licenseRecord": "Founder confirmed Quest Luxo website-use permission for existing Drive manufacturer photographs on October 13, 2026. Preserved RAW file: 1AWywF10BySwcLwkVh_FVcP2QBjisof7W. Exact configuration reviewed against the official reference and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
+      "brand": "Rolex",
+      "collection": "Day-Date",
+      "reference": "228235",
+      "configurations": [
+        {
+          "dial": "Chocolate set with diamonds",
+          "bracelet": "President",
+          "caseSize": "40 mm",
+          "nickname": "Chocolate set with diamonds / President",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "18k Everose Gold",
+      "sources": [
+        "src/data/photography-expansion.ts"
+      ],
+      "routes": [
+        "/collections/rolex/day-date/228235"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": "manufacturer-library-16DYyJCFlXetRWQA3cLfvmrWq_DvXfpBM",
+      "status": "approved",
+      "sourceUrl": "https://www.rolex.com/en-us/watches/day-date/m228235-0003",
+      "licenseRecord": "Founder confirmed Quest Luxo website-use permission for existing Drive manufacturer photographs on October 13, 2026. Preserved RAW file: 16DYyJCFlXetRWQA3cLfvmrWq_DvXfpBM. Exact configuration reviewed against the official reference and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
+      "brand": "Rolex",
+      "collection": "Datejust",
+      "reference": "126334",
+      "configurations": [
+        {
+          "dial": "Bright Blue",
+          "bracelet": "Oyster",
+          "caseSize": "41 mm",
+          "nickname": "Bright Blue / Oyster",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "Oystersteel / White Gold",
+      "sources": [
+        "src/data/photography-expansion.ts"
+      ],
+      "routes": [
+        "/collections/rolex/datejust/126334"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": "manufacturer-library-1STULSZLuGzQCOhWqkcjXF7g6u4JZGFTe",
+      "status": "approved",
+      "sourceUrl": "https://www.rolex.com/en-us/watches/datejust/m126334-0001",
+      "licenseRecord": "Founder confirmed Quest Luxo website-use permission for existing Drive manufacturer photographs on October 13, 2026. Preserved RAW file: 1STULSZLuGzQCOhWqkcjXF7g6u4JZGFTe. Exact configuration reviewed against the official reference and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
+      "brand": "Rolex",
+      "collection": "Datejust",
+      "reference": "126333",
+      "configurations": [
+        {
+          "dial": "Silver",
+          "bracelet": "Two-Tone Oyster",
+          "caseSize": "41 mm",
+          "nickname": "Silver / Two-Tone Oyster",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "Yellow Rolesor",
+      "sources": [
+        "src/data/photography-expansion.ts"
+      ],
+      "routes": [
+        "/collections/rolex/datejust/126333"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": "manufacturer-library-19sZHcLpPPH09jG_p6PBT-kuILAILy2an",
+      "status": "approved",
+      "sourceUrl": "https://www.rolex.com/en-us/watches/datejust/m126333-0001",
+      "licenseRecord": "Founder confirmed Quest Luxo website-use permission for existing Drive manufacturer photographs on October 13, 2026. Preserved RAW file: 19sZHcLpPPH09jG_p6PBT-kuILAILy2an. Exact configuration reviewed against the official reference and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
+      "brand": "Rolex",
+      "collection": "Datejust",
+      "reference": "126300",
+      "configurations": [
+        {
+          "dial": "Bright Blue",
+          "bracelet": "Oyster",
+          "caseSize": "41 mm",
+          "nickname": "Bright Blue / Oyster",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "Oystersteel",
+      "sources": [
+        "src/data/photography-expansion.ts"
+      ],
+      "routes": [
+        "/collections/rolex/datejust/126300"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": "manufacturer-library-1Laqm2Uvg8ly4lLs33Ph_CqxK6Tif138K",
+      "status": "approved",
+      "sourceUrl": "https://www.rolex.com/en-us/watches/datejust/m126300-0001",
+      "licenseRecord": "Founder confirmed Quest Luxo website-use permission for existing Drive manufacturer photographs on October 13, 2026. Preserved RAW file: 1Laqm2Uvg8ly4lLs33Ph_CqxK6Tif138K. Exact configuration reviewed against the official reference and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
+      "brand": "Rolex",
+      "collection": "Daytona",
+      "reference": "126500LN",
+      "configurations": [
+        {
+          "dial": "White",
+          "bracelet": "Oyster",
+          "caseSize": "40 mm",
+          "nickname": "White / Oyster",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "Oystersteel",
+      "sources": [
+        "src/data/photography-expansion.ts"
+      ],
+      "routes": [
+        "/collections/rolex/daytona/126500ln"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": "manufacturer-library-1SNt_1pPAHb_rOoP8NBHIOeqPVG6gNpeO",
+      "status": "approved",
+      "sourceUrl": "https://www.rolex.com/en-us/watches/cosmograph-daytona/m126500ln-0001",
+      "licenseRecord": "Founder confirmed Quest Luxo website-use permission for existing Drive manufacturer photographs on October 13, 2026. Preserved RAW file: 1SNt_1pPAHb_rOoP8NBHIOeqPVG6gNpeO. Exact configuration reviewed against the official reference and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
     },
     {
       "brand": "Unknown",

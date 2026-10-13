@@ -30,7 +30,7 @@ const formatUSD = (value?: number | null) =>
     : "MSRP research pending";
 const photograph = approvedPhotograph(asset, watchPhotographs);
 const imageAlt = photograph?.alt ?? `${asset.reference} ${asset.model}`;
-const primaryConfiguration = asset.configurations?.[0];
+const primaryConfiguration = asset.configurations?.find(configuration => photograph && configuration.dial === photograph.configuration.dial && configuration.bracelet === photograph.configuration.bracelet) ?? asset.configurations?.[0];
 const sourcingUrl = buildBeginYourQuestUrl({ intent: "request-this-watch", brand: collection.brand, collection: collection.name, reference: asset.reference });
 const collectionUrl = collectionPath(collection.brandSlug, collection.slug);
 const canonicalPath = referencePath(

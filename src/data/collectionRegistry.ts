@@ -19,6 +19,7 @@ import { watchPhotographs } from "./watch-photography";
 import { approvedPhotograph } from "../lib/media/watchPhotography";
 import type { QuestLuxoAsset } from "../types/questLuxo";
 import { launchCatalogCollections } from "./launch-catalog";
+import { photographyExpansionAssets } from "./photography-expansion";
 
 export interface CollectionDefinition {
   brand: string;
@@ -36,20 +37,35 @@ export interface CollectionDefinition {
 
 const defineCollection = (
   definition: CollectionDefinition
-): CollectionDefinition => ({
+): CollectionDefinition => {
+  const additions = photographyExpansionAssets.filter(asset => asset.brand === definition.brand && asset.collection === definition.name);
+  const assets = definition.assets.map(asset => {
+    const addition = additions.find(candidate => candidate.reference === asset.reference);
+    if (!addition) return asset;
+    const configurations = (asset.configurations ?? []).map(configuration => {
+      const reviewed = addition.configurations?.find(candidate => candidate.dial === configuration.dial && candidate.bracelet === configuration.bracelet);
+      return reviewed ? { ...reviewed, ...configuration, caseSize: configuration.caseSize ?? reviewed.caseSize } : configuration;
+    });
+    const extraConfigurations = (addition.configurations ?? []).filter(reviewed => !configurations.some(configuration => configuration.dial === reviewed.dial && configuration.bracelet === reviewed.bracelet));
+    return { ...asset, configurations: [...configurations, ...extraConfigurations], specificationSources: [...(asset.specificationSources ?? []), ...(addition.specificationSources ?? [])], specificationsReviewedAt: "2026-10-13" };
+  });
+  assets.push(...additions.filter(addition => !assets.some(asset => asset.reference === addition.reference)));
+  return {
   ...definition,
-  assets: definition.assets.map((asset) => {
-    const approved = approvedPhotograph(asset, watchPhotographs);
+  assets: assets.map((asset) => {
+    const normalizedAsset = { ...asset, brand: asset.brand ?? definition.brand, collection: asset.collection ?? definition.name };
+    const approved = approvedPhotograph(normalizedAsset, watchPhotographs);
     const verifiedImage =
       approved?.src ?? (asset.image && asset.imageVerified ? asset.image : undefined);
 
     return {
-      ...asset,
+      ...normalizedAsset,
       image: verifiedImage ?? "/images/watch-reference-placeholder.svg",
       imageVerified: Boolean(verifiedImage),
     };
   }),
-});
+  };
+};
 
 const rolexCollections = [
   defineCollection({

@@ -1,6 +1,8 @@
 import type { WatchPhotograph } from "../lib/media/watchPhotography";
+import { photographyExpansionImages } from "./photography-expansion.ts";
 // Website delivery index only. The Digital Asset Library remains the rights authority.
 export const watchPhotographs: readonly WatchPhotograph[] = [
+  ...photographyExpansionImages,
   {
     assetId: "breitling-navitimer-collection-hero-cc-by-sa-3",
     brand: "Breitling",
