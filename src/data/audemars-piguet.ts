@@ -36,9 +36,12 @@ export const audemarsPiguetRoyalOakAssets: AudemarsPiguetAsset[] = [
     seedStatus: "Seed Reference",
     configurations: [
       {
-        nickname: "41mm Selfwinding",
-        bracelet: "Integrated Bracelet",
-        dial: "Blue, Black, Silver, Grey, or Green",
+        nickname: "15510ST.OO.1320ST.06 Bleu Nuit",
+        bracelet: "Stainless Steel Bracelet",
+        dial: "Bleu Nuit, Nuage 50 Grande Tapisserie",
+        caseSize: "41 mm",
+        movement: "Selfwinding calibre 4302; 70-hour power reserve",
+        waterResistance: "50 m",
         originalMSRP: null,
       },
     ],

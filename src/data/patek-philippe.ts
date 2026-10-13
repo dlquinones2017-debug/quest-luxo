@@ -70,9 +70,12 @@ export const patekPhilippeNautilusAssets: PatekPhilippeAsset[] = [
     seedStatus: "Seed Reference",
     configurations: [
       {
-        nickname: "White Gold Nautilus",
-        bracelet: "Integrated Bracelet",
-        dial: "Blue",
+        nickname: "5811/1G-001 White Gold Nautilus",
+        bracelet: "White Gold Integrated Bracelet",
+        dial: "Sunburst Blue with Black-Gradient Rim",
+        caseSize: "41 mm",
+        movement: "Self-winding calibre 26-330 S C",
+        waterResistance: "30 m",
         originalMSRP: null,
       },
     ],
