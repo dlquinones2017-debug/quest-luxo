@@ -172,7 +172,16 @@ export const launchCatalogAssets = launchReferenceSeeds.map((seed): QuestLuxoAss
   specificationsReviewedAt: seed.reviewedAt ?? "2026-10-12",
 }));
 
-export const launchCatalogCollections = launchReferenceSeeds.map((seed, index): CollectionDefinition => ({
+const launchCollectionSeeds = Array.from(
+  new Map(
+    launchReferenceSeeds.map((seed) => [
+      `${seed.brandSlug}/${seed.collectionSlug}`,
+      seed,
+    ])
+  ).values()
+);
+
+export const launchCatalogCollections = launchCollectionSeeds.map((seed): CollectionDefinition => ({
   brand: seed.brand,
   brandSlug: seed.brandSlug,
   name: seed.collection,
@@ -183,5 +192,7 @@ export const launchCatalogCollections = launchReferenceSeeds.map((seed, index): 
   signalsDescription: "Market scores remain unpublished until supporting transaction evidence has been reviewed.",
   directoryDescription: "Explore the verified reference identity and documented specifications. Missing details and authentic photography remain explicitly queued.",
   sourcingText: `Request a market check for ${seed.brand} ${seed.collection}.`,
-  assets: [launchCatalogAssets[index]],
+  assets: launchCatalogAssets.filter(
+    (asset) => asset.brand === seed.brand && asset.collection === seed.collection
+  ),
 }));
