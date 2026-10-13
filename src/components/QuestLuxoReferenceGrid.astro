@@ -50,6 +50,9 @@ const getFilterTags = (asset: QuestLuxoAsset) => {
         ...configurations.map((configuration) => configuration.nickname ?? ""),
         ...configurations.map((configuration) => configuration.bracelet ?? ""),
         ...configurations.map((configuration) => configuration.dial ?? ""),
+        ...configurations.map((configuration) => configuration.caseSize ?? ""),
+        ...configurations.map((configuration) => configuration.movement ?? ""),
+        ...configurations.map((configuration) => configuration.waterResistance ?? ""),
       ].filter(Boolean).join(" ").toLowerCase();
       const score = asset.intelligence
         ? buildQuestLuxoIntelligence(asset.intelligence).overallScore
