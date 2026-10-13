@@ -127,6 +127,15 @@ const knownBrands = [
   "Omega",
   "Grand Seiko",
   "Jaeger-LeCoultre",
+  "Tudor",
+  "Breitling",
+  "Hublot",
+  "Panerai",
+  "IWC",
+  "Ulysse Nardin",
+  "Franck Muller",
+  "Bell & Ross",
+  "Blancpain",
 ] as const;
 
 const knownDialColors = [
@@ -324,23 +333,33 @@ export function parseWatchIntent(query: string): WatchIntent {
   const maxBudgetMatch = normalized.match(
     /\b(?:under|below|less than|up to|max|budget)\s*(?:usd|dollars)?\s*(\d+(?:[,\s]\d{3})*|\d+)(k)?\b/
   );
-  const numericBudget = maxBudgetMatch
-    ? Number(maxBudgetMatch[1].replace(/[,\s]/g, ""))
+  const dollarBudgetMatch = query.match(/\$\s*(\d[\d,]*)(k)?/i);
+  const rawBudget = maxBudgetMatch?.[1] ?? dollarBudgetMatch?.[1];
+  const numericBudget = rawBudget
+    ? Number(rawBudget.replace(/[,\s]/g, ""))
     : undefined;
+  const usesThousands =
+    Boolean(maxBudgetMatch?.[2]) || Boolean(dollarBudgetMatch?.[2]);
   const maxBudget =
-    numericBudget && maxBudgetMatch?.[2] === "k"
+    numericBudget && usesThousands
       ? numericBudget * 1000
       : numericBudget;
-  const matchedBrand = knownBrands.find((brand) =>
-    normalized.includes(normalizeComparable(brand))
-  );
+  const matchedBrand = knownBrands.find((brand) => {
+    const normalizedBrand = normalizeComparable(brand);
+    const isNegated =
+      normalized.includes(`not ${normalizedBrand}`) ||
+      normalized.includes(`without ${normalizedBrand}`);
+    return !isNegated && normalized.includes(normalizedBrand);
+  });
   const matchedDial = knownDialColors.find((dialColor) =>
     normalized.includes(dialColor)
   );
   const wantsInvestment =
     normalized.includes("best investment") ||
     normalized.includes("investment") ||
-    normalized.includes("collectible");
+    normalized.includes("collectible") ||
+    normalized.includes("collector") ||
+    normalized.includes("collectors");
   const wantsDaily =
     normalized.includes("daily") ||
     normalized.includes("everyday") ||
