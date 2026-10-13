@@ -84,25 +84,53 @@ const splitTerms = (value: string): readonly string[] =>
   normalizeSearchableText(value).split(" ").filter(Boolean);
 
 const ignoredSearchTerms = new Set([
+  "a",
+  "all",
+  "an",
+  "and",
+  "are",
+  "be",
   "best",
   "below",
+  "buy",
   "collectable",
   "collectible",
+  "collection",
   "daily",
+  "do",
   "everyday",
   "for",
+  "have",
+  "i",
+  "in",
+  "is",
+  "it",
   "investment",
   "investments",
   "less",
+  "me",
+  "my",
+  "of",
+  "on",
+  "prefer",
+  "recommend",
+  "recommended",
+  "roles",
   "sport",
   "sports",
   "than",
+  "that",
+  "the",
   "to",
   "under",
   "up",
+  "want",
   "watch",
   "watches",
+  "what",
   "with",
+  "wrist",
+  "your",
 ]);
 
 const uniqueValues = (values: readonly (string | undefined)[]): readonly string[] =>
@@ -152,6 +180,9 @@ export function buildSearchKeywords(asset: QuestLuxoAsset): readonly string[] {
       configuration.nickname,
       configuration.bracelet,
       configuration.dial,
+      configuration.caseSize,
+      configuration.movement,
+      configuration.waterResistance,
     ]
   );
 
@@ -299,15 +330,36 @@ export function filterSearchRecordsByBudget<
   );
 }
 
+const conversationalAliases: Readonly<Record<string, readonly string[]>> = Object.freeze({
+  dressy: ["dress", "formal", "classic"],
+  collector: ["collector", "collectible", "historical", "trophy"],
+  collectors: ["collector", "collectible", "historical", "trophy"],
+  dive: ["dive", "diver", "submariner", "seamaster", "pelagos", "superocean", "fifty"],
+  starter: ["entry", "core", "everyday", "daily"],
+  networking: ["executive", "daily", "luxury", "design"],
+  strap: ["strap", "rubber", "leather", "textile", "fabric"],
+  large: ["42", "43", "44", "45", "46", "47"],
+});
+
 export function searchWatchRecords<
   TRecord extends SearchableWatchRecord = SearchableWatchRecord
 >(
   options: SearchWatchRecordsOptions<TRecord>
 ): readonly TRecord[] {
   const intent = parseWatchIntent(options.query);
+  const normalizedQuery = normalizeSearchableText(options.query);
+  const excludedBrands = Array.from(new Set(options.records.map((record) => record.brand)))
+    .filter((brand) => {
+      const normalizedBrand = normalizeFacetValue(brand);
+      return normalizedQuery.includes(`not ${normalizedBrand}`) ||
+        normalizedQuery.includes(`without ${normalizedBrand}`);
+    });
   const consumedTerms = new Set([
     ...splitTerms(intent.brand ?? ""),
     ...splitTerms(intent.dialColor ?? ""),
+    ...excludedBrands.flatMap((brand) => splitTerms(brand)),
+    "not",
+    "without",
   ]);
   const queryTerms = intent.keywords.filter(
     (keyword) =>
@@ -316,6 +368,13 @@ export function searchWatchRecords<
       !/^\d+$/.test(keyword)
   );
   let records = options.records;
+
+  if (excludedBrands.length > 0) {
+    const excluded = new Set(excludedBrands.map(normalizeFacetValue));
+    records = Object.freeze(
+      records.filter((record) => !excluded.has(normalizeFacetValue(record.brand)))
+    );
+  }
 
   if (intent.maxBudget) {
     records = filterSearchRecordsByBudget(
@@ -346,7 +405,10 @@ export function searchWatchRecords<
       ? records
       : Object.freeze(
           records.filter((record) =>
-            queryTerms.every((term) => record.searchText.includes(term))
+            queryTerms.every((term) => {
+              const aliases = conversationalAliases[term] ?? [term];
+              return aliases.some((alias) => record.searchText.includes(alias));
+            })
           )
         );
 
