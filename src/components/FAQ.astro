@@ -1,0 +1,200 @@
+---
+const items = [
+  {
+    question: "How does direct sourcing work?",
+    answer:
+      "Quest Luxo operates as a private sourcing and brokerage advisory rather than a traditional inventory-led retailer. You tell us the watch, reference, configuration, budget, timing, and any condition or completeness requirements. We qualify the request, search our dealer and private-market network, evaluate suitable examples, and present a specific opportunity for your approval before a transaction proceeds.",
+  },
+  {
+    question: "Why are prices not listed on the website?",
+    answer:
+      "Many watches we source trade in dynamic primary and secondary markets where price depends on the exact reference, configuration, condition, completeness, service history, seller, availability, and timing. A static website price can quickly become misleading. Quest Luxo therefore quotes the specific watch and transaction rather than publishing a generic price that may not reflect the actual opportunity.",
+  },
+  {
+    question: "How does shipping work?",
+    answer:
+      "Domestic watch shipments are complimentary and fully insured. We typically use FedEx overnight to two-day service. For security, the shipment must be directed to a staffed FedEx location rather than an authorized third-party pickup location. The purchaser must pick up the package in person, provide a valid government-issued photo ID, and complete the required direct-signature process. Shipping instructions are confirmed before dispatch.",
+  },
+  {
+    question: "What should I do when my watch arrives?",
+    answer:
+      "We strongly recommend recording the unboxing from the moment the sealed shipment is shown on camera. Film the exterior package, opening process, watch, accessories, box, papers, and any included contents. Before wearing the watch, inspect its condition, confirm it matches the description, and test the primary functions that can be safely checked. If anything appears inconsistent, contact Quest Luxo promptly and preserve the packaging and recording.",
+  },
+  {
+    question: "How do payments work?",
+    answer:
+      "Transactions over $5,000 are paid by bank wire. Transactions under $5,000 may be paid by Zelle when approved for the transaction. Payment instructions are provided directly by Quest Luxo and should always be verified before funds are sent. Never send payment using instructions received from an unverified third party or an unexpected message.",
+  },
+  {
+    question: "Do Georgia residents pay sales tax?",
+    answer:
+      "Georgia sales tax is charged when required for purchases delivered to or picked up in Georgia. A qualifying reseller may provide a valid Georgia resale certificate before the transaction is finalized. Resale documentation is subject to verification and must be accepted before tax-exempt treatment can be applied.",
+  },
+  {
+    question: "How does the trade-up and buyback program work?",
+    answer:
+      "Quest Luxo can evaluate watches previously acquired through us, and other eligible watches, for a future trade-up or buyback opportunity. Any value is determined at the time of the transaction based on the exact watch, condition, completeness, service history, current market demand, liquidity, and our available exit path. A prior purchase does not guarantee a fixed future value or automatic repurchase.",
+  },
+  {
+    question: "How does consignment work?",
+    answer:
+      "For eligible watches, Quest Luxo may offer consignment rather than an immediate purchase. We review the watch, documentation, condition, ownership, desired net proceeds, and current market before accepting a consignment. If accepted, the listing strategy, asking range, fees, insurance, custody, payment timing, and authorization terms are documented before the watch is marketed.",
+  },
+  {
+    question: "Are watches authenticated and inspected?",
+    answer:
+      "Every transaction is handled on a reference-specific basis. Quest Luxo evaluates the seller, reference, configuration, condition, completeness, and available documentation before presenting a watch. When appropriate, additional third-party inspection, watchmaker review, timing checks, pressure testing, or manufacturer service verification may be recommended. No website description should replace inspection of the specific watch being purchased.",
+  },
+  {
+    question: "How long does sourcing take?",
+    answer:
+      "There is no universal sourcing timeline. Common references may surface quickly, while rare configurations, highly allocated pieces, unusual sizes, discontinued references, or strict condition requirements can take longer. We would rather wait for a suitable example than pressure a client into the wrong watch.",
+  },
+  {
+    question: "What does condition and completeness mean?",
+    answer:
+      "Condition includes the case, bezel, crystal, dial, hands, bracelet or strap, clasp, movement performance, refinishing history, and visible wear. Completeness can include the original box, warranty card or papers, links, tags, accessories, service records, and other reference-specific items. These factors can materially affect value, liquidity, and long-term ownership experience.",
+  },
+  {
+    question: "Do you provide a warranty or service coverage?",
+    answer:
+      "Warranty and service coverage depend on the specific watch and transaction. A watch may carry remaining manufacturer coverage, dealer coverage, third-party coverage, or no transferable warranty at all. Quest Luxo will identify known coverage before closing when documentation is available and will not represent unverified coverage as guaranteed.",
+  },
+  {
+    question: "Can I return or cancel a sourced watch?",
+    answer:
+      "Because privately sourced watches are acquired for a specific client and may involve third-party sellers, cancellation, return, and refund terms can vary by transaction. Those terms should be confirmed in writing before payment. Do not assume a retail-style return window applies to a privately sourced watch.",
+  },
+  {
+    question: "Can Quest Luxo source watches that are not shown on the website?",
+    answer:
+      "Yes. The website represents our expanding intelligence and reference catalog, not a limit on what we can source. If a watch, variation, vintage reference, independent maker, or configuration is not listed, use Begin Your Quest and describe exactly what you are seeking.",
+  },
+  {
+    question: "What information helps you source the right watch faster?",
+    answer:
+      "The most useful request includes the exact reference if known, preferred dial and material, bracelet or strap preference, wrist size, condition tolerance, box-and-papers requirement, budget, target timing, and intended role such as daily wear, dress, travel, sport, collecting, networking, or a milestone purchase.",
+  },
+];
+
+export { items };
+---
+
+<section class="faq-section" id="faq" aria-labelledby="faq-title">
+  <div class="faq-intro">
+    <p class="eyebrow">Client Guide</p>
+    <h2 id="faq-title">Frequently Asked Questions</h2>
+    <p>
+      Practical answers about private sourcing, payment, shipping, trade-ins,
+      consignment, taxes, and receiving your watch.
+    </p>
+  </div>
+
+  <div class="faq-list">
+    {
+      items.map((item) => (
+        <details class="faq-item">
+          <summary>{item.question}</summary>
+          <div class="answer">
+            <p>{item.answer}</p>
+          </div>
+        </details>
+      ))
+    }
+  </div>
+</section>
+
+<style>
+  .faq-section {
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 88px 30px 100px;
+  }
+
+  .faq-intro {
+    max-width: 760px;
+    margin-bottom: 34px;
+  }
+
+  .eyebrow {
+    margin: 0 0 10px;
+    color: #8a682b;
+    font-size: 12px;
+    font-weight: 900;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+  }
+
+  h2 {
+    margin: 0 0 16px;
+    color: #173a5e;
+    font-size: clamp(38px, 6vw, 58px);
+    line-height: 1.02;
+  }
+
+  .faq-intro > p:last-child {
+    margin: 0;
+    color: #52606f;
+    font-size: 17px;
+    line-height: 1.7;
+  }
+
+  .faq-list {
+    border-top: 1px solid #ded7ca;
+  }
+
+  .faq-item {
+    border-bottom: 1px solid #ded7ca;
+  }
+
+  summary {
+    cursor: pointer;
+    list-style: none;
+    padding: 22px 44px 22px 0;
+    color: #173a5e;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 22px;
+    line-height: 1.35;
+    position: relative;
+  }
+
+  summary::-webkit-details-marker {
+    display: none;
+  }
+
+  summary::after {
+    content: "+";
+    position: absolute;
+    right: 8px;
+    top: 18px;
+    color: #8a682b;
+    font-family: Inter, "Helvetica Neue", Arial, sans-serif;
+    font-size: 28px;
+    font-weight: 500;
+  }
+
+  details[open] summary::after {
+    content: "–";
+  }
+
+  .answer {
+    max-width: 900px;
+    padding: 0 44px 24px 0;
+    color: #43515f;
+  }
+
+  .answer p {
+    margin: 0;
+    line-height: 1.75;
+  }
+
+  @media (max-width: 700px) {
+    .faq-section {
+      padding: 64px 20px 76px;
+    }
+
+    summary {
+      font-size: 19px;
+    }
+  }
+</style>
