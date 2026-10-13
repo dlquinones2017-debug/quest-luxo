@@ -1,6 +1,6 @@
 # Quest Luxo launch status
 
-Reviewed October 13, 2026. Production is hosted on the existing Render service with persistent lead storage. `https://questluxo.com` serves the healthy application over HTTPS; the shareable intake path is `/begin-your-quest`. The temporary Render intake URL remains available.
+Reviewed October 13, 2026. Launch release `957360b8668ed8cb9d974d1899175a97d3f1b770` is live on the existing Render service with persistent lead storage. `https://questluxo.com` serves the healthy application over HTTPS; the shareable intake URL is `https://questluxo.com/begin-your-quest`. The temporary Render intake URL remains available. Outreach may use the branded URL immediately.
 
 ## Launch release
 
@@ -16,9 +16,11 @@ Broker Console routes now render on request so authorization uses the current re
 - Production build: passed; existing duplicate `robots.txt` warning remains.
 - Focused launch, photography mapping, catalog and full collection navigation checks: 12 passed.
 - Dependency audit: zero vulnerabilities.
-- Production intake smoke notification reached `denzel@questluxo.com`; SPF, DKIM and DMARC passed. Founder-authorized narrow Gmail filter is installed after the first notification was classified as spam.
+- Final branded-domain intake smoke notification reached `denzel@questluxo.com` directly in INBOX; SPF, DKIM and DMARC passed. Founder-authorized narrow Gmail filter is installed after the first notification was classified as spam.
 - Apex DNS and HTTPS were verified. Founder approved www A record `216.24.57.1` after the provider rejected the CNAME editor; public DNS resolves to that address.
-- Release deployment, post-release public route checks and a fresh inbox-delivery check remain required before declaring the sprint complete.
-- The canonical Drive photography document has an additive update prepared; visual rendering and upload are still pending. Original rows and source files are preserved.
+- Production route verification: 250 public routes passed, including every built collection/reference page and branded canonical URL. Anonymous broker APIs returned 401. Both `/broker-console` and `/broker` rendered allowed/locked correctly for authorized/anonymous requests. Desktop and mobile intake/catalog layouts were reviewed.
+- Both custom domains are verified on Render with working HTTPS; www redirects to the apex while preserving the intake path.
+- Aquanaut reference CTA preserved Patek Philippe, Aquanaut and 5167A-001 context through the real production form and persisted broker record. Both labeled synthetic smoke records were verified, closed and tagged `launch-smoke-test` / `exclude-client-follow-up` with founder authorization; customer records were not changed or exposed.
+- The [canonical Drive photography master](https://drive.google.com/file/d/1KEWRyRu7SquTjVb1TgF_cCn_Zux5td17/view) was updated in place after all four rendered pages were inspected. All original 107 acquisition rows remain preserved, with 15 launch references appended and authentic white-canvas requirements recorded.
 
-No local runtime lead files or unrelated edits in the original checkout were modified. Production smoke records must be excluded from client follow-up and handled through the existing controlled retention workflow.
+No local runtime lead files or unrelated edits in the original checkout were modified. Photography acquisition and exact-reference clearance remain queued without fabrication; missing images do not block the live intake and sourced catalog profiles.
