@@ -43,6 +43,14 @@ const launchReferenceSeeds: readonly LaunchReferenceSeed[] = [
     sourceUrl: "https://www.breitling.com/gb-en/watches/superocean/superocean-automatic-44-my22/A17376211B1A1/",
   },
   {
+    brand: "Breitling", brandSlug: "breitling", collection: "Superocean", collectionSlug: "superocean",
+    reference: "A17376211B1S1", model: "Superocean Automatic 44",
+    configuration: { caseSize: "44 mm", movement: "Self-winding Breitling 17; approximately 38-hour power reserve", dial: "Black", bracelet: "Black rubber strap with stainless-steel folding clasp", waterResistance: "300 m" },
+    material: "Stainless Steel", bezel: "Unidirectional ratcheted bezel with ceramic inlay",
+    overview: "The black-dial Superocean Automatic 44 on black rubber is the strap-delivered counterpart to the bracelet configuration. It uses the Breitling 17 automatic calibre and is manufacturer-rated to 300 metres.",
+    sourceUrl: "https://www.breitling.com/tw-en/watches/superocean/superocean-automatic-44-my22/A17376211B1S1/",
+  },
+  {
     brand: "Hublot", brandSlug: "hublot", collection: "Classic Fusion", collectionSlug: "classic-fusion",
     reference: "542.NX.1171.RX", model: "Classic Fusion Titanium 42",
     configuration: { caseSize: "42 mm", movement: "Self-winding HUB1110", dial: "Matte Black", bracelet: "Black lined rubber strap", waterResistance: "50 m" },
@@ -117,6 +125,14 @@ const launchReferenceSeeds: readonly LaunchReferenceSeed[] = [
   },
   {
     brand: "Franck Muller", brandSlug: "franck-muller", collection: "Yachting", collectionSlug: "yachting",
+    reference: "V45SCYACHTACBL", model: "Vanguard Yachting",
+    configuration: { caseSize: "44 mm × 53.7 mm", movement: "Self-winding FM 2536-SCDT; 42-hour power reserve", dial: "Blue nautical dial with wind-rose motif", bracelet: "Blue woven fabric / nylon strap", waterResistance: "30 m" },
+    material: "Stainless Steel",
+    overview: "A steel Vanguard Yachting with blue nautical dial and integrated blue strap treatment. It is represented separately from the blue-ceramic Yachting edition and is identified by the manufacturer SKU V45SCYACHTACBL.",
+    sourceUrl: "https://franckmuller-usa.com/vanguard_yachting/V45SCYACHTACBL_Vanguard_Yachting",
+  },
+  {
+    brand: "Franck Muller", brandSlug: "franck-muller", collection: "Yachting", collectionSlug: "yachting",
     reference: "V 45 SC DT YACHT CR BL (BL)", model: "Vanguard Yachting Ceramic",
     configuration: {}, material: "Blue Ceramic",
     overview: "Yachting is a nautical branch of the Vanguard family. This manufacturer-listed blue ceramic edition remains queued for detailed dimension, movement, dial and strap verification; those specifications are not inferred from other Vanguard models.",
@@ -156,7 +172,16 @@ export const launchCatalogAssets = launchReferenceSeeds.map((seed): QuestLuxoAss
   specificationsReviewedAt: seed.reviewedAt ?? "2026-10-12",
 }));
 
-export const launchCatalogCollections = launchReferenceSeeds.map((seed, index): CollectionDefinition => ({
+const launchCollectionSeeds = Array.from(
+  new Map(
+    launchReferenceSeeds.map((seed) => [
+      `${seed.brandSlug}/${seed.collectionSlug}`,
+      seed,
+    ])
+  ).values()
+);
+
+export const launchCatalogCollections = launchCollectionSeeds.map((seed): CollectionDefinition => ({
   brand: seed.brand,
   brandSlug: seed.brandSlug,
   name: seed.collection,
@@ -167,5 +192,7 @@ export const launchCatalogCollections = launchReferenceSeeds.map((seed, index): 
   signalsDescription: "Market scores remain unpublished until supporting transaction evidence has been reviewed.",
   directoryDescription: "Explore the verified reference identity and documented specifications. Missing details and authentic photography remain explicitly queued.",
   sourcingText: `Request a market check for ${seed.brand} ${seed.collection}.`,
-  assets: [launchCatalogAssets[index]],
+  assets: launchCatalogAssets.filter(
+    (asset) => asset.brand === seed.brand && asset.collection === seed.collection
+  ),
 }));
