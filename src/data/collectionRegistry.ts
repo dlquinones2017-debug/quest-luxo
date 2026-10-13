@@ -391,8 +391,17 @@ const houseCollectionSeeds: HouseCollectionSeed[] = [
     name: "Luminor",
     slug: "luminor",
     reference: "PAM01312",
+    model: "Luminor Marina PAM01312",
     material: "Stainless Steel",
     marketPosition: "Crown-Guard Sports Watch",
+    configuration: {
+      nickname: "PAM01312 Black Dial",
+      dial: "Black with luminous Arabic numerals and hour markers",
+      bracelet: "Black Alligator Leather Strap",
+      caseSize: "44 mm",
+      movement: "Automatic calibre P.9010; 3-day power reserve",
+      waterResistance: "300 m",
+    },
   },
   {
     brand: "Breitling",
