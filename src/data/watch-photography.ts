@@ -304,7 +304,7 @@ export const watchPhotographs: readonly WatchPhotograph[] = [
     sha256: "aa56fb5cb3531028d23476654db208ed50828cb9cd8abbb9e3af28e60e92dd61",
     attribution: "Photo by Daniel Zimmermann / CallMeWhatEver, CC BY 2.0. Resized and converted to WebP; no generative modifications.",
     hero: true,
-  },,
+  },
   {
     assetId: "ap-royal-oak-15510st-oo-1320st-06-founder-cleared",
     brand: "Audemars Piguet",
