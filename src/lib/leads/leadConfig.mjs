@@ -32,7 +32,7 @@ export const createLeadConfig = (env = process.env) => {
         .filter(Boolean)
     ),
     contactEmail:
-      value(env, "PUBLIC_CONTACT_EMAIL") ?? "contact@questluxo.com",
+      value(env, "PUBLIC_CONTACT_EMAIL") ?? "info@questluxo.com",
     abuseHashSecret: value(env, "LEAD_ABUSE_HASH_SECRET"),
   });
 };

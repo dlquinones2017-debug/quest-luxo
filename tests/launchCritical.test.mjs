@@ -134,7 +134,7 @@ test("production readiness fails closed and passes only with writable complete c
     LEAD_STORAGE_DIRECTORY: join(tmpdir(), "quest-luxo-leads"),
     EMAIL_PROVIDER_API_KEY: "secret",
     LEAD_EMAIL_FROM: "Quest Luxo <inquiries@questluxo.com>",
-    LEAD_EMAIL_TO: "contact@questluxo.com",
+    LEAD_EMAIL_TO: "info@questluxo.com",
     LEAD_ABUSE_HASH_SECRET: "a".repeat(32),
   };
   const config = createLeadConfig(env);

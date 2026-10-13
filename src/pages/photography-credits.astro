@@ -1,0 +1,27 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { watchPhotographs } from "../data/watch-photography";
+const photographs = watchPhotographs.filter(photo => photo.websiteApproved);
+---
+<BaseLayout title="Photography Credits | Quest Luxo" description="Sources, photographers, licenses and derivative details for authentic Quest Luxo watch photography.">
+  <main id="main-content">
+    <h1>Photography Credits</h1>
+    <p>Authentic watch photography is displayed without captions on the watch canvas. Source and license details are recorded here. Missing or uncleared photographs remain queued.</p>
+    {photographs.map(photo => <article id={photo.assetId}>
+      <h2>{photo.brand} {photo.reference}</h2>
+      <p>{photo.attribution}</p>
+      <p>Photographer / provider: {photo.photographer}</p>
+      <p><a href={photo.sourceUrl} rel="external noopener">Original source</a>{photo.licenseUrl && <> · <a href={photo.licenseUrl} rel="license external noopener">{photo.licenseLabel ?? "License"}</a></>}</p>
+      <p>{photo.licenseRecord}</p>
+      {photo.licenseUrl && <p><a href={photo.src}>Website derivative</a></p>}
+    </article>)}
+  </main>
+</BaseLayout>
+<style>
+  main { max-width:1000px; margin:0 auto; padding:70px 30px; color:#173a5e; }
+  h1 { font-size:clamp(38px,6vw,60px); }
+  h2 { font-size:26px; }
+  p { line-height:1.7; overflow-wrap:anywhere; }
+  article { border-top:1px solid #e8e3d8; margin-top:32px; padding-top:24px; }
+  a { color:#173a5e; }
+</style>

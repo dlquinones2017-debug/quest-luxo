@@ -29,6 +29,6 @@ services:
       - key: LEAD_EMAIL_TO
         sync: false
       - key: PUBLIC_CONTACT_EMAIL
-        value: contact@questluxo.com
+        value: info@questluxo.com
       - key: LEAD_ABUSE_HASH_SECRET
         generateValue: true

@@ -46,7 +46,7 @@ placeholder imagery.
 
 ## External launch gates
 
-- [ ] Confirm that `contact@questluxo.com` accepts and delivers a real message.
+- [ ] Confirm that `info@questluxo.com` accepts and delivers a real message.
 - [ ] Merge/push the verified revision to the production branch.
 - [ ] Confirm the Render deployment is live and run the same route matrix in production.
 - [ ] Replace neutral reference placeholders with approved product photography when supplied.

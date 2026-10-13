@@ -103,9 +103,9 @@ import BaseLayout from "../layouts/BaseLayout.astro";
       <p class="direct-contact">
         Prefer email?
         <a
-          href="mailto:contact@questluxo.com?subject=Quest%20Luxo%20private%20sourcing%20inquiry"
+          href="mailto:info@questluxo.com?subject=Quest%20Luxo%20private%20sourcing%20inquiry"
           data-contact-link
-        >contact@questluxo.com</a>
+        >info@questluxo.com</a>
       </p>
     </section>
   </main>
@@ -131,7 +131,7 @@ import BaseLayout from "../layouts/BaseLayout.astro";
       const subject = encodeURIComponent(
         `Quest Luxo inquiry: ${requestedCollection}`
       );
-      contactLink.href = `mailto:contact@questluxo.com?subject=${subject}`;
+      contactLink.href = `mailto:info@questluxo.com?subject=${subject}`;
     }
   }
 
@@ -183,7 +183,7 @@ import BaseLayout from "../layouts/BaseLayout.astro";
         status.textContent =
           error instanceof Error
             ? error.message
-            : "Unable to submit. Please email contact@questluxo.com.";
+            : "Unable to submit. Please email info@questluxo.com.";
         status.classList.add("error");
       }
     } finally {
