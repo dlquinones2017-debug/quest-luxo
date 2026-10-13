@@ -43,6 +43,14 @@ const launchReferenceSeeds: readonly LaunchReferenceSeed[] = [
     sourceUrl: "https://www.breitling.com/gb-en/watches/superocean/superocean-automatic-44-my22/A17376211B1A1/",
   },
   {
+    brand: "Breitling", brandSlug: "breitling", collection: "Superocean", collectionSlug: "superocean",
+    reference: "A17376211B1S1", model: "Superocean Automatic 44",
+    configuration: { caseSize: "44 mm", movement: "Self-winding Breitling 17; approximately 38-hour power reserve", dial: "Black", bracelet: "Black rubber strap with stainless-steel folding clasp", waterResistance: "300 m" },
+    material: "Stainless Steel", bezel: "Unidirectional ratcheted bezel with ceramic inlay",
+    overview: "The black-dial Superocean Automatic 44 on black rubber is the strap-delivered counterpart to the bracelet configuration. It uses the Breitling 17 automatic calibre and is manufacturer-rated to 300 metres.",
+    sourceUrl: "https://www.breitling.com/tw-en/watches/superocean/superocean-automatic-44-my22/A17376211B1S1/",
+  },
+  {
     brand: "Hublot", brandSlug: "hublot", collection: "Classic Fusion", collectionSlug: "classic-fusion",
     reference: "542.NX.1171.RX", model: "Classic Fusion Titanium 42",
     configuration: { caseSize: "42 mm", movement: "Self-winding HUB1110", dial: "Matte Black", bracelet: "Black lined rubber strap", waterResistance: "50 m" },
