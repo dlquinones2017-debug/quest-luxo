@@ -39,3 +39,17 @@ test("missing or collection-only photography remains in the placeholder path", (
   const collectionOnlySantos = watchPhotographs.filter((photograph) => photograph.assetId === "cartier-santos-collection-hero-cc-by-sa-4");
   assert.equal(approvedPhotograph(santos, collectionOnlySantos, reviewedAt), undefined);
 });
+
+test("catalog photography excludes rejected wrist shots and nonwhite presentation", () => {
+  const rejected = watchPhotographs.find(photo => photo.reference === "15202ST");
+  const ap = { brand: rejected.brand, collection: rejected.collection, reference: rejected.reference,
+    material: rejected.configuration.material, configurations: [rejected.configuration] };
+  assert.equal(approvedPhotograph(ap, [rejected]), undefined);
+  assert.equal(rejected.websiteApproved, false);
+  const approved = watchPhotographs.find(photo => photo.reference === "124060");
+  const submariner = asset("124060", approved.configuration);
+  for (const background of ["source-context", "black-studio", "mirrored-acrylic"]) {
+    assert.equal(approvedPhotograph(submariner, [{ ...approved, background }]), undefined);
+  }
+  assert.ok(approvedPhotograph(submariner, [approved]));
+});

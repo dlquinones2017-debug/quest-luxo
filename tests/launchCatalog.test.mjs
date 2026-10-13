@@ -39,7 +39,7 @@ test("launch reference facts have sources without invented scores, prices or ava
       assert.ok(asset.specificationSources?.every(source => source.url.startsWith("https://")));
       assert.equal(asset.specificationsReviewedAt, asset.reference === "8880CHACLB" ? "2026-10-13" : "2026-10-12");
       assert.equal(asset.intelligence, undefined);
-      assert.equal(asset.productionStatus, "Availability not confirmed");
+      assert.equal(asset.productionStatus, undefined, "unverified availability must not become a production-status badge");
       assert.equal(asset.imageVerified, undefined);
       assert.ok(asset.configurations.every(config => config.originalMSRP === null && config.currentMSRP === null));
       assert.match(referencePath(collection.brandSlug, collection.slug, asset.reference), /^\/collections\/[a-z0-9-]+\/[a-z0-9-]+\/[a-z0-9-]+$/);

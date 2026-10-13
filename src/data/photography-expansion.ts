@@ -745,7 +745,7 @@ for (const seed of seeds) {
     existing.specificationSources = [...(existing.specificationSources ?? []), { label: `${seed.brand} official reference`, url: seed.sourceUrl }];
     continue;
   }
-  photographyExpansionAssets.push({ brand:seed.brand, collection:seed.collection, reference:seed.reference, model:seed.model, material:seed.material, configurations:[configuration], productionStatus:"Availability not confirmed", liquidity:"Not assessed", allocationDifficulty:"Availability requires a market check", questLuxoView:`Verified ${seed.brand} ${seed.model} configuration. The photograph depicts ${seed.configuration.dial} with ${seed.configuration.bracelet}. Price, condition, completeness and sourcing availability require an individual review.`, specificationSources:[{label:`${seed.brand} official reference`,url:seed.sourceUrl}], specificationsReviewedAt:"2026-10-13" });
+  photographyExpansionAssets.push({ brand:seed.brand, collection:seed.collection, reference:seed.reference, model:seed.model, material:seed.material, configurations:[configuration], liquidity:"Not assessed", allocationDifficulty:"Availability requires a market check", questLuxoView:`Verified ${seed.brand} ${seed.model} configuration. The photograph depicts ${seed.configuration.dial} with ${seed.configuration.bracelet}. Price, condition, completeness and sourcing availability require an individual review.`, specificationSources:[{label:`${seed.brand} official reference`,url:seed.sourceUrl}], specificationsReviewedAt:"2026-10-13" });
 }
 
 export const photographyExpansionImages: readonly WatchPhotograph[] = seeds.map(seed => ({

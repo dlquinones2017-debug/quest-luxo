@@ -128,7 +128,7 @@ const structuredData = [
             <p><strong>Bracelet / strap</strong><span>{primaryConfiguration?.bracelet ?? "Verification pending"}</span></p>
             <p><strong>Water resistance</strong><span>{primaryConfiguration?.waterResistance ?? "Verification pending"}</span></p>
           </>}
-          <p><strong>Production</strong><span>{asset.productionStatus}</span></p>
+          {asset.productionStatus && <p><strong>Production</strong><span>{asset.productionStatus}</span></p>}
           <p><strong>Liquidity</strong><span>{asset.liquidity}</span></p>
           <p><strong>Allocation</strong><span>{asset.allocationDifficulty}</span></p>
         </div>
@@ -153,7 +153,7 @@ const structuredData = [
       <div class="signal-cards">
         <article><strong>{asset.liquidity}</strong><span>Liquidity</span></article>
         <article><strong>{asset.allocationDifficulty}</strong><span>Allocation Difficulty</span></article>
-        <article><strong>{asset.productionStatus}</strong><span>Production Status</span></article>
+        {asset.productionStatus && <article><strong>{asset.productionStatus}</strong><span>Production Status</span></article>}
       </div>
     </section>
 

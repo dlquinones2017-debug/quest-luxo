@@ -54,7 +54,7 @@ const items = [
       <div class="reference-grid">
         {references.map((asset) => (
           <a class="reference-card" href={`/collections/${guide.brandSlug}/${guide.collectionSlug}/${normalizeReferenceSlug(asset.reference)}`}>
-            <span>{asset.productionStatus}</span>
+            {asset.productionStatus && <span>{asset.productionStatus}</span>}
             <h3>{asset.reference}</h3>
             <p>{asset.marketPosition}</p>
             <strong>View Brokerage Intelligence →</strong>

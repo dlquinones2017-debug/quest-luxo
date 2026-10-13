@@ -164,7 +164,6 @@ export const launchCatalogAssets = launchReferenceSeeds.map((seed): QuestLuxoAss
   configurations: [{ ...seed.configuration, originalMSRP: null, currentMSRP: null }],
   material: seed.material,
   bezel: seed.bezel,
-  productionStatus: "Availability not confirmed",
   liquidity: "Not assessed",
   allocationDifficulty: "Availability requires a market check",
   questLuxoView: seed.overview,

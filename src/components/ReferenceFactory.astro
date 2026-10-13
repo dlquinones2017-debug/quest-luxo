@@ -150,7 +150,7 @@ const pageTitle = seoTitle ?? `${brand} ${asset.reference} | Quest Luxo`;
           <p><strong>Reference</strong><span>{asset.reference}</span></p>
           <p><strong>Material</strong><span>{asset.material ?? "Research Pending"}</span></p>
           <p><strong>Bezel</strong><span>{asset.bezel ?? "Research Pending"}</span></p>
-          <p><strong>Production</strong><span>{asset.productionStatus ?? "Research Pending"}</span></p>
+          {asset.productionStatus && <p><strong>Production</strong><span>{asset.productionStatus}</span></p>}
           <p><strong>Liquidity</strong><span>{asset.liquidity ?? "Research Pending"}</span></p>
           <p><strong>Allocation</strong><span>{asset.allocationDifficulty ?? "Research Pending"}</span></p>
         </div>
