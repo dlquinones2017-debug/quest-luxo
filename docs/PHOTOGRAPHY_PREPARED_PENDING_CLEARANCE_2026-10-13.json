@@ -1,6 +1,6 @@
 {
-  "preparedAt": "2026-10-13T21:42:20Z",
-  "count": 13,
+  "preparedAt": "2026-10-13T21:54:17Z",
+  "count": 19,
   "websitePublished": false,
   "canonicalApprovedCoverage": {
     "photographed": 49,
@@ -546,6 +546,264 @@
       "whiteMaster": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\rolex-daytona-next-reviewed\\m126519ln-0004-white-master.png",
       "webDerivative": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\rolex-daytona-next-reviewed\\m126519ln-0004-web.webp",
       "reviewStatus": "Original and final white-canvas derivative visually reviewed; exact manufacturer reference/configuration confirmed. No publication before founder website-use clearance"
+    },
+    {
+      "brand": "Rolex",
+      "collection": "Yacht-Master",
+      "catalogReference": "126622",
+      "exactReference": "m126622-0002",
+      "configuration": {
+        "material": "Oystersteel / Platinum",
+        "dial": "Bright blue",
+        "bracelet": "Oyster",
+        "caseSize": "40 mm",
+        "movement": "Self-winding calibre 3235",
+        "waterResistance": "100 m"
+      },
+      "sourceUrl": "https://www.rolex.com/watches/yacht-master/m126622-0002",
+      "imageUrl": "https://media.rolex.com/image/upload/q_auto/f_auto/t_v7-cover-majesty-landscape/c_limit%2Cw_1920/v1/a677b2c664f6/catalogue/2026/upright-c/m126622-0002",
+      "sha256": "59966f2d56994ee5172034224c577c35b9c13abe7902ad861b5d83723213df57",
+      "derivativeSha256": "48760e6fe4573092c3faad1eceeeefd63c709b804784bde2577a5064601b448e",
+      "driveFiles": [
+        {
+          "type": "RAW",
+          "id": "1-Sh9eX-aIeRZjii5p5GL5VaiBA971Mo9",
+          "name": "rolex-yacht-master-m126622-0002-raw.png",
+          "success": true
+        },
+        {
+          "type": "WHITE_MASTER",
+          "id": "1C17p7GdBm16boZP41wQ0G4uqR-ffNQhG",
+          "name": "rolex-yacht-master-m126622-0002-white_master.png",
+          "success": true
+        },
+        {
+          "type": "WEB",
+          "id": "1vKPgdXzaPTAakk4vQXNlmJ_nONW3k8L0",
+          "name": "rolex-yacht-master-m126622-0002-web.webp",
+          "success": true
+        }
+      ],
+      "rightsStatus": "Pending founder clearance for new official originals; not published",
+      "publicationStatus": "Queued pending founder website-use clearance for new official originals",
+      "whiteMaster": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\rolex-yacht-master-reviewed\\m126622-0002-white-master.png",
+      "webDerivative": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\rolex-yacht-master-reviewed\\m126622-0002-web.webp",
+      "reviewStatus": "Original and final white-canvas derivative visually reviewed; exact SKU, dial, case material, bracelet and generation confirmed on manufacturer product page"
+    },
+    {
+      "brand": "Rolex",
+      "collection": "Yacht-Master",
+      "catalogReference": "126621",
+      "exactReference": "m126621-0001",
+      "configuration": {
+        "material": "Everose Rolesor",
+        "dial": "Chocolate",
+        "bracelet": "Oyster",
+        "caseSize": "40 mm",
+        "movement": "Self-winding calibre 3235",
+        "waterResistance": "100 m"
+      },
+      "sourceUrl": "https://www.rolex.com/en-us/watches/yacht-master/m126621-0001",
+      "imageUrl": "https://media.rolex.com/image/upload/q_auto/f_auto/t_v7-cover-majesty-landscape/c_limit%2Cw_1920/v1/a677b2c664f6/catalogue/2026/upright-c/m126621-0001",
+      "sha256": "659ae9513e85be635fb699c8761d7b6d7c4a37206a668b08be9ea2a9dd973d05",
+      "derivativeSha256": "6159a7d0f191659047a5e2a51968f4c4ef345c39b1dea9aa071aa2d50041e759",
+      "driveFiles": [
+        {
+          "type": "RAW",
+          "id": "18zm7_ucuiEO_F5zz7gpmo4oEucrGTD3N",
+          "name": "rolex-yacht-master-m126621-0001-raw.png",
+          "success": true
+        },
+        {
+          "type": "WHITE_MASTER",
+          "id": "1eCN534Aw5LlG6X51vOu02iX-Kww2B3SM",
+          "name": "rolex-yacht-master-m126621-0001-white_master.png",
+          "success": true
+        },
+        {
+          "type": "WEB",
+          "id": "1rDdsoaRBFSRaMLPz_-KtM_ea4Ep3Onpc",
+          "name": "rolex-yacht-master-m126621-0001-web.webp",
+          "success": true
+        }
+      ],
+      "rightsStatus": "Pending founder clearance for new official originals; not published",
+      "publicationStatus": "Queued pending founder website-use clearance for new official originals",
+      "whiteMaster": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\rolex-yacht-master-reviewed\\m126621-0001-white-master.png",
+      "webDerivative": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\rolex-yacht-master-reviewed\\m126621-0001-web.webp",
+      "reviewStatus": "Original and final white-canvas derivative visually reviewed; exact SKU, dial, case material, bracelet and generation confirmed on manufacturer product page"
+    },
+    {
+      "brand": "Rolex",
+      "collection": "Yacht-Master",
+      "catalogReference": "226659",
+      "exactReference": "m226659-0002",
+      "configuration": {
+        "material": "18K White Gold",
+        "dial": "Black",
+        "bracelet": "Oysterflex",
+        "caseSize": "42 mm",
+        "movement": "Self-winding calibre 3235",
+        "waterResistance": "100 m"
+      },
+      "sourceUrl": "https://www.rolex.com/en-us/watches/yacht-master/m226659-0002",
+      "imageUrl": "https://media.rolex.com/image/upload/q_auto/f_auto/t_v7-cover-majesty-landscape/c_limit%2Cw_1920/v1/a677b2c664f6/catalogue/2026/upright-c/m226659-0002",
+      "sha256": "692b57cdec8b5830857beee1c47acd48ad07e537b465af994b5e8cf38d51cc0f",
+      "derivativeSha256": "983385a6bd86934f56cc8373dcb0167fe41bc0af3ef2f9a76e9582b0adb3485b",
+      "driveFiles": [
+        {
+          "type": "RAW",
+          "id": "19GReo5vC5wCrQKpp-BVOCB_hVHRPDz2h",
+          "name": "rolex-yacht-master-m226659-0002-raw.png",
+          "success": true
+        },
+        {
+          "type": "WHITE_MASTER",
+          "id": "1RS18weLePVb1iSg1Ek4kUzLXxayYqqxK",
+          "name": "rolex-yacht-master-m226659-0002-white_master.png",
+          "success": true
+        },
+        {
+          "type": "WEB",
+          "id": "1SE5dahRgOfog6cJzI2MJ-tPRI-lvYqfQ",
+          "name": "rolex-yacht-master-m226659-0002-web.webp",
+          "success": true
+        }
+      ],
+      "rightsStatus": "Pending founder clearance for new official originals; not published",
+      "publicationStatus": "Queued pending founder website-use clearance for new official originals",
+      "whiteMaster": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\rolex-yacht-master-reviewed\\m226659-0002-white-master.png",
+      "webDerivative": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\rolex-yacht-master-reviewed\\m226659-0002-web.webp",
+      "reviewStatus": "Original and final white-canvas derivative visually reviewed; exact SKU, dial, case material, bracelet and generation confirmed on manufacturer product page"
+    },
+    {
+      "brand": "Rolex",
+      "collection": "Yacht-Master",
+      "catalogReference": "226658",
+      "exactReference": "m226658-0001",
+      "configuration": {
+        "material": "18K Yellow Gold",
+        "dial": "Black",
+        "bracelet": "Oysterflex",
+        "caseSize": "42 mm",
+        "movement": "Self-winding calibre 3235",
+        "waterResistance": "100 m"
+      },
+      "sourceUrl": "https://www.rolex.com/en-us/watches/yacht-master/m226658-0001",
+      "imageUrl": "https://media.rolex.com/image/upload/q_auto/f_auto/t_v7-cover-majesty-landscape/c_limit%2Cw_1920/v1/a677b2c664f6/catalogue/2026/upright-c/m226658-0001",
+      "sha256": "9e2b7b4751f096f57e6ac276d03abc5a5d22580fb7a6335f2f2a054901a41bd3",
+      "derivativeSha256": "46f2fb81345f9dafec8cfa5d544db6a806c7fabb425d5f8dfee278f03f8f0f73",
+      "driveFiles": [
+        {
+          "type": "RAW",
+          "id": "1jnz5xBmo-IUSZxUAvkMr1s8HGiYl6oZG",
+          "name": "rolex-yacht-master-m226658-0001-raw.png",
+          "success": true
+        },
+        {
+          "type": "WHITE_MASTER",
+          "id": "1rUvSdyqHcrLEm0nr7UJf6dNGIczLeR_F",
+          "name": "rolex-yacht-master-m226658-0001-white_master.png",
+          "success": true
+        },
+        {
+          "type": "WEB",
+          "id": "1P3mgOQhJWDxL6OYN5_cb3_3R1AiisedF",
+          "name": "rolex-yacht-master-m226658-0001-web.webp",
+          "success": true
+        }
+      ],
+      "rightsStatus": "Pending founder clearance for new official originals; not published",
+      "publicationStatus": "Queued pending founder website-use clearance for new official originals",
+      "whiteMaster": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\rolex-yacht-master-reviewed\\m226658-0001-white-master.png",
+      "webDerivative": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\rolex-yacht-master-reviewed\\m226658-0001-web.webp",
+      "reviewStatus": "Original and final white-canvas derivative visually reviewed; exact SKU, dial, case material, bracelet and generation confirmed on manufacturer product page"
+    },
+    {
+      "brand": "Rolex",
+      "collection": "Yacht-Master",
+      "catalogReference": "126655",
+      "exactReference": "m126655-0002",
+      "configuration": {
+        "material": "18K Everose Gold",
+        "dial": "Intense black",
+        "bracelet": "Oysterflex",
+        "caseSize": "40 mm",
+        "movement": "Self-winding calibre 3235",
+        "waterResistance": "100 m"
+      },
+      "sourceUrl": "https://www.rolex.com/en-us/watches/yacht-master/m126655-0002",
+      "imageUrl": "https://media.rolex.com/image/upload/q_auto/f_auto/t_v7-cover-majesty-landscape/c_limit%2Cw_1920/v1/a677b2c664f6/catalogue/2026/upright-c/m126655-0002",
+      "sha256": "9d3c467b22109ae53ace9eab33ec37255786eb1abd3c382ebf999f3d15afc0ea",
+      "derivativeSha256": "697a244ac4e37842f84904f86d3702e989821d3fcbf82b789cbdab9de6031af5",
+      "driveFiles": [
+        {
+          "type": "RAW",
+          "id": "1UJScLkWG2RTn3JQMoS4fllbEt4ab-cYB",
+          "name": "rolex-yacht-master-m126655-0002-raw.png",
+          "success": true
+        },
+        {
+          "type": "WHITE_MASTER",
+          "id": "1vj1O6lxhUYFnLljD5DR_GyXZWgKzmOFQ",
+          "name": "rolex-yacht-master-m126655-0002-white_master.png",
+          "success": true
+        },
+        {
+          "type": "WEB",
+          "id": "1LJ5bxZMMs_qQKgDQVkP6KPaw9IxkmYCt",
+          "name": "rolex-yacht-master-m126655-0002-web.webp",
+          "success": true
+        }
+      ],
+      "rightsStatus": "Pending founder clearance for new official originals; not published",
+      "publicationStatus": "Queued pending founder website-use clearance for new official originals",
+      "whiteMaster": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\rolex-yacht-master-reviewed\\m126655-0002-white-master.png",
+      "webDerivative": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\rolex-yacht-master-reviewed\\m126655-0002-web.webp",
+      "reviewStatus": "Original and final white-canvas derivative visually reviewed; exact SKU, dial, case material, bracelet and generation confirmed on manufacturer product page"
+    },
+    {
+      "brand": "Rolex",
+      "collection": "Yacht-Master",
+      "catalogReference": "268622",
+      "exactReference": "m268622-0002",
+      "configuration": {
+        "material": "Oystersteel / Platinum",
+        "dial": "Slate",
+        "bracelet": "Oyster",
+        "caseSize": "37 mm",
+        "movement": "Self-winding calibre 2236",
+        "waterResistance": "100 m"
+      },
+      "sourceUrl": "https://www.rolex.com/watches/yacht-master/m268622-0002",
+      "imageUrl": "https://media.rolex.com/image/upload/q_auto/f_auto/t_v7-cover-majesty-landscape/c_limit%2Cw_1920/v1/a677b2c664f6/catalogue/2026/upright-c/m268622-0002",
+      "sha256": "343a8270bb82d64d334ec1487476a33449c96a3ffbde192259236cdd6dfde997",
+      "derivativeSha256": "2f4166ee77c54ef40b5d4146edb1d88632ed6942ba3b821742e0ab47b85e17a4",
+      "driveFiles": [
+        {
+          "type": "RAW",
+          "id": "12RzLpE3BdJTE_s2rXBFug700u40zTVs0",
+          "name": "rolex-yacht-master-m268622-0002-raw.png",
+          "success": true
+        },
+        {
+          "type": "WHITE_MASTER",
+          "id": "1pxc1u64Vyh07LyueTwFfW7zsEvLtWydH",
+          "name": "rolex-yacht-master-m268622-0002-white_master.png",
+          "success": true
+        },
+        {
+          "type": "WEB",
+          "id": "1LbXh9LIPqjow__t4xDbigrOEGjLhBQIo",
+          "name": "rolex-yacht-master-m268622-0002-web.webp",
+          "success": true
+        }
+      ],
+      "rightsStatus": "Pending founder clearance for new official originals; not published",
+      "publicationStatus": "Queued pending founder website-use clearance for new official originals",
+      "whiteMaster": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\rolex-yacht-master-reviewed\\m268622-0002-white-master.png",
+      "webDerivative": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\rolex-yacht-master-reviewed\\m268622-0002-web.webp",
+      "reviewStatus": "Original and final white-canvas derivative visually reviewed; exact SKU, dial, case material, bracelet and generation confirmed on manufacturer product page"
     }
   ]
 }

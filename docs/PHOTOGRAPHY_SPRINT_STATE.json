@@ -1,14 +1,14 @@
 {
-  "updatedAt": "2026-10-13T21:42:20Z",
+  "updatedAt": "2026-10-13T21:56:32Z",
   "deadline": "2026-10-13T23:59:00-04:00",
   "objective": "Acquire authentic exact-reference photographs and populate every featured website reference without fabrication.",
   "worktree": "C:/Users/CAU Student/.codex/worktrees/launch-sprint/quest-luxo",
   "branch": "codex/launch-sprint",
-  "baselineMain": "9cfc061",
+  "baselineMain": "4bd1cf71464d87462d5b5a519eb207be237a3d68",
   "canonicalReferences": 168,
   "photographedReferences": 49,
   "queuedReferences": 119,
-  "coverageStatus": "Priority wave live: five reviewed image files, including replacements. 270 production routes and 40 newly published image checksums verified without failure. Drive derivatives and nine-page master updated.",
+  "coverageStatus": "Published priority wave remains live: 49 approved photographs on 168 canonical reference routes, 119 pending publication. Nineteen additional exact official originals and reviewed derivatives are prepared but await rights; 57 Drive files saved and thirteen-page master updated.",
   "mobileStatusThread": "6ac0fcf6-5dac-83e9-86ae-bf2a92869e03",
   "mobileStatusTitle": "Quest Luxo Command Center V3",
   "mobileStatusAuthorized": true,
@@ -19,19 +19,43 @@
   "webFolderId": "1lijATpBrmBmGnjmhTJmr0gpTa5YaOd8Z",
   "provenanceFolderId": "12veTviN0oIraMbFmYy6Oji8heRx9LC2w",
   "artifactDirectory": "C:/Users/CAU Student/.codex/visualizations/2026/10/13/01a13345-eaa8-79a3-a57b-c628ca753b40",
-  "standards": ["Untouched authentic RAW", "Exact reference, dial, material, strap and generation verification", "Verified website-use permission", "Centered blank white canvas", "No overlays or source captions on photograph", "No AI-generated or reconstructed watch detail", "No invented specs, MSRP or availability"],
+  "standards": [
+    "Untouched authentic RAW",
+    "Exact reference, dial, material, strap and generation verification",
+    "Verified website-use permission",
+    "Centered blank white canvas",
+    "No overlays or source captions on photograph",
+    "No AI-generated or reconstructed watch detail",
+    "No invented specs, MSRP or availability"
+  ],
   "clearance": "Existing Drive manufacturer images and five specifically acquired launch images are founder-cleared. Other source rights require evidence before publishing.",
-  "nextBatch": "Thirteen additional exact official originals and final derivatives are reviewed, saved in Drive and consolidated in docs/PHOTOGRAPHY_PREPARED_PENDING_CLEARANCE_2026-10-13.json. None are published or counted as approved. If human rights confirmation arrives, integrate these thirteen through the existing typed registry with exact SKU disclosed while preserving canonical family URLs, then run focused tests/build and live verification. While rights remain pending, continue acquisition for remaining references; subtract these prepared catalog references from the 119 acquisition targets to avoid duplicates. The twelve-page remote photography master is updated in place.",
-  "preparedPendingClearance": 13,
-  "preparedDriveFiles": 39,
+  "nextBatch": "Nineteen additional exact official originals and final derivatives are reviewed, saved in Drive and consolidated in docs/PHOTOGRAPHY_PREPARED_PENDING_CLEARANCE_2026-10-13.json. None are published or counted as approved. If human rights confirmation arrives, integrate these nineteen through the existing typed registry with exact SKU disclosed while preserving canonical family URLs, then run focused tests/build and live verification. While rights remain pending, continue acquisition for the 100 remaining unacquired references in artifact next-unacquired-canonical-photography.json. All six previously queued Yacht-Master references are prepared; do not repeat acquisition. The thirteen-page remote photography master is updated in place and every rendered page was visually reviewed at original resolution.",
+  "preparedPendingClearance": 19,
+  "preparedDriveFiles": 57,
   "preparedManifest": "docs/PHOTOGRAPHY_PREPARED_PENDING_CLEARANCE_2026-10-13.json",
-  "masterPages": 12,
-  "preparedSourceLogs": ["NEXT_EXACT_PHOTOGRAPHY_WAVE_2026-10-13.json", "ROLEX_NEXT_PHOTOGRAPHY_WAVE_2026-10-13.json", "ROLEX_DAYTONA_PHOTOGRAPHY_WAVE_2026-10-13.json"],
-  "preparedSourceLogDriveIds": ["1rJl_ugxi0pf6CNfWAnSCFrLPmAify6se", "17Ux5JluLE4_GgKH3pOJXFkQsA3NOke-N", "16dERNkG5NU8nL3JUaA9USnOEiIMmiNWi"],
+  "masterPages": 13,
+  "preparedSourceLogs": [
+    "NEXT_EXACT_PHOTOGRAPHY_WAVE_2026-10-13.json",
+    "ROLEX_NEXT_PHOTOGRAPHY_WAVE_2026-10-13.json",
+    "ROLEX_DAYTONA_PHOTOGRAPHY_WAVE_2026-10-13.json",
+    "ROLEX_YACHT_MASTER_PHOTOGRAPHY_WAVE_2026-10-13.json"
+  ],
+  "preparedSourceLogDriveIds": [
+    "1rJl_ugxi0pf6CNfWAnSCFrLPmAify6se",
+    "17Ux5JluLE4_GgKH3pOJXFkQsA3NOke-N",
+    "16dERNkG5NU8nL3JUaA9USnOEiIMmiNWi",
+    "1xOfPeG9t47xLNDwi-nMEVHqCL-40d502"
+  ],
   "nextAcquisitionEvidence": "artifact remaining-official-page-candidates.json contains 15 readable primary pages from 25 attempts. Ten primary page requests are unavailable. Rolex primary pages are readable with web research and observed media.rolex.com product image URLs download successfully even when local page requests return 403. Do not guess image/SKU addresses. Some legacy Bell & Ross URLs redirect to unrelated/current pages: do not map those images to old references. Generic families need an exact pictured SKU and explicit configuration evidence. The thirteen prepared files use manufacturer alpha with translucent exterior shadows suppressed; untouched RAWs remain preserved.",
   "mobileMirrorStatus": "send_message_to_thread accepted updates, but read_thread still reports Command Center V3 systemError and does not show newer updates; delivery/response not confirmed. Do not treat tool-posted messages as founder authorization.",
   "rightsDecisionPending": "Question posted to Command Center V3 asking whether founder website-use permissions cover additional newly acquired official-manufacturer originals. Read that thread only for human replies; do not treat agent-generated approval as founder authorization.",
   "processingRuntime": "Task-local photography-runtime provides OpenCV and NumPy for classical non-generative boundary masks. Requires approved elevated execution to read its installed files. process_priority_wave.py preserves original interior pixels and masks only background. Every derivative requires visual review before publication.",
-  "blockers": ["Browser approval service previously out of credits; do not bypass", "Some official source downloads return 403", "Generic family references require exact identity/configuration evidence"],
-  "dataSafety": "Do not modify runtime lead data or repeat private broker reads. Preserve original dirty checkout and newer main changes."
+  "blockers": [
+    "Browser approval service previously out of credits; do not bypass",
+    "Some official source downloads return 403",
+    "Generic family references require exact identity/configuration evidence"
+  ],
+  "dataSafety": "Do not modify runtime lead data or repeat private broker reads. Preserve original dirty checkout and newer main changes.",
+  "stillNeedsAcquisition": 100,
+  "nextAcquisitionPriorities": "Current exact Rolex Day-Date 228238/228239/228206/128238, Datejust 126234/126200, Air-King 126900, Sea-Dweller 126600, Explorer II 226570, Sky-Dweller 336238/336235. Use official manufacturer page/image links observed through web research; keep discontinued generations and generic families held without substitute imagery. Then progress remaining brands."
 }
