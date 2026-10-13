@@ -1,0 +1,551 @@
+{
+  "preparedAt": "2026-10-13T21:42:20Z",
+  "count": 13,
+  "websitePublished": false,
+  "canonicalApprovedCoverage": {
+    "photographed": 49,
+    "total": 168,
+    "queued": 119
+  },
+  "review": "All original and white-canvas derivatives visually reviewed; source pages confirm exact reference/configuration. Final publication requires founder confirmation of website-use rights. Photographed SKU remains distinct from broader family routes.",
+  "records": [
+    {
+      "brand": "Breitling",
+      "collection": "Superocean",
+      "catalogReference": "A17376211B1A1",
+      "exactReference": "A17376211B1A1",
+      "configuration": {
+        "material": "Stainless Steel",
+        "dial": "Black with contrasting light chapter ring",
+        "bracelet": "Stainless-steel bracelet",
+        "caseSize": "44 mm",
+        "movement": "Self-winding Breitling 17",
+        "waterResistance": "300 m"
+      },
+      "sourceUrl": "https://www.breitling.com/gb-en/watches/superocean/superocean-automatic-44-my22/A17376211B1A1/",
+      "imageUrl": "https://www.breitling.com/cdn-cgi/image/format=auto,quality=90,width=2040,fit=cover,gravity=0.5x0.5/api/image-proxy/www-breitling.eu.saleor.cloud/media/thumbnails/products/a17376211b1a1-soldier_8027a4ed_thumbnail_1024.webp",
+      "sha256": "1dbd236d2a960cf7a1c077c9209425f5eee37bf3d3762c6471faf7f71b724a79",
+      "derivativeSha256": "c1c5ae0af763859590f7bbc64fb805807e639bc50f957ebf43efa7ea1b4350b5",
+      "driveFiles": [
+        {
+          "type": "RAW",
+          "id": "1z52478GTFJfJRRtIBfHUo4uiqSTtU4HL",
+          "name": "breitling-a17376211b1a1-raw.png"
+        },
+        {
+          "type": "WHITE_MASTER",
+          "id": "1X72WMrVtvDP0zQGBt7RDFIDN4k1y4aX9",
+          "name": "breitling-a17376211b1a1-white_master.png"
+        },
+        {
+          "type": "WEB",
+          "id": "113aDl2F9lOLUWV8Q9ExBKTBGHAXd3X-k",
+          "name": "breitling-a17376211b1a1-web.webp"
+        }
+      ],
+      "rightsStatus": "Pending founder clearance for new official originals; not published",
+      "publicationStatus": "Queued pending founder website-use clearance",
+      "whiteMaster": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\next-exact-wave-reviewed\\a17376211b1a1-white-master.png",
+      "webDerivative": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\next-exact-wave-reviewed\\a17376211b1a1-web.webp",
+      "reviewStatus": "Original and final white-canvas derivative visually reviewed; exact photographed SKU identified. Website publication pending founder rights clearance."
+    },
+    {
+      "brand": "Patek Philippe",
+      "collection": "Nautilus",
+      "catalogReference": "5990/1A",
+      "exactReference": "5990/1A-011",
+      "configuration": {
+        "material": "Stainless Steel",
+        "dial": "Sunburst blue-gray with black-gradient rim",
+        "bracelet": "Steel integrated bracelet",
+        "caseSize": "40.5 mm",
+        "movement": "Self-winding CH 28-520 C FUS",
+        "waterResistance": "30 m"
+      },
+      "sourceUrl": "https://www.patek.com/en/collection/nautilus/5990-1a-011",
+      "imageUrl": "https://patek-res.cloudinary.com/dfsmedia/0906caea301d42b3b8bd23bd656d1711/4858-51887",
+      "sha256": "9239556d27d364f2aaff8c5db8256f1bf3995a10e3fd0ba2100d903b6b876835",
+      "derivativeSha256": "a5535dfe5c9430f04bdebfc7d9d9f08439a0f3abac8014e085c0b84b3cd3b511",
+      "driveFiles": [
+        {
+          "type": "RAW",
+          "id": "1tfRGvOH587MmTFOeapYSgo0LTjnxzjef",
+          "name": "patek-philippe-5990-1a-011-raw.png"
+        },
+        {
+          "type": "WHITE_MASTER",
+          "id": "1K0AcUpDZRT09k3S60Xk9Y-RrFjWHA5Ro",
+          "name": "patek-philippe-5990-1a-011-white_master.png"
+        },
+        {
+          "type": "WEB",
+          "id": "1hn9j93frmU7GLWq30pww5ykEopQG3w28",
+          "name": "patek-philippe-5990-1a-011-web.webp"
+        }
+      ],
+      "rightsStatus": "Pending founder clearance for new official originals; not published",
+      "publicationStatus": "Queued pending founder website-use clearance",
+      "whiteMaster": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\next-exact-wave-reviewed\\5990-1a-011-white-master.png",
+      "webDerivative": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\next-exact-wave-reviewed\\5990-1a-011-web.webp",
+      "reviewStatus": "Original and final white-canvas derivative visually reviewed; exact photographed SKU identified. Website publication pending founder rights clearance."
+    },
+    {
+      "brand": "Patek Philippe",
+      "collection": "Nautilus",
+      "catalogReference": "5726/1A",
+      "exactReference": "5726/1A-014",
+      "configuration": {
+        "material": "Stainless Steel",
+        "dial": "Sunburst blue-gray with black-gradient rim",
+        "bracelet": "Steel integrated bracelet",
+        "caseSize": "40.5 mm",
+        "movement": "Self-winding 26-330 S QA LU 24H",
+        "waterResistance": "30 m"
+      },
+      "sourceUrl": "https://www.patek.com/en/collection/nautilus/5726-1a-014",
+      "imageUrl": "https://patek-res.cloudinary.com/dfsmedia/0906caea301d42b3b8bd23bd656d1711/202222-51887",
+      "sha256": "3e137bc5b26024ec938f92952b6a310c15fbac758f77c94fb97aac1badff713b",
+      "derivativeSha256": "562df26b308bc6ea7a1b7cebdf264917af32401ff9839064317567c7d7c77c8c",
+      "driveFiles": [
+        {
+          "type": "RAW",
+          "id": "1mDuzcS4xbVuU5YssqGwezfE0p-2L7cgY",
+          "name": "patek-philippe-5726-1a-014-raw.png"
+        },
+        {
+          "type": "WHITE_MASTER",
+          "id": "1JZeCH4K99P-uoTjMwT2ZdfwsCogRv8yx",
+          "name": "patek-philippe-5726-1a-014-white_master.png"
+        },
+        {
+          "type": "WEB",
+          "id": "1NLJVGdXsGZeywR8y6g1OPjSXkc6J-yyU",
+          "name": "patek-philippe-5726-1a-014-web.webp"
+        }
+      ],
+      "rightsStatus": "Pending founder clearance for new official originals; not published",
+      "publicationStatus": "Queued pending founder website-use clearance",
+      "whiteMaster": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\next-exact-wave-reviewed\\5726-1a-014-white-master.png",
+      "webDerivative": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\next-exact-wave-reviewed\\5726-1a-014-web.webp",
+      "reviewStatus": "Original and final white-canvas derivative visually reviewed; exact photographed SKU identified. Website publication pending founder rights clearance."
+    },
+    {
+      "brand": "Patek Philippe",
+      "collection": "Calatrava",
+      "catalogReference": "6119",
+      "exactReference": "6119G-001",
+      "configuration": {
+        "material": "18K White Gold",
+        "dial": "Charcoal gray, vertical satin finish",
+        "bracelet": "Shiny black alligator leather strap",
+        "caseSize": "39 mm",
+        "movement": "Manual-winding 30-255 PS",
+        "waterResistance": "30 m"
+      },
+      "sourceUrl": "https://www.patek.com/en/collection/calatrava/6119G-001",
+      "imageUrl": "https://patek-res.cloudinary.com/dfsmedia/0906caea301d42b3b8bd23bd656d1711/202100-51887",
+      "sha256": "e801f93617ba30d84f6fb5f07738567c4d86c2afdb7b861e3ac35ad5ee52e92b",
+      "derivativeSha256": "9e799bd91814f6b8d06b1f64bc6a105bccf2ebeb672d873515c2f4d39dde7b25",
+      "driveFiles": [
+        {
+          "type": "RAW",
+          "id": "1v66ar2IY4iv-X-NSEx5jc3bQeWnpWfTu",
+          "name": "patek-philippe-6119g-001-raw.png"
+        },
+        {
+          "type": "WHITE_MASTER",
+          "id": "1-13zxu_v1IkF_7AGtYD4dSb-Ky9vJ42n",
+          "name": "patek-philippe-6119g-001-white_master.png"
+        },
+        {
+          "type": "WEB",
+          "id": "1dpIFWyUS6DXCkZqD-7kk2L-qC8lt03Qf",
+          "name": "patek-philippe-6119g-001-web.webp"
+        }
+      ],
+      "rightsStatus": "Pending founder clearance for new official originals; not published",
+      "publicationStatus": "Queued pending founder website-use clearance",
+      "whiteMaster": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\next-exact-wave-reviewed\\6119g-001-white-master.png",
+      "webDerivative": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\next-exact-wave-reviewed\\6119g-001-web.webp",
+      "reviewStatus": "Original and final white-canvas derivative visually reviewed; exact photographed SKU identified. Website publication pending founder rights clearance."
+    },
+    {
+      "brand": "Patek Philippe",
+      "collection": "Calatrava",
+      "catalogReference": "5227",
+      "exactReference": "5227G-010",
+      "configuration": {
+        "material": "18K White Gold",
+        "dial": "Lacquered black",
+        "bracelet": "Shiny black alligator leather strap",
+        "caseSize": "39 mm",
+        "movement": "Self-winding 26-330 S C",
+        "waterResistance": "30 m"
+      },
+      "sourceUrl": "https://www.patek.com/en/collection/calatrava/5227G-010",
+      "imageUrl": "https://patek-res.cloudinary.com/dfsmedia/0906caea301d42b3b8bd23bd656d1711/202401-51887",
+      "sha256": "611a5d66272cf01ee2dbe4ace56c0ca8cd0fa4455cdb08faa54029c53555e3c9",
+      "derivativeSha256": "28914b8df6398a527e47b32f8db6f5e2e6bbd89a34e242c47297427aa50f215f",
+      "driveFiles": [
+        {
+          "type": "RAW",
+          "id": "1cnS3A4tkjjaRlZSYzmQCoWUl-ctqSVGo",
+          "name": "patek-philippe-5227g-010-raw.png"
+        },
+        {
+          "type": "WHITE_MASTER",
+          "id": "17OpjlIWV2vmWGCRFl59Iz2RkgIbWv56N",
+          "name": "patek-philippe-5227g-010-white_master.png"
+        },
+        {
+          "type": "WEB",
+          "id": "1RmJLeVGYU9cXrGJN3LuipCoYCkV6LXT-",
+          "name": "patek-philippe-5227g-010-web.webp"
+        }
+      ],
+      "rightsStatus": "Pending founder clearance for new official originals; not published",
+      "publicationStatus": "Queued pending founder website-use clearance",
+      "whiteMaster": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\next-exact-wave-reviewed\\5227g-010-white-master.png",
+      "webDerivative": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\next-exact-wave-reviewed\\5227g-010-web.webp",
+      "reviewStatus": "Original and final white-canvas derivative visually reviewed; exact photographed SKU identified. Website publication pending founder rights clearance."
+    },
+    {
+      "brand": "Franck Muller",
+      "collection": "Yachting",
+      "catalogReference": "V 45 SC DT YACHT CR BL (BL)",
+      "exactReference": "V 45 SC DT YACHT CR BL (BL)",
+      "configuration": {
+        "material": "Blue Ceramic",
+        "dial": "Blue Yachting with white numerals",
+        "bracelet": "Blue strap with contrasting white stitching"
+      },
+      "sourceUrl": "https://www.franckmuller.com/vanguard",
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/56a9e12ac647ad08eb4453c7/1648980561086-AG932ZGFSY8MSATFU5FD/V%2B45%2BSC%2BDT%2BYACHTING%2BCRBL-BL%2B-%2BBL-BLC-BLC%2Bcopie.png",
+      "sha256": "9b8d494b6dd383af1a48bf7e50db1b06c2fa7d09fa0b52b68aee304c068e7b23",
+      "derivativeSha256": "ced2c66db110f2371a0266ada595f6893a0f7f5a1a706e4c3f82efd5379b250f",
+      "driveFiles": [
+        {
+          "type": "RAW",
+          "id": "1QUKm7PkWKGqHqzCnn8RbcM_iJC9CrVa5",
+          "name": "franck-muller-v-45-sc-dt-yacht-cr-bl-bl-raw.png"
+        },
+        {
+          "type": "WHITE_MASTER",
+          "id": "1xeAnND4Pz776reeMRU4F___j2j1t156X",
+          "name": "franck-muller-v-45-sc-dt-yacht-cr-bl-bl-white_master.png"
+        },
+        {
+          "type": "WEB",
+          "id": "1RB-vQC6_e7D2ByHVWfm3yVbiF8ictDHq",
+          "name": "franck-muller-v-45-sc-dt-yacht-cr-bl-bl-web.webp"
+        }
+      ],
+      "rightsStatus": "Pending founder clearance for new official originals; not published",
+      "publicationStatus": "Queued pending founder website-use clearance",
+      "whiteMaster": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\next-exact-wave-reviewed\\v-45-sc-dt-yacht-cr-bl-bl-white-master.png",
+      "webDerivative": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\next-exact-wave-reviewed\\v-45-sc-dt-yacht-cr-bl-bl-web.webp",
+      "reviewStatus": "Original and final white-canvas derivative visually reviewed; exact photographed SKU identified. Website publication pending founder rights clearance."
+    },
+    {
+      "brand": "Rolex",
+      "collection": "GMT-Master II",
+      "catalogReference": "126713GRNR",
+      "exactReference": "m126713grnr-0001",
+      "configuration": {
+        "material": "Yellow Rolesor",
+        "dial": "Black",
+        "bracelet": "Jubilee",
+        "caseSize": "40 mm",
+        "movement": "Self-winding calibre 3285",
+        "waterResistance": "100 m"
+      },
+      "sourceUrl": "https://www.rolex.com/watches/gmt-master-ii/m126713grnr-0001",
+      "imageUrl": "https://media.rolex.com/image/upload/q_auto/f_auto/t_v7-cover-majesty-landscape/c_limit%2Cw_1920/v1/a677b2c664f6/catalogue/2026/upright-c/m126713grnr-0001",
+      "sha256": "882ecb8849dd3f02888f467030eb9388c4d57e3ab79667dffbbfb00c583c6382",
+      "derivativeSha256": "131132853905c763b7f5063eb07b8269ef7158ddad014de38ef84de2f10915fa",
+      "driveFiles": [
+        {
+          "type": "RAW",
+          "id": "13tLwYTDGvHBM4YR96hqimnlybeeaHR3P",
+          "name": "rolex-m126713grnr-0001-raw.png",
+          "success": true
+        },
+        {
+          "type": "WHITE_MASTER",
+          "id": "1v9sWzB_ygSu9ut6sOGnTuRYXDBxl7IyM",
+          "name": "rolex-m126713grnr-0001-white_master.png",
+          "success": true
+        },
+        {
+          "type": "WEB",
+          "id": "1gOZ42Tet2lQ0CSZ4wkTbEQqxj1wDRfEY",
+          "name": "rolex-m126713grnr-0001-web.webp",
+          "success": true
+        }
+      ],
+      "rightsStatus": "Pending founder clearance for new official originals; not published",
+      "publicationStatus": "Queued pending founder website-use clearance",
+      "whiteMaster": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\rolex-next-reviewed\\m126713grnr-0001-white-master.png",
+      "webDerivative": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\rolex-next-reviewed\\m126713grnr-0001-web.webp",
+      "reviewStatus": "Original and final centered white-canvas derivative visually reviewed; exact SKU and configuration confirmed on official page; publication pending rights"
+    },
+    {
+      "brand": "Rolex",
+      "collection": "GMT-Master II",
+      "catalogReference": "126718GRNR",
+      "exactReference": "m126718grnr-0001",
+      "configuration": {
+        "material": "18K Yellow Gold",
+        "dial": "Black",
+        "bracelet": "Jubilee",
+        "caseSize": "40 mm",
+        "movement": "Self-winding calibre 3285",
+        "waterResistance": "100 m"
+      },
+      "sourceUrl": "https://www.rolex.com/watches/gmt-master-ii/m126718grnr-0001",
+      "imageUrl": "https://media.rolex.com/image/upload/q_auto/f_auto/t_v7-cover-majesty-landscape/c_limit%2Cw_1920/v1/a677b2c664f6/catalogue/2026/upright-c/m126718grnr-0001",
+      "sha256": "d8e0d0a83513e6b3d994980bf77751ded48de1980427963297491f63880e8a07",
+      "derivativeSha256": "fc1d9d54020af63cefd099aa4a5eef2337dc6fcb2a6dbac7ed194bb85ae8ea93",
+      "driveFiles": [
+        {
+          "type": "RAW",
+          "id": "10rmuPTFMG9wP5VlqvkqkCKZu_3Xrqme8",
+          "name": "rolex-m126718grnr-0001-raw.png",
+          "success": true
+        },
+        {
+          "type": "WHITE_MASTER",
+          "id": "1rdkCQMF7m5Td3lnxQm2Fl5qs7r-VH60O",
+          "name": "rolex-m126718grnr-0001-white_master.png",
+          "success": true
+        },
+        {
+          "type": "WEB",
+          "id": "1emtnEu7eig1T3UP1F16N3QqvNlSzN48G",
+          "name": "rolex-m126718grnr-0001-web.webp",
+          "success": true
+        }
+      ],
+      "rightsStatus": "Pending founder clearance for new official originals; not published",
+      "publicationStatus": "Queued pending founder website-use clearance",
+      "whiteMaster": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\rolex-next-reviewed\\m126718grnr-0001-white-master.png",
+      "webDerivative": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\rolex-next-reviewed\\m126718grnr-0001-web.webp",
+      "reviewStatus": "Original and final centered white-canvas derivative visually reviewed; exact SKU and configuration confirmed on official page; publication pending rights"
+    },
+    {
+      "brand": "Rolex",
+      "collection": "Daytona",
+      "catalogReference": "126508",
+      "exactReference": "m126508-0006",
+      "configuration": {
+        "material": "18K Yellow Gold",
+        "dial": "Golden and bright black",
+        "bracelet": "Oyster",
+        "caseSize": "40 mm",
+        "movement": "Self-winding chronograph calibre 4131",
+        "waterResistance": "100 m"
+      },
+      "sourceUrl": "https://www.rolex.com/en-us/watches/cosmograph-daytona/m126508-0006",
+      "imageUrl": "https://media.rolex.com/image/upload/q_auto/f_auto/t_v7-cover-majesty-landscape/c_limit%2Cw_1920/v1/a677b2c664f6/catalogue/2026/upright-c/m126508-0006",
+      "sha256": "c8d9bfbe8170fc42f267ab77a766e26645f086ced0111381202ec8f3b110d71f",
+      "derivativeSha256": "e0d40f5bc68f85b34247e7a444eef41b6eeab0c8ce3700f92865f58da8625487",
+      "driveFiles": [
+        {
+          "type": "RAW",
+          "id": "1KulktyE8b37mkojEpqZqrGvG5JdJjURG",
+          "name": "rolex-m126508-0006-raw.png",
+          "success": true
+        },
+        {
+          "type": "WHITE_MASTER",
+          "id": "14IIEdzO8euqkrYUn51r5YKnpFkmHBkov",
+          "name": "rolex-m126508-0006-white_master.png",
+          "success": true
+        },
+        {
+          "type": "WEB",
+          "id": "1TVgRyt-WXH6d7uwrP9E-q4ZfU4eQljp2",
+          "name": "rolex-m126508-0006-web.webp",
+          "success": true
+        }
+      ],
+      "rightsStatus": "Pending founder clearance for new official originals; not published",
+      "publicationStatus": "Queued pending founder website-use clearance",
+      "whiteMaster": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\rolex-next-reviewed\\m126508-0006-white-master.png",
+      "webDerivative": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\rolex-next-reviewed\\m126508-0006-web.webp",
+      "reviewStatus": "Original and final centered white-canvas derivative visually reviewed; exact SKU and configuration confirmed on official page; publication pending rights"
+    },
+    {
+      "brand": "Rolex",
+      "collection": "Explorer",
+      "catalogReference": "224270",
+      "exactReference": "m224270-0001",
+      "configuration": {
+        "material": "Oystersteel",
+        "dial": "Black",
+        "bracelet": "Oyster",
+        "caseSize": "40 mm",
+        "movement": "Self-winding calibre 3230",
+        "waterResistance": "100 m"
+      },
+      "sourceUrl": "https://www.rolex.com/es-mx/watches/explorer/m224270-0001",
+      "imageUrl": "https://media.rolex.com/image/upload/q_auto/f_auto/t_v7-cover-majesty-landscape/c_limit%2Cw_1920/v1/a677b2c664f6/catalogue/2026/upright-c/m224270-0001",
+      "sha256": "df0bc5161836d058850f8eb355f6de0415b8f3c818c5ded32062f2836ea0a8d1",
+      "derivativeSha256": "ebb6b3a49400d22e82c39e741efe471a9841092725fcee8ebd76d48222c1abf1",
+      "driveFiles": [
+        {
+          "type": "RAW",
+          "id": "1RPqyfRNRdTAlOSAS8xRWwpDdiUy3ReR_",
+          "name": "rolex-m224270-0001-raw.png",
+          "success": true
+        },
+        {
+          "type": "WHITE_MASTER",
+          "id": "1GKopqy8Raem9ZH51FXQOusaXYIzk0m6-",
+          "name": "rolex-m224270-0001-white_master.png",
+          "success": true
+        },
+        {
+          "type": "WEB",
+          "id": "1ze7oNI3-MJytyliLvRzFduqlFB9WaWJc",
+          "name": "rolex-m224270-0001-web.webp",
+          "success": true
+        }
+      ],
+      "rightsStatus": "Pending founder clearance for new official originals; not published",
+      "publicationStatus": "Queued pending founder website-use clearance",
+      "whiteMaster": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\rolex-next-reviewed\\m224270-0001-white-master.png",
+      "webDerivative": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\rolex-next-reviewed\\m224270-0001-web.webp",
+      "reviewStatus": "Original and final centered white-canvas derivative visually reviewed; exact SKU and configuration confirmed on official page; publication pending rights"
+    },
+    {
+      "brand": "Rolex",
+      "collection": "Daytona",
+      "catalogReference": "126515LN",
+      "exactReference": "m126515ln-0006",
+      "configuration": {
+        "material": "18K Everose Gold",
+        "dial": "Sundust and bright black",
+        "bracelet": "Oysterflex",
+        "caseSize": "40 mm",
+        "movement": "Self-winding chronograph calibre 4131",
+        "waterResistance": "100 m"
+      },
+      "sourceUrl": "https://www.rolex.com/en-us/watches/cosmograph-daytona/m126515ln-0006",
+      "imageUrl": "https://media.rolex.com/image/upload/q_auto%3Aeco/f_auto/t_v7-grid/c_limit%2Cw_1920/v1/a677b2c664f6/catalogue/2026/upright-bba-with-shadow/m126515ln-0006",
+      "sha256": "0cb333c416a84a22a509704bf04a928a7c9a8b2685aac989751a4c6798b79bdc",
+      "derivativeSha256": "f2e3854405a62d23a90f028d37fd1004123647edc9e47de705afada11497781e",
+      "driveFiles": [
+        {
+          "type": "RAW",
+          "id": "1VwufKTY3rgqunlXLPIMiCnFMBPUDGgWh",
+          "name": "rolex-m126515ln-0006-raw.png",
+          "success": true
+        },
+        {
+          "type": "WHITE_MASTER",
+          "id": "15MSXjGTToWhoh2Khg3SPkWMiyJX_wUFF",
+          "name": "rolex-m126515ln-0006-white_master.png",
+          "success": true
+        },
+        {
+          "type": "WEB",
+          "id": "1jHcidsBWcPA5zcMsBnz1HrjVF7d7zamn",
+          "name": "rolex-m126515ln-0006-web.webp",
+          "success": true
+        }
+      ],
+      "rightsStatus": "Pending founder clearance for new official originals; not published",
+      "publicationStatus": "Queued pending founder website-use clearance",
+      "whiteMaster": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\rolex-daytona-next-reviewed\\m126515ln-0006-white-master.png",
+      "webDerivative": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\rolex-daytona-next-reviewed\\m126515ln-0006-web.webp",
+      "reviewStatus": "Original and final white-canvas derivative visually reviewed; exact manufacturer reference/configuration confirmed. No publication before founder website-use clearance"
+    },
+    {
+      "brand": "Rolex",
+      "collection": "Daytona",
+      "catalogReference": "126506",
+      "exactReference": "m126506-0001",
+      "configuration": {
+        "material": "Platinum",
+        "dial": "Ice blue, chestnut brown counter rings",
+        "bracelet": "Oyster",
+        "caseSize": "40 mm",
+        "movement": "Self-winding chronograph calibre 4131",
+        "waterResistance": "100 m"
+      },
+      "sourceUrl": "https://www.rolex.com/en-us/watches/cosmograph-daytona/m126506-0001",
+      "imageUrl": "https://media.rolex.com/image/upload/q_auto%3Aeco/f_auto/t_v7-grid/c_limit%2Cw_1920/v1/a677b2c664f6/catalogue/2026/upright-bba-with-shadow/m126506-0001",
+      "sha256": "3f643e743350d874d417a50407d6e3654441321a92365fad69b68603db85a792",
+      "derivativeSha256": "4b2f8ae3ecf53e60e2ded1e9e1108993aa637412eb61bd9b98de09560090ebe6",
+      "driveFiles": [
+        {
+          "type": "RAW",
+          "id": "1s_d5Wg4h6hgTUciljfVdgbVJrp7KnK1y",
+          "name": "rolex-m126506-0001-raw.png",
+          "success": true
+        },
+        {
+          "type": "WHITE_MASTER",
+          "id": "1f1vJJkkY5KxC2HZdn9L263zwBAvlxIrq",
+          "name": "rolex-m126506-0001-white_master.png",
+          "success": true
+        },
+        {
+          "type": "WEB",
+          "id": "1LfnEg1pscz7tyJ-0FuqNpzjiK54hNmak",
+          "name": "rolex-m126506-0001-web.webp",
+          "success": true
+        }
+      ],
+      "rightsStatus": "Pending founder clearance for new official originals; not published",
+      "publicationStatus": "Queued pending founder website-use clearance",
+      "whiteMaster": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\rolex-daytona-next-reviewed\\m126506-0001-white-master.png",
+      "webDerivative": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\rolex-daytona-next-reviewed\\m126506-0001-web.webp",
+      "reviewStatus": "Original and final white-canvas derivative visually reviewed; exact manufacturer reference/configuration confirmed. No publication before founder website-use clearance"
+    },
+    {
+      "brand": "Rolex",
+      "collection": "Daytona",
+      "catalogReference": "126519LN",
+      "exactReference": "m126519ln-0004",
+      "configuration": {
+        "material": "18K White Gold",
+        "dial": "Bright black and steel set with diamonds",
+        "bracelet": "Oysterflex",
+        "caseSize": "40 mm",
+        "movement": "Self-winding chronograph calibre 4131",
+        "waterResistance": "100 m"
+      },
+      "sourceUrl": "https://www.rolex.com/en-us/watches/cosmograph-daytona/m126519ln-0004",
+      "imageUrl": "https://media.rolex.com/image/upload/q_auto%3Aeco/f_auto/t_v7-grid/c_limit%2Cw_1920/v1/a677b2c664f6/catalogue/2026/upright-bba-with-shadow/m126519ln-0004",
+      "sha256": "c07f2930a157c37fe2542fb6445550bcf8edb41e7c5cbd83d52d203e9149386c",
+      "derivativeSha256": "78fde6517a818796759888ea4c3c687518999b6a563e4bc52c9bd6f92bb2d7f9",
+      "driveFiles": [
+        {
+          "type": "RAW",
+          "id": "1H4A9BzWFbmAdngjLb-YPLLY7L4wU3OTa",
+          "name": "rolex-m126519ln-0004-raw.png",
+          "success": true
+        },
+        {
+          "type": "WHITE_MASTER",
+          "id": "1xAaDTydAQmP4EufzCwt6dg9FP989rTDO",
+          "name": "rolex-m126519ln-0004-white_master.png",
+          "success": true
+        },
+        {
+          "type": "WEB",
+          "id": "1ChBBYs8C6WmPZYJOuSKjB3lei8dFdtTv",
+          "name": "rolex-m126519ln-0004-web.webp",
+          "success": true
+        }
+      ],
+      "rightsStatus": "Pending founder clearance for new official originals; not published",
+      "publicationStatus": "Queued pending founder website-use clearance",
+      "whiteMaster": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\rolex-daytona-next-reviewed\\m126519ln-0004-white-master.png",
+      "webDerivative": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\rolex-daytona-next-reviewed\\m126519ln-0004-web.webp",
+      "reviewStatus": "Original and final white-canvas derivative visually reviewed; exact manufacturer reference/configuration confirmed. No publication before founder website-use clearance"
+    }
+  ]
+}
