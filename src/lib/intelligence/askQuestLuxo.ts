@@ -1,6 +1,9 @@
 import { rolexAssets } from "../../data/rolex";
+import { collectionRegistry } from "../../data/collectionRegistry";
+import { referencePath } from "../routes/collectionRoutes";
 import type { QuestLuxoAsset } from "../../types/questLuxo";
 import {
+  createSearchIndexRecord,
   generateSearchIndexRecords,
   rankSearchRecordsWithIntelligence,
   searchWatchRecords,
@@ -51,15 +54,32 @@ const defaultMaxResults = 5;
 
 const defaultRolexAssets = rolexAssets as readonly QuestLuxoAsset[];
 
+const registrySearchRecords = collectionRegistry.flatMap((collection) =>
+  collection.assets.map((asset) =>
+    createSearchIndexRecord({
+      asset,
+      brand: collection.brand,
+      collection: collection.name,
+      pageType: "reference",
+      url: referencePath(collection.brandSlug, collection.slug, asset.reference),
+      positioning: [
+        collection.description,
+        ...collection.intelligenceParagraphs,
+        collection.directoryDescription,
+      ],
+      brokerageNotes: collection.sourcingText,
+    })
+  )
+);
+
 const defaultSearchRecords = Object.freeze([
-  ...generateSearchIndexRecords({
-    assets: defaultRolexAssets,
-    defaultBrand: "Rolex",
-  }),
+  ...registrySearchRecords,
   ...vacheronConstantinOverseasSearchRecords,
   ...cartierSantosSearchRecords,
   ...ulysseNardinSearchRecords,
-]);
+].filter((record, index, records) =>
+  records.findIndex((candidate) => candidate.id === record.id) === index
+));
 
 const formatCurrency = (value: number): string =>
   new Intl.NumberFormat("en-US", {
@@ -95,19 +115,21 @@ export function getAskQuestLuxoEmptyState(
     intent.brand
       ? `Search across all brands instead of only ${intent.brand}.`
       : "Try adding a brand such as Rolex.",
-    "Future AP results stay opt-in until AP assets are explicitly passed to this service.",
+    "Try describing your budget, intended role, wrist preferences, brand exclusions, or strap preference.",
   ];
 
   return Object.freeze({
     title: `No Quest Luxo matches for "${query}".`,
     guidance: Object.freeze(guidance),
     suggestedQueries: Object.freeze([
-      "watches under $25000",
-      "Rolex under $15000",
-      "best investment watches",
-      "blue dial Rolex",
-      "daily watch",
-      "sports watch",
+      "best watches under $5000",
+      "best watches under $25000",
+      "dressy watches",
+      "collectors watches",
+      "dive watches",
+      "starter watches",
+      "I want a networking watch that is not a Rolex, for a large wrist, on a strap",
+      "I have $50,000. Recommend a collection for all roles.",
     ]),
   });
 }
