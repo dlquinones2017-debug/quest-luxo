@@ -25,12 +25,12 @@ const {
 } = Astro.props as Props;
 
 const configurations = asset.configurations ?? [];
-const primaryConfig = configurations[0];
+const photograph = approvedPhotograph(asset, watchPhotographs);
+const primaryConfig = configurations.find(configuration => photograph && configuration.dial === photograph.configuration.dial && configuration.bracelet === photograph.configuration.bracelet) ?? configurations[0];
 
 const topNickname = primaryConfig?.nickname ?? asset.reference;
 const collectorDemand = asset.intelligence?.collectorDemand ?? 0;
 const isPeakDemand = showIntelligenceProfile && collectorDemand >= 5;
-const photograph = approvedPhotograph(asset, watchPhotographs);
 const imageAlt = photograph?.alt ?? `${asset.reference} ${asset.model}`;
 
 const intelligenceProfile = showIntelligenceProfile && asset.intelligence
