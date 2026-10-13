@@ -220,6 +220,14 @@ interface HouseCollectionSeed {
   material: string;
   productionStatus?: string;
   marketPosition: string;
+  configuration?: {
+    nickname?: string;
+    dial: string;
+    bracelet: string;
+    caseSize?: string;
+    movement?: string;
+    waterResistance?: string;
+  };
 }
 
 const houseCollectionSeeds: HouseCollectionSeed[] = [
@@ -320,8 +328,17 @@ const houseCollectionSeeds: HouseCollectionSeed[] = [
     name: "Overseas",
     slug: "overseas",
     reference: "4520V",
+    model: "Overseas Self-Winding 4520V/210A-B128",
     material: "Stainless Steel",
     marketPosition: "Integrated-Bracelet Travel Sports Watch",
+    configuration: {
+      nickname: "4520V/210A-B128 Blue Dial",
+      dial: "Blue lacquered sunburst",
+      bracelet: "Stainless Steel Bracelet",
+      caseSize: "41 mm",
+      movement: "Self-winding calibre 5100; 60-hour power reserve",
+      waterResistance: "150 m",
+    },
   },
   {
     brand: "F.P. Journe",
@@ -514,12 +531,14 @@ const buildHouseCollection = (
     brand: seed.brand,
     collection: seed.name,
     configurations: [
-      {
-        nickname: `${seed.name} representative reference`,
-        dial: "Configuration details available through private advisory",
-        bracelet: "Reference dependent",
-        originalMSRP: null,
-      },
+      seed.configuration
+        ? { ...seed.configuration, originalMSRP: null }
+        : {
+            nickname: `${seed.name} representative reference`,
+            dial: "Configuration details available through private advisory",
+            bracelet: "Reference dependent",
+            originalMSRP: null,
+          },
     ],
     material: seed.material,
     bezel: "Reference dependent",
