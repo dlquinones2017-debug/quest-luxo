@@ -1,11 +1,11 @@
 {
-  "preparedAt": "2026-10-13T21:54:17Z",
-  "count": 19,
+  "preparedAt": "2026-10-13T22:15:43.060202+00:00",
+  "count": 25,
   "websitePublished": false,
   "canonicalApprovedCoverage": {
-    "photographed": 49,
+    "photographed": 48,
     "total": 168,
-    "queued": 119
+    "queued": 120
   },
   "review": "All original and white-canvas derivatives visually reviewed; source pages confirm exact reference/configuration. Final publication requires founder confirmation of website-use rights. Photographed SKU remains distinct from broader family routes.",
   "records": [
@@ -804,6 +804,330 @@
       "whiteMaster": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\rolex-yacht-master-reviewed\\m268622-0002-white-master.png",
       "webDerivative": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\rolex-yacht-master-reviewed\\m268622-0002-web.webp",
       "reviewStatus": "Original and final white-canvas derivative visually reviewed; exact SKU, dial, case material, bracelet and generation confirmed on manufacturer product page"
+    },
+    {
+      "brand": "Rolex",
+      "collection": "Day-Date",
+      "reference": "228238",
+      "catalogReference": "228238",
+      "exactSKU": "m228238-0061",
+      "material": "18K Yellow Gold",
+      "dial": "Green",
+      "bracelet": "President",
+      "sourceUrl": "https://www.rolex.com/en-us/watches/day-date/m228238-0061",
+      "configuration": {
+        "material": "18K Yellow Gold",
+        "dial": "Green",
+        "bracelet": "President",
+        "caseSize": "40 mm",
+        "movement": "Self-winding calibre 3255",
+        "waterResistance": "100 m"
+      },
+      "imageUrl": "https://media.rolex.com/image/upload/q_auto/f_auto/t_v7-cover-majesty-landscape/c_limit%2Cw_1920/v1/a677b2c664f6/catalogue/2026/upright-c/m228238-0061",
+      "checkedAt": "2026-10-13T22:08:35.779054+00:00",
+      "rightsStatus": "Pending founder clearance for new official originals; not published",
+      "reviewStatus": "Original and final white-canvas derivative visually reviewed; exact manufacturer SKU and configuration identified. Publication pending founder rights clearance.",
+      "size": [
+        1451,
+        2160
+      ],
+      "mode": "P",
+      "path": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\rolex-day-date-originals\\m228238-0061-raw.png",
+      "sha256": "bf16111dceaa5569704a91dcf4a893caa128aeb80cf5f996db857b668aee996b",
+      "status": "Authentic official original acquired; unchanged delivered bytes",
+      "whiteMaster": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\rolex-day-date-reviewed\\m228238-0061-white-master.png",
+      "webDerivative": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\rolex-day-date-reviewed\\m228238-0061-web.webp",
+      "derivativeSha256": "27eeae132a14e7c77096c86671c622104fa8facd13163822b28d283a4f882349",
+      "processing": "Original manufacturer RGB and watch alpha preserved; external translucent cast shadow suppressed with original opaque support plus two-pixel boundary envelope. Centered on blank 2400 white canvas, 1200 WEB. No AI, reconstruction, captions or overlays.",
+      "driveFiles": [
+        {
+          "type": "RAW",
+          "id": "1WZixu0IXnGEpCvAjkb0rWzQrA3EmVGC3",
+          "name": "rolex-m228238-0061-raw.png"
+        },
+        {
+          "type": "WHITE_MASTER",
+          "id": "1EyDsExT9hMqu58ixbvZJ1kbVyeq6H4p0",
+          "name": "rolex-m228238-0061-white-master.png"
+        },
+        {
+          "type": "WEB",
+          "id": "1avSZRHrMZ69Is9kn1PV41P9VOe8HdXeA",
+          "name": "rolex-m228238-0061-web.webp"
+        }
+      ],
+      "exactReference": "228238",
+      "publicationStatus": "Queued pending founder website-use clearance"
+    },
+    {
+      "brand": "Rolex",
+      "collection": "Day-Date",
+      "reference": "228239",
+      "catalogReference": "228239",
+      "exactSKU": "m228239-0055",
+      "material": "18K White Gold",
+      "dial": "Meteorite set with diamonds",
+      "bracelet": "President",
+      "sourceUrl": "https://www.rolex.com/en-gb/watches/day-date/m228239-0055",
+      "configuration": {
+        "material": "18K White Gold",
+        "dial": "Meteorite set with diamonds",
+        "bracelet": "President",
+        "caseSize": "40 mm",
+        "movement": "Self-winding calibre 3255",
+        "waterResistance": "100 m"
+      },
+      "imageUrl": "https://media.rolex.com/image/upload/q_auto/f_auto/t_v7-cover-majesty-landscape/c_limit%2Cw_1920/v1/a677b2c664f6/catalogue/2026/upright-c/m228239-0055",
+      "checkedAt": "2026-10-13T22:08:35.780985+00:00",
+      "rightsStatus": "Pending founder clearance for new official originals; not published",
+      "reviewStatus": "Original and final white-canvas derivative visually reviewed; exact manufacturer SKU and configuration identified. Publication pending founder rights clearance.",
+      "size": [
+        1451,
+        2160
+      ],
+      "mode": "P",
+      "path": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\rolex-day-date-originals\\m228239-0055-raw.png",
+      "sha256": "d6017da0fb4215d2635ac199b8432b55812c47dc33b6f80dd71bfb5d1d76ef31",
+      "status": "Authentic official original acquired; unchanged delivered bytes",
+      "whiteMaster": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\rolex-day-date-reviewed\\m228239-0055-white-master.png",
+      "webDerivative": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\rolex-day-date-reviewed\\m228239-0055-web.webp",
+      "derivativeSha256": "b872dde64f18240744777489ffb5245ae6dd21d6d076d7bea8d5a74e96da6d70",
+      "processing": "Original manufacturer RGB and watch alpha preserved; external translucent cast shadow suppressed with original opaque support plus two-pixel boundary envelope. Centered on blank 2400 white canvas, 1200 WEB. No AI, reconstruction, captions or overlays.",
+      "driveFiles": [
+        {
+          "type": "RAW",
+          "id": "1Ljigw8lR40vddypwtw0RSMXtCKDMBcpW",
+          "name": "rolex-m228239-0055-raw.png"
+        },
+        {
+          "type": "WHITE_MASTER",
+          "id": "1VwXolRw3FWZcBJtE2ipa7KmypeZU8k0Q",
+          "name": "rolex-m228239-0055-white-master.png"
+        },
+        {
+          "type": "WEB",
+          "id": "1bea-gWR8xgU40pwTQG5f86AQ_0rUQ6GO",
+          "name": "rolex-m228239-0055-web.webp"
+        }
+      ],
+      "exactReference": "228239",
+      "publicationStatus": "Queued pending founder website-use clearance"
+    },
+    {
+      "brand": "Rolex",
+      "collection": "Day-Date",
+      "reference": "128238",
+      "catalogReference": "128238",
+      "exactSKU": "m128238-0132",
+      "material": "18K Yellow Gold",
+      "dial": "Champagne-colour set with diamonds",
+      "bracelet": "President",
+      "sourceUrl": "https://www.rolex.com/en-gb/watches/day-date/m128238-0132",
+      "configuration": {
+        "material": "18K Yellow Gold",
+        "dial": "Champagne-colour set with diamonds",
+        "bracelet": "President",
+        "caseSize": "36 mm",
+        "movement": "Self-winding calibre 3255",
+        "waterResistance": "100 m"
+      },
+      "imageUrl": "https://media.rolex.com/image/upload/q_auto/f_auto/t_v7-cover-majesty-landscape/c_limit%2Cw_1920/v1/a677b2c664f6/catalogue/2026/upright-c/m128238-0132",
+      "checkedAt": "2026-10-13T22:08:35.780985+00:00",
+      "rightsStatus": "Pending founder clearance for new official originals; not published",
+      "reviewStatus": "Original and final white-canvas derivative visually reviewed; exact manufacturer SKU and configuration identified. Publication pending founder rights clearance.",
+      "size": [
+        1451,
+        2160
+      ],
+      "mode": "P",
+      "path": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\rolex-day-date-originals\\m128238-0132-raw.png",
+      "sha256": "4c025d700a03843c2af20d65dc5931d4e40c4c629f3d7972f2f8eb0de60dee17",
+      "status": "Authentic official original acquired; unchanged delivered bytes",
+      "whiteMaster": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\rolex-day-date-reviewed\\m128238-0132-white-master.png",
+      "webDerivative": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\rolex-day-date-reviewed\\m128238-0132-web.webp",
+      "derivativeSha256": "700c9ef809d670b496258710b5588492e6785ca613ce8a17c71781b34e98c265",
+      "processing": "Original manufacturer RGB and watch alpha preserved; external translucent cast shadow suppressed with original opaque support plus two-pixel boundary envelope. Centered on blank 2400 white canvas, 1200 WEB. No AI, reconstruction, captions or overlays.",
+      "driveFiles": [
+        {
+          "type": "RAW",
+          "id": "1qp2YT0t03NpSuHc4ygU0nW54TBdy6tA1",
+          "name": "rolex-m128238-0132-raw.png"
+        },
+        {
+          "type": "WHITE_MASTER",
+          "id": "1PaPSBMXH8GVDmc5tTg_w8odMe4_YxDYX",
+          "name": "rolex-m128238-0132-white-master.png"
+        },
+        {
+          "type": "WEB",
+          "id": "15rpF-A40KmgleWxn6DBcFiYKv-KBB7fi",
+          "name": "rolex-m128238-0132-web.webp"
+        }
+      ],
+      "exactReference": "128238",
+      "publicationStatus": "Queued pending founder website-use clearance"
+    },
+    {
+      "brand": "Rolex",
+      "collection": "Datejust",
+      "reference": "126234",
+      "catalogReference": "126234",
+      "exactSKU": "m126234-0059",
+      "material": "White Rolesor",
+      "dial": "Green ombré",
+      "bracelet": "Jubilee",
+      "sourceUrl": "https://www.rolex.com/fr-fr/watches/datejust/m126234-0059",
+      "configuration": {
+        "material": "White Rolesor",
+        "dial": "Green ombré",
+        "bracelet": "Jubilee",
+        "caseSize": "36 mm",
+        "movement": "Self-winding calibre 3235",
+        "waterResistance": "100 m"
+      },
+      "imageUrl": "https://media.rolex.com/image/upload/q_auto/f_auto/t_v7-majesty/c_limit%2Cw_1920/v1/a677b2c664f6/catalogue/2026/upright-c/m126234-0059",
+      "checkedAt": "2026-10-13T22:09:39.172586+00:00",
+      "rightsStatus": "Pending founder clearance for new official originals; not published",
+      "reviewStatus": "Original and final white-canvas derivative visually reviewed; exact manufacturer SKU and configuration identified. Publication pending founder rights clearance.",
+      "size": [
+        800,
+        1180
+      ],
+      "mode": "P",
+      "path": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\datejust-complete-originals\\m126234-0059-raw.png",
+      "sha256": "5c3aff7fbc0c83adce305b9b4f343a5971bc145bc516f6420f9f73513323a3d5",
+      "status": "Authentic official original acquired; unchanged delivered bytes",
+      "whiteMaster": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\rolex-day-date-reviewed\\m126234-0059-white-master.png",
+      "webDerivative": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\rolex-day-date-reviewed\\m126234-0059-web.webp",
+      "derivativeSha256": "3943dc3cdb9719d719927e95cad2a5265e1ee700508faaa130742df463e4f38e",
+      "processing": "Original manufacturer RGB and watch alpha preserved; external translucent cast shadow suppressed with original opaque support plus two-pixel boundary envelope. Centered on blank 2400 white canvas, 1200 WEB. No AI, reconstruction, captions or overlays.",
+      "driveFiles": [
+        {
+          "type": "RAW",
+          "id": "1JUF2TgYBGWeL-sIQ-_XbAXCgu0olMnHL",
+          "name": "rolex-m126234-0059-raw.png"
+        },
+        {
+          "type": "WHITE_MASTER",
+          "id": "1GDiuccBaz3KX4-LIX76Aiy59vB-NBbOG",
+          "name": "rolex-m126234-0059-white-master.png"
+        },
+        {
+          "type": "WEB",
+          "id": "1gCzmx8kVb3OUWH5j9Nc4VgZHg7LMJZcv",
+          "name": "rolex-m126234-0059-web.webp"
+        }
+      ],
+      "exactReference": "126234",
+      "publicationStatus": "Queued pending founder website-use clearance"
+    },
+    {
+      "brand": "Rolex",
+      "collection": "Datejust",
+      "reference": "126200",
+      "catalogReference": "126200",
+      "exactSKU": "m126200-0001",
+      "material": "Oystersteel",
+      "dial": "Silver",
+      "bracelet": "Jubilee",
+      "sourceUrl": "https://www.rolex.com/en-us/watches/datejust/m126200-0001",
+      "configuration": {
+        "material": "Oystersteel",
+        "dial": "Silver",
+        "bracelet": "Jubilee",
+        "caseSize": "36 mm",
+        "movement": "Self-winding calibre 3235",
+        "waterResistance": "100 m"
+      },
+      "imageUrl": "https://media.rolex.com/image/upload/q_auto/f_auto/t_v7-majesty/c_limit%2Cw_1920/v1/a677b2c664f6/catalogue/2026/upright-c/m126200-0001",
+      "checkedAt": "2026-10-13T22:09:39.174125+00:00",
+      "rightsStatus": "Pending founder clearance for new official originals; not published",
+      "reviewStatus": "Original and final white-canvas derivative visually reviewed; exact manufacturer SKU and configuration identified. Publication pending founder rights clearance.",
+      "size": [
+        800,
+        1180
+      ],
+      "mode": "P",
+      "path": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\datejust-complete-originals\\m126200-0001-raw.png",
+      "sha256": "f058dbc2cea022d0b56e031766bf7f508520ed57c7ac947766b0f5b2a121e13e",
+      "status": "Authentic official original acquired; unchanged delivered bytes",
+      "whiteMaster": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\rolex-day-date-reviewed\\m126200-0001-white-master.png",
+      "webDerivative": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\rolex-day-date-reviewed\\m126200-0001-web.webp",
+      "derivativeSha256": "11449da86c38af2360d86ee56e02167b179c9dc4b6ad6e68d31b2f0e1261ff8f",
+      "processing": "Original manufacturer RGB and watch alpha preserved; external translucent cast shadow suppressed with original opaque support plus two-pixel boundary envelope. Centered on blank 2400 white canvas, 1200 WEB. No AI, reconstruction, captions or overlays.",
+      "driveFiles": [
+        {
+          "type": "RAW",
+          "id": "1pO60w9fjDye0RRjw2G8EYEtWuTW3KNZ6",
+          "name": "rolex-m126200-0001-raw.png"
+        },
+        {
+          "type": "WHITE_MASTER",
+          "id": "1bMQaiBEqKK-WuEQdvQOI6pjSszr4MSG6",
+          "name": "rolex-m126200-0001-white-master.png"
+        },
+        {
+          "type": "WEB",
+          "id": "1G-lTm9SCbJSZcQdA52QkS0VrL1ljcbsi",
+          "name": "rolex-m126200-0001-web.webp"
+        }
+      ],
+      "exactReference": "126200",
+      "publicationStatus": "Queued pending founder website-use clearance"
+    },
+    {
+      "brand": "Rolex",
+      "collection": "Air-King",
+      "reference": "126900",
+      "catalogReference": "126900",
+      "exactSKU": "m126900-0001",
+      "material": "Oystersteel",
+      "dial": "Black",
+      "bracelet": "Oyster",
+      "sourceUrl": "https://www.rolex.com/en-us/watches/air-king/m126900-0001",
+      "configuration": {
+        "material": "Oystersteel",
+        "dial": "Black",
+        "bracelet": "Oyster",
+        "caseSize": "40 mm",
+        "movement": "Self-winding calibre 3230",
+        "waterResistance": "100 m"
+      },
+      "imageUrl": "https://media.rolex.com/image/upload/q_auto/f_auto/t_v7-cover-majesty-landscape/c_limit%2Cw_1920/v1/a677b2c664f6/catalogue/2026/upright-c/m126900-0001",
+      "checkedAt": "2026-10-13T22:08:36.230087+00:00",
+      "rightsStatus": "Pending founder clearance for new official originals; not published",
+      "reviewStatus": "Original and final white-canvas derivative visually reviewed; exact manufacturer SKU and configuration identified. Publication pending founder rights clearance.",
+      "size": [
+        1451,
+        2160
+      ],
+      "mode": "P",
+      "path": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\rolex-day-date-originals\\m126900-0001-raw.png",
+      "sha256": "ebee5f87b0e5396b30b67437559393d16a4a598d6e8200e8bcc34bc26313425f",
+      "status": "Authentic official original acquired; unchanged delivered bytes",
+      "whiteMaster": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\rolex-day-date-reviewed\\m126900-0001-white-master.png",
+      "webDerivative": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\rolex-day-date-reviewed\\m126900-0001-web.webp",
+      "derivativeSha256": "48dabcee0e28288fb7355b74a685e587c64fadd72128ded3f73433c17ea7277e",
+      "processing": "Original manufacturer RGB and watch alpha preserved; external translucent cast shadow suppressed with original opaque support plus two-pixel boundary envelope. Centered on blank 2400 white canvas, 1200 WEB. No AI, reconstruction, captions or overlays.",
+      "driveFiles": [
+        {
+          "type": "RAW",
+          "id": "1KeSiIk6c65tbNXBC1umqJFB9uWv-kNqZ",
+          "name": "rolex-m126900-0001-raw.png"
+        },
+        {
+          "type": "WHITE_MASTER",
+          "id": "1AGFfZVyfdejmdcRN0ypx1NNiXdBVeChn",
+          "name": "rolex-m126900-0001-white-master.png"
+        },
+        {
+          "type": "WEB",
+          "id": "1ra9rNP5A4NWn33cawJPlzrkO5GrZQYi1",
+          "name": "rolex-m126900-0001-web.webp"
+        }
+      ],
+      "exactReference": "126900",
+      "publicationStatus": "Queued pending founder website-use clearance"
     }
   ]
 }

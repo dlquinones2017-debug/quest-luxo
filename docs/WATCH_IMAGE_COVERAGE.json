@@ -1,14 +1,14 @@
 {
-  "reviewedAt": "2026-10-13T21:09:12.170Z",
+  "reviewedAt": "2026-10-13T22:12:47.835Z",
   "note": "Generated from all exported source datasets and built routes. Source-only and duplicate configuration records are retained for review; this register is not proof of image rights. Source URLs identify research leads, not licenses.",
   "summary": {
     "sourceConfigurations": 345,
     "builtReferenceRoutes": 168,
     "collectionRoutes": 71,
-    "approvedReferenceConfigurations": 73,
+    "approvedReferenceConfigurations": 71,
     "unmatchedReferenceRoutes": 0,
-    "approvedCanonicalReferenceRoutes": 49,
-    "queuedCanonicalReferenceRoutes": 119
+    "approvedCanonicalReferenceRoutes": 48,
+    "queuedCanonicalReferenceRoutes": 120
   },
   "collections": [
     {
@@ -2191,12 +2191,12 @@
       "scope": "built-reference",
       "existingImage": null,
       "existingImageFilePresent": false,
-      "photoAssetId": "audemars-piguet-15202st-royal-oak-hero-cc-by-sa-4",
-      "status": "approved",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Audemars_Piguet_Royal_Oak_ref._15202.jpg",
-      "licenseRecord": "CC BY-SA 4.0; Wikimedia Commons original; source type: approved Wikimedia Commons file; retrieved 2026-09-13; modified only by crop and WebP conversion. Derivative is shared under CC BY-SA 4.0.",
-      "websiteApproved": true,
-      "nextAction": "Retain approved original and verify derivative integrity."
+      "photoAssetId": null,
+      "status": "Requires Verification",
+      "sourceUrl": "https://apchronicles.audemarspiguet.com/en/article/birth-of-an-icon",
+      "licenseRecord": null,
+      "websiteApproved": false,
+      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
     },
     {
       "brand": "Audemars Piguet",
@@ -7886,12 +7886,12 @@
       "scope": "built-reference",
       "existingImage": null,
       "existingImageFilePresent": false,
-      "photoAssetId": "omega-311-30-42-30-01-005-moonwatch-hero-ccby2",
-      "status": "approved",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Moonwatch_(24023224706).jpg",
-      "licenseRecord": "CC BY 2.0 Generic; Wikimedia Commons original; source type: approved Wikimedia Commons file; retrieved 2026-09-13; modified only by resize and WebP conversion.",
-      "websiteApproved": true,
-      "nextAction": "Retain approved original and verify derivative integrity."
+      "photoAssetId": null,
+      "status": "Requires Verification",
+      "sourceUrl": null,
+      "licenseRecord": null,
+      "websiteApproved": false,
+      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
     },
     {
       "brand": "Omega",
