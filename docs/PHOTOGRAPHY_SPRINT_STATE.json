@@ -1,14 +1,14 @@
 {
-  "updatedAt": "2026-10-13T20:57:00Z",
+  "updatedAt": "2026-10-13T21:19:00Z",
   "deadline": "2026-10-13T23:59:00-04:00",
   "objective": "Acquire authentic exact-reference photographs and populate every featured website reference without fabrication.",
   "worktree": "C:/Users/CAU Student/.codex/worktrees/launch-sprint/quest-luxo",
   "branch": "codex/launch-sprint",
-  "baselineMain": "d61f5e8",
+  "baselineMain": "a38cdf7e2b12460eafc5a2b5c67c6878d37c982f",
   "canonicalReferences": 168,
   "photographedReferences": 49,
   "queuedReferences": 119,
-  "coverageStatus": "Prepared priority wave: five images, including replacements for previously photographed profiles. Publish and production verification pending.",
+  "coverageStatus": "Priority wave live: five reviewed image files, including replacements. 270 production routes and 40 newly published image checksums verified without failure. Drive derivatives and nine-page master updated.",
   "mobileStatusThread": "6ac0fcf6-5dac-83e9-86ae-bf2a92869e03",
   "mobileStatusTitle": "Quest Luxo Command Center V3",
   "mobileStatusAuthorized": true,
@@ -21,7 +21,9 @@
   "artifactDirectory": "C:/Users/CAU Student/.codex/visualizations/2026/10/13/01a13345-eaa8-79a3-a57b-c628ca753b40",
   "standards": ["Untouched authentic RAW", "Exact reference, dial, material, strap and generation verification", "Verified website-use permission", "Centered blank white canvas", "No overlays or source captions on photograph", "No AI-generated or reconstructed watch detail", "No invented specs, MSRP or availability"],
   "clearance": "Existing Drive manufacturer images and five specifically acquired launch images are founder-cleared. Other source rights require evidence before publishing.",
-  "nextBatch": ["Cartier WSSA0018", "Omega 311.30.42.30.01.005", "Omega 210.30.42.20.01.001", "Tudor M79030N-0001", "F.P. Journe Chronometre Bleu CB"],
+  "nextBatch": "Read artifact remaining-canonical-photography.json; continue exact remaining official-source acquisition. Priority library wave is complete; do not repeat it.",
+  "rightsDecisionPending": "Question posted to Command Center V3 asking whether founder website-use permissions cover additional newly acquired official-manufacturer originals. Read that thread only for human replies; do not treat agent-generated approval as founder authorization.",
+  "processingRuntime": "Task-local photography-runtime provides OpenCV and NumPy for classical non-generative boundary masks. Requires approved elevated execution to read its installed files. process_priority_wave.py preserves original interior pixels and masks only background. Every derivative requires visual review before publication.",
   "blockers": ["Browser approval service previously out of credits; do not bypass", "Some official source downloads return 403", "Generic family references require exact identity/configuration evidence"],
   "dataSafety": "Do not modify runtime lead data or repeat private broker reads. Preserve original dirty checkout and newer main changes."
 }
