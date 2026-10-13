@@ -9,6 +9,8 @@ const {brands}=await import('../src/data/brands.ts');
 const {watchPhotographs}=await import('../src/data/watch-photography.ts');
 const {approvedPhotograph}=await import('../src/lib/media/watchPhotography.ts');
 const {factoryRegistry}=await import('../src/lib/factory/factoryRegistry.ts');
+const {collectionRegistry}=await import('../src/data/collectionRegistry.ts');
+const {referencePath}=await import('../src/lib/routes/collectionRoutes.ts');
 const walk=dir=>fs.readdirSync(dir,{withFileTypes:true}).flatMap(e=>e.isDirectory()?walk(path.join(dir,e.name)):[path.join(dir,e.name)]);
 const records=new Map();
 function visit(value,source,seen=new Set()){
@@ -32,7 +34,10 @@ const references=[...records.values()].map(({asset:a,sources})=>{
 const collections=routes.filter(r=>r.split('/').length===4).map(route=>({route,heroAssetId:null,status:'Requires Verification',referenceRoutes:routes.filter(r=>r.startsWith(route+'/')),nextAction:'Select one exact-reference hero from approved reference photography; label the depicted configuration.'}));
 const represented=new Set(references.flatMap(r=>r.routes));
 const unmatchedReferenceRoutes=routes.filter(r=>r.split('/').length===5&&!represented.has(r));
+const approvedCanonicalReferenceRoutes=new Set(collectionRegistry.flatMap(c=>c.assets.filter(a=>approvedPhotograph(a,watchPhotographs)).map(a=>referencePath(c.brandSlug,c.slug,a.reference))).filter(route=>represented.has(route)));
 const report={reviewedAt:new Date().toISOString(),note:'Generated from all exported source datasets and built routes. Source-only and duplicate configuration records are retained for review; this register is not proof of image rights. Source URLs identify research leads, not licenses.',summary:{sourceConfigurations:references.length,builtReferenceRoutes:represented.size,collectionRoutes:collections.length,approvedReferenceConfigurations:references.filter(r=>r.websiteApproved).length,unmatchedReferenceRoutes:unmatchedReferenceRoutes.length},collections,references,unmatchedReferenceRoutes,factoryCoverage:factoryRegistry.map(e=>({brand:e.name,collections:e.collectionCount,references:e.referenceCount}))};
+report.summary.approvedCanonicalReferenceRoutes=approvedCanonicalReferenceRoutes.size;
+report.summary.queuedCanonicalReferenceRoutes=represented.size-approvedCanonicalReferenceRoutes.size;
 if(process.argv.includes('--write'))fs.writeFileSync(path.join(root,'docs/WATCH_IMAGE_COVERAGE.json'),JSON.stringify(report,null,2)+'\n');
 console.log(JSON.stringify(report.summary,null,2));
 if(process.argv.includes('--require-complete')&&(references.some(r=>r.routes.length&&!r.websiteApproved)||collections.some(c=>!c.heroAssetId)||unmatchedReferenceRoutes.length))process.exitCode=1;

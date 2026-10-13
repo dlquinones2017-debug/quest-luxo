@@ -1,12 +1,14 @@
 {
-  "reviewedAt": "2026-10-13T10:09:24.977Z",
+  "reviewedAt": "2026-10-13T10:12:17.158Z",
   "note": "Generated from all exported source datasets and built routes. Source-only and duplicate configuration records are retained for review; this register is not proof of image rights. Source URLs identify research leads, not licenses.",
   "summary": {
     "sourceConfigurations": 335,
     "builtReferenceRoutes": 165,
     "collectionRoutes": 71,
     "approvedReferenceConfigurations": 57,
-    "unmatchedReferenceRoutes": 0
+    "unmatchedReferenceRoutes": 0,
+    "approvedCanonicalReferenceRoutes": 39,
+    "queuedCanonicalReferenceRoutes": 126
   },
   "collections": [
     {
