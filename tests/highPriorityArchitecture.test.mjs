@@ -77,7 +77,7 @@ test("canonical collection UX includes search, filters, sorting, references, and
   assert.match(toolbar, /data-directory-sort/);
   assert.match(grid, /data-empty-state/);
   assert.match(reference, /width="960"/);
-  assert.match(reference, /Reference illustration/);
+  assert.match(reference, /Authentic photography pending/);
   assert.doesNotMatch(hero, /href="\/private-sourcing"/);
   assert.doesNotMatch(hero, /href="\/market-insights"/);
   assert.match(navbar, /aria-label="Primary navigation"/);
