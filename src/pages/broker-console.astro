@@ -3,6 +3,8 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 import { validateBrokerConsoleAccess } from "../lib/broker/brokerAuth";
 import FounderRevenuePanel from "../components/FounderRevenuePanel.astro";
 
+export const prerender = false;
+
 const brokerAuth = validateBrokerConsoleAccess(Astro.request);
 const isBrokerConsoleLocked = !brokerAuth.allowed;
 ---

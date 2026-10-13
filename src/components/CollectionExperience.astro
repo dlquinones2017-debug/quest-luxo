@@ -10,7 +10,7 @@ import {
   buildCollectionSignals,
   buildCollectionSummary,
 } from "../lib/intelligence/collectionFactory";
-import { brandPath, collectionPath } from "../lib/routes/collectionRoutes";
+import { brandPath, collectionPath, referencePath } from "../lib/routes/collectionRoutes";
 import type { CollectionDefinition } from "../data/collectionRegistry";
 
 interface Props {
@@ -37,7 +37,7 @@ const structuredData = [
         position: index + 1,
         name: `${collection.brand} ${asset.model} ${asset.reference}`,
         url: new URL(
-          `${basePath}/${encodeURIComponent(asset.reference.toLowerCase())}`,
+          referencePath(collection.brandSlug, collection.slug, asset.reference),
           Astro.site ?? Astro.url.origin
         ).href,
       })),

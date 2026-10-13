@@ -10,6 +10,9 @@ import {
 } from "../lib/routes/collectionRoutes";
 import type { CollectionDefinition } from "../data/collectionRegistry";
 import type { QuestLuxoAsset } from "../types/questLuxo";
+import { watchPhotographs } from "../data/watch-photography";
+import { approvedPhotograph } from "../lib/media/watchPhotography";
+import { buildBeginYourQuestUrl } from "../lib/leads/leadIntakeContext";
 
 interface Props {
   collection: CollectionDefinition;
@@ -25,7 +28,10 @@ const formatUSD = (value?: number | null) =>
         maximumFractionDigits: 0,
       }).format(value)
     : "MSRP research pending";
-const imageAlt = `${asset.reference} ${asset.model}`;
+const photograph = approvedPhotograph(asset, watchPhotographs);
+const imageAlt = photograph?.alt ?? `${asset.reference} ${asset.model}`;
+const primaryConfiguration = asset.configurations?.[0];
+const sourcingUrl = buildBeginYourQuestUrl({ intent: "request-this-watch", brand: collection.brand, collection: collection.name, reference: asset.reference });
 const collectionUrl = collectionPath(collection.brandSlug, collection.slug);
 const canonicalPath = referencePath(
   collection.brandSlug,
@@ -47,7 +53,7 @@ const structuredData = [
       name: `${collection.brand} ${asset.model}`,
       model: asset.reference,
       brand: { "@type": "Brand", name: collection.brand },
-      image: new URL(asset.image ?? "/images/watch-reference-placeholder.svg", Astro.site ?? Astro.url.origin).href,
+      ...(photograph ? { image: new URL(photograph.src, Astro.site ?? Astro.url.origin).href } : {}),
     },
   },
   {
@@ -92,10 +98,10 @@ const structuredData = [
 
     <section class="profile">
       <div class="image-card">
-        {asset.image ? (
-          <>
+        {photograph ? (
+          <figure>
             <img
-              src={asset.image}
+              src={photograph.src}
               alt={imageAlt}
               width="960"
               height="960"
@@ -103,24 +109,39 @@ const structuredData = [
               decoding="async"
               fetchpriority="high"
             />
-            <span class="image-fallback">Reference illustration</span>
-          </>
-        ) : <span>Reference illustration</span>}
+            <figcaption>{photograph.attribution} <a href={photograph.sourceUrl} rel="external">Photo source</a>{photograph.licenseUrl && <> · <a href={photograph.licenseUrl} rel="license external">{photograph.licenseLabel ?? "License"}</a></>}</figcaption>
+            <span class="image-fallback">Authentic photography pending</span>
+          </figure>
+        ) : <span>Authentic photography pending</span>}
       </div>
 
       <div class="details">
         <p class="section-label">Asset Profile</p>
-        <h2>{asset.marketPosition}</h2>
+        <h2>{asset.marketPosition ?? asset.model}</h2>
         <div class="detail-grid">
           <p><strong>Model</strong><span>{asset.model}</span></p>
-          <p><strong>Material</strong><span>{asset.material}</span></p>
-          <p><strong>Bezel</strong><span>{asset.bezel}</span></p>
+          <p><strong>Material</strong><span>{asset.material ?? "Verification pending"}</span></p>
+          <p><strong>Bezel</strong><span>{asset.bezel ?? "Verification pending"}</span></p>
+          {asset.specificationSources && <>
+            <p><strong>Case size</strong><span>{primaryConfiguration?.caseSize ?? "Verification pending"}</span></p>
+            <p><strong>Movement</strong><span>{primaryConfiguration?.movement ?? "Verification pending"}</span></p>
+            <p><strong>Dial</strong><span>{primaryConfiguration?.dial ?? "Verification pending"}</span></p>
+            <p><strong>Bracelet / strap</strong><span>{primaryConfiguration?.bracelet ?? "Verification pending"}</span></p>
+            <p><strong>Water resistance</strong><span>{primaryConfiguration?.waterResistance ?? "Verification pending"}</span></p>
+          </>}
           <p><strong>Production</strong><span>{asset.productionStatus}</span></p>
           <p><strong>Liquidity</strong><span>{asset.liquidity}</span></p>
           <p><strong>Allocation</strong><span>{asset.allocationDifficulty}</span></p>
         </div>
       </div>
     </section>
+
+    {asset.specificationSources && <section class="msrp">
+      <p class="section-label">Specification Sources</p>
+      <h2>Verified reference identity</h2>
+      <p>Reviewed {asset.specificationsReviewedAt}. Unlisted specifications, historical MSRP, photography and sourcing availability remain pending verification.</p>
+      {asset.specificationSources.map((source) => <p><a href={source.url} rel="external">{source.label}</a></p>)}
+    </section>}
 
     {asset.intelligence && <QuestLuxoScorecard intelligence={asset.intelligence} />}
 
@@ -164,7 +185,7 @@ const structuredData = [
       title={`Request Private Sourcing for Ref. ${asset.reference}`}
       text={`Quest Luxo coordinates discreet sourcing for clients seeking specific ${collection.brand} ${collection.name} references through trusted market relationships.`}
       button="Begin Your Quest"
-      href={`/contact?collection=${encodeURIComponent(`${collection.brand} ${collection.name} ${asset.reference}`)}`}
+      href={sourcingUrl}
     />
   </main>
 </BaseLayout>
@@ -190,6 +211,9 @@ const structuredData = [
   .profile { max-width:1180px; margin:90px auto 0; padding:0 30px; display:grid; grid-template-columns:1fr 1fr; gap:42px; align-items:stretch; }
   .image-card { min-height:440px; background:#fff; border:1px solid #e8e3d8; display:flex; align-items:center; justify-content:center; padding:42px; position:relative; color:#4e5661; }
   .image-card img { max-width:100%; max-height:390px; object-fit:contain; }
+  .image-card figure { margin:0; text-align:center; }
+  .image-card figcaption { font-size:12px; line-height:1.6; margin-top:20px; }
+  .image-card a,.msrp a { color:#173a5e; }
   .image-fallback { display:none; }
   .missing-image img { display:none; }
   .missing-image .image-fallback { display:block; }

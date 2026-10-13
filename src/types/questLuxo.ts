@@ -1,5 +1,5 @@
 import type { IntelligenceMetrics } from "../lib/intelligence/questLuxoIntelligence";
-import type { ReferenceBrokerageIntelligence } from "./brokerageIntelligence";
+import type { BrokerageEvidenceSource, ReferenceBrokerageIntelligence } from "./brokerageIntelligence";
 
 export interface QuestLuxoConfiguration {
   nickname?: string;
@@ -44,4 +44,6 @@ export interface QuestLuxoAsset {
   intelligence?: QuestLuxoIntelligence;
   image?: string;
   imageVerified?: boolean;
+  specificationSources?: readonly BrokerageEvidenceSource[];
+  specificationsReviewedAt?: string;
 }

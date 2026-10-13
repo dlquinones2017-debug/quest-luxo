@@ -18,6 +18,7 @@ import { bellRossCollections } from "./bell-and-ross";
 import { watchPhotographs } from "./watch-photography";
 import { approvedPhotograph } from "../lib/media/watchPhotography";
 import type { QuestLuxoAsset } from "../types/questLuxo";
+import { launchCatalogCollections } from "./launch-catalog";
 
 export interface CollectionDefinition {
   brand: string;
@@ -641,6 +642,7 @@ export const collectionRegistry = [
   ...expansionCollections,
   ...ulysseNardinExpandedCollections,
   ...bellRossExpandedCollections,
+  ...launchCatalogCollections.map(defineCollection),
 ] satisfies CollectionDefinition[];
 
 export const getCollection = (brandSlug: string, collectionSlug: string) =>

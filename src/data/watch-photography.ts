@@ -211,8 +211,8 @@ export const watchPhotographs: readonly WatchPhotograph[] = [
     rightsExpiresAt: null,
     reviewedAt: "2026-10-03",
     reviewer: "Quest Luxo Digital Asset Library",
-    sha256: "1e6d76dad0d687e7ad1dd1ee30975d915a8e1f9117b149207b2b2542cbd15bd0",
-    attribution: "Rolex product photography supplied through Quest Luxo's verified asset workflow. WEB derivative; no generative modifications.",
+    sha256: "3b900d3904762a50c3caf874ef36d5a8c06cc7394ec24465758745fed341d353",
+    attribution: "Rolex product photography supplied through Quest Luxo's verified asset workflow. White-canvas derivative repaired October 12, 2026 from the preserved RAW using its original transparency; no generative modifications.",
     hero: true,
   },
   {
@@ -271,8 +271,8 @@ export const watchPhotographs: readonly WatchPhotograph[] = [
     rightsExpiresAt: null,
     reviewedAt: "2026-10-03",
     reviewer: "Quest Luxo Digital Asset Library",
-    sha256: "7c2266b2e4807eb4586877229f306ccf7aea43358318df1f1a1a8265bfb068a7",
-    attribution: "Breitling product photography supplied through Quest Luxo's verified asset workflow. WEB derivative; no generative modifications.",
+    sha256: "5388ac556201fccb417fbf543f7bcd43543a54b6833bb10ab121463d2979fadc",
+    attribution: "Breitling product photography supplied through Quest Luxo's verified asset workflow. White-canvas derivative repaired October 12, 2026 from the preserved RAW without removing white watch highlights; no generative modifications.",
     hero: true,
   },
   {
