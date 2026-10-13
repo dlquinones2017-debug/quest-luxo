@@ -8,7 +8,7 @@ const {collectionRegistry}=await import('../src/data/collectionRegistry.ts');
 const {photographyExpansionImages,photographyExpansionAssets}=await import('../src/data/photography-expansion.ts');
 const {approvedPhotograph}=await import('../src/lib/media/watchPhotography.ts');
 test('reviewed manufacturer photographs resolve only for represented exact configurations',()=>{
-  assert.equal(photographyExpansionImages.length,30);
+  assert.equal(photographyExpansionImages.length,35);
   for(const photo of photographyExpansionImages){
     const asset=collectionRegistry.find(c=>c.brand===photo.brand&&c.name===photo.collection)?.assets.find(a=>a.reference===photo.reference);
     assert.ok(asset,photo.reference+' must have a catalog record');
@@ -16,7 +16,10 @@ test('reviewed manufacturer photographs resolve only for represented exact confi
     assert.equal(approvedPhotograph({...asset,configurations:[{dial:photo.configuration.dial,bracelet:'Incorrect bracelet'}]},[photo]),undefined);
   }
   assert.equal(photographyExpansionImages.some(p=>p.reference==='M7941A1A0RU-0003'),false,'mislabeled rubber-strap photograph must stay held');
-  assert.equal(photographyExpansionImages.some(p=>p.brand==='Franck Muller'),false,'generic variant photographs must stay held');
+  assert.deepEqual(photographyExpansionImages.filter(p=>p.brand==='Franck Muller').map(p=>p.reference),['V 41 SC DT FR2 GFGRNR (NR)','8880CHACLB'],'only the two newly verified exact Franck Muller references may publish');
+  const masterControl=collectionRegistry.find(c=>c.brand==='Jaeger-LeCoultre'&&c.name==='Master Control').assets.find(a=>a.reference==='Q4018421');
+  assert.ok(masterControl.configurations.some(c=>c.bracelet==='Light-brown calfskin strap'),'retain the original documented strap');
+  assert.equal(approvedPhotograph(masterControl,photographyExpansionImages).configuration.bracelet,'Black alligator leather strap');
   for(const asset of photographyExpansionAssets){assert.equal(asset.intelligence,undefined);assert.ok(asset.configurations.every(c=>c.originalMSRP===null&&c.currentMSRP===null));}
 });
 test('all approved derivatives match their recorded checksums',async()=>{

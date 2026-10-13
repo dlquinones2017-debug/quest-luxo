@@ -37,7 +37,7 @@ test("launch reference facts have sources without invented scores, prices or ava
   for (const collection of launchCatalogCollections) {
     for (const asset of collection.assets) {
       assert.ok(asset.specificationSources?.every(source => source.url.startsWith("https://")));
-      assert.equal(asset.specificationsReviewedAt, "2026-10-12");
+      assert.equal(asset.specificationsReviewedAt, asset.reference === "8880CHACLB" ? "2026-10-13" : "2026-10-12");
       assert.equal(asset.intelligence, undefined);
       assert.equal(asset.productionStatus, "Availability not confirmed");
       assert.equal(asset.imageVerified, undefined);

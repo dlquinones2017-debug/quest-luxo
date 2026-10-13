@@ -1,11 +1,11 @@
 {
-  "reviewedAt": "2026-10-13T04:52:39.426Z",
+  "reviewedAt": "2026-10-13T10:09:24.977Z",
   "note": "Generated from all exported source datasets and built routes. Source-only and duplicate configuration records are retained for review; this register is not proof of image rights. Source URLs identify research leads, not licenses.",
   "summary": {
-    "sourceConfigurations": 327,
+    "sourceConfigurations": 335,
     "builtReferenceRoutes": 165,
     "collectionRoutes": 71,
-    "approvedReferenceConfigurations": 47,
+    "approvedReferenceConfigurations": 57,
     "unmatchedReferenceRoutes": 0
   },
   "collections": [
@@ -6801,6 +6801,7 @@
           "dial": "Charcoal gray with black-gradient rim",
           "bracelet": "Black composite strap",
           "waterResistance": "30 m",
+          "nickname": "Charcoal gray with black-gradient rim / Black composite strap",
           "originalMSRP": null,
           "currentMSRP": null
         }
@@ -6808,20 +6809,20 @@
       "material": "Stainless Steel",
       "sources": [
         "src/data/collectionRegistry.ts",
-        "src/data/launch-catalog.ts"
+        "src/data/photography-expansion.ts"
       ],
       "routes": [
         "/collections/patek-philippe/aquanaut/5167a-001"
       ],
       "scope": "built-reference",
-      "existingImage": "/images/watch-reference-placeholder.svg",
+      "existingImage": "/images/watches/patek-philippe/patek-philippe-aquanaut-5167a-001-web.webp",
       "existingImageFilePresent": true,
-      "photoAssetId": null,
-      "status": "Requires Verification",
+      "photoAssetId": "manufacturer-library-1_5dxpiAvWNz5hzSjjUwTjUqjuNACbu4p",
+      "status": "approved",
       "sourceUrl": "https://www.patek.com/en/collection/aquanaut/5167A-001",
-      "licenseRecord": null,
-      "websiteApproved": false,
-      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+      "licenseRecord": "Founder explicitly confirmed Quest Luxo website-use permission for this newly acquired exact-reference manufacturer/collaboration photograph on October 13, 2026. Preserved RAW file: 1_5dxpiAvWNz5hzSjjUwTjUqjuNACbu4p. Exact configuration reviewed against the official reference and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
     },
     {
       "brand": "Tudor",
@@ -7163,6 +7164,7 @@
           "dial": "Matte White",
           "bracelet": "White textile strap",
           "waterResistance": "30 m",
+          "nickname": "Matte White / White textile strap",
           "originalMSRP": null,
           "currentMSRP": null
         }
@@ -7170,20 +7172,20 @@
       "material": "Carbon and Glass Fibre",
       "sources": [
         "src/data/collectionRegistry.ts",
-        "src/data/launch-catalog.ts"
+        "src/data/photography-expansion.ts"
       ],
       "routes": [
         "/collections/franck-muller/rabbit/v-41-sc-dt-fr2-gfgrnr-nr"
       ],
       "scope": "built-reference",
-      "existingImage": "/images/watch-reference-placeholder.svg",
+      "existingImage": "/images/watches/franck-muller/franck-muller-rabbit-v-41-sc-dt-fr2-gfgrnr-nr-web.webp",
       "existingImageFilePresent": true,
-      "photoAssetId": null,
-      "status": "Requires Verification",
+      "photoAssetId": "manufacturer-library-1hsP_EfUrp8KRu81Ovh0XP4pkZRtxbla-",
+      "status": "approved",
       "sourceUrl": "https://www.cortinawatch.com/en/franck-muller/limited-edition/v-41-sc-dt-fr2-gfgrnr-nr/",
-      "licenseRecord": null,
-      "websiteApproved": false,
-      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+      "licenseRecord": "Founder explicitly confirmed Quest Luxo website-use permission for this newly acquired exact-reference manufacturer/collaboration photograph on October 13, 2026. Preserved RAW file: 1hsP_EfUrp8KRu81Ovh0XP4pkZRtxbla-. Exact configuration reviewed against the official reference and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
     },
     {
       "brand": "Franck Muller",
@@ -7191,29 +7193,39 @@
       "reference": "8880CHACLB",
       "configurations": [
         {
-          "movement": "Self-winding with jumping-hour complication",
+          "caseSize": "55.4 × 39.6 mm",
+          "movement": "Self-winding MVD FM 2800-CHR",
           "dial": "Powder blue sunray guilloché",
+          "bracelet": "Blue alligator leather strap",
+          "originalMSRP": null,
+          "currentMSRP": null
+        },
+        {
+          "movement": "Self-winding MVD FM 2800-CHR",
+          "dial": "Powder blue sunray guillochÃ©",
+          "caseSize": "55.4 × 39.6 mm",
+          "bracelet": "Blue alligator leather strap",
+          "nickname": "Powder blue sunray guillochÃ© / Blue alligator leather strap",
           "originalMSRP": null,
           "currentMSRP": null
         }
       ],
       "material": "Stainless Steel",
       "sources": [
-        "src/data/collectionRegistry.ts",
-        "src/data/launch-catalog.ts"
+        "src/data/collectionRegistry.ts"
       ],
       "routes": [
         "/collections/franck-muller/crazy-hours/8880chaclb"
       ],
       "scope": "built-reference",
-      "existingImage": "/images/watch-reference-placeholder.svg",
+      "existingImage": "/images/watches/franck-muller/franck-muller-crazy-hours-8880chaclb-web.webp",
       "existingImageFilePresent": true,
-      "photoAssetId": null,
-      "status": "Requires Verification",
+      "photoAssetId": "manufacturer-library-1GOvUT2dsdo51ZjW54zYEDNTAGXImNqfH",
+      "status": "approved",
       "sourceUrl": "https://franckmuller-usa.com/cintree_curvex_men_crazy_hours/8880CHACLB_Cintr%C3%A9e_Curvex_Crazy_Hours",
-      "licenseRecord": null,
-      "websiteApproved": false,
-      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+      "licenseRecord": "Founder explicitly confirmed Quest Luxo website-use permission for this newly acquired exact-reference manufacturer/collaboration photograph on October 13, 2026. Preserved RAW file: 1GOvUT2dsdo51ZjW54zYEDNTAGXImNqfH. Exact configuration reviewed against the official reference and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
     },
     {
       "brand": "Franck Muller",
@@ -7256,25 +7268,34 @@
           "waterResistance": "5 bar",
           "originalMSRP": null,
           "currentMSRP": null
+        },
+        {
+          "caseSize": "40 mm",
+          "movement": "Automatic calibre 899",
+          "dial": "Silvered gray sunray",
+          "bracelet": "Black alligator leather strap",
+          "waterResistance": "5 bar",
+          "nickname": "Silvered gray sunray / Black alligator leather strap",
+          "originalMSRP": null,
+          "currentMSRP": null
         }
       ],
       "material": "Stainless Steel",
       "sources": [
-        "src/data/collectionRegistry.ts",
-        "src/data/launch-catalog.ts"
+        "src/data/collectionRegistry.ts"
       ],
       "routes": [
         "/collections/jaeger-lecoultre/master-control/q4018421"
       ],
       "scope": "built-reference",
-      "existingImage": "/images/watch-reference-placeholder.svg",
+      "existingImage": "/images/watches/jaeger-lecoultre/jaeger-lecoultre-master-control-q4018421-web.webp",
       "existingImageFilePresent": true,
-      "photoAssetId": null,
-      "status": "Requires Verification",
+      "photoAssetId": "manufacturer-library-168nq84I2kLkOI6JdRAvl8qqNECfWOmc-",
+      "status": "approved",
       "sourceUrl": "https://www.jaeger-lecoultre.com/us-en/watches/master-control/master-control-date-stainless-steel-q4018421",
-      "licenseRecord": null,
-      "websiteApproved": false,
-      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+      "licenseRecord": "Founder explicitly confirmed Quest Luxo website-use permission for this newly acquired exact-reference manufacturer/collaboration photograph on October 13, 2026. Preserved RAW file: 168nq84I2kLkOI6JdRAvl8qqNECfWOmc-. Exact configuration reviewed against the official reference and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
     },
     {
       "brand": "Jaeger-LeCoultre",
@@ -7289,25 +7310,34 @@
           "waterResistance": "5 bar",
           "originalMSRP": null,
           "currentMSRP": null
+        },
+        {
+          "caseSize": "43 mm",
+          "movement": "Automatic calibre 950; minute repeater and perpetual calendar",
+          "dial": "Blue guillochÃ© enamel",
+          "bracelet": "Blue alligator leather strap",
+          "waterResistance": "5 bar",
+          "nickname": "Blue guillochÃ© enamel / Blue alligator leather strap",
+          "originalMSRP": null,
+          "currentMSRP": null
         }
       ],
       "material": "18K White Gold",
       "sources": [
-        "src/data/collectionRegistry.ts",
-        "src/data/launch-catalog.ts"
+        "src/data/collectionRegistry.ts"
       ],
       "routes": [
         "/collections/jaeger-lecoultre/master-grande-tradition/q52334e1"
       ],
       "scope": "built-reference",
-      "existingImage": "/images/watch-reference-placeholder.svg",
+      "existingImage": "/images/watches/jaeger-lecoultre/jaeger-lecoultre-master-grande-tradition-q52334e1-web.webp",
       "existingImageFilePresent": true,
-      "photoAssetId": null,
-      "status": "Requires Verification",
+      "photoAssetId": "manufacturer-library-1LF9NgGH8B0IshoXX0ONTrb38KWVaBjTT",
+      "status": "approved",
       "sourceUrl": "https://www.jaeger-lecoultre.com/us-en/watches/master-grande-tradition/master-grande-tradition-calibre-950-white-gold-q52334e1",
-      "licenseRecord": null,
-      "websiteApproved": false,
-      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+      "licenseRecord": "Founder explicitly confirmed Quest Luxo website-use permission for this newly acquired exact-reference manufacturer/collaboration photograph on October 13, 2026. Preserved RAW file: 1LF9NgGH8B0IshoXX0ONTrb38KWVaBjTT. Exact configuration reviewed against the official reference and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
     },
     {
       "brand": "Cartier",
@@ -7472,6 +7502,165 @@
       "photoAssetId": null,
       "status": "Requires Verification",
       "sourceUrl": "https://www.iwc.com/de/en/watch-collections/portugieser/iw358303-portugieser-automatic-40.html",
+      "licenseRecord": null,
+      "websiteApproved": false,
+      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+    },
+    {
+      "brand": "Patek Philippe",
+      "collection": "Aquanaut",
+      "reference": "5167A-001",
+      "configurations": [
+        {
+          "caseSize": "40.8 mm",
+          "movement": "Self-winding calibre 26-330 S C",
+          "dial": "Charcoal gray with black-gradient rim",
+          "bracelet": "Black composite strap",
+          "waterResistance": "30 m",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "Stainless Steel",
+      "sources": [
+        "src/data/launch-catalog.ts"
+      ],
+      "routes": [
+        "/collections/patek-philippe/aquanaut/5167a-001"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": "manufacturer-library-1_5dxpiAvWNz5hzSjjUwTjUqjuNACbu4p",
+      "status": "approved",
+      "sourceUrl": "https://www.patek.com/en/collection/aquanaut/5167A-001",
+      "licenseRecord": "Founder explicitly confirmed Quest Luxo website-use permission for this newly acquired exact-reference manufacturer/collaboration photograph on October 13, 2026. Preserved RAW file: 1_5dxpiAvWNz5hzSjjUwTjUqjuNACbu4p. Exact configuration reviewed against the official reference and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
+      "brand": "Franck Muller",
+      "collection": "Rabbit",
+      "reference": "V 41 SC DT FR2 GFGRNR (NR)",
+      "configurations": [
+        {
+          "caseSize": "41 mm",
+          "movement": "Self-winding FM 800-DT",
+          "dial": "Matte White",
+          "bracelet": "White textile strap",
+          "waterResistance": "30 m",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "Carbon and Glass Fibre",
+      "sources": [
+        "src/data/launch-catalog.ts"
+      ],
+      "routes": [
+        "/collections/franck-muller/rabbit/v-41-sc-dt-fr2-gfgrnr-nr"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": "manufacturer-library-1hsP_EfUrp8KRu81Ovh0XP4pkZRtxbla-",
+      "status": "approved",
+      "sourceUrl": "https://www.cortinawatch.com/en/franck-muller/limited-edition/v-41-sc-dt-fr2-gfgrnr-nr/",
+      "licenseRecord": "Founder explicitly confirmed Quest Luxo website-use permission for this newly acquired exact-reference manufacturer/collaboration photograph on October 13, 2026. Preserved RAW file: 1hsP_EfUrp8KRu81Ovh0XP4pkZRtxbla-. Exact configuration reviewed against the official reference and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
+      "brand": "Franck Muller",
+      "collection": "Crazy Hours",
+      "reference": "8880CHACLB",
+      "configurations": [
+        {
+          "caseSize": "55.4 × 39.6 mm",
+          "movement": "Self-winding MVD FM 2800-CHR",
+          "dial": "Powder blue sunray guilloché",
+          "bracelet": "Blue alligator leather strap",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "Stainless Steel",
+      "sources": [
+        "src/data/launch-catalog.ts"
+      ],
+      "routes": [
+        "/collections/franck-muller/crazy-hours/8880chaclb"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": null,
+      "status": "Requires Verification",
+      "sourceUrl": "https://franckmuller-usa.com/cintree_curvex_men_crazy_hours/8880CHACLB_Cintr%C3%A9e_Curvex_Crazy_Hours",
+      "licenseRecord": null,
+      "websiteApproved": false,
+      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+    },
+    {
+      "brand": "Jaeger-LeCoultre",
+      "collection": "Master Control",
+      "reference": "Q4018421",
+      "configurations": [
+        {
+          "caseSize": "40 mm",
+          "movement": "Automatic calibre 899",
+          "dial": "Silvered gray sunray",
+          "bracelet": "Light-brown calfskin strap",
+          "waterResistance": "5 bar",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "Stainless Steel",
+      "sources": [
+        "src/data/launch-catalog.ts"
+      ],
+      "routes": [
+        "/collections/jaeger-lecoultre/master-control/q4018421"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": null,
+      "status": "Requires Verification",
+      "sourceUrl": "https://www.jaeger-lecoultre.com/us-en/watches/master-control/master-control-date-stainless-steel-q4018421",
+      "licenseRecord": null,
+      "websiteApproved": false,
+      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+    },
+    {
+      "brand": "Jaeger-LeCoultre",
+      "collection": "Master Grande Tradition",
+      "reference": "Q52334E1",
+      "configurations": [
+        {
+          "caseSize": "43 mm",
+          "movement": "Automatic calibre 950; minute repeater and perpetual calendar",
+          "dial": "Blue guilloché enamel",
+          "bracelet": "Blue alligator leather strap",
+          "waterResistance": "5 bar",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "18K White Gold",
+      "sources": [
+        "src/data/launch-catalog.ts"
+      ],
+      "routes": [
+        "/collections/jaeger-lecoultre/master-grande-tradition/q52334e1"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": null,
+      "status": "Requires Verification",
+      "sourceUrl": "https://www.jaeger-lecoultre.com/us-en/watches/master-grande-tradition/master-grande-tradition-calibre-950-white-gold-q52334e1",
       "licenseRecord": null,
       "websiteApproved": false,
       "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
@@ -8101,6 +8290,104 @@
       "status": "approved",
       "sourceUrl": "https://www.rolex.com/en-us/watches/cosmograph-daytona/m126500ln-0001",
       "licenseRecord": "Founder confirmed Quest Luxo website-use permission for existing Drive manufacturer photographs on October 13, 2026. Preserved RAW file: 1SNt_1pPAHb_rOoP8NBHIOeqPVG6gNpeO. Exact configuration reviewed against the official reference and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
+      "brand": "Franck Muller",
+      "collection": "Crazy Hours",
+      "reference": "8880CHACLB",
+      "configurations": [
+        {
+          "movement": "Self-winding MVD FM 2800-CHR",
+          "dial": "Powder blue sunray guillochÃ©",
+          "caseSize": "55.4 × 39.6 mm",
+          "bracelet": "Blue alligator leather strap",
+          "nickname": "Powder blue sunray guillochÃ© / Blue alligator leather strap",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "Stainless Steel",
+      "sources": [
+        "src/data/photography-expansion.ts"
+      ],
+      "routes": [
+        "/collections/franck-muller/crazy-hours/8880chaclb"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": "manufacturer-library-1GOvUT2dsdo51ZjW54zYEDNTAGXImNqfH",
+      "status": "approved",
+      "sourceUrl": "https://franckmuller-usa.com/cintree_curvex_men_crazy_hours/8880CHACLB_Cintr%C3%A9e_Curvex_Crazy_Hours",
+      "licenseRecord": "Founder explicitly confirmed Quest Luxo website-use permission for this newly acquired exact-reference manufacturer/collaboration photograph on October 13, 2026. Preserved RAW file: 1GOvUT2dsdo51ZjW54zYEDNTAGXImNqfH. Exact configuration reviewed against the official reference and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
+      "brand": "Jaeger-LeCoultre",
+      "collection": "Master Control",
+      "reference": "Q4018421",
+      "configurations": [
+        {
+          "caseSize": "40 mm",
+          "movement": "Automatic calibre 899",
+          "dial": "Silvered gray sunray",
+          "bracelet": "Black alligator leather strap",
+          "waterResistance": "5 bar",
+          "nickname": "Silvered gray sunray / Black alligator leather strap",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "Stainless Steel",
+      "sources": [
+        "src/data/photography-expansion.ts"
+      ],
+      "routes": [
+        "/collections/jaeger-lecoultre/master-control/q4018421"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": "manufacturer-library-168nq84I2kLkOI6JdRAvl8qqNECfWOmc-",
+      "status": "approved",
+      "sourceUrl": "https://www.jaeger-lecoultre.com/us-en/watches/master-control/master-control-date-stainless-steel-q4018421",
+      "licenseRecord": "Founder explicitly confirmed Quest Luxo website-use permission for this newly acquired exact-reference manufacturer/collaboration photograph on October 13, 2026. Preserved RAW file: 168nq84I2kLkOI6JdRAvl8qqNECfWOmc-. Exact configuration reviewed against the official reference and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
+      "brand": "Jaeger-LeCoultre",
+      "collection": "Master Grande Tradition",
+      "reference": "Q52334E1",
+      "configurations": [
+        {
+          "caseSize": "43 mm",
+          "movement": "Automatic calibre 950; minute repeater and perpetual calendar",
+          "dial": "Blue guillochÃ© enamel",
+          "bracelet": "Blue alligator leather strap",
+          "waterResistance": "5 bar",
+          "nickname": "Blue guillochÃ© enamel / Blue alligator leather strap",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "18K White Gold",
+      "sources": [
+        "src/data/photography-expansion.ts"
+      ],
+      "routes": [
+        "/collections/jaeger-lecoultre/master-grande-tradition/q52334e1"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": "manufacturer-library-1LF9NgGH8B0IshoXX0ONTrb38KWVaBjTT",
+      "status": "approved",
+      "sourceUrl": "https://www.jaeger-lecoultre.com/us-en/watches/master-grande-tradition/master-grande-tradition-calibre-950-white-gold-q52334e1",
+      "licenseRecord": "Founder explicitly confirmed Quest Luxo website-use permission for this newly acquired exact-reference manufacturer/collaboration photograph on October 13, 2026. Preserved RAW file: 1LF9NgGH8B0IshoXX0ONTrb38KWVaBjTT. Exact configuration reviewed against the official reference and the original photograph.",
       "websiteApproved": true,
       "nextAction": "Retain approved original and verify derivative integrity."
     },

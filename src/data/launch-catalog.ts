@@ -14,6 +14,7 @@ interface LaunchReferenceSeed {
   overview: string;
   sourceUrl: string;
   sourceLabel?: string;
+  reviewedAt?: string;
 }
 
 // Only source-verified facts belong here. Photography clearance is separate.
@@ -108,10 +109,11 @@ const launchReferenceSeeds: readonly LaunchReferenceSeed[] = [
   {
     brand: "Franck Muller", brandSlug: "franck-muller", collection: "Crazy Hours", collectionSlug: "crazy-hours",
     reference: "8880CHACLB", model: "Cintrée Curvex Crazy Hours",
-    configuration: { movement: "Self-winding with jumping-hour complication", dial: "Powder blue sunray guilloché" },
+    configuration: { caseSize: "55.4 × 39.6 mm", movement: "Self-winding MVD FM 2800-CHR", dial: "Powder blue sunray guilloché", bracelet: "Blue alligator leather strap" },
     material: "Stainless Steel",
-    overview: "This steel Crazy Hours configuration is listed by Franck Muller USA. The hour hand jumps between non-sequential numerals while the minute display follows the usual cycle. Dimensions and strap details remain pending exact-configuration confirmation.",
+    overview: "This steel Crazy Hours configuration is listed by Franck Muller USA. The hour hand jumps between non-sequential numerals while the minute display follows the usual cycle. The manufacturer's detailed technical table specifies a 55.4 mm length, 39.6 mm width and hand-sewn alligator strap; the exact-reference photograph depicts the blue strap.",
     sourceUrl: "https://franckmuller-usa.com/cintree_curvex_men_crazy_hours/8880CHACLB_Cintr%C3%A9e_Curvex_Crazy_Hours",
+    reviewedAt: "2026-10-13",
   },
   {
     brand: "Franck Muller", brandSlug: "franck-muller", collection: "Yachting", collectionSlug: "yachting",
@@ -151,7 +153,7 @@ export const launchCatalogAssets = launchReferenceSeeds.map((seed): QuestLuxoAss
   allocationDifficulty: "Availability requires a market check",
   questLuxoView: seed.overview,
   specificationSources: [{ label: seed.sourceLabel ?? `${seed.brand} official reference`, url: seed.sourceUrl }],
-  specificationsReviewedAt: "2026-10-12",
+  specificationsReviewedAt: seed.reviewedAt ?? "2026-10-12",
 }));
 
 export const launchCatalogCollections = launchReferenceSeeds.map((seed, index): CollectionDefinition => ({

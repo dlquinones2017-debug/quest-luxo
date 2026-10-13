@@ -1,7 +1,7 @@
 import type { QuestLuxoAsset, QuestLuxoConfiguration } from "../types/questLuxo";
 import type { WatchPhotograph } from "../lib/media/watchPhotography";
 
-interface PhotographySeed { brand: string; brandSlug: string; collection: string; reference: string; model: string; material: string; configuration: QuestLuxoConfiguration & {dial:string; bracelet:string; caseSize:string}; sourceUrl:string; src:string; sha256:string; rawDriveFileId:string; }
+interface PhotographySeed { brand: string; brandSlug: string; collection: string; reference: string; model: string; material: string; configuration: QuestLuxoConfiguration & {dial:string; bracelet:string; caseSize:string}; sourceUrl:string; src:string; sha256:string; rawDriveFileId:string; clearanceRecord?:string; }
 
 // Exact configurations reviewed against manufacturer sources and original photographs.
 // Existing Drive manufacturer images were cleared for website use by the founder on October 13, 2026.
@@ -535,6 +535,105 @@ const seeds: readonly PhotographySeed[] = [
     "src": "/images/watches/rolex/rolex-cosmograph-daytona-126500ln-white-dial-web.webp",
     "sha256": "b42c8dc29bd0cccebe62d444f92c91a1e0bd7cdae02199b98211dcadf1ca3e7b",
     "rawDriveFileId": "1SNt_1pPAHb_rOoP8NBHIOeqPVG6gNpeO"
+  },
+  {
+    "brand": "Patek Philippe",
+    "brandSlug": "patek-philippe",
+    "collection": "Aquanaut",
+    "reference": "5167A-001",
+    "model": "Aquanaut Date",
+    "material": "Stainless Steel",
+    "configuration": {
+      "caseSize": "40.8 mm",
+      "movement": "Self-winding calibre 26-330 S C",
+      "dial": "Charcoal gray with black-gradient rim",
+      "bracelet": "Black composite strap",
+      "waterResistance": "30 m"
+    },
+    "sourceUrl": "https://www.patek.com/en/collection/aquanaut/5167A-001",
+    "src": "/images/watches/patek-philippe/patek-philippe-aquanaut-5167a-001-web.webp",
+    "sha256": "7d490a64677b7532810c4482124e2fbe0cfe854d7d7b43ba959829a49a18ee03",
+    "rawDriveFileId": "1_5dxpiAvWNz5hzSjjUwTjUqjuNACbu4p",
+    "clearanceRecord": "Founder explicitly confirmed Quest Luxo website-use permission for this newly acquired exact-reference manufacturer/collaboration photograph on October 13, 2026."
+  },
+  {
+    "brand": "Franck Muller",
+    "brandSlug": "franck-muller",
+    "collection": "Rabbit",
+    "reference": "V 41 SC DT FR2 GFGRNR (NR)",
+    "model": "#FR2NCK MULLER Vanguard",
+    "material": "Carbon and Glass Fibre",
+    "configuration": {
+      "caseSize": "41 mm",
+      "movement": "Self-winding FM 800-DT",
+      "dial": "Matte White",
+      "bracelet": "White textile strap",
+      "waterResistance": "30 m"
+    },
+    "sourceUrl": "https://www.cortinawatch.com/en/franck-muller/limited-edition/v-41-sc-dt-fr2-gfgrnr-nr/",
+    "src": "/images/watches/franck-muller/franck-muller-rabbit-v-41-sc-dt-fr2-gfgrnr-nr-web.webp",
+    "sha256": "e68498bbba3b4abdd0b4876c9967e2cb77740a80c676a9a429adceda1906c5a2",
+    "rawDriveFileId": "1hsP_EfUrp8KRu81Ovh0XP4pkZRtxbla-",
+    "clearanceRecord": "Founder explicitly confirmed Quest Luxo website-use permission for this newly acquired exact-reference manufacturer/collaboration photograph on October 13, 2026."
+  },
+  {
+    "brand": "Franck Muller",
+    "brandSlug": "franck-muller",
+    "collection": "Crazy Hours",
+    "reference": "8880CHACLB",
+    "model": "CintrÃ©e Curvex Crazy Hours",
+    "material": "Stainless Steel",
+    "configuration": {
+      "movement": "Self-winding MVD FM 2800-CHR",
+      "dial": "Powder blue sunray guillochÃ©",
+      "caseSize": "55.4 × 39.6 mm",
+      "bracelet": "Blue alligator leather strap"
+    },
+    "sourceUrl": "https://franckmuller-usa.com/cintree_curvex_men_crazy_hours/8880CHACLB_Cintr%C3%A9e_Curvex_Crazy_Hours",
+    "src": "/images/watches/franck-muller/franck-muller-crazy-hours-8880chaclb-web.webp",
+    "sha256": "d6129bc060d63156e064140ed70807bc62edc1d5b1d44876b12957a544ff9391",
+    "rawDriveFileId": "1GOvUT2dsdo51ZjW54zYEDNTAGXImNqfH",
+    "clearanceRecord": "Founder explicitly confirmed Quest Luxo website-use permission for this newly acquired exact-reference manufacturer/collaboration photograph on October 13, 2026."
+  },
+  {
+    "brand": "Jaeger-LeCoultre",
+    "brandSlug": "jaeger-lecoultre",
+    "collection": "Master Control",
+    "reference": "Q4018421",
+    "model": "Master Control Date",
+    "material": "Stainless Steel",
+    "configuration": {
+      "caseSize": "40 mm",
+      "movement": "Automatic calibre 899",
+      "dial": "Silvered gray sunray",
+      "bracelet": "Black alligator leather strap",
+      "waterResistance": "5 bar"
+    },
+    "sourceUrl": "https://www.jaeger-lecoultre.com/us-en/watches/master-control/master-control-date-stainless-steel-q4018421",
+    "src": "/images/watches/jaeger-lecoultre/jaeger-lecoultre-master-control-q4018421-web.webp",
+    "sha256": "e1f7ef5a33463afbe1ea297947140b51079c9b4e641901092bee1e9e36130a0d",
+    "rawDriveFileId": "168nq84I2kLkOI6JdRAvl8qqNECfWOmc-",
+    "clearanceRecord": "Founder explicitly confirmed Quest Luxo website-use permission for this newly acquired exact-reference manufacturer/collaboration photograph on October 13, 2026."
+  },
+  {
+    "brand": "Jaeger-LeCoultre",
+    "brandSlug": "jaeger-lecoultre",
+    "collection": "Master Grande Tradition",
+    "reference": "Q52334E1",
+    "model": "Master Grande Tradition Calibre 950",
+    "material": "18K White Gold",
+    "configuration": {
+      "caseSize": "43 mm",
+      "movement": "Automatic calibre 950; minute repeater and perpetual calendar",
+      "dial": "Blue guillochÃ© enamel",
+      "bracelet": "Blue alligator leather strap",
+      "waterResistance": "5 bar"
+    },
+    "sourceUrl": "https://www.jaeger-lecoultre.com/us-en/watches/master-grande-tradition/master-grande-tradition-calibre-950-white-gold-q52334e1",
+    "src": "/images/watches/jaeger-lecoultre/jaeger-lecoultre-master-grande-tradition-q52334e1-web.webp",
+    "sha256": "94f2a085a0407d0568b4f75401ef1e28d5569f17d81f8f5b943e7fa7bc5dc9ad",
+    "rawDriveFileId": "1LF9NgGH8B0IshoXX0ONTrb38KWVaBjTT",
+    "clearanceRecord": "Founder explicitly confirmed Quest Luxo website-use permission for this newly acquired exact-reference manufacturer/collaboration photograph on October 13, 2026."
   }
 ];
 
@@ -551,5 +650,5 @@ for (const seed of seeds) {
 }
 
 export const photographyExpansionImages: readonly WatchPhotograph[] = seeds.map(seed => ({
-  assetId:`manufacturer-library-${seed.rawDriveFileId}`, brand:seed.brand, collection:seed.collection, reference:seed.reference, configuration:{dial:seed.configuration.dial,bracelet:seed.configuration.bracelet,material:seed.material,caseSize:seed.configuration.caseSize}, src:seed.src, alt:`Authentic ${seed.brand} ${seed.model} ref. ${seed.reference}, ${seed.configuration.dial}, ${seed.configuration.bracelet}`, background:"white", authenticPhotography:true, exactConfigurationVerified:true, sourceUrl:seed.sourceUrl, photographer:`${seed.brand} product photography`, licenseRecord:`Founder confirmed Quest Luxo website-use permission for existing Drive manufacturer photographs on October 13, 2026. Preserved RAW file: ${seed.rawDriveFileId}. Exact configuration reviewed against the official reference and the original photograph.`, websiteApproved:true, commercialUse:"allowed", usageConditionsSatisfied:true, rightsExpiresAt:null, reviewedAt:"2026-10-13", reviewer:"Quest Luxo execution review with founder website-use clearance", sha256:seed.sha256, attribution:`${seed.brand} product photography. Preserved authentic RAW centered on a 2400 x 2400 blank white master and resized to a 1200 x 1200 WEB derivative; no generative watch modifications.`, hero:true
+  assetId:`manufacturer-library-${seed.rawDriveFileId}`, brand:seed.brand, collection:seed.collection, reference:seed.reference, configuration:{dial:seed.configuration.dial,bracelet:seed.configuration.bracelet,material:seed.material,caseSize:seed.configuration.caseSize}, src:seed.src, alt:`Authentic ${seed.brand} ${seed.model} ref. ${seed.reference}, ${seed.configuration.dial}, ${seed.configuration.bracelet}`, background:"white", authenticPhotography:true, exactConfigurationVerified:true, sourceUrl:seed.sourceUrl, photographer:`${seed.brand} product photography`, licenseRecord:`${seed.clearanceRecord ?? "Founder confirmed Quest Luxo website-use permission for existing Drive manufacturer photographs on October 13, 2026."} Preserved RAW file: ${seed.rawDriveFileId}. Exact configuration reviewed against the official reference and the original photograph.`, websiteApproved:true, commercialUse:"allowed", usageConditionsSatisfied:true, rightsExpiresAt:null, reviewedAt:"2026-10-13", reviewer:"Quest Luxo execution review with founder website-use clearance", sha256:seed.sha256, attribution:`${seed.brand} product photography. Preserved authentic RAW centered on a 2400 x 2400 blank white master and resized to a 1200 x 1200 WEB derivative; no generative watch modifications.`, hero:true
 }));
