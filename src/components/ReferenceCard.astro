@@ -95,7 +95,12 @@ const hasVerifiedCurrentMsrp = (value?: number | null): value is number =>
   )}
 
   <div class="details">
+    {primaryConfig?.caseSize && <p><strong>Case Size</strong><span>{primaryConfig.caseSize}</span></p>}
     {asset.material && <p><strong>Material</strong><span>{asset.material}</span></p>}
+    {primaryConfig?.dial && <p><strong>Dial</strong><span>{primaryConfig.dial}</span></p>}
+    {primaryConfig?.bracelet && <p><strong>Bracelet / Strap</strong><span>{primaryConfig.bracelet}</span></p>}
+    {primaryConfig?.movement && <p><strong>Movement</strong><span>{primaryConfig.movement}</span></p>}
+    {primaryConfig?.waterResistance && <p><strong>Water Resistance</strong><span>{primaryConfig.waterResistance}</span></p>}
     {asset.bezel && <p><strong>Bezel</strong><span>{asset.bezel}</span></p>}
     {asset.marketPosition && <p><strong>Market Position</strong><span>{asset.marketPosition}</span></p>}
     {asset.liquidity && <p><strong>Liquidity</strong><span>{asset.liquidity}</span></p>}
