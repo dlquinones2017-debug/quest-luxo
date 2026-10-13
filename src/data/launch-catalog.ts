@@ -125,6 +125,14 @@ const launchReferenceSeeds: readonly LaunchReferenceSeed[] = [
   },
   {
     brand: "Franck Muller", brandSlug: "franck-muller", collection: "Yachting", collectionSlug: "yachting",
+    reference: "V45SCYACHTACBL", model: "Vanguard Yachting",
+    configuration: { caseSize: "44 mm × 53.7 mm", movement: "Self-winding FM 2536-SCDT; 42-hour power reserve", dial: "Blue nautical dial with wind-rose motif", bracelet: "Blue woven fabric / nylon strap", waterResistance: "30 m" },
+    material: "Stainless Steel",
+    overview: "A steel Vanguard Yachting with blue nautical dial and integrated blue strap treatment. It is represented separately from the blue-ceramic Yachting edition and is identified by the manufacturer SKU V45SCYACHTACBL.",
+    sourceUrl: "https://franckmuller-usa.com/vanguard_yachting/V45SCYACHTACBL_Vanguard_Yachting",
+  },
+  {
+    brand: "Franck Muller", brandSlug: "franck-muller", collection: "Yachting", collectionSlug: "yachting",
     reference: "V 45 SC DT YACHT CR BL (BL)", model: "Vanguard Yachting Ceramic",
     configuration: {}, material: "Blue Ceramic",
     overview: "Yachting is a nautical branch of the Vanguard family. This manufacturer-listed blue ceramic edition remains queued for detailed dimension, movement, dial and strap verification; those specifications are not inferred from other Vanguard models.",
