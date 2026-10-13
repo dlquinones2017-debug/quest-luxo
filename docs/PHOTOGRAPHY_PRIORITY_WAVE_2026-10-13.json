@@ -1,0 +1,128 @@
+[
+  {
+    "brand": "Cartier",
+    "collection": "Santos de Cartier",
+    "reference": "WSSA0018",
+    "stem": "cartier-santos-wssa0018",
+    "rawId": "12fpNPveqsbNrDPYN7WiR94ZQ-QNG_nmd",
+    "cfg": {
+      "dial": "Silvered Opaline",
+      "bracelet": "Steel SmartLink Bracelet",
+      "caseSize": "39.8 mm wide",
+      "movement": "Automatic calibre 1847 MC",
+      "waterResistance": "100 m"
+    },
+    "source": "https://int.cartier.com/en/collections/watches/choose-your-watch/by-material/steel-watches/wssa0018-santos-de-cartier-watch.html",
+    "factReview": "Exact identity and specifications retained from established Cartier evidence record; source currently denies direct access.",
+    "originalSize": [
+      629,
+      773
+    ],
+    "sha256": "ebaf01395fb40dd56df647eddd2dd0b7048ac48e4964c2b2c92382de46333403",
+    "processing": "Manual silhouette seeds and classical external graph-cut mask; preserved interior original watch pixels and white highlights; centered 2400 white master / 1200 WEB; no generated or reconstructed details",
+    "reviewStatus": "Approved following original/derivative visual review and exact reference verification",
+    "rightsRecord": "Founder confirmed Quest Luxo website-use permission for manufacturer photographs already in the existing Drive photography library on October 13, 2026.",
+    "websitePath": "/images/watches/cartier/cartier-santos-wssa0018-web.webp"
+  },
+  {
+    "brand": "Omega",
+    "collection": "Speedmaster",
+    "reference": "311.30.42.30.01.005",
+    "stem": "omega-speedmaster-311-30-42-30-01-005",
+    "rawId": "1FvinwTYUaWiUtrA9MNlMs2rR0_3m4qd3",
+    "cfg": {
+      "dial": "Black",
+      "bracelet": "Stainless Steel Bracelet",
+      "caseSize": "42 mm",
+      "movement": "Manual-winding Omega 1861",
+      "waterResistance": "50 m"
+    },
+    "source": "https://www.omegawatches.com/watch-omega-speedmaster-moonwatch-professional-chronograph-42-mm-31130423001005",
+    "factReview": "Exact manufacturer page technical table reviewed; 1861 Hesalite generation and older bracelet retained.",
+    "originalSize": [
+      523,
+      899
+    ],
+    "sha256": "78b25206c22b5e2d59289a23664d0c1be9881641189556833dfbb24b4a18e4e5",
+    "processing": "Manual silhouette seeds and classical external graph-cut mask; preserved interior original watch pixels and white highlights; centered 2400 white master / 1200 WEB; no generated or reconstructed details",
+    "reviewStatus": "Approved following original/derivative visual review and exact reference verification",
+    "rightsRecord": "Founder confirmed Quest Luxo website-use permission for manufacturer photographs already in the existing Drive photography library on October 13, 2026.",
+    "websitePath": "/images/watches/omega/omega-speedmaster-311-30-42-30-01-005-web.webp"
+  },
+  {
+    "brand": "Omega",
+    "collection": "Seamaster Diver 300M",
+    "reference": "210.30.42.20.01.001",
+    "model": "Seamaster Diver 300M Co-Axial Master Chronometer",
+    "stem": "omega-seamaster-diver-300m-210-30-42-20-01-001",
+    "rawId": "1ud82b4VlMCaY1eVRhccmAtXBHFQewhwC",
+    "cfg": {
+      "dial": "Black wave-pattern",
+      "bracelet": "Stainless-steel bracelet",
+      "caseSize": "42 mm",
+      "movement": "Self-winding Omega 8800",
+      "waterResistance": "300 m"
+    },
+    "source": "https://www.omegawatches.com/watch-omega-seamaster-diver-300m-co-axial-master-chronometer-42-mm-21030422001001",
+    "factReview": "Exact manufacturer page technical table reviewed; black ceramic bezel/dial and steel bracelet original inspected.",
+    "originalSize": [
+      548,
+      899
+    ],
+    "sha256": "d4c52129ef18076c8cef729fe7421bd27924f7aaa1f1de549943fdeac729de3c",
+    "processing": "Manual silhouette seeds and classical external graph-cut mask; preserved interior original watch pixels and white highlights; centered 2400 white master / 1200 WEB; no generated or reconstructed details",
+    "reviewStatus": "Approved following original/derivative visual review and exact reference verification",
+    "rightsRecord": "Founder confirmed Quest Luxo website-use permission for manufacturer photographs already in the existing Drive photography library on October 13, 2026.",
+    "websitePath": "/images/watches/omega/omega-seamaster-diver-300m-210-30-42-20-01-001-web.webp"
+  },
+  {
+    "brand": "Tudor",
+    "collection": "Black Bay",
+    "reference": "79030N",
+    "model": "Black Bay 58",
+    "stem": "tudor-black-bay-58-m79030n-0001",
+    "rawId": "1Jo_VTWQrTczawYTzqUYlQHhZYa3Fz9uL",
+    "cfg": {
+      "dial": "Black",
+      "bracelet": "Riveted Steel Bracelet",
+      "caseSize": "39 mm",
+      "movement": "Self-winding manufacture MT5402 (COSC)",
+      "waterResistance": "200 m"
+    },
+    "source": "https://media.tudorwatch.com/image/upload/fl_attachment/v1/tudorwatch/pressroom/products/black-bay-58/pdf/bw18-tudor-black-bay-fifty-eight-en.pdf",
+    "factReview": "Official archived press sheet confirms base reference 79030N, black dial and riveted steel bracelet; full RAW SKU M79030N-0001 retained in filename.",
+    "originalSize": [
+      809,
+      843
+    ],
+    "sha256": "f7436fb0cdd7a408deea1485a9740f126db05b00cba61fa5b6c38d0a5de72f90",
+    "processing": "Manual silhouette seeds and classical external graph-cut mask; preserved interior original watch pixels and white highlights; centered 2400 white master / 1200 WEB; no generated or reconstructed details",
+    "reviewStatus": "Approved following original/derivative visual review and exact reference verification",
+    "rightsRecord": "Founder confirmed Quest Luxo website-use permission for manufacturer photographs already in the existing Drive photography library on October 13, 2026.",
+    "websitePath": "/images/watches/tudor/tudor-black-bay-58-m79030n-0001-web.webp"
+  },
+  {
+    "brand": "F.P. Journe",
+    "collection": "Chronomètre Bleu",
+    "reference": "CB",
+    "stem": "fp-journe-chronometre-bleu-cb",
+    "rawId": "11j0WkpBIOT3h99pfStf_smXgeMmbZ7C3",
+    "cfg": {
+      "dial": "Chrome blue",
+      "bracelet": "Blue leather strap",
+      "caseSize": "39 mm",
+      "movement": "Manual-winding calibre 1304"
+    },
+    "source": "https://www.fpjourne.com/en/collection/classique-collection/chronometre-bleu",
+    "factReview": "Official manufacturer source confirms CB, tantalum, 39 mm, chrome blue dial and 1304; photographed blue leather strap reviewed without inferring its animal species.",
+    "originalSize": [
+      534,
+      763
+    ],
+    "sha256": "ec9cad79c032b4e6f638f86728c40a07b78fd51f67578cf86d321fcbc18868ef",
+    "processing": "Manual silhouette seeds and classical external graph-cut mask; preserved interior original watch pixels and white highlights; centered 2400 white master / 1200 WEB; no generated or reconstructed details",
+    "reviewStatus": "Approved following original/derivative visual review and exact reference verification",
+    "rightsRecord": "Founder confirmed Quest Luxo website-use permission for manufacturer photographs already in the existing Drive photography library on October 13, 2026.",
+    "websitePath": "/images/watches/fp-journe/fp-journe-chronometre-bleu-cb-web.webp"
+  }
+]

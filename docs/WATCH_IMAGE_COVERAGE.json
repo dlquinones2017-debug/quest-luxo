@@ -1,14 +1,14 @@
 {
-  "reviewedAt": "2026-10-13T10:12:17.158Z",
+  "reviewedAt": "2026-10-13T21:09:12.170Z",
   "note": "Generated from all exported source datasets and built routes. Source-only and duplicate configuration records are retained for review; this register is not proof of image rights. Source URLs identify research leads, not licenses.",
   "summary": {
-    "sourceConfigurations": 335,
-    "builtReferenceRoutes": 165,
+    "sourceConfigurations": 345,
+    "builtReferenceRoutes": 168,
     "collectionRoutes": 71,
-    "approvedReferenceConfigurations": 57,
+    "approvedReferenceConfigurations": 73,
     "unmatchedReferenceRoutes": 0,
-    "approvedCanonicalReferenceRoutes": 39,
-    "queuedCanonicalReferenceRoutes": 126
+    "approvedCanonicalReferenceRoutes": 49,
+    "queuedCanonicalReferenceRoutes": 119
   },
   "collections": [
     {
@@ -125,7 +125,8 @@
       "heroAssetId": null,
       "status": "Requires Verification",
       "referenceRoutes": [
-        "/collections/breitling/superocean/a17376211b1a1"
+        "/collections/breitling/superocean/a17376211b1a1",
+        "/collections/breitling/superocean/a17376211b1s1"
       ],
       "nextAction": "Select one exact-reference hero from approved reference photography; label the depicted configuration."
     },
@@ -210,7 +211,8 @@
       "heroAssetId": null,
       "status": "Requires Verification",
       "referenceRoutes": [
-        "/collections/franck-muller/yachting/v-45-sc-dt-yacht-cr-bl-bl"
+        "/collections/franck-muller/yachting/v-45-sc-dt-yacht-cr-bl-bl",
+        "/collections/franck-muller/yachting/v45scyachtacbl"
       ],
       "nextAction": "Select one exact-reference hero from approved reference photography; label the depicted configuration."
     },
@@ -329,6 +331,7 @@
       "heroAssetId": null,
       "status": "Requires Verification",
       "referenceRoutes": [
+        "/collections/omega/seamaster/210-30-42-20-01-001",
         "/collections/omega/seamaster/2220-80",
         "/collections/omega/seamaster/2531-80"
       ],
@@ -2072,9 +2075,12 @@
       "reference": "15510ST",
       "configurations": [
         {
-          "nickname": "41mm Selfwinding",
-          "bracelet": "Integrated Bracelet",
-          "dial": "Blue, Black, Silver, Grey, or Green",
+          "nickname": "15510ST.OO.1320ST.06 Bleu Nuit",
+          "bracelet": "Stainless Steel Bracelet",
+          "dial": "Bleu Nuit, Nuage 50 Grande Tapisserie",
+          "caseSize": "41 mm",
+          "movement": "Selfwinding calibre 4302; 70-hour power reserve",
+          "waterResistance": "50 m",
           "originalMSRP": null
         }
       ],
@@ -2090,12 +2096,12 @@
       "scope": "built-reference",
       "existingImage": null,
       "existingImageFilePresent": false,
-      "photoAssetId": null,
-      "status": "Requires Verification",
-      "sourceUrl": "https://www.audemarspiguet.com/us/en/news/origins/50-years-of-design",
-      "licenseRecord": null,
-      "websiteApproved": false,
-      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+      "photoAssetId": "ap-royal-oak-15510st-oo-1320st-06-founder-cleared",
+      "status": "approved",
+      "sourceUrl": "https://www.audemarspiguet.com/us/en/watch-collection/royal-oak/15510ST.OO.1320ST.06",
+      "licenseRecord": "Founder-cleared existing Quest Luxo manufacturer-original library asset; exact pictured configuration verified against the official Audemars Piguet reference page on 2026-10-13; processed only to the approved white-canvas website derivative; no generative watch modifications.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
     },
     {
       "brand": "Audemars Piguet",
@@ -2894,8 +2900,7 @@
       ],
       "material": "Stainless Steel",
       "sources": [
-        "src/data/cartier-intelligence.ts",
-        "src/data/collectionRegistry.ts"
+        "src/data/cartier-intelligence.ts"
       ],
       "routes": [
         "/collections/cartier/santos-de-cartier/wssa0018"
@@ -4325,9 +4330,12 @@
       "reference": "5811/1G",
       "configurations": [
         {
-          "nickname": "White Gold Nautilus",
-          "bracelet": "Integrated Bracelet",
-          "dial": "Blue",
+          "nickname": "5811/1G-001 White Gold Nautilus",
+          "bracelet": "White Gold Integrated Bracelet",
+          "dial": "Sunburst Blue with Black-Gradient Rim",
+          "caseSize": "41 mm",
+          "movement": "Self-winding calibre 26-330 S C",
+          "waterResistance": "30 m",
           "originalMSRP": null
         }
       ],
@@ -4341,14 +4349,14 @@
         "/collections/patek-philippe/nautilus/5811-1g"
       ],
       "scope": "built-reference",
-      "existingImage": "/images/watch-reference-placeholder.svg",
+      "existingImage": "/images/watches/patek-philippe/patek-nautilus-5811-1g-001-web.webp",
       "existingImageFilePresent": true,
-      "photoAssetId": null,
-      "status": "Requires Verification",
-      "sourceUrl": null,
-      "licenseRecord": null,
-      "websiteApproved": false,
-      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+      "photoAssetId": "patek-nautilus-5811-1g-001-founder-cleared",
+      "status": "approved",
+      "sourceUrl": "https://www.patek.com/en/collection/nautilus/5811-1G-001",
+      "licenseRecord": "Founder-cleared existing Quest Luxo manufacturer-original library asset; exact pictured configuration verified against the official Patek Philippe reference page on 2026-10-13; processed only to the approved white-canvas website derivative; no generative watch modifications.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
     },
     {
       "brand": "Patek Philippe",
@@ -4509,9 +4517,12 @@
       "reference": "4520V",
       "configurations": [
         {
-          "nickname": "Overseas representative reference",
-          "dial": "Configuration details available through private advisory",
-          "bracelet": "Reference dependent",
+          "nickname": "4520V/210A-B128 Blue Dial",
+          "dial": "Blue lacquered sunburst",
+          "bracelet": "Stainless Steel Bracelet",
+          "caseSize": "41 mm",
+          "movement": "Self-winding calibre 5100; 60-hour power reserve",
+          "waterResistance": "150 m",
           "originalMSRP": null
         }
       ],
@@ -4523,14 +4534,14 @@
         "/collections/vacheron-constantin/overseas/4520v"
       ],
       "scope": "built-reference",
-      "existingImage": "/images/watch-reference-placeholder.svg",
+      "existingImage": "/images/watches/vacheron-constantin/vacheron-overseas-4520v-210a-b128-web.webp",
       "existingImageFilePresent": true,
-      "photoAssetId": null,
-      "status": "Requires Verification",
-      "sourceUrl": null,
-      "licenseRecord": null,
-      "websiteApproved": false,
-      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+      "photoAssetId": "vacheron-overseas-4520v-210a-b128-founder-cleared",
+      "status": "approved",
+      "sourceUrl": "https://www.vacheron-constantin.com/fr/fr/collections/overseas/4520v-210a-b128.html",
+      "licenseRecord": "Founder-cleared existing Quest Luxo manufacturer-original library asset; exact pictured configuration verified against the official Vacheron Constantin reference page on 2026-10-13; processed only to the approved white-canvas website derivative; no generative watch modifications.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
     },
     {
       "brand": "F.P. Journe",
@@ -4542,6 +4553,15 @@
           "dial": "Configuration details available through private advisory",
           "bracelet": "Reference dependent",
           "originalMSRP": null
+        },
+        {
+          "dial": "Chrome blue",
+          "bracelet": "Blue leather strap",
+          "caseSize": "39 mm",
+          "movement": "Manual-winding calibre 1304",
+          "nickname": "Chrome blue / Blue leather strap",
+          "originalMSRP": null,
+          "currentMSRP": null
         }
       ],
       "material": "Tantalum",
@@ -4552,14 +4572,14 @@
         "/collections/fp-journe/chronometre-bleu/cb"
       ],
       "scope": "built-reference",
-      "existingImage": "/images/watch-reference-placeholder.svg",
+      "existingImage": "/images/watches/fp-journe/fp-journe-chronometre-bleu-cb-web.webp",
       "existingImageFilePresent": true,
-      "photoAssetId": null,
-      "status": "Requires Verification",
-      "sourceUrl": null,
-      "licenseRecord": null,
-      "websiteApproved": false,
-      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+      "photoAssetId": "manufacturer-library-11j0WkpBIOT3h99pfStf_smXgeMmbZ7C3",
+      "status": "approved",
+      "sourceUrl": "https://www.fpjourne.com/en/collection/classique-collection/chronometre-bleu",
+      "licenseRecord": "Founder confirmed Quest Luxo website-use permission for manufacturer photographs already in the existing Drive photography library on October 13, 2026. Preserved RAW file: 11j0WkpBIOT3h99pfStf_smXgeMmbZ7C3. Exact configuration reviewed against the official reference and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
     },
     {
       "brand": "Hublot",
@@ -4590,6 +4610,44 @@
       "licenseRecord": null,
       "websiteApproved": false,
       "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+    },
+    {
+      "brand": "Cartier",
+      "collection": "Santos de Cartier",
+      "reference": "WSSA0018",
+      "configurations": [
+        {
+          "nickname": "Santos Large Steel",
+          "bracelet": "Steel SmartLink Bracelet and Calfskin Strap",
+          "dial": "Silvered Opaline"
+        },
+        {
+          "dial": "Silvered Opaline",
+          "bracelet": "Steel SmartLink Bracelet",
+          "caseSize": "39.8 mm wide",
+          "movement": "Automatic calibre 1847 MC",
+          "waterResistance": "100 m",
+          "nickname": "Silvered Opaline / Steel SmartLink Bracelet",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "Stainless Steel",
+      "sources": [
+        "src/data/collectionRegistry.ts"
+      ],
+      "routes": [
+        "/collections/cartier/santos-de-cartier/wssa0018"
+      ],
+      "scope": "built-reference",
+      "existingImage": "/images/watches/cartier/cartier-santos-wssa0018-web.webp",
+      "existingImageFilePresent": true,
+      "photoAssetId": "manufacturer-library-12fpNPveqsbNrDPYN7WiR94ZQ-QNG_nmd",
+      "status": "approved",
+      "sourceUrl": "https://int.cartier.com/en/collections/watches/choose-your-watch/by-material/steel-watches/wssa0018-santos-de-cartier-watch.html",
+      "licenseRecord": "Founder confirmed Quest Luxo website-use permission for manufacturer photographs already in the existing Drive photography library on October 13, 2026. Preserved RAW file: 12fpNPveqsbNrDPYN7WiR94ZQ-QNG_nmd. Exact configuration reviewed against the official reference and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
     },
     {
       "brand": "Omega",
@@ -4659,28 +4717,30 @@
       "reference": "311.30.42.30.01.005",
       "configurations": [
         {
-          "nickname": "1861 Moonwatch",
-          "bracelet": "Stainless Steel Bracelet",
           "dial": "Black",
-          "originalMSRP": null
+          "bracelet": "Stainless Steel Bracelet",
+          "caseSize": "42 mm",
+          "movement": "Manual-winding Omega 1861",
+          "waterResistance": "50 m",
+          "nickname": "1861 Moonwatch",
+          "originalMSRP": null,
+          "currentMSRP": null
         }
       ],
       "material": "Stainless Steel",
       "sources": [
-        "src/data/collectionRegistry.ts",
-        "src/data/omega-intelligence.ts",
-        "src/data/omega.ts"
+        "src/data/collectionRegistry.ts"
       ],
       "routes": [
         "/collections/omega/speedmaster/311-30-42-30-01-005"
       ],
       "scope": "built-reference",
-      "existingImage": "/images/watches/omega/311-30-42-30-01-005-hero.webp",
+      "existingImage": "/images/watches/omega/omega-speedmaster-311-30-42-30-01-005-web.webp",
       "existingImageFilePresent": true,
-      "photoAssetId": "omega-311-30-42-30-01-005-moonwatch-hero-ccby2",
+      "photoAssetId": "manufacturer-library-1FvinwTYUaWiUtrA9MNlMs2rR0_3m4qd3",
       "status": "approved",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Moonwatch_(24023224706).jpg",
-      "licenseRecord": "CC BY 2.0 Generic; Wikimedia Commons original; source type: approved Wikimedia Commons file; retrieved 2026-09-13; modified only by resize and WebP conversion.",
+      "sourceUrl": "https://www.omegawatches.com/watch-omega-speedmaster-moonwatch-professional-chronograph-42-mm-31130423001005",
+      "licenseRecord": "Founder confirmed Quest Luxo website-use permission for manufacturer photographs already in the existing Drive photography library on October 13, 2026. Preserved RAW file: 1FvinwTYUaWiUtrA9MNlMs2rR0_3m4qd3. Exact configuration reviewed against the official reference and the original photograph.",
       "websiteApproved": true,
       "nextAction": "Retain approved original and verify derivative integrity."
     },
@@ -4783,29 +4843,32 @@
       "reference": "79030N",
       "configurations": [
         {
-          "nickname": "Black Bay 58 Black",
+          "dial": "Black",
           "bracelet": "Riveted Steel Bracelet",
-          "dial": "Black"
+          "caseSize": "39 mm",
+          "movement": "Self-winding manufacture MT5402 (COSC)",
+          "waterResistance": "200 m",
+          "nickname": "Black Bay 58 Black",
+          "originalMSRP": null,
+          "currentMSRP": null
         }
       ],
       "material": "Stainless Steel",
       "sources": [
-        "src/data/collectionRegistry.ts",
-        "src/data/tudor-intelligence.ts",
-        "src/data/tudor.ts"
+        "src/data/collectionRegistry.ts"
       ],
       "routes": [
         "/collections/tudor/black-bay/79030n"
       ],
       "scope": "built-reference",
-      "existingImage": "/images/watch-reference-placeholder.svg",
+      "existingImage": "/images/watches/tudor/tudor-black-bay-58-m79030n-0001-web.webp",
       "existingImageFilePresent": true,
-      "photoAssetId": null,
-      "status": "Requires Verification",
-      "sourceUrl": null,
-      "licenseRecord": null,
-      "websiteApproved": false,
-      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+      "photoAssetId": "manufacturer-library-1Jo_VTWQrTczawYTzqUYlQHhZYa3Fz9uL",
+      "status": "approved",
+      "sourceUrl": "https://media.tudorwatch.com/image/upload/fl_attachment/v1/tudorwatch/pressroom/products/black-bay-58/pdf/bw18-tudor-black-bay-fifty-eight-en.pdf",
+      "licenseRecord": "Founder confirmed Quest Luxo website-use permission for manufacturer photographs already in the existing Drive photography library on October 13, 2026. Preserved RAW file: 1Jo_VTWQrTczawYTzqUYlQHhZYa3Fz9uL. Exact configuration reviewed against the official reference and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
     },
     {
       "brand": "Tudor",
@@ -4875,9 +4938,12 @@
       "reference": "PAM01312",
       "configurations": [
         {
-          "nickname": "Luminor representative reference",
-          "dial": "Configuration details available through private advisory",
-          "bracelet": "Reference dependent",
+          "nickname": "PAM01312 Black Dial",
+          "dial": "Black with luminous Arabic numerals and hour markers",
+          "bracelet": "Black Alligator Leather Strap",
+          "caseSize": "44 mm",
+          "movement": "Automatic calibre P.9010; 3-day power reserve",
+          "waterResistance": "300 m",
           "originalMSRP": null
         }
       ],
@@ -4889,14 +4955,14 @@
         "/collections/panerai/luminor/pam01312"
       ],
       "scope": "built-reference",
-      "existingImage": "/images/watch-reference-placeholder.svg",
+      "existingImage": "/images/watches/panerai/panerai-luminor-pam01312-web.webp",
       "existingImageFilePresent": true,
-      "photoAssetId": null,
-      "status": "Requires Verification",
-      "sourceUrl": null,
-      "licenseRecord": null,
-      "websiteApproved": false,
-      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+      "photoAssetId": "panerai-luminor-pam01312-founder-cleared",
+      "status": "approved",
+      "sourceUrl": "https://www.panerai.com/at/de/collections/watch-collection/luminor/pam01312-luminor-marina.html",
+      "licenseRecord": "Founder-cleared existing Quest Luxo manufacturer-original library asset; exact PAM01312 configuration verified against the official Panerai reference page on 2026-10-13; processed only to the approved white-canvas website derivative; no generative watch modifications.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
     },
     {
       "brand": "IWC",
@@ -5392,6 +5458,40 @@
     },
     {
       "brand": "Omega",
+      "collection": "Seamaster Diver 300M",
+      "reference": "210.30.42.20.01.001",
+      "configurations": [
+        {
+          "dial": "Black wave-pattern",
+          "bracelet": "Stainless-steel bracelet",
+          "caseSize": "42 mm",
+          "movement": "Self-winding Omega 8800",
+          "waterResistance": "300 m",
+          "nickname": "Black wave-pattern / Stainless-steel bracelet",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "Stainless Steel",
+      "sources": [
+        "src/data/collectionRegistry.ts",
+        "src/data/photography-expansion.ts"
+      ],
+      "routes": [
+        "/collections/omega/seamaster/210-30-42-20-01-001"
+      ],
+      "scope": "built-reference",
+      "existingImage": "/images/watches/omega/omega-seamaster-diver-300m-210-30-42-20-01-001-web.webp",
+      "existingImageFilePresent": true,
+      "photoAssetId": "manufacturer-library-1ud82b4VlMCaY1eVRhccmAtXBHFQewhwC",
+      "status": "approved",
+      "sourceUrl": "https://www.omegawatches.com/watch-omega-seamaster-diver-300m-co-axial-master-chronometer-42-mm-21030422001001",
+      "licenseRecord": "Founder confirmed Quest Luxo website-use permission for manufacturer photographs already in the existing Drive photography library on October 13, 2026. Preserved RAW file: 1ud82b4VlMCaY1eVRhccmAtXBHFQewhwC. Exact configuration reviewed against the official reference and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
+      "brand": "Omega",
       "collection": "Seamaster Planet Ocean",
       "reference": "2201.50",
       "configurations": [
@@ -5474,14 +5574,14 @@
         "/collections/omega/aqua-terra/220-10-41-21-03-001"
       ],
       "scope": "built-reference",
-      "existingImage": "/images/watch-reference-placeholder.svg",
+      "existingImage": "/images/watches/omega/omega-aqua-terra-220-10-41-21-03-001-web.webp",
       "existingImageFilePresent": true,
-      "photoAssetId": null,
-      "status": "Requires Verification",
-      "sourceUrl": null,
-      "licenseRecord": null,
-      "websiteApproved": false,
-      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+      "photoAssetId": "omega-aqua-terra-220-10-41-21-03-001-founder-cleared",
+      "status": "approved",
+      "sourceUrl": "https://www.omegawatches.jp/watch-omega-seamaster-aqua-terra-150m-co-axial-master-chronometer-41-mm-22010412103001",
+      "licenseRecord": "Founder-cleared existing Quest Luxo manufacturer-original library asset; exact reference configuration verified against the official Omega product page on 2026-10-13; processed only to the approved white-canvas website derivative; no generative watch modifications.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
     },
     {
       "brand": "Omega",
@@ -6924,6 +7024,39 @@
       "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
     },
     {
+      "brand": "Breitling",
+      "collection": "Superocean",
+      "reference": "A17376211B1S1",
+      "configurations": [
+        {
+          "caseSize": "44 mm",
+          "movement": "Self-winding Breitling 17; approximately 38-hour power reserve",
+          "dial": "Black",
+          "bracelet": "Black rubber strap with stainless-steel folding clasp",
+          "waterResistance": "300 m",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "Stainless Steel",
+      "sources": [
+        "src/data/collectionRegistry.ts",
+        "src/data/launch-catalog.ts"
+      ],
+      "routes": [
+        "/collections/breitling/superocean/a17376211b1s1"
+      ],
+      "scope": "built-reference",
+      "existingImage": "/images/watches/breitling/breitling-superocean-a17376211b1s1-web.webp",
+      "existingImageFilePresent": true,
+      "photoAssetId": "breitling-superocean-a17376211b1s1-founder-cleared",
+      "status": "approved",
+      "sourceUrl": "https://www.breitling.com/tw-en/watches/superocean/superocean-automatic-44-my22/A17376211B1S1/",
+      "licenseRecord": "Founder-cleared existing Quest Luxo manufacturer-original library asset; exact reference and black-rubber-strap configuration verified against the official Breitling reference page on 2026-10-13; processed only to the approved white-canvas website derivative; no generative watch modifications.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
       "brand": "Hublot",
       "collection": "Classic Fusion",
       "reference": "542.NX.1171.RX",
@@ -7232,6 +7365,39 @@
     {
       "brand": "Franck Muller",
       "collection": "Yachting",
+      "reference": "V45SCYACHTACBL",
+      "configurations": [
+        {
+          "caseSize": "44 mm × 53.7 mm",
+          "movement": "Self-winding FM 2536-SCDT; 42-hour power reserve",
+          "dial": "Blue nautical dial with wind-rose motif",
+          "bracelet": "Blue woven fabric / nylon strap",
+          "waterResistance": "30 m",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "Stainless Steel",
+      "sources": [
+        "src/data/collectionRegistry.ts",
+        "src/data/launch-catalog.ts"
+      ],
+      "routes": [
+        "/collections/franck-muller/yachting/v45scyachtacbl"
+      ],
+      "scope": "built-reference",
+      "existingImage": "/images/watches/franck-muller/franck-muller-vanguard-yachting-v45scyachtacbl-web.webp",
+      "existingImageFilePresent": true,
+      "photoAssetId": "franck-muller-v45scyachtacbl-founder-cleared",
+      "status": "approved",
+      "sourceUrl": "https://franckmuller-usa.com/vanguard_yachting/V45SCYACHTACBL_Vanguard_Yachting",
+      "licenseRecord": "Founder-cleared existing Quest Luxo manufacturer-original library asset; the pictured steel blue-dial Yachting configuration was matched to manufacturer SKU V45SCYACHTACBL on 2026-10-13; processed only to the approved white-canvas website derivative; no generative watch modifications.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
+      "brand": "Franck Muller",
+      "collection": "Yachting",
       "reference": "V 45 SC DT YACHT CR BL (BL)",
       "configurations": [
         {
@@ -7416,8 +7582,10 @@
       "sources": [
         "src/data/comparisons/rolex-submariner-vs-omega-seamaster-diver-300m.ts"
       ],
-      "routes": [],
-      "scope": "source-only-requires-review",
+      "routes": [
+        "/collections/omega/seamaster/210-30-42-20-01-001"
+      ],
+      "scope": "built-reference",
       "existingImage": null,
       "existingImageFilePresent": false,
       "photoAssetId": null,
@@ -7682,8 +7850,10 @@
       "sources": [
         "src/data/omega-intelligence.ts"
       ],
-      "routes": [],
-      "scope": "source-only-requires-review",
+      "routes": [
+        "/collections/omega/seamaster/210-30-42-20-01-001"
+      ],
+      "scope": "built-reference",
       "existingImage": null,
       "existingImageFilePresent": false,
       "photoAssetId": null,
@@ -7692,6 +7862,36 @@
       "licenseRecord": null,
       "websiteApproved": false,
       "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+    },
+    {
+      "brand": "Omega",
+      "collection": "Speedmaster",
+      "reference": "311.30.42.30.01.005",
+      "configurations": [
+        {
+          "nickname": "1861 Moonwatch",
+          "bracelet": "Stainless Steel Bracelet",
+          "dial": "Black",
+          "originalMSRP": null
+        }
+      ],
+      "material": "Stainless Steel",
+      "sources": [
+        "src/data/omega-intelligence.ts",
+        "src/data/omega.ts"
+      ],
+      "routes": [
+        "/collections/omega/speedmaster/311-30-42-30-01-005"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": "omega-311-30-42-30-01-005-moonwatch-hero-ccby2",
+      "status": "approved",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Moonwatch_(24023224706).jpg",
+      "licenseRecord": "CC BY 2.0 Generic; Wikimedia Commons original; source type: approved Wikimedia Commons file; retrieved 2026-09-13; modified only by resize and WebP conversion.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
     },
     {
       "brand": "Omega",
@@ -8390,6 +8590,137 @@
       "status": "approved",
       "sourceUrl": "https://www.jaeger-lecoultre.com/us-en/watches/master-grande-tradition/master-grande-tradition-calibre-950-white-gold-q52334e1",
       "licenseRecord": "Founder explicitly confirmed Quest Luxo website-use permission for this newly acquired exact-reference manufacturer/collaboration photograph on October 13, 2026. Preserved RAW file: 1LF9NgGH8B0IshoXX0ONTrb38KWVaBjTT. Exact configuration reviewed against the official reference and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
+      "brand": "Cartier",
+      "collection": "Santos de Cartier",
+      "reference": "WSSA0018",
+      "configurations": [
+        {
+          "dial": "Silvered Opaline",
+          "bracelet": "Steel SmartLink Bracelet",
+          "caseSize": "39.8 mm wide",
+          "movement": "Automatic calibre 1847 MC",
+          "waterResistance": "100 m",
+          "nickname": "Silvered Opaline / Steel SmartLink Bracelet",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "Stainless Steel",
+      "sources": [
+        "src/data/photography-expansion.ts"
+      ],
+      "routes": [
+        "/collections/cartier/santos-de-cartier/wssa0018"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": "manufacturer-library-12fpNPveqsbNrDPYN7WiR94ZQ-QNG_nmd",
+      "status": "approved",
+      "sourceUrl": "https://int.cartier.com/en/collections/watches/choose-your-watch/by-material/steel-watches/wssa0018-santos-de-cartier-watch.html",
+      "licenseRecord": "Founder confirmed Quest Luxo website-use permission for manufacturer photographs already in the existing Drive photography library on October 13, 2026. Preserved RAW file: 12fpNPveqsbNrDPYN7WiR94ZQ-QNG_nmd. Exact configuration reviewed against the official reference and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
+      "brand": "Omega",
+      "collection": "Speedmaster",
+      "reference": "311.30.42.30.01.005",
+      "configurations": [
+        {
+          "dial": "Black",
+          "bracelet": "Stainless Steel Bracelet",
+          "caseSize": "42 mm",
+          "movement": "Manual-winding Omega 1861",
+          "waterResistance": "50 m",
+          "nickname": "Black / Stainless Steel Bracelet",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "Stainless Steel",
+      "sources": [
+        "src/data/photography-expansion.ts"
+      ],
+      "routes": [
+        "/collections/omega/speedmaster/311-30-42-30-01-005"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": "manufacturer-library-1FvinwTYUaWiUtrA9MNlMs2rR0_3m4qd3",
+      "status": "approved",
+      "sourceUrl": "https://www.omegawatches.com/watch-omega-speedmaster-moonwatch-professional-chronograph-42-mm-31130423001005",
+      "licenseRecord": "Founder confirmed Quest Luxo website-use permission for manufacturer photographs already in the existing Drive photography library on October 13, 2026. Preserved RAW file: 1FvinwTYUaWiUtrA9MNlMs2rR0_3m4qd3. Exact configuration reviewed against the official reference and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
+      "brand": "Tudor",
+      "collection": "Black Bay",
+      "reference": "79030N",
+      "configurations": [
+        {
+          "dial": "Black",
+          "bracelet": "Riveted Steel Bracelet",
+          "caseSize": "39 mm",
+          "movement": "Self-winding manufacture MT5402 (COSC)",
+          "waterResistance": "200 m",
+          "nickname": "Black / Riveted Steel Bracelet",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "Stainless Steel",
+      "sources": [
+        "src/data/photography-expansion.ts"
+      ],
+      "routes": [
+        "/collections/tudor/black-bay/79030n"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": "manufacturer-library-1Jo_VTWQrTczawYTzqUYlQHhZYa3Fz9uL",
+      "status": "approved",
+      "sourceUrl": "https://media.tudorwatch.com/image/upload/fl_attachment/v1/tudorwatch/pressroom/products/black-bay-58/pdf/bw18-tudor-black-bay-fifty-eight-en.pdf",
+      "licenseRecord": "Founder confirmed Quest Luxo website-use permission for manufacturer photographs already in the existing Drive photography library on October 13, 2026. Preserved RAW file: 1Jo_VTWQrTczawYTzqUYlQHhZYa3Fz9uL. Exact configuration reviewed against the official reference and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
+      "brand": "F.P. Journe",
+      "collection": "Chronomètre Bleu",
+      "reference": "CB",
+      "configurations": [
+        {
+          "dial": "Chrome blue",
+          "bracelet": "Blue leather strap",
+          "caseSize": "39 mm",
+          "movement": "Manual-winding calibre 1304",
+          "nickname": "Chrome blue / Blue leather strap",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "Tantalum",
+      "sources": [
+        "src/data/photography-expansion.ts"
+      ],
+      "routes": [
+        "/collections/fp-journe/chronometre-bleu/cb"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": "manufacturer-library-11j0WkpBIOT3h99pfStf_smXgeMmbZ7C3",
+      "status": "approved",
+      "sourceUrl": "https://www.fpjourne.com/en/collection/classique-collection/chronometre-bleu",
+      "licenseRecord": "Founder confirmed Quest Luxo website-use permission for manufacturer photographs already in the existing Drive photography library on October 13, 2026. Preserved RAW file: 11j0WkpBIOT3h99pfStf_smXgeMmbZ7C3. Exact configuration reviewed against the official reference and the original photograph.",
       "websiteApproved": true,
       "nextAction": "Retain approved original and verify derivative integrity."
     },
@@ -10918,6 +11249,35 @@
       "photoAssetId": null,
       "status": "Requires Verification",
       "sourceUrl": null,
+      "licenseRecord": null,
+      "websiteApproved": false,
+      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+    },
+    {
+      "brand": "Tudor",
+      "collection": "Black Bay",
+      "reference": "79030N",
+      "configurations": [
+        {
+          "nickname": "Black Bay 58 Black",
+          "bracelet": "Riveted Steel Bracelet",
+          "dial": "Black"
+        }
+      ],
+      "material": "Stainless Steel",
+      "sources": [
+        "src/data/tudor-intelligence.ts",
+        "src/data/tudor.ts"
+      ],
+      "routes": [
+        "/collections/tudor/black-bay/79030n"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": null,
+      "status": "Requires Verification",
+      "sourceUrl": "https://www.tudorwatch.com/en/watch-family/black-bay-58",
       "licenseRecord": null,
       "websiteApproved": false,
       "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."

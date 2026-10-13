@@ -634,6 +634,105 @@ const seeds: readonly PhotographySeed[] = [
     "sha256": "94f2a085a0407d0568b4f75401ef1e28d5569f17d81f8f5b943e7fa7bc5dc9ad",
     "rawDriveFileId": "1LF9NgGH8B0IshoXX0ONTrb38KWVaBjTT",
     "clearanceRecord": "Founder explicitly confirmed Quest Luxo website-use permission for this newly acquired exact-reference manufacturer/collaboration photograph on October 13, 2026."
+  },
+  {
+    "brand": "Cartier",
+    "brandSlug": "cartier",
+    "collection": "Santos de Cartier",
+    "reference": "WSSA0018",
+    "model": "Santos de Cartier Large",
+    "material": "Stainless Steel",
+    "configuration": {
+      "dial": "Silvered Opaline",
+      "bracelet": "Steel SmartLink Bracelet",
+      "caseSize": "39.8 mm wide",
+      "movement": "Automatic calibre 1847 MC",
+      "waterResistance": "100 m"
+    },
+    "sourceUrl": "https://int.cartier.com/en/collections/watches/choose-your-watch/by-material/steel-watches/wssa0018-santos-de-cartier-watch.html",
+    "src": "/images/watches/cartier/cartier-santos-wssa0018-web.webp",
+    "sha256": "ebaf01395fb40dd56df647eddd2dd0b7048ac48e4964c2b2c92382de46333403",
+    "rawDriveFileId": "12fpNPveqsbNrDPYN7WiR94ZQ-QNG_nmd",
+    "clearanceRecord": "Founder confirmed Quest Luxo website-use permission for manufacturer photographs already in the existing Drive photography library on October 13, 2026."
+  },
+  {
+    "brand": "Omega",
+    "brandSlug": "omega",
+    "collection": "Speedmaster",
+    "reference": "311.30.42.30.01.005",
+    "model": "Speedmaster Moonwatch Professional 1861 Hesalite",
+    "material": "Stainless Steel",
+    "configuration": {
+      "dial": "Black",
+      "bracelet": "Stainless Steel Bracelet",
+      "caseSize": "42 mm",
+      "movement": "Manual-winding Omega 1861",
+      "waterResistance": "50 m"
+    },
+    "sourceUrl": "https://www.omegawatches.com/watch-omega-speedmaster-moonwatch-professional-chronograph-42-mm-31130423001005",
+    "src": "/images/watches/omega/omega-speedmaster-311-30-42-30-01-005-web.webp",
+    "sha256": "78b25206c22b5e2d59289a23664d0c1be9881641189556833dfbb24b4a18e4e5",
+    "rawDriveFileId": "1FvinwTYUaWiUtrA9MNlMs2rR0_3m4qd3",
+    "clearanceRecord": "Founder confirmed Quest Luxo website-use permission for manufacturer photographs already in the existing Drive photography library on October 13, 2026."
+  },
+  {
+    "brand": "Omega",
+    "brandSlug": "omega",
+    "collection": "Seamaster Diver 300M",
+    "reference": "210.30.42.20.01.001",
+    "model": "Seamaster Diver 300M Co-Axial Master Chronometer",
+    "material": "Stainless Steel",
+    "configuration": {
+      "dial": "Black wave-pattern",
+      "bracelet": "Stainless-steel bracelet",
+      "caseSize": "42 mm",
+      "movement": "Self-winding Omega 8800",
+      "waterResistance": "300 m"
+    },
+    "sourceUrl": "https://www.omegawatches.com/watch-omega-seamaster-diver-300m-co-axial-master-chronometer-42-mm-21030422001001",
+    "src": "/images/watches/omega/omega-seamaster-diver-300m-210-30-42-20-01-001-web.webp",
+    "sha256": "d4c52129ef18076c8cef729fe7421bd27924f7aaa1f1de549943fdeac729de3c",
+    "rawDriveFileId": "1ud82b4VlMCaY1eVRhccmAtXBHFQewhwC",
+    "clearanceRecord": "Founder confirmed Quest Luxo website-use permission for manufacturer photographs already in the existing Drive photography library on October 13, 2026."
+  },
+  {
+    "brand": "Tudor",
+    "brandSlug": "tudor",
+    "collection": "Black Bay",
+    "reference": "79030N",
+    "model": "Black Bay 58",
+    "material": "Stainless Steel",
+    "configuration": {
+      "dial": "Black",
+      "bracelet": "Riveted Steel Bracelet",
+      "caseSize": "39 mm",
+      "movement": "Self-winding manufacture MT5402 (COSC)",
+      "waterResistance": "200 m"
+    },
+    "sourceUrl": "https://media.tudorwatch.com/image/upload/fl_attachment/v1/tudorwatch/pressroom/products/black-bay-58/pdf/bw18-tudor-black-bay-fifty-eight-en.pdf",
+    "src": "/images/watches/tudor/tudor-black-bay-58-m79030n-0001-web.webp",
+    "sha256": "f7436fb0cdd7a408deea1485a9740f126db05b00cba61fa5b6c38d0a5de72f90",
+    "rawDriveFileId": "1Jo_VTWQrTczawYTzqUYlQHhZYa3Fz9uL",
+    "clearanceRecord": "Founder confirmed Quest Luxo website-use permission for manufacturer photographs already in the existing Drive photography library on October 13, 2026."
+  },
+  {
+    "brand": "F.P. Journe",
+    "brandSlug": "fp-journe",
+    "collection": "Chronomètre Bleu",
+    "reference": "CB",
+    "model": "Chronomètre Bleu",
+    "material": "Tantalum",
+    "configuration": {
+      "dial": "Chrome blue",
+      "bracelet": "Blue leather strap",
+      "caseSize": "39 mm",
+      "movement": "Manual-winding calibre 1304"
+    },
+    "sourceUrl": "https://www.fpjourne.com/en/collection/classique-collection/chronometre-bleu",
+    "src": "/images/watches/fp-journe/fp-journe-chronometre-bleu-cb-web.webp",
+    "sha256": "ec9cad79c032b4e6f638f86728c40a07b78fd51f67578cf86d321fcbc18868ef",
+    "rawDriveFileId": "11j0WkpBIOT3h99pfStf_smXgeMmbZ7C3",
+    "clearanceRecord": "Founder confirmed Quest Luxo website-use permission for manufacturer photographs already in the existing Drive photography library on October 13, 2026."
   }
 ];
 
