@@ -1,0 +1,38 @@
+{
+  "recordedAt": "2026-10-14T06:46:49.000636+00:00",
+  "deadline": "2026-10-13T23:59:00-04:00",
+  "deadlineOutcome": "Not achieved: every featured reference does not yet have valid cleared photography.",
+  "canonicalReferences": 168,
+  "approvedLiveReferences": 49,
+  "queuedReferences": 119,
+  "preparedPendingHumanClearance": 47,
+  "preparedDriveFiles": 141,
+  "stillNeedsUsablePhotography": 72,
+  "masterPages": 20,
+  "masterDriveFileId": "1KEWRyRu7SquTjVb1TgF_cCn_Zux5td17",
+  "productionCommit": "8c2f495e400badfa1effa88607ebbc2d384dfe2a",
+  "productionCheck": {
+    "checkedAt": "2026-10-14T06:46:49.000636+00:00",
+    "homeHttp": 200,
+    "beginYourQuestHttp": 200,
+    "nautilusReferenceHttp": 200,
+    "emailRetested": false,
+    "note": "Public GET checks only. Prior successful email-delivery verification retained; no fresh lead or private broker read."
+  },
+  "publicationBlockers": [
+    "No human website-use clearance received for 47 additional prepared official manufacturer sets.",
+    "72 canonical reference routes still require suitable exact-reference/configuration originals; some candidate sources are denied, cropped, low resolution or ambiguous."
+  ],
+  "automation": {
+    "id": "quest-luxo-photography-sprint-tonight",
+    "status": "deleted",
+    "reason": "Authorized deadline passed; tool confirmed deletion."
+  },
+  "mobileCommandCenter": {
+    "title": "Quest Luxo Command Center V4",
+    "threadId": "01a1371a-fad5-7e03-8807-0ae850c74269",
+    "authorized": true
+  },
+  "preservation": "All prepared RAW, master and WEB files and source logs are preserved in established Drive folders. Latest canonical master was updated in place, rendered/reviewed and read back. No new image was published without clearance.",
+  "nextExecution": "Resume only with renewed founder instructions after this expired continuation window. On resumption, verify human website-use clearance, publish only cleared matching variants through existing registry with tests/build/live verification, and continue the 72 remaining acquisition routes."
+}
