@@ -1,6 +1,6 @@
 {
-  "preparedAt": "2026-10-14T09:02:54.597950+00:00",
-  "count": 56,
+  "preparedAt": "2026-10-14T09:14:25.847723+00:00",
+  "count": 61,
   "websitePublished": false,
   "canonicalApprovedCoverage": {
     "photographed": 49,
@@ -3057,7 +3057,288 @@
       ],
       "exactReference": "642.NX.0170.RX",
       "publicationStatus": "Queued pending adequate human website-use clearance"
+    },
+    {
+      "brand": "Cartier",
+      "collection": "Santos",
+      "catalogReference": "WSSA0029",
+      "reference": "WSSA0029",
+      "exactSKU": "WSSA0029",
+      "sourceUrl": "https://www.the1916company.com/watches/cartier/santos/wssa0029/",
+      "imageUrl": "https://the1916company-net.imgix.net:443/media-manager/prod/upload/customrecord_rsm_im_vsn_list/wssa0029/20251121_100344_968_AM_WSSA0029.png",
+      "pagePath": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\retailer-source-cartier-WSSA0029-5a8d9cea.html",
+      "pageSha256": "00ee380d2019e0bca3e2397b6cc5493225827dfa79b9dcf974beab2e8ffc7a11",
+      "sourceOwner": "The 1916 Company retailer-hosted; underlying image-use rights unresolved",
+      "verifiedProductDescription": "Cartier Santos Medium Model WSSA0029 self-winding mechanical watch features a 41.9mm x 35.1mm stainless steel case surrounding a silver dial on a stainless steel bracelet with folding buckle. Functions include hours, minutes and seconds. This watch is water resistant to 100m. This watch comes with a second brown calfskin strap.",
+      "configuration": {
+        "material": "Stainless steel",
+        "dial": "Silvered opaline",
+        "bracelet": "Stainless-steel SmartLink bracelet",
+        "caseSize": "41.9 x 35.1 mm",
+        "movement": "Self-winding",
+        "waterResistance": "100 m"
+      },
+      "checkedAt": "2026-10-14T09:02:17.615358+00:00",
+      "rightsStatus": "Pending adequate human website-use clearance for new retailer-hosted originals; underlying manufacturer/retailer rights unresolved; not published",
+      "reviewStatus": "Original and final 1200 WEB visually reviewed; exact SKU/configuration confirmed against source. Original detail preserved; centered blank white canvas, no captions or overlays. Rights pending.",
+      "size": [
+        2550,
+        2550
+      ],
+      "mode": "RGB",
+      "path": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\cartier-omega-retailer-native-originals\\WSSA0029-raw.png",
+      "sha256": "c0ffa79ad32f4e3185cc09eddc374f3d0870b76e8cb8b6e2ce3a9037ce967752",
+      "status": "Authentic retailer-hosted exact-reference original acquired; unchanged delivered bytes",
+      "whiteMaster": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\cartier-omega-retailer-reviewed\\WSSA0029-white-master.png",
+      "webDerivative": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\cartier-omega-retailer-reviewed\\WSSA0029-web.webp",
+      "derivativeSha256": "e12d2f446883985dc807a858b6b9cf1b6d48a4fdf9d5fd8ea8f50711dd530e4f",
+      "processing": "Classical filled external silhouette from original white-background contrast, two-pixel boundary envelope. Original watch RGB and all interior highlights/display detail preserved. Centered blank 2400 white master / 1200 WEB. No server bg-remove transform, AI, reconstruction, captions or overlays.",
+      "driveFiles": [
+        {
+          "type": "RAW",
+          "id": "1GhkyQBPT2r3el1hD2c1Nljf_GWGITFSb",
+          "name": "cartier-WSSA0029-raw.png"
+        },
+        {
+          "type": "WHITE_MASTER",
+          "id": "1hMVbBUC38RnnBf3Wb9QCKI-We1hAs8D2",
+          "name": "cartier-WSSA0029-white_master.png"
+        },
+        {
+          "type": "WEB",
+          "id": "1i6YEcrvBe2epCM-jQa_0mcwwCGU-jyTC",
+          "name": "cartier-WSSA0029-web.webp"
+        }
+      ],
+      "exactReference": "WSSA0029",
+      "publicationStatus": "Queued pending adequate human website-use clearance"
+    },
+    {
+      "brand": "Omega",
+      "collection": "Speedmaster",
+      "catalogReference": "310.30.42.50.01.002",
+      "reference": "310.30.42.50.01.002",
+      "exactSKU": "310.30.42.50.01.002",
+      "sourceUrl": "https://www.the1916company.com/watches/omega/speedmaster/o31030425001002/",
+      "imageUrl": "https://watchbox-product-cdn.imgix.net/new-goods/310.30.42.50.01.002.jpg",
+      "sourceOwner": "The 1916 Company / WatchBox retailer-hosted; underlying image-use rights unresolved",
+      "configuration": {
+        "material": "Stainless steel",
+        "dial": "Black",
+        "bracelet": "Stainless-steel bracelet",
+        "caseSize": "42 mm",
+        "movement": "Manual-winding Omega 3861",
+        "waterResistance": "50 m"
+      },
+      "technicalEvidence": "Exact official Omega product sheet source already reviewed; exact retailer product page still to preserve and match original.",
+      "checkedAt": "2026-10-14T09:02:17.616362+00:00",
+      "rightsStatus": "Pending adequate human website-use clearance for new retailer-hosted originals; underlying manufacturer/retailer rights unresolved; not published",
+      "reviewStatus": "Original and final 1200 WEB visually reviewed; exact SKU/configuration confirmed against source. Original detail preserved; centered blank white canvas, no captions or overlays. Rights pending.",
+      "size": [
+        1280,
+        1280
+      ],
+      "mode": "RGB",
+      "path": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\cartier-omega-retailer-native-originals\\310.30.42.50.01.002-raw.jpg",
+      "sha256": "886989fd9d2b0e672fe2066fb22c76a347b23a8c0696e61b5d4fc5380ec67a21",
+      "status": "Authentic retailer-hosted exact-reference original acquired; unchanged delivered bytes",
+      "whiteMaster": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\cartier-omega-retailer-reviewed\\310.30.42.50.01.002-white-master.png",
+      "webDerivative": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\cartier-omega-retailer-reviewed\\310.30.42.50.01.002-web.webp",
+      "derivativeSha256": "20e227f753e7da4c5653ba3d01067417d91e4e86ef8f5d2b70590592e1368cc0",
+      "processing": "Classical filled external silhouette from original white-background contrast, two-pixel boundary envelope. Original watch RGB and all interior highlights/display detail preserved. Centered blank 2400 white master / 1200 WEB. No server bg-remove transform, AI, reconstruction, captions or overlays. Reviewed lower bracelet edge followed per column to remove the lighter external floor shadow while preserving native bracelet detail.",
+      "pagePath": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\retailer-source-omega-310.30.42.50.01.002-637b1fd9.html",
+      "pageSha256": "72b3362fbf88c3e636276fd465bdf6d73c487c0e25f902379bbd6f84763807d5",
+      "verifiedProductDescription": "Omega Speedmaster Moonwatch Professional 310.30.42.50.01.002 Manual watch features a 42mm stainless steel case surrounding a black dial on a stainless steel bracelet with a folding clasp. This watch is powered by Omega 3861. Functions include chronograph, tachymeter, hours and minutes & seconds. This watch is water resistant to 50m. The 1916 Company is an authorized dealer for Omega and this watch includes the full manufacturer's warranty.",
+      "driveFiles": [
+        {
+          "type": "RAW",
+          "id": "1B0IEPFP3J39WKQpIZM8Q96zgKHgncIIp",
+          "name": "omega-310.30.42.50.01.002-raw.jpg"
+        },
+        {
+          "type": "WHITE_MASTER",
+          "id": "1eX6-vyCxDviNwR7KNgTagoZWSU2mff5v",
+          "name": "omega-310.30.42.50.01.002-white_master.png"
+        },
+        {
+          "type": "WEB",
+          "id": "109lgifNac07TC67tdXZ4pRSeoCP_7tBu",
+          "name": "omega-310.30.42.50.01.002-web.webp"
+        }
+      ],
+      "exactReference": "310.30.42.50.01.002",
+      "publicationStatus": "Queued pending adequate human website-use clearance"
+    },
+    {
+      "brand": "Cartier",
+      "collection": "Tank Must",
+      "catalogReference": "Tank Must",
+      "reference": "WSTA0106",
+      "exactSKU": "WSTA0106",
+      "sourceUrl": "https://www.the1916company.com/watches/cartier/tank/wsta0106/",
+      "imageUrl": "https://the1916company-net.imgix.net:443/media-manager/prod/upload/customrecord_rsm_im_vsn_list/wsta0106/20251128_035702_568_PM_WSTA0106.png",
+      "pagePath": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\retailer-source-cartier-WSTA0106-dea4f6f6.html",
+      "pageSha256": "902423eb53b8195180186c96dceb4e221c5c6aab24e0ccedff7e1fe681aada55",
+      "sourceOwner": "The 1916 Company retailer-hosted; underlying manufacturer/retailer website-use rights unresolved",
+      "verifiedProductDescription": "Cartier Tank Must Large Model WSTA0106 Quartz watch features a 33.7 mm x 25.5 mm stainless steel case surrounding a silver dial. Functions include hours and minutes. This watch is water resistant to 30m.",
+      "configuration": {
+        "material": "Stainless steel",
+        "dial": "Silver with Roman numerals",
+        "bracelet": "Stainless-steel bracelet",
+        "caseSize": "33.7 x 25.5 mm",
+        "movement": "Quartz",
+        "waterResistance": "30 m"
+      },
+      "checkedAt": "2026-10-14T09:07:26.942190+00:00",
+      "rightsStatus": "Pending adequate human website-use clearance for new retailer-hosted originals; underlying manufacturer/retailer rights unresolved; not published",
+      "reviewStatus": "Original and final 1200 WEB visually reviewed; exact SKU/configuration confirmed against source. Original detail preserved; centered blank white canvas, no captions or overlays. Rights pending.",
+      "size": [
+        2550,
+        2550
+      ],
+      "mode": "RGB",
+      "path": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\cartier-family-native-originals\\WSTA0106-raw.png",
+      "sha256": "4551eb908e20c84a168aba550c1a631792a806c39bd3f5570e4667fb5bd146ca",
+      "status": "Authentic retailer-hosted exact-reference original acquired; unchanged delivered bytes",
+      "manufacturerIdentitySource": "https://www.cartier.com/en-gb/watches/collections/tank/tank-must-de-cartier-watch-CRWSTA0106",
+      "manufacturerIdentityEvidence": "Official full reference confirms large Tank Must, steel bracelet and case, silvered dial, High Autonomy quartz, 33.7 x 25.5 mm, 30 m. Original photo visually matches steel bracelet; provisional strap assumption rejected before preparation.",
+      "sourceEvidence": "Observed exact full-SKU retailer product image. Configuration checked against original, product metadata and manufacturer identity where available. Retailer-hosted source is not cleared for Quest Luxo publication.",
+      "whiteMaster": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\cartier-family-reviewed\\WSTA0106-white-master.png",
+      "webDerivative": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\cartier-family-reviewed\\WSTA0106-web.webp",
+      "derivativeSha256": "a7caa06b01716332d0c8c03ed1555ae43e29ceba8171018a647b28164cac9fbf",
+      "processing": "Classical filled external silhouette from original white-background contrast, two-pixel boundary envelope. Original watch RGB and all interior highlights/display detail preserved. Centered blank 2400 white master / 1200 WEB. No server bg-remove transform, AI, reconstruction, captions or overlays.",
+      "driveFiles": [
+        {
+          "type": "RAW",
+          "id": "1mMDBMujnbunpqCSB9IHfz69o1so2DMRv",
+          "name": "cartier-WSTA0106-raw.png"
+        },
+        {
+          "type": "WHITE_MASTER",
+          "id": "1W4qw4fQl5OZGUhqDcbxArRPB8ByjP7-v",
+          "name": "cartier-WSTA0106-white_master.png"
+        },
+        {
+          "type": "WEB",
+          "id": "1mRek1mR7Wa89zuAFZfHWH0WYaQwbJ4bP",
+          "name": "cartier-WSTA0106-web.webp"
+        }
+      ],
+      "exactReference": "WSTA0106",
+      "publicationStatus": "Queued pending adequate human website-use clearance"
+    },
+    {
+      "brand": "Cartier",
+      "collection": "Tank Louis Cartier",
+      "catalogReference": "Tank Louis Cartier",
+      "reference": "WGTA0342",
+      "exactSKU": "WGTA0342",
+      "sourceUrl": "https://www.the1916company.com/watches/cartier/tank/wgta0342/",
+      "imageUrl": "https://the1916company-net.imgix.net:443/media-manager/prod/upload/customrecord_rsm_im_vsn_list/wgta0342/20251121_095058_357_AM_WGTA0342.png",
+      "pagePath": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\retailer-source-cartier-WGTA0342-1aaa57e1.html",
+      "pageSha256": "6037724a72f5a7d5850e103c1f8ef27d9b258912fc3c679160e8e96f56420eb3",
+      "sourceOwner": "The 1916 Company retailer-hosted; underlying manufacturer/retailer website-use rights unresolved",
+      "verifiedProductDescription": "Cartier Tank Louis Small Model WGTA0342 quartz watch features a 29.5mm x 22.0mm 18k yellow gold case surrounding a silver-grain dial on a brown alligator leather strap. Functions include hours and minutes. This watch is water resistant to 30m.",
+      "configuration": {
+        "material": "18K yellow gold",
+        "dial": "Silver-grain with Roman numerals",
+        "bracelet": "Brown alligator leather strap",
+        "caseSize": "29.5 x 22.0 mm",
+        "movement": "Quartz",
+        "waterResistance": "30 m"
+      },
+      "checkedAt": "2026-10-14T09:07:26.944206+00:00",
+      "rightsStatus": "Pending adequate human website-use clearance for new retailer-hosted originals; underlying manufacturer/retailer rights unresolved; not published",
+      "reviewStatus": "Original and final 1200 WEB visually reviewed; exact SKU/configuration confirmed against source. Original detail preserved; centered blank white canvas, no captions or overlays. Rights pending.",
+      "size": [
+        2550,
+        2550
+      ],
+      "mode": "RGB",
+      "path": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\cartier-family-native-originals\\WGTA0342-raw.png",
+      "sha256": "7d5b0a8a3b97a300f6445b554ea41aaddbd61fb4f5f3e7b95b9eaa8f496f8c54",
+      "status": "Authentic retailer-hosted exact-reference original acquired; unchanged delivered bytes",
+      "sourceEvidence": "Observed exact full-SKU retailer product image. Configuration checked against original, product metadata and manufacturer identity where available. Retailer-hosted source is not cleared for Quest Luxo publication.",
+      "whiteMaster": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\cartier-family-reviewed\\WGTA0342-white-master.png",
+      "webDerivative": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\cartier-family-reviewed\\WGTA0342-web.webp",
+      "derivativeSha256": "cc664183f7c04bd48e1739f4e2b650b49a6ee0e113933523a120a2af461c2865",
+      "processing": "Classical filled external silhouette from original white-background contrast, two-pixel boundary envelope. Original watch RGB and all interior highlights/display detail preserved. Centered blank 2400 white master / 1200 WEB. No server bg-remove transform, AI, reconstruction, captions or overlays.",
+      "driveFiles": [
+        {
+          "type": "RAW",
+          "id": "1P_vQIl86B3nRyVr35DgoqHsoYCJ-5hlE",
+          "name": "cartier-WGTA0342-raw.png"
+        },
+        {
+          "type": "WHITE_MASTER",
+          "id": "1P_dqeqjF-_bTY_Oida267pCL_b-tSS9I",
+          "name": "cartier-WGTA0342-white_master.png"
+        },
+        {
+          "type": "WEB",
+          "id": "1ZCweX27BZHXrTnt02xS1LsCw2F-7Q3wx",
+          "name": "cartier-WGTA0342-web.webp"
+        }
+      ],
+      "exactReference": "WGTA0342",
+      "publicationStatus": "Queued pending adequate human website-use clearance"
+    },
+    {
+      "brand": "Cartier",
+      "collection": "Ballon Bleu",
+      "catalogReference": "Ballon Bleu 40 mm",
+      "reference": "WSBB0061",
+      "exactSKU": "WSBB0061",
+      "sourceUrl": "https://www.the1916company.com/watches/cartier/ballon-bleu/wsbb0061/",
+      "imageUrl": "https://the1916company-net.imgix.net:443/media-manager/prod/upload/customrecord_rsm_im_vsn_list/wsbb0061/20251213_123153_811_PM_WSBB0061.png",
+      "pagePath": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\retailer-source-cartier-WSBB0061-02ab01ed.html",
+      "pageSha256": "af5a70b86f0a1747bb23808c6fa44507c79e26f2ccbd4014c87e31e0c9a7474c",
+      "sourceOwner": "The 1916 Company retailer-hosted; underlying manufacturer/retailer website-use rights unresolved",
+      "verifiedProductDescription": "Cartier Ballon Bleu WSBB0061 self-winding mechanical watch features a 40mm stainless steel case surrounding a blue dial on a stainless steel bracelet with folding buckle. This watch is powered by the Cartier 1847 Mc Caliber. Functions include hours, minutes, seconds and date. This watch is water resistant to 30m.",
+      "configuration": {
+        "material": "Stainless steel",
+        "dial": "Blue",
+        "bracelet": "Stainless-steel bracelet",
+        "caseSize": "40 mm",
+        "movement": "Self-winding Cartier 1847 MC",
+        "waterResistance": "30 m"
+      },
+      "checkedAt": "2026-10-14T09:07:26.944206+00:00",
+      "rightsStatus": "Pending adequate human website-use clearance for new retailer-hosted originals; underlying manufacturer/retailer rights unresolved; not published",
+      "reviewStatus": "Original and final 1200 WEB visually reviewed; exact SKU/configuration confirmed against source. Original detail preserved; centered blank white canvas, no captions or overlays. Rights pending.",
+      "size": [
+        2550,
+        2550
+      ],
+      "mode": "RGB",
+      "path": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\cartier-family-native-originals\\WSBB0061-raw.png",
+      "sha256": "f743f8e730ae4fbd0d1809b4a979484dedfce234af2fef062c5c0c539dd3afdc",
+      "status": "Authentic retailer-hosted exact-reference original acquired; unchanged delivered bytes",
+      "sourceEvidence": "Observed exact full-SKU retailer product image. Configuration checked against original, product metadata and manufacturer identity where available. Retailer-hosted source is not cleared for Quest Luxo publication.",
+      "whiteMaster": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\cartier-family-reviewed\\WSBB0061-white-master.png",
+      "webDerivative": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\cartier-family-reviewed\\WSBB0061-web.webp",
+      "derivativeSha256": "f0ac04ccc8721f1da5dbc8f46446f43908ffdcee99987125d26f1d26fa0cefda",
+      "processing": "Classical filled external silhouette from original white-background contrast, two-pixel boundary envelope. Original watch RGB and all interior highlights/display detail preserved. Centered blank 2400 white master / 1200 WEB. No server bg-remove transform, AI, reconstruction, captions or overlays.",
+      "driveFiles": [
+        {
+          "type": "RAW",
+          "id": "1ExDCEnFTCFa-EYpzAcepi1dE4Yb77Eym",
+          "name": "cartier-WSBB0061-raw.png"
+        },
+        {
+          "type": "WHITE_MASTER",
+          "id": "1aeNd6eBQ86NERX7dUe0EEKuk4TFWyj_w",
+          "name": "cartier-WSBB0061-white_master.png"
+        },
+        {
+          "type": "WEB",
+          "id": "1_vgWN7zG9JyKjtfEI2DYU7k-OYZiKWRi",
+          "name": "cartier-WSBB0061-web.webp"
+        }
+      ],
+      "exactReference": "WSBB0061",
+      "publicationStatus": "Queued pending adequate human website-use clearance"
     }
   ],
-  "coverageNote": "Live approved coverage remains 49 of 168, 119 queued. These 56 reviewed sets are unpublished pending adequate human website-use clearance; acquisition continues under founder standing instruction after the missed deadline."
+  "coverageNote": "Live approved coverage remains 49 of 168, 119 queued. These 61 reviewed sets are unpublished pending adequate human website-use clearance; acquisition continues under founder standing instruction after the missed deadline."
 }

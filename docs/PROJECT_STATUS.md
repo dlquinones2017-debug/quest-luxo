@@ -164,3 +164,19 @@ These are retailer-hosted sources, not newly cleared official Drive photographs.
 Watches of Switzerland Panerai requests returned a collection page without exact-reference image evidence, so neither PAM01305 nor PAM00683 is counted as acquired from that source. Historical Tudor and Patek PDF quality/identity holds remain. Continue useful acquisition for 63 remaining routes, keeping full source-owner and rights evidence. The missed deadline remains recorded, and the expired automation remains deleted.
 
 The canonical master preserves all earlier tables, prior reviewed page images are pixel-identical, and the new page passed original-resolution review before in-place upload/read-back. Hashes, dimensions, white corners and unique Drive IDs passed. No application code/assets changed; application tests/build were not rerun.
+
+## Cartier and Omega retailer acquisition October 14 2026
+
+Five additional exact retailer-hosted image sets passed original/configuration and centered white-derivative visual review. Prepared totals: 61 sets / 183 RAW, WHITE MASTER and WEB files, all pending adequate human website-use clearance. Live approved coverage remains 49 of 168, with 119 queued. Fifty-eight routes still need usable originals beyond prepared sets.
+
+Pictured configurations: Santos WSSA0029, steel / silvered opaline / steel SmartLink bracelet, self-winding, 41.9 x 35.1 mm, 100 m. Speedmaster 310.30.42.50.01.002, steel / black / steel bracelet, manual-winding Omega 3861, 42 mm, 50 m. Tank Must WSTA0106, steel / silver Roman-numeral dial / steel bracelet, quartz, 33.7 x 25.5 mm, 30 m. Tank Louis Cartier WGTA0342, 18K yellow gold / silver-grain Roman dial / brown alligator strap, quartz, 29.5 x 22.0 mm, 30 m. Ballon Bleu WSBB0061, steel / blue / steel bracelet, self-winding 1847 MC, 40 mm, 30 m.
+
+Exact retailer product pages and photographs are preserved and compared. Cartier manufacturer evidence confirms WSTA0106 has a steel bracelet; the provisional strap assumption was rejected before preparation. WSBB0044 is 33 mm and was rejected for 40/42 mm catalog profiles. Broad Tank and Ballon Bleu routes retain the specific photographed full SKU and configuration; no family-wide specification or availability claim is implied.
+
+Untouched RAW originals are 2550 x 2550 for the four Cartiers and 1280 x 1280 for the Omega. Original watch RGB, white dials, polished highlights, Roman numerals and complete bracelet/strap framing are preserved. Classical exterior masking and a reviewed per-column lower bracelet boundary remove only external background/floor shadow. All images are centered on blank 2400 masters / 1200 WEB canvases, without AI, reconstruction, captions or overlays.
+
+These eight retailer-hosted sets in the cumulative queue require appropriate manufacturer/retailer website-use rights, separately from the 53 new manufacturer sets. Access and source authenticity do not establish a publication license. No newly acquired set has been published. No MSRP or stock status is copied into Quest Luxo.
+
+Other remaining candidates still require exact-reference and generation review. Current catalogs may omit historical models; smaller, wrong-size or placeholder images stay queued and are not counted as prepared. Continue useful acquisition for 58 remaining routes. The missed deadline and expired automation deletion remain unchanged.
+
+The canonical master preserves all earlier tables, prior reviewed page images are pixel-identical, and the new page passed original-resolution review before in-place upload/read-back. Hashes, dimensions, white corners and unique Drive IDs passed. No application code/assets changed; application tests/build were not rerun.

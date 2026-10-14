@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-14T09:02:54.597950+00:00",
+  "updatedAt": "2026-10-14T09:14:25.847723+00:00",
   "deadline": "2026-10-13T23:59:00-04:00",
   "objective": "Acquire authentic exact-reference photographs and populate every featured website reference without fabrication.",
   "worktree": "C:/Users/CAU Student/.codex/worktrees/launch-sprint/quest-luxo",
@@ -8,7 +8,7 @@
   "canonicalReferences": 168,
   "photographedReferences": 49,
   "queuedReferences": 119,
-  "coverageStatus": "49 approved photos on 168 canonical routes, 119 queued. 56 additional reviewed sets / 168 Drive files remain pending adequate human website-use clearance.",
+  "coverageStatus": "49 approved photos on 168 canonical routes, 119 queued. 61 additional reviewed sets / 183 Drive files remain pending adequate human website-use clearance.",
   "mobileStatusThread": "01a1371a-fad5-7e03-8807-0ae850c74269",
   "mobileStatusTitle": "Quest Luxo Command Center V4",
   "mobileStatusAuthorized": true,
@@ -29,11 +29,11 @@
     "No invented specs, MSRP or availability"
   ],
   "clearance": "Existing Drive manufacturer images and five specifically acquired launch images are founder-cleared. Other source rights require evidence before publishing.",
-  "nextBatch": "Continue 63 remaining acquisition routes without reacquiring 56 prepared sets. Latest three Hublot retailer-hosted exact references are reviewed/saved, with manufacturer/retailer website-use rights explicitly unresolved. Canonical master 23 reviewed pages updated in place/read back. Newly observed Santos WSSA0029 and Omega 310.30.42.50.01.002 retailer resources are next candidates.",
-  "preparedPendingClearance": 56,
-  "preparedDriveFiles": 168,
+  "nextBatch": "Continue 58 remaining acquisition routes without reacquiring 61 prepared sets. Latest Santos, Speedmaster, Tank Must, Tank Louis and Ballon Bleu 40 full SKUs are reviewed/saved, all retailer-hosted and rights pending. Canonical master 24 reviewed pages updated in place/read back. Next candidates: observed Pasha WSPA0038 / WGPA0017 pages and remaining historical references.",
+  "preparedPendingClearance": 61,
+  "preparedDriveFiles": 183,
   "preparedManifest": "docs/PHOTOGRAPHY_PREPARED_PENDING_CLEARANCE_2026-10-13.json",
-  "masterPages": 23,
+  "masterPages": 24,
   "preparedSourceLogs": [
     "NEXT_EXACT_PHOTOGRAPHY_WAVE_2026-10-13.json",
     "ROLEX_NEXT_PHOTOGRAPHY_WAVE_2026-10-13.json",
@@ -49,7 +49,8 @@
     "ROLEX_CURRENT_FIVE_PHOTOGRAPHY_WAVE_2026-10-13.json",
     "ULYSSE_NARDIN_CONTINUATION_WAVE_2026-10-14.json",
     "ULYSSE_NARDIN_BLAST_DUAL_TIME_WAVE_2026-10-14.json",
-    "HUBLOT_RETAILER_HOSTED_WAVE_2026-10-14.json"
+    "HUBLOT_RETAILER_HOSTED_WAVE_2026-10-14.json",
+    "CARTIER_OMEGA_RETAILER_WAVE_2026-10-14.json"
   ],
   "preparedSourceLogDriveIds": [
     "1rJl_ugxi0pf6CNfWAnSCFrLPmAify6se",
@@ -66,11 +67,12 @@
     "1-MUMUjZugSPCp_yWH5skdfQGftWA-cHK",
     "1mJAvZBKlns1F4zBWwZK7qgpbfbM3AFd8",
     "1RZ8Xz7kgOoLcdFrh6zJPc1OYECedpgZD",
-    "1nWZp0VeR7Q51oNJBAPXbqkFvy30-UTvs"
+    "1nWZp0VeR7Q51oNJBAPXbqkFvy30-UTvs",
+    "12M_ygwdBOM0mhpLSIxu-sQktIcGVR1WW"
   ],
   "nextAcquisitionEvidence": "Official Rolex pages and observed product-media links confirm the exact pictured SKUs. Manufacturer alpha is preserved while external background/translucent shadow is removed. Shadow-only layers are rejected, never treated as watch photographs. Day-Date 228206 discovery remains unresolved; do not guess a modern replacement or image URL. New main rejects noncompliant legacy photography; do not re-enable it.",
   "mobileMirrorStatus": "V4 remains the official reporting destination. Acquisition is resumed; meaningful progress will be sent there. V3 is superseded.",
-  "rightsDecisionPending": "Human website-use clearance for 56 additional prepared sets remains pending. Preserve exact source owner and evidence; manufacturer and retailer-hosted sources require appropriate permission. Continuation authorization is not image-use clearance.",
+  "rightsDecisionPending": "Human website-use clearance for 61 additional prepared sets remains pending. Preserve exact source owner and evidence; manufacturer and retailer-hosted sources require appropriate permission. Continuation authorization is not image-use clearance.",
   "processingRuntime": "Task-local photography-runtime provides OpenCV and NumPy for classical non-generative boundary masks. Requires approved elevated execution to read its installed files. process_priority_wave.py preserves original interior pixels and masks only background. Every derivative requires visual review before publication.",
   "blockers": [
     "Browser approval service previously out of credits; do not bypass",
@@ -78,7 +80,7 @@
     "Generic family references require exact identity/configuration evidence"
   ],
   "dataSafety": "Do not modify runtime lead data or repeat private broker reads. Preserve original dirty checkout and newer main changes.",
-  "stillNeedsAcquisition": 63,
+  "stillNeedsAcquisition": 58,
   "nextAcquisitionPriorities": "Continue observed public Rolex product-media resources for current references, then remaining exact legacy and manufacturer sources. Existing source-access holds do not block other acquisition. Never substitute an unrelated full SKU or material; preserve original rejected-image decisions.",
   "heldSourceOriginals": [
     {
@@ -109,7 +111,7 @@
       "reason": "Held: manufacturer image reaches top and bottom canvas edges; complete bracelet framing is not established. Do not reconstruct missing sections."
     }
   ],
-  "sourceAttemptEvidence": "artifact rolex-sport-brochure-acquisition.json records 403 for 126600, 226570, 336238, 336235 and 126719BLRO; additional-official-page-candidates.json preserves successful Reverso/Navitimer pages, IWC page 403 and Blancpain timeout. No unavailable images are counted as acquired. Latest artifacts preserve a successful official Pelagos archive and exact Black Bay native image. Cartier and Panerai exact-page/PDF downloads returned 403. Omega product-sheet request hung and was stopped without counting acquisition. Vacheron official catalog PDF returned Access Denied; no image counted. RM 11-03 exact page produced only a cropped rose-gold detail photograph; cannot represent titanium catalog profile and is held locally, not a prepared set. Hublot exact source image again returned 403. Latest direct Rolex source HTML requests return 403, but exact pages and technical tables remain independently readable through the web reader; observed native media successfully acquired without alternate SKUs or bypassing authentication. Historical Tudor Royal 2020 and 2023 official press PDFs are preserved locally as source evidence. The small embedded 38 mm salmon photograph has an approximately 223 x 352 visible subject and remains unsuitable; exact full-suffix identity and higher-resolution originals are still required. Larger 41 mm press images are retained as candidates, not counted as prepared. Current Royal pressroom now shows different 2026 sizes, which must not substitute for the featured 38/41 mm generation. Patek 2006 press release and official magazine establish legacy reference history, but the larger extracted objects are logos/backgrounds rather than usable exact-reference photographs; the small watch images stay queued for better originals. These are retailer-hosted sources, not newly cleared official Drive photographs. The 1916 Company and underlying manufacturer rights must be resolved for website use; source-host access and authorized-retailer status do not grant Quest Luxo a publication license. All three sets remain unpublished. The manufacturer's denied endpoints and all earlier rejected-source decisions remain recorded; the newly acquired retailer originals are a separately documented source.",
+  "sourceAttemptEvidence": "artifact rolex-sport-brochure-acquisition.json records 403 for 126600, 226570, 336238, 336235 and 126719BLRO; additional-official-page-candidates.json preserves successful Reverso/Navitimer pages, IWC page 403 and Blancpain timeout. No unavailable images are counted as acquired. Latest artifacts preserve a successful official Pelagos archive and exact Black Bay native image. Cartier and Panerai exact-page/PDF downloads returned 403. Omega product-sheet request hung and was stopped without counting acquisition. Vacheron official catalog PDF returned Access Denied; no image counted. RM 11-03 exact page produced only a cropped rose-gold detail photograph; cannot represent titanium catalog profile and is held locally, not a prepared set. Hublot exact source image again returned 403. Latest direct Rolex source HTML requests return 403, but exact pages and technical tables remain independently readable through the web reader; observed native media successfully acquired without alternate SKUs or bypassing authentication. Historical Tudor Royal 2020 and 2023 official press PDFs are preserved locally as source evidence. The small embedded 38 mm salmon photograph has an approximately 223 x 352 visible subject and remains unsuitable; exact full-suffix identity and higher-resolution originals are still required. Larger 41 mm press images are retained as candidates, not counted as prepared. Current Royal pressroom now shows different 2026 sizes, which must not substitute for the featured 38/41 mm generation. Patek 2006 press release and official magazine establish legacy reference history, but the larger extracted objects are logos/backgrounds rather than usable exact-reference photographs; the small watch images stay queued for better originals. These are retailer-hosted sources, not newly cleared official Drive photographs. The 1916 Company and underlying manufacturer rights must be resolved for website use; source-host access and authorized-retailer status do not grant Quest Luxo a publication license. All three sets remain unpublished. The manufacturer's denied endpoints and all earlier rejected-source decisions remain recorded; the newly acquired retailer originals are a separately documented source. These eight retailer-hosted sets in the cumulative queue require appropriate manufacturer/retailer website-use rights, separately from the 53 new manufacturer sets. Access and source authenticity do not establish a publication license. No newly acquired set has been published. No MSRP or stock status is copied into Quest Luxo.",
   "documentationPublication": "Checkpoint documentation is saved on the existing sprint branch. Avoid a production restart solely for documentation while intake is live; publish cleared website assets with appropriate build and live verification when rights arrive.",
   "licensedNautilusRepair": {
     "record": "docs/PHOTOGRAPHY_LICENSED_NAUTILUS_2026-10-13.json",
