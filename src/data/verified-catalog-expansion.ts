@@ -1,0 +1,469 @@
+import type { QuestLuxoAsset } from "../types/questLuxo";
+import type { CollectionDefinition } from "./collectionRegistry";
+
+// Manufacturer or authorized-retailer verified reference identities, reviewed 2026-10-14.
+// No product photographs are used without separate explicit rights clearance.
+// Listed profiles are sourcing candidates, not inventory or availability claims.
+type VerifiedRow = readonly [
+  brand: string, brandSlug: string, collection: string, collectionSlug: string,
+  reference: string, model: string, caseSize: string, movement: string,
+  dial: string, bracelet: string, material: string, sourceUrl: string
+];
+export const verifiedExpansionRows: readonly VerifiedRow[] = [
+  [
+    "Zenith",
+    "zenith",
+    "DEFY Skyline",
+    "defy-skyline",
+    "03.9300.3620/51.I001",
+    "DEFY Skyline Blue",
+    "41 mm",
+    "El Primero 3620 automatic",
+    "Blue",
+    "Steel bracelet and blue rubber strap",
+    "Stainless Steel",
+    "https://www.zenith-watches.com/en_no/product/defy-skyline-03-9300-3620-51-i001"
+  ],
+  [
+    "Zenith",
+    "zenith",
+    "DEFY Skyline",
+    "defy-skyline",
+    "03.9300.3620/79.I001",
+    "DEFY Skyline Skeleton",
+    "41 mm",
+    "El Primero 3620 SK automatic",
+    "Blue skeleton",
+    "Steel bracelet and blue rubber strap",
+    "Stainless Steel",
+    "https://www.zenith-watches.com/int/product/defy-skyline-03-9300-3620-79-i001"
+  ],
+  [
+    "Zenith",
+    "zenith",
+    "DEFY Skyline",
+    "defy-skyline",
+    "03.9300.3620/15.I001",
+    "DEFY Skyline Ice Blue",
+    "41 mm",
+    "El Primero 3620 automatic",
+    "Ice Blue",
+    "Steel bracelet and ice blue rubber strap",
+    "Stainless Steel",
+    "https://www.zenith-watches.com/int/product/defy-skyline-03-9300-3620-15-i001"
+  ],
+  [
+    "Zenith",
+    "zenith",
+    "Chronomaster Sport",
+    "chronomaster-sport",
+    "03.3100.3600/69.M3100",
+    "Chronomaster Sport White",
+    "41 mm",
+    "El Primero 3600 automatic chronograph",
+    "White, tricolor subdials",
+    "Stainless-steel bracelet",
+    "Stainless Steel",
+    "https://www.zenith-watches.com/en_se/product/chronomaster-sport-03-3100-3600-69-m3100"
+  ],
+  [
+    "IWC",
+    "iwc",
+    "Ingenieur",
+    "ingenieur",
+    "IW328901",
+    "Ingenieur Automatic 40",
+    "40 mm",
+    "IWC 32111 automatic",
+    "Black",
+    "Stainless-steel bracelet",
+    "Stainless Steel",
+    "https://www.iwc.com/us-en/watches/ingenieur/iw328901-ingenieur-automatic-40"
+  ],
+  [
+    "IWC",
+    "iwc",
+    "Pilot's Watches",
+    "pilots-watches",
+    "IW388101",
+    "Pilot's Watch Chronograph 41",
+    "41 mm",
+    "IWC 69385 automatic chronograph",
+    "Blue",
+    "Blue calfskin leather strap",
+    "Stainless Steel",
+    "https://www.iwc.com/us-en/watches/pilot-watches/iw388101-pilots-watch-chronograph-41"
+  ],
+  [
+    "IWC",
+    "iwc",
+    "Portugieser",
+    "portugieser",
+    "IW371615",
+    "Portugieser Chronograph Green",
+    "41 mm",
+    "IWC 69355 automatic chronograph",
+    "Green",
+    "Black alligator leather strap",
+    "Stainless Steel",
+    "https://www.iwc.com/us-en/watches/portugieser/iw371615-portugieser-chronograph"
+  ],
+  [
+    "IWC",
+    "iwc",
+    "Portugieser",
+    "portugieser",
+    "IW371617",
+    "Portugieser Chronograph Bracelet",
+    "41 mm",
+    "IWC 69355 automatic chronograph",
+    "Silver",
+    "Stainless-steel bracelet",
+    "Stainless Steel",
+    "https://www.iwc.com/us-en/watches/portugieser/iw371617-portugieser-chronograph"
+  ],
+  [
+    "IWC",
+    "iwc",
+    "Portofino",
+    "portofino",
+    "IW356527",
+    "Portofino Automatic",
+    "40 mm",
+    "IWC 35111 automatic",
+    "Silver",
+    "Blue alligator leather strap",
+    "Stainless Steel",
+    "https://www.iwc.com/us-en/watches/portofino/iw356527-portofino-automatic"
+  ],
+  [
+    "IWC",
+    "iwc",
+    "Aquatimer",
+    "aquatimer",
+    "IW328801",
+    "Aquatimer Automatic",
+    "42 mm",
+    "IWC 32111 automatic",
+    "Blue",
+    "Blue rubber strap",
+    "Stainless Steel",
+    "https://www.iwc.com/us-en/watches/aquatimer/iw328801-aquatimer-automatic"
+  ],
+  [
+    "IWC",
+    "iwc",
+    "Portugieser",
+    "portugieser",
+    "IW545801",
+    "Portugieser Hand-Wound Flying Tourbillon",
+    "42.4 mm",
+    "IWC 81905 manual-winding flying tourbillon",
+    "Silver",
+    "Black alligator leather strap",
+    "18K Armor Gold",
+    "https://www.iwc.com/us-en/watches/portugieser/iw545801-portugieser-hand-wound-tourbillon"
+  ],
+  [
+    "Omega",
+    "omega",
+    "Seamaster Diver 300M",
+    "seamaster-diver-300m",
+    "522.92.44.20.04.001",
+    "Seamaster Diver 300M Milano Cortina 2026 Olympic",
+    "43.5 mm",
+    "Omega 8806 automatic",
+    "White ceramic",
+    "White rubber strap",
+    "White ceramic and titanium",
+    "https://www.omegawatches.com.hk/en-hk/watch-omega-seamaster-diver-300m-co-axial-master-chronometer-43-5-mm-52292442004001"
+  ],
+  [
+    "Omega",
+    "omega",
+    "Seamaster Diver 300M",
+    "seamaster-diver-300m",
+    "522.92.44.20.04.002",
+    "Seamaster Diver 300M Milano Cortina 2026 Paralympic",
+    "43.5 mm",
+    "Omega 8806 automatic",
+    "White ceramic",
+    "White rubber strap",
+    "White ceramic and titanium",
+    "https://www.omegawatches.com.hk/en-hk/watch-omega-seamaster-diver-300m-co-axial-master-chronometer-43-5-mm-52292442004002"
+  ],
+  [
+    "Omega",
+    "omega",
+    "Seamaster Diver 300M",
+    "seamaster-diver-300m",
+    "210.90.42.20.01.001",
+    "Seamaster 007 Edition No Time To Die Mesh",
+    "42 mm",
+    "Omega 8806 automatic",
+    "Brown",
+    "Titanium mesh bracelet",
+    "Grade 2 Titanium",
+    "https://www.omegawatches.com.hk/en-hk/watch-omega-seamaster-diver-300m-co-axial-master-chronometer-42-mm-21090422001001"
+  ],
+  [
+    "Omega",
+    "omega",
+    "Seamaster Diver 300M",
+    "seamaster-diver-300m",
+    "210.92.42.20.01.001",
+    "Seamaster 007 Edition No Time To Die NATO",
+    "42 mm",
+    "Omega 8806 automatic",
+    "Brown",
+    "Striped NATO strap",
+    "Grade 2 Titanium",
+    "https://www.omegawatches.com.hk/en-hk/watches/seamaster/diver-300-m/007-edition/product"
+  ],
+  [
+    "Omega",
+    "omega",
+    "Seamaster Diver 300M",
+    "seamaster-diver-300m",
+    "210.32.42.20.01.006",
+    "Seamaster Diver 300M Orange Rubber",
+    "42 mm",
+    "Omega 8806 automatic",
+    "Black with orange accents",
+    "Orange rubber strap",
+    "Stainless Steel",
+    "https://www.tourneau.com/watches/omega/seamaster-diver-300m-210.32.42.20.01.006-OMG0191640.html"
+  ],
+  [
+    "Breitling",
+    "breitling",
+    "Navitimer",
+    "navitimer",
+    "AB0137211B1P1",
+    "Navitimer B01 Chronograph 46 Black Alligator",
+    "46 mm",
+    "Breitling 01 automatic chronograph",
+    "Black",
+    "Black alligator leather strap",
+    "Stainless Steel",
+    "https://www.breitling.com/bb-en/watches/navitimer/navitimer-b01-chronograph-46-my22/AB0137211B1P1/"
+  ],
+  [
+    "Breitling",
+    "breitling",
+    "Navitimer",
+    "navitimer",
+    "AB0137211C1P1",
+    "Navitimer B01 Chronograph 46 Brown Alligator",
+    "46 mm",
+    "Breitling 01 automatic chronograph",
+    "Blue",
+    "Brown alligator leather strap",
+    "Stainless Steel",
+    "https://www.breitling.com/si-en/watches/navitimer/navitimer-b01-chronograph-46-my22/AB0137211C1P1/"
+  ],
+  [
+    "Breitling",
+    "breitling",
+    "Superocean Heritage",
+    "superocean-heritage",
+    "AB2010121B1S1",
+    "Superocean Heritage B20 Automatic 42",
+    "42 mm",
+    "Breitling B20 automatic",
+    "Black",
+    "Black rubber strap",
+    "Stainless Steel",
+    "https://www.breitling.com/xk-en/watches/superocean-heritage/superocean-heritage-b20-automatic-42/AB2010121B1S1/"
+  ],
+  [
+    "Breitling",
+    "breitling",
+    "Avenger",
+    "avenger",
+    "AB0147101B1X1",
+    "Avenger B01 Chronograph 44",
+    "44 mm",
+    "Breitling 01 automatic chronograph",
+    "Black",
+    "Anthracite calfskin leather strap",
+    "Stainless Steel",
+    "https://www.breitling.com/us-en/watches/avenger/avenger-b01-chronograph-44-my23/AB0147101B1X1/"
+  ],
+  [
+    "Hublot",
+    "hublot",
+    "Classic Fusion",
+    "classic-fusion",
+    "542.CM.1171.RX",
+    "Classic Fusion Black Magic 42",
+    "42 mm",
+    "HUB1110 automatic",
+    "Matte Black",
+    "Black rubber strap",
+    "Black Ceramic",
+    "https://www.hublot.com/en-ch/watches/classic-fusion/classic-fusion-black-magic-42-mm"
+  ],
+  [
+    "Hublot",
+    "hublot",
+    "Classic Fusion",
+    "classic-fusion",
+    "542.CX.1270.RX.MDM",
+    "Classic Fusion Original Black Magic 42",
+    "42 mm",
+    "HUB1110 automatic",
+    "Black lacquer",
+    "Black rubber strap",
+    "Black Ceramic",
+    "https://www.hublot.com/en-us/watches/classic-fusion/classic-fusion-original-black-magic-42-mm"
+  ],
+  [
+    "Hublot",
+    "hublot",
+    "Big Bang",
+    "big-bang",
+    "429.NM.0170.RX",
+    "Big Bang Automatic Tourbillon Titanium Ceramic",
+    "44 mm",
+    "HUB6035 automatic tourbillon",
+    "Sapphire skeleton",
+    "Black rubber strap",
+    "Titanium and Ceramic",
+    "https://www.hublot.com/en-us/watches/big-bang/big-bang-tourbillon-automatic-titanium-ceramic-44-mm"
+  ],
+  [
+    "Panerai",
+    "panerai",
+    "Submersible",
+    "submersible",
+    "PAM01616",
+    "Submersible Carbotech 47",
+    "47 mm",
+    "Panerai P.9010 automatic",
+    "Black",
+    "Black rubber strap",
+    "Carbotech",
+    "https://www.panerai.com/content/dam/pan-assets/016-presskit/pdf/carbotech/PR_PANERAI_SUBMERSIBLE_CARBOTECH_PAM00960_PAM01616_ENG.pdf"
+  ],
+  [
+    "Bell & Ross",
+    "bell-and-ross",
+    "BR 01",
+    "br-01",
+    "BR0192-COMPASS-CA",
+    "BR 01 Compass Limited Edition",
+    "46 mm",
+    "Automatic",
+    "Instrument-style Compass",
+    "Black strap",
+    "Black PVD steel",
+    "https://bellross.com/en/products/br-01-compass"
+  ],
+  [
+    "TAG Heuer",
+    "tag-heuer",
+    "Carrera",
+    "carrera",
+    "CAR2A1Z.FT6044",
+    "Carrera Calibre Heuer 01 Automatic",
+    "45 mm",
+    "Calibre Heuer 01 automatic",
+    "Black",
+    "Black rubber strap",
+    "Black PVD steel",
+    "https://www.tagheuer.com/us/en/timepieces/collections/tag-heuer-carrera/45-mm-calibre-heuer01-automatic/CAR2A1Z.FT6044.html"
+  ],
+  [
+    "TAG Heuer",
+    "tag-heuer",
+    "Monaco",
+    "monaco",
+    "CBL2111.FC6453",
+    "Monaco Chronograph Blue",
+    "39 mm",
+    "TH20-00 automatic chronograph",
+    "Blue",
+    "Leather strap",
+    "Stainless Steel",
+    "https://www.tagheuer.com/us/en/timepieces/collections/tag-heuer-monaco/39-mm-calibre-heuer02-automatic/CBL2111.FC6453.html"
+  ],
+  [
+    "Richard Mille",
+    "richard-mille",
+    "RM 67",
+    "rm-67",
+    "RM 67-01",
+    "RM 67-01 Automatic Extra Flat",
+    "Extra-flat tonneau",
+    "CRMA6 skeleton automatic",
+    "Openworked",
+    "Model-dependent",
+    "Model-dependent",
+    "https://www.richardmille.com/collections/rm-67-01-automatic-extra-flat"
+  ],
+  [
+    "Richard Mille",
+    "richard-mille",
+    "RM 27",
+    "rm-27",
+    "RM 27-05",
+    "RM 27-05 Flying Tourbillon Rafael Nadal",
+    "Lightweight tonneau",
+    "RM27-05 manual flying tourbillon",
+    "Openworked",
+    "Model-dependent",
+    "Carbon TPT and titanium",
+    "https://www.richardmille.com/collections/rm-27-05-flying-tourbillon-rafael-nadal"
+  ],
+  [
+    "Vacheron Constantin",
+    "vacheron-constantin",
+    "Overseas",
+    "overseas",
+    "6000V/110A-B544",
+    "Overseas Tourbillon Steel Blue",
+    "42.5 mm",
+    "Calibre 2160 automatic tourbillon",
+    "Blue",
+    "Steel bracelet and additional straps",
+    "Stainless Steel",
+    "https://www.vacheron-constantin.com/us/en/collections/overseas/6000v-110a-b544.html"
+  ]
+];
+
+export const verifiedExpansionAssets: QuestLuxoAsset[] = verifiedExpansionRows.map((
+  [brand, brandSlug, collection, collectionSlug, reference, model, caseSize, movement, dial, bracelet, material, sourceUrl]
+) => ({
+  brand, collection, reference, model, material,
+  configurations: [{ caseSize, movement, dial, bracelet, originalMSRP: null, currentMSRP: null }],
+  specificationSources: [{label: "Reference identity and specifications", url: sourceUrl}],
+  specificationsReviewedAt: "2026-10-14",
+  liquidity: "Not assessed",
+  allocationDifficulty: "Requires current market check",
+  questLuxoView: `Verified ${brand} ${model} identity (${reference}). Quest Luxo can coordinate private sourcing subject to watch-level authentication, provenance, condition review, servicing and current market evidence; no inventory or return claim is implied.`,
+}));
+
+const byCollection = new Map<string, {brand: string; brandSlug: string; name: string; slug: string; assets: QuestLuxoAsset[]}>();
+for (let i = 0; i < verifiedExpansionRows.length; i++) {
+  const [brand, brandSlug, name, slug] = verifiedExpansionRows[i];
+  const key = `${brandSlug}/${slug}`;
+  const group = byCollection.get(key) ?? {brand, brandSlug, name, slug, assets: []};
+  group.assets.push(verifiedExpansionAssets[i]);
+  byCollection.set(key, group);
+}
+
+export const verifiedCatalogExpansionCollections: CollectionDefinition[] =
+  [...byCollection.values()].map(group => ({
+    brand: group.brand, brandSlug: group.brandSlug, name: group.name, slug: group.slug,
+    description: `Explore verified ${group.brand} ${group.name} references. Catalog pages are sourcing profiles, not inventory listings.`,
+    intelligenceTitle: `${group.name} — Verified References`,
+    intelligenceParagraphs: [
+      "Exact-reference identification and source provenance are recorded. Current pricing, dealer availability and historical performance remain unverified.",
+      "A sourcing inquiry is reviewed for authentication, servicing exposure, watch condition, delivery configuration and transaction economics."
+    ],
+    signalsDescription: "Market scores withheld pending verified transaction evidence.",
+    directoryDescription: "Explore reference identities; approved photography is added only after rights and exact-configuration checks.",
+    sourcingText: `Request private sourcing for ${group.brand} ${group.name}.`,
+    assets: group.assets
+  }));
