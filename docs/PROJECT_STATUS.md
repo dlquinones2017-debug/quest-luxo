@@ -241,3 +241,19 @@ The existing manufacturer RAW in Drive `1qkB2JuO9xfJB_PTGc6N49px4xnhPqIBq` match
 The existing V45 URL is retained, with the authentic complete watch centered on white, full SKU in image alt/credits, precise matching configuration and recorded WEB hash. Master and WEB were updated in place in their existing Drive files. Provenance: `PHOTOGRAPHY_VANGUARD_RECOVERY_2026-10-14.json`, Drive `1XZsnA1kKAPJveL03e13BCqMKooRwX8rV`. Seven focused safeguards, full 246-test suite, Astro validation (0 errors, 0 warnings, 21 hints), Omega/multi-brand audits, queue check, build and built image/configuration/credits/inquiry-context checks pass. Desktop and mobile preview show a centered complete watch without captions/overlays or horizontal content overflow. Target coverage is 126/268 reference URLs and 61/103 collections; production is still 125 until deployed and verified.
 
 Independent acquisition continues: two complete Navitimer 46 manufacturer originals and final white derivatives reviewed; 24 additional full-SKU Omega originals acquired from observed authorized-retailer catalog links, excluding the eight already-held Omega sets. Those new acquisitions remain unpublished pending normal review and rights. Four Zenith pages and IWC IW545801 returned HTTP 403; no bypass was attempted. No customer data, credentials or production disk changes.
+
+
+## Vanguard production recovery verified — October 14, 2026
+
+- Live commit: 9118969dc2ad5f12bbc1a50d778f792d5250c0fb; Render dep-db7vr4brjlhs73ckih00 confirmed LIVE.
+- Recovered the existing founder-cleared V45 photograph using exact manufacturer decoded-pixel identity and full SKU V 45 SC DT TT NR BR ER; preserved RAW and existing Drive IDs.
+- Current whole-site coverage: 126/268 URLs, 61/103 collections, 125 distinct approved image files; 142 pending.
+- Checks: 246 regression tests, seven focused photo tests, Astro 0 errors/0 warnings, photo audits and production build passed. Existing Zenith alias and robots warnings preserved. Desktop/mobile visual QA and targeted public live route/image/inquiry checks passed; no lead data touched.
+- Additional 26 sets (24 Omega, two Navitimer 46) acquired, processed and visually reviewed with all exact SKU evidence matches. They remain held for specific image-use rights and are being archived. Earlier eight held Omega sets preserved; 108 other acquisition/quality gaps remain.
+
+
+## Thirty further reviewed photography sets archived
+
+- 24 Omega, four Breitling, one Bell and Ross Compass and one Franck Muller Tourbillon set reviewed; 90 RAW/master/WEB files archived with exact source evidence and checksums.
+- Together with the earlier eight Omega sets, 38 await specific image-use rights. They remain unpublished. Live coverage stays 126/268; 104 other acquisition/quality gaps remain.
+- Canonical photography master expanded to 38 reviewed pages; historical 34 rendered page hashes unchanged. New source access/framing/resolution holds documented; no denied endpoint bypass or image reconstruction.

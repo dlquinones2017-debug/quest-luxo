@@ -1,0 +1,240 @@
+{
+  "title": "Four additional manufacturer photography sets reviewed October 14 2026",
+  "physicalSets": 4,
+  "websitePublished": false,
+  "rightsHeldSets": 4,
+  "references": [
+    {
+      "brand": "Breitling",
+      "reference": "AB2010121B1S1",
+      "exactSKU": "AB2010121B1S1",
+      "sourceUrl": "https://www.breitling.com/xk-en/watches/superocean-heritage/superocean-heritage-b20-automatic-42/AB2010121B1S1/",
+      "sourcePagePath": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\retailer-source-breitling-AB2010121B1S1-b95bb52f.html",
+      "sourcePageSha256": "c1fd23ad66de08b8783f955b41e6e36c1365c87f7c58eafccc3d924308720acd",
+      "imageUrl": "https://www-breitling.eu.saleor.cloud/media/thumbnails/products/ab2010121b1s1-soldier_80258ba5_thumbnail_1024.webp",
+      "sourceProvider": "Breitling manufacturer/collaboration",
+      "rightsStatus": "HOLD specific new manufacturer-original commercial website-use rights not yet established",
+      "checkedAt": "2026-10-14T22:28:13.492178+00:00",
+      "reviewStatus": "Complete authentic RAW and full-resolution 1200-square final WEB visually reviewed; whole watch centered, blank white canvas, no overlay or source caption",
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "path": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\expanded-primary-originals\\AB2010121B1S1-raw.webp",
+      "sha256": "47f67464464b70e12c12a6da3bf38df0ff9c671d107387cbf80374a9335eee9c",
+      "status": "Authentic official original acquired; unchanged delivered bytes",
+      "whiteMaster": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\expanded-primary-four-white\\AB2010121B1S1-white-master.png",
+      "webDerivative": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\expanded-primary-four-white\\AB2010121B1S1-web.webp",
+      "derivativeSha256": "a5021e1ef969bab073ee35593ba519a8de8d63cad2ea181b36100046b5f27c32",
+      "processing": "Original manufacturer RGB and watch alpha preserved; external translucent cast shadow suppressed with original opaque support plus two-pixel boundary envelope. Centered on blank 2400 white canvas, 1200 WEB. No AI, reconstruction, captions or overlays.",
+      "collection": "Superocean Heritage",
+      "brandSlug": "breitling",
+      "catalogConfiguration": {
+        "caseSize": "42 mm",
+        "movement": "Breitling B20 automatic",
+        "dial": "Black",
+        "strapOrBracelet": "Black rubber strap",
+        "material": "Stainless Steel"
+      },
+      "identitySource": "https://www.breitling.com/xk-en/watches/superocean-heritage/superocean-heritage-b20-automatic-42/AB2010121B1S1/",
+      "websiteApproved": false,
+      "reviewedAt": "2026-10-14T22:30:04.121030+00:00",
+      "masterSha256": "1844b022ec15aa6865c78520c17dea472689c7ea4b454aa99c6a4d8970e76b4a",
+      "exactSkuEvidence": "Manufacturer exact-SKU product page and exact-SKU soldier image URL; dial/case/strap visually compared with catalog configuration",
+      "exactSkuVerified": true,
+      "driveFiles": {
+        "raw": {
+          "id": "1So5xPnuthHbjv9ZtxRcJERTBxYIuvuqh",
+          "sha256": "47f67464464b70e12c12a6da3bf38df0ff9c671d107387cbf80374a9335eee9c",
+          "folderId": "1EwU4nbht13ay5Obti9bjywK4rWLCxK_T"
+        },
+        "master": {
+          "id": "1v5L6vyY6N--6-TM-MHMBzsGL3a-C6_Co",
+          "sha256": "1844b022ec15aa6865c78520c17dea472689c7ea4b454aa99c6a4d8970e76b4a",
+          "folderId": "1vl6DzQFhMCHLjh0DcbZ5aM_s_TrZTW49"
+        },
+        "web": {
+          "id": "1Ed1-cycwH9F673VzpSrp7Y0PcOerlYQw",
+          "sha256": "a5021e1ef969bab073ee35593ba519a8de8d63cad2ea181b36100046b5f27c32",
+          "folderId": "1lijATpBrmBmGnjmhTJmr0gpTa5YaOd8Z"
+        }
+      }
+    },
+    {
+      "brand": "Breitling",
+      "reference": "AB0147101B1X1",
+      "exactSKU": "AB0147101B1X1",
+      "sourceUrl": "https://www.breitling.com/us-en/watches/avenger/avenger-b01-chronograph-44-my23/AB0147101B1X1/",
+      "sourcePagePath": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\retailer-source-breitling-AB0147101B1X1-b91978f2.html",
+      "sourcePageSha256": "34b95aa3f9ccefc4826d5e0c8d309c3b7795703b4d2ca32ec45e3dbd6855951e",
+      "imageUrl": "https://www-breitling.eu.saleor.cloud/media/thumbnails/products/ab0147101b1x1-soldier_d5d8acd4_thumbnail_1024.webp",
+      "sourceProvider": "Breitling manufacturer/collaboration",
+      "rightsStatus": "HOLD specific new manufacturer-original commercial website-use rights not yet established",
+      "checkedAt": "2026-10-14T22:28:13.794949+00:00",
+      "reviewStatus": "Complete authentic RAW and full-resolution 1200-square final WEB visually reviewed; whole watch centered, blank white canvas, no overlay or source caption",
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "path": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\expanded-primary-originals\\AB0147101B1X1-raw.webp",
+      "sha256": "5bc911591b3fc309f4e9762b42eb15fa2a8adc8b58fa97f4ef9c0898d543fda0",
+      "status": "Authentic official original acquired; unchanged delivered bytes",
+      "whiteMaster": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\expanded-primary-four-white\\AB0147101B1X1-white-master.png",
+      "webDerivative": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\expanded-primary-four-white\\AB0147101B1X1-web.webp",
+      "derivativeSha256": "3269175ea14ce67830ae1d7f3c8019f6f2b799a2059508d1fe602825e224c42c",
+      "processing": "Original manufacturer RGB and watch alpha preserved; external translucent cast shadow suppressed with original opaque support plus two-pixel boundary envelope. Centered on blank 2400 white canvas, 1200 WEB. No AI, reconstruction, captions or overlays.",
+      "collection": "Avenger",
+      "brandSlug": "breitling",
+      "catalogConfiguration": {
+        "caseSize": "44 mm",
+        "movement": "Breitling 01 automatic chronograph",
+        "dial": "Black",
+        "strapOrBracelet": "Anthracite calfskin leather strap",
+        "material": "Stainless Steel"
+      },
+      "identitySource": "https://www.breitling.com/us-en/watches/avenger/avenger-b01-chronograph-44-my23/AB0147101B1X1/",
+      "websiteApproved": false,
+      "reviewedAt": "2026-10-14T22:30:04.469102+00:00",
+      "masterSha256": "8bd41f309500f8e5621f9146df0b11224585575785213b6cedf4ac146e3a75fa",
+      "exactSkuEvidence": "Manufacturer exact-SKU product page and exact-SKU soldier image URL; dial/case/strap visually compared with catalog configuration",
+      "exactSkuVerified": true,
+      "driveFiles": {
+        "raw": {
+          "id": "12I-kAM8BtBpjGvV6K38tpKGIs8Vuv55g",
+          "sha256": "5bc911591b3fc309f4e9762b42eb15fa2a8adc8b58fa97f4ef9c0898d543fda0",
+          "folderId": "1EwU4nbht13ay5Obti9bjywK4rWLCxK_T"
+        },
+        "master": {
+          "id": "1XZM3SbVWspBLryd7HQWVfvmNva3PS0Ha",
+          "sha256": "8bd41f309500f8e5621f9146df0b11224585575785213b6cedf4ac146e3a75fa",
+          "folderId": "1vl6DzQFhMCHLjh0DcbZ5aM_s_TrZTW49"
+        },
+        "web": {
+          "id": "1fifTRIVNH8VMMAo7GOZbvjVf1u61j9U-",
+          "sha256": "3269175ea14ce67830ae1d7f3c8019f6f2b799a2059508d1fe602825e224c42c",
+          "folderId": "1lijATpBrmBmGnjmhTJmr0gpTa5YaOd8Z"
+        }
+      }
+    },
+    {
+      "brand": "Bell & Ross",
+      "reference": "BR0192-COMPASS-CA",
+      "exactSKU": "BR0192-COMPASS-CA",
+      "sourceUrl": "https://bellross.com/en/products/br-01-compass",
+      "sourcePagePath": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\retailer-source-bell-ross-BR0192-COMPASS-CA-3bb14708.html",
+      "sourcePageSha256": "94dd58c9b0ddfcb1138c56526f4d9bf665af330337553847740fafb54b5bdf51",
+      "imageUrl": "http://bellross.com/cdn/shop/files/BR01-92-Compass.png?crop=center&height=1200&v=1761059368&width=1200",
+      "sourceProvider": "Bell & Ross manufacturer/collaboration",
+      "rightsStatus": "HOLD specific new manufacturer-original commercial website-use rights not yet established",
+      "checkedAt": "2026-10-14T22:28:14.407988+00:00",
+      "reviewStatus": "Complete authentic RAW and full-resolution 1200-square final WEB visually reviewed; whole watch centered, blank white canvas, no overlay or source caption",
+      "size": [
+        876,
+        1050
+      ],
+      "mode": "RGBA",
+      "path": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\expanded-primary-originals\\BR0192-COMPASS-CA-raw.png",
+      "sha256": "db16dd096800a91944532aa637321d07c80f23a00ca890404e3c61dadd338ce3",
+      "status": "Authentic official original acquired; unchanged delivered bytes",
+      "whiteMaster": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\expanded-primary-four-white\\BR0192-COMPASS-CA-white-master.png",
+      "webDerivative": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\expanded-primary-four-white\\BR0192-COMPASS-CA-web.webp",
+      "derivativeSha256": "4a84e8420128f41adfbb770923b493e0a9de487e9d3dda6a18797c6f2132ca85",
+      "processing": "Original manufacturer RGB and watch alpha preserved; external translucent cast shadow suppressed with original opaque support plus two-pixel boundary envelope. Centered on blank 2400 white canvas, 1200 WEB. No AI, reconstruction, captions or overlays.",
+      "collection": "BR 01",
+      "brandSlug": "bell-and-ross",
+      "catalogConfiguration": {
+        "caseSize": "46 mm",
+        "movement": "Automatic",
+        "dial": "Instrument-style Compass",
+        "strapOrBracelet": "Black strap",
+        "material": "Black PVD steel"
+      },
+      "identitySource": "https://bellross.com/en/products/br-01-compass",
+      "websiteApproved": false,
+      "reviewedAt": "2026-10-14T22:30:04.679603+00:00",
+      "masterSha256": "3588b24b2c8b5ca819472de4605e37f78f8e78957776d1a5985bb62de371d979",
+      "exactSkuEvidence": "Manufacturer product JSON exact full SKU BR0192-COMPASS-CA linked to its Compass image",
+      "exactSkuVerified": true,
+      "driveFiles": {
+        "raw": {
+          "id": "10B-tgwcz2n1UZmfNnWqbB1iiPQDxGp4-",
+          "sha256": "db16dd096800a91944532aa637321d07c80f23a00ca890404e3c61dadd338ce3",
+          "folderId": "1EwU4nbht13ay5Obti9bjywK4rWLCxK_T"
+        },
+        "master": {
+          "id": "1oLqt2COZhDWmRPDUWTAXHyKntXOCnVNJ",
+          "sha256": "3588b24b2c8b5ca819472de4605e37f78f8e78957776d1a5985bb62de371d979",
+          "folderId": "1vl6DzQFhMCHLjh0DcbZ5aM_s_TrZTW49"
+        },
+        "web": {
+          "id": "1ekdrQ0Wz9wooz3l86q_0e25jE1XYcBSb",
+          "sha256": "4a84e8420128f41adfbb770923b493e0a9de487e9d3dda6a18797c6f2132ca85",
+          "folderId": "1lijATpBrmBmGnjmhTJmr0gpTa5YaOd8Z"
+        }
+      }
+    },
+    {
+      "brand": "Franck Muller",
+      "reference": "V 45 T BR (TT)",
+      "exactSKU": "V 45 T BR (TT)",
+      "sourceUrl": "https://www.franckmuller.com/vanguard",
+      "sourcePagePath": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\retailer-source-franck-muller-V-45-SC-DT-TT-NR-BR-ER-071604f4.html",
+      "sourcePageSha256": "3554535921a9e86f7f40f0dd61b0226eed4d0e839afeaa73438720f88c41f06e",
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/56a9e12ac647ad08eb4453c7/1485883220364-S7XO8MUDRKZJEZ1FIUHV/V-45-T-BR-noir-OG.png",
+      "sourceProvider": "Franck Muller manufacturer",
+      "rightsStatus": "HOLD specific new manufacturer-original commercial website-use rights not yet established",
+      "checkedAt": "2026-10-14T22:28:14.643696+00:00",
+      "reviewStatus": "Complete authentic RAW and full-resolution 1200-square final WEB visually reviewed; whole watch centered, blank white canvas, no overlay or source caption",
+      "size": [
+        1000,
+        1000
+      ],
+      "mode": "RGBA",
+      "path": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\expanded-primary-originals\\V-45-T-BR-TT--raw.png",
+      "sha256": "7731eb7ce75c55abdf5dc440cee5dfe41d63b7e72dde681555a367cb87a83ec0",
+      "status": "Authentic official original acquired; unchanged delivered bytes",
+      "whiteMaster": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\expanded-primary-four-white\\V-45-T-BR-TT--white-master.png",
+      "webDerivative": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\expanded-primary-four-white\\V-45-T-BR-TT--web.webp",
+      "derivativeSha256": "52999c2bd3afb88d3cd4b97adf7eee080f88c38fafe2f578655fbf4f841c6681",
+      "processing": "Original manufacturer RGB and watch alpha preserved; external translucent cast shadow suppressed with original opaque support plus two-pixel boundary envelope. Centered on blank 2400 white canvas, 1200 WEB. No AI, reconstruction, captions or overlays.",
+      "collection": "Vanguard Tourbillon",
+      "brandSlug": "franck-muller",
+      "catalogConfiguration": {
+        "caseSize": "Model-dependent",
+        "movement": "Mechanical tourbillon",
+        "dial": "Open tourbillon",
+        "strapOrBracelet": "Model-dependent",
+        "material": "Titanium"
+      },
+      "identitySource": "https://www.franckmuller.com/vanguard",
+      "websiteApproved": false,
+      "reviewedAt": "2026-10-14T22:30:04.722768+00:00",
+      "masterSha256": "9ce860611b741894fde71f2912a2a5dff46998a7d92c1d51fd8ece5b242032d9",
+      "exactSkuEvidence": "Manufacturer gallery title and image alt explicitly V 45 T BR (TT), linked to the observed full image; media filename contains OG but gallery caption identifies TT. Preserve explicit caption evidence and do not infer material solely from filename.",
+      "exactSkuVerified": true,
+      "driveFiles": {
+        "raw": {
+          "id": "1Tt7OFNa4PS-qKHd1aQXa5-_Vw0TKlL_y",
+          "sha256": "7731eb7ce75c55abdf5dc440cee5dfe41d63b7e72dde681555a367cb87a83ec0",
+          "folderId": "1EwU4nbht13ay5Obti9bjywK4rWLCxK_T"
+        },
+        "master": {
+          "id": "17BWyrgNk92LAp3A7e9kK68peMHEidcCf",
+          "sha256": "9ce860611b741894fde71f2912a2a5dff46998a7d92c1d51fd8ece5b242032d9",
+          "folderId": "1vl6DzQFhMCHLjh0DcbZ5aM_s_TrZTW49"
+        },
+        "web": {
+          "id": "1dJVdpgVHlwfoyr6NfirR6KZiWRdKXZzg",
+          "sha256": "52999c2bd3afb88d3cd4b97adf7eee080f88c38fafe2f578655fbf4f841c6681",
+          "folderId": "1lijATpBrmBmGnjmhTJmr0gpTa5YaOd8Z"
+        }
+      }
+    }
+  ],
+  "archivedAt": "2026-10-14T22:33:38.645903+00:00",
+  "driveFilesArchived": 12,
+  "archiveReadbackStatus": "All 12 file metadata readbacks passed; all local RAW/master/WEB hashes verified",
+  "sourceLogDriveId": "1Gwu0S_pqL4pNcl0jRCgw2WgUrvlo90d_"
+}

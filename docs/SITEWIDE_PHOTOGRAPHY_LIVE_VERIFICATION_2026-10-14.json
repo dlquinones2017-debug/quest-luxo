@@ -1,10 +1,10 @@
 {
-  "verifiedAt": "2026-10-14T21:36:28.050019+00:00",
+  "verifiedAt": "2026-10-14T22:19:17.802005+00:00",
   "expectedDistinctReferenceRoutes": 268,
   "verifiedReferenceRoutes": 268,
-  "approvedDistinctReferenceRoutes": 125,
-  "verifiedDistinctPhotoFiles": 124,
-  "queuedDistinctReferenceRoutes": 143,
+  "approvedDistinctReferenceRoutes": 126,
+  "verifiedDistinctPhotoFiles": 125,
+  "queuedDistinctReferenceRoutes": 142,
   "errors": [],
   "pages": [
     {
@@ -524,8 +524,10 @@
     },
     {
       "route": "/collections/franck-muller/vanguard/v45",
-      "approved": false,
-      "status": "verified"
+      "approved": true,
+      "status": "verified",
+      "verification": "Targeted live release delta",
+      "verifiedAt": "2026-10-14T22:10:33.925711+00:00"
     },
     {
       "route": "/collections/bell-and-ross/br-03/br0392-bl-ce",
@@ -1997,5 +1999,28 @@
     "at": "2026-10-14T21:38:02.176459+00:00",
     "transportFailuresRetried": 3,
     "noDeniedEndpointBypass": true
-  }
+  },
+  "verificationMethod": "Full public-route and delivered-file baseline plus targeted Vanguard release delta; unchanged routes were not redundantly rechecked after the delta",
+  "baselineVerification": {
+    "verifiedAt": "2026-10-14T21:36:28.050019+00:00",
+    "routes": 268,
+    "approvedRoutes": 125,
+    "photoFiles": 124
+  },
+  "releaseDelta": {
+    "mode": "live",
+    "verifiedAt": "2026-10-14T22:10:33.925711+00:00",
+    "route": "/collections/franck-muller/vanguard/v45",
+    "src": "/images/watches/franck-muller/franck-muller-vanguard-v-45-sc-dt-nr-br-er-web.webp",
+    "sha256": "73131e90d7ca65f689799ebb27d64021e50e1f8cfc60012d2e87d55c7d70adb9",
+    "fullSkuVerified": true,
+    "configurationVerified": true,
+    "collectionGridVerified": true,
+    "separateCreditsVerified": true,
+    "inquiryContextVerified": true,
+    "publicFlowsAvailable": true,
+    "leadSafety": "Public GET checks only; no private leads read or new records created"
+  },
+  "productionCommit": "9118969dc2ad5f12bbc1a50d778f792d5250c0fb",
+  "renderDeployId": "dep-db7vr4brjlhs73ckih00"
 }

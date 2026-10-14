@@ -1,14 +1,14 @@
 {
-  "updatedAt": "2026-10-14T22:08:49.582926+00:00",
+  "updatedAt": "2026-10-14T22:36:09.335064+00:00",
   "deadline": "2026-10-13T23:59:00-04:00",
   "objective": "Acquire authentic exact-reference photographs and populate every featured website reference without fabrication.",
   "worktree": "C:/Users/CAU Student/.codex/worktrees/launch-sprint/quest-luxo",
   "branch": "codex/launch-sprint",
   "baselineMain": "8c2f495e400badfa1effa88607ebbc2d384dfe2a",
   "canonicalReferences": 268,
-  "photographedReferences": 125,
-  "queuedReferences": 143,
-  "coverageStatus": "125/268 distinct public reference URLs have approved photography; 143 missing. 60/103 collections include photography. 269 registry records include a Zenith spelling alias sharing one URL. All 124 distinct delivered files verified by SHA-256.",
+  "photographedReferences": 126,
+  "queuedReferences": 142,
+  "coverageStatus": "126/268 distinct public reference URLs approved photographed; 142 pending. 61/103 collections include photography. 269 registry records; 125 distinct delivered image files verified by baseline plus targeted Vanguard release delta.",
   "mobileStatusThread": "01a1371a-fad5-7e03-8807-0ae850c74269",
   "mobileStatusTitle": "Quest Luxo Command Center V4",
   "mobileStatusAuthorized": true,
@@ -28,12 +28,12 @@
     "No AI-generated or reconstructed watch detail",
     "No invented specs, MSRP or availability"
   ],
-  "clearance": "Historical cleared sets remain approved. New founder continuation directive authorizes execution when rights, exact configuration, framing and file integrity are met; it explicitly does not establish rights to unrelated third-party imagery. Eight new Omega retailer sets are held pending specific rights confirmation.",
-  "nextBatch": "Deploy the existing cleared-library Vanguard recovery after passed release checks. Keep the eight Omega retailer sets held. Two new Navitimer 46 sets reviewed, pending rights/archive; 24 further exact Omega originals acquired, pending final source/configuration/derivative review and rights. Continue all other available acquisition work.",
-  "preparedPendingClearance": 8,
-  "preparedDriveFiles": 249,
-  "preparedManifest": "docs/OMEGA_EXPANSION_ARCHIVED_WAVE_2026-10-14.json",
-  "masterPages": 34,
+  "clearance": "Historical cleared assets remain approved. New 38 reviewed sets remain held for specific commercial image-use rights; prior execution authorization does not establish rights to unrelated originals.",
+  "nextBatch": "Canonical master 38 pages reviewed; archive complete for new 30 sets. Await specific rights decisions for total 38 held sets; continue remaining 104 acquisition/quality gaps, prioritizing 32 Omega.",
+  "preparedPendingClearance": 38,
+  "preparedDriveFiles": 339,
+  "preparedManifest": "docs/ADDITIONAL_OMEGA_NAVITIMER_ARCHIVED_2026-10-14.json; docs/PRIMARY_FOUR_ARCHIVED_2026-10-14.json; docs/OMEGA_EXPANSION_ARCHIVED_WAVE_2026-10-14.json",
+  "masterPages": 38,
   "preparedSourceLogs": [
     "NEXT_EXACT_PHOTOGRAPHY_WAVE_2026-10-13.json",
     "ROLEX_NEXT_PHOTOGRAPHY_WAVE_2026-10-13.json",
@@ -76,26 +76,30 @@
     "1UjfxHTENgAl1lT_G-o0AFV0ODxbJm2j8",
     "1Yt7z-P4lvw0kda0-FncMojwNeMHyJdhM"
   ],
-  "nextAcquisitionEvidence": "OMEGA_EXPANSION_ARCHIVED_WAVE_2026-10-14.json records eight reviewed sets with full SKU/configuration, RAW/master/WEB checksums, source-page hashes and all 24 Drive IDs. Commercial-use clearance is pending.",
+  "nextAcquisitionEvidence": "ADDITIONAL_OMEGA_NAVITIMER_REVIEWED_2026-10-14.json records 26 complete exact-SKU reviewed RAW/master/WEB sets; all structured SKU matches passed; archiving in progress.",
   "mobileMirrorStatus": "V4 remains the official reporting destination. Acquisition is resumed; meaningful progress will be sent there. V3 is superseded.",
   "rightsDecisionPending": {
-    "scope": "The eight exact Omega retailer sets in the archived wave",
+    "scope": "38 specific new originals: 32 Omega, four Breitling, one Bell and Ross Compass, one Franck Muller Vanguard Tourbillon",
     "status": "Human commercial website-use confirmation requested; execution approval alone is not proof of rights",
     "sourceProviders": [
       "The 1916 Company",
       "Sheiban Jewelers"
     ],
-    "sourceLogDriveId": "1a3FcN1GDG1OkuOt4lxmiWNbxQjRzwf1p"
+    "sourceLogDriveId": "1a3FcN1GDG1OkuOt4lxmiWNbxQjRzwf1p",
+    "sourceLogDriveIds": [
+      "1a3FcN1GDG1OkuOt4lxmiWNbxQjRzwf1p",
+      "12HFXTEdM3I_vZihJvQdlqX7A-xVNyZfK",
+      "1Gwu0S_pqL4pNcl0jRCgw2WgUrvlo90d_"
+    ]
   },
   "processingRuntime": "Task-local photography-runtime provides OpenCV and NumPy for classical non-generative boundary masks. Requires approved elevated execution to read its installed files. process_priority_wave.py preserves original interior pixels and masks only background. Every derivative requires visual review before publication.",
   "blockers": [
-    "Eight new retailer Omega sets await commercial website-use permission for originals and white-background derivatives.",
-    "Eight priority Omega manufacturer-page requests timed out; alternate independently documented authorized-retailer sources are being acquired.",
-    "Existing framing, resolution, generation, exact-SKU and configuration holds remain; do not reconstruct or substitute."
+    "38 newly reviewed exact-reference sets await specific commercial website-use rights. This does not block independent acquisition.",
+    "Other references retain documented exact-SKU, configuration, resolution or framing holds; continue independent acquisition."
   ],
   "dataSafety": "Do not modify runtime lead data or repeat private broker reads. Preserve original dirty checkout and newer main changes.",
-  "stillNeedsAcquisition": 135,
-  "nextAcquisitionPriorities": "Omega first: priority Sedna/colored rubber/Milano configurations; then remaining expanded and legacy families. Eight prepared Omega sets must not be reacquired.",
+  "stillNeedsAcquisition": 104,
+  "nextAcquisitionPriorities": "Remaining 32 Omega acquisition/quality gaps, then remaining expanded and legacy families. Do not reacquire the 34 already reviewed held sets.",
   "heldSourceOriginals": [
     {
       "reference": "IW388102",
@@ -148,46 +152,46 @@
   "builtQueuedReferences": 142,
   "publishedPreparedSets": 75,
   "productionPhotographyRelease": {
-    "commit": "84455ac7513f17df071e02223828d5b3913b3276",
-    "deployId": "dep-db7smvp7lnhs73fe91h0",
-    "verifiedAt": "2026-10-14T21:36:28.050019+00:00",
-    "canonicalPhotographed": 125,
-    "canonicalQueued": 143,
-    "photographedCollections": 60,
+    "commit": "9118969dc2ad5f12bbc1a50d778f792d5250c0fb",
+    "deployId": "dep-db7vr4brjlhs73ckih00",
+    "verifiedAt": "2026-10-14T22:10:33.925711+00:00",
+    "canonicalPhotographed": 126,
+    "canonicalQueued": 142,
+    "photographedCollections": 61,
     "totalCollections": 103,
     "total": 268,
-    "distinctPhotoFiles": 124,
-    "physicalPublishedSprintSets": 75
+    "distinctPhotoFiles": 125,
+    "physicalPublishedSprintSets": 75,
+    "verificationMethod": "Earlier full 268-route/124-file baseline plus targeted live Vanguard route and new image hash delta"
   },
   "clearanceDriveFileId": "1BI8HNHLSosAjzExINWoNxtzBER-FOzD5",
   "productionVerificationDriveFileId": "16ny-FBqkIk5yJolZPJr_4Lf_S1N-WiBg",
   "canonicalRegistryRecords": 269,
   "canonicalBrands": 23,
   "canonicalCollections": 103,
-  "productionBaselineMain": "84455ac7513f17df071e02223828d5b3913b3276",
+  "productionBaselineMain": "9118969dc2ad5f12bbc1a50d778f792d5250c0fb",
   "legacyPreparedManifest": "docs/PHOTOGRAPHY_PREPARED_PENDING_CLEARANCE_2026-10-13.json",
-  "newReviewedPhysicalSets": 8,
-  "newReviewedDriveFiles": 24,
+  "newReviewedPhysicalSets": 38,
+  "newReviewedDriveFiles": 114,
   "fullSiteAuditDriveFileId": "1Vl_UZMIcbQu3HASk1t1kJlMpH7RJdvAF",
   "fullSiteVerificationDriveFileId": "1P6Fcy7U8f8vFkFfUlJ0LujpoUUG1EzKx",
   "masterReview": {
-    "pages": 34,
-    "newPagesVisuallyReviewed": [
-      28,
-      29,
-      30,
-      31,
-      32,
-      33,
-      34
+    "pages": 38,
+    "unchangedHistoricalPages": 34,
+    "newPagesIndividuallyReviewed": [
+      35,
+      36,
+      37,
+      38
     ],
-    "priorReviewedPagesPixelIdentical": 27,
-    "driveReadbackSha256": "42a6f75c61c9ed65812215d5602105227c82a53af5438edbcfe90d9cfb0f4c77",
-    "allPendingReferenceUrlsRecorded": 143
+    "layoutResult": "Passed full-resolution visual inspection; no clipping or overflow",
+    "masterSha256": "18d5b32986f8b5812c14659280c4fd5024f417606430509d59c0d0e1642767a4",
+    "driveReadbackSha256": "18d5b32986f8b5812c14659280c4fd5024f417606430509d59c0d0e1642767a4",
+    "allPendingReferenceUrlsRecorded": 142
   },
   "preparedAssetIntegrity": {
-    "sets": 8,
-    "files": 24,
+    "sets": 38,
+    "files": 114,
     "allLocalHashesVerified": true,
     "masterSize": [
       2400,
@@ -202,14 +206,16 @@
   },
   "recoveredExistingLibrarySets": 1,
   "vanguardRelease": {
-    "status": "Validated and visually reviewed locally; deployment pending",
+    "status": "LIVE and public route, configuration, image hash and inquiry context verified",
     "record": "docs/PHOTOGRAPHY_VANGUARD_RECOVERY_2026-10-14.json",
     "sourceLogDriveId": "1XZsnA1kKAPJveL03e13BCqMKooRwX8rV",
     "reference": "V45",
     "exactSku": "V 45 SC DT TT NR BR ER",
     "targetPhotographedReferences": 126,
     "targetQueuedReferences": 142,
-    "targetPhotographedCollections": 61
+    "targetPhotographedCollections": 61,
+    "commit": "9118969dc2ad5f12bbc1a50d778f792d5250c0fb",
+    "deployId": "dep-db7vr4brjlhs73ckih00"
   },
   "continuationAcquisition": {
     "navitimerManufacturerSetsReviewed": 2,
@@ -220,6 +226,28 @@
       "IWC IW545801 product page HTTP 403"
     ],
     "newSources": "Artifact independent-continuation-source-evidence.json, next-observed-source-evidence.json and omega-sheiban-remaining-source-evidence.json",
-    "newOriginals": "Artifact navitimer-46-native-acquisition.json and omega-sheiban-remaining-acquisition.json"
-  }
+    "newOriginals": "Artifact navitimer-46-native-acquisition.json and omega-sheiban-remaining-acquisition.json",
+    "primaryAdditionalReviewedSets": 4,
+    "primaryAdditionalDriveFiles": 12,
+    "additionalSourcePagesAttempted": 29,
+    "additionalSourceAccessOrMissingPageHolds": 19,
+    "remainingOmegaAcquisitionGaps": 32
+  },
+  "productionCommit": "9118969dc2ad5f12bbc1a50d778f792d5250c0fb",
+  "productionDeployId": "dep-db7vr4brjlhs73ckih00",
+  "productionStatus": "LIVE",
+  "preparedSourceDriveRecords": [
+    "1a3FcN1GDG1OkuOt4lxmiWNbxQjRzwf1p",
+    "12HFXTEdM3I_vZihJvQdlqX7A-xVNyZfK",
+    "1Gwu0S_pqL4pNcl0jRCgw2WgUrvlo90d_"
+  ],
+  "rightsHeldSetBreakdown": {
+    "Omega": 32,
+    "Breitling": 4,
+    "Bell & Ross": 1,
+    "Franck Muller": 1
+  },
+  "newReviewedSetsSinceEightSetCheckpoint": 30,
+  "newDriveFilesSinceEightSetCheckpoint": 90,
+  "primaryFourSourceLogDriveId": "1Gwu0S_pqL4pNcl0jRCgw2WgUrvlo90d_"
 }

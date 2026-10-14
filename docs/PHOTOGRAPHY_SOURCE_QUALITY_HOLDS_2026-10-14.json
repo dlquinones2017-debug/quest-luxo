@@ -1,0 +1,297 @@
+{
+  "sourcePageAccessResults": [
+    {
+      "brand": "IWC",
+      "reference": "IW328801",
+      "sourceUrl": "https://www.iwc.com/us-en/watches/aquatimer/iw328801-aquatimer-automatic",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "brand": "IWC",
+      "reference": "IW371615",
+      "sourceUrl": "https://www.iwc.com/us-en/watches/portugieser/iw371615-portugieser-chronograph",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "brand": "IWC",
+      "reference": "IW388101",
+      "sourceUrl": "https://www.iwc.com/us-en/watches/pilot-watches/iw388101-pilots-watch-chronograph-41",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "brand": "Breitling",
+      "reference": "A17388101B1A1",
+      "sourceUrl": "https://www.breitling.com/xk-en/watches/colt/colt-automatic/A17388101B1A1/",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "brand": "Breitling",
+      "reference": "A32390111G1A1",
+      "sourceUrl": "https://www.breitling.com/xk-en/watches/avenger/avenger-ii-gmt/A32390111G1A1/",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "brand": "IWC",
+      "reference": "IW328901",
+      "sourceUrl": "https://www.iwc.com/us-en/watches/ingenieur/iw328901-ingenieur-automatic-40",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "brand": "IWC",
+      "reference": "IW356527",
+      "sourceUrl": "https://www.iwc.com/us-en/watches/portofino/iw356527-portofino-automatic",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "brand": "IWC",
+      "reference": "IW371617",
+      "sourceUrl": "https://www.iwc.com/us-en/watches/portugieser/iw371617-portugieser-chronograph",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "brand": "Cartier",
+      "reference": "WGRD0011",
+      "sourceUrl": "https://www.cartier.com/en-us/watches/collections/roadster/roadster-watch--CRWGRD0011.html",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "brand": "Panerai",
+      "reference": "PAM01641",
+      "sourceUrl": "https://www.panerai.com/us/en/collections/watch-collection/luminor/pam01641-luminor-gmt.html",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "brand": "Cartier",
+      "reference": "WSRD0014",
+      "sourceUrl": "https://www.cartier.com/en-pr/watches/collections/roadster/roadster-watch--CRWSRD0014",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "brand": "Vacheron Constantin",
+      "reference": "6000V/110A-B544",
+      "sourceUrl": "https://www.vacheron-constantin.com/us/en/collections/overseas/6000v-110a-b544.html",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "brand": "Hublot",
+      "reference": "429.NM.0170.RX",
+      "sourceUrl": "https://www.hublot.com/en-us/watches/big-bang/big-bang-tourbillon-automatic-titanium-ceramic-44-mm",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "brand": "Panerai",
+      "reference": "PAM00502",
+      "sourceUrl": "https://www.panerai.com/us/en/collections/special-editions-archive/2013/pam00502-radiomir-1940-chrono-monopulsante-8-days-gmt-oro-rosso-.html",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "brand": "TAG Heuer",
+      "reference": "CBL2111.FC6453",
+      "sourceUrl": "https://www.tagheuer.com/us/en/timepieces/collections/tag-heuer-monaco/39-mm-calibre-heuer02-automatic/CBL2111.FC6453.html",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "brand": "Hublot",
+      "reference": "542.CM.1171.RX",
+      "sourceUrl": "https://www.hublot.com/en-ch/watches/classic-fusion/classic-fusion-black-magic-42-mm",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "brand": "Hublot",
+      "reference": "542.CX.1270.RX.MDM",
+      "sourceUrl": "https://www.hublot.com/en-us/watches/classic-fusion/classic-fusion-original-black-magic-42-mm",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "brand": "TAG Heuer",
+      "reference": "CAR2A1Z.FT6044",
+      "sourceUrl": "https://www.tagheuer.com/us/en/timepieces/collections/tag-heuer-carrera/45-mm-calibre-heuer01-automatic/CAR2A1Z.FT6044.html",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "brand": "Bell & Ross",
+      "reference": "BR0192-REDRADAR",
+      "sourceUrl": "https://www.bellross.com/jp/es/https%3A/www.bellross.com/index.php?product_id=309&route=product%2Fproduct",
+      "error": "HTTP Error 404: Not Found"
+    }
+  ],
+  "qualityHolds": [
+    {
+      "brand": "IWC",
+      "reference": "IW545901",
+      "exactSKU": "IW545901",
+      "sourceUrl": "https://press.iwc.com/iwc-portugieser-hand-wound-tourbillon-day-and-night-en/",
+      "sourcePagePath": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\retailer-source-iwc-IW545901-b02757f9.html",
+      "sourcePageSha256": "84d1d44cbc0e047b56671a0654fe1e84a3e682c244877a8db28fbf0860e6a86e",
+      "imageUrl": "https://content.presspage.com/uploads/1859/8410e128-4a39-49ce-87b9-ad1ea40ddbdc/1920_iwc-iw545901.jpg?10000",
+      "sourceProvider": "IWC manufacturer/collaboration",
+      "rightsStatus": "Pending founder clearance for new official originals; not published",
+      "checkedAt": "2026-10-14T22:28:13.490055+00:00",
+      "reviewStatus": "Original and derivative review required",
+      "size": [
+        1274,
+        1200
+      ],
+      "mode": "RGB",
+      "path": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\expanded-primary-originals\\IW545901-raw.jpg",
+      "sha256": "7912a45cf37cd5cff05a5b964cdb555c7d9ff2d11f074f528d9d8522c09460b5",
+      "status": "Authentic official original acquired; unchanged delivered bytes",
+      "qualityHold": "Hero cuts both strap ends; front alternative only 600 square"
+    },
+    {
+      "brand": "IWC",
+      "reference": "IW545901",
+      "exactSKU": "IW545901-front",
+      "sourceUrl": "https://press.iwc.com/iwc-portugieser-hand-wound-tourbillon-day-and-night-en/",
+      "sourcePagePath": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\retailer-source-iwc-IW545901-b02757f9.html",
+      "sourcePageSha256": "84d1d44cbc0e047b56671a0654fe1e84a3e682c244877a8db28fbf0860e6a86e",
+      "imageUrl": "https://content.presspage.com/uploads/1859/c0691db9-0b90-48dc-8b1a-5d07a2d3a812/800_iw545901-front.jpg?10000",
+      "sourceProvider": "IWC manufacturer/collaboration",
+      "rightsStatus": "Pending founder clearance for new official originals; not published",
+      "checkedAt": "2026-10-14T22:28:13.491142+00:00",
+      "reviewStatus": "Original and derivative review required",
+      "size": [
+        600,
+        600
+      ],
+      "mode": "RGB",
+      "path": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\expanded-primary-originals\\IW545901-front-raw.jpg",
+      "sha256": "1797046c0612129a04bbe3328aae41f6ab817a60dbd826d97dce94fd8ff1e979",
+      "status": "Authentic official original acquired; unchanged delivered bytes",
+      "qualityHold": "Hero cuts both strap ends; front alternative only 600 square"
+    },
+    {
+      "brand": "Franck Muller",
+      "reference": "V 41 SC DT BEACH BU BL GF1",
+      "exactSKU": "V 41 SC DT BEACH BU BL GF1",
+      "sourceUrl": "https://www.referenceintime.com/collections/franck-muller-1/products/2026-franck-muller-vanguard-beach-blue-beach-41mm-glassfiber-v-41-sc-dt-beach-bu-bl-gf1-2",
+      "sourcePagePath": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\retailer-source-franck-muller-V-41-SC-DT-BEACH-BU-BL-GF1-2b9f4728.html",
+      "sourcePageSha256": "737d8bb54cceecd5d1ffb0c512f8075faed636b80d50ce7aac75b2e5736fab39",
+      "imageUrl": "https://www.referenceintime.com/cdn/shop/files/2025-01-31_10_bf95f812-356d-42be-8d21-0d38cd52ed25.jpg?v=1784739005&width=1200",
+      "sourceProvider": "Reference In Time product photography",
+      "rightsStatus": "Pending founder clearance for new official originals; not published",
+      "checkedAt": "2026-10-14T22:28:13.492178+00:00",
+      "reviewStatus": "Original and derivative review required",
+      "size": [
+        1200,
+        1600
+      ],
+      "mode": "RGB",
+      "path": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\expanded-primary-originals\\V-41-SC-DT-BEACH-BU-BL-GF1-raw.jpg",
+      "sha256": "6174bd207437b8a3a677d080f90f1ddafb32d6ae5bc252ea4c5eb08850534f74",
+      "status": "Authentic official original acquired; unchanged delivered bytes",
+      "qualityHold": "Hand-held framing and hidden strap, unsuitable catalog original"
+    },
+    {
+      "brand": "Franck Muller",
+      "reference": "7880 CH PNTS NR",
+      "exactSKU": "7880 CH PNTS NR",
+      "sourceUrl": "https://www.bamfordwatchdepartment.com/product/franck-muller-x-bwd-crazy-love-snoopy-limited-edition/",
+      "sourcePagePath": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\retailer-source-franck-muller-7880-CH-PNTS-NR-c23fc079.html",
+      "sourcePageSha256": "6da9095bc23b71688cad0328f28a92bb1424eb70e23b6ab5cc100e4759c898c9",
+      "imageUrl": "https://www.bamfordwatchdepartment.com/wp-content/uploads/2024/10/fm_snoop_crazyhours24-2.png",
+      "sourceProvider": "Franck Muller manufacturer/collaboration",
+      "rightsStatus": "Pending founder clearance for new official originals; not published",
+      "checkedAt": "2026-10-14T22:28:14.123790+00:00",
+      "reviewStatus": "Original and derivative review required",
+      "size": [
+        1000,
+        1005
+      ],
+      "mode": "RGBA",
+      "path": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\expanded-primary-originals\\7880-CH-PNTS-NR-raw.png",
+      "sha256": "df7467462448fd4fd92dae12b8c2e89698c699facaff30569cd44308fe670554",
+      "status": "Authentic official original acquired; unchanged delivered bytes",
+      "qualityHold": "Both strap ends cut by original frame"
+    },
+    {
+      "brand": "Franck Muller",
+      "reference": "V 45 SC DT BTC TT BR (NR)",
+      "exactSKU": "V 45 SC DT BTC TT BR (NR)",
+      "sourceUrl": "https://www.franckmuller.com/fr/vanguard-encrypto-",
+      "sourcePagePath": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\retailer-source-franck-muller-V-45-SC-DT-BTC-TT-BR-NR--5787d0ef.html",
+      "sourcePageSha256": "3444d00a35193d15b434972eee25ad421c78ca7e69397a512df5200a59a16ee1",
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/56a9e12ac647ad08eb4453c7/1602236819465-SZ6EDX7HIRTSSUMKRE02/04-6-1-13-10-1.png",
+      "sourceProvider": "Franck Muller manufacturer/collaboration",
+      "rightsStatus": "Pending founder clearance for new official originals; not published",
+      "checkedAt": "2026-10-14T22:28:14.161427+00:00",
+      "reviewStatus": "Original and derivative review required",
+      "size": [
+        350,
+        550
+      ],
+      "mode": "RGBA",
+      "path": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\expanded-primary-originals\\V-45-SC-DT-BTC-TT-BR-NR--raw.png",
+      "sha256": "b173dcb173eb8b49bbb2f7b00df8252ff4cff32a1f56ac913672a07870fb11a0",
+      "status": "Authentic official original acquired; unchanged delivered bytes",
+      "qualityHold": "Native original only 350 by 550; insufficient publication resolution"
+    },
+    {
+      "brand": "Franck Muller",
+      "reference": "V 45 SC POPEYE LTD TT NR BR NR",
+      "exactSKU": "V 45 SC POPEYE LTD TT NR BR NR",
+      "sourceUrl": "https://www.phillips.com/detail/franck-muller-x-bamford/231238",
+      "sourcePagePath": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\retailer-source-franck-muller-V-45-SC-POPEYE-LTD-TT-NR-BR-NR-66933568.html",
+      "sourcePageSha256": "e560baae30fe8db6a786e1c4a18d5c039be2ca7a151e89f4c85abc8141abe9e7",
+      "imageUrl": "https://dist.phillips.com/auction-assets/HK080126/231238_001.jpg?fit=cover&optimize=medium&width=1302",
+      "sourceProvider": "Franck Muller manufacturer/collaboration",
+      "rightsStatus": "Pending founder clearance for new official originals; not published",
+      "checkedAt": "2026-10-14T22:28:14.201940+00:00",
+      "reviewStatus": "Original and derivative review required",
+      "size": [
+        1302,
+        1675
+      ],
+      "mode": "RGB",
+      "path": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\expanded-primary-originals\\V-45-SC-POPEYE-LTD-TT-NR-BR-NR-raw.jpg",
+      "sha256": "f2ad43fcc2d2e90b75d7a0848c58ab223d1a044ffc4abd7324b2cfd656a1f89b",
+      "status": "Authentic official original acquired; unchanged delivered bytes",
+      "qualityHold": "Both strap ends cut by original frame"
+    },
+    {
+      "brand": "Richard Mille",
+      "reference": "RM 27-05",
+      "exactSKU": "RM 27-05",
+      "sourceUrl": "https://www.richardmille.com/collections/rm-27-05-flying-tourbillon-rafael-nadal",
+      "sourcePagePath": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\retailer-source-richard-mille-RM-27-05-b56cc108.html",
+      "sourcePageSha256": "238fe5691d5fbbfa197b6bd83aecdb06f0aef933e97ead6c43a1be566686a5e9",
+      "imageUrl": "https://media.richardmille.com/wp-content/uploads/2024/05/16164749/richard-mille-rm-27-05-flying-tourbillon-rafael-nadal-95125.png?dpr=1&width=2000",
+      "sourceProvider": "Richard Mille manufacturer/collaboration",
+      "rightsStatus": "Pending founder clearance for new official originals; not published",
+      "checkedAt": "2026-10-14T22:28:14.528892+00:00",
+      "reviewStatus": "Original and derivative review required",
+      "size": [
+        749,
+        1000
+      ],
+      "mode": "P",
+      "path": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\expanded-primary-originals\\RM-27-05-raw.png",
+      "sha256": "ce0a8b1e03e060829edaf3141a20d15508a7dfec4d4e83033075e152eb423084",
+      "status": "Authentic official original acquired; unchanged delivered bytes",
+      "qualityHold": "Both strap ends fade or crop into original background; incomplete watch"
+    },
+    {
+      "brand": "Richard Mille",
+      "reference": "RM 67-01",
+      "exactSKU": "RM 67-01",
+      "sourceUrl": "https://www.richardmille.com/collections/rm-67-01-automatic-extra-flat",
+      "sourcePagePath": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\retailer-source-richard-mille-RM-67-01-369326cb.html",
+      "sourcePageSha256": "8ec50b499064e13d3a4bc56fcf36a2cee9ba3f00891813f4e495267f45c8f7b8",
+      "imageUrl": "https://media.richardmille.com/wp-content/uploads/2019/01/21132511/RM-67-01_front.png?dpr=1&width=2000",
+      "sourceProvider": "Richard Mille manufacturer/collaboration",
+      "rightsStatus": "Pending founder clearance for new official originals; not published",
+      "checkedAt": "2026-10-14T22:28:14.622514+00:00",
+      "reviewStatus": "Original and derivative review required",
+      "size": [
+        500,
+        668
+      ],
+      "mode": "P",
+      "path": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\expanded-primary-originals\\RM-67-01-raw.png",
+      "sha256": "9fa8923ee7cc0b5bd6a415c96f77bd19beb1c6532189b1815aec325a844524a8",
+      "status": "Authentic official original acquired; unchanged delivered bytes",
+      "qualityHold": "Both strap ends fade or crop into original background; incomplete watch and small native original"
+    }
+  ],
+  "policy": "No denied endpoint bypass; no cropped or faded strap reconstruction; no unsuitable hand-held framing; no insufficient-resolution publication"
+}
