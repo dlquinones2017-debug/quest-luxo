@@ -1181,10 +1181,10 @@ export const verifiedExpansionRows: readonly VerifiedRow[] = [
     "Speedmaster Moonwatch Steel Sedna Gold",
     "42 mm",
     "Omega 3861 manual chronograph",
-    "Silver non-wave",
+    "Pink sun-brushed non-wave",
     "Stainless-steel and Sedna Gold bracelet",
     "Stainless Steel and 18K Sedna Gold",
-    "https://press.omegawatches.com/omega-at-the-31st-critics-choice-awards-33095/"
+    "https://www.omegawatches.com.hk/en-hk/watch-omega-speedmaster-moonwatch-professional-co-axial-master-chronometer-chronograph-42-mm-31020425099001"
   ],
   [
     "Omega",
@@ -1199,6 +1199,48 @@ export const verifiedExpansionRows: readonly VerifiedRow[] = [
     "18K Sedna Gold bracelet",
     "18K Sedna Gold",
     "https://press.omegawatches.com/omega-at-the-31st-critics-choice-awards-33095/"
+  ],
+  [
+    "Omega",
+    "omega",
+    "Aqua Terra",
+    "aqua-terra",
+    "220.10.38.20.13.003",
+    "Seamaster Aqua Terra Shades Terracotta",
+    "38 mm",
+    "Omega 8800 automatic",
+    "Terracotta sun-brushed non-wave",
+    "Stainless-steel bracelet",
+    "Stainless Steel",
+    "https://sheibanjewelers.com/products/omega-seamaster-aqua-terra-38mm-orange-terracotta-dial-on-bracelet-22010382013003"
+  ],
+  [
+    "Omega",
+    "omega",
+    "Aqua Terra",
+    "aqua-terra",
+    "220.10.38.20.03.003",
+    "Seamaster Aqua Terra Shades Atlantic Blue",
+    "38 mm",
+    "Omega 8800 automatic",
+    "Atlantic Blue sun-brushed non-wave",
+    "Stainless-steel bracelet",
+    "Stainless Steel",
+    "https://sheibanjewelers.com/products/omega-seamaster-aqua-terra-38mm-atlantic-blue-dial-on-bracelet-22010382003003"
+  ],
+  [
+    "Omega",
+    "omega",
+    "Seamaster Diver 300M",
+    "seamaster-diver-300m",
+    "210.20.42.20.03.002",
+    "Seamaster Diver 300M Blue Steel Sedna Gold Bracelet",
+    "42 mm",
+    "Omega 8800 automatic",
+    "Blue ceramic wave",
+    "Stainless-steel and Sedna Gold bracelet",
+    "Stainless Steel and 18K Sedna Gold",
+    "https://www.omegawatches.com.tw/watch-omega-seamaster-diver-300m-co-axial-master-chronometer-42-mm-21020422003002"
   ]
 ];
 
