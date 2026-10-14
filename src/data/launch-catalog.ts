@@ -107,6 +107,20 @@ const launchReferenceSeeds: readonly LaunchReferenceSeed[] = [
     sourceUrl: "https://www.vacheron-constantin.com/us/en/collections/historiques/82035-000r-h114.html",
   },
   {
+    brand: "Tudor", brandSlug: "tudor", collection: "Black Bay Chrono", collectionSlug: "black-bay-chrono",
+    reference: "M79360N-0024", model: "Black Bay Chrono Flamingo Blue",
+    configuration: { caseSize: "41 mm", movement: "Manufacture Calibre MT5813 (COSC)", dial: "Flamingo Blue", bracelet: "Five-link stainless steel bracelet", waterResistance: "200 m" },
+    material: "Stainless Steel", overview: "Flamingo Blue Black Bay Chrono. Distinct exact-reference catalog profile; not a stock offer. Image rights and current pricing require separate verification.",
+    sourceUrl: "https://www.tudorwatch.com/en/watches/black-bay-chrono/m79360n-0024",
+  },
+  {
+    brand: "Tudor", brandSlug: "tudor", collection: "Black Bay Chrono", collectionSlug: "black-bay-chrono",
+    reference: "M79360N-0019", model: "Black Bay Chrono Pink",
+    configuration: { caseSize: "41 mm", movement: "Manufacture Calibre MT5813 (COSC)", dial: "Pink with black subdials", bracelet: "Five-link stainless steel bracelet", waterResistance: "200 m" },
+    material: "Stainless Steel", overview: "Pink-dial Black Bay Chrono. Distinct exact-reference catalog profile; not a stock offer. Image rights and current pricing require separate verification.",
+    sourceUrl: "https://www.tudorwatch.com/en/watches/black-bay-chrono/m79360n-0019",
+  },
+  {
     brand: "Franck Muller", brandSlug: "franck-muller", collection: "Rabbit", collectionSlug: "rabbit",
     reference: "V 41 SC DT FR2 GFGRNR (NR)", model: "#FR2NCK MULLER Vanguard",
     configuration: { caseSize: "41 mm", movement: "Self-winding FM 800-DT", dial: "Matte White", bracelet: "White textile strap", waterResistance: "30 m" },
