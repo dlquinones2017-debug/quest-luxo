@@ -723,6 +723,48 @@ export const verifiedExpansionRows: readonly VerifiedRow[] = [
     "Stainless-steel bracelet",
     "Stainless Steel",
     "https://www.breitling.com/xk-en/watches/avenger/avenger-ii-gmt/A32390111G1A1/"
+  ],
+  [
+    "Omega",
+    "omega",
+    "Seamaster Diver 300M",
+    "seamaster-diver-300m",
+    "210.30.42.20.03.002",
+    "Seamaster James Bond 60th Anniversary",
+    "42 mm",
+    "Omega 8806 automatic",
+    "Blue wave",
+    "Stainless-steel mesh bracelet",
+    "Stainless Steel",
+    "https://www.omegawatches.com.hk/en-hk/watch-omega-seamaster-diver-300m-co-axial-master-chronometer-42-mm-21030422003002"
+  ],
+  [
+    "Omega",
+    "omega",
+    "Seamaster 300",
+    "seamaster-300",
+    "233.32.41.21.01.001",
+    "Seamaster 300 SPECTRE 007 Limited Edition",
+    "41 mm",
+    "Omega 8400 automatic",
+    "Black",
+    "Black and gray NATO strap",
+    "Stainless Steel",
+    "https://www.omegawatches.com.hk/en-hk/watch-omega-seamaster-300-master-co-axial-chronometer-41-mm-23332412101001"
+  ],
+  [
+    "IWC",
+    "iwc",
+    "Portugieser",
+    "portugieser",
+    "IW545901",
+    "Portugieser Hand-Wound Tourbillon Day & Night",
+    "42.4 mm",
+    "IWC 81925 manual flying tourbillon",
+    "Obsidian black",
+    "Model-specific leather strap",
+    "18K Armor Gold",
+    "https://press.iwc.com/iwc-portugieser-hand-wound-tourbillon-day-and-night-en/"
   ]
 ];
 
