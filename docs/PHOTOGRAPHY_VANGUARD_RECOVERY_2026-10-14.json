@@ -1,0 +1,40 @@
+{
+  "title": "Recovery of existing cleared Franck Muller Vanguard photograph",
+  "reviewedAt": "2026-10-14T22:02:52.928590+00:00",
+  "canonicalReference": "V45",
+  "exactPhotographedReference": "V 45 SC DT TT NR BR ER",
+  "canonicalRoute": "/collections/franck-muller/vanguard/v45",
+  "rightsBasis": "Founder explicitly confirmed commercial Quest Luxo website-use permission for manufacturer photographs already in the Drive photography library on October 13, 2026. This exact original is an existing library photograph, not a newly sourced retailer image.",
+  "originalDriveFileId": "1qkB2JuO9xfJB_PTGc6N49px4xnhPqIBq",
+  "originalPreservedSha256": "43a219f09cb4a426294ccbbae2e067fde51b5985b65b5e549a16944e5ca67beb",
+  "existingDriveOriginalReadbackMatches": true,
+  "manufacturerSource": "https://www.franckmuller.com/vanguard",
+  "manufacturerSourcePageSha256": "3554535921a9e86f7f40f0dd61b0226eed4d0e839afeaa73438720f88c41f06e",
+  "manufacturerObservedExactSkuMediaUrl": "https://images.squarespace-cdn.com/content/v1/56a9e12ac647ad08eb4453c7/1474032220194-G4K8HBJE4WZ8CRWS7FXX/NR-V-45-SC-DT-TT-NR-BR-ER-cd-NR-BLC-ER-TT.png",
+  "manufacturerMediaSha256": "6c282b06f03b28fbc0ace06bc17f1f348efe75e34548fdbe5014470a38c6991e",
+  "decodedRgbaPixelSha256": "1babe78860b2d3eae234da0544edd1114c40f80a2fdf7f7646273835d1e577b1",
+  "identityEvidence": "Preserved existing Drive RAW and observed manufacturer media have identical dimensions and every decoded RGBA pixel. Encoded bytes differ; neither source original is overwritten. The manufacturer media filename explicitly identifies V-45-SC-DT-TT-NR-BR-ER, resolving the earlier generic-family identity hold.",
+  "caseMovementCorroboration": {
+    "sourceUrl": "https://www.christies.com/en/lot/lot-6231313",
+    "exactReference": "V45 SC DT TT NR BR ER",
+    "caseMaterial": "Black titanium",
+    "caseSize": "44 mm wide; 53 mm overall length",
+    "movement": "Self-winding calibre FM800"
+  },
+  "picturedConfiguration": {
+    "material": "Black titanium",
+    "dial": "Black with red-outlined white Arabic numerals",
+    "bracelet": "Black textured strap with red stitching",
+    "caseSize": "44 mm wide; 53 mm overall length",
+    "movement": "Self-winding calibre FM800"
+  },
+  "strapEvidence": "Exact manufacturer image pixels confirm the pictured black textured strap and red stitching; no unverified strap hide/material or water-resistance claim is added.",
+  "whiteMasterSha256": "84b57bd3c290a6ded0c3b6582ba29526862d9540beeb61e5448e83dcbd5eaee7",
+  "webSha256": "73131e90d7ca65f689799ebb27d64021e50e1f8cfc60012d2e87d55c7d70adb9",
+  "masterDriveFileId": "1sOmoPcrzLGWh9C3qrx8j51QTpz5Y4-cS",
+  "webDriveFileId": "1nxT85_XeKT8JfcOcPo8MS1rrZlywvOgp",
+  "visualReview": "Complete authentic RAW and full-resolution final WEB reviewed; original native alpha and interior detail retained, centered blank white canvas, no captions or overlays.",
+  "publicationStatus": "Integrated pending release checks and deployment",
+  "newlyAcquiredPhysicalSets": 0,
+  "existingClearedSetsRecovered": 1
+}

@@ -1807,5 +1807,28 @@ export const clearedSprintPhotographySeeds: readonly PhotographySeed[] = [
     "sourceProvider": "The 1916 Company / WatchBox product photography",
     "reviewedAt": "2026-10-14",
     "assetId": "cleared-sprint-1FLjp5PbDHCEeSCzyliq3Tc_FoEumWKpW"
+  },
+  {
+    "brand": "Franck Muller",
+    "brandSlug": "franck-muller",
+    "collection": "Vanguard",
+    "reference": "V45",
+    "exactReference": "V 45 SC DT TT NR BR ER",
+    "model": "Vanguard Automatic Black Titanium Red Accents",
+    "material": "Black titanium",
+    "configuration": {
+      "dial": "Black with red-outlined white Arabic numerals",
+      "bracelet": "Black textured strap with red stitching",
+      "caseSize": "44 mm wide; 53 mm overall length",
+      "movement": "Self-winding calibre FM800"
+    },
+    "sourceUrl": "https://www.franckmuller.com/vanguard",
+    "src": "/images/watches/franck-muller/franck-muller-vanguard-v-45-sc-dt-nr-br-er-web.webp",
+    "sha256": "73131e90d7ca65f689799ebb27d64021e50e1f8cfc60012d2e87d55c7d70adb9",
+    "rawDriveFileId": "1qkB2JuO9xfJB_PTGc6N49px4xnhPqIBq",
+    "clearanceRecord": "Founder confirmed Quest Luxo website-use permission for manufacturer photographs already in Drive on October 13, 2026. Existing RAW readback and every decoded RGBA pixel match the observed exact-SKU manufacturer resource. Identity hold resolved in docs/PHOTOGRAPHY_VANGUARD_RECOVERY_2026-10-14.json. No new third-party permission is inferred.",
+    "sourceProvider": "Franck Muller product photography",
+    "reviewedAt": "2026-10-14",
+    "assetId": "cleared-library-vanguard-1qkB2JuO9xfJB_PTGc6N49px4xnhPqIBq"
   }
 ];
