@@ -1,14 +1,14 @@
 {
-  "reviewedAt": "2026-10-14T10:44:11.593Z",
+  "reviewedAt": "2026-10-14T10:54:20.558Z",
   "note": "Generated from all exported source datasets and built routes. Source-only and duplicate configuration records are retained for review; this register is not proof of image rights. Source URLs identify research leads, not licenses.",
   "summary": {
-    "sourceConfigurations": 541,
+    "sourceConfigurations": 550,
     "builtReferenceRoutes": 168,
     "collectionRoutes": 71,
-    "approvedReferenceConfigurations": 220,
+    "approvedReferenceConfigurations": 226,
     "unmatchedReferenceRoutes": 0,
-    "approvedCanonicalReferenceRoutes": 122,
-    "queuedCanonicalReferenceRoutes": 46
+    "approvedCanonicalReferenceRoutes": 125,
+    "queuedCanonicalReferenceRoutes": 43
   },
   "collections": [
     {
@@ -6502,25 +6502,33 @@
           "movement": "Automatic",
           "dial": "Reference-dependent",
           "bracelet": "Leather or rubber-coated strap"
+        },
+        {
+          "dial": "Blue sodalite stone with white-gold numerals and baguette diamond markers",
+          "bracelet": "Blue alligator leather strap",
+          "caseSize": "41 mm",
+          "movement": "Self-winding",
+          "nickname": "Blue sodalite stone with white-gold numerals and baguette diamond markers / Blue alligator leather strap",
+          "originalMSRP": null,
+          "currentMSRP": null
         }
       ],
-      "material": "Precious Metal or Ceramic Composite",
+      "material": "18K white gold",
       "sources": [
-        "src/data/collectionRegistry.ts",
-        "src/data/reference-expansion.ts"
+        "src/data/collectionRegistry.ts"
       ],
       "routes": [
         "/collections/audemars-piguet/code-1159/code-11-59-selfwinding"
       ],
       "scope": "built-reference",
-      "existingImage": "/images/watch-reference-placeholder.svg",
+      "existingImage": "/images/watches/audemars-piguet/reviewed-15210bc-oo-a021cr-01-white-web.webp",
       "existingImageFilePresent": true,
-      "photoAssetId": null,
-      "status": "Requires Verification",
-      "sourceUrl": null,
-      "licenseRecord": null,
-      "websiteApproved": false,
-      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+      "photoAssetId": "cleared-sprint-1FLjp5PbDHCEeSCzyliq3Tc_FoEumWKpW",
+      "status": "approved",
+      "sourceUrl": "https://www.the1916company.com/pre-owned/audemars-piguet/code-11-59/5079111/",
+      "licenseRecord": "Founder directly confirmed remaining-sprint website-use rights and authorized publication October14,2026 in V4. Exact source/configuration, complete framing and final white derivative reviewed before integration. Record PHOTOGRAPHY_FOUNDER_CLEARANCE_2026-10-14.json. Preserved RAW file: 1FLjp5PbDHCEeSCzyliq3Tc_FoEumWKpW. Pictured full reference 15210BC.OO.A021CR.01; 18K white gold, Blue sodalite stone with white-gold numerals and baguette diamond markers, Blue alligator leather strap. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
     },
     {
       "brand": "Audemars Piguet",
@@ -6532,25 +6540,33 @@
           "movement": "Automatic flyback chronograph",
           "dial": "Reference-dependent",
           "bracelet": "Leather or rubber-coated strap"
+        },
+        {
+          "dial": "Green chronograph with rose-gold index markers",
+          "bracelet": "Green rubber-coated strap",
+          "caseSize": "41 mm",
+          "movement": "Self-winding flyback chronograph",
+          "nickname": "Green chronograph with rose-gold index markers / Green rubber-coated strap",
+          "originalMSRP": null,
+          "currentMSRP": null
         }
       ],
-      "material": "Precious Metal or Ceramic Composite",
+      "material": "18K rose gold",
       "sources": [
-        "src/data/collectionRegistry.ts",
-        "src/data/reference-expansion.ts"
+        "src/data/collectionRegistry.ts"
       ],
       "routes": [
         "/collections/audemars-piguet/code-1159/code-11-59-chronograph"
       ],
       "scope": "built-reference",
-      "existingImage": "/images/watch-reference-placeholder.svg",
+      "existingImage": "/images/watches/audemars-piguet/reviewed-26393or-oo-a056kb-01-white-web.webp",
       "existingImageFilePresent": true,
-      "photoAssetId": null,
-      "status": "Requires Verification",
-      "sourceUrl": null,
-      "licenseRecord": null,
-      "websiteApproved": false,
-      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+      "photoAssetId": "cleared-sprint-1P96W4NOMN4mx2ePkD1H2_-IyVEchqxBf",
+      "status": "approved",
+      "sourceUrl": "https://www.the1916company.com/pre-owned/audemars-piguet/code-11-59/5058465/",
+      "licenseRecord": "Founder directly confirmed remaining-sprint website-use rights and authorized publication October14,2026 in V4. Exact source/configuration, complete framing and final white derivative reviewed before integration. Record PHOTOGRAPHY_FOUNDER_CLEARANCE_2026-10-14.json. Preserved RAW file: 1P96W4NOMN4mx2ePkD1H2_-IyVEchqxBf. Pictured full reference 26393OR.OO.A056KB.01; 18K rose gold, Green chronograph with rose-gold index markers, Green rubber-coated strap. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
     },
     {
       "brand": "Cartier",
@@ -8186,25 +8202,34 @@
           "waterResistance": "30 m",
           "originalMSRP": null,
           "currentMSRP": null
+        },
+        {
+          "dial": "Silvered with small seconds",
+          "bracelet": "Dark-brown alligator leather strap",
+          "caseSize": "38 mm",
+          "movement": "Manual-winding calibre 4400 AS",
+          "waterResistance": "30 m",
+          "nickname": "Silvered with small seconds / Dark-brown alligator leather strap",
+          "originalMSRP": null,
+          "currentMSRP": null
         }
       ],
-      "material": "18K Pink Gold",
+      "material": "18K 5N pink gold",
       "sources": [
-        "src/data/collectionRegistry.ts",
-        "src/data/launch-catalog.ts"
+        "src/data/collectionRegistry.ts"
       ],
       "routes": [
         "/collections/vacheron-constantin/traditionnelle/82172-000r-9382"
       ],
       "scope": "built-reference",
-      "existingImage": "/images/watch-reference-placeholder.svg",
+      "existingImage": "/images/watches/vacheron-constantin/reviewed-82172-000r-9382-white-web.webp",
       "existingImageFilePresent": true,
-      "photoAssetId": null,
-      "status": "Requires Verification",
-      "sourceUrl": "https://www.vacheron-constantin.com/us/en/collections/traditionnelle/82172-000r-9382.html",
-      "licenseRecord": null,
-      "websiteApproved": false,
-      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+      "photoAssetId": "cleared-sprint-1Qj1GUYdmHDTeahd737bF1Xl9pzZFJKT1",
+      "status": "approved",
+      "sourceUrl": "https://www.watches-of-switzerland.co.uk/Vacheron-Constantin-Traditionnelle-Watch-82172/000R%2B9382/p/17510052",
+      "licenseRecord": "Founder directly confirmed remaining-sprint website-use rights and authorized publication October14,2026 in V4. Exact source/configuration, complete framing and final white derivative reviewed before integration. Record PHOTOGRAPHY_FOUNDER_CLEARANCE_2026-10-14.json. Preserved RAW file: 1Qj1GUYdmHDTeahd737bF1Xl9pzZFJKT1. Pictured full reference 82172/000R-9382; 18K 5N pink gold, Silvered with small seconds, Dark-brown alligator leather strap. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
     },
     {
       "brand": "Vacheron Constantin",
@@ -8861,6 +8886,38 @@
       "photoAssetId": null,
       "status": "Requires Verification",
       "sourceUrl": "https://www.hublot.com/en-us/watches/big-bang/spirit-of-big-bang-titanium-42-mm",
+      "licenseRecord": null,
+      "websiteApproved": false,
+      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+    },
+    {
+      "brand": "Vacheron Constantin",
+      "collection": "Traditionnelle",
+      "reference": "82172/000R-9382",
+      "configurations": [
+        {
+          "caseSize": "38 mm",
+          "movement": "Manual-winding calibre 4400 AS",
+          "dial": "Silver-toned opaline",
+          "bracelet": "Brown alligator leather strap",
+          "waterResistance": "30 m",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "18K Pink Gold",
+      "sources": [
+        "src/data/launch-catalog.ts"
+      ],
+      "routes": [
+        "/collections/vacheron-constantin/traditionnelle/82172-000r-9382"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": null,
+      "status": "Requires Verification",
+      "sourceUrl": "https://www.vacheron-constantin.com/us/en/collections/traditionnelle/82172-000r-9382.html",
       "licenseRecord": null,
       "websiteApproved": false,
       "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
@@ -11048,6 +11105,72 @@
       "routes": [
         "/collections/hublot/big-bang/441-nx-1171-rx",
         "/collections/hublot/big-bang-unico/441-nx-1171-rx"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": null,
+      "status": "Requires Verification",
+      "sourceUrl": null,
+      "licenseRecord": null,
+      "websiteApproved": false,
+      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+    },
+    {
+      "brand": "Vacheron Constantin",
+      "collection": "Traditionnelle",
+      "reference": "82172/000R-9382",
+      "configurations": [],
+      "material": "18K 5N pink gold",
+      "sources": [
+        "src/data/photography-cleared-sprint.ts"
+      ],
+      "routes": [
+        "/collections/vacheron-constantin/traditionnelle/82172-000r-9382"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": null,
+      "status": "Requires Verification",
+      "sourceUrl": null,
+      "licenseRecord": null,
+      "websiteApproved": false,
+      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+    },
+    {
+      "brand": "Audemars Piguet",
+      "collection": "Code 11.59",
+      "reference": "Code 11.59 Chronograph",
+      "configurations": [],
+      "material": "18K rose gold",
+      "sources": [
+        "src/data/photography-cleared-sprint.ts"
+      ],
+      "routes": [
+        "/collections/audemars-piguet/code-1159/code-11-59-chronograph"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": null,
+      "status": "Requires Verification",
+      "sourceUrl": null,
+      "licenseRecord": null,
+      "websiteApproved": false,
+      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+    },
+    {
+      "brand": "Audemars Piguet",
+      "collection": "Code 11.59",
+      "reference": "Code 11.59 Selfwinding",
+      "configurations": [],
+      "material": "18K white gold",
+      "sources": [
+        "src/data/photography-cleared-sprint.ts"
+      ],
+      "routes": [
+        "/collections/audemars-piguet/code-1159/code-11-59-selfwinding"
       ],
       "scope": "built-reference",
       "existingImage": null,
@@ -13455,6 +13578,103 @@
       "nextAction": "Retain approved original and verify derivative integrity."
     },
     {
+      "brand": "Vacheron Constantin",
+      "collection": "Traditionnelle",
+      "reference": "82172/000R-9382",
+      "configurations": [
+        {
+          "dial": "Silvered with small seconds",
+          "bracelet": "Dark-brown alligator leather strap",
+          "caseSize": "38 mm",
+          "movement": "Manual-winding calibre 4400 AS",
+          "waterResistance": "30 m",
+          "nickname": "Silvered with small seconds / Dark-brown alligator leather strap",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "18K 5N pink gold",
+      "sources": [
+        "src/data/photography-expansion.ts"
+      ],
+      "routes": [
+        "/collections/vacheron-constantin/traditionnelle/82172-000r-9382"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": "cleared-sprint-1Qj1GUYdmHDTeahd737bF1Xl9pzZFJKT1",
+      "status": "approved",
+      "sourceUrl": "https://www.watches-of-switzerland.co.uk/Vacheron-Constantin-Traditionnelle-Watch-82172/000R%2B9382/p/17510052",
+      "licenseRecord": "Founder directly confirmed remaining-sprint website-use rights and authorized publication October14,2026 in V4. Exact source/configuration, complete framing and final white derivative reviewed before integration. Record PHOTOGRAPHY_FOUNDER_CLEARANCE_2026-10-14.json. Preserved RAW file: 1Qj1GUYdmHDTeahd737bF1Xl9pzZFJKT1. Pictured full reference 82172/000R-9382; 18K 5N pink gold, Silvered with small seconds, Dark-brown alligator leather strap. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
+      "brand": "Audemars Piguet",
+      "collection": "Code 11.59",
+      "reference": "Code 11.59 Chronograph",
+      "configurations": [
+        {
+          "dial": "Green chronograph with rose-gold index markers",
+          "bracelet": "Green rubber-coated strap",
+          "caseSize": "41 mm",
+          "movement": "Self-winding flyback chronograph",
+          "nickname": "Green chronograph with rose-gold index markers / Green rubber-coated strap",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "18K rose gold",
+      "sources": [
+        "src/data/photography-expansion.ts"
+      ],
+      "routes": [
+        "/collections/audemars-piguet/code-1159/code-11-59-chronograph"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": "cleared-sprint-1P96W4NOMN4mx2ePkD1H2_-IyVEchqxBf",
+      "status": "approved",
+      "sourceUrl": "https://www.the1916company.com/pre-owned/audemars-piguet/code-11-59/5058465/",
+      "licenseRecord": "Founder directly confirmed remaining-sprint website-use rights and authorized publication October14,2026 in V4. Exact source/configuration, complete framing and final white derivative reviewed before integration. Record PHOTOGRAPHY_FOUNDER_CLEARANCE_2026-10-14.json. Preserved RAW file: 1P96W4NOMN4mx2ePkD1H2_-IyVEchqxBf. Pictured full reference 26393OR.OO.A056KB.01; 18K rose gold, Green chronograph with rose-gold index markers, Green rubber-coated strap. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
+      "brand": "Audemars Piguet",
+      "collection": "Code 11.59",
+      "reference": "Code 11.59 Selfwinding",
+      "configurations": [
+        {
+          "dial": "Blue sodalite stone with white-gold numerals and baguette diamond markers",
+          "bracelet": "Blue alligator leather strap",
+          "caseSize": "41 mm",
+          "movement": "Self-winding",
+          "nickname": "Blue sodalite stone with white-gold numerals and baguette diamond markers / Blue alligator leather strap",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "18K white gold",
+      "sources": [
+        "src/data/photography-expansion.ts"
+      ],
+      "routes": [
+        "/collections/audemars-piguet/code-1159/code-11-59-selfwinding"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": "cleared-sprint-1FLjp5PbDHCEeSCzyliq3Tc_FoEumWKpW",
+      "status": "approved",
+      "sourceUrl": "https://www.the1916company.com/pre-owned/audemars-piguet/code-11-59/5079111/",
+      "licenseRecord": "Founder directly confirmed remaining-sprint website-use rights and authorized publication October14,2026 in V4. Exact source/configuration, complete framing and final white derivative reviewed before integration. Record PHOTOGRAPHY_FOUNDER_CLEARANCE_2026-10-14.json. Preserved RAW file: 1FLjp5PbDHCEeSCzyliq3Tc_FoEumWKpW. Pictured full reference 15210BC.OO.A021CR.01; 18K white gold, Blue sodalite stone with white-gold numerals and baguette diamond markers, Blue alligator leather strap. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
       "brand": "Rolex",
       "collection": "Submariner",
       "reference": "126613LB",
@@ -14176,6 +14396,64 @@
       ],
       "routes": [
         "/collections/audemars-piguet/royal-oak-chronograph/26240st"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": null,
+      "status": "Requires Verification",
+      "sourceUrl": null,
+      "licenseRecord": null,
+      "websiteApproved": false,
+      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+    },
+    {
+      "brand": "Audemars Piguet",
+      "collection": "Code 11.59",
+      "reference": "Code 11.59 Selfwinding",
+      "configurations": [
+        {
+          "caseSize": "41 mm",
+          "movement": "Automatic",
+          "dial": "Reference-dependent",
+          "bracelet": "Leather or rubber-coated strap"
+        }
+      ],
+      "material": "Precious Metal or Ceramic Composite",
+      "sources": [
+        "src/data/reference-expansion.ts"
+      ],
+      "routes": [
+        "/collections/audemars-piguet/code-1159/code-11-59-selfwinding"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": null,
+      "status": "Requires Verification",
+      "sourceUrl": null,
+      "licenseRecord": null,
+      "websiteApproved": false,
+      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+    },
+    {
+      "brand": "Audemars Piguet",
+      "collection": "Code 11.59",
+      "reference": "Code 11.59 Chronograph",
+      "configurations": [
+        {
+          "caseSize": "41 mm",
+          "movement": "Automatic flyback chronograph",
+          "dial": "Reference-dependent",
+          "bracelet": "Leather or rubber-coated strap"
+        }
+      ],
+      "material": "Precious Metal or Ceramic Composite",
+      "sources": [
+        "src/data/reference-expansion.ts"
+      ],
+      "routes": [
+        "/collections/audemars-piguet/code-1159/code-11-59-chronograph"
       ],
       "scope": "built-reference",
       "existingImage": null,

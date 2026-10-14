@@ -1737,5 +1737,75 @@ export const clearedSprintPhotographySeeds: readonly PhotographySeed[] = [
     "sourceProvider": "Hublot product photography hosted by MAIER",
     "reviewedAt": "2026-10-14",
     "assetId": "cleared-sprint-1mtxUZC636r2QloJR0U_SPUrPinP_f0EJ-big-bang"
+  },
+  {
+    "brand": "Vacheron Constantin",
+    "brandSlug": "vacheron-constantin",
+    "collection": "Traditionnelle",
+    "reference": "82172/000R-9382",
+    "exactReference": "82172/000R-9382",
+    "model": "Traditionnelle Manual-Winding",
+    "material": "18K 5N pink gold",
+    "configuration": {
+      "dial": "Silvered with small seconds",
+      "bracelet": "Dark-brown alligator leather strap",
+      "caseSize": "38 mm",
+      "movement": "Manual-winding calibre 4400 AS",
+      "waterResistance": "30 m"
+    },
+    "sourceUrl": "https://www.watches-of-switzerland.co.uk/Vacheron-Constantin-Traditionnelle-Watch-82172/000R%2B9382/p/17510052",
+    "src": "/images/watches/vacheron-constantin/reviewed-82172-000r-9382-white-web.webp",
+    "sha256": "9a5dcd02ce14f3dbd4edbcad75a9c773ed6c77e386ae53f7631a198e90b72ee5",
+    "rawDriveFileId": "1Qj1GUYdmHDTeahd737bF1Xl9pzZFJKT1",
+    "clearanceRecord": "Founder directly confirmed remaining-sprint website-use rights and authorized publication October14,2026 in V4. Exact source/configuration, complete framing and final white derivative reviewed before integration. Record PHOTOGRAPHY_FOUNDER_CLEARANCE_2026-10-14.json.",
+    "sourceProvider": "Vacheron Constantin product photography hosted by Watches of Switzerland UK",
+    "reviewedAt": "2026-10-14",
+    "assetId": "cleared-sprint-1Qj1GUYdmHDTeahd737bF1Xl9pzZFJKT1"
+  },
+  {
+    "brand": "Audemars Piguet",
+    "brandSlug": "audemars-piguet",
+    "collection": "Code 11.59",
+    "reference": "Code 11.59 Chronograph",
+    "exactReference": "26393OR.OO.A056KB.01",
+    "model": "Code 11.59 Selfwinding Chronograph",
+    "material": "18K rose gold",
+    "configuration": {
+      "dial": "Green chronograph with rose-gold index markers",
+      "bracelet": "Green rubber-coated strap",
+      "caseSize": "41 mm",
+      "movement": "Self-winding flyback chronograph"
+    },
+    "sourceUrl": "https://www.the1916company.com/pre-owned/audemars-piguet/code-11-59/5058465/",
+    "src": "/images/watches/audemars-piguet/reviewed-26393or-oo-a056kb-01-white-web.webp",
+    "sha256": "8a181b03104a29118163e6ab8413190163932a4242be6323bc05711aab24bc46",
+    "rawDriveFileId": "1P96W4NOMN4mx2ePkD1H2_-IyVEchqxBf",
+    "clearanceRecord": "Founder directly confirmed remaining-sprint website-use rights and authorized publication October14,2026 in V4. Exact source/configuration, complete framing and final white derivative reviewed before integration. Record PHOTOGRAPHY_FOUNDER_CLEARANCE_2026-10-14.json.",
+    "sourceProvider": "The 1916 Company / WatchBox product photography",
+    "reviewedAt": "2026-10-14",
+    "assetId": "cleared-sprint-1P96W4NOMN4mx2ePkD1H2_-IyVEchqxBf"
+  },
+  {
+    "brand": "Audemars Piguet",
+    "brandSlug": "audemars-piguet",
+    "collection": "Code 11.59",
+    "reference": "Code 11.59 Selfwinding",
+    "exactReference": "15210BC.OO.A021CR.01",
+    "model": "Code 11.59 Selfwinding",
+    "material": "18K white gold",
+    "configuration": {
+      "dial": "Blue sodalite stone with white-gold numerals and baguette diamond markers",
+      "bracelet": "Blue alligator leather strap",
+      "caseSize": "41 mm",
+      "movement": "Self-winding"
+    },
+    "sourceUrl": "https://www.the1916company.com/pre-owned/audemars-piguet/code-11-59/5079111/",
+    "src": "/images/watches/audemars-piguet/reviewed-15210bc-oo-a021cr-01-white-web.webp",
+    "sha256": "a5679747e44f1fdaa8e2b7bfae37b2d310fec216b3b1114d6d1c5965a3af50fd",
+    "rawDriveFileId": "1FLjp5PbDHCEeSCzyliq3Tc_FoEumWKpW",
+    "clearanceRecord": "Founder directly confirmed remaining-sprint website-use rights and authorized publication October14,2026 in V4. Exact source/configuration, complete framing and final white derivative reviewed before integration. Record PHOTOGRAPHY_FOUNDER_CLEARANCE_2026-10-14.json.",
+    "sourceProvider": "The 1916 Company / WatchBox product photography",
+    "reviewedAt": "2026-10-14",
+    "assetId": "cleared-sprint-1FLjp5PbDHCEeSCzyliq3Tc_FoEumWKpW"
   }
 ];

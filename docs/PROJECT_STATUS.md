@@ -210,3 +210,12 @@ Royal M28500-0006: exact 38mm steel / blue diamond-marker dial / integrated stee
 Hublot 441.NX.1171.RX: titanium / matte-black skeleton / black rubber,42mm,HUB1280 flyback,100m. MAIER native1000-square original is fully framed and reviewed. The earlier700px edge-touching candidate remains rejected. The same fullSKU is explicitly mapped to existing Big Bang441-NX-1171-RX and Big Bang Unico441.NX.1171.RX pages, preserving both URLs and disclosing the full photographed SKU. No new physical photograph is counted for the duplicate canonical mapping.
 
 Both sets passed original/final white-derivative review and all hashes/dimensions/white corners. Six new Drive files and source log1UjfxHTENgAl1lT_G-o0AFV0ODxbJm2j8 are preserved. Founder-confirmed remaining-sprint rights recorded; no generative detail, caption or overlay. Target122/168 canonical routes,46 queued; production remains119 pending verification. Total sprint72 physical sets/216 Drive files map to73 canonical routes. Continue acquisition for the remaining13 wholly unpictured collections.
+
+
+Release af8bb03 verified live:122/168 canonical references,46 queued;58/71 collections include photography. All73 sprint mappings/credits and47 affected collection grids pass, including public intake. Four transient connection resets recovered on targeted retry.72 physical sets/216 Drive files; one Unico image maps to two preserved URLs. Traditionnelle next original/derivative reviewed. Continue acquisition; master27 currently published, next acquisition page pending.
+
+## Reviewed photography batch code-traditionnelle-drive-complete.json
+
+3 authentic exact-reference originals and final white derivatives passed visual/configuration review, with 9 Drive files and source log 1Yt7z-P4lvw0kda0-FncMojwNeMHyJdhM. 82172/000R-9382: 18K 5N pink gold, Silvered with small seconds, Dark-brown alligator leather strap; 26393OR.OO.A056KB.01: 18K rose gold, Green chronograph with rose-gold index markers, Green rubber-coated strap; 15210BC.OO.A021CR.01: 18K white gold, Blue sodalite stone with white-gold numerals and baguette diamond markers, Blue alligator leather strap.
+
+Full source pages, hashes, untouched originals, source ownership and founder-confirmed remaining-sprint website-use rights are preserved. No generated detail, invented specifications/prices/availability, captions or overlays. Original watch pixels retained; external background/shadow only removed. Integration target 125/168; production remains separately verified. Continue 43 remaining routes and preserve all rejection decisions.
