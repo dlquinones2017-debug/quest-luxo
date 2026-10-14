@@ -79,3 +79,18 @@ test("facets never invent unspecified watch properties or misread movement decor
   assert.ok(multi.includes("non-wave-dial"));
   assert.ok(!multi.includes("wave-dial"));
 });
+
+test("Omega filters are wired through the shared live directory, not a parallel site", async () => {
+  const { readFile } = await import("node:fs/promises");
+  const [experience, grid, toolbar] = await Promise.all([
+    readFile(new URL("../src/components/CollectionExperience.astro", import.meta.url), "utf8"),
+    readFile(new URL("../src/components/QuestLuxoReferenceGrid.astro", import.meta.url), "utf8"),
+    readFile(new URL("../src/components/QuestLuxoDirectoryToolbar.astro", import.meta.url), "utf8"),
+  ]);
+  assert.match(experience, /collection\.brandSlug === "omega" \? \[\.\.\.omegaDirectoryFilters\]/);
+  assert.match(grid, /getReferenceFilterTags\(asset\)\.join\(" "\)/);
+  assert.match(grid, /data-directory-filter/);
+  assert.match(grid, /activeFilter === "all" \|\| tags\.includes\(activeFilter\)/);
+  assert.match(toolbar, /data-directory-filter/);
+  assert.match(experience, /QuestLuxoReferenceGrid/);
+});
