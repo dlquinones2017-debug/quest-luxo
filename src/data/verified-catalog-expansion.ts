@@ -1136,7 +1136,7 @@ export const verifiedExpansionRows: readonly VerifiedRow[] = [
     "Seamaster Planet Ocean GMT",
     "planet-ocean-gmt",
     "215.30.44.22.01.001",
-    "Seamaster Planet Ocean GMT GoodPlanet",
+    "Seamaster Planet Ocean GMT Black-and-White Bezel",
     "43.5 mm",
     "Omega 8906 automatic GMT",
     "Black ceramic non-wave",
