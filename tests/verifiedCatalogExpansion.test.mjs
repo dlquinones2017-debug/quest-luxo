@@ -48,3 +48,26 @@ test("tourbillon discovery is explicit, not based on skeleton styling alone", as
   const models = verifiedExpansionAssets.filter(x => /\btourbillon\b/i.test(x.model));
   assert.ok(models.length >= 4, "several manufacturer-sourced tourbillons must be represented");
 });
+
+test("founder-priority collection families are represented by source-backed references", () => {
+  const keys = new Set(verifiedExpansionRows.map(row => `${row[1]}/${row[3]}`));
+  for (const expected of [
+    "zenith/defy-skyline", "zenith/defy-extreme", "zenith/chronomaster-sport",
+    "iwc/ingenieur", "iwc/pilots-watches", "iwc/portugieser", "iwc/portofino", "iwc/aquatimer",
+    "omega/dark-side-of-the-moon", "omega/seamaster-diver-300m", "omega/seamaster-300", "omega/seamaster-planet-ocean",
+    "breitling/navitimer", "breitling/superocean-heritage", "breitling/avenger", "breitling/avenger-ii", "breitling/colt",
+    "hublot/classic-fusion", "hublot/big-bang",
+    "panerai/submersible", "panerai/luminor-gmt", "panerai/radiomir-gmt",
+    "cartier/roadster", "bell-and-ross/br-01",
+    "richard-mille/rm-27", "tag-heuer/carrera", "tag-heuer/monaco",
+    "franck-muller/fr2nck-vanguard-beach", "franck-muller/vanguard-smurfette",
+    "franck-muller/bamford-collaborations", "franck-muller/vanguard-encrypto"
+  ]) {
+    assert.ok(keys.has(expected), `founder priority missing: ${expected}`);
+  }
+  for (const reference of [
+    "M79360N-0024", "M79360N-0019"
+  ]) {
+    assert.ok(collectionRegistry.some(c => c.assets.some(a => a.reference === reference)));
+  }
+});
