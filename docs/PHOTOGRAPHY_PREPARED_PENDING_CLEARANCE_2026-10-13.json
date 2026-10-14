@@ -1,6 +1,6 @@
 {
-  "preparedAt": "2026-10-14T02:21:27.791663+00:00",
-  "count": 42,
+  "preparedAt": "2026-10-14T02:32:33.352273+00:00",
+  "count": 47,
   "websitePublished": false,
   "canonicalApprovedCoverage": {
     "photographed": 49,
@@ -2111,7 +2111,310 @@
       ],
       "exactReference": "1725-400-3A/3A",
       "publicationStatus": "Queued pending human website-use clearance"
+    },
+    {
+      "reference": "126600",
+      "exactSKU": "m126600-0002",
+      "collection": "Sea-Dweller",
+      "material": "Oystersteel",
+      "dial": "Intense black",
+      "bracelet": "Oyster",
+      "caseSize": "43 mm",
+      "movement": "Self-winding calibre 3235",
+      "waterResistance": "1,220 m",
+      "sourceUrl": "https://www.rolex.com/watches/sea-dweller/m126600-0002",
+      "pdfUrl": "https://assets.rolex.com/api/brochure/en/sea-dweller/m126600-0002.pdf",
+      "brand": "Rolex",
+      "catalogReference": "126600",
+      "configuration": {
+        "material": "Oystersteel",
+        "dial": "Intense black",
+        "bracelet": "Oyster",
+        "caseSize": "43 mm",
+        "movement": "Self-winding calibre 3235",
+        "waterResistance": "1,220 m"
+      },
+      "imageUrl": "https://media.rolex.com/image/upload/v1/a677b2c664f6/catalogue/2026/upright-c/m126600-0002",
+      "sourceEvidence": "Exact official product page observed upright-c image. Public display transformations removed from the same observed media resource only. Separate upright-c-shadow layers rejected.",
+      "checkedAt": "2026-10-14T02:27:06.388950+00:00",
+      "rightsStatus": "Pending founder clearance for new official originals; not published",
+      "reviewStatus": "Authentic full watch original and final 1200 WEB visually reviewed; centered white canvas without overlays or captions",
+      "size": [
+        3969,
+        5906
+      ],
+      "mode": "RGBA",
+      "path": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\rolex-current-native-originals\\m126600-0002-raw.png",
+      "sha256": "a300d2a7b4caa5024b2fdf85911ee44df510e66b1d3e54dacb19f45363b2ec03",
+      "status": "Authentic official original acquired; unchanged delivered bytes",
+      "whiteMaster": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\rolex-current-reviewed\\m126600-0002-white-master.png",
+      "webDerivative": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\rolex-current-reviewed\\m126600-0002-web.webp",
+      "derivativeSha256": "f300a2ec97c55e6854ee800f648093810485213323424acb0a559cd766eadc3a",
+      "processing": "Original manufacturer RGB and watch alpha preserved; external translucent cast shadow suppressed with original opaque support plus two-pixel boundary envelope. Centered on blank 2400 white canvas, 1200 WEB. No AI, reconstruction, captions or overlays.",
+      "technicalEvidence": "Full SKU official page technical table verified: Oystersteel, Intense black, Oyster, 43 mm, Self-winding calibre 3235, 1,220 m",
+      "sourceHtmlPreservationNote": "HTTP Error 403: Forbidden; official page technical evidence independently read through web source",
+      "reviewedAt": "2026-10-14T02:28:14.053929+00:00",
+      "driveFiles": [
+        {
+          "type": "RAW",
+          "id": "12eVeFCaSymmRIRD_2lELcHqL2uuvuxxT",
+          "name": "rolex-m126600-0002-raw.png"
+        },
+        {
+          "type": "WHITE_MASTER",
+          "id": "1jg_jyqlGGe4mTNMjRhmyOZCXtHJNlaD4",
+          "name": "rolex-m126600-0002-white_master.png"
+        },
+        {
+          "type": "WEB",
+          "id": "1wJzk6dMmHMfeJJ75m-B539XqcRSPb9eL",
+          "name": "rolex-m126600-0002-web.webp"
+        }
+      ],
+      "exactReference": "126600",
+      "publicationStatus": "Queued pending human website-use clearance"
+    },
+    {
+      "reference": "226570",
+      "exactSKU": "m226570-0001",
+      "collection": "Explorer II",
+      "material": "Oystersteel",
+      "dial": "White",
+      "bracelet": "Oyster",
+      "caseSize": "42 mm",
+      "movement": "Self-winding calibre 3285",
+      "waterResistance": "100 m",
+      "sourceUrl": "https://www.rolex.com/watches/explorer-ii/m226570-0001",
+      "pdfUrl": "https://assets.rolex.com/api/brochure/en/explorer-ii/m226570-0001.pdf",
+      "brand": "Rolex",
+      "catalogReference": "226570",
+      "configuration": {
+        "material": "Oystersteel",
+        "dial": "White",
+        "bracelet": "Oyster",
+        "caseSize": "42 mm",
+        "movement": "Self-winding calibre 3285",
+        "waterResistance": "100 m"
+      },
+      "imageUrl": "https://media.rolex.com/image/upload/v1/a677b2c664f6/catalogue/2026/upright-c/m226570-0001",
+      "sourceEvidence": "Exact official product page observed upright-c image. Public display transformations removed from the same observed media resource only. Separate upright-c-shadow layers rejected.",
+      "checkedAt": "2026-10-14T02:27:06.389947+00:00",
+      "rightsStatus": "Pending founder clearance for new official originals; not published",
+      "reviewStatus": "Authentic full watch original and final 1200 WEB visually reviewed; centered white canvas without overlays or captions",
+      "size": [
+        3969,
+        5906
+      ],
+      "mode": "RGBA",
+      "path": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\rolex-current-native-originals\\m226570-0001-raw.png",
+      "sha256": "7f3bb76bf99162266ad30f9baf75f2e0b130734182167872f59818e53be2528f",
+      "status": "Authentic official original acquired; unchanged delivered bytes",
+      "whiteMaster": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\rolex-current-reviewed\\m226570-0001-white-master.png",
+      "webDerivative": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\rolex-current-reviewed\\m226570-0001-web.webp",
+      "derivativeSha256": "b1517bd8277cc30a58963eb9006e8c75cbe5089f557c43ac182d113fe797d87f",
+      "processing": "Original manufacturer RGB and watch alpha preserved; external translucent cast shadow suppressed with original opaque support plus two-pixel boundary envelope. Centered on blank 2400 white canvas, 1200 WEB. No AI, reconstruction, captions or overlays.",
+      "technicalEvidence": "Full SKU official page technical table verified: Oystersteel, White, Oyster, 42 mm, Self-winding calibre 3285, 100 m",
+      "sourceHtmlPreservationNote": "HTTP Error 403: Forbidden; official page technical evidence independently read through web source",
+      "reviewedAt": "2026-10-14T02:28:14.119739+00:00",
+      "driveFiles": [
+        {
+          "type": "RAW",
+          "id": "1HuDoD0etZda5M3CNvgFmusqN9DhJKbF-",
+          "name": "rolex-m226570-0001-raw.png"
+        },
+        {
+          "type": "WHITE_MASTER",
+          "id": "1EBQtwf-mnBbBITNaQxzx7KoPMtJ8W_tV",
+          "name": "rolex-m226570-0001-white_master.png"
+        },
+        {
+          "type": "WEB",
+          "id": "1BV86ObhgZWdPo1m5fkgyDCoCdLPG1p1n",
+          "name": "rolex-m226570-0001-web.webp"
+        }
+      ],
+      "exactReference": "226570",
+      "publicationStatus": "Queued pending human website-use clearance"
+    },
+    {
+      "reference": "336238",
+      "exactSKU": "m336238-0001",
+      "collection": "Sky-Dweller",
+      "material": "18K Yellow Gold",
+      "dial": "Champagne-colour",
+      "bracelet": "Oysterflex",
+      "caseSize": "42 mm",
+      "movement": "Self-winding calibre 9002",
+      "waterResistance": "100 m",
+      "sourceUrl": "https://www.rolex.com/en-us/watches/sky-dweller/m336238-0001",
+      "pdfUrl": "https://assets.rolex.com/api/brochure/en-us/sky-dweller/m336238-0001.pdf",
+      "brand": "Rolex",
+      "catalogReference": "336238",
+      "configuration": {
+        "material": "18K Yellow Gold",
+        "dial": "Champagne-colour",
+        "bracelet": "Oysterflex",
+        "caseSize": "42 mm",
+        "movement": "Self-winding calibre 9002",
+        "waterResistance": "100 m"
+      },
+      "imageUrl": "https://media.rolex.com/image/upload/v1/a677b2c664f6/catalogue/2026/upright-c/m336238-0001",
+      "sourceEvidence": "Exact official product page observed upright-c image. Public display transformations removed from the same observed media resource only. Separate upright-c-shadow layers rejected.",
+      "checkedAt": "2026-10-14T02:27:06.391311+00:00",
+      "rightsStatus": "Pending founder clearance for new official originals; not published",
+      "reviewStatus": "Authentic full watch original and final 1200 WEB visually reviewed; centered white canvas without overlays or captions",
+      "size": [
+        3969,
+        5906
+      ],
+      "mode": "RGBA",
+      "path": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\rolex-current-native-originals\\m336238-0001-raw.png",
+      "sha256": "094dd57548fa6440f1766f7f480cc21066aceb48a30d8bad0969d7d33ff97c7d",
+      "status": "Authentic official original acquired; unchanged delivered bytes",
+      "whiteMaster": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\rolex-current-reviewed\\m336238-0001-white-master.png",
+      "webDerivative": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\rolex-current-reviewed\\m336238-0001-web.webp",
+      "derivativeSha256": "5a1048419c2413d213a9bdfb61605766d7fd2da75f35eb6895c44be5c553a12c",
+      "processing": "Original manufacturer RGB and watch alpha preserved; external translucent cast shadow suppressed with original opaque support plus two-pixel boundary envelope. Centered on blank 2400 white canvas, 1200 WEB. No AI, reconstruction, captions or overlays.",
+      "technicalEvidence": "Full SKU official page technical table verified: 18K Yellow Gold, Champagne-colour, Oysterflex, 42 mm, Self-winding calibre 9002, 100 m",
+      "sourceHtmlPreservationNote": "HTTP Error 403: Forbidden; official page technical evidence independently read through web source",
+      "reviewedAt": "2026-10-14T02:28:14.177301+00:00",
+      "driveFiles": [
+        {
+          "type": "RAW",
+          "id": "1JzwtcsutK5dYD00BSFnFWzCa8bvhFis-",
+          "name": "rolex-m336238-0001-raw.png"
+        },
+        {
+          "type": "WHITE_MASTER",
+          "id": "1Gz46l2FoGvXASo9o60qL8m-gmEsZ5Sk3",
+          "name": "rolex-m336238-0001-white_master.png"
+        },
+        {
+          "type": "WEB",
+          "id": "1Zq9pCyB97ZL_3cQEVWElWZ8Tk0DiZTaq",
+          "name": "rolex-m336238-0001-web.webp"
+        }
+      ],
+      "exactReference": "336238",
+      "publicationStatus": "Queued pending human website-use clearance"
+    },
+    {
+      "reference": "336235",
+      "exactSKU": "m336235-0004",
+      "collection": "Sky-Dweller",
+      "material": "18K Everose Gold",
+      "dial": "Slate",
+      "bracelet": "Oysterflex",
+      "caseSize": "42 mm",
+      "movement": "Self-winding calibre 9002",
+      "waterResistance": "100 m",
+      "sourceUrl": "https://www.rolex.com/en-us/watches/sky-dweller/m336235-0004",
+      "pdfUrl": "https://assets.rolex.com/api/brochure/en-us/sky-dweller/m336235-0004.pdf",
+      "brand": "Rolex",
+      "catalogReference": "336235",
+      "configuration": {
+        "material": "18K Everose Gold",
+        "dial": "Slate",
+        "bracelet": "Oysterflex",
+        "caseSize": "42 mm",
+        "movement": "Self-winding calibre 9002",
+        "waterResistance": "100 m"
+      },
+      "imageUrl": "https://media.rolex.com/image/upload/v1/a677b2c664f6/catalogue/2026/upright-c/m336235-0004",
+      "sourceEvidence": "Exact official product page observed upright-c image. Public display transformations removed from the same observed media resource only. Separate upright-c-shadow layers rejected.",
+      "checkedAt": "2026-10-14T02:27:06.391311+00:00",
+      "rightsStatus": "Pending founder clearance for new official originals; not published",
+      "reviewStatus": "Authentic full watch original and final 1200 WEB visually reviewed; centered white canvas without overlays or captions",
+      "size": [
+        3969,
+        5906
+      ],
+      "mode": "RGBA",
+      "path": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\rolex-current-native-originals\\m336235-0004-raw.png",
+      "sha256": "0da8bc854b741885fe252c8c75a9a7997f255c965154ea7e0981b9aaabf57ad2",
+      "status": "Authentic official original acquired; unchanged delivered bytes",
+      "whiteMaster": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\rolex-current-reviewed\\m336235-0004-white-master.png",
+      "webDerivative": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\rolex-current-reviewed\\m336235-0004-web.webp",
+      "derivativeSha256": "18a1afc3a289baaebf3586e71cd8b1390ab48d49e7caf98608ef9a480173ad12",
+      "processing": "Original manufacturer RGB and watch alpha preserved; external translucent cast shadow suppressed with original opaque support plus two-pixel boundary envelope. Centered on blank 2400 white canvas, 1200 WEB. No AI, reconstruction, captions or overlays.",
+      "technicalEvidence": "Full SKU official page technical table verified: 18K Everose Gold, Slate, Oysterflex, 42 mm, Self-winding calibre 9002, 100 m",
+      "sourceHtmlPreservationNote": "HTTP Error 403: Forbidden; official page technical evidence independently read through web source",
+      "reviewedAt": "2026-10-14T02:28:14.235271+00:00",
+      "driveFiles": [
+        {
+          "type": "RAW",
+          "id": "1LoHE4MCLj_mrUNRADxTBR9WgQ2CUMdGS",
+          "name": "rolex-m336235-0004-raw.png"
+        },
+        {
+          "type": "WHITE_MASTER",
+          "id": "1Z-QwWibWxqEF9xO0pi9J_0ImUzDuADXg",
+          "name": "rolex-m336235-0004-white_master.png"
+        },
+        {
+          "type": "WEB",
+          "id": "1I9Qhxtr6WX0mLkP-JEh2MghYFmPD_PfW",
+          "name": "rolex-m336235-0004-web.webp"
+        }
+      ],
+      "exactReference": "336235",
+      "publicationStatus": "Queued pending human website-use clearance"
+    },
+    {
+      "brand": "Rolex",
+      "collection": "1908",
+      "catalogReference": "52508",
+      "reference": "52508",
+      "exactSKU": "m52508-0005",
+      "sourceUrl": "https://www.rolex.com/en-gb/watches/1908/m52508-0005",
+      "imageUrl": "https://media.rolex.com/image/upload/v1/a677b2c664f6/catalogue/2026/upright-c/m52508-0005",
+      "sourceEvidence": "Exact official page's observed upright-c product image; removed public display transformations only to request native resource. This is not the separate upright-c-shadow layer.",
+      "configuration": {
+        "material": "18 ct yellow gold",
+        "dial": "Intense white",
+        "bracelet": "Matt black alligator leather strap",
+        "caseSize": "39 mm",
+        "movement": "Self-winding calibre 7140",
+        "waterResistance": "50 m"
+      },
+      "checkedAt": "2026-10-14T02:21:57.157770+00:00",
+      "rightsStatus": "Pending founder clearance for new official originals; not published",
+      "reviewStatus": "Authentic full watch original and final 1200 WEB visually reviewed; centered white canvas without overlays or captions",
+      "size": [
+        3969,
+        5906
+      ],
+      "mode": "RGBA",
+      "path": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\rolex1908-native-originals\\m52508-0005-raw.png",
+      "sha256": "f597e436a221806a3dc268d88c8ea1063e9d8fc6386359d35d6165838ac1114b",
+      "status": "Authentic official original acquired; unchanged delivered bytes",
+      "whiteMaster": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\rolex1908-reviewed\\m52508-0005-white-master.png",
+      "webDerivative": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\rolex1908-reviewed\\m52508-0005-web.webp",
+      "derivativeSha256": "c12d55686219fe449673e3bef2f7c00c9b7db69049e223b2519d6acbb7e74fd4",
+      "processing": "Original manufacturer RGB and watch alpha preserved; external translucent cast shadow suppressed with original opaque support plus two-pixel boundary envelope. Centered on blank 2400 white canvas, 1200 WEB. No AI, reconstruction, captions or overlays.",
+      "technicalEvidence": "Full SKU official page technical table verified: 18 ct yellow gold, Intense white, Matt black alligator leather strap, 39 mm, Self-winding calibre 7140, 50 m",
+      "sourceHtmlPreservationNote": "HTTP Error 403: Forbidden; official page technical evidence independently read through web source",
+      "reviewedAt": "2026-10-14T02:28:14.299127+00:00",
+      "driveFiles": [
+        {
+          "type": "RAW",
+          "id": "18dQDYVbKUF_B0aVKiBXOFSKbnF6EaaRR",
+          "name": "rolex-m52508-0005-raw.png"
+        },
+        {
+          "type": "WHITE_MASTER",
+          "id": "1pzyJsIh7mFa6p9fza1SJWOsv0viIZJi4",
+          "name": "rolex-m52508-0005-white_master.png"
+        },
+        {
+          "type": "WEB",
+          "id": "1DGJOwV9t2JQVJ7Qrf3cejsVuZ4GwVh6W",
+          "name": "rolex-m52508-0005-web.webp"
+        }
+      ],
+      "exactReference": "52508",
+      "publicationStatus": "Queued pending human website-use clearance"
     }
   ],
-  "coverageNote": "Production verified as 8c2f495: 49 approved canonical routes, 119 queued. These 42 newly acquired manufacturer sets remain unpublished pending human website-use clearance."
+  "coverageNote": "Production verified as 8c2f495: 49 approved canonical routes, 119 queued. These 47 newly acquired manufacturer sets remain unpublished pending human website-use clearance."
 }
