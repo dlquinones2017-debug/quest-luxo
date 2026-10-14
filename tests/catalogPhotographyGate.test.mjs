@@ -40,3 +40,19 @@ test("catalog image approval may not be inferred from the source asset imageVeri
   assert.match(source, /const verifiedImage = approved\?\.src;/);
   assert.doesNotMatch(source, /asset\.image && asset\.imageVerified/);
 });
+
+test("missing product photographs link to original reference sources rather than hotlinking unlicensed images", async () => {
+  const [card, page] = await Promise.all([
+    readFile(new URL("../src/components/ReferenceCard.astro", import.meta.url), "utf8"),
+    readFile(new URL("../src/components/CollectionReferenceExperience.astro", import.meta.url), "utf8"),
+  ]);
+  for (const component of [card, page]) {
+    assert.match(component, /referenceSource = asset\.specificationSources/);
+    assert.match(component, /referenceSource &&/);
+    assert.match(component, /href=\{referenceSource\}/);
+    assert.match(component, /rel="noopener noreferrer nofollow"/);
+    assert.match(component, /Authentic photography pending/);
+  }
+  assert.match(card, /\{photograph \? \(/, "card must render the approved photo or honest fallback");
+  assert.match(page, /\{photograph \? \(/, "reference page must render approved photo or honest fallback");
+});
