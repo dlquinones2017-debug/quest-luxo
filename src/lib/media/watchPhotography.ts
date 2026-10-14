@@ -26,7 +26,7 @@ export interface WatchPhotograph {
   hero: boolean;
   collectionOnly?: boolean;
 }
-const known=(s: unknown): s is string => typeof s === "string" && !!s.trim() && !/unknown|tbd|pending|requires verification/i.test(s);
+const known=(s: unknown): s is string => typeof s === "string" && !!s.trim() && !/\b(?:unknown|tbd|pending|requires verification)\b/i.test(s);
 export function approvedPhotograph(asset: QuestLuxoAsset, photos: readonly WatchPhotograph[], now=new Date()): WatchPhotograph | undefined {
   return photos.find(p => {
     const datesValid=Number.isFinite(Date.parse(p.reviewedAt)) && Date.parse(p.reviewedAt)<=now.getTime() && (p.rightsExpiresAt===null || (Number.isFinite(Date.parse(p.rightsExpiresAt)) && Date.parse(p.rightsExpiresAt)>now.getTime()));

@@ -44,10 +44,11 @@ const defineCollection = (
     if (!addition) return asset;
     const configurations = (asset.configurations ?? []).map(configuration => {
       const reviewed = addition.configurations?.find(candidate => candidate.dial === configuration.dial && candidate.bracelet === configuration.bracelet);
-      return reviewed ? { ...reviewed, ...configuration, caseSize: configuration.caseSize ?? reviewed.caseSize } : configuration;
+      return reviewed ? { ...configuration, ...reviewed, originalMSRP: configuration.originalMSRP ?? reviewed.originalMSRP, currentMSRP: configuration.currentMSRP ?? reviewed.currentMSRP } : configuration;
     });
     const extraConfigurations = (addition.configurations ?? []).filter(reviewed => !configurations.some(configuration => configuration.dial === reviewed.dial && configuration.bracelet === reviewed.bracelet));
-    return { ...asset, configurations: [...configurations, ...extraConfigurations], specificationSources: [...(asset.specificationSources ?? []), ...(addition.specificationSources ?? [])], specificationsReviewedAt: "2026-10-13" };
+    // Source-reviewed pictured material and dimensions supersede broad family placeholders.
+    return { ...asset, material: addition.material ?? asset.material, configurations: [...configurations, ...extraConfigurations], specificationSources: [...(asset.specificationSources ?? []), ...(addition.specificationSources ?? [])], specificationsReviewedAt: "2026-10-13" };
   });
   assets.push(...additions.filter(addition => !assets.some(asset => asset.reference === addition.reference)));
   return {

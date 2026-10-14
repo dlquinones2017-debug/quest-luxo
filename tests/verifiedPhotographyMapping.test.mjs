@@ -64,3 +64,15 @@ test("Nautilus family page maps only the disclosed blue steel 5711/1A-010 photog
   assert.equal(approvedPhotograph({ ...nautilus, configurations: [{ dial: "White", bracelet: "Integrated Bracelet" }] }, watchPhotographs), undefined);
   assert.equal(approvedPhotograph({ ...nautilus, material: "White Gold" }, watchPhotographs), undefined);
 });
+
+// Opaque provider identifiers are not unresolved-placeholder words.
+test("placeholder detection accepts provider IDs and still rejects unresolved metadata", () => {
+  const photo = watchPhotographs.find(p => p.assetId === "cleared-sprint-1qp2YT0t03NpSuHc4ygU0nW54TBdy6tA1");
+  assert.ok(photo);
+  const candidate = {brand:photo.brand,collection:photo.collection,reference:photo.reference,material:photo.configuration.material,configurations:[photo.configuration]};
+  assert.ok(approvedPhotograph(candidate,[photo]));
+  for (const photographer of ["Unknown", "TBD", "Pending", "Requires verification"]) {
+    assert.equal(approvedPhotograph(candidate,[{...photo,photographer}]),undefined);
+  }
+  assert.equal(approvedPhotograph({...candidate,material:"Incorrect metal"},[photo]),undefined);
+});
