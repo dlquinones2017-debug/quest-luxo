@@ -1,6 +1,6 @@
 {
-  "preparedAt": "2026-10-14T01:37:24.349535+00:00",
-  "count": 32,
+  "preparedAt": "2026-10-14T01:56:03.123692+00:00",
+  "count": 38,
   "websitePublished": false,
   "canonicalApprovedCoverage": {
     "photographed": 48,
@@ -1483,6 +1483,317 @@
         }
       ],
       "exactReference": "191.032",
+      "publicationStatus": "Queued pending founder website-use clearance"
+    },
+    {
+      "brand": "Blancpain",
+      "collection": "Fifty Fathoms",
+      "catalogReference": "5015-1130-52A",
+      "reference": "5015-1130-52A",
+      "exactSKU": "5015-1130-52A",
+      "sourceUrl": "https://www.blancpain.com/en/fifty-fathoms/fifty-fathoms-automatique-5015-1130-52a",
+      "imageUrl": "https://prestigedam.swatchgroup.biz/transform/aa88dd44-5476-492a-b981-384ba84d18d2/5015_1130_52A_Fifty_Fathoms_Automatique_Date_And_Seconds_Soldier_Front_RGB",
+      "sourceEvidence": "Exact official page front-image link observed; only display resizing/trim query removed from the same native resource pathname.",
+      "configuration": {
+        "material": "Stainless Steel",
+        "dial": "Black",
+        "bracelet": "Black sail-canvas strap, rubber material, pin buckle",
+        "caseSize": "45 mm",
+        "movement": "Automatic calibre 1315",
+        "waterResistance": "30 bar"
+      },
+      "checkedAt": "2026-10-13T21:37:48.869523-04:00",
+      "rightsStatus": "Pending founder clearance for new official originals; not published",
+      "reviewStatus": "Original and final white-canvas derivative visually reviewed; exact reference/configuration confirmed. Website publication pending founder rights clearance.",
+      "size": [
+        1200,
+        1800
+      ],
+      "mode": "P",
+      "path": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\blancpain-native-originals\\5015-1130-52A-raw.png",
+      "sha256": "ff5740cc1893e4a0df078f613658bf3bb7d9931c6ff47771532f0ab39d99d0ae",
+      "status": "Authentic official original acquired; unchanged delivered bytes",
+      "whiteMaster": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\blancpain-reviewed\\5015-1130-52A-white-master.png",
+      "webDerivative": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\blancpain-reviewed\\5015-1130-52A-web.webp",
+      "derivativeSha256": "c59e4e8a754c9a8ebf46f9ebd3c3d548ac86bc6e1f175679e57d2af6d77c4ecc",
+      "processing": "Original manufacturer RGB and watch alpha preserved; external translucent cast shadow suppressed with original opaque support plus two-pixel boundary envelope. Centered on blank 2400 white canvas, 1200 WEB. No AI, reconstruction, captions or overlays.",
+      "driveFiles": [
+        {
+          "type": "RAW",
+          "id": "1v-yLArXgxR7GwHfHhEtLJBf_3C7IsXqj",
+          "name": "blancpain-5015-1130-52A-raw.png"
+        },
+        {
+          "type": "WHITE_MASTER",
+          "id": "1dQFesZzYROe7vwupjmZrBv61rwcyCWen",
+          "name": "blancpain-5015-1130-52A-white_master.png"
+        },
+        {
+          "type": "WEB",
+          "id": "1FsFpXsPas85nPL218zS3jdQIMgHcnm8V",
+          "name": "blancpain-5015-1130-52A-web.webp"
+        }
+      ],
+      "exactReference": "5015-1130-52A",
+      "publicationStatus": "Queued pending founder website-use clearance"
+    },
+    {
+      "brand": "Bell & Ross",
+      "collection": "BR 03",
+      "catalogReference": "BR0392-BL-CE",
+      "reference": "BR0392-BL-CE",
+      "exactSKU": "BR0392-BL-CE",
+      "sourceUrl": "https://bellross.com/en-us/products/br-03-92-black-matte",
+      "imageUrl": "https://bellross.com/cdn/shop/files/BR03-92-Ceramic-Black-Matte.png?v=1761060006&width=5000",
+      "configuration": {
+        "material": "Matte black ceramic",
+        "dial": "Black with luminous numerals, indexes and hands",
+        "bracelet": "Black rubber",
+        "caseSize": "42 mm",
+        "movement": "Automatic BR-CAL.302",
+        "waterResistance": "100 m"
+      },
+      "checkedAt": "2026-10-13T21:40:27.847823-04:00",
+      "rightsStatus": "Pending founder clearance for new official originals; not published",
+      "reviewStatus": "Original and final white-canvas derivative visually reviewed; exact reference/configuration confirmed. Website publication pending founder rights clearance.",
+      "size": [
+        876,
+        1050
+      ],
+      "mode": "RGBA",
+      "path": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\bellross-originals\\BR0392-BL-CE-raw.png",
+      "sha256": "13182856efbed0adeb545337bc66c889c82c5306d142674379fc3dfcee4d6e5f",
+      "status": "Authentic official original acquired; unchanged delivered bytes",
+      "whiteMaster": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\bellross-reviewed\\BR0392-BL-CE-white-master.png",
+      "webDerivative": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\bellross-reviewed\\BR0392-BL-CE-web.webp",
+      "derivativeSha256": "5fc5c6089c6573000b814fcf7ddc7587f84a6789607915a673fd710b2009c42e",
+      "processing": "Original manufacturer RGB and watch alpha preserved; external translucent cast shadow suppressed with original opaque support plus two-pixel boundary envelope. Centered on blank 2400 white canvas, 1200 WEB. No AI, reconstruction, captions or overlays.",
+      "driveFiles": [
+        {
+          "type": "RAW",
+          "id": "1U-V-qJUXtOzBSRajNikF0P2kBx3SaIWN",
+          "name": "bell-ross-BR0392-BL-CE-raw.png"
+        },
+        {
+          "type": "WHITE_MASTER",
+          "id": "1bA-j17S48mv7mIRNqEM1BFjdz-cUeCzu",
+          "name": "bell-ross-BR0392-BL-CE-white_master.png"
+        },
+        {
+          "type": "WEB",
+          "id": "1usScv9fxPu85Ed5IfhsVV4j71D0J5XX1",
+          "name": "bell-ross-BR0392-BL-CE-web.webp"
+        }
+      ],
+      "exactReference": "BR0392-BL-CE",
+      "publicationStatus": "Queued pending founder website-use clearance"
+    },
+    {
+      "brand": "Breguet",
+      "collection": "Classique",
+      "catalogReference": "5177",
+      "reference": "5177BB/29/9V6",
+      "exactSKU": "5177BB-29-9V6",
+      "sourceUrl": "https://www.breguet.com/en/watches/classique/classique-5177/5177bb299v6?language_content_entity=en",
+      "imageUrl": "https://www.breguet.com/sites/default/files/images/5177BB299V6_Soldat.png",
+      "sourceEvidence": "Selected white-gold exact suffix matches the existing White Gold family profile. Official front-image link observed; removed display-only height resize query from same native pathname.",
+      "configuration": {
+        "material": "18K White Gold",
+        "dial": "White Grand feu enamel",
+        "bracelet": "Black alligator leather",
+        "caseSize": "38 mm",
+        "movement": "Automatic calibre 777 Q",
+        "waterResistance": "3 bar"
+      },
+      "checkedAt": "2026-10-13T21:41:25.647592-04:00",
+      "rightsStatus": "Pending founder clearance for new official originals; not published",
+      "reviewStatus": "Original and final white-canvas derivative visually reviewed; exact reference/configuration confirmed. Website publication pending founder rights clearance.",
+      "size": [
+        2560,
+        3840
+      ],
+      "mode": "RGBA",
+      "path": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\breguet-bell01-originals\\5177BB-29-9V6-raw.png",
+      "sha256": "175bc6386ec45a342bef1e87ab23586360555dc81ca5a87b547c0b34887e6b22",
+      "status": "Authentic official original acquired; unchanged delivered bytes",
+      "whiteMaster": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\breguet-bell01-reviewed\\5177BB-29-9V6-white-master.png",
+      "webDerivative": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\breguet-bell01-reviewed\\5177BB-29-9V6-web.webp",
+      "derivativeSha256": "1ef6d575a9c5d63c4d3b64caa1c1062d96d93fa74647ab6233d3e957ab98f5fe",
+      "processing": "Original manufacturer RGB and watch alpha preserved; external translucent cast shadow suppressed with original opaque support plus two-pixel boundary envelope. Centered on blank 2400 white canvas, 1200 WEB. No AI, reconstruction, captions or overlays.",
+      "driveFiles": [
+        {
+          "type": "RAW",
+          "id": "1iakOLGtNEGD_eDn8cVJd1nvHuB2Uka5O",
+          "name": "breguet-5177BB-29-9V6-raw.png"
+        },
+        {
+          "type": "WHITE_MASTER",
+          "id": "1rOMzH7V5joFaPho45dF-vlwDra9Mkug6",
+          "name": "breguet-5177BB-29-9V6-white_master.png"
+        },
+        {
+          "type": "WEB",
+          "id": "1ye58i8kzbw24_L5za8nMRwOLa5D0e-_p",
+          "name": "breguet-5177BB-29-9V6-web.webp"
+        }
+      ],
+      "exactReference": "5177BB/29/9V6",
+      "publicationStatus": "Queued pending founder website-use clearance"
+    },
+    {
+      "brand": "Bell & Ross",
+      "collection": "BR 01",
+      "catalogReference": "BR0192-BL-ST",
+      "reference": "BR0192-BL-ST",
+      "exactSKU": "BR0192-BL-ST",
+      "sourceUrl": "https://bellross.com/en-us/products/br-01-92-steel",
+      "imageUrl": "https://bellross.com/cdn/shop/files/BR01-92-Steel.png?v=1761058999",
+      "sourceEvidence": "Exact image native pathname observed in official page og:image; removed crop and resize queries only. Configuration requires visual review before publishing.",
+      "configuration": {
+        "material": "Stainless Steel",
+        "dial": "Black",
+        "bracelet": "Black rubber (pictured manufacturer configuration)",
+        "caseSize": "46 mm"
+      },
+      "checkedAt": "2026-10-13T21:41:25.647592-04:00",
+      "rightsStatus": "Pending founder clearance for new official originals; not published",
+      "reviewStatus": "Original and final white-canvas derivative visually reviewed; exact reference/configuration confirmed. Website publication pending founder rights clearance.",
+      "size": [
+        876,
+        1050
+      ],
+      "mode": "RGBA",
+      "path": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\breguet-bell01-originals\\BR0192-BL-ST-raw.png",
+      "sha256": "eb34494e616c4840c480455a8edc9ff609f41fc2a3b13a5721e73198de621505",
+      "status": "Authentic official original acquired; unchanged delivered bytes",
+      "whiteMaster": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\breguet-bell01-reviewed\\BR0192-BL-ST-white-master.png",
+      "webDerivative": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\breguet-bell01-reviewed\\BR0192-BL-ST-web.webp",
+      "derivativeSha256": "292b535de06babf4b26c0a2d10e03b23f62ece43082b5ce618d07f328b35e656",
+      "processing": "Original manufacturer RGB and watch alpha preserved; external translucent cast shadow suppressed with original opaque support plus two-pixel boundary envelope. Centered on blank 2400 white canvas, 1200 WEB. No AI, reconstruction, captions or overlays.",
+      "driveFiles": [
+        {
+          "type": "RAW",
+          "id": "1L_n2H9ZgvwuXproPgZHRc1PuOkP201c6",
+          "name": "bell-ross-BR0192-BL-ST-raw.png"
+        },
+        {
+          "type": "WHITE_MASTER",
+          "id": "1_HSTtmPrAEIwlRRdIoum1YyurHFMQVIu",
+          "name": "bell-ross-BR0192-BL-ST-white_master.png"
+        },
+        {
+          "type": "WEB",
+          "id": "1Gg39ScO7ObTr8usgyaV6sCbICpTBx4Mc",
+          "name": "bell-ross-BR0192-BL-ST-web.webp"
+        }
+      ],
+      "exactReference": "BR0192-BL-ST",
+      "publicationStatus": "Queued pending founder website-use clearance"
+    },
+    {
+      "brand": "Tudor",
+      "collection": "Pelagos",
+      "catalogReference": "M25600TN-0001",
+      "reference": "M25600TN-0001",
+      "exactSKU": "M25600TN-0001",
+      "sourceUrl": "https://www.tudorwatch.com/en/pressroom/products/pelagos-39",
+      "imageUrl": "https://media.tudorwatch.com/image/upload/q_auto/f_auto/t_tdr-pressroom-visual-grid/c_limit%2Cw_3840/v1/tudorwatch/pressroom/products/pelagos/tudor-pelagos-m25600tn-0001-black-95820t",
+      "sourceEvidence": "Exact named M25600TN-0001 black/titanium 95820t press image observed on official press page. Technical confirmation from exact official watch page.",
+      "configuration": {
+        "material": "Titanium and steel",
+        "dial": "Black with white indexes",
+        "bracelet": "Titanium bracelet, steel folding clasp",
+        "caseSize": "42 mm",
+        "movement": "Self-winding manufacture MT5612 COSC",
+        "waterResistance": "500 m"
+      },
+      "path": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\tudor-pelagos-originals\\tudor_pelagos_m25600tn-0001_black_95820t.jpeg",
+      "size": [
+        6600,
+        6600
+      ],
+      "mode": "RGB",
+      "sha256": "38fffb9f7a839eaab9af1ed736532855b04923e444e3cfb16756e412cabd507c",
+      "archivePath": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\tudor-pelagos-official-raw.zip",
+      "archiveSha256": "9e73fba1da871195fe17cc13bd5ef9cec8487012b40c6da188fad52ff612055b",
+      "archiveUrl": "https://media.tudorwatch.com/raw/upload/tudorwatch/pressroom/products/pelagos/all-visuals.zip",
+      "archiveEntry": "tudor_pelagos_m25600tn-0001_black_95820t.jpeg",
+      "whiteMaster": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\pelagos-reviewed\\M25600TN-0001-white-master.png",
+      "webDerivative": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\pelagos-reviewed\\M25600TN-0001-web.webp",
+      "derivativeSha256": "3777e6060cf835c20ab1f0f452a7f9c3b09cd8b0f9b168de8f4fc7d4ea4bcbe6",
+      "processing": "Classical filled external silhouette preserves original interior white indexes and metallic highlights. Manually reviewed true bottom bracelet boundary excludes surface reflection. Original RGB preserved; centered 2400 white and 1200 WEB. No generation or reconstruction.",
+      "rightsStatus": "Pending founder clearance for new official originals; not published",
+      "reviewStatus": "Original and final white-canvas derivative visually reviewed; exact reference/configuration confirmed. Publication pending founder website-use rights.",
+      "driveFiles": [
+        {
+          "type": "RAW",
+          "id": "1JHjhDVf8I-vQxAaQMsCSROr5RTq5azVs",
+          "name": "tudor-M25600TN-0001-raw.jpeg"
+        },
+        {
+          "type": "WHITE_MASTER",
+          "id": "1WSOaPKOfdvflGHqdtX5xXckOM_t-PRDu",
+          "name": "tudor-M25600TN-0001-white_master.png"
+        },
+        {
+          "type": "WEB",
+          "id": "1L45pCT0t1D2-73GSl2hEVX1No6DO7EGg",
+          "name": "tudor-M25600TN-0001-web.webp"
+        }
+      ],
+      "exactReference": "M25600TN-0001",
+      "publicationStatus": "Queued pending founder website-use clearance"
+    },
+    {
+      "brand": "Tudor",
+      "collection": "Black Bay",
+      "catalogReference": "M7941A1A0NU",
+      "reference": "M7941A1A0NU-0001",
+      "exactSKU": "M7941A1A0NU-0001",
+      "sourceUrl": "https://www.tudorwatch.com/en/pressroom/products/black-bay",
+      "imageUrl": "https://media.tudorwatch.com/image/upload/v1/tudorwatch/pressroom/products/black-bay/2024/M7941A1A0NU-0001_black_73570_FF_OOH_sRVB",
+      "sourceEvidence": "Exact official press image resource observed; removed only public display grid/resize transformations to request unchanged native resource. Exact technical page confirms 3-link steel configuration matching catalog family record.",
+      "configuration": {
+        "material": "Stainless Steel",
+        "dial": "Black, domed, silver-coloured applied hour markers",
+        "bracelet": "Three-link stainless-steel bracelet, T-fit clasp",
+        "caseSize": "41 mm",
+        "movement": "Self-winding MT5602-U, COSC and METAS certified",
+        "waterResistance": "200 m"
+      },
+      "checkedAt": "2026-10-14T01:49:31.349190+00:00",
+      "rightsStatus": "Pending founder clearance for new official originals; not published",
+      "reviewStatus": "Original and final white-canvas derivative visually reviewed; exact full SKU and configuration confirmed. Website publication pending founder rights clearance.",
+      "size": [
+        4000,
+        4000
+      ],
+      "mode": "RGB",
+      "path": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\blackbay-native-originals\\M7941A1A0NU-0001-closed-raw.jpg",
+      "sha256": "0b54d4a627064b43df66ac1d9ef4ea69689180d8d3f707d34b33996f56eb0736",
+      "status": "Authentic official original acquired; unchanged delivered bytes",
+      "whiteMaster": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\blackbay-reviewed\\M7941A1A0NU-0001-white-master.png",
+      "webDerivative": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\blackbay-reviewed\\M7941A1A0NU-0001-web.webp",
+      "derivativeSha256": "eb8b1a7bc85e9d67b9d63069ca4abea0fda108065f7bb42cf5b2f492aeed2931",
+      "processing": "Manual exterior seeds and classical GrabCut boundary mask remove only background/ground shadow. External silhouette filled to preserve original dial/metal highlights. Original RGB preserved on centered 2400 white master and 1200 WEB; no generated or reconstructed pixels.",
+      "driveFiles": [
+        {
+          "type": "RAW",
+          "id": "17IzDBqzbmCteK4CBIeNjmZB8MdJar8gm",
+          "name": "tudor-M7941A1A0NU-0001-raw.jpg"
+        },
+        {
+          "type": "WHITE_MASTER",
+          "id": "1VaWlTl8GY4GrBiN6zL8xATP9xXlQie2C",
+          "name": "tudor-M7941A1A0NU-0001-white_master.png"
+        },
+        {
+          "type": "WEB",
+          "id": "1BX_sWjga7ANFzc9IDn2NEVd8zriJU9PO",
+          "name": "tudor-M7941A1A0NU-0001-web.webp"
+        }
+      ],
+      "exactReference": "M7941A1A0NU-0001",
       "publicationStatus": "Queued pending founder website-use clearance"
     }
   ]
