@@ -1,7 +1,7 @@
 import type { QuestLuxoAsset } from "../types/questLuxo";
 import type { CollectionDefinition } from "./collectionRegistry";
 
-// Manufacturer or authorized-retailer verified reference identities, reviewed 2026-10-14.
+// Reference identities reviewed against manufacturer, authorized-retailer or specialist watch sources (2026-10-14).
 // No product photographs are used without separate explicit rights clearance.
 // Listed profiles are sourcing candidates, not inventory or availability claims.
 type VerifiedRow = readonly [
@@ -1367,6 +1367,34 @@ export const verifiedExpansionRows: readonly VerifiedRow[] = [
     "Stainless-steel bracelet",
     "Stainless Steel",
     "https://www.omegawatches.com.hk/en-hk/watch-omega-de-ville-prestige-co-axial-master-chronometer-power-reserve-41-mm-43410412103001"
+  ],
+  [
+    "Omega",
+    "omega",
+    "Railmaster",
+    "railmaster",
+    "235.10.38.20.06.001",
+    "Seamaster Railmaster Gray Gradient",
+    "38 mm",
+    "Omega 8806 automatic",
+    "Gray to black gradient non-wave",
+    "Stainless-steel bracelet",
+    "Stainless Steel",
+    "https://press.omegawatches.com/the-return-of-the-omega-railmaster/"
+  ],
+  [
+    "Omega",
+    "omega",
+    "Railmaster",
+    "railmaster",
+    "235.10.38.20.13.001",
+    "Seamaster Railmaster Beige Small Seconds",
+    "38 mm",
+    "Omega 8804 automatic Small Seconds",
+    "Beige to brown gradient non-wave",
+    "Stainless-steel bracelet",
+    "Stainless Steel",
+    "https://press.omegawatches.com/the-return-of-the-omega-railmaster/"
   ]
 ];
 
