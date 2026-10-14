@@ -150,3 +150,17 @@ Historical Tudor Royal 2020 and 2023 official press PDFs are preserved locally a
 All 53 prepared sets remain unpublished pending human website-use clearance. Previous tables, source-access, framing and resolution holds are preserved. Command Center V4 remains the official status destination. Continue useful acquisition for the remaining 66 routes; no new automation or competing production operation is created.
 
 The canonical master preserves all earlier tables, prior reviewed page images are pixel-identical, and the new page passed original-resolution review before in-place upload/read-back. Hashes, dimensions, white corners and unique Drive IDs passed. No application code/assets changed; application tests/build were not rerun.
+
+## Retailer-hosted Hublot acquisition October 14 2026
+
+Three additional exact Hublot product images hosted by The 1916 Company passed original/configuration and white-derivative visual review. Prepared totals are 56 sets / 168 RAW, WHITE MASTER and WEB files. Adequate website-use rights remain pending for every newly prepared set. Live approved coverage remains 49 of 168, with 119 queued; 63 routes still need usable originals beyond prepared sets.
+
+Classic Fusion 542.NX.1171.RX: 42 mm titanium, matte black dial, black lined rubber strap, self-winding HUB1110, 50 m. Aerofusion 525.NX.0170.RX: 45 mm titanium, sapphire skeleton dial, black lined rubber strap, self-winding HUB1155, 50 m. Spirit of Big Bang 642.NX.0170.RX: 42 mm titanium, sapphire skeleton dial, black rubber strap, automatic HUB4700, 100 m. Exact full references, image paths and retailer product descriptions match the existing launch catalog configurations. No price, stock or availability is copied into Quest Luxo.
+
+Untouched 1700 x 1700 PNG originals, source product HTML and hashes are preserved. The observed native resource was requested without any display or server background-removal query transformations. Classical filled exterior silhouettes preserve original watch RGB, display details and metallic highlights. Each final image is centered on a blank 2400 x 2400 master and 1200 x 1200 WEB canvas. Full original-resolution derivative review passed. No AI, reconstructed detail, text overlay or source caption.
+
+These are retailer-hosted sources, not newly cleared official Drive photographs. The 1916 Company and underlying manufacturer rights must be resolved for website use; source-host access and authorized-retailer status do not grant Quest Luxo a publication license. All three sets remain unpublished. The manufacturer's denied endpoints and all earlier rejected-source decisions remain recorded; the newly acquired retailer originals are a separately documented source.
+
+Watches of Switzerland Panerai requests returned a collection page without exact-reference image evidence, so neither PAM01305 nor PAM00683 is counted as acquired from that source. Historical Tudor and Patek PDF quality/identity holds remain. Continue useful acquisition for 63 remaining routes, keeping full source-owner and rights evidence. The missed deadline remains recorded, and the expired automation remains deleted.
+
+The canonical master preserves all earlier tables, prior reviewed page images are pixel-identical, and the new page passed original-resolution review before in-place upload/read-back. Hashes, dimensions, white corners and unique Drive IDs passed. No application code/assets changed; application tests/build were not rerun.

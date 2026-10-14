@@ -1,6 +1,6 @@
 {
-  "preparedAt": "2026-10-14T08:08:36.305984+00:00",
-  "count": 53,
+  "preparedAt": "2026-10-14T09:02:54.597950+00:00",
+  "count": 56,
   "websitePublished": false,
   "canonicalApprovedCoverage": {
     "photographed": 49,
@@ -2883,7 +2883,181 @@
       ],
       "exactReference": "243-20-3/43",
       "publicationStatus": "Queued pending adequate human website-use clearance"
+    },
+    {
+      "brand": "Hublot",
+      "collection": "Classic Fusion",
+      "catalogReference": "542.NX.1171.RX",
+      "reference": "542.NX.1171.RX",
+      "exactSKU": "542.NX.1171.RX",
+      "sourceUrl": "https://www.the1916company.com/watches/hublot/classic-fusion/542.nx.1171.rx/",
+      "imageUrl": "https://the1916company-net.imgix.net:443/media-manager/prod/upload/customrecord_rsm_im_vsn_list/542.nx.1171.rx/20260709_012942_572_PM_542.NX.1171.RX_-2.png",
+      "listingSourceUrl": "https://www.the1916company.com/watches/hublot/",
+      "sourceOwner": "The 1916 Company retailer-hosted product image; underlying manufacturer copyright/website-use permission unresolved",
+      "sourceEvidence": "Exact full-reference retailer listing and observed native image path. All display transformations, including server bg-remove, are omitted to preserve source image rather than requesting automated background removal.",
+      "configuration": {
+        "material": "Titanium",
+        "dial": "Matte black",
+        "bracelet": "Black rubber strap",
+        "caseSize": "42 mm",
+        "movement": "Self-winding HUB1110",
+        "waterResistance": "50 m"
+      },
+      "checkedAt": "2026-10-14T04:09:25.561799-04:00",
+      "rightsStatus": "Pending adequate human website-use clearance for new retailer-hosted originals; underlying manufacturer/retailer rights unresolved; not published",
+      "reviewStatus": "Original and final 1200 WEB visually reviewed; exact full reference/configuration verified against source product page. Original RGB retained, centered blank white canvas, no overlays/captions. Publication rights remain unresolved.",
+      "size": [
+        1700,
+        1700
+      ],
+      "mode": "RGB",
+      "path": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\hublot-retailer-native-originals\\542.NX.1171.RX-raw.png",
+      "sha256": "eac17801ac08f08cd6657a2b58f636b65166a53e6af3a05a1c8f62b5bbf187cd",
+      "status": "Authentic official original acquired; unchanged delivered bytes",
+      "whiteMaster": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\hublot-retailer-reviewed\\542.NX.1171.RX-white-master.png",
+      "webDerivative": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\hublot-retailer-reviewed\\542.NX.1171.RX-web.webp",
+      "derivativeSha256": "17feb5795e1cc86c54e23f16cfc4fe4866c2a44c354df04546992277709d6f3d",
+      "processing": "Classical filled external silhouette from original white-background contrast, two-pixel boundary envelope. Original watch RGB and all interior highlights/display detail preserved. Centered blank 2400 white master / 1200 WEB. No server bg-remove transform, AI, reconstruction, captions or overlays.",
+      "pagePath": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\retailer-source-hublot-542.NX.1171.RX.html",
+      "pageSha256": "4203f6e42ac0d7574e5ff2393db966aff4447727fae269f483f7bb0690b850c6",
+      "verifiedProductDescription": "Hublot Classic Fusion Titanium 542.NX.1171.RX self-winding mechanical watch features a 42mm titanium case surrounding a matte black dial on a black lined rubber strap. This watch is powered by the HUB1110 caliber. Functions include hours and minutes, seconds, and date. This watch is water resistant up to 50m.",
+      "listingResearchSnapshotPath": "C:/Users/CAU Student/.codex/visualizations/2026/10/13/01a13345-eaa8-79a3-a57b-c628ca753b40/retailer-photo-source-evidence.json",
+      "driveFiles": [
+        {
+          "type": "RAW",
+          "id": "1Y3hEe_QaZOsSoFyiqbxqQcQtfVvTc5u0",
+          "name": "hublot-542.NX.1171.RX-raw.png"
+        },
+        {
+          "type": "WHITE_MASTER",
+          "id": "1ICvpvr261qykdUaBsgdcGQEHaQ04G0a9",
+          "name": "hublot-542.NX.1171.RX-white_master.png"
+        },
+        {
+          "type": "WEB",
+          "id": "1-cKMoGlG2snfAFjhyEzWJGqESMTR6bXR",
+          "name": "hublot-542.NX.1171.RX-web.webp"
+        }
+      ],
+      "exactReference": "542.NX.1171.RX",
+      "publicationStatus": "Queued pending adequate human website-use clearance"
+    },
+    {
+      "brand": "Hublot",
+      "collection": "Aerofusion",
+      "catalogReference": "525.NX.0170.RX",
+      "reference": "525.NX.0170.RX",
+      "exactSKU": "525.NX.0170.RX",
+      "sourceUrl": "https://www.the1916company.com/watches/hublot/classic-fusion/525.nx.0170.rx/",
+      "imageUrl": "https://the1916company-net.imgix.net:443/media-manager/prod/upload/customrecord_rsm_im_vsn_list/525.nx.0170.rx/20260709_020604_506_PM_525.NX.0170.RX_-2.png",
+      "listingSourceUrl": "https://www.the1916company.com/watches/hublot/",
+      "sourceOwner": "The 1916 Company retailer-hosted product image; underlying manufacturer copyright/website-use permission unresolved",
+      "sourceEvidence": "Exact full-reference retailer listing and observed native image path. All display transformations, including server bg-remove, are omitted to preserve source image rather than requesting automated background removal.",
+      "configuration": {
+        "material": "Titanium",
+        "dial": "Sapphire skeleton display",
+        "bracelet": "Black rubber strap",
+        "caseSize": "45 mm",
+        "movement": "Self-winding HUB1155",
+        "waterResistance": "50 m"
+      },
+      "checkedAt": "2026-10-14T04:09:25.562859-04:00",
+      "rightsStatus": "Pending adequate human website-use clearance for new retailer-hosted originals; underlying manufacturer/retailer rights unresolved; not published",
+      "reviewStatus": "Original and final 1200 WEB visually reviewed; exact full reference/configuration verified against source product page. Original RGB retained, centered blank white canvas, no overlays/captions. Publication rights remain unresolved.",
+      "size": [
+        1700,
+        1700
+      ],
+      "mode": "RGB",
+      "path": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\hublot-retailer-native-originals\\525.NX.0170.RX-raw.png",
+      "sha256": "a48316cc337f92d2c290226353afd0bfeb8263350a81e737b7c9b10a9e3f35bd",
+      "status": "Authentic official original acquired; unchanged delivered bytes",
+      "whiteMaster": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\hublot-retailer-reviewed\\525.NX.0170.RX-white-master.png",
+      "webDerivative": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\hublot-retailer-reviewed\\525.NX.0170.RX-web.webp",
+      "derivativeSha256": "199086d218f47fa94763df84cf733e76c30b44a85d51074bf8f4fb721e2546f0",
+      "processing": "Classical filled external silhouette from original white-background contrast, two-pixel boundary envelope. Original watch RGB and all interior highlights/display detail preserved. Centered blank 2400 white master / 1200 WEB. No server bg-remove transform, AI, reconstruction, captions or overlays.",
+      "pagePath": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\retailer-source-hublot-525.NX.0170.RX.html",
+      "pageSha256": "374777fcf11ab538ed8453425aaf066a1eaabcc90e5ed951f82d39193d5fa9b3",
+      "verifiedProductDescription": "Hublot Classic Fusion Aerofusion Titanium 525.NX.0170.RX self-winding mechanical watch features a 45 titanium case surrounding a sapphire dial on a black lined rubber strap. This watch is powered by the HUB1155 caliber. Functions include hours and minutes, seconds, date, and chronograph. This watch is water resistant up to 50m.",
+      "listingResearchSnapshotPath": "C:/Users/CAU Student/.codex/visualizations/2026/10/13/01a13345-eaa8-79a3-a57b-c628ca753b40/retailer-photo-source-evidence.json",
+      "driveFiles": [
+        {
+          "type": "RAW",
+          "id": "1y_HAKGs_Qv1wMcHg_wEwT3R2EocRXcT7",
+          "name": "hublot-525.NX.0170.RX-raw.png"
+        },
+        {
+          "type": "WHITE_MASTER",
+          "id": "16X5SKpfEpJy8kUYS-BFZtP46TSIcGHbM",
+          "name": "hublot-525.NX.0170.RX-white_master.png"
+        },
+        {
+          "type": "WEB",
+          "id": "1A0UnxzZkGynPY7i-J40RnjkKmmH3hykY",
+          "name": "hublot-525.NX.0170.RX-web.webp"
+        }
+      ],
+      "exactReference": "525.NX.0170.RX",
+      "publicationStatus": "Queued pending adequate human website-use clearance"
+    },
+    {
+      "brand": "Hublot",
+      "collection": "Spirit of Big Bang",
+      "catalogReference": "642.NX.0170.RX",
+      "reference": "642.NX.0170.RX",
+      "exactSKU": "642.NX.0170.RX",
+      "sourceUrl": "https://www.the1916company.com/watches/hublot/spirit-of-big-bang/642.nx.0170.rx/",
+      "imageUrl": "https://the1916company-net.imgix.net:443/media-manager/prod/upload/customrecord_rsm_im_vsn_list/642.nx.0170.rx/20260709_023341_947_PM_642.NX.0170.RX_-2.png",
+      "listingSourceUrl": "https://www.the1916company.com/watches/hublot/",
+      "sourceOwner": "The 1916 Company retailer-hosted product image; underlying manufacturer copyright/website-use permission unresolved",
+      "sourceEvidence": "Exact full-reference retailer listing and observed native image path. All display transformations, including server bg-remove, are omitted to preserve source image rather than requesting automated background removal.",
+      "configuration": {
+        "material": "Titanium",
+        "dial": "Sapphire skeleton display",
+        "bracelet": "Black rubber strap",
+        "caseSize": "42 mm",
+        "movement": "Self-winding HUB4700",
+        "waterResistance": "100 m"
+      },
+      "checkedAt": "2026-10-14T04:09:25.563906-04:00",
+      "rightsStatus": "Pending adequate human website-use clearance for new retailer-hosted originals; underlying manufacturer/retailer rights unresolved; not published",
+      "reviewStatus": "Original and final 1200 WEB visually reviewed; exact full reference/configuration verified against source product page. Original RGB retained, centered blank white canvas, no overlays/captions. Publication rights remain unresolved.",
+      "size": [
+        1700,
+        1700
+      ],
+      "mode": "RGB",
+      "path": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\hublot-retailer-native-originals\\642.NX.0170.RX-raw.png",
+      "sha256": "d386ddd4d63c4f54bf4a5400dcea17d477a8f693351c3eca5ecaf14d730af3f7",
+      "status": "Authentic official original acquired; unchanged delivered bytes",
+      "whiteMaster": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\hublot-retailer-reviewed\\642.NX.0170.RX-white-master.png",
+      "webDerivative": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\hublot-retailer-reviewed\\642.NX.0170.RX-web.webp",
+      "derivativeSha256": "e4a1c0db35969ada1a28f8b034169eef6b4ca6b5c243abd5269c97e828fcbb5e",
+      "processing": "Classical filled external silhouette from original white-background contrast, two-pixel boundary envelope. Original watch RGB and all interior highlights/display detail preserved. Centered blank 2400 white master / 1200 WEB. No server bg-remove transform, AI, reconstruction, captions or overlays.",
+      "pagePath": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\retailer-source-hublot-642.NX.0170.RX.html",
+      "pageSha256": "92688ba9cee5543d2578e82289f3162cc04abaf1bd6568e162b0427cdacbd707",
+      "verifiedProductDescription": "This watch features a 42mm titanium case, black rubber strap, front sapphire crystal, and sapphire crystal exhibition caseback. 100-meter water resistance. Skeletonized dial with date and chronograph functions and luminous hands and markers. Powered by Hublot automatic caliber HUB4700 with 50-hour power reserve.",
+      "listingResearchSnapshotPath": "C:/Users/CAU Student/.codex/visualizations/2026/10/13/01a13345-eaa8-79a3-a57b-c628ca753b40/retailer-photo-source-evidence.json",
+      "driveFiles": [
+        {
+          "type": "RAW",
+          "id": "1qayKLsP9XrTSWHaMoyc-537Wru-NUMzc",
+          "name": "hublot-642.NX.0170.RX-raw.png"
+        },
+        {
+          "type": "WHITE_MASTER",
+          "id": "1yP7r5-jPMPw_5rpbN2XGOe9z2fymdvdT",
+          "name": "hublot-642.NX.0170.RX-white_master.png"
+        },
+        {
+          "type": "WEB",
+          "id": "1CizG8Uyw9hN0E0qmEbm7Xd70t6m_KYP2",
+          "name": "hublot-642.NX.0170.RX-web.webp"
+        }
+      ],
+      "exactReference": "642.NX.0170.RX",
+      "publicationStatus": "Queued pending adequate human website-use clearance"
     }
   ],
-  "coverageNote": "Live approved coverage remains 49 of 168, 119 queued. These 53 reviewed sets are unpublished pending adequate human website-use clearance; acquisition continues under founder standing instruction after the missed deadline."
+  "coverageNote": "Live approved coverage remains 49 of 168, 119 queued. These 56 reviewed sets are unpublished pending adequate human website-use clearance; acquisition continues under founder standing instruction after the missed deadline."
 }
