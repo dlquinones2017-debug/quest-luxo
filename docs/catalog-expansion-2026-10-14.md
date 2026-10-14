@@ -26,3 +26,14 @@ Audit current brand factories, collection routes, reference datasets, and photog
 4. Connect navigation, search, and Begin Your Quest; avoid duplicate slugs.
 5. Run route, image, responsive, and build tests; report reference/image coverage and blockers.
 6. Stage work as small reviewable PRs; no automatic merge or production deployment.
+
+## Franck Muller specialty expansion — founder approved 2026-10-14
+Preserve existing launch-catalog #FR2NCK MULLER Vanguard Rabbit entry, reference V 41 SC DT FR2 GFGRNR (NR), and existing Crazy Hours/Yachting pages. Do not duplicate it under a conflicting slug.
+- Original #FR2NCK MULLER Vanguard (2023 Lunar Year of the Rabbit): preserve existing exact-reference configuration and verified retailer citation; confirm release year before publication.
+- #FR2NCK MULLER Vanguard Beach limited edition (2025): separate from original Rabbit and standard Vanguard Beach; research precise limited-edition references, colors, quantities and authorized source.
+- Bamford Watch Department collaborations: Popeye and Snoopy; independently verify which references are genuine Franck Muller collaborations, their model names and official rights before listing.
+- Vanguard Smurfette (2025): verify official naming, licensing, variants, and reference numbers.
+- Vanguard Beach standard/non-collaboration: catalog separately from #FR2 collaboration.
+- Vanguard Crypto / Bitcoin editions: verify authentic reference variants and release details; do not imply cryptocurrency functionality without manufacturer confirmation.
+
+Acceptance: each public reference requires exact manufacturer/authorized-retailer provenance, edition identity, reference, and rights-cleared matching photography. Unsupported items remain research candidates, not purchasable inventory or fabricated reference pages.
