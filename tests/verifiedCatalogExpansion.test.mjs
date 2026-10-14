@@ -54,7 +54,7 @@ test("founder-priority collection families are represented by source-backed refe
   for (const expected of [
     "zenith/defy-skyline", "zenith/defy-extreme", "zenith/chronomaster-sport",
     "iwc/ingenieur", "iwc/pilots-watches", "iwc/portugieser", "iwc/portofino", "iwc/aquatimer",
-    "omega/dark-side-of-the-moon", "omega/seamaster-diver-300m", "omega/seamaster-300", "omega/seamaster-planet-ocean",
+    "omega/dark-side-of-the-moon", "omega/seamaster", "omega/seamaster-300", "omega/planet-ocean",
     "breitling/navitimer", "breitling/superocean-heritage", "breitling/avenger", "breitling/avenger-ii", "breitling/colt",
     "hublot/classic-fusion", "hublot/big-bang",
     "panerai/submersible", "panerai/luminor-gmt", "panerai/radiomir-gmt",
