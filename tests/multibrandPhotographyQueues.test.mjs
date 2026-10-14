@@ -37,8 +37,15 @@ test("entire 99-reference expansion has exactly one correctly configured photogr
     assert.equal(task.material,material);
     assert.equal(task.source,source);
   }
-  assert.ok(other.queue.every(x=>x.status==="RIGHTS_AND_EXACT_CONFIGURATION_REVIEW_REQUIRED"));
-  assert.ok(other.queue.every(x=>!x.webDerivativePath&&!x.commercialUseRightsRecord));
+  const cleared = other.queue.filter(x=>x.status==="APPROVED_WITH_VALID_DERIVATIVE");
+  const queued = other.queue.filter(x=>x.status==="RIGHTS_AND_EXACT_CONFIGURATION_REVIEW_REQUIRED");
+  assert.equal(cleared.length, 1, "recover one existing exact-reference cleared Zenith photograph");
+  assert.equal(cleared[0].reference, "03.3100.3600/69.M3100");
+  assert.equal(other.summary.approvedForImageRelease, cleared.length);
+  assert.equal(other.summary.tasksAwaitingExactImageRightsReview, queued.length);
+  assert.equal(queued.length + cleared.length, other.queue.length);
+  assert.ok(cleared.every(x=>x.webDerivativeSHA256 && x.commercialUseRightsRecord && x.rawSourceFileId));
+  assert.ok(queued.every(x=>!x.webDerivativePath&&!x.commercialUseRightsRecord));
   assert.ok(other.queue.every(x=>x.identitySource.startsWith("https://")));
   assert.ok(omega.queue.every(x=>x.specificationSource.startsWith("https://")));
 });

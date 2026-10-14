@@ -1,8 +1,28 @@
 import type { WatchPhotograph } from "../lib/media/watchPhotography";
 import { photographyExpansionImages } from "./photography-expansion.ts";
 // Website delivery index only. The Digital Asset Library remains the rights authority.
+// The historical catalogue and the manufacturer format the same Chronomaster Sport
+// exact reference differently. This alias reuses the SAME reviewed photo bytes,
+// original rights record, SHA-256, strap and dial rather than sourcing a near-match.
+const clearedZenithChronomaster = photographyExpansionImages.find(photo =>
+  photo.brand === "Zenith" &&
+  photo.collection === "Chronomaster Sport" &&
+  photo.reference === "03-3100-3600-69-M3100" &&
+  photo.exactConfigurationVerified && photo.websiteApproved &&
+  photo.configuration.dial === "White with grey, anthracite and blue counters" &&
+  photo.configuration.bracelet === "Stainless-steel bracelet" &&
+  photo.configuration.material === "Stainless Steel"
+);
 export const watchPhotographs: readonly WatchPhotograph[] = [
   ...photographyExpansionImages,
+  ...(clearedZenithChronomaster ? [{
+    ...clearedZenithChronomaster,
+    assetId: clearedZenithChronomaster.assetId + "-manufacturer-reference-alias",
+    reference: "03.3100.3600/69.M3100",
+    alt: "Authentic Zenith Chronomaster Sport ref. 03.3100.3600/69.M3100 with white dial, tricolor counters and stainless-steel bracelet",
+    attribution: clearedZenithChronomaster.attribution +
+      " Catalogue alias 03.3100.3600/69.M3100 represents the same manufacturer reference as 03-3100-3600-69-M3100; original unchanged.",
+  }] : []),
   {
     assetId: "breitling-navitimer-collection-hero-cc-by-sa-3",
     brand: "Breitling",

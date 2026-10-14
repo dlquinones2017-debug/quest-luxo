@@ -6,8 +6,8 @@
   "summary": {
     "references": 44,
     "brands": 11,
-    "approvedForImageRelease": "Requires dynamic audit",
-    "tasksAwaitingExactImageRightsReview": 44
+    "approvedForImageRelease": 1,
+    "tasksAwaitingExactImageRightsReview": 43
   },
   "queue": [
     {
@@ -116,19 +116,22 @@
       "configuration": {
         "caseSize": "41 mm",
         "movement": "El Primero 3600 automatic chronograph",
-        "dial": "White, tricolor subdials",
+        "dial": "White with grey, anthracite and blue counters",
         "strapOrBracelet": "Stainless-steel bracelet",
         "material": "Stainless Steel"
       },
       "identitySource": "https://www.zenith-watches.com/en_se/product/chronomaster-sport-03-3100-3600-69-m3100",
       "priorityScore": 72,
-      "status": "RIGHTS_AND_EXACT_CONFIGURATION_REVIEW_REQUIRED",
-      "rawSourceFileId": null,
-      "webDerivativePath": null,
-      "webDerivativeSHA256": null,
-      "reviewer": null,
-      "commercialUseRightsRecord": null,
-      "notes": "Do not publish until approvedPhotograph verifies commercial rights and exact reference, and WEB image checksum matches stored file."
+      "status": "APPROVED_WITH_VALID_DERIVATIVE",
+      "rawSourceFileId": "1hUL4IHegFj1Z1pGnVZGBAsT3B-c1JRtN",
+      "webDerivativePath": "/images/watches/zenith/reviewed-03-3100-3600-69-m3100-white-web.webp",
+      "webDerivativeSHA256": "72a112602fd000a20b3a57af5d559a651cb2ef97d7bd0533b17501931e4e211f",
+      "reviewer": "Quest Luxo execution review with founder website-use clearance",
+      "commercialUseRightsRecord": "Founder directly confirmed website-use rights and authorized publication on October 14, 2026 in Quest Luxo Command Center V4; record docs/PHOTOGRAPHY_FOUNDER_CLEARANCE_2026-10-14.json.",
+      "notes": "Manufacturer dotted reference 03.3100.3600/69.M3100 and legacy website hyphen reference 03-3100-3600-69-M3100 are the same exact watch; central approvedPhoto asset permits reuse with preserved provenance.",
+      "licenseScope": "Previously founder-cleared manufacturer original and WEB derivative; alias represents same exact Zenith SKU.",
+      "exactIdentitySource": "https://www.zenith-watches.com/es_es/product/chronomaster-sport-03-3100-3600-69-m3100",
+      "qualityEvidence": "Existing white-canvas derivative reviewed and exact-reference photo passed SHA-256 tests. No new image bytes or generative edits."
     },
     {
       "brand": "Zenith",
