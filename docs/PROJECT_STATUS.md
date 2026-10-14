@@ -199,3 +199,14 @@ Nine more authentic exact-reference sets are preserved with 27 Drive RAW/master/
 The direct founder rights confirmation and V4 instruction cover publication after normal candidate quality review. Same source owners are retained explicitly; no open-content license is claimed. American 1921 is the new silver-grained/blue-numeral dial and dark-blue calfskin strap, not an earlier brown-strap variant. Its opaque original floor shadow is removed by following the original strap boundary; watch detail is unaltered.
 
 Integrated target coverage is 119 of 168, with 49 still needing photography. Confirmed production remains 110 pending this release. The 25-page master includes the reviewed/read-back founder clearance page; two acquisition pages are being added. Source holds: current 222 original is cropped; Panerai image has unclear pale strap/alpha and must not stand for the black-strap configuration. IWC complete original requires a classical manual background mask. Continue acquisition; no completion claim.
+
+
+Release 2db2c4a verified live: 119/168 photographed canonical routes, 49 queued; 55/71 collections include photography. All 70 sprint page/image/full-SKU/hash mappings, credits, 44 affected collection grids and intake passed. The canonical master is 27 reviewed pages; prior 25 images are identical, in-place upload/read-back succeeded. Tudor Royal 38 next derivative reviewed and saved; Hublot 700px edge-touching source rejected in favor of a larger complete original. Continue acquisition without misrepresenting cropped/unclear candidates.
+
+## Tudor Royal and Hublot Unico reviewed integration October 14 2026
+
+Royal M28500-0006: exact 38mm steel / blue diamond-marker dial / integrated steel bracelet, self-winding,100m, verified against authorized retailer page and complete 1580-square original. Original palette/alpha preserved, only exterior cast shadow removed. Caliber omitted because not confirmed for the exact pictured SKU.
+
+Hublot 441.NX.1171.RX: titanium / matte-black skeleton / black rubber,42mm,HUB1280 flyback,100m. MAIER native1000-square original is fully framed and reviewed. The earlier700px edge-touching candidate remains rejected. The same fullSKU is explicitly mapped to existing Big Bang441-NX-1171-RX and Big Bang Unico441.NX.1171.RX pages, preserving both URLs and disclosing the full photographed SKU. No new physical photograph is counted for the duplicate canonical mapping.
+
+Both sets passed original/final white-derivative review and all hashes/dimensions/white corners. Six new Drive files and source log1UjfxHTENgAl1lT_G-o0AFV0ODxbJm2j8 are preserved. Founder-confirmed remaining-sprint rights recorded; no generative detail, caption or overlay. Target122/168 canonical routes,46 queued; production remains119 pending verification. Total sprint72 physical sets/216 Drive files map to73 canonical routes. Continue acquisition for the remaining13 wholly unpictured collections.

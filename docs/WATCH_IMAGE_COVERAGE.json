@@ -1,14 +1,14 @@
 {
-  "reviewedAt": "2026-10-14T10:32:17.126Z",
+  "reviewedAt": "2026-10-14T10:44:11.593Z",
   "note": "Generated from all exported source datasets and built routes. Source-only and duplicate configuration records are retained for review; this register is not proof of image rights. Source URLs identify research leads, not licenses.",
   "summary": {
-    "sourceConfigurations": 533,
+    "sourceConfigurations": 541,
     "builtReferenceRoutes": 168,
     "collectionRoutes": 71,
-    "approvedReferenceConfigurations": 214,
+    "approvedReferenceConfigurations": 220,
     "unmatchedReferenceRoutes": 0,
-    "approvedCanonicalReferenceRoutes": 119,
-    "queuedCanonicalReferenceRoutes": 49
+    "approvedCanonicalReferenceRoutes": 122,
+    "queuedCanonicalReferenceRoutes": 46
   },
   "collections": [
     {
@@ -5043,6 +5043,16 @@
           "dial": "Configuration details available through private advisory",
           "bracelet": "Reference dependent",
           "originalMSRP": null
+        },
+        {
+          "dial": "Matte black skeleton",
+          "bracelet": "Black rubber strap",
+          "caseSize": "42 mm",
+          "movement": "Self-winding HUB1280 UNICO flyback chronograph",
+          "waterResistance": "100 m",
+          "nickname": "Matte black skeleton / Black rubber strap",
+          "originalMSRP": null,
+          "currentMSRP": null
         }
       ],
       "material": "Titanium",
@@ -5054,14 +5064,14 @@
         "/collections/hublot/big-bang-unico/441-nx-1171-rx"
       ],
       "scope": "built-reference",
-      "existingImage": "/images/watch-reference-placeholder.svg",
+      "existingImage": "/images/watches/hublot/reviewed-441-nx-1171-rx-white-web.webp",
       "existingImageFilePresent": true,
-      "photoAssetId": null,
-      "status": "Requires Verification",
-      "sourceUrl": null,
-      "licenseRecord": null,
-      "websiteApproved": false,
-      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+      "photoAssetId": "cleared-sprint-1mtxUZC636r2QloJR0U_SPUrPinP_f0EJ-big-bang",
+      "status": "approved",
+      "sourceUrl": "https://www.maier.fr/marques-horlogerie-bijouterie/hublot/montres/big-bang-unico/big-bang-unico-titanium_441-nx-1171-rx",
+      "licenseRecord": "Founder directly confirmed remaining-sprint website-use rights and authorized publication October 14, 2026 in V4. Exact configuration, complete original framing and final white derivative reviewed. See PHOTOGRAPHY_FOUNDER_CLEARANCE_2026-10-14.json. Preserved RAW file: 1mtxUZC636r2QloJR0U_SPUrPinP_f0EJ. Pictured full reference 441.NX.1171.RX; Titanium, Matte black skeleton, Black rubber strap. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
     },
     {
       "brand": "Cartier",
@@ -7036,25 +7046,34 @@
           "dial": "Reference-dependent",
           "bracelet": "Integrated steel bracelet",
           "waterResistance": "100 m"
+        },
+        {
+          "dial": "Blue sunray with diamond hour markers and Roman numerals",
+          "bracelet": "Stainless-steel integrated bracelet",
+          "caseSize": "38 mm",
+          "movement": "Self-winding",
+          "waterResistance": "100 m",
+          "nickname": "Blue sunray with diamond hour markers and Roman numerals / Stainless-steel integrated bracelet",
+          "originalMSRP": null,
+          "currentMSRP": null
         }
       ],
-      "material": "Steel or Steel and Gold",
+      "material": "Stainless steel",
       "sources": [
-        "src/data/collectionRegistry.ts",
-        "src/data/reference-expansion.ts"
+        "src/data/collectionRegistry.ts"
       ],
       "routes": [
         "/collections/tudor/royal/tudor-royal-38-mm"
       ],
       "scope": "built-reference",
-      "existingImage": "/images/watch-reference-placeholder.svg",
+      "existingImage": "/images/watches/tudor/reviewed-m28500-0006-white-web.webp",
       "existingImageFilePresent": true,
-      "photoAssetId": null,
-      "status": "Requires Verification",
-      "sourceUrl": null,
-      "licenseRecord": null,
-      "websiteApproved": false,
-      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+      "photoAssetId": "cleared-sprint-1Wbz2B39kZOK2xKDKhbvCxsb0Pag82U1D",
+      "status": "approved",
+      "sourceUrl": "https://www.the1916company.com/watches/tudor/tudor-royal/tudor-royal-m28500-0006/",
+      "licenseRecord": "Founder directly confirmed remaining-sprint website-use rights and authorized publication October 14, 2026 in V4. Exact configuration, complete original framing and final white derivative reviewed. See PHOTOGRAPHY_FOUNDER_CLEARANCE_2026-10-14.json. Preserved RAW file: 1Wbz2B39kZOK2xKDKhbvCxsb0Pag82U1D. Pictured full reference M28500-0006; Stainless steel, Blue sunray with diamond hour markers and Roman numerals, Stainless-steel integrated bracelet. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
     },
     {
       "brand": "Tudor",
@@ -8049,26 +8068,35 @@
           "waterResistance": "100 m",
           "originalMSRP": null,
           "currentMSRP": null
+        },
+        {
+          "dial": "Matte black skeleton",
+          "bracelet": "Black rubber strap",
+          "caseSize": "42 mm",
+          "movement": "Self-winding HUB1280 UNICO flyback chronograph",
+          "waterResistance": "100 m",
+          "nickname": "Matte black skeleton / Black rubber strap",
+          "originalMSRP": null,
+          "currentMSRP": null
         }
       ],
       "material": "Titanium",
       "sources": [
-        "src/data/collectionRegistry.ts",
-        "src/data/launch-catalog.ts"
+        "src/data/collectionRegistry.ts"
       ],
       "routes": [
         "/collections/hublot/big-bang/441-nx-1171-rx",
         "/collections/hublot/big-bang-unico/441-nx-1171-rx"
       ],
       "scope": "built-reference",
-      "existingImage": "/images/watch-reference-placeholder.svg",
+      "existingImage": "/images/watches/hublot/reviewed-441-nx-1171-rx-white-web.webp",
       "existingImageFilePresent": true,
-      "photoAssetId": null,
-      "status": "Requires Verification",
-      "sourceUrl": "https://www.hublot.com/fr-fr/watches/big-bang/big-bang-unico-titanium-42-mm",
-      "licenseRecord": null,
-      "websiteApproved": false,
-      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+      "photoAssetId": "cleared-sprint-1mtxUZC636r2QloJR0U_SPUrPinP_f0EJ",
+      "status": "approved",
+      "sourceUrl": "https://www.maier.fr/marques-horlogerie-bijouterie/hublot/montres/big-bang-unico/big-bang-unico-titanium_441-nx-1171-rx",
+      "licenseRecord": "Founder directly confirmed remaining-sprint website-use rights and authorized publication October 14, 2026 in V4. Exact configuration, complete original framing and final white derivative reviewed. See PHOTOGRAPHY_FOUNDER_CLEARANCE_2026-10-14.json. Preserved RAW file: 1mtxUZC636r2QloJR0U_SPUrPinP_f0EJ. Pictured full reference 441.NX.1171.RX; Titanium, Matte black skeleton, Black rubber strap. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
     },
     {
       "brand": "Hublot",
@@ -8768,6 +8796,39 @@
       "photoAssetId": null,
       "status": "Requires Verification",
       "sourceUrl": "https://www.hublot.com/en-us/watches/classic-fusion/classic-fusion-aerofusion-titanium-45-mm",
+      "licenseRecord": null,
+      "websiteApproved": false,
+      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+    },
+    {
+      "brand": "Hublot",
+      "collection": "Big Bang Unico",
+      "reference": "441.NX.1171.RX",
+      "configurations": [
+        {
+          "caseSize": "42 mm",
+          "movement": "Self-winding HUB1280 UNICO flyback chronograph",
+          "dial": "Matte black skeleton",
+          "bracelet": "Black lined rubber strap",
+          "waterResistance": "100 m",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "Titanium",
+      "sources": [
+        "src/data/launch-catalog.ts"
+      ],
+      "routes": [
+        "/collections/hublot/big-bang/441-nx-1171-rx",
+        "/collections/hublot/big-bang-unico/441-nx-1171-rx"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": null,
+      "status": "Requires Verification",
+      "sourceUrl": "https://www.hublot.com/fr-fr/watches/big-bang/big-bang-unico-titanium-42-mm",
       "licenseRecord": null,
       "websiteApproved": false,
       "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
@@ -10919,6 +10980,74 @@
       ],
       "routes": [
         "/collections/vacheron-constantin/american-1921/82035-000r-h114"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": null,
+      "status": "Requires Verification",
+      "sourceUrl": null,
+      "licenseRecord": null,
+      "websiteApproved": false,
+      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+    },
+    {
+      "brand": "Tudor",
+      "collection": "Royal",
+      "reference": "Tudor Royal 38 mm",
+      "configurations": [],
+      "material": "Stainless steel",
+      "sources": [
+        "src/data/photography-cleared-sprint.ts"
+      ],
+      "routes": [
+        "/collections/tudor/royal/tudor-royal-38-mm"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": null,
+      "status": "Requires Verification",
+      "sourceUrl": null,
+      "licenseRecord": null,
+      "websiteApproved": false,
+      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+    },
+    {
+      "brand": "Hublot",
+      "collection": "Big Bang Unico",
+      "reference": "441.NX.1171.RX",
+      "configurations": [],
+      "material": "Titanium",
+      "sources": [
+        "src/data/photography-cleared-sprint.ts"
+      ],
+      "routes": [
+        "/collections/hublot/big-bang/441-nx-1171-rx",
+        "/collections/hublot/big-bang-unico/441-nx-1171-rx"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": null,
+      "status": "Requires Verification",
+      "sourceUrl": null,
+      "licenseRecord": null,
+      "websiteApproved": false,
+      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+    },
+    {
+      "brand": "Hublot",
+      "collection": "Big Bang",
+      "reference": "441-NX-1171-RX",
+      "configurations": [],
+      "material": "Titanium",
+      "sources": [
+        "src/data/photography-cleared-sprint.ts"
+      ],
+      "routes": [
+        "/collections/hublot/big-bang/441-nx-1171-rx",
+        "/collections/hublot/big-bang-unico/441-nx-1171-rx"
       ],
       "scope": "built-reference",
       "existingImage": null,
@@ -13225,6 +13354,107 @@
       "nextAction": "Retain approved original and verify derivative integrity."
     },
     {
+      "brand": "Tudor",
+      "collection": "Royal",
+      "reference": "Tudor Royal 38 mm",
+      "configurations": [
+        {
+          "dial": "Blue sunray with diamond hour markers and Roman numerals",
+          "bracelet": "Stainless-steel integrated bracelet",
+          "caseSize": "38 mm",
+          "movement": "Self-winding",
+          "waterResistance": "100 m",
+          "nickname": "Blue sunray with diamond hour markers and Roman numerals / Stainless-steel integrated bracelet",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "Stainless steel",
+      "sources": [
+        "src/data/photography-expansion.ts"
+      ],
+      "routes": [
+        "/collections/tudor/royal/tudor-royal-38-mm"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": "cleared-sprint-1Wbz2B39kZOK2xKDKhbvCxsb0Pag82U1D",
+      "status": "approved",
+      "sourceUrl": "https://www.the1916company.com/watches/tudor/tudor-royal/tudor-royal-m28500-0006/",
+      "licenseRecord": "Founder directly confirmed remaining-sprint website-use rights and authorized publication October 14, 2026 in V4. Exact configuration, complete original framing and final white derivative reviewed. See PHOTOGRAPHY_FOUNDER_CLEARANCE_2026-10-14.json. Preserved RAW file: 1Wbz2B39kZOK2xKDKhbvCxsb0Pag82U1D. Pictured full reference M28500-0006; Stainless steel, Blue sunray with diamond hour markers and Roman numerals, Stainless-steel integrated bracelet. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
+      "brand": "Hublot",
+      "collection": "Big Bang Unico",
+      "reference": "441.NX.1171.RX",
+      "configurations": [
+        {
+          "dial": "Matte black skeleton",
+          "bracelet": "Black rubber strap",
+          "caseSize": "42 mm",
+          "movement": "Self-winding HUB1280 UNICO flyback chronograph",
+          "waterResistance": "100 m",
+          "nickname": "Matte black skeleton / Black rubber strap",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "Titanium",
+      "sources": [
+        "src/data/photography-expansion.ts"
+      ],
+      "routes": [
+        "/collections/hublot/big-bang/441-nx-1171-rx",
+        "/collections/hublot/big-bang-unico/441-nx-1171-rx"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": "cleared-sprint-1mtxUZC636r2QloJR0U_SPUrPinP_f0EJ",
+      "status": "approved",
+      "sourceUrl": "https://www.maier.fr/marques-horlogerie-bijouterie/hublot/montres/big-bang-unico/big-bang-unico-titanium_441-nx-1171-rx",
+      "licenseRecord": "Founder directly confirmed remaining-sprint website-use rights and authorized publication October 14, 2026 in V4. Exact configuration, complete original framing and final white derivative reviewed. See PHOTOGRAPHY_FOUNDER_CLEARANCE_2026-10-14.json. Preserved RAW file: 1mtxUZC636r2QloJR0U_SPUrPinP_f0EJ. Pictured full reference 441.NX.1171.RX; Titanium, Matte black skeleton, Black rubber strap. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
+      "brand": "Hublot",
+      "collection": "Big Bang",
+      "reference": "441-NX-1171-RX",
+      "configurations": [
+        {
+          "dial": "Matte black skeleton",
+          "bracelet": "Black rubber strap",
+          "caseSize": "42 mm",
+          "movement": "Self-winding HUB1280 UNICO flyback chronograph",
+          "waterResistance": "100 m",
+          "nickname": "Matte black skeleton / Black rubber strap",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "Titanium",
+      "sources": [
+        "src/data/photography-expansion.ts"
+      ],
+      "routes": [
+        "/collections/hublot/big-bang/441-nx-1171-rx",
+        "/collections/hublot/big-bang-unico/441-nx-1171-rx"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": "cleared-sprint-1mtxUZC636r2QloJR0U_SPUrPinP_f0EJ-big-bang",
+      "status": "approved",
+      "sourceUrl": "https://www.maier.fr/marques-horlogerie-bijouterie/hublot/montres/big-bang-unico/big-bang-unico-titanium_441-nx-1171-rx",
+      "licenseRecord": "Founder directly confirmed remaining-sprint website-use rights and authorized publication October 14, 2026 in V4. Exact configuration, complete original framing and final white derivative reviewed. See PHOTOGRAPHY_FOUNDER_CLEARANCE_2026-10-14.json. Preserved RAW file: 1mtxUZC636r2QloJR0U_SPUrPinP_f0EJ. Pictured full reference 441.NX.1171.RX; Titanium, Matte black skeleton, Black rubber strap. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
       "brand": "Rolex",
       "collection": "Submariner",
       "reference": "126613LB",
@@ -14261,6 +14491,36 @@
       ],
       "routes": [
         "/collections/patek-philippe/cubitus/cubitus-grand-date"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": null,
+      "status": "Requires Verification",
+      "sourceUrl": null,
+      "licenseRecord": null,
+      "websiteApproved": false,
+      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+    },
+    {
+      "brand": "Tudor",
+      "collection": "Royal",
+      "reference": "Tudor Royal 38 mm",
+      "configurations": [
+        {
+          "caseSize": "38 mm",
+          "movement": "Automatic",
+          "dial": "Reference-dependent",
+          "bracelet": "Integrated steel bracelet",
+          "waterResistance": "100 m"
+        }
+      ],
+      "material": "Steel or Steel and Gold",
+      "sources": [
+        "src/data/reference-expansion.ts"
+      ],
+      "routes": [
+        "/collections/tudor/royal/tudor-royal-38-mm"
       ],
       "scope": "built-reference",
       "existingImage": null,

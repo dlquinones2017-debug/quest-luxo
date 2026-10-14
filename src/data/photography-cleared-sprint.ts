@@ -1665,5 +1665,77 @@ export const clearedSprintPhotographySeeds: readonly PhotographySeed[] = [
     "sourceProvider": "Vacheron Constantin product photography hosted by Watches of Switzerland Australia",
     "reviewedAt": "2026-10-14",
     "assetId": "cleared-sprint-1T-_k5nd9l5k1BXpQQZQxTabFPPUEPP0n"
+  },
+  {
+    "brand": "Tudor",
+    "brandSlug": "tudor",
+    "collection": "Royal",
+    "reference": "Tudor Royal 38 mm",
+    "exactReference": "M28500-0006",
+    "model": "Tudor Royal 38 mm",
+    "material": "Stainless steel",
+    "configuration": {
+      "dial": "Blue sunray with diamond hour markers and Roman numerals",
+      "bracelet": "Stainless-steel integrated bracelet",
+      "caseSize": "38 mm",
+      "movement": "Self-winding",
+      "waterResistance": "100 m"
+    },
+    "sourceUrl": "https://www.the1916company.com/watches/tudor/tudor-royal/tudor-royal-m28500-0006/",
+    "src": "/images/watches/tudor/reviewed-m28500-0006-white-web.webp",
+    "sha256": "64c56f5f44b1b18cd54a86030b1a42910643ed20fcb2cfe55517072842bada6c",
+    "rawDriveFileId": "1Wbz2B39kZOK2xKDKhbvCxsb0Pag82U1D",
+    "clearanceRecord": "Founder directly confirmed remaining-sprint website-use rights and authorized publication October 14, 2026 in V4. Exact configuration, complete original framing and final white derivative reviewed. See PHOTOGRAPHY_FOUNDER_CLEARANCE_2026-10-14.json.",
+    "sourceProvider": "Tudor product photography hosted by The 1916 Company",
+    "reviewedAt": "2026-10-14",
+    "assetId": "cleared-sprint-1Wbz2B39kZOK2xKDKhbvCxsb0Pag82U1D"
+  },
+  {
+    "brand": "Hublot",
+    "brandSlug": "hublot",
+    "collection": "Big Bang Unico",
+    "reference": "441.NX.1171.RX",
+    "exactReference": "441.NX.1171.RX",
+    "model": "Big Bang Unico Titanium 42",
+    "material": "Titanium",
+    "configuration": {
+      "dial": "Matte black skeleton",
+      "bracelet": "Black rubber strap",
+      "caseSize": "42 mm",
+      "movement": "Self-winding HUB1280 UNICO flyback chronograph",
+      "waterResistance": "100 m"
+    },
+    "sourceUrl": "https://www.maier.fr/marques-horlogerie-bijouterie/hublot/montres/big-bang-unico/big-bang-unico-titanium_441-nx-1171-rx",
+    "src": "/images/watches/hublot/reviewed-441-nx-1171-rx-white-web.webp",
+    "sha256": "5e509bf22d95ca2b55eb495ec4edfb87508564f78c1f8b3c5cc7f81546664aae",
+    "rawDriveFileId": "1mtxUZC636r2QloJR0U_SPUrPinP_f0EJ",
+    "clearanceRecord": "Founder directly confirmed remaining-sprint website-use rights and authorized publication October 14, 2026 in V4. Exact configuration, complete original framing and final white derivative reviewed. See PHOTOGRAPHY_FOUNDER_CLEARANCE_2026-10-14.json.",
+    "sourceProvider": "Hublot product photography hosted by MAIER",
+    "reviewedAt": "2026-10-14",
+    "assetId": "cleared-sprint-1mtxUZC636r2QloJR0U_SPUrPinP_f0EJ"
+  },
+  {
+    "brand": "Hublot",
+    "brandSlug": "hublot",
+    "collection": "Big Bang",
+    "reference": "441-NX-1171-RX",
+    "exactReference": "441.NX.1171.RX",
+    "model": "Big Bang",
+    "material": "Titanium",
+    "configuration": {
+      "dial": "Matte black skeleton",
+      "bracelet": "Black rubber strap",
+      "caseSize": "42 mm",
+      "movement": "Self-winding HUB1280 UNICO flyback chronograph",
+      "waterResistance": "100 m"
+    },
+    "sourceUrl": "https://www.maier.fr/marques-horlogerie-bijouterie/hublot/montres/big-bang-unico/big-bang-unico-titanium_441-nx-1171-rx",
+    "src": "/images/watches/hublot/reviewed-441-nx-1171-rx-white-web.webp",
+    "sha256": "5e509bf22d95ca2b55eb495ec4edfb87508564f78c1f8b3c5cc7f81546664aae",
+    "rawDriveFileId": "1mtxUZC636r2QloJR0U_SPUrPinP_f0EJ",
+    "clearanceRecord": "Founder directly confirmed remaining-sprint website-use rights and authorized publication October 14, 2026 in V4. Exact configuration, complete original framing and final white derivative reviewed. See PHOTOGRAPHY_FOUNDER_CLEARANCE_2026-10-14.json.",
+    "sourceProvider": "Hublot product photography hosted by MAIER",
+    "reviewedAt": "2026-10-14",
+    "assetId": "cleared-sprint-1mtxUZC636r2QloJR0U_SPUrPinP_f0EJ-big-bang"
   }
 ];
