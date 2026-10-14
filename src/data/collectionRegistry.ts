@@ -681,14 +681,34 @@ const ulysseNardinExpandedCollections = ulysseNardinCollections
   )
   .filter((collection) => collection.assets.length > 0);
 
-export const collectionRegistry = [
+// Consolidate overlapping collection sources into one route. Launch-catalog
+// exact-reference profiles augment established collections rather than creating
+// duplicate navigation entries or replacing existing curated references.
+const collectionSources: CollectionDefinition[] = [
   ...rolexCollections,
   ...seedCollections,
   ...expansionCollections,
   ...ulysseNardinExpandedCollections,
   ...bellRossExpandedCollections,
   ...launchCatalogCollections.map(defineCollection),
-] satisfies CollectionDefinition[];
+];
+
+const mergedCollections = new Map<string, CollectionDefinition>();
+for (const collection of collectionSources) {
+  const key = `${collection.brandSlug}/${collection.slug}`;
+  const existing = mergedCollections.get(key);
+  if (!existing) {
+    mergedCollections.set(key, collection);
+    continue;
+  }
+  const assets = new Map(existing.assets.map((asset) => [asset.reference, asset]));
+  for (const asset of collection.assets) {
+    if (!assets.has(asset.reference)) assets.set(asset.reference, asset);
+  }
+  mergedCollections.set(key, { ...existing, assets: [...assets.values()] });
+}
+
+export const collectionRegistry: CollectionDefinition[] = [...mergedCollections.values()];
 
 export const getCollection = (brandSlug: string, collectionSlug: string) =>
   collectionRegistry.find(
