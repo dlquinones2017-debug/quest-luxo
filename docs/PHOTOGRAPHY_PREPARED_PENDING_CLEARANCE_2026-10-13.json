@@ -1,6 +1,6 @@
 {
-  "preparedAt": "2026-10-14T02:32:33.352273+00:00",
-  "count": 47,
+  "preparedAt": "2026-10-14T06:55:41.779995+00:00",
+  "count": 51,
   "websitePublished": false,
   "canonicalApprovedCoverage": {
     "photographed": 49,
@@ -2414,7 +2414,315 @@
       ],
       "exactReference": "52508",
       "publicationStatus": "Queued pending human website-use clearance"
+    },
+    {
+      "brand": "Ulysse Nardin",
+      "collection": "Freak",
+      "catalogReference": "Freak X",
+      "reference": "2303-270/03",
+      "exactSKU": "2303-270-03",
+      "sourceUrl": "https://www.ulysse-nardin.com/ja-jp/watches/freak/2303-270-03",
+      "pagePath": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\un-cont-2303-270-03.html",
+      "pageSha256": "4f749456c949fa0a67da4dd729beda5fb7b4370d8f61c76bf5700f0373fc3672",
+      "description": "フリークX 自動巻き時計 2303-270/03、チタン / ブルーPVDルケース、サファイアクリスタル。高級時計製造の卓越した作品をすぐに発見できます。",
+      "verifiedManufacturerFields": {
+        "case_material_data": [
+          {
+            "label": "チタン / ブルーPVD"
+          }
+        ],
+        "dial_data": [],
+        "strap_data": [
+          {
+            "label": "アリゲーター"
+          }
+        ],
+        "water_resistance": "50 m",
+        "case_diameter_value": "Ø 43 mm",
+        "mechanism_data": [
+          {
+            "label": "自動巻き"
+          }
+        ]
+      },
+      "imageUrl": "https://api.ulysse-nardin.com/media/catalog/product/2/3/2303-270-03-soldier-92e468.png",
+      "officialImageAlt": "3D 表示",
+      "configuration": {
+        "material": "Titanium / blue PVD",
+        "dial": "Blue movement display; no conventional dial",
+        "bracelet": "Blue alligator strap",
+        "caseSize": "43 mm",
+        "movement": "Self-winding UN-230",
+        "waterResistance": "50 m"
+      },
+      "sourceEvidence": "Exact product page manufacturer fields and observed full-SKU soldier original. Catalog family retained separately; no implication every family variant matches pictured watch.",
+      "checkedAt": "2026-10-14T06:49:46.276673+00:00",
+      "rightsStatus": "Pending founder clearance for new official originals; not published",
+      "reviewStatus": "Original and final white-canvas derivative visually reviewed. Exact pictured SKU, material, display, strap, size, movement and water resistance verified against official page and technical fields. Family mapping remains explicit. Pending human website-use clearance.",
+      "size": [
+        2000,
+        2000
+      ],
+      "mode": "P",
+      "path": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\un-continuation-originals\\2303-270-03-raw.png",
+      "sha256": "92e468a270d9518c764931353db2f5ed54abc8bfefd701c58dee52ee3c05b5ec",
+      "status": "Authentic official original acquired; unchanged delivered bytes",
+      "whiteMaster": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\un-continuation-reviewed\\2303-270-03-white-master.png",
+      "webDerivative": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\un-continuation-reviewed\\2303-270-03-web.webp",
+      "derivativeSha256": "f50e6b24c0487e1053513754e5f4b0c3f52f622f7b84e18db0cf4c04de968bc3",
+      "processing": "Original manufacturer RGB and watch alpha preserved; external translucent cast shadow suppressed with original opaque support plus two-pixel boundary envelope. Centered on blank 2400 white canvas, 1200 WEB. No AI, reconstruction, captions or overlays.",
+      "driveFiles": [
+        {
+          "type": "RAW",
+          "id": "1WPlNZMKZD7GRg4B0R2WT4aGQPY8npC61",
+          "name": "ulysse-nardin-2303-270-03-raw.png"
+        },
+        {
+          "type": "WHITE_MASTER",
+          "id": "1ezag3VgU4eoHrce8cQBza8Q9oQ1oOIKV",
+          "name": "ulysse-nardin-2303-270-03-white_master.png"
+        },
+        {
+          "type": "WEB",
+          "id": "1Ehi0nzy90sCcnU-gKi29J4E9dLePSuQh",
+          "name": "ulysse-nardin-2303-270-03-web.webp"
+        }
+      ],
+      "exactReference": "2303-270/03",
+      "publicationStatus": "Queued pending human website-use clearance"
+    },
+    {
+      "brand": "Ulysse Nardin",
+      "collection": "Freak",
+      "catalogReference": "Freak ONE",
+      "reference": "2405-500-2A/3A",
+      "exactSKU": "2405-500-2A-3A",
+      "sourceUrl": "https://www.ulysse-nardin.com/en-gr/watches/freak/2405-500-2a-3a",
+      "pagePath": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\un-cont-2405-500-2A-3A.html",
+      "pageSha256": "80252e6887a62f4ec9a29ba4aaeb09ff59ce3389d351cc9534adef976f732c06",
+      "description": "Freak ONE Self-winding timepiece 2405-500-2A/3A, Titanium / 18 ct gold case and Sapphire glass. An exceptional piece of fine watchmaking to discover without delay!",
+      "verifiedManufacturerFields": {
+        "case_material_data": [
+          {
+            "label": "Titanium / 18 ct gold"
+          }
+        ],
+        "dial_data": [],
+        "strap_data": [
+          {
+            "label": "Rubber"
+          }
+        ],
+        "water_resistance": "30 m",
+        "case_diameter_value": "Ø 44 mm",
+        "mechanism_data": [
+          {
+            "label": "Self-winding"
+          }
+        ]
+      },
+      "imageUrl": "https://api.ulysse-nardin.com/media/catalog/product/2/4/2405-500-2A-3A-soldier-08fd5d.png",
+      "officialImageAlt": "3D View",
+      "configuration": {
+        "material": "Titanium / 18 ct gold",
+        "dial": "Black movement display; no conventional dial",
+        "bracelet": "Black rubber strap",
+        "caseSize": "44 mm",
+        "movement": "Self-winding UN-240",
+        "waterResistance": "30 m"
+      },
+      "sourceEvidence": "Exact product page manufacturer fields and observed full-SKU soldier original. Catalog family retained separately; no implication every family variant matches pictured watch.",
+      "checkedAt": "2026-10-14T06:49:46.277709+00:00",
+      "rightsStatus": "Pending founder clearance for new official originals; not published",
+      "reviewStatus": "Original and final white-canvas derivative visually reviewed. Exact pictured SKU, material, display, strap, size, movement and water resistance verified against official page and technical fields. Family mapping remains explicit. Pending human website-use clearance.",
+      "size": [
+        2000,
+        2000
+      ],
+      "mode": "P",
+      "path": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\un-continuation-originals\\2405-500-2A-3A-raw.png",
+      "sha256": "08fd5d527dbc68615ab6cf489bf7db4f37ebbf3950527222e14cbc82a1d7e3cb",
+      "status": "Authentic official original acquired; unchanged delivered bytes",
+      "whiteMaster": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\un-continuation-reviewed\\2405-500-2A-3A-white-master.png",
+      "webDerivative": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\un-continuation-reviewed\\2405-500-2A-3A-web.webp",
+      "derivativeSha256": "f777b7d61a3323bc1c3d6cb5390d87f56cf2ff63c5d216e9667e5543e6c4c647",
+      "processing": "Original manufacturer RGB and watch alpha preserved; external translucent cast shadow suppressed with original opaque support plus two-pixel boundary envelope. Centered on blank 2400 white canvas, 1200 WEB. No AI, reconstruction, captions or overlays.",
+      "driveFiles": [
+        {
+          "type": "RAW",
+          "id": "1NXdoqE5ekLzMtPRmKPRh0s4NuHTvQYYS",
+          "name": "ulysse-nardin-2405-500-2A-3A-raw.png"
+        },
+        {
+          "type": "WHITE_MASTER",
+          "id": "1u5VBvSb7j4ZxE8UV6lctyxbn7xTwLhP-",
+          "name": "ulysse-nardin-2405-500-2A-3A-white_master.png"
+        },
+        {
+          "type": "WEB",
+          "id": "1e8-TLSeX10wv3dnUIyLuPo_QVd6BFyIt",
+          "name": "ulysse-nardin-2405-500-2A-3A-web.webp"
+        }
+      ],
+      "exactReference": "2405-500-2A/3A",
+      "publicationStatus": "Queued pending human website-use clearance"
+    },
+    {
+      "brand": "Ulysse Nardin",
+      "collection": "Marine",
+      "catalogReference": "Marine Torpilleur",
+      "reference": "1183-310-0A/0A",
+      "exactSKU": "1183-310-0A-0A",
+      "sourceUrl": "https://www.ulysse-nardin.com/en-gb/watches/marine/1183-310-0a-0a",
+      "pagePath": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\un-cont-1183-310-0A-0A.html",
+      "pageSha256": "f0f2fbf9b92a792323e62bd2af54e3b70db86e28df1b0bd7119e29acfabeb8fc",
+      "description": "Marine Torpilleur Self-winding timepiece 1183-310-0A/0A, Stainless steel case and Sapphire glass. An exceptional piece of fine watchmaking to discover without delay!",
+      "verifiedManufacturerFields": {
+        "case_material_data": [
+          {
+            "label": "Stainless steel"
+          }
+        ],
+        "dial_data": [
+          {
+            "label": "White lacquered, Roman numerals"
+          }
+        ],
+        "strap_data": [
+          {
+            "label": "Fabric"
+          }
+        ],
+        "water_resistance": "50 m",
+        "case_diameter_value": "Ø 42 mm",
+        "mechanism_data": [
+          {
+            "label": "Self-winding"
+          }
+        ]
+      },
+      "imageUrl": "https://api.ulysse-nardin.com/media/catalog/product/1/1/1183-310-0A-0A-soldier-f1708c.png",
+      "officialImageAlt": "Marine Torpilleur 1183-310-0A/0A watch with Black FABRIC STRAP",
+      "configuration": {
+        "material": "Stainless steel",
+        "dial": "White lacquered, Roman numerals",
+        "bracelet": "Black fabric strap",
+        "caseSize": "42 mm",
+        "movement": "Self-winding UN-118",
+        "waterResistance": "50 m"
+      },
+      "sourceEvidence": "Exact product page manufacturer fields and observed full-SKU soldier original. Catalog family retained separately; no implication every family variant matches pictured watch.",
+      "checkedAt": "2026-10-14T06:49:46.278744+00:00",
+      "rightsStatus": "Pending founder clearance for new official originals; not published",
+      "reviewStatus": "Original and final white-canvas derivative visually reviewed. Exact pictured SKU, material, display, strap, size, movement and water resistance verified against official page and technical fields. Family mapping remains explicit. Pending human website-use clearance.",
+      "size": [
+        2000,
+        2000
+      ],
+      "mode": "P",
+      "path": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\un-continuation-originals\\1183-310-0A-0A-raw.png",
+      "sha256": "f1708cc5f0a37dc2614955943718ae2a1f6f31b4eaac46c664990455f1880ecb",
+      "status": "Authentic official original acquired; unchanged delivered bytes",
+      "whiteMaster": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\un-continuation-reviewed\\1183-310-0A-0A-white-master.png",
+      "webDerivative": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\un-continuation-reviewed\\1183-310-0A-0A-web.webp",
+      "derivativeSha256": "87a9d7df1c24c72d9ccfd4b89f746b0fc36d3ca244a7c34db901e517124a0dea",
+      "processing": "Original manufacturer RGB and watch alpha preserved; external translucent cast shadow suppressed with original opaque support plus two-pixel boundary envelope. Centered on blank 2400 white canvas, 1200 WEB. No AI, reconstruction, captions or overlays.",
+      "driveFiles": [
+        {
+          "type": "RAW",
+          "id": "1RbSnOkt9Lrxe2d_lJKPYOGAcqRseq3Xn",
+          "name": "ulysse-nardin-1183-310-0A-0A-raw.png"
+        },
+        {
+          "type": "WHITE_MASTER",
+          "id": "13LiIbPb2JYyhHinJaiEOBnuqhOOUc75X",
+          "name": "ulysse-nardin-1183-310-0A-0A-white_master.png"
+        },
+        {
+          "type": "WEB",
+          "id": "1eHpZhHRqgk-J6stzVwZTZ0RaEwaPA_lc",
+          "name": "ulysse-nardin-1183-310-0A-0A-web.webp"
+        }
+      ],
+      "exactReference": "1183-310-0A/0A",
+      "publicationStatus": "Queued pending human website-use clearance"
+    },
+    {
+      "brand": "Ulysse Nardin",
+      "collection": "Freak",
+      "catalogReference": "Freak",
+      "reference": "2505-250",
+      "exactSKU": "2505-250",
+      "sourceUrl": "https://www.ulysse-nardin.com/watches/discontinued-models/2505-250",
+      "pagePath": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\un-cont-2505-250.html",
+      "pageSha256": "b7b57f1e4d6bae97f9029669b17cdc9faafde7ac603615617546d014e7d0f25c",
+      "description": "Freak Vision Self-winding timepiece 2505-250, Titanium / platinum case and Sapphire glass. Earlier prestigious watch collections!",
+      "verifiedManufacturerFields": {
+        "case_material_data": [
+          {
+            "label": "Titanium / platinum"
+          }
+        ],
+        "dial_data": [],
+        "strap_data": [
+          {
+            "label": "Alligator"
+          }
+        ],
+        "water_resistance": "30 m",
+        "case_diameter_value": "Ø 45 mm",
+        "mechanism_data": [
+          {
+            "label": "Self-winding"
+          }
+        ]
+      },
+      "imageUrl": "https://api.ulysse-nardin.com/media/catalog/product/2/5/2505-250-soldier-754880.png",
+      "officialImageAlt": "Freak Vision 2505-250 watch with Blue ALLIGATOR STRAP",
+      "configuration": {
+        "material": "Titanium / platinum",
+        "dial": "Blue movement display; no conventional dial",
+        "bracelet": "Blue alligator strap",
+        "caseSize": "45 mm",
+        "movement": "Self-winding UN-250",
+        "waterResistance": "30 m"
+      },
+      "sourceEvidence": "Exact product page manufacturer fields and observed full-SKU soldier original. Catalog family retained separately; no implication every family variant matches pictured watch.",
+      "checkedAt": "2026-10-14T06:49:46.279746+00:00",
+      "rightsStatus": "Pending founder clearance for new official originals; not published",
+      "reviewStatus": "Original and final white-canvas derivative visually reviewed. Exact pictured SKU, material, display, strap, size, movement and water resistance verified against official page and technical fields. Family mapping remains explicit. Pending human website-use clearance.",
+      "size": [
+        2000,
+        2000
+      ],
+      "mode": "P",
+      "path": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\un-continuation-originals\\2505-250-raw.png",
+      "sha256": "cb5c9845eeefcd97136a4e13482767b443d7ee549b22ae853d2df94dba8bcd57",
+      "status": "Authentic official original acquired; unchanged delivered bytes",
+      "whiteMaster": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\un-continuation-reviewed\\2505-250-white-master.png",
+      "webDerivative": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\un-continuation-reviewed\\2505-250-web.webp",
+      "derivativeSha256": "20a1a8745f35d2640e9caccd1c2848bbfcd090f38278acffbde931409491c301",
+      "processing": "Original manufacturer RGB and watch alpha preserved; external translucent cast shadow suppressed with original opaque support plus two-pixel boundary envelope. Centered on blank 2400 white canvas, 1200 WEB. No AI, reconstruction, captions or overlays.",
+      "driveFiles": [
+        {
+          "type": "RAW",
+          "id": "1zQ2VM1T_3WXfq1jAxre9HWm2K5dTqXER",
+          "name": "ulysse-nardin-2505-250-raw.png"
+        },
+        {
+          "type": "WHITE_MASTER",
+          "id": "16-c3IFgBpCv7GHgoZ7pm0N5NmBtUrgy9",
+          "name": "ulysse-nardin-2505-250-white_master.png"
+        },
+        {
+          "type": "WEB",
+          "id": "1HKF480ty79hKPrQ__uYPdKjRgrk5QKJD",
+          "name": "ulysse-nardin-2505-250-web.webp"
+        }
+      ],
+      "exactReference": "2505-250",
+      "publicationStatus": "Queued pending human website-use clearance"
     }
   ],
-  "coverageNote": "Production verified as 8c2f495: 49 approved canonical routes, 119 queued. These 47 newly acquired manufacturer sets remain unpublished pending human website-use clearance."
+  "coverageNote": "Live approved coverage remains 49 of 168, 119 queued. These 51 reviewed manufacturer sets remain unpublished pending human website-use clearance. October 13 deadline missed; acquisition continues under founder standing instruction."
 }
