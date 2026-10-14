@@ -16,7 +16,9 @@
     "lead-storage": "node --experimental-strip-types scripts/lead-storage-operator.mjs",
     "test:deal-agent": "node --test tests/dealAgent.test.mjs",
     "audit:omega-photography": "node --experimental-strip-types scripts/audit-omega-photography.mjs",
-    "audit:omega-photography:strict": "node --experimental-strip-types scripts/audit-omega-photography.mjs --require-complete"
+    "audit:omega-photography:strict": "node --experimental-strip-types scripts/audit-omega-photography.mjs --require-complete",
+    "audit:expansion-photography": "node --experimental-strip-types scripts/audit-expansion-photography.mjs",
+    "audit:expansion-photography:strict": "node --experimental-strip-types scripts/audit-expansion-photography.mjs --require-complete"
   },
   "dependencies": {
     "@astrojs/node": "^11.0.2",
