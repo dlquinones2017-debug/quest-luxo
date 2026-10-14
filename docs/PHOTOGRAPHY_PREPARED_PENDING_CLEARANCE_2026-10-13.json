@@ -1,6 +1,6 @@
 {
-  "preparedAt": "2026-10-13T22:15:43.060202+00:00",
-  "count": 25,
+  "preparedAt": "2026-10-14T01:20:12.694862+00:00",
+  "count": 27,
   "websitePublished": false,
   "canonicalApprovedCoverage": {
     "photographed": 48,
@@ -1127,6 +1127,108 @@
         }
       ],
       "exactReference": "126900",
+      "publicationStatus": "Queued pending founder website-use clearance"
+    },
+    {
+      "brand": "Jaeger-LeCoultre",
+      "collection": "Reverso",
+      "reference": "Q3848422",
+      "catalogReference": "Q3848422",
+      "exactSKU": "Q3848422",
+      "sourceUrl": "https://www.jaeger-lecoultre.com/us-en/watches/reverso/reverso-classic/reverso-classic-duoface-small-seconds-stainless-steel-q3848422",
+      "imageUrl": "https://img.jaeger-lecoultre.com/product-slider-hero-mobile-3/o-dpr-2/d65073af1d23203453f5c9b799a1c5d66bae175b.jpg",
+      "configuration": {
+        "material": "Stainless Steel",
+        "dial": "Silvered grey, guilloché and vertically brushed; black numerals (recto)",
+        "bracelet": "Light-brown calfskin leather",
+        "caseSize": "47 × 28.3 mm",
+        "movement": "Manual-winding calibre 854",
+        "waterResistance": "3 bar"
+      },
+      "checkedAt": "2026-10-14T01:13:26.781877+00:00",
+      "rightsStatus": "Pending founder clearance for new official originals; not published",
+      "reviewStatus": "Untouched original and final centered white-canvas derivative visually reviewed; exact reference, dial, material and strap verified. Publication pending founder rights clearance.",
+      "size": [
+        680,
+        680
+      ],
+      "mode": "P",
+      "path": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\other-exact-originals\\Q3848422-raw.png",
+      "sha256": "5b022445c4bfb1f63ff422e383e4087bfc3c28942a0ff0362daf2554c0a4e00a",
+      "status": "Authentic official original acquired; unchanged delivered bytes",
+      "whiteMaster": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\other-exact-reviewed\\Q3848422-white-master.png",
+      "webDerivative": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\other-exact-reviewed\\Q3848422-web.webp",
+      "derivativeSha256": "2aecb72917b1cc1bd361699d67267fd58c633a4ebdfaf1b6f098c585a1acf6c8",
+      "processing": "Original manufacturer RGB and watch alpha preserved; external translucent cast shadow suppressed with original opaque support plus two-pixel boundary envelope. Centered on blank 2400 white canvas, 1200 WEB. No AI, reconstruction, captions or overlays.",
+      "driveFiles": [
+        {
+          "type": "RAW",
+          "id": "1h1EWJGl3CKqaqeiAQ0rxb8h5XYxXpRvn",
+          "name": "jaeger-lecoultre-Q3848422-raw.png"
+        },
+        {
+          "type": "WHITE_MASTER",
+          "id": "1dNEdI5s44pZaFvCA9bH7VDq953Sn8tlM",
+          "name": "jaeger-lecoultre-Q3848422-white-master.png"
+        },
+        {
+          "type": "WEB",
+          "id": "1OngkLbzmdKgnIl-VjMFA9lJK1ScY-ubA",
+          "name": "jaeger-lecoultre-Q3848422-web.webp"
+        }
+      ],
+      "exactReference": "Q3848422",
+      "publicationStatus": "Queued pending founder website-use clearance"
+    },
+    {
+      "brand": "Breitling",
+      "collection": "Navitimer",
+      "reference": "A17329171C1A1",
+      "catalogReference": "A17329171C1A1",
+      "exactSKU": "A17329171C1A1",
+      "sourceUrl": "https://www.breitling.com/de-de/watches/navitimer/navitimer-automatic-41-my23/A17329171C1A1/",
+      "imageUrl": "https://www.breitling.com/cdn-cgi/image/format=auto,quality=90,width=2040,fit=cover,gravity=0.5x0.5/api/image-proxy/www-breitling.eu.saleor.cloud/media/thumbnails/products/a17329171c1a1-soldier_7c699382_thumbnail_1024.webp",
+      "configuration": {
+        "material": "Stainless Steel",
+        "dial": "Blue",
+        "bracelet": "Stainless-steel Navitimer bracelet",
+        "caseSize": "41 mm",
+        "movement": "Self-winding Breitling 17",
+        "waterResistance": "30 m"
+      },
+      "checkedAt": "2026-10-14T01:13:26.782882+00:00",
+      "rightsStatus": "Pending founder clearance for new official originals; not published",
+      "reviewStatus": "Untouched original and final centered white-canvas derivative visually reviewed; exact reference, dial, material and strap verified. Publication pending founder rights clearance.",
+      "size": [
+        2040,
+        2040
+      ],
+      "mode": "P",
+      "path": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\other-exact-originals\\A17329171C1A1-raw.png",
+      "sha256": "bea7daff443762b142ccda1ea37370c7c4c754525a5156bde018ef5f136af567",
+      "status": "Authentic official original acquired; unchanged delivered bytes",
+      "whiteMaster": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\other-exact-reviewed\\A17329171C1A1-white-master.png",
+      "webDerivative": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\other-exact-reviewed\\A17329171C1A1-web.webp",
+      "derivativeSha256": "cdcd3e35d862c2bd76735581ac6618f26528ff56a0a6eee661cceca934eddd99",
+      "processing": "Original manufacturer RGB and watch alpha preserved; external translucent cast shadow suppressed with original opaque support plus two-pixel boundary envelope. Centered on blank 2400 white canvas, 1200 WEB. No AI, reconstruction, captions or overlays.",
+      "driveFiles": [
+        {
+          "type": "RAW",
+          "id": "1WJ-GIRwQ8EhURhaOcVAv6dmhx-wy_Scq",
+          "name": "breitling-A17329171C1A1-raw.png"
+        },
+        {
+          "type": "WHITE_MASTER",
+          "id": "1w5NUjzWqPo7fLIZbKgDJzR06ec-Zw4ro",
+          "name": "breitling-A17329171C1A1-white-master.png"
+        },
+        {
+          "type": "WEB",
+          "id": "1DqImBJQA8h9r--5_c6IsLlHDt6ijCKIV",
+          "name": "breitling-A17329171C1A1-web.webp"
+        }
+      ],
+      "exactReference": "A17329171C1A1",
       "publicationStatus": "Queued pending founder website-use clearance"
     }
   ]
