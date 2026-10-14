@@ -16,9 +16,9 @@ const { getReferenceFilterTags, omegaDirectoryFilters } = await import("../src/l
 
 test("Omega expansion includes color, Sedna Gold, rubber, wave/non-wave and GMT variants", () => {
   const omega = verifiedExpansionRows.filter(row => row[1] === "omega");
-  assert.ok(omega.length >= 50, "expect substantive Omega exact-reference coverage");
+  assert.ok(omega.length >= 55, "expect substantive Omega exact-reference coverage");
   const collections = new Set(omega.map(row => row[3]));
-  for (const collection of ["seamaster-diver-300m","speedmaster","dark-side-of-the-moon","aqua-terra","aqua-terra-worldtimer","planet-ocean-gmt","constellation","de-ville-prestige"]) {
+  for (const collection of ["seamaster-diver-300m","speedmaster","dark-side-of-the-moon","aqua-terra","aqua-terra-worldtimer","planet-ocean-gmt","constellation","de-ville-prestige","railmaster"]) {
     assert.ok(collections.has(collection), "Omega collection missing: " + collection);
   }
 
