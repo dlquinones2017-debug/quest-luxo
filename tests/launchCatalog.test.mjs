@@ -21,6 +21,7 @@ test("all approved launch collections have a unique populated catalog route", ()
     "patek-philippe/aquanaut", "tudor/pelagos", "breitling/superocean",
     "hublot/classic-fusion", "hublot/aerofusion", "hublot/big-bang-unico", "hublot/spirit-of-big-bang",
     "vacheron-constantin/historiques", "vacheron-constantin/traditionnelle", "vacheron-constantin/american-1921",
+    "tudor/black-bay-chrono",
     "franck-muller/rabbit", "franck-muller/crazy-hours", "franck-muller/yachting",
     "jaeger-lecoultre/master-control", "jaeger-lecoultre/master-grande-tradition",
   ];

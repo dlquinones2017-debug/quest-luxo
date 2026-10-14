@@ -32,6 +32,7 @@ const topNickname = primaryConfig?.nickname ?? asset.reference;
 const collectorDemand = asset.intelligence?.collectorDemand ?? 0;
 const isPeakDemand = showIntelligenceProfile && collectorDemand >= 5;
 const imageAlt = photograph?.alt ?? `${asset.reference} ${asset.model}`;
+const referenceSource = asset.specificationSources?.find(source => source.url.startsWith("https://"))?.url;
 
 const intelligenceProfile = showIntelligenceProfile && asset.intelligence
   ? buildQuestLuxoIntelligence(asset.intelligence)
@@ -58,7 +59,14 @@ const hasVerifiedCurrentMsrp = (value?: number | null): value is number =>
         {photograph ? (
           <img src={photograph.src} alt={imageAlt} width="960" height="960" loading="lazy" />
         ) : (
-          <span>Image Pending</span>
+          <div class="pending-photo">
+            <span>Authentic photography pending</span>
+            {referenceSource && (
+              <a class="reference-source-link" href={referenceSource} target="_blank" rel="noopener noreferrer nofollow">
+                View reference source →
+              </a>
+            )}
+          </div>
         )}
 
       </div>
@@ -187,6 +195,35 @@ const hasVerifiedCurrentMsrp = (value?: number | null): value is number =>
 </article>
 
 <style>
+  .pending-photo {
+    width: 100%;
+    padding: 22px;
+    display: grid;
+    justify-items: center;
+    gap: 12px;
+    text-align: center;
+  }
+  .pending-photo span {
+    color: #56616d;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: .03em;
+    text-align: center;
+  }
+  .reference-source-link {
+    display: inline-block;
+    color: #173a5e;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    font-size: 13px;
+    font-weight: 700;
+    text-align: center;
+  }
+  .reference-source-link:hover,
+  .reference-source-link:focus-visible {
+    color: #76540f;
+  }
+
   .card {
     border: 1px solid #e8e3d8;
     background: #faf9f7;

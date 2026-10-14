@@ -14,7 +14,13 @@
     "start:production": "node --experimental-strip-types scripts/start-production.mjs",
     "verify:production": "node --experimental-strip-types scripts/verify-production-readiness.mjs",
     "lead-storage": "node --experimental-strip-types scripts/lead-storage-operator.mjs",
-    "test:deal-agent": "node --test tests/dealAgent.test.mjs"
+    "test:deal-agent": "node --test tests/dealAgent.test.mjs",
+    "audit:omega-photography": "node --experimental-strip-types scripts/audit-omega-photography.mjs",
+    "audit:omega-photography:strict": "node --experimental-strip-types scripts/audit-omega-photography.mjs --require-complete",
+    "audit:expansion-photography": "node --experimental-strip-types scripts/audit-expansion-photography.mjs",
+    "audit:expansion-photography:strict": "node --experimental-strip-types scripts/audit-expansion-photography.mjs --require-complete",
+    "sync:omega-photography:queue": "node --experimental-strip-types scripts/sync-omega-photo-queue.mjs --write",
+    "check:omega-photography:queue": "node --experimental-strip-types scripts/sync-omega-photo-queue.mjs --check"
   },
   "dependencies": {
     "@astrojs/node": "^11.0.2",

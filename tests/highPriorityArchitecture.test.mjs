@@ -8,10 +8,11 @@ const root = fileURLToPath(new URL("..", import.meta.url));
 const source = (...segments) => readFile(join(root, ...segments), "utf8");
 
 test("all watch houses use one discoverable collection architecture", async () => {
-  const [brands, registry, directory, collectionRoute, referenceRoute] =
+  const [brands, registry, verifiedExpansion, directory, collectionRoute, referenceRoute] =
     await Promise.all([
       source("src", "data", "brands.ts"),
       source("src", "data", "collectionRegistry.ts"),
+      source("src", "data", "verified-catalog-expansion.ts"),
       source("src", "components", "CollectionsDirectory.astro"),
       source(
         "src",
@@ -34,10 +35,10 @@ test("all watch houses use one discoverable collection architecture", async () =
   const slugs = [...brands.matchAll(/slug:\s*"([^"]+)"/g)].map(
     (match) => match[1]
   );
-  assert.equal(slugs.length, 22);
-  assert.equal(new Set(slugs).size, 22);
+  assert.equal(slugs.length, 23);
+  assert.equal(new Set(slugs).size, 23);
   for (const slug of slugs) {
-    assert.match(registry, new RegExp(`brandSlug:\\s*"${slug}"`), slug);
+    assert.ok(new RegExp(`brandSlug:\\s*"${slug}"`).test(registry) || verifiedExpansion.includes(`"${slug}"`), `${slug} must be represented by an established or verified expansion route`);
   }
   assert.match(directory, /brandPath\(brand\.slug\)/);
   assert.doesNotMatch(directory, /coming.soon/i);

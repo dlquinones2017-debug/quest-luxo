@@ -1,5 +1,6 @@
 ---
 import ReferenceCard from "./ReferenceCard.astro";
+import { getReferenceFilterTags } from "../lib/catalog/referenceFacets";
 import {
   buildQuestLuxoIntelligence,
 } from "../lib/intelligence/questLuxoIntelligence";
@@ -17,19 +18,7 @@ const pathSegments = basePath.split("/");
 const brandSlug = pathSegments[2] ?? "";
 const collectionSlug = pathSegments[3] ?? "";
 
-const getFilterTags = (asset: QuestLuxoAsset) => {
-  const material = (asset.material ?? "").toLowerCase();
-  const tags = ["all"];
 
-  if (asset.productionStatus?.toLowerCase() === "current") tags.push("current");
-  if (asset.productionStatus?.toLowerCase() === "discontinued") tags.push("discontinued");
-  if (material.includes("oystersteel")) tags.push("oystersteel");
-  if (material.includes("gold") || material.includes("platinum")) tags.push("precious-metal");
-  if (material.includes("rolesor") || material.includes("two-tone")) tags.push("two-tone");
-  if ((asset.intelligence?.collectorDemand ?? 0) >= 5) tags.push("peak-demand");
-
-  return tags.join(" ");
-};
 ---
 
 <section class="quest-reference-grid" data-reference-grid>
@@ -63,7 +52,7 @@ const getFilterTags = (asset: QuestLuxoAsset) => {
           class="reference-grid-item"
           data-reference-item
           data-search={searchContent}
-          data-tags={getFilterTags(asset)}
+          data-tags={getReferenceFilterTags(asset).join(" ")}
           data-score={score}
           data-demand={asset.intelligence?.collectorDemand ?? 0}
           data-liquidity-score={asset.intelligence?.liquidity ?? 0}

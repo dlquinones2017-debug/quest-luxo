@@ -1,0 +1,70 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import PrivateSourcingCTA from "../../components/PrivateSourcingCTA.astro";
+import { collectionRegistry } from "../../data/collectionRegistry";
+import { referencePath } from "../../lib/routes/collectionRoutes";
+
+// A discoverability index of explicitly named tourbillon models.
+// Do not infer complication status from case material, skeleton dials,
+// brand name, or adjacent models in a collection.
+const tourbillonReferences = collectionRegistry
+  .flatMap((collection) => collection.assets
+    .filter((asset) => /\btourbillon\b/i.test(asset.model))
+    .map((asset) => ({
+      brand: collection.brand, collection: collection.name, brandSlug: collection.brandSlug,
+      collectionSlug: collection.slug, ...asset
+    })))
+  .sort((a, b) => a.brand.localeCompare(b.brand) || a.model.localeCompare(b.model));
+---
+<BaseLayout
+  title="Tourbillon Watches | Verified References | Quest Luxo"
+  description="Explore tourbillon reference profiles across watch houses, with provenance-led private sourcing and no unverified price claims."
+  canonicalPath="/complications/tourbillon"
+>
+  <main class="tourbillon-page" id="main-content">
+    <section class="hero">
+      <p class="eyebrow">QUEST LUXO | HIGH COMPLICATIONS</p>
+      <h1>Tourbillon Watches</h1>
+      <p>Reference-led discovery across manufactures. Every watch here is explicitly identified as a tourbillon model; openworked or skeletonized dials are not assumed to contain a tourbillon.</p>
+      <p class="note">Catalog profiles are not inventory offers. Pricing, allocation, authenticity, provenance, service history and photography must be checked individually.</p>
+    </section>
+    <section class="references" aria-labelledby="reference-list-title">
+      <h2 id="reference-list-title">Explore tourbillon references</h2>
+      {tourbillonReferences.length ? (
+        <div class="grid">
+          {tourbillonReferences.map((asset) => (
+            <a class="card" href={referencePath(asset.brandSlug, asset.collectionSlug, asset.reference)}>
+              <span>{asset.brand} / {asset.collection}</span>
+              <h3>{asset.model}</h3>
+              <p>Ref. {asset.reference}</p>
+              <strong>Explore Reference →</strong>
+            </a>
+          ))}
+        </div>
+      ) : <p class="note">No references are cleared for this directory yet.</p>}
+    </section>
+    <PrivateSourcingCTA
+      title="Source a Tourbillon Privately"
+      text="Share your desired manufacture, reference and acquisition parameters. Every high-complication mandate requires specialist inspection and evidence-led pricing."
+      button="Begin Your Quest"
+      href="/contact?intent=request&collection=Tourbillon"
+    />
+  </main>
+</BaseLayout>
+<style>
+  .tourbillon-page{min-height:100vh;background:#07111f;color:#fff}
+  .hero,.references{max-width:1180px;margin:0 auto;padding:84px 24px}
+  .hero{padding-bottom:32px}
+  .eyebrow,.card span,.card strong{color:#f0d7a0;font-size:12px;letter-spacing:.14em;font-weight:800;text-transform:uppercase}
+  h1{font-size:clamp(48px,8vw,96px);line-height:1;margin:20px 0}
+  h2{font-size:clamp(28px,4vw,44px)}
+  .hero>p:not(.eyebrow),.note{line-height:1.7;color:rgba(255,255,255,.75);max-width:860px}
+  .grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+  .card{display:flex;flex-direction:column;min-height:210px;border:1px solid rgba(255,255,255,.2);background:rgba(255,255,255,.05);padding:24px;color:#fff;text-decoration:none}
+  .card h3{font-size:24px;line-height:1.2;margin:18px 0}
+  .card p{color:rgba(255,255,255,.7);margin:0 0 18px}
+  .card strong{margin-top:auto}
+  .card:hover,.card:focus-visible{border-color:#f0d7a0}
+  @media(max-width:900px){.grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+  @media(max-width:650px){.grid{grid-template-columns:1fr}.hero,.references{padding:55px 20px}}
+</style>

@@ -277,5 +277,17 @@ export const brands: QuestLuxoBrand[] = [
     featured: false,
     questLuxoPriority: 22,
     description: "El Primero chronographs and strong enthusiast recognition.",
+  },  {
+    name: "TAG Heuer",
+    slug: "tag-heuer",
+    founded: 1860,
+    tagline: "Motorsport Chronographs",
+    models: 2,
+    factoryLive: false,
+    launchPhase: "v2",
+    featured: false,
+    questLuxoPriority: 23,
+    description: "Carrera Calibre Heuer 01 and Monaco, including skeleton and historic chronographs.",
   },
+
 ];

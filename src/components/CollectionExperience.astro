@@ -4,6 +4,7 @@ import QuestLuxoCollectionHero from "./QuestLuxoCollectionHero.astro";
 import QuestLuxoCollectionSignals from "./QuestLuxoCollectionSignals.astro";
 import QuestLuxoIntelligence from "./QuestLuxoIntelligence.astro";
 import QuestLuxoDirectoryToolbar from "./QuestLuxoDirectoryToolbar.astro";
+import { omegaDirectoryFilters } from "../lib/catalog/referenceFacets";
 import QuestLuxoReferenceGrid from "./QuestLuxoReferenceGrid.astro";
 import PrivateSourcingCTA from "./PrivateSourcingCTA.astro";
 import {
@@ -103,6 +104,7 @@ const structuredData = [
       <QuestLuxoDirectoryToolbar
         totalCount={collection.assets.length}
         collectionName={collection.name}
+        filters={collection.brandSlug === "omega" ? [...omegaDirectoryFilters] : undefined}
       />
 
       <QuestLuxoReferenceGrid

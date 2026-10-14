@@ -19,6 +19,7 @@ import { watchPhotographs } from "./watch-photography";
 import { approvedPhotograph } from "../lib/media/watchPhotography";
 import type { QuestLuxoAsset } from "../types/questLuxo";
 import { launchCatalogCollections } from "./launch-catalog";
+import { verifiedCatalogExpansionCollections } from "./verified-catalog-expansion";
 import { photographyExpansionAssets } from "./photography-expansion";
 
 export interface CollectionDefinition {
@@ -56,8 +57,10 @@ const defineCollection = (
   assets: assets.map((asset) => {
     const normalizedAsset = { ...asset, brand: asset.brand ?? definition.brand, collection: asset.collection ?? definition.name };
     const approved = approvedPhotograph(normalizedAsset, watchPhotographs);
-    const verifiedImage =
-      approved?.src ?? (asset.image && asset.imageVerified ? asset.image : undefined);
+    // A dataset-level imageVerified flag is insufficient evidence of commercial
+    // rights, exact configuration, and founder-approved white-canvas quality.
+    // Only the central provenance/approval gate may populate catalog imagery.
+    const verifiedImage = approved?.src;
 
     return {
       ...normalizedAsset,
@@ -681,14 +684,35 @@ const ulysseNardinExpandedCollections = ulysseNardinCollections
   )
   .filter((collection) => collection.assets.length > 0);
 
-export const collectionRegistry = [
+// Consolidate overlapping collection sources into one route. Launch-catalog
+// exact-reference profiles augment established collections rather than creating
+// duplicate navigation entries or replacing existing curated references.
+const collectionSources: CollectionDefinition[] = [
   ...rolexCollections,
   ...seedCollections,
   ...expansionCollections,
   ...ulysseNardinExpandedCollections,
   ...bellRossExpandedCollections,
   ...launchCatalogCollections.map(defineCollection),
-] satisfies CollectionDefinition[];
+  ...verifiedCatalogExpansionCollections.map(defineCollection),
+];
+
+const mergedCollections = new Map<string, CollectionDefinition>();
+for (const collection of collectionSources) {
+  const key = `${collection.brandSlug}/${collection.slug}`;
+  const existing = mergedCollections.get(key);
+  if (!existing) {
+    mergedCollections.set(key, collection);
+    continue;
+  }
+  const assets = new Map(existing.assets.map((asset) => [asset.reference, asset]));
+  for (const asset of collection.assets) {
+    if (!assets.has(asset.reference)) assets.set(asset.reference, asset);
+  }
+  mergedCollections.set(key, { ...existing, assets: [...assets.values()] });
+}
+
+export const collectionRegistry: CollectionDefinition[] = [...mergedCollections.values()];
 
 export const getCollection = (brandSlug: string, collectionSlug: string) =>
   collectionRegistry.find(
