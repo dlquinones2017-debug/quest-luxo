@@ -1,6 +1,6 @@
 {
-  "preparedAt": "2026-10-14T06:55:41.779995+00:00",
-  "count": 51,
+  "preparedAt": "2026-10-14T08:08:36.305984+00:00",
+  "count": 53,
   "websitePublished": false,
   "canonicalApprovedCoverage": {
     "photographed": 49,
@@ -2722,7 +2722,168 @@
       ],
       "exactReference": "2505-250",
       "publicationStatus": "Queued pending human website-use clearance"
+    },
+    {
+      "brand": "Ulysse Nardin",
+      "catalogReference": "Blast",
+      "reference": "3713-260-3/03",
+      "exactSKU": "3713-260-3-03",
+      "sourceUrl": "https://www.ulysse-nardin.com/en-us/watches/blast/3713-260-3-03",
+      "checkedAt": "2026-10-14T06:58:24.376738+00:00",
+      "pagePath": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\next-source-3713-260-3-03.html",
+      "pageSha256": "3a8ac422e31bb2ac034a19738ec8545810902b599c3a698d6faf98a2d583fd88",
+      "description": "Blast Skeleton X Manual-winding timepiece 3713-260-3/03, Titanium case and Sapphire glass. An exceptional piece of fine watchmaking to discover without delay!",
+      "verifiedManufacturerFields": {
+        "case_material_data": [
+          {
+            "label": "Titanium"
+          }
+        ],
+        "dial_data": [
+          {
+            "label": "."
+          }
+        ],
+        "strap_data": [
+          {
+            "label": "Rubber"
+          }
+        ],
+        "water_resistance": "50 m",
+        "case_diameter_value": "Ø 42 mm",
+        "mechanism_data": [
+          {
+            "label": "Manual-winding"
+          }
+        ]
+      },
+      "collection": "Blast",
+      "imageUrl": "https://api.ulysse-nardin.com/media/catalog/product/3/7/3713-260-3-03-soldier-83676b.png",
+      "configuration": {
+        "material": "Titanium",
+        "dial": "Blue skeleton display",
+        "bracelet": "Blue rubber strap",
+        "caseSize": "42 mm",
+        "movement": "Manual-winding UN-371",
+        "waterResistance": "50 m"
+      },
+      "rightsStatus": "Pending founder clearance for new official originals; not published",
+      "reviewStatus": "Original and final 1200 WEB visually reviewed; centered blank white canvas, preserved original detail and skeleton openings; exact official SKU/configuration verified, publication held pending human rights.",
+      "size": [
+        2000,
+        2000
+      ],
+      "mode": "P",
+      "path": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\blast-next-originals\\3713-260-3-03-raw.png",
+      "sha256": "83676bd2e30f7fa67f136f76aebdc6de9125544cd6a2f1a81f4449829d90683f",
+      "status": "Authentic official original acquired; unchanged delivered bytes",
+      "whiteMaster": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\blast-next-reviewed\\3713-260-3-03-white-master.png",
+      "webDerivative": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\blast-next-reviewed\\3713-260-3-03-web.webp",
+      "derivativeSha256": "83e1fad3db0a2dd5367ad5cb65ca172f489cd151a9c014ffe1f3b051c2c99f9a",
+      "processing": "Original manufacturer RGB and watch alpha preserved; external translucent cast shadow suppressed with original opaque support plus two-pixel boundary envelope. Centered on blank 2400 white canvas, 1200 WEB. No AI, reconstruction, captions or overlays.",
+      "sourceEvidence": "Exact manufacturer full-SKU product page, structured technical fields, original image alt and caliber section. Current manufacturer product name retained separately from catalog family.",
+      "manufacturerProductName": "Blast Skeleton X",
+      "driveFiles": [
+        {
+          "type": "RAW",
+          "id": "1XJrjKk669ffEQVfQEWsPFKlOBekb1Eib",
+          "name": "ulysse-nardin-3713-260-3-03-raw.png"
+        },
+        {
+          "type": "WHITE_MASTER",
+          "id": "1A6ZxqhTKXaOVuKVgfDZSm13QiXlYNY_j",
+          "name": "ulysse-nardin-3713-260-3-03-white_master.png"
+        },
+        {
+          "type": "WEB",
+          "id": "1mdQt9bruPk9SiGFvyfOpzkUta76VreiW",
+          "name": "ulysse-nardin-3713-260-3-03-web.webp"
+        }
+      ],
+      "exactReference": "3713-260-3/03",
+      "publicationStatus": "Queued pending adequate human website-use clearance"
+    },
+    {
+      "brand": "Ulysse Nardin",
+      "catalogReference": "Executive Dual Time",
+      "reference": "243-20-3/43",
+      "exactSKU": "243-20-3-43",
+      "sourceUrl": "https://www.ulysse-nardin.com/en-us/watches/blast/243-20-3-43",
+      "checkedAt": "2026-10-14T06:58:24.377736+00:00",
+      "pagePath": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\next-source-243-20-3-43.html",
+      "pageSha256": "6c288e1b33200193fd9751eb22facae52eb69996b55c9e38a8548dcdd8228b1c",
+      "description": "Blast Dual Time Self-winding timepiece 243-20-3/43, Stainless steel case and Sapphire glass. An exceptional piece of fine watchmaking to discover without delay!",
+      "verifiedManufacturerFields": {
+        "case_material_data": [
+          {
+            "label": "Stainless steel"
+          }
+        ],
+        "dial_data": [
+          {
+            "label": "Blue, Roman numerals"
+          }
+        ],
+        "strap_data": [
+          {
+            "label": "Rubber"
+          }
+        ],
+        "water_resistance": "50 m",
+        "case_diameter_value": "Ø 42 mm",
+        "mechanism_data": [
+          {
+            "label": "Self-winding"
+          }
+        ]
+      },
+      "collection": "Blast",
+      "imageUrl": "https://api.ulysse-nardin.com/media/catalog/product/2/4/243-20-3-43-soldier-efb47f.png",
+      "configuration": {
+        "material": "Stainless steel",
+        "dial": "Blue, Roman numerals",
+        "bracelet": "Blue rubber strap",
+        "caseSize": "42 mm",
+        "movement": "Self-winding UN-24",
+        "waterResistance": "50 m"
+      },
+      "rightsStatus": "Pending founder clearance for new official originals; not published",
+      "reviewStatus": "Original and final 1200 WEB visually reviewed; centered blank white canvas, preserved original detail and skeleton openings; exact official SKU/configuration verified, publication held pending human rights.",
+      "size": [
+        2000,
+        2000
+      ],
+      "mode": "P",
+      "path": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\blast-next-originals\\243-20-3-43-raw.png",
+      "sha256": "efb47f3b80ff629ff2e2e16d5505b196a2f4208532d241d90f49d2efbac2637e",
+      "status": "Authentic official original acquired; unchanged delivered bytes",
+      "whiteMaster": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\blast-next-reviewed\\243-20-3-43-white-master.png",
+      "webDerivative": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\blast-next-reviewed\\243-20-3-43-web.webp",
+      "derivativeSha256": "c7c273bac4b88f8337f10739b4a13203ba7788e7e15f1358633583e489e792dd",
+      "processing": "Original manufacturer RGB and watch alpha preserved; external translucent cast shadow suppressed with original opaque support plus two-pixel boundary envelope. Centered on blank 2400 white canvas, 1200 WEB. No AI, reconstruction, captions or overlays.",
+      "sourceEvidence": "Exact manufacturer full-SKU product page, structured technical fields, original image alt and caliber section. Current manufacturer product name retained separately from catalog family.",
+      "manufacturerProductName": "Blast Dual Time",
+      "familyMappingNote": "Catalog family Executive Dual Time; current official source names the exact 243-20-3/43 watch Blast Dual Time. Full SKU, current maker naming, configuration and source must remain explicit; no family-wide spec claim.",
+      "driveFiles": [
+        {
+          "type": "RAW",
+          "id": "12Pc6uNNMBItrAfpBrWTPaKMprrRm3IRX",
+          "name": "ulysse-nardin-243-20-3-43-raw.png"
+        },
+        {
+          "type": "WHITE_MASTER",
+          "id": "1ISns_txynvdxPDObCLs60R7CLZ5WJgZ0",
+          "name": "ulysse-nardin-243-20-3-43-white_master.png"
+        },
+        {
+          "type": "WEB",
+          "id": "1BZNbJJnLICrx9X_xu6cDbPeTTAWwYNBV",
+          "name": "ulysse-nardin-243-20-3-43-web.webp"
+        }
+      ],
+      "exactReference": "243-20-3/43",
+      "publicationStatus": "Queued pending adequate human website-use clearance"
     }
   ],
-  "coverageNote": "Live approved coverage remains 49 of 168, 119 queued. These 51 reviewed manufacturer sets remain unpublished pending human website-use clearance. October 13 deadline missed; acquisition continues under founder standing instruction."
+  "coverageNote": "Live approved coverage remains 49 of 168, 119 queued. These 53 reviewed sets are unpublished pending adequate human website-use clearance; acquisition continues under founder standing instruction after the missed deadline."
 }
