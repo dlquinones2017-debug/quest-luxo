@@ -6,5 +6,17 @@
   "quote": "I approve the publishing of the remaining. Rights clearance confirmed.",
   "scope": "The 61 previously reviewed prepared manufacturer and retailer-hosted sets reported to the founder. Exact identity, quality, framing and source evidence remain required.",
   "rightsBasis": "Founder confirmation of website-use rights; not an assertion of an open-content license.",
-  "sourceManifest": "docs/PHOTOGRAPHY_PREPARED_PENDING_CLEARANCE_2026-10-13.json"
+  "sourceManifest": "docs/PHOTOGRAPHY_PREPARED_PENDING_CLEARANCE_2026-10-13.json",
+  "additionalReview": "V4 directive accompanying the direct human approval explicitly says to finish normal quality review for additional acquisition candidates before publishing. Nine additional candidates now passed source/configuration, full-framing and final derivative review; same founder confirmation is recorded without asserting an open-content license.",
+  "reviewedAdditionalFullReferences": [
+    "WSPA0038",
+    "WGPA0017",
+    "W6920042",
+    "15500ST.OO.1220ST.02",
+    "26331ST.OO.1220ST.01",
+    "26240ST.OO.1320ST.06",
+    "5196R-001",
+    "5980/1A-014",
+    "82035/000R-H114"
+  ]
 }

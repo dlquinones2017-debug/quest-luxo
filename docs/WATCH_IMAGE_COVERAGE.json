@@ -1,14 +1,14 @@
 {
-  "reviewedAt": "2026-10-14T10:14:53.698Z",
+  "reviewedAt": "2026-10-14T10:32:17.126Z",
   "note": "Generated from all exported source datasets and built routes. Source-only and duplicate configuration records are retained for review; this register is not proof of image rights. Source URLs identify research leads, not licenses.",
   "summary": {
-    "sourceConfigurations": 506,
+    "sourceConfigurations": 533,
     "builtReferenceRoutes": 168,
     "collectionRoutes": 71,
-    "approvedReferenceConfigurations": 196,
+    "approvedReferenceConfigurations": 214,
     "unmatchedReferenceRoutes": 0,
-    "approvedCanonicalReferenceRoutes": 110,
-    "queuedCanonicalReferenceRoutes": 58
+    "approvedCanonicalReferenceRoutes": 119,
+    "queuedCanonicalReferenceRoutes": 49
   },
   "collections": [
     {
@@ -2207,8 +2207,7 @@
       "material": "Stainless Steel",
       "sources": [
         "src/data/audemars-piguet-intelligence.ts",
-        "src/data/audemars-piguet.ts",
-        "src/data/collectionRegistry.ts"
+        "src/data/audemars-piguet.ts"
       ],
       "routes": [
         "/collections/audemars-piguet/royal-oak/15500st"
@@ -4830,26 +4829,33 @@
           "bracelet": "Integrated Bracelet",
           "dial": "Blue or White",
           "originalMSRP": null
+        },
+        {
+          "dial": "Gray gradient horizontally embossed chronograph",
+          "bracelet": "Stainless-steel integrated bracelet",
+          "caseSize": "40 mm",
+          "movement": "Self-winding chronograph",
+          "nickname": "Gray gradient horizontally embossed chronograph / Stainless-steel integrated bracelet",
+          "originalMSRP": null,
+          "currentMSRP": null
         }
       ],
-      "material": "Stainless Steel",
+      "material": "Stainless steel",
       "sources": [
-        "src/data/collectionRegistry.ts",
-        "src/data/patek-philippe-intelligence.ts",
-        "src/data/patek-philippe.ts"
+        "src/data/collectionRegistry.ts"
       ],
       "routes": [
         "/collections/patek-philippe/nautilus/5980-1a"
       ],
       "scope": "built-reference",
-      "existingImage": "/images/watch-reference-placeholder.svg",
+      "existingImage": "/images/watches/patek-philippe/reviewed-5980-1a-014-white-web.webp",
       "existingImageFilePresent": true,
-      "photoAssetId": null,
-      "status": "Requires Verification",
-      "sourceUrl": null,
-      "licenseRecord": null,
-      "websiteApproved": false,
-      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+      "photoAssetId": "cleared-sprint-1zRpXT1-QqDHTrnjb02XI3cOZpboQgwsh",
+      "status": "approved",
+      "sourceUrl": "https://www.the1916company.com/pre-owned/patek-philippe/nautilus/5063942/",
+      "licenseRecord": "Founder directly confirmed rights and authorized publication of remaining sprint photography October 14, 2026 in Command Center V4. Additional candidate identity, full framing and final white derivative reviewed before integration. Record docs/PHOTOGRAPHY_FOUNDER_CLEARANCE_2026-10-14.json. Preserved RAW file: 1zRpXT1-QqDHTrnjb02XI3cOZpboQgwsh. Pictured full reference 5980/1A-014; Stainless steel, Gray gradient horizontally embossed chronograph, Stainless-steel integrated bracelet. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
     },
     {
       "brand": "Patek Philippe",
@@ -4887,6 +4893,44 @@
       "status": "approved",
       "sourceUrl": "https://www.patek.com/en/collection/nautilus/5726-1a-014",
       "licenseRecord": "Founder directly confirmed website-use rights and authorized publication on October 14, 2026 in Quest Luxo Command Center V4; record docs/PHOTOGRAPHY_FOUNDER_CLEARANCE_2026-10-14.json. Preserved RAW file: 1mDuzcS4xbVuU5YssqGwezfE0p-2L7cgY. Pictured full reference 5726/1A-014; Stainless Steel, Sunburst blue-gray with black-gradient rim, Steel integrated bracelet. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
+      "brand": "Audemars Piguet",
+      "collection": "Royal Oak",
+      "reference": "15500ST",
+      "configurations": [
+        {
+          "nickname": "41mm Selfwinding",
+          "bracelet": "Integrated Bracelet",
+          "dial": "Blue, Black, Grey, or Silver",
+          "originalMSRP": null
+        },
+        {
+          "dial": "Gray Grande Tapisserie",
+          "bracelet": "Stainless-steel integrated bracelet",
+          "caseSize": "41 mm",
+          "movement": "Self-winding",
+          "nickname": "Gray Grande Tapisserie / Stainless-steel integrated bracelet",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "Stainless steel",
+      "sources": [
+        "src/data/collectionRegistry.ts"
+      ],
+      "routes": [
+        "/collections/audemars-piguet/royal-oak/15500st"
+      ],
+      "scope": "built-reference",
+      "existingImage": "/images/watches/audemars-piguet/reviewed-15500st-oo-1220st-02-white-web.webp",
+      "existingImageFilePresent": true,
+      "photoAssetId": "cleared-sprint-148WK8F5MQe0LI8BIM8HnShO8JRBDj8WC",
+      "status": "approved",
+      "sourceUrl": "https://www.the1916company.com/pre-owned/audemars-piguet/royal-oak/5081391/",
+      "licenseRecord": "Founder directly confirmed rights and authorized publication of remaining sprint photography October 14, 2026 in Command Center V4. Additional candidate identity, full framing and final white derivative reviewed before integration. Record docs/PHOTOGRAPHY_FOUNDER_CLEARANCE_2026-10-14.json. Preserved RAW file: 148WK8F5MQe0LI8BIM8HnShO8JRBDj8WC. Pictured full reference 15500ST.OO.1220ST.02; Stainless steel, Gray Grande Tapisserie, Stainless-steel integrated bracelet. Exact configuration reviewed against preserved source evidence and the original photograph.",
       "websiteApproved": true,
       "nextAction": "Retain approved original and verify derivative integrity."
     },
@@ -6310,25 +6354,33 @@
           "movement": "Automatic chronograph",
           "dial": "Tapisserie chronograph dial",
           "bracelet": "Integrated steel bracelet"
+        },
+        {
+          "dial": "Blue Grande Tapisserie with silver-colored counters",
+          "bracelet": "Stainless-steel integrated bracelet",
+          "caseSize": "41 mm",
+          "movement": "Self-winding chronograph",
+          "nickname": "Blue Grande Tapisserie with silver-colored counters / Stainless-steel integrated bracelet",
+          "originalMSRP": null,
+          "currentMSRP": null
         }
       ],
-      "material": "Stainless Steel",
+      "material": "Stainless steel",
       "sources": [
-        "src/data/collectionRegistry.ts",
-        "src/data/reference-expansion.ts"
+        "src/data/collectionRegistry.ts"
       ],
       "routes": [
         "/collections/audemars-piguet/royal-oak-chronograph/26331st"
       ],
       "scope": "built-reference",
-      "existingImage": "/images/watch-reference-placeholder.svg",
+      "existingImage": "/images/watches/audemars-piguet/reviewed-26331st-oo-1220st-01-white-web.webp",
       "existingImageFilePresent": true,
-      "photoAssetId": null,
-      "status": "Requires Verification",
-      "sourceUrl": null,
-      "licenseRecord": null,
-      "websiteApproved": false,
-      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+      "photoAssetId": "cleared-sprint-1Ff7UVRCs5WPx_udxUMbPJiA8egL9FAyb",
+      "status": "approved",
+      "sourceUrl": "https://www.the1916company.com/pre-owned/audemars-piguet/royal-oak/5070670/",
+      "licenseRecord": "Founder directly confirmed rights and authorized publication of remaining sprint photography October 14, 2026 in Command Center V4. Additional candidate identity, full framing and final white derivative reviewed before integration. Record docs/PHOTOGRAPHY_FOUNDER_CLEARANCE_2026-10-14.json. Preserved RAW file: 1Ff7UVRCs5WPx_udxUMbPJiA8egL9FAyb. Pictured full reference 26331ST.OO.1220ST.01; Stainless steel, Blue Grande Tapisserie with silver-colored counters, Stainless-steel integrated bracelet. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
     },
     {
       "brand": "Audemars Piguet",
@@ -6340,25 +6392,33 @@
           "movement": "Calibre 4401 automatic flyback chronograph",
           "dial": "Tapisserie chronograph dial",
           "bracelet": "Integrated steel bracelet"
+        },
+        {
+          "dial": "Black Grande Tapisserie",
+          "bracelet": "Stainless-steel integrated bracelet",
+          "caseSize": "41 mm",
+          "movement": "Self-winding chronograph",
+          "nickname": "Black Grande Tapisserie / Stainless-steel integrated bracelet",
+          "originalMSRP": null,
+          "currentMSRP": null
         }
       ],
-      "material": "Stainless Steel",
+      "material": "Stainless steel",
       "sources": [
-        "src/data/collectionRegistry.ts",
-        "src/data/reference-expansion.ts"
+        "src/data/collectionRegistry.ts"
       ],
       "routes": [
         "/collections/audemars-piguet/royal-oak-chronograph/26240st"
       ],
       "scope": "built-reference",
-      "existingImage": "/images/watch-reference-placeholder.svg",
+      "existingImage": "/images/watches/audemars-piguet/reviewed-26240st-oo-1320st-06-white-web.webp",
       "existingImageFilePresent": true,
-      "photoAssetId": null,
-      "status": "Requires Verification",
-      "sourceUrl": null,
-      "licenseRecord": null,
-      "websiteApproved": false,
-      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+      "photoAssetId": "cleared-sprint-1nfPaUQs1UDMk8m_B4l7N8ovIHENrETaO",
+      "status": "approved",
+      "sourceUrl": "https://www.the1916company.com/pre-owned/audemars-piguet/royal-oak/5053685/",
+      "licenseRecord": "Founder directly confirmed rights and authorized publication of remaining sprint photography October 14, 2026 in Command Center V4. Additional candidate identity, full framing and final white derivative reviewed before integration. Record docs/PHOTOGRAPHY_FOUNDER_CLEARANCE_2026-10-14.json. Preserved RAW file: 1nfPaUQs1UDMk8m_B4l7N8ovIHENrETaO. Pictured full reference 26240ST.OO.1320ST.06; Stainless steel, Black Grande Tapisserie, Stainless-steel integrated bracelet. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
     },
     {
       "brand": "Audemars Piguet",
@@ -6607,25 +6667,33 @@
           "movement": "Automatic",
           "dial": "Roman numeral dial",
           "bracelet": "Bracelet or strap, reference-dependent"
+        },
+        {
+          "dial": "Black with Roman numerals",
+          "bracelet": "Stainless-steel bracelet",
+          "caseSize": "42 mm",
+          "movement": "Self-winding",
+          "nickname": "Black with Roman numerals / Stainless-steel bracelet",
+          "originalMSRP": null,
+          "currentMSRP": null
         }
       ],
-      "material": "Steel or Precious Metal",
+      "material": "Stainless steel",
       "sources": [
-        "src/data/collectionRegistry.ts",
-        "src/data/reference-expansion.ts"
+        "src/data/collectionRegistry.ts"
       ],
       "routes": [
         "/collections/cartier/ballon-bleu/ballon-bleu-42-mm"
       ],
       "scope": "built-reference",
-      "existingImage": "/images/watch-reference-placeholder.svg",
+      "existingImage": "/images/watches/cartier/reviewed-w6920042-white-web.webp",
       "existingImageFilePresent": true,
-      "photoAssetId": null,
-      "status": "Requires Verification",
-      "sourceUrl": null,
-      "licenseRecord": null,
-      "websiteApproved": false,
-      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+      "photoAssetId": "cleared-sprint-1stnm8X4eJq3O8VMehND8P0wzPzbvxoPw",
+      "status": "approved",
+      "sourceUrl": "https://www.the1916company.com/pre-owned/cartier/ballon-bleu/ballon-bleu-w6920042/",
+      "licenseRecord": "Founder directly confirmed rights and authorized publication of remaining sprint photography October 14, 2026 in Command Center V4. Additional candidate identity, full framing and final white derivative reviewed before integration. Record docs/PHOTOGRAPHY_FOUNDER_CLEARANCE_2026-10-14.json. Preserved RAW file: 1stnm8X4eJq3O8VMehND8P0wzPzbvxoPw. Pictured full reference W6920042; Stainless steel, Black with Roman numerals, Stainless-steel bracelet. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
     },
     {
       "brand": "Cartier",
@@ -6637,25 +6705,33 @@
           "movement": "Automatic",
           "dial": "Arabic numeral dial",
           "bracelet": "Interchangeable bracelet or strap"
+        },
+        {
+          "dial": "Blue sunray with Arabic numerals",
+          "bracelet": "Stainless-steel bracelet",
+          "caseSize": "41 mm",
+          "movement": "Self-winding",
+          "nickname": "Blue sunray with Arabic numerals / Stainless-steel bracelet",
+          "originalMSRP": null,
+          "currentMSRP": null
         }
       ],
-      "material": "Steel or Precious Metal",
+      "material": "Stainless steel",
       "sources": [
-        "src/data/collectionRegistry.ts",
-        "src/data/reference-expansion.ts"
+        "src/data/collectionRegistry.ts"
       ],
       "routes": [
         "/collections/cartier/pasha/pasha-de-cartier-41-mm"
       ],
       "scope": "built-reference",
-      "existingImage": "/images/watch-reference-placeholder.svg",
+      "existingImage": "/images/watches/cartier/reviewed-wspa0038-white-web.webp",
       "existingImageFilePresent": true,
-      "photoAssetId": null,
-      "status": "Requires Verification",
-      "sourceUrl": null,
-      "licenseRecord": null,
-      "websiteApproved": false,
-      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+      "photoAssetId": "cleared-sprint-1EhGTubXehyoxP-ZSjIsx2J0meg7e4qSc",
+      "status": "approved",
+      "sourceUrl": "https://www.the1916company.com/pre-owned/cartier/pasha/pasha-wspa0038/",
+      "licenseRecord": "Founder directly confirmed rights and authorized publication of remaining sprint photography October 14, 2026 in Command Center V4. Additional candidate identity, full framing and final white derivative reviewed before integration. Record docs/PHOTOGRAPHY_FOUNDER_CLEARANCE_2026-10-14.json. Preserved RAW file: 1EhGTubXehyoxP-ZSjIsx2J0meg7e4qSc. Pictured full reference WSPA0038; Stainless steel, Blue sunray with Arabic numerals, Stainless-steel bracelet. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
     },
     {
       "brand": "Cartier",
@@ -6667,25 +6743,33 @@
           "movement": "Automatic chronograph",
           "dial": "Chronograph dial",
           "bracelet": "Interchangeable bracelet or strap"
+        },
+        {
+          "dial": "Silver chronograph with Arabic numerals",
+          "bracelet": "Blue alligator leather strap",
+          "caseSize": "41 mm",
+          "movement": "Self-winding chronograph",
+          "nickname": "Silver chronograph with Arabic numerals / Blue alligator leather strap",
+          "originalMSRP": null,
+          "currentMSRP": null
         }
       ],
-      "material": "Steel or Precious Metal",
+      "material": "18K yellow gold",
       "sources": [
-        "src/data/collectionRegistry.ts",
-        "src/data/reference-expansion.ts"
+        "src/data/collectionRegistry.ts"
       ],
       "routes": [
         "/collections/cartier/pasha/pasha-chronograph-41-mm"
       ],
       "scope": "built-reference",
-      "existingImage": "/images/watch-reference-placeholder.svg",
+      "existingImage": "/images/watches/cartier/reviewed-wgpa0017-white-web.webp",
       "existingImageFilePresent": true,
-      "photoAssetId": null,
-      "status": "Requires Verification",
-      "sourceUrl": null,
-      "licenseRecord": null,
-      "websiteApproved": false,
-      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+      "photoAssetId": "cleared-sprint-1PkPsGIsMvNZ_4XbkJLSrB3yKUzOg1A9S",
+      "status": "approved",
+      "sourceUrl": "https://www.the1916company.com/pre-owned/cartier/pasha/pasha-wgpa0017/",
+      "licenseRecord": "Founder directly confirmed rights and authorized publication of remaining sprint photography October 14, 2026 in Command Center V4. Additional candidate identity, full framing and final white derivative reviewed before integration. Record docs/PHOTOGRAPHY_FOUNDER_CLEARANCE_2026-10-14.json. Preserved RAW file: 1PkPsGIsMvNZ_4XbkJLSrB3yKUzOg1A9S. Pictured full reference WGPA0017; 18K yellow gold, Silver chronograph with Arabic numerals, Blue alligator leather strap. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
     },
     {
       "brand": "Patek Philippe",
@@ -6697,25 +6781,33 @@
           "movement": "Manual winding",
           "dial": "Reference-dependent",
           "bracelet": "Leather strap"
+        },
+        {
+          "dial": "Silvery opaline",
+          "bracelet": "Brown alligator leather strap",
+          "caseSize": "37 mm",
+          "movement": "Manual-winding",
+          "nickname": "Silvery opaline / Brown alligator leather strap",
+          "originalMSRP": null,
+          "currentMSRP": null
         }
       ],
-      "material": "Precious Metal",
+      "material": "18K rose gold",
       "sources": [
-        "src/data/collectionRegistry.ts",
-        "src/data/reference-expansion.ts"
+        "src/data/collectionRegistry.ts"
       ],
       "routes": [
         "/collections/patek-philippe/calatrava/5196"
       ],
       "scope": "built-reference",
-      "existingImage": "/images/watch-reference-placeholder.svg",
+      "existingImage": "/images/watches/patek-philippe/reviewed-5196r-001-white-web.webp",
       "existingImageFilePresent": true,
-      "photoAssetId": null,
-      "status": "Requires Verification",
-      "sourceUrl": null,
-      "licenseRecord": null,
-      "websiteApproved": false,
-      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+      "photoAssetId": "cleared-sprint-1xKeqkjYhFDAXkYMC1dzjqtzeDK5x3roi",
+      "status": "approved",
+      "sourceUrl": "https://www.the1916company.com/pre-owned/patek-philippe/calatrava/5066480/",
+      "licenseRecord": "Founder directly confirmed rights and authorized publication of remaining sprint photography October 14, 2026 in Command Center V4. Additional candidate identity, full framing and final white derivative reviewed before integration. Record docs/PHOTOGRAPHY_FOUNDER_CLEARANCE_2026-10-14.json. Preserved RAW file: 1xKeqkjYhFDAXkYMC1dzjqtzeDK5x3roi. Pictured full reference 5196R-001; 18K rose gold, Silvery opaline, Brown alligator leather strap. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
     },
     {
       "brand": "Patek Philippe",
@@ -8099,25 +8191,34 @@
           "waterResistance": "30 m",
           "originalMSRP": null,
           "currentMSRP": null
+        },
+        {
+          "dial": "Grained silver-toned with blue Arabic numerals and hands",
+          "bracelet": "Dark-blue calfskin leather strap",
+          "caseSize": "40 x 40 mm",
+          "movement": "Manual-winding calibre 4400 AS",
+          "waterResistance": "30 m",
+          "nickname": "Grained silver-toned with blue Arabic numerals and hands / Dark-blue calfskin leather strap",
+          "originalMSRP": null,
+          "currentMSRP": null
         }
       ],
-      "material": "18K Pink Gold",
+      "material": "18K 5N pink gold",
       "sources": [
-        "src/data/collectionRegistry.ts",
-        "src/data/launch-catalog.ts"
+        "src/data/collectionRegistry.ts"
       ],
       "routes": [
         "/collections/vacheron-constantin/american-1921/82035-000r-h114"
       ],
       "scope": "built-reference",
-      "existingImage": "/images/watch-reference-placeholder.svg",
+      "existingImage": "/images/watches/vacheron-constantin/reviewed-82035-000r-h114-white-web.webp",
       "existingImageFilePresent": true,
-      "photoAssetId": null,
-      "status": "Requires Verification",
-      "sourceUrl": "https://www.vacheron-constantin.com/us/en/collections/historiques/82035-000r-h114.html",
-      "licenseRecord": null,
-      "websiteApproved": false,
-      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+      "photoAssetId": "cleared-sprint-1T-_k5nd9l5k1BXpQQZQxTabFPPUEPP0n",
+      "status": "approved",
+      "sourceUrl": "https://www.watchswiss.com/brands/vacheron-constantin/historiques-collection/american-1921-82035-000r-h114/",
+      "licenseRecord": "Founder directly confirmed rights and authorized publication of remaining sprint photography October 14, 2026 in Command Center V4. Additional candidate identity, full framing and final white derivative reviewed before integration. Record docs/PHOTOGRAPHY_FOUNDER_CLEARANCE_2026-10-14.json. Preserved RAW file: 1T-_k5nd9l5k1BXpQQZQxTabFPPUEPP0n. Pictured full reference 82035/000R-H114; 18K 5N pink gold, Grained silver-toned with blue Arabic numerals and hands, Dark-blue calfskin leather strap. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
     },
     {
       "brand": "Franck Muller",
@@ -8704,6 +8805,38 @@
       "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
     },
     {
+      "brand": "Vacheron Constantin",
+      "collection": "American 1921",
+      "reference": "82035/000R-H114",
+      "configurations": [
+        {
+          "caseSize": "40 × 40 mm",
+          "movement": "Manual-winding calibre 4400 AS",
+          "dial": "Grained silver-toned with blue numerals",
+          "bracelet": "Blue calfskin leather strap",
+          "waterResistance": "30 m",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "18K Pink Gold",
+      "sources": [
+        "src/data/launch-catalog.ts"
+      ],
+      "routes": [
+        "/collections/vacheron-constantin/american-1921/82035-000r-h114"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": null,
+      "status": "Requires Verification",
+      "sourceUrl": "https://www.vacheron-constantin.com/us/en/collections/historiques/82035-000r-h114.html",
+      "licenseRecord": null,
+      "websiteApproved": false,
+      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+    },
+    {
       "brand": "Franck Muller",
       "collection": "Rabbit",
       "reference": "V 41 SC DT FR2 GFGRNR (NR)",
@@ -9021,6 +9154,36 @@
       ],
       "routes": [
         "/collections/patek-philippe/nautilus/5990-1a"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": null,
+      "status": "Requires Verification",
+      "sourceUrl": null,
+      "licenseRecord": null,
+      "websiteApproved": false,
+      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+    },
+    {
+      "brand": "Patek Philippe",
+      "collection": "Nautilus",
+      "reference": "5980/1A",
+      "configurations": [
+        {
+          "nickname": "Chronograph",
+          "bracelet": "Integrated Bracelet",
+          "dial": "Blue or White",
+          "originalMSRP": null
+        }
+      ],
+      "material": "Stainless Steel",
+      "sources": [
+        "src/data/patek-philippe-intelligence.ts",
+        "src/data/patek-philippe.ts"
+      ],
+      "routes": [
+        "/collections/patek-philippe/nautilus/5980-1a"
       ],
       "scope": "built-reference",
       "existingImage": null,
@@ -10558,6 +10721,204 @@
       ],
       "routes": [
         "/collections/cartier/ballon-bleu/ballon-bleu-40-mm"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": null,
+      "status": "Requires Verification",
+      "sourceUrl": null,
+      "licenseRecord": null,
+      "websiteApproved": false,
+      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+    },
+    {
+      "brand": "Cartier",
+      "collection": "Pasha",
+      "reference": "Pasha de Cartier 41 mm",
+      "configurations": [],
+      "material": "Stainless steel",
+      "sources": [
+        "src/data/photography-cleared-sprint.ts"
+      ],
+      "routes": [
+        "/collections/cartier/pasha/pasha-de-cartier-41-mm"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": null,
+      "status": "Requires Verification",
+      "sourceUrl": null,
+      "licenseRecord": null,
+      "websiteApproved": false,
+      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+    },
+    {
+      "brand": "Cartier",
+      "collection": "Pasha",
+      "reference": "Pasha Chronograph 41 mm",
+      "configurations": [],
+      "material": "18K yellow gold",
+      "sources": [
+        "src/data/photography-cleared-sprint.ts"
+      ],
+      "routes": [
+        "/collections/cartier/pasha/pasha-chronograph-41-mm"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": null,
+      "status": "Requires Verification",
+      "sourceUrl": null,
+      "licenseRecord": null,
+      "websiteApproved": false,
+      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+    },
+    {
+      "brand": "Cartier",
+      "collection": "Ballon Bleu",
+      "reference": "Ballon Bleu 42 mm",
+      "configurations": [],
+      "material": "Stainless steel",
+      "sources": [
+        "src/data/photography-cleared-sprint.ts"
+      ],
+      "routes": [
+        "/collections/cartier/ballon-bleu/ballon-bleu-42-mm"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": null,
+      "status": "Requires Verification",
+      "sourceUrl": null,
+      "licenseRecord": null,
+      "websiteApproved": false,
+      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+    },
+    {
+      "brand": "Audemars Piguet",
+      "collection": "Royal Oak",
+      "reference": "15500ST",
+      "configurations": [],
+      "material": "Stainless steel",
+      "sources": [
+        "src/data/photography-cleared-sprint.ts"
+      ],
+      "routes": [
+        "/collections/audemars-piguet/royal-oak/15500st"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": null,
+      "status": "Requires Verification",
+      "sourceUrl": null,
+      "licenseRecord": null,
+      "websiteApproved": false,
+      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+    },
+    {
+      "brand": "Audemars Piguet",
+      "collection": "Royal Oak Chronograph",
+      "reference": "26331ST",
+      "configurations": [],
+      "material": "Stainless steel",
+      "sources": [
+        "src/data/photography-cleared-sprint.ts"
+      ],
+      "routes": [
+        "/collections/audemars-piguet/royal-oak-chronograph/26331st"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": null,
+      "status": "Requires Verification",
+      "sourceUrl": null,
+      "licenseRecord": null,
+      "websiteApproved": false,
+      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+    },
+    {
+      "brand": "Audemars Piguet",
+      "collection": "Royal Oak Chronograph",
+      "reference": "26240ST",
+      "configurations": [],
+      "material": "Stainless steel",
+      "sources": [
+        "src/data/photography-cleared-sprint.ts"
+      ],
+      "routes": [
+        "/collections/audemars-piguet/royal-oak-chronograph/26240st"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": null,
+      "status": "Requires Verification",
+      "sourceUrl": null,
+      "licenseRecord": null,
+      "websiteApproved": false,
+      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+    },
+    {
+      "brand": "Patek Philippe",
+      "collection": "Calatrava",
+      "reference": "5196",
+      "configurations": [],
+      "material": "18K rose gold",
+      "sources": [
+        "src/data/photography-cleared-sprint.ts"
+      ],
+      "routes": [
+        "/collections/patek-philippe/calatrava/5196"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": null,
+      "status": "Requires Verification",
+      "sourceUrl": null,
+      "licenseRecord": null,
+      "websiteApproved": false,
+      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+    },
+    {
+      "brand": "Patek Philippe",
+      "collection": "Nautilus",
+      "reference": "5980/1A",
+      "configurations": [],
+      "material": "Stainless steel",
+      "sources": [
+        "src/data/photography-cleared-sprint.ts"
+      ],
+      "routes": [
+        "/collections/patek-philippe/nautilus/5980-1a"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": null,
+      "status": "Requires Verification",
+      "sourceUrl": null,
+      "licenseRecord": null,
+      "websiteApproved": false,
+      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+    },
+    {
+      "brand": "Vacheron Constantin",
+      "collection": "American 1921",
+      "reference": "82035/000R-H114",
+      "configurations": [],
+      "material": "18K 5N pink gold",
+      "sources": [
+        "src/data/photography-cleared-sprint.ts"
+      ],
+      "routes": [
+        "/collections/vacheron-constantin/american-1921/82035-000r-h114"
       ],
       "scope": "built-reference",
       "existingImage": null,
@@ -12575,6 +12936,295 @@
       "nextAction": "Retain approved original and verify derivative integrity."
     },
     {
+      "brand": "Cartier",
+      "collection": "Pasha",
+      "reference": "Pasha de Cartier 41 mm",
+      "configurations": [
+        {
+          "dial": "Blue sunray with Arabic numerals",
+          "bracelet": "Stainless-steel bracelet",
+          "caseSize": "41 mm",
+          "movement": "Self-winding",
+          "nickname": "Blue sunray with Arabic numerals / Stainless-steel bracelet",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "Stainless steel",
+      "sources": [
+        "src/data/photography-expansion.ts"
+      ],
+      "routes": [
+        "/collections/cartier/pasha/pasha-de-cartier-41-mm"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": "cleared-sprint-1EhGTubXehyoxP-ZSjIsx2J0meg7e4qSc",
+      "status": "approved",
+      "sourceUrl": "https://www.the1916company.com/pre-owned/cartier/pasha/pasha-wspa0038/",
+      "licenseRecord": "Founder directly confirmed rights and authorized publication of remaining sprint photography October 14, 2026 in Command Center V4. Additional candidate identity, full framing and final white derivative reviewed before integration. Record docs/PHOTOGRAPHY_FOUNDER_CLEARANCE_2026-10-14.json. Preserved RAW file: 1EhGTubXehyoxP-ZSjIsx2J0meg7e4qSc. Pictured full reference WSPA0038; Stainless steel, Blue sunray with Arabic numerals, Stainless-steel bracelet. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
+      "brand": "Cartier",
+      "collection": "Pasha",
+      "reference": "Pasha Chronograph 41 mm",
+      "configurations": [
+        {
+          "dial": "Silver chronograph with Arabic numerals",
+          "bracelet": "Blue alligator leather strap",
+          "caseSize": "41 mm",
+          "movement": "Self-winding chronograph",
+          "nickname": "Silver chronograph with Arabic numerals / Blue alligator leather strap",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "18K yellow gold",
+      "sources": [
+        "src/data/photography-expansion.ts"
+      ],
+      "routes": [
+        "/collections/cartier/pasha/pasha-chronograph-41-mm"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": "cleared-sprint-1PkPsGIsMvNZ_4XbkJLSrB3yKUzOg1A9S",
+      "status": "approved",
+      "sourceUrl": "https://www.the1916company.com/pre-owned/cartier/pasha/pasha-wgpa0017/",
+      "licenseRecord": "Founder directly confirmed rights and authorized publication of remaining sprint photography October 14, 2026 in Command Center V4. Additional candidate identity, full framing and final white derivative reviewed before integration. Record docs/PHOTOGRAPHY_FOUNDER_CLEARANCE_2026-10-14.json. Preserved RAW file: 1PkPsGIsMvNZ_4XbkJLSrB3yKUzOg1A9S. Pictured full reference WGPA0017; 18K yellow gold, Silver chronograph with Arabic numerals, Blue alligator leather strap. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
+      "brand": "Cartier",
+      "collection": "Ballon Bleu",
+      "reference": "Ballon Bleu 42 mm",
+      "configurations": [
+        {
+          "dial": "Black with Roman numerals",
+          "bracelet": "Stainless-steel bracelet",
+          "caseSize": "42 mm",
+          "movement": "Self-winding",
+          "nickname": "Black with Roman numerals / Stainless-steel bracelet",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "Stainless steel",
+      "sources": [
+        "src/data/photography-expansion.ts"
+      ],
+      "routes": [
+        "/collections/cartier/ballon-bleu/ballon-bleu-42-mm"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": "cleared-sprint-1stnm8X4eJq3O8VMehND8P0wzPzbvxoPw",
+      "status": "approved",
+      "sourceUrl": "https://www.the1916company.com/pre-owned/cartier/ballon-bleu/ballon-bleu-w6920042/",
+      "licenseRecord": "Founder directly confirmed rights and authorized publication of remaining sprint photography October 14, 2026 in Command Center V4. Additional candidate identity, full framing and final white derivative reviewed before integration. Record docs/PHOTOGRAPHY_FOUNDER_CLEARANCE_2026-10-14.json. Preserved RAW file: 1stnm8X4eJq3O8VMehND8P0wzPzbvxoPw. Pictured full reference W6920042; Stainless steel, Black with Roman numerals, Stainless-steel bracelet. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
+      "brand": "Audemars Piguet",
+      "collection": "Royal Oak",
+      "reference": "15500ST",
+      "configurations": [
+        {
+          "dial": "Gray Grande Tapisserie",
+          "bracelet": "Stainless-steel integrated bracelet",
+          "caseSize": "41 mm",
+          "movement": "Self-winding",
+          "nickname": "Gray Grande Tapisserie / Stainless-steel integrated bracelet",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "Stainless steel",
+      "sources": [
+        "src/data/photography-expansion.ts"
+      ],
+      "routes": [
+        "/collections/audemars-piguet/royal-oak/15500st"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": "cleared-sprint-148WK8F5MQe0LI8BIM8HnShO8JRBDj8WC",
+      "status": "approved",
+      "sourceUrl": "https://www.the1916company.com/pre-owned/audemars-piguet/royal-oak/5081391/",
+      "licenseRecord": "Founder directly confirmed rights and authorized publication of remaining sprint photography October 14, 2026 in Command Center V4. Additional candidate identity, full framing and final white derivative reviewed before integration. Record docs/PHOTOGRAPHY_FOUNDER_CLEARANCE_2026-10-14.json. Preserved RAW file: 148WK8F5MQe0LI8BIM8HnShO8JRBDj8WC. Pictured full reference 15500ST.OO.1220ST.02; Stainless steel, Gray Grande Tapisserie, Stainless-steel integrated bracelet. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
+      "brand": "Audemars Piguet",
+      "collection": "Royal Oak Chronograph",
+      "reference": "26331ST",
+      "configurations": [
+        {
+          "dial": "Blue Grande Tapisserie with silver-colored counters",
+          "bracelet": "Stainless-steel integrated bracelet",
+          "caseSize": "41 mm",
+          "movement": "Self-winding chronograph",
+          "nickname": "Blue Grande Tapisserie with silver-colored counters / Stainless-steel integrated bracelet",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "Stainless steel",
+      "sources": [
+        "src/data/photography-expansion.ts"
+      ],
+      "routes": [
+        "/collections/audemars-piguet/royal-oak-chronograph/26331st"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": "cleared-sprint-1Ff7UVRCs5WPx_udxUMbPJiA8egL9FAyb",
+      "status": "approved",
+      "sourceUrl": "https://www.the1916company.com/pre-owned/audemars-piguet/royal-oak/5070670/",
+      "licenseRecord": "Founder directly confirmed rights and authorized publication of remaining sprint photography October 14, 2026 in Command Center V4. Additional candidate identity, full framing and final white derivative reviewed before integration. Record docs/PHOTOGRAPHY_FOUNDER_CLEARANCE_2026-10-14.json. Preserved RAW file: 1Ff7UVRCs5WPx_udxUMbPJiA8egL9FAyb. Pictured full reference 26331ST.OO.1220ST.01; Stainless steel, Blue Grande Tapisserie with silver-colored counters, Stainless-steel integrated bracelet. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
+      "brand": "Audemars Piguet",
+      "collection": "Royal Oak Chronograph",
+      "reference": "26240ST",
+      "configurations": [
+        {
+          "dial": "Black Grande Tapisserie",
+          "bracelet": "Stainless-steel integrated bracelet",
+          "caseSize": "41 mm",
+          "movement": "Self-winding chronograph",
+          "nickname": "Black Grande Tapisserie / Stainless-steel integrated bracelet",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "Stainless steel",
+      "sources": [
+        "src/data/photography-expansion.ts"
+      ],
+      "routes": [
+        "/collections/audemars-piguet/royal-oak-chronograph/26240st"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": "cleared-sprint-1nfPaUQs1UDMk8m_B4l7N8ovIHENrETaO",
+      "status": "approved",
+      "sourceUrl": "https://www.the1916company.com/pre-owned/audemars-piguet/royal-oak/5053685/",
+      "licenseRecord": "Founder directly confirmed rights and authorized publication of remaining sprint photography October 14, 2026 in Command Center V4. Additional candidate identity, full framing and final white derivative reviewed before integration. Record docs/PHOTOGRAPHY_FOUNDER_CLEARANCE_2026-10-14.json. Preserved RAW file: 1nfPaUQs1UDMk8m_B4l7N8ovIHENrETaO. Pictured full reference 26240ST.OO.1320ST.06; Stainless steel, Black Grande Tapisserie, Stainless-steel integrated bracelet. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
+      "brand": "Patek Philippe",
+      "collection": "Calatrava",
+      "reference": "5196",
+      "configurations": [
+        {
+          "dial": "Silvery opaline",
+          "bracelet": "Brown alligator leather strap",
+          "caseSize": "37 mm",
+          "movement": "Manual-winding",
+          "nickname": "Silvery opaline / Brown alligator leather strap",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "18K rose gold",
+      "sources": [
+        "src/data/photography-expansion.ts"
+      ],
+      "routes": [
+        "/collections/patek-philippe/calatrava/5196"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": "cleared-sprint-1xKeqkjYhFDAXkYMC1dzjqtzeDK5x3roi",
+      "status": "approved",
+      "sourceUrl": "https://www.the1916company.com/pre-owned/patek-philippe/calatrava/5066480/",
+      "licenseRecord": "Founder directly confirmed rights and authorized publication of remaining sprint photography October 14, 2026 in Command Center V4. Additional candidate identity, full framing and final white derivative reviewed before integration. Record docs/PHOTOGRAPHY_FOUNDER_CLEARANCE_2026-10-14.json. Preserved RAW file: 1xKeqkjYhFDAXkYMC1dzjqtzeDK5x3roi. Pictured full reference 5196R-001; 18K rose gold, Silvery opaline, Brown alligator leather strap. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
+      "brand": "Patek Philippe",
+      "collection": "Nautilus",
+      "reference": "5980/1A",
+      "configurations": [
+        {
+          "dial": "Gray gradient horizontally embossed chronograph",
+          "bracelet": "Stainless-steel integrated bracelet",
+          "caseSize": "40 mm",
+          "movement": "Self-winding chronograph",
+          "nickname": "Gray gradient horizontally embossed chronograph / Stainless-steel integrated bracelet",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "Stainless steel",
+      "sources": [
+        "src/data/photography-expansion.ts"
+      ],
+      "routes": [
+        "/collections/patek-philippe/nautilus/5980-1a"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": "cleared-sprint-1zRpXT1-QqDHTrnjb02XI3cOZpboQgwsh",
+      "status": "approved",
+      "sourceUrl": "https://www.the1916company.com/pre-owned/patek-philippe/nautilus/5063942/",
+      "licenseRecord": "Founder directly confirmed rights and authorized publication of remaining sprint photography October 14, 2026 in Command Center V4. Additional candidate identity, full framing and final white derivative reviewed before integration. Record docs/PHOTOGRAPHY_FOUNDER_CLEARANCE_2026-10-14.json. Preserved RAW file: 1zRpXT1-QqDHTrnjb02XI3cOZpboQgwsh. Pictured full reference 5980/1A-014; Stainless steel, Gray gradient horizontally embossed chronograph, Stainless-steel integrated bracelet. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
+      "brand": "Vacheron Constantin",
+      "collection": "American 1921",
+      "reference": "82035/000R-H114",
+      "configurations": [
+        {
+          "dial": "Grained silver-toned with blue Arabic numerals and hands",
+          "bracelet": "Dark-blue calfskin leather strap",
+          "caseSize": "40 x 40 mm",
+          "movement": "Manual-winding calibre 4400 AS",
+          "waterResistance": "30 m",
+          "nickname": "Grained silver-toned with blue Arabic numerals and hands / Dark-blue calfskin leather strap",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "18K 5N pink gold",
+      "sources": [
+        "src/data/photography-expansion.ts"
+      ],
+      "routes": [
+        "/collections/vacheron-constantin/american-1921/82035-000r-h114"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": "cleared-sprint-1T-_k5nd9l5k1BXpQQZQxTabFPPUEPP0n",
+      "status": "approved",
+      "sourceUrl": "https://www.watchswiss.com/brands/vacheron-constantin/historiques-collection/american-1921-82035-000r-h114/",
+      "licenseRecord": "Founder directly confirmed rights and authorized publication of remaining sprint photography October 14, 2026 in Command Center V4. Additional candidate identity, full framing and final white derivative reviewed before integration. Record docs/PHOTOGRAPHY_FOUNDER_CLEARANCE_2026-10-14.json. Preserved RAW file: 1T-_k5nd9l5k1BXpQQZQxTabFPPUEPP0n. Pictured full reference 82035/000R-H114; 18K 5N pink gold, Grained silver-toned with blue Arabic numerals and hands, Dark-blue calfskin leather strap. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
       "brand": "Rolex",
       "collection": "Submariner",
       "reference": "126613LB",
@@ -13250,6 +13900,64 @@
       "nextAction": "Retain approved original and verify derivative integrity."
     },
     {
+      "brand": "Audemars Piguet",
+      "collection": "Royal Oak Chronograph",
+      "reference": "26331ST",
+      "configurations": [
+        {
+          "caseSize": "41 mm",
+          "movement": "Automatic chronograph",
+          "dial": "Tapisserie chronograph dial",
+          "bracelet": "Integrated steel bracelet"
+        }
+      ],
+      "material": "Stainless Steel",
+      "sources": [
+        "src/data/reference-expansion.ts"
+      ],
+      "routes": [
+        "/collections/audemars-piguet/royal-oak-chronograph/26331st"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": null,
+      "status": "Requires Verification",
+      "sourceUrl": null,
+      "licenseRecord": null,
+      "websiteApproved": false,
+      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+    },
+    {
+      "brand": "Audemars Piguet",
+      "collection": "Royal Oak Chronograph",
+      "reference": "26240ST",
+      "configurations": [
+        {
+          "caseSize": "41 mm",
+          "movement": "Calibre 4401 automatic flyback chronograph",
+          "dial": "Tapisserie chronograph dial",
+          "bracelet": "Integrated steel bracelet"
+        }
+      ],
+      "material": "Stainless Steel",
+      "sources": [
+        "src/data/reference-expansion.ts"
+      ],
+      "routes": [
+        "/collections/audemars-piguet/royal-oak-chronograph/26240st"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": null,
+      "status": "Requires Verification",
+      "sourceUrl": null,
+      "licenseRecord": null,
+      "websiteApproved": false,
+      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+    },
+    {
       "brand": "Cartier",
       "collection": "Tank",
       "reference": "Tank Louis Cartier",
@@ -13323,6 +14031,122 @@
       ],
       "routes": [
         "/collections/cartier/ballon-bleu/ballon-bleu-40-mm"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": null,
+      "status": "Requires Verification",
+      "sourceUrl": null,
+      "licenseRecord": null,
+      "websiteApproved": false,
+      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+    },
+    {
+      "brand": "Cartier",
+      "collection": "Ballon Bleu",
+      "reference": "Ballon Bleu 42 mm",
+      "configurations": [
+        {
+          "caseSize": "42 mm",
+          "movement": "Automatic",
+          "dial": "Roman numeral dial",
+          "bracelet": "Bracelet or strap, reference-dependent"
+        }
+      ],
+      "material": "Steel or Precious Metal",
+      "sources": [
+        "src/data/reference-expansion.ts"
+      ],
+      "routes": [
+        "/collections/cartier/ballon-bleu/ballon-bleu-42-mm"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": null,
+      "status": "Requires Verification",
+      "sourceUrl": null,
+      "licenseRecord": null,
+      "websiteApproved": false,
+      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+    },
+    {
+      "brand": "Cartier",
+      "collection": "Pasha",
+      "reference": "Pasha de Cartier 41 mm",
+      "configurations": [
+        {
+          "caseSize": "41 mm",
+          "movement": "Automatic",
+          "dial": "Arabic numeral dial",
+          "bracelet": "Interchangeable bracelet or strap"
+        }
+      ],
+      "material": "Steel or Precious Metal",
+      "sources": [
+        "src/data/reference-expansion.ts"
+      ],
+      "routes": [
+        "/collections/cartier/pasha/pasha-de-cartier-41-mm"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": null,
+      "status": "Requires Verification",
+      "sourceUrl": null,
+      "licenseRecord": null,
+      "websiteApproved": false,
+      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+    },
+    {
+      "brand": "Cartier",
+      "collection": "Pasha",
+      "reference": "Pasha Chronograph 41 mm",
+      "configurations": [
+        {
+          "caseSize": "41 mm",
+          "movement": "Automatic chronograph",
+          "dial": "Chronograph dial",
+          "bracelet": "Interchangeable bracelet or strap"
+        }
+      ],
+      "material": "Steel or Precious Metal",
+      "sources": [
+        "src/data/reference-expansion.ts"
+      ],
+      "routes": [
+        "/collections/cartier/pasha/pasha-chronograph-41-mm"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": null,
+      "status": "Requires Verification",
+      "sourceUrl": null,
+      "licenseRecord": null,
+      "websiteApproved": false,
+      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+    },
+    {
+      "brand": "Patek Philippe",
+      "collection": "Calatrava",
+      "reference": "5196",
+      "configurations": [
+        {
+          "caseSize": "37 mm",
+          "movement": "Manual winding",
+          "dial": "Reference-dependent",
+          "bracelet": "Leather strap"
+        }
+      ],
+      "material": "Precious Metal",
+      "sources": [
+        "src/data/reference-expansion.ts"
+      ],
+      "routes": [
+        "/collections/patek-philippe/calatrava/5196"
       ],
       "scope": "built-reference",
       "existingImage": null,
