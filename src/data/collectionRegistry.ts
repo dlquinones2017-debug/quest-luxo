@@ -19,6 +19,7 @@ import { watchPhotographs } from "./watch-photography";
 import { approvedPhotograph } from "../lib/media/watchPhotography";
 import type { QuestLuxoAsset } from "../types/questLuxo";
 import { launchCatalogCollections } from "./launch-catalog";
+import { verifiedCatalogExpansionCollections } from "./verified-catalog-expansion";
 import { photographyExpansionAssets } from "./photography-expansion";
 
 export interface CollectionDefinition {
@@ -691,6 +692,7 @@ const collectionSources: CollectionDefinition[] = [
   ...ulysseNardinExpandedCollections,
   ...bellRossExpandedCollections,
   ...launchCatalogCollections.map(defineCollection),
+  ...verifiedCatalogExpansionCollections.map(defineCollection),
 ];
 
 const mergedCollections = new Map<string, CollectionDefinition>();
