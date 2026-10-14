@@ -1,6 +1,6 @@
 {
-  "preparedAt": "2026-10-14T01:56:03.123692+00:00",
-  "count": 38,
+  "preparedAt": "2026-10-14T02:21:27.791663+00:00",
+  "count": 42,
   "websitePublished": false,
   "canonicalApprovedCoverage": {
     "photographed": 49,
@@ -1795,7 +1795,323 @@
       ],
       "exactReference": "M7941A1A0NU-0001",
       "publicationStatus": "Queued pending founder website-use clearance"
+    },
+    {
+      "brand": "Ulysse Nardin",
+      "collection": "Moonstruck",
+      "catalogReference": "Moonstruck",
+      "reference": "1063-400-2A/3B",
+      "exactSKU": "1063-400-2A-3B",
+      "sourceUrl": "https://www.ulysse-nardin.com/en-eu/watches/blast/1063-400-2a-3b",
+      "imageUrl": "https://api.ulysse-nardin.com/media/catalog/product/1/0/1063-400-2A-3B-soldier-1c1f5e.png",
+      "sourceEvidence": "Decoded exact original image resource from observed official Next image URL; full SKU and strap description match official image alt. Family route retained separately.",
+      "officialImageAlt": "Blast Moonstruck 1063-400-2A/3B watch with Black \"Craters\" rubber strap",
+      "checkedAt": "2026-10-14T02:14:27.659518+00:00",
+      "rightsStatus": "Pending founder clearance for new official originals; not published",
+      "reviewStatus": "Original and final white-canvas derivative visually reviewed; full photographed SKU, dial, case and strap verified against exact manufacturer page and image alt. Family mapping retained separately; publication pending human rights clearance.",
+      "size": [
+        2000,
+        2000
+      ],
+      "mode": "P",
+      "path": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\un-next-originals\\1063-400-2A-3B-raw.png",
+      "sha256": "1c1f5e167add856864d4f9843cb71e833293e0544bab52574d45e43972e0e1b2",
+      "status": "Authentic official original acquired; unchanged delivered bytes",
+      "pagePath": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\un-next-1063-400-2A-3B.html",
+      "pageSha256": "765c8acc1a602fe73aaddeb6c23badea55e3c591f567e3a98cc251be44ad7cdc",
+      "verifiedManufacturerFields": {
+        "case_material_data": [
+          {
+            "label": "Titanium / ceramic"
+          }
+        ],
+        "dial_data": [
+          {
+            "label": "\"Earth\""
+          }
+        ],
+        "strap_data": [
+          {
+            "label": "Rubber 'Craters'"
+          }
+        ],
+        "water_resistance": "30 m",
+        "case_diameter_value": "Ø 45 mm",
+        "mechanism_data": [
+          {
+            "label": "Self-winding"
+          }
+        ]
+      },
+      "configuration": {
+        "material": "Titanium / ceramic",
+        "dial": "Earth astronomical display",
+        "bracelet": "Black \"Craters\" rubber strap",
+        "caseSize": "Ø 45 mm",
+        "movement": "Self-winding",
+        "waterResistance": "30 m"
+      },
+      "whiteMaster": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\un-next-reviewed\\1063-400-2A-3B-white-master.png",
+      "webDerivative": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\un-next-reviewed\\1063-400-2A-3B-web.webp",
+      "derivativeSha256": "242362eaaf216cffeb2c8c0bae05eff888805547f8c62215986f7859a15ebf6f",
+      "processing": "Original manufacturer RGB and watch alpha preserved; external translucent cast shadow suppressed with original opaque support plus two-pixel boundary envelope. Centered on blank 2400 white canvas, 1200 WEB. No AI, reconstruction, captions or overlays.",
+      "driveFiles": [
+        {
+          "type": "RAW",
+          "id": "1wwFS-hahFzUiRU9Og_k7Sz6l4cvKCG0L",
+          "name": "ulysse-nardin-1063-400-2A-3B-raw.png"
+        },
+        {
+          "type": "WHITE_MASTER",
+          "id": "1YjLAupIcuOt7tDYmV3-s9om19XBJMN9w",
+          "name": "ulysse-nardin-1063-400-2A-3B-white_master.png"
+        },
+        {
+          "type": "WEB",
+          "id": "1iTiVRHl7rPeZ0M7rnXhlfECLkiLv8HbQ",
+          "name": "ulysse-nardin-1063-400-2A-3B-web.webp"
+        }
+      ],
+      "exactReference": "1063-400-2A/3B",
+      "publicationStatus": "Queued pending human website-use clearance"
+    },
+    {
+      "brand": "Ulysse Nardin",
+      "collection": "Diver",
+      "catalogReference": "Diver X Skeleton",
+      "reference": "3723-170-2B/3A",
+      "exactSKU": "3723-170-2B-3A",
+      "sourceUrl": "https://www.ulysse-nardin.com/watches/diver/3723-170-2b-3a",
+      "imageUrl": "https://api.ulysse-nardin.com/media/catalog/product/3/7/3723-170-2B-3A-soldier-2c1a7f.png",
+      "sourceEvidence": "Decoded exact original image resource from observed official Next image URL; full SKU and strap description match official image alt. Family route retained separately.",
+      "officialImageAlt": "Diver X Skeleton Azure 3723-170-2B/3A watch with Blue RUBBER/CERAMIC STRAP",
+      "checkedAt": "2026-10-14T02:14:27.660524+00:00",
+      "rightsStatus": "Pending founder clearance for new official originals; not published",
+      "reviewStatus": "Original and final white-canvas derivative visually reviewed; full photographed SKU, dial, case and strap verified against exact manufacturer page and image alt. Family mapping retained separately; publication pending human rights clearance.",
+      "size": [
+        2000,
+        2000
+      ],
+      "mode": "P",
+      "path": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\un-next-originals\\3723-170-2B-3A-raw.png",
+      "sha256": "6b5bf52c0a25b34a58d93a49c4aa9871bfeabd1aefdb22caafbfb1ba49a2c163",
+      "status": "Authentic official original acquired; unchanged delivered bytes",
+      "pagePath": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\un-next-3723-170-2B-3A.html",
+      "pageSha256": "30ee705dc50c646d5bf513d5bfb7e63291b5f69eeaf255ea471e316ee303fae3",
+      "verifiedManufacturerFields": {
+        "case_material_data": [
+          {
+            "label": "Titanium / carbon composite"
+          }
+        ],
+        "dial_data": [
+          {
+            "label": "Black"
+          }
+        ],
+        "strap_data": [
+          {
+            "label": "Rubber / ceramic"
+          }
+        ],
+        "water_resistance": "200 m",
+        "case_diameter_value": "Ø 44 mm",
+        "mechanism_data": [
+          {
+            "label": "Self-winding"
+          }
+        ]
+      },
+      "configuration": {
+        "material": "Titanium / carbon composite",
+        "dial": "Black skeletonised display with Azure blue accents (pictured)",
+        "bracelet": "Blue RUBBER/CERAMIC STRAP",
+        "caseSize": "Ø 44 mm",
+        "movement": "Self-winding",
+        "waterResistance": "200 m"
+      },
+      "whiteMaster": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\un-next-reviewed\\3723-170-2B-3A-white-master.png",
+      "webDerivative": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\un-next-reviewed\\3723-170-2B-3A-web.webp",
+      "derivativeSha256": "4ac34e71583cf79cb643d5e88813d4c5ae6b1fda531781a74b068d63d51e6724",
+      "processing": "Original manufacturer RGB and watch alpha preserved; external translucent cast shadow suppressed with original opaque support plus two-pixel boundary envelope. Centered on blank 2400 white canvas, 1200 WEB. No AI, reconstruction, captions or overlays.",
+      "driveFiles": [
+        {
+          "type": "RAW",
+          "id": "1ZQ5YH_56Pcoj0LybQBTvcjsYAubSJaFm",
+          "name": "ulysse-nardin-3723-170-2B-3A-raw.png"
+        },
+        {
+          "type": "WHITE_MASTER",
+          "id": "13TduX238Qj8Wr-rP9U9oiY5rxzS7S8_b",
+          "name": "ulysse-nardin-3723-170-2B-3A-white_master.png"
+        },
+        {
+          "type": "WEB",
+          "id": "1Yn4ONbBeK-LtcVwsr7RAOzJQI31xT7Pa",
+          "name": "ulysse-nardin-3723-170-2B-3A-web.webp"
+        }
+      ],
+      "exactReference": "3723-170-2B/3A",
+      "publicationStatus": "Queued pending human website-use clearance"
+    },
+    {
+      "brand": "Ulysse Nardin",
+      "collection": "Diver",
+      "catalogReference": "Diver Chronograph",
+      "reference": "1503-170LE-2A-TOR/3A",
+      "exactSKU": "1503-170LE-2A-TOR-3A",
+      "sourceUrl": "https://www.ulysse-nardin.com/watches/diver/1503-170le-2a-tor-3a",
+      "imageUrl": "https://api.ulysse-nardin.com/media/catalog/product/1/5/1503-170LE-2A-TOR-3A-soldier-965b5f.png",
+      "sourceEvidence": "Decoded exact original image resource from observed official Next image URL; full SKU and strap description match official image alt. Family route retained separately.",
+      "officialImageAlt": "Diver Chronograph The Ocean Race 1503-170LE-2A-TOR/3A watch with Black RUBBER/CERAMIC STRAP",
+      "checkedAt": "2026-10-14T02:14:27.661574+00:00",
+      "rightsStatus": "Pending founder clearance for new official originals; not published",
+      "reviewStatus": "Original and final white-canvas derivative visually reviewed; full photographed SKU, dial, case and strap verified against exact manufacturer page and image alt. Family mapping retained separately; publication pending human rights clearance.",
+      "size": [
+        2000,
+        2000
+      ],
+      "mode": "P",
+      "path": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\un-next-originals\\1503-170LE-2A-TOR-3A-raw.png",
+      "sha256": "d54e19527030cc7952248bff2c9cf4ed7012b18ede9caffb65db6acdddbac57c",
+      "status": "Authentic official original acquired; unchanged delivered bytes",
+      "pagePath": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\un-next-1503-170LE-2A-TOR-3A.html",
+      "pageSha256": "53ad9bf1a7cce1bb186aa5e12307352085a17d8ee47cbc0d6e31b69f50fcab58",
+      "verifiedManufacturerFields": {
+        "case_material_data": [
+          {
+            "label": "Titanium / black DLC"
+          }
+        ],
+        "dial_data": [
+          {
+            "label": "Black"
+          }
+        ],
+        "strap_data": [
+          {
+            "label": "Rubber / ceramic"
+          }
+        ],
+        "water_resistance": "300 m",
+        "case_diameter_value": "Ø 44 mm",
+        "mechanism_data": [
+          {
+            "label": "Self-winding"
+          }
+        ]
+      },
+      "configuration": {
+        "material": "Titanium / black DLC",
+        "dial": "Black",
+        "bracelet": "Black RUBBER/CERAMIC STRAP",
+        "caseSize": "Ø 44 mm",
+        "movement": "Self-winding",
+        "waterResistance": "300 m"
+      },
+      "whiteMaster": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\un-next-reviewed\\1503-170LE-2A-TOR-3A-white-master.png",
+      "webDerivative": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\un-next-reviewed\\1503-170LE-2A-TOR-3A-web.webp",
+      "derivativeSha256": "14a513904546924fcd95e64cba7e98f89696ab5f44b9338f66ebbb7d0845471c",
+      "processing": "Original manufacturer RGB and watch alpha preserved; external translucent cast shadow suppressed with original opaque support plus two-pixel boundary envelope. Centered on blank 2400 white canvas, 1200 WEB. No AI, reconstruction, captions or overlays.",
+      "driveFiles": [
+        {
+          "type": "RAW",
+          "id": "1C8nEMcMdbC5jCbtNzbor7kS7c_QR3gdB",
+          "name": "ulysse-nardin-1503-170LE-2A-TOR-3A-raw.png"
+        },
+        {
+          "type": "WHITE_MASTER",
+          "id": "1cc19a9TmlLjvkqTWcveZBoQ0-7vR_5uv",
+          "name": "ulysse-nardin-1503-170LE-2A-TOR-3A-white_master.png"
+        },
+        {
+          "type": "WEB",
+          "id": "1OThFwXDeCpOJBWp1TM_wdGe9QnujC9W3",
+          "name": "ulysse-nardin-1503-170LE-2A-TOR-3A-web.webp"
+        }
+      ],
+      "exactReference": "1503-170LE-2A-TOR/3A",
+      "publicationStatus": "Queued pending human website-use clearance"
+    },
+    {
+      "brand": "Ulysse Nardin",
+      "collection": "Blast",
+      "catalogReference": "Blast Tourbillon",
+      "reference": "1725-400-3A/3A",
+      "exactSKU": "1725-400-3A-3A",
+      "sourceUrl": "https://www.ulysse-nardin.com/watches/blast/1725-400-3a-3a",
+      "imageUrl": "https://api.ulysse-nardin.com/media/catalog/product/1/7/1725-400-3A-3A-soldier-2c0992.png",
+      "sourceEvidence": "Decoded exact original image resource from observed official Next image URL; full SKU and strap description match official image alt. Family route retained separately.",
+      "officialImageAlt": "Blast Tourbillon 1725-400-3A/3A watch with Blue Velvet rubber strap",
+      "checkedAt": "2026-10-14T02:14:27.661574+00:00",
+      "rightsStatus": "Pending founder clearance for new official originals; not published",
+      "reviewStatus": "Original and final white-canvas derivative visually reviewed; full photographed SKU, dial, case and strap verified against exact manufacturer page and image alt. Family mapping retained separately; publication pending human rights clearance.",
+      "size": [
+        2000,
+        2000
+      ],
+      "mode": "P",
+      "path": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\un-next-originals\\1725-400-3A-3A-raw.png",
+      "sha256": "b5228cfd8273e805234a9494bd828d38ed8435a3103c0d03b4fa537121e38f92",
+      "status": "Authentic official original acquired; unchanged delivered bytes",
+      "pagePath": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\un-next-1725-400-3A-3A.html",
+      "pageSha256": "196d7cd5bf1441c95755f789ef2042dc57b20aea3d5c56329a90fabc1e44e936",
+      "verifiedManufacturerFields": {
+        "case_material_data": [
+          {
+            "label": "Titanium / 18 ct gold"
+          }
+        ],
+        "dial_data": [
+          {
+            "label": "Blue"
+          }
+        ],
+        "strap_data": [
+          {
+            "label": "Velvet rubber"
+          }
+        ],
+        "water_resistance": "50 m",
+        "case_diameter_value": "Ø 45 mm",
+        "mechanism_data": [
+          {
+            "label": "Self-winding"
+          }
+        ]
+      },
+      "configuration": {
+        "material": "Titanium / 18 ct gold",
+        "dial": "Blue",
+        "bracelet": "Blue Velvet rubber strap",
+        "caseSize": "Ø 45 mm",
+        "movement": "Self-winding",
+        "waterResistance": "50 m"
+      },
+      "whiteMaster": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\un-next-reviewed\\1725-400-3A-3A-white-master.png",
+      "webDerivative": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\un-next-reviewed\\1725-400-3A-3A-web.webp",
+      "derivativeSha256": "5ec3e4a07df68fa2febe917968b5e91557031a7b7dc6b5beee7c5162ffcc5f05",
+      "processing": "Original manufacturer RGB and watch alpha preserved; external translucent cast shadow suppressed with original opaque support plus two-pixel boundary envelope. Centered on blank 2400 white canvas, 1200 WEB. No AI, reconstruction, captions or overlays.",
+      "driveFiles": [
+        {
+          "type": "RAW",
+          "id": "1_yqX2PsTxHtzGBOQTaMRL4qMQezHaUjA",
+          "name": "ulysse-nardin-1725-400-3A-3A-raw.png"
+        },
+        {
+          "type": "WHITE_MASTER",
+          "id": "1WYrKPAeYRiHT81Dm9A095s3r67PfQnqV",
+          "name": "ulysse-nardin-1725-400-3A-3A-white_master.png"
+        },
+        {
+          "type": "WEB",
+          "id": "17yPZvEA046q7rDFuyksBtVAVX7z8doG2",
+          "name": "ulysse-nardin-1725-400-3A-3A-web.webp"
+        }
+      ],
+      "exactReference": "1725-400-3A/3A",
+      "publicationStatus": "Queued pending human website-use clearance"
     }
   ],
-  "coverageNote": "Production verified as 8c2f495: 49 approved canonical routes, 119 queued. These 38 newly acquired manufacturer sets remain unpublished pending human rights confirmation."
+  "coverageNote": "Production verified as 8c2f495: 49 approved canonical routes, 119 queued. These 42 newly acquired manufacturer sets remain unpublished pending human website-use clearance."
 }

@@ -104,3 +104,11 @@ RAW/master/WEB and source/license record are saved in Drive; the canonical maste
 Founder confirmed Command Center V4 as the official successor to V3. Future status and approval requests use V4; the existing single execution sprint and deadline remain unchanged. The authorized continuation prompt and durable state now point to V4.
 
 Nautilus release 8c2f495 is live. Public production checks passed for homepage, intake, reference route, photography credits and exact image; deployed image SHA256 matches the reviewed derivative. Full suffix, source/license/change disclosure and CTA were verified. Production coverage is 49 of 168, with 119 queued. No new test lead was submitted.
+
+## Four Ulysse Nardin exact configurations October 13 2026
+
+Four additional authentic 2000 x 2000 manufacturer originals and white derivatives passed visual/configuration review: Moonstruck 1063-400-2A/3B, Diver X Skeleton Azure 3723-170-2B/3A, Diver Chronograph The Ocean Race 1503-170LE-2A-TOR/3A and Blast Tourbillon 1725-400-3A/3A. Exact official pages, source image alt text and delivered manufacturer fields confirm full SKU, case material, dial, strap, diameter, winding type and water resistance. No unverified caliber, price or availability is supplied. Manufacturer alpha preserves original skeleton openings and white highlights while external translucent shadows are removed.
+
+Prepared queue: 42 additional sets / 126 files pending human website-use clearance. Live production remains 49 of 168, with 119 queued. Seventy-seven routes need usable photography beyond prepared sets. Broad family URLs remain distinct from pictured full SKUs; final integration must preserve this distinction. Command Center V4 is the confirmed status and approval destination.
+
+The canonical master is 19 pages, with earlier tables preserved, prior 18 rendered pages pixel-identical and new page visually reviewed. In-place upload and read-back succeeded. Hashes, dimensions, pure-white corners and unique Drive file identifiers checked. No application assets/code changed in this batch; tests/build were not rerun after the already-verified Nautilus release. Save this documentation checkpoint on the sprint branch, avoiding a production restart solely for documentation.
