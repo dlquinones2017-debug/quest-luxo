@@ -1,0 +1,510 @@
+{
+  "title": "Omega expansion acquisition wave October 14 2026",
+  "reviewedAt": "2026-10-14T21:39:16.610176+00:00",
+  "sets": 8,
+  "approvedForPublication": 0,
+  "rightsHeld": 8,
+  "productionUnchanged": true,
+  "sourceAttempts": {
+    "prioritySourcePages": 16,
+    "independentSourcePages": 5,
+    "manufacturerPageTimeouts": 8
+  },
+  "standards": [
+    "Untouched original bytes and SHA-256",
+    "Original interior watch pixels preserved",
+    "2400-square blank white master",
+    "1200-square centered WEB",
+    "No AI, reconstruction, overlays or availability assertions"
+  ],
+  "references": [
+    {
+      "brand": "Omega",
+      "reference": "310.30.42.50.04.001",
+      "exactSKU": "310.30.42.50.04.001",
+      "sourceUrl": "https://www.the1916company.com/pre-owned/omega/speedmaster/5067832/",
+      "sourceProvider": "The 1916 Company retailer photography",
+      "imageUrl": "https://watchbox-cdn.imgix.net/posted-product-images/639221141965052911_omeg_5067832_42-3.png",
+      "sourceDescription": "Pre-Owned Omega Speedmaster Moonwatch Professional (31030425004001) manual wind watch, features a 42mm stainless steel case and fixed bezel, fitted with a black aluminium tachymetric scale insert surrounding a white dial. The watch is secured on a stainless steel bracelet complete with a folding buckle. Functions include hours, minutes, small seconds, chronograph and tachymeter. This watch comes complete with the original box and papers. Time remaining on the factory warranty!",
+      "rightsStatus": "HOLD: new third-party commercial website-use permission requested from founder; execution approval alone is not rights evidence",
+      "checkedAt": "2026-10-14T21:32:52.982049+00:00",
+      "reviewStatus": "Original and full-resolution 1200 WEB visually reviewed; correct full SKU, case, dial, strap/bracelet and full-watch framing",
+      "size": [
+        3600,
+        3600
+      ],
+      "mode": "RGB",
+      "path": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\omega-expansion-retailer-originals\\310.30.42.50.04.001-raw.jpg",
+      "sha256": "5705b6728894590843941a7a93b9a743f9e662d9f1735c302b03a4b2be8580f8",
+      "status": "Authentic official original acquired; unchanged delivered bytes",
+      "whiteMaster": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\omega-expansion-retailer-reviewed\\310.30.42.50.04.001-white-master.png",
+      "webDerivative": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\omega-expansion-retailer-reviewed\\310.30.42.50.04.001-web.webp",
+      "derivativeSha256": "acc0aedb35272d13459aa65a1721f6247fd1e17b24f1e4e6cf070096b6eb18aa",
+      "processing": "Classical filled external silhouette from original white-background contrast, two-pixel boundary envelope. Original watch RGB and all interior highlights/display detail preserved. Centered blank 2400 white master / 1200 WEB. No server bg-remove transform, AI, reconstruction, captions or overlays.",
+      "sourcePageSha256": "28d4c837b357c0b39e48b74b32a2f3e027ec94aadb966136c96c4d6f4546ca80",
+      "sourcePagePath": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\retailer-source-omega-310.30.42.50.04.001-8d092d22.html",
+      "brandSlug": "omega",
+      "collection": "Speedmaster",
+      "collectionSlug": "speedmaster",
+      "canonicalRoute": "/collections/omega/speedmaster/310-30-42-50-04-001",
+      "catalogMaterial": "Stainless Steel",
+      "catalogConfigurations": [
+        {
+          "caseSize": "42 mm",
+          "movement": "Omega 3861 manual chronograph",
+          "dial": "White lacquer non-wave",
+          "bracelet": "Stainless-steel bracelet",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "reviewedAt": "2026-10-14T21:39:16.515186+00:00",
+      "websiteApproved": false,
+      "masterSha256": "a5b29b4cdda1c8b6ce51a72bc2e433acf609fb5a9ceb7453564c98804afea2ab",
+      "driveFiles": [
+        {
+          "kind": "raw",
+          "id": "1Mm76pnWZWNkCEK8OiUc4cHCl1dTO5OV5",
+          "folder": "1EwU4nbht13ay5Obti9bjywK4rWLCxK_T"
+        },
+        {
+          "kind": "master",
+          "id": "1W0gi5phXfzMrevm4rAR696kccoXVOw6_",
+          "folder": "1vl6DzQFhMCHLjh0DcbZ5aM_s_TrZTW49"
+        },
+        {
+          "kind": "web",
+          "id": "13ZiM31wb_lwmMdnnnzQ4sW8gJxc0c8Ex",
+          "folder": "1lijATpBrmBmGnjmhTJmr0gpTa5YaOd8Z"
+        }
+      ]
+    },
+    {
+      "brand": "Omega",
+      "reference": "210.30.42.20.10.001",
+      "exactSKU": "210.30.42.20.10.001",
+      "sourceUrl": "https://www.the1916company.com/pre-owned/omega/seamaster/5062379/",
+      "sourceProvider": "The 1916 Company retailer photography",
+      "imageUrl": "https://watchbox-cdn.imgix.net/posted-product-images/639197148403070898_omeg_5062379_42-1.png",
+      "sourceDescription": "Pre-Owned Omega Seamaster Diver 300M (21030422010001) self - winding automatic watch, features a 42mm stainless steel case and unidrectional rotating bezel, fitted with green ceramic 60-minute scale insert surrounding a green dial. The watch is secured on a stainless steel bracelet complete with a folding clasp. Functions include hours, minutes, seconds, date, anti-magnetic and helium release valve. This watch comes complete with the original box and papers. Time remaining on the factory warranty!",
+      "rightsStatus": "HOLD: new third-party commercial website-use permission requested from founder; execution approval alone is not rights evidence",
+      "checkedAt": "2026-10-14T21:32:52.983058+00:00",
+      "reviewStatus": "Original and full-resolution 1200 WEB visually reviewed; correct full SKU, case, dial, strap/bracelet and full-watch framing",
+      "size": [
+        3600,
+        3600
+      ],
+      "mode": "RGB",
+      "path": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\omega-expansion-retailer-originals\\210.30.42.20.10.001-raw.jpg",
+      "sha256": "169e7136ce7b2778c8cd8f13c537a06b876f9eae7dad604ecd074544fc1371ff",
+      "status": "Authentic official original acquired; unchanged delivered bytes",
+      "whiteMaster": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\omega-expansion-retailer-reviewed\\210.30.42.20.10.001-white-master.png",
+      "webDerivative": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\omega-expansion-retailer-reviewed\\210.30.42.20.10.001-web.webp",
+      "derivativeSha256": "dff60ec3072dd25afbf17b06e28222aa345293f3f160818c34c191ee713fe003",
+      "processing": "Classical filled external silhouette from original white-background contrast, two-pixel boundary envelope. Original watch RGB and all interior highlights/display detail preserved. Centered blank 2400 white master / 1200 WEB. No server bg-remove transform, AI, reconstruction, captions or overlays.",
+      "sourcePageSha256": "412e2ce9a4e7a306b4cde0278513d6793051d50dca5919fe638da2d595a35619",
+      "sourcePagePath": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\retailer-source-omega-210.30.42.20.10.001-9b600c20.html",
+      "brandSlug": "omega",
+      "collection": "Seamaster Diver 300M",
+      "collectionSlug": "seamaster",
+      "canonicalRoute": "/collections/omega/seamaster/210-30-42-20-10-001",
+      "catalogMaterial": "Stainless Steel",
+      "catalogConfigurations": [
+        {
+          "caseSize": "42 mm",
+          "movement": "Omega 8800 automatic",
+          "dial": "Green ceramic wave",
+          "bracelet": "Stainless-steel bracelet",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "reviewedAt": "2026-10-14T21:39:16.527209+00:00",
+      "websiteApproved": false,
+      "masterSha256": "87e633bd1e1049525667ffc005f85fa8f6956045ef5746bb1622ba014066cd06",
+      "driveFiles": [
+        {
+          "kind": "raw",
+          "id": "1foekrxFMCqI0pHDNB1LePyPJMoIygoes",
+          "folder": "1EwU4nbht13ay5Obti9bjywK4rWLCxK_T"
+        },
+        {
+          "kind": "master",
+          "id": "13kcRfizRhcIGlyo90EXzZbTBpIVPx9Aa",
+          "folder": "1vl6DzQFhMCHLjh0DcbZ5aM_s_TrZTW49"
+        },
+        {
+          "kind": "web",
+          "id": "1J91hLa5-9TeFOyYL05s7kDlRgrH_7eIM",
+          "folder": "1lijATpBrmBmGnjmhTJmr0gpTa5YaOd8Z"
+        }
+      ]
+    },
+    {
+      "brand": "Omega",
+      "reference": "310.60.42.50.01.001",
+      "exactSKU": "310.60.42.50.01.001",
+      "sourceUrl": "https://www.the1916company.com/pre-owned/omega/speedmaster/5083325/",
+      "sourceProvider": "The 1916 Company retailer photography",
+      "imageUrl": "https://watchbox-cdn.imgix.net/posted-product-images/639247228579512098_omeg_5083325_42-1.png",
+      "sourceDescription": "Pre-Owned Omega Speedmaster Moonwatch Chronograph (31060425001001) manual wind watch, features a 42mm 18k Sednaâ„¢ gold case and fixed bezel, fitted with a black aluminium tachymetric scale insert surrounding a black dial. The watch is secured on an 18k Sednaâ„¢ gold bracelet complete with a folding buckle. Functions include hours, minutes, seconds, anti-magnetic, chronograph and tachymeter. This watch comes complete with the original box and papers. We back this watch with a 2-Year warranty by The 1916 Company!",
+      "rightsStatus": "HOLD: new third-party commercial website-use permission requested from founder; execution approval alone is not rights evidence",
+      "checkedAt": "2026-10-14T21:32:52.983058+00:00",
+      "reviewStatus": "Original and full-resolution 1200 WEB visually reviewed; correct full SKU, case, dial, strap/bracelet and full-watch framing",
+      "size": [
+        3600,
+        3600
+      ],
+      "mode": "RGB",
+      "path": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\omega-expansion-retailer-originals\\310.60.42.50.01.001-raw.jpg",
+      "sha256": "c8efb03fd47619949eb02c45b19154ef5924aa3a930ba387c350c6134051ecbe",
+      "status": "Authentic official original acquired; unchanged delivered bytes",
+      "whiteMaster": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\omega-expansion-retailer-reviewed\\310.60.42.50.01.001-white-master.png",
+      "webDerivative": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\omega-expansion-retailer-reviewed\\310.60.42.50.01.001-web.webp",
+      "derivativeSha256": "74b72a29a4eee08e5bff9d2628cb0e19deae2f3b19f3a4eac689114621c94205",
+      "processing": "Classical filled external silhouette from original white-background contrast, two-pixel boundary envelope. Original watch RGB and all interior highlights/display detail preserved. Centered blank 2400 white master / 1200 WEB. No server bg-remove transform, AI, reconstruction, captions or overlays.",
+      "sourcePageSha256": "05a61116db1f817cc42d4f103b7bde6035c2772c05398f735f10c7ba5c78a770",
+      "sourcePagePath": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\retailer-source-omega-310.60.42.50.01.001-597fcc68.html",
+      "brandSlug": "omega",
+      "collection": "Speedmaster",
+      "collectionSlug": "speedmaster",
+      "canonicalRoute": "/collections/omega/speedmaster/310-60-42-50-01-001",
+      "catalogMaterial": "18K Sedna Gold",
+      "catalogConfigurations": [
+        {
+          "caseSize": "42 mm",
+          "movement": "Omega 3861 manual chronograph",
+          "dial": "Black non-wave",
+          "bracelet": "18K Sedna Gold bracelet",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "reviewedAt": "2026-10-14T21:39:16.541763+00:00",
+      "websiteApproved": false,
+      "masterSha256": "4504fa502e032d40d270d43b7f179c610b460aff1d43e6ca39090336d528015e",
+      "driveFiles": [
+        {
+          "kind": "raw",
+          "id": "13VXJ7rKvU89S0T-N0eVivY1FhtvxAL5-",
+          "folder": "1EwU4nbht13ay5Obti9bjywK4rWLCxK_T"
+        },
+        {
+          "kind": "master",
+          "id": "1HcwQLobOfZlKEYkmPpwin3VcjhxFtjHp",
+          "folder": "1vl6DzQFhMCHLjh0DcbZ5aM_s_TrZTW49"
+        },
+        {
+          "kind": "web",
+          "id": "1Gtdf5Sq29xRsZ2-Z166oi7x2-g3Bt5pv",
+          "folder": "1lijATpBrmBmGnjmhTJmr0gpTa5YaOd8Z"
+        }
+      ]
+    },
+    {
+      "brand": "Omega",
+      "reference": "131.30.41.21.99.003",
+      "exactSKU": "131.30.41.21.99.003",
+      "sourceUrl": "https://www.the1916company.com/pre-owned/omega/constellation/v111695/",
+      "sourceProvider": "The 1916 Company retailer photography",
+      "imageUrl": "https://watchbox-cdn.imgix.net/posted-product-images/639251498781898353_omeg_v111695_41-1.png",
+      "sourceDescription": "Pre-Owned Omega Constellation (13130412199003) self - winding automatic watch, features a 41mm stainless steel case and titanium bezel surrounding a dial that is formed from a genuine piece of iron meteorite which has been given a blue colour treatment. The watch is secured on a stainless steel bracelet complete with a folding buckle. Functions include hours, minutes, seconds and date. This watch comes complete with the original box and papers. Time remaining on the factory warranty!",
+      "rightsStatus": "HOLD: new third-party commercial website-use permission requested from founder; execution approval alone is not rights evidence",
+      "checkedAt": "2026-10-14T21:32:52.984452+00:00",
+      "reviewStatus": "Original and full-resolution 1200 WEB visually reviewed; correct full SKU, case, dial, strap/bracelet and full-watch framing",
+      "size": [
+        3600,
+        3600
+      ],
+      "mode": "RGB",
+      "path": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\omega-expansion-retailer-originals\\131.30.41.21.99.003-raw.jpg",
+      "sha256": "836af595950301bb6391a073fb0f0f3ca2a29fbe5c663ddbea958fd3b733e1b9",
+      "status": "Authentic official original acquired; unchanged delivered bytes",
+      "whiteMaster": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\omega-expansion-retailer-reviewed\\131.30.41.21.99.003-white-master.png",
+      "webDerivative": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\omega-expansion-retailer-reviewed\\131.30.41.21.99.003-web.webp",
+      "derivativeSha256": "77caa20d260ee8167700bbef444f0570f7bb97de5247445cca57811d0e0cd010",
+      "processing": "Classical filled external silhouette from original white-background contrast, two-pixel boundary envelope. Original watch RGB and all interior highlights/display detail preserved. Centered blank 2400 white master / 1200 WEB. No server bg-remove transform, AI, reconstruction, captions or overlays.",
+      "sourcePageSha256": "7474a3735462f4969abc24fb665582a22cc9bbf9f42814f525023e427c16374d",
+      "sourcePagePath": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\retailer-source-omega-131.30.41.21.99.003-9808e5a0.html",
+      "brandSlug": "omega",
+      "collection": "Constellation",
+      "collectionSlug": "constellation",
+      "canonicalRoute": "/collections/omega/constellation/131-30-41-21-99-003",
+      "catalogMaterial": "Stainless Steel",
+      "catalogConfigurations": [
+        {
+          "caseSize": "41 mm",
+          "movement": "Omega 8900 automatic",
+          "dial": "Blue meteorite non-wave",
+          "bracelet": "Stainless-steel bracelet",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "reviewedAt": "2026-10-14T21:39:16.555387+00:00",
+      "websiteApproved": false,
+      "masterSha256": "b20c8767106141c9bb86f92b26b23160c68b4407a016afeacee53167520b76b2",
+      "driveFiles": [
+        {
+          "kind": "raw",
+          "id": "18eRyR4fhVf_Z_OoYlglnLLrM19eqUEtr",
+          "folder": "1EwU4nbht13ay5Obti9bjywK4rWLCxK_T"
+        },
+        {
+          "kind": "master",
+          "id": "1a-79aOcRmCGqYZl2amQSYvwJ-MCdrrPg",
+          "folder": "1vl6DzQFhMCHLjh0DcbZ5aM_s_TrZTW49"
+        },
+        {
+          "kind": "web",
+          "id": "1bdKMO7fabf7PS8PhSheFHiZhkHiZkrVT",
+          "folder": "1lijATpBrmBmGnjmhTJmr0gpTa5YaOd8Z"
+        }
+      ]
+    },
+    {
+      "brand": "Omega",
+      "reference": "210.32.42.20.10.001",
+      "exactSKU": "210.32.42.20.10.001",
+      "sourceUrl": "https://sheibanjewelers.com/products/omega-seamaster-diver-300m-42mm-green-ceramic-dial-on-rubber-strap-21032422010001",
+      "imageUrl": "https://sheibanjewelers.com/cdn/shop/files/sheiban-jewelers-seamaster-diver-300m-seamaster-21032422010001-cleveland-ohio.webp?v=1755749053",
+      "sourcePageSha256": "ac9bf2f92041551f342dceb846974d0d773bca07cb20da240fe56b7c16c03777",
+      "sourceProvider": "Sheiban Jewelers product photography",
+      "sourceAlt": "Seamaster Diver 300M 42mm - Green Ceramic Dial on Rubber Strap",
+      "rightsStatus": "HOLD: new third-party commercial website-use permission requested from founder; execution approval alone is not rights evidence",
+      "checkedAt": "2026-10-14T21:36:38.621754+00:00",
+      "reviewStatus": "Original and full-resolution 1200 WEB visually reviewed; correct full SKU, case, dial, strap/bracelet and full-watch framing",
+      "size": [
+        1580,
+        1580
+      ],
+      "mode": "RGBA",
+      "path": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\omega-independent-originals\\210.32.42.20.10.001-raw.png",
+      "sha256": "cef5d0f435db16f6e5c703616899258059f1c36ef0dc41b4eb1b1c4ee262800b",
+      "status": "Authentic official original acquired; unchanged delivered bytes",
+      "whiteMaster": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\omega-independent-reviewed\\210.32.42.20.10.001-white-master.png",
+      "webDerivative": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\omega-independent-reviewed\\210.32.42.20.10.001-web.webp",
+      "masterSha256": "bf984a2b21147f6a19f714eaae2ba3e06a2ce9060483f335d3cafc0133e50ab9",
+      "derivativeSha256": "d827e1a660c4611090f1e9c5d5df345d725cdf937da2f92b8699644d5ec7ac99",
+      "processing": "Classical filled outer silhouette against uniform gray source backdrop; original interior RGB retained; centered 2400 white master and 1200 WEB. No generated or reconstructed details.",
+      "sourcePagePath": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\retailer-source-omega-210.32.42.20.10.001-142bbb52.html",
+      "brandSlug": "omega",
+      "collection": "Seamaster Diver 300M",
+      "collectionSlug": "seamaster",
+      "canonicalRoute": "/collections/omega/seamaster/210-32-42-20-10-001",
+      "catalogMaterial": "Stainless Steel",
+      "catalogConfigurations": [
+        {
+          "caseSize": "42 mm",
+          "movement": "Omega 8800 automatic",
+          "dial": "Green ceramic wave",
+          "bracelet": "Green rubber strap",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "reviewedAt": "2026-10-14T21:39:16.585278+00:00",
+      "websiteApproved": false,
+      "driveFiles": [
+        {
+          "kind": "raw",
+          "id": "1hZUPaQG5CQt4qI8EEMAFsFbCA2ItYQWv",
+          "folder": "1EwU4nbht13ay5Obti9bjywK4rWLCxK_T"
+        },
+        {
+          "kind": "master",
+          "id": "16lz83semKkoMLFSE7Q_i0CXjMzPp9tLI",
+          "folder": "1vl6DzQFhMCHLjh0DcbZ5aM_s_TrZTW49"
+        },
+        {
+          "kind": "web",
+          "id": "1Jn_iWwoNhw9tlcpHgNuV3pEpyKZ-zw7S",
+          "folder": "1lijATpBrmBmGnjmhTJmr0gpTa5YaOd8Z"
+        }
+      ]
+    },
+    {
+      "brand": "Omega",
+      "reference": "220.10.38.20.03.003",
+      "exactSKU": "220.10.38.20.03.003",
+      "sourceUrl": "https://sheibanjewelers.com/products/omega-seamaster-aqua-terra-38mm-atlantic-blue-dial-on-bracelet-22010382003003",
+      "imageUrl": "https://sheibanjewelers.com/cdn/shop/files/sheiban-jewelers-seamaster-aqua-terra-seamaster-22010382003003-cleveland-ohio.webp?v=1755748447",
+      "sourcePageSha256": "bb44bda58d1dda789cf8837220012b822fc44e1d32ef05ddcb6dad1be96f7f78",
+      "sourceProvider": "Sheiban Jewelers product photography",
+      "sourceAlt": "Seamaster Aqua Terra 38mm - Atlantic Blue Dial on Bracelet",
+      "rightsStatus": "HOLD: new third-party commercial website-use permission requested from founder; execution approval alone is not rights evidence",
+      "checkedAt": "2026-10-14T21:36:38.622790+00:00",
+      "reviewStatus": "Original and full-resolution 1200 WEB visually reviewed; correct full SKU, case, dial, strap/bracelet and full-watch framing",
+      "size": [
+        1580,
+        1580
+      ],
+      "mode": "RGBA",
+      "path": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\omega-independent-originals\\220.10.38.20.03.003-raw.png",
+      "sha256": "002e0bda63f5cb6a47a61074828c3fb70267e7c95619116ef8a7102b8f96691a",
+      "status": "Authentic official original acquired; unchanged delivered bytes",
+      "whiteMaster": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\omega-independent-reviewed\\220.10.38.20.03.003-white-master.png",
+      "webDerivative": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\omega-independent-reviewed\\220.10.38.20.03.003-web.webp",
+      "masterSha256": "b77845ebb4dbb19d9127bad9daee775691db93d400d217aa748dbdfd213257e4",
+      "derivativeSha256": "c880a09de8857b85049f8ee31df4fd799df8b04f9c63b96464555749b5d72837",
+      "processing": "Classical filled outer silhouette against uniform gray source backdrop; original interior RGB retained; centered 2400 white master and 1200 WEB. No generated or reconstructed details.",
+      "sourcePagePath": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\retailer-source-omega-220.10.38.20.03.003-db04e5cc.html",
+      "brandSlug": "omega",
+      "collection": "Aqua Terra",
+      "collectionSlug": "aqua-terra",
+      "canonicalRoute": "/collections/omega/aqua-terra/220-10-38-20-03-003",
+      "catalogMaterial": "Stainless Steel",
+      "catalogConfigurations": [
+        {
+          "caseSize": "38 mm",
+          "movement": "Omega 8800 automatic",
+          "dial": "Atlantic Blue sun-brushed non-wave",
+          "bracelet": "Stainless-steel bracelet",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "reviewedAt": "2026-10-14T21:39:16.595097+00:00",
+      "websiteApproved": false,
+      "driveFiles": [
+        {
+          "kind": "raw",
+          "id": "18XvI5fE8s-_7lyET-lhzeEibEWpGo-YW",
+          "folder": "1EwU4nbht13ay5Obti9bjywK4rWLCxK_T"
+        },
+        {
+          "kind": "master",
+          "id": "1v3cnVBe_YTK8GGO3GZRpqHU7FFE7hRXm",
+          "folder": "1vl6DzQFhMCHLjh0DcbZ5aM_s_TrZTW49"
+        },
+        {
+          "kind": "web",
+          "id": "1y259njbWBc1IkVuk3oseXH6xJRvpYkmO",
+          "folder": "1lijATpBrmBmGnjmhTJmr0gpTa5YaOd8Z"
+        }
+      ]
+    },
+    {
+      "brand": "Omega",
+      "reference": "220.12.43.22.03.001",
+      "exactSKU": "220.12.43.22.03.001",
+      "sourceUrl": "https://sheibanjewelers.com/products/omega-seamaster-aqua-terra-worldtimer-43mm-blue-dial-on-rubber-strap-22012432203001",
+      "imageUrl": "https://sheibanjewelers.com/cdn/shop/files/omega-watches-seamaster-22012432203001-cleveland-ohio.webp?v=1767722152",
+      "sourcePageSha256": "b2408cd6550119e7e9d042653b5a4962188313311b8318013a870b2be68bf0e4",
+      "sourceProvider": "Sheiban Jewelers product photography",
+      "sourceAlt": "Seamaster Aqua Terra Worldtimer 43mm - Blue Dial on Rubber Strap",
+      "rightsStatus": "HOLD: new third-party commercial website-use permission requested from founder; execution approval alone is not rights evidence",
+      "checkedAt": "2026-10-14T21:36:38.622790+00:00",
+      "reviewStatus": "Original and full-resolution 1200 WEB visually reviewed; correct full SKU, case, dial, strap/bracelet and full-watch framing",
+      "size": [
+        2000,
+        2000
+      ],
+      "mode": "RGB",
+      "path": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\omega-independent-originals\\220.12.43.22.03.001-raw.jpg",
+      "sha256": "08ddb2520de0f17c146be189da08a80dd70fdb806909a27cafc2fdf6dc67eb0a",
+      "status": "Authentic official original acquired; unchanged delivered bytes",
+      "whiteMaster": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\omega-independent-reviewed\\220.12.43.22.03.001-white-master.png",
+      "webDerivative": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\omega-independent-reviewed\\220.12.43.22.03.001-web.webp",
+      "masterSha256": "d8b43c9a3f8829f4711092398c7891d1db7eaa9250f78462049295e0f8dd0f37",
+      "derivativeSha256": "09fb393f1bca7d06c920e4084553f65430c5a753482e4d4386d3518ab43afed3",
+      "processing": "Classical filled outer silhouette against uniform gray source backdrop; original interior RGB retained; centered 2400 white master and 1200 WEB. No generated or reconstructed details.",
+      "sourcePagePath": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\retailer-source-omega-220.12.43.22.03.001-3c0da973.html",
+      "brandSlug": "omega",
+      "collection": "Aqua Terra Worldtimer",
+      "collectionSlug": "aqua-terra-worldtimer",
+      "canonicalRoute": "/collections/omega/aqua-terra-worldtimer/220-12-43-22-03-001",
+      "catalogMaterial": "Stainless Steel",
+      "catalogConfigurations": [
+        {
+          "caseSize": "43 mm",
+          "movement": "Omega 8938 automatic Worldtimer GMT",
+          "dial": "Blue teak-stripe worldtime non-wave",
+          "bracelet": "Blue rubber strap",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "reviewedAt": "2026-10-14T21:39:16.598077+00:00",
+      "websiteApproved": false,
+      "driveFiles": [
+        {
+          "kind": "raw",
+          "id": "18fn4hZKZM9MfDLZ39t0x4F99XUFTq4V6",
+          "folder": "1EwU4nbht13ay5Obti9bjywK4rWLCxK_T"
+        },
+        {
+          "kind": "master",
+          "id": "1HKUXOttZBLbCWh22v7RBZ6b1425Yu3oR",
+          "folder": "1vl6DzQFhMCHLjh0DcbZ5aM_s_TrZTW49"
+        },
+        {
+          "kind": "web",
+          "id": "1Jr0QPSIPBPGl_sVG2n2_52213xg4Ni_i",
+          "folder": "1lijATpBrmBmGnjmhTJmr0gpTa5YaOd8Z"
+        }
+      ]
+    },
+    {
+      "brand": "Omega",
+      "reference": "220.10.38.20.13.003",
+      "exactSKU": "220.10.38.20.13.003",
+      "sourceUrl": "https://sheibanjewelers.com/products/omega-seamaster-aqua-terra-38mm-orange-terracotta-dial-on-bracelet-22010382013003",
+      "imageUrl": "https://sheibanjewelers.com/cdn/shop/files/omega-watches-seamaster-22010382013003-cleveland-ohio.webp?v=1767711968",
+      "sourcePageSha256": "3081149945499e912c3d9390ab84e47e4d990f777afc85bdfef6e884793e53e2",
+      "sourceProvider": "Sheiban Jewelers product photography",
+      "sourceAlt": "Seamaster Aqua Terra 38mm - Orange Terracotta Dial on Bracelet",
+      "rightsStatus": "HOLD: new third-party commercial website-use permission requested from founder; execution approval alone is not rights evidence",
+      "checkedAt": "2026-10-14T21:36:38.623846+00:00",
+      "reviewStatus": "Original and full-resolution 1200 WEB visually reviewed; correct full SKU, case, dial, strap/bracelet and full-watch framing",
+      "size": [
+        2000,
+        2000
+      ],
+      "mode": "RGB",
+      "path": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\omega-independent-originals\\220.10.38.20.13.003-raw.jpg",
+      "sha256": "1952bb2bd9b2464d336ae11449a29ddf30de491bc79c34907cc1dab0e8126e7d",
+      "status": "Authentic official original acquired; unchanged delivered bytes",
+      "whiteMaster": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\omega-independent-reviewed\\220.10.38.20.13.003-white-master.png",
+      "webDerivative": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\omega-independent-reviewed\\220.10.38.20.13.003-web.webp",
+      "masterSha256": "c79237f44fde1290aac083f33dfe38b9c8fe066746be7d706d67a565403c3949",
+      "derivativeSha256": "8b73b6dda9a48b7b6149a8900d68aec7bf713d636c55cf31ff3a161f1ac07ef4",
+      "processing": "Classical filled outer silhouette against uniform gray source backdrop; original interior RGB retained; centered 2400 white master and 1200 WEB. No generated or reconstructed details.",
+      "sourcePagePath": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\retailer-source-omega-220.10.38.20.13.003-c078ac81.html",
+      "brandSlug": "omega",
+      "collection": "Aqua Terra",
+      "collectionSlug": "aqua-terra",
+      "canonicalRoute": "/collections/omega/aqua-terra/220-10-38-20-13-003",
+      "catalogMaterial": "Stainless Steel",
+      "catalogConfigurations": [
+        {
+          "caseSize": "38 mm",
+          "movement": "Omega 8800 automatic",
+          "dial": "Terracotta sun-brushed non-wave",
+          "bracelet": "Stainless-steel bracelet",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "reviewedAt": "2026-10-14T21:39:16.605099+00:00",
+      "websiteApproved": false,
+      "driveFiles": [
+        {
+          "kind": "raw",
+          "id": "1YrcN6Q8sb5p5fFqSYkqxK7NjBbB1c-QI",
+          "folder": "1EwU4nbht13ay5Obti9bjywK4rWLCxK_T"
+        },
+        {
+          "kind": "master",
+          "id": "1y6pu0zFyowdyQaoxDvFvABgYpds0KS8P",
+          "folder": "1vl6DzQFhMCHLjh0DcbZ5aM_s_TrZTW49"
+        },
+        {
+          "kind": "web",
+          "id": "1fGOn9ogOYznR-RYUVQaljULDTZsymeNT",
+          "folder": "1lijATpBrmBmGnjmhTJmr0gpTa5YaOd8Z"
+        }
+      ]
+    }
+  ]
+}
