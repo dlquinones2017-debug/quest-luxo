@@ -61,7 +61,7 @@ export const verifiedExpansionRows: readonly VerifiedRow[] = [
     "Chronomaster Sport White",
     "41 mm",
     "El Primero 3600 automatic chronograph",
-    "White, tricolor subdials",
+    "White with grey, anthracite and blue counters",
     "Stainless-steel bracelet",
     "Stainless Steel",
     "https://www.zenith-watches.com/en_se/product/chronomaster-sport-03-3100-3600-69-m3100"
