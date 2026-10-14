@@ -16,9 +16,9 @@ const { getReferenceFilterTags, omegaDirectoryFilters } = await import("../src/l
 
 test("Omega expansion includes color, Sedna Gold, rubber, wave/non-wave and GMT variants", () => {
   const omega = verifiedExpansionRows.filter(row => row[1] === "omega");
-  assert.ok(omega.length >= 40, "expect substantive Omega exact-reference coverage");
+  assert.ok(omega.length >= 50, "expect substantive Omega exact-reference coverage");
   const collections = new Set(omega.map(row => row[3]));
-  for (const collection of ["seamaster-diver-300m","speedmaster","dark-side-of-the-moon","aqua-terra","aqua-terra-worldtimer","planet-ocean-gmt"]) {
+  for (const collection of ["seamaster-diver-300m","speedmaster","dark-side-of-the-moon","aqua-terra","aqua-terra-worldtimer","planet-ocean-gmt","constellation","de-ville-prestige"]) {
     assert.ok(collections.has(collection), "Omega collection missing: " + collection);
   }
 
@@ -36,6 +36,9 @@ test("Omega expansion includes color, Sedna Gold, rubber, wave/non-wave and GMT 
     ["220.12.43.22.03.001", ["blue", "gmt", "rubber-strap", "non-wave-dial"], ["wave-dial"]],
     ["215.30.44.22.01.001", ["gmt"], []],
     ["310.32.42.50.04.002", ["white", "rubber-strap", "non-wave-dial"], ["wave-dial"]],
+    ["131.10.28.60.60.002", ["other-colors", "non-wave-dial"], ["wave-dial", "rubber-strap"]],
+    ["131.23.41.21.03.001", ["blue", "sedna-gold", "precious-metal", "two-tone", "non-wave-dial"], ["rubber-strap"]],
+    ["434.13.41.20.10.001", ["green", "non-wave-dial"], ["wave-dial", "rubber-strap"]],
   ];
   for (const [ref, includes, excludes] of cases) {
     const asset = omegaAssets.find(a => a.reference === ref);
