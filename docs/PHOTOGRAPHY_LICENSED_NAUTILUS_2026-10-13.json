@@ -1,0 +1,47 @@
+{
+  "brand": "Patek Philippe",
+  "collection": "Nautilus",
+  "catalogReference": "5711/1A",
+  "reference": "5711/1A-010",
+  "exactSKU": "5711-1A-010",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Patek-Philippe-Nautilus-5711-1A-010-1.jpg",
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/04/Patek-Philippe-Nautilus-5711-1A-010-1.jpg",
+  "configuration": {
+    "material": "Stainless Steel",
+    "dial": "Blue",
+    "bracelet": "Integrated Bracelet"
+  },
+  "sourceEvidence": "Existing repository approved source: Patek Philippe SA authentic manufacturer image, Commons CC BY-SA 4.0. Source/license page rechecked October 13. Blue steel configuration matches the existing 5711/1A family page; full pictured suffix disclosed in alt/credits.",
+  "checkedAt": "2026-10-14T02:01:30.930095+00:00",
+  "rightsStatus": "Existing approved Commons source; CC BY-SA 4.0 with attribution, license link and derivative share-alike. No additional manufacturer clearance required for this licensed image.",
+  "reviewStatus": "Original and centered derivative visually reviewed; exact blue steel full SKU disclosed; CC BY-SA source/license rechecked.",
+  "size": [
+    1439,
+    1800
+  ],
+  "mode": "RGB",
+  "path": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\nautilus-cleared-originals\\5711-1A-010-raw.jpg",
+  "sha256": "a0a850eb2472ac104b187d1eabf7f3697b9103a6fb6719c98314aedf7dcc6e1e",
+  "status": "Authentic official original acquired; unchanged delivered bytes",
+  "whiteMaster": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\nautilus-cleared-reviewed\\5711-1A-010-white-master.png",
+  "webDerivative": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\nautilus-cleared-reviewed\\5711-1A-010-web.webp",
+  "derivativeSha256": "0a17f9171987b9db3a76f7b78b6bf41e02eaae002786026387e0bfaa60724bfc",
+  "processing": "Manual silhouette seeds and classical external GrabCut; filled interior retains white highlights and dial. Original RGB preserved; external ground shadow removed; centered 2400 white master and 1200 WEB. No generated or reconstructed content.",
+  "driveFiles": [
+    {
+      "type": "RAW",
+      "id": "1QXAWLvDsuEq96Jb9sBLs7FmMevCLdSNu",
+      "name": "patek-philippe-5711-1a-010-cc-by-sa-raw.jpg"
+    },
+    {
+      "type": "WHITE_MASTER",
+      "id": "19RvkPOaFosexvfZfwCGeA_TR91n7YzOy",
+      "name": "patek-philippe-5711-1a-010-cc-by-sa-white_master.png"
+    },
+    {
+      "type": "WEB",
+      "id": "1w4QvoNWNzshr7H03qk7YqKtfcPIDoJvQ",
+      "name": "patek-philippe-5711-1a-010-cc-by-sa-web.webp"
+    }
+  ]
+}

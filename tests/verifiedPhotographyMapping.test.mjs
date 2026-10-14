@@ -53,3 +53,14 @@ test("catalog photography excludes rejected wrist shots and nonwhite presentatio
   }
   assert.ok(approvedPhotograph(submariner, [approved]));
 });
+
+test("Nautilus family page maps only the disclosed blue steel 5711/1A-010 photograph", () => {
+  const nautilus = { brand: "Patek Philippe", collection: "Nautilus", reference: "5711/1A",
+    material: "Stainless Steel", configurations: [{ dial: "Blue", bracelet: "Integrated Bracelet" }] };
+  const photograph = approvedPhotograph(nautilus, watchPhotographs);
+  assert.ok(photograph);
+  assert.match(photograph.alt, /5711\/1A-010/);
+  assert.match(photograph.licenseRecord, /CC BY-SA 4.0/);
+  assert.equal(approvedPhotograph({ ...nautilus, configurations: [{ dial: "White", bracelet: "Integrated Bracelet" }] }, watchPhotographs), undefined);
+  assert.equal(approvedPhotograph({ ...nautilus, material: "White Gold" }, watchPhotographs), undefined);
+});

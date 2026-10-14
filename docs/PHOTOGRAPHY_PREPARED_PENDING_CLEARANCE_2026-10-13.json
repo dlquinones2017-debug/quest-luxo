@@ -3,9 +3,9 @@
   "count": 38,
   "websitePublished": false,
   "canonicalApprovedCoverage": {
-    "photographed": 48,
+    "photographed": 49,
     "total": 168,
-    "queued": 120
+    "queued": 119
   },
   "review": "All original and white-canvas derivatives visually reviewed; source pages confirm exact reference/configuration. Final publication requires founder confirmation of website-use rights. Photographed SKU remains distinct from broader family routes.",
   "records": [
@@ -1796,5 +1796,6 @@
       "exactReference": "M7941A1A0NU-0001",
       "publicationStatus": "Queued pending founder website-use clearance"
     }
-  ]
+  ],
+  "coverageNote": "Registry/build verified; Nautilus licensed repair production verification pending. These 38 prepared manufacturer sets remain unpublished."
 }

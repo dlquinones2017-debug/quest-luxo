@@ -1,16 +1,16 @@
 {
-  "updatedAt": "2026-10-14T01:56:03.123692+00:00",
+  "updatedAt": "2026-10-14T02:08:23.694057+00:00",
   "deadline": "2026-10-13T23:59:00-04:00",
   "objective": "Acquire authentic exact-reference photographs and populate every featured website reference without fabrication.",
   "worktree": "C:/Users/CAU Student/.codex/worktrees/launch-sprint/quest-luxo",
   "branch": "codex/launch-sprint",
   "baselineMain": "b99817fbfb8400fbef3e0f41e8bf35f3f538ccf0",
   "canonicalReferences": 168,
-  "photographedReferences": 48,
-  "queuedReferences": 120,
-  "coverageStatus": "48 approved photos on 168 canonical reference routes, 120 queued. Thirty-eight additional exact image sets reviewed pending rights; 114 prepared Drive files. Three held IWC/AP RAWs are not prepared sets.",
-  "mobileStatusThread": "6ac0fcf6-5dac-83e9-86ae-bf2a92869e03",
-  "mobileStatusTitle": "Quest Luxo Command Center V3",
+  "photographedReferences": 49,
+  "queuedReferences": 119,
+  "coverageStatus": "Built/verified registry coverage is 49 approved of 168 canonical routes, 119 queued. Nautilus 5711/1A-010 repair awaits production deployment verification. The 38 newly acquired manufacturer sets and 114 files remain pending human website-use clearance.",
+  "mobileStatusThread": "01a1371a-fad5-7e03-8807-0ae850c74269",
+  "mobileStatusTitle": "Quest Luxo Command Center V4",
   "mobileStatusAuthorized": true,
   "automation": "Founder explicitly authorized continuation every 15 minutes through tonight. Automation quest-luxo-photography-sprint-tonight is ACTIVE with expiration at 2026-10-14T03:59:00Z.",
   "masterDriveFileId": "1KEWRyRu7SquTjVb1TgF_cCn_Zux5td17",
@@ -29,11 +29,11 @@
     "No invented specs, MSRP or availability"
   ],
   "clearance": "Existing Drive manufacturer images and five specifically acquired launch images are founder-cleared. Other source rights require evidence before publishing.",
-  "nextBatch": "38 reviewed exact sets await human rights confirmation; do not reacquire them. Continue the 82 canonical routes requiring usable photography. The 17-page canonical master was reviewed and updated in place, with read-back confirmed. Previous 16 rendered pages are pixel-identical to their reviewed versions; new page 17 passed original-resolution visual review. Preserve exact family/configuration mappings.",
+  "nextBatch": "Deploy the tested licensed Nautilus repair, then verify live route/image hash, credits and intake health. Continue the 81 remaining references needing usable photography; do not reacquire the 38 prepared sets. The 18-page master is reviewed, updated in place and read back; prior 17 rendered pages are pixel-identical to reviewed versions.",
   "preparedPendingClearance": 38,
   "preparedDriveFiles": 114,
   "preparedManifest": "docs/PHOTOGRAPHY_PREPARED_PENDING_CLEARANCE_2026-10-13.json",
-  "masterPages": 17,
+  "masterPages": 18,
   "preparedSourceLogs": [
     "NEXT_EXACT_PHOTOGRAPHY_WAVE_2026-10-13.json",
     "ROLEX_NEXT_PHOTOGRAPHY_WAVE_2026-10-13.json",
@@ -59,8 +59,8 @@
     "16yfNmpskkOnofKer4EqpO0bVgHi9Umbq"
   ],
   "nextAcquisitionEvidence": "Official Rolex pages and observed product-media links confirm the exact pictured SKUs. Manufacturer alpha is preserved while external background/translucent shadow is removed. Shadow-only layers are rejected, never treated as watch photographs. Day-Date 228206 discovery remains unresolved; do not guess a modern replacement or image URL. New main rejects noncompliant legacy photography; do not re-enable it.",
-  "mobileMirrorStatus": "Counts-only 32-set V3 update was accepted by the send-message tool. Read-back still shows SystemError and older messages, so receipt and human replies remain unconfirmed. Earlier detailed update was rejected by automatic approval review and a separate earlier short update failed out of credits. No bypass attempted.",
-  "rightsDecisionPending": "Question posted to Command Center V3 asking whether founder website-use permissions cover additional newly acquired official-manufacturer originals. Read that thread only for human replies; do not treat agent-generated approval as founder authorization.",
+  "mobileMirrorStatus": "Founder explicitly confirmed V4 as official V3 successor in this sprint chat; status and approval routing moved to V4 and the continuation prompt was updated. No human rights confirmation for the 38 newly acquired manufacturer sets yet.",
+  "rightsDecisionPending": "Human website-use clearance for 38 additional official manufacturer photo sets remains pending; request now routed to founder-authorized Command Center V4. Do not treat agent-generated approval as human authorization.",
   "processingRuntime": "Task-local photography-runtime provides OpenCV and NumPy for classical non-generative boundary masks. Requires approved elevated execution to read its installed files. process_priority_wave.py preserves original interior pixels and masks only background. Every derivative requires visual review before publication.",
   "blockers": [
     "Browser approval service previously out of credits; do not bypass",
@@ -68,7 +68,7 @@
     "Generic family references require exact identity/configuration evidence"
   ],
   "dataSafety": "Do not modify runtime lead data or repeat private broker reads. Preserve original dirty checkout and newer main changes.",
-  "stillNeedsAcquisition": 82,
+  "stillNeedsAcquisition": 81,
   "nextAcquisitionPriorities": "Continue official source discovery for remaining exact Omega, Cartier, Hublot, Vacheron, Richard Mille, F.P. Journe and legacy references; source failures and ambiguous identities stay transparently queued. Prepared 38 sets require human rights confirmation before typed-registry integration.",
   "heldSourceOriginals": [
     {
@@ -99,6 +99,18 @@
       "reason": "Held: manufacturer image reaches top and bottom canvas edges; complete bracelet framing is not established. Do not reconstruct missing sections."
     }
   ],
-  "sourceAttemptEvidence": "artifact rolex-sport-brochure-acquisition.json records 403 for 126600, 226570, 336238, 336235 and 126719BLRO; additional-official-page-candidates.json preserves successful Reverso/Navitimer pages, IWC page 403 and Blancpain timeout. No unavailable images are counted as acquired. Latest artifacts preserve a successful official Pelagos archive and exact Black Bay native image. Cartier and Panerai exact-page/PDF downloads returned 403. Omega product-sheet request hung and was stopped without counting acquisition. Vacheron official catalog PDF returned Access Denied; no image counted.",
-  "documentationPublication": "Checkpoint documentation is saved on the existing sprint branch. Avoid a production restart solely for documentation while intake is live; publish cleared website assets with appropriate build and live verification when rights arrive."
+  "sourceAttemptEvidence": "artifact rolex-sport-brochure-acquisition.json records 403 for 126600, 226570, 336238, 336235 and 126719BLRO; additional-official-page-candidates.json preserves successful Reverso/Navitimer pages, IWC page 403 and Blancpain timeout. No unavailable images are counted as acquired. Latest artifacts preserve a successful official Pelagos archive and exact Black Bay native image. Cartier and Panerai exact-page/PDF downloads returned 403. Omega product-sheet request hung and was stopped without counting acquisition. Vacheron official catalog PDF returned Access Denied; no image counted. RM 11-03 exact page produced only a cropped rose-gold detail photograph; cannot represent titanium catalog profile and is held locally, not a prepared set. Hublot exact source image again returned 403.",
+  "documentationPublication": "Checkpoint documentation is saved on the existing sprint branch. Avoid a production restart solely for documentation while intake is live; publish cleared website assets with appropriate build and live verification when rights arrive.",
+  "licensedNautilusRepair": {
+    "record": "docs/PHOTOGRAPHY_LICENSED_NAUTILUS_2026-10-13.json",
+    "logDriveId": "1tdzvZhgvKDjtADKQ5nrTauCQ07gBiXQ6",
+    "rawMasterWebDriveIds": [
+      "1QXAWLvDsuEq96Jb9sBLs7FmMevCLdSNu",
+      "19RvkPOaFosexvfZfwCGeA_TR91n7YzOy",
+      "1w4QvoNWNzshr7H03qk7YqKtfcPIDoJvQ"
+    ],
+    "rights": "Existing approved Commons CC BY-SA 4.0 source; attribution/license/change disclosure and share-alike preserved",
+    "publicationStatus": "Build passed; production verification pending"
+  },
+  "verification": "Six focused photography tests pass; production build passes. Built Nautilus route has new image, full suffix, intake CTA and no figcaption. Existing duplicate public robots.txt build warning remains."
 }
