@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-14T01:20:12.694862+00:00",
+  "updatedAt": "2026-10-14T01:37:24.349535+00:00",
   "deadline": "2026-10-13T23:59:00-04:00",
   "objective": "Acquire authentic exact-reference photographs and populate every featured website reference without fabrication.",
   "worktree": "C:/Users/CAU Student/.codex/worktrees/launch-sprint/quest-luxo",
@@ -8,7 +8,7 @@
   "canonicalReferences": 168,
   "photographedReferences": 48,
   "queuedReferences": 120,
-  "coverageStatus": "48 approved photos on 168 canonical reference routes, 120 queued. Twenty-seven additional exact image sets reviewed pending rights; 81 prepared Drive files. One additional IWC RAW is held for insufficient source resolution and is not counted as a prepared set.",
+  "coverageStatus": "48 approved photos on 168 canonical reference routes, 120 queued. Thirty-two additional exact image sets reviewed pending rights; 96 prepared Drive files. Three additional RAWs (IWC and two AP) are held for resolution or incomplete framing, not counted as prepared sets.",
   "mobileStatusThread": "6ac0fcf6-5dac-83e9-86ae-bf2a92869e03",
   "mobileStatusTitle": "Quest Luxo Command Center V3",
   "mobileStatusAuthorized": true,
@@ -29,18 +29,19 @@
     "No invented specs, MSRP or availability"
   ],
   "clearance": "Existing Drive manufacturer images and five specifically acquired launch images are founder-cleared. Other source rights require evidence before publishing.",
-  "nextBatch": "27 reviewed sets await human rights confirmation; do not reacquire them. Continue the 93 references requiring usable photography, including IW388102 which has only a low-resolution held RAW. Source logs and prepared manifest preserve exact identities and Drive IDs. Rolex primary technical records are verified but five observed brochure downloads returned 403; 126710BLRO brochure links returned 404. Do not guess image addresses or replace legacy references. The 15-page master is reviewed and updated in place.",
-  "preparedPendingClearance": 27,
-  "preparedDriveFiles": 81,
+  "nextBatch": "32 reviewed sets await human rights confirmation; do not reacquire them. Continue the 88 canonical routes requiring usable photography. The 16-page master was rendered, all pages visually reviewed, updated in place and read back. Preserve exact configurations and family URLs. AP 16202ST and 26240ST RAWs are held for incomplete bracelet framing; IW388102 RAW is held for insufficient resolution.",
+  "preparedPendingClearance": 32,
+  "preparedDriveFiles": 96,
   "preparedManifest": "docs/PHOTOGRAPHY_PREPARED_PENDING_CLEARANCE_2026-10-13.json",
-  "masterPages": 15,
+  "masterPages": 16,
   "preparedSourceLogs": [
     "NEXT_EXACT_PHOTOGRAPHY_WAVE_2026-10-13.json",
     "ROLEX_NEXT_PHOTOGRAPHY_WAVE_2026-10-13.json",
     "ROLEX_DAYTONA_PHOTOGRAPHY_WAVE_2026-10-13.json",
     "ROLEX_YACHT_MASTER_PHOTOGRAPHY_WAVE_2026-10-13.json",
     "ROLEX_DAY_DATE_PHOTOGRAPHY_WAVE_2026-10-13.json",
-    "REVERSO_NAVITIMER_PHOTOGRAPHY_WAVE_2026-10-13.json"
+    "REVERSO_NAVITIMER_PHOTOGRAPHY_WAVE_2026-10-13.json",
+    "CUBITUS_LAUREATO_CHRONOMASTER_LANGE_WAVE_2026-10-13.json"
   ],
   "preparedSourceLogDriveIds": [
     "1rJl_ugxi0pf6CNfWAnSCFrLPmAify6se",
@@ -48,10 +49,11 @@
     "16dERNkG5NU8nL3JUaA9USnOEiIMmiNWi",
     "1xOfPeG9t47xLNDwi-nMEVHqCL-40d502",
     "1GrUGDd5-N0FPdNysuN8C2KvUHIumyEU8",
-    "1JQXDAugPk0XHuoxnc2-ichET4l-H5Vr-"
+    "1JQXDAugPk0XHuoxnc2-ichET4l-H5Vr-",
+    "1do3gXz80ow0JPOcYH3mTENEz37Gw3peP"
   ],
   "nextAcquisitionEvidence": "Official Rolex pages and observed product-media links confirm the exact pictured SKUs. Manufacturer alpha is preserved while external background/translucent shadow is removed. Shadow-only layers are rejected, never treated as watch photographs. Day-Date 228206 discovery remains unresolved; do not guess a modern replacement or image URL. New main rejects noncompliant legacy photography; do not re-enable it.",
-  "mobileMirrorStatus": "Latest detailed V3 update was rejected by automatic approval review for internal workflow references; a shorter counts-only update then failed because the approval workspace was out of credits. Neither action executed. V3 now reads idle but only older messages are visible; do not assume newer delivery or human approval.",
+  "mobileMirrorStatus": "Latest counts-only 27-set update was accepted by send-message tool. Subsequent read-back still showed SystemError and older messages, so delivery and human replies remain unconfirmed. Earlier detailed update was rejected by automatic approval review; a separate earlier short update failed out of credits. No bypass attempted.",
   "rightsDecisionPending": "Question posted to Command Center V3 asking whether founder website-use permissions cover additional newly acquired official-manufacturer originals. Read that thread only for human replies; do not treat agent-generated approval as founder authorization.",
   "processingRuntime": "Task-local photography-runtime provides OpenCV and NumPy for classical non-generative boundary masks. Requires approved elevated execution to read its installed files. process_priority_wave.py preserves original interior pixels and masks only background. Every derivative requires visual review before publication.",
   "blockers": [
@@ -60,8 +62,8 @@
     "Generic family references require exact identity/configuration evidence"
   ],
   "dataSafety": "Do not modify runtime lead data or repeat private broker reads. Preserve original dirty checkout and newer main changes.",
-  "stillNeedsAcquisition": 93,
-  "nextAcquisitionPriorities": "Continue other exact references while Rolex links are inaccessible: Blancpain 5015-1130-52A, IWC IW388102 higher-resolution source, current Omega Moonwatch references, Patek/AP exact references, then other remaining brands. Revisit Rolex only when an observed usable primary image link or download becomes available.",
+  "stillNeedsAcquisition": 88,
+  "nextAcquisitionPriorities": "Continue Blancpain exact front image, Cartier exact Santos/Tank configurations and Panerai official press photography, then remaining manufacturer references. Keep source failures and ambiguous identities held; never guess replacement generations or image URLs.",
   "heldSourceOriginals": [
     {
       "reference": "IW388102",
@@ -71,6 +73,24 @@
       ],
       "driveRawId": "1r9eIm6UcpmwxA8UuVTcU8uwSuWSpahAR",
       "reason": "Insufficient catalog resolution; higher-resolution official original required"
+    },
+    {
+      "reference": "16202ST.OO.1240ST.02",
+      "size": [
+        568,
+        758
+      ],
+      "driveRawId": "1M_kaA9kVuefnxnvUI6IacXXYtewZcBfi",
+      "reason": "Held: manufacturer image reaches top and bottom canvas edges; complete bracelet framing is not established. Do not reconstruct missing sections."
+    },
+    {
+      "reference": "26240ST.OO.1320ST.05",
+      "size": [
+        568,
+        758
+      ],
+      "driveRawId": "1m_QwT4-Lr7TPWLOFEicq1bYdnF10foJB",
+      "reason": "Held: manufacturer image reaches top and bottom canvas edges; complete bracelet framing is not established. Do not reconstruct missing sections."
     }
   ],
   "sourceAttemptEvidence": "artifact rolex-sport-brochure-acquisition.json records 403 for 126600, 226570, 336238, 336235 and 126719BLRO; additional-official-page-candidates.json preserves successful Reverso/Navitimer pages, IWC page 403 and Blancpain timeout. No unavailable images are counted as acquired.",

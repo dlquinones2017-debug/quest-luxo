@@ -1,6 +1,6 @@
 {
-  "preparedAt": "2026-10-14T01:20:12.694862+00:00",
-  "count": 27,
+  "preparedAt": "2026-10-14T01:37:24.349535+00:00",
+  "count": 32,
   "websitePublished": false,
   "canonicalApprovedCoverage": {
     "photographed": 48,
@@ -1229,6 +1229,260 @@
         }
       ],
       "exactReference": "A17329171C1A1",
+      "publicationStatus": "Queued pending founder website-use clearance"
+    },
+    {
+      "brand": "Patek Philippe",
+      "collection": "Cubitus",
+      "catalogReference": "Cubitus Time-Only",
+      "reference": "5821/1A-001",
+      "exactSKU": "5821-1A-001",
+      "sourceUrl": "https://www.patek.com/en/collection/cubitus/5821-1a-001",
+      "imageUrl": "https://patek-res.cloudinary.com/dfsmedia/0906caea301d42b3b8bd23bd656d1711/185659-51887",
+      "configuration": {
+        "material": "Stainless Steel",
+        "dial": "Sunburst olive green, horizontally embossed",
+        "bracelet": "Steel integrated bracelet",
+        "caseSize": "45 mm (10–4 o'clock)",
+        "movement": "Self-winding 26-330 S C",
+        "waterResistance": "30 m"
+      },
+      "checkedAt": "2026-10-13T21:21:53.164473-04:00",
+      "rightsStatus": "Pending founder clearance for new official originals; not published",
+      "reviewStatus": "Original and final white-canvas derivative visually reviewed; exact photographed reference and configuration retained. Publication pending founder website-use rights.",
+      "size": [
+        1920,
+        2691
+      ],
+      "mode": "P",
+      "path": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\pp-ap-originals\\5821-1A-001-raw.png",
+      "sha256": "442939863cf93d3c33bc3c1aa9a6525d50bb1033d050e5499e45cd930e4bac16",
+      "status": "Authentic official original acquired; unchanged delivered bytes",
+      "whiteMaster": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\cubitus-reviewed\\5821-1A-001-white-master.png",
+      "webDerivative": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\cubitus-reviewed\\5821-1A-001-web.webp",
+      "derivativeSha256": "12ac0779e60b79d37f215ecdf38b57cd62d764e84aad879fdc7919515688f46c",
+      "processing": "Original manufacturer RGB and watch alpha preserved; external translucent cast shadow suppressed with original opaque support plus two-pixel boundary envelope. Centered on blank 2400 white canvas, 1200 WEB. No AI, reconstruction, captions or overlays.",
+      "driveFiles": [
+        {
+          "type": "RAW",
+          "id": "1gDn5Nc-eb1w8OCvDJ4qce49mlIgmGK2b",
+          "name": "patek-philippe-5821-1A-001-raw.png"
+        },
+        {
+          "type": "WHITE_MASTER",
+          "id": "1dSNibvd3pl_5CnQO4IMOtlKbziFRtCRn",
+          "name": "patek-philippe-5821-1A-001-white-master.png"
+        },
+        {
+          "type": "WEB",
+          "id": "1ogcAXbRE6m6rrX0acuskw3JHpPUvbOJ4",
+          "name": "patek-philippe-5821-1A-001-web.webp"
+        }
+      ],
+      "exactReference": "5821/1A-001",
+      "publicationStatus": "Queued pending founder website-use clearance"
+    },
+    {
+      "brand": "Patek Philippe",
+      "collection": "Cubitus",
+      "catalogReference": "Cubitus Grand Date",
+      "reference": "5822P-001",
+      "exactSKU": "5822P-001",
+      "sourceUrl": "https://www.patek.com/en/collection/cubitus/5822P-001",
+      "imageUrl": "https://patek-res.cloudinary.com/dfsmedia/0906caea301d42b3b8bd23bd656d1711/185878-51887",
+      "configuration": {
+        "material": "Platinum",
+        "dial": "Sunburst blue, horizontally embossed",
+        "bracelet": "Navy blue composite strap with fabric pattern and cream stitching",
+        "caseSize": "45 mm (10–4 o'clock)",
+        "movement": "Self-winding 240 PS CI J LU",
+        "waterResistance": "30 m"
+      },
+      "checkedAt": "2026-10-13T21:21:53.165471-04:00",
+      "rightsStatus": "Pending founder clearance for new official originals; not published",
+      "reviewStatus": "Original and final white-canvas derivative visually reviewed; exact photographed reference and configuration retained. Publication pending founder website-use rights.",
+      "size": [
+        1920,
+        2691
+      ],
+      "mode": "RGBA",
+      "path": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\pp-ap-originals\\5822P-001-raw.png",
+      "sha256": "b67c334352c6706200eea094f55e4c637034f534cfb8e0cf505e106f399af71a",
+      "status": "Authentic official original acquired; unchanged delivered bytes",
+      "whiteMaster": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\cubitus-reviewed\\5822P-001-white-master.png",
+      "webDerivative": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\cubitus-reviewed\\5822P-001-web.webp",
+      "derivativeSha256": "45a041b85369f343077bed06eb8436753a96ee3fd42405621c6bfa96ecd5ca3f",
+      "processing": "Original manufacturer RGB and watch alpha preserved; external translucent cast shadow suppressed with original opaque support plus two-pixel boundary envelope. Centered on blank 2400 white canvas, 1200 WEB. No AI, reconstruction, captions or overlays.",
+      "driveFiles": [
+        {
+          "type": "RAW",
+          "id": "1YFIOQrwQi5E_q0ep0WQj5wgE9wAJvWj0",
+          "name": "patek-philippe-5822P-001-raw.png"
+        },
+        {
+          "type": "WHITE_MASTER",
+          "id": "1sYZmFGcCOc2HzpIOVJNoCtr6p23LmH-7",
+          "name": "patek-philippe-5822P-001-white-master.png"
+        },
+        {
+          "type": "WEB",
+          "id": "1kEHkUgufMBVvvE-pqEKttrI4bSklW6R9",
+          "name": "patek-philippe-5822P-001-web.webp"
+        }
+      ],
+      "exactReference": "5822P-001",
+      "publicationStatus": "Queued pending founder website-use clearance"
+    },
+    {
+      "brand": "Girard-Perregaux",
+      "collection": "Laureato",
+      "reference": "81010-11-431-11A",
+      "catalogReference": "81010-11-431-11A",
+      "exactSKU": "81010-11-431-11A",
+      "sourceUrl": "https://www.girard-perregaux.com/en-us/watches/laureato/81010-11-431-11a",
+      "imageUrl": "https://api.girard-perregaux.com/media/catalog/product/8/1/81010-11-431-11A-thumbnail-8afbed.png",
+      "sourceEvidence": "Exact source URL decoded from the official page's image-loader URL; delivered original requested directly.",
+      "configuration": {
+        "material": "Stainless Steel",
+        "dial": "Blue",
+        "bracelet": "Stainless-steel integrated bracelet",
+        "caseSize": "42 mm",
+        "movement": "Self-winding GP01800"
+      },
+      "checkedAt": "2026-10-13T21:26:26.124071-04:00",
+      "rightsStatus": "Pending founder clearance for new official originals; not published",
+      "reviewStatus": "Original and final white-canvas derivative visually reviewed; exact photographed reference and configuration retained. Publication pending founder website-use rights.",
+      "size": [
+        940,
+        720
+      ],
+      "mode": "RGBA",
+      "path": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\native-originals\\81010-11-431-11A-raw.png",
+      "sha256": "8afbed9619a35e8f7bf0ba181006d45df42833715457882337584d79606db577",
+      "status": "Authentic official original acquired; unchanged delivered bytes",
+      "whiteMaster": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\native-reviewed\\81010-11-431-11A-white-master.png",
+      "webDerivative": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\native-reviewed\\81010-11-431-11A-web.webp",
+      "derivativeSha256": "edf27a04e4e77ebe0affd331054a52f40693a81099625a8cc0c901d9916bad7c",
+      "processing": "Original manufacturer RGB and watch alpha preserved; external translucent cast shadow suppressed with original opaque support plus two-pixel boundary envelope. Centered on blank 2400 white canvas, 1200 WEB. No AI, reconstruction, captions or overlays.",
+      "driveFiles": [
+        {
+          "type": "RAW",
+          "id": "18pfRlY_e1LlBINRZtloUPsZnxEikyGoH",
+          "name": "girard-perregaux-81010-11-431-11A-raw.png"
+        },
+        {
+          "type": "WHITE_MASTER",
+          "id": "1yoos5JsF-lExc312Xh7BTxE9kLwTk7pU",
+          "name": "girard-perregaux-81010-11-431-11A-white-master.png"
+        },
+        {
+          "type": "WEB",
+          "id": "1L6p99fXfNnzAZcBkljaCn2LW0eFTSUYc",
+          "name": "girard-perregaux-81010-11-431-11A-web.webp"
+        }
+      ],
+      "exactReference": "81010-11-431-11A",
+      "publicationStatus": "Queued pending founder website-use clearance"
+    },
+    {
+      "brand": "Zenith",
+      "collection": "Chronomaster",
+      "reference": "03.3100.3600/69.M3100",
+      "catalogReference": "03-3100-3600-69-M3100",
+      "exactSKU": "03.3100.3600-69.M3100",
+      "sourceUrl": "https://www.zenith-watches.com/es_es/product/chronomaster-sport-03-3100-3600-69-m3100",
+      "imageUrl": "https://images.zenith-watches.com/asset/48fe5ef2-d09f-44cb-ad73-4a2de2779144/Digital-RGB/1-SOLDAT-1_Chronomaster-Sport_03-3100-3600-69-M3100_4x5.png",
+      "sourceEvidence": "Observed official image resource; public display resize/blur query removed to request its untransformed original. Exact resource path unchanged.",
+      "configuration": {
+        "material": "Stainless Steel",
+        "dial": "White with grey, anthracite and blue counters",
+        "bracelet": "Stainless-steel bracelet",
+        "caseSize": "41 mm"
+      },
+      "checkedAt": "2026-10-13T21:26:26.126586-04:00",
+      "rightsStatus": "Pending founder clearance for new official originals; not published",
+      "reviewStatus": "Original and final white-canvas derivative visually reviewed; exact photographed reference and configuration retained. Publication pending founder website-use rights.",
+      "size": [
+        1120,
+        1600
+      ],
+      "mode": "RGBA",
+      "path": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\native-originals\\03.3100.3600-69.M3100-raw.png",
+      "sha256": "200970fba50447bf483146e4bc821a493f4def97398517931de2503122dfd726",
+      "status": "Authentic official original acquired; unchanged delivered bytes",
+      "whiteMaster": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\native-reviewed\\03.3100.3600-69.M3100-white-master.png",
+      "webDerivative": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\native-reviewed\\03.3100.3600-69.M3100-web.webp",
+      "derivativeSha256": "72a112602fd000a20b3a57af5d559a651cb2ef97d7bd0533b17501931e4e211f",
+      "processing": "Original manufacturer RGB and watch alpha preserved; external translucent cast shadow suppressed with original opaque support plus two-pixel boundary envelope. Centered on blank 2400 white canvas, 1200 WEB. No AI, reconstruction, captions or overlays.",
+      "driveFiles": [
+        {
+          "type": "RAW",
+          "id": "1hUL4IHegFj1Z1pGnVZGBAsT3B-c1JRtN",
+          "name": "zenith-03.3100.3600-69.M3100-raw.png"
+        },
+        {
+          "type": "WHITE_MASTER",
+          "id": "1VEO3hUrLM7PhBZpwiUaHn0_lxkOrUoSu",
+          "name": "zenith-03.3100.3600-69.M3100-white-master.png"
+        },
+        {
+          "type": "WEB",
+          "id": "1mEvZWg4oHmTOREOS3zDS5CM_UnL78y_Z",
+          "name": "zenith-03.3100.3600-69.M3100-web.webp"
+        }
+      ],
+      "exactReference": "03.3100.3600/69.M3100",
+      "publicationStatus": "Queued pending founder website-use clearance"
+    },
+    {
+      "brand": "A. Lange & Söhne",
+      "collection": "Lange 1",
+      "reference": "191.032",
+      "catalogReference": "191-032",
+      "exactSKU": "191.032",
+      "sourceUrl": "https://www.alange-soehne.com/gb-en/timepieces/lange-1/lange-1/lange-1-in-750-pink-gold-191-032",
+      "imageUrl": "https://img.alange-soehne.com/product-slideshow-product-2/c3864cd295bb2700980c93b90dbb31066b875457.jpg",
+      "configuration": {
+        "material": "18K Pink Gold",
+        "dial": "Argenté solid silver",
+        "bracelet": "Brown alligator leather strap",
+        "caseSize": "38.5 mm",
+        "movement": "Manual-winding L121.1",
+        "waterResistance": "3 bar"
+      },
+      "checkedAt": "2026-10-13T21:24:42.143609-04:00",
+      "rightsStatus": "Pending founder clearance for new official originals; not published",
+      "reviewStatus": "Original and final white-canvas derivative visually reviewed; exact photographed reference and configuration retained. Publication pending founder website-use rights.",
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGB",
+      "path": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\diverse-originals\\191.032-raw.jpg",
+      "sha256": "d7ad143ecb332b1a89962351ce8eff08280a906ec6c8f82cdcb0a563f865866e",
+      "status": "Authentic official original acquired; unchanged delivered bytes",
+      "whiteMaster": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\lange-reviewed\\191-032-white-master.png",
+      "webDerivative": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\lange-reviewed\\191-032-web.webp",
+      "derivativeSha256": "0e104da12e88090c2ad29bf3a8682cdf90febcda7e736b15bb1fc30cde0fa21a",
+      "processing": "Classical external silhouette from source contrast; interior holes filled to preserve original white dial and metal highlights; one-pixel exterior envelope retains edges. Original RGB preserved. Recentered 2400 pure-white master and 1200 WEB, no generation or reconstruction.",
+      "driveFiles": [
+        {
+          "type": "RAW",
+          "id": "1Gb5mtwjkz5lswBYwilpvsLsuhLRCq6ed",
+          "name": "a.-lange-&-söhne-191.032-raw.jpg"
+        },
+        {
+          "type": "WHITE_MASTER",
+          "id": "1wIQba5FkNvh9gDZgp_1TGfAUkTxcra5Y",
+          "name": "a.-lange-&-söhne-191-032-white-master.png"
+        },
+        {
+          "type": "WEB",
+          "id": "1cj3sHj3MG99rw_H4f8sEUng3cvHfLTId",
+          "name": "a.-lange-&-söhne-191-032-web.webp"
+        }
+      ],
+      "exactReference": "191.032",
       "publicationStatus": "Queued pending founder website-use clearance"
     }
   ]
