@@ -102,3 +102,5 @@ Six focused photography tests pass, including mismatched dial/material rejection
 RAW/master/WEB and source/license record are saved in Drive; the canonical master is 18 pages, reviewed and updated in place/read back. Previous 17 rendered pages are pixel-identical to reviewed versions. RM 11-03 source is a cropped rose-gold detail and cannot represent the titanium profile; held without reconstruction. Hublot image downloads still return 403. No intake code or runtime lead data is changed.
 
 Founder confirmed Command Center V4 as the official successor to V3. Future status and approval requests use V4; the existing single execution sprint and deadline remain unchanged. The authorized continuation prompt and durable state now point to V4.
+
+Nautilus release 8c2f495 is live. Public production checks passed for homepage, intake, reference route, photography credits and exact image; deployed image SHA256 matches the reviewed derivative. Full suffix, source/license/change disclosure and CTA were verified. Production coverage is 49 of 168, with 119 queued. No new test lead was submitted.

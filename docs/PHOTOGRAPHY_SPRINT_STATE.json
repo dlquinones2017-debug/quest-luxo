@@ -1,14 +1,14 @@
 {
-  "updatedAt": "2026-10-14T02:08:23.694057+00:00",
+  "updatedAt": "2026-10-14T02:12:56.851881+00:00",
   "deadline": "2026-10-13T23:59:00-04:00",
   "objective": "Acquire authentic exact-reference photographs and populate every featured website reference without fabrication.",
   "worktree": "C:/Users/CAU Student/.codex/worktrees/launch-sprint/quest-luxo",
   "branch": "codex/launch-sprint",
-  "baselineMain": "b99817fbfb8400fbef3e0f41e8bf35f3f538ccf0",
+  "baselineMain": "8c2f495e400badfa1effa88607ebbc2d384dfe2a",
   "canonicalReferences": 168,
   "photographedReferences": 49,
   "queuedReferences": 119,
-  "coverageStatus": "Built/verified registry coverage is 49 approved of 168 canonical routes, 119 queued. Nautilus 5711/1A-010 repair awaits production deployment verification. The 38 newly acquired manufacturer sets and 114 files remain pending human website-use clearance.",
+  "coverageStatus": "Production verified: 49 approved photos on 168 canonical routes, 119 queued. Thirty-eight additional manufacturer sets / 114 files remain pending human rights confirmation.",
   "mobileStatusThread": "01a1371a-fad5-7e03-8807-0ae850c74269",
   "mobileStatusTitle": "Quest Luxo Command Center V4",
   "mobileStatusAuthorized": true,
@@ -29,7 +29,7 @@
     "No invented specs, MSRP or availability"
   ],
   "clearance": "Existing Drive manufacturer images and five specifically acquired launch images are founder-cleared. Other source rights require evidence before publishing.",
-  "nextBatch": "Deploy the tested licensed Nautilus repair, then verify live route/image hash, credits and intake health. Continue the 81 remaining references needing usable photography; do not reacquire the 38 prepared sets. The 18-page master is reviewed, updated in place and read back; prior 17 rendered pages are pixel-identical to reviewed versions.",
+  "nextBatch": "Continue 81 references requiring usable photography, without reacquiring the 38 prepared sets. Nautilus repair is deployed and production-verified. V4 is the founder-confirmed status/approval destination; publication of new manufacturer sets still requires human rights evidence.",
   "preparedPendingClearance": 38,
   "preparedDriveFiles": 114,
   "preparedManifest": "docs/PHOTOGRAPHY_PREPARED_PENDING_CLEARANCE_2026-10-13.json",
@@ -59,7 +59,7 @@
     "16yfNmpskkOnofKer4EqpO0bVgHi9Umbq"
   ],
   "nextAcquisitionEvidence": "Official Rolex pages and observed product-media links confirm the exact pictured SKUs. Manufacturer alpha is preserved while external background/translucent shadow is removed. Shadow-only layers are rejected, never treated as watch photographs. Day-Date 228206 discovery remains unresolved; do not guess a modern replacement or image URL. New main rejects noncompliant legacy photography; do not re-enable it.",
-  "mobileMirrorStatus": "Founder explicitly confirmed V4 as official V3 successor in this sprint chat; status and approval routing moved to V4 and the continuation prompt was updated. No human rights confirmation for the 38 newly acquired manufacturer sets yet.",
+  "mobileMirrorStatus": "V4 handoff and rights request accepted; V4 surfaced the pending founder decision. Verified-live update sent to V4. V3 is superseded and must not receive future status messages.",
   "rightsDecisionPending": "Human website-use clearance for 38 additional official manufacturer photo sets remains pending; request now routed to founder-authorized Command Center V4. Do not treat agent-generated approval as human authorization.",
   "processingRuntime": "Task-local photography-runtime provides OpenCV and NumPy for classical non-generative boundary masks. Requires approved elevated execution to read its installed files. process_priority_wave.py preserves original interior pixels and masks only background. Every derivative requires visual review before publication.",
   "blockers": [
@@ -110,7 +110,7 @@
       "1w4QvoNWNzshr7H03qk7YqKtfcPIDoJvQ"
     ],
     "rights": "Existing approved Commons CC BY-SA 4.0 source; attribution/license/change disclosure and share-alike preserved",
-    "publicationStatus": "Build passed; production verification pending"
+    "publicationStatus": "Live as 8c2f495; production route, image SHA256, full suffix, credits/license and intake HTTP 200 verified"
   },
   "verification": "Six focused photography tests pass; production build passes. Built Nautilus route has new image, full suffix, intake CTA and no figcaption. Existing duplicate public robots.txt build warning remains."
 }
