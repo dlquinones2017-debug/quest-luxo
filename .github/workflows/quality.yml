@@ -36,5 +36,13 @@ jobs:
       - name: Run regression suite
         run: node --test tests/*.test.mjs
 
+      # Reports outstanding photographs without treating missing rights as approved.
+      # Fails on missing previously approved derivatives or SHA-256 tampering.
+      - name: Audit expansion photography integrity
+        run: npm run audit:expansion-photography
+
+      - name: Verify Omega photography clearance queue
+        run: npm run check:omega-photography:queue
+
       - name: Build production release
         run: npm run build
