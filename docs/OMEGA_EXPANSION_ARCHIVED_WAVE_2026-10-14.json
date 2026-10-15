@@ -2,7 +2,7 @@
   "title": "Omega expansion acquisition wave October 14 2026",
   "reviewedAt": "2026-10-14T21:39:16.610176+00:00",
   "sets": 8,
-  "approvedForPublication": 8,
+  "approvedForPublication": true,
   "rightsHeld": 0,
   "productionUnchanged": true,
   "sourceAttempts": {
@@ -36,7 +36,7 @@
       "mode": "RGB",
       "path": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\omega-expansion-retailer-originals\\310.30.42.50.04.001-raw.jpg",
       "sha256": "5705b6728894590843941a7a93b9a743f9e662d9f1735c302b03a4b2be8580f8",
-      "status": "Authentic official original acquired; unchanged delivered bytes",
+      "status": "Published authentic exact-reference photograph; founder commercial rights confirmed",
       "whiteMaster": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\omega-expansion-retailer-reviewed\\310.30.42.50.04.001-white-master.png",
       "webDerivative": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\omega-expansion-retailer-reviewed\\310.30.42.50.04.001-web.webp",
       "derivativeSha256": "acc0aedb35272d13459aa65a1721f6247fd1e17b24f1e4e6cf070096b6eb18aa",
@@ -59,7 +59,7 @@
         }
       ],
       "reviewedAt": "2026-10-14T21:39:16.515186+00:00",
-      "websiteApproved": false,
+      "websiteApproved": true,
       "masterSha256": "a5b29b4cdda1c8b6ce51a72bc2e433acf609fb5a9ceb7453564c98804afea2ab",
       "driveFiles": [
         {
@@ -80,7 +80,9 @@
       ],
       "commercialUseRightsConfirmed": true,
       "founderRightsRecord": "OMEGA_EIGHT_FOUNDER_RIGHTS_CONFIRMED_2026-10-14.json",
-      "publicationStatus": "Release prepared; repository integration and production deployment await restored automatic approval review"
+      "publicationStatus": "LIVE; public route and photo hash verified",
+      "productionCommit": "0ea41e90773767a38583754c3e3ab892477e1df5",
+      "productionDeployId": "dep-db835vlg1s2s73f5ujug"
     },
     {
       "brand": "Omega",
@@ -100,7 +102,7 @@
       "mode": "RGB",
       "path": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\omega-expansion-retailer-originals\\210.30.42.20.10.001-raw.jpg",
       "sha256": "169e7136ce7b2778c8cd8f13c537a06b876f9eae7dad604ecd074544fc1371ff",
-      "status": "Authentic official original acquired; unchanged delivered bytes",
+      "status": "Published authentic exact-reference photograph; founder commercial rights confirmed",
       "whiteMaster": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\omega-expansion-retailer-reviewed\\210.30.42.20.10.001-white-master.png",
       "webDerivative": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\omega-expansion-retailer-reviewed\\210.30.42.20.10.001-web.webp",
       "derivativeSha256": "dff60ec3072dd25afbf17b06e28222aa345293f3f160818c34c191ee713fe003",
@@ -123,7 +125,7 @@
         }
       ],
       "reviewedAt": "2026-10-14T21:39:16.527209+00:00",
-      "websiteApproved": false,
+      "websiteApproved": true,
       "masterSha256": "87e633bd1e1049525667ffc005f85fa8f6956045ef5746bb1622ba014066cd06",
       "driveFiles": [
         {
@@ -144,7 +146,9 @@
       ],
       "commercialUseRightsConfirmed": true,
       "founderRightsRecord": "OMEGA_EIGHT_FOUNDER_RIGHTS_CONFIRMED_2026-10-14.json",
-      "publicationStatus": "Release prepared; repository integration and production deployment await restored automatic approval review"
+      "publicationStatus": "LIVE; public route and photo hash verified",
+      "productionCommit": "0ea41e90773767a38583754c3e3ab892477e1df5",
+      "productionDeployId": "dep-db835vlg1s2s73f5ujug"
     },
     {
       "brand": "Omega",
@@ -164,7 +168,7 @@
       "mode": "RGB",
       "path": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\omega-expansion-retailer-originals\\310.60.42.50.01.001-raw.jpg",
       "sha256": "c8efb03fd47619949eb02c45b19154ef5924aa3a930ba387c350c6134051ecbe",
-      "status": "Authentic official original acquired; unchanged delivered bytes",
+      "status": "Published authentic exact-reference photograph; founder commercial rights confirmed",
       "whiteMaster": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\omega-expansion-retailer-reviewed\\310.60.42.50.01.001-white-master.png",
       "webDerivative": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\omega-expansion-retailer-reviewed\\310.60.42.50.01.001-web.webp",
       "derivativeSha256": "74b72a29a4eee08e5bff9d2628cb0e19deae2f3b19f3a4eac689114621c94205",
@@ -187,7 +191,7 @@
         }
       ],
       "reviewedAt": "2026-10-14T21:39:16.541763+00:00",
-      "websiteApproved": false,
+      "websiteApproved": true,
       "masterSha256": "4504fa502e032d40d270d43b7f179c610b460aff1d43e6ca39090336d528015e",
       "driveFiles": [
         {
@@ -208,7 +212,9 @@
       ],
       "commercialUseRightsConfirmed": true,
       "founderRightsRecord": "OMEGA_EIGHT_FOUNDER_RIGHTS_CONFIRMED_2026-10-14.json",
-      "publicationStatus": "Release prepared; repository integration and production deployment await restored automatic approval review"
+      "publicationStatus": "LIVE; public route and photo hash verified",
+      "productionCommit": "0ea41e90773767a38583754c3e3ab892477e1df5",
+      "productionDeployId": "dep-db835vlg1s2s73f5ujug"
     },
     {
       "brand": "Omega",
@@ -228,7 +234,7 @@
       "mode": "RGB",
       "path": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\omega-expansion-retailer-originals\\131.30.41.21.99.003-raw.jpg",
       "sha256": "836af595950301bb6391a073fb0f0f3ca2a29fbe5c663ddbea958fd3b733e1b9",
-      "status": "Authentic official original acquired; unchanged delivered bytes",
+      "status": "Published authentic exact-reference photograph; founder commercial rights confirmed",
       "whiteMaster": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\omega-expansion-retailer-reviewed\\131.30.41.21.99.003-white-master.png",
       "webDerivative": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\omega-expansion-retailer-reviewed\\131.30.41.21.99.003-web.webp",
       "derivativeSha256": "77caa20d260ee8167700bbef444f0570f7bb97de5247445cca57811d0e0cd010",
@@ -251,7 +257,7 @@
         }
       ],
       "reviewedAt": "2026-10-14T21:39:16.555387+00:00",
-      "websiteApproved": false,
+      "websiteApproved": true,
       "masterSha256": "b20c8767106141c9bb86f92b26b23160c68b4407a016afeacee53167520b76b2",
       "driveFiles": [
         {
@@ -272,7 +278,9 @@
       ],
       "commercialUseRightsConfirmed": true,
       "founderRightsRecord": "OMEGA_EIGHT_FOUNDER_RIGHTS_CONFIRMED_2026-10-14.json",
-      "publicationStatus": "Release prepared; repository integration and production deployment await restored automatic approval review"
+      "publicationStatus": "LIVE; public route and photo hash verified",
+      "productionCommit": "0ea41e90773767a38583754c3e3ab892477e1df5",
+      "productionDeployId": "dep-db835vlg1s2s73f5ujug"
     },
     {
       "brand": "Omega",
@@ -293,7 +301,7 @@
       "mode": "RGBA",
       "path": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\omega-independent-originals\\210.32.42.20.10.001-raw.png",
       "sha256": "cef5d0f435db16f6e5c703616899258059f1c36ef0dc41b4eb1b1c4ee262800b",
-      "status": "Authentic official original acquired; unchanged delivered bytes",
+      "status": "Published authentic exact-reference photograph; founder commercial rights confirmed",
       "whiteMaster": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\omega-independent-reviewed\\210.32.42.20.10.001-white-master.png",
       "webDerivative": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\omega-independent-reviewed\\210.32.42.20.10.001-web.webp",
       "masterSha256": "bf984a2b21147f6a19f714eaae2ba3e06a2ce9060483f335d3cafc0133e50ab9",
@@ -316,7 +324,7 @@
         }
       ],
       "reviewedAt": "2026-10-14T21:39:16.585278+00:00",
-      "websiteApproved": false,
+      "websiteApproved": true,
       "driveFiles": [
         {
           "kind": "raw",
@@ -336,7 +344,9 @@
       ],
       "commercialUseRightsConfirmed": true,
       "founderRightsRecord": "OMEGA_EIGHT_FOUNDER_RIGHTS_CONFIRMED_2026-10-14.json",
-      "publicationStatus": "Release prepared; repository integration and production deployment await restored automatic approval review"
+      "publicationStatus": "LIVE; public route and photo hash verified",
+      "productionCommit": "0ea41e90773767a38583754c3e3ab892477e1df5",
+      "productionDeployId": "dep-db835vlg1s2s73f5ujug"
     },
     {
       "brand": "Omega",
@@ -357,7 +367,7 @@
       "mode": "RGBA",
       "path": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\omega-independent-originals\\220.10.38.20.03.003-raw.png",
       "sha256": "002e0bda63f5cb6a47a61074828c3fb70267e7c95619116ef8a7102b8f96691a",
-      "status": "Authentic official original acquired; unchanged delivered bytes",
+      "status": "Published authentic exact-reference photograph; founder commercial rights confirmed",
       "whiteMaster": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\omega-independent-reviewed\\220.10.38.20.03.003-white-master.png",
       "webDerivative": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\omega-independent-reviewed\\220.10.38.20.03.003-web.webp",
       "masterSha256": "b77845ebb4dbb19d9127bad9daee775691db93d400d217aa748dbdfd213257e4",
@@ -380,7 +390,7 @@
         }
       ],
       "reviewedAt": "2026-10-14T21:39:16.595097+00:00",
-      "websiteApproved": false,
+      "websiteApproved": true,
       "driveFiles": [
         {
           "kind": "raw",
@@ -400,7 +410,9 @@
       ],
       "commercialUseRightsConfirmed": true,
       "founderRightsRecord": "OMEGA_EIGHT_FOUNDER_RIGHTS_CONFIRMED_2026-10-14.json",
-      "publicationStatus": "Release prepared; repository integration and production deployment await restored automatic approval review"
+      "publicationStatus": "LIVE; public route and photo hash verified",
+      "productionCommit": "0ea41e90773767a38583754c3e3ab892477e1df5",
+      "productionDeployId": "dep-db835vlg1s2s73f5ujug"
     },
     {
       "brand": "Omega",
@@ -421,7 +433,7 @@
       "mode": "RGB",
       "path": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\omega-independent-originals\\220.12.43.22.03.001-raw.jpg",
       "sha256": "08ddb2520de0f17c146be189da08a80dd70fdb806909a27cafc2fdf6dc67eb0a",
-      "status": "Authentic official original acquired; unchanged delivered bytes",
+      "status": "Published authentic exact-reference photograph; founder commercial rights confirmed",
       "whiteMaster": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\omega-independent-reviewed\\220.12.43.22.03.001-white-master.png",
       "webDerivative": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\omega-independent-reviewed\\220.12.43.22.03.001-web.webp",
       "masterSha256": "d8b43c9a3f8829f4711092398c7891d1db7eaa9250f78462049295e0f8dd0f37",
@@ -444,7 +456,7 @@
         }
       ],
       "reviewedAt": "2026-10-14T21:39:16.598077+00:00",
-      "websiteApproved": false,
+      "websiteApproved": true,
       "driveFiles": [
         {
           "kind": "raw",
@@ -464,7 +476,9 @@
       ],
       "commercialUseRightsConfirmed": true,
       "founderRightsRecord": "OMEGA_EIGHT_FOUNDER_RIGHTS_CONFIRMED_2026-10-14.json",
-      "publicationStatus": "Release prepared; repository integration and production deployment await restored automatic approval review"
+      "publicationStatus": "LIVE; public route and photo hash verified",
+      "productionCommit": "0ea41e90773767a38583754c3e3ab892477e1df5",
+      "productionDeployId": "dep-db835vlg1s2s73f5ujug"
     },
     {
       "brand": "Omega",
@@ -485,7 +499,7 @@
       "mode": "RGB",
       "path": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\omega-independent-originals\\220.10.38.20.13.003-raw.jpg",
       "sha256": "1952bb2bd9b2464d336ae11449a29ddf30de491bc79c34907cc1dab0e8126e7d",
-      "status": "Authentic official original acquired; unchanged delivered bytes",
+      "status": "Published authentic exact-reference photograph; founder commercial rights confirmed",
       "whiteMaster": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\omega-independent-reviewed\\220.10.38.20.13.003-white-master.png",
       "webDerivative": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\omega-independent-reviewed\\220.10.38.20.13.003-web.webp",
       "masterSha256": "c79237f44fde1290aac083f33dfe38b9c8fe066746be7d706d67a565403c3949",
@@ -508,7 +522,7 @@
         }
       ],
       "reviewedAt": "2026-10-14T21:39:16.605099+00:00",
-      "websiteApproved": false,
+      "websiteApproved": true,
       "driveFiles": [
         {
           "kind": "raw",
@@ -528,7 +542,9 @@
       ],
       "commercialUseRightsConfirmed": true,
       "founderRightsRecord": "OMEGA_EIGHT_FOUNDER_RIGHTS_CONFIRMED_2026-10-14.json",
-      "publicationStatus": "Release prepared; repository integration and production deployment await restored automatic approval review"
+      "publicationStatus": "LIVE; public route and photo hash verified",
+      "productionCommit": "0ea41e90773767a38583754c3e3ab892477e1df5",
+      "productionDeployId": "dep-db835vlg1s2s73f5ujug"
     }
   ],
   "founderRightsConfirmation": {
@@ -563,5 +579,10 @@
     "conditions": "No additional usage restrictions reported in these confirmations; existing separate source credits retained. This record asserts founder confirmation only and does not invent a third-party license document.",
     "doesNotCover": "Any other later photography ledger or original"
   },
-  "publicationStatus": "Cleared and reviewed release package prepared; not yet integrated, built or deployed"
+  "publicationStatus": "LIVE; exact public reference/configuration/asset hash/collection grid/inquiry context verified",
+  "websitePublished": true,
+  "rightsHeldSets": 0,
+  "productionCommit": "0ea41e90773767a38583754c3e3ab892477e1df5",
+  "productionDeployId": "dep-db835vlg1s2s73f5ujug",
+  "verifiedAt": "2026-10-15T02:04:09.573992+00:00"
 }

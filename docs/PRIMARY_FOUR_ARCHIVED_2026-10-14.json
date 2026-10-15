@@ -1,7 +1,7 @@
 {
   "title": "Four additional manufacturer photography sets reviewed October 14 2026",
   "physicalSets": 4,
-  "websitePublished": false,
+  "websitePublished": true,
   "rightsHeldSets": 0,
   "references": [
     {
@@ -23,7 +23,7 @@
       "mode": "RGBA",
       "path": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\expanded-primary-originals\\AB2010121B1S1-raw.webp",
       "sha256": "47f67464464b70e12c12a6da3bf38df0ff9c671d107387cbf80374a9335eee9c",
-      "status": "Authentic official original acquired; unchanged delivered bytes",
+      "status": "Published authentic exact-reference photograph; founder commercial rights confirmed",
       "whiteMaster": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\expanded-primary-four-white\\AB2010121B1S1-white-master.png",
       "webDerivative": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\expanded-primary-four-white\\AB2010121B1S1-web.webp",
       "derivativeSha256": "a5021e1ef969bab073ee35593ba519a8de8d63cad2ea181b36100046b5f27c32",
@@ -38,7 +38,7 @@
         "material": "Stainless Steel"
       },
       "identitySource": "https://www.breitling.com/xk-en/watches/superocean-heritage/superocean-heritage-b20-automatic-42/AB2010121B1S1/",
-      "websiteApproved": false,
+      "websiteApproved": true,
       "reviewedAt": "2026-10-14T22:30:04.121030+00:00",
       "masterSha256": "1844b022ec15aa6865c78520c17dea472689c7ea4b454aa99c6a4d8970e76b4a",
       "exactSkuEvidence": "Manufacturer exact-SKU product page and exact-SKU soldier image URL; dial/case/strap visually compared with catalog configuration",
@@ -62,7 +62,9 @@
       },
       "commercialUseRightsConfirmed": true,
       "rightsRecord": "PHOTOGRAPHY_ADDITIONAL35_FOUNDER_RIGHTS_2026-10-14.json",
-      "publicationStatus": "Integrated; release checks and deployment pending"
+      "publicationStatus": "LIVE; public route and photo hash verified",
+      "productionCommit": "0ea41e90773767a38583754c3e3ab892477e1df5",
+      "productionDeployId": "dep-db835vlg1s2s73f5ujug"
     },
     {
       "brand": "Breitling",
@@ -83,7 +85,7 @@
       "mode": "RGBA",
       "path": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\expanded-primary-originals\\AB0147101B1X1-raw.webp",
       "sha256": "5bc911591b3fc309f4e9762b42eb15fa2a8adc8b58fa97f4ef9c0898d543fda0",
-      "status": "Authentic official original acquired; unchanged delivered bytes",
+      "status": "Published authentic exact-reference photograph; founder commercial rights confirmed",
       "whiteMaster": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\expanded-primary-four-white\\AB0147101B1X1-white-master.png",
       "webDerivative": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\expanded-primary-four-white\\AB0147101B1X1-web.webp",
       "derivativeSha256": "3269175ea14ce67830ae1d7f3c8019f6f2b799a2059508d1fe602825e224c42c",
@@ -98,7 +100,7 @@
         "material": "Stainless Steel"
       },
       "identitySource": "https://www.breitling.com/us-en/watches/avenger/avenger-b01-chronograph-44-my23/AB0147101B1X1/",
-      "websiteApproved": false,
+      "websiteApproved": true,
       "reviewedAt": "2026-10-14T22:30:04.469102+00:00",
       "masterSha256": "8bd41f309500f8e5621f9146df0b11224585575785213b6cedf4ac146e3a75fa",
       "exactSkuEvidence": "Manufacturer exact-SKU product page and exact-SKU soldier image URL; dial/case/strap visually compared with catalog configuration",
@@ -122,7 +124,9 @@
       },
       "commercialUseRightsConfirmed": true,
       "rightsRecord": "PHOTOGRAPHY_ADDITIONAL35_FOUNDER_RIGHTS_2026-10-14.json",
-      "publicationStatus": "Integrated; release checks and deployment pending"
+      "publicationStatus": "LIVE; public route and photo hash verified",
+      "productionCommit": "0ea41e90773767a38583754c3e3ab892477e1df5",
+      "productionDeployId": "dep-db835vlg1s2s73f5ujug"
     },
     {
       "brand": "Bell & Ross",
@@ -143,7 +147,7 @@
       "mode": "RGBA",
       "path": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\expanded-primary-originals\\BR0192-COMPASS-CA-raw.png",
       "sha256": "db16dd096800a91944532aa637321d07c80f23a00ca890404e3c61dadd338ce3",
-      "status": "Authentic official original acquired; unchanged delivered bytes",
+      "status": "Published authentic exact-reference photograph; founder commercial rights confirmed",
       "whiteMaster": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\expanded-primary-four-white\\BR0192-COMPASS-CA-white-master.png",
       "webDerivative": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\expanded-primary-four-white\\BR0192-COMPASS-CA-web.webp",
       "derivativeSha256": "4a84e8420128f41adfbb770923b493e0a9de487e9d3dda6a18797c6f2132ca85",
@@ -158,7 +162,7 @@
         "material": "Black PVD steel"
       },
       "identitySource": "https://bellross.com/en/products/br-01-compass",
-      "websiteApproved": false,
+      "websiteApproved": true,
       "reviewedAt": "2026-10-14T22:30:04.679603+00:00",
       "masterSha256": "3588b24b2c8b5ca819472de4605e37f78f8e78957776d1a5985bb62de371d979",
       "exactSkuEvidence": "Manufacturer product JSON exact full SKU BR0192-COMPASS-CA linked to its Compass image",
@@ -182,7 +186,9 @@
       },
       "commercialUseRightsConfirmed": true,
       "rightsRecord": "PHOTOGRAPHY_ADDITIONAL35_FOUNDER_RIGHTS_2026-10-14.json",
-      "publicationStatus": "Integrated; release checks and deployment pending"
+      "publicationStatus": "LIVE; public route and photo hash verified",
+      "productionCommit": "0ea41e90773767a38583754c3e3ab892477e1df5",
+      "productionDeployId": "dep-db835vlg1s2s73f5ujug"
     },
     {
       "brand": "Franck Muller",
@@ -203,7 +209,7 @@
       "mode": "RGBA",
       "path": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\expanded-primary-originals\\V-45-T-BR-TT--raw.png",
       "sha256": "7731eb7ce75c55abdf5dc440cee5dfe41d63b7e72dde681555a367cb87a83ec0",
-      "status": "Authentic official original acquired; unchanged delivered bytes",
+      "status": "Published authentic exact-reference photograph; founder commercial rights confirmed",
       "whiteMaster": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\expanded-primary-four-white\\V-45-T-BR-TT--white-master.png",
       "webDerivative": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\expanded-primary-four-white\\V-45-T-BR-TT--web.webp",
       "derivativeSha256": "52999c2bd3afb88d3cd4b97adf7eee080f88c38fafe2f578655fbf4f841c6681",
@@ -218,7 +224,7 @@
         "material": "Titanium"
       },
       "identitySource": "https://www.franckmuller.com/vanguard",
-      "websiteApproved": false,
+      "websiteApproved": true,
       "reviewedAt": "2026-10-14T22:30:04.722768+00:00",
       "masterSha256": "9ce860611b741894fde71f2912a2a5dff46998a7d92c1d51fd8ece5b242032d9",
       "exactSkuEvidence": "Manufacturer gallery title and image alt explicitly V 45 T BR (TT), linked to the observed full image; media filename contains OG but gallery caption identifies TT. Preserve explicit caption evidence and do not infer material solely from filename.",
@@ -242,14 +248,20 @@
       },
       "commercialUseRightsConfirmed": true,
       "rightsRecord": "PHOTOGRAPHY_ADDITIONAL35_FOUNDER_RIGHTS_2026-10-14.json",
-      "publicationStatus": "Integrated; release checks and deployment pending"
+      "publicationStatus": "LIVE; public route and photo hash verified",
+      "productionCommit": "0ea41e90773767a38583754c3e3ab892477e1df5",
+      "productionDeployId": "dep-db835vlg1s2s73f5ujug"
     }
   ],
   "archivedAt": "2026-10-14T22:33:38.645903+00:00",
   "driveFilesArchived": 12,
   "archiveReadbackStatus": "All 12 file metadata readbacks passed; all local RAW/master/WEB hashes verified",
   "sourceLogDriveId": "1Gwu0S_pqL4pNcl0jRCgw2WgUrvlo90d_",
-  "approvedForPublication": 4,
+  "approvedForPublication": true,
   "founderRightsRecord": "PHOTOGRAPHY_ADDITIONAL35_FOUNDER_RIGHTS_2026-10-14.json",
-  "publicationStatus": "Integrated; checks and deployment pending"
+  "publicationStatus": "LIVE; exact public reference/configuration/asset hash/collection grid/inquiry context verified",
+  "productionCommit": "0ea41e90773767a38583754c3e3ab892477e1df5",
+  "productionDeployId": "dep-db835vlg1s2s73f5ujug",
+  "verifiedAt": "2026-10-15T02:04:09.573992+00:00",
+  "founderRightsDriveFileId": "1kEzcWJ8Fo1rH3UPe-QVc05n9g80BhG3v"
 }

@@ -1,0 +1,607 @@
+{
+  "physicalSets": 8,
+  "websitePublished": false,
+  "references": [
+    {
+      "brand": "Omega",
+      "reference": "131.10.28.60.56.001",
+      "exactSKU": "131.10.28.60.56.001",
+      "sourceUrl": "https://www.kk-tanaka.com/omega/38368/",
+      "sourcePagePath": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\retailer-source-omega-131.10.28.60.56.001-3f046615.html",
+      "sourcePageSha256": "b9b5a05eeae4f09ed1efa55f5e0e323f31e85e34613c7a75b352e678aef9cadf",
+      "sourceProvider": "TANAKA",
+      "imageUrl": "https://www.kk-tanaka.com/wp-content/uploads/2022/11/04_131.10.28.60.56.001-1.jpg",
+      "checkedAt": "2026-10-15T02:10:15.229611+00:00",
+      "rightsStatus": "Founder explicitly confirmed this exact original and white derivatives for commercial Quest Luxo website use; no additional restrictions",
+      "reviewStatus": "Complete authentic source RAW and final full-resolution WEB individually visually reviewed. Whole watch centered on white, no clipped ends, preserved white metal highlights, no overlays or captions.",
+      "size": [
+        800,
+        1100
+      ],
+      "mode": "RGB",
+      "path": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\gray-iwc-native-originals\\131.10.28.60.56.001-raw.jpg",
+      "sha256": "719c20d758118e9f2bca5f0f15d51e648e28c35dc0a353f503feeecb5f808714",
+      "status": "Reviewed authentic original and white derivatives archived; rights held",
+      "whiteMaster": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\gray-iwc-reviewed-white\\131.10.28.60.56.001-white-master.png",
+      "webDerivative": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\gray-iwc-reviewed-white\\131.10.28.60.56.001-web.webp",
+      "masterSha256": "170f3a35e8bf425afcda9364e4ee4ef08002659e61a96d7a7f76e7ffe7b023b9",
+      "derivativeSha256": "a8e653dbcf0bd7ca0e3cc42f809198abc076f68632343f3d1ba5c58c1c14d4a1",
+      "collection": "Constellation",
+      "canonicalRoute": "/collections/omega/constellation/131-10-28-60-56-001",
+      "catalogMaterial": "Stainless Steel",
+      "catalogConfigurations": [
+        {
+          "caseSize": "28 mm",
+          "movement": "Omega 4061 quartz",
+          "dial": "Gray sun-brushed non-wave with diamonds",
+          "bracelet": "Stainless-steel bracelet",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "websiteApproved": false,
+      "processing": "Classical external background mask; conservative convex enclosure for IWC preserves all white metal highlights and original interior pixels. Complete watch centered on blank white2400 master/1200WEB; no reconstruction.",
+      "foregroundBounds": [
+        183,
+        100,
+        619,
+        1003
+      ],
+      "visualReviewPassed": true,
+      "exactSkuVerified": true,
+      "reviewedAt": "2026-10-15T02:22:03.829705+00:00",
+      "driveFiles": {
+        "raw": {
+          "id": "1er8X4Qt2d4Jz1g6u7yLQ44lyPcEwZJ8U",
+          "folderId": "1EwU4nbht13ay5Obti9bjywK4rWLCxK_T",
+          "sha256": "719c20d758118e9f2bca5f0f15d51e648e28c35dc0a353f503feeecb5f808714"
+        },
+        "master": {
+          "id": "1kD4GO15qWIV2xRCQx_apdM5KI9L0lrpx",
+          "folderId": "1vl6DzQFhMCHLjh0DcbZ5aM_s_TrZTW49",
+          "sha256": "170f3a35e8bf425afcda9364e4ee4ef08002659e61a96d7a7f76e7ffe7b023b9"
+        },
+        "web": {
+          "id": "1eFWpRP2qUdG4BptIEgVt6fpL0wiwfBzj",
+          "folderId": "1lijATpBrmBmGnjmhTJmr0gpTa5YaOd8Z",
+          "sha256": "a8e653dbcf0bd7ca0e3cc42f809198abc076f68632343f3d1ba5c58c1c14d4a1"
+        }
+      },
+      "commercialUseRightsConfirmed": true,
+      "rightsRecord": "PHOTOGRAPHY_ELEVEN_FOUNDER_RIGHTS_2026-10-15.json",
+      "publicationStatus": "Integrated; release checks and deployment pending"
+    },
+    {
+      "brand": "IWC",
+      "reference": "IW328901",
+      "exactSKU": "IW328901",
+      "sourceUrl": "https://www.jw-oomiya.co.jp/products/iw328901",
+      "sourcePagePath": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\retailer-source-iwc-IW328901-9a484610.html",
+      "sourcePageSha256": "05beb8a1ee2d4f83e64f5ab07a6ff4edf8da5e5fb6f504c01aca008b61944f55",
+      "sourceProvider": "oomiya",
+      "imageUrl": "https://www.jw-oomiya.co.jp/cdn/shop/files/w11903_jpg.webp?v=1755424915",
+      "checkedAt": "2026-10-15T02:10:15.231170+00:00",
+      "rightsStatus": "Founder explicitly confirmed this exact original and white derivatives for commercial Quest Luxo website use; no additional restrictions",
+      "reviewStatus": "Complete authentic source RAW and final full-resolution WEB individually visually reviewed. Whole watch centered on white, no clipped ends, preserved white metal highlights, no overlays or captions.",
+      "size": [
+        1000,
+        1000
+      ],
+      "mode": "RGB",
+      "path": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\gray-iwc-native-originals\\IW328901-raw.jpg",
+      "sha256": "00daaf481878f6f4a9030bcfbe177d3d3f0cc9d6917ef2927998f550187c3978",
+      "status": "Reviewed authentic original and white derivatives archived; rights held",
+      "whiteMaster": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\gray-iwc-reviewed-white\\IW328901-white-master.png",
+      "webDerivative": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\gray-iwc-reviewed-white\\IW328901-web.webp",
+      "masterSha256": "97c70595cc6ca57e426db4d53225f5b01d058cee840d48410a874e3abbbb39a2",
+      "derivativeSha256": "5771db0e39ef80e6f253e39534101c2a3f5817496caca90a90eae71b0770e6db",
+      "collection": "Ingenieur",
+      "canonicalRoute": "/collections/iwc/ingenieur/iw328901",
+      "catalogMaterial": "Stainless Steel",
+      "catalogConfigurations": [
+        {
+          "caseSize": "40 mm",
+          "movement": "IWC 32111 automatic",
+          "dial": "Black",
+          "bracelet": "Stainless-steel bracelet",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "websiteApproved": false,
+      "processing": "Classical edge detection and graph-cut boundary refinement with fixed interior foreground; filled outer silhouette preserves all interior RGB and polished metal highlights. External cast shadow removed. Portofino exterior shadow tail excluded outside strap boundary. One-pixel edge antialiasing. Complete authentic watch centered on blank2400 white master and1200WEB; no generated watch detail.",
+      "foregroundBounds": [
+        228,
+        36,
+        782,
+        963
+      ],
+      "visualReviewPassed": true,
+      "exactSkuVerified": true,
+      "reviewedAt": "2026-10-15T02:22:03.974487+00:00",
+      "driveFiles": {
+        "raw": {
+          "id": "1NbPs6wv7hh9fVz0nrb74_P5z2yjFGRgc",
+          "folderId": "1EwU4nbht13ay5Obti9bjywK4rWLCxK_T",
+          "sha256": "00daaf481878f6f4a9030bcfbe177d3d3f0cc9d6917ef2927998f550187c3978"
+        },
+        "master": {
+          "id": "1RVcMeNO5sDIPwCn2Uvz97WddWRhVwcfG",
+          "folderId": "1vl6DzQFhMCHLjh0DcbZ5aM_s_TrZTW49",
+          "sha256": "97c70595cc6ca57e426db4d53225f5b01d058cee840d48410a874e3abbbb39a2"
+        },
+        "web": {
+          "id": "1Lp2bxa6Ng6Ljn9XY25ElKsLQ94pC0_Fo",
+          "folderId": "1lijATpBrmBmGnjmhTJmr0gpTa5YaOd8Z",
+          "sha256": "5771db0e39ef80e6f253e39534101c2a3f5817496caca90a90eae71b0770e6db"
+        }
+      },
+      "commercialUseRightsConfirmed": true,
+      "rightsRecord": "PHOTOGRAPHY_ELEVEN_FOUNDER_RIGHTS_2026-10-15.json",
+      "publicationStatus": "Integrated; release checks and deployment pending"
+    },
+    {
+      "brand": "IWC",
+      "reference": "IW371617",
+      "exactSKU": "IW371617",
+      "sourceUrl": "https://www.jw-oomiya.co.jp/products/iw371617",
+      "sourcePagePath": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\retailer-source-iwc-IW371617-0b97c4df.html",
+      "sourcePageSha256": "f0664da8e1a1dfcb16a88db59835d82f934bdc530cda73a621ae1df858eb3483",
+      "sourceProvider": "oomiya",
+      "imageUrl": "https://www.jw-oomiya.co.jp/cdn/shop/files/w8494_jpg.webp?v=1755424946",
+      "checkedAt": "2026-10-15T02:14:25.787277+00:00",
+      "rightsStatus": "Founder explicitly confirmed this exact original and white derivatives for commercial Quest Luxo website use; no additional restrictions",
+      "reviewStatus": "Complete authentic source RAW and final full-resolution WEB individually visually reviewed. Whole watch centered on white, no clipped ends, preserved white metal highlights, no overlays or captions.",
+      "size": [
+        1000,
+        1000
+      ],
+      "mode": "RGB",
+      "path": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\oomiya-iwc-six-native-originals\\IW371617-raw.jpg",
+      "sha256": "99f2dce4231a6fd84848e2c072da738dabae402f0ce8735b5a46b7dff23cc8ef",
+      "status": "Reviewed authentic original and white derivatives archived; rights held",
+      "whiteMaster": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\oomiya-iwc-six-white\\IW371617-white-master.png",
+      "webDerivative": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\oomiya-iwc-six-white\\IW371617-web.webp",
+      "masterSha256": "e52c1a1e9159a97836c56ef8562ac62ce078fead33f566860c391242cc5a4972",
+      "derivativeSha256": "c49b1a7771f1060464558edaab5aaeb2b80075e90649721b99ba1a1fcfc8a5ee",
+      "collection": "Portugieser",
+      "canonicalRoute": "/collections/iwc/portugieser/iw371617",
+      "catalogMaterial": "Stainless Steel",
+      "catalogConfigurations": [
+        {
+          "caseSize": "41 mm",
+          "movement": "IWC 69355 automatic chronograph",
+          "dial": "Silver",
+          "bracelet": "Stainless-steel bracelet",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "websiteApproved": false,
+      "processing": "Classical edge detection and graph-cut boundary refinement with fixed interior foreground; filled outer silhouette preserves all interior RGB and polished metal highlights. External cast shadow removed. Portofino exterior shadow tail excluded outside strap boundary. One-pixel edge antialiasing. Complete authentic watch centered on blank2400 white master and1200WEB; no generated watch detail.",
+      "foregroundBounds": [
+        224,
+        40,
+        771,
+        955
+      ],
+      "visualReviewPassed": true,
+      "exactSkuVerified": true,
+      "reviewedAt": "2026-10-15T02:22:04.068926+00:00",
+      "retailerSpecificationEvidence": {
+        "sourceUrl": "https://www.jw-oomiya.co.jp/products/iw371617",
+        "pageSha256": "f0664da8e1a1dfcb16a88db59835d82f934bdc530cda73a621ae1df858eb3483",
+        "specificationExcerpt": "仕様 | ムーブメント | 自動巻きクロノグラフ（IWC自社製キャリバー69355） | ケース素材 | ステンレススティール | ベルト | ステンレススティール | 防水 | 3気圧防水 | ケースサイズ | 41mm | その他特徴 | パワーリザーブ約46時間 | 振動数 28'800 回／時 (4 Hz) | 秒針停止機能付きスモールセコンド | 両面反射防止加工を施したドーム型サファイアガラス | ストップウォッチ機能（分・秒） | サファイアガラスのシースルー裏蓋 | 注意事項 | 掲載商品の色調は、お使いのモニターの設定や照明等により実物と異なる場合があります。 | アフターサポート | ご購入いただいた商品を末永くご愛用いただくために。 | 詳しくはこちら | ショッピングクレジット | 金利・手数料がかからない分割払いをご利用いただけます。 | 詳しくはこちら | Shop List | 取扱い店舗 | oomiya 和歌山本店 | oomiya 和歌山本店 | 和歌山県和歌山市栗栖755-1 | 073-474-0038 | 営業時間：11:00 ～ 19:00 | 阪和自動車道「和歌山IC」すぐ | JR「和歌山駅」より車で約10分 | お問い合わせ | oomiya 心斎橋店 | oomiya 心斎橋店 | 大阪市中央区南船場4-7-6 | 06-6251-0077 | 営業時間：11:00 ～ 19:00 | 【最寄り駅のご案内】 | 大阪メトロ | 御堂筋線「心斎橋駅」 | お問い合わせ | oomiya 京都店 | oomiya 京都店 | 京都市下京区立売西町72 | 075-229-6689 | 営業時間：11:00 ～ 19:00 | 【最寄り駅のご案内】 | 京都市営地下鉄「四条駅」 | 阪急京都線「烏丸駅」 | お問い合わせ | oomiya 仙台店 | oomiya 仙台店 | 仙台市青葉区一番町3-10-24 | 022-398-4838 | 営業時間：11:00 ～ 19:00 | 【最寄駅のご案内】 | 地下鉄東西線「青葉通一番町駅」 | 地下鉄南北線「広瀬通駅」 | お問い合わせ | oomiya 鹿児島店 | oomiya 鹿児島店 | 鹿児島市金生町2-11 | 099-219-9255 | 営業時間：11:00 ～ 19:00 | 鹿児島市交通局 | 市電「いづろ通」停留所より徒歩1分 | （山形屋様前・中町ベルク商店街入口） | お問い合わせ | Related Items | こんな商品も見られています | ポートフィノ・オートマティック デイ＆ナイト 34 | IW459805 | ¥3,173,500 | （税込） | New | パイロット・ウォッチ・クロノグラフ 41 “プティ・プランス” | IW388120 | ¥1,237,500 | （税込） | New | ビッグ・パイロット・ウォッチ・パーペチュアル・カレンダー・プロセット “プティ・プランス” | IW329601 | ¥",
+        "identityTitle": "IW371617 - ポルトギーゼ・クロノグラフ シルバー｜IWC"
+      },
+      "driveFiles": {
+        "raw": {
+          "id": "1WrKyMkmuC6HW_9wbTemVIwuJ7R2LhMZR",
+          "folderId": "1EwU4nbht13ay5Obti9bjywK4rWLCxK_T",
+          "sha256": "99f2dce4231a6fd84848e2c072da738dabae402f0ce8735b5a46b7dff23cc8ef"
+        },
+        "master": {
+          "id": "1K4Y9RKV5fgsQnm2XCEvWmx-8vymtTV74",
+          "folderId": "1vl6DzQFhMCHLjh0DcbZ5aM_s_TrZTW49",
+          "sha256": "e52c1a1e9159a97836c56ef8562ac62ce078fead33f566860c391242cc5a4972"
+        },
+        "web": {
+          "id": "1BNo75w82b-EKzHMyM7cGgQCwn4BIcR4g",
+          "folderId": "1lijATpBrmBmGnjmhTJmr0gpTa5YaOd8Z",
+          "sha256": "c49b1a7771f1060464558edaab5aaeb2b80075e90649721b99ba1a1fcfc8a5ee"
+        }
+      },
+      "commercialUseRightsConfirmed": true,
+      "rightsRecord": "PHOTOGRAPHY_ELEVEN_FOUNDER_RIGHTS_2026-10-15.json",
+      "publicationStatus": "Integrated; release checks and deployment pending"
+    },
+    {
+      "brand": "IWC",
+      "reference": "IW371615",
+      "exactSKU": "IW371615",
+      "sourceUrl": "https://www.jw-oomiya.co.jp/products/iw371615",
+      "sourcePagePath": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\retailer-source-iwc-IW371615-890db62e.html",
+      "sourcePageSha256": "d1f19531d589d8aefa098d3e615572ee339a8a24e42f9f1a49c29e34b8c42472",
+      "sourceProvider": "oomiya",
+      "imageUrl": "https://www.jw-oomiya.co.jp/cdn/shop/files/w8696_jpg.webp?v=1755424945",
+      "checkedAt": "2026-10-15T02:14:25.788298+00:00",
+      "rightsStatus": "Founder explicitly confirmed this exact original and white derivatives for commercial Quest Luxo website use; no additional restrictions",
+      "reviewStatus": "Complete authentic source RAW and final full-resolution WEB individually visually reviewed. Whole watch centered on white, no clipped ends, preserved white metal highlights, no overlays or captions.",
+      "size": [
+        1000,
+        1000
+      ],
+      "mode": "RGB",
+      "path": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\oomiya-iwc-six-native-originals\\IW371615-raw.jpg",
+      "sha256": "23b747a75b4dc1dbdfccf247629935c0994097b86db72ce0dd3855b9347b07b8",
+      "status": "Reviewed authentic original and white derivatives archived; rights held",
+      "whiteMaster": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\oomiya-iwc-six-white\\IW371615-white-master.png",
+      "webDerivative": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\oomiya-iwc-six-white\\IW371615-web.webp",
+      "masterSha256": "7d19e652f4bf570ea276d98bf2ab9ebecdd41beb33f7ce133b2beef407666b26",
+      "derivativeSha256": "b7332ffa602710f1143e1dac299b3964c3b43c228fb764eca2be821be6bb996b",
+      "collection": "Portugieser",
+      "canonicalRoute": "/collections/iwc/portugieser/iw371615",
+      "catalogMaterial": "Stainless Steel",
+      "catalogConfigurations": [
+        {
+          "caseSize": "41 mm",
+          "movement": "IWC 69355 automatic chronograph",
+          "dial": "Green",
+          "bracelet": "Black alligator leather strap",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "websiteApproved": false,
+      "processing": "Classical edge detection and graph-cut boundary refinement with fixed interior foreground; filled outer silhouette preserves all interior RGB and polished metal highlights. External cast shadow removed. Portofino exterior shadow tail excluded outside strap boundary. One-pixel edge antialiasing. Complete authentic watch centered on blank2400 white master and1200WEB; no generated watch detail.",
+      "foregroundBounds": [
+        224,
+        43,
+        768,
+        954
+      ],
+      "visualReviewPassed": true,
+      "exactSkuVerified": true,
+      "reviewedAt": "2026-10-15T02:22:04.173959+00:00",
+      "retailerSpecificationEvidence": {
+        "sourceUrl": "https://www.jw-oomiya.co.jp/products/iw371615",
+        "pageSha256": "d1f19531d589d8aefa098d3e615572ee339a8a24e42f9f1a49c29e34b8c42472",
+        "specificationExcerpt": "仕様 | ムーブメント | 自動巻きクロノグラフ（IWC自社製キャリバー69355） | ケース素材 | ステンレススティール | ベルト | アリゲーターストラップ | 防水 | 3気圧防水 | ケースサイズ | 41mm | その他特徴 | パワーリザーブ約46時間 | 振動数 28'800 回／時 (4 Hz) | 秒針停止機能付きスモールセコンド | 両面反射防止加工を施したドーム型サファイアガラス | ストップウォッチ機能（分・秒） | サファイアガラスのシースルー裏蓋 | 注意事項 | 掲載商品の色調は、お使いのモニターの設定や照明等により実物と異なる場合があります。 | アフターサポート | ご購入いただいた商品を末永くご愛用いただくために。 | 詳しくはこちら | ショッピングクレジット | 金利・手数料がかからない分割払いをご利用いただけます。 | 詳しくはこちら | Shop List | 取扱い店舗 | oomiya 和歌山本店 | oomiya 和歌山本店 | 和歌山県和歌山市栗栖755-1 | 073-474-0038 | 営業時間：11:00 ～ 19:00 | 阪和自動車道「和歌山IC」すぐ | JR「和歌山駅」より車で約10分 | お問い合わせ | oomiya 心斎橋店 | oomiya 心斎橋店 | 大阪市中央区南船場4-7-6 | 06-6251-0077 | 営業時間：11:00 ～ 19:00 | 【最寄り駅のご案内】 | 大阪メトロ | 御堂筋線「心斎橋駅」 | お問い合わせ | oomiya 京都店 | oomiya 京都店 | 京都市下京区立売西町72 | 075-229-6689 | 営業時間：11:00 ～ 19:00 | 【最寄り駅のご案内】 | 京都市営地下鉄「四条駅」 | 阪急京都線「烏丸駅」 | お問い合わせ | oomiya 仙台店 | oomiya 仙台店 | 仙台市青葉区一番町3-10-24 | 022-398-4838 | 営業時間：11:00 ～ 19:00 | 【最寄駅のご案内】 | 地下鉄東西線「青葉通一番町駅」 | 地下鉄南北線「広瀬通駅」 | お問い合わせ | oomiya 鹿児島店 | oomiya 鹿児島店 | 鹿児島市金生町2-11 | 099-219-9255 | 営業時間：11:00 ～ 19:00 | 鹿児島市交通局 | 市電「いづろ通」停留所より徒歩1分 | （山形屋様前・中町ベルク商店街入口） | お問い合わせ | Related Items | こんな商品も見られています | New | パイロット・ウォッチ オートマティック 41 “ジョージ・ラッセル” | IW328107 | ¥1,496,000 | （税込） | ポートフィノ・クロノグラフ 39 | IW391503 | ¥1,386,000 | （税込） | New | パイロット・ウォッチ・オートマティック 36 “プティ・プランス” | IW458802 | ¥905,300 | （税込） | ",
+        "identityTitle": "ポルトギーゼ・クロノグラフ - IW371615 グリーン｜IWC"
+      },
+      "driveFiles": {
+        "raw": {
+          "id": "1Y4yV_zAVmlTF5ZI1Q3B_tK1vt5av7Itf",
+          "folderId": "1EwU4nbht13ay5Obti9bjywK4rWLCxK_T",
+          "sha256": "23b747a75b4dc1dbdfccf247629935c0994097b86db72ce0dd3855b9347b07b8"
+        },
+        "master": {
+          "id": "1B7GTq_JxDCsZpTjgD6jsMLDboJLNslab",
+          "folderId": "1vl6DzQFhMCHLjh0DcbZ5aM_s_TrZTW49",
+          "sha256": "7d19e652f4bf570ea276d98bf2ab9ebecdd41beb33f7ce133b2beef407666b26"
+        },
+        "web": {
+          "id": "1TIcXdiF3EXHclceqkYop5CSh33PuuK9o",
+          "folderId": "1lijATpBrmBmGnjmhTJmr0gpTa5YaOd8Z",
+          "sha256": "b7332ffa602710f1143e1dac299b3964c3b43c228fb764eca2be821be6bb996b"
+        }
+      },
+      "commercialUseRightsConfirmed": true,
+      "rightsRecord": "PHOTOGRAPHY_ELEVEN_FOUNDER_RIGHTS_2026-10-15.json",
+      "publicationStatus": "Integrated; release checks and deployment pending"
+    },
+    {
+      "brand": "IWC",
+      "reference": "IW388101",
+      "exactSKU": "IW388101",
+      "sourceUrl": "https://www.jw-oomiya.co.jp/products/iw388101",
+      "sourcePagePath": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\retailer-source-iwc-IW388101-45563894.html",
+      "sourcePageSha256": "06e8528ed0d9702ead02f1f9fddde6517ea7f61cad440cf81d93cb4722d7fa29",
+      "sourceProvider": "oomiya",
+      "imageUrl": "https://www.jw-oomiya.co.jp/cdn/shop/files/w9060_jpg.webp?v=1755424944",
+      "checkedAt": "2026-10-15T02:14:25.789322+00:00",
+      "rightsStatus": "Founder explicitly confirmed this exact original and white derivatives for commercial Quest Luxo website use; no additional restrictions",
+      "reviewStatus": "Complete authentic source RAW and final full-resolution WEB individually visually reviewed. Whole watch centered on white, no clipped ends, preserved white metal highlights, no overlays or captions.",
+      "size": [
+        1000,
+        1000
+      ],
+      "mode": "RGB",
+      "path": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\oomiya-iwc-six-native-originals\\IW388101-raw.jpg",
+      "sha256": "12c13589fdb82464aaedf1f6b80ca26bb38a31cfa53cc71e532bcf8333f8fcb6",
+      "status": "Reviewed authentic original and white derivatives archived; rights held",
+      "whiteMaster": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\oomiya-iwc-six-white\\IW388101-white-master.png",
+      "webDerivative": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\oomiya-iwc-six-white\\IW388101-web.webp",
+      "masterSha256": "1cf83558fd67513852a47c9d7fedbd809d9153264090870d2edc43ea245f61c2",
+      "derivativeSha256": "11d1c578b08fc824126898deff8704c1cb2935ad9b5a135e766e206b1b12f63d",
+      "collection": "Pilot's Watches",
+      "canonicalRoute": "/collections/iwc/pilots-watches/iw388101",
+      "catalogMaterial": "Stainless Steel",
+      "catalogConfigurations": [
+        {
+          "caseSize": "41 mm",
+          "movement": "IWC 69385 automatic chronograph",
+          "dial": "Blue",
+          "bracelet": "Blue calfskin leather strap",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "websiteApproved": false,
+      "processing": "Classical edge detection and graph-cut boundary refinement with fixed interior foreground; filled outer silhouette preserves all interior RGB and polished metal highlights. External cast shadow removed. Portofino exterior shadow tail excluded outside strap boundary. One-pixel edge antialiasing. Complete authentic watch centered on blank2400 white master and1200WEB; no generated watch detail.",
+      "foregroundBounds": [
+        223,
+        40,
+        785,
+        958
+      ],
+      "visualReviewPassed": true,
+      "exactSkuVerified": true,
+      "reviewedAt": "2026-10-15T02:22:04.276766+00:00",
+      "retailerSpecificationEvidence": {
+        "sourceUrl": "https://www.jw-oomiya.co.jp/products/iw388101",
+        "pageSha256": "06e8528ed0d9702ead02f1f9fddde6517ea7f61cad440cf81d93cb4722d7fa29",
+        "specificationExcerpt": "仕様 | ムーブメント | 自動巻き（IWC自社製キャリバー 69385） | ケース素材 | ステンレススティール | ベルト | カーフストラップ | 防水 | 10気圧防水 | ケースサイズ | 41mm | その他特徴 | パワーリザーブ約46時間 | 振動数 28'800 回／時 (4 Hz) | 秒針停止機能付きスモールセコンド | 両面反射防止加工を施したドーム型サファイアガラス | ガラスで急激な気圧変化にも対応 | 日付・曜日表示 | ストップウォッチ機能（時・分・秒） | ねじ込み式リューズ | サファイアガラスのシースルー裏蓋 | クイック交換システム | 注意事項 | 掲載商品の色調は、お使いのモニターの設定や照明等により実物と異なる場合があります。 | アフターサポート | ご購入いただいた商品を末永くご愛用いただくために。 | 詳しくはこちら | ショッピングクレジット | 金利・手数料がかからない分割払いをご利用いただけます。 | 詳しくはこちら | Shop List | 取扱い店舗 | oomiya 和歌山本店 | oomiya 和歌山本店 | 和歌山県和歌山市栗栖755-1 | 073-474-0038 | 営業時間：11:00 ～ 19:00 | 阪和自動車道「和歌山IC」すぐ | JR「和歌山駅」より車で約10分 | お問い合わせ | oomiya 心斎橋店 | oomiya 心斎橋店 | 大阪市中央区南船場4-7-6 | 06-6251-0077 | 営業時間：11:00 ～ 19:00 | 【最寄り駅のご案内】 | 大阪メトロ | 御堂筋線「心斎橋駅」 | お問い合わせ | oomiya 京都店 | oomiya 京都店 | 京都市下京区立売西町72 | 075-229-6689 | 営業時間：11:00 ～ 19:00 | 【最寄り駅のご案内】 | 京都市営地下鉄「四条駅」 | 阪急京都線「烏丸駅」 | お問い合わせ | oomiya 仙台店 | oomiya 仙台店 | 仙台市青葉区一番町3-10-24 | 022-398-4838 | 営業時間：11:00 ～ 19:00 | 【最寄駅のご案内】 | 地下鉄東西線「青葉通一番町駅」 | 地下鉄南北線「広瀬通駅」 | お問い合わせ | oomiya 鹿児島店 | oomiya 鹿児島店 | 鹿児島市金生町2-11 | 099-219-9255 | 営業時間：11:00 ～ 19:00 | 鹿児島市交通局 | 市電「いづろ通」停留所より徒歩1分 | （山形屋様前・中町ベルク商店街入口） | お問い合わせ | Related Items | こんな商品も見られています | Limited | ポルトギーゼ・パーペチュアル・カレンダー・デジタル・デイト/マンス “75th アニバーサリー” | IW397204 | ¥5,775,000 | （税込） | パイロット・ウォッチ・マークXX “Mercedes-AMG PETRONAS Formula One™ Te",
+        "identityTitle": "パイロット・ウォッチ・クロノグラフ 41 - IW388101｜IWC"
+      },
+      "driveFiles": {
+        "raw": {
+          "id": "1juY4Mkthc8wvV4VqVKFdjnArp7WRONvn",
+          "folderId": "1EwU4nbht13ay5Obti9bjywK4rWLCxK_T",
+          "sha256": "12c13589fdb82464aaedf1f6b80ca26bb38a31cfa53cc71e532bcf8333f8fcb6"
+        },
+        "master": {
+          "id": "1gQnTxBte_TodXTDfO2HaJ5iR8BYsIu6F",
+          "folderId": "1vl6DzQFhMCHLjh0DcbZ5aM_s_TrZTW49",
+          "sha256": "1cf83558fd67513852a47c9d7fedbd809d9153264090870d2edc43ea245f61c2"
+        },
+        "web": {
+          "id": "1SVKL71Keeke839V2hkuJyG7_NZcqaZcU",
+          "folderId": "1lijATpBrmBmGnjmhTJmr0gpTa5YaOd8Z",
+          "sha256": "11d1c578b08fc824126898deff8704c1cb2935ad9b5a135e766e206b1b12f63d"
+        }
+      },
+      "commercialUseRightsConfirmed": true,
+      "rightsRecord": "PHOTOGRAPHY_ELEVEN_FOUNDER_RIGHTS_2026-10-15.json",
+      "publicationStatus": "Integrated; release checks and deployment pending"
+    },
+    {
+      "brand": "IWC",
+      "reference": "IW388102",
+      "exactSKU": "IW388102",
+      "sourceUrl": "https://www.jw-oomiya.co.jp/products/iw388102",
+      "sourcePagePath": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\retailer-source-iwc-IW388102-3b436bbd.html",
+      "sourcePageSha256": "5f38eaaf41945c1fda8d6726982a4ed468a3dfa4eb9d0431e27612fc11df9eb5",
+      "sourceProvider": "oomiya",
+      "imageUrl": "https://www.jw-oomiya.co.jp/cdn/shop/files/w9057_jpg.webp?v=1755424945",
+      "checkedAt": "2026-10-15T02:14:25.790834+00:00",
+      "rightsStatus": "Founder explicitly confirmed this exact original and white derivatives for commercial Quest Luxo website use; no additional restrictions",
+      "reviewStatus": "Complete authentic source RAW and final full-resolution WEB individually visually reviewed. Whole watch centered on white, no clipped ends, preserved white metal highlights, no overlays or captions.",
+      "size": [
+        1000,
+        1000
+      ],
+      "mode": "RGB",
+      "path": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\oomiya-iwc-six-native-originals\\IW388102-raw.jpg",
+      "sha256": "a3c886a9ef0f6cbee212a421f8b90c27ff2694cc2a8eeefc0a57c1f5433b5d92",
+      "status": "Reviewed authentic original and white derivatives archived; rights held",
+      "whiteMaster": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\oomiya-iwc-six-white\\IW388102-white-master.png",
+      "webDerivative": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\oomiya-iwc-six-white\\IW388102-web.webp",
+      "masterSha256": "eb228161c77ddc478fb7ad96ff771b1fe2c60d24a25130e560f74d0874712661",
+      "derivativeSha256": "42efd7ed98fc4ab19d4843f98218d117a94fc362a7a7e735b3b7cc2e761c8ba4",
+      "collection": "Pilot's Watch",
+      "canonicalRoute": "/collections/iwc/pilots-watch/iw388102",
+      "catalogMaterial": "Stainless Steel",
+      "catalogConfigurations": [
+        {
+          "nickname": "Pilot's Watch representative reference",
+          "dial": "Configuration details available through private advisory",
+          "bracelet": "Reference dependent",
+          "originalMSRP": null
+        }
+      ],
+      "websiteApproved": false,
+      "processing": "Classical edge detection and graph-cut boundary refinement with fixed interior foreground; filled outer silhouette preserves all interior RGB and polished metal highlights. External cast shadow removed. Portofino exterior shadow tail excluded outside strap boundary. One-pixel edge antialiasing. Complete authentic watch centered on blank2400 white master and1200WEB; no generated watch detail.",
+      "foregroundBounds": [
+        223,
+        38,
+        783,
+        963
+      ],
+      "visualReviewPassed": true,
+      "picturedConfiguration": {
+        "caseSize": "41 mm",
+        "movement": "IWC 69385 automatic chronograph",
+        "dial": "Blue",
+        "bracelet": "Stainless-steel bracelet"
+      },
+      "configurationEvidence": "Exact retailer reference page confirms blue dial, steel case and steel bracelet,41mm,automatic69385. Existing generic advisory configuration is preserved; add matching photographed configuration only when rights cleared.",
+      "exactSkuVerified": true,
+      "reviewedAt": "2026-10-15T02:22:04.382974+00:00",
+      "retailerSpecificationEvidence": {
+        "sourceUrl": "https://www.jw-oomiya.co.jp/products/iw388102",
+        "pageSha256": "5f38eaaf41945c1fda8d6726982a4ed468a3dfa4eb9d0431e27612fc11df9eb5",
+        "specificationExcerpt": "仕様 | ムーブメント | 自動巻き（IWC自社製キャリバー 69385） | ケース素材 | ステンレススティール | ベルト | ステンレススティール | 防水 | 10気圧防水 | ケースサイズ | 41mm | その他特徴 | パワーリザーブ約46時間 | 振動数 28'800 回／時 (4 Hz) | 秒針停止機能付きスモールセコンド | 両面反射防止加工を施したドーム型サファイアガラス | ガラスで急激な気圧変化にも対応 | 日付・曜日表示 | ストップウォッチ機能（時・分・秒） | ねじ込み式リューズ | サファイアガラスのシースルー裏蓋 | クイック交換システム | 注意事項 | 掲載商品の色調は、お使いのモニターの設定や照明等により実物と異なる場合があります。 | アフターサポート | ご購入いただいた商品を末永くご愛用いただくために。 | 詳しくはこちら | ショッピングクレジット | 金利・手数料がかからない分割払いをご利用いただけます。 | 詳しくはこちら | Shop List | 取扱い店舗 | oomiya 和歌山本店 | oomiya 和歌山本店 | 和歌山県和歌山市栗栖755-1 | 073-474-0038 | 営業時間：11:00 ～ 19:00 | 阪和自動車道「和歌山IC」すぐ | JR「和歌山駅」より車で約10分 | お問い合わせ | oomiya 心斎橋店 | oomiya 心斎橋店 | 大阪市中央区南船場4-7-6 | 06-6251-0077 | 営業時間：11:00 ～ 19:00 | 【最寄り駅のご案内】 | 大阪メトロ | 御堂筋線「心斎橋駅」 | お問い合わせ | oomiya 京都店 | oomiya 京都店 | 京都市下京区立売西町72 | 075-229-6689 | 営業時間：11:00 ～ 19:00 | 【最寄り駅のご案内】 | 京都市営地下鉄「四条駅」 | 阪急京都線「烏丸駅」 | お問い合わせ | oomiya 仙台店 | oomiya 仙台店 | 仙台市青葉区一番町3-10-24 | 022-398-4838 | 営業時間：11:00 ～ 19:00 | 【最寄駅のご案内】 | 地下鉄東西線「青葉通一番町駅」 | 地下鉄南北線「広瀬通駅」 | お問い合わせ | oomiya 鹿児島店 | oomiya 鹿児島店 | 鹿児島市金生町2-11 | 099-219-9255 | 営業時間：11:00 ～ 19:00 | 鹿児島市交通局 | 市電「いづろ通」停留所より徒歩1分 | （山形屋様前・中町ベルク商店街入口） | お問い合わせ | Related Items | こんな商品も見られています | ポルトギーゼ・オートマティック 40 | IW358404 | ¥3,778,500 | （税込） | ポートフィノ・クロノグラフ | IW391027 | ¥1,171,500 | （税込） | New | パイロット・ウォッチ・クロノグラフ 41 “プティ・プランス” | IW3894",
+        "identityTitle": "パイロット・ウォッチ・クロノグラフ 41 - IW388102｜IWC"
+      },
+      "driveFiles": {
+        "raw": {
+          "id": "1HrE6nAXwf3IzSIgWQSJxA7Zif4V6y_22",
+          "folderId": "1EwU4nbht13ay5Obti9bjywK4rWLCxK_T",
+          "sha256": "a3c886a9ef0f6cbee212a421f8b90c27ff2694cc2a8eeefc0a57c1f5433b5d92"
+        },
+        "master": {
+          "id": "14UL49pUMuNd7vlNrWY_5-DOSHaIlzXor",
+          "folderId": "1vl6DzQFhMCHLjh0DcbZ5aM_s_TrZTW49",
+          "sha256": "eb228161c77ddc478fb7ad96ff771b1fe2c60d24a25130e560f74d0874712661"
+        },
+        "web": {
+          "id": "1QtH7C_jIQsbiggjoXJTj9Di94KnNznq4",
+          "folderId": "1lijATpBrmBmGnjmhTJmr0gpTa5YaOd8Z",
+          "sha256": "42efd7ed98fc4ab19d4843f98218d117a94fc362a7a7e735b3b7cc2e761c8ba4"
+        }
+      },
+      "commercialUseRightsConfirmed": true,
+      "rightsRecord": "PHOTOGRAPHY_ELEVEN_FOUNDER_RIGHTS_2026-10-15.json",
+      "publicationStatus": "Integrated; release checks and deployment pending"
+    },
+    {
+      "brand": "IWC",
+      "reference": "IW356527",
+      "exactSKU": "IW356527",
+      "sourceUrl": "https://www.jw-oomiya.co.jp/products/iw356527",
+      "sourcePagePath": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\retailer-source-iwc-IW356527-0d681f33.html",
+      "sourcePageSha256": "5bb03784b0fcf694753d2f85413a1191171ce5e648696f29e05d1c7d93925add",
+      "sourceProvider": "oomiya",
+      "imageUrl": "https://www.jw-oomiya.co.jp/cdn/shop/files/w9501_jpg.webp?v=1755424940",
+      "checkedAt": "2026-10-15T02:14:26.360988+00:00",
+      "rightsStatus": "Founder explicitly confirmed this exact original and white derivatives for commercial Quest Luxo website use; no additional restrictions",
+      "reviewStatus": "Complete authentic source RAW and final full-resolution WEB individually visually reviewed. Whole watch centered on white, no clipped ends, preserved white metal highlights, no overlays or captions.",
+      "size": [
+        850,
+        850
+      ],
+      "mode": "RGB",
+      "path": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\oomiya-iwc-six-native-originals\\IW356527-raw.jpg",
+      "sha256": "e5d08ae7af273c13d36a80a9912a6212a733a02e89db6011431833d7397ea8c8",
+      "status": "Reviewed authentic original and white derivatives archived; rights held",
+      "whiteMaster": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\oomiya-iwc-six-white\\IW356527-white-master.png",
+      "webDerivative": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\oomiya-iwc-six-white\\IW356527-web.webp",
+      "masterSha256": "d508af96460573906759dd0776f29a698958ff9aac527c5ad1488ecbe300fb66",
+      "derivativeSha256": "cadc50bd5c57023e42b1ea298ff45f3968c3b9074359c1374deafdec4f97358f",
+      "collection": "Portofino",
+      "canonicalRoute": "/collections/iwc/portofino/iw356527",
+      "catalogMaterial": "Stainless Steel",
+      "catalogConfigurations": [
+        {
+          "caseSize": "40 mm",
+          "movement": "IWC 35111 automatic",
+          "dial": "Silver",
+          "bracelet": "Blue alligator leather strap",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "websiteApproved": false,
+      "processing": "Classical edge detection and graph-cut boundary refinement with fixed interior foreground; filled outer silhouette preserves all interior RGB and polished metal highlights. External cast shadow removed. Portofino exterior shadow tail excluded outside strap boundary. One-pixel edge antialiasing. Complete authentic watch centered on blank2400 white master and1200WEB; no generated watch detail.",
+      "foregroundBounds": [
+        207,
+        54,
+        645,
+        798
+      ],
+      "visualReviewPassed": true,
+      "exactSkuVerified": true,
+      "reviewedAt": "2026-10-15T02:22:04.515316+00:00",
+      "retailerSpecificationEvidence": {
+        "sourceUrl": "https://www.jw-oomiya.co.jp/products/iw356527",
+        "pageSha256": "5bb03784b0fcf694753d2f85413a1191171ce5e648696f29e05d1c7d93925add",
+        "specificationExcerpt": "仕様 | ムーブメント | 自動巻き（キャリバー 35111） | ケース素材 | ステンレススティール | ベルト | アリゲーターストラップ | 防水 | 3気圧防水 | ケースサイズ | 40mm | その他特徴 | パワーリザーブ約42時間 | 振動数 28'800 回／時 (4 Hz) | 秒針停止機能付きセンターセコンド | 両面反射防止加工を施したドーム型サファイアガラス | 日付表示 | 注意事項 | 掲載商品の色調は、お使いのモニターの設定や照明等により実物と異なる場合があります。 | アフターサポート | ご購入いただいた商品を末永くご愛用いただくために。 | 詳しくはこちら | ショッピングクレジット | 金利・手数料がかからない分割払いをご利用いただけます。 | 詳しくはこちら | Shop List | 取扱い店舗 | oomiya 和歌山本店 | oomiya 和歌山本店 | 和歌山県和歌山市栗栖755-1 | 073-474-0038 | 営業時間：11:00 ～ 19:00 | 阪和自動車道「和歌山IC」すぐ | JR「和歌山駅」より車で約10分 | お問い合わせ | oomiya 心斎橋店 | oomiya 心斎橋店 | 大阪市中央区南船場4-7-6 | 06-6251-0077 | 営業時間：11:00 ～ 19:00 | 【最寄り駅のご案内】 | 大阪メトロ | 御堂筋線「心斎橋駅」 | お問い合わせ | oomiya 京都店 | oomiya 京都店 | 京都市下京区立売西町72 | 075-229-6689 | 営業時間：11:00 ～ 19:00 | 【最寄り駅のご案内】 | 京都市営地下鉄「四条駅」 | 阪急京都線「烏丸駅」 | お問い合わせ | oomiya 仙台店 | oomiya 仙台店 | 仙台市青葉区一番町3-10-24 | 022-398-4838 | 営業時間：11:00 ～ 19:00 | 【最寄駅のご案内】 | 地下鉄東西線「青葉通一番町駅」 | 地下鉄南北線「広瀬通駅」 | お問い合わせ | oomiya 鹿児島店 | oomiya 鹿児島店 | 鹿児島市金生町2-11 | 099-219-9255 | 営業時間：11:00 ～ 19:00 | 鹿児島市交通局 | 市電「いづろ通」停留所より徒歩1分 | （山形屋様前・中町ベルク商店街入口） | お問い合わせ | Related Items | こんな商品も見られています | インヂュニア・パーペチュアル・カレンダー 41 | IW344903 | ¥6,710,000 | （税込） | ポルトギーゼ・パーペチュアル・カレンダー | IW503401 | ¥8,926,500 | （税込） | ポートフィノ・クロノグラフ | IW391031 | ¥1,171,500 | （税込） | アクアタイマー・クロノグラフ “エクスペディション・チャールズ・ダーウィン” | IW379503 | ¥1,925,000 | （税込） | ポートフィノ",
+        "identityTitle": "ポートフィノ・オートマティック - IW356527 自動巻き｜IWC"
+      },
+      "driveFiles": {
+        "raw": {
+          "id": "1bhSxz-kh6-MdBXODfum-809Fz_scYKzh",
+          "folderId": "1EwU4nbht13ay5Obti9bjywK4rWLCxK_T",
+          "sha256": "e5d08ae7af273c13d36a80a9912a6212a733a02e89db6011431833d7397ea8c8"
+        },
+        "master": {
+          "id": "154vIF9ijaT29QWrGICvnCQTuc-S1IoyF",
+          "folderId": "1vl6DzQFhMCHLjh0DcbZ5aM_s_TrZTW49",
+          "sha256": "d508af96460573906759dd0776f29a698958ff9aac527c5ad1488ecbe300fb66"
+        },
+        "web": {
+          "id": "1InidSxuQ4xDYjCqc6L_czViChzck49-w",
+          "folderId": "1lijATpBrmBmGnjmhTJmr0gpTa5YaOd8Z",
+          "sha256": "cadc50bd5c57023e42b1ea298ff45f3968c3b9074359c1374deafdec4f97358f"
+        }
+      },
+      "commercialUseRightsConfirmed": true,
+      "rightsRecord": "PHOTOGRAPHY_ELEVEN_FOUNDER_RIGHTS_2026-10-15.json",
+      "publicationStatus": "Integrated; release checks and deployment pending"
+    },
+    {
+      "brand": "IWC",
+      "reference": "IW328801",
+      "exactSKU": "IW328801",
+      "sourceUrl": "https://www.jw-oomiya.co.jp/products/iw328801",
+      "sourcePagePath": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\retailer-source-iwc-IW328801-b9e49b19.html",
+      "sourcePageSha256": "5951635fc9fafb156074c8c1e5c2e89f76ea93d55b99c2a8e3f4776aacbe1f81",
+      "sourceProvider": "oomiya",
+      "imageUrl": "https://www.jw-oomiya.co.jp/cdn/shop/files/w10272_jpg.webp?v=1755424937",
+      "checkedAt": "2026-10-15T02:14:26.363030+00:00",
+      "rightsStatus": "Founder explicitly confirmed this exact original and white derivatives for commercial Quest Luxo website use; no additional restrictions",
+      "reviewStatus": "Complete authentic source RAW and final full-resolution WEB individually visually reviewed. Whole watch centered on white, no clipped ends, preserved white metal highlights, no overlays or captions.",
+      "size": [
+        1000,
+        1000
+      ],
+      "mode": "RGB",
+      "path": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\oomiya-iwc-six-native-originals\\IW328801-raw.jpg",
+      "sha256": "54db4a3f06575ccedb3b18d28569a20a758065c8fa353162bcb9c9926f94f6ec",
+      "status": "Reviewed authentic original and white derivatives archived; rights held",
+      "whiteMaster": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\oomiya-iwc-six-white\\IW328801-white-master.png",
+      "webDerivative": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\oomiya-iwc-six-white\\IW328801-web.webp",
+      "masterSha256": "4cd93149e934ed420ec0d6eb19a1d6cf795f7882444568f723f87c62226f2c26",
+      "derivativeSha256": "f1c498bc1a895760578c8ad1ba92c761ee13977f4f32b00ea7ace10740f3d008",
+      "collection": "Aquatimer",
+      "canonicalRoute": "/collections/iwc/aquatimer/iw328801",
+      "catalogMaterial": "Stainless Steel",
+      "catalogConfigurations": [
+        {
+          "caseSize": "42 mm",
+          "movement": "IWC 32111 automatic",
+          "dial": "Blue",
+          "bracelet": "Blue rubber strap",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "websiteApproved": false,
+      "processing": "Classical edge detection and graph-cut boundary refinement with fixed interior foreground; filled outer silhouette preserves all interior RGB and polished metal highlights. External cast shadow removed. Portofino exterior shadow tail excluded outside strap boundary. One-pixel edge antialiasing. Complete authentic watch centered on blank2400 white master and1200WEB; no generated watch detail.",
+      "foregroundBounds": [
+        195,
+        33,
+        784,
+        967
+      ],
+      "visualReviewPassed": true,
+      "exactSkuVerified": true,
+      "reviewedAt": "2026-10-15T02:22:04.611812+00:00",
+      "retailerSpecificationEvidence": {
+        "sourceUrl": "https://www.jw-oomiya.co.jp/products/iw328801",
+        "pageSha256": "5951635fc9fafb156074c8c1e5c2e89f76ea93d55b99c2a8e3f4776aacbe1f81",
+        "specificationExcerpt": "仕様 | ムーブメント | 自動巻き（IWC自社製キャリバー 32111） | ケース素材 | ステンレススティール | ベルト | ラバーストラップ | 防水 | 30気圧防水 | ケースサイズ | 42mm | その他特徴 | パワーリザーブ約120時間 | 振動数 28'800 回／時 (4 Hz) | ねじ込み式リューズ | 秒針停止機能付きセンターセコンド | 両面反射防止加工を施したドーム型サファイアガラス | 日付表示 | セーフダイブ・システム付き機械式回転式アウター/インナーベゼル | クイック交換システム | 注意事項 | 掲載商品の色調は、お使いのモニターの設定や照明等により実物と異なる場合があります。 | アフターサポート | ご購入いただいた商品を末永くご愛用いただくために。 | 詳しくはこちら | ショッピングクレジット | 金利・手数料がかからない分割払いをご利用いただけます。 | 詳しくはこちら | Shop List | 取扱い店舗 | oomiya 和歌山本店 | oomiya 和歌山本店 | 和歌山県和歌山市栗栖755-1 | 073-474-0038 | 営業時間：11:00 ～ 19:00 | 阪和自動車道「和歌山IC」すぐ | JR「和歌山駅」より車で約10分 | お問い合わせ | oomiya 心斎橋店 | oomiya 心斎橋店 | 大阪市中央区南船場4-7-6 | 06-6251-0077 | 営業時間：11:00 ～ 19:00 | 【最寄り駅のご案内】 | 大阪メトロ | 御堂筋線「心斎橋駅」 | お問い合わせ | oomiya 京都店 | oomiya 京都店 | 京都市下京区立売西町72 | 075-229-6689 | 営業時間：11:00 ～ 19:00 | 【最寄り駅のご案内】 | 京都市営地下鉄「四条駅」 | 阪急京都線「烏丸駅」 | お問い合わせ | oomiya 仙台店 | oomiya 仙台店 | 仙台市青葉区一番町3-10-24 | 022-398-4838 | 営業時間：11:00 ～ 19:00 | 【最寄駅のご案内】 | 地下鉄東西線「青葉通一番町駅」 | 地下鉄南北線「広瀬通駅」 | お問い合わせ | oomiya 鹿児島店 | oomiya 鹿児島店 | 鹿児島市金生町2-11 | 099-219-9255 | 営業時間：11:00 ～ 19:00 | 鹿児島市交通局 | 市電「いづろ通」停留所より徒歩1分 | （山形屋様前・中町ベルク商店街入口） | お問い合わせ | Related Items | こんな商品も見られています | New | ビッグ・パイロット・ウォッチ・パーペチュアル・カレンダー・プロセット “プティ・プランス” | IW329601 | ¥6,204,000 | （税込） | パイロット・ウォッチ・マークXX “Mercedes-AMG PETRONAS Formula One™ Team” | IW328210 | ¥1,138,500 | （税",
+        "identityTitle": "アクアタイマー・オートマティック - IW328801｜IWC"
+      },
+      "driveFiles": {
+        "raw": {
+          "id": "1HWZDjwm8FtRUAaJ4abY_KQsbdqjqPxVT",
+          "folderId": "1EwU4nbht13ay5Obti9bjywK4rWLCxK_T",
+          "sha256": "54db4a3f06575ccedb3b18d28569a20a758065c8fa353162bcb9c9926f94f6ec"
+        },
+        "master": {
+          "id": "1dF1uxssyKInrRVGG5_Yq8cKr64hBcb19",
+          "folderId": "1vl6DzQFhMCHLjh0DcbZ5aM_s_TrZTW49",
+          "sha256": "4cd93149e934ed420ec0d6eb19a1d6cf795f7882444568f723f87c62226f2c26"
+        },
+        "web": {
+          "id": "135eBZ7OMRAGPypKsHxD4Vn90-kln8faq",
+          "folderId": "1lijATpBrmBmGnjmhTJmr0gpTa5YaOd8Z",
+          "sha256": "f1c498bc1a895760578c8ad1ba92c761ee13977f4f32b00ea7ace10740f3d008"
+        }
+      },
+      "commercialUseRightsConfirmed": true,
+      "rightsRecord": "PHOTOGRAPHY_ELEVEN_FOUNDER_RIGHTS_2026-10-15.json",
+      "publicationStatus": "Integrated; release checks and deployment pending"
+    }
+  ],
+  "title": "Seven IWC and one gray Omega exact-reference sets reviewed; rights held",
+  "rightsHeldSets": 0,
+  "archivedAt": "2026-10-15T02:25:48.174880+00:00",
+  "driveFilesArchived": 24,
+  "archiveReadbackStatus": "All24 upload receipts confirm file name,ID,parent and success; all local RAW/master/WEB hashes verified. No claim of full binary readback for these24 files.",
+  "approvedForPublication": true,
+  "founderRightsRecord": "PHOTOGRAPHY_ELEVEN_FOUNDER_RIGHTS_2026-10-15.json",
+  "publicationStatus": "Integrated; final checks and deployment pending"
+}

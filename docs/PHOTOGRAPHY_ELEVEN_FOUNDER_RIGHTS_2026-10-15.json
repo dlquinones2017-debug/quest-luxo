@@ -1,0 +1,81 @@
+{
+  "recordedAt": "2026-10-15T02:28:05.465071+00:00",
+  "founderDecisionDateEastern": "2026-10-14",
+  "evidenceType": "Direct human founder response in existing Website/Product chat",
+  "questionItemId": "call_ba9db0a5b29b48fdb94af3e3f915c896",
+  "founderAnswer": "Rights cover all eleven and derivatives; no additional restrictions",
+  "scope": "Commercial Quest Luxo website use of these eleven exact retailer originals and white-background derivatives only",
+  "sourceLedgerDriveIds": [
+    "16tUG4ddf5T0YJn0QhETxvdxyOxbXMEFb",
+    "1A4bF38mtMAjnIWW2SwRFgG8O7gy-xktG"
+  ],
+  "references": [
+    {
+      "brand": "Omega",
+      "reference": "220.50.38.20.03.001",
+      "sourceProvider": "Juwelier CWM",
+      "rawSha256": "67f1481369ba33f641f84b93baa4c332853effb0f36b195a43f6fe82e33e2343"
+    },
+    {
+      "brand": "Omega",
+      "reference": "220.20.30.20.10.002",
+      "sourceProvider": "Juwelier Boehnlein",
+      "rawSha256": "cd49592b3e8d56038d7edfdc94e90d29a627acd1c0eac888f824a06ed040c003"
+    },
+    {
+      "brand": "Omega",
+      "reference": "131.10.28.60.60.002",
+      "sourceProvider": "CJ Charles Jewelers",
+      "rawSha256": "e197d789822f3ef69d11f38e7b72dc30bb0a6883bb1c2cc0c94e42b300238282"
+    },
+    {
+      "brand": "Omega",
+      "reference": "131.10.28.60.56.001",
+      "sourceProvider": "TANAKA",
+      "rawSha256": "719c20d758118e9f2bca5f0f15d51e648e28c35dc0a353f503feeecb5f808714"
+    },
+    {
+      "brand": "IWC",
+      "reference": "IW328901",
+      "sourceProvider": "oomiya",
+      "rawSha256": "00daaf481878f6f4a9030bcfbe177d3d3f0cc9d6917ef2927998f550187c3978"
+    },
+    {
+      "brand": "IWC",
+      "reference": "IW371617",
+      "sourceProvider": "oomiya",
+      "rawSha256": "99f2dce4231a6fd84848e2c072da738dabae402f0ce8735b5a46b7dff23cc8ef"
+    },
+    {
+      "brand": "IWC",
+      "reference": "IW371615",
+      "sourceProvider": "oomiya",
+      "rawSha256": "23b747a75b4dc1dbdfccf247629935c0994097b86db72ce0dd3855b9347b07b8"
+    },
+    {
+      "brand": "IWC",
+      "reference": "IW388101",
+      "sourceProvider": "oomiya",
+      "rawSha256": "12c13589fdb82464aaedf1f6b80ca26bb38a31cfa53cc71e532bcf8333f8fcb6"
+    },
+    {
+      "brand": "IWC",
+      "reference": "IW388102",
+      "sourceProvider": "oomiya",
+      "rawSha256": "a3c886a9ef0f6cbee212a421f8b90c27ff2694cc2a8eeefc0a57c1f5433b5d92"
+    },
+    {
+      "brand": "IWC",
+      "reference": "IW356527",
+      "sourceProvider": "oomiya",
+      "rawSha256": "e5d08ae7af273c13d36a80a9912a6212a733a02e89db6011431833d7397ea8c8"
+    },
+    {
+      "brand": "IWC",
+      "reference": "IW328801",
+      "sourceProvider": "oomiya",
+      "rawSha256": "54db4a3f06575ccedb3b18d28569a20a758065c8fa353162bcb9c9926f94f6ec"
+    }
+  ],
+  "noScopeExtension": "No rights asserted for future originals outside these eleven sets"
+}

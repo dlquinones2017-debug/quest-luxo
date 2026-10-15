@@ -265,3 +265,13 @@ Independent acquisition continues: two complete Navitimer 46 manufacturer origin
 - Built full-site coverage:169/268 reference URLs,69/103 collections;99 still queued. Production remains126/268 until deployment verification.
 - Final246 regressions passed; Astro0errors/0warnings/21hints; source/photo/hash/queue audits and build passed. All43 built routes, images, collection grids, separate credits and public inquiry contexts verified. Desktop/mobile visual QA passed. A one-property sourcing-heading text-wrap fix eliminates long-reference mobile overflow without changing breadcrumb behavior.
 - Existing Zenith alias and robots build warnings retained. No private lead reads, form submissions, customer records, credentials or persistent disk changes.
+
+
+## Forty three photograph release verified live
+
+Commit 0ea41e90773767a38583754c3e3ab892477e1df5 and Render dep-db835vlg1s2s73f5ujug are LIVE. Full independent production verification passed all268 distinct reference URLs, all168 distinct image hashes and public discovery/intake/credits/health routes. Targeted verification passed all43 new exact configurations, collection grids, separate credits and public inquiry contexts. Coverage is169/268 references and69/103 collections;99 references remain queued. All43 current sets are founder-cleared and published, superseding earlier rights holds. Mobile production watch presentation and exact-reference CTA context passed. No customer data read or submissions created. Canonical master addendum and remaining99 acquisition continue.
+
+
+## Eleven additional cleared photographs release ready
+
+Four Omega and seven IWC exact photographs are integrated through the established approval gate. Founder directly confirmed all eleven originals/white derivatives without restrictions. All33 files are archived. Generic IW388102 advisory configuration is preserved with a verified blue/steel-bracelet photographed configuration. Built target180/268 references,75/103 collections;88 remain queued. Final246 regressions passed after queue synchronization and replacing the obsolete fixed one-photo queue test with exact approval/rights/hash consistency checks. Astro0errors/0warnings, photography audits, build, all11 built routes/grids/credits/inquiry contexts and desktop/mobile QA passed. Production remains169 until this release is deployed and verified. No routes or customer data changed.

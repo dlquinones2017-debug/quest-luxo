@@ -6,8 +6,8 @@
   "summary": {
     "references": 44,
     "brands": 11,
-    "approvedForImageRelease": 7,
-    "tasksAwaitingExactImageRightsReview": 37
+    "approvedForImageRelease": 13,
+    "tasksAwaitingExactImageRightsReview": 31
   },
   "queue": [
     {
@@ -293,13 +293,13 @@
       },
       "identitySource": "https://www.iwc.com/us-en/watches/aquatimer/iw328801-aquatimer-automatic",
       "priorityScore": 67,
-      "status": "RIGHTS_AND_EXACT_CONFIGURATION_REVIEW_REQUIRED",
-      "rawSourceFileId": null,
-      "webDerivativePath": null,
-      "webDerivativeSHA256": null,
-      "reviewer": null,
-      "commercialUseRightsRecord": null,
-      "notes": "Do not publish until approvedPhotograph verifies commercial rights and exact reference, and WEB image checksum matches stored file."
+      "status": "APPROVED_WITH_VALID_DERIVATIVE",
+      "rawSourceFileId": "1HWZDjwm8FtRUAaJ4abY_KQsbdqjqPxVT",
+      "webDerivativePath": "/images/watches/iwc/reviewed-iw328801-white-web.webp",
+      "webDerivativeSHA256": "f1c498bc1a895760578c8ad1ba92c761ee13977f4f32b00ea7ace10740f3d008",
+      "reviewer": "Quest Luxo execution review with founder website-use clearance",
+      "commercialUseRightsRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for these exact eleven originals and white-background derivatives with no additional restrictions on October14,2026 Eastern. Record docs/PHOTOGRAPHY_ELEVEN_FOUNDER_RIGHTS_2026-10-15.json. Authentic complete RAW and final white WEB individually visually reviewed; source credits retained separately. Preserved RAW file: 1HWZDjwm8FtRUAaJ4abY_KQsbdqjqPxVT. Pictured full reference IW328801; Stainless Steel, Blue, Blue rubber strap. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "notes": "Exact approvedPhotograph gate and local derivative SHA-256 validated; preserve approved source and separate source attribution."
     },
     {
       "brand": "Franck Muller",
@@ -389,13 +389,13 @@
       },
       "identitySource": "https://www.iwc.com/us-en/watches/portugieser/iw371615-portugieser-chronograph",
       "priorityScore": 64,
-      "status": "RIGHTS_AND_EXACT_CONFIGURATION_REVIEW_REQUIRED",
-      "rawSourceFileId": null,
-      "webDerivativePath": null,
-      "webDerivativeSHA256": null,
-      "reviewer": null,
-      "commercialUseRightsRecord": null,
-      "notes": "Do not publish until approvedPhotograph verifies commercial rights and exact reference, and WEB image checksum matches stored file."
+      "status": "APPROVED_WITH_VALID_DERIVATIVE",
+      "rawSourceFileId": "1Y4yV_zAVmlTF5ZI1Q3B_tK1vt5av7Itf",
+      "webDerivativePath": "/images/watches/iwc/reviewed-iw371615-white-web.webp",
+      "webDerivativeSHA256": "b7332ffa602710f1143e1dac299b3964c3b43c228fb764eca2be821be6bb996b",
+      "reviewer": "Quest Luxo execution review with founder website-use clearance",
+      "commercialUseRightsRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for these exact eleven originals and white-background derivatives with no additional restrictions on October14,2026 Eastern. Record docs/PHOTOGRAPHY_ELEVEN_FOUNDER_RIGHTS_2026-10-15.json. Authentic complete RAW and final white WEB individually visually reviewed; source credits retained separately. Preserved RAW file: 1Y4yV_zAVmlTF5ZI1Q3B_tK1vt5av7Itf. Pictured full reference IW371615; Stainless Steel, Green, Black alligator leather strap. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "notes": "Exact approvedPhotograph gate and local derivative SHA-256 validated; preserve approved source and separate source attribution."
     },
     {
       "brand": "IWC",
@@ -413,13 +413,13 @@
       },
       "identitySource": "https://www.iwc.com/us-en/watches/pilot-watches/iw388101-pilots-watch-chronograph-41",
       "priorityScore": 64,
-      "status": "RIGHTS_AND_EXACT_CONFIGURATION_REVIEW_REQUIRED",
-      "rawSourceFileId": null,
-      "webDerivativePath": null,
-      "webDerivativeSHA256": null,
-      "reviewer": null,
-      "commercialUseRightsRecord": null,
-      "notes": "Do not publish until approvedPhotograph verifies commercial rights and exact reference, and WEB image checksum matches stored file."
+      "status": "APPROVED_WITH_VALID_DERIVATIVE",
+      "rawSourceFileId": "1juY4Mkthc8wvV4VqVKFdjnArp7WRONvn",
+      "webDerivativePath": "/images/watches/iwc/reviewed-iw388101-white-web.webp",
+      "webDerivativeSHA256": "11d1c578b08fc824126898deff8704c1cb2935ad9b5a135e766e206b1b12f63d",
+      "reviewer": "Quest Luxo execution review with founder website-use clearance",
+      "commercialUseRightsRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for these exact eleven originals and white-background derivatives with no additional restrictions on October14,2026 Eastern. Record docs/PHOTOGRAPHY_ELEVEN_FOUNDER_RIGHTS_2026-10-15.json. Authentic complete RAW and final white WEB individually visually reviewed; source credits retained separately. Preserved RAW file: 1juY4Mkthc8wvV4VqVKFdjnArp7WRONvn. Pictured full reference IW388101; Stainless Steel, Blue, Blue calfskin leather strap. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "notes": "Exact approvedPhotograph gate and local derivative SHA-256 validated; preserve approved source and separate source attribution."
     },
     {
       "brand": "Breitling",
@@ -653,13 +653,13 @@
       },
       "identitySource": "https://www.iwc.com/us-en/watches/ingenieur/iw328901-ingenieur-automatic-40",
       "priorityScore": 60,
-      "status": "RIGHTS_AND_EXACT_CONFIGURATION_REVIEW_REQUIRED",
-      "rawSourceFileId": null,
-      "webDerivativePath": null,
-      "webDerivativeSHA256": null,
-      "reviewer": null,
-      "commercialUseRightsRecord": null,
-      "notes": "Do not publish until approvedPhotograph verifies commercial rights and exact reference, and WEB image checksum matches stored file."
+      "status": "APPROVED_WITH_VALID_DERIVATIVE",
+      "rawSourceFileId": "1NbPs6wv7hh9fVz0nrb74_P5z2yjFGRgc",
+      "webDerivativePath": "/images/watches/iwc/reviewed-iw328901-white-web.webp",
+      "webDerivativeSHA256": "5771db0e39ef80e6f253e39534101c2a3f5817496caca90a90eae71b0770e6db",
+      "reviewer": "Quest Luxo execution review with founder website-use clearance",
+      "commercialUseRightsRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for these exact eleven originals and white-background derivatives with no additional restrictions on October14,2026 Eastern. Record docs/PHOTOGRAPHY_ELEVEN_FOUNDER_RIGHTS_2026-10-15.json. Authentic complete RAW and final white WEB individually visually reviewed; source credits retained separately. Preserved RAW file: 1NbPs6wv7hh9fVz0nrb74_P5z2yjFGRgc. Pictured full reference IW328901; Stainless Steel, Black, Stainless-steel bracelet. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "notes": "Exact approvedPhotograph gate and local derivative SHA-256 validated; preserve approved source and separate source attribution."
     },
     {
       "brand": "IWC",
@@ -677,13 +677,13 @@
       },
       "identitySource": "https://www.iwc.com/us-en/watches/portofino/iw356527-portofino-automatic",
       "priorityScore": 60,
-      "status": "RIGHTS_AND_EXACT_CONFIGURATION_REVIEW_REQUIRED",
-      "rawSourceFileId": null,
-      "webDerivativePath": null,
-      "webDerivativeSHA256": null,
-      "reviewer": null,
-      "commercialUseRightsRecord": null,
-      "notes": "Do not publish until approvedPhotograph verifies commercial rights and exact reference, and WEB image checksum matches stored file."
+      "status": "APPROVED_WITH_VALID_DERIVATIVE",
+      "rawSourceFileId": "1bhSxz-kh6-MdBXODfum-809Fz_scYKzh",
+      "webDerivativePath": "/images/watches/iwc/reviewed-iw356527-white-web.webp",
+      "webDerivativeSHA256": "cadc50bd5c57023e42b1ea298ff45f3968c3b9074359c1374deafdec4f97358f",
+      "reviewer": "Quest Luxo execution review with founder website-use clearance",
+      "commercialUseRightsRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for these exact eleven originals and white-background derivatives with no additional restrictions on October14,2026 Eastern. Record docs/PHOTOGRAPHY_ELEVEN_FOUNDER_RIGHTS_2026-10-15.json. Authentic complete RAW and final white WEB individually visually reviewed; source credits retained separately. Preserved RAW file: 1bhSxz-kh6-MdBXODfum-809Fz_scYKzh. Pictured full reference IW356527; Stainless Steel, Silver, Blue alligator leather strap. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "notes": "Exact approvedPhotograph gate and local derivative SHA-256 validated; preserve approved source and separate source attribution."
     },
     {
       "brand": "IWC",
@@ -701,13 +701,13 @@
       },
       "identitySource": "https://www.iwc.com/us-en/watches/portugieser/iw371617-portugieser-chronograph",
       "priorityScore": 60,
-      "status": "RIGHTS_AND_EXACT_CONFIGURATION_REVIEW_REQUIRED",
-      "rawSourceFileId": null,
-      "webDerivativePath": null,
-      "webDerivativeSHA256": null,
-      "reviewer": null,
-      "commercialUseRightsRecord": null,
-      "notes": "Do not publish until approvedPhotograph verifies commercial rights and exact reference, and WEB image checksum matches stored file."
+      "status": "APPROVED_WITH_VALID_DERIVATIVE",
+      "rawSourceFileId": "1WrKyMkmuC6HW_9wbTemVIwuJ7R2LhMZR",
+      "webDerivativePath": "/images/watches/iwc/reviewed-iw371617-white-web.webp",
+      "webDerivativeSHA256": "c49b1a7771f1060464558edaab5aaeb2b80075e90649721b99ba1a1fcfc8a5ee",
+      "reviewer": "Quest Luxo execution review with founder website-use clearance",
+      "commercialUseRightsRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for these exact eleven originals and white-background derivatives with no additional restrictions on October14,2026 Eastern. Record docs/PHOTOGRAPHY_ELEVEN_FOUNDER_RIGHTS_2026-10-15.json. Authentic complete RAW and final white WEB individually visually reviewed; source credits retained separately. Preserved RAW file: 1WrKyMkmuC6HW_9wbTemVIwuJ7R2LhMZR. Pictured full reference IW371617; Stainless Steel, Silver, Stainless-steel bracelet. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "notes": "Exact approvedPhotograph gate and local derivative SHA-256 validated; preserve approved source and separate source attribution."
     },
     {
       "brand": "Cartier",
@@ -1070,5 +1070,5 @@
       "notes": "Do not publish until approvedPhotograph verifies commercial rights and exact reference, and WEB image checksum matches stored file."
     }
   ],
-  "updatedAt": "2026-10-15T01:56:12.611Z"
+  "updatedAt": "2026-10-15T02:28:59.942Z"
 }

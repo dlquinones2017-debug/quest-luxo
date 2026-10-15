@@ -1,17 +1,17 @@
 {
-  "reviewedAt": "2026-10-15T01:53:31.411Z",
+  "reviewedAt": "2026-10-15T02:31:41.685Z",
   "scope": "All verified-catalog-expansion.ts references only; excludes legacy inventory",
   "policy": "Source URL is NOT image-rights evidence. Exact watch, strap, dial, material, white-canvas original, licensing, website approval and actual derivative SHA256 are required.",
   "summary": {
     "expansionReferences": 99,
     "brands": 12,
     "collections": 42,
-    "approvedValidReferences": 41,
+    "approvedValidReferences": 51,
     "missingApprovedDerivative": 0,
     "checksumFailures": 0,
-    "acquisitionRequired": 58,
-    "notReleaseReady": 58,
-    "imageCoveragePercent": 41.4
+    "acquisitionRequired": 48,
+    "notReleaseReady": 48,
+    "imageCoveragePercent": 51.5
   },
   "byBrand": [
     {
@@ -47,14 +47,14 @@
     {
       "brand": "IWC",
       "references": 8,
-      "approved": 0,
-      "outstanding": 8
+      "approved": 6,
+      "outstanding": 2
     },
     {
       "brand": "Omega",
       "references": 55,
-      "approved": 34,
-      "outstanding": 21
+      "approved": 38,
+      "outstanding": 17
     },
     {
       "brand": "Panerai",
@@ -1005,13 +1005,13 @@
       },
       "specificationSource": "https://press.omegawatches.com/omega-festive-season-2025/",
       "score": 69,
-      "status": "ACQUISITION_REQUIRED",
-      "photoAssetId": null,
-      "derivativePath": null,
-      "recordedSha256": null,
-      "actualSha256": null,
-      "rightsRecord": null,
-      "nextAction": "Source authentic exact-reference original; obtain commercial-use license and provenance, prepare approved full-watch white-canvas derivative and register the matching SHA-256."
+      "status": "APPROVED_WITH_VALID_DERIVATIVE",
+      "photoAssetId": "cleared-eleven-1t7GxZQszLmwpZ5k2OEVg2V9C0sP7syCE",
+      "derivativePath": "/images/watches/omega/reviewed-220-20-30-20-10-002-white-web.webp",
+      "recordedSha256": "1f9f61d5d2a76a67f35d49daeee0b0f5a9895ea1b07740e7e66c9c7f7bec16f2",
+      "actualSha256": "1f9f61d5d2a76a67f35d49daeee0b0f5a9895ea1b07740e7e66c9c7f7bec16f2",
+      "rightsRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for these exact eleven originals and white-background derivatives with no additional restrictions on October14,2026 Eastern. Record docs/PHOTOGRAPHY_ELEVEN_FOUNDER_RIGHTS_2026-10-15.json. Authentic complete RAW and final white WEB individually visually reviewed; source credits retained separately. Preserved RAW file: 1t7GxZQszLmwpZ5k2OEVg2V9C0sP7syCE. Pictured full reference 220.20.30.20.10.002; Stainless Steel and 18K Sedna Gold, Pine green sun-brushed non-wave, Steel and Sedna Gold bracelet. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "nextAction": "Retain approved source, white-canvas derivative, attribution and reference mapping."
     },
     {
       "brand": "Omega",
@@ -1030,13 +1030,13 @@
       },
       "specificationSource": "https://press.omegawatches.com/omega-at-the-83rd-annual-golden-globes/",
       "score": 69,
-      "status": "ACQUISITION_REQUIRED",
-      "photoAssetId": null,
-      "derivativePath": null,
-      "recordedSha256": null,
-      "actualSha256": null,
-      "rightsRecord": null,
-      "nextAction": "Source authentic exact-reference original; obtain commercial-use license and provenance, prepare approved full-watch white-canvas derivative and register the matching SHA-256."
+      "status": "APPROVED_WITH_VALID_DERIVATIVE",
+      "photoAssetId": "cleared-eleven-17XgsKoRBD3UkVS-mpOiGD8wmwpybOxP8",
+      "derivativePath": "/images/watches/omega/reviewed-220-50-38-20-03-001-white-web.webp",
+      "recordedSha256": "dcb669a5ccffcf30f5b553972f0ece49e2c939af211fd08f51847ea94e90ac8b",
+      "actualSha256": "dcb669a5ccffcf30f5b553972f0ece49e2c939af211fd08f51847ea94e90ac8b",
+      "rightsRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for these exact eleven originals and white-background derivatives with no additional restrictions on October14,2026 Eastern. Record docs/PHOTOGRAPHY_ELEVEN_FOUNDER_RIGHTS_2026-10-15.json. Authentic complete RAW and final white WEB individually visually reviewed; source credits retained separately. Preserved RAW file: 17XgsKoRBD3UkVS-mpOiGD8wmwpybOxP8. Pictured full reference 220.50.38.20.03.001; 18K Moonshine Gold, Blue non-wave, 18K Moonshine Gold bracelet. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "nextAction": "Retain approved source, white-canvas derivative, attribution and reference mapping."
     },
     {
       "brand": "Omega",
@@ -1205,13 +1205,13 @@
       },
       "specificationSource": "https://www.iwc.com/us-en/watches/aquatimer/iw328801-aquatimer-automatic",
       "score": 67,
-      "status": "ACQUISITION_REQUIRED",
-      "photoAssetId": null,
-      "derivativePath": null,
-      "recordedSha256": null,
-      "actualSha256": null,
-      "rightsRecord": null,
-      "nextAction": "Source authentic exact-reference original; obtain commercial-use license and provenance, prepare approved full-watch white-canvas derivative and register the matching SHA-256."
+      "status": "APPROVED_WITH_VALID_DERIVATIVE",
+      "photoAssetId": "cleared-eleven-1HWZDjwm8FtRUAaJ4abY_KQsbdqjqPxVT",
+      "derivativePath": "/images/watches/iwc/reviewed-iw328801-white-web.webp",
+      "recordedSha256": "f1c498bc1a895760578c8ad1ba92c761ee13977f4f32b00ea7ace10740f3d008",
+      "actualSha256": "f1c498bc1a895760578c8ad1ba92c761ee13977f4f32b00ea7ace10740f3d008",
+      "rightsRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for these exact eleven originals and white-background derivatives with no additional restrictions on October14,2026 Eastern. Record docs/PHOTOGRAPHY_ELEVEN_FOUNDER_RIGHTS_2026-10-15.json. Authentic complete RAW and final white WEB individually visually reviewed; source credits retained separately. Preserved RAW file: 1HWZDjwm8FtRUAaJ4abY_KQsbdqjqPxVT. Pictured full reference IW328801; Stainless Steel, Blue, Blue rubber strap. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "nextAction": "Retain approved source, white-canvas derivative, attribution and reference mapping."
     },
     {
       "brand": "Omega",
@@ -1330,13 +1330,13 @@
       },
       "specificationSource": "https://www.iwc.com/us-en/watches/portugieser/iw371615-portugieser-chronograph",
       "score": 64,
-      "status": "ACQUISITION_REQUIRED",
-      "photoAssetId": null,
-      "derivativePath": null,
-      "recordedSha256": null,
-      "actualSha256": null,
-      "rightsRecord": null,
-      "nextAction": "Source authentic exact-reference original; obtain commercial-use license and provenance, prepare approved full-watch white-canvas derivative and register the matching SHA-256."
+      "status": "APPROVED_WITH_VALID_DERIVATIVE",
+      "photoAssetId": "cleared-eleven-1Y4yV_zAVmlTF5ZI1Q3B_tK1vt5av7Itf",
+      "derivativePath": "/images/watches/iwc/reviewed-iw371615-white-web.webp",
+      "recordedSha256": "b7332ffa602710f1143e1dac299b3964c3b43c228fb764eca2be821be6bb996b",
+      "actualSha256": "b7332ffa602710f1143e1dac299b3964c3b43c228fb764eca2be821be6bb996b",
+      "rightsRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for these exact eleven originals and white-background derivatives with no additional restrictions on October14,2026 Eastern. Record docs/PHOTOGRAPHY_ELEVEN_FOUNDER_RIGHTS_2026-10-15.json. Authentic complete RAW and final white WEB individually visually reviewed; source credits retained separately. Preserved RAW file: 1Y4yV_zAVmlTF5ZI1Q3B_tK1vt5av7Itf. Pictured full reference IW371615; Stainless Steel, Green, Black alligator leather strap. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "nextAction": "Retain approved source, white-canvas derivative, attribution and reference mapping."
     },
     {
       "brand": "IWC",
@@ -1355,13 +1355,13 @@
       },
       "specificationSource": "https://www.iwc.com/us-en/watches/pilot-watches/iw388101-pilots-watch-chronograph-41",
       "score": 64,
-      "status": "ACQUISITION_REQUIRED",
-      "photoAssetId": null,
-      "derivativePath": null,
-      "recordedSha256": null,
-      "actualSha256": null,
-      "rightsRecord": null,
-      "nextAction": "Source authentic exact-reference original; obtain commercial-use license and provenance, prepare approved full-watch white-canvas derivative and register the matching SHA-256."
+      "status": "APPROVED_WITH_VALID_DERIVATIVE",
+      "photoAssetId": "cleared-eleven-1juY4Mkthc8wvV4VqVKFdjnArp7WRONvn",
+      "derivativePath": "/images/watches/iwc/reviewed-iw388101-white-web.webp",
+      "recordedSha256": "11d1c578b08fc824126898deff8704c1cb2935ad9b5a135e766e206b1b12f63d",
+      "actualSha256": "11d1c578b08fc824126898deff8704c1cb2935ad9b5a135e766e206b1b12f63d",
+      "rightsRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for these exact eleven originals and white-background derivatives with no additional restrictions on October14,2026 Eastern. Record docs/PHOTOGRAPHY_ELEVEN_FOUNDER_RIGHTS_2026-10-15.json. Authentic complete RAW and final white WEB individually visually reviewed; source credits retained separately. Preserved RAW file: 1juY4Mkthc8wvV4VqVKFdjnArp7WRONvn. Pictured full reference IW388101; Stainless Steel, Blue, Blue calfskin leather strap. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "nextAction": "Retain approved source, white-canvas derivative, attribution and reference mapping."
     },
     {
       "brand": "Omega",
@@ -1380,13 +1380,13 @@
       },
       "specificationSource": "https://www.omegawatches.com.hk/en-hk/watch-omega-constellation-quartz-28-mm-13110286056001",
       "score": 64,
-      "status": "ACQUISITION_REQUIRED",
-      "photoAssetId": null,
-      "derivativePath": null,
-      "recordedSha256": null,
-      "actualSha256": null,
-      "rightsRecord": null,
-      "nextAction": "Source authentic exact-reference original; obtain commercial-use license and provenance, prepare approved full-watch white-canvas derivative and register the matching SHA-256."
+      "status": "APPROVED_WITH_VALID_DERIVATIVE",
+      "photoAssetId": "cleared-eleven-1er8X4Qt2d4Jz1g6u7yLQ44lyPcEwZJ8U",
+      "derivativePath": "/images/watches/omega/reviewed-131-10-28-60-56-001-white-web.webp",
+      "recordedSha256": "a8e653dbcf0bd7ca0e3cc42f809198abc076f68632343f3d1ba5c58c1c14d4a1",
+      "actualSha256": "a8e653dbcf0bd7ca0e3cc42f809198abc076f68632343f3d1ba5c58c1c14d4a1",
+      "rightsRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for these exact eleven originals and white-background derivatives with no additional restrictions on October14,2026 Eastern. Record docs/PHOTOGRAPHY_ELEVEN_FOUNDER_RIGHTS_2026-10-15.json. Authentic complete RAW and final white WEB individually visually reviewed; source credits retained separately. Preserved RAW file: 1er8X4Qt2d4Jz1g6u7yLQ44lyPcEwZJ8U. Pictured full reference 131.10.28.60.56.001; Stainless Steel, Gray sun-brushed non-wave with diamonds, Stainless-steel bracelet. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "nextAction": "Retain approved source, white-canvas derivative, attribution and reference mapping."
     },
     {
       "brand": "Omega",
@@ -1930,13 +1930,13 @@
       },
       "specificationSource": "https://www.iwc.com/us-en/watches/ingenieur/iw328901-ingenieur-automatic-40",
       "score": 60,
-      "status": "ACQUISITION_REQUIRED",
-      "photoAssetId": null,
-      "derivativePath": null,
-      "recordedSha256": null,
-      "actualSha256": null,
-      "rightsRecord": null,
-      "nextAction": "Source authentic exact-reference original; obtain commercial-use license and provenance, prepare approved full-watch white-canvas derivative and register the matching SHA-256."
+      "status": "APPROVED_WITH_VALID_DERIVATIVE",
+      "photoAssetId": "cleared-eleven-1NbPs6wv7hh9fVz0nrb74_P5z2yjFGRgc",
+      "derivativePath": "/images/watches/iwc/reviewed-iw328901-white-web.webp",
+      "recordedSha256": "5771db0e39ef80e6f253e39534101c2a3f5817496caca90a90eae71b0770e6db",
+      "actualSha256": "5771db0e39ef80e6f253e39534101c2a3f5817496caca90a90eae71b0770e6db",
+      "rightsRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for these exact eleven originals and white-background derivatives with no additional restrictions on October14,2026 Eastern. Record docs/PHOTOGRAPHY_ELEVEN_FOUNDER_RIGHTS_2026-10-15.json. Authentic complete RAW and final white WEB individually visually reviewed; source credits retained separately. Preserved RAW file: 1NbPs6wv7hh9fVz0nrb74_P5z2yjFGRgc. Pictured full reference IW328901; Stainless Steel, Black, Stainless-steel bracelet. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "nextAction": "Retain approved source, white-canvas derivative, attribution and reference mapping."
     },
     {
       "brand": "IWC",
@@ -1955,13 +1955,13 @@
       },
       "specificationSource": "https://www.iwc.com/us-en/watches/portofino/iw356527-portofino-automatic",
       "score": 60,
-      "status": "ACQUISITION_REQUIRED",
-      "photoAssetId": null,
-      "derivativePath": null,
-      "recordedSha256": null,
-      "actualSha256": null,
-      "rightsRecord": null,
-      "nextAction": "Source authentic exact-reference original; obtain commercial-use license and provenance, prepare approved full-watch white-canvas derivative and register the matching SHA-256."
+      "status": "APPROVED_WITH_VALID_DERIVATIVE",
+      "photoAssetId": "cleared-eleven-1bhSxz-kh6-MdBXODfum-809Fz_scYKzh",
+      "derivativePath": "/images/watches/iwc/reviewed-iw356527-white-web.webp",
+      "recordedSha256": "cadc50bd5c57023e42b1ea298ff45f3968c3b9074359c1374deafdec4f97358f",
+      "actualSha256": "cadc50bd5c57023e42b1ea298ff45f3968c3b9074359c1374deafdec4f97358f",
+      "rightsRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for these exact eleven originals and white-background derivatives with no additional restrictions on October14,2026 Eastern. Record docs/PHOTOGRAPHY_ELEVEN_FOUNDER_RIGHTS_2026-10-15.json. Authentic complete RAW and final white WEB individually visually reviewed; source credits retained separately. Preserved RAW file: 1bhSxz-kh6-MdBXODfum-809Fz_scYKzh. Pictured full reference IW356527; Stainless Steel, Silver, Blue alligator leather strap. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "nextAction": "Retain approved source, white-canvas derivative, attribution and reference mapping."
     },
     {
       "brand": "IWC",
@@ -1980,13 +1980,13 @@
       },
       "specificationSource": "https://www.iwc.com/us-en/watches/portugieser/iw371617-portugieser-chronograph",
       "score": 60,
-      "status": "ACQUISITION_REQUIRED",
-      "photoAssetId": null,
-      "derivativePath": null,
-      "recordedSha256": null,
-      "actualSha256": null,
-      "rightsRecord": null,
-      "nextAction": "Source authentic exact-reference original; obtain commercial-use license and provenance, prepare approved full-watch white-canvas derivative and register the matching SHA-256."
+      "status": "APPROVED_WITH_VALID_DERIVATIVE",
+      "photoAssetId": "cleared-eleven-1WrKyMkmuC6HW_9wbTemVIwuJ7R2LhMZR",
+      "derivativePath": "/images/watches/iwc/reviewed-iw371617-white-web.webp",
+      "recordedSha256": "c49b1a7771f1060464558edaab5aaeb2b80075e90649721b99ba1a1fcfc8a5ee",
+      "actualSha256": "c49b1a7771f1060464558edaab5aaeb2b80075e90649721b99ba1a1fcfc8a5ee",
+      "rightsRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for these exact eleven originals and white-background derivatives with no additional restrictions on October14,2026 Eastern. Record docs/PHOTOGRAPHY_ELEVEN_FOUNDER_RIGHTS_2026-10-15.json. Authentic complete RAW and final white WEB individually visually reviewed; source credits retained separately. Preserved RAW file: 1WrKyMkmuC6HW_9wbTemVIwuJ7R2LhMZR. Pictured full reference IW371617; Stainless Steel, Silver, Stainless-steel bracelet. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "nextAction": "Retain approved source, white-canvas derivative, attribution and reference mapping."
     },
     {
       "brand": "Omega",
@@ -2005,13 +2005,13 @@
       },
       "specificationSource": "https://www.omegawatches.com.hk/en-hk/watch-omega-constellation-quartz-28-mm-13110286060002",
       "score": 60,
-      "status": "ACQUISITION_REQUIRED",
-      "photoAssetId": null,
-      "derivativePath": null,
-      "recordedSha256": null,
-      "actualSha256": null,
-      "rightsRecord": null,
-      "nextAction": "Source authentic exact-reference original; obtain commercial-use license and provenance, prepare approved full-watch white-canvas derivative and register the matching SHA-256."
+      "status": "APPROVED_WITH_VALID_DERIVATIVE",
+      "photoAssetId": "cleared-eleven-1FLhpVsqU1NMz0iSVZpPPcyGCpjmg72nx",
+      "derivativePath": "/images/watches/omega/reviewed-131-10-28-60-60-002-white-web.webp",
+      "recordedSha256": "72186c3292b416cae64927cf32b146909ff109b4db47bed6510a96f29ef6c6a4",
+      "actualSha256": "72186c3292b416cae64927cf32b146909ff109b4db47bed6510a96f29ef6c6a4",
+      "rightsRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for these exact eleven originals and white-background derivatives with no additional restrictions on October14,2026 Eastern. Record docs/PHOTOGRAPHY_ELEVEN_FOUNDER_RIGHTS_2026-10-15.json. Authentic complete RAW and final white WEB individually visually reviewed; source credits retained separately. Preserved RAW file: 1FLhpVsqU1NMz0iSVZpPPcyGCpjmg72nx. Pictured full reference 131.10.28.60.60.002; Stainless Steel, Purple patchouli blossom non-wave, Stainless-steel bracelet. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "nextAction": "Retain approved source, white-canvas derivative, attribution and reference mapping."
     },
     {
       "brand": "Omega",

@@ -1,0 +1,220 @@
+{
+  "physicalSets": 3,
+  "websitePublished": false,
+  "references": [
+    {
+      "brand": "Omega",
+      "reference": "220.50.38.20.03.001",
+      "exactSKU": "220.50.38.20.03.001",
+      "sourceUrl": "https://www.juwelier-cwm.de/produkte/omega-22050382003001",
+      "sourcePagePath": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\retailer-source-omega-220.50.38.20.03.001-16cd6a51.html",
+      "sourcePageSha256": "87580e775db8b8de85c75c4d019cbbf2bc22f55f2e2b64954663d3bbbc0f3b52",
+      "sourceProvider": "Juwelier CWM",
+      "imageUrl": "https://www.juwelier-cwm.de/cdn/1000x1000/9/1/4/f/914f6943258adfd0f651e5de9f57c8ec4c19804f_220.50.38.20.03.001_01.jpg",
+      "checkedAt": "2026-10-15T02:06:37.313767+00:00",
+      "rightsStatus": "Founder explicitly confirmed this exact original and white derivatives for commercial Quest Luxo website use; no additional restrictions",
+      "reviewStatus": "Complete authentic RAW and full-resolution1200-square WEB visually reviewed; exact dial/case/bracelet matches source and catalog",
+      "size": [
+        1000,
+        1000
+      ],
+      "mode": "RGB",
+      "path": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\omega-precious-native-originals\\220.50.38.20.03.001-raw.jpg",
+      "sha256": "67f1481369ba33f641f84b93baa4c332853effb0f36b195a43f6fe82e33e2343",
+      "status": "Authentic exact-reference retailer original preserved with reviewed identity; derivative awaiting final visual review",
+      "whiteMaster": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\omega-precious-purple-white\\220.50.38.20.03.001-white-master.png",
+      "webDerivative": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\omega-precious-purple-white\\220.50.38.20.03.001-web.webp",
+      "masterSha256": "a7bf65688867f2fcd8bbd189f89ada876ca94ac2d7ef88187722a01c3f5d93a7",
+      "derivativeSha256": "dcb669a5ccffcf30f5b553972f0ece49e2c939af211fd08f51847ea94e90ac8b",
+      "collection": "Aqua Terra",
+      "canonicalRoute": "/collections/omega/aqua-terra/220-50-38-20-03-001",
+      "catalogMaterial": "18K Moonshine Gold",
+      "catalogConfigurations": [
+        {
+          "caseSize": "38 mm",
+          "movement": "Omega Master Chronometer automatic",
+          "dial": "Blue non-wave",
+          "bracelet": "18K Moonshine Gold bracelet",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "websiteApproved": false,
+      "processing": "Classical filled outer silhouette against uniform white background; original interior RGB retained. Centered2400 white master and1200 WEB. No AI or reconstruction.",
+      "foregroundBounds": [
+        265,
+        51,
+        769,
+        949
+      ],
+      "visualReviewPassed": true,
+      "exactSkuVerified": true,
+      "sourceEvidence": "Exact reference in retailer page and photographed blue Moonshine Gold, green steel/Sedna Gold or purple diamond-marker configuration verified. Source specifications retained separately; no price or availability inferred.",
+      "driveFiles": {
+        "raw": {
+          "id": "17XgsKoRBD3UkVS-mpOiGD8wmwpybOxP8",
+          "folderId": "1EwU4nbht13ay5Obti9bjywK4rWLCxK_T",
+          "sha256": "67f1481369ba33f641f84b93baa4c332853effb0f36b195a43f6fe82e33e2343"
+        },
+        "master": {
+          "id": "1-RlhleN4Z-T7arzA5C5h0Mr8ZOrYkSgq",
+          "folderId": "1vl6DzQFhMCHLjh0DcbZ5aM_s_TrZTW49",
+          "sha256": "a7bf65688867f2fcd8bbd189f89ada876ca94ac2d7ef88187722a01c3f5d93a7"
+        },
+        "web": {
+          "id": "1kmqIGIrBbNekNdFY31R6HFEsxVRGyty2",
+          "folderId": "1lijATpBrmBmGnjmhTJmr0gpTa5YaOd8Z",
+          "sha256": "dcb669a5ccffcf30f5b553972f0ece49e2c939af211fd08f51847ea94e90ac8b"
+        }
+      },
+      "commercialUseRightsConfirmed": true,
+      "rightsRecord": "PHOTOGRAPHY_ELEVEN_FOUNDER_RIGHTS_2026-10-15.json",
+      "publicationStatus": "Integrated; release checks and deployment pending"
+    },
+    {
+      "brand": "Omega",
+      "reference": "220.20.30.20.10.002",
+      "exactSKU": "220.20.30.20.10.002",
+      "sourceUrl": "https://juwelier-boehnlein.de/produkt/omega-seamaster-aqua-terra-o22020302010002/",
+      "sourcePagePath": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\retailer-source-omega-220.20.30.20.10.002-88b5eb7e.html",
+      "sourcePageSha256": "de517461c7f5a6136eff458286dd984970d65db92028120dc7aae0423183c94e",
+      "sourceProvider": "Juwelier Boehnlein",
+      "imageUrl": "https://juwelier-boehnlein.de/wp-content/uploads/omega_seamaster_aqua_terra_o22020302010002.JPG",
+      "checkedAt": "2026-10-15T02:06:37.314790+00:00",
+      "rightsStatus": "Founder explicitly confirmed this exact original and white derivatives for commercial Quest Luxo website use; no additional restrictions",
+      "reviewStatus": "Complete authentic RAW and full-resolution1200-square WEB visually reviewed; exact dial/case/bracelet matches source and catalog",
+      "size": [
+        1500,
+        2000
+      ],
+      "mode": "RGB",
+      "path": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\omega-precious-native-originals\\220.20.30.20.10.002-raw.jpg",
+      "sha256": "cd49592b3e8d56038d7edfdc94e90d29a627acd1c0eac888f824a06ed040c003",
+      "status": "Authentic exact-reference retailer original preserved with reviewed identity; derivative awaiting final visual review",
+      "whiteMaster": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\omega-precious-purple-white\\220.20.30.20.10.002-white-master.png",
+      "webDerivative": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\omega-precious-purple-white\\220.20.30.20.10.002-web.webp",
+      "masterSha256": "6dc67fa1742706a10f13f79ea802ebd2259d92c89fe65293ca680b4635c24658",
+      "derivativeSha256": "1f9f61d5d2a76a67f35d49daeee0b0f5a9895ea1b07740e7e66c9c7f7bec16f2",
+      "collection": "Aqua Terra",
+      "canonicalRoute": "/collections/omega/aqua-terra/220-20-30-20-10-002",
+      "catalogMaterial": "Stainless Steel and 18K Sedna Gold",
+      "catalogConfigurations": [
+        {
+          "caseSize": "30 mm",
+          "movement": "Omega Master Chronometer automatic",
+          "dial": "Pine green sun-brushed non-wave",
+          "bracelet": "Steel and Sedna Gold bracelet",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "websiteApproved": false,
+      "processing": "Classical filled outer silhouette against uniform white background; original interior RGB retained. Centered2400 white master and1200 WEB. No AI or reconstruction.",
+      "foregroundBounds": [
+        357,
+        234,
+        1142,
+        1765
+      ],
+      "visualReviewPassed": true,
+      "exactSkuVerified": true,
+      "sourceEvidence": "Exact reference in retailer page and photographed blue Moonshine Gold, green steel/Sedna Gold or purple diamond-marker configuration verified. Source specifications retained separately; no price or availability inferred.",
+      "driveFiles": {
+        "raw": {
+          "id": "1t7GxZQszLmwpZ5k2OEVg2V9C0sP7syCE",
+          "folderId": "1EwU4nbht13ay5Obti9bjywK4rWLCxK_T",
+          "sha256": "cd49592b3e8d56038d7edfdc94e90d29a627acd1c0eac888f824a06ed040c003"
+        },
+        "master": {
+          "id": "1_WAgwvCGIxRAUxpF0S1IzuPmr_BBS1oQ",
+          "folderId": "1vl6DzQFhMCHLjh0DcbZ5aM_s_TrZTW49",
+          "sha256": "6dc67fa1742706a10f13f79ea802ebd2259d92c89fe65293ca680b4635c24658"
+        },
+        "web": {
+          "id": "1j70t7mCnVFwle8kfdvfIRpVlLbxrmIDv",
+          "folderId": "1lijATpBrmBmGnjmhTJmr0gpTa5YaOd8Z",
+          "sha256": "1f9f61d5d2a76a67f35d49daeee0b0f5a9895ea1b07740e7e66c9c7f7bec16f2"
+        }
+      },
+      "commercialUseRightsConfirmed": true,
+      "rightsRecord": "PHOTOGRAPHY_ELEVEN_FOUNDER_RIGHTS_2026-10-15.json",
+      "publicationStatus": "Integrated; release checks and deployment pending"
+    },
+    {
+      "brand": "Omega",
+      "reference": "131.10.28.60.60.002",
+      "exactSKU": "131.10.28.60.60.002",
+      "sourceUrl": "https://www.cjcharles.com/products/constellation-quartz-28-mm-131-10-28-60-60-002",
+      "sourcePagePath": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\retailer-source-omega-131.10.28.60.60.002-53cd01da.html",
+      "sourcePageSha256": "04c6135bfbbbf07b39097a496747b24bbb21dd0d850145b94876ed5a06c08908",
+      "sourceProvider": "CJ Charles Jewelers",
+      "imageUrl": "https://www.cjcharles.com/cdn/shop/products/omega-constellation-quartz-28-mm-13110286060002-1-product-zoom_png.jpg?v=1676750039",
+      "checkedAt": "2026-10-15T02:07:43.673852+00:00",
+      "rightsStatus": "Founder explicitly confirmed this exact original and white derivatives for commercial Quest Luxo website use; no additional restrictions",
+      "reviewStatus": "Complete authentic RAW and full-resolution1200-square WEB visually reviewed; exact dial/case/bracelet matches source and catalog",
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGB",
+      "path": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\omega-purple-native-originals\\131.10.28.60.60.002-raw.jpg",
+      "sha256": "e197d789822f3ef69d11f38e7b72dc30bb0a6883bb1c2cc0c94e42b300238282",
+      "status": "Authentic exact-reference retailer original preserved with reviewed identity; derivative awaiting final visual review",
+      "whiteMaster": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\omega-precious-purple-white\\131.10.28.60.60.002-white-master.png",
+      "webDerivative": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\omega-precious-purple-white\\131.10.28.60.60.002-web.webp",
+      "masterSha256": "35c86d43fd5ef8104ebb8f417c0e131077c0332d0d552bb7246ea4be91f4bb74",
+      "derivativeSha256": "72186c3292b416cae64927cf32b146909ff109b4db47bed6510a96f29ef6c6a4",
+      "collection": "Constellation",
+      "canonicalRoute": "/collections/omega/constellation/131-10-28-60-60-002",
+      "catalogMaterial": "Stainless Steel",
+      "catalogConfigurations": [
+        {
+          "caseSize": "28 mm",
+          "movement": "Omega 4061 quartz",
+          "dial": "Purple patchouli blossom non-wave",
+          "bracelet": "Stainless-steel bracelet",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "websiteApproved": false,
+      "processing": "Classical filled outer silhouette against uniform white background; original interior RGB retained. Centered2400 white master and1200 WEB. No AI or reconstruction.",
+      "foregroundBounds": [
+        282,
+        12,
+        765,
+        1014
+      ],
+      "visualReviewPassed": true,
+      "exactSkuVerified": true,
+      "sourceEvidence": "Exact reference in retailer page and photographed blue Moonshine Gold, green steel/Sedna Gold or purple diamond-marker configuration verified. Source specifications retained separately; no price or availability inferred.",
+      "driveFiles": {
+        "raw": {
+          "id": "1FLhpVsqU1NMz0iSVZpPPcyGCpjmg72nx",
+          "folderId": "1EwU4nbht13ay5Obti9bjywK4rWLCxK_T",
+          "sha256": "e197d789822f3ef69d11f38e7b72dc30bb0a6883bb1c2cc0c94e42b300238282"
+        },
+        "master": {
+          "id": "1L4-WLEHY7SBMyRm2gP-FiJDP1Hl0nScZ",
+          "folderId": "1vl6DzQFhMCHLjh0DcbZ5aM_s_TrZTW49",
+          "sha256": "35c86d43fd5ef8104ebb8f417c0e131077c0332d0d552bb7246ea4be91f4bb74"
+        },
+        "web": {
+          "id": "1e75lfYEUQhRhTveuLLM5qma8lIPopsd-",
+          "folderId": "1lijATpBrmBmGnjmhTJmr0gpTa5YaOd8Z",
+          "sha256": "72186c3292b416cae64927cf32b146909ff109b4db47bed6510a96f29ef6c6a4"
+        }
+      },
+      "commercialUseRightsConfirmed": true,
+      "rightsRecord": "PHOTOGRAPHY_ELEVEN_FOUNDER_RIGHTS_2026-10-15.json",
+      "publicationStatus": "Integrated; release checks and deployment pending"
+    }
+  ],
+  "title": "Three exact-reference Omega originals and reviewed white derivatives archived",
+  "archivedAt": "2026-10-15T02:13:11.542959+00:00",
+  "driveFilesArchived": 9,
+  "rightsHeldSets": 0,
+  "approvedForPublication": true,
+  "founderRightsRecord": "PHOTOGRAPHY_ELEVEN_FOUNDER_RIGHTS_2026-10-15.json",
+  "publicationStatus": "Integrated; final checks and deployment pending"
+}

@@ -4,7 +4,7 @@
   "physicalSets": 26,
   "omegaSets": 24,
   "navitimerSets": 2,
-  "websitePublished": false,
+  "websitePublished": true,
   "rightsHeldSets": 0,
   "rightsPolicy": "Do not extend earlier permissions by inference; none of these new originals is cleared by access or identity research alone. Earlier eight held Omega sets are excluded and preserved.",
   "references": [
@@ -30,7 +30,7 @@
           "currentMSRP": null
         }
       ],
-      "status": "Reviewed exact-reference photographs archived; HOLD for commercial website-use rights",
+      "status": "Published authentic exact-reference photograph; founder commercial rights confirmed",
       "checkedAt": "2026-10-14T22:04:51.352820+00:00",
       "rightsStatus": "Founder explicitly confirmed exact original and white-derivative commercial use; no additional restrictions",
       "reviewStatus": "Original full-watch framing and final 1200-square white WEB visually reviewed; photographed dial/case/strap compared with exact-reference catalog/source evidence",
@@ -61,7 +61,7 @@
       ],
       "exactSkuStructuredMatch": true,
       "reviewedAt": "2026-10-14T22:12:23.818668+00:00",
-      "websiteApproved": false,
+      "websiteApproved": true,
       "driveFiles": {
         "raw": {
           "id": "121lc8_PerpfI6kziOvh-U1XXGxU5R4u_",
@@ -81,7 +81,9 @@
       },
       "commercialUseRightsConfirmed": true,
       "rightsRecord": "PHOTOGRAPHY_ADDITIONAL35_FOUNDER_RIGHTS_2026-10-14.json",
-      "publicationStatus": "Integrated; release checks and deployment pending"
+      "publicationStatus": "LIVE; public route and photo hash verified",
+      "productionCommit": "0ea41e90773767a38583754c3e3ab892477e1df5",
+      "productionDeployId": "dep-db835vlg1s2s73f5ujug"
     },
     {
       "brand": "Omega",
@@ -105,7 +107,7 @@
           "currentMSRP": null
         }
       ],
-      "status": "Reviewed exact-reference photographs archived; HOLD for commercial website-use rights",
+      "status": "Published authentic exact-reference photograph; founder commercial rights confirmed",
       "checkedAt": "2026-10-14T22:04:51.354062+00:00",
       "rightsStatus": "Founder explicitly confirmed exact original and white-derivative commercial use; no additional restrictions",
       "reviewStatus": "Original full-watch framing and final 1200-square white WEB visually reviewed; photographed dial/case/strap compared with exact-reference catalog/source evidence",
@@ -136,7 +138,7 @@
       ],
       "exactSkuStructuredMatch": true,
       "reviewedAt": "2026-10-14T22:12:24.929578+00:00",
-      "websiteApproved": false,
+      "websiteApproved": true,
       "driveFiles": {
         "raw": {
           "id": "1t3DwOM8d0TOr7O1AKlWPlO1ou226o2-1",
@@ -156,7 +158,9 @@
       },
       "commercialUseRightsConfirmed": true,
       "rightsRecord": "PHOTOGRAPHY_ADDITIONAL35_FOUNDER_RIGHTS_2026-10-14.json",
-      "publicationStatus": "Integrated; release checks and deployment pending"
+      "publicationStatus": "LIVE; public route and photo hash verified",
+      "productionCommit": "0ea41e90773767a38583754c3e3ab892477e1df5",
+      "productionDeployId": "dep-db835vlg1s2s73f5ujug"
     },
     {
       "brand": "Omega",
@@ -180,7 +184,7 @@
           "currentMSRP": null
         }
       ],
-      "status": "Reviewed exact-reference photographs archived; HOLD for commercial website-use rights",
+      "status": "Published authentic exact-reference photograph; founder commercial rights confirmed",
       "checkedAt": "2026-10-14T22:04:51.354062+00:00",
       "rightsStatus": "Founder explicitly confirmed exact original and white-derivative commercial use; no additional restrictions",
       "reviewStatus": "Original full-watch framing and final 1200-square white WEB visually reviewed; photographed dial/case/strap compared with exact-reference catalog/source evidence",
@@ -211,7 +215,7 @@
       ],
       "exactSkuStructuredMatch": true,
       "reviewedAt": "2026-10-14T22:12:26.047941+00:00",
-      "websiteApproved": false,
+      "websiteApproved": true,
       "driveFiles": {
         "raw": {
           "id": "1vJawZGfsX75TBXXQKDSUzsS-mTipohHL",
@@ -231,7 +235,9 @@
       },
       "commercialUseRightsConfirmed": true,
       "rightsRecord": "PHOTOGRAPHY_ADDITIONAL35_FOUNDER_RIGHTS_2026-10-14.json",
-      "publicationStatus": "Integrated; release checks and deployment pending"
+      "publicationStatus": "LIVE; public route and photo hash verified",
+      "productionCommit": "0ea41e90773767a38583754c3e3ab892477e1df5",
+      "productionDeployId": "dep-db835vlg1s2s73f5ujug"
     },
     {
       "brand": "Omega",
@@ -255,7 +261,7 @@
           "currentMSRP": null
         }
       ],
-      "status": "Reviewed exact-reference photographs archived; HOLD for commercial website-use rights",
+      "status": "Published authentic exact-reference photograph; founder commercial rights confirmed",
       "checkedAt": "2026-10-14T22:04:51.355063+00:00",
       "rightsStatus": "Founder explicitly confirmed exact original and white-derivative commercial use; no additional restrictions",
       "reviewStatus": "Original full-watch framing and final 1200-square white WEB visually reviewed; photographed dial/case/strap compared with exact-reference catalog/source evidence",
@@ -286,7 +292,7 @@
       ],
       "exactSkuStructuredMatch": true,
       "reviewedAt": "2026-10-14T22:12:27.168301+00:00",
-      "websiteApproved": false,
+      "websiteApproved": true,
       "driveFiles": {
         "raw": {
           "id": "1o0-HG5woiaWYXz6D38IwG0Eq9qOUQ-A4",
@@ -306,7 +312,9 @@
       },
       "commercialUseRightsConfirmed": true,
       "rightsRecord": "PHOTOGRAPHY_ADDITIONAL35_FOUNDER_RIGHTS_2026-10-14.json",
-      "publicationStatus": "Integrated; release checks and deployment pending"
+      "publicationStatus": "LIVE; public route and photo hash verified",
+      "productionCommit": "0ea41e90773767a38583754c3e3ab892477e1df5",
+      "productionDeployId": "dep-db835vlg1s2s73f5ujug"
     },
     {
       "brand": "Omega",
@@ -330,7 +338,7 @@
           "currentMSRP": null
         }
       ],
-      "status": "Reviewed exact-reference photographs archived; HOLD for commercial website-use rights",
+      "status": "Published authentic exact-reference photograph; founder commercial rights confirmed",
       "checkedAt": "2026-10-14T22:04:51.673035+00:00",
       "rightsStatus": "Founder explicitly confirmed exact original and white-derivative commercial use; no additional restrictions",
       "reviewStatus": "Original full-watch framing and final 1200-square white WEB visually reviewed; photographed dial/case/strap compared with exact-reference catalog/source evidence",
@@ -361,7 +369,7 @@
       ],
       "exactSkuStructuredMatch": true,
       "reviewedAt": "2026-10-14T22:12:28.249378+00:00",
-      "websiteApproved": false,
+      "websiteApproved": true,
       "driveFiles": {
         "raw": {
           "id": "1ntN8Vq5T5wMrhArj1GLcBiieWxVVWem6",
@@ -381,7 +389,9 @@
       },
       "commercialUseRightsConfirmed": true,
       "rightsRecord": "PHOTOGRAPHY_ADDITIONAL35_FOUNDER_RIGHTS_2026-10-14.json",
-      "publicationStatus": "Integrated; release checks and deployment pending"
+      "publicationStatus": "LIVE; public route and photo hash verified",
+      "productionCommit": "0ea41e90773767a38583754c3e3ab892477e1df5",
+      "productionDeployId": "dep-db835vlg1s2s73f5ujug"
     },
     {
       "brand": "Omega",
@@ -405,7 +415,7 @@
           "currentMSRP": null
         }
       ],
-      "status": "Reviewed exact-reference photographs archived; HOLD for commercial website-use rights",
+      "status": "Published authentic exact-reference photograph; founder commercial rights confirmed",
       "checkedAt": "2026-10-14T22:04:52.097290+00:00",
       "rightsStatus": "Founder explicitly confirmed exact original and white-derivative commercial use; no additional restrictions",
       "reviewStatus": "Original full-watch framing and final 1200-square white WEB visually reviewed; photographed dial/case/strap compared with exact-reference catalog/source evidence",
@@ -436,7 +446,7 @@
       ],
       "exactSkuStructuredMatch": true,
       "reviewedAt": "2026-10-14T22:12:29.455449+00:00",
-      "websiteApproved": false,
+      "websiteApproved": true,
       "driveFiles": {
         "raw": {
           "id": "1J58M0pyGw9Ro2hZTAaiRrxia4PG_pXbn",
@@ -456,7 +466,9 @@
       },
       "commercialUseRightsConfirmed": true,
       "rightsRecord": "PHOTOGRAPHY_ADDITIONAL35_FOUNDER_RIGHTS_2026-10-14.json",
-      "publicationStatus": "Integrated; release checks and deployment pending"
+      "publicationStatus": "LIVE; public route and photo hash verified",
+      "productionCommit": "0ea41e90773767a38583754c3e3ab892477e1df5",
+      "productionDeployId": "dep-db835vlg1s2s73f5ujug"
     },
     {
       "brand": "Omega",
@@ -480,7 +492,7 @@
           "currentMSRP": null
         }
       ],
-      "status": "Reviewed exact-reference photographs archived; HOLD for commercial website-use rights",
+      "status": "Published authentic exact-reference photograph; founder commercial rights confirmed",
       "checkedAt": "2026-10-14T22:04:52.151683+00:00",
       "rightsStatus": "Founder explicitly confirmed exact original and white-derivative commercial use; no additional restrictions",
       "reviewStatus": "Original full-watch framing and final 1200-square white WEB visually reviewed; photographed dial/case/strap compared with exact-reference catalog/source evidence",
@@ -511,7 +523,7 @@
       ],
       "exactSkuStructuredMatch": true,
       "reviewedAt": "2026-10-14T22:12:30.556256+00:00",
-      "websiteApproved": false,
+      "websiteApproved": true,
       "driveFiles": {
         "raw": {
           "id": "1ccO_dIiWyzolrfe4moBNdoCqJhRRAn3F",
@@ -531,7 +543,9 @@
       },
       "commercialUseRightsConfirmed": true,
       "rightsRecord": "PHOTOGRAPHY_ADDITIONAL35_FOUNDER_RIGHTS_2026-10-14.json",
-      "publicationStatus": "Integrated; release checks and deployment pending"
+      "publicationStatus": "LIVE; public route and photo hash verified",
+      "productionCommit": "0ea41e90773767a38583754c3e3ab892477e1df5",
+      "productionDeployId": "dep-db835vlg1s2s73f5ujug"
     },
     {
       "brand": "Omega",
@@ -555,7 +569,7 @@
           "currentMSRP": null
         }
       ],
-      "status": "Reviewed exact-reference photographs archived; HOLD for commercial website-use rights",
+      "status": "Published authentic exact-reference photograph; founder commercial rights confirmed",
       "checkedAt": "2026-10-14T22:04:52.195503+00:00",
       "rightsStatus": "Founder explicitly confirmed exact original and white-derivative commercial use; no additional restrictions",
       "reviewStatus": "Original full-watch framing and final 1200-square white WEB visually reviewed; photographed dial/case/strap compared with exact-reference catalog/source evidence",
@@ -586,7 +600,7 @@
       ],
       "exactSkuStructuredMatch": true,
       "reviewedAt": "2026-10-14T22:12:31.607197+00:00",
-      "websiteApproved": false,
+      "websiteApproved": true,
       "driveFiles": {
         "raw": {
           "id": "1OInwuReTtmHdcHuV33ijOG7hSnBYKR6T",
@@ -606,7 +620,9 @@
       },
       "commercialUseRightsConfirmed": true,
       "rightsRecord": "PHOTOGRAPHY_ADDITIONAL35_FOUNDER_RIGHTS_2026-10-14.json",
-      "publicationStatus": "Integrated; release checks and deployment pending"
+      "publicationStatus": "LIVE; public route and photo hash verified",
+      "productionCommit": "0ea41e90773767a38583754c3e3ab892477e1df5",
+      "productionDeployId": "dep-db835vlg1s2s73f5ujug"
     },
     {
       "brand": "Omega",
@@ -630,7 +646,7 @@
           "currentMSRP": null
         }
       ],
-      "status": "Reviewed exact-reference photographs archived; HOLD for commercial website-use rights",
+      "status": "Published authentic exact-reference photograph; founder commercial rights confirmed",
       "checkedAt": "2026-10-14T22:04:52.228769+00:00",
       "rightsStatus": "Founder explicitly confirmed exact original and white-derivative commercial use; no additional restrictions",
       "reviewStatus": "Original full-watch framing and final 1200-square white WEB visually reviewed; photographed dial/case/strap compared with exact-reference catalog/source evidence",
@@ -661,7 +677,7 @@
       ],
       "exactSkuStructuredMatch": true,
       "reviewedAt": "2026-10-14T22:12:32.687860+00:00",
-      "websiteApproved": false,
+      "websiteApproved": true,
       "driveFiles": {
         "raw": {
           "id": "1o808FvxYRQ3L6PfiUgbG5MNGO1Wdt99r",
@@ -681,7 +697,9 @@
       },
       "commercialUseRightsConfirmed": true,
       "rightsRecord": "PHOTOGRAPHY_ADDITIONAL35_FOUNDER_RIGHTS_2026-10-14.json",
-      "publicationStatus": "Integrated; release checks and deployment pending"
+      "publicationStatus": "LIVE; public route and photo hash verified",
+      "productionCommit": "0ea41e90773767a38583754c3e3ab892477e1df5",
+      "productionDeployId": "dep-db835vlg1s2s73f5ujug"
     },
     {
       "brand": "Omega",
@@ -705,7 +723,7 @@
           "currentMSRP": null
         }
       ],
-      "status": "Reviewed exact-reference photographs archived; HOLD for commercial website-use rights",
+      "status": "Published authentic exact-reference photograph; founder commercial rights confirmed",
       "checkedAt": "2026-10-14T22:04:52.697451+00:00",
       "rightsStatus": "Founder explicitly confirmed exact original and white-derivative commercial use; no additional restrictions",
       "reviewStatus": "Original full-watch framing and final 1200-square white WEB visually reviewed; photographed dial/case/strap compared with exact-reference catalog/source evidence",
@@ -736,7 +754,7 @@
       ],
       "exactSkuStructuredMatch": true,
       "reviewedAt": "2026-10-14T22:12:33.792011+00:00",
-      "websiteApproved": false,
+      "websiteApproved": true,
       "driveFiles": {
         "raw": {
           "id": "1Le14M45rwkVB-Prj7tVp4qX1DbXhO_4M",
@@ -756,7 +774,9 @@
       },
       "commercialUseRightsConfirmed": true,
       "rightsRecord": "PHOTOGRAPHY_ADDITIONAL35_FOUNDER_RIGHTS_2026-10-14.json",
-      "publicationStatus": "Integrated; release checks and deployment pending"
+      "publicationStatus": "LIVE; public route and photo hash verified",
+      "productionCommit": "0ea41e90773767a38583754c3e3ab892477e1df5",
+      "productionDeployId": "dep-db835vlg1s2s73f5ujug"
     },
     {
       "brand": "Omega",
@@ -780,7 +800,7 @@
           "currentMSRP": null
         }
       ],
-      "status": "Reviewed exact-reference photographs archived; HOLD for commercial website-use rights",
+      "status": "Published authentic exact-reference photograph; founder commercial rights confirmed",
       "checkedAt": "2026-10-14T22:04:52.721843+00:00",
       "rightsStatus": "Founder explicitly confirmed exact original and white-derivative commercial use; no additional restrictions",
       "reviewStatus": "Original full-watch framing and final 1200-square white WEB visually reviewed; photographed dial/case/strap compared with exact-reference catalog/source evidence",
@@ -811,7 +831,7 @@
       ],
       "exactSkuStructuredMatch": true,
       "reviewedAt": "2026-10-14T22:12:34.905160+00:00",
-      "websiteApproved": false,
+      "websiteApproved": true,
       "driveFiles": {
         "raw": {
           "id": "1KgKMXryX3MRC9txSSYpPrPXFzw4hgmwg",
@@ -831,7 +851,9 @@
       },
       "commercialUseRightsConfirmed": true,
       "rightsRecord": "PHOTOGRAPHY_ADDITIONAL35_FOUNDER_RIGHTS_2026-10-14.json",
-      "publicationStatus": "Integrated; release checks and deployment pending"
+      "publicationStatus": "LIVE; public route and photo hash verified",
+      "productionCommit": "0ea41e90773767a38583754c3e3ab892477e1df5",
+      "productionDeployId": "dep-db835vlg1s2s73f5ujug"
     },
     {
       "brand": "Omega",
@@ -855,7 +877,7 @@
           "currentMSRP": null
         }
       ],
-      "status": "Reviewed exact-reference photographs archived; HOLD for commercial website-use rights",
+      "status": "Published authentic exact-reference photograph; founder commercial rights confirmed",
       "checkedAt": "2026-10-14T22:04:52.796685+00:00",
       "rightsStatus": "Founder explicitly confirmed exact original and white-derivative commercial use; no additional restrictions",
       "reviewStatus": "Original full-watch framing and final 1200-square white WEB visually reviewed; photographed dial/case/strap compared with exact-reference catalog/source evidence",
@@ -886,7 +908,7 @@
       ],
       "exactSkuStructuredMatch": true,
       "reviewedAt": "2026-10-14T22:12:36.023814+00:00",
-      "websiteApproved": false,
+      "websiteApproved": true,
       "driveFiles": {
         "raw": {
           "id": "1o4ixIQ-iBPtSre7eoKIf0G01q7HB9S59",
@@ -906,7 +928,9 @@
       },
       "commercialUseRightsConfirmed": true,
       "rightsRecord": "PHOTOGRAPHY_ADDITIONAL35_FOUNDER_RIGHTS_2026-10-14.json",
-      "publicationStatus": "Integrated; release checks and deployment pending"
+      "publicationStatus": "LIVE; public route and photo hash verified",
+      "productionCommit": "0ea41e90773767a38583754c3e3ab892477e1df5",
+      "productionDeployId": "dep-db835vlg1s2s73f5ujug"
     },
     {
       "brand": "Omega",
@@ -930,7 +954,7 @@
           "currentMSRP": null
         }
       ],
-      "status": "Reviewed exact-reference photographs archived; HOLD for commercial website-use rights",
+      "status": "Published authentic exact-reference photograph; founder commercial rights confirmed",
       "checkedAt": "2026-10-14T22:04:53.077265+00:00",
       "rightsStatus": "Founder explicitly confirmed exact original and white-derivative commercial use; no additional restrictions",
       "reviewStatus": "Original full-watch framing and final 1200-square white WEB visually reviewed; photographed dial/case/strap compared with exact-reference catalog/source evidence",
@@ -961,7 +985,7 @@
       ],
       "exactSkuStructuredMatch": true,
       "reviewedAt": "2026-10-14T22:12:37.127161+00:00",
-      "websiteApproved": false,
+      "websiteApproved": true,
       "driveFiles": {
         "raw": {
           "id": "1M-U_g9M1g42KYJ5LjgWJ5SbLzsZVwe_Z",
@@ -981,7 +1005,9 @@
       },
       "commercialUseRightsConfirmed": true,
       "rightsRecord": "PHOTOGRAPHY_ADDITIONAL35_FOUNDER_RIGHTS_2026-10-14.json",
-      "publicationStatus": "Integrated; release checks and deployment pending"
+      "publicationStatus": "LIVE; public route and photo hash verified",
+      "productionCommit": "0ea41e90773767a38583754c3e3ab892477e1df5",
+      "productionDeployId": "dep-db835vlg1s2s73f5ujug"
     },
     {
       "brand": "Omega",
@@ -1003,7 +1029,7 @@
           "originalMSRP": null
         }
       ],
-      "status": "Reviewed exact-reference photographs archived; HOLD for commercial website-use rights",
+      "status": "Published authentic exact-reference photograph; founder commercial rights confirmed",
       "checkedAt": "2026-10-14T22:04:53.147582+00:00",
       "rightsStatus": "Founder explicitly confirmed exact original and white-derivative commercial use; no additional restrictions",
       "reviewStatus": "Original full-watch framing and final 1200-square white WEB visually reviewed; photographed dial/case/strap compared with exact-reference catalog/source evidence",
@@ -1034,7 +1060,7 @@
       ],
       "exactSkuStructuredMatch": true,
       "reviewedAt": "2026-10-14T22:12:38.254016+00:00",
-      "websiteApproved": false,
+      "websiteApproved": true,
       "driveFiles": {
         "raw": {
           "id": "1pHDkIBURRetsPevUEyzC6_X4XMsOV3wm",
@@ -1054,7 +1080,9 @@
       },
       "commercialUseRightsConfirmed": true,
       "rightsRecord": "PHOTOGRAPHY_ADDITIONAL35_FOUNDER_RIGHTS_2026-10-14.json",
-      "publicationStatus": "Integrated; release checks and deployment pending"
+      "publicationStatus": "LIVE; public route and photo hash verified",
+      "productionCommit": "0ea41e90773767a38583754c3e3ab892477e1df5",
+      "productionDeployId": "dep-db835vlg1s2s73f5ujug"
     },
     {
       "brand": "Omega",
@@ -1078,7 +1106,7 @@
           "currentMSRP": null
         }
       ],
-      "status": "Reviewed exact-reference photographs archived; HOLD for commercial website-use rights",
+      "status": "Published authentic exact-reference photograph; founder commercial rights confirmed",
       "checkedAt": "2026-10-14T22:04:53.319214+00:00",
       "rightsStatus": "Founder explicitly confirmed exact original and white-derivative commercial use; no additional restrictions",
       "reviewStatus": "Original full-watch framing and final 1200-square white WEB visually reviewed; photographed dial/case/strap compared with exact-reference catalog/source evidence",
@@ -1109,7 +1137,7 @@
       ],
       "exactSkuStructuredMatch": true,
       "reviewedAt": "2026-10-14T22:12:39.345528+00:00",
-      "websiteApproved": false,
+      "websiteApproved": true,
       "driveFiles": {
         "raw": {
           "id": "1wQ8V4J-cQz4oHc6H9zhgWfMCcqiXCaII",
@@ -1129,7 +1157,9 @@
       },
       "commercialUseRightsConfirmed": true,
       "rightsRecord": "PHOTOGRAPHY_ADDITIONAL35_FOUNDER_RIGHTS_2026-10-14.json",
-      "publicationStatus": "Integrated; release checks and deployment pending"
+      "publicationStatus": "LIVE; public route and photo hash verified",
+      "productionCommit": "0ea41e90773767a38583754c3e3ab892477e1df5",
+      "productionDeployId": "dep-db835vlg1s2s73f5ujug"
     },
     {
       "brand": "Omega",
@@ -1153,7 +1183,7 @@
           "currentMSRP": null
         }
       ],
-      "status": "Reviewed exact-reference photographs archived; HOLD for commercial website-use rights",
+      "status": "Published authentic exact-reference photograph; founder commercial rights confirmed",
       "checkedAt": "2026-10-14T22:04:53.367749+00:00",
       "rightsStatus": "Founder explicitly confirmed exact original and white-derivative commercial use; no additional restrictions",
       "reviewStatus": "Original full-watch framing and final 1200-square white WEB visually reviewed; photographed dial/case/strap compared with exact-reference catalog/source evidence",
@@ -1184,7 +1214,7 @@
       ],
       "exactSkuStructuredMatch": true,
       "reviewedAt": "2026-10-14T22:12:40.474965+00:00",
-      "websiteApproved": false,
+      "websiteApproved": true,
       "driveFiles": {
         "raw": {
           "id": "1VCnsx2MyMxV1fzhLSO2XdS2CYPcpXB9z",
@@ -1204,7 +1234,9 @@
       },
       "commercialUseRightsConfirmed": true,
       "rightsRecord": "PHOTOGRAPHY_ADDITIONAL35_FOUNDER_RIGHTS_2026-10-14.json",
-      "publicationStatus": "Integrated; release checks and deployment pending"
+      "publicationStatus": "LIVE; public route and photo hash verified",
+      "productionCommit": "0ea41e90773767a38583754c3e3ab892477e1df5",
+      "productionDeployId": "dep-db835vlg1s2s73f5ujug"
     },
     {
       "brand": "Omega",
@@ -1226,7 +1258,7 @@
           "originalMSRP": null
         }
       ],
-      "status": "Reviewed exact-reference photographs archived; HOLD for commercial website-use rights",
+      "status": "Published authentic exact-reference photograph; founder commercial rights confirmed",
       "checkedAt": "2026-10-14T22:04:53.754192+00:00",
       "rightsStatus": "Founder explicitly confirmed exact original and white-derivative commercial use; no additional restrictions",
       "reviewStatus": "Original full-watch framing and final 1200-square white WEB visually reviewed; photographed dial/case/strap compared with exact-reference catalog/source evidence",
@@ -1257,7 +1289,7 @@
       ],
       "exactSkuStructuredMatch": true,
       "reviewedAt": "2026-10-14T22:12:41.871971+00:00",
-      "websiteApproved": false,
+      "websiteApproved": true,
       "driveFiles": {
         "raw": {
           "id": "155fsWp2tJqH131yun3yWQRcFDWLRUxUV",
@@ -1277,7 +1309,9 @@
       },
       "commercialUseRightsConfirmed": true,
       "rightsRecord": "PHOTOGRAPHY_ADDITIONAL35_FOUNDER_RIGHTS_2026-10-14.json",
-      "publicationStatus": "Integrated; release checks and deployment pending"
+      "publicationStatus": "LIVE; public route and photo hash verified",
+      "productionCommit": "0ea41e90773767a38583754c3e3ab892477e1df5",
+      "productionDeployId": "dep-db835vlg1s2s73f5ujug"
     },
     {
       "brand": "Omega",
@@ -1301,7 +1335,7 @@
           "currentMSRP": null
         }
       ],
-      "status": "Reviewed exact-reference photographs archived; HOLD for commercial website-use rights",
+      "status": "Published authentic exact-reference photograph; founder commercial rights confirmed",
       "checkedAt": "2026-10-14T22:04:53.806821+00:00",
       "rightsStatus": "Founder explicitly confirmed exact original and white-derivative commercial use; no additional restrictions",
       "reviewStatus": "Original full-watch framing and final 1200-square white WEB visually reviewed; photographed dial/case/strap compared with exact-reference catalog/source evidence",
@@ -1332,7 +1366,7 @@
       ],
       "exactSkuStructuredMatch": true,
       "reviewedAt": "2026-10-14T22:12:43.074913+00:00",
-      "websiteApproved": false,
+      "websiteApproved": true,
       "driveFiles": {
         "raw": {
           "id": "1-UFgbPDtyCpHMKeF-FoCk4lX4bZD5RlH",
@@ -1352,7 +1386,9 @@
       },
       "commercialUseRightsConfirmed": true,
       "rightsRecord": "PHOTOGRAPHY_ADDITIONAL35_FOUNDER_RIGHTS_2026-10-14.json",
-      "publicationStatus": "Integrated; release checks and deployment pending"
+      "publicationStatus": "LIVE; public route and photo hash verified",
+      "productionCommit": "0ea41e90773767a38583754c3e3ab892477e1df5",
+      "productionDeployId": "dep-db835vlg1s2s73f5ujug"
     },
     {
       "brand": "Omega",
@@ -1376,7 +1412,7 @@
           "currentMSRP": null
         }
       ],
-      "status": "Reviewed exact-reference photographs archived; HOLD for commercial website-use rights",
+      "status": "Published authentic exact-reference photograph; founder commercial rights confirmed",
       "checkedAt": "2026-10-14T22:04:53.915410+00:00",
       "rightsStatus": "Founder explicitly confirmed exact original and white-derivative commercial use; no additional restrictions",
       "reviewStatus": "Original full-watch framing and final 1200-square white WEB visually reviewed; photographed dial/case/strap compared with exact-reference catalog/source evidence",
@@ -1407,7 +1443,7 @@
       ],
       "exactSkuStructuredMatch": true,
       "reviewedAt": "2026-10-14T22:12:44.257434+00:00",
-      "websiteApproved": false,
+      "websiteApproved": true,
       "driveFiles": {
         "raw": {
           "id": "15I2JjUnzgoFlcU5449j-IQcXY2PKTy57",
@@ -1427,7 +1463,9 @@
       },
       "commercialUseRightsConfirmed": true,
       "rightsRecord": "PHOTOGRAPHY_ADDITIONAL35_FOUNDER_RIGHTS_2026-10-14.json",
-      "publicationStatus": "Integrated; release checks and deployment pending"
+      "publicationStatus": "LIVE; public route and photo hash verified",
+      "productionCommit": "0ea41e90773767a38583754c3e3ab892477e1df5",
+      "productionDeployId": "dep-db835vlg1s2s73f5ujug"
     },
     {
       "brand": "Omega",
@@ -1451,7 +1489,7 @@
           "currentMSRP": null
         }
       ],
-      "status": "Reviewed exact-reference photographs archived; HOLD for commercial website-use rights",
+      "status": "Published authentic exact-reference photograph; founder commercial rights confirmed",
       "checkedAt": "2026-10-14T22:04:53.926355+00:00",
       "rightsStatus": "Founder explicitly confirmed exact original and white-derivative commercial use; no additional restrictions",
       "reviewStatus": "Original full-watch framing and final 1200-square white WEB visually reviewed; photographed dial/case/strap compared with exact-reference catalog/source evidence",
@@ -1482,7 +1520,7 @@
       ],
       "exactSkuStructuredMatch": true,
       "reviewedAt": "2026-10-14T22:12:45.388674+00:00",
-      "websiteApproved": false,
+      "websiteApproved": true,
       "driveFiles": {
         "raw": {
           "id": "1v-slY22wzczK-4GUfYkGlqA6OLVKZm6O",
@@ -1502,7 +1540,9 @@
       },
       "commercialUseRightsConfirmed": true,
       "rightsRecord": "PHOTOGRAPHY_ADDITIONAL35_FOUNDER_RIGHTS_2026-10-14.json",
-      "publicationStatus": "Integrated; release checks and deployment pending"
+      "publicationStatus": "LIVE; public route and photo hash verified",
+      "productionCommit": "0ea41e90773767a38583754c3e3ab892477e1df5",
+      "productionDeployId": "dep-db835vlg1s2s73f5ujug"
     },
     {
       "brand": "Omega",
@@ -1525,7 +1565,7 @@
           "waterResistance": "150 m"
         }
       ],
-      "status": "Reviewed exact-reference photographs archived; HOLD for commercial website-use rights",
+      "status": "Published authentic exact-reference photograph; founder commercial rights confirmed",
       "checkedAt": "2026-10-14T22:04:54.313029+00:00",
       "rightsStatus": "Founder explicitly confirmed exact original and white-derivative commercial use; no additional restrictions",
       "reviewStatus": "Original full-watch framing and final 1200-square white WEB visually reviewed; photographed dial/case/strap compared with exact-reference catalog/source evidence",
@@ -1556,7 +1596,7 @@
       ],
       "exactSkuStructuredMatch": true,
       "reviewedAt": "2026-10-14T22:12:46.453863+00:00",
-      "websiteApproved": false,
+      "websiteApproved": true,
       "driveFiles": {
         "raw": {
           "id": "1hRSwQzVWdYXOd6Hs2CP3w0DcwCr6pkZO",
@@ -1576,7 +1616,9 @@
       },
       "commercialUseRightsConfirmed": true,
       "rightsRecord": "PHOTOGRAPHY_ADDITIONAL35_FOUNDER_RIGHTS_2026-10-14.json",
-      "publicationStatus": "Integrated; release checks and deployment pending"
+      "publicationStatus": "LIVE; public route and photo hash verified",
+      "productionCommit": "0ea41e90773767a38583754c3e3ab892477e1df5",
+      "productionDeployId": "dep-db835vlg1s2s73f5ujug"
     },
     {
       "brand": "Omega",
@@ -1600,7 +1642,7 @@
           "currentMSRP": null
         }
       ],
-      "status": "Reviewed exact-reference photographs archived; HOLD for commercial website-use rights",
+      "status": "Published authentic exact-reference photograph; founder commercial rights confirmed",
       "checkedAt": "2026-10-14T22:04:54.383125+00:00",
       "rightsStatus": "Founder explicitly confirmed exact original and white-derivative commercial use; no additional restrictions",
       "reviewStatus": "Original full-watch framing and final 1200-square white WEB visually reviewed; photographed dial/case/strap compared with exact-reference catalog/source evidence",
@@ -1631,7 +1673,7 @@
       ],
       "exactSkuStructuredMatch": true,
       "reviewedAt": "2026-10-14T22:12:47.545142+00:00",
-      "websiteApproved": false,
+      "websiteApproved": true,
       "driveFiles": {
         "raw": {
           "id": "1zAY3mgYHKoMvikFz38o2_8eJrGJiIUOe",
@@ -1651,7 +1693,9 @@
       },
       "commercialUseRightsConfirmed": true,
       "rightsRecord": "PHOTOGRAPHY_ADDITIONAL35_FOUNDER_RIGHTS_2026-10-14.json",
-      "publicationStatus": "Integrated; release checks and deployment pending"
+      "publicationStatus": "LIVE; public route and photo hash verified",
+      "productionCommit": "0ea41e90773767a38583754c3e3ab892477e1df5",
+      "productionDeployId": "dep-db835vlg1s2s73f5ujug"
     },
     {
       "brand": "Omega",
@@ -1675,7 +1719,7 @@
           "currentMSRP": null
         }
       ],
-      "status": "Reviewed exact-reference photographs archived; HOLD for commercial website-use rights",
+      "status": "Published authentic exact-reference photograph; founder commercial rights confirmed",
       "checkedAt": "2026-10-14T22:04:54.436120+00:00",
       "rightsStatus": "Founder explicitly confirmed exact original and white-derivative commercial use; no additional restrictions",
       "reviewStatus": "Original full-watch framing and final 1200-square white WEB visually reviewed; photographed dial/case/strap compared with exact-reference catalog/source evidence",
@@ -1706,7 +1750,7 @@
       ],
       "exactSkuStructuredMatch": true,
       "reviewedAt": "2026-10-14T22:12:48.682743+00:00",
-      "websiteApproved": false,
+      "websiteApproved": true,
       "driveFiles": {
         "raw": {
           "id": "192VgH9AS8vTVJ9vZEIVD4J_OGD6uP-RP",
@@ -1726,7 +1770,9 @@
       },
       "commercialUseRightsConfirmed": true,
       "rightsRecord": "PHOTOGRAPHY_ADDITIONAL35_FOUNDER_RIGHTS_2026-10-14.json",
-      "publicationStatus": "Integrated; release checks and deployment pending"
+      "publicationStatus": "LIVE; public route and photo hash verified",
+      "productionCommit": "0ea41e90773767a38583754c3e3ab892477e1df5",
+      "productionDeployId": "dep-db835vlg1s2s73f5ujug"
     },
     {
       "brand": "Omega",
@@ -1750,7 +1796,7 @@
           "currentMSRP": null
         }
       ],
-      "status": "Reviewed exact-reference photographs archived; HOLD for commercial website-use rights",
+      "status": "Published authentic exact-reference photograph; founder commercial rights confirmed",
       "checkedAt": "2026-10-14T22:04:54.540170+00:00",
       "rightsStatus": "Founder explicitly confirmed exact original and white-derivative commercial use; no additional restrictions",
       "reviewStatus": "Original full-watch framing and final 1200-square white WEB visually reviewed; photographed dial/case/strap compared with exact-reference catalog/source evidence",
@@ -1781,7 +1827,7 @@
       ],
       "exactSkuStructuredMatch": true,
       "reviewedAt": "2026-10-14T22:12:49.717751+00:00",
-      "websiteApproved": false,
+      "websiteApproved": true,
       "driveFiles": {
         "raw": {
           "id": "1PT1Uiib3j0PiL8lPR2E1a3r4aFKfCz4Z",
@@ -1801,7 +1847,9 @@
       },
       "commercialUseRightsConfirmed": true,
       "rightsRecord": "PHOTOGRAPHY_ADDITIONAL35_FOUNDER_RIGHTS_2026-10-14.json",
-      "publicationStatus": "Integrated; release checks and deployment pending"
+      "publicationStatus": "LIVE; public route and photo hash verified",
+      "productionCommit": "0ea41e90773767a38583754c3e3ab892477e1df5",
+      "productionDeployId": "dep-db835vlg1s2s73f5ujug"
     },
     {
       "brand": "Breitling",
@@ -1821,7 +1869,7 @@
       "mode": "RGBA",
       "path": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\navitimer-46-native-originals\\AB0137211C1P1-raw.webp",
       "sha256": "3ff1772a636ab38d65c7e1cd5df6494d5349885cdedbbf727cb499b1f7727008",
-      "status": "Reviewed exact-reference photographs archived; HOLD for commercial website-use rights",
+      "status": "Published authentic exact-reference photograph; founder commercial rights confirmed",
       "whiteMaster": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\navitimer-46-reviewed\\AB0137211C1P1-white-master.png",
       "webDerivative": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\navitimer-46-reviewed\\AB0137211C1P1-web.webp",
       "derivativeSha256": "4477a6eb3ae5fe333f974d1de24d425c04cdd7a9a9bf20caa15fdad735e307d3",
@@ -1852,7 +1900,7 @@
       "exactSkuStructuredMatch": true,
       "masterSha256": "6c0ff28bbb4d070b1589e5149144f6df08f1c8c9c55eed5dc9be8de6309fcc9c",
       "reviewedAt": "2026-10-14T22:12:49.971357+00:00",
-      "websiteApproved": false,
+      "websiteApproved": true,
       "driveFiles": {
         "raw": {
           "id": "1kVS5IrG7cxwvpDzpXmJomIJPSVoByPuc",
@@ -1872,7 +1920,9 @@
       },
       "commercialUseRightsConfirmed": true,
       "rightsRecord": "PHOTOGRAPHY_ADDITIONAL35_FOUNDER_RIGHTS_2026-10-14.json",
-      "publicationStatus": "Integrated; release checks and deployment pending"
+      "publicationStatus": "LIVE; public route and photo hash verified",
+      "productionCommit": "0ea41e90773767a38583754c3e3ab892477e1df5",
+      "productionDeployId": "dep-db835vlg1s2s73f5ujug"
     },
     {
       "brand": "Breitling",
@@ -1892,7 +1942,7 @@
       "mode": "RGBA",
       "path": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\navitimer-46-native-originals\\AB0137211B1P1-raw.webp",
       "sha256": "d82eeeecad448dc303c603e072d1fcb31754df9f2f1c63ba5750a6f988c6e296",
-      "status": "Reviewed exact-reference photographs archived; HOLD for commercial website-use rights",
+      "status": "Published authentic exact-reference photograph; founder commercial rights confirmed",
       "whiteMaster": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\navitimer-46-reviewed\\AB0137211B1P1-white-master.png",
       "webDerivative": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\navitimer-46-reviewed\\AB0137211B1P1-web.webp",
       "derivativeSha256": "130464e6d28992b9468552ca0bfd3441eda30619802e027e2852f14856fd80a4",
@@ -1923,7 +1973,7 @@
       "exactSkuStructuredMatch": true,
       "masterSha256": "e72e44522668436685ee36a6d31063199d901d436d2104594040651ae909db48",
       "reviewedAt": "2026-10-14T22:12:50.351868+00:00",
-      "websiteApproved": false,
+      "websiteApproved": true,
       "driveFiles": {
         "raw": {
           "id": "1mnjj-1qdHGjeGnzZRN3odth65yx6Jk1-",
@@ -1943,13 +1993,19 @@
       },
       "commercialUseRightsConfirmed": true,
       "rightsRecord": "PHOTOGRAPHY_ADDITIONAL35_FOUNDER_RIGHTS_2026-10-14.json",
-      "publicationStatus": "Integrated; release checks and deployment pending"
+      "publicationStatus": "LIVE; public route and photo hash verified",
+      "productionCommit": "0ea41e90773767a38583754c3e3ab892477e1df5",
+      "productionDeployId": "dep-db835vlg1s2s73f5ujug"
     }
   ],
   "archivedAt": "2026-10-14T22:27:12.517708+00:00",
   "driveFilesArchived": 78,
   "archiveReadbackStatus": "All 78 upload IDs returned; representative RAW/master/WEB metadata readback passed for first Omega and last Navitimer sets",
-  "approvedForPublication": 26,
+  "approvedForPublication": true,
   "founderRightsRecord": "PHOTOGRAPHY_ADDITIONAL35_FOUNDER_RIGHTS_2026-10-14.json",
-  "publicationStatus": "Integrated; checks and deployment pending"
+  "publicationStatus": "LIVE; exact public reference/configuration/asset hash/collection grid/inquiry context verified",
+  "productionCommit": "0ea41e90773767a38583754c3e3ab892477e1df5",
+  "productionDeployId": "dep-db835vlg1s2s73f5ujug",
+  "verifiedAt": "2026-10-15T02:04:09.573992+00:00",
+  "founderRightsDriveFileId": "1kEzcWJ8Fo1rH3UPe-QVc05n9g80BhG3v"
 }

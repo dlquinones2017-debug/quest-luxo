@@ -12,6 +12,9 @@ registerHooks({ resolve(specifier, context, next) {
   }
 }});
 const { verifiedExpansionRows } = await import("../src/data/verified-catalog-expansion.ts");
+const { collectionRegistry } = await import("../src/data/collectionRegistry.ts");
+const { watchPhotographs } = await import("../src/data/watch-photography.ts");
+const { approvedPhotograph } = await import("../src/lib/media/watchPhotography.ts");
 const read = async path => JSON.parse(await readFile(new URL(path, import.meta.url), "utf8"));
 const omega = await read("../docs/OMEGA_PHOTOGRAPHY_ACQUISITION_QUEUE_2026-10-14.json");
 const other = await read("../docs/MULTIBRAND_NON_OMEGA_PHOTOGRAPHY_QUEUE_2026-10-14.json");
@@ -39,8 +42,18 @@ test("entire 99-reference expansion has exactly one correctly configured photogr
   }
   const cleared = other.queue.filter(x=>x.status==="APPROVED_WITH_VALID_DERIVATIVE");
   const queued = other.queue.filter(x=>x.status==="RIGHTS_AND_EXACT_CONFIGURATION_REVIEW_REQUIRED");
-  assert.equal(cleared.length, 1, "recover one existing exact-reference cleared Zenith photograph");
-  assert.equal(cleared[0].reference, "03.3100.3600/69.M3100");
+  assert.ok(cleared.some(x=>x.reference==="03.3100.3600/69.M3100"), "retain recovered exact-reference Zenith photograph");
+  for (const item of other.queue) {
+    const asset = collectionRegistry.find(c=>c.brandSlug===item.brandSlug&&c.slug===item.collectionSlug)?.assets.find(a=>a.reference===item.reference);
+    assert.ok(asset, "missing catalog record: "+item.reference);
+    const photo = approvedPhotograph(asset,watchPhotographs);
+    assert.equal(item.status==="APPROVED_WITH_VALID_DERIVATIVE", Boolean(photo), "queue approval must match the exact cleared configuration: "+item.reference);
+    if (photo) {
+      assert.equal(item.webDerivativePath,photo.src);
+      assert.equal(item.webDerivativeSHA256,photo.sha256);
+      assert.equal(item.commercialUseRightsRecord,photo.licenseRecord);
+    }
+  }
   assert.equal(other.summary.approvedForImageRelease, cleared.length);
   assert.equal(other.summary.tasksAwaitingExactImageRightsReview, queued.length);
   assert.equal(queued.length + cleared.length, other.queue.length);

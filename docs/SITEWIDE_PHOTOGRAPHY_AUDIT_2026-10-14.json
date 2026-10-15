@@ -1,14 +1,14 @@
 {
-  "auditedAt": "2026-10-15T01:52:02.790Z",
+  "auditedAt": "2026-10-15T02:29:03.866Z",
   "summary": {
     "brands": 23,
     "collections": 103,
     "registryRecords": 269,
     "distinctRoutes": 268,
     "normalizedBrandReferenceIdentities": 265,
-    "approved": 169,
-    "missing": 99,
-    "collectionsWithPhotography": 69,
+    "approved": 180,
+    "missing": 88,
+    "collectionsWithPhotography": 75,
     "unusedApprovedRecords": 2,
     "duplicateNormalizedReferenceGroups": 4,
     "fileIntegrityFailures": 0,
@@ -107,8 +107,8 @@
       "brand": "IWC",
       "registryRecords": 9,
       "referencePages": 9,
-      "approved": 0,
-      "missing": 9,
+      "approved": 7,
+      "missing": 2,
       "collections": 6
     },
     {
@@ -123,8 +123,8 @@
       "brand": "Omega",
       "registryRecords": 68,
       "referencePages": 68,
-      "approved": 41,
-      "missing": 27,
+      "approved": 45,
+      "missing": 23,
       "collections": 11
     },
     {
@@ -2972,10 +2972,23 @@
           "dial": "Configuration details available through private advisory",
           "bracelet": "Reference dependent",
           "originalMSRP": null
+        },
+        {
+          "caseSize": "41 mm",
+          "movement": "IWC 69385 automatic chronograph",
+          "dial": "Blue",
+          "bracelet": "Stainless-steel bracelet",
+          "nickname": "Blue / Stainless-steel bracelet",
+          "originalMSRP": null,
+          "currentMSRP": null
         }
       ],
-      "approved": false,
-      "photo": null,
+      "approved": true,
+      "photo": {
+        "assetId": "cleared-eleven-1HrE6nAXwf3IzSIgWQSJxA7Zif4V6y_22",
+        "src": "/images/watches/iwc/reviewed-iw388102-white-web.webp",
+        "sha256": "42efd7ed98fc4ab19d4843f98218d117a94fc362a7a7e735b3b7cc2e761c8ba4"
+      },
       "recoveryCandidates": []
     },
     {
@@ -4415,6 +4428,33 @@
       "brandSlug": "omega",
       "collection": "Aqua Terra",
       "collectionSlug": "aqua-terra",
+      "reference": "220.50.38.20.03.001",
+      "path": "/collections/omega/aqua-terra/220-50-38-20-03-001",
+      "material": "18K Moonshine Gold",
+      "configurations": [
+        {
+          "caseSize": "38 mm",
+          "movement": "Omega Master Chronometer automatic",
+          "dial": "Blue non-wave",
+          "bracelet": "18K Moonshine Gold bracelet",
+          "nickname": "Blue non-wave / 18K Moonshine Gold bracelet",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "approved": true,
+      "photo": {
+        "assetId": "cleared-eleven-17XgsKoRBD3UkVS-mpOiGD8wmwpybOxP8",
+        "src": "/images/watches/omega/reviewed-220-50-38-20-03-001-white-web.webp",
+        "sha256": "dcb669a5ccffcf30f5b553972f0ece49e2c939af211fd08f51847ea94e90ac8b"
+      },
+      "recoveryCandidates": []
+    },
+    {
+      "brand": "Omega",
+      "brandSlug": "omega",
+      "collection": "Aqua Terra",
+      "collectionSlug": "aqua-terra",
       "reference": "220.20.30.20.10.002",
       "path": "/collections/omega/aqua-terra/220-20-30-20-10-002",
       "material": "Stainless Steel and 18K Sedna Gold",
@@ -4424,12 +4464,17 @@
           "movement": "Omega Master Chronometer automatic",
           "dial": "Pine green sun-brushed non-wave",
           "bracelet": "Steel and Sedna Gold bracelet",
+          "nickname": "Pine green sun-brushed non-wave / Steel and Sedna Gold bracelet",
           "originalMSRP": null,
           "currentMSRP": null
         }
       ],
-      "approved": false,
-      "photo": null,
+      "approved": true,
+      "photo": {
+        "assetId": "cleared-eleven-1t7GxZQszLmwpZ5k2OEVg2V9C0sP7syCE",
+        "src": "/images/watches/omega/reviewed-220-20-30-20-10-002-white-web.webp",
+        "sha256": "1f9f61d5d2a76a67f35d49daeee0b0f5a9895ea1b07740e7e66c9c7f7bec16f2"
+      },
       "recoveryCandidates": []
     },
     {
@@ -4468,28 +4513,6 @@
           "movement": "Omega Master Chronometer automatic",
           "dial": "Green sun-brushed non-wave",
           "bracelet": "Green leather strap",
-          "originalMSRP": null,
-          "currentMSRP": null
-        }
-      ],
-      "approved": false,
-      "photo": null,
-      "recoveryCandidates": []
-    },
-    {
-      "brand": "Omega",
-      "brandSlug": "omega",
-      "collection": "Aqua Terra",
-      "collectionSlug": "aqua-terra",
-      "reference": "220.50.38.20.03.001",
-      "path": "/collections/omega/aqua-terra/220-50-38-20-03-001",
-      "material": "18K Moonshine Gold",
-      "configurations": [
-        {
-          "caseSize": "38 mm",
-          "movement": "Omega Master Chronometer automatic",
-          "dial": "Blue non-wave",
-          "bracelet": "18K Moonshine Gold bracelet",
           "originalMSRP": null,
           "currentMSRP": null
         }
@@ -6572,11 +6595,16 @@
           "dial": "Black",
           "bracelet": "Stainless-steel bracelet",
           "originalMSRP": null,
-          "currentMSRP": null
+          "currentMSRP": null,
+          "nickname": "Black / Stainless-steel bracelet"
         }
       ],
-      "approved": false,
-      "photo": null,
+      "approved": true,
+      "photo": {
+        "assetId": "cleared-eleven-1NbPs6wv7hh9fVz0nrb74_P5z2yjFGRgc",
+        "src": "/images/watches/iwc/reviewed-iw328901-white-web.webp",
+        "sha256": "5771db0e39ef80e6f253e39534101c2a3f5817496caca90a90eae71b0770e6db"
+      },
       "recoveryCandidates": []
     },
     {
@@ -6594,11 +6622,16 @@
           "dial": "Blue",
           "bracelet": "Blue calfskin leather strap",
           "originalMSRP": null,
-          "currentMSRP": null
+          "currentMSRP": null,
+          "nickname": "Blue / Blue calfskin leather strap"
         }
       ],
-      "approved": false,
-      "photo": null,
+      "approved": true,
+      "photo": {
+        "assetId": "cleared-eleven-1juY4Mkthc8wvV4VqVKFdjnArp7WRONvn",
+        "src": "/images/watches/iwc/reviewed-iw388101-white-web.webp",
+        "sha256": "11d1c578b08fc824126898deff8704c1cb2935ad9b5a135e766e206b1b12f63d"
+      },
       "recoveryCandidates": []
     },
     {
@@ -6616,11 +6649,16 @@
           "dial": "Green",
           "bracelet": "Black alligator leather strap",
           "originalMSRP": null,
-          "currentMSRP": null
+          "currentMSRP": null,
+          "nickname": "Green / Black alligator leather strap"
         }
       ],
-      "approved": false,
-      "photo": null,
+      "approved": true,
+      "photo": {
+        "assetId": "cleared-eleven-1Y4yV_zAVmlTF5ZI1Q3B_tK1vt5av7Itf",
+        "src": "/images/watches/iwc/reviewed-iw371615-white-web.webp",
+        "sha256": "b7332ffa602710f1143e1dac299b3964c3b43c228fb764eca2be821be6bb996b"
+      },
       "recoveryCandidates": []
     },
     {
@@ -6638,11 +6676,16 @@
           "dial": "Silver",
           "bracelet": "Stainless-steel bracelet",
           "originalMSRP": null,
-          "currentMSRP": null
+          "currentMSRP": null,
+          "nickname": "Silver / Stainless-steel bracelet"
         }
       ],
-      "approved": false,
-      "photo": null,
+      "approved": true,
+      "photo": {
+        "assetId": "cleared-eleven-1WrKyMkmuC6HW_9wbTemVIwuJ7R2LhMZR",
+        "src": "/images/watches/iwc/reviewed-iw371617-white-web.webp",
+        "sha256": "c49b1a7771f1060464558edaab5aaeb2b80075e90649721b99ba1a1fcfc8a5ee"
+      },
       "recoveryCandidates": []
     },
     {
@@ -6704,11 +6747,16 @@
           "dial": "Silver",
           "bracelet": "Blue alligator leather strap",
           "originalMSRP": null,
-          "currentMSRP": null
+          "currentMSRP": null,
+          "nickname": "Silver / Blue alligator leather strap"
         }
       ],
-      "approved": false,
-      "photo": null,
+      "approved": true,
+      "photo": {
+        "assetId": "cleared-eleven-1bhSxz-kh6-MdBXODfum-809Fz_scYKzh",
+        "src": "/images/watches/iwc/reviewed-iw356527-white-web.webp",
+        "sha256": "cadc50bd5c57023e42b1ea298ff45f3968c3b9074359c1374deafdec4f97358f"
+      },
       "recoveryCandidates": []
     },
     {
@@ -6726,11 +6774,16 @@
           "dial": "Blue",
           "bracelet": "Blue rubber strap",
           "originalMSRP": null,
-          "currentMSRP": null
+          "currentMSRP": null,
+          "nickname": "Blue / Blue rubber strap"
         }
       ],
-      "approved": false,
-      "photo": null,
+      "approved": true,
+      "photo": {
+        "assetId": "cleared-eleven-1HWZDjwm8FtRUAaJ4abY_KQsbdqjqPxVT",
+        "src": "/images/watches/iwc/reviewed-iw328801-white-web.webp",
+        "sha256": "f1c498bc1a895760578c8ad1ba92c761ee13977f4f32b00ea7ace10740f3d008"
+      },
       "recoveryCandidates": []
     },
     {
@@ -7516,11 +7569,16 @@
           "dial": "Purple patchouli blossom non-wave",
           "bracelet": "Stainless-steel bracelet",
           "originalMSRP": null,
-          "currentMSRP": null
+          "currentMSRP": null,
+          "nickname": "Purple patchouli blossom non-wave / Stainless-steel bracelet"
         }
       ],
-      "approved": false,
-      "photo": null,
+      "approved": true,
+      "photo": {
+        "assetId": "cleared-eleven-1FLhpVsqU1NMz0iSVZpPPcyGCpjmg72nx",
+        "src": "/images/watches/omega/reviewed-131-10-28-60-60-002-white-web.webp",
+        "sha256": "72186c3292b416cae64927cf32b146909ff109b4db47bed6510a96f29ef6c6a4"
+      },
       "recoveryCandidates": []
     },
     {
@@ -7560,11 +7618,16 @@
           "dial": "Gray sun-brushed non-wave with diamonds",
           "bracelet": "Stainless-steel bracelet",
           "originalMSRP": null,
-          "currentMSRP": null
+          "currentMSRP": null,
+          "nickname": "Gray sun-brushed non-wave with diamonds / Stainless-steel bracelet"
         }
       ],
-      "approved": false,
-      "photo": null,
+      "approved": true,
+      "photo": {
+        "assetId": "cleared-eleven-1er8X4Qt2d4Jz1g6u7yLQ44lyPcEwZJ8U",
+        "src": "/images/watches/omega/reviewed-131-10-28-60-56-001-white-web.webp",
+        "sha256": "a8e653dbcf0bd7ca0e3cc42f809198abc076f68632343f3d1ba5c58c1c14d4a1"
+      },
       "recoveryCandidates": []
     },
     {

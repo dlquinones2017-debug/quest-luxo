@@ -1,6 +1,6 @@
 {
   "physicalSets": 5,
-  "websitePublished": false,
+  "websitePublished": true,
   "references": [
     {
       "brand": "Omega",
@@ -31,7 +31,7 @@
       "mode": "RGB",
       "path": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\zadok-omega-four-originals\\220.10.30.20.60.001-raw.jpg",
       "sha256": "bc62d6e1d5ecc02deabb3e8db21f1f521e9ee3d4a09613e5f7cacca853a557f8",
-      "status": "Authentic retailer original and reviewed white derivatives archived; held for image-specific commercial rights",
+      "status": "Published authentic exact-reference photograph; founder commercial rights confirmed",
       "whiteMaster": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\zadok-omega-five-white\\220.10.30.20.60.001-white-master.png",
       "webDerivative": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\zadok-omega-five-white\\220.10.30.20.60.001-web.webp",
       "masterSha256": "9a9067d290e6051d74e4d434cbf6ceefb3d8cec10f409cff5c8b07c8ce537299",
@@ -50,7 +50,7 @@
         }
       ],
       "exactSkuEvidence": "Exact-reference retailer canonical product URL and reference in product page; photographed configuration compared with registry and prior manufacturer identity evidence",
-      "websiteApproved": false,
+      "websiteApproved": true,
       "processing": "Classical filled outer silhouette of complete watch against uniform white source; original interior RGB retained. Centered 2400 white master and 1200 WEB. No generated or reconstructed watch detail.",
       "foregroundBounds": [
         284,
@@ -78,7 +78,9 @@
       },
       "commercialUseRightsConfirmed": true,
       "rightsRecord": "PHOTOGRAPHY_ADDITIONAL35_FOUNDER_RIGHTS_2026-10-14.json",
-      "publicationStatus": "Integrated; release checks and deployment pending"
+      "publicationStatus": "LIVE; public route and photo hash verified",
+      "productionCommit": "0ea41e90773767a38583754c3e3ab892477e1df5",
+      "productionDeployId": "dep-db835vlg1s2s73f5ujug"
     },
     {
       "brand": "Omega",
@@ -109,7 +111,7 @@
       "mode": "RGB",
       "path": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\zadok-omega-four-originals\\220.10.43.22.03.001-raw.jpg",
       "sha256": "f1996ba62bf5eb8c8b0b12ee8736876194ec88cf73f6611e77f17eee6a7792af",
-      "status": "Authentic retailer original and reviewed white derivatives archived; held for image-specific commercial rights",
+      "status": "Published authentic exact-reference photograph; founder commercial rights confirmed",
       "whiteMaster": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\zadok-omega-five-white\\220.10.43.22.03.001-white-master.png",
       "webDerivative": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\zadok-omega-five-white\\220.10.43.22.03.001-web.webp",
       "masterSha256": "63f469b79ae53c4222c72178238b7627afd5fb249b2a6102227b8b9eb3dc89c9",
@@ -128,7 +130,7 @@
         }
       ],
       "exactSkuEvidence": "Exact-reference retailer canonical product URL and reference in product page; photographed configuration compared with registry and prior manufacturer identity evidence",
-      "websiteApproved": false,
+      "websiteApproved": true,
       "processing": "Classical filled outer silhouette of complete watch against uniform white source; original interior RGB retained. Centered 2400 white master and 1200 WEB. No generated or reconstructed watch detail.",
       "foregroundBounds": [
         235,
@@ -156,7 +158,9 @@
       },
       "commercialUseRightsConfirmed": true,
       "rightsRecord": "PHOTOGRAPHY_ADDITIONAL35_FOUNDER_RIGHTS_2026-10-14.json",
-      "publicationStatus": "Integrated; release checks and deployment pending"
+      "publicationStatus": "LIVE; public route and photo hash verified",
+      "productionCommit": "0ea41e90773767a38583754c3e3ab892477e1df5",
+      "productionDeployId": "dep-db835vlg1s2s73f5ujug"
     },
     {
       "brand": "Omega",
@@ -187,7 +191,7 @@
       "mode": "RGB",
       "path": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\zadok-omega-four-originals\\522.92.44.20.04.002-raw.jpg",
       "sha256": "77e3beccbde53a5ddd3cf22583e7f395bdb34ca3fcdde5cb122aacd2faad7bb7",
-      "status": "Authentic retailer original and reviewed white derivatives archived; held for image-specific commercial rights",
+      "status": "Published authentic exact-reference photograph; founder commercial rights confirmed",
       "whiteMaster": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\zadok-omega-five-white\\522.92.44.20.04.002-white-master.png",
       "webDerivative": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\zadok-omega-five-white\\522.92.44.20.04.002-web.webp",
       "masterSha256": "11c7c0664ea71ef330ca0f8effb909e5aaa67706b17426d51d48b6d9aa0cf353",
@@ -206,7 +210,7 @@
         }
       ],
       "exactSkuEvidence": "Exact-reference retailer canonical product URL and reference in product page; photographed configuration compared with registry and prior manufacturer identity evidence",
-      "websiteApproved": false,
+      "websiteApproved": true,
       "processing": "Original is already on a uniform blank white background. A conservative full-watch enclosure retains every pale ceramic/strap pixel and existing internal white; only external canvas is excluded. Centered on 2400 white master and 1200 WEB without invented detail. Replaces the contrast silhouette that could erase pale lug edges.",
       "foregroundBounds": [
         195,
@@ -234,7 +238,9 @@
       },
       "commercialUseRightsConfirmed": true,
       "rightsRecord": "PHOTOGRAPHY_ADDITIONAL35_FOUNDER_RIGHTS_2026-10-14.json",
-      "publicationStatus": "Integrated; release checks and deployment pending"
+      "publicationStatus": "LIVE; public route and photo hash verified",
+      "productionCommit": "0ea41e90773767a38583754c3e3ab892477e1df5",
+      "productionDeployId": "dep-db835vlg1s2s73f5ujug"
     },
     {
       "brand": "Omega",
@@ -265,7 +271,7 @@
       "mode": "RGB",
       "path": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\zadok-omega-four-originals\\210.30.42.20.03.003-raw.jpg",
       "sha256": "f3724e073723d47eaa8905f9b838ec8f94d6e1cf49acd5d4e1f878fd5fde8c10",
-      "status": "Authentic retailer original and reviewed white derivatives archived; held for image-specific commercial rights",
+      "status": "Published authentic exact-reference photograph; founder commercial rights confirmed",
       "whiteMaster": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\zadok-omega-five-white\\210.30.42.20.03.003-white-master.png",
       "webDerivative": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\zadok-omega-five-white\\210.30.42.20.03.003-web.webp",
       "masterSha256": "d647c9ba7195c6331f651a3787b2ad54ba5503204a53dafb7bfa7f8dc4567f24",
@@ -284,7 +290,7 @@
         }
       ],
       "exactSkuEvidence": "Exact-reference retailer canonical product URL and reference in product page; photographed configuration compared with registry and prior manufacturer identity evidence",
-      "websiteApproved": false,
+      "websiteApproved": true,
       "processing": "Classical filled outer silhouette of complete watch against uniform white source; original interior RGB retained. Centered 2400 white master and 1200 WEB. No generated or reconstructed watch detail.",
       "foregroundBounds": [
         241,
@@ -312,7 +318,9 @@
       },
       "commercialUseRightsConfirmed": true,
       "rightsRecord": "PHOTOGRAPHY_ADDITIONAL35_FOUNDER_RIGHTS_2026-10-14.json",
-      "publicationStatus": "Integrated; release checks and deployment pending"
+      "publicationStatus": "LIVE; public route and photo hash verified",
+      "productionCommit": "0ea41e90773767a38583754c3e3ab892477e1df5",
+      "productionDeployId": "dep-db835vlg1s2s73f5ujug"
     },
     {
       "brand": "Omega",
@@ -333,7 +341,7 @@
       "mode": "RGB",
       "path": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\omega-next-three-originals\\310.20.42.50.99.001-raw.jpg",
       "sha256": "c3ac94e5d60794685fa1498ccf7149cd710c70776dff18d7c39c60b5c0417945",
-      "status": "Authentic retailer original and reviewed white derivatives archived; held for image-specific commercial rights",
+      "status": "Published authentic exact-reference photograph; founder commercial rights confirmed",
       "whiteMaster": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\zadok-omega-five-white\\310.20.42.50.99.001-white-master.png",
       "webDerivative": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\zadok-omega-five-white\\310.20.42.50.99.001-web.webp",
       "masterSha256": "122321ff2ecd2b063026af86a142d819949d63ec9e3bdc01168f0d6693c084c4",
@@ -352,7 +360,7 @@
         }
       ],
       "exactSkuEvidence": "Exact-reference retailer canonical product URL and reference in product page; photographed configuration compared with registry and prior manufacturer identity evidence",
-      "websiteApproved": false,
+      "websiteApproved": true,
       "processing": "Classical filled outer silhouette of complete watch against uniform white source; original interior RGB retained. Centered 2400 white master and 1200 WEB. No generated or reconstructed watch detail.",
       "foregroundBounds": [
         262,
@@ -380,7 +388,9 @@
       },
       "commercialUseRightsConfirmed": true,
       "rightsRecord": "PHOTOGRAPHY_ADDITIONAL35_FOUNDER_RIGHTS_2026-10-14.json",
-      "publicationStatus": "Integrated; release checks and deployment pending"
+      "publicationStatus": "LIVE; public route and photo hash verified",
+      "productionCommit": "0ea41e90773767a38583754c3e3ab892477e1df5",
+      "productionDeployId": "dep-db835vlg1s2s73f5ujug"
     }
   ],
   "reviewedSets": 5,
@@ -390,7 +400,11 @@
   "driveFilesArchived": 15,
   "archiveReadbackStatus": "All 15 Drive file names and destination folders verified by metadata readback; all local original/master/WEB SHA-256 checks passed.",
   "sourceLogDriveId": "1xrsDEjYLewwea-kppV5vPYAl9MS0QBNa",
-  "approvedForPublication": 5,
+  "approvedForPublication": true,
   "founderRightsRecord": "PHOTOGRAPHY_ADDITIONAL35_FOUNDER_RIGHTS_2026-10-14.json",
-  "publicationStatus": "Integrated; checks and deployment pending"
+  "publicationStatus": "LIVE; exact public reference/configuration/asset hash/collection grid/inquiry context verified",
+  "productionCommit": "0ea41e90773767a38583754c3e3ab892477e1df5",
+  "productionDeployId": "dep-db835vlg1s2s73f5ujug",
+  "verifiedAt": "2026-10-15T02:04:09.573992+00:00",
+  "founderRightsDriveFileId": "1kEzcWJ8Fo1rH3UPe-QVc05n9g80BhG3v"
 }

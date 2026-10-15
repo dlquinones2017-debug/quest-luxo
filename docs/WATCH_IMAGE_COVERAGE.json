@@ -1,14 +1,14 @@
 {
-  "reviewedAt": "2026-10-15T01:53:32.095Z",
+  "reviewedAt": "2026-10-15T02:31:42.447Z",
   "note": "Generated from all exported source datasets and built routes. Source-only and duplicate configuration records are retained for review; this register is not proof of image rights. Source URLs identify research leads, not licenses.",
   "summary": {
-    "sourceConfigurations": 750,
+    "sourceConfigurations": 780,
     "builtReferenceRoutes": 268,
     "collectionRoutes": 103,
-    "approvedReferenceConfigurations": 325,
+    "approvedReferenceConfigurations": 355,
     "unmatchedReferenceRoutes": 0,
-    "approvedCanonicalReferenceRoutes": 169,
-    "queuedCanonicalReferenceRoutes": 99
+    "approvedCanonicalReferenceRoutes": 180,
+    "queuedCanonicalReferenceRoutes": 88
   },
   "collections": [
     {
@@ -6144,6 +6144,15 @@
           "dial": "Configuration details available through private advisory",
           "bracelet": "Reference dependent",
           "originalMSRP": null
+        },
+        {
+          "caseSize": "41 mm",
+          "movement": "IWC 69385 automatic chronograph",
+          "dial": "Blue",
+          "bracelet": "Stainless-steel bracelet",
+          "nickname": "Blue / Stainless-steel bracelet",
+          "originalMSRP": null,
+          "currentMSRP": null
         }
       ],
       "material": "Stainless Steel",
@@ -6154,14 +6163,14 @@
         "/collections/iwc/pilots-watch/iw388102"
       ],
       "scope": "built-reference",
-      "existingImage": "/images/watch-reference-placeholder.svg",
+      "existingImage": "/images/watches/iwc/reviewed-iw388102-white-web.webp",
       "existingImageFilePresent": true,
-      "photoAssetId": null,
-      "status": "Requires Verification",
-      "sourceUrl": null,
-      "licenseRecord": null,
-      "websiteApproved": false,
-      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+      "photoAssetId": "cleared-eleven-1HrE6nAXwf3IzSIgWQSJxA7Zif4V6y_22",
+      "status": "approved",
+      "sourceUrl": "https://www.jw-oomiya.co.jp/products/iw388102",
+      "licenseRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for these exact eleven originals and white-background derivatives with no additional restrictions on October14,2026 Eastern. Record docs/PHOTOGRAPHY_ELEVEN_FOUNDER_RIGHTS_2026-10-15.json. Authentic complete RAW and final white WEB individually visually reviewed; source credits retained separately. Preserved RAW file: 1HrE6nAXwf3IzSIgWQSJxA7Zif4V6y_22. Pictured full reference IW388102; Stainless Steel, Blue, Stainless-steel bracelet. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
     },
     {
       "brand": "Blancpain",
@@ -7939,6 +7948,39 @@
     {
       "brand": "Omega",
       "collection": "Aqua Terra",
+      "reference": "220.50.38.20.03.001",
+      "configurations": [
+        {
+          "caseSize": "38 mm",
+          "movement": "Omega Master Chronometer automatic",
+          "dial": "Blue non-wave",
+          "bracelet": "18K Moonshine Gold bracelet",
+          "nickname": "Blue non-wave / 18K Moonshine Gold bracelet",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "18K Moonshine Gold",
+      "sources": [
+        "src/data/collectionRegistry.ts",
+        "src/data/photography-expansion.ts"
+      ],
+      "routes": [
+        "/collections/omega/aqua-terra/220-50-38-20-03-001"
+      ],
+      "scope": "built-reference",
+      "existingImage": "/images/watches/omega/reviewed-220-50-38-20-03-001-white-web.webp",
+      "existingImageFilePresent": true,
+      "photoAssetId": "cleared-eleven-17XgsKoRBD3UkVS-mpOiGD8wmwpybOxP8",
+      "status": "approved",
+      "sourceUrl": "https://www.juwelier-cwm.de/produkte/omega-22050382003001",
+      "licenseRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for these exact eleven originals and white-background derivatives with no additional restrictions on October14,2026 Eastern. Record docs/PHOTOGRAPHY_ELEVEN_FOUNDER_RIGHTS_2026-10-15.json. Authentic complete RAW and final white WEB individually visually reviewed; source credits retained separately. Preserved RAW file: 17XgsKoRBD3UkVS-mpOiGD8wmwpybOxP8. Pictured full reference 220.50.38.20.03.001; 18K Moonshine Gold, Blue non-wave, 18K Moonshine Gold bracelet. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
+      "brand": "Omega",
+      "collection": "Aqua Terra",
       "reference": "220.20.30.20.10.002",
       "configurations": [
         {
@@ -7946,6 +7988,7 @@
           "movement": "Omega Master Chronometer automatic",
           "dial": "Pine green sun-brushed non-wave",
           "bracelet": "Steel and Sedna Gold bracelet",
+          "nickname": "Pine green sun-brushed non-wave / Steel and Sedna Gold bracelet",
           "originalMSRP": null,
           "currentMSRP": null
         }
@@ -7953,20 +7996,20 @@
       "material": "Stainless Steel and 18K Sedna Gold",
       "sources": [
         "src/data/collectionRegistry.ts",
-        "src/data/verified-catalog-expansion.ts"
+        "src/data/photography-expansion.ts"
       ],
       "routes": [
         "/collections/omega/aqua-terra/220-20-30-20-10-002"
       ],
       "scope": "built-reference",
-      "existingImage": "/images/watch-reference-placeholder.svg",
+      "existingImage": "/images/watches/omega/reviewed-220-20-30-20-10-002-white-web.webp",
       "existingImageFilePresent": true,
-      "photoAssetId": null,
-      "status": "Requires Verification",
-      "sourceUrl": "https://press.omegawatches.com/omega-festive-season-2025/",
-      "licenseRecord": null,
-      "websiteApproved": false,
-      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+      "photoAssetId": "cleared-eleven-1t7GxZQszLmwpZ5k2OEVg2V9C0sP7syCE",
+      "status": "approved",
+      "sourceUrl": "https://juwelier-boehnlein.de/produkt/omega-seamaster-aqua-terra-o22020302010002/",
+      "licenseRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for these exact eleven originals and white-background derivatives with no additional restrictions on October14,2026 Eastern. Record docs/PHOTOGRAPHY_ELEVEN_FOUNDER_RIGHTS_2026-10-15.json. Authentic complete RAW and final white WEB individually visually reviewed; source credits retained separately. Preserved RAW file: 1t7GxZQszLmwpZ5k2OEVg2V9C0sP7syCE. Pictured full reference 220.20.30.20.10.002; Stainless Steel and 18K Sedna Gold, Pine green sun-brushed non-wave, Steel and Sedna Gold bracelet. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
     },
     {
       "brand": "Omega",
@@ -8021,38 +8064,6 @@
       ],
       "routes": [
         "/collections/omega/aqua-terra/220-53-38-20-10-001"
-      ],
-      "scope": "built-reference",
-      "existingImage": "/images/watch-reference-placeholder.svg",
-      "existingImageFilePresent": true,
-      "photoAssetId": null,
-      "status": "Requires Verification",
-      "sourceUrl": "https://press.omegawatches.com/omega-at-the-83rd-annual-golden-globes/",
-      "licenseRecord": null,
-      "websiteApproved": false,
-      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
-    },
-    {
-      "brand": "Omega",
-      "collection": "Aqua Terra",
-      "reference": "220.50.38.20.03.001",
-      "configurations": [
-        {
-          "caseSize": "38 mm",
-          "movement": "Omega Master Chronometer automatic",
-          "dial": "Blue non-wave",
-          "bracelet": "18K Moonshine Gold bracelet",
-          "originalMSRP": null,
-          "currentMSRP": null
-        }
-      ],
-      "material": "18K Moonshine Gold",
-      "sources": [
-        "src/data/collectionRegistry.ts",
-        "src/data/verified-catalog-expansion.ts"
-      ],
-      "routes": [
-        "/collections/omega/aqua-terra/220-50-38-20-03-001"
       ],
       "scope": "built-reference",
       "existingImage": "/images/watch-reference-placeholder.svg",
@@ -10603,26 +10614,26 @@
           "dial": "Black",
           "bracelet": "Stainless-steel bracelet",
           "originalMSRP": null,
-          "currentMSRP": null
+          "currentMSRP": null,
+          "nickname": "Black / Stainless-steel bracelet"
         }
       ],
       "material": "Stainless Steel",
       "sources": [
-        "src/data/collectionRegistry.ts",
-        "src/data/verified-catalog-expansion.ts"
+        "src/data/collectionRegistry.ts"
       ],
       "routes": [
         "/collections/iwc/ingenieur/iw328901"
       ],
       "scope": "built-reference",
-      "existingImage": "/images/watch-reference-placeholder.svg",
+      "existingImage": "/images/watches/iwc/reviewed-iw328901-white-web.webp",
       "existingImageFilePresent": true,
-      "photoAssetId": null,
-      "status": "Requires Verification",
-      "sourceUrl": "https://www.iwc.com/us-en/watches/ingenieur/iw328901-ingenieur-automatic-40",
-      "licenseRecord": null,
-      "websiteApproved": false,
-      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+      "photoAssetId": "cleared-eleven-1NbPs6wv7hh9fVz0nrb74_P5z2yjFGRgc",
+      "status": "approved",
+      "sourceUrl": "https://www.jw-oomiya.co.jp/products/iw328901",
+      "licenseRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for these exact eleven originals and white-background derivatives with no additional restrictions on October14,2026 Eastern. Record docs/PHOTOGRAPHY_ELEVEN_FOUNDER_RIGHTS_2026-10-15.json. Authentic complete RAW and final white WEB individually visually reviewed; source credits retained separately. Preserved RAW file: 1NbPs6wv7hh9fVz0nrb74_P5z2yjFGRgc. Pictured full reference IW328901; Stainless Steel, Black, Stainless-steel bracelet. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
     },
     {
       "brand": "IWC",
@@ -10635,26 +10646,26 @@
           "dial": "Blue",
           "bracelet": "Blue calfskin leather strap",
           "originalMSRP": null,
-          "currentMSRP": null
+          "currentMSRP": null,
+          "nickname": "Blue / Blue calfskin leather strap"
         }
       ],
       "material": "Stainless Steel",
       "sources": [
-        "src/data/collectionRegistry.ts",
-        "src/data/verified-catalog-expansion.ts"
+        "src/data/collectionRegistry.ts"
       ],
       "routes": [
         "/collections/iwc/pilots-watches/iw388101"
       ],
       "scope": "built-reference",
-      "existingImage": "/images/watch-reference-placeholder.svg",
+      "existingImage": "/images/watches/iwc/reviewed-iw388101-white-web.webp",
       "existingImageFilePresent": true,
-      "photoAssetId": null,
-      "status": "Requires Verification",
-      "sourceUrl": "https://www.iwc.com/us-en/watches/pilot-watches/iw388101-pilots-watch-chronograph-41",
-      "licenseRecord": null,
-      "websiteApproved": false,
-      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+      "photoAssetId": "cleared-eleven-1juY4Mkthc8wvV4VqVKFdjnArp7WRONvn",
+      "status": "approved",
+      "sourceUrl": "https://www.jw-oomiya.co.jp/products/iw388101",
+      "licenseRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for these exact eleven originals and white-background derivatives with no additional restrictions on October14,2026 Eastern. Record docs/PHOTOGRAPHY_ELEVEN_FOUNDER_RIGHTS_2026-10-15.json. Authentic complete RAW and final white WEB individually visually reviewed; source credits retained separately. Preserved RAW file: 1juY4Mkthc8wvV4VqVKFdjnArp7WRONvn. Pictured full reference IW388101; Stainless Steel, Blue, Blue calfskin leather strap. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
     },
     {
       "brand": "IWC",
@@ -10667,26 +10678,26 @@
           "dial": "Green",
           "bracelet": "Black alligator leather strap",
           "originalMSRP": null,
-          "currentMSRP": null
+          "currentMSRP": null,
+          "nickname": "Green / Black alligator leather strap"
         }
       ],
       "material": "Stainless Steel",
       "sources": [
-        "src/data/collectionRegistry.ts",
-        "src/data/verified-catalog-expansion.ts"
+        "src/data/collectionRegistry.ts"
       ],
       "routes": [
         "/collections/iwc/portugieser/iw371615"
       ],
       "scope": "built-reference",
-      "existingImage": "/images/watch-reference-placeholder.svg",
+      "existingImage": "/images/watches/iwc/reviewed-iw371615-white-web.webp",
       "existingImageFilePresent": true,
-      "photoAssetId": null,
-      "status": "Requires Verification",
-      "sourceUrl": "https://www.iwc.com/us-en/watches/portugieser/iw371615-portugieser-chronograph",
-      "licenseRecord": null,
-      "websiteApproved": false,
-      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+      "photoAssetId": "cleared-eleven-1Y4yV_zAVmlTF5ZI1Q3B_tK1vt5av7Itf",
+      "status": "approved",
+      "sourceUrl": "https://www.jw-oomiya.co.jp/products/iw371615",
+      "licenseRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for these exact eleven originals and white-background derivatives with no additional restrictions on October14,2026 Eastern. Record docs/PHOTOGRAPHY_ELEVEN_FOUNDER_RIGHTS_2026-10-15.json. Authentic complete RAW and final white WEB individually visually reviewed; source credits retained separately. Preserved RAW file: 1Y4yV_zAVmlTF5ZI1Q3B_tK1vt5av7Itf. Pictured full reference IW371615; Stainless Steel, Green, Black alligator leather strap. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
     },
     {
       "brand": "IWC",
@@ -10699,26 +10710,26 @@
           "dial": "Silver",
           "bracelet": "Stainless-steel bracelet",
           "originalMSRP": null,
-          "currentMSRP": null
+          "currentMSRP": null,
+          "nickname": "Silver / Stainless-steel bracelet"
         }
       ],
       "material": "Stainless Steel",
       "sources": [
-        "src/data/collectionRegistry.ts",
-        "src/data/verified-catalog-expansion.ts"
+        "src/data/collectionRegistry.ts"
       ],
       "routes": [
         "/collections/iwc/portugieser/iw371617"
       ],
       "scope": "built-reference",
-      "existingImage": "/images/watch-reference-placeholder.svg",
+      "existingImage": "/images/watches/iwc/reviewed-iw371617-white-web.webp",
       "existingImageFilePresent": true,
-      "photoAssetId": null,
-      "status": "Requires Verification",
-      "sourceUrl": "https://www.iwc.com/us-en/watches/portugieser/iw371617-portugieser-chronograph",
-      "licenseRecord": null,
-      "websiteApproved": false,
-      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+      "photoAssetId": "cleared-eleven-1WrKyMkmuC6HW_9wbTemVIwuJ7R2LhMZR",
+      "status": "approved",
+      "sourceUrl": "https://www.jw-oomiya.co.jp/products/iw371617",
+      "licenseRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for these exact eleven originals and white-background derivatives with no additional restrictions on October14,2026 Eastern. Record docs/PHOTOGRAPHY_ELEVEN_FOUNDER_RIGHTS_2026-10-15.json. Authentic complete RAW and final white WEB individually visually reviewed; source credits retained separately. Preserved RAW file: 1WrKyMkmuC6HW_9wbTemVIwuJ7R2LhMZR. Pictured full reference IW371617; Stainless Steel, Silver, Stainless-steel bracelet. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
     },
     {
       "brand": "IWC",
@@ -10795,26 +10806,26 @@
           "dial": "Silver",
           "bracelet": "Blue alligator leather strap",
           "originalMSRP": null,
-          "currentMSRP": null
+          "currentMSRP": null,
+          "nickname": "Silver / Blue alligator leather strap"
         }
       ],
       "material": "Stainless Steel",
       "sources": [
-        "src/data/collectionRegistry.ts",
-        "src/data/verified-catalog-expansion.ts"
+        "src/data/collectionRegistry.ts"
       ],
       "routes": [
         "/collections/iwc/portofino/iw356527"
       ],
       "scope": "built-reference",
-      "existingImage": "/images/watch-reference-placeholder.svg",
+      "existingImage": "/images/watches/iwc/reviewed-iw356527-white-web.webp",
       "existingImageFilePresent": true,
-      "photoAssetId": null,
-      "status": "Requires Verification",
-      "sourceUrl": "https://www.iwc.com/us-en/watches/portofino/iw356527-portofino-automatic",
-      "licenseRecord": null,
-      "websiteApproved": false,
-      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+      "photoAssetId": "cleared-eleven-1bhSxz-kh6-MdBXODfum-809Fz_scYKzh",
+      "status": "approved",
+      "sourceUrl": "https://www.jw-oomiya.co.jp/products/iw356527",
+      "licenseRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for these exact eleven originals and white-background derivatives with no additional restrictions on October14,2026 Eastern. Record docs/PHOTOGRAPHY_ELEVEN_FOUNDER_RIGHTS_2026-10-15.json. Authentic complete RAW and final white WEB individually visually reviewed; source credits retained separately. Preserved RAW file: 1bhSxz-kh6-MdBXODfum-809Fz_scYKzh. Pictured full reference IW356527; Stainless Steel, Silver, Blue alligator leather strap. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
     },
     {
       "brand": "IWC",
@@ -10827,26 +10838,26 @@
           "dial": "Blue",
           "bracelet": "Blue rubber strap",
           "originalMSRP": null,
-          "currentMSRP": null
+          "currentMSRP": null,
+          "nickname": "Blue / Blue rubber strap"
         }
       ],
       "material": "Stainless Steel",
       "sources": [
-        "src/data/collectionRegistry.ts",
-        "src/data/verified-catalog-expansion.ts"
+        "src/data/collectionRegistry.ts"
       ],
       "routes": [
         "/collections/iwc/aquatimer/iw328801"
       ],
       "scope": "built-reference",
-      "existingImage": "/images/watch-reference-placeholder.svg",
+      "existingImage": "/images/watches/iwc/reviewed-iw328801-white-web.webp",
       "existingImageFilePresent": true,
-      "photoAssetId": null,
-      "status": "Requires Verification",
-      "sourceUrl": "https://www.iwc.com/us-en/watches/aquatimer/iw328801-aquatimer-automatic",
-      "licenseRecord": null,
-      "websiteApproved": false,
-      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+      "photoAssetId": "cleared-eleven-1HWZDjwm8FtRUAaJ4abY_KQsbdqjqPxVT",
+      "status": "approved",
+      "sourceUrl": "https://www.jw-oomiya.co.jp/products/iw328801",
+      "licenseRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for these exact eleven originals and white-background derivatives with no additional restrictions on October14,2026 Eastern. Record docs/PHOTOGRAPHY_ELEVEN_FOUNDER_RIGHTS_2026-10-15.json. Authentic complete RAW and final white WEB individually visually reviewed; source credits retained separately. Preserved RAW file: 1HWZDjwm8FtRUAaJ4abY_KQsbdqjqPxVT. Pictured full reference IW328801; Stainless Steel, Blue, Blue rubber strap. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
     },
     {
       "brand": "Breitling",
@@ -11922,26 +11933,26 @@
           "dial": "Purple patchouli blossom non-wave",
           "bracelet": "Stainless-steel bracelet",
           "originalMSRP": null,
-          "currentMSRP": null
+          "currentMSRP": null,
+          "nickname": "Purple patchouli blossom non-wave / Stainless-steel bracelet"
         }
       ],
       "material": "Stainless Steel",
       "sources": [
-        "src/data/collectionRegistry.ts",
-        "src/data/verified-catalog-expansion.ts"
+        "src/data/collectionRegistry.ts"
       ],
       "routes": [
         "/collections/omega/constellation/131-10-28-60-60-002"
       ],
       "scope": "built-reference",
-      "existingImage": "/images/watch-reference-placeholder.svg",
+      "existingImage": "/images/watches/omega/reviewed-131-10-28-60-60-002-white-web.webp",
       "existingImageFilePresent": true,
-      "photoAssetId": null,
-      "status": "Requires Verification",
-      "sourceUrl": "https://www.omegawatches.com.hk/en-hk/watch-omega-constellation-quartz-28-mm-13110286060002",
-      "licenseRecord": null,
-      "websiteApproved": false,
-      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+      "photoAssetId": "cleared-eleven-1FLhpVsqU1NMz0iSVZpPPcyGCpjmg72nx",
+      "status": "approved",
+      "sourceUrl": "https://www.cjcharles.com/products/constellation-quartz-28-mm-131-10-28-60-60-002",
+      "licenseRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for these exact eleven originals and white-background derivatives with no additional restrictions on October14,2026 Eastern. Record docs/PHOTOGRAPHY_ELEVEN_FOUNDER_RIGHTS_2026-10-15.json. Authentic complete RAW and final white WEB individually visually reviewed; source credits retained separately. Preserved RAW file: 1FLhpVsqU1NMz0iSVZpPPcyGCpjmg72nx. Pictured full reference 131.10.28.60.60.002; Stainless Steel, Purple patchouli blossom non-wave, Stainless-steel bracelet. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
     },
     {
       "brand": "Omega",
@@ -11986,26 +11997,26 @@
           "dial": "Gray sun-brushed non-wave with diamonds",
           "bracelet": "Stainless-steel bracelet",
           "originalMSRP": null,
-          "currentMSRP": null
+          "currentMSRP": null,
+          "nickname": "Gray sun-brushed non-wave with diamonds / Stainless-steel bracelet"
         }
       ],
       "material": "Stainless Steel",
       "sources": [
-        "src/data/collectionRegistry.ts",
-        "src/data/verified-catalog-expansion.ts"
+        "src/data/collectionRegistry.ts"
       ],
       "routes": [
         "/collections/omega/constellation/131-10-28-60-56-001"
       ],
       "scope": "built-reference",
-      "existingImage": "/images/watch-reference-placeholder.svg",
+      "existingImage": "/images/watches/omega/reviewed-131-10-28-60-56-001-white-web.webp",
       "existingImageFilePresent": true,
-      "photoAssetId": null,
-      "status": "Requires Verification",
-      "sourceUrl": "https://www.omegawatches.com.hk/en-hk/watch-omega-constellation-quartz-28-mm-13110286056001",
-      "licenseRecord": null,
-      "websiteApproved": false,
-      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+      "photoAssetId": "cleared-eleven-1er8X4Qt2d4Jz1g6u7yLQ44lyPcEwZJ8U",
+      "status": "approved",
+      "sourceUrl": "https://www.kk-tanaka.com/omega/38368/",
+      "licenseRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for these exact eleven originals and white-background derivatives with no additional restrictions on October14,2026 Eastern. Record docs/PHOTOGRAPHY_ELEVEN_FOUNDER_RIGHTS_2026-10-15.json. Authentic complete RAW and final white WEB individually visually reviewed; source credits retained separately. Preserved RAW file: 1er8X4Qt2d4Jz1g6u7yLQ44lyPcEwZJ8U. Pictured full reference 131.10.28.60.56.001; Stainless Steel, Gray sun-brushed non-wave with diamonds, Stainless-steel bracelet. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
     },
     {
       "brand": "Omega",
@@ -15849,6 +15860,248 @@
       "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
     },
     {
+      "brand": "Omega",
+      "collection": "Aqua Terra",
+      "reference": "220.50.38.20.03.001",
+      "configurations": [],
+      "material": "18K Moonshine Gold",
+      "sources": [
+        "src/data/photography-cleared-sprint.ts"
+      ],
+      "routes": [
+        "/collections/omega/aqua-terra/220-50-38-20-03-001"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": null,
+      "status": "Requires Verification",
+      "sourceUrl": null,
+      "licenseRecord": null,
+      "websiteApproved": false,
+      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+    },
+    {
+      "brand": "Omega",
+      "collection": "Aqua Terra",
+      "reference": "220.20.30.20.10.002",
+      "configurations": [],
+      "material": "Stainless Steel and 18K Sedna Gold",
+      "sources": [
+        "src/data/photography-cleared-sprint.ts"
+      ],
+      "routes": [
+        "/collections/omega/aqua-terra/220-20-30-20-10-002"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": null,
+      "status": "Requires Verification",
+      "sourceUrl": null,
+      "licenseRecord": null,
+      "websiteApproved": false,
+      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+    },
+    {
+      "brand": "Omega",
+      "collection": "Constellation",
+      "reference": "131.10.28.60.60.002",
+      "configurations": [],
+      "material": "Stainless Steel",
+      "sources": [
+        "src/data/photography-cleared-sprint.ts"
+      ],
+      "routes": [
+        "/collections/omega/constellation/131-10-28-60-60-002"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": null,
+      "status": "Requires Verification",
+      "sourceUrl": null,
+      "licenseRecord": null,
+      "websiteApproved": false,
+      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+    },
+    {
+      "brand": "Omega",
+      "collection": "Constellation",
+      "reference": "131.10.28.60.56.001",
+      "configurations": [],
+      "material": "Stainless Steel",
+      "sources": [
+        "src/data/photography-cleared-sprint.ts"
+      ],
+      "routes": [
+        "/collections/omega/constellation/131-10-28-60-56-001"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": null,
+      "status": "Requires Verification",
+      "sourceUrl": null,
+      "licenseRecord": null,
+      "websiteApproved": false,
+      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+    },
+    {
+      "brand": "IWC",
+      "collection": "Ingenieur",
+      "reference": "IW328901",
+      "configurations": [],
+      "material": "Stainless Steel",
+      "sources": [
+        "src/data/photography-cleared-sprint.ts"
+      ],
+      "routes": [
+        "/collections/iwc/ingenieur/iw328901"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": null,
+      "status": "Requires Verification",
+      "sourceUrl": null,
+      "licenseRecord": null,
+      "websiteApproved": false,
+      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+    },
+    {
+      "brand": "IWC",
+      "collection": "Portugieser",
+      "reference": "IW371617",
+      "configurations": [],
+      "material": "Stainless Steel",
+      "sources": [
+        "src/data/photography-cleared-sprint.ts"
+      ],
+      "routes": [
+        "/collections/iwc/portugieser/iw371617"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": null,
+      "status": "Requires Verification",
+      "sourceUrl": null,
+      "licenseRecord": null,
+      "websiteApproved": false,
+      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+    },
+    {
+      "brand": "IWC",
+      "collection": "Portugieser",
+      "reference": "IW371615",
+      "configurations": [],
+      "material": "Stainless Steel",
+      "sources": [
+        "src/data/photography-cleared-sprint.ts"
+      ],
+      "routes": [
+        "/collections/iwc/portugieser/iw371615"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": null,
+      "status": "Requires Verification",
+      "sourceUrl": null,
+      "licenseRecord": null,
+      "websiteApproved": false,
+      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+    },
+    {
+      "brand": "IWC",
+      "collection": "Pilot's Watches",
+      "reference": "IW388101",
+      "configurations": [],
+      "material": "Stainless Steel",
+      "sources": [
+        "src/data/photography-cleared-sprint.ts"
+      ],
+      "routes": [
+        "/collections/iwc/pilots-watches/iw388101"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": null,
+      "status": "Requires Verification",
+      "sourceUrl": null,
+      "licenseRecord": null,
+      "websiteApproved": false,
+      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+    },
+    {
+      "brand": "IWC",
+      "collection": "Pilot's Watch",
+      "reference": "IW388102",
+      "configurations": [],
+      "material": "Stainless Steel",
+      "sources": [
+        "src/data/photography-cleared-sprint.ts"
+      ],
+      "routes": [
+        "/collections/iwc/pilots-watch/iw388102"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": null,
+      "status": "Requires Verification",
+      "sourceUrl": null,
+      "licenseRecord": null,
+      "websiteApproved": false,
+      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+    },
+    {
+      "brand": "IWC",
+      "collection": "Portofino",
+      "reference": "IW356527",
+      "configurations": [],
+      "material": "Stainless Steel",
+      "sources": [
+        "src/data/photography-cleared-sprint.ts"
+      ],
+      "routes": [
+        "/collections/iwc/portofino/iw356527"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": null,
+      "status": "Requires Verification",
+      "sourceUrl": null,
+      "licenseRecord": null,
+      "websiteApproved": false,
+      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+    },
+    {
+      "brand": "IWC",
+      "collection": "Aquatimer",
+      "reference": "IW328801",
+      "configurations": [],
+      "material": "Stainless Steel",
+      "sources": [
+        "src/data/photography-cleared-sprint.ts"
+      ],
+      "routes": [
+        "/collections/iwc/aquatimer/iw328801"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": null,
+      "status": "Requires Verification",
+      "sourceUrl": null,
+      "licenseRecord": null,
+      "websiteApproved": false,
+      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+    },
+    {
       "brand": "Breitling",
       "collection": "Superocean",
       "reference": "A17376211B1A1",
@@ -18716,6 +18969,294 @@
       "status": "approved",
       "sourceUrl": "https://zadok.com/products/omega-seamaster-watch-22010432203001",
       "licenseRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for these exact 35 originals and their white-background derivatives, with no additional restrictions, in the existing Website/Product chat on October 14, 2026. Record docs/PHOTOGRAPHY_ADDITIONAL35_FOUNDER_RIGHTS_2026-10-14.json. Exact configuration, authentic RAW and full-resolution derivative visually reviewed; source credits retained separately. Preserved RAW file: 1hE3jP-lzQhFKf-Q4NffKXpJ39wwHccus. Pictured full reference 220.10.43.22.03.001; Stainless Steel, Blue teak-stripe worldtime non-wave, Stainless-steel bracelet. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
+      "brand": "Omega",
+      "collection": "Constellation",
+      "reference": "131.10.28.60.60.002",
+      "configurations": [
+        {
+          "caseSize": "28 mm",
+          "movement": "Omega 4061 quartz",
+          "dial": "Purple patchouli blossom non-wave",
+          "bracelet": "Stainless-steel bracelet",
+          "nickname": "Purple patchouli blossom non-wave / Stainless-steel bracelet",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "Stainless Steel",
+      "sources": [
+        "src/data/photography-expansion.ts"
+      ],
+      "routes": [
+        "/collections/omega/constellation/131-10-28-60-60-002"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": "cleared-eleven-1FLhpVsqU1NMz0iSVZpPPcyGCpjmg72nx",
+      "status": "approved",
+      "sourceUrl": "https://www.cjcharles.com/products/constellation-quartz-28-mm-131-10-28-60-60-002",
+      "licenseRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for these exact eleven originals and white-background derivatives with no additional restrictions on October14,2026 Eastern. Record docs/PHOTOGRAPHY_ELEVEN_FOUNDER_RIGHTS_2026-10-15.json. Authentic complete RAW and final white WEB individually visually reviewed; source credits retained separately. Preserved RAW file: 1FLhpVsqU1NMz0iSVZpPPcyGCpjmg72nx. Pictured full reference 131.10.28.60.60.002; Stainless Steel, Purple patchouli blossom non-wave, Stainless-steel bracelet. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
+      "brand": "Omega",
+      "collection": "Constellation",
+      "reference": "131.10.28.60.56.001",
+      "configurations": [
+        {
+          "caseSize": "28 mm",
+          "movement": "Omega 4061 quartz",
+          "dial": "Gray sun-brushed non-wave with diamonds",
+          "bracelet": "Stainless-steel bracelet",
+          "nickname": "Gray sun-brushed non-wave with diamonds / Stainless-steel bracelet",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "Stainless Steel",
+      "sources": [
+        "src/data/photography-expansion.ts"
+      ],
+      "routes": [
+        "/collections/omega/constellation/131-10-28-60-56-001"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": "cleared-eleven-1er8X4Qt2d4Jz1g6u7yLQ44lyPcEwZJ8U",
+      "status": "approved",
+      "sourceUrl": "https://www.kk-tanaka.com/omega/38368/",
+      "licenseRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for these exact eleven originals and white-background derivatives with no additional restrictions on October14,2026 Eastern. Record docs/PHOTOGRAPHY_ELEVEN_FOUNDER_RIGHTS_2026-10-15.json. Authentic complete RAW and final white WEB individually visually reviewed; source credits retained separately. Preserved RAW file: 1er8X4Qt2d4Jz1g6u7yLQ44lyPcEwZJ8U. Pictured full reference 131.10.28.60.56.001; Stainless Steel, Gray sun-brushed non-wave with diamonds, Stainless-steel bracelet. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
+      "brand": "IWC",
+      "collection": "Ingenieur",
+      "reference": "IW328901",
+      "configurations": [
+        {
+          "caseSize": "40 mm",
+          "movement": "IWC 32111 automatic",
+          "dial": "Black",
+          "bracelet": "Stainless-steel bracelet",
+          "nickname": "Black / Stainless-steel bracelet",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "Stainless Steel",
+      "sources": [
+        "src/data/photography-expansion.ts"
+      ],
+      "routes": [
+        "/collections/iwc/ingenieur/iw328901"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": "cleared-eleven-1NbPs6wv7hh9fVz0nrb74_P5z2yjFGRgc",
+      "status": "approved",
+      "sourceUrl": "https://www.jw-oomiya.co.jp/products/iw328901",
+      "licenseRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for these exact eleven originals and white-background derivatives with no additional restrictions on October14,2026 Eastern. Record docs/PHOTOGRAPHY_ELEVEN_FOUNDER_RIGHTS_2026-10-15.json. Authentic complete RAW and final white WEB individually visually reviewed; source credits retained separately. Preserved RAW file: 1NbPs6wv7hh9fVz0nrb74_P5z2yjFGRgc. Pictured full reference IW328901; Stainless Steel, Black, Stainless-steel bracelet. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
+      "brand": "IWC",
+      "collection": "Portugieser",
+      "reference": "IW371617",
+      "configurations": [
+        {
+          "caseSize": "41 mm",
+          "movement": "IWC 69355 automatic chronograph",
+          "dial": "Silver",
+          "bracelet": "Stainless-steel bracelet",
+          "nickname": "Silver / Stainless-steel bracelet",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "Stainless Steel",
+      "sources": [
+        "src/data/photography-expansion.ts"
+      ],
+      "routes": [
+        "/collections/iwc/portugieser/iw371617"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": "cleared-eleven-1WrKyMkmuC6HW_9wbTemVIwuJ7R2LhMZR",
+      "status": "approved",
+      "sourceUrl": "https://www.jw-oomiya.co.jp/products/iw371617",
+      "licenseRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for these exact eleven originals and white-background derivatives with no additional restrictions on October14,2026 Eastern. Record docs/PHOTOGRAPHY_ELEVEN_FOUNDER_RIGHTS_2026-10-15.json. Authentic complete RAW and final white WEB individually visually reviewed; source credits retained separately. Preserved RAW file: 1WrKyMkmuC6HW_9wbTemVIwuJ7R2LhMZR. Pictured full reference IW371617; Stainless Steel, Silver, Stainless-steel bracelet. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
+      "brand": "IWC",
+      "collection": "Portugieser",
+      "reference": "IW371615",
+      "configurations": [
+        {
+          "caseSize": "41 mm",
+          "movement": "IWC 69355 automatic chronograph",
+          "dial": "Green",
+          "bracelet": "Black alligator leather strap",
+          "nickname": "Green / Black alligator leather strap",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "Stainless Steel",
+      "sources": [
+        "src/data/photography-expansion.ts"
+      ],
+      "routes": [
+        "/collections/iwc/portugieser/iw371615"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": "cleared-eleven-1Y4yV_zAVmlTF5ZI1Q3B_tK1vt5av7Itf",
+      "status": "approved",
+      "sourceUrl": "https://www.jw-oomiya.co.jp/products/iw371615",
+      "licenseRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for these exact eleven originals and white-background derivatives with no additional restrictions on October14,2026 Eastern. Record docs/PHOTOGRAPHY_ELEVEN_FOUNDER_RIGHTS_2026-10-15.json. Authentic complete RAW and final white WEB individually visually reviewed; source credits retained separately. Preserved RAW file: 1Y4yV_zAVmlTF5ZI1Q3B_tK1vt5av7Itf. Pictured full reference IW371615; Stainless Steel, Green, Black alligator leather strap. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
+      "brand": "IWC",
+      "collection": "Pilot's Watches",
+      "reference": "IW388101",
+      "configurations": [
+        {
+          "caseSize": "41 mm",
+          "movement": "IWC 69385 automatic chronograph",
+          "dial": "Blue",
+          "bracelet": "Blue calfskin leather strap",
+          "nickname": "Blue / Blue calfskin leather strap",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "Stainless Steel",
+      "sources": [
+        "src/data/photography-expansion.ts"
+      ],
+      "routes": [
+        "/collections/iwc/pilots-watches/iw388101"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": "cleared-eleven-1juY4Mkthc8wvV4VqVKFdjnArp7WRONvn",
+      "status": "approved",
+      "sourceUrl": "https://www.jw-oomiya.co.jp/products/iw388101",
+      "licenseRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for these exact eleven originals and white-background derivatives with no additional restrictions on October14,2026 Eastern. Record docs/PHOTOGRAPHY_ELEVEN_FOUNDER_RIGHTS_2026-10-15.json. Authentic complete RAW and final white WEB individually visually reviewed; source credits retained separately. Preserved RAW file: 1juY4Mkthc8wvV4VqVKFdjnArp7WRONvn. Pictured full reference IW388101; Stainless Steel, Blue, Blue calfskin leather strap. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
+      "brand": "IWC",
+      "collection": "Pilot's Watch",
+      "reference": "IW388102",
+      "configurations": [
+        {
+          "caseSize": "41 mm",
+          "movement": "IWC 69385 automatic chronograph",
+          "dial": "Blue",
+          "bracelet": "Stainless-steel bracelet",
+          "nickname": "Blue / Stainless-steel bracelet",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "Stainless Steel",
+      "sources": [
+        "src/data/photography-expansion.ts"
+      ],
+      "routes": [
+        "/collections/iwc/pilots-watch/iw388102"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": "cleared-eleven-1HrE6nAXwf3IzSIgWQSJxA7Zif4V6y_22",
+      "status": "approved",
+      "sourceUrl": "https://www.jw-oomiya.co.jp/products/iw388102",
+      "licenseRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for these exact eleven originals and white-background derivatives with no additional restrictions on October14,2026 Eastern. Record docs/PHOTOGRAPHY_ELEVEN_FOUNDER_RIGHTS_2026-10-15.json. Authentic complete RAW and final white WEB individually visually reviewed; source credits retained separately. Preserved RAW file: 1HrE6nAXwf3IzSIgWQSJxA7Zif4V6y_22. Pictured full reference IW388102; Stainless Steel, Blue, Stainless-steel bracelet. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
+      "brand": "IWC",
+      "collection": "Portofino",
+      "reference": "IW356527",
+      "configurations": [
+        {
+          "caseSize": "40 mm",
+          "movement": "IWC 35111 automatic",
+          "dial": "Silver",
+          "bracelet": "Blue alligator leather strap",
+          "nickname": "Silver / Blue alligator leather strap",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "Stainless Steel",
+      "sources": [
+        "src/data/photography-expansion.ts"
+      ],
+      "routes": [
+        "/collections/iwc/portofino/iw356527"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": "cleared-eleven-1bhSxz-kh6-MdBXODfum-809Fz_scYKzh",
+      "status": "approved",
+      "sourceUrl": "https://www.jw-oomiya.co.jp/products/iw356527",
+      "licenseRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for these exact eleven originals and white-background derivatives with no additional restrictions on October14,2026 Eastern. Record docs/PHOTOGRAPHY_ELEVEN_FOUNDER_RIGHTS_2026-10-15.json. Authentic complete RAW and final white WEB individually visually reviewed; source credits retained separately. Preserved RAW file: 1bhSxz-kh6-MdBXODfum-809Fz_scYKzh. Pictured full reference IW356527; Stainless Steel, Silver, Blue alligator leather strap. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
+      "brand": "IWC",
+      "collection": "Aquatimer",
+      "reference": "IW328801",
+      "configurations": [
+        {
+          "caseSize": "42 mm",
+          "movement": "IWC 32111 automatic",
+          "dial": "Blue",
+          "bracelet": "Blue rubber strap",
+          "nickname": "Blue / Blue rubber strap",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "Stainless Steel",
+      "sources": [
+        "src/data/photography-expansion.ts"
+      ],
+      "routes": [
+        "/collections/iwc/aquatimer/iw328801"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": "cleared-eleven-1HWZDjwm8FtRUAaJ4abY_KQsbdqjqPxVT",
+      "status": "approved",
+      "sourceUrl": "https://www.jw-oomiya.co.jp/products/iw328801",
+      "licenseRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for these exact eleven originals and white-background derivatives with no additional restrictions on October14,2026 Eastern. Record docs/PHOTOGRAPHY_ELEVEN_FOUNDER_RIGHTS_2026-10-15.json. Authentic complete RAW and final white WEB individually visually reviewed; source credits retained separately. Preserved RAW file: 1HWZDjwm8FtRUAaJ4abY_KQsbdqjqPxVT. Pictured full reference IW328801; Stainless Steel, Blue, Blue rubber strap. Exact configuration reviewed against preserved source evidence and the original photograph.",
       "websiteApproved": true,
       "nextAction": "Retain approved original and verify derivative integrity."
     },
@@ -22810,6 +23351,192 @@
       "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
     },
     {
+      "brand": "IWC",
+      "collection": "Ingenieur",
+      "reference": "IW328901",
+      "configurations": [
+        {
+          "caseSize": "40 mm",
+          "movement": "IWC 32111 automatic",
+          "dial": "Black",
+          "bracelet": "Stainless-steel bracelet",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "Stainless Steel",
+      "sources": [
+        "src/data/verified-catalog-expansion.ts"
+      ],
+      "routes": [
+        "/collections/iwc/ingenieur/iw328901"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": "cleared-eleven-1NbPs6wv7hh9fVz0nrb74_P5z2yjFGRgc",
+      "status": "approved",
+      "sourceUrl": "https://www.jw-oomiya.co.jp/products/iw328901",
+      "licenseRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for these exact eleven originals and white-background derivatives with no additional restrictions on October14,2026 Eastern. Record docs/PHOTOGRAPHY_ELEVEN_FOUNDER_RIGHTS_2026-10-15.json. Authentic complete RAW and final white WEB individually visually reviewed; source credits retained separately. Preserved RAW file: 1NbPs6wv7hh9fVz0nrb74_P5z2yjFGRgc. Pictured full reference IW328901; Stainless Steel, Black, Stainless-steel bracelet. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
+      "brand": "IWC",
+      "collection": "Pilot's Watches",
+      "reference": "IW388101",
+      "configurations": [
+        {
+          "caseSize": "41 mm",
+          "movement": "IWC 69385 automatic chronograph",
+          "dial": "Blue",
+          "bracelet": "Blue calfskin leather strap",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "Stainless Steel",
+      "sources": [
+        "src/data/verified-catalog-expansion.ts"
+      ],
+      "routes": [
+        "/collections/iwc/pilots-watches/iw388101"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": "cleared-eleven-1juY4Mkthc8wvV4VqVKFdjnArp7WRONvn",
+      "status": "approved",
+      "sourceUrl": "https://www.jw-oomiya.co.jp/products/iw388101",
+      "licenseRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for these exact eleven originals and white-background derivatives with no additional restrictions on October14,2026 Eastern. Record docs/PHOTOGRAPHY_ELEVEN_FOUNDER_RIGHTS_2026-10-15.json. Authentic complete RAW and final white WEB individually visually reviewed; source credits retained separately. Preserved RAW file: 1juY4Mkthc8wvV4VqVKFdjnArp7WRONvn. Pictured full reference IW388101; Stainless Steel, Blue, Blue calfskin leather strap. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
+      "brand": "IWC",
+      "collection": "Portugieser",
+      "reference": "IW371615",
+      "configurations": [
+        {
+          "caseSize": "41 mm",
+          "movement": "IWC 69355 automatic chronograph",
+          "dial": "Green",
+          "bracelet": "Black alligator leather strap",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "Stainless Steel",
+      "sources": [
+        "src/data/verified-catalog-expansion.ts"
+      ],
+      "routes": [
+        "/collections/iwc/portugieser/iw371615"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": "cleared-eleven-1Y4yV_zAVmlTF5ZI1Q3B_tK1vt5av7Itf",
+      "status": "approved",
+      "sourceUrl": "https://www.jw-oomiya.co.jp/products/iw371615",
+      "licenseRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for these exact eleven originals and white-background derivatives with no additional restrictions on October14,2026 Eastern. Record docs/PHOTOGRAPHY_ELEVEN_FOUNDER_RIGHTS_2026-10-15.json. Authentic complete RAW and final white WEB individually visually reviewed; source credits retained separately. Preserved RAW file: 1Y4yV_zAVmlTF5ZI1Q3B_tK1vt5av7Itf. Pictured full reference IW371615; Stainless Steel, Green, Black alligator leather strap. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
+      "brand": "IWC",
+      "collection": "Portugieser",
+      "reference": "IW371617",
+      "configurations": [
+        {
+          "caseSize": "41 mm",
+          "movement": "IWC 69355 automatic chronograph",
+          "dial": "Silver",
+          "bracelet": "Stainless-steel bracelet",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "Stainless Steel",
+      "sources": [
+        "src/data/verified-catalog-expansion.ts"
+      ],
+      "routes": [
+        "/collections/iwc/portugieser/iw371617"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": "cleared-eleven-1WrKyMkmuC6HW_9wbTemVIwuJ7R2LhMZR",
+      "status": "approved",
+      "sourceUrl": "https://www.jw-oomiya.co.jp/products/iw371617",
+      "licenseRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for these exact eleven originals and white-background derivatives with no additional restrictions on October14,2026 Eastern. Record docs/PHOTOGRAPHY_ELEVEN_FOUNDER_RIGHTS_2026-10-15.json. Authentic complete RAW and final white WEB individually visually reviewed; source credits retained separately. Preserved RAW file: 1WrKyMkmuC6HW_9wbTemVIwuJ7R2LhMZR. Pictured full reference IW371617; Stainless Steel, Silver, Stainless-steel bracelet. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
+      "brand": "IWC",
+      "collection": "Portofino",
+      "reference": "IW356527",
+      "configurations": [
+        {
+          "caseSize": "40 mm",
+          "movement": "IWC 35111 automatic",
+          "dial": "Silver",
+          "bracelet": "Blue alligator leather strap",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "Stainless Steel",
+      "sources": [
+        "src/data/verified-catalog-expansion.ts"
+      ],
+      "routes": [
+        "/collections/iwc/portofino/iw356527"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": "cleared-eleven-1bhSxz-kh6-MdBXODfum-809Fz_scYKzh",
+      "status": "approved",
+      "sourceUrl": "https://www.jw-oomiya.co.jp/products/iw356527",
+      "licenseRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for these exact eleven originals and white-background derivatives with no additional restrictions on October14,2026 Eastern. Record docs/PHOTOGRAPHY_ELEVEN_FOUNDER_RIGHTS_2026-10-15.json. Authentic complete RAW and final white WEB individually visually reviewed; source credits retained separately. Preserved RAW file: 1bhSxz-kh6-MdBXODfum-809Fz_scYKzh. Pictured full reference IW356527; Stainless Steel, Silver, Blue alligator leather strap. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
+      "brand": "IWC",
+      "collection": "Aquatimer",
+      "reference": "IW328801",
+      "configurations": [
+        {
+          "caseSize": "42 mm",
+          "movement": "IWC 32111 automatic",
+          "dial": "Blue",
+          "bracelet": "Blue rubber strap",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "Stainless Steel",
+      "sources": [
+        "src/data/verified-catalog-expansion.ts"
+      ],
+      "routes": [
+        "/collections/iwc/aquatimer/iw328801"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": "cleared-eleven-1HWZDjwm8FtRUAaJ4abY_KQsbdqjqPxVT",
+      "status": "approved",
+      "sourceUrl": "https://www.jw-oomiya.co.jp/products/iw328801",
+      "licenseRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for these exact eleven originals and white-background derivatives with no additional restrictions on October14,2026 Eastern. Record docs/PHOTOGRAPHY_ELEVEN_FOUNDER_RIGHTS_2026-10-15.json. Authentic complete RAW and final white WEB individually visually reviewed; source credits retained separately. Preserved RAW file: 1HWZDjwm8FtRUAaJ4abY_KQsbdqjqPxVT. Pictured full reference IW328801; Stainless Steel, Blue, Blue rubber strap. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
       "brand": "Omega",
       "collection": "Seamaster Diver 300M",
       "reference": "522.92.44.20.04.002",
@@ -23680,6 +24407,37 @@
     {
       "brand": "Omega",
       "collection": "Aqua Terra",
+      "reference": "220.20.30.20.10.002",
+      "configurations": [
+        {
+          "caseSize": "30 mm",
+          "movement": "Omega Master Chronometer automatic",
+          "dial": "Pine green sun-brushed non-wave",
+          "bracelet": "Steel and Sedna Gold bracelet",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "Stainless Steel and 18K Sedna Gold",
+      "sources": [
+        "src/data/verified-catalog-expansion.ts"
+      ],
+      "routes": [
+        "/collections/omega/aqua-terra/220-20-30-20-10-002"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": "cleared-eleven-1t7GxZQszLmwpZ5k2OEVg2V9C0sP7syCE",
+      "status": "approved",
+      "sourceUrl": "https://juwelier-boehnlein.de/produkt/omega-seamaster-aqua-terra-o22020302010002/",
+      "licenseRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for these exact eleven originals and white-background derivatives with no additional restrictions on October14,2026 Eastern. Record docs/PHOTOGRAPHY_ELEVEN_FOUNDER_RIGHTS_2026-10-15.json. Authentic complete RAW and final white WEB individually visually reviewed; source credits retained separately. Preserved RAW file: 1t7GxZQszLmwpZ5k2OEVg2V9C0sP7syCE. Pictured full reference 220.20.30.20.10.002; Stainless Steel and 18K Sedna Gold, Pine green sun-brushed non-wave, Steel and Sedna Gold bracelet. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
+      "brand": "Omega",
+      "collection": "Aqua Terra",
       "reference": "220.10.30.20.60.001",
       "configurations": [
         {
@@ -23705,6 +24463,37 @@
       "status": "approved",
       "sourceUrl": "https://zadok.com/products/omega-seamaster-aqua-terra-150m-220-10-30-20-60-001",
       "licenseRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for these exact 35 originals and their white-background derivatives, with no additional restrictions, in the existing Website/Product chat on October 14, 2026. Record docs/PHOTOGRAPHY_ADDITIONAL35_FOUNDER_RIGHTS_2026-10-14.json. Exact configuration, authentic RAW and full-resolution derivative visually reviewed; source credits retained separately. Preserved RAW file: 12o4j2nOMqCn4Fp1HcTwE1cWGby5yilNq. Pictured full reference 220.10.30.20.60.001; Stainless Steel, Pine green sun-brushed non-wave, Stainless-steel bracelet. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
+      "brand": "Omega",
+      "collection": "Aqua Terra",
+      "reference": "220.50.38.20.03.001",
+      "configurations": [
+        {
+          "caseSize": "38 mm",
+          "movement": "Omega Master Chronometer automatic",
+          "dial": "Blue non-wave",
+          "bracelet": "18K Moonshine Gold bracelet",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "18K Moonshine Gold",
+      "sources": [
+        "src/data/verified-catalog-expansion.ts"
+      ],
+      "routes": [
+        "/collections/omega/aqua-terra/220-50-38-20-03-001"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": "cleared-eleven-17XgsKoRBD3UkVS-mpOiGD8wmwpybOxP8",
+      "status": "approved",
+      "sourceUrl": "https://www.juwelier-cwm.de/produkte/omega-22050382003001",
+      "licenseRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for these exact eleven originals and white-background derivatives with no additional restrictions on October14,2026 Eastern. Record docs/PHOTOGRAPHY_ELEVEN_FOUNDER_RIGHTS_2026-10-15.json. Authentic complete RAW and final white WEB individually visually reviewed; source credits retained separately. Preserved RAW file: 17XgsKoRBD3UkVS-mpOiGD8wmwpybOxP8. Pictured full reference 220.50.38.20.03.001; 18K Moonshine Gold, Blue non-wave, 18K Moonshine Gold bracelet. Exact configuration reviewed against preserved source evidence and the original photograph.",
       "websiteApproved": true,
       "nextAction": "Retain approved original and verify derivative integrity."
     },
@@ -23984,6 +24773,68 @@
       "status": "approved",
       "sourceUrl": "https://www.the1916company.com/pre-owned/omega/constellation/v111695/",
       "licenseRecord": "Founder directly confirmed commercial website-use rights for this exact retailer original and its white-background derivative in the existing Website/Product chat on October 14, 2026. Record docs/OMEGA_EIGHT_FOUNDER_RIGHTS_CONFIRMED_2026-10-14.json. Source/configuration, framing and final derivative visually reviewed; separate source credits retained. Preserved RAW file: 18eRyR4fhVf_Z_OoYlglnLLrM19eqUEtr. Pictured full reference 131.30.41.21.99.003; Stainless Steel, Blue meteorite non-wave, Stainless-steel bracelet. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
+      "brand": "Omega",
+      "collection": "Constellation",
+      "reference": "131.10.28.60.60.002",
+      "configurations": [
+        {
+          "caseSize": "28 mm",
+          "movement": "Omega 4061 quartz",
+          "dial": "Purple patchouli blossom non-wave",
+          "bracelet": "Stainless-steel bracelet",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "Stainless Steel",
+      "sources": [
+        "src/data/verified-catalog-expansion.ts"
+      ],
+      "routes": [
+        "/collections/omega/constellation/131-10-28-60-60-002"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": "cleared-eleven-1FLhpVsqU1NMz0iSVZpPPcyGCpjmg72nx",
+      "status": "approved",
+      "sourceUrl": "https://www.cjcharles.com/products/constellation-quartz-28-mm-131-10-28-60-60-002",
+      "licenseRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for these exact eleven originals and white-background derivatives with no additional restrictions on October14,2026 Eastern. Record docs/PHOTOGRAPHY_ELEVEN_FOUNDER_RIGHTS_2026-10-15.json. Authentic complete RAW and final white WEB individually visually reviewed; source credits retained separately. Preserved RAW file: 1FLhpVsqU1NMz0iSVZpPPcyGCpjmg72nx. Pictured full reference 131.10.28.60.60.002; Stainless Steel, Purple patchouli blossom non-wave, Stainless-steel bracelet. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
+      "brand": "Omega",
+      "collection": "Constellation",
+      "reference": "131.10.28.60.56.001",
+      "configurations": [
+        {
+          "caseSize": "28 mm",
+          "movement": "Omega 4061 quartz",
+          "dial": "Gray sun-brushed non-wave with diamonds",
+          "bracelet": "Stainless-steel bracelet",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "Stainless Steel",
+      "sources": [
+        "src/data/verified-catalog-expansion.ts"
+      ],
+      "routes": [
+        "/collections/omega/constellation/131-10-28-60-56-001"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": "cleared-eleven-1er8X4Qt2d4Jz1g6u7yLQ44lyPcEwZJ8U",
+      "status": "approved",
+      "sourceUrl": "https://www.kk-tanaka.com/omega/38368/",
+      "licenseRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for these exact eleven originals and white-background derivatives with no additional restrictions on October14,2026 Eastern. Record docs/PHOTOGRAPHY_ELEVEN_FOUNDER_RIGHTS_2026-10-15.json. Authentic complete RAW and final white WEB individually visually reviewed; source credits retained separately. Preserved RAW file: 1er8X4Qt2d4Jz1g6u7yLQ44lyPcEwZJ8U. Pictured full reference 131.10.28.60.56.001; Stainless Steel, Gray sun-brushed non-wave with diamonds, Stainless-steel bracelet. Exact configuration reviewed against preserved source evidence and the original photograph.",
       "websiteApproved": true,
       "nextAction": "Retain approved original and verify derivative integrity."
     },
