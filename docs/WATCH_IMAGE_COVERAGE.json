@@ -1,14 +1,14 @@
 {
-  "reviewedAt": "2026-10-15T02:58:45.740Z",
+  "reviewedAt": "2026-10-15T10:38:29.565Z",
   "note": "Generated from all exported source datasets and built routes. Source-only and duplicate configuration records are retained for review; this register is not proof of image rights. Source URLs identify research leads, not licenses.",
   "summary": {
-    "sourceConfigurations": 788,
+    "sourceConfigurations": 805,
     "builtReferenceRoutes": 268,
     "collectionRoutes": 103,
-    "approvedReferenceConfigurations": 363,
+    "approvedReferenceConfigurations": 375,
     "unmatchedReferenceRoutes": 0,
-    "approvedCanonicalReferenceRoutes": 183,
-    "queuedCanonicalReferenceRoutes": 85
+    "approvedCanonicalReferenceRoutes": 189,
+    "queuedCanonicalReferenceRoutes": 79
   },
   "collections": [
     {
@@ -9913,6 +9913,39 @@
     {
       "brand": "Hublot",
       "collection": "Classic Fusion",
+      "reference": "542.CX.1270.RX.MDM",
+      "configurations": [
+        {
+          "caseSize": "42 mm",
+          "movement": "HUB1110 automatic",
+          "dial": "Black lacquer",
+          "bracelet": "Black rubber strap",
+          "nickname": "Black lacquer / Black rubber strap",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "Black Ceramic",
+      "sources": [
+        "src/data/collectionRegistry.ts",
+        "src/data/photography-expansion.ts"
+      ],
+      "routes": [
+        "/collections/hublot/classic-fusion/542-cx-1270-rx-mdm"
+      ],
+      "scope": "built-reference",
+      "existingImage": "/images/watches/hublot/reviewed-542-cx-1270-rx-mdm-white-web.webp",
+      "existingImageFilePresent": true,
+      "photoAssetId": "cleared-six-1YlyStZmxAT0gVTkW0mEiuWnGNRqxp8aY",
+      "status": "approved",
+      "sourceUrl": "https://www.jw-oomiya.co.jp/products/542-cx-1270-rx-mdm",
+      "licenseRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for these exact six originals and white-background derivatives with no additional restrictions on October15,2026 Eastern. Record docs/PHOTOGRAPHY_SIX_FOUNDER_RIGHTS_2026-10-15.json. Authentic complete RAW and final white WEB individually visually reviewed; source credits retained separately. Preserved RAW file: 1YlyStZmxAT0gVTkW0mEiuWnGNRqxp8aY. Pictured full reference 542.CX.1270.RX.MDM; Black Ceramic, Black lacquer, Black rubber strap. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
+      "brand": "Hublot",
+      "collection": "Classic Fusion",
       "reference": "542.CM.1171.RX",
       "configurations": [
         {
@@ -9938,38 +9971,6 @@
       "photoAssetId": null,
       "status": "Requires Verification",
       "sourceUrl": "https://www.hublot.com/en-ch/watches/classic-fusion/classic-fusion-black-magic-42-mm",
-      "licenseRecord": null,
-      "websiteApproved": false,
-      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
-    },
-    {
-      "brand": "Hublot",
-      "collection": "Classic Fusion",
-      "reference": "542.CX.1270.RX.MDM",
-      "configurations": [
-        {
-          "caseSize": "42 mm",
-          "movement": "HUB1110 automatic",
-          "dial": "Black lacquer",
-          "bracelet": "Black rubber strap",
-          "originalMSRP": null,
-          "currentMSRP": null
-        }
-      ],
-      "material": "Black Ceramic",
-      "sources": [
-        "src/data/collectionRegistry.ts",
-        "src/data/verified-catalog-expansion.ts"
-      ],
-      "routes": [
-        "/collections/hublot/classic-fusion/542-cx-1270-rx-mdm"
-      ],
-      "scope": "built-reference",
-      "existingImage": "/images/watch-reference-placeholder.svg",
-      "existingImageFilePresent": true,
-      "photoAssetId": null,
-      "status": "Requires Verification",
-      "sourceUrl": "https://www.hublot.com/en-us/watches/classic-fusion/classic-fusion-original-black-magic-42-mm",
       "licenseRecord": null,
       "websiteApproved": false,
       "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
@@ -10520,25 +10521,33 @@
           "bracelet": "Steel bracelet and blue rubber strap",
           "originalMSRP": null,
           "currentMSRP": null
+        },
+        {
+          "caseSize": "41 mm",
+          "movement": "El Primero 3620 automatic",
+          "dial": "Blue",
+          "bracelet": "Stainless-steel bracelet",
+          "nickname": "Blue / Stainless-steel bracelet",
+          "originalMSRP": null,
+          "currentMSRP": null
         }
       ],
       "material": "Stainless Steel",
       "sources": [
-        "src/data/collectionRegistry.ts",
-        "src/data/verified-catalog-expansion.ts"
+        "src/data/collectionRegistry.ts"
       ],
       "routes": [
         "/collections/zenith/defy-skyline/03-9300-3620-51-i001"
       ],
       "scope": "built-reference",
-      "existingImage": "/images/watch-reference-placeholder.svg",
+      "existingImage": "/images/watches/zenith/reviewed-03-9300-3620-51-i001-white-web.webp",
       "existingImageFilePresent": true,
-      "photoAssetId": null,
-      "status": "Requires Verification",
-      "sourceUrl": "https://www.zenith-watches.com/en_no/product/defy-skyline-03-9300-3620-51-i001",
-      "licenseRecord": null,
-      "websiteApproved": false,
-      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+      "photoAssetId": "cleared-six-1-zeg19oDBNgKLTuJVpqPTFzZmSb3Tile",
+      "status": "approved",
+      "sourceUrl": "https://www.the1916company.com/watches/zenith/defy/defy-039300362051i001/",
+      "licenseRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for these exact six originals and white-background derivatives with no additional restrictions on October15,2026 Eastern. Record docs/PHOTOGRAPHY_SIX_FOUNDER_RIGHTS_2026-10-15.json. Authentic complete RAW and final white WEB individually visually reviewed; source credits retained separately. Preserved RAW file: 1-zeg19oDBNgKLTuJVpqPTFzZmSb3Tile. Pictured full reference 03.9300.3620/51.I001; Stainless Steel, Blue, Stainless-steel bracelet. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
     },
     {
       "brand": "Zenith",
@@ -10552,25 +10561,33 @@
           "bracelet": "Steel bracelet and blue rubber strap",
           "originalMSRP": null,
           "currentMSRP": null
+        },
+        {
+          "caseSize": "41 mm",
+          "movement": "El Primero 3620 SK automatic",
+          "dial": "Blue skeleton",
+          "bracelet": "Stainless-steel bracelet",
+          "nickname": "Blue skeleton / Stainless-steel bracelet",
+          "originalMSRP": null,
+          "currentMSRP": null
         }
       ],
       "material": "Stainless Steel",
       "sources": [
-        "src/data/collectionRegistry.ts",
-        "src/data/verified-catalog-expansion.ts"
+        "src/data/collectionRegistry.ts"
       ],
       "routes": [
         "/collections/zenith/defy-skyline/03-9300-3620-79-i001"
       ],
       "scope": "built-reference",
-      "existingImage": "/images/watch-reference-placeholder.svg",
+      "existingImage": "/images/watches/zenith/reviewed-03-9300-3620-79-i001-white-web.webp",
       "existingImageFilePresent": true,
-      "photoAssetId": null,
-      "status": "Requires Verification",
-      "sourceUrl": "https://www.zenith-watches.com/int/product/defy-skyline-03-9300-3620-79-i001",
-      "licenseRecord": null,
-      "websiteApproved": false,
-      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+      "photoAssetId": "cleared-six-1hPU1rATHuKlKtbFBkg9KzZuHaNO60R6E",
+      "status": "approved",
+      "sourceUrl": "https://www.the1916company.com/watches/zenith/defy/039300362079i001/",
+      "licenseRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for these exact six originals and white-background derivatives with no additional restrictions on October15,2026 Eastern. Record docs/PHOTOGRAPHY_SIX_FOUNDER_RIGHTS_2026-10-15.json. Authentic complete RAW and final white WEB individually visually reviewed; source credits retained separately. Preserved RAW file: 1hPU1rATHuKlKtbFBkg9KzZuHaNO60R6E. Pictured full reference 03.9300.3620/79.I001; Stainless Steel, Blue skeleton, Stainless-steel bracelet. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
     },
     {
       "brand": "Zenith",
@@ -10584,25 +10601,33 @@
           "bracelet": "Steel bracelet and ice blue rubber strap",
           "originalMSRP": null,
           "currentMSRP": null
+        },
+        {
+          "caseSize": "41 mm",
+          "movement": "El Primero 3620 automatic",
+          "dial": "Ice Blue",
+          "bracelet": "Stainless-steel bracelet",
+          "nickname": "Ice Blue / Stainless-steel bracelet",
+          "originalMSRP": null,
+          "currentMSRP": null
         }
       ],
       "material": "Stainless Steel",
       "sources": [
-        "src/data/collectionRegistry.ts",
-        "src/data/verified-catalog-expansion.ts"
+        "src/data/collectionRegistry.ts"
       ],
       "routes": [
         "/collections/zenith/defy-skyline/03-9300-3620-15-i001"
       ],
       "scope": "built-reference",
-      "existingImage": "/images/watch-reference-placeholder.svg",
+      "existingImage": "/images/watches/zenith/reviewed-03-9300-3620-15-i001-white-web.webp",
       "existingImageFilePresent": true,
-      "photoAssetId": null,
-      "status": "Requires Verification",
-      "sourceUrl": "https://www.zenith-watches.com/int/product/defy-skyline-03-9300-3620-15-i001",
-      "licenseRecord": null,
-      "websiteApproved": false,
-      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+      "photoAssetId": "cleared-six-1wGjzao4CTnpBkfihqWqFfVxk39AaLhsZ",
+      "status": "approved",
+      "sourceUrl": "https://www.jw-oomiya.co.jp/products/03-9300-3620-15-i001",
+      "licenseRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for these exact six originals and white-background derivatives with no additional restrictions on October15,2026 Eastern. Record docs/PHOTOGRAPHY_SIX_FOUNDER_RIGHTS_2026-10-15.json. Authentic complete RAW and final white WEB individually visually reviewed; source credits retained separately. Preserved RAW file: 1wGjzao4CTnpBkfihqWqFfVxk39AaLhsZ. Pictured full reference 03.9300.3620/15.I001; Stainless Steel, Ice Blue, Stainless-steel bracelet. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
     },
     {
       "brand": "IWC",
@@ -10968,25 +10993,33 @@
           "bracelet": "Leather strap",
           "originalMSRP": null,
           "currentMSRP": null
+        },
+        {
+          "caseSize": "39 mm",
+          "movement": "TH20-00 automatic chronograph",
+          "dial": "Blue",
+          "bracelet": "Blue alligator leather strap",
+          "nickname": "Blue / Blue alligator leather strap",
+          "originalMSRP": null,
+          "currentMSRP": null
         }
       ],
       "material": "Stainless Steel",
       "sources": [
-        "src/data/collectionRegistry.ts",
-        "src/data/verified-catalog-expansion.ts"
+        "src/data/collectionRegistry.ts"
       ],
       "routes": [
         "/collections/tag-heuer/monaco/cbl2111-fc6453"
       ],
       "scope": "built-reference",
-      "existingImage": "/images/watch-reference-placeholder.svg",
+      "existingImage": "/images/watches/tag-heuer/reviewed-cbl2111-fc6453-white-web.webp",
       "existingImageFilePresent": true,
-      "photoAssetId": null,
-      "status": "Requires Verification",
-      "sourceUrl": "https://www.tagheuer.com/us/en/timepieces/collections/tag-heuer-monaco/39-mm-calibre-heuer02-automatic/CBL2111.FC6453.html",
-      "licenseRecord": null,
-      "websiteApproved": false,
-      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+      "photoAssetId": "cleared-six-1MES_G95duYi_B4pmm0I-eId2qO4jDfX5",
+      "status": "approved",
+      "sourceUrl": "https://www.swisswatchesdirect.co.uk/products/cbl2111-fc6453-tag-heuer-monaco",
+      "licenseRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for these exact six originals and white-background derivatives with no additional restrictions on October15,2026 Eastern. Record docs/PHOTOGRAPHY_SIX_FOUNDER_RIGHTS_2026-10-15.json. Authentic complete RAW and final white WEB individually visually reviewed; source credits retained separately. Preserved RAW file: 1MES_G95duYi_B4pmm0I-eId2qO4jDfX5. Pictured full reference CBL2111.FC6453; Stainless Steel, Blue, Blue alligator leather strap. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
     },
     {
       "brand": "Richard Mille",
@@ -11199,25 +11232,33 @@
           "bracelet": "Matching strap",
           "originalMSRP": null,
           "currentMSRP": null
+        },
+        {
+          "caseSize": "41 mm",
+          "movement": "Automatic",
+          "dial": "Blue Beach",
+          "bracelet": "Blue fabric Velcro strap",
+          "nickname": "Blue Beach / Blue fabric Velcro strap",
+          "originalMSRP": null,
+          "currentMSRP": null
         }
       ],
       "material": "Glass fiber",
       "sources": [
-        "src/data/collectionRegistry.ts",
-        "src/data/verified-catalog-expansion.ts"
+        "src/data/collectionRegistry.ts"
       ],
       "routes": [
         "/collections/franck-muller/vanguard-beach/v-41-sc-dt-beach-bu-bl-gf1"
       ],
       "scope": "built-reference",
-      "existingImage": "/images/watch-reference-placeholder.svg",
+      "existingImage": "/images/watches/franck-muller/reviewed-v-41-sc-dt-beach-bu-bl-gf1-white-web.webp",
       "existingImageFilePresent": true,
-      "photoAssetId": null,
-      "status": "Requires Verification",
-      "sourceUrl": "https://www.referenceintime.com/collections/franck-muller-1",
-      "licenseRecord": null,
-      "websiteApproved": false,
-      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+      "photoAssetId": "cleared-six-1xiUghbjTACLqgdCPHITv4v_10U4DnHaF",
+      "status": "approved",
+      "sourceUrl": "https://franckmuller-asiapacific.com/timepieces/vanguard-beach/",
+      "licenseRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for these exact six originals and white-background derivatives with no additional restrictions on October15,2026 Eastern. Record docs/PHOTOGRAPHY_SIX_FOUNDER_RIGHTS_2026-10-15.json. Authentic complete RAW and final white WEB individually visually reviewed; source credits retained separately. Preserved RAW file: 1xiUghbjTACLqgdCPHITv4v_10U4DnHaF. Pictured full reference V 41 SC DT BEACH BU BL GF1; Glass fiber, Blue Beach, Blue fabric Velcro strap. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
     },
     {
       "brand": "Franck Muller",
@@ -16169,6 +16210,138 @@
       "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
     },
     {
+      "brand": "Zenith",
+      "collection": "DEFY Skyline",
+      "reference": "03.9300.3620/51.I001",
+      "configurations": [],
+      "material": "Stainless Steel",
+      "sources": [
+        "src/data/photography-cleared-sprint.ts"
+      ],
+      "routes": [
+        "/collections/zenith/defy-skyline/03-9300-3620-51-i001"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": null,
+      "status": "Requires Verification",
+      "sourceUrl": null,
+      "licenseRecord": null,
+      "websiteApproved": false,
+      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+    },
+    {
+      "brand": "Hublot",
+      "collection": "Classic Fusion",
+      "reference": "542.CX.1270.RX.MDM",
+      "configurations": [],
+      "material": "Black Ceramic",
+      "sources": [
+        "src/data/photography-cleared-sprint.ts"
+      ],
+      "routes": [
+        "/collections/hublot/classic-fusion/542-cx-1270-rx-mdm"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": null,
+      "status": "Requires Verification",
+      "sourceUrl": null,
+      "licenseRecord": null,
+      "websiteApproved": false,
+      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+    },
+    {
+      "brand": "Zenith",
+      "collection": "DEFY Skyline",
+      "reference": "03.9300.3620/79.I001",
+      "configurations": [],
+      "material": "Stainless Steel",
+      "sources": [
+        "src/data/photography-cleared-sprint.ts"
+      ],
+      "routes": [
+        "/collections/zenith/defy-skyline/03-9300-3620-79-i001"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": null,
+      "status": "Requires Verification",
+      "sourceUrl": null,
+      "licenseRecord": null,
+      "websiteApproved": false,
+      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+    },
+    {
+      "brand": "Franck Muller",
+      "collection": "Vanguard Beach",
+      "reference": "V 41 SC DT BEACH BU BL GF1",
+      "configurations": [],
+      "material": "Glass fiber",
+      "sources": [
+        "src/data/photography-cleared-sprint.ts"
+      ],
+      "routes": [
+        "/collections/franck-muller/vanguard-beach/v-41-sc-dt-beach-bu-bl-gf1"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": null,
+      "status": "Requires Verification",
+      "sourceUrl": null,
+      "licenseRecord": null,
+      "websiteApproved": false,
+      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+    },
+    {
+      "brand": "Zenith",
+      "collection": "DEFY Skyline",
+      "reference": "03.9300.3620/15.I001",
+      "configurations": [],
+      "material": "Stainless Steel",
+      "sources": [
+        "src/data/photography-cleared-sprint.ts"
+      ],
+      "routes": [
+        "/collections/zenith/defy-skyline/03-9300-3620-15-i001"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": null,
+      "status": "Requires Verification",
+      "sourceUrl": null,
+      "licenseRecord": null,
+      "websiteApproved": false,
+      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+    },
+    {
+      "brand": "TAG Heuer",
+      "collection": "Monaco",
+      "reference": "CBL2111.FC6453",
+      "configurations": [],
+      "material": "Stainless Steel",
+      "sources": [
+        "src/data/photography-cleared-sprint.ts"
+      ],
+      "routes": [
+        "/collections/tag-heuer/monaco/cbl2111-fc6453"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": null,
+      "status": "Requires Verification",
+      "sourceUrl": null,
+      "licenseRecord": null,
+      "websiteApproved": false,
+      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+    },
+    {
       "brand": "Breitling",
       "collection": "Superocean",
       "reference": "A17376211B1A1",
@@ -19388,6 +19561,166 @@
       "status": "approved",
       "sourceUrl": "https://www.cjcharles.com/collections/omega/products/constellation-quartz-28-mm-131-10-28-60-60-001",
       "licenseRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for these exact three originals and white-background derivatives with no additional restrictions on October14,2026 Eastern. Record docs/PHOTOGRAPHY_THREE_FOUNDER_RIGHTS_2026-10-15.json. Authentic complete RAW and final white WEB individually visually reviewed; source credits retained separately. Preserved RAW file: 1Lueaf0Q-fqZWXfT57gSayq0KmkAwLa8r. Pictured full reference 131.10.28.60.60.001; Stainless Steel, Matcha green non-wave, Stainless-steel bracelet. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
+      "brand": "Zenith",
+      "collection": "DEFY Skyline",
+      "reference": "03.9300.3620/51.I001",
+      "configurations": [
+        {
+          "caseSize": "41 mm",
+          "movement": "El Primero 3620 automatic",
+          "dial": "Blue",
+          "bracelet": "Stainless-steel bracelet",
+          "nickname": "Blue / Stainless-steel bracelet",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "Stainless Steel",
+      "sources": [
+        "src/data/photography-expansion.ts"
+      ],
+      "routes": [
+        "/collections/zenith/defy-skyline/03-9300-3620-51-i001"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": "cleared-six-1-zeg19oDBNgKLTuJVpqPTFzZmSb3Tile",
+      "status": "approved",
+      "sourceUrl": "https://www.the1916company.com/watches/zenith/defy/defy-039300362051i001/",
+      "licenseRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for these exact six originals and white-background derivatives with no additional restrictions on October15,2026 Eastern. Record docs/PHOTOGRAPHY_SIX_FOUNDER_RIGHTS_2026-10-15.json. Authentic complete RAW and final white WEB individually visually reviewed; source credits retained separately. Preserved RAW file: 1-zeg19oDBNgKLTuJVpqPTFzZmSb3Tile. Pictured full reference 03.9300.3620/51.I001; Stainless Steel, Blue, Stainless-steel bracelet. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
+      "brand": "Zenith",
+      "collection": "DEFY Skyline",
+      "reference": "03.9300.3620/79.I001",
+      "configurations": [
+        {
+          "caseSize": "41 mm",
+          "movement": "El Primero 3620 SK automatic",
+          "dial": "Blue skeleton",
+          "bracelet": "Stainless-steel bracelet",
+          "nickname": "Blue skeleton / Stainless-steel bracelet",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "Stainless Steel",
+      "sources": [
+        "src/data/photography-expansion.ts"
+      ],
+      "routes": [
+        "/collections/zenith/defy-skyline/03-9300-3620-79-i001"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": "cleared-six-1hPU1rATHuKlKtbFBkg9KzZuHaNO60R6E",
+      "status": "approved",
+      "sourceUrl": "https://www.the1916company.com/watches/zenith/defy/039300362079i001/",
+      "licenseRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for these exact six originals and white-background derivatives with no additional restrictions on October15,2026 Eastern. Record docs/PHOTOGRAPHY_SIX_FOUNDER_RIGHTS_2026-10-15.json. Authentic complete RAW and final white WEB individually visually reviewed; source credits retained separately. Preserved RAW file: 1hPU1rATHuKlKtbFBkg9KzZuHaNO60R6E. Pictured full reference 03.9300.3620/79.I001; Stainless Steel, Blue skeleton, Stainless-steel bracelet. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
+      "brand": "Franck Muller",
+      "collection": "Vanguard Beach",
+      "reference": "V 41 SC DT BEACH BU BL GF1",
+      "configurations": [
+        {
+          "caseSize": "41 mm",
+          "movement": "Automatic",
+          "dial": "Blue Beach",
+          "bracelet": "Blue fabric Velcro strap",
+          "nickname": "Blue Beach / Blue fabric Velcro strap",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "Glass fiber",
+      "sources": [
+        "src/data/photography-expansion.ts"
+      ],
+      "routes": [
+        "/collections/franck-muller/vanguard-beach/v-41-sc-dt-beach-bu-bl-gf1"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": "cleared-six-1xiUghbjTACLqgdCPHITv4v_10U4DnHaF",
+      "status": "approved",
+      "sourceUrl": "https://franckmuller-asiapacific.com/timepieces/vanguard-beach/",
+      "licenseRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for these exact six originals and white-background derivatives with no additional restrictions on October15,2026 Eastern. Record docs/PHOTOGRAPHY_SIX_FOUNDER_RIGHTS_2026-10-15.json. Authentic complete RAW and final white WEB individually visually reviewed; source credits retained separately. Preserved RAW file: 1xiUghbjTACLqgdCPHITv4v_10U4DnHaF. Pictured full reference V 41 SC DT BEACH BU BL GF1; Glass fiber, Blue Beach, Blue fabric Velcro strap. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
+      "brand": "Zenith",
+      "collection": "DEFY Skyline",
+      "reference": "03.9300.3620/15.I001",
+      "configurations": [
+        {
+          "caseSize": "41 mm",
+          "movement": "El Primero 3620 automatic",
+          "dial": "Ice Blue",
+          "bracelet": "Stainless-steel bracelet",
+          "nickname": "Ice Blue / Stainless-steel bracelet",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "Stainless Steel",
+      "sources": [
+        "src/data/photography-expansion.ts"
+      ],
+      "routes": [
+        "/collections/zenith/defy-skyline/03-9300-3620-15-i001"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": "cleared-six-1wGjzao4CTnpBkfihqWqFfVxk39AaLhsZ",
+      "status": "approved",
+      "sourceUrl": "https://www.jw-oomiya.co.jp/products/03-9300-3620-15-i001",
+      "licenseRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for these exact six originals and white-background derivatives with no additional restrictions on October15,2026 Eastern. Record docs/PHOTOGRAPHY_SIX_FOUNDER_RIGHTS_2026-10-15.json. Authentic complete RAW and final white WEB individually visually reviewed; source credits retained separately. Preserved RAW file: 1wGjzao4CTnpBkfihqWqFfVxk39AaLhsZ. Pictured full reference 03.9300.3620/15.I001; Stainless Steel, Ice Blue, Stainless-steel bracelet. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
+      "brand": "TAG Heuer",
+      "collection": "Monaco",
+      "reference": "CBL2111.FC6453",
+      "configurations": [
+        {
+          "caseSize": "39 mm",
+          "movement": "TH20-00 automatic chronograph",
+          "dial": "Blue",
+          "bracelet": "Blue alligator leather strap",
+          "nickname": "Blue / Blue alligator leather strap",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "Stainless Steel",
+      "sources": [
+        "src/data/photography-expansion.ts"
+      ],
+      "routes": [
+        "/collections/tag-heuer/monaco/cbl2111-fc6453"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": "cleared-six-1MES_G95duYi_B4pmm0I-eId2qO4jDfX5",
+      "status": "approved",
+      "sourceUrl": "https://www.swisswatchesdirect.co.uk/products/cbl2111-fc6453-tag-heuer-monaco",
+      "licenseRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for these exact six originals and white-background derivatives with no additional restrictions on October15,2026 Eastern. Record docs/PHOTOGRAPHY_SIX_FOUNDER_RIGHTS_2026-10-15.json. Authentic complete RAW and final white WEB individually visually reviewed; source credits retained separately. Preserved RAW file: 1MES_G95duYi_B4pmm0I-eId2qO4jDfX5. Pictured full reference CBL2111.FC6453; Stainless Steel, Blue, Blue alligator leather strap. Exact configuration reviewed against preserved source evidence and the original photograph.",
       "websiteApproved": true,
       "nextAction": "Retain approved original and verify derivative integrity."
     },
@@ -23482,6 +23815,99 @@
       "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
     },
     {
+      "brand": "Zenith",
+      "collection": "DEFY Skyline",
+      "reference": "03.9300.3620/51.I001",
+      "configurations": [
+        {
+          "caseSize": "41 mm",
+          "movement": "El Primero 3620 automatic",
+          "dial": "Blue",
+          "bracelet": "Steel bracelet and blue rubber strap",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "Stainless Steel",
+      "sources": [
+        "src/data/verified-catalog-expansion.ts"
+      ],
+      "routes": [
+        "/collections/zenith/defy-skyline/03-9300-3620-51-i001"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": null,
+      "status": "Requires Verification",
+      "sourceUrl": "https://www.zenith-watches.com/en_no/product/defy-skyline-03-9300-3620-51-i001",
+      "licenseRecord": null,
+      "websiteApproved": false,
+      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+    },
+    {
+      "brand": "Zenith",
+      "collection": "DEFY Skyline",
+      "reference": "03.9300.3620/79.I001",
+      "configurations": [
+        {
+          "caseSize": "41 mm",
+          "movement": "El Primero 3620 SK automatic",
+          "dial": "Blue skeleton",
+          "bracelet": "Steel bracelet and blue rubber strap",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "Stainless Steel",
+      "sources": [
+        "src/data/verified-catalog-expansion.ts"
+      ],
+      "routes": [
+        "/collections/zenith/defy-skyline/03-9300-3620-79-i001"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": null,
+      "status": "Requires Verification",
+      "sourceUrl": "https://www.zenith-watches.com/int/product/defy-skyline-03-9300-3620-79-i001",
+      "licenseRecord": null,
+      "websiteApproved": false,
+      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+    },
+    {
+      "brand": "Zenith",
+      "collection": "DEFY Skyline",
+      "reference": "03.9300.3620/15.I001",
+      "configurations": [
+        {
+          "caseSize": "41 mm",
+          "movement": "El Primero 3620 automatic",
+          "dial": "Ice Blue",
+          "bracelet": "Steel bracelet and ice blue rubber strap",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "Stainless Steel",
+      "sources": [
+        "src/data/verified-catalog-expansion.ts"
+      ],
+      "routes": [
+        "/collections/zenith/defy-skyline/03-9300-3620-15-i001"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": null,
+      "status": "Requires Verification",
+      "sourceUrl": "https://www.zenith-watches.com/int/product/defy-skyline-03-9300-3620-15-i001",
+      "licenseRecord": null,
+      "websiteApproved": false,
+      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+    },
+    {
       "brand": "IWC",
       "collection": "Ingenieur",
       "reference": "IW328901",
@@ -24319,6 +24745,37 @@
       "nextAction": "Retain approved original and verify derivative integrity."
     },
     {
+      "brand": "Hublot",
+      "collection": "Classic Fusion",
+      "reference": "542.CX.1270.RX.MDM",
+      "configurations": [
+        {
+          "caseSize": "42 mm",
+          "movement": "HUB1110 automatic",
+          "dial": "Black lacquer",
+          "bracelet": "Black rubber strap",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "Black Ceramic",
+      "sources": [
+        "src/data/verified-catalog-expansion.ts"
+      ],
+      "routes": [
+        "/collections/hublot/classic-fusion/542-cx-1270-rx-mdm"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": "cleared-six-1YlyStZmxAT0gVTkW0mEiuWnGNRqxp8aY",
+      "status": "approved",
+      "sourceUrl": "https://www.jw-oomiya.co.jp/products/542-cx-1270-rx-mdm",
+      "licenseRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for these exact six originals and white-background derivatives with no additional restrictions on October15,2026 Eastern. Record docs/PHOTOGRAPHY_SIX_FOUNDER_RIGHTS_2026-10-15.json. Authentic complete RAW and final white WEB individually visually reviewed; source credits retained separately. Preserved RAW file: 1YlyStZmxAT0gVTkW0mEiuWnGNRqxp8aY. Pictured full reference 542.CX.1270.RX.MDM; Black Ceramic, Black lacquer, Black rubber strap. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
       "brand": "Bell & Ross",
       "collection": "BR 01",
       "reference": "BR0192-COMPASS-CA",
@@ -24348,6 +24805,37 @@
       "licenseRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for these exact 35 originals and their white-background derivatives, with no additional restrictions, in the existing Website/Product chat on October 14, 2026. Record docs/PHOTOGRAPHY_ADDITIONAL35_FOUNDER_RIGHTS_2026-10-14.json. Exact configuration, authentic RAW and full-resolution derivative visually reviewed; source credits retained separately. Preserved RAW file: 10B-tgwcz2n1UZmfNnWqbB1iiPQDxGp4-. Pictured full reference BR0192-COMPASS-CA; Black PVD steel, Instrument-style Compass, Black strap. Exact configuration reviewed against preserved source evidence and the original photograph.",
       "websiteApproved": true,
       "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
+      "brand": "TAG Heuer",
+      "collection": "Monaco",
+      "reference": "CBL2111.FC6453",
+      "configurations": [
+        {
+          "caseSize": "39 mm",
+          "movement": "TH20-00 automatic chronograph",
+          "dial": "Blue",
+          "bracelet": "Leather strap",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "Stainless Steel",
+      "sources": [
+        "src/data/verified-catalog-expansion.ts"
+      ],
+      "routes": [
+        "/collections/tag-heuer/monaco/cbl2111-fc6453"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": null,
+      "status": "Requires Verification",
+      "sourceUrl": "https://www.tagheuer.com/us/en/timepieces/collections/tag-heuer-monaco/39-mm-calibre-heuer02-automatic/CBL2111.FC6453.html",
+      "licenseRecord": null,
+      "websiteApproved": false,
+      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
     },
     {
       "brand": "Omega",
@@ -24438,6 +24926,37 @@
       "photoAssetId": null,
       "status": "Requires Verification",
       "sourceUrl": "https://www.franckmuller.com/vanguard",
+      "licenseRecord": null,
+      "websiteApproved": false,
+      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+    },
+    {
+      "brand": "Franck Muller",
+      "collection": "Vanguard Beach",
+      "reference": "V 41 SC DT BEACH BU BL GF1",
+      "configurations": [
+        {
+          "caseSize": "41 mm",
+          "movement": "Automatic",
+          "dial": "Blue Beach",
+          "bracelet": "Matching strap",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "Glass fiber",
+      "sources": [
+        "src/data/verified-catalog-expansion.ts"
+      ],
+      "routes": [
+        "/collections/franck-muller/vanguard-beach/v-41-sc-dt-beach-bu-bl-gf1"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": null,
+      "status": "Requires Verification",
+      "sourceUrl": "https://www.referenceintime.com/collections/franck-muller-1",
       "licenseRecord": null,
       "websiteApproved": false,
       "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."

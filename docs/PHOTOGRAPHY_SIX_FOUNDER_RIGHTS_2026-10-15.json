@@ -1,0 +1,50 @@
+{
+  "recordedAt": "2026-10-15T10:36:00.646397+00:00",
+  "founderDecisionDateEastern": "2026-10-15",
+  "evidenceType": "Direct human founder response in existing Website/Product chat",
+  "questionItemId": "call_5f1c2c6e297a4038aa96514cd6c0530f",
+  "founderAnswer": "Rights cover all six and derivatives; no additional restrictions",
+  "scope": "Commercial Quest Luxo website use of these six exact retailer originals and white-background derivatives only",
+  "sourceLedgerDriveIds": [
+    "1DyP0PDLavaO2otYaCyowaxmIh8YaWqdX"
+  ],
+  "references": [
+    {
+      "brand": "Zenith",
+      "reference": "03.9300.3620/51.I001",
+      "sourceProvider": "The1916Company",
+      "rawSha256": "9881721dba47dbac049146872a3d47b3e8d0207f6228887e4b332cf623f5e839"
+    },
+    {
+      "brand": "Hublot",
+      "reference": "542.CX.1270.RX.MDM",
+      "sourceProvider": "oomiya",
+      "rawSha256": "fbedf39db9cd23ea97b28a80ec812a69bcecb37e68a8d42dfdd9b3382ea058ae"
+    },
+    {
+      "brand": "Zenith",
+      "reference": "03.9300.3620/79.I001",
+      "sourceProvider": "The1916Company",
+      "rawSha256": "d84e2300b0d676e149811c7d92850c3d5065086f2f2d92e7dbd4096128ee85f1"
+    },
+    {
+      "brand": "Franck Muller",
+      "reference": "V 41 SC DT BEACH BU BL GF1",
+      "sourceProvider": "Franck Muller Asia Pacific manufacturer",
+      "rawSha256": "abca4cde2942dba2aee43687e4b4f083c1f530f90d8a6d178a7e9ea55075aace"
+    },
+    {
+      "brand": "Zenith",
+      "reference": "03.9300.3620/15.I001",
+      "sourceProvider": "oomiya",
+      "rawSha256": "80b4eab5ed7f53922a90b666a5b4576150e6c32a26d4904c95a6b599b579700e"
+    },
+    {
+      "brand": "TAG Heuer",
+      "reference": "CBL2111.FC6453",
+      "sourceProvider": "SwissWatchesDirect",
+      "rawSha256": "79d373d8fe9b1e7c28ef612b9a65c44e0a76947495faa4476aaa38a9a105da64"
+    }
+  ],
+  "noScopeExtension": "No rights asserted for future originals outside these six sets"
+}

@@ -1,0 +1,91 @@
+{
+  "checkedAt": "2026-10-15T10:41:40.617535+00:00",
+  "status": "Release checks passed; production verification pending",
+  "rightsDriveFileId": "1kQLIGiGGDl1fx-GHkQu8OXKKK2s-wHnt",
+  "sourceLedgerDriveId": "1DyP0PDLavaO2otYaCyowaxmIh8YaWqdX",
+  "built": {
+    "checkedAt": "2026-10-15T10:38:30.648658+00:00",
+    "mode": "built",
+    "exactReferencesChecked": 6,
+    "rows": [
+      {
+        "reference": "03.9300.3620/51.I001",
+        "route": "/collections/zenith/defy-skyline/03-9300-3620-51-i001",
+        "imageSha256": "5e315a55553dd179292623d38d9b240973237a1ac0f79f620b8b87581cb403a9",
+        "exactConfiguration": true,
+        "collectionGrid": true,
+        "inquiryContext": true,
+        "separateCredits": true,
+        "noImageCaptionOverlay": true
+      },
+      {
+        "reference": "542.CX.1270.RX.MDM",
+        "route": "/collections/hublot/classic-fusion/542-cx-1270-rx-mdm",
+        "imageSha256": "f4423c8edfbea73f26a93273265bc3cefea30516a4f2e15b94b0550c8b3c5339",
+        "exactConfiguration": true,
+        "collectionGrid": true,
+        "inquiryContext": true,
+        "separateCredits": true,
+        "noImageCaptionOverlay": true
+      },
+      {
+        "reference": "03.9300.3620/79.I001",
+        "route": "/collections/zenith/defy-skyline/03-9300-3620-79-i001",
+        "imageSha256": "73d14a146b63b59e45ad6ed60921c29ad724c3258c89200cfb784aba7c45cf26",
+        "exactConfiguration": true,
+        "collectionGrid": true,
+        "inquiryContext": true,
+        "separateCredits": true,
+        "noImageCaptionOverlay": true
+      },
+      {
+        "reference": "V 41 SC DT BEACH BU BL GF1",
+        "route": "/collections/franck-muller/vanguard-beach/v-41-sc-dt-beach-bu-bl-gf1",
+        "imageSha256": "5cd85da7aa3ac855eabebe62c480be7cb736e969b2019fd561c9937e90d8d6c6",
+        "exactConfiguration": true,
+        "collectionGrid": true,
+        "inquiryContext": true,
+        "separateCredits": true,
+        "noImageCaptionOverlay": true
+      },
+      {
+        "reference": "03.9300.3620/15.I001",
+        "route": "/collections/zenith/defy-skyline/03-9300-3620-15-i001",
+        "imageSha256": "f3eeb66ea7d940d4d8003e47eb35f50e140b5f6b5bf5f546f09e988faf2427f3",
+        "exactConfiguration": true,
+        "collectionGrid": true,
+        "inquiryContext": true,
+        "separateCredits": true,
+        "noImageCaptionOverlay": true
+      },
+      {
+        "reference": "CBL2111.FC6453",
+        "route": "/collections/tag-heuer/monaco/cbl2111-fc6453",
+        "imageSha256": "b0d59782fd485ef02682df1c0a01d7b96412556055180ec73d91e9fcdeee05d1",
+        "exactConfiguration": true,
+        "collectionGrid": true,
+        "inquiryContext": true,
+        "separateCredits": true,
+        "noImageCaptionOverlay": true
+      }
+    ],
+    "publicFlowsAvailable": true,
+    "leadDataSafety": "Public GET checks only. No new lead submissions, private lead reads, runtime data or disk changes."
+  },
+  "regressions": {
+    "passed": 246,
+    "failed": 0
+  },
+  "astro": {
+    "errors": 0,
+    "warnings": 0,
+    "hints": 21
+  },
+  "build": "Passed; existing Zenith punctuation alias and public robots warnings unchanged",
+  "visualReview": {
+    "desktop": "1440x1000 Skyline Skeleton complete centered original watch; document/client width1425",
+    "mobile": "390x844 Monaco complete centered watch; document/client width375;1200 image loaded",
+    "intake": "Monaco CTA clicked; exact CBL2111.FC6453 context visible in public intake; no submission"
+  },
+  "sourceReview": "All6 untouched RAW and final white WEB individually reviewed. Native alpha or classical silhouettes preserve source watch RGB; no generated detail. All18 files archived."
+}

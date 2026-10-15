@@ -6,8 +6,8 @@
   "summary": {
     "references": 44,
     "brands": 11,
-    "approvedForImageRelease": 13,
-    "tasksAwaitingExactImageRightsReview": 31
+    "approvedForImageRelease": 19,
+    "tasksAwaitingExactImageRightsReview": 25
   },
   "queue": [
     {
@@ -26,13 +26,13 @@
       },
       "identitySource": "https://www.zenith-watches.com/int/product/defy-skyline-03-9300-3620-15-i001",
       "priorityScore": 75,
-      "status": "RIGHTS_AND_EXACT_CONFIGURATION_REVIEW_REQUIRED",
-      "rawSourceFileId": null,
-      "webDerivativePath": null,
-      "webDerivativeSHA256": null,
-      "reviewer": null,
-      "commercialUseRightsRecord": null,
-      "notes": "Do not publish until approvedPhotograph verifies commercial rights and exact reference, and WEB image checksum matches stored file."
+      "status": "APPROVED_WITH_VALID_DERIVATIVE",
+      "rawSourceFileId": "1wGjzao4CTnpBkfihqWqFfVxk39AaLhsZ",
+      "webDerivativePath": "/images/watches/zenith/reviewed-03-9300-3620-15-i001-white-web.webp",
+      "webDerivativeSHA256": "f3eeb66ea7d940d4d8003e47eb35f50e140b5f6b5bf5f546f09e988faf2427f3",
+      "reviewer": "Quest Luxo execution review with founder website-use clearance",
+      "commercialUseRightsRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for these exact six originals and white-background derivatives with no additional restrictions on October15,2026 Eastern. Record docs/PHOTOGRAPHY_SIX_FOUNDER_RIGHTS_2026-10-15.json. Authentic complete RAW and final white WEB individually visually reviewed; source credits retained separately. Preserved RAW file: 1wGjzao4CTnpBkfihqWqFfVxk39AaLhsZ. Pictured full reference 03.9300.3620/15.I001; Stainless Steel, Ice Blue, Stainless-steel bracelet. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "notes": "Exact approvedPhotograph gate and local derivative SHA-256 validated; preserve approved source and separate source attribution."
     },
     {
       "brand": "Zenith",
@@ -50,13 +50,13 @@
       },
       "identitySource": "https://www.zenith-watches.com/en_no/product/defy-skyline-03-9300-3620-51-i001",
       "priorityScore": 75,
-      "status": "RIGHTS_AND_EXACT_CONFIGURATION_REVIEW_REQUIRED",
-      "rawSourceFileId": null,
-      "webDerivativePath": null,
-      "webDerivativeSHA256": null,
-      "reviewer": null,
-      "commercialUseRightsRecord": null,
-      "notes": "Do not publish until approvedPhotograph verifies commercial rights and exact reference, and WEB image checksum matches stored file."
+      "status": "APPROVED_WITH_VALID_DERIVATIVE",
+      "rawSourceFileId": "1-zeg19oDBNgKLTuJVpqPTFzZmSb3Tile",
+      "webDerivativePath": "/images/watches/zenith/reviewed-03-9300-3620-51-i001-white-web.webp",
+      "webDerivativeSHA256": "5e315a55553dd179292623d38d9b240973237a1ac0f79f620b8b87581cb403a9",
+      "reviewer": "Quest Luxo execution review with founder website-use clearance",
+      "commercialUseRightsRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for these exact six originals and white-background derivatives with no additional restrictions on October15,2026 Eastern. Record docs/PHOTOGRAPHY_SIX_FOUNDER_RIGHTS_2026-10-15.json. Authentic complete RAW and final white WEB individually visually reviewed; source credits retained separately. Preserved RAW file: 1-zeg19oDBNgKLTuJVpqPTFzZmSb3Tile. Pictured full reference 03.9300.3620/51.I001; Stainless Steel, Blue, Stainless-steel bracelet. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "notes": "Exact approvedPhotograph gate and local derivative SHA-256 validated; preserve approved source and separate source attribution."
     },
     {
       "brand": "Zenith",
@@ -74,13 +74,13 @@
       },
       "identitySource": "https://www.zenith-watches.com/int/product/defy-skyline-03-9300-3620-79-i001",
       "priorityScore": 75,
-      "status": "RIGHTS_AND_EXACT_CONFIGURATION_REVIEW_REQUIRED",
-      "rawSourceFileId": null,
-      "webDerivativePath": null,
-      "webDerivativeSHA256": null,
-      "reviewer": null,
-      "commercialUseRightsRecord": null,
-      "notes": "Do not publish until approvedPhotograph verifies commercial rights and exact reference, and WEB image checksum matches stored file."
+      "status": "APPROVED_WITH_VALID_DERIVATIVE",
+      "rawSourceFileId": "1hPU1rATHuKlKtbFBkg9KzZuHaNO60R6E",
+      "webDerivativePath": "/images/watches/zenith/reviewed-03-9300-3620-79-i001-white-web.webp",
+      "webDerivativeSHA256": "73d14a146b63b59e45ad6ed60921c29ad724c3258c89200cfb784aba7c45cf26",
+      "reviewer": "Quest Luxo execution review with founder website-use clearance",
+      "commercialUseRightsRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for these exact six originals and white-background derivatives with no additional restrictions on October15,2026 Eastern. Record docs/PHOTOGRAPHY_SIX_FOUNDER_RIGHTS_2026-10-15.json. Authentic complete RAW and final white WEB individually visually reviewed; source credits retained separately. Preserved RAW file: 1hPU1rATHuKlKtbFBkg9KzZuHaNO60R6E. Pictured full reference 03.9300.3620/79.I001; Stainless Steel, Blue skeleton, Stainless-steel bracelet. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "notes": "Exact approvedPhotograph gate and local derivative SHA-256 validated; preserve approved source and separate source attribution."
     },
     {
       "brand": "Breitling",
@@ -365,13 +365,13 @@
       },
       "identitySource": "https://www.referenceintime.com/collections/franck-muller-1",
       "priorityScore": 64,
-      "status": "RIGHTS_AND_EXACT_CONFIGURATION_REVIEW_REQUIRED",
-      "rawSourceFileId": null,
-      "webDerivativePath": null,
-      "webDerivativeSHA256": null,
-      "reviewer": null,
-      "commercialUseRightsRecord": null,
-      "notes": "Do not publish until approvedPhotograph verifies commercial rights and exact reference, and WEB image checksum matches stored file."
+      "status": "APPROVED_WITH_VALID_DERIVATIVE",
+      "rawSourceFileId": "1xiUghbjTACLqgdCPHITv4v_10U4DnHaF",
+      "webDerivativePath": "/images/watches/franck-muller/reviewed-v-41-sc-dt-beach-bu-bl-gf1-white-web.webp",
+      "webDerivativeSHA256": "5cd85da7aa3ac855eabebe62c480be7cb736e969b2019fd561c9937e90d8d6c6",
+      "reviewer": "Quest Luxo execution review with founder website-use clearance",
+      "commercialUseRightsRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for these exact six originals and white-background derivatives with no additional restrictions on October15,2026 Eastern. Record docs/PHOTOGRAPHY_SIX_FOUNDER_RIGHTS_2026-10-15.json. Authentic complete RAW and final white WEB individually visually reviewed; source credits retained separately. Preserved RAW file: 1xiUghbjTACLqgdCPHITv4v_10U4DnHaF. Pictured full reference V 41 SC DT BEACH BU BL GF1; Glass fiber, Blue Beach, Blue fabric Velcro strap. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "notes": "Exact approvedPhotograph gate and local derivative SHA-256 validated; preserve approved source and separate source attribution."
     },
     {
       "brand": "IWC",
@@ -893,13 +893,13 @@
       },
       "identitySource": "https://www.tagheuer.com/us/en/timepieces/collections/tag-heuer-monaco/39-mm-calibre-heuer02-automatic/CBL2111.FC6453.html",
       "priorityScore": 54,
-      "status": "RIGHTS_AND_EXACT_CONFIGURATION_REVIEW_REQUIRED",
-      "rawSourceFileId": null,
-      "webDerivativePath": null,
-      "webDerivativeSHA256": null,
-      "reviewer": null,
-      "commercialUseRightsRecord": null,
-      "notes": "Do not publish until approvedPhotograph verifies commercial rights and exact reference, and WEB image checksum matches stored file."
+      "status": "APPROVED_WITH_VALID_DERIVATIVE",
+      "rawSourceFileId": "1MES_G95duYi_B4pmm0I-eId2qO4jDfX5",
+      "webDerivativePath": "/images/watches/tag-heuer/reviewed-cbl2111-fc6453-white-web.webp",
+      "webDerivativeSHA256": "b0d59782fd485ef02682df1c0a01d7b96412556055180ec73d91e9fcdeee05d1",
+      "reviewer": "Quest Luxo execution review with founder website-use clearance",
+      "commercialUseRightsRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for these exact six originals and white-background derivatives with no additional restrictions on October15,2026 Eastern. Record docs/PHOTOGRAPHY_SIX_FOUNDER_RIGHTS_2026-10-15.json. Authentic complete RAW and final white WEB individually visually reviewed; source credits retained separately. Preserved RAW file: 1MES_G95duYi_B4pmm0I-eId2qO4jDfX5. Pictured full reference CBL2111.FC6453; Stainless Steel, Blue, Blue alligator leather strap. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "notes": "Exact approvedPhotograph gate and local derivative SHA-256 validated; preserve approved source and separate source attribution."
     },
     {
       "brand": "Bell & Ross",
@@ -965,13 +965,13 @@
       },
       "identitySource": "https://www.hublot.com/en-us/watches/classic-fusion/classic-fusion-original-black-magic-42-mm",
       "priorityScore": 53,
-      "status": "RIGHTS_AND_EXACT_CONFIGURATION_REVIEW_REQUIRED",
-      "rawSourceFileId": null,
-      "webDerivativePath": null,
-      "webDerivativeSHA256": null,
-      "reviewer": null,
-      "commercialUseRightsRecord": null,
-      "notes": "Do not publish until approvedPhotograph verifies commercial rights and exact reference, and WEB image checksum matches stored file."
+      "status": "APPROVED_WITH_VALID_DERIVATIVE",
+      "rawSourceFileId": "1YlyStZmxAT0gVTkW0mEiuWnGNRqxp8aY",
+      "webDerivativePath": "/images/watches/hublot/reviewed-542-cx-1270-rx-mdm-white-web.webp",
+      "webDerivativeSHA256": "f4423c8edfbea73f26a93273265bc3cefea30516a4f2e15b94b0550c8b3c5339",
+      "reviewer": "Quest Luxo execution review with founder website-use clearance",
+      "commercialUseRightsRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for these exact six originals and white-background derivatives with no additional restrictions on October15,2026 Eastern. Record docs/PHOTOGRAPHY_SIX_FOUNDER_RIGHTS_2026-10-15.json. Authentic complete RAW and final white WEB individually visually reviewed; source credits retained separately. Preserved RAW file: 1YlyStZmxAT0gVTkW0mEiuWnGNRqxp8aY. Pictured full reference 542.CX.1270.RX.MDM; Black Ceramic, Black lacquer, Black rubber strap. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "notes": "Exact approvedPhotograph gate and local derivative SHA-256 validated; preserve approved source and separate source attribution."
     },
     {
       "brand": "Richard Mille",
@@ -1070,5 +1070,5 @@
       "notes": "Do not publish until approvedPhotograph verifies commercial rights and exact reference, and WEB image checksum matches stored file."
     }
   ],
-  "updatedAt": "2026-10-15T02:28:59.942Z"
+  "updatedAt": "2026-10-15T10:36:23.184Z"
 }

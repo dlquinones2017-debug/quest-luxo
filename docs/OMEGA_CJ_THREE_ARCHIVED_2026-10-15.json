@@ -1,6 +1,6 @@
 {
   "physicalSets": 3,
-  "websitePublished": false,
+  "websitePublished": true,
   "references": [
     {
       "brand": "Omega",
@@ -21,7 +21,7 @@
       "mode": "P",
       "path": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\omega-cj-next-five-originals\\220.10.30.20.09.001-raw.png",
       "sha256": "65b89135549fe8d2d8c8d52cb16b84d0b801fecbee9f5fec9c33912af1290cb5",
-      "status": "Authentic exact-reference retailer original preserved with reviewed identity; derivative awaiting final visual review",
+      "status": "Published authentic exact-reference photograph; founder rights confirmed",
       "whiteMaster": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\omega-cj-three-white\\220.10.30.20.09.001-white-master.png",
       "webDerivative": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\omega-cj-three-white\\220.10.30.20.09.001-web.webp",
       "masterSha256": "32323adfe94da11c082bab5ea7382917c526e2e9f1fc54ee013bef44d1342b5c",
@@ -39,7 +39,7 @@
           "currentMSRP": null
         }
       ],
-      "websiteApproved": false,
+      "websiteApproved": true,
       "processing": "Original alpha retained for native transparent Sandstone original; classical filled exterior silhouette for opaque white-background originals. Original watch interior RGB retained; centered2400 master and1200 WEB, no AI or reconstruction.",
       "foregroundBounds": [
         90,
@@ -69,7 +69,7 @@
       },
       "commercialUseRightsConfirmed": true,
       "rightsRecord": "PHOTOGRAPHY_THREE_FOUNDER_RIGHTS_2026-10-15.json",
-      "publicationStatus": "Integrated; release checks and deployment pending"
+      "publicationStatus": "LIVE; exact public route/configuration/image hash/credits/inquiry verified"
     },
     {
       "brand": "Omega",
@@ -90,7 +90,7 @@
       "mode": "P",
       "path": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\omega-cj-next-five-originals\\434.10.41.21.03.001-raw.png",
       "sha256": "624d09dd0a8b676db28fda4ad854f2cc20c110fd69284d375b90ef644b995bf3",
-      "status": "Authentic exact-reference retailer original preserved with reviewed identity; derivative awaiting final visual review",
+      "status": "Published authentic exact-reference photograph; founder rights confirmed",
       "whiteMaster": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\omega-cj-three-white\\434.10.41.21.03.001-white-master.png",
       "webDerivative": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\omega-cj-three-white\\434.10.41.21.03.001-web.webp",
       "masterSha256": "aa3ce3a938e745ad3d5103d23d4ebc191ed14e2dd062405eea63875d5f43b580",
@@ -108,7 +108,7 @@
           "currentMSRP": null
         }
       ],
-      "websiteApproved": false,
+      "websiteApproved": true,
       "processing": "Original alpha retained for native transparent Sandstone original; classical filled exterior silhouette for opaque white-background originals. Original watch interior RGB retained; centered2400 master and1200 WEB, no AI or reconstruction.",
       "foregroundBounds": [
         255,
@@ -138,7 +138,7 @@
       },
       "commercialUseRightsConfirmed": true,
       "rightsRecord": "PHOTOGRAPHY_THREE_FOUNDER_RIGHTS_2026-10-15.json",
-      "publicationStatus": "Integrated; release checks and deployment pending"
+      "publicationStatus": "LIVE; exact public route/configuration/image hash/credits/inquiry verified"
     },
     {
       "brand": "Omega",
@@ -159,7 +159,7 @@
       "mode": "P",
       "path": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\omega-cj-next-five-originals\\131.10.28.60.60.001-raw.png",
       "sha256": "6c703d01c710182b1b255e9409a0c4e60d8b2df0474a0c4273c0edce374c7122",
-      "status": "Authentic exact-reference retailer original preserved with reviewed identity; derivative awaiting final visual review",
+      "status": "Published authentic exact-reference photograph; founder rights confirmed",
       "whiteMaster": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\omega-cj-three-white\\131.10.28.60.60.001-white-master.png",
       "webDerivative": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\omega-cj-three-white\\131.10.28.60.60.001-web.webp",
       "masterSha256": "5c4590d9b3deb9bbaf19a71ee2eaa861b9cbe5df6eb5ad8abb999bcabaa66b80",
@@ -177,7 +177,7 @@
           "currentMSRP": null
         }
       ],
-      "websiteApproved": false,
+      "websiteApproved": true,
       "processing": "Original alpha retained for native transparent Sandstone original; classical filled exterior silhouette for opaque white-background originals. Original watch interior RGB retained; centered2400 master and1200 WEB, no AI or reconstruction.",
       "foregroundBounds": [
         289,
@@ -207,7 +207,7 @@
       },
       "commercialUseRightsConfirmed": true,
       "rightsRecord": "PHOTOGRAPHY_THREE_FOUNDER_RIGHTS_2026-10-15.json",
-      "publicationStatus": "Integrated; release checks and deployment pending"
+      "publicationStatus": "LIVE; exact public route/configuration/image hash/credits/inquiry verified"
     }
   ],
   "title": "Three CJ Charles exact-reference Omega photographs archived",
@@ -217,5 +217,9 @@
   "driveFilesArchived": 9,
   "rightsStatus": "Direct founder confirmation for all three originals and derivatives without restrictions; release checks pending",
   "founderRightsRecord": "PHOTOGRAPHY_THREE_FOUNDER_RIGHTS_2026-10-15.json",
-  "publicationStatus": "Integrated; final checks and deployment pending"
+  "publicationStatus": "LIVE and independently verified",
+  "productionCommit": "dfa080e7606b9fe80dfc56a1570b34ebee5f0b7c",
+  "productionDeployId": "dep-db8441vlk1mc739bu60g",
+  "verifiedAt": "2026-10-15T10:19:29.769154+00:00",
+  "founderRightsDriveFileId": "1o_ZHnduJ_9NLb2ZOjInsCM31NABJKorg"
 }

@@ -1,10 +1,10 @@
 {
-  "verifiedAt": "2026-10-15T02:38:18.836416+00:00",
+  "verifiedAt": "2026-10-15T10:18:38.969713+00:00",
   "expectedDistinctReferenceRoutes": 268,
   "verifiedReferenceRoutes": 268,
-  "approvedDistinctReferenceRoutes": 180,
-  "verifiedDistinctPhotoFiles": 179,
-  "queuedDistinctReferenceRoutes": 88,
+  "approvedDistinctReferenceRoutes": 183,
+  "verifiedDistinctPhotoFiles": 182,
+  "queuedDistinctReferenceRoutes": 85,
   "errors": [],
   "pages": [
     {
@@ -749,7 +749,7 @@
     },
     {
       "route": "/collections/omega/aqua-terra/220-10-30-20-09-001",
-      "approved": false,
+      "approved": true,
       "status": "verified"
     },
     {
@@ -1319,7 +1319,7 @@
     },
     {
       "route": "/collections/omega/constellation/131-10-28-60-60-001",
-      "approved": false,
+      "approved": true,
       "status": "verified"
     },
     {
@@ -1334,7 +1334,7 @@
     },
     {
       "route": "/collections/omega/de-ville-prestige/434-10-41-21-03-001",
-      "approved": false,
+      "approved": true,
       "status": "verified"
     },
     {
@@ -1920,6 +1920,11 @@
       "status": "verified"
     },
     {
+      "path": "/images/watches/omega/reviewed-220-10-30-20-09-001-white-web.webp",
+      "sha256": "2001ad810b9b0d647c95911a7e7cf559d7308bf3bc4ebc391735f2b3ab525af0",
+      "status": "verified"
+    },
+    {
       "path": "/images/watches/audemars-piguet/reviewed-26331st-oo-1220st-01-white-web.webp",
       "sha256": "6c489d12f650367ed0bf3977b204958dc6aea951419bd0da5ea1ae1b1e07c294",
       "status": "verified"
@@ -2230,8 +2235,18 @@
       "status": "verified"
     },
     {
+      "path": "/images/watches/omega/reviewed-131-10-28-60-60-001-white-web.webp",
+      "sha256": "f7151a6579e937ffd625116b80b628b87ee7e13ef4ef7c34f72c0e229630c4e5",
+      "status": "verified"
+    },
+    {
       "path": "/images/watches/omega/reviewed-131-10-28-60-56-001-white-web.webp",
       "sha256": "a8e653dbcf0bd7ca0e3cc42f809198abc076f68632343f3d1ba5c58c1c14d4a1",
+      "status": "verified"
+    },
+    {
+      "path": "/images/watches/omega/reviewed-434-10-41-21-03-001-white-web.webp",
+      "sha256": "68bc53b50871aa5f5d21caab3487b9697961e40aca1309cb00a02bf3a07c742d",
       "status": "verified"
     },
     {
@@ -2268,6 +2283,6 @@
     }
   ],
   "leadSafety": "Read-only public-route checks; no customer records read or submissions created.",
-  "productionCommit": "f06737e13fbebef8397f57bb2fbe3097e183e484",
-  "productionDeployId": "dep-db83o5lg1s2s73f6fclg"
+  "productionCommit": "dfa080e7606b9fe80dfc56a1570b34ebee5f0b7c",
+  "productionDeployId": "dep-db8441vlk1mc739bu60g"
 }
