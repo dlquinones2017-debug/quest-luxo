@@ -1,0 +1,396 @@
+{
+  "physicalSets": 5,
+  "websitePublished": false,
+  "references": [
+    {
+      "brand": "Omega",
+      "reference": "220.10.30.20.60.001",
+      "sourceUrl": "https://zadok.com/products/omega-seamaster-aqua-terra-150m-220-10-30-20-60-001",
+      "listingSourceUrl": "https://zadok.com/collections/omega",
+      "listingSourcePageSha256": "31e0b11f2ef811c0a74779be4e72361e548514383b8fd8ae0054b29cae079896",
+      "exactSKU": "220.10.30.20.60.001",
+      "sourcePagePath": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\retailer-source-omega-220.10.30.20.60.001-ac0022c3.html",
+      "sourcePageSha256": "b0290960f49934a59a8831b39153d71080bb6c58029a44c46fc5f50c3fa8dbed",
+      "imageUrl": "https://zadok.com/cdn/shop/files/37077500_C00827711_792237_WOMEL00060_1_1024x.jpg?v=1790112324",
+      "sourceProvider": "Zadok Jewelers product photography",
+      "structuredProductIdentity": [
+        {
+          "name": "Seamaster Aqua Terra 150M",
+          "sku": "WOMEL00060",
+          "mpn": null,
+          "model": null
+        }
+      ],
+      "checkedAt": "2026-10-14T22:40:19.148601+00:00",
+      "rightsStatus": "Founder explicitly confirmed exact original and white-derivative commercial use; no additional restrictions",
+      "reviewStatus": "Authentic RAW and final full-resolution WEB visually reviewed; complete watch centered on white without overlays",
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGB",
+      "path": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\zadok-omega-four-originals\\220.10.30.20.60.001-raw.jpg",
+      "sha256": "bc62d6e1d5ecc02deabb3e8db21f1f521e9ee3d4a09613e5f7cacca853a557f8",
+      "status": "Authentic retailer original and reviewed white derivatives archived; held for image-specific commercial rights",
+      "whiteMaster": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\zadok-omega-five-white\\220.10.30.20.60.001-white-master.png",
+      "webDerivative": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\zadok-omega-five-white\\220.10.30.20.60.001-web.webp",
+      "masterSha256": "9a9067d290e6051d74e4d434cbf6ceefb3d8cec10f409cff5c8b07c8ce537299",
+      "derivativeSha256": "8c5284043bf598e7884b93ec0ede65d0b8715d3b194bba4d469a1ba66fe41bee",
+      "collection": "Aqua Terra",
+      "canonicalRoute": "/collections/omega/aqua-terra/220-10-30-20-60-001",
+      "catalogMaterial": "Stainless Steel",
+      "catalogConfigurations": [
+        {
+          "caseSize": "30 mm",
+          "movement": "Omega Master Chronometer automatic",
+          "dial": "Pine green sun-brushed non-wave",
+          "bracelet": "Stainless-steel bracelet",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "exactSkuEvidence": "Exact-reference retailer canonical product URL and reference in product page; photographed configuration compared with registry and prior manufacturer identity evidence",
+      "websiteApproved": false,
+      "processing": "Classical filled outer silhouette of complete watch against uniform white source; original interior RGB retained. Centered 2400 white master and 1200 WEB. No generated or reconstructed watch detail.",
+      "foregroundBounds": [
+        284,
+        36,
+        774,
+        988
+      ],
+      "visualReviewPassed": true,
+      "driveFiles": {
+        "raw": {
+          "id": "12o4j2nOMqCn4Fp1HcTwE1cWGby5yilNq",
+          "folderId": "1EwU4nbht13ay5Obti9bjywK4rWLCxK_T",
+          "sha256": "bc62d6e1d5ecc02deabb3e8db21f1f521e9ee3d4a09613e5f7cacca853a557f8"
+        },
+        "master": {
+          "id": "1DOLWqHjbRj0kUMBLnGlSGp78nmMVCD95",
+          "folderId": "1vl6DzQFhMCHLjh0DcbZ5aM_s_TrZTW49",
+          "sha256": "9a9067d290e6051d74e4d434cbf6ceefb3d8cec10f409cff5c8b07c8ce537299"
+        },
+        "web": {
+          "id": "1hwsD76p_QgwXwP1Wh2zt28Z6t2J9M17H",
+          "folderId": "1lijATpBrmBmGnjmhTJmr0gpTa5YaOd8Z",
+          "sha256": "8c5284043bf598e7884b93ec0ede65d0b8715d3b194bba4d469a1ba66fe41bee"
+        }
+      },
+      "commercialUseRightsConfirmed": true,
+      "rightsRecord": "PHOTOGRAPHY_ADDITIONAL35_FOUNDER_RIGHTS_2026-10-14.json",
+      "publicationStatus": "Integrated; release checks and deployment pending"
+    },
+    {
+      "brand": "Omega",
+      "reference": "220.10.43.22.03.001",
+      "sourceUrl": "https://zadok.com/products/omega-seamaster-watch-22010432203001",
+      "listingSourceUrl": "https://zadok.com/collections/omega?page=2",
+      "listingSourcePageSha256": "b33ea141dcaf71a3a37f1be4922f7e129dcf73c911a76b7d1f0e9cf008aedeed",
+      "exactSKU": "220.10.43.22.03.001",
+      "sourcePagePath": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\retailer-source-omega-220.10.43.22.03.001-dd3cf793.html",
+      "sourcePageSha256": "7c41272694b3659d4d8232165d5f56931ae05a298ef797b6d4aa7986d5ee79c9",
+      "imageUrl": "https://zadok.com/cdn/shop/files/C00765101_35426700_1024x.jpg?v=1749860200",
+      "sourceProvider": "Zadok Jewelers product photography",
+      "structuredProductIdentity": [
+        {
+          "name": "Aqua Terra 150M Co-Axial Master Chronometer GMT Worldtimer 43mm Watch",
+          "sku": "WOMEG00116",
+          "mpn": null,
+          "model": null
+        }
+      ],
+      "checkedAt": "2026-10-14T22:40:19.148601+00:00",
+      "rightsStatus": "Founder explicitly confirmed exact original and white-derivative commercial use; no additional restrictions",
+      "reviewStatus": "Authentic RAW and final full-resolution WEB visually reviewed; complete watch centered on white without overlays",
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGB",
+      "path": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\zadok-omega-four-originals\\220.10.43.22.03.001-raw.jpg",
+      "sha256": "f1996ba62bf5eb8c8b0b12ee8736876194ec88cf73f6611e77f17eee6a7792af",
+      "status": "Authentic retailer original and reviewed white derivatives archived; held for image-specific commercial rights",
+      "whiteMaster": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\zadok-omega-five-white\\220.10.43.22.03.001-white-master.png",
+      "webDerivative": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\zadok-omega-five-white\\220.10.43.22.03.001-web.webp",
+      "masterSha256": "63f469b79ae53c4222c72178238b7627afd5fb249b2a6102227b8b9eb3dc89c9",
+      "derivativeSha256": "e1b02442ca59c9f3f654195341d1d772f8422b1b80edfba20754e2666340e64c",
+      "collection": "Aqua Terra Worldtimer",
+      "canonicalRoute": "/collections/omega/aqua-terra-worldtimer/220-10-43-22-03-001",
+      "catalogMaterial": "Stainless Steel",
+      "catalogConfigurations": [
+        {
+          "caseSize": "43 mm",
+          "movement": "Omega 8938 automatic Worldtimer GMT",
+          "dial": "Blue teak-stripe worldtime non-wave",
+          "bracelet": "Stainless-steel bracelet",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "exactSkuEvidence": "Exact-reference retailer canonical product URL and reference in product page; photographed configuration compared with registry and prior manufacturer identity evidence",
+      "websiteApproved": false,
+      "processing": "Classical filled outer silhouette of complete watch against uniform white source; original interior RGB retained. Centered 2400 white master and 1200 WEB. No generated or reconstructed watch detail.",
+      "foregroundBounds": [
+        235,
+        35,
+        789,
+        989
+      ],
+      "visualReviewPassed": true,
+      "driveFiles": {
+        "raw": {
+          "id": "1hE3jP-lzQhFKf-Q4NffKXpJ39wwHccus",
+          "folderId": "1EwU4nbht13ay5Obti9bjywK4rWLCxK_T",
+          "sha256": "f1996ba62bf5eb8c8b0b12ee8736876194ec88cf73f6611e77f17eee6a7792af"
+        },
+        "master": {
+          "id": "1xlm_1pqskmTW18jlcnDhqWze8lvIFkvl",
+          "folderId": "1vl6DzQFhMCHLjh0DcbZ5aM_s_TrZTW49",
+          "sha256": "63f469b79ae53c4222c72178238b7627afd5fb249b2a6102227b8b9eb3dc89c9"
+        },
+        "web": {
+          "id": "1La4FWbM0SdWJnSQ88g9qJTZpVofmD_4T",
+          "folderId": "1lijATpBrmBmGnjmhTJmr0gpTa5YaOd8Z",
+          "sha256": "e1b02442ca59c9f3f654195341d1d772f8422b1b80edfba20754e2666340e64c"
+        }
+      },
+      "commercialUseRightsConfirmed": true,
+      "rightsRecord": "PHOTOGRAPHY_ADDITIONAL35_FOUNDER_RIGHTS_2026-10-14.json",
+      "publicationStatus": "Integrated; release checks and deployment pending"
+    },
+    {
+      "brand": "Omega",
+      "reference": "522.92.44.20.04.002",
+      "sourceUrl": "https://zadok.com/products/omega-seamasterdiver-300m-522-92-44-20-04-002",
+      "listingSourceUrl": "https://zadok.com/collections/omega?page=3",
+      "listingSourcePageSha256": "6d80e09452e639acc94156bb4084a09f70cc72e0c15a34e897780bba3611a99c",
+      "exactSKU": "522.92.44.20.04.002",
+      "sourcePagePath": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\retailer-source-omega-522.92.44.20.04.002-3f6bae2b.html",
+      "sourcePageSha256": "afb082636c49343f9530db6a63a6135e1f9b8c3bec9a72845c0e727a374fe4c9",
+      "imageUrl": "https://zadok.com/cdn/shop/files/37077500_C00822800_747160_WOMEG00312_1_26d8e895-21d3-459d-896c-5bafbacebcc8_1024x.jpg?v=1781217440",
+      "sourceProvider": "Zadok Jewelers product photography",
+      "structuredProductIdentity": [
+        {
+          "name": "SeamasterDiver 300M",
+          "sku": "WOMEG00312",
+          "mpn": null,
+          "model": null
+        }
+      ],
+      "checkedAt": "2026-10-14T22:40:19.150408+00:00",
+      "rightsStatus": "Founder explicitly confirmed exact original and white-derivative commercial use; no additional restrictions",
+      "reviewStatus": "Authentic RAW and final full-resolution WEB visually reviewed; complete watch centered on white without overlays",
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGB",
+      "path": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\zadok-omega-four-originals\\522.92.44.20.04.002-raw.jpg",
+      "sha256": "77e3beccbde53a5ddd3cf22583e7f395bdb34ca3fcdde5cb122aacd2faad7bb7",
+      "status": "Authentic retailer original and reviewed white derivatives archived; held for image-specific commercial rights",
+      "whiteMaster": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\zadok-omega-five-white\\522.92.44.20.04.002-white-master.png",
+      "webDerivative": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\zadok-omega-five-white\\522.92.44.20.04.002-web.webp",
+      "masterSha256": "11c7c0664ea71ef330ca0f8effb909e5aaa67706b17426d51d48b6d9aa0cf353",
+      "derivativeSha256": "f255516fb39123afb838fb2f7e903856ddd5db6b57c81e838fb62a503791276e",
+      "collection": "Seamaster Diver 300M",
+      "canonicalRoute": "/collections/omega/seamaster/522-92-44-20-04-002",
+      "catalogMaterial": "White ceramic and titanium",
+      "catalogConfigurations": [
+        {
+          "caseSize": "43.5 mm",
+          "movement": "Omega 8806 automatic",
+          "dial": "White ceramic",
+          "bracelet": "White rubber strap",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "exactSkuEvidence": "Exact-reference retailer canonical product URL and reference in product page; photographed configuration compared with registry and prior manufacturer identity evidence",
+      "websiteApproved": false,
+      "processing": "Original is already on a uniform blank white background. A conservative full-watch enclosure retains every pale ceramic/strap pixel and existing internal white; only external canvas is excluded. Centered on 2400 white master and 1200 WEB without invented detail. Replaces the contrast silhouette that could erase pale lug edges.",
+      "foregroundBounds": [
+        195,
+        15,
+        830,
+        1008
+      ],
+      "visualReviewPassed": true,
+      "driveFiles": {
+        "raw": {
+          "id": "1llOdTfnzQR9_Eci-zNDnlqPreCqHEa-Z",
+          "folderId": "1EwU4nbht13ay5Obti9bjywK4rWLCxK_T",
+          "sha256": "77e3beccbde53a5ddd3cf22583e7f395bdb34ca3fcdde5cb122aacd2faad7bb7"
+        },
+        "master": {
+          "id": "1sLYIjKaZ0ib2YF7IuDalx6bUUyeDsKE9",
+          "folderId": "1vl6DzQFhMCHLjh0DcbZ5aM_s_TrZTW49",
+          "sha256": "11c7c0664ea71ef330ca0f8effb909e5aaa67706b17426d51d48b6d9aa0cf353"
+        },
+        "web": {
+          "id": "1lbSR0BUCafUWl4q9THuNluAeSJHFTKqW",
+          "folderId": "1lijATpBrmBmGnjmhTJmr0gpTa5YaOd8Z",
+          "sha256": "f255516fb39123afb838fb2f7e903856ddd5db6b57c81e838fb62a503791276e"
+        }
+      },
+      "commercialUseRightsConfirmed": true,
+      "rightsRecord": "PHOTOGRAPHY_ADDITIONAL35_FOUNDER_RIGHTS_2026-10-14.json",
+      "publicationStatus": "Integrated; release checks and deployment pending"
+    },
+    {
+      "brand": "Omega",
+      "reference": "210.30.42.20.03.003",
+      "sourceUrl": "https://zadok.com/products/omega-seamaster-diver-300m-21030422003003",
+      "listingSourceUrl": "https://zadok.com/collections/omega?page=4",
+      "listingSourcePageSha256": "44f5cd23e48968fd2c06c0e7598d69450220cd6c7efcc87bcd66fedcccc3d79c",
+      "exactSKU": "210.30.42.20.03.003",
+      "sourcePagePath": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\retailer-source-omega-210.30.42.20.03.003-25e1bcba.html",
+      "sourcePageSha256": "51c2ecaca3523954ea85f0bae97f69f06f26fee2a1ffd0677f38684349b1175e",
+      "imageUrl": "https://zadok.com/cdn/shop/files/37077500_C00765103_689857_WOMEG00118_1_1024x.jpg?v=1769207048",
+      "sourceProvider": "Zadok Jewelers product photography",
+      "structuredProductIdentity": [
+        {
+          "name": "Seamaster Diver 300M",
+          "sku": "WOMEG00118",
+          "mpn": null,
+          "model": null
+        }
+      ],
+      "checkedAt": "2026-10-14T22:40:19.150408+00:00",
+      "rightsStatus": "Founder explicitly confirmed exact original and white-derivative commercial use; no additional restrictions",
+      "reviewStatus": "Authentic RAW and final full-resolution WEB visually reviewed; complete watch centered on white without overlays",
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGB",
+      "path": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\zadok-omega-four-originals\\210.30.42.20.03.003-raw.jpg",
+      "sha256": "f3724e073723d47eaa8905f9b838ec8f94d6e1cf49acd5d4e1f878fd5fde8c10",
+      "status": "Authentic retailer original and reviewed white derivatives archived; held for image-specific commercial rights",
+      "whiteMaster": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\zadok-omega-five-white\\210.30.42.20.03.003-white-master.png",
+      "webDerivative": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\zadok-omega-five-white\\210.30.42.20.03.003-web.webp",
+      "masterSha256": "d647c9ba7195c6331f651a3787b2ad54ba5503204a53dafb7bfa7f8dc4567f24",
+      "derivativeSha256": "b8346b3f423c8518a6c00f07ef9a797cd473d52028f51253442b6c06210e1e3f",
+      "collection": "Seamaster Diver 300M",
+      "canonicalRoute": "/collections/omega/seamaster/210-30-42-20-03-003",
+      "catalogMaterial": "Stainless Steel",
+      "catalogConfigurations": [
+        {
+          "caseSize": "42 mm",
+          "movement": "Omega 8800 automatic",
+          "dial": "Summer Blue wave gradient",
+          "bracelet": "Stainless-steel bracelet",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "exactSkuEvidence": "Exact-reference retailer canonical product URL and reference in product page; photographed configuration compared with registry and prior manufacturer identity evidence",
+      "websiteApproved": false,
+      "processing": "Classical filled outer silhouette of complete watch against uniform white source; original interior RGB retained. Centered 2400 white master and 1200 WEB. No generated or reconstructed watch detail.",
+      "foregroundBounds": [
+        241,
+        29,
+        818,
+        995
+      ],
+      "visualReviewPassed": true,
+      "driveFiles": {
+        "raw": {
+          "id": "1y9iMXXnf0_EscVsysVGyifEKi6iyYa-8",
+          "folderId": "1EwU4nbht13ay5Obti9bjywK4rWLCxK_T",
+          "sha256": "f3724e073723d47eaa8905f9b838ec8f94d6e1cf49acd5d4e1f878fd5fde8c10"
+        },
+        "master": {
+          "id": "1HqQ017zy8rr1qUHw3conbj_kyti-dB-d",
+          "folderId": "1vl6DzQFhMCHLjh0DcbZ5aM_s_TrZTW49",
+          "sha256": "d647c9ba7195c6331f651a3787b2ad54ba5503204a53dafb7bfa7f8dc4567f24"
+        },
+        "web": {
+          "id": "16nwZF7kEG7Ibhk-v2qkxjpKfZniLjZwb",
+          "folderId": "1lijATpBrmBmGnjmhTJmr0gpTa5YaOd8Z",
+          "sha256": "b8346b3f423c8518a6c00f07ef9a797cd473d52028f51253442b6c06210e1e3f"
+        }
+      },
+      "commercialUseRightsConfirmed": true,
+      "rightsRecord": "PHOTOGRAPHY_ADDITIONAL35_FOUNDER_RIGHTS_2026-10-14.json",
+      "publicationStatus": "Integrated; release checks and deployment pending"
+    },
+    {
+      "brand": "Omega",
+      "reference": "310.20.42.50.99.001",
+      "exactSKU": "310.20.42.50.99.001",
+      "sourceUrl": "https://zadok.com/products/omega-speedmaster-moonwatch-professional-31020425099001",
+      "sourcePagePath": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\retailer-source-omega-310.20.42.50.99.001-bc135d90.html",
+      "sourcePageSha256": "c07be676906b1d9a864b3859cf4fbfcc026767eb6b7e61408a5ecd26b6c058e2",
+      "imageUrl": "https://zadok.com/cdn/shop/files/37077500_C00820556_689886_WOMEG00282_1_1200x1200.jpg?v=1769207147",
+      "sourceProvider": "Zadok Jewelers product photography",
+      "checkedAt": "2026-10-14T22:37:53.103397+00:00",
+      "rightsStatus": "Founder explicitly confirmed exact original and white-derivative commercial use; no additional restrictions",
+      "reviewStatus": "Authentic RAW and final full-resolution WEB visually reviewed; complete watch centered on white without overlays",
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGB",
+      "path": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\omega-next-three-originals\\310.20.42.50.99.001-raw.jpg",
+      "sha256": "c3ac94e5d60794685fa1498ccf7149cd710c70776dff18d7c39c60b5c0417945",
+      "status": "Authentic retailer original and reviewed white derivatives archived; held for image-specific commercial rights",
+      "whiteMaster": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\zadok-omega-five-white\\310.20.42.50.99.001-white-master.png",
+      "webDerivative": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\zadok-omega-five-white\\310.20.42.50.99.001-web.webp",
+      "masterSha256": "122321ff2ecd2b063026af86a142d819949d63ec9e3bdc01168f0d6693c084c4",
+      "derivativeSha256": "9db6ea1d095da39f2ba7559d7e6e9dbc975849f65ec47f8722aae9a89a3fa230",
+      "collection": "Speedmaster",
+      "canonicalRoute": "/collections/omega/speedmaster/310-20-42-50-99-001",
+      "catalogMaterial": "Stainless Steel and 18K Sedna Gold",
+      "catalogConfigurations": [
+        {
+          "caseSize": "42 mm",
+          "movement": "Omega 3861 manual chronograph",
+          "dial": "Pink sun-brushed non-wave",
+          "bracelet": "Stainless-steel and Sedna Gold bracelet",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "exactSkuEvidence": "Exact-reference retailer canonical product URL and reference in product page; photographed configuration compared with registry and prior manufacturer identity evidence",
+      "websiteApproved": false,
+      "processing": "Classical filled outer silhouette of complete watch against uniform white source; original interior RGB retained. Centered 2400 white master and 1200 WEB. No generated or reconstructed watch detail.",
+      "foregroundBounds": [
+        262,
+        30,
+        791,
+        995
+      ],
+      "visualReviewPassed": true,
+      "driveFiles": {
+        "raw": {
+          "id": "12wigsiK8SC-YclQCPLdm4LR_xAD2uM_9",
+          "folderId": "1EwU4nbht13ay5Obti9bjywK4rWLCxK_T",
+          "sha256": "c3ac94e5d60794685fa1498ccf7149cd710c70776dff18d7c39c60b5c0417945"
+        },
+        "master": {
+          "id": "1_upPsYqAiGnAmNCwT4mW942IAraU-aCK",
+          "folderId": "1vl6DzQFhMCHLjh0DcbZ5aM_s_TrZTW49",
+          "sha256": "122321ff2ecd2b063026af86a142d819949d63ec9e3bdc01168f0d6693c084c4"
+        },
+        "web": {
+          "id": "1UapnE137Z1_fEF_NFcC_Fx21yvO51-0E",
+          "folderId": "1lijATpBrmBmGnjmhTJmr0gpTa5YaOd8Z",
+          "sha256": "9db6ea1d095da39f2ba7559d7e6e9dbc975849f65ec47f8722aae9a89a3fa230"
+        }
+      },
+      "commercialUseRightsConfirmed": true,
+      "rightsRecord": "PHOTOGRAPHY_ADDITIONAL35_FOUNDER_RIGHTS_2026-10-14.json",
+      "publicationStatus": "Integrated; release checks and deployment pending"
+    }
+  ],
+  "reviewedSets": 5,
+  "rightsHeldSets": 0,
+  "title": "Five further exact Omega photographs reviewed and archived",
+  "archivedAt": "2026-10-15T01:25:56.448116+00:00",
+  "driveFilesArchived": 15,
+  "archiveReadbackStatus": "All 15 Drive file names and destination folders verified by metadata readback; all local original/master/WEB SHA-256 checks passed.",
+  "sourceLogDriveId": "1xrsDEjYLewwea-kppV5vPYAl9MS0QBNa",
+  "approvedForPublication": 5,
+  "founderRightsRecord": "PHOTOGRAPHY_ADDITIONAL35_FOUNDER_RIGHTS_2026-10-14.json",
+  "publicationStatus": "Integrated; checks and deployment pending"
+}

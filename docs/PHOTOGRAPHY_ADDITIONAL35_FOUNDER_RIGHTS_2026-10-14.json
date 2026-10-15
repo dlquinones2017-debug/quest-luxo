@@ -1,0 +1,200 @@
+{
+  "title": "Founder rights confirmation for 35 exact reviewed originals and derivatives",
+  "recordedAt": "2026-10-15T01:51:10.872374+00:00",
+  "evidenceType": "Direct founder answer in existing Website/Product chat",
+  "questionItemId": "call_5012ce9648ed411baa71e4674c45e352",
+  "founderAnswer": "Rights cover all 35 and derivatives; no additional restrictions",
+  "scope": "Commercial Quest Luxo website use of all 35 specific originals in the three named ledgers, including white-background derivatives; no additional restrictions",
+  "sourceLedgers": [
+    {
+      "file": "ADDITIONAL_OMEGA_NAVITIMER_ARCHIVED_2026-10-14.json",
+      "driveId": "12HFXTEdM3I_vZihJvQdlqX7A-xVNyZfK"
+    },
+    {
+      "file": "PRIMARY_FOUR_ARCHIVED_2026-10-14.json",
+      "driveId": "1Gwu0S_pqL4pNcl0jRCgw2WgUrvlo90d_"
+    },
+    {
+      "file": "OMEGA_ZADOK_FIVE_ARCHIVED_2026-10-14.json",
+      "driveId": "1xrsDEjYLewwea-kppV5vPYAl9MS0QBNa"
+    }
+  ],
+  "references": [
+    {
+      "brand": "Omega",
+      "reference": "210.30.42.20.03.002",
+      "rawSha256": "331dd3757cabf36457adfb9838da4febac12796595aeae0d5d38d6e6bd58f2f4"
+    },
+    {
+      "brand": "Omega",
+      "reference": "210.30.42.20.04.001",
+      "rawSha256": "483733ceb8e77b17676a9232b0c50c3a77b13a8a9f33c003e9fbb55ca816791f"
+    },
+    {
+      "brand": "Omega",
+      "reference": "310.92.44.50.01.001",
+      "rawSha256": "9fe68bf236180f2d8ddc189b5e89b884b8dfe6be9bf4eea208384abc475fee23"
+    },
+    {
+      "brand": "Omega",
+      "reference": "210.32.42.20.03.001",
+      "rawSha256": "0eb87d9467acab8125996a1df509a52df5fd995526e541f3a6dd874f63f65c84"
+    },
+    {
+      "brand": "Omega",
+      "reference": "210.32.42.20.06.002",
+      "rawSha256": "b6033ad093b4a182f9960fd54120935ed1d8bd4424855a79622b5b1c62c68826"
+    },
+    {
+      "brand": "Omega",
+      "reference": "235.10.38.20.13.001",
+      "rawSha256": "4bb0292461f3b0c79cd3176a0989d7d9ffb2cf122fbc0734f0968f54bc7a623a"
+    },
+    {
+      "brand": "Omega",
+      "reference": "215.30.44.21.04.001",
+      "rawSha256": "10b328b554d751f11a6d81b5592e056b65551196fc49d70b47571aae9883ed84"
+    },
+    {
+      "brand": "Omega",
+      "reference": "220.10.41.21.03.006",
+      "rawSha256": "d98ab7517966e35baf6b6d4822a3b6c1844834c592212c3b00db33c9477a6c8a"
+    },
+    {
+      "brand": "Omega",
+      "reference": "210.32.42.20.04.001",
+      "rawSha256": "64325de683a58e442d047e1038454e650e4f9e8742bd4edf9a8767b16e5eaf9c"
+    },
+    {
+      "brand": "Omega",
+      "reference": "310.32.42.50.04.002",
+      "rawSha256": "154d7cbbb0752766b11a7ff71ba5ab076bb83ff90e140f5d45024cd238cb15a7"
+    },
+    {
+      "brand": "Omega",
+      "reference": "210.30.42.20.03.001",
+      "rawSha256": "d2dbd9a18dffb1e648b1bc05f1c7041384b3e39bbdfc5e5b8646286adf54b261"
+    },
+    {
+      "brand": "Omega",
+      "reference": "210.32.42.20.01.001",
+      "rawSha256": "f3b39dd945dbd04ce8edb939c61ee6d84dad18ac39b57451f457195cdeeedce4"
+    },
+    {
+      "brand": "Omega",
+      "reference": "210.32.42.20.06.001",
+      "rawSha256": "e6bb06af2fb50293223b186d435c9b1424ee4c9c0cc9018c808edcf31aaa1227"
+    },
+    {
+      "brand": "Omega",
+      "reference": "310.32.42.50.01.001",
+      "rawSha256": "7c9823063aec0bbc0f72347ab257a884020234ac46d3b290b02a7550914349a1"
+    },
+    {
+      "brand": "Omega",
+      "reference": "210.90.42.20.01.001",
+      "rawSha256": "8bd05e9d2748a1986b89f2df8fe9bebaffd53ee14138abb7960c52a1c0a25e6e"
+    },
+    {
+      "brand": "Omega",
+      "reference": "210.30.42.20.06.001",
+      "rawSha256": "4e758862df4a7d6b93aee414b727ce59ffd66b0081459cf25773c57748c932ad"
+    },
+    {
+      "brand": "Omega",
+      "reference": "310.30.42.50.01.001",
+      "rawSha256": "b411da51fed57240b8a2db38fe585edbbea4f972a8bd87a72000872bcd428f30"
+    },
+    {
+      "brand": "Omega",
+      "reference": "220.10.41.21.01.002",
+      "rawSha256": "a98249b8869e8474d119b20468f337a5f9a531416e3798b6c3877fc3fcb17106"
+    },
+    {
+      "brand": "Omega",
+      "reference": "210.32.42.20.01.006",
+      "rawSha256": "95c94af897562aae50633a9d57e70f1a87755d3379d5d2372f6ae2a3ef690c61"
+    },
+    {
+      "brand": "Omega",
+      "reference": "235.10.38.20.06.001",
+      "rawSha256": "a9953e7bc7712133f4ee0ddc3cd8a9736d1ad8a940f733647483a9add815b858"
+    },
+    {
+      "brand": "Omega",
+      "reference": "220.12.41.21.03.002",
+      "rawSha256": "f5b1258e5d7d4d6c94f57bc36128f712b902305dea0b08eb2c50494d4c0943cc"
+    },
+    {
+      "brand": "Omega",
+      "reference": "220.10.41.21.03.004",
+      "rawSha256": "ee2c1f12f5f742c0dca7440b3c6557eed1fdb14bd364aabbde515951e0dfb48a"
+    },
+    {
+      "brand": "Omega",
+      "reference": "210.32.42.20.03.002",
+      "rawSha256": "2a1c8e69aa46f3447ed47d0a1960fa09043c1e016d4c8977c802050f66c0edce"
+    },
+    {
+      "brand": "Omega",
+      "reference": "210.92.42.20.01.001",
+      "rawSha256": "6dc07e3c29053b1a9a93ca150fd1acdb591c0035841982edf9a399adb8fac450"
+    },
+    {
+      "brand": "Breitling",
+      "reference": "AB0137211C1P1",
+      "rawSha256": "3ff1772a636ab38d65c7e1cd5df6494d5349885cdedbbf727cb499b1f7727008"
+    },
+    {
+      "brand": "Breitling",
+      "reference": "AB0137211B1P1",
+      "rawSha256": "d82eeeecad448dc303c603e072d1fcb31754df9f2f1c63ba5750a6f988c6e296"
+    },
+    {
+      "brand": "Breitling",
+      "reference": "AB2010121B1S1",
+      "rawSha256": "47f67464464b70e12c12a6da3bf38df0ff9c671d107387cbf80374a9335eee9c"
+    },
+    {
+      "brand": "Breitling",
+      "reference": "AB0147101B1X1",
+      "rawSha256": "5bc911591b3fc309f4e9762b42eb15fa2a8adc8b58fa97f4ef9c0898d543fda0"
+    },
+    {
+      "brand": "Bell & Ross",
+      "reference": "BR0192-COMPASS-CA",
+      "rawSha256": "db16dd096800a91944532aa637321d07c80f23a00ca890404e3c61dadd338ce3"
+    },
+    {
+      "brand": "Franck Muller",
+      "reference": "V 45 T BR (TT)",
+      "rawSha256": "7731eb7ce75c55abdf5dc440cee5dfe41d63b7e72dde681555a367cb87a83ec0"
+    },
+    {
+      "brand": "Omega",
+      "reference": "220.10.30.20.60.001",
+      "rawSha256": "bc62d6e1d5ecc02deabb3e8db21f1f521e9ee3d4a09613e5f7cacca853a557f8"
+    },
+    {
+      "brand": "Omega",
+      "reference": "220.10.43.22.03.001",
+      "rawSha256": "f1996ba62bf5eb8c8b0b12ee8736876194ec88cf73f6611e77f17eee6a7792af"
+    },
+    {
+      "brand": "Omega",
+      "reference": "522.92.44.20.04.002",
+      "rawSha256": "77e3beccbde53a5ddd3cf22583e7f395bdb34ca3fcdde5cb122aacd2faad7bb7"
+    },
+    {
+      "brand": "Omega",
+      "reference": "210.30.42.20.03.003",
+      "rawSha256": "f3724e073723d47eaa8905f9b838ec8f94d6e1cf49acd5d4e1f878fd5fde8c10"
+    },
+    {
+      "brand": "Omega",
+      "reference": "310.20.42.50.99.001",
+      "rawSha256": "c3ac94e5d60794685fa1498ccf7149cd710c70776dff18d7c39c60b5c0417945"
+    }
+  ],
+  "noScopeExtension": "Does not cover any newly acquired original outside these three exact ledgers"
+}

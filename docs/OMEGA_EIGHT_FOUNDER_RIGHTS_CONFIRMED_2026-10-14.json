@@ -1,0 +1,32 @@
+{
+  "title": "Founder commercial-use confirmation for eight exact Omega photographs",
+  "recordedAt": "2026-10-15T01:21:19.691429+00:00",
+  "scope": "Untouched retailer originals and their white-background derivatives for Quest Luxo commercial website use",
+  "evidenceType": "Direct human answers in existing Website/Product chat",
+  "groups": [
+    {
+      "questionItemId": "call_399dd8fb2c3c453d891b61c962879d09",
+      "sourceProvider": "The 1916 Company",
+      "references": [
+        "310.30.42.50.04.001",
+        "210.30.42.20.10.001",
+        "310.60.42.50.01.001",
+        "131.30.41.21.99.003"
+      ],
+      "founderAnswer": "Rights confirmed for these four"
+    },
+    {
+      "questionItemId": "call_1c7efd0543ec468c9478a9e694508662",
+      "sourceProvider": "Sheiban Jewelers",
+      "references": [
+        "210.32.42.20.10.001",
+        "220.10.38.20.03.003",
+        "220.12.43.22.03.001",
+        "220.10.38.20.13.003"
+      ],
+      "founderAnswer": "Rights confirmed for these four"
+    }
+  ],
+  "conditions": "No additional usage restrictions reported in these confirmations; existing separate source credits retained. This record asserts founder confirmation only and does not invent a third-party license document.",
+  "doesNotCover": "Any other later photography ledger or original"
+}

@@ -257,3 +257,11 @@ Independent acquisition continues: two complete Navitimer 46 manufacturer origin
 - 24 Omega, four Breitling, one Bell and Ross Compass and one Franck Muller Tourbillon set reviewed; 90 RAW/master/WEB files archived with exact source evidence and checksums.
 - Together with the earlier eight Omega sets, 38 await specific image-use rights. They remain unpublished. Live coverage stays 126/268; 104 other acquisition/quality gaps remain.
 - Canonical photography master expanded to 38 reviewed pages; historical 34 rendered page hashes unchanged. New source access/framing/resolution holds documented; no denied endpoint bypass or image reconstruction.
+
+
+## Forty three founder cleared photographs ready for production
+
+- Founder directly confirmed all 43 exact originals and white-background derivatives; no additional restrictions for the later35. Added 37 Omega, four Breitling, one Bell and Ross Compass and one Franck Muller Vanguard Tourbillon photograph through the existing approvedPhotograph registry. No routes or catalog identities added or removed.
+- Built full-site coverage:169/268 reference URLs,69/103 collections;99 still queued. Production remains126/268 until deployment verification.
+- Final246 regressions passed; Astro0errors/0warnings/21hints; source/photo/hash/queue audits and build passed. All43 built routes, images, collection grids, separate credits and public inquiry contexts verified. Desktop/mobile visual QA passed. A one-property sourcing-heading text-wrap fix eliminates long-reference mobile overflow without changing breadcrumb behavior.
+- Existing Zenith alias and robots build warnings retained. No private lead reads, form submissions, customer records, credentials or persistent disk changes.

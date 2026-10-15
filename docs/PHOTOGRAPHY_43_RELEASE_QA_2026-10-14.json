@@ -1,0 +1,479 @@
+{
+  "reviewedAt": "2026-10-15T01:56:12.771760+00:00",
+  "releasePhotoCount": 43,
+  "regressionTests": {
+    "pass": 246,
+    "fail": 0
+  },
+  "astro": {
+    "errors": 0,
+    "warnings": 0,
+    "hints": 21
+  },
+  "audits": "Omega, multi-brand, exact-reference gate, derivative hashes, duplicates and queue checks passed",
+  "build": "Passed",
+  "knownBuildWarnings": [
+    "Existing Zenith punctuation alias route conflict",
+    "Existing duplicate public robots.txt route"
+  ],
+  "builtRoutes": {
+    "checkedAt": "2026-10-15T01:53:30.968274+00:00",
+    "mode": "built",
+    "exactReferencesChecked": 43,
+    "rows": [
+      {
+        "reference": "310.30.42.50.04.001",
+        "route": "/collections/omega/speedmaster/310-30-42-50-04-001",
+        "imageSha256": "acc0aedb35272d13459aa65a1721f6247fd1e17b24f1e4e6cf070096b6eb18aa",
+        "exactConfiguration": true,
+        "collectionGrid": true,
+        "inquiryContext": true,
+        "separateCredits": true,
+        "noImageCaptionOverlay": true
+      },
+      {
+        "reference": "210.30.42.20.10.001",
+        "route": "/collections/omega/seamaster/210-30-42-20-10-001",
+        "imageSha256": "dff60ec3072dd25afbf17b06e28222aa345293f3f160818c34c191ee713fe003",
+        "exactConfiguration": true,
+        "collectionGrid": true,
+        "inquiryContext": true,
+        "separateCredits": true,
+        "noImageCaptionOverlay": true
+      },
+      {
+        "reference": "310.60.42.50.01.001",
+        "route": "/collections/omega/speedmaster/310-60-42-50-01-001",
+        "imageSha256": "74b72a29a4eee08e5bff9d2628cb0e19deae2f3b19f3a4eac689114621c94205",
+        "exactConfiguration": true,
+        "collectionGrid": true,
+        "inquiryContext": true,
+        "separateCredits": true,
+        "noImageCaptionOverlay": true
+      },
+      {
+        "reference": "131.30.41.21.99.003",
+        "route": "/collections/omega/constellation/131-30-41-21-99-003",
+        "imageSha256": "77caa20d260ee8167700bbef444f0570f7bb97de5247445cca57811d0e0cd010",
+        "exactConfiguration": true,
+        "collectionGrid": true,
+        "inquiryContext": true,
+        "separateCredits": true,
+        "noImageCaptionOverlay": true
+      },
+      {
+        "reference": "210.32.42.20.10.001",
+        "route": "/collections/omega/seamaster/210-32-42-20-10-001",
+        "imageSha256": "d827e1a660c4611090f1e9c5d5df345d725cdf937da2f92b8699644d5ec7ac99",
+        "exactConfiguration": true,
+        "collectionGrid": true,
+        "inquiryContext": true,
+        "separateCredits": true,
+        "noImageCaptionOverlay": true
+      },
+      {
+        "reference": "220.10.38.20.03.003",
+        "route": "/collections/omega/aqua-terra/220-10-38-20-03-003",
+        "imageSha256": "c880a09de8857b85049f8ee31df4fd799df8b04f9c63b96464555749b5d72837",
+        "exactConfiguration": true,
+        "collectionGrid": true,
+        "inquiryContext": true,
+        "separateCredits": true,
+        "noImageCaptionOverlay": true
+      },
+      {
+        "reference": "220.12.43.22.03.001",
+        "route": "/collections/omega/aqua-terra-worldtimer/220-12-43-22-03-001",
+        "imageSha256": "09fb393f1bca7d06c920e4084553f65430c5a753482e4d4386d3518ab43afed3",
+        "exactConfiguration": true,
+        "collectionGrid": true,
+        "inquiryContext": true,
+        "separateCredits": true,
+        "noImageCaptionOverlay": true
+      },
+      {
+        "reference": "220.10.38.20.13.003",
+        "route": "/collections/omega/aqua-terra/220-10-38-20-13-003",
+        "imageSha256": "8b73b6dda9a48b7b6149a8900d68aec7bf713d636c55cf31ff3a161f1ac07ef4",
+        "exactConfiguration": true,
+        "collectionGrid": true,
+        "inquiryContext": true,
+        "separateCredits": true,
+        "noImageCaptionOverlay": true
+      },
+      {
+        "reference": "210.30.42.20.03.002",
+        "route": "/collections/omega/seamaster/210-30-42-20-03-002",
+        "imageSha256": "bfee40e46bc57ae907bdcca4f238f87c38a5efe7a935eda46ad0c39fa384426c",
+        "exactConfiguration": true,
+        "collectionGrid": true,
+        "inquiryContext": true,
+        "separateCredits": true,
+        "noImageCaptionOverlay": true
+      },
+      {
+        "reference": "210.30.42.20.04.001",
+        "route": "/collections/omega/seamaster/210-30-42-20-04-001",
+        "imageSha256": "c37f120a03c3a3c676a17947c7f58509dd284600407fcac5642b4759bd4aaf45",
+        "exactConfiguration": true,
+        "collectionGrid": true,
+        "inquiryContext": true,
+        "separateCredits": true,
+        "noImageCaptionOverlay": true
+      },
+      {
+        "reference": "310.92.44.50.01.001",
+        "route": "/collections/omega/dark-side-of-the-moon/310-92-44-50-01-001",
+        "imageSha256": "0498776b35392fb10755d8ba15bb3cd023e0d93b4ec10dcc5a886d361d01c518",
+        "exactConfiguration": true,
+        "collectionGrid": true,
+        "inquiryContext": true,
+        "separateCredits": true,
+        "noImageCaptionOverlay": true
+      },
+      {
+        "reference": "210.32.42.20.03.001",
+        "route": "/collections/omega/seamaster/210-32-42-20-03-001",
+        "imageSha256": "025e5167b16c1aa82e71395b70c5bc09bc04cb04a5c04b1b933d919f6eabb5df",
+        "exactConfiguration": true,
+        "collectionGrid": true,
+        "inquiryContext": true,
+        "separateCredits": true,
+        "noImageCaptionOverlay": true
+      },
+      {
+        "reference": "210.32.42.20.06.002",
+        "route": "/collections/omega/seamaster/210-32-42-20-06-002",
+        "imageSha256": "954b390854ff9734facbe7a1d98abd9a5f69ad0c9717eb28483043dcc7742bff",
+        "exactConfiguration": true,
+        "collectionGrid": true,
+        "inquiryContext": true,
+        "separateCredits": true,
+        "noImageCaptionOverlay": true
+      },
+      {
+        "reference": "235.10.38.20.13.001",
+        "route": "/collections/omega/railmaster/235-10-38-20-13-001",
+        "imageSha256": "f17ad5e5fbe4d21a627da8a68acf7743ad923945480238cf08eded417efa789f",
+        "exactConfiguration": true,
+        "collectionGrid": true,
+        "inquiryContext": true,
+        "separateCredits": true,
+        "noImageCaptionOverlay": true
+      },
+      {
+        "reference": "215.30.44.21.04.001",
+        "route": "/collections/omega/planet-ocean/215-30-44-21-04-001",
+        "imageSha256": "16e4f16a87172c6ad4c0508d85200888e0c5d50bd01cb5d5c8d33aac3a1f3f54",
+        "exactConfiguration": true,
+        "collectionGrid": true,
+        "inquiryContext": true,
+        "separateCredits": true,
+        "noImageCaptionOverlay": true
+      },
+      {
+        "reference": "220.10.41.21.03.006",
+        "route": "/collections/omega/aqua-terra/220-10-41-21-03-006",
+        "imageSha256": "78e43bd3dd06ee57b5cabf0d1659e939da949f0d4700bf40db9895d05b7fb6b8",
+        "exactConfiguration": true,
+        "collectionGrid": true,
+        "inquiryContext": true,
+        "separateCredits": true,
+        "noImageCaptionOverlay": true
+      },
+      {
+        "reference": "210.32.42.20.04.001",
+        "route": "/collections/omega/seamaster/210-32-42-20-04-001",
+        "imageSha256": "004814a412b84c7cea1ad1a266ad96015b9bd4b12ec7d855c77752c230d4c241",
+        "exactConfiguration": true,
+        "collectionGrid": true,
+        "inquiryContext": true,
+        "separateCredits": true,
+        "noImageCaptionOverlay": true
+      },
+      {
+        "reference": "310.32.42.50.04.002",
+        "route": "/collections/omega/speedmaster/310-32-42-50-04-002",
+        "imageSha256": "1d07de6a36d03e2ab82a28864c912c27e4dd738b10d4c6b404f066d70d3b10f0",
+        "exactConfiguration": true,
+        "collectionGrid": true,
+        "inquiryContext": true,
+        "separateCredits": true,
+        "noImageCaptionOverlay": true
+      },
+      {
+        "reference": "210.30.42.20.03.001",
+        "route": "/collections/omega/seamaster/210-30-42-20-03-001",
+        "imageSha256": "c31420300acc00d91e7a424172d72071769c81d68dc6f05a8a4f8eda65701b3b",
+        "exactConfiguration": true,
+        "collectionGrid": true,
+        "inquiryContext": true,
+        "separateCredits": true,
+        "noImageCaptionOverlay": true
+      },
+      {
+        "reference": "210.32.42.20.01.001",
+        "route": "/collections/omega/seamaster/210-32-42-20-01-001",
+        "imageSha256": "19e9c0a0600159df47ab1dfa309e9b4ab1fa8e9c4f7026a7c1a59c43f1ee0eba",
+        "exactConfiguration": true,
+        "collectionGrid": true,
+        "inquiryContext": true,
+        "separateCredits": true,
+        "noImageCaptionOverlay": true
+      },
+      {
+        "reference": "210.32.42.20.06.001",
+        "route": "/collections/omega/seamaster/210-32-42-20-06-001",
+        "imageSha256": "d6b62651c444c37e04dc6c396e76af83b23bbefad9239ebb03a879c7dbcc3f86",
+        "exactConfiguration": true,
+        "collectionGrid": true,
+        "inquiryContext": true,
+        "separateCredits": true,
+        "noImageCaptionOverlay": true
+      },
+      {
+        "reference": "310.32.42.50.01.001",
+        "route": "/collections/omega/speedmaster/310-32-42-50-01-001",
+        "imageSha256": "fee154a2c9b73602ad84ded37c482764a1fda84d67c23936d54d6548cddd61ce",
+        "exactConfiguration": true,
+        "collectionGrid": true,
+        "inquiryContext": true,
+        "separateCredits": true,
+        "noImageCaptionOverlay": true
+      },
+      {
+        "reference": "210.90.42.20.01.001",
+        "route": "/collections/omega/seamaster/210-90-42-20-01-001",
+        "imageSha256": "15de07ca45354c05f472e98a118b82294fba5ac6c969446d140e4868ebc83d88",
+        "exactConfiguration": true,
+        "collectionGrid": true,
+        "inquiryContext": true,
+        "separateCredits": true,
+        "noImageCaptionOverlay": true
+      },
+      {
+        "reference": "210.30.42.20.06.001",
+        "route": "/collections/omega/seamaster/210-30-42-20-06-001",
+        "imageSha256": "b17d4c023f9df8e9d14f5b2e756f90fd901f9b496118894d857c830e60a438b8",
+        "exactConfiguration": true,
+        "collectionGrid": true,
+        "inquiryContext": true,
+        "separateCredits": true,
+        "noImageCaptionOverlay": true
+      },
+      {
+        "reference": "310.30.42.50.01.001",
+        "route": "/collections/omega/speedmaster/310-30-42-50-01-001",
+        "imageSha256": "3d84843084a7a07540cf9cf8da43a014d231159606b824ba2552f42a19383c41",
+        "exactConfiguration": true,
+        "collectionGrid": true,
+        "inquiryContext": true,
+        "separateCredits": true,
+        "noImageCaptionOverlay": true
+      },
+      {
+        "reference": "220.10.41.21.01.002",
+        "route": "/collections/omega/aqua-terra/220-10-41-21-01-002",
+        "imageSha256": "c86560aa66a947d34944e6bc6906db70e83887b23450aaee5f387b6dc6df5d3d",
+        "exactConfiguration": true,
+        "collectionGrid": true,
+        "inquiryContext": true,
+        "separateCredits": true,
+        "noImageCaptionOverlay": true
+      },
+      {
+        "reference": "210.32.42.20.01.006",
+        "route": "/collections/omega/seamaster/210-32-42-20-01-006",
+        "imageSha256": "8f67ff30947cf6c5450a3a5f6d7437342ce758c227928316d4250e7c54301538",
+        "exactConfiguration": true,
+        "collectionGrid": true,
+        "inquiryContext": true,
+        "separateCredits": true,
+        "noImageCaptionOverlay": true
+      },
+      {
+        "reference": "235.10.38.20.06.001",
+        "route": "/collections/omega/railmaster/235-10-38-20-06-001",
+        "imageSha256": "7875db195b20925525eb62b007291369c98b1393895a6aac693a4c417caea420",
+        "exactConfiguration": true,
+        "collectionGrid": true,
+        "inquiryContext": true,
+        "separateCredits": true,
+        "noImageCaptionOverlay": true
+      },
+      {
+        "reference": "220.12.41.21.03.002",
+        "route": "/collections/omega/aqua-terra/220-12-41-21-03-002",
+        "imageSha256": "324f26c73c252139a08bd5675c0c39248f7138c085fba71005fcebe74f7254ac",
+        "exactConfiguration": true,
+        "collectionGrid": true,
+        "inquiryContext": true,
+        "separateCredits": true,
+        "noImageCaptionOverlay": true
+      },
+      {
+        "reference": "220.10.41.21.03.004",
+        "route": "/collections/omega/aqua-terra/220-10-41-21-03-004",
+        "imageSha256": "ac56af375246e19e11db25f905b96c71f0bc4c1ceaa38f82eac1afddd6304973",
+        "exactConfiguration": true,
+        "collectionGrid": true,
+        "inquiryContext": true,
+        "separateCredits": true,
+        "noImageCaptionOverlay": true
+      },
+      {
+        "reference": "210.32.42.20.03.002",
+        "route": "/collections/omega/seamaster/210-32-42-20-03-002",
+        "imageSha256": "28710bd6c5e72f60641767934eab2ea372e43bbcad5a4de71de178c5e3b4e1aa",
+        "exactConfiguration": true,
+        "collectionGrid": true,
+        "inquiryContext": true,
+        "separateCredits": true,
+        "noImageCaptionOverlay": true
+      },
+      {
+        "reference": "210.92.42.20.01.001",
+        "route": "/collections/omega/seamaster/210-92-42-20-01-001",
+        "imageSha256": "27dda30a12ba5ec48f2944649200ba09c7fcdd464edda56ad8e2cc7dd5aaa6f2",
+        "exactConfiguration": true,
+        "collectionGrid": true,
+        "inquiryContext": true,
+        "separateCredits": true,
+        "noImageCaptionOverlay": true
+      },
+      {
+        "reference": "AB0137211C1P1",
+        "route": "/collections/breitling/navitimer/ab0137211c1p1",
+        "imageSha256": "4477a6eb3ae5fe333f974d1de24d425c04cdd7a9a9bf20caa15fdad735e307d3",
+        "exactConfiguration": true,
+        "collectionGrid": true,
+        "inquiryContext": true,
+        "separateCredits": true,
+        "noImageCaptionOverlay": true
+      },
+      {
+        "reference": "AB0137211B1P1",
+        "route": "/collections/breitling/navitimer/ab0137211b1p1",
+        "imageSha256": "130464e6d28992b9468552ca0bfd3441eda30619802e027e2852f14856fd80a4",
+        "exactConfiguration": true,
+        "collectionGrid": true,
+        "inquiryContext": true,
+        "separateCredits": true,
+        "noImageCaptionOverlay": true
+      },
+      {
+        "reference": "AB2010121B1S1",
+        "route": "/collections/breitling/superocean-heritage/ab2010121b1s1",
+        "imageSha256": "a5021e1ef969bab073ee35593ba519a8de8d63cad2ea181b36100046b5f27c32",
+        "exactConfiguration": true,
+        "collectionGrid": true,
+        "inquiryContext": true,
+        "separateCredits": true,
+        "noImageCaptionOverlay": true
+      },
+      {
+        "reference": "AB0147101B1X1",
+        "route": "/collections/breitling/avenger/ab0147101b1x1",
+        "imageSha256": "3269175ea14ce67830ae1d7f3c8019f6f2b799a2059508d1fe602825e224c42c",
+        "exactConfiguration": true,
+        "collectionGrid": true,
+        "inquiryContext": true,
+        "separateCredits": true,
+        "noImageCaptionOverlay": true
+      },
+      {
+        "reference": "BR0192-COMPASS-CA",
+        "route": "/collections/bell-and-ross/br-01/br0192-compass-ca",
+        "imageSha256": "4a84e8420128f41adfbb770923b493e0a9de487e9d3dda6a18797c6f2132ca85",
+        "exactConfiguration": true,
+        "collectionGrid": true,
+        "inquiryContext": true,
+        "separateCredits": true,
+        "noImageCaptionOverlay": true
+      },
+      {
+        "reference": "V 45 T BR (TT)",
+        "route": "/collections/franck-muller/vanguard-tourbillon/v-45-t-br-tt",
+        "imageSha256": "52999c2bd3afb88d3cd4b97adf7eee080f88c38fafe2f578655fbf4f841c6681",
+        "exactConfiguration": true,
+        "collectionGrid": true,
+        "inquiryContext": true,
+        "separateCredits": true,
+        "noImageCaptionOverlay": true
+      },
+      {
+        "reference": "220.10.30.20.60.001",
+        "route": "/collections/omega/aqua-terra/220-10-30-20-60-001",
+        "imageSha256": "8c5284043bf598e7884b93ec0ede65d0b8715d3b194bba4d469a1ba66fe41bee",
+        "exactConfiguration": true,
+        "collectionGrid": true,
+        "inquiryContext": true,
+        "separateCredits": true,
+        "noImageCaptionOverlay": true
+      },
+      {
+        "reference": "220.10.43.22.03.001",
+        "route": "/collections/omega/aqua-terra-worldtimer/220-10-43-22-03-001",
+        "imageSha256": "e1b02442ca59c9f3f654195341d1d772f8422b1b80edfba20754e2666340e64c",
+        "exactConfiguration": true,
+        "collectionGrid": true,
+        "inquiryContext": true,
+        "separateCredits": true,
+        "noImageCaptionOverlay": true
+      },
+      {
+        "reference": "522.92.44.20.04.002",
+        "route": "/collections/omega/seamaster/522-92-44-20-04-002",
+        "imageSha256": "f255516fb39123afb838fb2f7e903856ddd5db6b57c81e838fb62a503791276e",
+        "exactConfiguration": true,
+        "collectionGrid": true,
+        "inquiryContext": true,
+        "separateCredits": true,
+        "noImageCaptionOverlay": true
+      },
+      {
+        "reference": "210.30.42.20.03.003",
+        "route": "/collections/omega/seamaster/210-30-42-20-03-003",
+        "imageSha256": "b8346b3f423c8518a6c00f07ef9a797cd473d52028f51253442b6c06210e1e3f",
+        "exactConfiguration": true,
+        "collectionGrid": true,
+        "inquiryContext": true,
+        "separateCredits": true,
+        "noImageCaptionOverlay": true
+      },
+      {
+        "reference": "310.20.42.50.99.001",
+        "route": "/collections/omega/speedmaster/310-20-42-50-99-001",
+        "imageSha256": "9db6ea1d095da39f2ba7559d7e6e9dbc975849f65ec47f8722aae9a89a3fa230",
+        "exactConfiguration": true,
+        "collectionGrid": true,
+        "inquiryContext": true,
+        "separateCredits": true,
+        "noImageCaptionOverlay": true
+      }
+    ],
+    "publicFlowsAvailable": true,
+    "leadDataSafety": "Public GET checks only. No new lead submissions, private lead reads, runtime data or disk changes."
+  },
+  "visualQA": {
+    "desktopViewport": [
+      1440,
+      1000
+    ],
+    "mobileViewport": [
+      390,
+      844
+    ],
+    "mobileDocumentWidth": 375,
+    "mobileClientWidth": 375,
+    "references": [
+      "210.32.42.20.10.001",
+      "522.92.44.20.04.002",
+      "V 45 T BR (TT)",
+      "AB0137211C1P1"
+    ],
+    "findings": "Authentic whole watches centered on white without overlays/captions. Public Navitimer CTA reaches intake with exact brand/collection/reference. Long sourcing heading wraps on mobile; existing breadcrumb behavior preserved."
+  },
+  "productionStatus": "Deployment pending; live coverage remains126 until independently verified",
+  "leadSafety": "No new submissions, private lead reads, customer record mutations or disk changes"
+}

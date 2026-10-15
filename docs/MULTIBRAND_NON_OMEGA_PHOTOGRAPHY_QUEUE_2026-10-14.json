@@ -6,8 +6,8 @@
   "summary": {
     "references": 44,
     "brands": 11,
-    "approvedForImageRelease": 1,
-    "tasksAwaitingExactImageRightsReview": 43
+    "approvedForImageRelease": 7,
+    "tasksAwaitingExactImageRightsReview": 37
   },
   "queue": [
     {
@@ -98,13 +98,13 @@
       },
       "identitySource": "https://www.breitling.com/si-en/watches/navitimer/navitimer-b01-chronograph-46-my22/AB0137211C1P1/",
       "priorityScore": 72,
-      "status": "RIGHTS_AND_EXACT_CONFIGURATION_REVIEW_REQUIRED",
-      "rawSourceFileId": null,
-      "webDerivativePath": null,
-      "webDerivativeSHA256": null,
-      "reviewer": null,
-      "commercialUseRightsRecord": null,
-      "notes": "Do not publish until approvedPhotograph verifies commercial rights and exact reference, and WEB image checksum matches stored file."
+      "status": "APPROVED_WITH_VALID_DERIVATIVE",
+      "rawSourceFileId": "1kVS5IrG7cxwvpDzpXmJomIJPSVoByPuc",
+      "webDerivativePath": "/images/watches/breitling/reviewed-ab0137211c1p1-white-web.webp",
+      "webDerivativeSHA256": "4477a6eb3ae5fe333f974d1de24d425c04cdd7a9a9bf20caa15fdad735e307d3",
+      "reviewer": "Quest Luxo execution review with founder website-use clearance",
+      "commercialUseRightsRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for these exact 35 originals and their white-background derivatives, with no additional restrictions, in the existing Website/Product chat on October 14, 2026. Record docs/PHOTOGRAPHY_ADDITIONAL35_FOUNDER_RIGHTS_2026-10-14.json. Exact configuration, authentic RAW and full-resolution derivative visually reviewed; source credits retained separately. Preserved RAW file: 1kVS5IrG7cxwvpDzpXmJomIJPSVoByPuc. Pictured full reference AB0137211C1P1; Stainless Steel, Blue, Brown alligator leather strap. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "notes": "Exact approvedPhotograph gate and local derivative SHA-256 validated; preserve approved source and separate source attribution."
     },
     {
       "brand": "Zenith",
@@ -127,8 +127,8 @@
       "webDerivativePath": "/images/watches/zenith/reviewed-03-3100-3600-69-m3100-white-web.webp",
       "webDerivativeSHA256": "72a112602fd000a20b3a57af5d559a651cb2ef97d7bd0533b17501931e4e211f",
       "reviewer": "Quest Luxo execution review with founder website-use clearance",
-      "commercialUseRightsRecord": "Founder directly confirmed website-use rights and authorized publication on October 14, 2026 in Quest Luxo Command Center V4; record docs/PHOTOGRAPHY_FOUNDER_CLEARANCE_2026-10-14.json.",
-      "notes": "Manufacturer dotted reference 03.3100.3600/69.M3100 and legacy website hyphen reference 03-3100-3600-69-M3100 are the same exact watch; central approvedPhoto asset permits reuse with preserved provenance.",
+      "commercialUseRightsRecord": "Founder directly confirmed website-use rights and authorized publication on October 14, 2026 in Quest Luxo Command Center V4; record docs/PHOTOGRAPHY_FOUNDER_CLEARANCE_2026-10-14.json. Preserved RAW file: 1hUL4IHegFj1Z1pGnVZGBAsT3B-c1JRtN. Pictured full reference 03.3100.3600/69.M3100; Stainless Steel, White with grey, anthracite and blue counters, Stainless-steel bracelet. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "notes": "Exact approvedPhotograph gate and local derivative SHA-256 validated; preserve approved source and separate source attribution.",
       "licenseScope": "Previously founder-cleared manufacturer original and WEB derivative; alias represents same exact Zenith SKU.",
       "exactIdentitySource": "https://www.zenith-watches.com/es_es/product/chronomaster-sport-03-3100-3600-69-m3100",
       "qualityEvidence": "Existing white-canvas derivative reviewed and exact-reference photo passed SHA-256 tests. No new image bytes or generative edits."
@@ -173,13 +173,13 @@
       },
       "identitySource": "https://www.breitling.com/bb-en/watches/navitimer/navitimer-b01-chronograph-46-my22/AB0137211B1P1/",
       "priorityScore": 68,
-      "status": "RIGHTS_AND_EXACT_CONFIGURATION_REVIEW_REQUIRED",
-      "rawSourceFileId": null,
-      "webDerivativePath": null,
-      "webDerivativeSHA256": null,
-      "reviewer": null,
-      "commercialUseRightsRecord": null,
-      "notes": "Do not publish until approvedPhotograph verifies commercial rights and exact reference, and WEB image checksum matches stored file."
+      "status": "APPROVED_WITH_VALID_DERIVATIVE",
+      "rawSourceFileId": "1mnjj-1qdHGjeGnzZRN3odth65yx6Jk1-",
+      "webDerivativePath": "/images/watches/breitling/reviewed-ab0137211b1p1-white-web.webp",
+      "webDerivativeSHA256": "130464e6d28992b9468552ca0bfd3441eda30619802e027e2852f14856fd80a4",
+      "reviewer": "Quest Luxo execution review with founder website-use clearance",
+      "commercialUseRightsRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for these exact 35 originals and their white-background derivatives, with no additional restrictions, in the existing Website/Product chat on October 14, 2026. Record docs/PHOTOGRAPHY_ADDITIONAL35_FOUNDER_RIGHTS_2026-10-14.json. Exact configuration, authentic RAW and full-resolution derivative visually reviewed; source credits retained separately. Preserved RAW file: 1mnjj-1qdHGjeGnzZRN3odth65yx6Jk1-. Pictured full reference AB0137211B1P1; Stainless Steel, Black, Black alligator leather strap. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "notes": "Exact approvedPhotograph gate and local derivative SHA-256 validated; preserve approved source and separate source attribution."
     },
     {
       "brand": "IWC",
@@ -437,13 +437,13 @@
       },
       "identitySource": "https://www.breitling.com/xk-en/watches/superocean-heritage/superocean-heritage-b20-automatic-42/AB2010121B1S1/",
       "priorityScore": 63,
-      "status": "RIGHTS_AND_EXACT_CONFIGURATION_REVIEW_REQUIRED",
-      "rawSourceFileId": null,
-      "webDerivativePath": null,
-      "webDerivativeSHA256": null,
-      "reviewer": null,
-      "commercialUseRightsRecord": null,
-      "notes": "Do not publish until approvedPhotograph verifies commercial rights and exact reference, and WEB image checksum matches stored file."
+      "status": "APPROVED_WITH_VALID_DERIVATIVE",
+      "rawSourceFileId": "1So5xPnuthHbjv9ZtxRcJERTBxYIuvuqh",
+      "webDerivativePath": "/images/watches/breitling/reviewed-ab2010121b1s1-white-web.webp",
+      "webDerivativeSHA256": "a5021e1ef969bab073ee35593ba519a8de8d63cad2ea181b36100046b5f27c32",
+      "reviewer": "Quest Luxo execution review with founder website-use clearance",
+      "commercialUseRightsRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for these exact 35 originals and their white-background derivatives, with no additional restrictions, in the existing Website/Product chat on October 14, 2026. Record docs/PHOTOGRAPHY_ADDITIONAL35_FOUNDER_RIGHTS_2026-10-14.json. Exact configuration, authentic RAW and full-resolution derivative visually reviewed; source credits retained separately. Preserved RAW file: 1So5xPnuthHbjv9ZtxRcJERTBxYIuvuqh. Pictured full reference AB2010121B1S1; Stainless Steel, Black, Black rubber strap. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "notes": "Exact approvedPhotograph gate and local derivative SHA-256 validated; preserve approved source and separate source attribution."
     },
     {
       "brand": "Franck Muller",
@@ -485,13 +485,13 @@
       },
       "identitySource": "https://www.franckmuller.com/vanguard",
       "priorityScore": 63,
-      "status": "RIGHTS_AND_EXACT_CONFIGURATION_REVIEW_REQUIRED",
-      "rawSourceFileId": null,
-      "webDerivativePath": null,
-      "webDerivativeSHA256": null,
-      "reviewer": null,
-      "commercialUseRightsRecord": null,
-      "notes": "Do not publish until approvedPhotograph verifies commercial rights and exact reference, and WEB image checksum matches stored file."
+      "status": "APPROVED_WITH_VALID_DERIVATIVE",
+      "rawSourceFileId": "1Tt7OFNa4PS-qKHd1aQXa5-_Vw0TKlL_y",
+      "webDerivativePath": "/images/watches/franck-muller/reviewed-v-45-t-br-tt-white-web.webp",
+      "webDerivativeSHA256": "52999c2bd3afb88d3cd4b97adf7eee080f88c38fafe2f578655fbf4f841c6681",
+      "reviewer": "Quest Luxo execution review with founder website-use clearance",
+      "commercialUseRightsRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for these exact 35 originals and their white-background derivatives, with no additional restrictions, in the existing Website/Product chat on October 14, 2026. Record docs/PHOTOGRAPHY_ADDITIONAL35_FOUNDER_RIGHTS_2026-10-14.json. Exact configuration, authentic RAW and full-resolution derivative visually reviewed; source credits retained separately. Preserved RAW file: 1Tt7OFNa4PS-qKHd1aQXa5-_Vw0TKlL_y. Pictured full reference V 45 T BR (TT); Titanium, Black with open tourbillon and red accents, Black textured strap. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "notes": "Exact approvedPhotograph gate and local derivative SHA-256 validated; preserve approved source and separate source attribution."
     },
     {
       "brand": "Breitling",
@@ -557,13 +557,13 @@
       },
       "identitySource": "https://www.breitling.com/us-en/watches/avenger/avenger-b01-chronograph-44-my23/AB0147101B1X1/",
       "priorityScore": 60,
-      "status": "RIGHTS_AND_EXACT_CONFIGURATION_REVIEW_REQUIRED",
-      "rawSourceFileId": null,
-      "webDerivativePath": null,
-      "webDerivativeSHA256": null,
-      "reviewer": null,
-      "commercialUseRightsRecord": null,
-      "notes": "Do not publish until approvedPhotograph verifies commercial rights and exact reference, and WEB image checksum matches stored file."
+      "status": "APPROVED_WITH_VALID_DERIVATIVE",
+      "rawSourceFileId": "12I-kAM8BtBpjGvV6K38tpKGIs8Vuv55g",
+      "webDerivativePath": "/images/watches/breitling/reviewed-ab0147101b1x1-white-web.webp",
+      "webDerivativeSHA256": "3269175ea14ce67830ae1d7f3c8019f6f2b799a2059508d1fe602825e224c42c",
+      "reviewer": "Quest Luxo execution review with founder website-use clearance",
+      "commercialUseRightsRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for these exact 35 originals and their white-background derivatives, with no additional restrictions, in the existing Website/Product chat on October 14, 2026. Record docs/PHOTOGRAPHY_ADDITIONAL35_FOUNDER_RIGHTS_2026-10-14.json. Exact configuration, authentic RAW and full-resolution derivative visually reviewed; source credits retained separately. Preserved RAW file: 12I-kAM8BtBpjGvV6K38tpKGIs8Vuv55g. Pictured full reference AB0147101B1X1; Stainless Steel, Black, Anthracite calfskin leather strap. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "notes": "Exact approvedPhotograph gate and local derivative SHA-256 validated; preserve approved source and separate source attribution."
     },
     {
       "brand": "Franck Muller",
@@ -917,13 +917,13 @@
       },
       "identitySource": "https://bellross.com/en/products/br-01-compass",
       "priorityScore": 53,
-      "status": "RIGHTS_AND_EXACT_CONFIGURATION_REVIEW_REQUIRED",
-      "rawSourceFileId": null,
-      "webDerivativePath": null,
-      "webDerivativeSHA256": null,
-      "reviewer": null,
-      "commercialUseRightsRecord": null,
-      "notes": "Do not publish until approvedPhotograph verifies commercial rights and exact reference, and WEB image checksum matches stored file."
+      "status": "APPROVED_WITH_VALID_DERIVATIVE",
+      "rawSourceFileId": "10B-tgwcz2n1UZmfNnWqbB1iiPQDxGp4-",
+      "webDerivativePath": "/images/watches/bell-and-ross/reviewed-br0192-compass-ca-white-web.webp",
+      "webDerivativeSHA256": "4a84e8420128f41adfbb770923b493e0a9de487e9d3dda6a18797c6f2132ca85",
+      "reviewer": "Quest Luxo execution review with founder website-use clearance",
+      "commercialUseRightsRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for these exact 35 originals and their white-background derivatives, with no additional restrictions, in the existing Website/Product chat on October 14, 2026. Record docs/PHOTOGRAPHY_ADDITIONAL35_FOUNDER_RIGHTS_2026-10-14.json. Exact configuration, authentic RAW and full-resolution derivative visually reviewed; source credits retained separately. Preserved RAW file: 10B-tgwcz2n1UZmfNnWqbB1iiPQDxGp4-. Pictured full reference BR0192-COMPASS-CA; Black PVD steel, Instrument-style Compass, Black strap. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "notes": "Exact approvedPhotograph gate and local derivative SHA-256 validated; preserve approved source and separate source attribution."
     },
     {
       "brand": "Hublot",
@@ -1069,5 +1069,6 @@
       "commercialUseRightsRecord": null,
       "notes": "Do not publish until approvedPhotograph verifies commercial rights and exact reference, and WEB image checksum matches stored file."
     }
-  ]
+  ],
+  "updatedAt": "2026-10-15T01:56:12.611Z"
 }

@@ -2,7 +2,7 @@
   "title": "Four additional manufacturer photography sets reviewed October 14 2026",
   "physicalSets": 4,
   "websitePublished": false,
-  "rightsHeldSets": 4,
+  "rightsHeldSets": 0,
   "references": [
     {
       "brand": "Breitling",
@@ -13,7 +13,7 @@
       "sourcePageSha256": "c1fd23ad66de08b8783f955b41e6e36c1365c87f7c58eafccc3d924308720acd",
       "imageUrl": "https://www-breitling.eu.saleor.cloud/media/thumbnails/products/ab2010121b1s1-soldier_80258ba5_thumbnail_1024.webp",
       "sourceProvider": "Breitling manufacturer/collaboration",
-      "rightsStatus": "HOLD specific new manufacturer-original commercial website-use rights not yet established",
+      "rightsStatus": "Founder explicitly confirmed exact original and white-derivative commercial use; no additional restrictions",
       "checkedAt": "2026-10-14T22:28:13.492178+00:00",
       "reviewStatus": "Complete authentic RAW and full-resolution 1200-square final WEB visually reviewed; whole watch centered, blank white canvas, no overlay or source caption",
       "size": [
@@ -59,7 +59,10 @@
           "sha256": "a5021e1ef969bab073ee35593ba519a8de8d63cad2ea181b36100046b5f27c32",
           "folderId": "1lijATpBrmBmGnjmhTJmr0gpTa5YaOd8Z"
         }
-      }
+      },
+      "commercialUseRightsConfirmed": true,
+      "rightsRecord": "PHOTOGRAPHY_ADDITIONAL35_FOUNDER_RIGHTS_2026-10-14.json",
+      "publicationStatus": "Integrated; release checks and deployment pending"
     },
     {
       "brand": "Breitling",
@@ -70,7 +73,7 @@
       "sourcePageSha256": "34b95aa3f9ccefc4826d5e0c8d309c3b7795703b4d2ca32ec45e3dbd6855951e",
       "imageUrl": "https://www-breitling.eu.saleor.cloud/media/thumbnails/products/ab0147101b1x1-soldier_d5d8acd4_thumbnail_1024.webp",
       "sourceProvider": "Breitling manufacturer/collaboration",
-      "rightsStatus": "HOLD specific new manufacturer-original commercial website-use rights not yet established",
+      "rightsStatus": "Founder explicitly confirmed exact original and white-derivative commercial use; no additional restrictions",
       "checkedAt": "2026-10-14T22:28:13.794949+00:00",
       "reviewStatus": "Complete authentic RAW and full-resolution 1200-square final WEB visually reviewed; whole watch centered, blank white canvas, no overlay or source caption",
       "size": [
@@ -116,7 +119,10 @@
           "sha256": "3269175ea14ce67830ae1d7f3c8019f6f2b799a2059508d1fe602825e224c42c",
           "folderId": "1lijATpBrmBmGnjmhTJmr0gpTa5YaOd8Z"
         }
-      }
+      },
+      "commercialUseRightsConfirmed": true,
+      "rightsRecord": "PHOTOGRAPHY_ADDITIONAL35_FOUNDER_RIGHTS_2026-10-14.json",
+      "publicationStatus": "Integrated; release checks and deployment pending"
     },
     {
       "brand": "Bell & Ross",
@@ -127,7 +133,7 @@
       "sourcePageSha256": "94dd58c9b0ddfcb1138c56526f4d9bf665af330337553847740fafb54b5bdf51",
       "imageUrl": "http://bellross.com/cdn/shop/files/BR01-92-Compass.png?crop=center&height=1200&v=1761059368&width=1200",
       "sourceProvider": "Bell & Ross manufacturer/collaboration",
-      "rightsStatus": "HOLD specific new manufacturer-original commercial website-use rights not yet established",
+      "rightsStatus": "Founder explicitly confirmed exact original and white-derivative commercial use; no additional restrictions",
       "checkedAt": "2026-10-14T22:28:14.407988+00:00",
       "reviewStatus": "Complete authentic RAW and full-resolution 1200-square final WEB visually reviewed; whole watch centered, blank white canvas, no overlay or source caption",
       "size": [
@@ -173,7 +179,10 @@
           "sha256": "4a84e8420128f41adfbb770923b493e0a9de487e9d3dda6a18797c6f2132ca85",
           "folderId": "1lijATpBrmBmGnjmhTJmr0gpTa5YaOd8Z"
         }
-      }
+      },
+      "commercialUseRightsConfirmed": true,
+      "rightsRecord": "PHOTOGRAPHY_ADDITIONAL35_FOUNDER_RIGHTS_2026-10-14.json",
+      "publicationStatus": "Integrated; release checks and deployment pending"
     },
     {
       "brand": "Franck Muller",
@@ -184,7 +193,7 @@
       "sourcePageSha256": "3554535921a9e86f7f40f0dd61b0226eed4d0e839afeaa73438720f88c41f06e",
       "imageUrl": "https://images.squarespace-cdn.com/content/v1/56a9e12ac647ad08eb4453c7/1485883220364-S7XO8MUDRKZJEZ1FIUHV/V-45-T-BR-noir-OG.png",
       "sourceProvider": "Franck Muller manufacturer",
-      "rightsStatus": "HOLD specific new manufacturer-original commercial website-use rights not yet established",
+      "rightsStatus": "Founder explicitly confirmed exact original and white-derivative commercial use; no additional restrictions",
       "checkedAt": "2026-10-14T22:28:14.643696+00:00",
       "reviewStatus": "Complete authentic RAW and full-resolution 1200-square final WEB visually reviewed; whole watch centered, blank white canvas, no overlay or source caption",
       "size": [
@@ -230,11 +239,17 @@
           "sha256": "52999c2bd3afb88d3cd4b97adf7eee080f88c38fafe2f578655fbf4f841c6681",
           "folderId": "1lijATpBrmBmGnjmhTJmr0gpTa5YaOd8Z"
         }
-      }
+      },
+      "commercialUseRightsConfirmed": true,
+      "rightsRecord": "PHOTOGRAPHY_ADDITIONAL35_FOUNDER_RIGHTS_2026-10-14.json",
+      "publicationStatus": "Integrated; release checks and deployment pending"
     }
   ],
   "archivedAt": "2026-10-14T22:33:38.645903+00:00",
   "driveFilesArchived": 12,
   "archiveReadbackStatus": "All 12 file metadata readbacks passed; all local RAW/master/WEB hashes verified",
-  "sourceLogDriveId": "1Gwu0S_pqL4pNcl0jRCgw2WgUrvlo90d_"
+  "sourceLogDriveId": "1Gwu0S_pqL4pNcl0jRCgw2WgUrvlo90d_",
+  "approvedForPublication": 4,
+  "founderRightsRecord": "PHOTOGRAPHY_ADDITIONAL35_FOUNDER_RIGHTS_2026-10-14.json",
+  "publicationStatus": "Integrated; checks and deployment pending"
 }
