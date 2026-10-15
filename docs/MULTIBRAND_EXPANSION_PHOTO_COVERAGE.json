@@ -1,17 +1,17 @@
 {
-  "reviewedAt": "2026-10-15T10:36:29.168Z",
+  "reviewedAt": "2026-10-15T21:24:05.196Z",
   "scope": "All verified-catalog-expansion.ts references only; excludes legacy inventory",
   "policy": "Source URL is NOT image-rights evidence. Exact watch, strap, dial, material, white-canvas original, licensing, website approval and actual derivative SHA256 are required.",
   "summary": {
     "expansionReferences": 99,
     "brands": 12,
     "collections": 42,
-    "approvedValidReferences": 60,
+    "approvedValidReferences": 62,
     "missingApprovedDerivative": 0,
     "checksumFailures": 0,
-    "acquisitionRequired": 39,
-    "notReleaseReady": 39,
-    "imageCoveragePercent": 60.6
+    "acquisitionRequired": 37,
+    "notReleaseReady": 37,
+    "imageCoveragePercent": 62.6
   },
   "byBrand": [
     {
@@ -53,14 +53,14 @@
     {
       "brand": "Omega",
       "references": 55,
-      "approved": 41,
-      "outstanding": 14
+      "approved": 42,
+      "outstanding": 13
     },
     {
       "brand": "Panerai",
       "references": 3,
-      "approved": 0,
-      "outstanding": 3
+      "approved": 1,
+      "outstanding": 2
     },
     {
       "brand": "Richard Mille",
@@ -1655,13 +1655,13 @@
       },
       "specificationSource": "https://www.omegawatches.com.hk/en-hk/watch-omega-de-ville-prestige-co-axial-master-chronometer-small-seconds-41-mm-43413412010001",
       "score": 64,
-      "status": "ACQUISITION_REQUIRED",
-      "photoAssetId": null,
-      "derivativePath": null,
-      "recordedSha256": null,
-      "actualSha256": null,
-      "rightsRecord": null,
-      "nextAction": "Source authentic exact-reference original; obtain commercial-use license and provenance, prepare approved full-watch white-canvas derivative and register the matching SHA-256."
+      "status": "APPROVED_WITH_VALID_DERIVATIVE",
+      "photoAssetId": "cleared-nine-1X9pBGw-7_dGBLolfdxm_I0yk3rtH122b",
+      "derivativePath": "/images/watches/omega/reviewed-434-13-41-20-10-001-white-web.webp",
+      "recordedSha256": "c3bf57b2705e32f403e197c58eac18f7c030b681c81d3c6953f7d4f501dd4e62",
+      "actualSha256": "c3bf57b2705e32f403e197c58eac18f7c030b681c81d3c6953f7d4f501dd4e62",
+      "rightsRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for these exact nine originals and white-background derivatives with no additional restrictions on October15,2026 Eastern. Record docs/PHOTOGRAPHY_NINE_FOUNDER_RIGHTS_2026-10-15.json. Authentic complete RAW and final white WEB individually visually reviewed; source credits retained separately. Preserved RAW file: 1X9pBGw-7_dGBLolfdxm_I0yk3rtH122b. Pictured full reference 434.13.41.20.10.001; Stainless Steel, Pine green non-wave, Green leather strap. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "nextAction": "Retain approved source, white-canvas derivative, attribution and reference mapping."
     },
     {
       "brand": "Breitling",
@@ -1716,11 +1716,11 @@
     {
       "brand": "Franck Muller",
       "brandSlug": "franck-muller",
-      "collection": "Vanguard Tourbillon",
-      "collectionSlug": "vanguard-tourbillon",
+      "collection": "Vanguard",
+      "collectionSlug": "vanguard",
       "reference": "V 45 T BR (TT)",
       "model": "Vanguard Tourbillon",
-      "canonicalRoute": "/collections/franck-muller/vanguard-tourbillon/v-45-t-br-tt",
+      "canonicalRoute": "/collections/franck-muller/vanguard/v-45-t-br-tt",
       "configuration": {
         "caseSize": "Model-dependent",
         "movement": "Mechanical tourbillon",
@@ -2255,13 +2255,13 @@
       },
       "specificationSource": "https://www.panerai.com/us/en/collections/watch-collection/luminor/pam01641-luminor-gmt.html",
       "score": 58,
-      "status": "ACQUISITION_REQUIRED",
-      "photoAssetId": null,
-      "derivativePath": null,
-      "recordedSha256": null,
-      "actualSha256": null,
-      "rightsRecord": null,
-      "nextAction": "Source authentic exact-reference original; obtain commercial-use license and provenance, prepare approved full-watch white-canvas derivative and register the matching SHA-256."
+      "status": "APPROVED_WITH_VALID_DERIVATIVE",
+      "photoAssetId": "cleared-nine-1FrunD7dL0hw-nKjzAoSiqYemm6OK1AmQ",
+      "derivativePath": "/images/watches/panerai/reviewed-pam01641-white-web.webp",
+      "recordedSha256": "9767844fdbf7dc81b18589bfa57f9fe14cde10b0d8060b500b7ba72cf7b26970",
+      "actualSha256": "9767844fdbf7dc81b18589bfa57f9fe14cde10b0d8060b500b7ba72cf7b26970",
+      "rightsRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for these exact nine originals and white-background derivatives with no additional restrictions on October15,2026 Eastern. Record docs/PHOTOGRAPHY_NINE_FOUNDER_RIGHTS_2026-10-15.json. Authentic complete RAW and final white WEB individually visually reviewed; source credits retained separately. Preserved RAW file: 1FrunD7dL0hw-nKjzAoSiqYemm6OK1AmQ. Pictured full reference PAM01641; Goldtech, Black, Black alligator leather strap. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "nextAction": "Retain approved source, white-canvas derivative, attribution and reference mapping."
     },
     {
       "brand": "Cartier",

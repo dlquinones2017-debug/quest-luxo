@@ -1,10 +1,10 @@
 {
-  "verifiedAt": "2026-10-15T10:18:38.969713+00:00",
+  "verifiedAt": "2026-10-15T10:43:27.872211+00:00",
   "expectedDistinctReferenceRoutes": 268,
   "verifiedReferenceRoutes": 268,
-  "approvedDistinctReferenceRoutes": 183,
-  "verifiedDistinctPhotoFiles": 182,
-  "queuedDistinctReferenceRoutes": 85,
+  "approvedDistinctReferenceRoutes": 189,
+  "verifiedDistinctPhotoFiles": 188,
+  "queuedDistinctReferenceRoutes": 79,
   "errors": [],
   "pages": [
     {
@@ -1013,12 +1013,12 @@
       "status": "verified"
     },
     {
-      "route": "/collections/hublot/classic-fusion/542-cm-1171-rx",
-      "approved": false,
+      "route": "/collections/hublot/classic-fusion/542-cx-1270-rx-mdm",
+      "approved": true,
       "status": "verified"
     },
     {
-      "route": "/collections/hublot/classic-fusion/542-cx-1270-rx-mdm",
+      "route": "/collections/hublot/classic-fusion/542-cm-1171-rx",
       "approved": false,
       "status": "verified"
     },
@@ -1094,17 +1094,17 @@
     },
     {
       "route": "/collections/zenith/defy-skyline/03-9300-3620-51-i001",
-      "approved": false,
+      "approved": true,
       "status": "verified"
     },
     {
       "route": "/collections/zenith/defy-skyline/03-9300-3620-79-i001",
-      "approved": false,
+      "approved": true,
       "status": "verified"
     },
     {
       "route": "/collections/zenith/defy-skyline/03-9300-3620-15-i001",
-      "approved": false,
+      "approved": true,
       "status": "verified"
     },
     {
@@ -1164,7 +1164,7 @@
     },
     {
       "route": "/collections/tag-heuer/monaco/cbl2111-fc6453",
-      "approved": false,
+      "approved": true,
       "status": "verified"
     },
     {
@@ -1199,7 +1199,7 @@
     },
     {
       "route": "/collections/franck-muller/vanguard-beach/v-41-sc-dt-beach-bu-bl-gf1",
-      "approved": false,
+      "approved": true,
       "status": "verified"
     },
     {
@@ -2115,6 +2115,11 @@
       "status": "verified"
     },
     {
+      "path": "/images/watches/hublot/reviewed-542-cx-1270-rx-mdm-white-web.webp",
+      "sha256": "f4423c8edfbea73f26a93273265bc3cefea30516a4f2e15b94b0550c8b3c5339",
+      "status": "verified"
+    },
+    {
       "path": "/images/watches/hublot/reviewed-525-nx-0170-rx-white-web.webp",
       "sha256": "199086d218f47fa94763df84cf733e76c30b44a85d51074bf8f4fb721e2546f0",
       "status": "verified"
@@ -2165,6 +2170,21 @@
       "status": "verified"
     },
     {
+      "path": "/images/watches/zenith/reviewed-03-9300-3620-51-i001-white-web.webp",
+      "sha256": "5e315a55553dd179292623d38d9b240973237a1ac0f79f620b8b87581cb403a9",
+      "status": "verified"
+    },
+    {
+      "path": "/images/watches/zenith/reviewed-03-9300-3620-79-i001-white-web.webp",
+      "sha256": "73d14a146b63b59e45ad6ed60921c29ad724c3258c89200cfb784aba7c45cf26",
+      "status": "verified"
+    },
+    {
+      "path": "/images/watches/zenith/reviewed-03-9300-3620-15-i001-white-web.webp",
+      "sha256": "f3eeb66ea7d940d4d8003e47eb35f50e140b5f6b5bf5f546f09e988faf2427f3",
+      "status": "verified"
+    },
+    {
       "path": "/images/watches/iwc/reviewed-iw328901-white-web.webp",
       "sha256": "5771db0e39ef80e6f253e39534101c2a3f5817496caca90a90eae71b0770e6db",
       "status": "verified"
@@ -2205,6 +2225,11 @@
       "status": "verified"
     },
     {
+      "path": "/images/watches/tag-heuer/reviewed-cbl2111-fc6453-white-web.webp",
+      "sha256": "b0d59782fd485ef02682df1c0a01d7b96412556055180ec73d91e9fcdeee05d1",
+      "status": "verified"
+    },
+    {
       "path": "/images/watches/omega/reviewed-310-92-44-50-01-001-white-web.webp",
       "sha256": "0498776b35392fb10755d8ba15bb3cd023e0d93b4ec10dcc5a886d361d01c518",
       "status": "verified"
@@ -2212,6 +2237,11 @@
     {
       "path": "/images/watches/franck-muller/reviewed-v-45-t-br-tt-white-web.webp",
       "sha256": "52999c2bd3afb88d3cd4b97adf7eee080f88c38fafe2f578655fbf4f841c6681",
+      "status": "verified"
+    },
+    {
+      "path": "/images/watches/franck-muller/reviewed-v-41-sc-dt-beach-bu-bl-gf1-white-web.webp",
+      "sha256": "5cd85da7aa3ac855eabebe62c480be7cb736e969b2019fd561c9937e90d8d6c6",
       "status": "verified"
     },
     {
@@ -2283,6 +2313,6 @@
     }
   ],
   "leadSafety": "Read-only public-route checks; no customer records read or submissions created.",
-  "productionCommit": "dfa080e7606b9fe80dfc56a1570b34ebee5f0b7c",
-  "productionDeployId": "dep-db8441vlk1mc739bu60g"
+  "productionCommit": "ca53f04825cdaa9affbfa85d4b4a326c59332695",
+  "productionDeployId": "dep-db8arr60tbcc73ec83p0"
 }

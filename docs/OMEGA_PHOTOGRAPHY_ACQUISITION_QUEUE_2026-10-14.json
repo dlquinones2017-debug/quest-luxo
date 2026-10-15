@@ -8,9 +8,9 @@
   "licensePolicy": "Reference source URL documents identity only; it does NOT license website reuse. No AI watches, unverified source shots or nonwhite wrist photographs.",
   "summary": {
     "references": 55,
-    "existingExactReferenceImageRecordMatches": 41,
-    "requiresAcquisition": 14,
-    "clearedForPublication": 41
+    "existingExactReferenceImageRecordMatches": 42,
+    "requiresAcquisition": 13,
+    "clearedForPublication": 42
   },
   "queue": [
     {
@@ -1903,18 +1903,19 @@
       "specificationSource": "https://www.omegawatches.com.hk/en-hk/watch-omega-de-ville-prestige-co-axial-master-chronometer-small-seconds-41-mm-43413412010001",
       "sourceHost": "www.omegawatches.com.hk",
       "priorityScore": 43,
-      "imageSourceFoundInCurrentClearanceCode": false,
+      "imageSourceFoundInCurrentClearanceCode": true,
       "evidence": {
         "rawImageId": null,
         "rawChecksum": null,
-        "webDerivativePath": null,
-        "webDerivativeChecksum": null,
-        "exactReferenceImageReviewed": false,
-        "centeredWhiteBackgroundVerified": false,
-        "websiteUseRightsVerified": false,
-        "rightsRecord": null,
-        "approvalReviewer": null,
-        "status": "ACQUISITION_REQUIRED"
+        "webDerivativePath": "/images/watches/omega/reviewed-434-13-41-20-10-001-white-web.webp",
+        "webDerivativeChecksum": "c3bf57b2705e32f403e197c58eac18f7c030b681c81d3c6953f7d4f501dd4e62",
+        "exactReferenceImageReviewed": true,
+        "centeredWhiteBackgroundVerified": true,
+        "websiteUseRightsVerified": true,
+        "rightsRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for these exact nine originals and white-background derivatives with no additional restrictions on October15,2026 Eastern. Record docs/PHOTOGRAPHY_NINE_FOUNDER_RIGHTS_2026-10-15.json. Authentic complete RAW and final white WEB individually visually reviewed; source credits retained separately. Preserved RAW file: 1X9pBGw-7_dGBLolfdxm_I0yk3rtH122b. Pictured full reference 434.13.41.20.10.001; Stainless Steel, Pine green non-wave, Green leather strap. Exact configuration reviewed against preserved source evidence and the original photograph.",
+        "approvalReviewer": "Quest Luxo execution review with founder website-use clearance",
+        "status": "APPROVED_WITH_VALID_DERIVATIVE",
+        "approvedAssetId": "cleared-nine-1X9pBGw-7_dGBLolfdxm_I0yk3rtH122b"
       },
       "requirements": [
         "Obtain authentic non-AI original for exact pictured reference and configuration",

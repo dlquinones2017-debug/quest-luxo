@@ -6,8 +6,8 @@
   "summary": {
     "references": 44,
     "brands": 11,
-    "approvedForImageRelease": 19,
-    "tasksAwaitingExactImageRightsReview": 25
+    "approvedForImageRelease": 20,
+    "tasksAwaitingExactImageRightsReview": 24
   },
   "queue": [
     {
@@ -773,13 +773,13 @@
       },
       "identitySource": "https://www.panerai.com/us/en/collections/watch-collection/luminor/pam01641-luminor-gmt.html",
       "priorityScore": 58,
-      "status": "RIGHTS_AND_EXACT_CONFIGURATION_REVIEW_REQUIRED",
-      "rawSourceFileId": null,
-      "webDerivativePath": null,
-      "webDerivativeSHA256": null,
-      "reviewer": null,
-      "commercialUseRightsRecord": null,
-      "notes": "Do not publish until approvedPhotograph verifies commercial rights and exact reference, and WEB image checksum matches stored file."
+      "status": "APPROVED_WITH_VALID_DERIVATIVE",
+      "rawSourceFileId": "1FrunD7dL0hw-nKjzAoSiqYemm6OK1AmQ",
+      "webDerivativePath": "/images/watches/panerai/reviewed-pam01641-white-web.webp",
+      "webDerivativeSHA256": "9767844fdbf7dc81b18589bfa57f9fe14cde10b0d8060b500b7ba72cf7b26970",
+      "reviewer": "Quest Luxo execution review with founder website-use clearance",
+      "commercialUseRightsRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for these exact nine originals and white-background derivatives with no additional restrictions on October15,2026 Eastern. Record docs/PHOTOGRAPHY_NINE_FOUNDER_RIGHTS_2026-10-15.json. Authentic complete RAW and final white WEB individually visually reviewed; source credits retained separately. Preserved RAW file: 1FrunD7dL0hw-nKjzAoSiqYemm6OK1AmQ. Pictured full reference PAM01641; Goldtech, Black, Black alligator leather strap. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "notes": "Exact approvedPhotograph gate and local derivative SHA-256 validated; preserve approved source and separate source attribution."
     },
     {
       "brand": "Cartier",
@@ -1070,5 +1070,5 @@
       "notes": "Do not publish until approvedPhotograph verifies commercial rights and exact reference, and WEB image checksum matches stored file."
     }
   ],
-  "updatedAt": "2026-10-15T10:36:23.184Z"
+  "updatedAt": "2026-10-15T21:23:26.980Z"
 }

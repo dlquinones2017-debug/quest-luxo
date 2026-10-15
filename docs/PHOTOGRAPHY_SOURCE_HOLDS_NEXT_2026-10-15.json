@@ -1,0 +1,125 @@
+{
+  "reviewedAt": "2026-10-15T11:22:20.143456+00:00",
+  "websitePublished": false,
+  "holds": [
+    {
+      "brand": "Panerai",
+      "reference": "PAM01305",
+      "exactSKU": "PAM01305-GRAY",
+      "sourceUrl": "https://www.grayandsons.com/w529097-panerai-submersible-47mm-pam01305/",
+      "sourceProvider": "Gray and Sons",
+      "sourcePagePath": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\retailer-source-panerai-PAM01305-0a02d650.html",
+      "sourcePageSha256": "86f7448d21d4620651955903cc803944bde12e448ec33c8c6eeafddefc92acc3",
+      "imageUrl": "https://cdn.grayandsons.com/s/panerai_submersible_47mm_pam01305_w529097_cb907a0ccf-w1920.jpg.auto",
+      "checkedAt": "2026-10-15T11:11:28.199252+00:00",
+      "rightsStatus": "Pending founder clearance for new official originals; not published",
+      "reviewStatus": "Original and derivative review required",
+      "size": [
+        1492,
+        1920
+      ],
+      "mode": "RGB",
+      "path": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\panerai-four-originals\\PAM01305-GRAY-raw.jpg",
+      "sha256": "b3f1d1fd4cb379b08b78208a8949e12e9d0fa65d60264295bacfc2a737abd98a",
+      "status": "Authentic retailer-hosted original acquired; unchanged delivered bytes",
+      "websiteApproved": false,
+      "qualityHold": "Close-up cuts the strap and fills source edges",
+      "reviewedAt": "2026-10-15T11:22:20.143456+00:00"
+    },
+    {
+      "brand": "Panerai",
+      "reference": "PAM00683",
+      "exactSKU": "PAM00683-TANAKA",
+      "sourceUrl": "https://www.kk-tanaka.com/blog/panerai_sihh2019_sub/",
+      "sourceProvider": "TANAKA",
+      "sourcePagePath": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\retailer-source-panerai-PAM00683-3c378a9e.html",
+      "sourcePageSha256": "04f475560c3bdc899474fc989fe518f438e92838d5926f354df38531475fdf39",
+      "imageUrl": "https://www.kk-tanaka.com/wp-content/uploads/2019/01/PAM00683.png",
+      "checkedAt": "2026-10-15T11:11:28.200249+00:00",
+      "rightsStatus": "Pending founder clearance for new official originals; not published",
+      "reviewStatus": "Original and derivative review required",
+      "size": [
+        900,
+        500
+      ],
+      "mode": "RGBA",
+      "path": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\panerai-four-originals\\PAM00683-TANAKA-raw.png",
+      "sha256": "3b495f8c9e17a9f5b4c0f6e5ba753d2d24f120fdd6eeac9ce0e94019a38d3e96",
+      "status": "Authentic retailer-hosted original acquired; unchanged delivered bytes",
+      "websiteApproved": false,
+      "qualityHold": "Front/back composite leaves only about300x500 watch pixels; seek higher-resolution whole-watch source",
+      "reviewedAt": "2026-10-15T11:22:20.143456+00:00"
+    },
+    {
+      "brand": "Panerai",
+      "reference": "PAM01616",
+      "exactSKU": "PAM01616-TANAKA",
+      "sourceUrl": "https://www.kk-tanaka.com/blog/panerai_sihh2019_sub/",
+      "sourceProvider": "TANAKA",
+      "sourcePagePath": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\retailer-source-panerai-PAM00683-3c378a9e.html",
+      "sourcePageSha256": "04f475560c3bdc899474fc989fe518f438e92838d5926f354df38531475fdf39",
+      "imageUrl": "https://www.kk-tanaka.com/wp-content/uploads/2019/01/PAM01616.png",
+      "checkedAt": "2026-10-15T11:11:28.200249+00:00",
+      "rightsStatus": "Pending founder clearance for new official originals; not published",
+      "reviewStatus": "Original and derivative review required",
+      "size": [
+        900,
+        500
+      ],
+      "mode": "RGBA",
+      "path": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\panerai-four-originals\\PAM01616-TANAKA-raw.png",
+      "sha256": "0b2a5b1bf8121cde5ea2a56f7ae01775e68935946a1541962803ee2d82b610ae",
+      "status": "Authentic retailer-hosted original acquired; unchanged delivered bytes",
+      "websiteApproved": false,
+      "qualityHold": "Front/back composite leaves only about300x500 watch pixels; seek higher-resolution whole-watch source",
+      "reviewedAt": "2026-10-15T11:22:20.143456+00:00"
+    },
+    {
+      "brand": "Panerai",
+      "reference": "PAM01305",
+      "exactSKU": "PAM01305-TANAKA",
+      "sourceUrl": "https://www.kk-tanaka.com/blog/panerai-20180512/",
+      "sourceProvider": "TANAKA",
+      "sourcePagePath": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\retailer-source-panerai-PAM01305-63179c8f.html",
+      "sourcePageSha256": "d57910085587261dc3c9626ae1afb28e33a7dc23f0250abe73e9944d92e34d8c",
+      "imageUrl": "https://www.kk-tanaka.com/wp-content/uploads/2018/05/PAM01305.png",
+      "checkedAt": "2026-10-15T11:11:28.201526+00:00",
+      "rightsStatus": "Pending founder clearance for new official originals; not published",
+      "reviewStatus": "Original and derivative review required",
+      "size": [
+        672,
+        500
+      ],
+      "mode": "RGB",
+      "path": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\panerai-four-originals\\PAM01305-TANAKA-raw.png",
+      "sha256": "b16a6b95a80474e0492770519ad0859bc6266efdd1b749f0c974512a7bd72928",
+      "status": "Authentic retailer-hosted original acquired; unchanged delivered bytes",
+      "websiteApproved": false,
+      "qualityHold": "Front/back composite leaves only about300x500 watch pixels; seek higher-resolution whole-watch source",
+      "reviewedAt": "2026-10-15T11:22:20.143456+00:00"
+    }
+  ],
+  "additionalSourceAccessHolds": [
+    {
+      "brand": "Omega",
+      "reference": "131.30.41.21.04.001",
+      "sourceUrl": "https://www.omegawatches.jp/watch-omega-constellation-co-axial-master-chronometer-41-mm-13130412104001",
+      "checkedAt": "2026-10-15T11:16:11.803942+00:00",
+      "error": "The read operation timed out"
+    },
+    {
+      "brand": "Omega",
+      "reference": "434.13.41.20.10.001",
+      "sourceUrl": "https://www.omegawatches.jp/watch-omega-de-ville-prestige-co-axial-master-chronometer-small-seconds-41-mm-43413412010001",
+      "checkedAt": "2026-10-15T11:16:11.804946+00:00",
+      "error": "The read operation timed out"
+    },
+    {
+      "brand": "Omega",
+      "reference": "310.32.42.50.02.001",
+      "sourceUrl": "https://www.bernardwatch.com/watch/OMG4622",
+      "checkedAt": "2026-10-15T11:16:11.804946+00:00",
+      "error": "HTTP Error 403: Forbidden"
+    }
+  ]
+}

@@ -1,14 +1,14 @@
 {
-  "auditedAt": "2026-10-15T10:38:30.201Z",
+  "auditedAt": "2026-10-15T21:27:48.157Z",
   "summary": {
     "brands": 23,
-    "collections": 103,
+    "collections": 102,
     "registryRecords": 269,
     "distinctRoutes": 268,
     "normalizedBrandReferenceIdentities": 265,
-    "approved": 189,
-    "missing": 79,
-    "collectionsWithPhotography": 79,
+    "approved": 198,
+    "missing": 70,
+    "collectionsWithPhotography": 80,
     "unusedApprovedRecords": 2,
     "duplicateNormalizedReferenceGroups": 4,
     "fileIntegrityFailures": 0,
@@ -85,7 +85,7 @@
       "referencePages": 15,
       "approved": 7,
       "missing": 8,
-      "collections": 10
+      "collections": 9
     },
     {
       "brand": "Girard-Perregaux",
@@ -123,16 +123,16 @@
       "brand": "Omega",
       "registryRecords": 68,
       "referencePages": 68,
-      "approved": 48,
-      "missing": 20,
+      "approved": 49,
+      "missing": 19,
       "collections": 11
     },
     {
       "brand": "Panerai",
       "registryRecords": 6,
       "referencePages": 6,
-      "approved": 1,
-      "missing": 5,
+      "approved": 2,
+      "missing": 4,
       "collections": 4
     },
     {
@@ -155,8 +155,8 @@
       "brand": "Rolex",
       "registryRecords": 56,
       "referencePages": 56,
-      "approved": 42,
-      "missing": 14,
+      "approved": 49,
+      "missing": 7,
       "collections": 14
     },
     {
@@ -307,10 +307,22 @@
           "dial": "Black",
           "bracelet": "Jubilee or Oyster",
           "originalMSRP": null
+        },
+        {
+          "dial": "Black",
+          "bracelet": "Oyster",
+          "caseSize": "40 mm",
+          "nickname": "Black / Oyster",
+          "originalMSRP": null,
+          "currentMSRP": null
         }
       ],
-      "approved": false,
-      "photo": null,
+      "approved": true,
+      "photo": {
+        "assetId": "cleared-nine-1chIHABPvHKFOpnh-lHY4CKGXkj8Q3veX",
+        "src": "/images/watches/rolex/reviewed-126710blro-white-web.webp",
+        "sha256": "ccd1dac801a3c65a9bc0cda64d2dfa9c63bed91f8b6d3fafdcb222204ff88539"
+      },
       "recoveryCandidates": []
     },
     {
@@ -483,14 +495,20 @@
       "material": "Oystersteel",
       "configurations": [
         {
-          "nickname": "Original Batman",
+          "nickname": "Black / Oyster",
           "dial": "Black",
           "bracelet": "Oyster",
-          "originalMSRP": null
+          "originalMSRP": null,
+          "caseSize": "40 mm",
+          "currentMSRP": null
         }
       ],
-      "approved": false,
-      "photo": null,
+      "approved": true,
+      "photo": {
+        "assetId": "cleared-nine-1M52sjy7nkxx59Pn2GtcOZa0tcN1teLRM",
+        "src": "/images/watches/rolex/reviewed-116710blnr-white-web.webp",
+        "sha256": "23741bf02508e46d18c13cb2c90817b1b5848e4efeeaf1df12433e3da52464d6"
+      },
       "recoveryCandidates": []
     },
     {
@@ -503,14 +521,20 @@
       "material": "Oystersteel",
       "configurations": [
         {
-          "nickname": "Black Ceramic GMT",
+          "nickname": "Black / Oyster",
           "dial": "Black",
           "bracelet": "Oyster",
-          "originalMSRP": null
+          "originalMSRP": null,
+          "caseSize": "40 mm",
+          "currentMSRP": null
         }
       ],
-      "approved": false,
-      "photo": null,
+      "approved": true,
+      "photo": {
+        "assetId": "cleared-nine-1YgpzqiySv7YfYcUpFnuQbm5jBGRVixkg",
+        "src": "/images/watches/rolex/reviewed-116710ln-white-web.webp",
+        "sha256": "ae8f10fe32337f56f014056e64e89ecfb0f1ae59a445591f67f6a75c3df26057"
+      },
       "recoveryCandidates": []
     },
     {
@@ -579,10 +603,22 @@
           "dial": "White or Black",
           "bracelet": "Oyster",
           "originalMSRP": null
+        },
+        {
+          "dial": "Black",
+          "bracelet": "Oyster",
+          "caseSize": "40 mm",
+          "nickname": "Black / Oyster",
+          "originalMSRP": null,
+          "currentMSRP": null
         }
       ],
-      "approved": false,
-      "photo": null,
+      "approved": true,
+      "photo": {
+        "assetId": "cleared-nine-1KnjAq-sgzhXdr0dI0PrP_5q8KqNqOmUY",
+        "src": "/images/watches/rolex/reviewed-116520-white-web.webp",
+        "sha256": "4f8ae5c97b860506d520beb9e0ac5e43c1f6474decdfe4fe8f74b066dba68ff0"
+      },
       "recoveryCandidates": []
     },
     {
@@ -827,14 +863,20 @@
       "material": "Oystersteel",
       "configurations": [
         {
-          "nickname": "Hulk",
+          "nickname": "Green / Oyster",
           "dial": "Green",
           "bracelet": "Oyster",
-          "originalMSRP": null
+          "originalMSRP": null,
+          "caseSize": "40 mm",
+          "currentMSRP": null
         }
       ],
-      "approved": false,
-      "photo": null,
+      "approved": true,
+      "photo": {
+        "assetId": "cleared-nine-17jFt18kdnucTOPqXxdQUd3zIM3dkRByI",
+        "src": "/images/watches/rolex/reviewed-116610lv-white-web.webp",
+        "sha256": "43342530c7de9252c74a8b5a4fdb4457d806e251df74e5e6f2e4faf6a33b75ec"
+      },
       "recoveryCandidates": []
     },
     {
@@ -1469,10 +1511,22 @@
           "dial": "Multiple Dial Options",
           "bracelet": "Oyster / Jubilee",
           "originalMSRP": null
+        },
+        {
+          "dial": "White",
+          "bracelet": "Jubilee",
+          "caseSize": "42 mm",
+          "nickname": "White / Jubilee",
+          "originalMSRP": null,
+          "currentMSRP": null
         }
       ],
-      "approved": false,
-      "photo": null,
+      "approved": true,
+      "photo": {
+        "assetId": "cleared-nine-1jqHp2GYHDwVwKf8t2wVPTJY_v4bw7Oj3",
+        "src": "/images/watches/rolex/reviewed-326934-white-web.webp",
+        "sha256": "85a1d7fc54b9736eac438f83f94a3d2f962b7c6794054c9ec6c5512da0824892"
+      },
       "recoveryCandidates": []
     },
     {
@@ -1929,10 +1983,22 @@
           "dial": "Configuration details available through private advisory",
           "bracelet": "Reference dependent",
           "originalMSRP": null
+        },
+        {
+          "dial": "Black",
+          "bracelet": "Oyster",
+          "caseSize": "40 mm",
+          "nickname": "Black / Oyster",
+          "originalMSRP": null,
+          "currentMSRP": null
         }
       ],
-      "approved": false,
-      "photo": null,
+      "approved": true,
+      "photo": {
+        "assetId": "cleared-nine-1b_4BYcLpF1JMlRe2H8PKBGR56en_mzD_",
+        "src": "/images/watches/rolex/reviewed-116400gv-white-web.webp",
+        "sha256": "27fc59587253611b5246bb34a997ce547ec51eded942b5fb7d19b338e6eae4a0"
+      },
       "recoveryCandidates": []
     },
     {
@@ -3281,6 +3347,32 @@
         "assetId": "cleared-library-vanguard-1qkB2JuO9xfJB_PTGc6N49px4xnhPqIBq",
         "src": "/images/watches/franck-muller/franck-muller-vanguard-v-45-sc-dt-nr-br-er-web.webp",
         "sha256": "73131e90d7ca65f689799ebb27d64021e50e1f8cfc60012d2e87d55c7d70adb9"
+      },
+      "recoveryCandidates": []
+    },
+    {
+      "brand": "Franck Muller",
+      "brandSlug": "franck-muller",
+      "collection": "Vanguard",
+      "collectionSlug": "vanguard",
+      "reference": "V 45 T BR (TT)",
+      "path": "/collections/franck-muller/vanguard/v-45-t-br-tt",
+      "material": "Titanium",
+      "configurations": [
+        {
+          "dial": "Black with open tourbillon and red accents",
+          "bracelet": "Black textured strap",
+          "movement": "Mechanical tourbillon",
+          "nickname": "Black with open tourbillon and red accents / Black textured strap",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "approved": true,
+      "photo": {
+        "assetId": "cleared-additional35-1Tt7OFNa4PS-qKHd1aQXa5-_Vw0TKlL_y",
+        "src": "/images/watches/franck-muller/reviewed-v-45-t-br-tt-white-web.webp",
+        "sha256": "52999c2bd3afb88d3cd4b97adf7eee080f88c38fafe2f578655fbf4f841c6681"
       },
       "recoveryCandidates": []
     },
@@ -7064,40 +7156,6 @@
     {
       "brand": "Franck Muller",
       "brandSlug": "franck-muller",
-      "collection": "Vanguard Tourbillon",
-      "collectionSlug": "vanguard-tourbillon",
-      "reference": "V 45 T BR (TT)",
-      "path": "/collections/franck-muller/vanguard-tourbillon/v-45-t-br-tt",
-      "material": "Titanium",
-      "configurations": [
-        {
-          "caseSize": "Model-dependent",
-          "movement": "Mechanical tourbillon",
-          "dial": "Open tourbillon",
-          "bracelet": "Model-dependent",
-          "originalMSRP": null,
-          "currentMSRP": null
-        },
-        {
-          "dial": "Black with open tourbillon and red accents",
-          "bracelet": "Black textured strap",
-          "movement": "Mechanical tourbillon",
-          "nickname": "Black with open tourbillon and red accents / Black textured strap",
-          "originalMSRP": null,
-          "currentMSRP": null
-        }
-      ],
-      "approved": true,
-      "photo": {
-        "assetId": "cleared-additional35-1Tt7OFNa4PS-qKHd1aQXa5-_Vw0TKlL_y",
-        "src": "/images/watches/franck-muller/reviewed-v-45-t-br-tt-white-web.webp",
-        "sha256": "52999c2bd3afb88d3cd4b97adf7eee080f88c38fafe2f578655fbf4f841c6681"
-      },
-      "recoveryCandidates": []
-    },
-    {
-      "brand": "Franck Muller",
-      "brandSlug": "franck-muller",
       "collection": "Vanguard Beach",
       "collectionSlug": "vanguard-beach",
       "reference": "V 41 SC DT BEACH BU BL GF1",
@@ -7300,10 +7358,23 @@
           "bracelet": "Black alligator leather strap; additional rubber strap",
           "originalMSRP": null,
           "currentMSRP": null
+        },
+        {
+          "caseSize": "40 mm",
+          "movement": "P.900/GMT automatic",
+          "dial": "Black",
+          "bracelet": "Black alligator leather strap",
+          "nickname": "Black / Black alligator leather strap",
+          "originalMSRP": null,
+          "currentMSRP": null
         }
       ],
-      "approved": false,
-      "photo": null,
+      "approved": true,
+      "photo": {
+        "assetId": "cleared-nine-1FrunD7dL0hw-nKjzAoSiqYemm6OK1AmQ",
+        "src": "/images/watches/panerai/reviewed-pam01641-white-web.webp",
+        "sha256": "9767844fdbf7dc81b18589bfa57f9fe14cde10b0d8060b500b7ba72cf7b26970"
+      },
       "recoveryCandidates": []
     },
     {
@@ -7725,11 +7796,16 @@
           "dial": "Pine green non-wave",
           "bracelet": "Green leather strap",
           "originalMSRP": null,
-          "currentMSRP": null
+          "currentMSRP": null,
+          "nickname": "Pine green non-wave / Green leather strap"
         }
       ],
-      "approved": false,
-      "photo": null,
+      "approved": true,
+      "photo": {
+        "assetId": "cleared-nine-1X9pBGw-7_dGBLolfdxm_I0yk3rtH122b",
+        "src": "/images/watches/omega/reviewed-434-13-41-20-10-001-white-web.webp",
+        "sha256": "c3bf57b2705e32f403e197c58eac18f7c030b681c81d3c6953f7d4f501dd4e62"
+      },
       "recoveryCandidates": []
     },
     {

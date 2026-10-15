@@ -285,3 +285,18 @@ Commit f06737e13fbebef8397f57bb2fbe3097e183e484 and Render dep-db83o5lg1s2s73f6f
 ## Three additional Omega photographs verified live
 
 Commit dfa080e7606b9fe80dfc56a1570b34ebee5f0b7c / Render dep-db8441vlk1mc739bu60g LIVE. Current183/268 reference URLs photographed across76/103 collections;85 queued. Sandstone Aqua Terra220.10.30.20.09.001, DeVille PowerReserve434.10.41.21.03.001 and green Constellation131.10.28.60.60.001 published under explicit founder rights. All268 public routes and182 distinct photo hashes pass;246 regressions,Astro,build and representative mobile/desktop review pass. No customer data operations. Continue remaining85 source/configuration/quality gaps.
+
+
+## Six further photographs verified live
+
+Commit ca53f04825cdaa9affbfa85d4b4a326c59332695 / Render dep-db8arr60tbcc73ec83p0 LIVE. Current189/268 references photographed across79/103 collections;79 queued. Three Zenith Skyline variants, Hublot Original Black Magic, blue Vanguard Beach and TAG Monaco are published under explicit founder rights with all18 files archived. All268 public routes and188 image hashes, six exact configurations/grid/credits/inquiry checks,246 regressions,Astro,build and desktop/mobile visual QA pass. No customer data operations.
+
+
+## Reviewed photography awaiting image-specific rights — October15,2026
+
+Production remains189/268 reference URLs photographed,79 queued; latest verified releaseca53f04825cdaa9affbfa85d4b4a326c59332695. Nine further exact-source sets are individually reviewed and all27 RAW/master/WEB files archived: seven Rolex CPO configurations, Panerai PAM01641, and Omega434.13.41.20.10.001 from Galli. Image-specific commercial website-use clearance is pending; none is website-approved or published. The remaining70 queued routes require usable exact-source photography. See the prepared manifests and source holds recorded in PHOTOGRAPHY_SPRINT_STATE.json. The canonical50-page Drive master is checksum-verified. V4 message delivery awaits direct founder authorization after automatic approval review rejection. No application/runtime data changed in this preparation phase; no new deployment or build was needed.
+
+
+## Nine-image photography release — October15,2026
+
+All nine newly reviewed photographs now have explicit founder commercial-use permission without restrictions: seven Rolex configurations, Panerai PAM01641 and Omega434.13.41.20.10.001. All27 RAW/master/WEB files are archived. The existing registry adds precise photographed configurations while preserving existing generic options and public URLs. Newer production73ec030 navigation and Vanguard consolidation are retained. Built coverage is198/268 references,70 queued,80/102 collections. All246 regressions, Astro validation (0 errors,0 warnings,20 hints), photography/hash audits, production build, nine targeted built checks and desktop/mobile/intake-context review passed. Deployment and live verification pending. No customer records or persistent disk changed.

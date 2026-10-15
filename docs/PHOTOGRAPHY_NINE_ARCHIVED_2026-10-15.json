@@ -1,0 +1,641 @@
+{
+  "physicalSets": 9,
+  "archivedFiles": 27,
+  "references": [
+    {
+      "brand": "Rolex",
+      "reference": "116710LN",
+      "exactSKU": "116710LN-0001",
+      "sourceProvider": "The1916Company Rolex Certified Pre-Owned",
+      "sourceUrl": "https://www.the1916company.com/rolex-certified-pre-owned/gmt-master-ii/5073462/",
+      "sourcePagePath": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\retailer-source-rolex-116710LN-0001-fc0ef642.html",
+      "sourcePageSha256": "c0658398e141bbffa4c94ab88acf92c032bee9975ffc4586ad0c4b4f1463bc36",
+      "imageUrl": "https://watchbox-cdn.imgix.net/posted-product-images/639265379041032685_R_3120.PA0000484849_SOLDIER_BLACK_01.jpg",
+      "checkedAt": "2026-10-15T10:53:59.374102+00:00",
+      "rightsStatus": "Founder explicitly confirmed this exact original and white derivatives for commercial Quest Luxo website use; no additional restrictions",
+      "reviewStatus": "Untouched original and final1200WEB individually visually compared; complete watch, dial, case, strap and exact source SKU verified. Rights pending; not approved for website.",
+      "size": [
+        3000,
+        3000
+      ],
+      "mode": "RGB",
+      "path": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\rolex-six-native-originals\\116710LN-0001-raw.jpg",
+      "sha256": "6e7b26d0f2ca7453ee736d1a208aa128af56c024b29017a063025dc407c86963",
+      "status": "Authentic source photograph acquired; unchanged delivered bytes",
+      "whiteMaster": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\rolex-panerai-eight-white\\116710LN-0001-white-master.png",
+      "webDerivative": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\rolex-panerai-eight-white\\116710LN-0001-web.webp",
+      "masterSha256": "e684bcd401b0986b41c77acc7b9cd7613d5e6e6226b100dcee125a3cf02ea381",
+      "derivativeSha256": "ae8f10fe32337f56f014056e64e89ecfb0f1ae59a445591f67f6a75c3df26057",
+      "foregroundBounds": [
+        829,
+        391,
+        2297,
+        2657
+      ],
+      "collection": "GMT-Master II",
+      "canonicalRoute": "/collections/rolex/gmt-master-ii/116710ln",
+      "catalogMaterial": "Oystersteel",
+      "catalogConfigurations": [
+        {
+          "nickname": "Black Ceramic GMT",
+          "dial": "Black",
+          "bracelet": "Oyster",
+          "originalMSRP": null
+        }
+      ],
+      "picturedConfiguration": {
+        "dial": "Black",
+        "bracelet": "Oyster",
+        "caseSize": "40 mm"
+      },
+      "websiteApproved": false,
+      "visualReviewPassed": true,
+      "exactSkuVerified": true,
+      "processing": "Classical exterior mask with individually traced external bracelet boundaries. Untouched original RGB retained throughout watch; only background alpha changed. Whole watch centered on blank white2400 master/1200WEB. No AI, reconstruction, captions or colour changes.",
+      "reviewedAt": "2026-10-15T11:13:20.912914+00:00",
+      "rawDriveFileId": "1YgpzqiySv7YfYcUpFnuQbm5jBGRVixkg",
+      "masterDriveFileId": "1KzRAoGCjgDH_tZt--AXCXcJFSDWr-cHZ",
+      "webDriveFileId": "1rdlX6nXqPqgC_J0CAhJefrlSosL-S29t",
+      "driveFiles": {
+        "raw": {
+          "id": "1YgpzqiySv7YfYcUpFnuQbm5jBGRVixkg"
+        },
+        "master": {
+          "id": "1KzRAoGCjgDH_tZt--AXCXcJFSDWr-cHZ"
+        },
+        "web": {
+          "id": "1rdlX6nXqPqgC_J0CAhJefrlSosL-S29t"
+        }
+      },
+      "commercialUseRightsConfirmed": true,
+      "rightsRecord": "PHOTOGRAPHY_NINE_FOUNDER_RIGHTS_2026-10-15.json",
+      "publicationStatus": "Integrated; release checks and deployment pending"
+    },
+    {
+      "brand": "Rolex",
+      "reference": "126710BLRO",
+      "exactSKU": "126710BLRO-0002",
+      "sourceProvider": "The1916Company Rolex Certified Pre-Owned",
+      "sourceUrl": "https://www.the1916company.com/rolex-certified-pre-owned/gmt-master-ii/5077201/",
+      "sourcePagePath": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\retailer-source-rolex-126710BLRO-0002-a70a179d.html",
+      "sourcePageSha256": "3adb1371360b7e78b3d9f482d350f1a5e210ecdaa544faddd544576cc5b0096a",
+      "imageUrl": "https://watchbox-cdn.imgix.net/posted-product-images/639245552385376085_R_3120.PA0000478207_SOLDIER_BLACK_01.jpg",
+      "checkedAt": "2026-10-15T10:53:59.375110+00:00",
+      "rightsStatus": "Founder explicitly confirmed this exact original and white derivatives for commercial Quest Luxo website use; no additional restrictions",
+      "reviewStatus": "Untouched original and final1200WEB individually visually compared; complete watch, dial, case, strap and exact source SKU verified. Rights pending; not approved for website.",
+      "size": [
+        3000,
+        3000
+      ],
+      "mode": "RGB",
+      "path": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\rolex-six-native-originals\\126710BLRO-0002-raw.jpg",
+      "sha256": "71f2209b57bb8cf4b94d400a8dedbbc7520c340f737793f768fcf81550da4abe",
+      "status": "Authentic source photograph acquired; unchanged delivered bytes",
+      "whiteMaster": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\rolex-panerai-eight-white\\126710BLRO-0002-white-master.png",
+      "webDerivative": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\rolex-panerai-eight-white\\126710BLRO-0002-web.webp",
+      "masterSha256": "49f761a30858e0e8d3c203d245c127e0d21eebe99061ae8ee327b30380a64dd8",
+      "derivativeSha256": "ccd1dac801a3c65a9bc0cda64d2dfa9c63bed91f8b6d3fafdcb222204ff88539",
+      "foregroundBounds": [
+        802,
+        380,
+        2258,
+        2657
+      ],
+      "collection": "GMT-Master II",
+      "canonicalRoute": "/collections/rolex/gmt-master-ii/126710blro",
+      "catalogMaterial": "Oystersteel",
+      "catalogConfigurations": [
+        {
+          "nickname": "Pepsi",
+          "dial": "Black",
+          "bracelet": "Jubilee or Oyster",
+          "originalMSRP": null
+        }
+      ],
+      "picturedConfiguration": {
+        "dial": "Black",
+        "bracelet": "Oyster",
+        "caseSize": "40 mm"
+      },
+      "websiteApproved": false,
+      "visualReviewPassed": true,
+      "exactSkuVerified": true,
+      "processing": "Classical exterior mask with individually traced external bracelet boundaries. Untouched original RGB retained throughout watch; only background alpha changed. Whole watch centered on blank white2400 master/1200WEB. No AI, reconstruction, captions or colour changes.",
+      "reviewedAt": "2026-10-15T11:13:20.912914+00:00",
+      "rawDriveFileId": "1chIHABPvHKFOpnh-lHY4CKGXkj8Q3veX",
+      "masterDriveFileId": "1q3THRsjjQANlxjhJBzRJuQrROIX2LnTM",
+      "webDriveFileId": "1CHGHY69ntLewm8gr_2xfr8S8l9FMJrbF",
+      "driveFiles": {
+        "raw": {
+          "id": "1chIHABPvHKFOpnh-lHY4CKGXkj8Q3veX"
+        },
+        "master": {
+          "id": "1q3THRsjjQANlxjhJBzRJuQrROIX2LnTM"
+        },
+        "web": {
+          "id": "1CHGHY69ntLewm8gr_2xfr8S8l9FMJrbF"
+        }
+      },
+      "commercialUseRightsConfirmed": true,
+      "rightsRecord": "PHOTOGRAPHY_NINE_FOUNDER_RIGHTS_2026-10-15.json",
+      "publicationStatus": "Integrated; release checks and deployment pending"
+    },
+    {
+      "brand": "Rolex",
+      "reference": "116610LV",
+      "exactSKU": "116610LV-0002",
+      "sourceProvider": "The1916Company Rolex Certified Pre-Owned",
+      "sourceUrl": "https://www.the1916company.com/rolex-certified-pre-owned/submariner/5077993/",
+      "sourcePagePath": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\retailer-source-rolex-116610LV-0002-ff76f473.html",
+      "sourcePageSha256": "0e05bbf77676e7818784b25c5a29c02142412cbca7a658d2f5969ba16280cb87",
+      "imageUrl": "https://watchbox-cdn.imgix.net/posted-product-images/639239641801072217_R_3120.PA0000479089_SOLDIER_BLACK_01.jpg",
+      "checkedAt": "2026-10-15T10:53:59.376115+00:00",
+      "rightsStatus": "Founder explicitly confirmed this exact original and white derivatives for commercial Quest Luxo website use; no additional restrictions",
+      "reviewStatus": "Untouched original and final1200WEB individually visually compared; complete watch, dial, case, strap and exact source SKU verified. Rights pending; not approved for website.",
+      "size": [
+        3000,
+        3000
+      ],
+      "mode": "RGB",
+      "path": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\rolex-six-native-originals\\116610LV-0002-raw.jpg",
+      "sha256": "db993c9b3ccd00c6ca78aebe97f7f999ae3c77bc653703a8c36b7d9a0d6368be",
+      "status": "Authentic source photograph acquired; unchanged delivered bytes",
+      "whiteMaster": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\rolex-panerai-eight-white\\116610LV-0002-white-master.png",
+      "webDerivative": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\rolex-panerai-eight-white\\116610LV-0002-web.webp",
+      "masterSha256": "d9eb093cc34cfd3f5b60406a010f521b111bdb472c128f10d5f8ed23759f520f",
+      "derivativeSha256": "43342530c7de9252c74a8b5a4fdb4457d806e251df74e5e6f2e4faf6a33b75ec",
+      "foregroundBounds": [
+        816,
+        381,
+        2289,
+        2646
+      ],
+      "collection": "Submariner",
+      "canonicalRoute": "/collections/rolex/submariner/116610lv",
+      "catalogMaterial": "Oystersteel",
+      "catalogConfigurations": [
+        {
+          "nickname": "Hulk",
+          "dial": "Green",
+          "bracelet": "Oyster",
+          "originalMSRP": null
+        }
+      ],
+      "picturedConfiguration": {
+        "dial": "Green",
+        "bracelet": "Oyster",
+        "caseSize": "40 mm"
+      },
+      "websiteApproved": false,
+      "visualReviewPassed": true,
+      "exactSkuVerified": true,
+      "processing": "Classical exterior mask with individually traced external bracelet boundaries. Untouched original RGB retained throughout watch; only background alpha changed. Whole watch centered on blank white2400 master/1200WEB. No AI, reconstruction, captions or colour changes.",
+      "reviewedAt": "2026-10-15T11:13:20.912914+00:00",
+      "rawDriveFileId": "17jFt18kdnucTOPqXxdQUd3zIM3dkRByI",
+      "masterDriveFileId": "1sxlqTEEkZI-1YQgVZU0zpwu3BTY8dgfC",
+      "webDriveFileId": "1FE1IfaNNUGNMhPp2MieeqGcKehRHjqkt",
+      "driveFiles": {
+        "raw": {
+          "id": "17jFt18kdnucTOPqXxdQUd3zIM3dkRByI"
+        },
+        "master": {
+          "id": "1sxlqTEEkZI-1YQgVZU0zpwu3BTY8dgfC"
+        },
+        "web": {
+          "id": "1FE1IfaNNUGNMhPp2MieeqGcKehRHjqkt"
+        }
+      },
+      "commercialUseRightsConfirmed": true,
+      "rightsRecord": "PHOTOGRAPHY_NINE_FOUNDER_RIGHTS_2026-10-15.json",
+      "publicationStatus": "Integrated; release checks and deployment pending"
+    },
+    {
+      "brand": "Rolex",
+      "reference": "326934",
+      "exactSKU": "326934-0002",
+      "sourceProvider": "The1916Company Rolex Certified Pre-Owned",
+      "sourceUrl": "https://www.the1916company.com/rolex-certified-pre-owned/sky-dweller/5076865/",
+      "sourcePagePath": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\retailer-source-rolex-326934-0002-e86cf28a.html",
+      "sourcePageSha256": "406d7c09e2ba3880592ee7069cb20dc9cdf293e8032b07b48243db87135b644d",
+      "imageUrl": "https://watchbox-cdn.imgix.net/posted-product-images/639237776247340327_R_3120.PA0000470118_SOLDIER_BLACK_01.jpg",
+      "checkedAt": "2026-10-15T10:53:59.376115+00:00",
+      "rightsStatus": "Founder explicitly confirmed this exact original and white derivatives for commercial Quest Luxo website use; no additional restrictions",
+      "reviewStatus": "Untouched original and final1200WEB individually visually compared; complete watch, dial, case, strap and exact source SKU verified. Rights pending; not approved for website.",
+      "size": [
+        3000,
+        3000
+      ],
+      "mode": "RGB",
+      "path": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\rolex-six-native-originals\\326934-0002-raw.jpg",
+      "sha256": "4d1628430bda9d83207af918aefdb8719683b555a687d78abc2c2efc6064e009",
+      "status": "Authentic source photograph acquired; unchanged delivered bytes",
+      "whiteMaster": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\rolex-panerai-eight-white\\326934-0002-white-master.png",
+      "webDerivative": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\rolex-panerai-eight-white\\326934-0002-web.webp",
+      "masterSha256": "6eff03c1bd59018836e03300531e9d8ebc9ff8cc52411b7ab48d79ae79df3dd8",
+      "derivativeSha256": "85a1d7fc54b9736eac438f83f94a3d2f962b7c6794054c9ec6c5512da0824892",
+      "foregroundBounds": [
+        798,
+        402,
+        2266,
+        2646
+      ],
+      "collection": "Sky-Dweller",
+      "canonicalRoute": "/collections/rolex/sky-dweller/326934",
+      "catalogMaterial": "Oystersteel / White Gold",
+      "catalogConfigurations": [
+        {
+          "nickname": "Previous Generation Steel Sky-Dweller",
+          "dial": "Multiple Dial Options",
+          "bracelet": "Oyster / Jubilee",
+          "originalMSRP": null
+        }
+      ],
+      "picturedConfiguration": {
+        "dial": "White",
+        "bracelet": "Jubilee",
+        "caseSize": "42 mm"
+      },
+      "websiteApproved": false,
+      "visualReviewPassed": true,
+      "exactSkuVerified": true,
+      "processing": "Classical exterior mask with individually traced external bracelet boundaries. Untouched original RGB retained throughout watch; only background alpha changed. Whole watch centered on blank white2400 master/1200WEB. No AI, reconstruction, captions or colour changes.",
+      "reviewedAt": "2026-10-15T11:13:20.912914+00:00",
+      "rawDriveFileId": "1jqHp2GYHDwVwKf8t2wVPTJY_v4bw7Oj3",
+      "masterDriveFileId": "1thTF0vmZd2ADLHN1tYnPL8UGj5Y-agLE",
+      "webDriveFileId": "1r1kVE26gCt35qouuClesX4mwODv-sFdH",
+      "driveFiles": {
+        "raw": {
+          "id": "1jqHp2GYHDwVwKf8t2wVPTJY_v4bw7Oj3"
+        },
+        "master": {
+          "id": "1thTF0vmZd2ADLHN1tYnPL8UGj5Y-agLE"
+        },
+        "web": {
+          "id": "1r1kVE26gCt35qouuClesX4mwODv-sFdH"
+        }
+      },
+      "commercialUseRightsConfirmed": true,
+      "rightsRecord": "PHOTOGRAPHY_NINE_FOUNDER_RIGHTS_2026-10-15.json",
+      "publicationStatus": "Integrated; release checks and deployment pending"
+    },
+    {
+      "brand": "Rolex",
+      "reference": "116520",
+      "exactSKU": "116520-0015",
+      "sourceProvider": "The1916Company Rolex Certified Pre-Owned",
+      "sourceUrl": "https://www.the1916company.com/rolex-certified-pre-owned/daytona/5059316/",
+      "sourcePagePath": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\retailer-source-rolex-116520-0015-c58c958d.html",
+      "sourcePageSha256": "eeca120df7636283d3c02f3b72c306b3a13851d2ff85c6cb713391a5f7e2c33d",
+      "imageUrl": "https://watchbox-cdn.imgix.net/posted-product-images/639150485049725700_R_3120.PA0000452911_SOLDIER_BLACK_01.jpg",
+      "checkedAt": "2026-10-15T10:53:59.749534+00:00",
+      "rightsStatus": "Founder explicitly confirmed this exact original and white derivatives for commercial Quest Luxo website use; no additional restrictions",
+      "reviewStatus": "Untouched original and final1200WEB individually visually compared; complete watch, dial, case, strap and exact source SKU verified. Rights pending; not approved for website.",
+      "size": [
+        3000,
+        3000
+      ],
+      "mode": "RGB",
+      "path": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\rolex-six-native-originals\\116520-0015-raw.jpg",
+      "sha256": "2e34eecfe3b7150fab1143c0cdcea023a3516290b9b2b7442a432943e808619b",
+      "status": "Authentic source photograph acquired; unchanged delivered bytes",
+      "whiteMaster": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\rolex-panerai-eight-white\\116520-0015-white-master.png",
+      "webDerivative": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\rolex-panerai-eight-white\\116520-0015-web.webp",
+      "masterSha256": "8a334c2442dcdd880efeb101270f1c70ef15d2b59e427abe1324b0ecdcd26e31",
+      "derivativeSha256": "4f8ae5c97b860506d520beb9e0ac5e43c1f6474decdfe4fe8f74b066dba68ff0",
+      "foregroundBounds": [
+        863,
+        370,
+        2263,
+        2694
+      ],
+      "collection": "Daytona",
+      "canonicalRoute": "/collections/rolex/daytona/116520",
+      "catalogMaterial": "Oystersteel",
+      "catalogConfigurations": [
+        {
+          "nickname": "Steel Bezel Daytona",
+          "dial": "White or Black",
+          "bracelet": "Oyster",
+          "originalMSRP": null
+        }
+      ],
+      "picturedConfiguration": {
+        "dial": "Black",
+        "bracelet": "Oyster",
+        "caseSize": "40 mm"
+      },
+      "websiteApproved": false,
+      "visualReviewPassed": true,
+      "exactSkuVerified": true,
+      "processing": "Classical exterior mask with individually traced external bracelet boundaries. Untouched original RGB retained throughout watch; only background alpha changed. Whole watch centered on blank white2400 master/1200WEB. No AI, reconstruction, captions or colour changes.",
+      "reviewedAt": "2026-10-15T11:13:20.912914+00:00",
+      "rawDriveFileId": "1KnjAq-sgzhXdr0dI0PrP_5q8KqNqOmUY",
+      "masterDriveFileId": "1NEXD6d9wOc8LPmfLrqYL_lZtc2c6gKjE",
+      "webDriveFileId": "18_saZTPIFbTOLwPjzwQbp2NKHB6-I9pC",
+      "driveFiles": {
+        "raw": {
+          "id": "1KnjAq-sgzhXdr0dI0PrP_5q8KqNqOmUY"
+        },
+        "master": {
+          "id": "1NEXD6d9wOc8LPmfLrqYL_lZtc2c6gKjE"
+        },
+        "web": {
+          "id": "18_saZTPIFbTOLwPjzwQbp2NKHB6-I9pC"
+        }
+      },
+      "commercialUseRightsConfirmed": true,
+      "rightsRecord": "PHOTOGRAPHY_NINE_FOUNDER_RIGHTS_2026-10-15.json",
+      "publicationStatus": "Integrated; release checks and deployment pending"
+    },
+    {
+      "brand": "Rolex",
+      "reference": "116400GV",
+      "exactSKU": "116400GV-0001",
+      "sourceProvider": "The1916Company Rolex Certified Pre-Owned",
+      "sourceUrl": "https://www.the1916company.com/rolex-certified-pre-owned/milgauss/5079641/",
+      "sourcePagePath": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\retailer-source-rolex-116400GV-0001-347c2648.html",
+      "sourcePageSha256": "fbd51fad7d2b2d1f27fe961b32f7b46be468be96c9aff7a82d7cdb61aa165beb",
+      "imageUrl": "https://watchbox-cdn.imgix.net/posted-product-images/639261926737945268_R_3120.PA0000485767_SOLDIER_BLACK_01.jpg",
+      "checkedAt": "2026-10-15T10:53:59.749534+00:00",
+      "rightsStatus": "Founder explicitly confirmed this exact original and white derivatives for commercial Quest Luxo website use; no additional restrictions",
+      "reviewStatus": "Untouched original and final1200WEB individually visually compared; complete watch, dial, case, strap and exact source SKU verified. Rights pending; not approved for website.",
+      "size": [
+        3000,
+        3000
+      ],
+      "mode": "RGB",
+      "path": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\rolex-six-native-originals\\116400GV-0001-raw.jpg",
+      "sha256": "483b992eca2f1caaa482f543bd0e0ab813f90db836fba03a4e46b3a378a5a1c9",
+      "status": "Authentic source photograph acquired; unchanged delivered bytes",
+      "whiteMaster": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\rolex-panerai-eight-white\\116400GV-0001-white-master.png",
+      "webDerivative": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\rolex-panerai-eight-white\\116400GV-0001-web.webp",
+      "masterSha256": "912c56b2e9fcce6ca30fda5b408b0001b30ec5bb4d2feedfd5f0d4bbd995f6b0",
+      "derivativeSha256": "27fc59587253611b5246bb34a997ce547ec51eded942b5fb7d19b338e6eae4a0",
+      "foregroundBounds": [
+        838,
+        415,
+        2241,
+        2620
+      ],
+      "collection": "Milgauss",
+      "canonicalRoute": "/collections/rolex/milgauss/116400gv",
+      "catalogMaterial": "Oystersteel",
+      "catalogConfigurations": [
+        {
+          "nickname": "Milgauss representative reference",
+          "dial": "Configuration details available through private advisory",
+          "bracelet": "Reference dependent",
+          "originalMSRP": null
+        }
+      ],
+      "picturedConfiguration": {
+        "dial": "Black",
+        "bracelet": "Oyster",
+        "caseSize": "40 mm"
+      },
+      "websiteApproved": false,
+      "visualReviewPassed": true,
+      "exactSkuVerified": true,
+      "processing": "Classical exterior mask with individually traced external bracelet boundaries. Untouched original RGB retained throughout watch; only background alpha changed. Whole watch centered on blank white2400 master/1200WEB. No AI, reconstruction, captions or colour changes.",
+      "reviewedAt": "2026-10-15T11:13:20.912914+00:00",
+      "rawDriveFileId": "1b_4BYcLpF1JMlRe2H8PKBGR56en_mzD_",
+      "masterDriveFileId": "1-1G_h_JrQmsF79IaEn8PCVUr8b1fa3EJ",
+      "webDriveFileId": "1tKl30GgdnyzrM1OK81fuLOAMV5zMJ3fo",
+      "driveFiles": {
+        "raw": {
+          "id": "1b_4BYcLpF1JMlRe2H8PKBGR56en_mzD_"
+        },
+        "master": {
+          "id": "1-1G_h_JrQmsF79IaEn8PCVUr8b1fa3EJ"
+        },
+        "web": {
+          "id": "1tKl30GgdnyzrM1OK81fuLOAMV5zMJ3fo"
+        }
+      },
+      "commercialUseRightsConfirmed": true,
+      "rightsRecord": "PHOTOGRAPHY_NINE_FOUNDER_RIGHTS_2026-10-15.json",
+      "publicationStatus": "Integrated; release checks and deployment pending"
+    },
+    {
+      "brand": "Rolex",
+      "reference": "116710BLNR",
+      "catalogReference": "116710BLNR",
+      "exactSKU": "116710BLNR-0002",
+      "sourceUrl": "https://www.the1916company.com/rolex-certified-pre-owned/gmt-master-ii/5078846/",
+      "imageUrl": "https://watchbox-cdn.imgix.net/posted-product-images/639268864967340982_R_3120.PA0000481357_SOLDIER_BLACK_01.jpg",
+      "sourceEvidence": "Exact full-SKU CPO product page, observed og:image, native delivered bytes without crop query. Configuration steel/black dial/black-blue bezel/Oyster bracelet/40mm/self-winding/100m.",
+      "checkedAt": "2026-10-14T10:21:06.681273+00:00",
+      "rightsStatus": "Founder explicitly confirmed this exact original and white derivatives for commercial Quest Luxo website use; no additional restrictions",
+      "reviewStatus": "Untouched original and final1200WEB individually visually compared; complete watch, dial, case, strap and exact source SKU verified. Rights pending; not approved for website.",
+      "size": [
+        3000,
+        3000
+      ],
+      "mode": "RGB",
+      "path": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\legacy-six-native-originals\\116710BLNR-0002-raw.jpg",
+      "sha256": "f30782f5cbed4f3a6e0e8af3877801b08eeff827e034c8feed0ff941d508c062",
+      "status": "Authentic source photograph acquired; unchanged delivered bytes",
+      "sourceProvider": "The1916Company Rolex Certified Pre-Owned",
+      "sourcePagePath": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\retailer-source-rolex-116710BLNR-0002-da227ab9.html",
+      "sourcePageSha256": "f56adf177d7051cf405d6ef17d7e0e57cf114fda055d49ef72369a26c4f9ad43",
+      "whiteMaster": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\rolex-panerai-eight-white\\116710BLNR-0002-white-master.png",
+      "webDerivative": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\rolex-panerai-eight-white\\116710BLNR-0002-web.webp",
+      "masterSha256": "455ac7e6ab1419ec9157ca9ca605238f22f8db20e45e2072c2ce8abe81fd2335",
+      "derivativeSha256": "23741bf02508e46d18c13cb2c90817b1b5848e4efeeaf1df12433e3da52464d6",
+      "foregroundBounds": [
+        821,
+        430,
+        2278,
+        2644
+      ],
+      "collection": "GMT-Master II",
+      "canonicalRoute": "/collections/rolex/gmt-master-ii/116710blnr",
+      "catalogMaterial": "Oystersteel",
+      "catalogConfigurations": [
+        {
+          "nickname": "Original Batman",
+          "dial": "Black",
+          "bracelet": "Oyster",
+          "originalMSRP": null
+        }
+      ],
+      "picturedConfiguration": {
+        "dial": "Black",
+        "bracelet": "Oyster",
+        "caseSize": "40 mm"
+      },
+      "websiteApproved": false,
+      "visualReviewPassed": true,
+      "exactSkuVerified": true,
+      "processing": "Classical exterior mask with individually traced external bracelet boundaries. Untouched original RGB retained throughout watch; only background alpha changed. Whole watch centered on blank white2400 master/1200WEB. No AI, reconstruction, captions or colour changes.",
+      "reviewedAt": "2026-10-15T11:13:20.912914+00:00",
+      "rawDriveFileId": "1M52sjy7nkxx59Pn2GtcOZa0tcN1teLRM",
+      "masterDriveFileId": "1jz59x7kdOVdNsUUfIL6GW_aTZoL-jutP",
+      "webDriveFileId": "1DAdLg4CObX4KnOIDwNu2k8N42eYr4xFk",
+      "driveFiles": {
+        "raw": {
+          "id": "1M52sjy7nkxx59Pn2GtcOZa0tcN1teLRM"
+        },
+        "master": {
+          "id": "1jz59x7kdOVdNsUUfIL6GW_aTZoL-jutP"
+        },
+        "web": {
+          "id": "1DAdLg4CObX4KnOIDwNu2k8N42eYr4xFk"
+        }
+      },
+      "commercialUseRightsConfirmed": true,
+      "rightsRecord": "PHOTOGRAPHY_NINE_FOUNDER_RIGHTS_2026-10-15.json",
+      "publicationStatus": "Integrated; release checks and deployment pending"
+    },
+    {
+      "brand": "Panerai",
+      "reference": "PAM01641",
+      "exactSKU": "PAM01641",
+      "sourceProvider": "Panerai Mexico",
+      "sourceUrl": "https://www.panerai.com.mx/pam01641/p",
+      "sourcePagePath": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\retailer-source-panerai-PAM01641-554584a9.html",
+      "sourcePageSha256": "8febc9dca19f176643aaebf52ed4e514edfd8d2dad107b5493a68f4bd3e1175e",
+      "imageUrl": "https://paneraimx.vteximg.com.br/arquivos/ids/156380-1000-1000/PAM01641_FRONT_D.png?v=638652233705300000",
+      "checkedAt": "2026-10-15T10:47:42.518260+00:00",
+      "rightsStatus": "Founder explicitly confirmed this exact original and white derivatives for commercial Quest Luxo website use; no additional restrictions",
+      "reviewStatus": "Untouched original and final1200WEB individually visually compared; complete watch, dial, case, strap and exact source SKU verified. Rights pending; not approved for website.",
+      "size": [
+        1000,
+        1000
+      ],
+      "mode": "P",
+      "path": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\next-five-native-originals\\PAM01641-raw.png",
+      "sha256": "85e8475c0222699aad1c700d62fc0f3a2c6476be6cff438347cfff2ec97347d9",
+      "status": "Authentic source photograph acquired; unchanged delivered bytes",
+      "whiteMaster": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\rolex-panerai-eight-white\\PAM01641-white-master.png",
+      "webDerivative": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\rolex-panerai-eight-white\\PAM01641-web.webp",
+      "masterSha256": "bd2ddf5052c55e0dcece488a20f8ecf57934a67115a5860d4cd3d70413cb84e5",
+      "derivativeSha256": "9767844fdbf7dc81b18589bfa57f9fe14cde10b0d8060b500b7ba72cf7b26970",
+      "foregroundBounds": [
+        228,
+        8,
+        802,
+        988
+      ],
+      "collection": "Luminor GMT",
+      "canonicalRoute": "/collections/panerai/luminor-gmt/pam01641",
+      "catalogMaterial": "Goldtech",
+      "catalogConfigurations": [
+        {
+          "caseSize": "40 mm",
+          "movement": "P.900/GMT automatic",
+          "dial": "Black",
+          "bracelet": "Black alligator leather strap; additional rubber strap",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "picturedConfiguration": {
+        "caseSize": "40 mm",
+        "movement": "P.900/GMT automatic",
+        "dial": "Black",
+        "bracelet": "Black alligator leather strap"
+      },
+      "websiteApproved": false,
+      "visualReviewPassed": true,
+      "exactSkuVerified": true,
+      "processing": "Rolex: classical connected exterior silhouette against dark studio background, filled interior preserves original watch RGB; separate external CPO badge retained in untouched RAW and excluded with background. Panerai: only opaque external white side-padding cropped, genuine native watch alpha retained. Complete watch centered on2400 white master and1200 WEB; no AI, colour changes or reconstructed detail.",
+      "reviewedAt": "2026-10-15T11:13:20.912914+00:00",
+      "rawDriveFileId": "1FrunD7dL0hw-nKjzAoSiqYemm6OK1AmQ",
+      "masterDriveFileId": "1unU7_nNhkMkc1z-HRkvw84UMqqzT2FNq",
+      "webDriveFileId": "1c0kIhI600rCmo3e1sZCijcC2rsukb31I",
+      "driveFiles": {
+        "raw": {
+          "id": "1FrunD7dL0hw-nKjzAoSiqYemm6OK1AmQ"
+        },
+        "master": {
+          "id": "1unU7_nNhkMkc1z-HRkvw84UMqqzT2FNq"
+        },
+        "web": {
+          "id": "1c0kIhI600rCmo3e1sZCijcC2rsukb31I"
+        }
+      },
+      "commercialUseRightsConfirmed": true,
+      "rightsRecord": "PHOTOGRAPHY_NINE_FOUNDER_RIGHTS_2026-10-15.json",
+      "publicationStatus": "Integrated; release checks and deployment pending"
+    },
+    {
+      "brand": "Omega",
+      "reference": "434.13.41.20.10.001",
+      "exactSKU": "434.13.41.20.10.001",
+      "sourceProvider": "Galli",
+      "sourceUrl": "https://galli.ch/uhren/omega/de-ville/prestige-co-axial-master-chronometer-small-seconds-41-434-13-41-20-10-001/",
+      "sourcePagePath": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\retailer-source-omega-434.13.41.20.10.001-82c37acf.html",
+      "sourcePageSha256": "3d8bed6324af71d4e109c68da6991a09e22441c5104966fff37a4d984523963c",
+      "imageUrl": "https://galli.ch/wp-content/uploads/omega-de-ville-prestige-co-axial-master-chronometer-small-seconds-41-mm-43413412010001-1-product-zoom.png",
+      "checkedAt": "2026-10-15T11:18:21.194771+00:00",
+      "rightsStatus": "Founder explicitly confirmed this exact original and white derivatives for commercial Quest Luxo website use; no additional restrictions",
+      "reviewStatus": "Untouched1000x1400 front and final1200WEB individually reviewed: complete watch and strap ends, centered clean white, native alpha and RGB preserved. Exact SKU and pine-green/steel/green-leather configuration source verified. Rights pending; not published.",
+      "size": [
+        1000,
+        1400
+      ],
+      "mode": "P",
+      "path": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\omega-green-deville-three-originals\\434.13.41.20.10.001-GALLI-ZOOM-raw.png",
+      "sha256": "a843a05fee8e222fa8699a04473079378cb226dadeac6aad1b2e1e34c89f62a4",
+      "status": "Authentic retailer-hosted original; untouched delivered bytes",
+      "whiteMaster": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\galli-green-deville-white\\434.13.41.20.10.001-white-master.png",
+      "webDerivative": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\galli-green-deville-white\\434.13.41.20.10.001-web.webp",
+      "masterSha256": "8b30b2c1921d90470f502af5b3adb5dde4caa8330f3847739bb392437214d968",
+      "derivativeSha256": "c3bf57b2705e32f403e197c58eac18f7c030b681c81d3c6953f7d4f501dd4e62",
+      "collection": "De Ville Prestige",
+      "canonicalRoute": "/collections/omega/de-ville-prestige/434-13-41-20-10-001",
+      "catalogMaterial": "Stainless Steel",
+      "catalogConfigurations": [
+        {
+          "caseSize": "41 mm",
+          "movement": "Omega 8802 automatic",
+          "dial": "Pine green non-wave",
+          "bracelet": "Green leather strap",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "picturedConfiguration": {
+        "caseSize": "41 mm",
+        "movement": "Omega 8802 automatic",
+        "dial": "Pine green non-wave",
+        "bracelet": "Green leather strap"
+      },
+      "foregroundBounds": [
+        128,
+        1,
+        905,
+        1396
+      ],
+      "websiteApproved": false,
+      "visualReviewPassed": true,
+      "exactSkuVerified": true,
+      "processing": "Native alpha preserved, original RGB unchanged. Entire original watch within source bounds; centered on2400 white master and1200WEB. No AI or reconstruction.",
+      "reviewedAt": "2026-10-15T11:20:53.988249+00:00",
+      "rawDriveFileId": "1X9pBGw-7_dGBLolfdxm_I0yk3rtH122b",
+      "masterDriveFileId": "1SAnqtYDgQjHKjiXEVVZz7Lz2LTT-w-GU",
+      "webDriveFileId": "1p8yvkkEdaHo_z6UtnsYdsIDSFabtMwZz",
+      "driveFiles": {
+        "raw": {
+          "id": "1X9pBGw-7_dGBLolfdxm_I0yk3rtH122b"
+        },
+        "master": {
+          "id": "1SAnqtYDgQjHKjiXEVVZz7Lz2LTT-w-GU"
+        },
+        "web": {
+          "id": "1p8yvkkEdaHo_z6UtnsYdsIDSFabtMwZz"
+        }
+      },
+      "commercialUseRightsConfirmed": true,
+      "rightsRecord": "PHOTOGRAPHY_NINE_FOUNDER_RIGHTS_2026-10-15.json",
+      "publicationStatus": "Integrated; release checks and deployment pending"
+    }
+  ],
+  "websitePublished": false,
+  "rightsHeldSets": 0,
+  "approvedForPublication": true,
+  "founderRightsRecord": "PHOTOGRAPHY_NINE_FOUNDER_RIGHTS_2026-10-15.json",
+  "publicationStatus": "Integrated; checks and deployment pending",
+  "founderRightsDriveFileId": "1XMdtfeg1qIYj_zFyFM1wwFHmMs1nbCwt"
+}

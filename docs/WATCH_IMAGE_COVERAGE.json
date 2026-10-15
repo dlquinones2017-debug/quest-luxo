@@ -1,14 +1,14 @@
 {
-  "reviewedAt": "2026-10-15T10:38:29.565Z",
+  "reviewedAt": "2026-10-15T21:27:47.587Z",
   "note": "Generated from all exported source datasets and built routes. Source-only and duplicate configuration records are retained for review; this register is not proof of image rights. Source URLs identify research leads, not licenses.",
   "summary": {
-    "sourceConfigurations": 805,
+    "sourceConfigurations": 828,
     "builtReferenceRoutes": 268,
-    "collectionRoutes": 103,
-    "approvedReferenceConfigurations": 375,
+    "collectionRoutes": 102,
+    "approvedReferenceConfigurations": 393,
     "unmatchedReferenceRoutes": 0,
-    "approvedCanonicalReferenceRoutes": 189,
-    "queuedCanonicalReferenceRoutes": 79
+    "approvedCanonicalReferenceRoutes": 198,
+    "queuedCanonicalReferenceRoutes": 70
   },
   "collections": [
     {
@@ -273,6 +273,7 @@
       "heroAssetId": null,
       "status": "Requires Verification",
       "referenceRoutes": [
+        "/collections/franck-muller/vanguard/v-45-t-br-tt",
         "/collections/franck-muller/vanguard/v45"
       ],
       "nextAction": "Select one exact-reference hero from approved reference photography; label the depicted configuration."
@@ -302,15 +303,6 @@
       "referenceRoutes": [
         "/collections/franck-muller/vanguard-smurfette/v-32-sc-at-fo-smurfette-bl",
         "/collections/franck-muller/vanguard-smurfette/v-32-sc-at-fo-smurfette-rs"
-      ],
-      "nextAction": "Select one exact-reference hero from approved reference photography; label the depicted configuration."
-    },
-    {
-      "route": "/collections/franck-muller/vanguard-tourbillon",
-      "heroAssetId": null,
-      "status": "Requires Verification",
-      "referenceRoutes": [
-        "/collections/franck-muller/vanguard-tourbillon/v-45-t-br-tt"
       ],
       "nextAction": "Select one exact-reference hero from approved reference photography; label the depicted configuration."
     },
@@ -1509,8 +1501,7 @@
       ],
       "material": "Oystersteel",
       "sources": [
-        "src/data/assets/rolex-daytona.ts",
-        "src/data/collectionRegistry.ts"
+        "src/data/assets/rolex-daytona.ts"
       ],
       "routes": [
         "/collections/rolex/daytona/116520"
@@ -1685,8 +1676,7 @@
       ],
       "material": "Oystersteel",
       "sources": [
-        "src/data/assets/rolex-gmt-master-ii.ts",
-        "src/data/collectionRegistry.ts"
+        "src/data/assets/rolex-gmt-master-ii.ts"
       ],
       "routes": [
         "/collections/rolex/gmt-master-ii/126710blro"
@@ -1861,8 +1851,7 @@
       ],
       "material": "Oystersteel",
       "sources": [
-        "src/data/assets/rolex-gmt-master-ii.ts",
-        "src/data/collectionRegistry.ts"
+        "src/data/assets/rolex-gmt-master-ii.ts"
       ],
       "routes": [
         "/collections/rolex/gmt-master-ii/116710blnr"
@@ -1891,8 +1880,7 @@
       ],
       "material": "Oystersteel",
       "sources": [
-        "src/data/assets/rolex-gmt-master-ii.ts",
-        "src/data/collectionRegistry.ts"
+        "src/data/assets/rolex-gmt-master-ii.ts"
       ],
       "routes": [
         "/collections/rolex/gmt-master-ii/116710ln"
@@ -3292,6 +3280,43 @@
     {
       "brand": "Rolex",
       "collection": "GMT-Master II",
+      "reference": "126710BLRO",
+      "configurations": [
+        {
+          "nickname": "Pepsi",
+          "dial": "Black",
+          "bracelet": "Jubilee or Oyster",
+          "originalMSRP": null
+        },
+        {
+          "dial": "Black",
+          "bracelet": "Oyster",
+          "caseSize": "40 mm",
+          "nickname": "Black / Oyster",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "Oystersteel",
+      "sources": [
+        "src/data/collectionRegistry.ts"
+      ],
+      "routes": [
+        "/collections/rolex/gmt-master-ii/126710blro"
+      ],
+      "scope": "built-reference",
+      "existingImage": "/images/watches/rolex/reviewed-126710blro-white-web.webp",
+      "existingImageFilePresent": true,
+      "photoAssetId": "cleared-nine-1chIHABPvHKFOpnh-lHY4CKGXkj8Q3veX",
+      "status": "approved",
+      "sourceUrl": "https://www.the1916company.com/rolex-certified-pre-owned/gmt-master-ii/5077201/",
+      "licenseRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for these exact nine originals and white-background derivatives with no additional restrictions on October15,2026 Eastern. Record docs/PHOTOGRAPHY_NINE_FOUNDER_RIGHTS_2026-10-15.json. Authentic complete RAW and final white WEB individually visually reviewed; source credits retained separately. Preserved RAW file: 1chIHABPvHKFOpnh-lHY4CKGXkj8Q3veX. Pictured full reference 126710BLRO-0002; Oystersteel, Black, Oyster. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
+      "brand": "Rolex",
+      "collection": "GMT-Master II",
       "reference": "126710BLNR",
       "configurations": [
         {
@@ -3451,6 +3476,68 @@
     },
     {
       "brand": "Rolex",
+      "collection": "GMT-Master II",
+      "reference": "116710BLNR",
+      "configurations": [
+        {
+          "nickname": "Black / Oyster",
+          "dial": "Black",
+          "bracelet": "Oyster",
+          "originalMSRP": null,
+          "caseSize": "40 mm",
+          "currentMSRP": null
+        }
+      ],
+      "material": "Oystersteel",
+      "sources": [
+        "src/data/collectionRegistry.ts"
+      ],
+      "routes": [
+        "/collections/rolex/gmt-master-ii/116710blnr"
+      ],
+      "scope": "built-reference",
+      "existingImage": "/images/watches/rolex/reviewed-116710blnr-white-web.webp",
+      "existingImageFilePresent": true,
+      "photoAssetId": "cleared-nine-1M52sjy7nkxx59Pn2GtcOZa0tcN1teLRM",
+      "status": "approved",
+      "sourceUrl": "https://www.the1916company.com/rolex-certified-pre-owned/gmt-master-ii/5078846/",
+      "licenseRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for these exact nine originals and white-background derivatives with no additional restrictions on October15,2026 Eastern. Record docs/PHOTOGRAPHY_NINE_FOUNDER_RIGHTS_2026-10-15.json. Authentic complete RAW and final white WEB individually visually reviewed; source credits retained separately. Preserved RAW file: 1M52sjy7nkxx59Pn2GtcOZa0tcN1teLRM. Pictured full reference 116710BLNR-0002; Oystersteel, Black, Oyster. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
+      "brand": "Rolex",
+      "collection": "GMT-Master II",
+      "reference": "116710LN",
+      "configurations": [
+        {
+          "nickname": "Black / Oyster",
+          "dial": "Black",
+          "bracelet": "Oyster",
+          "originalMSRP": null,
+          "caseSize": "40 mm",
+          "currentMSRP": null
+        }
+      ],
+      "material": "Oystersteel",
+      "sources": [
+        "src/data/collectionRegistry.ts"
+      ],
+      "routes": [
+        "/collections/rolex/gmt-master-ii/116710ln"
+      ],
+      "scope": "built-reference",
+      "existingImage": "/images/watches/rolex/reviewed-116710ln-white-web.webp",
+      "existingImageFilePresent": true,
+      "photoAssetId": "cleared-nine-1YgpzqiySv7YfYcUpFnuQbm5jBGRVixkg",
+      "status": "approved",
+      "sourceUrl": "https://www.the1916company.com/rolex-certified-pre-owned/gmt-master-ii/5073462/",
+      "licenseRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for these exact nine originals and white-background derivatives with no additional restrictions on October15,2026 Eastern. Record docs/PHOTOGRAPHY_NINE_FOUNDER_RIGHTS_2026-10-15.json. Authentic complete RAW and final white WEB individually visually reviewed; source credits retained separately. Preserved RAW file: 1YgpzqiySv7YfYcUpFnuQbm5jBGRVixkg. Pictured full reference 116710LN-0001; Oystersteel, Black, Oyster. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
+      "brand": "Rolex",
       "collection": "Daytona",
       "reference": "126500LN",
       "configurations": [
@@ -3483,6 +3570,43 @@
       "status": "approved",
       "sourceUrl": "https://www.rolex.com/en-us/watches/cosmograph-daytona/m126500ln-0001",
       "licenseRecord": "Founder confirmed Quest Luxo website-use permission for existing Drive manufacturer photographs on October 13, 2026. Preserved RAW file: 1SNt_1pPAHb_rOoP8NBHIOeqPVG6gNpeO. Pictured full reference 126500LN; Oystersteel, White, Oyster. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
+      "brand": "Rolex",
+      "collection": "Daytona",
+      "reference": "116520",
+      "configurations": [
+        {
+          "nickname": "Steel Bezel Daytona",
+          "dial": "White or Black",
+          "bracelet": "Oyster",
+          "originalMSRP": null
+        },
+        {
+          "dial": "Black",
+          "bracelet": "Oyster",
+          "caseSize": "40 mm",
+          "nickname": "Black / Oyster",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "Oystersteel",
+      "sources": [
+        "src/data/collectionRegistry.ts"
+      ],
+      "routes": [
+        "/collections/rolex/daytona/116520"
+      ],
+      "scope": "built-reference",
+      "existingImage": "/images/watches/rolex/reviewed-116520-white-web.webp",
+      "existingImageFilePresent": true,
+      "photoAssetId": "cleared-nine-1KnjAq-sgzhXdr0dI0PrP_5q8KqNqOmUY",
+      "status": "approved",
+      "sourceUrl": "https://www.the1916company.com/rolex-certified-pre-owned/daytona/5059316/",
+      "licenseRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for these exact nine originals and white-background derivatives with no additional restrictions on October15,2026 Eastern. Record docs/PHOTOGRAPHY_NINE_FOUNDER_RIGHTS_2026-10-15.json. Authentic complete RAW and final white WEB individually visually reviewed; source credits retained separately. Preserved RAW file: 1KnjAq-sgzhXdr0dI0PrP_5q8KqNqOmUY. Pictured full reference 116520-0015; Oystersteel, Black, Oyster. Exact configuration reviewed against preserved source evidence and the original photograph.",
       "websiteApproved": true,
       "nextAction": "Retain approved original and verify derivative integrity."
     },
@@ -3710,10 +3834,12 @@
       "reference": "116610LV",
       "configurations": [
         {
-          "nickname": "Hulk",
+          "nickname": "Green / Oyster",
           "dial": "Green",
           "bracelet": "Oyster",
-          "originalMSRP": null
+          "originalMSRP": null,
+          "caseSize": "40 mm",
+          "currentMSRP": null
         }
       ],
       "material": "Oystersteel",
@@ -3724,14 +3850,14 @@
         "/collections/rolex/submariner/116610lv"
       ],
       "scope": "built-reference",
-      "existingImage": "/images/watch-reference-placeholder.svg",
+      "existingImage": "/images/watches/rolex/reviewed-116610lv-white-web.webp",
       "existingImageFilePresent": true,
-      "photoAssetId": null,
-      "status": "Requires Verification",
-      "sourceUrl": null,
-      "licenseRecord": null,
-      "websiteApproved": false,
-      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+      "photoAssetId": "cleared-nine-17jFt18kdnucTOPqXxdQUd3zIM3dkRByI",
+      "status": "approved",
+      "sourceUrl": "https://www.the1916company.com/rolex-certified-pre-owned/submariner/5077993/",
+      "licenseRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for these exact nine originals and white-background derivatives with no additional restrictions on October15,2026 Eastern. Record docs/PHOTOGRAPHY_NINE_FOUNDER_RIGHTS_2026-10-15.json. Authentic complete RAW and final white WEB individually visually reviewed; source credits retained separately. Preserved RAW file: 17jFt18kdnucTOPqXxdQUd3zIM3dkRByI. Pictured full reference 116610LV-0002; Oystersteel, Green, Oyster. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
     },
     {
       "brand": "Rolex",
@@ -4476,6 +4602,14 @@
           "dial": "Multiple Dial Options",
           "bracelet": "Oyster / Jubilee",
           "originalMSRP": null
+        },
+        {
+          "dial": "White",
+          "bracelet": "Jubilee",
+          "caseSize": "42 mm",
+          "nickname": "White / Jubilee",
+          "originalMSRP": null,
+          "currentMSRP": null
         }
       ],
       "material": "Oystersteel / White Gold",
@@ -4486,14 +4620,14 @@
         "/collections/rolex/sky-dweller/326934"
       ],
       "scope": "built-reference",
-      "existingImage": "/images/watch-reference-placeholder.svg",
+      "existingImage": "/images/watches/rolex/reviewed-326934-white-web.webp",
       "existingImageFilePresent": true,
-      "photoAssetId": null,
-      "status": "Requires Verification",
-      "sourceUrl": null,
-      "licenseRecord": null,
-      "websiteApproved": false,
-      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+      "photoAssetId": "cleared-nine-1jqHp2GYHDwVwKf8t2wVPTJY_v4bw7Oj3",
+      "status": "approved",
+      "sourceUrl": "https://www.the1916company.com/rolex-certified-pre-owned/sky-dweller/5076865/",
+      "licenseRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for these exact nine originals and white-background derivatives with no additional restrictions on October15,2026 Eastern. Record docs/PHOTOGRAPHY_NINE_FOUNDER_RIGHTS_2026-10-15.json. Authentic complete RAW and final white WEB individually visually reviewed; source credits retained separately. Preserved RAW file: 1jqHp2GYHDwVwKf8t2wVPTJY_v4bw7Oj3. Pictured full reference 326934-0002; Oystersteel / White Gold, White, Jubilee. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
     },
     {
       "brand": "Rolex",
@@ -5021,6 +5155,14 @@
           "dial": "Configuration details available through private advisory",
           "bracelet": "Reference dependent",
           "originalMSRP": null
+        },
+        {
+          "dial": "Black",
+          "bracelet": "Oyster",
+          "caseSize": "40 mm",
+          "nickname": "Black / Oyster",
+          "originalMSRP": null,
+          "currentMSRP": null
         }
       ],
       "material": "Oystersteel",
@@ -5031,14 +5173,14 @@
         "/collections/rolex/milgauss/116400gv"
       ],
       "scope": "built-reference",
-      "existingImage": "/images/watch-reference-placeholder.svg",
+      "existingImage": "/images/watches/rolex/reviewed-116400gv-white-web.webp",
       "existingImageFilePresent": true,
-      "photoAssetId": null,
-      "status": "Requires Verification",
-      "sourceUrl": null,
-      "licenseRecord": null,
-      "websiteApproved": false,
-      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+      "photoAssetId": "cleared-nine-1b_4BYcLpF1JMlRe2H8PKBGR56en_mzD_",
+      "status": "approved",
+      "sourceUrl": "https://www.the1916company.com/rolex-certified-pre-owned/milgauss/5079641/",
+      "licenseRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for these exact nine originals and white-background derivatives with no additional restrictions on October15,2026 Eastern. Record docs/PHOTOGRAPHY_NINE_FOUNDER_RIGHTS_2026-10-15.json. Authentic complete RAW and final white WEB individually visually reviewed; source credits retained separately. Preserved RAW file: 1b_4BYcLpF1JMlRe2H8PKBGR56en_mzD_. Pictured full reference 116400GV-0001; Oystersteel, Black, Oyster. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
     },
     {
       "brand": "Patek Philippe",
@@ -6510,6 +6652,38 @@
       "status": "approved",
       "sourceUrl": "https://www.franckmuller.com/vanguard",
       "licenseRecord": "Founder confirmed Quest Luxo website-use permission for manufacturer photographs already in Drive on October 13, 2026. Existing RAW readback and every decoded RGBA pixel match the observed exact-SKU manufacturer resource. Identity hold resolved in docs/PHOTOGRAPHY_VANGUARD_RECOVERY_2026-10-14.json. No new third-party permission is inferred. Preserved RAW file: 1qkB2JuO9xfJB_PTGc6N49px4xnhPqIBq. Pictured full reference V 45 SC DT TT NR BR ER; Black titanium, Black with red-outlined white Arabic numerals, Black textured strap with red stitching. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
+      "brand": "Franck Muller",
+      "collection": "Vanguard",
+      "reference": "V 45 T BR (TT)",
+      "configurations": [
+        {
+          "dial": "Black with open tourbillon and red accents",
+          "bracelet": "Black textured strap",
+          "movement": "Mechanical tourbillon",
+          "nickname": "Black with open tourbillon and red accents / Black textured strap",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "Titanium",
+      "sources": [
+        "src/data/collectionRegistry.ts",
+        "src/data/photography-expansion.ts"
+      ],
+      "routes": [
+        "/collections/franck-muller/vanguard/v-45-t-br-tt"
+      ],
+      "scope": "built-reference",
+      "existingImage": "/images/watches/franck-muller/reviewed-v-45-t-br-tt-white-web.webp",
+      "existingImageFilePresent": true,
+      "photoAssetId": "cleared-additional35-1Tt7OFNa4PS-qKHd1aQXa5-_Vw0TKlL_y",
+      "status": "approved",
+      "sourceUrl": "https://www.franckmuller.com/vanguard",
+      "licenseRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for these exact 35 originals and their white-background derivatives, with no additional restrictions, in the existing Website/Product chat on October 14, 2026. Record docs/PHOTOGRAPHY_ADDITIONAL35_FOUNDER_RIGHTS_2026-10-14.json. Exact configuration, authentic RAW and full-resolution derivative visually reviewed; source credits retained separately. Preserved RAW file: 1Tt7OFNa4PS-qKHd1aQXa5-_Vw0TKlL_y. Pictured full reference V 45 T BR (TT); Titanium, Black with open tourbillon and red accents, Black textured strap. Exact configuration reviewed against preserved source evidence and the original photograph.",
       "websiteApproved": true,
       "nextAction": "Retain approved original and verify derivative integrity."
     },
@@ -11183,45 +11357,6 @@
     },
     {
       "brand": "Franck Muller",
-      "collection": "Vanguard Tourbillon",
-      "reference": "V 45 T BR (TT)",
-      "configurations": [
-        {
-          "caseSize": "Model-dependent",
-          "movement": "Mechanical tourbillon",
-          "dial": "Open tourbillon",
-          "bracelet": "Model-dependent",
-          "originalMSRP": null,
-          "currentMSRP": null
-        },
-        {
-          "dial": "Black with open tourbillon and red accents",
-          "bracelet": "Black textured strap",
-          "movement": "Mechanical tourbillon",
-          "nickname": "Black with open tourbillon and red accents / Black textured strap",
-          "originalMSRP": null,
-          "currentMSRP": null
-        }
-      ],
-      "material": "Titanium",
-      "sources": [
-        "src/data/collectionRegistry.ts"
-      ],
-      "routes": [
-        "/collections/franck-muller/vanguard-tourbillon/v-45-t-br-tt"
-      ],
-      "scope": "built-reference",
-      "existingImage": "/images/watches/franck-muller/reviewed-v-45-t-br-tt-white-web.webp",
-      "existingImageFilePresent": true,
-      "photoAssetId": "cleared-additional35-1Tt7OFNa4PS-qKHd1aQXa5-_Vw0TKlL_y",
-      "status": "approved",
-      "sourceUrl": "https://www.franckmuller.com/vanguard",
-      "licenseRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for these exact 35 originals and their white-background derivatives, with no additional restrictions, in the existing Website/Product chat on October 14, 2026. Record docs/PHOTOGRAPHY_ADDITIONAL35_FOUNDER_RIGHTS_2026-10-14.json. Exact configuration, authentic RAW and full-resolution derivative visually reviewed; source credits retained separately. Preserved RAW file: 1Tt7OFNa4PS-qKHd1aQXa5-_Vw0TKlL_y. Pictured full reference V 45 T BR (TT); Titanium, Black with open tourbillon and red accents, Black textured strap. Exact configuration reviewed against preserved source evidence and the original photograph.",
-      "websiteApproved": true,
-      "nextAction": "Retain approved original and verify derivative integrity."
-    },
-    {
-      "brand": "Franck Muller",
       "collection": "Vanguard Beach",
       "reference": "V 41 SC DT BEACH BU BL GF1",
       "configurations": [
@@ -11496,25 +11631,33 @@
           "bracelet": "Black alligator leather strap; additional rubber strap",
           "originalMSRP": null,
           "currentMSRP": null
+        },
+        {
+          "caseSize": "40 mm",
+          "movement": "P.900/GMT automatic",
+          "dial": "Black",
+          "bracelet": "Black alligator leather strap",
+          "nickname": "Black / Black alligator leather strap",
+          "originalMSRP": null,
+          "currentMSRP": null
         }
       ],
       "material": "Goldtech",
       "sources": [
-        "src/data/collectionRegistry.ts",
-        "src/data/verified-catalog-expansion.ts"
+        "src/data/collectionRegistry.ts"
       ],
       "routes": [
         "/collections/panerai/luminor-gmt/pam01641"
       ],
       "scope": "built-reference",
-      "existingImage": "/images/watch-reference-placeholder.svg",
+      "existingImage": "/images/watches/panerai/reviewed-pam01641-white-web.webp",
       "existingImageFilePresent": true,
-      "photoAssetId": null,
-      "status": "Requires Verification",
-      "sourceUrl": "https://www.panerai.com/us/en/collections/watch-collection/luminor/pam01641-luminor-gmt.html",
-      "licenseRecord": null,
-      "websiteApproved": false,
-      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+      "photoAssetId": "cleared-nine-1FrunD7dL0hw-nKjzAoSiqYemm6OK1AmQ",
+      "status": "approved",
+      "sourceUrl": "https://www.panerai.com.mx/pam01641/p",
+      "licenseRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for these exact nine originals and white-background derivatives with no additional restrictions on October15,2026 Eastern. Record docs/PHOTOGRAPHY_NINE_FOUNDER_RIGHTS_2026-10-15.json. Authentic complete RAW and final white WEB individually visually reviewed; source credits retained separately. Preserved RAW file: 1FrunD7dL0hw-nKjzAoSiqYemm6OK1AmQ. Pictured full reference PAM01641; Goldtech, Black, Black alligator leather strap. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
     },
     {
       "brand": "Panerai",
@@ -12071,26 +12214,26 @@
           "dial": "Pine green non-wave",
           "bracelet": "Green leather strap",
           "originalMSRP": null,
-          "currentMSRP": null
+          "currentMSRP": null,
+          "nickname": "Pine green non-wave / Green leather strap"
         }
       ],
       "material": "Stainless Steel",
       "sources": [
-        "src/data/collectionRegistry.ts",
-        "src/data/verified-catalog-expansion.ts"
+        "src/data/collectionRegistry.ts"
       ],
       "routes": [
         "/collections/omega/de-ville-prestige/434-13-41-20-10-001"
       ],
       "scope": "built-reference",
-      "existingImage": "/images/watch-reference-placeholder.svg",
+      "existingImage": "/images/watches/omega/reviewed-434-13-41-20-10-001-white-web.webp",
       "existingImageFilePresent": true,
-      "photoAssetId": null,
-      "status": "Requires Verification",
-      "sourceUrl": "https://www.omegawatches.com.hk/en-hk/watch-omega-de-ville-prestige-co-axial-master-chronometer-small-seconds-41-mm-43413412010001",
-      "licenseRecord": null,
-      "websiteApproved": false,
-      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+      "photoAssetId": "cleared-nine-1X9pBGw-7_dGBLolfdxm_I0yk3rtH122b",
+      "status": "approved",
+      "sourceUrl": "https://galli.ch/uhren/omega/de-ville/prestige-co-axial-master-chronometer-small-seconds-41-434-13-41-20-10-001/",
+      "licenseRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for these exact nine originals and white-background derivatives with no additional restrictions on October15,2026 Eastern. Record docs/PHOTOGRAPHY_NINE_FOUNDER_RIGHTS_2026-10-15.json. Authentic complete RAW and final white WEB individually visually reviewed; source credits retained separately. Preserved RAW file: 1X9pBGw-7_dGBLolfdxm_I0yk3rtH122b. Pictured full reference 434.13.41.20.10.001; Stainless Steel, Pine green non-wave, Green leather strap. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
     },
     {
       "brand": "Omega",
@@ -15771,7 +15914,7 @@
     },
     {
       "brand": "Franck Muller",
-      "collection": "Vanguard Tourbillon",
+      "collection": "Vanguard",
       "reference": "V 45 T BR (TT)",
       "configurations": [],
       "material": "Titanium",
@@ -15779,7 +15922,7 @@
         "src/data/photography-cleared-sprint.ts"
       ],
       "routes": [
-        "/collections/franck-muller/vanguard-tourbillon/v-45-t-br-tt"
+        "/collections/franck-muller/vanguard/v-45-t-br-tt"
       ],
       "scope": "built-reference",
       "existingImage": null,
@@ -16330,6 +16473,204 @@
       ],
       "routes": [
         "/collections/tag-heuer/monaco/cbl2111-fc6453"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": null,
+      "status": "Requires Verification",
+      "sourceUrl": null,
+      "licenseRecord": null,
+      "websiteApproved": false,
+      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+    },
+    {
+      "brand": "Rolex",
+      "collection": "GMT-Master II",
+      "reference": "116710LN",
+      "configurations": [],
+      "material": "Oystersteel",
+      "sources": [
+        "src/data/photography-cleared-sprint.ts"
+      ],
+      "routes": [
+        "/collections/rolex/gmt-master-ii/116710ln"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": null,
+      "status": "Requires Verification",
+      "sourceUrl": null,
+      "licenseRecord": null,
+      "websiteApproved": false,
+      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+    },
+    {
+      "brand": "Rolex",
+      "collection": "GMT-Master II",
+      "reference": "126710BLRO",
+      "configurations": [],
+      "material": "Oystersteel",
+      "sources": [
+        "src/data/photography-cleared-sprint.ts"
+      ],
+      "routes": [
+        "/collections/rolex/gmt-master-ii/126710blro"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": null,
+      "status": "Requires Verification",
+      "sourceUrl": null,
+      "licenseRecord": null,
+      "websiteApproved": false,
+      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+    },
+    {
+      "brand": "Rolex",
+      "collection": "Submariner",
+      "reference": "116610LV",
+      "configurations": [],
+      "material": "Oystersteel",
+      "sources": [
+        "src/data/photography-cleared-sprint.ts"
+      ],
+      "routes": [
+        "/collections/rolex/submariner/116610lv"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": null,
+      "status": "Requires Verification",
+      "sourceUrl": null,
+      "licenseRecord": null,
+      "websiteApproved": false,
+      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+    },
+    {
+      "brand": "Rolex",
+      "collection": "Sky-Dweller",
+      "reference": "326934",
+      "configurations": [],
+      "material": "Oystersteel / White Gold",
+      "sources": [
+        "src/data/photography-cleared-sprint.ts"
+      ],
+      "routes": [
+        "/collections/rolex/sky-dweller/326934"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": null,
+      "status": "Requires Verification",
+      "sourceUrl": null,
+      "licenseRecord": null,
+      "websiteApproved": false,
+      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+    },
+    {
+      "brand": "Rolex",
+      "collection": "Daytona",
+      "reference": "116520",
+      "configurations": [],
+      "material": "Oystersteel",
+      "sources": [
+        "src/data/photography-cleared-sprint.ts"
+      ],
+      "routes": [
+        "/collections/rolex/daytona/116520"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": null,
+      "status": "Requires Verification",
+      "sourceUrl": null,
+      "licenseRecord": null,
+      "websiteApproved": false,
+      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+    },
+    {
+      "brand": "Rolex",
+      "collection": "Milgauss",
+      "reference": "116400GV",
+      "configurations": [],
+      "material": "Oystersteel",
+      "sources": [
+        "src/data/photography-cleared-sprint.ts"
+      ],
+      "routes": [
+        "/collections/rolex/milgauss/116400gv"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": null,
+      "status": "Requires Verification",
+      "sourceUrl": null,
+      "licenseRecord": null,
+      "websiteApproved": false,
+      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+    },
+    {
+      "brand": "Rolex",
+      "collection": "GMT-Master II",
+      "reference": "116710BLNR",
+      "configurations": [],
+      "material": "Oystersteel",
+      "sources": [
+        "src/data/photography-cleared-sprint.ts"
+      ],
+      "routes": [
+        "/collections/rolex/gmt-master-ii/116710blnr"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": null,
+      "status": "Requires Verification",
+      "sourceUrl": null,
+      "licenseRecord": null,
+      "websiteApproved": false,
+      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+    },
+    {
+      "brand": "Panerai",
+      "collection": "Luminor GMT",
+      "reference": "PAM01641",
+      "configurations": [],
+      "material": "Goldtech",
+      "sources": [
+        "src/data/photography-cleared-sprint.ts"
+      ],
+      "routes": [
+        "/collections/panerai/luminor-gmt/pam01641"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": null,
+      "status": "Requires Verification",
+      "sourceUrl": null,
+      "licenseRecord": null,
+      "websiteApproved": false,
+      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+    },
+    {
+      "brand": "Omega",
+      "collection": "De Ville Prestige",
+      "reference": "434.13.41.20.10.001",
+      "configurations": [],
+      "material": "Stainless Steel",
+      "sources": [
+        "src/data/photography-cleared-sprint.ts"
+      ],
+      "routes": [
+        "/collections/omega/de-ville-prestige/434-13-41-20-10-001"
       ],
       "scope": "built-reference",
       "existingImage": null,
@@ -19150,37 +19491,6 @@
       "nextAction": "Retain approved original and verify derivative integrity."
     },
     {
-      "brand": "Franck Muller",
-      "collection": "Vanguard Tourbillon",
-      "reference": "V 45 T BR (TT)",
-      "configurations": [
-        {
-          "dial": "Black with open tourbillon and red accents",
-          "bracelet": "Black textured strap",
-          "movement": "Mechanical tourbillon",
-          "nickname": "Black with open tourbillon and red accents / Black textured strap",
-          "originalMSRP": null,
-          "currentMSRP": null
-        }
-      ],
-      "material": "Titanium",
-      "sources": [
-        "src/data/photography-expansion.ts"
-      ],
-      "routes": [
-        "/collections/franck-muller/vanguard-tourbillon/v-45-t-br-tt"
-      ],
-      "scope": "built-reference",
-      "existingImage": null,
-      "existingImageFilePresent": false,
-      "photoAssetId": "cleared-additional35-1Tt7OFNa4PS-qKHd1aQXa5-_Vw0TKlL_y",
-      "status": "approved",
-      "sourceUrl": "https://www.franckmuller.com/vanguard",
-      "licenseRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for these exact 35 originals and their white-background derivatives, with no additional restrictions, in the existing Website/Product chat on October 14, 2026. Record docs/PHOTOGRAPHY_ADDITIONAL35_FOUNDER_RIGHTS_2026-10-14.json. Exact configuration, authentic RAW and full-resolution derivative visually reviewed; source credits retained separately. Preserved RAW file: 1Tt7OFNa4PS-qKHd1aQXa5-_Vw0TKlL_y. Pictured full reference V 45 T BR (TT); Titanium, Black with open tourbillon and red accents, Black textured strap. Exact configuration reviewed against preserved source evidence and the original photograph.",
-      "websiteApproved": true,
-      "nextAction": "Retain approved original and verify derivative integrity."
-    },
-    {
       "brand": "Omega",
       "collection": "Aqua Terra Worldtimer",
       "reference": "220.10.43.22.03.001",
@@ -19721,6 +20031,287 @@
       "status": "approved",
       "sourceUrl": "https://www.swisswatchesdirect.co.uk/products/cbl2111-fc6453-tag-heuer-monaco",
       "licenseRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for these exact six originals and white-background derivatives with no additional restrictions on October15,2026 Eastern. Record docs/PHOTOGRAPHY_SIX_FOUNDER_RIGHTS_2026-10-15.json. Authentic complete RAW and final white WEB individually visually reviewed; source credits retained separately. Preserved RAW file: 1MES_G95duYi_B4pmm0I-eId2qO4jDfX5. Pictured full reference CBL2111.FC6453; Stainless Steel, Blue, Blue alligator leather strap. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
+      "brand": "Rolex",
+      "collection": "GMT-Master II",
+      "reference": "116710LN",
+      "configurations": [
+        {
+          "dial": "Black",
+          "bracelet": "Oyster",
+          "caseSize": "40 mm",
+          "nickname": "Black / Oyster",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "Oystersteel",
+      "sources": [
+        "src/data/photography-expansion.ts"
+      ],
+      "routes": [
+        "/collections/rolex/gmt-master-ii/116710ln"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": "cleared-nine-1YgpzqiySv7YfYcUpFnuQbm5jBGRVixkg",
+      "status": "approved",
+      "sourceUrl": "https://www.the1916company.com/rolex-certified-pre-owned/gmt-master-ii/5073462/",
+      "licenseRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for these exact nine originals and white-background derivatives with no additional restrictions on October15,2026 Eastern. Record docs/PHOTOGRAPHY_NINE_FOUNDER_RIGHTS_2026-10-15.json. Authentic complete RAW and final white WEB individually visually reviewed; source credits retained separately. Preserved RAW file: 1YgpzqiySv7YfYcUpFnuQbm5jBGRVixkg. Pictured full reference 116710LN-0001; Oystersteel, Black, Oyster. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
+      "brand": "Rolex",
+      "collection": "GMT-Master II",
+      "reference": "126710BLRO",
+      "configurations": [
+        {
+          "dial": "Black",
+          "bracelet": "Oyster",
+          "caseSize": "40 mm",
+          "nickname": "Black / Oyster",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "Oystersteel",
+      "sources": [
+        "src/data/photography-expansion.ts"
+      ],
+      "routes": [
+        "/collections/rolex/gmt-master-ii/126710blro"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": "cleared-nine-1chIHABPvHKFOpnh-lHY4CKGXkj8Q3veX",
+      "status": "approved",
+      "sourceUrl": "https://www.the1916company.com/rolex-certified-pre-owned/gmt-master-ii/5077201/",
+      "licenseRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for these exact nine originals and white-background derivatives with no additional restrictions on October15,2026 Eastern. Record docs/PHOTOGRAPHY_NINE_FOUNDER_RIGHTS_2026-10-15.json. Authentic complete RAW and final white WEB individually visually reviewed; source credits retained separately. Preserved RAW file: 1chIHABPvHKFOpnh-lHY4CKGXkj8Q3veX. Pictured full reference 126710BLRO-0002; Oystersteel, Black, Oyster. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
+      "brand": "Rolex",
+      "collection": "Submariner",
+      "reference": "116610LV",
+      "configurations": [
+        {
+          "dial": "Green",
+          "bracelet": "Oyster",
+          "caseSize": "40 mm",
+          "nickname": "Green / Oyster",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "Oystersteel",
+      "sources": [
+        "src/data/photography-expansion.ts"
+      ],
+      "routes": [
+        "/collections/rolex/submariner/116610lv"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": "cleared-nine-17jFt18kdnucTOPqXxdQUd3zIM3dkRByI",
+      "status": "approved",
+      "sourceUrl": "https://www.the1916company.com/rolex-certified-pre-owned/submariner/5077993/",
+      "licenseRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for these exact nine originals and white-background derivatives with no additional restrictions on October15,2026 Eastern. Record docs/PHOTOGRAPHY_NINE_FOUNDER_RIGHTS_2026-10-15.json. Authentic complete RAW and final white WEB individually visually reviewed; source credits retained separately. Preserved RAW file: 17jFt18kdnucTOPqXxdQUd3zIM3dkRByI. Pictured full reference 116610LV-0002; Oystersteel, Green, Oyster. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
+      "brand": "Rolex",
+      "collection": "Sky-Dweller",
+      "reference": "326934",
+      "configurations": [
+        {
+          "dial": "White",
+          "bracelet": "Jubilee",
+          "caseSize": "42 mm",
+          "nickname": "White / Jubilee",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "Oystersteel / White Gold",
+      "sources": [
+        "src/data/photography-expansion.ts"
+      ],
+      "routes": [
+        "/collections/rolex/sky-dweller/326934"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": "cleared-nine-1jqHp2GYHDwVwKf8t2wVPTJY_v4bw7Oj3",
+      "status": "approved",
+      "sourceUrl": "https://www.the1916company.com/rolex-certified-pre-owned/sky-dweller/5076865/",
+      "licenseRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for these exact nine originals and white-background derivatives with no additional restrictions on October15,2026 Eastern. Record docs/PHOTOGRAPHY_NINE_FOUNDER_RIGHTS_2026-10-15.json. Authentic complete RAW and final white WEB individually visually reviewed; source credits retained separately. Preserved RAW file: 1jqHp2GYHDwVwKf8t2wVPTJY_v4bw7Oj3. Pictured full reference 326934-0002; Oystersteel / White Gold, White, Jubilee. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
+      "brand": "Rolex",
+      "collection": "Daytona",
+      "reference": "116520",
+      "configurations": [
+        {
+          "dial": "Black",
+          "bracelet": "Oyster",
+          "caseSize": "40 mm",
+          "nickname": "Black / Oyster",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "Oystersteel",
+      "sources": [
+        "src/data/photography-expansion.ts"
+      ],
+      "routes": [
+        "/collections/rolex/daytona/116520"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": "cleared-nine-1KnjAq-sgzhXdr0dI0PrP_5q8KqNqOmUY",
+      "status": "approved",
+      "sourceUrl": "https://www.the1916company.com/rolex-certified-pre-owned/daytona/5059316/",
+      "licenseRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for these exact nine originals and white-background derivatives with no additional restrictions on October15,2026 Eastern. Record docs/PHOTOGRAPHY_NINE_FOUNDER_RIGHTS_2026-10-15.json. Authentic complete RAW and final white WEB individually visually reviewed; source credits retained separately. Preserved RAW file: 1KnjAq-sgzhXdr0dI0PrP_5q8KqNqOmUY. Pictured full reference 116520-0015; Oystersteel, Black, Oyster. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
+      "brand": "Rolex",
+      "collection": "Milgauss",
+      "reference": "116400GV",
+      "configurations": [
+        {
+          "dial": "Black",
+          "bracelet": "Oyster",
+          "caseSize": "40 mm",
+          "nickname": "Black / Oyster",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "Oystersteel",
+      "sources": [
+        "src/data/photography-expansion.ts"
+      ],
+      "routes": [
+        "/collections/rolex/milgauss/116400gv"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": "cleared-nine-1b_4BYcLpF1JMlRe2H8PKBGR56en_mzD_",
+      "status": "approved",
+      "sourceUrl": "https://www.the1916company.com/rolex-certified-pre-owned/milgauss/5079641/",
+      "licenseRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for these exact nine originals and white-background derivatives with no additional restrictions on October15,2026 Eastern. Record docs/PHOTOGRAPHY_NINE_FOUNDER_RIGHTS_2026-10-15.json. Authentic complete RAW and final white WEB individually visually reviewed; source credits retained separately. Preserved RAW file: 1b_4BYcLpF1JMlRe2H8PKBGR56en_mzD_. Pictured full reference 116400GV-0001; Oystersteel, Black, Oyster. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
+      "brand": "Rolex",
+      "collection": "GMT-Master II",
+      "reference": "116710BLNR",
+      "configurations": [
+        {
+          "dial": "Black",
+          "bracelet": "Oyster",
+          "caseSize": "40 mm",
+          "nickname": "Black / Oyster",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "Oystersteel",
+      "sources": [
+        "src/data/photography-expansion.ts"
+      ],
+      "routes": [
+        "/collections/rolex/gmt-master-ii/116710blnr"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": "cleared-nine-1M52sjy7nkxx59Pn2GtcOZa0tcN1teLRM",
+      "status": "approved",
+      "sourceUrl": "https://www.the1916company.com/rolex-certified-pre-owned/gmt-master-ii/5078846/",
+      "licenseRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for these exact nine originals and white-background derivatives with no additional restrictions on October15,2026 Eastern. Record docs/PHOTOGRAPHY_NINE_FOUNDER_RIGHTS_2026-10-15.json. Authentic complete RAW and final white WEB individually visually reviewed; source credits retained separately. Preserved RAW file: 1M52sjy7nkxx59Pn2GtcOZa0tcN1teLRM. Pictured full reference 116710BLNR-0002; Oystersteel, Black, Oyster. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
+      "brand": "Panerai",
+      "collection": "Luminor GMT",
+      "reference": "PAM01641",
+      "configurations": [
+        {
+          "caseSize": "40 mm",
+          "movement": "P.900/GMT automatic",
+          "dial": "Black",
+          "bracelet": "Black alligator leather strap",
+          "nickname": "Black / Black alligator leather strap",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "Goldtech",
+      "sources": [
+        "src/data/photography-expansion.ts"
+      ],
+      "routes": [
+        "/collections/panerai/luminor-gmt/pam01641"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": "cleared-nine-1FrunD7dL0hw-nKjzAoSiqYemm6OK1AmQ",
+      "status": "approved",
+      "sourceUrl": "https://www.panerai.com.mx/pam01641/p",
+      "licenseRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for these exact nine originals and white-background derivatives with no additional restrictions on October15,2026 Eastern. Record docs/PHOTOGRAPHY_NINE_FOUNDER_RIGHTS_2026-10-15.json. Authentic complete RAW and final white WEB individually visually reviewed; source credits retained separately. Preserved RAW file: 1FrunD7dL0hw-nKjzAoSiqYemm6OK1AmQ. Pictured full reference PAM01641; Goldtech, Black, Black alligator leather strap. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
+      "brand": "Omega",
+      "collection": "De Ville Prestige",
+      "reference": "434.13.41.20.10.001",
+      "configurations": [
+        {
+          "caseSize": "41 mm",
+          "movement": "Omega 8802 automatic",
+          "dial": "Pine green non-wave",
+          "bracelet": "Green leather strap",
+          "nickname": "Pine green non-wave / Green leather strap",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "Stainless Steel",
+      "sources": [
+        "src/data/photography-expansion.ts"
+      ],
+      "routes": [
+        "/collections/omega/de-ville-prestige/434-13-41-20-10-001"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": "cleared-nine-1X9pBGw-7_dGBLolfdxm_I0yk3rtH122b",
+      "status": "approved",
+      "sourceUrl": "https://galli.ch/uhren/omega/de-ville/prestige-co-axial-master-chronometer-small-seconds-41-434-13-41-20-10-001/",
+      "licenseRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for these exact nine originals and white-background derivatives with no additional restrictions on October15,2026 Eastern. Record docs/PHOTOGRAPHY_NINE_FOUNDER_RIGHTS_2026-10-15.json. Authentic complete RAW and final white WEB individually visually reviewed; source credits retained separately. Preserved RAW file: 1X9pBGw-7_dGBLolfdxm_I0yk3rtH122b. Pictured full reference 434.13.41.20.10.001; Stainless Steel, Pine green non-wave, Green leather strap. Exact configuration reviewed against preserved source evidence and the original photograph.",
       "websiteApproved": true,
       "nextAction": "Retain approved original and verify derivative integrity."
     },
@@ -24901,7 +25492,7 @@
     },
     {
       "brand": "Franck Muller",
-      "collection": "Vanguard Tourbillon",
+      "collection": "Vanguard",
       "reference": "V 45 T BR (TT)",
       "configurations": [
         {
@@ -24918,7 +25509,7 @@
         "src/data/verified-catalog-expansion.ts"
       ],
       "routes": [
-        "/collections/franck-muller/vanguard-tourbillon/v-45-t-br-tt"
+        "/collections/franck-muller/vanguard/v-45-t-br-tt"
       ],
       "scope": "built-reference",
       "existingImage": null,
@@ -24957,6 +25548,37 @@
       "photoAssetId": null,
       "status": "Requires Verification",
       "sourceUrl": "https://www.referenceintime.com/collections/franck-muller-1",
+      "licenseRecord": null,
+      "websiteApproved": false,
+      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+    },
+    {
+      "brand": "Panerai",
+      "collection": "Luminor GMT",
+      "reference": "PAM01641",
+      "configurations": [
+        {
+          "caseSize": "40 mm",
+          "movement": "P.900/GMT automatic",
+          "dial": "Black",
+          "bracelet": "Black alligator leather strap; additional rubber strap",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "Goldtech",
+      "sources": [
+        "src/data/verified-catalog-expansion.ts"
+      ],
+      "routes": [
+        "/collections/panerai/luminor-gmt/pam01641"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": null,
+      "status": "Requires Verification",
+      "sourceUrl": "https://www.panerai.com/us/en/collections/watch-collection/luminor/pam01641-luminor-gmt.html",
       "licenseRecord": null,
       "websiteApproved": false,
       "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
@@ -25547,6 +26169,37 @@
       "status": "approved",
       "sourceUrl": "https://www.kk-tanaka.com/omega/38368/",
       "licenseRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for these exact eleven originals and white-background derivatives with no additional restrictions on October14,2026 Eastern. Record docs/PHOTOGRAPHY_ELEVEN_FOUNDER_RIGHTS_2026-10-15.json. Authentic complete RAW and final white WEB individually visually reviewed; source credits retained separately. Preserved RAW file: 1er8X4Qt2d4Jz1g6u7yLQ44lyPcEwZJ8U. Pictured full reference 131.10.28.60.56.001; Stainless Steel, Gray sun-brushed non-wave with diamonds, Stainless-steel bracelet. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
+      "brand": "Omega",
+      "collection": "De Ville Prestige",
+      "reference": "434.13.41.20.10.001",
+      "configurations": [
+        {
+          "caseSize": "41 mm",
+          "movement": "Omega 8802 automatic",
+          "dial": "Pine green non-wave",
+          "bracelet": "Green leather strap",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "Stainless Steel",
+      "sources": [
+        "src/data/verified-catalog-expansion.ts"
+      ],
+      "routes": [
+        "/collections/omega/de-ville-prestige/434-13-41-20-10-001"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": "cleared-nine-1X9pBGw-7_dGBLolfdxm_I0yk3rtH122b",
+      "status": "approved",
+      "sourceUrl": "https://galli.ch/uhren/omega/de-ville/prestige-co-axial-master-chronometer-small-seconds-41-434-13-41-20-10-001/",
+      "licenseRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for these exact nine originals and white-background derivatives with no additional restrictions on October15,2026 Eastern. Record docs/PHOTOGRAPHY_NINE_FOUNDER_RIGHTS_2026-10-15.json. Authentic complete RAW and final white WEB individually visually reviewed; source credits retained separately. Preserved RAW file: 1X9pBGw-7_dGBLolfdxm_I0yk3rtH122b. Pictured full reference 434.13.41.20.10.001; Stainless Steel, Pine green non-wave, Green leather strap. Exact configuration reviewed against preserved source evidence and the original photograph.",
       "websiteApproved": true,
       "nextAction": "Retain approved original and verify derivative integrity."
     },

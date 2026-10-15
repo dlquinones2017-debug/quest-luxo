@@ -1,0 +1,85 @@
+{
+  "physicalSets": 1,
+  "websitePublished": false,
+  "rightsHeldSets": 0,
+  "references": [
+    {
+      "brand": "Omega",
+      "reference": "434.13.41.20.10.001",
+      "exactSKU": "434.13.41.20.10.001",
+      "sourceProvider": "Galli",
+      "sourceUrl": "https://galli.ch/uhren/omega/de-ville/prestige-co-axial-master-chronometer-small-seconds-41-434-13-41-20-10-001/",
+      "sourcePagePath": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\retailer-source-omega-434.13.41.20.10.001-82c37acf.html",
+      "sourcePageSha256": "3d8bed6324af71d4e109c68da6991a09e22441c5104966fff37a4d984523963c",
+      "imageUrl": "https://galli.ch/wp-content/uploads/omega-de-ville-prestige-co-axial-master-chronometer-small-seconds-41-mm-43413412010001-1-product-zoom.png",
+      "checkedAt": "2026-10-15T11:18:21.194771+00:00",
+      "rightsStatus": "Founder explicitly confirmed this exact original and white derivatives for commercial Quest Luxo website use; no additional restrictions",
+      "reviewStatus": "Untouched1000x1400 front and final1200WEB individually reviewed: complete watch and strap ends, centered clean white, native alpha and RGB preserved. Exact SKU and pine-green/steel/green-leather configuration source verified. Rights pending; not published.",
+      "size": [
+        1000,
+        1400
+      ],
+      "mode": "P",
+      "path": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\omega-green-deville-three-originals\\434.13.41.20.10.001-GALLI-ZOOM-raw.png",
+      "sha256": "a843a05fee8e222fa8699a04473079378cb226dadeac6aad1b2e1e34c89f62a4",
+      "status": "Authentic retailer-hosted original; untouched delivered bytes",
+      "whiteMaster": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\galli-green-deville-white\\434.13.41.20.10.001-white-master.png",
+      "webDerivative": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\galli-green-deville-white\\434.13.41.20.10.001-web.webp",
+      "masterSha256": "8b30b2c1921d90470f502af5b3adb5dde4caa8330f3847739bb392437214d968",
+      "derivativeSha256": "c3bf57b2705e32f403e197c58eac18f7c030b681c81d3c6953f7d4f501dd4e62",
+      "collection": "De Ville Prestige",
+      "canonicalRoute": "/collections/omega/de-ville-prestige/434-13-41-20-10-001",
+      "catalogMaterial": "Stainless Steel",
+      "catalogConfigurations": [
+        {
+          "caseSize": "41 mm",
+          "movement": "Omega 8802 automatic",
+          "dial": "Pine green non-wave",
+          "bracelet": "Green leather strap",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "picturedConfiguration": {
+        "caseSize": "41 mm",
+        "movement": "Omega 8802 automatic",
+        "dial": "Pine green non-wave",
+        "bracelet": "Green leather strap"
+      },
+      "foregroundBounds": [
+        128,
+        1,
+        905,
+        1396
+      ],
+      "websiteApproved": false,
+      "visualReviewPassed": true,
+      "exactSkuVerified": true,
+      "processing": "Native alpha preserved, original RGB unchanged. Entire original watch within source bounds; centered on2400 white master and1200WEB. No AI or reconstruction.",
+      "reviewedAt": "2026-10-15T11:20:53.988249+00:00",
+      "rawDriveFileId": "1X9pBGw-7_dGBLolfdxm_I0yk3rtH122b",
+      "masterDriveFileId": "1SAnqtYDgQjHKjiXEVVZz7Lz2LTT-w-GU",
+      "webDriveFileId": "1p8yvkkEdaHo_z6UtnsYdsIDSFabtMwZz",
+      "driveFiles": {
+        "raw": {
+          "id": "1X9pBGw-7_dGBLolfdxm_I0yk3rtH122b"
+        },
+        "master": {
+          "id": "1SAnqtYDgQjHKjiXEVVZz7Lz2LTT-w-GU"
+        },
+        "web": {
+          "id": "1p8yvkkEdaHo_z6UtnsYdsIDSFabtMwZz"
+        }
+      },
+      "commercialUseRightsConfirmed": true,
+      "rightsRecord": "PHOTOGRAPHY_NINE_FOUNDER_RIGHTS_2026-10-15.json",
+      "publicationStatus": "Integrated; release checks and deployment pending"
+    }
+  ],
+  "archivedFiles": 3,
+  "archiveStatus": "RAW, white master andWEB saved to established Drive folders; image-specific commercial rights pending; not published.",
+  "commercialUseRightsConfirmed": true,
+  "founderRightsRecord": "PHOTOGRAPHY_NINE_FOUNDER_RIGHTS_2026-10-15.json",
+  "founderRightsDriveFileId": "1XMdtfeg1qIYj_zFyFM1wwFHmMs1nbCwt",
+  "publicationStatus": "Integrated; release checks and deployment pending"
+}

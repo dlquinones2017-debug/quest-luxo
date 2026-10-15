@@ -1,0 +1,99 @@
+{
+  "recordedAt": "2026-10-15T21:23:02.681633+00:00",
+  "founderDecisionDateEastern": "2026-10-15",
+  "evidenceType": "Direct human founder responses in existing Website/Product chat",
+  "decisions": [
+    {
+      "questionItemId": "call_0f1095c8b1714ed89707024e9c140aa5",
+      "answer": "Rights cover all eight and derivatives; no additional restrictions",
+      "references": [
+        "116710LN-0001",
+        "126710BLRO-0002",
+        "116610LV-0002",
+        "326934-0002",
+        "116520-0015",
+        "116400GV-0001",
+        "116710BLNR-0002",
+        "PAM01641"
+      ]
+    },
+    {
+      "questionItemId": "call_fe7faaa0e45c45d3a66540aca6373272",
+      "answer": "Rights cover this original and derivatives; no restrictions",
+      "references": [
+        "434.13.41.20.10.001"
+      ]
+    }
+  ],
+  "scope": "Commercial Quest Luxo website use of these nine exact originals and white-background derivatives only",
+  "sourceLedgerDriveIds": [
+    "13NnA5vwS0qcHqNefBTpG3LZHmUK7Jkg9",
+    "1WIrbpOWUl1UQqF3fGEsYPi-q-rvhUaeN"
+  ],
+  "references": [
+    {
+      "brand": "Rolex",
+      "reference": "116710LN",
+      "exactSKU": "116710LN-0001",
+      "sourceProvider": "The1916Company Rolex Certified Pre-Owned",
+      "rawSha256": "6e7b26d0f2ca7453ee736d1a208aa128af56c024b29017a063025dc407c86963"
+    },
+    {
+      "brand": "Rolex",
+      "reference": "126710BLRO",
+      "exactSKU": "126710BLRO-0002",
+      "sourceProvider": "The1916Company Rolex Certified Pre-Owned",
+      "rawSha256": "71f2209b57bb8cf4b94d400a8dedbbc7520c340f737793f768fcf81550da4abe"
+    },
+    {
+      "brand": "Rolex",
+      "reference": "116610LV",
+      "exactSKU": "116610LV-0002",
+      "sourceProvider": "The1916Company Rolex Certified Pre-Owned",
+      "rawSha256": "db993c9b3ccd00c6ca78aebe97f7f999ae3c77bc653703a8c36b7d9a0d6368be"
+    },
+    {
+      "brand": "Rolex",
+      "reference": "326934",
+      "exactSKU": "326934-0002",
+      "sourceProvider": "The1916Company Rolex Certified Pre-Owned",
+      "rawSha256": "4d1628430bda9d83207af918aefdb8719683b555a687d78abc2c2efc6064e009"
+    },
+    {
+      "brand": "Rolex",
+      "reference": "116520",
+      "exactSKU": "116520-0015",
+      "sourceProvider": "The1916Company Rolex Certified Pre-Owned",
+      "rawSha256": "2e34eecfe3b7150fab1143c0cdcea023a3516290b9b2b7442a432943e808619b"
+    },
+    {
+      "brand": "Rolex",
+      "reference": "116400GV",
+      "exactSKU": "116400GV-0001",
+      "sourceProvider": "The1916Company Rolex Certified Pre-Owned",
+      "rawSha256": "483b992eca2f1caaa482f543bd0e0ab813f90db836fba03a4e46b3a378a5a1c9"
+    },
+    {
+      "brand": "Rolex",
+      "reference": "116710BLNR",
+      "exactSKU": "116710BLNR-0002",
+      "sourceProvider": "The1916Company Rolex Certified Pre-Owned",
+      "rawSha256": "f30782f5cbed4f3a6e0e8af3877801b08eeff827e034c8feed0ff941d508c062"
+    },
+    {
+      "brand": "Panerai",
+      "reference": "PAM01641",
+      "exactSKU": "PAM01641",
+      "sourceProvider": "Panerai Mexico",
+      "rawSha256": "85e8475c0222699aad1c700d62fc0f3a2c6476be6cff438347cfff2ec97347d9"
+    },
+    {
+      "brand": "Omega",
+      "reference": "434.13.41.20.10.001",
+      "exactSKU": "434.13.41.20.10.001",
+      "sourceProvider": "Galli",
+      "rawSha256": "a843a05fee8e222fa8699a04473079378cb226dadeac6aad1b2e1e34c89f62a4"
+    }
+  ],
+  "noScopeExtension": "No rights inferred for future originals"
+}
