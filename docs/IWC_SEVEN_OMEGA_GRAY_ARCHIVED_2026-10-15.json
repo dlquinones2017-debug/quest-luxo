@@ -1,6 +1,6 @@
 {
   "physicalSets": 8,
-  "websitePublished": false,
+  "websitePublished": true,
   "references": [
     {
       "brand": "Omega",
@@ -21,7 +21,7 @@
       "mode": "RGB",
       "path": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\gray-iwc-native-originals\\131.10.28.60.56.001-raw.jpg",
       "sha256": "719c20d758118e9f2bca5f0f15d51e648e28c35dc0a353f503feeecb5f808714",
-      "status": "Reviewed authentic original and white derivatives archived; rights held",
+      "status": "Published authentic exact-reference photograph; founder rights confirmed",
       "whiteMaster": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\gray-iwc-reviewed-white\\131.10.28.60.56.001-white-master.png",
       "webDerivative": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\gray-iwc-reviewed-white\\131.10.28.60.56.001-web.webp",
       "masterSha256": "170f3a35e8bf425afcda9364e4ee4ef08002659e61a96d7a7f76e7ffe7b023b9",
@@ -39,7 +39,7 @@
           "currentMSRP": null
         }
       ],
-      "websiteApproved": false,
+      "websiteApproved": true,
       "processing": "Classical external background mask; conservative convex enclosure for IWC preserves all white metal highlights and original interior pixels. Complete watch centered on blank white2400 master/1200WEB; no reconstruction.",
       "foregroundBounds": [
         183,
@@ -69,7 +69,9 @@
       },
       "commercialUseRightsConfirmed": true,
       "rightsRecord": "PHOTOGRAPHY_ELEVEN_FOUNDER_RIGHTS_2026-10-15.json",
-      "publicationStatus": "Integrated; release checks and deployment pending"
+      "publicationStatus": "LIVE; exact public route/configuration/image hash/credits/inquiry verified",
+      "productionCommit": "f06737e13fbebef8397f57bb2fbe3097e183e484",
+      "productionDeployId": "dep-db83o5lg1s2s73f6fclg"
     },
     {
       "brand": "IWC",
@@ -90,7 +92,7 @@
       "mode": "RGB",
       "path": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\gray-iwc-native-originals\\IW328901-raw.jpg",
       "sha256": "00daaf481878f6f4a9030bcfbe177d3d3f0cc9d6917ef2927998f550187c3978",
-      "status": "Reviewed authentic original and white derivatives archived; rights held",
+      "status": "Published authentic exact-reference photograph; founder rights confirmed",
       "whiteMaster": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\gray-iwc-reviewed-white\\IW328901-white-master.png",
       "webDerivative": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\gray-iwc-reviewed-white\\IW328901-web.webp",
       "masterSha256": "97c70595cc6ca57e426db4d53225f5b01d058cee840d48410a874e3abbbb39a2",
@@ -108,7 +110,7 @@
           "currentMSRP": null
         }
       ],
-      "websiteApproved": false,
+      "websiteApproved": true,
       "processing": "Classical edge detection and graph-cut boundary refinement with fixed interior foreground; filled outer silhouette preserves all interior RGB and polished metal highlights. External cast shadow removed. Portofino exterior shadow tail excluded outside strap boundary. One-pixel edge antialiasing. Complete authentic watch centered on blank2400 white master and1200WEB; no generated watch detail.",
       "foregroundBounds": [
         228,
@@ -138,7 +140,9 @@
       },
       "commercialUseRightsConfirmed": true,
       "rightsRecord": "PHOTOGRAPHY_ELEVEN_FOUNDER_RIGHTS_2026-10-15.json",
-      "publicationStatus": "Integrated; release checks and deployment pending"
+      "publicationStatus": "LIVE; exact public route/configuration/image hash/credits/inquiry verified",
+      "productionCommit": "f06737e13fbebef8397f57bb2fbe3097e183e484",
+      "productionDeployId": "dep-db83o5lg1s2s73f6fclg"
     },
     {
       "brand": "IWC",
@@ -159,7 +163,7 @@
       "mode": "RGB",
       "path": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\oomiya-iwc-six-native-originals\\IW371617-raw.jpg",
       "sha256": "99f2dce4231a6fd84848e2c072da738dabae402f0ce8735b5a46b7dff23cc8ef",
-      "status": "Reviewed authentic original and white derivatives archived; rights held",
+      "status": "Published authentic exact-reference photograph; founder rights confirmed",
       "whiteMaster": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\oomiya-iwc-six-white\\IW371617-white-master.png",
       "webDerivative": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\oomiya-iwc-six-white\\IW371617-web.webp",
       "masterSha256": "e52c1a1e9159a97836c56ef8562ac62ce078fead33f566860c391242cc5a4972",
@@ -177,7 +181,7 @@
           "currentMSRP": null
         }
       ],
-      "websiteApproved": false,
+      "websiteApproved": true,
       "processing": "Classical edge detection and graph-cut boundary refinement with fixed interior foreground; filled outer silhouette preserves all interior RGB and polished metal highlights. External cast shadow removed. Portofino exterior shadow tail excluded outside strap boundary. One-pixel edge antialiasing. Complete authentic watch centered on blank2400 white master and1200WEB; no generated watch detail.",
       "foregroundBounds": [
         224,
@@ -213,7 +217,9 @@
       },
       "commercialUseRightsConfirmed": true,
       "rightsRecord": "PHOTOGRAPHY_ELEVEN_FOUNDER_RIGHTS_2026-10-15.json",
-      "publicationStatus": "Integrated; release checks and deployment pending"
+      "publicationStatus": "LIVE; exact public route/configuration/image hash/credits/inquiry verified",
+      "productionCommit": "f06737e13fbebef8397f57bb2fbe3097e183e484",
+      "productionDeployId": "dep-db83o5lg1s2s73f6fclg"
     },
     {
       "brand": "IWC",
@@ -234,7 +240,7 @@
       "mode": "RGB",
       "path": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\oomiya-iwc-six-native-originals\\IW371615-raw.jpg",
       "sha256": "23b747a75b4dc1dbdfccf247629935c0994097b86db72ce0dd3855b9347b07b8",
-      "status": "Reviewed authentic original and white derivatives archived; rights held",
+      "status": "Published authentic exact-reference photograph; founder rights confirmed",
       "whiteMaster": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\oomiya-iwc-six-white\\IW371615-white-master.png",
       "webDerivative": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\oomiya-iwc-six-white\\IW371615-web.webp",
       "masterSha256": "7d19e652f4bf570ea276d98bf2ab9ebecdd41beb33f7ce133b2beef407666b26",
@@ -252,7 +258,7 @@
           "currentMSRP": null
         }
       ],
-      "websiteApproved": false,
+      "websiteApproved": true,
       "processing": "Classical edge detection and graph-cut boundary refinement with fixed interior foreground; filled outer silhouette preserves all interior RGB and polished metal highlights. External cast shadow removed. Portofino exterior shadow tail excluded outside strap boundary. One-pixel edge antialiasing. Complete authentic watch centered on blank2400 white master and1200WEB; no generated watch detail.",
       "foregroundBounds": [
         224,
@@ -288,7 +294,9 @@
       },
       "commercialUseRightsConfirmed": true,
       "rightsRecord": "PHOTOGRAPHY_ELEVEN_FOUNDER_RIGHTS_2026-10-15.json",
-      "publicationStatus": "Integrated; release checks and deployment pending"
+      "publicationStatus": "LIVE; exact public route/configuration/image hash/credits/inquiry verified",
+      "productionCommit": "f06737e13fbebef8397f57bb2fbe3097e183e484",
+      "productionDeployId": "dep-db83o5lg1s2s73f6fclg"
     },
     {
       "brand": "IWC",
@@ -309,7 +317,7 @@
       "mode": "RGB",
       "path": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\oomiya-iwc-six-native-originals\\IW388101-raw.jpg",
       "sha256": "12c13589fdb82464aaedf1f6b80ca26bb38a31cfa53cc71e532bcf8333f8fcb6",
-      "status": "Reviewed authentic original and white derivatives archived; rights held",
+      "status": "Published authentic exact-reference photograph; founder rights confirmed",
       "whiteMaster": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\oomiya-iwc-six-white\\IW388101-white-master.png",
       "webDerivative": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\oomiya-iwc-six-white\\IW388101-web.webp",
       "masterSha256": "1cf83558fd67513852a47c9d7fedbd809d9153264090870d2edc43ea245f61c2",
@@ -327,7 +335,7 @@
           "currentMSRP": null
         }
       ],
-      "websiteApproved": false,
+      "websiteApproved": true,
       "processing": "Classical edge detection and graph-cut boundary refinement with fixed interior foreground; filled outer silhouette preserves all interior RGB and polished metal highlights. External cast shadow removed. Portofino exterior shadow tail excluded outside strap boundary. One-pixel edge antialiasing. Complete authentic watch centered on blank2400 white master and1200WEB; no generated watch detail.",
       "foregroundBounds": [
         223,
@@ -363,7 +371,9 @@
       },
       "commercialUseRightsConfirmed": true,
       "rightsRecord": "PHOTOGRAPHY_ELEVEN_FOUNDER_RIGHTS_2026-10-15.json",
-      "publicationStatus": "Integrated; release checks and deployment pending"
+      "publicationStatus": "LIVE; exact public route/configuration/image hash/credits/inquiry verified",
+      "productionCommit": "f06737e13fbebef8397f57bb2fbe3097e183e484",
+      "productionDeployId": "dep-db83o5lg1s2s73f6fclg"
     },
     {
       "brand": "IWC",
@@ -384,7 +394,7 @@
       "mode": "RGB",
       "path": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\oomiya-iwc-six-native-originals\\IW388102-raw.jpg",
       "sha256": "a3c886a9ef0f6cbee212a421f8b90c27ff2694cc2a8eeefc0a57c1f5433b5d92",
-      "status": "Reviewed authentic original and white derivatives archived; rights held",
+      "status": "Published authentic exact-reference photograph; founder rights confirmed",
       "whiteMaster": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\oomiya-iwc-six-white\\IW388102-white-master.png",
       "webDerivative": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\oomiya-iwc-six-white\\IW388102-web.webp",
       "masterSha256": "eb228161c77ddc478fb7ad96ff771b1fe2c60d24a25130e560f74d0874712661",
@@ -400,7 +410,7 @@
           "originalMSRP": null
         }
       ],
-      "websiteApproved": false,
+      "websiteApproved": true,
       "processing": "Classical edge detection and graph-cut boundary refinement with fixed interior foreground; filled outer silhouette preserves all interior RGB and polished metal highlights. External cast shadow removed. Portofino exterior shadow tail excluded outside strap boundary. One-pixel edge antialiasing. Complete authentic watch centered on blank2400 white master and1200WEB; no generated watch detail.",
       "foregroundBounds": [
         223,
@@ -443,7 +453,9 @@
       },
       "commercialUseRightsConfirmed": true,
       "rightsRecord": "PHOTOGRAPHY_ELEVEN_FOUNDER_RIGHTS_2026-10-15.json",
-      "publicationStatus": "Integrated; release checks and deployment pending"
+      "publicationStatus": "LIVE; exact public route/configuration/image hash/credits/inquiry verified",
+      "productionCommit": "f06737e13fbebef8397f57bb2fbe3097e183e484",
+      "productionDeployId": "dep-db83o5lg1s2s73f6fclg"
     },
     {
       "brand": "IWC",
@@ -464,7 +476,7 @@
       "mode": "RGB",
       "path": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\oomiya-iwc-six-native-originals\\IW356527-raw.jpg",
       "sha256": "e5d08ae7af273c13d36a80a9912a6212a733a02e89db6011431833d7397ea8c8",
-      "status": "Reviewed authentic original and white derivatives archived; rights held",
+      "status": "Published authentic exact-reference photograph; founder rights confirmed",
       "whiteMaster": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\oomiya-iwc-six-white\\IW356527-white-master.png",
       "webDerivative": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\oomiya-iwc-six-white\\IW356527-web.webp",
       "masterSha256": "d508af96460573906759dd0776f29a698958ff9aac527c5ad1488ecbe300fb66",
@@ -482,7 +494,7 @@
           "currentMSRP": null
         }
       ],
-      "websiteApproved": false,
+      "websiteApproved": true,
       "processing": "Classical edge detection and graph-cut boundary refinement with fixed interior foreground; filled outer silhouette preserves all interior RGB and polished metal highlights. External cast shadow removed. Portofino exterior shadow tail excluded outside strap boundary. One-pixel edge antialiasing. Complete authentic watch centered on blank2400 white master and1200WEB; no generated watch detail.",
       "foregroundBounds": [
         207,
@@ -518,7 +530,9 @@
       },
       "commercialUseRightsConfirmed": true,
       "rightsRecord": "PHOTOGRAPHY_ELEVEN_FOUNDER_RIGHTS_2026-10-15.json",
-      "publicationStatus": "Integrated; release checks and deployment pending"
+      "publicationStatus": "LIVE; exact public route/configuration/image hash/credits/inquiry verified",
+      "productionCommit": "f06737e13fbebef8397f57bb2fbe3097e183e484",
+      "productionDeployId": "dep-db83o5lg1s2s73f6fclg"
     },
     {
       "brand": "IWC",
@@ -539,7 +553,7 @@
       "mode": "RGB",
       "path": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\oomiya-iwc-six-native-originals\\IW328801-raw.jpg",
       "sha256": "54db4a3f06575ccedb3b18d28569a20a758065c8fa353162bcb9c9926f94f6ec",
-      "status": "Reviewed authentic original and white derivatives archived; rights held",
+      "status": "Published authentic exact-reference photograph; founder rights confirmed",
       "whiteMaster": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\oomiya-iwc-six-white\\IW328801-white-master.png",
       "webDerivative": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\oomiya-iwc-six-white\\IW328801-web.webp",
       "masterSha256": "4cd93149e934ed420ec0d6eb19a1d6cf795f7882444568f723f87c62226f2c26",
@@ -557,7 +571,7 @@
           "currentMSRP": null
         }
       ],
-      "websiteApproved": false,
+      "websiteApproved": true,
       "processing": "Classical edge detection and graph-cut boundary refinement with fixed interior foreground; filled outer silhouette preserves all interior RGB and polished metal highlights. External cast shadow removed. Portofino exterior shadow tail excluded outside strap boundary. One-pixel edge antialiasing. Complete authentic watch centered on blank2400 white master and1200WEB; no generated watch detail.",
       "foregroundBounds": [
         195,
@@ -593,7 +607,9 @@
       },
       "commercialUseRightsConfirmed": true,
       "rightsRecord": "PHOTOGRAPHY_ELEVEN_FOUNDER_RIGHTS_2026-10-15.json",
-      "publicationStatus": "Integrated; release checks and deployment pending"
+      "publicationStatus": "LIVE; exact public route/configuration/image hash/credits/inquiry verified",
+      "productionCommit": "f06737e13fbebef8397f57bb2fbe3097e183e484",
+      "productionDeployId": "dep-db83o5lg1s2s73f6fclg"
     }
   ],
   "title": "Seven IWC and one gray Omega exact-reference sets reviewed; rights held",
@@ -603,5 +619,9 @@
   "archiveReadbackStatus": "All24 upload receipts confirm file name,ID,parent and success; all local RAW/master/WEB hashes verified. No claim of full binary readback for these24 files.",
   "approvedForPublication": true,
   "founderRightsRecord": "PHOTOGRAPHY_ELEVEN_FOUNDER_RIGHTS_2026-10-15.json",
-  "publicationStatus": "Integrated; final checks and deployment pending"
+  "publicationStatus": "LIVE and independently verified",
+  "productionCommit": "f06737e13fbebef8397f57bb2fbe3097e183e484",
+  "productionDeployId": "dep-db83o5lg1s2s73f6fclg",
+  "verifiedAt": "2026-10-15T02:40:03.640476+00:00",
+  "founderRightsDriveFileId": "1k2qsauH8oeLIIoCmCubsHjqwBMnBDydf"
 }

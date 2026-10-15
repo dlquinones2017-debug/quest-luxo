@@ -1,10 +1,10 @@
 {
-  "verifiedAt": "2026-10-15T02:01:09.540186+00:00",
+  "verifiedAt": "2026-10-15T02:38:18.836416+00:00",
   "expectedDistinctReferenceRoutes": 268,
   "verifiedReferenceRoutes": 268,
-  "approvedDistinctReferenceRoutes": 169,
-  "verifiedDistinctPhotoFiles": 168,
-  "queuedDistinctReferenceRoutes": 99,
+  "approvedDistinctReferenceRoutes": 180,
+  "verifiedDistinctPhotoFiles": 179,
+  "queuedDistinctReferenceRoutes": 88,
   "errors": [],
   "pages": [
     {
@@ -479,7 +479,7 @@
     },
     {
       "route": "/collections/iwc/pilots-watch/iw388102",
-      "approved": false,
+      "approved": true,
       "status": "verified"
     },
     {
@@ -738,8 +738,13 @@
       "status": "verified"
     },
     {
+      "route": "/collections/omega/aqua-terra/220-50-38-20-03-001",
+      "approved": true,
+      "status": "verified"
+    },
+    {
       "route": "/collections/omega/aqua-terra/220-20-30-20-10-002",
-      "approved": false,
+      "approved": true,
       "status": "verified"
     },
     {
@@ -749,11 +754,6 @@
     },
     {
       "route": "/collections/omega/aqua-terra/220-53-38-20-10-001",
-      "approved": false,
-      "status": "verified"
-    },
-    {
-      "route": "/collections/omega/aqua-terra/220-50-38-20-03-001",
       "approved": false,
       "status": "verified"
     },
@@ -1109,22 +1109,22 @@
     },
     {
       "route": "/collections/iwc/ingenieur/iw328901",
-      "approved": false,
+      "approved": true,
       "status": "verified"
     },
     {
       "route": "/collections/iwc/pilots-watches/iw388101",
-      "approved": false,
+      "approved": true,
       "status": "verified"
     },
     {
       "route": "/collections/iwc/portugieser/iw371615",
-      "approved": false,
+      "approved": true,
       "status": "verified"
     },
     {
       "route": "/collections/iwc/portugieser/iw371617",
-      "approved": false,
+      "approved": true,
       "status": "verified"
     },
     {
@@ -1139,12 +1139,12 @@
     },
     {
       "route": "/collections/iwc/portofino/iw356527",
-      "approved": false,
+      "approved": true,
       "status": "verified"
     },
     {
       "route": "/collections/iwc/aquatimer/iw328801",
-      "approved": false,
+      "approved": true,
       "status": "verified"
     },
     {
@@ -1314,7 +1314,7 @@
     },
     {
       "route": "/collections/omega/constellation/131-10-28-60-60-002",
-      "approved": false,
+      "approved": true,
       "status": "verified"
     },
     {
@@ -1324,7 +1324,7 @@
     },
     {
       "route": "/collections/omega/constellation/131-10-28-60-56-001",
-      "approved": false,
+      "approved": true,
       "status": "verified"
     },
     {
@@ -1700,6 +1700,11 @@
       "status": "verified"
     },
     {
+      "path": "/images/watches/iwc/reviewed-iw388102-white-web.webp",
+      "sha256": "42efd7ed98fc4ab19d4843f98218d117a94fc362a7a7e735b3b7cc2e761c8ba4",
+      "status": "verified"
+    },
+    {
       "path": "/images/watches/blancpain/reviewed-5015-1130-52a-white-web.webp",
       "sha256": "c59e4e8a754c9a8ebf46f9ebd3c3d548ac86bc6e1f175679e57d2af6d77c4ecc",
       "status": "verified"
@@ -1902,6 +1907,16 @@
     {
       "path": "/images/watches/omega/reviewed-220-10-30-20-60-001-white-web.webp",
       "sha256": "8c5284043bf598e7884b93ec0ede65d0b8715d3b194bba4d469a1ba66fe41bee",
+      "status": "verified"
+    },
+    {
+      "path": "/images/watches/omega/reviewed-220-50-38-20-03-001-white-web.webp",
+      "sha256": "dcb669a5ccffcf30f5b553972f0ece49e2c939af211fd08f51847ea94e90ac8b",
+      "status": "verified"
+    },
+    {
+      "path": "/images/watches/omega/reviewed-220-20-30-20-10-002-white-web.webp",
+      "sha256": "1f9f61d5d2a76a67f35d49daeee0b0f5a9895ea1b07740e7e66c9c7f7bec16f2",
       "status": "verified"
     },
     {
@@ -2145,6 +2160,36 @@
       "status": "verified"
     },
     {
+      "path": "/images/watches/iwc/reviewed-iw328901-white-web.webp",
+      "sha256": "5771db0e39ef80e6f253e39534101c2a3f5817496caca90a90eae71b0770e6db",
+      "status": "verified"
+    },
+    {
+      "path": "/images/watches/iwc/reviewed-iw388101-white-web.webp",
+      "sha256": "11d1c578b08fc824126898deff8704c1cb2935ad9b5a135e766e206b1b12f63d",
+      "status": "verified"
+    },
+    {
+      "path": "/images/watches/iwc/reviewed-iw371615-white-web.webp",
+      "sha256": "b7332ffa602710f1143e1dac299b3964c3b43c228fb764eca2be821be6bb996b",
+      "status": "verified"
+    },
+    {
+      "path": "/images/watches/iwc/reviewed-iw371617-white-web.webp",
+      "sha256": "c49b1a7771f1060464558edaab5aaeb2b80075e90649721b99ba1a1fcfc8a5ee",
+      "status": "verified"
+    },
+    {
+      "path": "/images/watches/iwc/reviewed-iw356527-white-web.webp",
+      "sha256": "cadc50bd5c57023e42b1ea298ff45f3968c3b9074359c1374deafdec4f97358f",
+      "status": "verified"
+    },
+    {
+      "path": "/images/watches/iwc/reviewed-iw328801-white-web.webp",
+      "sha256": "f1c498bc1a895760578c8ad1ba92c761ee13977f4f32b00ea7ace10740f3d008",
+      "status": "verified"
+    },
+    {
       "path": "/images/watches/breitling/reviewed-ab2010121b1s1-white-web.webp",
       "sha256": "a5021e1ef969bab073ee35593ba519a8de8d63cad2ea181b36100046b5f27c32",
       "status": "verified"
@@ -2177,6 +2222,16 @@
     {
       "path": "/images/watches/omega/reviewed-131-30-41-21-99-003-white-web.webp",
       "sha256": "77caa20d260ee8167700bbef444f0570f7bb97de5247445cca57811d0e0cd010",
+      "status": "verified"
+    },
+    {
+      "path": "/images/watches/omega/reviewed-131-10-28-60-60-002-white-web.webp",
+      "sha256": "72186c3292b416cae64927cf32b146909ff109b4db47bed6510a96f29ef6c6a4",
+      "status": "verified"
+    },
+    {
+      "path": "/images/watches/omega/reviewed-131-10-28-60-56-001-white-web.webp",
+      "sha256": "a8e653dbcf0bd7ca0e3cc42f809198abc076f68632343f3d1ba5c58c1c14d4a1",
       "status": "verified"
     },
     {
@@ -2213,6 +2268,6 @@
     }
   ],
   "leadSafety": "Read-only public-route checks; no customer records read or submissions created.",
-  "productionCommit": "0ea41e90773767a38583754c3e3ab892477e1df5",
-  "productionDeployId": "dep-db835vlg1s2s73f5ujug"
+  "productionCommit": "f06737e13fbebef8397f57bb2fbe3097e183e484",
+  "productionDeployId": "dep-db83o5lg1s2s73f6fclg"
 }

@@ -3068,5 +3068,74 @@ export const clearedSprintPhotographySeeds: readonly PhotographySeed[] = [
     "sourceProvider": "oomiya product photography",
     "reviewedAt": "2026-10-14",
     "assetId": "cleared-eleven-1HWZDjwm8FtRUAaJ4abY_KQsbdqjqPxVT"
+  },
+  {
+    "brand": "Omega",
+    "brandSlug": "omega",
+    "collection": "Aqua Terra",
+    "reference": "220.10.30.20.09.001",
+    "exactReference": "220.10.30.20.09.001",
+    "model": "Seamaster Aqua Terra Sandstone Steel",
+    "material": "Stainless Steel",
+    "configuration": {
+      "caseSize": "30 mm",
+      "movement": "Omega Master Chronometer automatic",
+      "dial": "Sandstone sun-brushed non-wave",
+      "bracelet": "Stainless-steel bracelet"
+    },
+    "sourceUrl": "https://www.cjcharles.com/collections/omega/products/seamaster-aqua-terra-150m-30-mm-220-10-30-20-09-001",
+    "src": "/images/watches/omega/reviewed-220-10-30-20-09-001-white-web.webp",
+    "sha256": "2001ad810b9b0d647c95911a7e7cf559d7308bf3bc4ebc391735f2b3ab525af0",
+    "rawDriveFileId": "1ZJ6OVat8oh5GL_nS5x3zi7RbQmh2eK1n",
+    "clearanceRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for these exact three originals and white-background derivatives with no additional restrictions on October14,2026 Eastern. Record docs/PHOTOGRAPHY_THREE_FOUNDER_RIGHTS_2026-10-15.json. Authentic complete RAW and final white WEB individually visually reviewed; source credits retained separately.",
+    "sourceProvider": "CJ Charles Jewelers product photography",
+    "reviewedAt": "2026-10-14",
+    "assetId": "cleared-three-1ZJ6OVat8oh5GL_nS5x3zi7RbQmh2eK1n"
+  },
+  {
+    "brand": "Omega",
+    "brandSlug": "omega",
+    "collection": "De Ville Prestige",
+    "reference": "434.10.41.21.03.001",
+    "exactReference": "434.10.41.21.03.001",
+    "model": "De Ville Prestige Power Reserve Blue",
+    "material": "Stainless Steel",
+    "configuration": {
+      "caseSize": "41 mm",
+      "movement": "Omega 8810 automatic",
+      "dial": "Blue non-wave",
+      "bracelet": "Stainless-steel bracelet"
+    },
+    "sourceUrl": "https://www.cjcharles.com/collections/omega/products/de-ville-prestige-co-axial-master-chronometer-power-reserve-41-mm-434-10-41-21-03-001",
+    "src": "/images/watches/omega/reviewed-434-10-41-21-03-001-white-web.webp",
+    "sha256": "68bc53b50871aa5f5d21caab3487b9697961e40aca1309cb00a02bf3a07c742d",
+    "rawDriveFileId": "1gbhdxfSqI9jXvRxKnlf8ixjajBHI9rM9",
+    "clearanceRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for these exact three originals and white-background derivatives with no additional restrictions on October14,2026 Eastern. Record docs/PHOTOGRAPHY_THREE_FOUNDER_RIGHTS_2026-10-15.json. Authentic complete RAW and final white WEB individually visually reviewed; source credits retained separately.",
+    "sourceProvider": "CJ Charles Jewelers product photography",
+    "reviewedAt": "2026-10-14",
+    "assetId": "cleared-three-1gbhdxfSqI9jXvRxKnlf8ixjajBHI9rM9"
+  },
+  {
+    "brand": "Omega",
+    "brandSlug": "omega",
+    "collection": "Constellation",
+    "reference": "131.10.28.60.60.001",
+    "exactReference": "131.10.28.60.60.001",
+    "model": "Constellation Matcha Green",
+    "material": "Stainless Steel",
+    "configuration": {
+      "caseSize": "28 mm",
+      "movement": "Omega 4061 quartz",
+      "dial": "Matcha green non-wave",
+      "bracelet": "Stainless-steel bracelet"
+    },
+    "sourceUrl": "https://www.cjcharles.com/collections/omega/products/constellation-quartz-28-mm-131-10-28-60-60-001",
+    "src": "/images/watches/omega/reviewed-131-10-28-60-60-001-white-web.webp",
+    "sha256": "f7151a6579e937ffd625116b80b628b87ee7e13ef4ef7c34f72c0e229630c4e5",
+    "rawDriveFileId": "1Lueaf0Q-fqZWXfT57gSayq0KmkAwLa8r",
+    "clearanceRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for these exact three originals and white-background derivatives with no additional restrictions on October14,2026 Eastern. Record docs/PHOTOGRAPHY_THREE_FOUNDER_RIGHTS_2026-10-15.json. Authentic complete RAW and final white WEB individually visually reviewed; source credits retained separately.",
+    "sourceProvider": "CJ Charles Jewelers product photography",
+    "reviewedAt": "2026-10-14",
+    "assetId": "cleared-three-1Lueaf0Q-fqZWXfT57gSayq0KmkAwLa8r"
   }
 ];

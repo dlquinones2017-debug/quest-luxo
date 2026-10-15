@@ -1,6 +1,6 @@
 {
   "physicalSets": 3,
-  "websitePublished": false,
+  "websitePublished": true,
   "references": [
     {
       "brand": "Omega",
@@ -21,7 +21,7 @@
       "mode": "RGB",
       "path": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\omega-precious-native-originals\\220.50.38.20.03.001-raw.jpg",
       "sha256": "67f1481369ba33f641f84b93baa4c332853effb0f36b195a43f6fe82e33e2343",
-      "status": "Authentic exact-reference retailer original preserved with reviewed identity; derivative awaiting final visual review",
+      "status": "Published authentic exact-reference photograph; founder rights confirmed",
       "whiteMaster": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\omega-precious-purple-white\\220.50.38.20.03.001-white-master.png",
       "webDerivative": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\omega-precious-purple-white\\220.50.38.20.03.001-web.webp",
       "masterSha256": "a7bf65688867f2fcd8bbd189f89ada876ca94ac2d7ef88187722a01c3f5d93a7",
@@ -39,7 +39,7 @@
           "currentMSRP": null
         }
       ],
-      "websiteApproved": false,
+      "websiteApproved": true,
       "processing": "Classical filled outer silhouette against uniform white background; original interior RGB retained. Centered2400 white master and1200 WEB. No AI or reconstruction.",
       "foregroundBounds": [
         265,
@@ -69,7 +69,9 @@
       },
       "commercialUseRightsConfirmed": true,
       "rightsRecord": "PHOTOGRAPHY_ELEVEN_FOUNDER_RIGHTS_2026-10-15.json",
-      "publicationStatus": "Integrated; release checks and deployment pending"
+      "publicationStatus": "LIVE; exact public route/configuration/image hash/credits/inquiry verified",
+      "productionCommit": "f06737e13fbebef8397f57bb2fbe3097e183e484",
+      "productionDeployId": "dep-db83o5lg1s2s73f6fclg"
     },
     {
       "brand": "Omega",
@@ -90,7 +92,7 @@
       "mode": "RGB",
       "path": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\omega-precious-native-originals\\220.20.30.20.10.002-raw.jpg",
       "sha256": "cd49592b3e8d56038d7edfdc94e90d29a627acd1c0eac888f824a06ed040c003",
-      "status": "Authentic exact-reference retailer original preserved with reviewed identity; derivative awaiting final visual review",
+      "status": "Published authentic exact-reference photograph; founder rights confirmed",
       "whiteMaster": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\omega-precious-purple-white\\220.20.30.20.10.002-white-master.png",
       "webDerivative": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\omega-precious-purple-white\\220.20.30.20.10.002-web.webp",
       "masterSha256": "6dc67fa1742706a10f13f79ea802ebd2259d92c89fe65293ca680b4635c24658",
@@ -108,7 +110,7 @@
           "currentMSRP": null
         }
       ],
-      "websiteApproved": false,
+      "websiteApproved": true,
       "processing": "Classical filled outer silhouette against uniform white background; original interior RGB retained. Centered2400 white master and1200 WEB. No AI or reconstruction.",
       "foregroundBounds": [
         357,
@@ -138,7 +140,9 @@
       },
       "commercialUseRightsConfirmed": true,
       "rightsRecord": "PHOTOGRAPHY_ELEVEN_FOUNDER_RIGHTS_2026-10-15.json",
-      "publicationStatus": "Integrated; release checks and deployment pending"
+      "publicationStatus": "LIVE; exact public route/configuration/image hash/credits/inquiry verified",
+      "productionCommit": "f06737e13fbebef8397f57bb2fbe3097e183e484",
+      "productionDeployId": "dep-db83o5lg1s2s73f6fclg"
     },
     {
       "brand": "Omega",
@@ -159,7 +163,7 @@
       "mode": "RGB",
       "path": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\omega-purple-native-originals\\131.10.28.60.60.002-raw.jpg",
       "sha256": "e197d789822f3ef69d11f38e7b72dc30bb0a6883bb1c2cc0c94e42b300238282",
-      "status": "Authentic exact-reference retailer original preserved with reviewed identity; derivative awaiting final visual review",
+      "status": "Published authentic exact-reference photograph; founder rights confirmed",
       "whiteMaster": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\omega-precious-purple-white\\131.10.28.60.60.002-white-master.png",
       "webDerivative": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\omega-precious-purple-white\\131.10.28.60.60.002-web.webp",
       "masterSha256": "35c86d43fd5ef8104ebb8f417c0e131077c0332d0d552bb7246ea4be91f4bb74",
@@ -177,7 +181,7 @@
           "currentMSRP": null
         }
       ],
-      "websiteApproved": false,
+      "websiteApproved": true,
       "processing": "Classical filled outer silhouette against uniform white background; original interior RGB retained. Centered2400 white master and1200 WEB. No AI or reconstruction.",
       "foregroundBounds": [
         282,
@@ -207,7 +211,9 @@
       },
       "commercialUseRightsConfirmed": true,
       "rightsRecord": "PHOTOGRAPHY_ELEVEN_FOUNDER_RIGHTS_2026-10-15.json",
-      "publicationStatus": "Integrated; release checks and deployment pending"
+      "publicationStatus": "LIVE; exact public route/configuration/image hash/credits/inquiry verified",
+      "productionCommit": "f06737e13fbebef8397f57bb2fbe3097e183e484",
+      "productionDeployId": "dep-db83o5lg1s2s73f6fclg"
     }
   ],
   "title": "Three exact-reference Omega originals and reviewed white derivatives archived",
@@ -216,5 +222,9 @@
   "rightsHeldSets": 0,
   "approvedForPublication": true,
   "founderRightsRecord": "PHOTOGRAPHY_ELEVEN_FOUNDER_RIGHTS_2026-10-15.json",
-  "publicationStatus": "Integrated; final checks and deployment pending"
+  "publicationStatus": "LIVE and independently verified",
+  "productionCommit": "f06737e13fbebef8397f57bb2fbe3097e183e484",
+  "productionDeployId": "dep-db83o5lg1s2s73f6fclg",
+  "verifiedAt": "2026-10-15T02:40:03.640476+00:00",
+  "founderRightsDriveFileId": "1k2qsauH8oeLIIoCmCubsHjqwBMnBDydf"
 }

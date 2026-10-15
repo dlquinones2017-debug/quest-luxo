@@ -1,0 +1,221 @@
+{
+  "physicalSets": 3,
+  "websitePublished": false,
+  "references": [
+    {
+      "brand": "Omega",
+      "reference": "220.10.30.20.09.001",
+      "exactSKU": "220.10.30.20.09.001",
+      "sourceProvider": "CJ Charles Jewelers",
+      "sourceUrl": "https://www.cjcharles.com/collections/omega/products/seamaster-aqua-terra-150m-30-mm-220-10-30-20-09-001",
+      "sourcePagePath": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\retailer-source-omega-220.10.30.20.09.001-a39e6869.html",
+      "sourcePageSha256": "4a809b1b2599c428b63653dfe4890ed8526c3e5503bc062f4e5e56efb2b33e94",
+      "imageUrl": "https://www.cjcharles.com/cdn/shop/files/SILVER.png?v=1773792075",
+      "checkedAt": "2026-10-15T02:45:34.561132+00:00",
+      "rightsStatus": "Founder explicitly confirmed this exact original and white derivatives for commercial Quest Luxo website use; no additional restrictions",
+      "reviewStatus": "Untouched RAW and final1200 white WEB individually visually reviewed; complete watch, centered white canvas, no captions/overlays; exact reference/dial/case/bracelet verified against retailer page and registry",
+      "size": [
+        980,
+        1716
+      ],
+      "mode": "P",
+      "path": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\omega-cj-next-five-originals\\220.10.30.20.09.001-raw.png",
+      "sha256": "65b89135549fe8d2d8c8d52cb16b84d0b801fecbee9f5fec9c33912af1290cb5",
+      "status": "Authentic exact-reference retailer original preserved with reviewed identity; derivative awaiting final visual review",
+      "whiteMaster": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\omega-cj-three-white\\220.10.30.20.09.001-white-master.png",
+      "webDerivative": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\omega-cj-three-white\\220.10.30.20.09.001-web.webp",
+      "masterSha256": "32323adfe94da11c082bab5ea7382917c526e2e9f1fc54ee013bef44d1342b5c",
+      "derivativeSha256": "2001ad810b9b0d647c95911a7e7cf559d7308bf3bc4ebc391735f2b3ab525af0",
+      "collection": "Aqua Terra",
+      "canonicalRoute": "/collections/omega/aqua-terra/220-10-30-20-09-001",
+      "catalogMaterial": "Stainless Steel",
+      "catalogConfigurations": [
+        {
+          "caseSize": "30 mm",
+          "movement": "Omega Master Chronometer automatic",
+          "dial": "Sandstone sun-brushed non-wave",
+          "bracelet": "Stainless-steel bracelet",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "websiteApproved": false,
+      "processing": "Original alpha retained for native transparent Sandstone original; classical filled exterior silhouette for opaque white-background originals. Original watch interior RGB retained; centered2400 master and1200 WEB, no AI or reconstruction.",
+      "foregroundBounds": [
+        90,
+        57,
+        923,
+        1678
+      ],
+      "visualReviewPassed": true,
+      "exactSkuVerified": true,
+      "reviewedAt": "2026-10-15T02:49:06.964553+00:00",
+      "driveFiles": {
+        "raw": {
+          "id": "1ZJ6OVat8oh5GL_nS5x3zi7RbQmh2eK1n",
+          "folderId": "1EwU4nbht13ay5Obti9bjywK4rWLCxK_T",
+          "sha256": "65b89135549fe8d2d8c8d52cb16b84d0b801fecbee9f5fec9c33912af1290cb5"
+        },
+        "master": {
+          "id": "11kvC8o4Mff5ANAKJaUAw84jyeKex0z7u",
+          "folderId": "1vl6DzQFhMCHLjh0DcbZ5aM_s_TrZTW49",
+          "sha256": "32323adfe94da11c082bab5ea7382917c526e2e9f1fc54ee013bef44d1342b5c"
+        },
+        "web": {
+          "id": "1e-zzZNZVxL0uppYWw6npbh9ANhs-EDCu",
+          "folderId": "1lijATpBrmBmGnjmhTJmr0gpTa5YaOd8Z",
+          "sha256": "2001ad810b9b0d647c95911a7e7cf559d7308bf3bc4ebc391735f2b3ab525af0"
+        }
+      },
+      "commercialUseRightsConfirmed": true,
+      "rightsRecord": "PHOTOGRAPHY_THREE_FOUNDER_RIGHTS_2026-10-15.json",
+      "publicationStatus": "Integrated; release checks and deployment pending"
+    },
+    {
+      "brand": "Omega",
+      "reference": "434.10.41.21.03.001",
+      "exactSKU": "434.10.41.21.03.001",
+      "sourceProvider": "CJ Charles Jewelers",
+      "sourceUrl": "https://www.cjcharles.com/collections/omega/products/de-ville-prestige-co-axial-master-chronometer-power-reserve-41-mm-434-10-41-21-03-001",
+      "sourcePagePath": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\retailer-source-omega-434.10.41.21.03.001-706df9a9.html",
+      "sourcePageSha256": "ced904adc3bf1087835e2a4bb79ddf24947a5b11b9cd5661740bfddd1a116efd",
+      "imageUrl": "https://www.cjcharles.com/cdn/shop/products/omega-de-ville-prestige-co-axial-master-chronometer-power-reserve-41-mm-43410412103001-1-product-zoom.png?v=1677194282",
+      "checkedAt": "2026-10-15T02:45:34.563228+00:00",
+      "rightsStatus": "Founder explicitly confirmed this exact original and white derivatives for commercial Quest Luxo website use; no additional restrictions",
+      "reviewStatus": "Untouched RAW and final1200 white WEB individually visually reviewed; complete watch, centered white canvas, no captions/overlays; exact reference/dial/case/bracelet verified against retailer page and registry",
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "P",
+      "path": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\omega-cj-next-five-originals\\434.10.41.21.03.001-raw.png",
+      "sha256": "624d09dd0a8b676db28fda4ad854f2cc20c110fd69284d375b90ef644b995bf3",
+      "status": "Authentic exact-reference retailer original preserved with reviewed identity; derivative awaiting final visual review",
+      "whiteMaster": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\omega-cj-three-white\\434.10.41.21.03.001-white-master.png",
+      "webDerivative": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\omega-cj-three-white\\434.10.41.21.03.001-web.webp",
+      "masterSha256": "aa3ce3a938e745ad3d5103d23d4ebc191ed14e2dd062405eea63875d5f43b580",
+      "derivativeSha256": "68bc53b50871aa5f5d21caab3487b9697961e40aca1309cb00a02bf3a07c742d",
+      "collection": "De Ville Prestige",
+      "canonicalRoute": "/collections/omega/de-ville-prestige/434-10-41-21-03-001",
+      "catalogMaterial": "Stainless Steel",
+      "catalogConfigurations": [
+        {
+          "caseSize": "41 mm",
+          "movement": "Omega 8810 automatic",
+          "dial": "Blue non-wave",
+          "bracelet": "Stainless-steel bracelet",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "websiteApproved": false,
+      "processing": "Original alpha retained for native transparent Sandstone original; classical filled exterior silhouette for opaque white-background originals. Original watch interior RGB retained; centered2400 master and1200 WEB, no AI or reconstruction.",
+      "foregroundBounds": [
+        255,
+        11,
+        799,
+        1014
+      ],
+      "visualReviewPassed": true,
+      "exactSkuVerified": true,
+      "reviewedAt": "2026-10-15T02:49:06.970128+00:00",
+      "driveFiles": {
+        "raw": {
+          "id": "1gbhdxfSqI9jXvRxKnlf8ixjajBHI9rM9",
+          "folderId": "1EwU4nbht13ay5Obti9bjywK4rWLCxK_T",
+          "sha256": "624d09dd0a8b676db28fda4ad854f2cc20c110fd69284d375b90ef644b995bf3"
+        },
+        "master": {
+          "id": "1jMeD4Zwpj_RAD2dJSP8F8u1fnJ_nKTpQ",
+          "folderId": "1vl6DzQFhMCHLjh0DcbZ5aM_s_TrZTW49",
+          "sha256": "aa3ce3a938e745ad3d5103d23d4ebc191ed14e2dd062405eea63875d5f43b580"
+        },
+        "web": {
+          "id": "1da62-IWZAYWRfzlt2wpb6IHCr8tyRI4U",
+          "folderId": "1lijATpBrmBmGnjmhTJmr0gpTa5YaOd8Z",
+          "sha256": "68bc53b50871aa5f5d21caab3487b9697961e40aca1309cb00a02bf3a07c742d"
+        }
+      },
+      "commercialUseRightsConfirmed": true,
+      "rightsRecord": "PHOTOGRAPHY_THREE_FOUNDER_RIGHTS_2026-10-15.json",
+      "publicationStatus": "Integrated; release checks and deployment pending"
+    },
+    {
+      "brand": "Omega",
+      "reference": "131.10.28.60.60.001",
+      "exactSKU": "131.10.28.60.60.001",
+      "sourceProvider": "CJ Charles Jewelers",
+      "sourceUrl": "https://www.cjcharles.com/collections/omega/products/constellation-quartz-28-mm-131-10-28-60-60-001",
+      "sourcePagePath": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\retailer-source-omega-131.10.28.60.60.001-3aea563b.html",
+      "sourcePageSha256": "9ff423554775ca5ca7ada516f5a5209195a58e8154912ccee8b410b934fc9be6",
+      "imageUrl": "https://www.cjcharles.com/cdn/shop/products/omega-constellation-quartz-28-mm-13110286060001-1-product-zoom.png?v=1677192234",
+      "checkedAt": "2026-10-15T02:45:34.850851+00:00",
+      "rightsStatus": "Founder explicitly confirmed this exact original and white derivatives for commercial Quest Luxo website use; no additional restrictions",
+      "reviewStatus": "Untouched RAW and final1200 white WEB individually visually reviewed; complete watch, centered white canvas, no captions/overlays; exact reference/dial/case/bracelet verified against retailer page and registry",
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "P",
+      "path": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\omega-cj-next-five-originals\\131.10.28.60.60.001-raw.png",
+      "sha256": "6c703d01c710182b1b255e9409a0c4e60d8b2df0474a0c4273c0edce374c7122",
+      "status": "Authentic exact-reference retailer original preserved with reviewed identity; derivative awaiting final visual review",
+      "whiteMaster": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\omega-cj-three-white\\131.10.28.60.60.001-white-master.png",
+      "webDerivative": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\omega-cj-three-white\\131.10.28.60.60.001-web.webp",
+      "masterSha256": "5c4590d9b3deb9bbaf19a71ee2eaa861b9cbe5df6eb5ad8abb999bcabaa66b80",
+      "derivativeSha256": "f7151a6579e937ffd625116b80b628b87ee7e13ef4ef7c34f72c0e229630c4e5",
+      "collection": "Constellation",
+      "canonicalRoute": "/collections/omega/constellation/131-10-28-60-60-001",
+      "catalogMaterial": "Stainless Steel",
+      "catalogConfigurations": [
+        {
+          "caseSize": "28 mm",
+          "movement": "Omega 4061 quartz",
+          "dial": "Matcha green non-wave",
+          "bracelet": "Stainless-steel bracelet",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "websiteApproved": false,
+      "processing": "Original alpha retained for native transparent Sandstone original; classical filled exterior silhouette for opaque white-background originals. Original watch interior RGB retained; centered2400 master and1200 WEB, no AI or reconstruction.",
+      "foregroundBounds": [
+        289,
+        24,
+        759,
+        997
+      ],
+      "visualReviewPassed": true,
+      "exactSkuVerified": true,
+      "reviewedAt": "2026-10-15T02:49:06.977201+00:00",
+      "driveFiles": {
+        "raw": {
+          "id": "1Lueaf0Q-fqZWXfT57gSayq0KmkAwLa8r",
+          "folderId": "1EwU4nbht13ay5Obti9bjywK4rWLCxK_T",
+          "sha256": "6c703d01c710182b1b255e9409a0c4e60d8b2df0474a0c4273c0edce374c7122"
+        },
+        "master": {
+          "id": "15DCdlWGnrf2VJDMYyLDrdXTCYRgTiqD7",
+          "folderId": "1vl6DzQFhMCHLjh0DcbZ5aM_s_TrZTW49",
+          "sha256": "5c4590d9b3deb9bbaf19a71ee2eaa861b9cbe5df6eb5ad8abb999bcabaa66b80"
+        },
+        "web": {
+          "id": "1MyKZXZq5U6MMhlrlC5M8EHOvOTeFtgAi",
+          "folderId": "1lijATpBrmBmGnjmhTJmr0gpTa5YaOd8Z",
+          "sha256": "f7151a6579e937ffd625116b80b628b87ee7e13ef4ef7c34f72c0e229630c4e5"
+        }
+      },
+      "commercialUseRightsConfirmed": true,
+      "rightsRecord": "PHOTOGRAPHY_THREE_FOUNDER_RIGHTS_2026-10-15.json",
+      "publicationStatus": "Integrated; release checks and deployment pending"
+    }
+  ],
+  "title": "Three CJ Charles exact-reference Omega photographs archived",
+  "approvedForPublication": true,
+  "rightsHeldSets": 0,
+  "archivedAt": "2026-10-15T02:52:10.323136+00:00",
+  "driveFilesArchived": 9,
+  "rightsStatus": "Direct founder confirmation for all three originals and derivatives without restrictions; release checks pending",
+  "founderRightsRecord": "PHOTOGRAPHY_THREE_FOUNDER_RIGHTS_2026-10-15.json",
+  "publicationStatus": "Integrated; final checks and deployment pending"
+}

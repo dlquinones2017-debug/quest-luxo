@@ -1,14 +1,14 @@
 {
-  "reviewedAt": "2026-10-15T02:31:42.447Z",
+  "reviewedAt": "2026-10-15T02:58:45.740Z",
   "note": "Generated from all exported source datasets and built routes. Source-only and duplicate configuration records are retained for review; this register is not proof of image rights. Source URLs identify research leads, not licenses.",
   "summary": {
-    "sourceConfigurations": 780,
+    "sourceConfigurations": 788,
     "builtReferenceRoutes": 268,
     "collectionRoutes": 103,
-    "approvedReferenceConfigurations": 355,
+    "approvedReferenceConfigurations": 363,
     "unmatchedReferenceRoutes": 0,
-    "approvedCanonicalReferenceRoutes": 180,
-    "queuedCanonicalReferenceRoutes": 88
+    "approvedCanonicalReferenceRoutes": 183,
+    "queuedCanonicalReferenceRoutes": 85
   },
   "collections": [
     {
@@ -8021,6 +8021,7 @@
           "movement": "Omega Master Chronometer automatic",
           "dial": "Sandstone sun-brushed non-wave",
           "bracelet": "Stainless-steel bracelet",
+          "nickname": "Sandstone sun-brushed non-wave / Stainless-steel bracelet",
           "originalMSRP": null,
           "currentMSRP": null
         }
@@ -8028,20 +8029,20 @@
       "material": "Stainless Steel",
       "sources": [
         "src/data/collectionRegistry.ts",
-        "src/data/verified-catalog-expansion.ts"
+        "src/data/photography-expansion.ts"
       ],
       "routes": [
         "/collections/omega/aqua-terra/220-10-30-20-09-001"
       ],
       "scope": "built-reference",
-      "existingImage": "/images/watch-reference-placeholder.svg",
+      "existingImage": "/images/watches/omega/reviewed-220-10-30-20-09-001-white-web.webp",
       "existingImageFilePresent": true,
-      "photoAssetId": null,
-      "status": "Requires Verification",
-      "sourceUrl": "https://press.omegawatches.com/omega-festive-season-2025/",
-      "licenseRecord": null,
-      "websiteApproved": false,
-      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+      "photoAssetId": "cleared-three-1ZJ6OVat8oh5GL_nS5x3zi7RbQmh2eK1n",
+      "status": "approved",
+      "sourceUrl": "https://www.cjcharles.com/collections/omega/products/seamaster-aqua-terra-150m-30-mm-220-10-30-20-09-001",
+      "licenseRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for these exact three originals and white-background derivatives with no additional restrictions on October14,2026 Eastern. Record docs/PHOTOGRAPHY_THREE_FOUNDER_RIGHTS_2026-10-15.json. Authentic complete RAW and final white WEB individually visually reviewed; source credits retained separately. Preserved RAW file: 1ZJ6OVat8oh5GL_nS5x3zi7RbQmh2eK1n. Pictured full reference 220.10.30.20.09.001; Stainless Steel, Sandstone sun-brushed non-wave, Stainless-steel bracelet. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
     },
     {
       "brand": "Omega",
@@ -11965,26 +11966,26 @@
           "dial": "Matcha green non-wave",
           "bracelet": "Stainless-steel bracelet",
           "originalMSRP": null,
-          "currentMSRP": null
+          "currentMSRP": null,
+          "nickname": "Matcha green non-wave / Stainless-steel bracelet"
         }
       ],
       "material": "Stainless Steel",
       "sources": [
-        "src/data/collectionRegistry.ts",
-        "src/data/verified-catalog-expansion.ts"
+        "src/data/collectionRegistry.ts"
       ],
       "routes": [
         "/collections/omega/constellation/131-10-28-60-60-001"
       ],
       "scope": "built-reference",
-      "existingImage": "/images/watch-reference-placeholder.svg",
+      "existingImage": "/images/watches/omega/reviewed-131-10-28-60-60-001-white-web.webp",
       "existingImageFilePresent": true,
-      "photoAssetId": null,
-      "status": "Requires Verification",
-      "sourceUrl": "https://www.omegawatches.com.hk/en-hk/watch-omega-constellation-quartz-28-mm-13110286060001",
-      "licenseRecord": null,
-      "websiteApproved": false,
-      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+      "photoAssetId": "cleared-three-1Lueaf0Q-fqZWXfT57gSayq0KmkAwLa8r",
+      "status": "approved",
+      "sourceUrl": "https://www.cjcharles.com/collections/omega/products/constellation-quartz-28-mm-131-10-28-60-60-001",
+      "licenseRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for these exact three originals and white-background derivatives with no additional restrictions on October14,2026 Eastern. Record docs/PHOTOGRAPHY_THREE_FOUNDER_RIGHTS_2026-10-15.json. Authentic complete RAW and final white WEB individually visually reviewed; source credits retained separately. Preserved RAW file: 1Lueaf0Q-fqZWXfT57gSayq0KmkAwLa8r. Pictured full reference 131.10.28.60.60.001; Stainless Steel, Matcha green non-wave, Stainless-steel bracelet. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
     },
     {
       "brand": "Omega",
@@ -12061,26 +12062,26 @@
           "dial": "Blue non-wave",
           "bracelet": "Stainless-steel bracelet",
           "originalMSRP": null,
-          "currentMSRP": null
+          "currentMSRP": null,
+          "nickname": "Blue non-wave / Stainless-steel bracelet"
         }
       ],
       "material": "Stainless Steel",
       "sources": [
-        "src/data/collectionRegistry.ts",
-        "src/data/verified-catalog-expansion.ts"
+        "src/data/collectionRegistry.ts"
       ],
       "routes": [
         "/collections/omega/de-ville-prestige/434-10-41-21-03-001"
       ],
       "scope": "built-reference",
-      "existingImage": "/images/watch-reference-placeholder.svg",
+      "existingImage": "/images/watches/omega/reviewed-434-10-41-21-03-001-white-web.webp",
       "existingImageFilePresent": true,
-      "photoAssetId": null,
-      "status": "Requires Verification",
-      "sourceUrl": "https://www.omegawatches.com.hk/en-hk/watch-omega-de-ville-prestige-co-axial-master-chronometer-power-reserve-41-mm-43410412103001",
-      "licenseRecord": null,
-      "websiteApproved": false,
-      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+      "photoAssetId": "cleared-three-1gbhdxfSqI9jXvRxKnlf8ixjajBHI9rM9",
+      "status": "approved",
+      "sourceUrl": "https://www.cjcharles.com/collections/omega/products/de-ville-prestige-co-axial-master-chronometer-power-reserve-41-mm-434-10-41-21-03-001",
+      "licenseRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for these exact three originals and white-background derivatives with no additional restrictions on October14,2026 Eastern. Record docs/PHOTOGRAPHY_THREE_FOUNDER_RIGHTS_2026-10-15.json. Authentic complete RAW and final white WEB individually visually reviewed; source credits retained separately. Preserved RAW file: 1gbhdxfSqI9jXvRxKnlf8ixjajBHI9rM9. Pictured full reference 434.10.41.21.03.001; Stainless Steel, Blue non-wave, Stainless-steel bracelet. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
     },
     {
       "brand": "Omega",
@@ -16102,6 +16103,72 @@
       "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
     },
     {
+      "brand": "Omega",
+      "collection": "Aqua Terra",
+      "reference": "220.10.30.20.09.001",
+      "configurations": [],
+      "material": "Stainless Steel",
+      "sources": [
+        "src/data/photography-cleared-sprint.ts"
+      ],
+      "routes": [
+        "/collections/omega/aqua-terra/220-10-30-20-09-001"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": null,
+      "status": "Requires Verification",
+      "sourceUrl": null,
+      "licenseRecord": null,
+      "websiteApproved": false,
+      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+    },
+    {
+      "brand": "Omega",
+      "collection": "De Ville Prestige",
+      "reference": "434.10.41.21.03.001",
+      "configurations": [],
+      "material": "Stainless Steel",
+      "sources": [
+        "src/data/photography-cleared-sprint.ts"
+      ],
+      "routes": [
+        "/collections/omega/de-ville-prestige/434-10-41-21-03-001"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": null,
+      "status": "Requires Verification",
+      "sourceUrl": null,
+      "licenseRecord": null,
+      "websiteApproved": false,
+      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+    },
+    {
+      "brand": "Omega",
+      "collection": "Constellation",
+      "reference": "131.10.28.60.60.001",
+      "configurations": [],
+      "material": "Stainless Steel",
+      "sources": [
+        "src/data/photography-cleared-sprint.ts"
+      ],
+      "routes": [
+        "/collections/omega/constellation/131-10-28-60-60-001"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": null,
+      "status": "Requires Verification",
+      "sourceUrl": null,
+      "licenseRecord": null,
+      "websiteApproved": false,
+      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+    },
+    {
       "brand": "Breitling",
       "collection": "Superocean",
       "reference": "A17376211B1A1",
@@ -19257,6 +19324,70 @@
       "status": "approved",
       "sourceUrl": "https://www.jw-oomiya.co.jp/products/iw328801",
       "licenseRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for these exact eleven originals and white-background derivatives with no additional restrictions on October14,2026 Eastern. Record docs/PHOTOGRAPHY_ELEVEN_FOUNDER_RIGHTS_2026-10-15.json. Authentic complete RAW and final white WEB individually visually reviewed; source credits retained separately. Preserved RAW file: 1HWZDjwm8FtRUAaJ4abY_KQsbdqjqPxVT. Pictured full reference IW328801; Stainless Steel, Blue, Blue rubber strap. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
+      "brand": "Omega",
+      "collection": "De Ville Prestige",
+      "reference": "434.10.41.21.03.001",
+      "configurations": [
+        {
+          "caseSize": "41 mm",
+          "movement": "Omega 8810 automatic",
+          "dial": "Blue non-wave",
+          "bracelet": "Stainless-steel bracelet",
+          "nickname": "Blue non-wave / Stainless-steel bracelet",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "Stainless Steel",
+      "sources": [
+        "src/data/photography-expansion.ts"
+      ],
+      "routes": [
+        "/collections/omega/de-ville-prestige/434-10-41-21-03-001"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": "cleared-three-1gbhdxfSqI9jXvRxKnlf8ixjajBHI9rM9",
+      "status": "approved",
+      "sourceUrl": "https://www.cjcharles.com/collections/omega/products/de-ville-prestige-co-axial-master-chronometer-power-reserve-41-mm-434-10-41-21-03-001",
+      "licenseRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for these exact three originals and white-background derivatives with no additional restrictions on October14,2026 Eastern. Record docs/PHOTOGRAPHY_THREE_FOUNDER_RIGHTS_2026-10-15.json. Authentic complete RAW and final white WEB individually visually reviewed; source credits retained separately. Preserved RAW file: 1gbhdxfSqI9jXvRxKnlf8ixjajBHI9rM9. Pictured full reference 434.10.41.21.03.001; Stainless Steel, Blue non-wave, Stainless-steel bracelet. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
+      "brand": "Omega",
+      "collection": "Constellation",
+      "reference": "131.10.28.60.60.001",
+      "configurations": [
+        {
+          "caseSize": "28 mm",
+          "movement": "Omega 4061 quartz",
+          "dial": "Matcha green non-wave",
+          "bracelet": "Stainless-steel bracelet",
+          "nickname": "Matcha green non-wave / Stainless-steel bracelet",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "Stainless Steel",
+      "sources": [
+        "src/data/photography-expansion.ts"
+      ],
+      "routes": [
+        "/collections/omega/constellation/131-10-28-60-60-001"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": "cleared-three-1Lueaf0Q-fqZWXfT57gSayq0KmkAwLa8r",
+      "status": "approved",
+      "sourceUrl": "https://www.cjcharles.com/collections/omega/products/constellation-quartz-28-mm-131-10-28-60-60-001",
+      "licenseRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for these exact three originals and white-background derivatives with no additional restrictions on October14,2026 Eastern. Record docs/PHOTOGRAPHY_THREE_FOUNDER_RIGHTS_2026-10-15.json. Authentic complete RAW and final white WEB individually visually reviewed; source credits retained separately. Preserved RAW file: 1Lueaf0Q-fqZWXfT57gSayq0KmkAwLa8r. Pictured full reference 131.10.28.60.60.001; Stainless Steel, Matcha green non-wave, Stainless-steel bracelet. Exact configuration reviewed against preserved source evidence and the original photograph.",
       "websiteApproved": true,
       "nextAction": "Retain approved original and verify derivative integrity."
     },
@@ -24469,6 +24600,37 @@
     {
       "brand": "Omega",
       "collection": "Aqua Terra",
+      "reference": "220.10.30.20.09.001",
+      "configurations": [
+        {
+          "caseSize": "30 mm",
+          "movement": "Omega Master Chronometer automatic",
+          "dial": "Sandstone sun-brushed non-wave",
+          "bracelet": "Stainless-steel bracelet",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "Stainless Steel",
+      "sources": [
+        "src/data/verified-catalog-expansion.ts"
+      ],
+      "routes": [
+        "/collections/omega/aqua-terra/220-10-30-20-09-001"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": "cleared-three-1ZJ6OVat8oh5GL_nS5x3zi7RbQmh2eK1n",
+      "status": "approved",
+      "sourceUrl": "https://www.cjcharles.com/collections/omega/products/seamaster-aqua-terra-150m-30-mm-220-10-30-20-09-001",
+      "licenseRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for these exact three originals and white-background derivatives with no additional restrictions on October14,2026 Eastern. Record docs/PHOTOGRAPHY_THREE_FOUNDER_RIGHTS_2026-10-15.json. Authentic complete RAW and final white WEB individually visually reviewed; source credits retained separately. Preserved RAW file: 1ZJ6OVat8oh5GL_nS5x3zi7RbQmh2eK1n. Pictured full reference 220.10.30.20.09.001; Stainless Steel, Sandstone sun-brushed non-wave, Stainless-steel bracelet. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
+      "brand": "Omega",
+      "collection": "Aqua Terra",
       "reference": "220.50.38.20.03.001",
       "configurations": [
         {
@@ -24810,6 +24972,37 @@
     {
       "brand": "Omega",
       "collection": "Constellation",
+      "reference": "131.10.28.60.60.001",
+      "configurations": [
+        {
+          "caseSize": "28 mm",
+          "movement": "Omega 4061 quartz",
+          "dial": "Matcha green non-wave",
+          "bracelet": "Stainless-steel bracelet",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "Stainless Steel",
+      "sources": [
+        "src/data/verified-catalog-expansion.ts"
+      ],
+      "routes": [
+        "/collections/omega/constellation/131-10-28-60-60-001"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": "cleared-three-1Lueaf0Q-fqZWXfT57gSayq0KmkAwLa8r",
+      "status": "approved",
+      "sourceUrl": "https://www.cjcharles.com/collections/omega/products/constellation-quartz-28-mm-131-10-28-60-60-001",
+      "licenseRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for these exact three originals and white-background derivatives with no additional restrictions on October14,2026 Eastern. Record docs/PHOTOGRAPHY_THREE_FOUNDER_RIGHTS_2026-10-15.json. Authentic complete RAW and final white WEB individually visually reviewed; source credits retained separately. Preserved RAW file: 1Lueaf0Q-fqZWXfT57gSayq0KmkAwLa8r. Pictured full reference 131.10.28.60.60.001; Stainless Steel, Matcha green non-wave, Stainless-steel bracelet. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
+      "brand": "Omega",
+      "collection": "Constellation",
       "reference": "131.10.28.60.56.001",
       "configurations": [
         {
@@ -24835,6 +25028,37 @@
       "status": "approved",
       "sourceUrl": "https://www.kk-tanaka.com/omega/38368/",
       "licenseRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for these exact eleven originals and white-background derivatives with no additional restrictions on October14,2026 Eastern. Record docs/PHOTOGRAPHY_ELEVEN_FOUNDER_RIGHTS_2026-10-15.json. Authentic complete RAW and final white WEB individually visually reviewed; source credits retained separately. Preserved RAW file: 1er8X4Qt2d4Jz1g6u7yLQ44lyPcEwZJ8U. Pictured full reference 131.10.28.60.56.001; Stainless Steel, Gray sun-brushed non-wave with diamonds, Stainless-steel bracelet. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
+      "brand": "Omega",
+      "collection": "De Ville Prestige",
+      "reference": "434.10.41.21.03.001",
+      "configurations": [
+        {
+          "caseSize": "41 mm",
+          "movement": "Omega 8810 automatic",
+          "dial": "Blue non-wave",
+          "bracelet": "Stainless-steel bracelet",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "Stainless Steel",
+      "sources": [
+        "src/data/verified-catalog-expansion.ts"
+      ],
+      "routes": [
+        "/collections/omega/de-ville-prestige/434-10-41-21-03-001"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": "cleared-three-1gbhdxfSqI9jXvRxKnlf8ixjajBHI9rM9",
+      "status": "approved",
+      "sourceUrl": "https://www.cjcharles.com/collections/omega/products/de-ville-prestige-co-axial-master-chronometer-power-reserve-41-mm-434-10-41-21-03-001",
+      "licenseRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for these exact three originals and white-background derivatives with no additional restrictions on October14,2026 Eastern. Record docs/PHOTOGRAPHY_THREE_FOUNDER_RIGHTS_2026-10-15.json. Authentic complete RAW and final white WEB individually visually reviewed; source credits retained separately. Preserved RAW file: 1gbhdxfSqI9jXvRxKnlf8ixjajBHI9rM9. Pictured full reference 434.10.41.21.03.001; Stainless Steel, Blue non-wave, Stainless-steel bracelet. Exact configuration reviewed against preserved source evidence and the original photograph.",
       "websiteApproved": true,
       "nextAction": "Retain approved original and verify derivative integrity."
     },

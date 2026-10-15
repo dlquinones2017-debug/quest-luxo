@@ -1,0 +1,32 @@
+{
+  "recordedAt": "2026-10-15T02:56:47.648218+00:00",
+  "founderDecisionDateEastern": "2026-10-14",
+  "evidenceType": "Direct human founder response in existing Website/Product chat",
+  "questionItemId": "call_55b2fcfaa24e4bccaab5e9d616e224db",
+  "founderAnswer": "Rights cover all three and derivatives; no additional restrictions",
+  "scope": "Commercial Quest Luxo website use of these three exact retailer originals and white-background derivatives only",
+  "sourceLedgerDriveIds": [
+    "17smg_mWHxkTfqyDkncFbZVieRbzjW5ut"
+  ],
+  "references": [
+    {
+      "brand": "Omega",
+      "reference": "220.10.30.20.09.001",
+      "sourceProvider": "CJ Charles Jewelers",
+      "rawSha256": "65b89135549fe8d2d8c8d52cb16b84d0b801fecbee9f5fec9c33912af1290cb5"
+    },
+    {
+      "brand": "Omega",
+      "reference": "434.10.41.21.03.001",
+      "sourceProvider": "CJ Charles Jewelers",
+      "rawSha256": "624d09dd0a8b676db28fda4ad854f2cc20c110fd69284d375b90ef644b995bf3"
+    },
+    {
+      "brand": "Omega",
+      "reference": "131.10.28.60.60.001",
+      "sourceProvider": "CJ Charles Jewelers",
+      "rawSha256": "6c703d01c710182b1b255e9409a0c4e60d8b2df0474a0c4273c0edce374c7122"
+    }
+  ],
+  "noScopeExtension": "No rights asserted for future originals outside these three sets"
+}

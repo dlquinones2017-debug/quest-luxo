@@ -1,0 +1,60 @@
+{
+  "checkedAt": "2026-10-15T03:01:19.533358+00:00",
+  "status": "Passed release validation; production verification pending",
+  "rightsDriveFileId": "1o_ZHnduJ_9NLb2ZOjInsCM31NABJKorg",
+  "built": {
+    "checkedAt": "2026-10-15T02:58:46.572429+00:00",
+    "mode": "built",
+    "exactReferencesChecked": 3,
+    "rows": [
+      {
+        "reference": "220.10.30.20.09.001",
+        "route": "/collections/omega/aqua-terra/220-10-30-20-09-001",
+        "imageSha256": "2001ad810b9b0d647c95911a7e7cf559d7308bf3bc4ebc391735f2b3ab525af0",
+        "exactConfiguration": true,
+        "collectionGrid": true,
+        "inquiryContext": true,
+        "separateCredits": true,
+        "noImageCaptionOverlay": true
+      },
+      {
+        "reference": "434.10.41.21.03.001",
+        "route": "/collections/omega/de-ville-prestige/434-10-41-21-03-001",
+        "imageSha256": "68bc53b50871aa5f5d21caab3487b9697961e40aca1309cb00a02bf3a07c742d",
+        "exactConfiguration": true,
+        "collectionGrid": true,
+        "inquiryContext": true,
+        "separateCredits": true,
+        "noImageCaptionOverlay": true
+      },
+      {
+        "reference": "131.10.28.60.60.001",
+        "route": "/collections/omega/constellation/131-10-28-60-60-001",
+        "imageSha256": "f7151a6579e937ffd625116b80b628b87ee7e13ef4ef7c34f72c0e229630c4e5",
+        "exactConfiguration": true,
+        "collectionGrid": true,
+        "inquiryContext": true,
+        "separateCredits": true,
+        "noImageCaptionOverlay": true
+      }
+    ],
+    "publicFlowsAvailable": true,
+    "leadDataSafety": "Public GET checks only. No new lead submissions, private lead reads, runtime data or disk changes."
+  },
+  "regressions": {
+    "passed": 246,
+    "failed": 0
+  },
+  "astro": {
+    "errors": 0,
+    "warnings": 0,
+    "hints": 21
+  },
+  "build": "Passed; existing Zenith punctuation alias and public robots warnings unchanged",
+  "visualReview": {
+    "desktop": "1440x1000 DeVille complete centered watch; document/client width1425",
+    "mobile": "390x844 Sandstone complete centered watch; document/client width375",
+    "images": "Three authentic RAW and final white WEB individually reviewed",
+    "leadSafety": "Only public pages and contextual intake links checked; no customer records or submissions"
+  }
+}

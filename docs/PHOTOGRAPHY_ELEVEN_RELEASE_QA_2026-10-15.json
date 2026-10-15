@@ -137,7 +137,7 @@
     "Existing Zenith punctuation-alias route conflict",
     "Existing duplicate public robots.txt route"
   ],
-  "productionStatus": "Checks passed; deployment and live verification pending",
+  "productionStatus": "LIVE and independently verified",
   "target": {
     "references": 268,
     "photographed": 180,
@@ -146,5 +146,139 @@
     "collections": 103
   },
   "rightsDriveFileId": "1k2qsauH8oeLIIoCmCubsHjqwBMnBDydf",
-  "leadSafety": "No private lead reads, test submissions, runtime data, credentials or disk changes."
+  "leadSafety": "No private lead reads, test submissions, runtime data, credentials or disk changes.",
+  "productionCommit": "f06737e13fbebef8397f57bb2fbe3097e183e484",
+  "productionDeployId": "dep-db83o5lg1s2s73f6fclg",
+  "liveTargetedChecks": {
+    "checkedAt": "2026-10-15T02:37:52.089617+00:00",
+    "mode": "live",
+    "exactReferencesChecked": 11,
+    "rows": [
+      {
+        "reference": "220.50.38.20.03.001",
+        "route": "/collections/omega/aqua-terra/220-50-38-20-03-001",
+        "imageSha256": "dcb669a5ccffcf30f5b553972f0ece49e2c939af211fd08f51847ea94e90ac8b",
+        "exactConfiguration": true,
+        "collectionGrid": true,
+        "inquiryContext": true,
+        "separateCredits": true,
+        "noImageCaptionOverlay": true
+      },
+      {
+        "reference": "220.20.30.20.10.002",
+        "route": "/collections/omega/aqua-terra/220-20-30-20-10-002",
+        "imageSha256": "1f9f61d5d2a76a67f35d49daeee0b0f5a9895ea1b07740e7e66c9c7f7bec16f2",
+        "exactConfiguration": true,
+        "collectionGrid": true,
+        "inquiryContext": true,
+        "separateCredits": true,
+        "noImageCaptionOverlay": true
+      },
+      {
+        "reference": "131.10.28.60.60.002",
+        "route": "/collections/omega/constellation/131-10-28-60-60-002",
+        "imageSha256": "72186c3292b416cae64927cf32b146909ff109b4db47bed6510a96f29ef6c6a4",
+        "exactConfiguration": true,
+        "collectionGrid": true,
+        "inquiryContext": true,
+        "separateCredits": true,
+        "noImageCaptionOverlay": true
+      },
+      {
+        "reference": "131.10.28.60.56.001",
+        "route": "/collections/omega/constellation/131-10-28-60-56-001",
+        "imageSha256": "a8e653dbcf0bd7ca0e3cc42f809198abc076f68632343f3d1ba5c58c1c14d4a1",
+        "exactConfiguration": true,
+        "collectionGrid": true,
+        "inquiryContext": true,
+        "separateCredits": true,
+        "noImageCaptionOverlay": true
+      },
+      {
+        "reference": "IW328901",
+        "route": "/collections/iwc/ingenieur/iw328901",
+        "imageSha256": "5771db0e39ef80e6f253e39534101c2a3f5817496caca90a90eae71b0770e6db",
+        "exactConfiguration": true,
+        "collectionGrid": true,
+        "inquiryContext": true,
+        "separateCredits": true,
+        "noImageCaptionOverlay": true
+      },
+      {
+        "reference": "IW371617",
+        "route": "/collections/iwc/portugieser/iw371617",
+        "imageSha256": "c49b1a7771f1060464558edaab5aaeb2b80075e90649721b99ba1a1fcfc8a5ee",
+        "exactConfiguration": true,
+        "collectionGrid": true,
+        "inquiryContext": true,
+        "separateCredits": true,
+        "noImageCaptionOverlay": true
+      },
+      {
+        "reference": "IW371615",
+        "route": "/collections/iwc/portugieser/iw371615",
+        "imageSha256": "b7332ffa602710f1143e1dac299b3964c3b43c228fb764eca2be821be6bb996b",
+        "exactConfiguration": true,
+        "collectionGrid": true,
+        "inquiryContext": true,
+        "separateCredits": true,
+        "noImageCaptionOverlay": true
+      },
+      {
+        "reference": "IW388101",
+        "route": "/collections/iwc/pilots-watches/iw388101",
+        "imageSha256": "11d1c578b08fc824126898deff8704c1cb2935ad9b5a135e766e206b1b12f63d",
+        "exactConfiguration": true,
+        "collectionGrid": true,
+        "inquiryContext": true,
+        "separateCredits": true,
+        "noImageCaptionOverlay": true
+      },
+      {
+        "reference": "IW388102",
+        "route": "/collections/iwc/pilots-watch/iw388102",
+        "imageSha256": "42efd7ed98fc4ab19d4843f98218d117a94fc362a7a7e735b3b7cc2e761c8ba4",
+        "exactConfiguration": true,
+        "collectionGrid": true,
+        "inquiryContext": true,
+        "separateCredits": true,
+        "noImageCaptionOverlay": true
+      },
+      {
+        "reference": "IW356527",
+        "route": "/collections/iwc/portofino/iw356527",
+        "imageSha256": "cadc50bd5c57023e42b1ea298ff45f3968c3b9074359c1374deafdec4f97358f",
+        "exactConfiguration": true,
+        "collectionGrid": true,
+        "inquiryContext": true,
+        "separateCredits": true,
+        "noImageCaptionOverlay": true
+      },
+      {
+        "reference": "IW328801",
+        "route": "/collections/iwc/aquatimer/iw328801",
+        "imageSha256": "f1c498bc1a895760578c8ad1ba92c761ee13977f4f32b00ea7ace10740f3d008",
+        "exactConfiguration": true,
+        "collectionGrid": true,
+        "inquiryContext": true,
+        "separateCredits": true,
+        "noImageCaptionOverlay": true
+      }
+    ],
+    "publicFlowsAvailable": true,
+    "leadDataSafety": "Public GET checks only. No new lead submissions, private lead reads, runtime data or disk changes."
+  },
+  "liveFullCatalogSummary": {
+    "verifiedAt": "2026-10-15T02:38:18.836416+00:00",
+    "expectedDistinctReferenceRoutes": 268,
+    "verifiedReferenceRoutes": 268,
+    "approvedDistinctReferenceRoutes": 180,
+    "verifiedDistinctPhotoFiles": 179,
+    "queuedDistinctReferenceRoutes": 88,
+    "errors": [],
+    "leadSafety": "Read-only public-route checks; no customer records read or submissions created.",
+    "productionCommit": "f06737e13fbebef8397f57bb2fbe3097e183e484",
+    "productionDeployId": "dep-db83o5lg1s2s73f6fclg"
+  },
+  "liveVisualQA": "Production390x844 Ingenieur complete white-canvas watch loaded1200; client and document width375; exact IW328901 CTA into public contextualized intake verified; no submission."
 }

@@ -1,17 +1,17 @@
 {
-  "reviewedAt": "2026-10-15T02:31:41.685Z",
+  "reviewedAt": "2026-10-15T02:57:05.553Z",
   "scope": "All verified-catalog-expansion.ts references only; excludes legacy inventory",
   "policy": "Source URL is NOT image-rights evidence. Exact watch, strap, dial, material, white-canvas original, licensing, website approval and actual derivative SHA256 are required.",
   "summary": {
     "expansionReferences": 99,
     "brands": 12,
     "collections": 42,
-    "approvedValidReferences": 51,
+    "approvedValidReferences": 54,
     "missingApprovedDerivative": 0,
     "checksumFailures": 0,
-    "acquisitionRequired": 48,
-    "notReleaseReady": 48,
-    "imageCoveragePercent": 51.5
+    "acquisitionRequired": 45,
+    "notReleaseReady": 45,
+    "imageCoveragePercent": 54.5
   },
   "byBrand": [
     {
@@ -53,8 +53,8 @@
     {
       "brand": "Omega",
       "references": 55,
-      "approved": 38,
-      "outstanding": 17
+      "approved": 41,
+      "outstanding": 14
     },
     {
       "brand": "Panerai",
@@ -1405,13 +1405,13 @@
       },
       "specificationSource": "https://www.omegawatches.com.hk/en-hk/watch-omega-constellation-quartz-28-mm-13110286060001",
       "score": 64,
-      "status": "ACQUISITION_REQUIRED",
-      "photoAssetId": null,
-      "derivativePath": null,
-      "recordedSha256": null,
-      "actualSha256": null,
-      "rightsRecord": null,
-      "nextAction": "Source authentic exact-reference original; obtain commercial-use license and provenance, prepare approved full-watch white-canvas derivative and register the matching SHA-256."
+      "status": "APPROVED_WITH_VALID_DERIVATIVE",
+      "photoAssetId": "cleared-three-1Lueaf0Q-fqZWXfT57gSayq0KmkAwLa8r",
+      "derivativePath": "/images/watches/omega/reviewed-131-10-28-60-60-001-white-web.webp",
+      "recordedSha256": "f7151a6579e937ffd625116b80b628b87ee7e13ef4ef7c34f72c0e229630c4e5",
+      "actualSha256": "f7151a6579e937ffd625116b80b628b87ee7e13ef4ef7c34f72c0e229630c4e5",
+      "rightsRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for these exact three originals and white-background derivatives with no additional restrictions on October14,2026 Eastern. Record docs/PHOTOGRAPHY_THREE_FOUNDER_RIGHTS_2026-10-15.json. Authentic complete RAW and final white WEB individually visually reviewed; source credits retained separately. Preserved RAW file: 1Lueaf0Q-fqZWXfT57gSayq0KmkAwLa8r. Pictured full reference 131.10.28.60.60.001; Stainless Steel, Matcha green non-wave, Stainless-steel bracelet. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "nextAction": "Retain approved source, white-canvas derivative, attribution and reference mapping."
     },
     {
       "brand": "Omega",
@@ -1630,13 +1630,13 @@
       },
       "specificationSource": "https://www.omegawatches.com.hk/en-hk/watch-omega-de-ville-prestige-co-axial-master-chronometer-power-reserve-41-mm-43410412103001",
       "score": 64,
-      "status": "ACQUISITION_REQUIRED",
-      "photoAssetId": null,
-      "derivativePath": null,
-      "recordedSha256": null,
-      "actualSha256": null,
-      "rightsRecord": null,
-      "nextAction": "Source authentic exact-reference original; obtain commercial-use license and provenance, prepare approved full-watch white-canvas derivative and register the matching SHA-256."
+      "status": "APPROVED_WITH_VALID_DERIVATIVE",
+      "photoAssetId": "cleared-three-1gbhdxfSqI9jXvRxKnlf8ixjajBHI9rM9",
+      "derivativePath": "/images/watches/omega/reviewed-434-10-41-21-03-001-white-web.webp",
+      "recordedSha256": "68bc53b50871aa5f5d21caab3487b9697961e40aca1309cb00a02bf3a07c742d",
+      "actualSha256": "68bc53b50871aa5f5d21caab3487b9697961e40aca1309cb00a02bf3a07c742d",
+      "rightsRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for these exact three originals and white-background derivatives with no additional restrictions on October14,2026 Eastern. Record docs/PHOTOGRAPHY_THREE_FOUNDER_RIGHTS_2026-10-15.json. Authentic complete RAW and final white WEB individually visually reviewed; source credits retained separately. Preserved RAW file: 1gbhdxfSqI9jXvRxKnlf8ixjajBHI9rM9. Pictured full reference 434.10.41.21.03.001; Stainless Steel, Blue non-wave, Stainless-steel bracelet. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "nextAction": "Retain approved source, white-canvas derivative, attribution and reference mapping."
     },
     {
       "brand": "Omega",
@@ -2055,13 +2055,13 @@
       },
       "specificationSource": "https://press.omegawatches.com/omega-festive-season-2025/",
       "score": 60,
-      "status": "ACQUISITION_REQUIRED",
-      "photoAssetId": null,
-      "derivativePath": null,
-      "recordedSha256": null,
-      "actualSha256": null,
-      "rightsRecord": null,
-      "nextAction": "Source authentic exact-reference original; obtain commercial-use license and provenance, prepare approved full-watch white-canvas derivative and register the matching SHA-256."
+      "status": "APPROVED_WITH_VALID_DERIVATIVE",
+      "photoAssetId": "cleared-three-1ZJ6OVat8oh5GL_nS5x3zi7RbQmh2eK1n",
+      "derivativePath": "/images/watches/omega/reviewed-220-10-30-20-09-001-white-web.webp",
+      "recordedSha256": "2001ad810b9b0d647c95911a7e7cf559d7308bf3bc4ebc391735f2b3ab525af0",
+      "actualSha256": "2001ad810b9b0d647c95911a7e7cf559d7308bf3bc4ebc391735f2b3ab525af0",
+      "rightsRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for these exact three originals and white-background derivatives with no additional restrictions on October14,2026 Eastern. Record docs/PHOTOGRAPHY_THREE_FOUNDER_RIGHTS_2026-10-15.json. Authentic complete RAW and final white WEB individually visually reviewed; source credits retained separately. Preserved RAW file: 1ZJ6OVat8oh5GL_nS5x3zi7RbQmh2eK1n. Pictured full reference 220.10.30.20.09.001; Stainless Steel, Sandstone sun-brushed non-wave, Stainless-steel bracelet. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "nextAction": "Retain approved source, white-canvas derivative, attribution and reference mapping."
     },
     {
       "brand": "Omega",

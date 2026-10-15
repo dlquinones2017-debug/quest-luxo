@@ -8,9 +8,9 @@
   "licensePolicy": "Reference source URL documents identity only; it does NOT license website reuse. No AI watches, unverified source shots or nonwhite wrist photographs.",
   "summary": {
     "references": 55,
-    "existingExactReferenceImageRecordMatches": 38,
-    "requiresAcquisition": 17,
-    "clearedForPublication": 38
+    "existingExactReferenceImageRecordMatches": 41,
+    "requiresAcquisition": 14,
+    "clearedForPublication": 41
   },
   "queue": [
     {
@@ -1461,18 +1461,19 @@
       "specificationSource": "https://press.omegawatches.com/omega-festive-season-2025/",
       "sourceHost": "press.omegawatches.com",
       "priorityScore": 49,
-      "imageSourceFoundInCurrentClearanceCode": false,
+      "imageSourceFoundInCurrentClearanceCode": true,
       "evidence": {
         "rawImageId": null,
         "rawChecksum": null,
-        "webDerivativePath": null,
-        "webDerivativeChecksum": null,
-        "exactReferenceImageReviewed": false,
-        "centeredWhiteBackgroundVerified": false,
-        "websiteUseRightsVerified": false,
-        "rightsRecord": null,
-        "approvalReviewer": null,
-        "status": "ACQUISITION_REQUIRED"
+        "webDerivativePath": "/images/watches/omega/reviewed-220-10-30-20-09-001-white-web.webp",
+        "webDerivativeChecksum": "2001ad810b9b0d647c95911a7e7cf559d7308bf3bc4ebc391735f2b3ab525af0",
+        "exactReferenceImageReviewed": true,
+        "centeredWhiteBackgroundVerified": true,
+        "websiteUseRightsVerified": true,
+        "rightsRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for these exact three originals and white-background derivatives with no additional restrictions on October14,2026 Eastern. Record docs/PHOTOGRAPHY_THREE_FOUNDER_RIGHTS_2026-10-15.json. Authentic complete RAW and final white WEB individually visually reviewed; source credits retained separately. Preserved RAW file: 1ZJ6OVat8oh5GL_nS5x3zi7RbQmh2eK1n. Pictured full reference 220.10.30.20.09.001; Stainless Steel, Sandstone sun-brushed non-wave, Stainless-steel bracelet. Exact configuration reviewed against preserved source evidence and the original photograph.",
+        "approvalReviewer": "Quest Luxo execution review with founder website-use clearance",
+        "status": "APPROVED_WITH_VALID_DERIVATIVE",
+        "approvedAssetId": "cleared-three-1ZJ6OVat8oh5GL_nS5x3zi7RbQmh2eK1n"
       },
       "requirements": [
         "Obtain authentic non-AI original for exact pictured reference and configuration",
@@ -1681,18 +1682,19 @@
       "specificationSource": "https://www.omegawatches.com.hk/en-hk/watch-omega-constellation-quartz-28-mm-13110286060001",
       "sourceHost": "www.omegawatches.com.hk",
       "priorityScore": 43,
-      "imageSourceFoundInCurrentClearanceCode": false,
+      "imageSourceFoundInCurrentClearanceCode": true,
       "evidence": {
         "rawImageId": null,
         "rawChecksum": null,
-        "webDerivativePath": null,
-        "webDerivativeChecksum": null,
-        "exactReferenceImageReviewed": false,
-        "centeredWhiteBackgroundVerified": false,
-        "websiteUseRightsVerified": false,
-        "rightsRecord": null,
-        "approvalReviewer": null,
-        "status": "ACQUISITION_REQUIRED"
+        "webDerivativePath": "/images/watches/omega/reviewed-131-10-28-60-60-001-white-web.webp",
+        "webDerivativeChecksum": "f7151a6579e937ffd625116b80b628b87ee7e13ef4ef7c34f72c0e229630c4e5",
+        "exactReferenceImageReviewed": true,
+        "centeredWhiteBackgroundVerified": true,
+        "websiteUseRightsVerified": true,
+        "rightsRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for these exact three originals and white-background derivatives with no additional restrictions on October14,2026 Eastern. Record docs/PHOTOGRAPHY_THREE_FOUNDER_RIGHTS_2026-10-15.json. Authentic complete RAW and final white WEB individually visually reviewed; source credits retained separately. Preserved RAW file: 1Lueaf0Q-fqZWXfT57gSayq0KmkAwLa8r. Pictured full reference 131.10.28.60.60.001; Stainless Steel, Matcha green non-wave, Stainless-steel bracelet. Exact configuration reviewed against preserved source evidence and the original photograph.",
+        "approvalReviewer": "Quest Luxo execution review with founder website-use clearance",
+        "status": "APPROVED_WITH_VALID_DERIVATIVE",
+        "approvedAssetId": "cleared-three-1Lueaf0Q-fqZWXfT57gSayq0KmkAwLa8r"
       },
       "requirements": [
         "Obtain authentic non-AI original for exact pictured reference and configuration",
@@ -1864,18 +1866,19 @@
       "specificationSource": "https://www.omegawatches.com.hk/en-hk/watch-omega-de-ville-prestige-co-axial-master-chronometer-power-reserve-41-mm-43410412103001",
       "sourceHost": "www.omegawatches.com.hk",
       "priorityScore": 43,
-      "imageSourceFoundInCurrentClearanceCode": false,
+      "imageSourceFoundInCurrentClearanceCode": true,
       "evidence": {
         "rawImageId": null,
         "rawChecksum": null,
-        "webDerivativePath": null,
-        "webDerivativeChecksum": null,
-        "exactReferenceImageReviewed": false,
-        "centeredWhiteBackgroundVerified": false,
-        "websiteUseRightsVerified": false,
-        "rightsRecord": null,
-        "approvalReviewer": null,
-        "status": "ACQUISITION_REQUIRED"
+        "webDerivativePath": "/images/watches/omega/reviewed-434-10-41-21-03-001-white-web.webp",
+        "webDerivativeChecksum": "68bc53b50871aa5f5d21caab3487b9697961e40aca1309cb00a02bf3a07c742d",
+        "exactReferenceImageReviewed": true,
+        "centeredWhiteBackgroundVerified": true,
+        "websiteUseRightsVerified": true,
+        "rightsRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for these exact three originals and white-background derivatives with no additional restrictions on October14,2026 Eastern. Record docs/PHOTOGRAPHY_THREE_FOUNDER_RIGHTS_2026-10-15.json. Authentic complete RAW and final white WEB individually visually reviewed; source credits retained separately. Preserved RAW file: 1gbhdxfSqI9jXvRxKnlf8ixjajBHI9rM9. Pictured full reference 434.10.41.21.03.001; Stainless Steel, Blue non-wave, Stainless-steel bracelet. Exact configuration reviewed against preserved source evidence and the original photograph.",
+        "approvalReviewer": "Quest Luxo execution review with founder website-use clearance",
+        "status": "APPROVED_WITH_VALID_DERIVATIVE",
+        "approvedAssetId": "cleared-three-1gbhdxfSqI9jXvRxKnlf8ixjajBHI9rM9"
       },
       "requirements": [
         "Obtain authentic non-AI original for exact pictured reference and configuration",
