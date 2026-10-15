@@ -253,6 +253,9 @@ test("production navigation resolves every collection, reference, brand, and lea
   assert.equal(privateSourcingResponse.headers.get("location"), "/contact");
 
   for (const [legacyRoute, target] of [
+    ["/complications/tourbillon", "/#collections"],
+    ["/collections/franck-muller/vanguard-tourbillon", "/collections/franck-muller/vanguard"],
+    ["/collections/franck-muller/vanguard-tourbillon/v-45-t-br-tt", "/collections/franck-muller/vanguard/v-45-t-br-tt"],
     ["/services", "/#services"],
     ["/market-insights", "/#collections"],
   ]) {
@@ -284,6 +287,8 @@ test("production navigation resolves every collection, reference, brand, and lea
 
   const sitemapResponse = await fetch(`${origin}/sitemap.xml`);
   const sitemap = await sitemapResponse.text();
+  assert.doesNotMatch(sitemap, /complications\/tourbillon|vanguard-tourbillon/);
+  assert.match(sitemap, /collections\/franck-muller\/vanguard\/v-45-t-br-tt/);
   assert.equal(sitemapResponse.status, 200);
   assert.match(
     sitemapResponse.headers.get("content-type") ?? "",

@@ -489,8 +489,8 @@ export const verifiedExpansionRows: readonly VerifiedRow[] = [
   [
     "Franck Muller",
     "franck-muller",
-    "Vanguard Tourbillon",
-    "vanguard-tourbillon",
+    "Vanguard",
+    "vanguard",
     "V 45 T BR (TT)",
     "Vanguard Tourbillon",
     "Model-dependent",

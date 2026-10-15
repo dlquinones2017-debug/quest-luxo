@@ -38,15 +38,23 @@ test("verified multi-brand expansion has unique source-backed exact-reference id
   assert.equal(new Set(routeKeys).size, routeKeys.length, "no duplicate collection paths");
 });
 
-test("tourbillon discovery is explicit, not based on skeleton styling alone", async () => {
-  const source = await readFile(new URL("../src/pages/complications/tourbillon.astro", import.meta.url), "utf8");
+test("retired tourbillon feature preserves manufacturer references and approved photography", async () => {
   const navbar = await readFile(new URL("../src/components/Navbar.astro", import.meta.url), "utf8");
-  assert.match(source, /tourbillon.*asset\.model/i);
-  assert.match(source, /referencePath/);
-  assert.match(source, /PrivateSourcingCTA/);
-  assert.match(navbar, /href="\/complications\/tourbillon"/);
+  const config = await readFile(new URL("../astro.config.mjs", import.meta.url), "utf8");
+  assert.doesNotMatch(navbar, /complications\/tourbillon|>Tourbillons</);
+  assert.match(config, /"\/complications\/tourbillon": \{ destination: "\/#collections", status: 301 \}/);
+  assert.match(config, /"\/collections\/franck-muller\/vanguard-tourbillon\/v-45-t-br-tt": \{ destination: "\/collections\/franck-muller\/vanguard\/v-45-t-br-tt", status: 301 \}/);
+  assert.ok(!collectionRegistry.some(c => c.slug === "vanguard-tourbillon"));
+  const vanguard = collectionRegistry.find(c => c.brandSlug === "franck-muller" && c.slug === "vanguard");
+  const watch = vanguard.assets.find(a => a.reference === "V 45 T BR (TT)");
+  assert.equal(watch.model, "Vanguard Tourbillon");
+  assert.equal(watch.image, "/images/watches/franck-muller/reviewed-v-45-t-br-tt-white-web.webp");
+  assert.equal(watch.imageVerified, true);
   const models = verifiedExpansionAssets.filter(x => /\btourbillon\b/i.test(x.model));
-  assert.ok(models.length >= 4, "several manufacturer-sourced tourbillons must be represented");
+  assert.ok(models.length >= 4);
+  for (const asset of models) {
+    assert.ok(collectionRegistry.some(c => c.assets.some(a => a.reference === asset.reference && a.model === asset.model)));
+  }
 });
 
 test("founder-priority collection families are represented by source-backed references", () => {

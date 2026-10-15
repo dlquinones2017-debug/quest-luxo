@@ -2682,7 +2682,7 @@ export const clearedSprintPhotographySeeds: readonly PhotographySeed[] = [
   {
     "brand": "Franck Muller",
     "brandSlug": "franck-muller",
-    "collection": "Vanguard Tourbillon",
+    "collection": "Vanguard",
     "reference": "V 45 T BR (TT)",
     "exactReference": "V 45 T BR (TT)",
     "model": "Vanguard Tourbillon",
