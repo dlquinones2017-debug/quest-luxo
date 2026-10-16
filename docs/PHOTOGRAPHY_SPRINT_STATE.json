@@ -1,14 +1,14 @@
 {
-  "updatedAt": "2026-10-16T19:41:39.341394+00:00",
+  "updatedAt": "2026-10-16T19:47:46.480465+00:00",
   "deadline": "2026-10-13T23:59:00-04:00",
   "objective": "Acquire authentic exact-reference photographs and populate every featured website reference without fabrication.",
   "worktree": "C:/Users/CAU Student/.codex/worktrees/launch-sprint/quest-luxo",
   "branch": "codex/launch-sprint",
   "baselineMain": "8c2f495e400badfa1effa88607ebbc2d384dfe2a",
   "canonicalReferences": 297,
-  "photographedReferences": 207,
-  "queuedReferences": 90,
-  "coverageStatus": "207of297referenceURLs LIVE photographed;90queued. ZIP21testedrelease built228photographed,69queued.",
+  "photographedReferences": 228,
+  "queuedReferences": 69,
+  "coverageStatus": "228of297reference URLs photographed;69pending;82of104collections;227distinctphoto files independently verified.",
   "mobileStatusThread": "01a1371a-fad5-7e03-8807-0ae850c74269",
   "mobileStatusTitle": "Quest Luxo Command Center V4",
   "mobileStatusAuthorized": true,
@@ -29,11 +29,11 @@
     "No invented specs, MSRP or availability"
   ],
   "clearance": "Direct founder answer call_24a179ab128748dbb94a78640e6a1543; docs/PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json; Drive1HFfmLAHtbf-YyK-66jhn025-qSpZ3ndZ",
-  "nextBatch": "Deploy tested21ZIPphotos, independently verify production, then acquire the remaining69reference photo gaps without inventing imagery or specifications.",
+  "nextBatch": "LIVE c5541d35b2cac44c8cb9dc41eb4f1c357b7034cc / Render dep-db97s08u01pc738ki7e0. Added21clearedZIPphotos plus2Patekmanufacturerphotos.228of297reference URLs photographed;69queued;82of104collections;227distinctphoto files verified. All246regressions, Astro0errors/0warnings/20hints, audits/build, all21newimage mappings and desktop/mobile review passed. Public297route and227photo checks passed. Canonical76page master updated in place, all71historicalpages pixel-identical; five newpages reviewed; master/inventory/liveQA/sourceQA readback hashes matched. Three21watchRAW-crop/WHITE/WEBarchives readback verified. Sixuploadedidentities unresolved. Next: continue remaining69exact-reference photo gaps; finishUN266-10-3/92exteriormask from clearedZIP, seekcompleteoriginals forclippedwatchsources, preserve newthird-partyrights holds. Fullphotographycoverage incomplete. No activeautomation or competing workstream.",
   "preparedPendingClearance": 1,
   "preparedDriveFiles": 465,
   "preparedManifest": "docs/ADDITIONAL_OMEGA_NAVITIMER_ARCHIVED_2026-10-14.json; docs/PRIMARY_FOUR_ARCHIVED_2026-10-14.json; docs/OMEGA_EXPANSION_ARCHIVED_WAVE_2026-10-14.json",
-  "masterPages": 71,
+  "masterPages": 76,
   "preparedSourceLogs": [
     "NEXT_EXACT_PHOTOGRAPHY_WAVE_2026-10-13.json",
     "ROLEX_NEXT_PHOTOGRAPHY_WAVE_2026-10-13.json",
@@ -83,14 +83,14 @@
   },
   "processingRuntime": "Task-local photography-runtime provides OpenCV and NumPy for classical non-generative boundary masks. Requires approved elevated execution to read its installed files. process_priority_wave.py preserves original interior pixels and masks only background. Every derivative requires visual review before publication.",
   "blockers": [
-    "90LIVE reference URLs remain without approved photography; tested ZIP21release reduces this to69 when deployed.",
+    "69catalog reference URLs still need valid cleared whole-watch photography.",
     "Six primary uploaded identities remain unresolved.",
-    "Other clipped/occluded or exterior-mask quality holds require better originals or further mask review.",
-    "Separate AvengerII manufacturer original lacks exact commercial-use evidence."
+    "Some sources are clipped, occluded or need further exterior mask review.",
+    "Rights for separate new third-party manufacturer/retailer originals outside the confirmed ZIP/Patek scope are not established."
   ],
   "dataSafety": "Do not modify runtime lead data or repeat private broker reads. Preserve original dirty checkout and newer main changes.",
-  "stillNeedsAcquisition": 90,
-  "nextAcquisitionPriorities": "88catalogphoto gaps plus10unresolvedprimaryuploadidentities. Work per-image exact source, whole-watch framing, rights and quality requirements; current archive and source holds must not be fabricated away.",
+  "stillNeedsAcquisition": 69,
+  "nextAcquisitionPriorities": "Remaining69distinctreference URLs, plus6unresolvedprimaryupload identities. Reuse existing exact cleared assets; no duplicate acquisition or fabricated specs/photographs.",
   "heldSourceOriginals": [
     {
       "reference": "IW388102",
@@ -120,8 +120,8 @@
       "reason": "Held: manufacturer image reaches top and bottom canvas edges; complete bracelet framing is not established. Do not reconstruct missing sections."
     }
   ],
-  "sourceAttemptEvidence": "Founder-supplied19images preserved;38primary+6secondary appearances extracted.25source-backedprofiles added. No uploaded screenshot was passed off as approved authentic commercially cleared photography.",
-  "documentationPublication": "71page canonical master rendered and reviewed; all67prior pages pixel-identical. In-place Drive update and SHA256readback89d2be07ab5b3d42cbc5e21caca5bc611dfa43d5e844eef69384e13fd43a3e90 verified.",
+  "sourceAttemptEvidence": "All44uploadedappearances extracted and archived;29reference profilesLIVE;21eligiblecompleteZIPphotosLIVE;2separatePatekmanufacturerphotosLIVE. Fullprivate screenshots remain local.",
+  "documentationPublication": "76page canonical master rendered and reviewed; all71priorpages pixel-identical; sameDriveID updated; SHA256readback5e1cd5cd9b99a2c51dbc0def7412ce37e37b49891178eccffec3c02e31b8445ematched.",
   "licensedNautilusRepair": {
     "record": "docs/PHOTOGRAPHY_LICENSED_NAUTILUS_2026-10-13.json",
     "logDriveId": "1tdzvZhgvKDjtADKQ5nrTauCQ07gBiXQ6",
@@ -133,49 +133,50 @@
     "rights": "Existing approved Commons CC BY-SA 4.0 source; attribution/license/change disclosure and share-alike preserved",
     "publicationStatus": "Live as 8c2f495; production route, image SHA256, full suffix, credits/license and intake HTTP 200 verified"
   },
-  "verification": "All297publicreference routes,204existingphoto hashes and4newreference/source/collection/inquiry mappings passed LIVE verification.246regressions;Astro0errors/0warnings;audits/build and desktop/mobile review passed.",
-  "sprintStatus": "29uploadedreferenceprofiles LIVE;205of297URLphotographed;92pending;6unresolveduploadidentities. Full photography population incomplete.",
+  "verification": "All297publicreference routes,227photo hashes,21newexactconfigurations/credits/collection/inquiry mappings,246regressions, Astro0errors/0warnings/20existinghints, audits/build and desktop/mobile review passed.",
+  "sprintStatus": "29uploaded reference profiles and21ZIPphotographs LIVE;228of297URLphotographed;69pending;6unresolveduploadidentities. Full photography population incomplete.",
   "deadlineOutcome": "Not achieved: every featured reference does not yet have valid cleared photography.",
   "closeoutRecord": "docs/PHOTOGRAPHY_SPRINT_CLOSEOUT_2026-10-14.json",
   "continuationInstruction": "Command Center V4 relayed the founder standing instruction to continue acquiring remaining references and not stop. This reopens useful acquisition after the missed deadline; it does not grant new photograph rights or recreate the expired automation.",
-  "preparedClearedForPublication": 21,
+  "preparedClearedForPublication": 0,
   "builtPhotographedReferences": 228,
   "builtQueuedReferences": 69,
   "publishedPreparedSets": 138,
   "productionPhotographyRelease": {
-    "commit": "407790aa12c74ed9ee5a3228a71ffb0aea5c5a57",
-    "deployId": "dep-db8onjjbc2fs738nta4g",
+    "commit": "c5541d35b2cac44c8cb9dc41eb4f1c357b7034cc",
+    "deployId": "dep-db97s08u01pc738ki7e0",
     "status": "LIVE",
-    "referenceRoutesVerified": 268,
-    "photographedReferenceRoutes": 205,
-    "queuedReferenceRoutes": 63,
-    "distinctPhotoFilesVerified": 204,
-    "targetedNewReferencesVerified": 1
+    "referenceRoutesVerified": 297,
+    "photographedReferenceRoutes": 228,
+    "queuedReferenceRoutes": 69,
+    "distinctPhotoFilesVerified": 227,
+    "newScreenshotPhotosPublished": 21
   },
   "clearanceDriveFileId": "1BI8HNHLSosAjzExINWoNxtzBER-FOzD5",
   "productionVerificationDriveFileId": "16ny-FBqkIk5yJolZPJr_4Lf_S1N-WiBg",
   "canonicalRegistryRecords": 298,
   "canonicalBrands": 23,
   "canonicalCollections": 104,
-  "productionBaselineMain": "f05b4a6c23f3e2e3119c0e0a4da6ac67831b4e3a",
+  "productionBaselineMain": "c5541d35b2cac44c8cb9dc41eb4f1c357b7034cc",
   "legacyPreparedManifest": "docs/PHOTOGRAPHY_PREPARED_PENDING_CLEARANCE_2026-10-13.json",
   "newReviewedPhysicalSets": 11,
   "newReviewedDriveFiles": 33,
   "fullSiteAuditDriveFileId": "1Vl_UZMIcbQu3HASk1t1kJlMpH7RJdvAF",
   "fullSiteVerificationDriveFileId": "1P6Fcy7U8f8vFkFfUlJ0LujpoUUG1EzKx",
   "masterReview": {
-    "pages": 71,
+    "pages": 76,
     "newPagesReviewed": [
-      68,
-      69,
-      70,
-      71
+      72,
+      73,
+      74,
+      75,
+      76
     ],
-    "historicalPagesPixelUnchanged": 67,
-    "sha256": "89d2be07ab5b3d42cbc5e21caca5bc611dfa43d5e844eef69384e13fd43a3e90",
-    "layout": "All4appended pages individually visually reviewed at native resolution; no clipping, missing text, overflow or split rows.",
+    "historicalPagesPixelUnchanged": 71,
+    "sha256": "5e1cd5cd9b99a2c51dbc0def7412ce37e37b49891178eccffec3c02e31b8445e",
     "driveFileId": "1KEWRyRu7SquTjVb1TgF_cCn_Zux5td17",
-    "driveReadbackVerified": true
+    "driveReadbackVerified": true,
+    "layout": "All five new pages individually reviewed; no clipped text, split rows, overflow or missing glyphs."
   },
   "preparedAssetIntegrity": {
     "sets": 11,
@@ -221,8 +222,8 @@
     "additionalSourceAccessOrMissingPageHolds": 19,
     "remainingOmegaAcquisitionGaps": 20
   },
-  "productionCommit": "f05b4a6c23f3e2e3119c0e0a4da6ac67831b4e3a",
-  "productionDeployId": "dep-db97ipbm8hqs73e615dg",
+  "productionCommit": "c5541d35b2cac44c8cb9dc41eb4f1c357b7034cc",
+  "productionDeployId": "dep-db97s08u01pc738ki7e0",
   "productionStatus": "LIVE",
   "preparedSourceDriveRecords": [
     "1a3FcN1GDG1OkuOt4lxmiWNbxQjRzwf1p",
@@ -247,14 +248,14 @@
     "docs/BREITLING_AVENGER_PREPARED_2026-10-15.json",
     "docs/FOUNDER_UPLOAD_CONTINUATION_2026-10-16.json"
   ],
-  "mobileStatusDelivery": "V4 received LIVE3f4f060 four-reference release,205of297photography coverage,71page checksum-verified master, source/QAlinks and outstanding consolidated image-rights question. No competing execution requested.",
+  "mobileStatusDelivery": "V4 receives verified LIVE release and current cloud checkpoint; execution remains solely in Website/Product.",
   "provenanceEightDriveFileId": "13NnA5vwS0qcHqNefBTpG3LZHmUK7Jkg9",
   "recentSourceHolds": "docs/PHOTOGRAPHY_SOURCE_HOLDS_NEXT_2026-10-15.json",
   "provenanceGalliDriveFileId": "1WIrbpOWUl1UQqF3fGEsYPi-q-rvhUaeN",
   "builtTotalCollections": 104,
-  "lastReleaseQADriveFileId": "1uEJhZDvyG5eRRyYX5qdnu4p2Kp483ExA",
+  "lastReleaseQADriveFileId": "1TdKc3cXyhKN49YjT37YmcHmFquIqhB3k",
   "lastReleaseRightsDriveFileId": "1s2dfnxeyhUFucEFL4IfgELLTd8QBi4PX",
-  "preparedNextProvenanceDriveFileId": "1G622gptotEOTUax8HtIjQZ1TUfDmIWPp",
+  "preparedNextProvenanceDriveFileId": "10VZP2jsEakXX5EQJFTBAHZP1v9voHwtB",
   "permissionPreference": "Founder instructed: Proceed without seeking further permission. Do not repeat cleared approval requests; preserve all existing photography standards and rights evidence.",
   "builtCanonicalReferences": 297,
   "founderUploadStatus": {
@@ -265,31 +266,108 @@
     "screenshotPhotosApproved": 21,
     "packageDriveFileId": "1XkuYKQSEE6Anhgd08g4vZGeTOXKX_0Gi",
     "packageReadbackVerified": true,
-    "status": "29profilesLIVE;21completeclearedphotographs integrated, deployment pending",
+    "status": "29uploadedreferenceprofiles and21ZIPphotographsLIVE",
     "archivedReviewImageFiles": 132,
-    "releaseQADriveFileId": "1U4pCjdkE34azPPHAk5bITUI7HCIY2lbq",
-    "workflowPosition": "Founder ZIP batch released and independently verified live. All44appearances extracted and archived. Canonical67page master and full inventory/production/QA ledgers updated in Drive; every readback checksum matched. Remaining work:88catalogphoto gaps,10unresolvedprimaryidentities and per-source image rights/authenticity/framing/edge holds. No approved screenshot photographs. Website/Product remains sole owner; no active automation.",
+    "releaseQADriveFileId": "1TdKc3cXyhKN49YjT37YmcHmFquIqhB3k",
+    "workflowPosition": "LIVE c5541d35b2cac44c8cb9dc41eb4f1c357b7034cc / Render dep-db97s08u01pc738ki7e0. Added21clearedZIPphotos plus2Patekmanufacturerphotos.228of297reference URLs photographed;69queued;82of104collections;227distinctphoto files verified. All246regressions, Astro0errors/0warnings/20hints, audits/build, all21newimage mappings and desktop/mobile review passed. Public297route and227photo checks passed. Canonical76page master updated in place, all71historicalpages pixel-identical; five newpages reviewed; master/inventory/liveQA/sourceQA readback hashes matched. Three21watchRAW-crop/WHITE/WEBarchives readback verified. Sixuploadedidentities unresolved. Next: continue remaining69exact-reference photo gaps; finishUN266-10-3/92exteriormask from clearedZIP, seekcompleteoriginals forclippedwatchsources, preserve newthird-partyrights holds. Fullphotographycoverage incomplete. No activeautomation or competing workstream.",
     "continuationProfiles": 4,
     "continuationStatus": "LIVE and independently verified",
-    "preparedCompletePatekSets": 2,
-    "sourceLedgerDriveFileId": "1fcaEAQ2xTw8jx68gPjQdyAyDfB5sJ9iJ",
+    "preparedCompletePatekSets": 0,
+    "sourceLedgerDriveFileId": "10VZP2jsEakXX5EQJFTBAHZP1v9voHwtB",
     "sourceLedgerReadbackVerified": true,
     "continuationReleaseQADriveFileId": "1il9pfxMv5qsew1iokMIQ6UmMh6N4fXG-",
     "rightsConfirmed": true,
-    "approvedImages": 21
+    "approvedImages": 21,
+    "archiveDriveFileIds": [
+      "1PW6uo43c6HDLM8OC5SOQ__Phr7G75TOn",
+      "1v0_NhFmOc7NIvG4ydodYGs_Irh07tt7A",
+      "1J3i6r9vzL4cczAdg208-vHZrxc79__YF"
+    ],
+    "archiveReadbackVerified": true,
+    "publishedManufacturerPatekSets": 2,
+    "masterPages": 76
   },
   "productionRelease": {
-    "commit": "3f4f060cc31060b449dc0cfe6032f140c8f4be91",
-    "deployId": "dep-db8vrbfavr4c739ojee0",
+    "commit": "c5541d35b2cac44c8cb9dc41eb4f1c357b7034cc",
+    "deployId": "dep-db97s08u01pc738ki7e0",
     "status": "LIVE",
     "referenceRoutesVerified": 297,
-    "photographedReferenceRoutes": 205,
-    "queuedReferenceRoutes": 92,
-    "distinctPhotoFilesVerified": 204,
-    "newReferenceProfilesVerified": 4,
-    "newScreenshotPhotosPublished": 0
+    "photographedReferenceRoutes": 228,
+    "queuedReferenceRoutes": 69,
+    "distinctPhotoFilesVerified": 227,
+    "newScreenshotPhotosPublished": 21
   },
-  "masterFileSHA256": "89d2be07ab5b3d42cbc5e21caca5bc611dfa43d5e844eef69384e13fd43a3e90",
+  "masterFileSHA256": "5e1cd5cd9b99a2c51dbc0def7412ce37e37b49891178eccffec3c02e31b8445e",
   "masterDriveReadbackVerified": true,
-  "currentWorkflowPosition": "Patek2LIVE and independently verified. ZIP21 complete exact photographs integrated, all246regressions/Astro/audits/build/targeted mappings and desktop/mobile review passed; main deployment pending. Three RAW-crop/WHITE/WEB archives readback checksum verified. Next: deploy, verify all297routes and227photo files, update canonical master and Drive queues, save LIVE checkpoint and V4 update."
+  "currentWorkflowPosition": "LIVE c5541d35b2cac44c8cb9dc41eb4f1c357b7034cc / Render dep-db97s08u01pc738ki7e0. Added21clearedZIPphotos plus2Patekmanufacturerphotos.228of297reference URLs photographed;69queued;82of104collections;227distinctphoto files verified. All246regressions, Astro0errors/0warnings/20hints, audits/build, all21newimage mappings and desktop/mobile review passed. Public297route and227photo checks passed. Canonical76page master updated in place, all71historicalpages pixel-identical; five newpages reviewed; master/inventory/liveQA/sourceQA readback hashes matched. Three21watchRAW-crop/WHITE/WEBarchives readback verified. Sixuploadedidentities unresolved. Next: continue remaining69exact-reference photo gaps; finishUN266-10-3/92exteriormask from clearedZIP, seekcompleteoriginals forclippedwatchsources, preserve newthird-partyrights holds. Fullphotographycoverage incomplete. No activeautomation or competing workstream.",
+  "remainingByBrand": [
+    {
+      "brand": "Audemars Piguet",
+      "missing": 8
+    },
+    {
+      "brand": "Bell & Ross",
+      "missing": 1
+    },
+    {
+      "brand": "Breitling",
+      "missing": 2
+    },
+    {
+      "brand": "Cartier",
+      "missing": 2
+    },
+    {
+      "brand": "Franck Muller",
+      "missing": 8
+    },
+    {
+      "brand": "Hublot",
+      "missing": 3
+    },
+    {
+      "brand": "IWC",
+      "missing": 2
+    },
+    {
+      "brand": "Omega",
+      "missing": 13
+    },
+    {
+      "brand": "Panerai",
+      "missing": 4
+    },
+    {
+      "brand": "Patek Philippe",
+      "missing": 1
+    },
+    {
+      "brand": "Richard Mille",
+      "missing": 3
+    },
+    {
+      "brand": "Rolex",
+      "missing": 7
+    },
+    {
+      "brand": "TAG Heuer",
+      "missing": 1
+    },
+    {
+      "brand": "Tudor",
+      "missing": 5
+    },
+    {
+      "brand": "Ulysse Nardin",
+      "missing": 6
+    },
+    {
+      "brand": "Vacheron Constantin",
+      "missing": 2
+    },
+    {
+      "brand": "Zenith",
+      "missing": 1
+    }
+  ]
 }

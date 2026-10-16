@@ -1,10 +1,10 @@
 {
-  "verifiedAt": "2026-10-16T10:35:58.102289+00:00",
+  "verifiedAt": "2026-10-16T19:43:17.871284+00:00",
   "expectedDistinctReferenceRoutes": 297,
   "verifiedReferenceRoutes": 297,
-  "approvedDistinctReferenceRoutes": 205,
-  "verifiedDistinctPhotoFiles": 204,
-  "queuedDistinctReferenceRoutes": 92,
+  "approvedDistinctReferenceRoutes": 228,
+  "verifiedDistinctPhotoFiles": 227,
+  "queuedDistinctReferenceRoutes": 69,
   "errors": [],
   "pages": [
     {
@@ -348,53 +348,53 @@
       "status": "verified"
     },
     {
-      "route": "/collections/audemars-piguet/royal-oak/26585ce-oo-1225ce-01",
-      "approved": false,
-      "status": "verified"
-    },
-    {
-      "route": "/collections/audemars-piguet/royal-oak/26585xt-oo-1220xt-01",
-      "approved": false,
-      "status": "verified"
-    },
-    {
-      "route": "/collections/audemars-piguet/royal-oak/26585cm-oo-d301ve-01",
-      "approved": false,
-      "status": "verified"
-    },
-    {
-      "route": "/collections/audemars-piguet/royal-oak/15412ba-zg-1224ba-01",
-      "approved": false,
-      "status": "verified"
-    },
-    {
-      "route": "/collections/audemars-piguet/royal-oak/15412bc-zz-1220bc-01",
-      "approved": false,
-      "status": "verified"
-    },
-    {
-      "route": "/collections/audemars-piguet/royal-oak/15412or-zz-1220or-01",
-      "approved": false,
-      "status": "verified"
-    },
-    {
-      "route": "/collections/audemars-piguet/royal-oak/26341st-oo-1105st-01",
-      "approved": false,
-      "status": "verified"
-    },
-    {
       "route": "/collections/audemars-piguet/royal-oak/26615ti-oo-1220ti-01",
-      "approved": false,
+      "approved": true,
       "status": "verified"
     },
     {
       "route": "/collections/audemars-piguet/royal-oak/26607bc-oo-1220bc-01",
-      "approved": false,
+      "approved": true,
       "status": "verified"
     },
     {
       "route": "/collections/audemars-piguet/royal-oak/15500st-oo-1220st-03",
-      "approved": false,
+      "approved": true,
+      "status": "verified"
+    },
+    {
+      "route": "/collections/audemars-piguet/royal-oak/26585ce-oo-1225ce-01",
+      "approved": true,
+      "status": "verified"
+    },
+    {
+      "route": "/collections/audemars-piguet/royal-oak/26585xt-oo-1220xt-01",
+      "approved": true,
+      "status": "verified"
+    },
+    {
+      "route": "/collections/audemars-piguet/royal-oak/26585cm-oo-d301ve-01",
+      "approved": true,
+      "status": "verified"
+    },
+    {
+      "route": "/collections/audemars-piguet/royal-oak/15412bc-zz-1220bc-01",
+      "approved": true,
+      "status": "verified"
+    },
+    {
+      "route": "/collections/audemars-piguet/royal-oak/15412or-zz-1220or-01",
+      "approved": true,
+      "status": "verified"
+    },
+    {
+      "route": "/collections/audemars-piguet/royal-oak/15412ba-zg-1224ba-01",
+      "approved": true,
+      "status": "verified"
+    },
+    {
+      "route": "/collections/audemars-piguet/royal-oak/26341st-oo-1105st-01",
+      "approved": true,
       "status": "verified"
     },
     {
@@ -408,12 +408,12 @@
       "status": "verified"
     },
     {
-      "route": "/collections/vacheron-constantin/overseas/6000v-110a-b544",
-      "approved": false,
+      "route": "/collections/vacheron-constantin/overseas/4300v-220g-h151",
+      "approved": true,
       "status": "verified"
     },
     {
-      "route": "/collections/vacheron-constantin/overseas/4300v-220g-h151",
+      "route": "/collections/vacheron-constantin/overseas/6000v-110a-b544",
       "approved": false,
       "status": "verified"
     },
@@ -494,7 +494,7 @@
     },
     {
       "route": "/collections/omega/speedmaster/310-63-42-50-01-001",
-      "approved": false,
+      "approved": true,
       "status": "verified"
     },
     {
@@ -508,13 +508,13 @@
       "status": "verified"
     },
     {
-      "route": "/collections/tudor/black-bay/m79000n-0001",
+      "route": "/collections/tudor/black-bay/m7941a1a0ru-0003",
       "approved": true,
       "status": "verified"
     },
     {
-      "route": "/collections/tudor/black-bay/m7941a1a0ru-0003",
-      "approved": false,
+      "route": "/collections/tudor/black-bay/m79000n-0001",
+      "approved": true,
       "status": "verified"
     },
     {
@@ -738,6 +738,11 @@
       "status": "verified"
     },
     {
+      "route": "/collections/omega/seamaster/210-62-44-20-01-001",
+      "approved": true,
+      "status": "verified"
+    },
+    {
       "route": "/collections/omega/seamaster/210-30-42-20-01-001",
       "approved": true,
       "status": "verified"
@@ -749,11 +754,6 @@
     },
     {
       "route": "/collections/omega/seamaster/210-62-42-20-03-001",
-      "approved": false,
-      "status": "verified"
-    },
-    {
-      "route": "/collections/omega/seamaster/210-62-44-20-01-001",
       "approved": false,
       "status": "verified"
     },
@@ -879,7 +879,7 @@
     },
     {
       "route": "/collections/audemars-piguet/code-1159/26393bc-oo-a321cr-01",
-      "approved": false,
+      "approved": true,
       "status": "verified"
     },
     {
@@ -1023,6 +1023,11 @@
       "status": "verified"
     },
     {
+      "route": "/collections/ulysse-nardin/diver/1502-151-3-93",
+      "approved": true,
+      "status": "verified"
+    },
+    {
       "route": "/collections/ulysse-nardin/diver/1183-170-7m-92",
       "approved": true,
       "status": "verified"
@@ -1035,11 +1040,6 @@
     {
       "route": "/collections/ulysse-nardin/diver/1183-170-3-92",
       "approved": true,
-      "status": "verified"
-    },
-    {
-      "route": "/collections/ulysse-nardin/diver/1502-151-3-93",
-      "approved": false,
       "status": "verified"
     },
     {
@@ -1099,7 +1099,7 @@
     },
     {
       "route": "/collections/patek-philippe/aquanaut/5167-1a-001",
-      "approved": false,
+      "approved": true,
       "status": "verified"
     },
     {
@@ -1149,7 +1149,7 @@
     },
     {
       "route": "/collections/hublot/big-bang-unico/411-om-1180-rx",
-      "approved": false,
+      "approved": true,
       "status": "verified"
     },
     {
@@ -1174,7 +1174,7 @@
     },
     {
       "route": "/collections/vacheron-constantin/traditionnelle/6000t-000p-h025",
-      "approved": false,
+      "approved": true,
       "status": "verified"
     },
     {
@@ -1474,22 +1474,22 @@
     },
     {
       "route": "/collections/patek-philippe/grand-complications/5327g-001",
-      "approved": false,
+      "approved": true,
       "status": "verified"
     },
     {
       "route": "/collections/patek-philippe/grand-complications/5236p-010",
-      "approved": false,
+      "approved": true,
       "status": "verified"
     },
     {
       "route": "/collections/patek-philippe/grand-complications/5270p-017",
-      "approved": false,
+      "approved": true,
       "status": "verified"
     },
     {
       "route": "/collections/vacheron-constantin/patrimony/4000u-000p-h003",
-      "approved": false,
+      "approved": true,
       "status": "verified"
     }
   ],
@@ -1775,8 +1775,63 @@
       "status": "verified"
     },
     {
+      "path": "/images/watches/audemars-piguet/founder-09-ap-white-web.webp",
+      "sha256": "ff3a3c457c636c7e4c90b3b315193d2a63806b2c74f181bfc0cb77a33ccab007",
+      "status": "verified"
+    },
+    {
+      "path": "/images/watches/audemars-piguet/founder-11-ap-white-web.webp",
+      "sha256": "4eebe79fcb6b9b0014ee5a2419a8a9bd5556277933a7fa98e6aff1d6c84c3ff3",
+      "status": "verified"
+    },
+    {
+      "path": "/images/watches/audemars-piguet/founder-03-ap-white-web.webp",
+      "sha256": "387ac64a330c7e3d1adb79f3c7b3cb750e8b9198bc0a5a32c44e91c580946fe2",
+      "status": "verified"
+    },
+    {
+      "path": "/images/watches/audemars-piguet/founder-19-ap-1-white-web.webp",
+      "sha256": "7bb1554e217b87158f67962703786f4e31a9ad1ecdffa21d69b64902c58539eb",
+      "status": "verified"
+    },
+    {
+      "path": "/images/watches/audemars-piguet/founder-19-ap-2-white-web.webp",
+      "sha256": "a991f4e502ecd75cbaedbd399f5f80ba1e1e0b9687766a28a5537cea09c54732",
+      "status": "verified"
+    },
+    {
+      "path": "/images/watches/audemars-piguet/founder-19-ap-3-white-web.webp",
+      "sha256": "ebdd057609a395dcf26f6beb0702da55b006e262ae77d41fcf2bbbcd2450c886",
+      "status": "verified"
+    },
+    {
+      "path": "/images/watches/audemars-piguet/founder-19-ap-5-white-web.webp",
+      "sha256": "7bd5559f1ce762de81692afbf6b5e6384429ce9c0483d057c63abf8eba96f325",
+      "status": "verified"
+    },
+    {
+      "path": "/images/watches/audemars-piguet/founder-19-ap-6-white-web.webp",
+      "sha256": "02e386f0acb69e18e0ff34b69abd05972c4380fef324af7910a35e59eb8d87b2",
+      "status": "verified"
+    },
+    {
+      "path": "/images/watches/audemars-piguet/founder-19-ap-7-white-web.webp",
+      "sha256": "4607dc6d11640072e0e29cf73da4c5ddb2650b6218f4bd24bc63dd644901ba0c",
+      "status": "verified"
+    },
+    {
+      "path": "/images/watches/audemars-piguet/founder-19-ap-8-white-web.webp",
+      "sha256": "c2e6196a2c7a6e15262d9a0dadb5d68d9e838a33565d18ea62b19a9307f92b7f",
+      "status": "verified"
+    },
+    {
       "path": "/images/watches/vacheron-constantin/vacheron-overseas-4520v-210a-b128-web.webp",
       "sha256": "2d9166d3f958351e62cde15e312450e613db02dc489bacbcab600956bd59d2ef",
+      "status": "verified"
+    },
+    {
+      "path": "/images/watches/vacheron-constantin/founder-11-vc-white-web.webp",
+      "sha256": "669f5915c7e32c0489e4bc452ae9ea8a98481dea60999e9d66b44632b2e64af0",
       "status": "verified"
     },
     {
@@ -1845,6 +1900,11 @@
       "status": "verified"
     },
     {
+      "path": "/images/watches/omega/founder-16-moonwatch-white-web.webp",
+      "sha256": "d3372d17331f19a7eb9af52a9828d2f28aae80bf2ef01a6d492c055942d42f9b",
+      "status": "verified"
+    },
+    {
       "path": "/images/watches/tudor/tudor-black-bay-58-m79030n-0001-web.webp",
       "sha256": "f7436fb0cdd7a408deea1485a9740f126db05b00cba61fa5b6c38d0a5de72f90",
       "status": "verified"
@@ -1852,6 +1912,11 @@
     {
       "path": "/images/watches/tudor/reviewed-m7941a1a0nu-0001-white-web.webp",
       "sha256": "eb8b1a7bc85e9d67b9d63069ca4abea0fda108065f7bb42cf5b2f492aeed2931",
+      "status": "verified"
+    },
+    {
+      "path": "/images/watches/tudor/founder-05-tudor-white-web.webp",
+      "sha256": "1a161fdfb1ae12ba6b23bf517cee1e1cb693c4042854f632a3eff3ee4ab75dc5",
       "status": "verified"
     },
     {
@@ -2070,6 +2135,11 @@
       "status": "verified"
     },
     {
+      "path": "/images/watches/omega/founder-06-ceramic-diver-white-web.webp",
+      "sha256": "ab6c2bd368dab030d0f51563e9ef2066af8e68d47ac241fb09dfd2ca50c37c6e",
+      "status": "verified"
+    },
+    {
       "path": "/images/watches/omega/omega-seamaster-diver-300m-210-30-42-20-01-001-web.webp",
       "sha256": "d4c52129ef18076c8cef729fe7421bd27924f7aaa1f1de549943fdeac729de3c",
       "status": "verified"
@@ -2152,6 +2222,11 @@
     {
       "path": "/images/watches/audemars-piguet/reviewed-26393or-oo-a056kb-01-white-web.webp",
       "sha256": "8a181b03104a29118163e6ab8413190163932a4242be6323bc05711aab24bc46",
+      "status": "verified"
+    },
+    {
+      "path": "/images/watches/audemars-piguet/founder-14-ap-white-web.webp",
+      "sha256": "6b806116ee8fb8e153be65edae463f16b35c1923312b3db9ef635379cf4d1781",
       "status": "verified"
     },
     {
@@ -2245,6 +2320,11 @@
       "status": "verified"
     },
     {
+      "path": "/images/watches/ulysse-nardin/founder-07-diver-chrono-white-web.webp",
+      "sha256": "a94d96305438c13b65e45b8961293bdd879a44d780801396e084519549b381f1",
+      "status": "verified"
+    },
+    {
       "path": "/images/watches/ulysse-nardin/ulysse-nardin-diver-44-1183-170-7m-92-web.webp",
       "sha256": "ef9ca85bda856d8afa8f80605b28eb70383eaeee0e8103295328aff48f7ea53d",
       "status": "verified"
@@ -2300,6 +2380,11 @@
       "status": "verified"
     },
     {
+      "path": "/images/watches/patek-philippe/founder-03-patek-white-web.webp",
+      "sha256": "d452ac2f0c20fa2169765e1cf93a45979032da89dbf0e61f930de820fe6dce1e",
+      "status": "verified"
+    },
+    {
       "path": "/images/watches/tudor/reviewed-m25600tn-0001-white-web.webp",
       "sha256": "3777e6060cf835c20ab1f0f452a7f9c3b09cd8b0f9b168de8f4fc7d4ea4bcbe6",
       "status": "verified"
@@ -2335,6 +2420,11 @@
       "status": "verified"
     },
     {
+      "path": "/images/watches/hublot/founder-02-hublot-ceramic-white-web.webp",
+      "sha256": "d4b59ca26d581605873c77d572e717a1d589b3cdb837db4d44a40d1225fc4c29",
+      "status": "verified"
+    },
+    {
       "path": "/images/watches/hublot/reviewed-642-nx-0170-rx-white-web.webp",
       "sha256": "e4a1c0db35969ada1a28f8b034169eef6b4ca6b5c243abd5269c97e828fcbb5e",
       "status": "verified"
@@ -2342,6 +2432,11 @@
     {
       "path": "/images/watches/vacheron-constantin/reviewed-82172-000r-9382-white-web.webp",
       "sha256": "9a5dcd02ce14f3dbd4edbcad75a9c773ed6c77e386ae53f7631a198e90b72ee5",
+      "status": "verified"
+    },
+    {
+      "path": "/images/watches/vacheron-constantin/founder-12-vc-white-web.webp",
+      "sha256": "9a2188b4cd85e6c9b5f7836db8f6ddb73272baa448adde99c2d488a3c0476d96",
       "status": "verified"
     },
     {
@@ -2512,6 +2607,26 @@
     {
       "path": "/images/watches/omega/reviewed-235-10-38-20-13-001-white-web.webp",
       "sha256": "f17ad5e5fbe4d21a627da8a68acf7743ad923945480238cf08eded417efa789f",
+      "status": "verified"
+    },
+    {
+      "path": "/images/watches/patek-philippe/founder-14-patek-white-web.webp",
+      "sha256": "82ae0da48f6946d4e575973886637df252a9135c1f085dd75e927a28eae5b061",
+      "status": "verified"
+    },
+    {
+      "path": "/images/watches/patek-philippe/reviewed-5236p-010-white-web.webp",
+      "sha256": "9149feca7be1f0caa43901f6e3fa1168973f969eb1a48baee7db2792f2969c75",
+      "status": "verified"
+    },
+    {
+      "path": "/images/watches/patek-philippe/reviewed-5270p-017-white-web.webp",
+      "sha256": "da31c67c769cfe1aca48d36b60ef072f2ecb110425499ea62833adb2054aeb6a",
+      "status": "verified"
+    },
+    {
+      "path": "/images/watches/vacheron-constantin/founder-09-vc-white-web.webp",
+      "sha256": "918206a81806d71e549a7ba9a4210fc74d8a2b5e3eb91f7a5c41bac07e0062d8",
       "status": "verified"
     }
   ],

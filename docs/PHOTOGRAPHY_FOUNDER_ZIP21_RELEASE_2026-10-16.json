@@ -708,11 +708,21 @@
   ],
   "rightsRecord": "docs/PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json",
   "privacy": "Full private source screenshots remain local. Only native watch crops and sanitized provenance archived.",
-  "status": "Integrated; release checks and deployment pending",
+  "status": "LIVE and independently verified",
   "qualityHolds": [
     "1506-150LE-3/63-VB: source bezel clipped",
     "266-10-3/92: further exterior mask refinement required"
   ],
   "unresolvedPrimaryIdentities": 6,
-  "specificationLimitations": "The two AP strap materials remain unconfirmed. Approved photographed configurations describe only the visually confirmed blue or brown strap; no leather, calfskin or alligator composition is inferred. Original pending specification configurations remain preserved. Unknown dimensions and calibres stay pending."
+  "specificationLimitations": "The two AP strap materials remain unconfirmed. Approved photographed configurations describe only the visually confirmed blue or brown strap; no leather, calfskin or alligator composition is inferred. Original pending specification configurations remain preserved. Unknown dimensions and calibres stay pending.",
+  "productionRelease": {
+    "commit": "c5541d35b2cac44c8cb9dc41eb4f1c357b7034cc",
+    "deployId": "dep-db97s08u01pc738ki7e0",
+    "status": "LIVE",
+    "referenceRoutesVerified": 297,
+    "photographedReferenceRoutes": 228,
+    "queuedReferenceRoutes": 69,
+    "distinctPhotoFilesVerified": 227,
+    "newScreenshotPhotosPublished": 21
+  }
 }
