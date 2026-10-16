@@ -8,9 +8,9 @@
   "licensePolicy": "Reference source URL documents identity only; it does NOT license website reuse. No AI watches, unverified source shots or nonwhite wrist photographs.",
   "summary": {
     "references": 58,
-    "existingExactReferenceImageRecordMatches": 48,
-    "requiresAcquisition": 10,
-    "clearedForPublication": 48
+    "existingExactReferenceImageRecordMatches": 50,
+    "requiresAcquisition": 8,
+    "clearedForPublication": 50
   },
   "queue": [
     {
@@ -2056,18 +2056,19 @@
       "specificationSource": "https://www.omegawatches.com.hk/en-hk/watch-omega-seamaster-diver-300m-co-axial-master-chronometer-43-5-mm-21062442001001",
       "sourceHost": "www.omegawatches.com.hk",
       "priorityScore": 100,
-      "imageSourceFoundInCurrentClearanceCode": false,
+      "imageSourceFoundInCurrentClearanceCode": true,
       "evidence": {
         "rawImageId": null,
         "rawChecksum": null,
-        "webDerivativePath": null,
-        "webDerivativeChecksum": null,
-        "exactReferenceImageReviewed": false,
-        "centeredWhiteBackgroundVerified": false,
-        "websiteUseRightsVerified": false,
-        "rightsRecord": null,
-        "approvalReviewer": null,
-        "status": "ACQUISITION_REQUIRED"
+        "webDerivativePath": "/images/watches/omega/founder-06-ceramic-diver-white-web.webp",
+        "webDerivativeChecksum": "ab6c2bd368dab030d0f51563e9ef2066af8e68d47ac241fb09dfd2ca50c37c6e",
+        "exactReferenceImageReviewed": true,
+        "centeredWhiteBackgroundVerified": true,
+        "websiteUseRightsVerified": true,
+        "rightsRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for the19-imageZIP originals and white-background derivatives, with no restrictions, in response call_24a179ab128748dbb94a78640e6a1543. Record docs/PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json. Native photograph crop upload-06-ceramic-diver.png (SHA256 fdb9acc8ed969bd6f8d69f6594fa1772aa71e3c5bf6724ca1dc2f4bc85b146a7) from Screenshot_20260914_053115_WhatsApp.jpg (parent SHA256 0b67d7fc5808a8ca3f5a52eaa8dcf6c700cc2c124cd6831cb530d705cae9af90). RAW archive contains explicitly labeled native watch crops; full private screenshot is preserved locally only. Whole watch, exact configuration and final image individually reviewed. Native source resolution retained without invented or sharpened detail; no ownership, celebrity or unique-edition provenance inferred. Separate manufacturer/reference specification source retained. Preserved RAW file: 1PW6uo43c6HDLM8OC5SOQ__Phr7G75TOn. Pictured full reference 210.62.44.20.01.001; Black ceramic and 18K Sedna Gold, Black ceramic with raised waves, Black rubber strap. Exact configuration reviewed against preserved source evidence and the original photograph.",
+        "approvalReviewer": "Quest Luxo execution review with founder website-use clearance",
+        "status": "APPROVED_WITH_VALID_DERIVATIVE",
+        "approvedAssetId": "cleared-founder-06-ceramic-diver"
       },
       "requirements": [
         "Obtain authentic non-AI original for exact pictured reference and configuration",
@@ -2092,18 +2093,19 @@
       "specificationSource": "https://www.omegawatches.com.hk/en-hk/watch-omega-speedmaster-moonwatch-professional-co-axial-master-chronometer-chronograph-42-mm-31063425001001",
       "sourceHost": "www.omegawatches.com.hk",
       "priorityScore": 100,
-      "imageSourceFoundInCurrentClearanceCode": false,
+      "imageSourceFoundInCurrentClearanceCode": true,
       "evidence": {
         "rawImageId": null,
         "rawChecksum": null,
-        "webDerivativePath": null,
-        "webDerivativeChecksum": null,
-        "exactReferenceImageReviewed": false,
-        "centeredWhiteBackgroundVerified": false,
-        "websiteUseRightsVerified": false,
-        "rightsRecord": null,
-        "approvalReviewer": null,
-        "status": "ACQUISITION_REQUIRED"
+        "webDerivativePath": "/images/watches/omega/founder-16-moonwatch-white-web.webp",
+        "webDerivativeChecksum": "d3372d17331f19a7eb9af52a9828d2f28aae80bf2ef01a6d492c055942d42f9b",
+        "exactReferenceImageReviewed": true,
+        "centeredWhiteBackgroundVerified": true,
+        "websiteUseRightsVerified": true,
+        "rightsRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for the19-imageZIP originals and white-background derivatives, with no restrictions, in response call_24a179ab128748dbb94a78640e6a1543. Record docs/PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json. Native photograph crop upload-16-moonwatch.png (SHA256 8d6eb1ece6c2fe08353de07481398683c9c4dc44d13af25944f4793e6731d024) from Screenshot_20260914_123918_Google.jpg (parent SHA256 8d6e9836237505f5739833bb3910a4a7303b676cc7b60bfb7dd7294a7cb4bef4). RAW archive contains explicitly labeled native watch crops; full private screenshot is preserved locally only. Whole watch, exact configuration and final image individually reviewed. Native source resolution retained without invented or sharpened detail; no ownership, celebrity or unique-edition provenance inferred. Separate manufacturer/reference specification source retained. Preserved RAW file: 1PW6uo43c6HDLM8OC5SOQ__Phr7G75TOn. Pictured full reference 310.63.42.50.01.001; 18K Sedna Gold, Black step dial, Black leather strap. Exact configuration reviewed against preserved source evidence and the original photograph.",
+        "approvalReviewer": "Quest Luxo execution review with founder website-use clearance",
+        "status": "APPROVED_WITH_VALID_DERIVATIVE",
+        "approvedAssetId": "cleared-founder-16-moonwatch"
       },
       "requirements": [
         "Obtain authentic non-AI original for exact pictured reference and configuration",

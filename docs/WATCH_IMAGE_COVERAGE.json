@@ -1,14 +1,14 @@
 {
-  "reviewedAt": "2026-10-16T19:19:42.728Z",
+  "reviewedAt": "2026-10-16T19:39:30.505Z",
   "note": "Generated from all exported source datasets and built routes. Source-only and duplicate configuration records are retained for review; this register is not proof of image rights. Source URLs identify research leads, not licenses.",
   "summary": {
-    "sourceConfigurations": 880,
+    "sourceConfigurations": 924,
     "builtReferenceRoutes": 297,
     "collectionRoutes": 104,
-    "approvedReferenceConfigurations": 416,
+    "approvedReferenceConfigurations": 458,
     "unmatchedReferenceRoutes": 0,
-    "approvedCanonicalReferenceRoutes": 207,
-    "queuedCanonicalReferenceRoutes": 90
+    "approvedCanonicalReferenceRoutes": 228,
+    "queuedCanonicalReferenceRoutes": 69
   },
   "collections": [
     {
@@ -5480,230 +5480,6 @@
     {
       "brand": "Audemars Piguet",
       "collection": "Royal Oak",
-      "reference": "26585CE.OO.1225CE.01",
-      "configurations": [
-        {
-          "caseSize": "Specification verification pending",
-          "movement": "Calibre verification pending",
-          "dial": "Openworked sapphire with pink-gold components",
-          "bracelet": "Black ceramic bracelet",
-          "originalMSRP": null,
-          "currentMSRP": null
-        }
-      ],
-      "material": "Black ceramic",
-      "sources": [
-        "src/data/collectionRegistry.ts",
-        "src/data/verified-catalog-expansion.ts"
-      ],
-      "routes": [
-        "/collections/audemars-piguet/royal-oak/26585ce-oo-1225ce-01"
-      ],
-      "scope": "built-reference",
-      "existingImage": "/images/watch-reference-placeholder.svg",
-      "existingImageFilePresent": true,
-      "photoAssetId": null,
-      "status": "Requires Verification",
-      "sourceUrl": "https://www.audemarspiguet.com/us/en/watch-collection/royal-oak/26585CE.OO.1225CE.01",
-      "licenseRecord": null,
-      "websiteApproved": false,
-      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
-    },
-    {
-      "brand": "Audemars Piguet",
-      "collection": "Royal Oak",
-      "reference": "26585XT.OO.1220XT.01",
-      "configurations": [
-        {
-          "caseSize": "Specification verification pending",
-          "movement": "5135 automatic",
-          "dial": "Openworked blue-accented dial",
-          "bracelet": "Titanium and BMG bracelet",
-          "originalMSRP": null,
-          "currentMSRP": null
-        }
-      ],
-      "material": "Titanium and Bulk Metallic Glass",
-      "sources": [
-        "src/data/collectionRegistry.ts",
-        "src/data/verified-catalog-expansion.ts"
-      ],
-      "routes": [
-        "/collections/audemars-piguet/royal-oak/26585xt-oo-1220xt-01"
-      ],
-      "scope": "built-reference",
-      "existingImage": "/images/watch-reference-placeholder.svg",
-      "existingImageFilePresent": true,
-      "photoAssetId": null,
-      "status": "Requires Verification",
-      "sourceUrl": "https://www.audemarspiguet.com/us/en/watch-collection/royal-oak/26585XT.OO.1220XT.01",
-      "licenseRecord": null,
-      "websiteApproved": false,
-      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
-    },
-    {
-      "brand": "Audemars Piguet",
-      "collection": "Royal Oak",
-      "reference": "26585CM.OO.D301VE.01",
-      "configurations": [
-        {
-          "caseSize": "41 mm",
-          "movement": "Calibre verification pending",
-          "dial": "Openworked Cactus Jack dial",
-          "bracelet": "Brown strap; material verification pending",
-          "originalMSRP": null,
-          "currentMSRP": null
-        }
-      ],
-      "material": "Brown ceramic",
-      "sources": [
-        "src/data/collectionRegistry.ts",
-        "src/data/verified-catalog-expansion.ts"
-      ],
-      "routes": [
-        "/collections/audemars-piguet/royal-oak/26585cm-oo-d301ve-01"
-      ],
-      "scope": "built-reference",
-      "existingImage": "/images/watch-reference-placeholder.svg",
-      "existingImageFilePresent": true,
-      "photoAssetId": null,
-      "status": "Requires Verification",
-      "sourceUrl": "https://www.audemarspiguet.com/zh-hant/watch-collection/royal-oak/26585CM.OO.D301VE.01",
-      "licenseRecord": null,
-      "websiteApproved": false,
-      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
-    },
-    {
-      "brand": "Audemars Piguet",
-      "collection": "Royal Oak",
-      "reference": "15412BA.ZG.1224BA.01",
-      "configurations": [
-        {
-          "caseSize": "Specification verification pending",
-          "movement": "Calibre verification pending",
-          "dial": "Openworked",
-          "bracelet": "Frosted yellow-gold bracelet",
-          "originalMSRP": null,
-          "currentMSRP": null
-        }
-      ],
-      "material": "18K yellow gold; baguette diamond-set bezel",
-      "sources": [
-        "src/data/collectionRegistry.ts",
-        "src/data/verified-catalog-expansion.ts"
-      ],
-      "routes": [
-        "/collections/audemars-piguet/royal-oak/15412ba-zg-1224ba-01"
-      ],
-      "scope": "built-reference",
-      "existingImage": "/images/watch-reference-placeholder.svg",
-      "existingImageFilePresent": true,
-      "photoAssetId": null,
-      "status": "Requires Verification",
-      "sourceUrl": "https://www.audemarspiguet.com/us/en/watch-collection/royal-oak/15412BA.ZG.1224BA.01",
-      "licenseRecord": null,
-      "websiteApproved": false,
-      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
-    },
-    {
-      "brand": "Audemars Piguet",
-      "collection": "Royal Oak",
-      "reference": "15412BC.ZZ.1220BC.01",
-      "configurations": [
-        {
-          "caseSize": "41 mm",
-          "movement": "3132 automatic",
-          "dial": "Openworked",
-          "bracelet": "18K white-gold bracelet",
-          "originalMSRP": null,
-          "currentMSRP": null
-        }
-      ],
-      "material": "18K white gold; diamond-set bezel",
-      "sources": [
-        "src/data/collectionRegistry.ts",
-        "src/data/verified-catalog-expansion.ts"
-      ],
-      "routes": [
-        "/collections/audemars-piguet/royal-oak/15412bc-zz-1220bc-01"
-      ],
-      "scope": "built-reference",
-      "existingImage": "/images/watch-reference-placeholder.svg",
-      "existingImageFilePresent": true,
-      "photoAssetId": null,
-      "status": "Requires Verification",
-      "sourceUrl": "https://www.jomashop.com/audemars-piguet-15412bc-zz-1220bc-01.html",
-      "licenseRecord": null,
-      "websiteApproved": false,
-      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
-    },
-    {
-      "brand": "Audemars Piguet",
-      "collection": "Royal Oak",
-      "reference": "15412OR.ZZ.1220OR.01",
-      "configurations": [
-        {
-          "caseSize": "41 mm",
-          "movement": "Calibre verification pending",
-          "dial": "Openworked",
-          "bracelet": "18K rose-gold bracelet",
-          "originalMSRP": null,
-          "currentMSRP": null
-        }
-      ],
-      "material": "18K rose gold; baguette diamond-set bezel",
-      "sources": [
-        "src/data/collectionRegistry.ts",
-        "src/data/verified-catalog-expansion.ts"
-      ],
-      "routes": [
-        "/collections/audemars-piguet/royal-oak/15412or-zz-1220or-01"
-      ],
-      "scope": "built-reference",
-      "existingImage": "/images/watch-reference-placeholder.svg",
-      "existingImageFilePresent": true,
-      "photoAssetId": null,
-      "status": "Requires Verification",
-      "sourceUrl": "https://chronoboutiqueny.com/products/audemars-piguet-royal-oak-double-balance-wheel-openworked-rose-gold-baguette-15412or-zz-1220or-01-sold",
-      "licenseRecord": null,
-      "websiteApproved": false,
-      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
-    },
-    {
-      "brand": "Audemars Piguet",
-      "collection": "Royal Oak",
-      "reference": "26341ST.OO.1105ST.01",
-      "configurations": [
-        {
-          "caseSize": "44 mm",
-          "movement": "Calibre verification pending",
-          "dial": "Openworked sapphire",
-          "bracelet": "Stainless-steel bracelet",
-          "originalMSRP": null,
-          "currentMSRP": null
-        }
-      ],
-      "material": "Stainless Steel",
-      "sources": [
-        "src/data/collectionRegistry.ts",
-        "src/data/verified-catalog-expansion.ts"
-      ],
-      "routes": [
-        "/collections/audemars-piguet/royal-oak/26341st-oo-1105st-01"
-      ],
-      "scope": "built-reference",
-      "existingImage": "/images/watch-reference-placeholder.svg",
-      "existingImageFilePresent": true,
-      "photoAssetId": null,
-      "status": "Requires Verification",
-      "sourceUrl": "https://www.audemarspiguet.com/en/about/savoir-faire/grandes-complications",
-      "licenseRecord": null,
-      "websiteApproved": false,
-      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
-    },
-    {
-      "brand": "Audemars Piguet",
-      "collection": "Royal Oak",
       "reference": "26615TI.OO.1220TI.01",
       "configurations": [
         {
@@ -5711,6 +5487,7 @@
           "movement": "Calibre verification pending",
           "dial": "Salmon-toned Grande Tapisserie",
           "bracelet": "Titanium bracelet",
+          "nickname": "Salmon-toned Grande Tapisserie / Titanium bracelet",
           "originalMSRP": null,
           "currentMSRP": null
         }
@@ -5718,20 +5495,20 @@
       "material": "Titanium",
       "sources": [
         "src/data/collectionRegistry.ts",
-        "src/data/verified-catalog-expansion.ts"
+        "src/data/photography-expansion.ts"
       ],
       "routes": [
         "/collections/audemars-piguet/royal-oak/26615ti-oo-1220ti-01"
       ],
       "scope": "built-reference",
-      "existingImage": "/images/watch-reference-placeholder.svg",
+      "existingImage": "/images/watches/audemars-piguet/founder-09-ap-white-web.webp",
       "existingImageFilePresent": true,
-      "photoAssetId": null,
-      "status": "Requires Verification",
-      "sourceUrl": "https://www.audemarspiguet.com/zh-hans/watch-collection/royal-oak/26615TI.OO.1220TI.01",
-      "licenseRecord": null,
-      "websiteApproved": false,
-      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+      "photoAssetId": "cleared-founder-09-ap",
+      "status": "approved",
+      "sourceUrl": "https://drive.google.com/file/d/1PW6uo43c6HDLM8OC5SOQ__Phr7G75TOn/view",
+      "licenseRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for the19-imageZIP originals and white-background derivatives, with no restrictions, in response call_24a179ab128748dbb94a78640e6a1543. Record docs/PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json. Native photograph crop upload-09-ap.png (SHA256 397f0a8e67e89504405dc93ddb9d4edec22adf51f07bd574d1184d8436a39544) from Screenshot_20261015_223840_Instagram.jpg (parent SHA256 78735faae70934ebc8cfca09743628fe8994340a4b4ba3d405b89e3e27fe0e22). RAW archive contains explicitly labeled native watch crops; full private screenshot is preserved locally only. Whole watch, exact configuration and final image individually reviewed. Native source resolution retained without invented or sharpened detail; no ownership, celebrity or unique-edition provenance inferred. Separate manufacturer/reference specification source retained. Preserved RAW file: 1PW6uo43c6HDLM8OC5SOQ__Phr7G75TOn. Pictured full reference 26615TI.OO.1220TI.01; Titanium, Salmon-toned Grande Tapisserie, Titanium bracelet. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
     },
     {
       "brand": "Audemars Piguet",
@@ -5743,6 +5520,7 @@
           "movement": "5134 automatic",
           "dial": "Red Grande Tapisserie",
           "bracelet": "18K white-gold bracelet",
+          "nickname": "Red Grande Tapisserie / 18K white-gold bracelet",
           "originalMSRP": null,
           "currentMSRP": null
         }
@@ -5750,20 +5528,20 @@
       "material": "18K white gold",
       "sources": [
         "src/data/collectionRegistry.ts",
-        "src/data/verified-catalog-expansion.ts"
+        "src/data/photography-expansion.ts"
       ],
       "routes": [
         "/collections/audemars-piguet/royal-oak/26607bc-oo-1220bc-01"
       ],
       "scope": "built-reference",
-      "existingImage": "/images/watch-reference-placeholder.svg",
+      "existingImage": "/images/watches/audemars-piguet/founder-11-ap-white-web.webp",
       "existingImageFilePresent": true,
-      "photoAssetId": null,
-      "status": "Requires Verification",
-      "sourceUrl": "https://wristcheck.com/us/buy/audemars-piguet/royal-oak-41-white-gold-red-dial-26607bcoo1220bc01",
-      "licenseRecord": null,
-      "websiteApproved": false,
-      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+      "photoAssetId": "cleared-founder-11-ap",
+      "status": "approved",
+      "sourceUrl": "https://drive.google.com/file/d/1PW6uo43c6HDLM8OC5SOQ__Phr7G75TOn/view",
+      "licenseRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for the19-imageZIP originals and white-background derivatives, with no restrictions, in response call_24a179ab128748dbb94a78640e6a1543. Record docs/PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json. Native photograph crop upload-11-ap.png (SHA256 14fd5b3ce70cd5a0ed6af411d400cbacf75ed7c6ace99b76993eeda90b742987) from Screenshot_20261015_223830_Instagram.jpg (parent SHA256 7309c64222df88f07259b7ca72a2890f59ade88250a3222d9b5267efe8a730ee). RAW archive contains explicitly labeled native watch crops; full private screenshot is preserved locally only. Whole watch, exact configuration and final image individually reviewed. Native source resolution retained without invented or sharpened detail; no ownership, celebrity or unique-edition provenance inferred. Separate manufacturer/reference specification source retained. Preserved RAW file: 1PW6uo43c6HDLM8OC5SOQ__Phr7G75TOn. Pictured full reference 26607BC.OO.1220BC.01; 18K white gold, Red Grande Tapisserie, 18K white-gold bracelet. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
     },
     {
       "brand": "Audemars Piguet",
@@ -5775,6 +5553,7 @@
           "movement": "4302 automatic",
           "dial": "Black Grande Tapisserie",
           "bracelet": "Stainless-steel bracelet with AP folding clasp",
+          "nickname": "Black Grande Tapisserie / Stainless-steel bracelet with AP folding clasp",
           "originalMSRP": null,
           "currentMSRP": null
         }
@@ -5782,20 +5561,251 @@
       "material": "Stainless Steel",
       "sources": [
         "src/data/collectionRegistry.ts",
-        "src/data/verified-catalog-expansion.ts"
+        "src/data/photography-expansion.ts"
       ],
       "routes": [
         "/collections/audemars-piguet/royal-oak/15500st-oo-1220st-03"
       ],
       "scope": "built-reference",
-      "existingImage": "/images/watch-reference-placeholder.svg",
+      "existingImage": "/images/watches/audemars-piguet/founder-03-ap-white-web.webp",
       "existingImageFilePresent": true,
-      "photoAssetId": null,
-      "status": "Requires Verification",
-      "sourceUrl": "https://www.audemarspiguet.com/us/en/watch-collection/royal-oak/15500ST.OO.1220ST.03",
-      "licenseRecord": null,
-      "websiteApproved": false,
-      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+      "photoAssetId": "cleared-founder-03-ap",
+      "status": "approved",
+      "sourceUrl": "https://drive.google.com/file/d/1PW6uo43c6HDLM8OC5SOQ__Phr7G75TOn/view",
+      "licenseRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for the19-imageZIP originals and white-background derivatives, with no restrictions, in response call_24a179ab128748dbb94a78640e6a1543. Record docs/PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json. Native photograph crop upload-03-ap.png (SHA256 07adf38fe1706ed1767a8949e7b4119adfa07db68275e9726f59cd2923618b97) from Screenshot_20261015_223835_Instagram.jpg (parent SHA256 6786cf4b6f7e15dd0aaa554a2b76dd991ea30b3a68727311c604718438adff67). RAW archive contains explicitly labeled native watch crops; full private screenshot is preserved locally only. Whole watch, exact configuration and final image individually reviewed. Native source resolution retained without invented or sharpened detail; no ownership, celebrity or unique-edition provenance inferred. Separate manufacturer/reference specification source retained. Preserved RAW file: 1PW6uo43c6HDLM8OC5SOQ__Phr7G75TOn. Pictured full reference 15500ST.OO.1220ST.03; Stainless Steel, Black Grande Tapisserie, Stainless-steel bracelet with AP folding clasp. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
+      "brand": "Audemars Piguet",
+      "collection": "Royal Oak",
+      "reference": "26585CE.OO.1225CE.01",
+      "configurations": [
+        {
+          "caseSize": "Specification verification pending",
+          "movement": "Calibre verification pending",
+          "dial": "Openworked sapphire with pink-gold components",
+          "bracelet": "Black ceramic bracelet",
+          "nickname": "Openworked sapphire with pink-gold components / Black ceramic bracelet",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "Black ceramic",
+      "sources": [
+        "src/data/collectionRegistry.ts",
+        "src/data/photography-expansion.ts"
+      ],
+      "routes": [
+        "/collections/audemars-piguet/royal-oak/26585ce-oo-1225ce-01"
+      ],
+      "scope": "built-reference",
+      "existingImage": "/images/watches/audemars-piguet/founder-19-ap-1-white-web.webp",
+      "existingImageFilePresent": true,
+      "photoAssetId": "cleared-founder-19-ap-1",
+      "status": "approved",
+      "sourceUrl": "https://drive.google.com/file/d/1PW6uo43c6HDLM8OC5SOQ__Phr7G75TOn/view",
+      "licenseRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for the19-imageZIP originals and white-background derivatives, with no restrictions, in response call_24a179ab128748dbb94a78640e6a1543. Record docs/PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json. Native photograph crop upload-19-ap-1.png (SHA256 0d580b6403a99e56c289ef455ef163264bb98baae32cb270996504c2a7020e08) from Screenshot_20261015_202218_Instagram.jpg (parent SHA256 993f85545ce3ae549c52f3d02c4377dd53af7866112c75c5f4229e5530bb6a93). RAW archive contains explicitly labeled native watch crops; full private screenshot is preserved locally only. Whole watch, exact configuration and final image individually reviewed. Native source resolution retained without invented or sharpened detail; no ownership, celebrity or unique-edition provenance inferred. Separate manufacturer/reference specification source retained. Preserved RAW file: 1PW6uo43c6HDLM8OC5SOQ__Phr7G75TOn. Pictured full reference 26585CE.OO.1225CE.01; Black ceramic, Openworked sapphire with pink-gold components, Black ceramic bracelet. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
+      "brand": "Audemars Piguet",
+      "collection": "Royal Oak",
+      "reference": "26585XT.OO.1220XT.01",
+      "configurations": [
+        {
+          "caseSize": "Specification verification pending",
+          "movement": "5135 automatic",
+          "dial": "Openworked blue-accented dial",
+          "bracelet": "Titanium and BMG bracelet",
+          "nickname": "Openworked blue-accented dial / Titanium and BMG bracelet",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "Titanium and Bulk Metallic Glass",
+      "sources": [
+        "src/data/collectionRegistry.ts",
+        "src/data/photography-expansion.ts"
+      ],
+      "routes": [
+        "/collections/audemars-piguet/royal-oak/26585xt-oo-1220xt-01"
+      ],
+      "scope": "built-reference",
+      "existingImage": "/images/watches/audemars-piguet/founder-19-ap-2-white-web.webp",
+      "existingImageFilePresent": true,
+      "photoAssetId": "cleared-founder-19-ap-2",
+      "status": "approved",
+      "sourceUrl": "https://drive.google.com/file/d/1PW6uo43c6HDLM8OC5SOQ__Phr7G75TOn/view",
+      "licenseRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for the19-imageZIP originals and white-background derivatives, with no restrictions, in response call_24a179ab128748dbb94a78640e6a1543. Record docs/PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json. Native photograph crop upload-19-ap-2.png (SHA256 1436f981f64cae6e68008c8ac247d09205cc6d699dc1534f2d5633e8efefd15d) from Screenshot_20261015_202218_Instagram.jpg (parent SHA256 993f85545ce3ae549c52f3d02c4377dd53af7866112c75c5f4229e5530bb6a93). RAW archive contains explicitly labeled native watch crops; full private screenshot is preserved locally only. Whole watch, exact configuration and final image individually reviewed. Native source resolution retained without invented or sharpened detail; no ownership, celebrity or unique-edition provenance inferred. Separate manufacturer/reference specification source retained. Preserved RAW file: 1PW6uo43c6HDLM8OC5SOQ__Phr7G75TOn. Pictured full reference 26585XT.OO.1220XT.01; Titanium and Bulk Metallic Glass, Openworked blue-accented dial, Titanium and BMG bracelet. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
+      "brand": "Audemars Piguet",
+      "collection": "Royal Oak",
+      "reference": "26585CM.OO.D301VE.01",
+      "configurations": [
+        {
+          "caseSize": "41 mm",
+          "movement": "Calibre verification pending",
+          "dial": "Openworked Cactus Jack dial",
+          "bracelet": "Brown strap",
+          "nickname": "Openworked Cactus Jack dial / Brown strap",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "Brown ceramic",
+      "sources": [
+        "src/data/collectionRegistry.ts",
+        "src/data/photography-expansion.ts"
+      ],
+      "routes": [
+        "/collections/audemars-piguet/royal-oak/26585cm-oo-d301ve-01"
+      ],
+      "scope": "built-reference",
+      "existingImage": "/images/watches/audemars-piguet/founder-19-ap-3-white-web.webp",
+      "existingImageFilePresent": true,
+      "photoAssetId": "cleared-founder-19-ap-3",
+      "status": "approved",
+      "sourceUrl": "https://drive.google.com/file/d/1PW6uo43c6HDLM8OC5SOQ__Phr7G75TOn/view",
+      "licenseRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for the19-imageZIP originals and white-background derivatives, with no restrictions, in response call_24a179ab128748dbb94a78640e6a1543. Record docs/PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json. Native photograph crop upload-19-ap-3-expanded-native.png (SHA256 48495a4da2a4710d44baaf1a426335a5fdaa43a696aed97a6650ca72e7ea7319) from Screenshot_20261015_202218_Instagram.jpg (parent SHA256 993f85545ce3ae549c52f3d02c4377dd53af7866112c75c5f4229e5530bb6a93). RAW archive contains explicitly labeled native watch crops; full private screenshot is preserved locally only. Whole watch, exact configuration and final image individually reviewed. Native source resolution retained without invented or sharpened detail; no ownership, celebrity or unique-edition provenance inferred. Separate manufacturer/reference specification source retained. Preserved RAW file: 1PW6uo43c6HDLM8OC5SOQ__Phr7G75TOn. Pictured full reference 26585CM.OO.D301VE.01; Brown ceramic, Openworked Cactus Jack dial, Brown strap. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
+      "brand": "Audemars Piguet",
+      "collection": "Royal Oak",
+      "reference": "15412BC.ZZ.1220BC.01",
+      "configurations": [
+        {
+          "caseSize": "41 mm",
+          "movement": "3132 automatic",
+          "dial": "Openworked",
+          "bracelet": "18K white-gold bracelet",
+          "nickname": "Openworked / 18K white-gold bracelet",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "18K white gold; diamond-set bezel",
+      "sources": [
+        "src/data/collectionRegistry.ts",
+        "src/data/photography-expansion.ts"
+      ],
+      "routes": [
+        "/collections/audemars-piguet/royal-oak/15412bc-zz-1220bc-01"
+      ],
+      "scope": "built-reference",
+      "existingImage": "/images/watches/audemars-piguet/founder-19-ap-5-white-web.webp",
+      "existingImageFilePresent": true,
+      "photoAssetId": "cleared-founder-19-ap-5",
+      "status": "approved",
+      "sourceUrl": "https://drive.google.com/file/d/1PW6uo43c6HDLM8OC5SOQ__Phr7G75TOn/view",
+      "licenseRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for the19-imageZIP originals and white-background derivatives, with no restrictions, in response call_24a179ab128748dbb94a78640e6a1543. Record docs/PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json. Native photograph crop upload-19-ap-5.png (SHA256 e067f0b16ecbbd33a6854ff0b9678026b5c293c92787d475b851c6cafdddc6f1) from Screenshot_20261015_202218_Instagram.jpg (parent SHA256 993f85545ce3ae549c52f3d02c4377dd53af7866112c75c5f4229e5530bb6a93). RAW archive contains explicitly labeled native watch crops; full private screenshot is preserved locally only. Whole watch, exact configuration and final image individually reviewed. Native source resolution retained without invented or sharpened detail; no ownership, celebrity or unique-edition provenance inferred. Separate manufacturer/reference specification source retained. Preserved RAW file: 1PW6uo43c6HDLM8OC5SOQ__Phr7G75TOn. Pictured full reference 15412BC.ZZ.1220BC.01; 18K white gold; diamond-set bezel, Openworked, 18K white-gold bracelet. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
+      "brand": "Audemars Piguet",
+      "collection": "Royal Oak",
+      "reference": "15412OR.ZZ.1220OR.01",
+      "configurations": [
+        {
+          "caseSize": "41 mm",
+          "movement": "Calibre verification pending",
+          "dial": "Openworked",
+          "bracelet": "18K rose-gold bracelet",
+          "nickname": "Openworked / 18K rose-gold bracelet",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "18K rose gold; baguette diamond-set bezel",
+      "sources": [
+        "src/data/collectionRegistry.ts",
+        "src/data/photography-expansion.ts"
+      ],
+      "routes": [
+        "/collections/audemars-piguet/royal-oak/15412or-zz-1220or-01"
+      ],
+      "scope": "built-reference",
+      "existingImage": "/images/watches/audemars-piguet/founder-19-ap-6-white-web.webp",
+      "existingImageFilePresent": true,
+      "photoAssetId": "cleared-founder-19-ap-6",
+      "status": "approved",
+      "sourceUrl": "https://drive.google.com/file/d/1PW6uo43c6HDLM8OC5SOQ__Phr7G75TOn/view",
+      "licenseRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for the19-imageZIP originals and white-background derivatives, with no restrictions, in response call_24a179ab128748dbb94a78640e6a1543. Record docs/PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json. Native photograph crop upload-19-ap-6.png (SHA256 0b15ce63013dcefbe429be6c02e4d2d5a4d4ea0e766d74820c01bb2e6daa35a2) from Screenshot_20261015_202218_Instagram.jpg (parent SHA256 993f85545ce3ae549c52f3d02c4377dd53af7866112c75c5f4229e5530bb6a93). RAW archive contains explicitly labeled native watch crops; full private screenshot is preserved locally only. Whole watch, exact configuration and final image individually reviewed. Native source resolution retained without invented or sharpened detail; no ownership, celebrity or unique-edition provenance inferred. Separate manufacturer/reference specification source retained. Preserved RAW file: 1PW6uo43c6HDLM8OC5SOQ__Phr7G75TOn. Pictured full reference 15412OR.ZZ.1220OR.01; 18K rose gold; baguette diamond-set bezel, Openworked, 18K rose-gold bracelet. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
+      "brand": "Audemars Piguet",
+      "collection": "Royal Oak",
+      "reference": "15412BA.ZG.1224BA.01",
+      "configurations": [
+        {
+          "caseSize": "Specification verification pending",
+          "movement": "Calibre verification pending",
+          "dial": "Openworked",
+          "bracelet": "Frosted yellow-gold bracelet",
+          "nickname": "Openworked / Frosted yellow-gold bracelet",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "18K yellow gold; baguette diamond-set bezel",
+      "sources": [
+        "src/data/collectionRegistry.ts",
+        "src/data/photography-expansion.ts"
+      ],
+      "routes": [
+        "/collections/audemars-piguet/royal-oak/15412ba-zg-1224ba-01"
+      ],
+      "scope": "built-reference",
+      "existingImage": "/images/watches/audemars-piguet/founder-19-ap-7-white-web.webp",
+      "existingImageFilePresent": true,
+      "photoAssetId": "cleared-founder-19-ap-7",
+      "status": "approved",
+      "sourceUrl": "https://drive.google.com/file/d/1PW6uo43c6HDLM8OC5SOQ__Phr7G75TOn/view",
+      "licenseRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for the19-imageZIP originals and white-background derivatives, with no restrictions, in response call_24a179ab128748dbb94a78640e6a1543. Record docs/PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json. Native photograph crop upload-19-ap-7.png (SHA256 8a592027a441658c143bd5536b927f90948b14f105efa981b3649dd67cbd3fd6) from Screenshot_20261015_202218_Instagram.jpg (parent SHA256 993f85545ce3ae549c52f3d02c4377dd53af7866112c75c5f4229e5530bb6a93). RAW archive contains explicitly labeled native watch crops; full private screenshot is preserved locally only. Whole watch, exact configuration and final image individually reviewed. Native source resolution retained without invented or sharpened detail; no ownership, celebrity or unique-edition provenance inferred. Separate manufacturer/reference specification source retained. Preserved RAW file: 1PW6uo43c6HDLM8OC5SOQ__Phr7G75TOn. Pictured full reference 15412BA.ZG.1224BA.01; 18K yellow gold; baguette diamond-set bezel, Openworked, Frosted yellow-gold bracelet. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
+      "brand": "Audemars Piguet",
+      "collection": "Royal Oak",
+      "reference": "26341ST.OO.1105ST.01",
+      "configurations": [
+        {
+          "caseSize": "44 mm",
+          "movement": "Calibre verification pending",
+          "dial": "Openworked sapphire",
+          "bracelet": "Stainless-steel bracelet",
+          "nickname": "Openworked sapphire / Stainless-steel bracelet",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "Stainless Steel",
+      "sources": [
+        "src/data/collectionRegistry.ts",
+        "src/data/photography-expansion.ts"
+      ],
+      "routes": [
+        "/collections/audemars-piguet/royal-oak/26341st-oo-1105st-01"
+      ],
+      "scope": "built-reference",
+      "existingImage": "/images/watches/audemars-piguet/founder-19-ap-8-white-web.webp",
+      "existingImageFilePresent": true,
+      "photoAssetId": "cleared-founder-19-ap-8",
+      "status": "approved",
+      "sourceUrl": "https://drive.google.com/file/d/1PW6uo43c6HDLM8OC5SOQ__Phr7G75TOn/view",
+      "licenseRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for the19-imageZIP originals and white-background derivatives, with no restrictions, in response call_24a179ab128748dbb94a78640e6a1543. Record docs/PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json. Native photograph crop upload-19-ap-8-expanded-native.png (SHA256 5cfe1c369054c5609a7e089e78e2c06e6d4571de080a5a75effc86b8669dbe29) from Screenshot_20261015_202218_Instagram.jpg (parent SHA256 993f85545ce3ae549c52f3d02c4377dd53af7866112c75c5f4229e5530bb6a93). RAW archive contains explicitly labeled native watch crops; full private screenshot is preserved locally only. Whole watch, exact configuration and final image individually reviewed. Native source resolution retained without invented or sharpened detail; no ownership, celebrity or unique-edition provenance inferred. Separate manufacturer/reference specification source retained. Preserved RAW file: 1PW6uo43c6HDLM8OC5SOQ__Phr7G75TOn. Pictured full reference 26341ST.OO.1105ST.01; Stainless Steel, Openworked sapphire, Stainless-steel bracelet. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
     },
     {
       "brand": "Richard Mille",
@@ -5861,6 +5871,39 @@
     {
       "brand": "Vacheron Constantin",
       "collection": "Overseas",
+      "reference": "4300V/220G-H151",
+      "configurations": [
+        {
+          "caseSize": "41.5 mm",
+          "movement": "1120 QP automatic",
+          "dial": "Burgundy lacquered sunburst",
+          "bracelet": "18K white-gold bracelet; additional burgundy and white rubber straps",
+          "nickname": "Burgundy lacquered sunburst / 18K white-gold bracelet; additional burgundy and white rubber straps",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "18K white gold",
+      "sources": [
+        "src/data/collectionRegistry.ts",
+        "src/data/photography-expansion.ts"
+      ],
+      "routes": [
+        "/collections/vacheron-constantin/overseas/4300v-220g-h151"
+      ],
+      "scope": "built-reference",
+      "existingImage": "/images/watches/vacheron-constantin/founder-11-vc-white-web.webp",
+      "existingImageFilePresent": true,
+      "photoAssetId": "cleared-founder-11-vc",
+      "status": "approved",
+      "sourceUrl": "https://drive.google.com/file/d/1PW6uo43c6HDLM8OC5SOQ__Phr7G75TOn/view",
+      "licenseRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for the19-imageZIP originals and white-background derivatives, with no restrictions, in response call_24a179ab128748dbb94a78640e6a1543. Record docs/PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json. Native photograph crop upload-11-vc.png (SHA256 22394b8a84144a532aa44e424458cd17d7a2eebb5832c216e51be5a42f69b0fb) from Screenshot_20261015_223830_Instagram.jpg (parent SHA256 7309c64222df88f07259b7ca72a2890f59ade88250a3222d9b5267efe8a730ee). RAW archive contains explicitly labeled native watch crops; full private screenshot is preserved locally only. Whole watch, exact configuration and final image individually reviewed. Native source resolution retained without invented or sharpened detail; no ownership, celebrity or unique-edition provenance inferred. Separate manufacturer/reference specification source retained. Preserved RAW file: 1PW6uo43c6HDLM8OC5SOQ__Phr7G75TOn. Pictured full reference 4300V/220G-H151; 18K white gold, Burgundy lacquered sunburst, 18K white-gold bracelet; additional burgundy and white rubber straps. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
+      "brand": "Vacheron Constantin",
+      "collection": "Overseas",
       "reference": "6000V/110A-B544",
       "configurations": [
         {
@@ -5886,38 +5929,6 @@
       "photoAssetId": null,
       "status": "Requires Verification",
       "sourceUrl": "https://www.vacheron-constantin.com/us/en/collections/overseas/6000v-110a-b544.html",
-      "licenseRecord": null,
-      "websiteApproved": false,
-      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
-    },
-    {
-      "brand": "Vacheron Constantin",
-      "collection": "Overseas",
-      "reference": "4300V/220G-H151",
-      "configurations": [
-        {
-          "caseSize": "41.5 mm",
-          "movement": "1120 QP automatic",
-          "dial": "Burgundy lacquered sunburst",
-          "bracelet": "18K white-gold bracelet; additional burgundy and white rubber straps",
-          "originalMSRP": null,
-          "currentMSRP": null
-        }
-      ],
-      "material": "18K white gold",
-      "sources": [
-        "src/data/collectionRegistry.ts",
-        "src/data/verified-catalog-expansion.ts"
-      ],
-      "routes": [
-        "/collections/vacheron-constantin/overseas/4300v-220g-h151"
-      ],
-      "scope": "built-reference",
-      "existingImage": "/images/watch-reference-placeholder.svg",
-      "existingImageFilePresent": true,
-      "photoAssetId": null,
-      "status": "Requires Verification",
-      "sourceUrl": "https://www.vacheron-constantin.com/ww/en/collections/overseas/4300v-220g-h151.html",
       "licenseRecord": null,
       "websiteApproved": false,
       "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
@@ -6443,6 +6454,7 @@
           "movement": "Omega 3861 manual winding",
           "dial": "Black step dial",
           "bracelet": "Black leather strap",
+          "nickname": "Black step dial / Black leather strap",
           "originalMSRP": null,
           "currentMSRP": null
         }
@@ -6450,20 +6462,20 @@
       "material": "18K Sedna Gold",
       "sources": [
         "src/data/collectionRegistry.ts",
-        "src/data/verified-catalog-expansion.ts"
+        "src/data/photography-expansion.ts"
       ],
       "routes": [
         "/collections/omega/speedmaster/310-63-42-50-01-001"
       ],
       "scope": "built-reference",
-      "existingImage": "/images/watch-reference-placeholder.svg",
+      "existingImage": "/images/watches/omega/founder-16-moonwatch-white-web.webp",
       "existingImageFilePresent": true,
-      "photoAssetId": null,
-      "status": "Requires Verification",
-      "sourceUrl": "https://www.omegawatches.com.hk/en-hk/watch-omega-speedmaster-moonwatch-professional-co-axial-master-chronometer-chronograph-42-mm-31063425001001",
-      "licenseRecord": null,
-      "websiteApproved": false,
-      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+      "photoAssetId": "cleared-founder-16-moonwatch",
+      "status": "approved",
+      "sourceUrl": "https://drive.google.com/file/d/1PW6uo43c6HDLM8OC5SOQ__Phr7G75TOn/view",
+      "licenseRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for the19-imageZIP originals and white-background derivatives, with no restrictions, in response call_24a179ab128748dbb94a78640e6a1543. Record docs/PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json. Native photograph crop upload-16-moonwatch.png (SHA256 8d6eb1ece6c2fe08353de07481398683c9c4dc44d13af25944f4793e6731d024) from Screenshot_20260914_123918_Google.jpg (parent SHA256 8d6e9836237505f5739833bb3910a4a7303b676cc7b60bfb7dd7294a7cb4bef4). RAW archive contains explicitly labeled native watch crops; full private screenshot is preserved locally only. Whole watch, exact configuration and final image individually reviewed. Native source resolution retained without invented or sharpened detail; no ownership, celebrity or unique-edition provenance inferred. Separate manufacturer/reference specification source retained. Preserved RAW file: 1PW6uo43c6HDLM8OC5SOQ__Phr7G75TOn. Pictured full reference 310.63.42.50.01.001; 18K Sedna Gold, Black step dial, Black leather strap. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
     },
     {
       "brand": "Tudor",
@@ -6539,6 +6551,39 @@
     {
       "brand": "Tudor",
       "collection": "Black Bay",
+      "reference": "M7941A1A0RU-0003",
+      "configurations": [
+        {
+          "caseSize": "41 mm",
+          "movement": "MT5602-U automatic",
+          "dial": "Black domed",
+          "bracelet": "Stainless-steel five-link bracelet",
+          "nickname": "Black domed / Stainless-steel five-link bracelet",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "Stainless Steel",
+      "sources": [
+        "src/data/collectionRegistry.ts",
+        "src/data/photography-expansion.ts"
+      ],
+      "routes": [
+        "/collections/tudor/black-bay/m7941a1a0ru-0003"
+      ],
+      "scope": "built-reference",
+      "existingImage": "/images/watches/tudor/founder-05-tudor-white-web.webp",
+      "existingImageFilePresent": true,
+      "photoAssetId": "cleared-founder-05-tudor",
+      "status": "approved",
+      "sourceUrl": "https://drive.google.com/file/d/1PW6uo43c6HDLM8OC5SOQ__Phr7G75TOn/view",
+      "licenseRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for the19-imageZIP originals and white-background derivatives, with no restrictions, in response call_24a179ab128748dbb94a78640e6a1543. Record docs/PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json. Native photograph crop upload-05-tudor.png (SHA256 69780fb63d043d968b35c707838632d2bdd9f2660ca6addc45997f25f16eff83) from Screenshot_20260912_193325_Chrome.jpg (parent SHA256 a37b146ea2cc6f055c611bfd08ad74ccd8ca89e74e7f64c5046e5f812f8a0eea). RAW archive contains explicitly labeled native watch crops; full private screenshot is preserved locally only. Whole watch, exact configuration and final image individually reviewed. Native source resolution retained without invented or sharpened detail; no ownership, celebrity or unique-edition provenance inferred. Separate manufacturer/reference specification source retained. Preserved RAW file: 1PW6uo43c6HDLM8OC5SOQ__Phr7G75TOn. Pictured full reference M7941A1A0RU-0003; Stainless Steel, Black domed, Stainless-steel five-link bracelet. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
+      "brand": "Tudor",
+      "collection": "Black Bay",
       "reference": "M79000N-0001",
       "configurations": [
         {
@@ -6567,38 +6612,6 @@
       "licenseRecord": "Founder confirmed Quest Luxo website-use permission for existing Drive manufacturer photographs on October 13, 2026. Preserved RAW file: 1OSmR4Gvl5ZC50CNYyPVAUcUssYFA6lmQ. Pictured full reference M79000N-0001; Stainless Steel, Black, Stainless-steel bracelet. Exact configuration reviewed against preserved source evidence and the original photograph.",
       "websiteApproved": true,
       "nextAction": "Retain approved original and verify derivative integrity."
-    },
-    {
-      "brand": "Tudor",
-      "collection": "Black Bay",
-      "reference": "M7941A1A0RU-0003",
-      "configurations": [
-        {
-          "caseSize": "41 mm",
-          "movement": "MT5602-U automatic",
-          "dial": "Black domed",
-          "bracelet": "Stainless-steel five-link bracelet",
-          "originalMSRP": null,
-          "currentMSRP": null
-        }
-      ],
-      "material": "Stainless Steel",
-      "sources": [
-        "src/data/collectionRegistry.ts",
-        "src/data/verified-catalog-expansion.ts"
-      ],
-      "routes": [
-        "/collections/tudor/black-bay/m7941a1a0ru-0003"
-      ],
-      "scope": "built-reference",
-      "existingImage": "/images/watch-reference-placeholder.svg",
-      "existingImageFilePresent": true,
-      "photoAssetId": null,
-      "status": "Requires Verification",
-      "sourceUrl": "https://www.tudorwatch.com/en/watches/black-bay/m7941a1a0ru-0003",
-      "licenseRecord": null,
-      "websiteApproved": false,
-      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
     },
     {
       "brand": "Panerai",
@@ -8130,6 +8143,39 @@
     {
       "brand": "Omega",
       "collection": "Seamaster Diver 300M",
+      "reference": "210.62.44.20.01.001",
+      "configurations": [
+        {
+          "caseSize": "43.5 mm",
+          "movement": "Omega 8806 automatic",
+          "dial": "Black ceramic with raised waves",
+          "bracelet": "Black rubber strap",
+          "nickname": "Black ceramic with raised waves / Black rubber strap",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "Black ceramic and 18K Sedna Gold",
+      "sources": [
+        "src/data/collectionRegistry.ts",
+        "src/data/photography-expansion.ts"
+      ],
+      "routes": [
+        "/collections/omega/seamaster/210-62-44-20-01-001"
+      ],
+      "scope": "built-reference",
+      "existingImage": "/images/watches/omega/founder-06-ceramic-diver-white-web.webp",
+      "existingImageFilePresent": true,
+      "photoAssetId": "cleared-founder-06-ceramic-diver",
+      "status": "approved",
+      "sourceUrl": "https://drive.google.com/file/d/1PW6uo43c6HDLM8OC5SOQ__Phr7G75TOn/view",
+      "licenseRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for the19-imageZIP originals and white-background derivatives, with no restrictions, in response call_24a179ab128748dbb94a78640e6a1543. Record docs/PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json. Native photograph crop upload-06-ceramic-diver.png (SHA256 fdb9acc8ed969bd6f8d69f6594fa1772aa71e3c5bf6724ca1dc2f4bc85b146a7) from Screenshot_20260914_053115_WhatsApp.jpg (parent SHA256 0b67d7fc5808a8ca3f5a52eaa8dcf6c700cc2c124cd6831cb530d705cae9af90). RAW archive contains explicitly labeled native watch crops; full private screenshot is preserved locally only. Whole watch, exact configuration and final image individually reviewed. Native source resolution retained without invented or sharpened detail; no ownership, celebrity or unique-edition provenance inferred. Separate manufacturer/reference specification source retained. Preserved RAW file: 1PW6uo43c6HDLM8OC5SOQ__Phr7G75TOn. Pictured full reference 210.62.44.20.01.001; Black ceramic and 18K Sedna Gold, Black ceramic with raised waves, Black rubber strap. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
+      "brand": "Omega",
+      "collection": "Seamaster Diver 300M",
       "reference": "210.30.42.20.01.001",
       "configurations": [
         {
@@ -8221,38 +8267,6 @@
       "photoAssetId": null,
       "status": "Requires Verification",
       "sourceUrl": "https://www.omegawatches.com.hk/en-hk/watch-omega-seamaster-diver-300m-co-axial-master-chronometer-42-mm-21062422003001",
-      "licenseRecord": null,
-      "websiteApproved": false,
-      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
-    },
-    {
-      "brand": "Omega",
-      "collection": "Seamaster Diver 300M",
-      "reference": "210.62.44.20.01.001",
-      "configurations": [
-        {
-          "caseSize": "43.5 mm",
-          "movement": "Omega 8806 automatic",
-          "dial": "Black ceramic with raised waves",
-          "bracelet": "Black rubber strap",
-          "originalMSRP": null,
-          "currentMSRP": null
-        }
-      ],
-      "material": "Black ceramic and 18K Sedna Gold",
-      "sources": [
-        "src/data/collectionRegistry.ts",
-        "src/data/verified-catalog-expansion.ts"
-      ],
-      "routes": [
-        "/collections/omega/seamaster/210-62-44-20-01-001"
-      ],
-      "scope": "built-reference",
-      "existingImage": "/images/watch-reference-placeholder.svg",
-      "existingImageFilePresent": true,
-      "photoAssetId": null,
-      "status": "Requires Verification",
-      "sourceUrl": "https://www.omegawatches.com.hk/en-hk/watch-omega-seamaster-diver-300m-co-axial-master-chronometer-43-5-mm-21062442001001",
       "licenseRecord": null,
       "websiteApproved": false,
       "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
@@ -9063,7 +9077,8 @@
           "caseSize": "Specification verification pending",
           "movement": "Automatic; calibre verification pending",
           "dial": "Deep blue lacquered",
-          "bracelet": "Blue leather strap; material verification pending",
+          "bracelet": "Blue strap",
+          "nickname": "Deep blue lacquered / Blue strap",
           "originalMSRP": null,
           "currentMSRP": null
         }
@@ -9071,20 +9086,20 @@
       "material": "18K white gold",
       "sources": [
         "src/data/collectionRegistry.ts",
-        "src/data/verified-catalog-expansion.ts"
+        "src/data/photography-expansion.ts"
       ],
       "routes": [
         "/collections/audemars-piguet/code-1159/26393bc-oo-a321cr-01"
       ],
       "scope": "built-reference",
-      "existingImage": "/images/watch-reference-placeholder.svg",
+      "existingImage": "/images/watches/audemars-piguet/founder-14-ap-white-web.webp",
       "existingImageFilePresent": true,
-      "photoAssetId": null,
-      "status": "Requires Verification",
-      "sourceUrl": "https://www.audemarspiguet.com/com/en/watch-collection/code-1159/26393BC.OO.A321CR.01.html",
-      "licenseRecord": null,
-      "websiteApproved": false,
-      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+      "photoAssetId": "cleared-founder-14-ap",
+      "status": "approved",
+      "sourceUrl": "https://drive.google.com/file/d/1PW6uo43c6HDLM8OC5SOQ__Phr7G75TOn/view",
+      "licenseRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for the19-imageZIP originals and white-background derivatives, with no restrictions, in response call_24a179ab128748dbb94a78640e6a1543. Record docs/PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json. Native photograph crop upload-14-ap.png (SHA256 02021b53a8c9faef2f1ff5fa5565e8bdf7753a381df34d8fd200b8d294079222) from Screenshot_20261015_223826_Instagram.jpg (parent SHA256 ac8b4b69a418a52f6d5fb9c96fa55788c2a73e3598a0c7925609b02b62c45129). RAW archive contains explicitly labeled native watch crops; full private screenshot is preserved locally only. Whole watch, exact configuration and final image individually reviewed. Native source resolution retained without invented or sharpened detail; no ownership, celebrity or unique-edition provenance inferred. Separate manufacturer/reference specification source retained. Preserved RAW file: 1PW6uo43c6HDLM8OC5SOQ__Phr7G75TOn. Pictured full reference 26393BC.OO.A321CR.01; 18K white gold, Deep blue lacquered, Blue strap. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
     },
     {
       "brand": "Cartier",
@@ -10086,6 +10101,39 @@
     {
       "brand": "Ulysse Nardin",
       "collection": "Diver",
+      "reference": "1502-151-3/93",
+      "configurations": [
+        {
+          "caseSize": "44 mm",
+          "movement": "Automatic; calibre verification pending",
+          "dial": "Blue",
+          "bracelet": "Blue rubber strap",
+          "nickname": "Blue / Blue rubber strap",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "18K rose gold",
+      "sources": [
+        "src/data/collectionRegistry.ts",
+        "src/data/photography-expansion.ts"
+      ],
+      "routes": [
+        "/collections/ulysse-nardin/diver/1502-151-3-93"
+      ],
+      "scope": "built-reference",
+      "existingImage": "/images/watches/ulysse-nardin/founder-07-diver-chrono-white-web.webp",
+      "existingImageFilePresent": true,
+      "photoAssetId": "cleared-founder-07-diver-chrono",
+      "status": "approved",
+      "sourceUrl": "https://drive.google.com/file/d/1PW6uo43c6HDLM8OC5SOQ__Phr7G75TOn/view",
+      "licenseRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for the19-imageZIP originals and white-background derivatives, with no restrictions, in response call_24a179ab128748dbb94a78640e6a1543. Record docs/PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json. Native photograph crop upload-07-diver-chrono.png (SHA256 6548216f54af1cf9c0f0b135b3eb85acff9ef48c3364b30b17bda38a991bc7f1) from Screenshot_20260914_123815_Google.jpg (parent SHA256 d3ab31ac84271dc9dfbfb66ab797079689b409728c97aab9c2e7d7fc3db9500d). RAW archive contains explicitly labeled native watch crops; full private screenshot is preserved locally only. Whole watch, exact configuration and final image individually reviewed. Native source resolution retained without invented or sharpened detail; no ownership, celebrity or unique-edition provenance inferred. Separate manufacturer/reference specification source retained. Preserved RAW file: 1PW6uo43c6HDLM8OC5SOQ__Phr7G75TOn. Pictured full reference 1502-151-3/93; 18K rose gold, Blue, Blue rubber strap. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
+      "brand": "Ulysse Nardin",
+      "collection": "Diver",
       "reference": "1183-170-7M/92",
       "configurations": [
         {
@@ -10184,38 +10232,6 @@
       "licenseRecord": "Founder confirmed Quest Luxo website-use permission for existing Drive manufacturer photographs on October 13, 2026. Preserved RAW file: 1EjTQI0yV6tQXCOyuFUjaSLbJ0CAj28vF. Pictured full reference 1183-170-3/92; Titanium, Black, Black rubber / titanium strap. Exact configuration reviewed against preserved source evidence and the original photograph.",
       "websiteApproved": true,
       "nextAction": "Retain approved original and verify derivative integrity."
-    },
-    {
-      "brand": "Ulysse Nardin",
-      "collection": "Diver",
-      "reference": "1502-151-3/93",
-      "configurations": [
-        {
-          "caseSize": "44 mm",
-          "movement": "Automatic; calibre verification pending",
-          "dial": "Blue",
-          "bracelet": "Blue rubber strap",
-          "originalMSRP": null,
-          "currentMSRP": null
-        }
-      ],
-      "material": "18K rose gold",
-      "sources": [
-        "src/data/collectionRegistry.ts",
-        "src/data/verified-catalog-expansion.ts"
-      ],
-      "routes": [
-        "/collections/ulysse-nardin/diver/1502-151-3-93"
-      ],
-      "scope": "built-reference",
-      "existingImage": "/images/watch-reference-placeholder.svg",
-      "existingImageFilePresent": true,
-      "photoAssetId": null,
-      "status": "Requires Verification",
-      "sourceUrl": "https://www.timepiecetrader.com/luxury-watches-brands/ulysse-nardin-marine-diver-chronograph-manufacture-mens-watch-44mm-1502-151-393/",
-      "licenseRecord": null,
-      "websiteApproved": false,
-      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
     },
     {
       "brand": "Ulysse Nardin",
@@ -10624,6 +10640,7 @@
           "movement": "26-330 S C automatic (2023 manufacturer catalog)",
           "dial": "Black embossed Aquanaut pattern",
           "bracelet": "Stainless-steel bracelet",
+          "nickname": "Black embossed Aquanaut pattern / Stainless-steel bracelet",
           "originalMSRP": null,
           "currentMSRP": null
         }
@@ -10631,20 +10648,20 @@
       "material": "Stainless Steel",
       "sources": [
         "src/data/collectionRegistry.ts",
-        "src/data/verified-catalog-expansion.ts"
+        "src/data/photography-expansion.ts"
       ],
       "routes": [
         "/collections/patek-philippe/aquanaut/5167-1a-001"
       ],
       "scope": "built-reference",
-      "existingImage": "/images/watch-reference-placeholder.svg",
+      "existingImage": "/images/watches/patek-philippe/founder-03-patek-white-web.webp",
       "existingImageFilePresent": true,
-      "photoAssetId": null,
-      "status": "Requires Verification",
-      "sourceUrl": "https://static.patek.com/pdf/catalogs/PatekPhilippe_Watch_Art_Tokyo_2023_Catalog_EN.pdf",
-      "licenseRecord": null,
-      "websiteApproved": false,
-      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+      "photoAssetId": "cleared-founder-03-patek",
+      "status": "approved",
+      "sourceUrl": "https://drive.google.com/file/d/1PW6uo43c6HDLM8OC5SOQ__Phr7G75TOn/view",
+      "licenseRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for the19-imageZIP originals and white-background derivatives, with no restrictions, in response call_24a179ab128748dbb94a78640e6a1543. Record docs/PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json. Native photograph crop upload-03-patek.png (SHA256 cc1f6af9045ef97995a818519656acddeca58d507dd8d0abb0e91a5123fa225e) from Screenshot_20261015_223835_Instagram.jpg (parent SHA256 6786cf4b6f7e15dd0aaa554a2b76dd991ea30b3a68727311c604718438adff67). RAW archive contains explicitly labeled native watch crops; full private screenshot is preserved locally only. Whole watch, exact configuration and final image individually reviewed. Native source resolution retained without invented or sharpened detail; no ownership, celebrity or unique-edition provenance inferred. Separate manufacturer/reference specification source retained. Preserved RAW file: 1PW6uo43c6HDLM8OC5SOQ__Phr7G75TOn. Pictured full reference 5167/1A-001; Stainless Steel, Black embossed Aquanaut pattern, Stainless-steel bracelet. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
     },
     {
       "brand": "Tudor",
@@ -10996,6 +11013,7 @@
           "movement": "HUB1242 automatic chronograph",
           "dial": "Skeleton",
           "bracelet": "Black rubber strap",
+          "nickname": "Skeleton / Black rubber strap",
           "originalMSRP": null,
           "currentMSRP": null
         }
@@ -11003,20 +11021,20 @@
       "material": "18K King Gold with black ceramic bezel",
       "sources": [
         "src/data/collectionRegistry.ts",
-        "src/data/verified-catalog-expansion.ts"
+        "src/data/photography-expansion.ts"
       ],
       "routes": [
         "/collections/hublot/big-bang-unico/411-om-1180-rx"
       ],
       "scope": "built-reference",
-      "existingImage": "/images/watch-reference-placeholder.svg",
+      "existingImage": "/images/watches/hublot/founder-02-hublot-ceramic-white-web.webp",
       "existingImageFilePresent": true,
-      "photoAssetId": null,
-      "status": "Requires Verification",
-      "sourceUrl": "https://www.prestigetime.com/Hublot-Big-Bang-UNICO-45mm-411-om-1180-rx.html",
-      "licenseRecord": null,
-      "websiteApproved": false,
-      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+      "photoAssetId": "cleared-founder-02-hublot-ceramic",
+      "status": "approved",
+      "sourceUrl": "https://drive.google.com/file/d/1PW6uo43c6HDLM8OC5SOQ__Phr7G75TOn/view",
+      "licenseRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for the19-imageZIP originals and white-background derivatives, with no restrictions, in response call_24a179ab128748dbb94a78640e6a1543. Record docs/PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json. Native photograph crop upload-02-hublot-ceramic.png (SHA256 10ae12889600bcd03dfaf422fd09f3c188183f74e3483405d77b8f9e7f02f746) from Screenshot_20260914_123538_Google.jpg (parent SHA256 c267894618c15e1503ec5a3b33a06ff701caede98d5b5391431d18ecba9fba41). RAW archive contains explicitly labeled native watch crops; full private screenshot is preserved locally only. Whole watch, exact configuration and final image individually reviewed. Native source resolution retained without invented or sharpened detail; no ownership, celebrity or unique-edition provenance inferred. Separate manufacturer/reference specification source retained. Preserved RAW file: 1PW6uo43c6HDLM8OC5SOQ__Phr7G75TOn. Pictured full reference 411.OM.1180.RX; 18K King Gold with black ceramic bezel, Skeleton, Black rubber strap. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
     },
     {
       "brand": "Hublot",
@@ -11177,6 +11195,7 @@
           "movement": "2160 automatic",
           "dial": "Deep green sunburst",
           "bracelet": "Green alligator leather strap",
+          "nickname": "Deep green sunburst / Green alligator leather strap",
           "originalMSRP": null,
           "currentMSRP": null
         }
@@ -11184,20 +11203,20 @@
       "material": "950 Platinum",
       "sources": [
         "src/data/collectionRegistry.ts",
-        "src/data/verified-catalog-expansion.ts"
+        "src/data/photography-expansion.ts"
       ],
       "routes": [
         "/collections/vacheron-constantin/traditionnelle/6000t-000p-h025"
       ],
       "scope": "built-reference",
-      "existingImage": "/images/watch-reference-placeholder.svg",
+      "existingImage": "/images/watches/vacheron-constantin/founder-12-vc-white-web.webp",
       "existingImageFilePresent": true,
-      "photoAssetId": null,
-      "status": "Requires Verification",
-      "sourceUrl": "https://www.vacheron-constantin.com/ww/de/collections/traditionnelle/6000t-000p-h025.html",
-      "licenseRecord": null,
-      "websiteApproved": false,
-      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+      "photoAssetId": "cleared-founder-12-vc",
+      "status": "approved",
+      "sourceUrl": "https://drive.google.com/file/d/1PW6uo43c6HDLM8OC5SOQ__Phr7G75TOn/view",
+      "licenseRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for the19-imageZIP originals and white-background derivatives, with no restrictions, in response call_24a179ab128748dbb94a78640e6a1543. Record docs/PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json. Native photograph crop upload-12-vc.png (SHA256 fa49d2ca51e6ce56e6a935097b9cdb8dd2d2595db99d91d66a00ea6759896990) from Screenshot_20261015_223820_Instagram.jpg (parent SHA256 04a4179eb7b9687c51961e88ca02fb8701070df9516bfbb90000e3baa7e90495). RAW archive contains explicitly labeled native watch crops; full private screenshot is preserved locally only. Whole watch, exact configuration and final image individually reviewed. Native source resolution retained without invented or sharpened detail; no ownership, celebrity or unique-edition provenance inferred. Separate manufacturer/reference specification source retained. Preserved RAW file: 1PW6uo43c6HDLM8OC5SOQ__Phr7G75TOn. Pictured full reference 6000T/000P-H025; 950 Platinum, Deep green sunburst, Green alligator leather strap. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
     },
     {
       "brand": "Vacheron Constantin",
@@ -13190,26 +13209,26 @@
           "dial": "Sunburst blue with Breguet numerals",
           "bracelet": "Shiny navy blue alligator leather strap",
           "originalMSRP": null,
-          "currentMSRP": null
+          "currentMSRP": null,
+          "nickname": "Sunburst blue with Breguet numerals / Shiny navy blue alligator leather strap"
         }
       ],
       "material": "18K white gold",
       "sources": [
-        "src/data/collectionRegistry.ts",
-        "src/data/verified-catalog-expansion.ts"
+        "src/data/collectionRegistry.ts"
       ],
       "routes": [
         "/collections/patek-philippe/grand-complications/5327g-001"
       ],
       "scope": "built-reference",
-      "existingImage": "/images/watch-reference-placeholder.svg",
+      "existingImage": "/images/watches/patek-philippe/founder-14-patek-white-web.webp",
       "existingImageFilePresent": true,
-      "photoAssetId": null,
-      "status": "Requires Verification",
-      "sourceUrl": "https://www.patek.com/en/collection/grand-complications/5327G-001",
-      "licenseRecord": null,
-      "websiteApproved": false,
-      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+      "photoAssetId": "cleared-founder-14-patek",
+      "status": "approved",
+      "sourceUrl": "https://drive.google.com/file/d/1PW6uo43c6HDLM8OC5SOQ__Phr7G75TOn/view",
+      "licenseRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for the19-imageZIP originals and white-background derivatives, with no restrictions, in response call_24a179ab128748dbb94a78640e6a1543. Record docs/PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json. Native photograph crop upload-14-patek.png (SHA256 87f42f910290056d06af0fe76e22d745d26680671c4e8f99e6c16166ed92789b) from Screenshot_20261015_223826_Instagram.jpg (parent SHA256 ac8b4b69a418a52f6d5fb9c96fa55788c2a73e3598a0c7925609b02b62c45129). RAW archive contains explicitly labeled native watch crops; full private screenshot is preserved locally only. Whole watch, exact configuration and final image individually reviewed. Native source resolution retained without invented or sharpened detail; no ownership, celebrity or unique-edition provenance inferred. Separate manufacturer/reference specification source retained. Preserved RAW file: 1PW6uo43c6HDLM8OC5SOQ__Phr7G75TOn. Pictured full reference 5327G-001; 18K white gold, Sunburst blue with Breguet numerals, Shiny navy blue alligator leather strap. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
     },
     {
       "brand": "Patek Philippe",
@@ -13286,26 +13305,26 @@
           "dial": "Salmon-toned sunburst",
           "bracelet": "Dark blue alligator leather strap",
           "originalMSRP": null,
-          "currentMSRP": null
+          "currentMSRP": null,
+          "nickname": "Salmon-toned sunburst / Dark blue alligator leather strap"
         }
       ],
       "material": "950 Platinum",
       "sources": [
-        "src/data/collectionRegistry.ts",
-        "src/data/verified-catalog-expansion.ts"
+        "src/data/collectionRegistry.ts"
       ],
       "routes": [
         "/collections/vacheron-constantin/patrimony/4000u-000p-h003"
       ],
       "scope": "built-reference",
-      "existingImage": "/images/watch-reference-placeholder.svg",
+      "existingImage": "/images/watches/vacheron-constantin/founder-09-vc-white-web.webp",
       "existingImageFilePresent": true,
-      "photoAssetId": null,
-      "status": "Requires Verification",
-      "sourceUrl": "https://www.vacheron-constantin.com/ca/en/collections/patrimony/4000u-000p-h003.html",
-      "licenseRecord": null,
-      "websiteApproved": false,
-      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+      "photoAssetId": "cleared-founder-09-vc",
+      "status": "approved",
+      "sourceUrl": "https://drive.google.com/file/d/1PW6uo43c6HDLM8OC5SOQ__Phr7G75TOn/view",
+      "licenseRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for the19-imageZIP originals and white-background derivatives, with no restrictions, in response call_24a179ab128748dbb94a78640e6a1543. Record docs/PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json. Native photograph crop upload-09-vc.png (SHA256 76de3e0df586d5bf7263de9a1abb3a8ec037e3627ff3034190a05110a82d09b9) from Screenshot_20261015_223840_Instagram.jpg (parent SHA256 78735faae70934ebc8cfca09743628fe8994340a4b4ba3d405b89e3e27fe0e22). RAW archive contains explicitly labeled native watch crops; full private screenshot is preserved locally only. Whole watch, exact configuration and final image individually reviewed. Native source resolution retained without invented or sharpened detail; no ownership, celebrity or unique-edition provenance inferred. Separate manufacturer/reference specification source retained. Preserved RAW file: 1PW6uo43c6HDLM8OC5SOQ__Phr7G75TOn. Pictured full reference 4000U/000P-H003; 950 Platinum, Salmon-toned sunburst, Dark blue alligator leather strap. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
     },
     {
       "brand": "Cartier",
@@ -17887,6 +17906,468 @@
       "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
     },
     {
+      "brand": "Patek Philippe",
+      "collection": "Aquanaut",
+      "reference": "5167/1A-001",
+      "configurations": [],
+      "material": "Stainless Steel",
+      "sources": [
+        "src/data/photography-cleared-sprint.ts"
+      ],
+      "routes": [
+        "/collections/patek-philippe/aquanaut/5167-1a-001"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": null,
+      "status": "Requires Verification",
+      "sourceUrl": null,
+      "licenseRecord": null,
+      "websiteApproved": false,
+      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+    },
+    {
+      "brand": "Patek Philippe",
+      "collection": "Grand Complications",
+      "reference": "5327G-001",
+      "configurations": [],
+      "material": "18K white gold",
+      "sources": [
+        "src/data/photography-cleared-sprint.ts"
+      ],
+      "routes": [
+        "/collections/patek-philippe/grand-complications/5327g-001"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": null,
+      "status": "Requires Verification",
+      "sourceUrl": null,
+      "licenseRecord": null,
+      "websiteApproved": false,
+      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+    },
+    {
+      "brand": "Vacheron Constantin",
+      "collection": "Patrimony",
+      "reference": "4000U/000P-H003",
+      "configurations": [],
+      "material": "950 Platinum",
+      "sources": [
+        "src/data/photography-cleared-sprint.ts"
+      ],
+      "routes": [
+        "/collections/vacheron-constantin/patrimony/4000u-000p-h003"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": null,
+      "status": "Requires Verification",
+      "sourceUrl": null,
+      "licenseRecord": null,
+      "websiteApproved": false,
+      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+    },
+    {
+      "brand": "Vacheron Constantin",
+      "collection": "Traditionnelle",
+      "reference": "6000T/000P-H025",
+      "configurations": [],
+      "material": "950 Platinum",
+      "sources": [
+        "src/data/photography-cleared-sprint.ts"
+      ],
+      "routes": [
+        "/collections/vacheron-constantin/traditionnelle/6000t-000p-h025"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": null,
+      "status": "Requires Verification",
+      "sourceUrl": null,
+      "licenseRecord": null,
+      "websiteApproved": false,
+      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+    },
+    {
+      "brand": "Audemars Piguet",
+      "collection": "Royal Oak",
+      "reference": "26615TI.OO.1220TI.01",
+      "configurations": [],
+      "material": "Titanium",
+      "sources": [
+        "src/data/photography-cleared-sprint.ts"
+      ],
+      "routes": [
+        "/collections/audemars-piguet/royal-oak/26615ti-oo-1220ti-01"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": null,
+      "status": "Requires Verification",
+      "sourceUrl": null,
+      "licenseRecord": null,
+      "websiteApproved": false,
+      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+    },
+    {
+      "brand": "Audemars Piguet",
+      "collection": "Code 11.59",
+      "reference": "26393BC.OO.A321CR.01",
+      "configurations": [],
+      "material": "18K white gold",
+      "sources": [
+        "src/data/photography-cleared-sprint.ts"
+      ],
+      "routes": [
+        "/collections/audemars-piguet/code-1159/26393bc-oo-a321cr-01"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": null,
+      "status": "Requires Verification",
+      "sourceUrl": null,
+      "licenseRecord": null,
+      "websiteApproved": false,
+      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+    },
+    {
+      "brand": "Hublot",
+      "collection": "Big Bang Unico",
+      "reference": "411.OM.1180.RX",
+      "configurations": [],
+      "material": "18K King Gold with black ceramic bezel",
+      "sources": [
+        "src/data/photography-cleared-sprint.ts"
+      ],
+      "routes": [
+        "/collections/hublot/big-bang-unico/411-om-1180-rx"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": null,
+      "status": "Requires Verification",
+      "sourceUrl": null,
+      "licenseRecord": null,
+      "websiteApproved": false,
+      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+    },
+    {
+      "brand": "Tudor",
+      "collection": "Black Bay",
+      "reference": "M7941A1A0RU-0003",
+      "configurations": [],
+      "material": "Stainless Steel",
+      "sources": [
+        "src/data/photography-cleared-sprint.ts"
+      ],
+      "routes": [
+        "/collections/tudor/black-bay/m7941a1a0ru-0003"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": null,
+      "status": "Requires Verification",
+      "sourceUrl": null,
+      "licenseRecord": null,
+      "websiteApproved": false,
+      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+    },
+    {
+      "brand": "Omega",
+      "collection": "Seamaster Diver 300M",
+      "reference": "210.62.44.20.01.001",
+      "configurations": [],
+      "material": "Black ceramic and 18K Sedna Gold",
+      "sources": [
+        "src/data/photography-cleared-sprint.ts"
+      ],
+      "routes": [
+        "/collections/omega/seamaster/210-62-44-20-01-001"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": null,
+      "status": "Requires Verification",
+      "sourceUrl": null,
+      "licenseRecord": null,
+      "websiteApproved": false,
+      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+    },
+    {
+      "brand": "Omega",
+      "collection": "Speedmaster",
+      "reference": "310.63.42.50.01.001",
+      "configurations": [],
+      "material": "18K Sedna Gold",
+      "sources": [
+        "src/data/photography-cleared-sprint.ts"
+      ],
+      "routes": [
+        "/collections/omega/speedmaster/310-63-42-50-01-001"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": null,
+      "status": "Requires Verification",
+      "sourceUrl": null,
+      "licenseRecord": null,
+      "websiteApproved": false,
+      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+    },
+    {
+      "brand": "Ulysse Nardin",
+      "collection": "Diver",
+      "reference": "1502-151-3/93",
+      "configurations": [],
+      "material": "18K rose gold",
+      "sources": [
+        "src/data/photography-cleared-sprint.ts"
+      ],
+      "routes": [
+        "/collections/ulysse-nardin/diver/1502-151-3-93"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": null,
+      "status": "Requires Verification",
+      "sourceUrl": null,
+      "licenseRecord": null,
+      "websiteApproved": false,
+      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+    },
+    {
+      "brand": "Vacheron Constantin",
+      "collection": "Overseas",
+      "reference": "4300V/220G-H151",
+      "configurations": [],
+      "material": "18K white gold",
+      "sources": [
+        "src/data/photography-cleared-sprint.ts"
+      ],
+      "routes": [
+        "/collections/vacheron-constantin/overseas/4300v-220g-h151"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": null,
+      "status": "Requires Verification",
+      "sourceUrl": null,
+      "licenseRecord": null,
+      "websiteApproved": false,
+      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+    },
+    {
+      "brand": "Audemars Piguet",
+      "collection": "Royal Oak",
+      "reference": "26607BC.OO.1220BC.01",
+      "configurations": [],
+      "material": "18K white gold",
+      "sources": [
+        "src/data/photography-cleared-sprint.ts"
+      ],
+      "routes": [
+        "/collections/audemars-piguet/royal-oak/26607bc-oo-1220bc-01"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": null,
+      "status": "Requires Verification",
+      "sourceUrl": null,
+      "licenseRecord": null,
+      "websiteApproved": false,
+      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+    },
+    {
+      "brand": "Audemars Piguet",
+      "collection": "Royal Oak",
+      "reference": "15500ST.OO.1220ST.03",
+      "configurations": [],
+      "material": "Stainless Steel",
+      "sources": [
+        "src/data/photography-cleared-sprint.ts"
+      ],
+      "routes": [
+        "/collections/audemars-piguet/royal-oak/15500st-oo-1220st-03"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": null,
+      "status": "Requires Verification",
+      "sourceUrl": null,
+      "licenseRecord": null,
+      "websiteApproved": false,
+      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+    },
+    {
+      "brand": "Audemars Piguet",
+      "collection": "Royal Oak",
+      "reference": "26585CE.OO.1225CE.01",
+      "configurations": [],
+      "material": "Black ceramic",
+      "sources": [
+        "src/data/photography-cleared-sprint.ts"
+      ],
+      "routes": [
+        "/collections/audemars-piguet/royal-oak/26585ce-oo-1225ce-01"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": null,
+      "status": "Requires Verification",
+      "sourceUrl": null,
+      "licenseRecord": null,
+      "websiteApproved": false,
+      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+    },
+    {
+      "brand": "Audemars Piguet",
+      "collection": "Royal Oak",
+      "reference": "26585XT.OO.1220XT.01",
+      "configurations": [],
+      "material": "Titanium and Bulk Metallic Glass",
+      "sources": [
+        "src/data/photography-cleared-sprint.ts"
+      ],
+      "routes": [
+        "/collections/audemars-piguet/royal-oak/26585xt-oo-1220xt-01"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": null,
+      "status": "Requires Verification",
+      "sourceUrl": null,
+      "licenseRecord": null,
+      "websiteApproved": false,
+      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+    },
+    {
+      "brand": "Audemars Piguet",
+      "collection": "Royal Oak",
+      "reference": "26585CM.OO.D301VE.01",
+      "configurations": [],
+      "material": "Brown ceramic",
+      "sources": [
+        "src/data/photography-cleared-sprint.ts"
+      ],
+      "routes": [
+        "/collections/audemars-piguet/royal-oak/26585cm-oo-d301ve-01"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": null,
+      "status": "Requires Verification",
+      "sourceUrl": null,
+      "licenseRecord": null,
+      "websiteApproved": false,
+      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+    },
+    {
+      "brand": "Audemars Piguet",
+      "collection": "Royal Oak",
+      "reference": "15412BC.ZZ.1220BC.01",
+      "configurations": [],
+      "material": "18K white gold; diamond-set bezel",
+      "sources": [
+        "src/data/photography-cleared-sprint.ts"
+      ],
+      "routes": [
+        "/collections/audemars-piguet/royal-oak/15412bc-zz-1220bc-01"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": null,
+      "status": "Requires Verification",
+      "sourceUrl": null,
+      "licenseRecord": null,
+      "websiteApproved": false,
+      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+    },
+    {
+      "brand": "Audemars Piguet",
+      "collection": "Royal Oak",
+      "reference": "15412OR.ZZ.1220OR.01",
+      "configurations": [],
+      "material": "18K rose gold; baguette diamond-set bezel",
+      "sources": [
+        "src/data/photography-cleared-sprint.ts"
+      ],
+      "routes": [
+        "/collections/audemars-piguet/royal-oak/15412or-zz-1220or-01"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": null,
+      "status": "Requires Verification",
+      "sourceUrl": null,
+      "licenseRecord": null,
+      "websiteApproved": false,
+      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+    },
+    {
+      "brand": "Audemars Piguet",
+      "collection": "Royal Oak",
+      "reference": "15412BA.ZG.1224BA.01",
+      "configurations": [],
+      "material": "18K yellow gold; baguette diamond-set bezel",
+      "sources": [
+        "src/data/photography-cleared-sprint.ts"
+      ],
+      "routes": [
+        "/collections/audemars-piguet/royal-oak/15412ba-zg-1224ba-01"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": null,
+      "status": "Requires Verification",
+      "sourceUrl": null,
+      "licenseRecord": null,
+      "websiteApproved": false,
+      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+    },
+    {
+      "brand": "Audemars Piguet",
+      "collection": "Royal Oak",
+      "reference": "26341ST.OO.1105ST.01",
+      "configurations": [],
+      "material": "Stainless Steel",
+      "sources": [
+        "src/data/photography-cleared-sprint.ts"
+      ],
+      "routes": [
+        "/collections/audemars-piguet/royal-oak/26341st-oo-1105st-01"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": null,
+      "status": "Requires Verification",
+      "sourceUrl": null,
+      "licenseRecord": null,
+      "websiteApproved": false,
+      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+    },
+    {
       "brand": "Breitling",
       "collection": "Superocean",
       "reference": "A17376211B1A1",
@@ -21674,6 +22155,70 @@
       "status": "approved",
       "sourceUrl": "https://www.patek.com/en/collection/grand-complications/5270p-017",
       "licenseRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for this exact manufacturer original and white-background derivatives with no restrictions on October16,2026. Record docs/PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json. Entire native original and final blank-white WEB individually reviewed; exact reference, material, dial and strap verified. Original RGB retained; no generated watch detail. Preserved RAW file: 16OyzEvZexgUD8uckQw4LdDrS2tYnWu-W. Pictured full reference 5270P-017; Platinum, Lacquered red with black-gradient rim, Black fabric-pattern composite strap with red stitching. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
+      "brand": "Patek Philippe",
+      "collection": "Grand Complications",
+      "reference": "5327G-001",
+      "configurations": [
+        {
+          "caseSize": "39 mm",
+          "movement": "240 Q automatic",
+          "dial": "Sunburst blue with Breguet numerals",
+          "bracelet": "Shiny navy blue alligator leather strap",
+          "nickname": "Sunburst blue with Breguet numerals / Shiny navy blue alligator leather strap",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "18K white gold",
+      "sources": [
+        "src/data/photography-expansion.ts"
+      ],
+      "routes": [
+        "/collections/patek-philippe/grand-complications/5327g-001"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": "cleared-founder-14-patek",
+      "status": "approved",
+      "sourceUrl": "https://drive.google.com/file/d/1PW6uo43c6HDLM8OC5SOQ__Phr7G75TOn/view",
+      "licenseRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for the19-imageZIP originals and white-background derivatives, with no restrictions, in response call_24a179ab128748dbb94a78640e6a1543. Record docs/PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json. Native photograph crop upload-14-patek.png (SHA256 87f42f910290056d06af0fe76e22d745d26680671c4e8f99e6c16166ed92789b) from Screenshot_20261015_223826_Instagram.jpg (parent SHA256 ac8b4b69a418a52f6d5fb9c96fa55788c2a73e3598a0c7925609b02b62c45129). RAW archive contains explicitly labeled native watch crops; full private screenshot is preserved locally only. Whole watch, exact configuration and final image individually reviewed. Native source resolution retained without invented or sharpened detail; no ownership, celebrity or unique-edition provenance inferred. Separate manufacturer/reference specification source retained. Preserved RAW file: 1PW6uo43c6HDLM8OC5SOQ__Phr7G75TOn. Pictured full reference 5327G-001; 18K white gold, Sunburst blue with Breguet numerals, Shiny navy blue alligator leather strap. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
+      "brand": "Vacheron Constantin",
+      "collection": "Patrimony",
+      "reference": "4000U/000P-H003",
+      "configurations": [
+        {
+          "caseSize": "42.5 mm",
+          "movement": "2460 R31R7/3 automatic",
+          "dial": "Salmon-toned sunburst",
+          "bracelet": "Dark blue alligator leather strap",
+          "nickname": "Salmon-toned sunburst / Dark blue alligator leather strap",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "950 Platinum",
+      "sources": [
+        "src/data/photography-expansion.ts"
+      ],
+      "routes": [
+        "/collections/vacheron-constantin/patrimony/4000u-000p-h003"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": "cleared-founder-09-vc",
+      "status": "approved",
+      "sourceUrl": "https://drive.google.com/file/d/1PW6uo43c6HDLM8OC5SOQ__Phr7G75TOn/view",
+      "licenseRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for the19-imageZIP originals and white-background derivatives, with no restrictions, in response call_24a179ab128748dbb94a78640e6a1543. Record docs/PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json. Native photograph crop upload-09-vc.png (SHA256 76de3e0df586d5bf7263de9a1abb3a8ec037e3627ff3034190a05110a82d09b9) from Screenshot_20261015_223840_Instagram.jpg (parent SHA256 78735faae70934ebc8cfca09743628fe8994340a4b4ba3d405b89e3e27fe0e22). RAW archive contains explicitly labeled native watch crops; full private screenshot is preserved locally only. Whole watch, exact configuration and final image individually reviewed. Native source resolution retained without invented or sharpened detail; no ownership, celebrity or unique-edition provenance inferred. Separate manufacturer/reference specification source retained. Preserved RAW file: 1PW6uo43c6HDLM8OC5SOQ__Phr7G75TOn. Pictured full reference 4000U/000P-H003; 950 Platinum, Salmon-toned sunburst, Dark blue alligator leather strap. Exact configuration reviewed against preserved source evidence and the original photograph.",
       "websiteApproved": true,
       "nextAction": "Retain approved original and verify derivative integrity."
     },
@@ -26698,6 +27243,37 @@
       "nextAction": "Retain approved original and verify derivative integrity."
     },
     {
+      "brand": "Omega",
+      "collection": "Seamaster Diver 300M",
+      "reference": "210.62.44.20.01.001",
+      "configurations": [
+        {
+          "caseSize": "43.5 mm",
+          "movement": "Omega 8806 automatic",
+          "dial": "Black ceramic with raised waves",
+          "bracelet": "Black rubber strap",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "Black ceramic and 18K Sedna Gold",
+      "sources": [
+        "src/data/verified-catalog-expansion.ts"
+      ],
+      "routes": [
+        "/collections/omega/seamaster/210-62-44-20-01-001"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": "cleared-founder-06-ceramic-diver",
+      "status": "approved",
+      "sourceUrl": "https://drive.google.com/file/d/1PW6uo43c6HDLM8OC5SOQ__Phr7G75TOn/view",
+      "licenseRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for the19-imageZIP originals and white-background derivatives, with no restrictions, in response call_24a179ab128748dbb94a78640e6a1543. Record docs/PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json. Native photograph crop upload-06-ceramic-diver.png (SHA256 fdb9acc8ed969bd6f8d69f6594fa1772aa71e3c5bf6724ca1dc2f4bc85b146a7) from Screenshot_20260914_053115_WhatsApp.jpg (parent SHA256 0b67d7fc5808a8ca3f5a52eaa8dcf6c700cc2c124cd6831cb530d705cae9af90). RAW archive contains explicitly labeled native watch crops; full private screenshot is preserved locally only. Whole watch, exact configuration and final image individually reviewed. Native source resolution retained without invented or sharpened detail; no ownership, celebrity or unique-edition provenance inferred. Separate manufacturer/reference specification source retained. Preserved RAW file: 1PW6uo43c6HDLM8OC5SOQ__Phr7G75TOn. Pictured full reference 210.62.44.20.01.001; Black ceramic and 18K Sedna Gold, Black ceramic with raised waves, Black rubber strap. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
       "brand": "Breitling",
       "collection": "Navitimer",
       "reference": "AB0137211B1P1",
@@ -26913,6 +27489,37 @@
       "licenseRecord": null,
       "websiteApproved": false,
       "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+    },
+    {
+      "brand": "Vacheron Constantin",
+      "collection": "Overseas",
+      "reference": "4300V/220G-H151",
+      "configurations": [
+        {
+          "caseSize": "41.5 mm",
+          "movement": "1120 QP automatic",
+          "dial": "Burgundy lacquered sunburst",
+          "bracelet": "18K white-gold bracelet; additional burgundy and white rubber straps",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "18K white gold",
+      "sources": [
+        "src/data/verified-catalog-expansion.ts"
+      ],
+      "routes": [
+        "/collections/vacheron-constantin/overseas/4300v-220g-h151"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": "cleared-founder-11-vc",
+      "status": "approved",
+      "sourceUrl": "https://drive.google.com/file/d/1PW6uo43c6HDLM8OC5SOQ__Phr7G75TOn/view",
+      "licenseRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for the19-imageZIP originals and white-background derivatives, with no restrictions, in response call_24a179ab128748dbb94a78640e6a1543. Record docs/PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json. Native photograph crop upload-11-vc.png (SHA256 22394b8a84144a532aa44e424458cd17d7a2eebb5832c216e51be5a42f69b0fb) from Screenshot_20261015_223830_Instagram.jpg (parent SHA256 7309c64222df88f07259b7ca72a2890f59ade88250a3222d9b5267efe8a730ee). RAW archive contains explicitly labeled native watch crops; full private screenshot is preserved locally only. Whole watch, exact configuration and final image individually reviewed. Native source resolution retained without invented or sharpened detail; no ownership, celebrity or unique-edition provenance inferred. Separate manufacturer/reference specification source retained. Preserved RAW file: 1PW6uo43c6HDLM8OC5SOQ__Phr7G75TOn. Pictured full reference 4300V/220G-H151; 18K white gold, Burgundy lacquered sunburst, 18K white-gold bracelet; additional burgundy and white rubber straps. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
     },
     {
       "brand": "Omega",
@@ -27536,6 +28143,37 @@
     },
     {
       "brand": "Omega",
+      "collection": "Speedmaster",
+      "reference": "310.63.42.50.01.001",
+      "configurations": [
+        {
+          "caseSize": "42 mm",
+          "movement": "Omega 3861 manual winding",
+          "dial": "Black step dial",
+          "bracelet": "Black leather strap",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "18K Sedna Gold",
+      "sources": [
+        "src/data/verified-catalog-expansion.ts"
+      ],
+      "routes": [
+        "/collections/omega/speedmaster/310-63-42-50-01-001"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": "cleared-founder-16-moonwatch",
+      "status": "approved",
+      "sourceUrl": "https://drive.google.com/file/d/1PW6uo43c6HDLM8OC5SOQ__Phr7G75TOn/view",
+      "licenseRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for the19-imageZIP originals and white-background derivatives, with no restrictions, in response call_24a179ab128748dbb94a78640e6a1543. Record docs/PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json. Native photograph crop upload-16-moonwatch.png (SHA256 8d6eb1ece6c2fe08353de07481398683c9c4dc44d13af25944f4793e6731d024) from Screenshot_20260914_123918_Google.jpg (parent SHA256 8d6e9836237505f5739833bb3910a4a7303b676cc7b60bfb7dd7294a7cb4bef4). RAW archive contains explicitly labeled native watch crops; full private screenshot is preserved locally only. Whole watch, exact configuration and final image individually reviewed. Native source resolution retained without invented or sharpened detail; no ownership, celebrity or unique-edition provenance inferred. Separate manufacturer/reference specification source retained. Preserved RAW file: 1PW6uo43c6HDLM8OC5SOQ__Phr7G75TOn. Pictured full reference 310.63.42.50.01.001; 18K Sedna Gold, Black step dial, Black leather strap. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
+      "brand": "Omega",
       "collection": "Constellation",
       "reference": "131.23.41.21.03.001",
       "configurations": [
@@ -27846,6 +28484,68 @@
     },
     {
       "brand": "Patek Philippe",
+      "collection": "Aquanaut",
+      "reference": "5167/1A-001",
+      "configurations": [
+        {
+          "caseSize": "40.8 mm",
+          "movement": "26-330 S C automatic (2023 manufacturer catalog)",
+          "dial": "Black embossed Aquanaut pattern",
+          "bracelet": "Stainless-steel bracelet",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "Stainless Steel",
+      "sources": [
+        "src/data/verified-catalog-expansion.ts"
+      ],
+      "routes": [
+        "/collections/patek-philippe/aquanaut/5167-1a-001"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": "cleared-founder-03-patek",
+      "status": "approved",
+      "sourceUrl": "https://drive.google.com/file/d/1PW6uo43c6HDLM8OC5SOQ__Phr7G75TOn/view",
+      "licenseRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for the19-imageZIP originals and white-background derivatives, with no restrictions, in response call_24a179ab128748dbb94a78640e6a1543. Record docs/PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json. Native photograph crop upload-03-patek.png (SHA256 cc1f6af9045ef97995a818519656acddeca58d507dd8d0abb0e91a5123fa225e) from Screenshot_20261015_223835_Instagram.jpg (parent SHA256 6786cf4b6f7e15dd0aaa554a2b76dd991ea30b3a68727311c604718438adff67). RAW archive contains explicitly labeled native watch crops; full private screenshot is preserved locally only. Whole watch, exact configuration and final image individually reviewed. Native source resolution retained without invented or sharpened detail; no ownership, celebrity or unique-edition provenance inferred. Separate manufacturer/reference specification source retained. Preserved RAW file: 1PW6uo43c6HDLM8OC5SOQ__Phr7G75TOn. Pictured full reference 5167/1A-001; Stainless Steel, Black embossed Aquanaut pattern, Stainless-steel bracelet. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
+      "brand": "Patek Philippe",
+      "collection": "Grand Complications",
+      "reference": "5327G-001",
+      "configurations": [
+        {
+          "caseSize": "39 mm",
+          "movement": "240 Q automatic",
+          "dial": "Sunburst blue with Breguet numerals",
+          "bracelet": "Shiny navy blue alligator leather strap",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "18K white gold",
+      "sources": [
+        "src/data/verified-catalog-expansion.ts"
+      ],
+      "routes": [
+        "/collections/patek-philippe/grand-complications/5327g-001"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": "cleared-founder-14-patek",
+      "status": "approved",
+      "sourceUrl": "https://drive.google.com/file/d/1PW6uo43c6HDLM8OC5SOQ__Phr7G75TOn/view",
+      "licenseRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for the19-imageZIP originals and white-background derivatives, with no restrictions, in response call_24a179ab128748dbb94a78640e6a1543. Record docs/PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json. Native photograph crop upload-14-patek.png (SHA256 87f42f910290056d06af0fe76e22d745d26680671c4e8f99e6c16166ed92789b) from Screenshot_20261015_223826_Instagram.jpg (parent SHA256 ac8b4b69a418a52f6d5fb9c96fa55788c2a73e3598a0c7925609b02b62c45129). RAW archive contains explicitly labeled native watch crops; full private screenshot is preserved locally only. Whole watch, exact configuration and final image individually reviewed. Native source resolution retained without invented or sharpened detail; no ownership, celebrity or unique-edition provenance inferred. Separate manufacturer/reference specification source retained. Preserved RAW file: 1PW6uo43c6HDLM8OC5SOQ__Phr7G75TOn. Pictured full reference 5327G-001; 18K white gold, Sunburst blue with Breguet numerals, Shiny navy blue alligator leather strap. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
+      "brand": "Patek Philippe",
       "collection": "Grand Complications",
       "reference": "5236P-010",
       "configurations": [
@@ -27903,6 +28603,502 @@
       "status": "approved",
       "sourceUrl": "https://www.patek.com/en/collection/grand-complications/5270p-017",
       "licenseRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for this exact manufacturer original and white-background derivatives with no restrictions on October16,2026. Record docs/PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json. Entire native original and final blank-white WEB individually reviewed; exact reference, material, dial and strap verified. Original RGB retained; no generated watch detail. Preserved RAW file: 16OyzEvZexgUD8uckQw4LdDrS2tYnWu-W. Pictured full reference 5270P-017; Platinum, Lacquered red with black-gradient rim, Black fabric-pattern composite strap with red stitching. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
+      "brand": "Vacheron Constantin",
+      "collection": "Patrimony",
+      "reference": "4000U/000P-H003",
+      "configurations": [
+        {
+          "caseSize": "42.5 mm",
+          "movement": "2460 R31R7/3 automatic",
+          "dial": "Salmon-toned sunburst",
+          "bracelet": "Dark blue alligator leather strap",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "950 Platinum",
+      "sources": [
+        "src/data/verified-catalog-expansion.ts"
+      ],
+      "routes": [
+        "/collections/vacheron-constantin/patrimony/4000u-000p-h003"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": "cleared-founder-09-vc",
+      "status": "approved",
+      "sourceUrl": "https://drive.google.com/file/d/1PW6uo43c6HDLM8OC5SOQ__Phr7G75TOn/view",
+      "licenseRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for the19-imageZIP originals and white-background derivatives, with no restrictions, in response call_24a179ab128748dbb94a78640e6a1543. Record docs/PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json. Native photograph crop upload-09-vc.png (SHA256 76de3e0df586d5bf7263de9a1abb3a8ec037e3627ff3034190a05110a82d09b9) from Screenshot_20261015_223840_Instagram.jpg (parent SHA256 78735faae70934ebc8cfca09743628fe8994340a4b4ba3d405b89e3e27fe0e22). RAW archive contains explicitly labeled native watch crops; full private screenshot is preserved locally only. Whole watch, exact configuration and final image individually reviewed. Native source resolution retained without invented or sharpened detail; no ownership, celebrity or unique-edition provenance inferred. Separate manufacturer/reference specification source retained. Preserved RAW file: 1PW6uo43c6HDLM8OC5SOQ__Phr7G75TOn. Pictured full reference 4000U/000P-H003; 950 Platinum, Salmon-toned sunburst, Dark blue alligator leather strap. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
+      "brand": "Vacheron Constantin",
+      "collection": "Traditionnelle",
+      "reference": "6000T/000P-H025",
+      "configurations": [
+        {
+          "caseSize": "41 mm",
+          "movement": "2160 automatic",
+          "dial": "Deep green sunburst",
+          "bracelet": "Green alligator leather strap",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "950 Platinum",
+      "sources": [
+        "src/data/verified-catalog-expansion.ts"
+      ],
+      "routes": [
+        "/collections/vacheron-constantin/traditionnelle/6000t-000p-h025"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": "cleared-founder-12-vc",
+      "status": "approved",
+      "sourceUrl": "https://drive.google.com/file/d/1PW6uo43c6HDLM8OC5SOQ__Phr7G75TOn/view",
+      "licenseRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for the19-imageZIP originals and white-background derivatives, with no restrictions, in response call_24a179ab128748dbb94a78640e6a1543. Record docs/PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json. Native photograph crop upload-12-vc.png (SHA256 fa49d2ca51e6ce56e6a935097b9cdb8dd2d2595db99d91d66a00ea6759896990) from Screenshot_20261015_223820_Instagram.jpg (parent SHA256 04a4179eb7b9687c51961e88ca02fb8701070df9516bfbb90000e3baa7e90495). RAW archive contains explicitly labeled native watch crops; full private screenshot is preserved locally only. Whole watch, exact configuration and final image individually reviewed. Native source resolution retained without invented or sharpened detail; no ownership, celebrity or unique-edition provenance inferred. Separate manufacturer/reference specification source retained. Preserved RAW file: 1PW6uo43c6HDLM8OC5SOQ__Phr7G75TOn. Pictured full reference 6000T/000P-H025; 950 Platinum, Deep green sunburst, Green alligator leather strap. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
+      "brand": "Audemars Piguet",
+      "collection": "Royal Oak",
+      "reference": "26585CE.OO.1225CE.01",
+      "configurations": [
+        {
+          "caseSize": "Specification verification pending",
+          "movement": "Calibre verification pending",
+          "dial": "Openworked sapphire with pink-gold components",
+          "bracelet": "Black ceramic bracelet",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "Black ceramic",
+      "sources": [
+        "src/data/verified-catalog-expansion.ts"
+      ],
+      "routes": [
+        "/collections/audemars-piguet/royal-oak/26585ce-oo-1225ce-01"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": "cleared-founder-19-ap-1",
+      "status": "approved",
+      "sourceUrl": "https://drive.google.com/file/d/1PW6uo43c6HDLM8OC5SOQ__Phr7G75TOn/view",
+      "licenseRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for the19-imageZIP originals and white-background derivatives, with no restrictions, in response call_24a179ab128748dbb94a78640e6a1543. Record docs/PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json. Native photograph crop upload-19-ap-1.png (SHA256 0d580b6403a99e56c289ef455ef163264bb98baae32cb270996504c2a7020e08) from Screenshot_20261015_202218_Instagram.jpg (parent SHA256 993f85545ce3ae549c52f3d02c4377dd53af7866112c75c5f4229e5530bb6a93). RAW archive contains explicitly labeled native watch crops; full private screenshot is preserved locally only. Whole watch, exact configuration and final image individually reviewed. Native source resolution retained without invented or sharpened detail; no ownership, celebrity or unique-edition provenance inferred. Separate manufacturer/reference specification source retained. Preserved RAW file: 1PW6uo43c6HDLM8OC5SOQ__Phr7G75TOn. Pictured full reference 26585CE.OO.1225CE.01; Black ceramic, Openworked sapphire with pink-gold components, Black ceramic bracelet. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
+      "brand": "Audemars Piguet",
+      "collection": "Royal Oak",
+      "reference": "26585XT.OO.1220XT.01",
+      "configurations": [
+        {
+          "caseSize": "Specification verification pending",
+          "movement": "5135 automatic",
+          "dial": "Openworked blue-accented dial",
+          "bracelet": "Titanium and BMG bracelet",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "Titanium and Bulk Metallic Glass",
+      "sources": [
+        "src/data/verified-catalog-expansion.ts"
+      ],
+      "routes": [
+        "/collections/audemars-piguet/royal-oak/26585xt-oo-1220xt-01"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": "cleared-founder-19-ap-2",
+      "status": "approved",
+      "sourceUrl": "https://drive.google.com/file/d/1PW6uo43c6HDLM8OC5SOQ__Phr7G75TOn/view",
+      "licenseRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for the19-imageZIP originals and white-background derivatives, with no restrictions, in response call_24a179ab128748dbb94a78640e6a1543. Record docs/PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json. Native photograph crop upload-19-ap-2.png (SHA256 1436f981f64cae6e68008c8ac247d09205cc6d699dc1534f2d5633e8efefd15d) from Screenshot_20261015_202218_Instagram.jpg (parent SHA256 993f85545ce3ae549c52f3d02c4377dd53af7866112c75c5f4229e5530bb6a93). RAW archive contains explicitly labeled native watch crops; full private screenshot is preserved locally only. Whole watch, exact configuration and final image individually reviewed. Native source resolution retained without invented or sharpened detail; no ownership, celebrity or unique-edition provenance inferred. Separate manufacturer/reference specification source retained. Preserved RAW file: 1PW6uo43c6HDLM8OC5SOQ__Phr7G75TOn. Pictured full reference 26585XT.OO.1220XT.01; Titanium and Bulk Metallic Glass, Openworked blue-accented dial, Titanium and BMG bracelet. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
+      "brand": "Audemars Piguet",
+      "collection": "Royal Oak",
+      "reference": "26585CM.OO.D301VE.01",
+      "configurations": [
+        {
+          "caseSize": "41 mm",
+          "movement": "Calibre verification pending",
+          "dial": "Openworked Cactus Jack dial",
+          "bracelet": "Brown strap; material verification pending",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "Brown ceramic",
+      "sources": [
+        "src/data/verified-catalog-expansion.ts"
+      ],
+      "routes": [
+        "/collections/audemars-piguet/royal-oak/26585cm-oo-d301ve-01"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": null,
+      "status": "Requires Verification",
+      "sourceUrl": "https://www.audemarspiguet.com/zh-hant/watch-collection/royal-oak/26585CM.OO.D301VE.01",
+      "licenseRecord": null,
+      "websiteApproved": false,
+      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+    },
+    {
+      "brand": "Audemars Piguet",
+      "collection": "Royal Oak",
+      "reference": "15412BA.ZG.1224BA.01",
+      "configurations": [
+        {
+          "caseSize": "Specification verification pending",
+          "movement": "Calibre verification pending",
+          "dial": "Openworked",
+          "bracelet": "Frosted yellow-gold bracelet",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "18K yellow gold; baguette diamond-set bezel",
+      "sources": [
+        "src/data/verified-catalog-expansion.ts"
+      ],
+      "routes": [
+        "/collections/audemars-piguet/royal-oak/15412ba-zg-1224ba-01"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": "cleared-founder-19-ap-7",
+      "status": "approved",
+      "sourceUrl": "https://drive.google.com/file/d/1PW6uo43c6HDLM8OC5SOQ__Phr7G75TOn/view",
+      "licenseRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for the19-imageZIP originals and white-background derivatives, with no restrictions, in response call_24a179ab128748dbb94a78640e6a1543. Record docs/PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json. Native photograph crop upload-19-ap-7.png (SHA256 8a592027a441658c143bd5536b927f90948b14f105efa981b3649dd67cbd3fd6) from Screenshot_20261015_202218_Instagram.jpg (parent SHA256 993f85545ce3ae549c52f3d02c4377dd53af7866112c75c5f4229e5530bb6a93). RAW archive contains explicitly labeled native watch crops; full private screenshot is preserved locally only. Whole watch, exact configuration and final image individually reviewed. Native source resolution retained without invented or sharpened detail; no ownership, celebrity or unique-edition provenance inferred. Separate manufacturer/reference specification source retained. Preserved RAW file: 1PW6uo43c6HDLM8OC5SOQ__Phr7G75TOn. Pictured full reference 15412BA.ZG.1224BA.01; 18K yellow gold; baguette diamond-set bezel, Openworked, Frosted yellow-gold bracelet. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
+      "brand": "Audemars Piguet",
+      "collection": "Royal Oak",
+      "reference": "15412BC.ZZ.1220BC.01",
+      "configurations": [
+        {
+          "caseSize": "41 mm",
+          "movement": "3132 automatic",
+          "dial": "Openworked",
+          "bracelet": "18K white-gold bracelet",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "18K white gold; diamond-set bezel",
+      "sources": [
+        "src/data/verified-catalog-expansion.ts"
+      ],
+      "routes": [
+        "/collections/audemars-piguet/royal-oak/15412bc-zz-1220bc-01"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": "cleared-founder-19-ap-5",
+      "status": "approved",
+      "sourceUrl": "https://drive.google.com/file/d/1PW6uo43c6HDLM8OC5SOQ__Phr7G75TOn/view",
+      "licenseRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for the19-imageZIP originals and white-background derivatives, with no restrictions, in response call_24a179ab128748dbb94a78640e6a1543. Record docs/PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json. Native photograph crop upload-19-ap-5.png (SHA256 e067f0b16ecbbd33a6854ff0b9678026b5c293c92787d475b851c6cafdddc6f1) from Screenshot_20261015_202218_Instagram.jpg (parent SHA256 993f85545ce3ae549c52f3d02c4377dd53af7866112c75c5f4229e5530bb6a93). RAW archive contains explicitly labeled native watch crops; full private screenshot is preserved locally only. Whole watch, exact configuration and final image individually reviewed. Native source resolution retained without invented or sharpened detail; no ownership, celebrity or unique-edition provenance inferred. Separate manufacturer/reference specification source retained. Preserved RAW file: 1PW6uo43c6HDLM8OC5SOQ__Phr7G75TOn. Pictured full reference 15412BC.ZZ.1220BC.01; 18K white gold; diamond-set bezel, Openworked, 18K white-gold bracelet. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
+      "brand": "Audemars Piguet",
+      "collection": "Royal Oak",
+      "reference": "15412OR.ZZ.1220OR.01",
+      "configurations": [
+        {
+          "caseSize": "41 mm",
+          "movement": "Calibre verification pending",
+          "dial": "Openworked",
+          "bracelet": "18K rose-gold bracelet",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "18K rose gold; baguette diamond-set bezel",
+      "sources": [
+        "src/data/verified-catalog-expansion.ts"
+      ],
+      "routes": [
+        "/collections/audemars-piguet/royal-oak/15412or-zz-1220or-01"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": "cleared-founder-19-ap-6",
+      "status": "approved",
+      "sourceUrl": "https://drive.google.com/file/d/1PW6uo43c6HDLM8OC5SOQ__Phr7G75TOn/view",
+      "licenseRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for the19-imageZIP originals and white-background derivatives, with no restrictions, in response call_24a179ab128748dbb94a78640e6a1543. Record docs/PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json. Native photograph crop upload-19-ap-6.png (SHA256 0b15ce63013dcefbe429be6c02e4d2d5a4d4ea0e766d74820c01bb2e6daa35a2) from Screenshot_20261015_202218_Instagram.jpg (parent SHA256 993f85545ce3ae549c52f3d02c4377dd53af7866112c75c5f4229e5530bb6a93). RAW archive contains explicitly labeled native watch crops; full private screenshot is preserved locally only. Whole watch, exact configuration and final image individually reviewed. Native source resolution retained without invented or sharpened detail; no ownership, celebrity or unique-edition provenance inferred. Separate manufacturer/reference specification source retained. Preserved RAW file: 1PW6uo43c6HDLM8OC5SOQ__Phr7G75TOn. Pictured full reference 15412OR.ZZ.1220OR.01; 18K rose gold; baguette diamond-set bezel, Openworked, 18K rose-gold bracelet. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
+      "brand": "Audemars Piguet",
+      "collection": "Royal Oak",
+      "reference": "26341ST.OO.1105ST.01",
+      "configurations": [
+        {
+          "caseSize": "44 mm",
+          "movement": "Calibre verification pending",
+          "dial": "Openworked sapphire",
+          "bracelet": "Stainless-steel bracelet",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "Stainless Steel",
+      "sources": [
+        "src/data/verified-catalog-expansion.ts"
+      ],
+      "routes": [
+        "/collections/audemars-piguet/royal-oak/26341st-oo-1105st-01"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": "cleared-founder-19-ap-8",
+      "status": "approved",
+      "sourceUrl": "https://drive.google.com/file/d/1PW6uo43c6HDLM8OC5SOQ__Phr7G75TOn/view",
+      "licenseRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for the19-imageZIP originals and white-background derivatives, with no restrictions, in response call_24a179ab128748dbb94a78640e6a1543. Record docs/PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json. Native photograph crop upload-19-ap-8-expanded-native.png (SHA256 5cfe1c369054c5609a7e089e78e2c06e6d4571de080a5a75effc86b8669dbe29) from Screenshot_20261015_202218_Instagram.jpg (parent SHA256 993f85545ce3ae549c52f3d02c4377dd53af7866112c75c5f4229e5530bb6a93). RAW archive contains explicitly labeled native watch crops; full private screenshot is preserved locally only. Whole watch, exact configuration and final image individually reviewed. Native source resolution retained without invented or sharpened detail; no ownership, celebrity or unique-edition provenance inferred. Separate manufacturer/reference specification source retained. Preserved RAW file: 1PW6uo43c6HDLM8OC5SOQ__Phr7G75TOn. Pictured full reference 26341ST.OO.1105ST.01; Stainless Steel, Openworked sapphire, Stainless-steel bracelet. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
+      "brand": "Audemars Piguet",
+      "collection": "Royal Oak",
+      "reference": "26615TI.OO.1220TI.01",
+      "configurations": [
+        {
+          "caseSize": "Specification verification pending",
+          "movement": "Calibre verification pending",
+          "dial": "Salmon-toned Grande Tapisserie",
+          "bracelet": "Titanium bracelet",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "Titanium",
+      "sources": [
+        "src/data/verified-catalog-expansion.ts"
+      ],
+      "routes": [
+        "/collections/audemars-piguet/royal-oak/26615ti-oo-1220ti-01"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": "cleared-founder-09-ap",
+      "status": "approved",
+      "sourceUrl": "https://drive.google.com/file/d/1PW6uo43c6HDLM8OC5SOQ__Phr7G75TOn/view",
+      "licenseRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for the19-imageZIP originals and white-background derivatives, with no restrictions, in response call_24a179ab128748dbb94a78640e6a1543. Record docs/PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json. Native photograph crop upload-09-ap.png (SHA256 397f0a8e67e89504405dc93ddb9d4edec22adf51f07bd574d1184d8436a39544) from Screenshot_20261015_223840_Instagram.jpg (parent SHA256 78735faae70934ebc8cfca09743628fe8994340a4b4ba3d405b89e3e27fe0e22). RAW archive contains explicitly labeled native watch crops; full private screenshot is preserved locally only. Whole watch, exact configuration and final image individually reviewed. Native source resolution retained without invented or sharpened detail; no ownership, celebrity or unique-edition provenance inferred. Separate manufacturer/reference specification source retained. Preserved RAW file: 1PW6uo43c6HDLM8OC5SOQ__Phr7G75TOn. Pictured full reference 26615TI.OO.1220TI.01; Titanium, Salmon-toned Grande Tapisserie, Titanium bracelet. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
+      "brand": "Audemars Piguet",
+      "collection": "Royal Oak",
+      "reference": "26607BC.OO.1220BC.01",
+      "configurations": [
+        {
+          "caseSize": "41 mm",
+          "movement": "5134 automatic",
+          "dial": "Red Grande Tapisserie",
+          "bracelet": "18K white-gold bracelet",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "18K white gold",
+      "sources": [
+        "src/data/verified-catalog-expansion.ts"
+      ],
+      "routes": [
+        "/collections/audemars-piguet/royal-oak/26607bc-oo-1220bc-01"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": "cleared-founder-11-ap",
+      "status": "approved",
+      "sourceUrl": "https://drive.google.com/file/d/1PW6uo43c6HDLM8OC5SOQ__Phr7G75TOn/view",
+      "licenseRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for the19-imageZIP originals and white-background derivatives, with no restrictions, in response call_24a179ab128748dbb94a78640e6a1543. Record docs/PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json. Native photograph crop upload-11-ap.png (SHA256 14fd5b3ce70cd5a0ed6af411d400cbacf75ed7c6ace99b76993eeda90b742987) from Screenshot_20261015_223830_Instagram.jpg (parent SHA256 7309c64222df88f07259b7ca72a2890f59ade88250a3222d9b5267efe8a730ee). RAW archive contains explicitly labeled native watch crops; full private screenshot is preserved locally only. Whole watch, exact configuration and final image individually reviewed. Native source resolution retained without invented or sharpened detail; no ownership, celebrity or unique-edition provenance inferred. Separate manufacturer/reference specification source retained. Preserved RAW file: 1PW6uo43c6HDLM8OC5SOQ__Phr7G75TOn. Pictured full reference 26607BC.OO.1220BC.01; 18K white gold, Red Grande Tapisserie, 18K white-gold bracelet. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
+      "brand": "Audemars Piguet",
+      "collection": "Royal Oak",
+      "reference": "15500ST.OO.1220ST.03",
+      "configurations": [
+        {
+          "caseSize": "41 mm",
+          "movement": "4302 automatic",
+          "dial": "Black Grande Tapisserie",
+          "bracelet": "Stainless-steel bracelet with AP folding clasp",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "Stainless Steel",
+      "sources": [
+        "src/data/verified-catalog-expansion.ts"
+      ],
+      "routes": [
+        "/collections/audemars-piguet/royal-oak/15500st-oo-1220st-03"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": "cleared-founder-03-ap",
+      "status": "approved",
+      "sourceUrl": "https://drive.google.com/file/d/1PW6uo43c6HDLM8OC5SOQ__Phr7G75TOn/view",
+      "licenseRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for the19-imageZIP originals and white-background derivatives, with no restrictions, in response call_24a179ab128748dbb94a78640e6a1543. Record docs/PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json. Native photograph crop upload-03-ap.png (SHA256 07adf38fe1706ed1767a8949e7b4119adfa07db68275e9726f59cd2923618b97) from Screenshot_20261015_223835_Instagram.jpg (parent SHA256 6786cf4b6f7e15dd0aaa554a2b76dd991ea30b3a68727311c604718438adff67). RAW archive contains explicitly labeled native watch crops; full private screenshot is preserved locally only. Whole watch, exact configuration and final image individually reviewed. Native source resolution retained without invented or sharpened detail; no ownership, celebrity or unique-edition provenance inferred. Separate manufacturer/reference specification source retained. Preserved RAW file: 1PW6uo43c6HDLM8OC5SOQ__Phr7G75TOn. Pictured full reference 15500ST.OO.1220ST.03; Stainless Steel, Black Grande Tapisserie, Stainless-steel bracelet with AP folding clasp. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
+      "brand": "Audemars Piguet",
+      "collection": "Code 11.59",
+      "reference": "26393BC.OO.A321CR.01",
+      "configurations": [
+        {
+          "caseSize": "Specification verification pending",
+          "movement": "Automatic; calibre verification pending",
+          "dial": "Deep blue lacquered",
+          "bracelet": "Blue leather strap; material verification pending",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "18K white gold",
+      "sources": [
+        "src/data/verified-catalog-expansion.ts"
+      ],
+      "routes": [
+        "/collections/audemars-piguet/code-1159/26393bc-oo-a321cr-01"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": null,
+      "status": "Requires Verification",
+      "sourceUrl": "https://www.audemarspiguet.com/com/en/watch-collection/code-1159/26393BC.OO.A321CR.01.html",
+      "licenseRecord": null,
+      "websiteApproved": false,
+      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+    },
+    {
+      "brand": "Hublot",
+      "collection": "Big Bang Unico",
+      "reference": "411.OM.1180.RX",
+      "configurations": [
+        {
+          "caseSize": "45 mm",
+          "movement": "HUB1242 automatic chronograph",
+          "dial": "Skeleton",
+          "bracelet": "Black rubber strap",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "18K King Gold with black ceramic bezel",
+      "sources": [
+        "src/data/verified-catalog-expansion.ts"
+      ],
+      "routes": [
+        "/collections/hublot/big-bang-unico/411-om-1180-rx"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": "cleared-founder-02-hublot-ceramic",
+      "status": "approved",
+      "sourceUrl": "https://drive.google.com/file/d/1PW6uo43c6HDLM8OC5SOQ__Phr7G75TOn/view",
+      "licenseRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for the19-imageZIP originals and white-background derivatives, with no restrictions, in response call_24a179ab128748dbb94a78640e6a1543. Record docs/PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json. Native photograph crop upload-02-hublot-ceramic.png (SHA256 10ae12889600bcd03dfaf422fd09f3c188183f74e3483405d77b8f9e7f02f746) from Screenshot_20260914_123538_Google.jpg (parent SHA256 c267894618c15e1503ec5a3b33a06ff701caede98d5b5391431d18ecba9fba41). RAW archive contains explicitly labeled native watch crops; full private screenshot is preserved locally only. Whole watch, exact configuration and final image individually reviewed. Native source resolution retained without invented or sharpened detail; no ownership, celebrity or unique-edition provenance inferred. Separate manufacturer/reference specification source retained. Preserved RAW file: 1PW6uo43c6HDLM8OC5SOQ__Phr7G75TOn. Pictured full reference 411.OM.1180.RX; 18K King Gold with black ceramic bezel, Skeleton, Black rubber strap. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
+      "brand": "Ulysse Nardin",
+      "collection": "Diver",
+      "reference": "1502-151-3/93",
+      "configurations": [
+        {
+          "caseSize": "44 mm",
+          "movement": "Automatic; calibre verification pending",
+          "dial": "Blue",
+          "bracelet": "Blue rubber strap",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "18K rose gold",
+      "sources": [
+        "src/data/verified-catalog-expansion.ts"
+      ],
+      "routes": [
+        "/collections/ulysse-nardin/diver/1502-151-3-93"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": "cleared-founder-07-diver-chrono",
+      "status": "approved",
+      "sourceUrl": "https://drive.google.com/file/d/1PW6uo43c6HDLM8OC5SOQ__Phr7G75TOn/view",
+      "licenseRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for the19-imageZIP originals and white-background derivatives, with no restrictions, in response call_24a179ab128748dbb94a78640e6a1543. Record docs/PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json. Native photograph crop upload-07-diver-chrono.png (SHA256 6548216f54af1cf9c0f0b135b3eb85acff9ef48c3364b30b17bda38a991bc7f1) from Screenshot_20260914_123815_Google.jpg (parent SHA256 d3ab31ac84271dc9dfbfb66ab797079689b409728c97aab9c2e7d7fc3db9500d). RAW archive contains explicitly labeled native watch crops; full private screenshot is preserved locally only. Whole watch, exact configuration and final image individually reviewed. Native source resolution retained without invented or sharpened detail; no ownership, celebrity or unique-edition provenance inferred. Separate manufacturer/reference specification source retained. Preserved RAW file: 1PW6uo43c6HDLM8OC5SOQ__Phr7G75TOn. Pictured full reference 1502-151-3/93; 18K rose gold, Blue, Blue rubber strap. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
+      "brand": "Tudor",
+      "collection": "Black Bay",
+      "reference": "M7941A1A0RU-0003",
+      "configurations": [
+        {
+          "caseSize": "41 mm",
+          "movement": "MT5602-U automatic",
+          "dial": "Black domed",
+          "bracelet": "Stainless-steel five-link bracelet",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "Stainless Steel",
+      "sources": [
+        "src/data/verified-catalog-expansion.ts"
+      ],
+      "routes": [
+        "/collections/tudor/black-bay/m7941a1a0ru-0003"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": "cleared-founder-05-tudor",
+      "status": "approved",
+      "sourceUrl": "https://drive.google.com/file/d/1PW6uo43c6HDLM8OC5SOQ__Phr7G75TOn/view",
+      "licenseRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for the19-imageZIP originals and white-background derivatives, with no restrictions, in response call_24a179ab128748dbb94a78640e6a1543. Record docs/PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json. Native photograph crop upload-05-tudor.png (SHA256 69780fb63d043d968b35c707838632d2bdd9f2660ca6addc45997f25f16eff83) from Screenshot_20260912_193325_Chrome.jpg (parent SHA256 a37b146ea2cc6f055c611bfd08ad74ccd8ca89e74e7f64c5046e5f812f8a0eea). RAW archive contains explicitly labeled native watch crops; full private screenshot is preserved locally only. Whole watch, exact configuration and final image individually reviewed. Native source resolution retained without invented or sharpened detail; no ownership, celebrity or unique-edition provenance inferred. Separate manufacturer/reference specification source retained. Preserved RAW file: 1PW6uo43c6HDLM8OC5SOQ__Phr7G75TOn. Pictured full reference M7941A1A0RU-0003; Stainless Steel, Black domed, Stainless-steel five-link bracelet. Exact configuration reviewed against preserved source evidence and the original photograph.",
       "websiteApproved": true,
       "nextAction": "Retain approved original and verify derivative integrity."
     }

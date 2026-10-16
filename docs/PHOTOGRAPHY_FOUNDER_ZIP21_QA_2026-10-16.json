@@ -1,0 +1,506 @@
+{
+  "checkedAt": "2026-10-16T19:41:39.341394+00:00",
+  "status": "21clearedZIP photos reviewed and tested; deployment pending",
+  "previousProduction": "f05b4a6c23f3e2e3119c0e0a4da6ac67831b4e3a",
+  "newPhotos": [
+    {
+      "brand": "Patek Philippe",
+      "reference": "5167/1A-001",
+      "src": "/images/watches/patek-philippe/founder-03-patek-white-web.webp",
+      "sha256": "d452ac2f0c20fa2169765e1cf93a45979032da89dbf0e61f930de820fe6dce1e",
+      "canonicalRoute": "/collections/patek-philippe/aquanaut/5167-1a-001",
+      "uploadId": "upload-03-patek"
+    },
+    {
+      "brand": "Patek Philippe",
+      "reference": "5327G-001",
+      "src": "/images/watches/patek-philippe/founder-14-patek-white-web.webp",
+      "sha256": "82ae0da48f6946d4e575973886637df252a9135c1f085dd75e927a28eae5b061",
+      "canonicalRoute": "/collections/patek-philippe/grand-complications/5327g-001",
+      "uploadId": "upload-14-patek"
+    },
+    {
+      "brand": "Vacheron Constantin",
+      "reference": "4000U/000P-H003",
+      "src": "/images/watches/vacheron-constantin/founder-09-vc-white-web.webp",
+      "sha256": "918206a81806d71e549a7ba9a4210fc74d8a2b5e3eb91f7a5c41bac07e0062d8",
+      "canonicalRoute": "/collections/vacheron-constantin/patrimony/4000u-000p-h003",
+      "uploadId": "upload-09-vc"
+    },
+    {
+      "brand": "Vacheron Constantin",
+      "reference": "6000T/000P-H025",
+      "src": "/images/watches/vacheron-constantin/founder-12-vc-white-web.webp",
+      "sha256": "9a2188b4cd85e6c9b5f7836db8f6ddb73272baa448adde99c2d488a3c0476d96",
+      "canonicalRoute": "/collections/vacheron-constantin/traditionnelle/6000t-000p-h025",
+      "uploadId": "upload-12-vc"
+    },
+    {
+      "brand": "Audemars Piguet",
+      "reference": "26615TI.OO.1220TI.01",
+      "src": "/images/watches/audemars-piguet/founder-09-ap-white-web.webp",
+      "sha256": "ff3a3c457c636c7e4c90b3b315193d2a63806b2c74f181bfc0cb77a33ccab007",
+      "canonicalRoute": "/collections/audemars-piguet/royal-oak/26615ti-oo-1220ti-01",
+      "uploadId": "upload-09-ap"
+    },
+    {
+      "brand": "Audemars Piguet",
+      "reference": "26393BC.OO.A321CR.01",
+      "src": "/images/watches/audemars-piguet/founder-14-ap-white-web.webp",
+      "sha256": "6b806116ee8fb8e153be65edae463f16b35c1923312b3db9ef635379cf4d1781",
+      "canonicalRoute": "/collections/audemars-piguet/code-1159/26393bc-oo-a321cr-01",
+      "uploadId": "upload-14-ap"
+    },
+    {
+      "brand": "Hublot",
+      "reference": "411.OM.1180.RX",
+      "src": "/images/watches/hublot/founder-02-hublot-ceramic-white-web.webp",
+      "sha256": "d4b59ca26d581605873c77d572e717a1d589b3cdb837db4d44a40d1225fc4c29",
+      "canonicalRoute": "/collections/hublot/big-bang-unico/411-om-1180-rx",
+      "uploadId": "upload-02-hublot-ceramic"
+    },
+    {
+      "brand": "Tudor",
+      "reference": "M7941A1A0RU-0003",
+      "src": "/images/watches/tudor/founder-05-tudor-white-web.webp",
+      "sha256": "1a161fdfb1ae12ba6b23bf517cee1e1cb693c4042854f632a3eff3ee4ab75dc5",
+      "canonicalRoute": "/collections/tudor/black-bay/m7941a1a0ru-0003",
+      "uploadId": "upload-05-tudor"
+    },
+    {
+      "brand": "Omega",
+      "reference": "210.62.44.20.01.001",
+      "src": "/images/watches/omega/founder-06-ceramic-diver-white-web.webp",
+      "sha256": "ab6c2bd368dab030d0f51563e9ef2066af8e68d47ac241fb09dfd2ca50c37c6e",
+      "canonicalRoute": "/collections/omega/seamaster/210-62-44-20-01-001",
+      "uploadId": "upload-06-ceramic-diver"
+    },
+    {
+      "brand": "Omega",
+      "reference": "310.63.42.50.01.001",
+      "src": "/images/watches/omega/founder-16-moonwatch-white-web.webp",
+      "sha256": "d3372d17331f19a7eb9af52a9828d2f28aae80bf2ef01a6d492c055942d42f9b",
+      "canonicalRoute": "/collections/omega/speedmaster/310-63-42-50-01-001",
+      "uploadId": "upload-16-moonwatch"
+    },
+    {
+      "brand": "Ulysse Nardin",
+      "reference": "1502-151-3/93",
+      "src": "/images/watches/ulysse-nardin/founder-07-diver-chrono-white-web.webp",
+      "sha256": "a94d96305438c13b65e45b8961293bdd879a44d780801396e084519549b381f1",
+      "canonicalRoute": "/collections/ulysse-nardin/diver/1502-151-3-93",
+      "uploadId": "upload-07-diver-chrono"
+    },
+    {
+      "brand": "Vacheron Constantin",
+      "reference": "4300V/220G-H151",
+      "src": "/images/watches/vacheron-constantin/founder-11-vc-white-web.webp",
+      "sha256": "669f5915c7e32c0489e4bc452ae9ea8a98481dea60999e9d66b44632b2e64af0",
+      "canonicalRoute": "/collections/vacheron-constantin/overseas/4300v-220g-h151",
+      "uploadId": "upload-11-vc"
+    },
+    {
+      "brand": "Audemars Piguet",
+      "reference": "26607BC.OO.1220BC.01",
+      "src": "/images/watches/audemars-piguet/founder-11-ap-white-web.webp",
+      "sha256": "4eebe79fcb6b9b0014ee5a2419a8a9bd5556277933a7fa98e6aff1d6c84c3ff3",
+      "canonicalRoute": "/collections/audemars-piguet/royal-oak/26607bc-oo-1220bc-01",
+      "uploadId": "upload-11-ap"
+    },
+    {
+      "brand": "Audemars Piguet",
+      "reference": "15500ST.OO.1220ST.03",
+      "src": "/images/watches/audemars-piguet/founder-03-ap-white-web.webp",
+      "sha256": "387ac64a330c7e3d1adb79f3c7b3cb750e8b9198bc0a5a32c44e91c580946fe2",
+      "canonicalRoute": "/collections/audemars-piguet/royal-oak/15500st-oo-1220st-03",
+      "uploadId": "upload-03-ap"
+    },
+    {
+      "brand": "Audemars Piguet",
+      "reference": "26585CE.OO.1225CE.01",
+      "src": "/images/watches/audemars-piguet/founder-19-ap-1-white-web.webp",
+      "sha256": "7bb1554e217b87158f67962703786f4e31a9ad1ecdffa21d69b64902c58539eb",
+      "canonicalRoute": "/collections/audemars-piguet/royal-oak/26585ce-oo-1225ce-01",
+      "uploadId": "upload-19-ap-1"
+    },
+    {
+      "brand": "Audemars Piguet",
+      "reference": "26585XT.OO.1220XT.01",
+      "src": "/images/watches/audemars-piguet/founder-19-ap-2-white-web.webp",
+      "sha256": "a991f4e502ecd75cbaedbd399f5f80ba1e1e0b9687766a28a5537cea09c54732",
+      "canonicalRoute": "/collections/audemars-piguet/royal-oak/26585xt-oo-1220xt-01",
+      "uploadId": "upload-19-ap-2"
+    },
+    {
+      "brand": "Audemars Piguet",
+      "reference": "26585CM.OO.D301VE.01",
+      "src": "/images/watches/audemars-piguet/founder-19-ap-3-white-web.webp",
+      "sha256": "ebdd057609a395dcf26f6beb0702da55b006e262ae77d41fcf2bbbcd2450c886",
+      "canonicalRoute": "/collections/audemars-piguet/royal-oak/26585cm-oo-d301ve-01",
+      "uploadId": "upload-19-ap-3"
+    },
+    {
+      "brand": "Audemars Piguet",
+      "reference": "15412BC.ZZ.1220BC.01",
+      "src": "/images/watches/audemars-piguet/founder-19-ap-5-white-web.webp",
+      "sha256": "7bd5559f1ce762de81692afbf6b5e6384429ce9c0483d057c63abf8eba96f325",
+      "canonicalRoute": "/collections/audemars-piguet/royal-oak/15412bc-zz-1220bc-01",
+      "uploadId": "upload-19-ap-5"
+    },
+    {
+      "brand": "Audemars Piguet",
+      "reference": "15412OR.ZZ.1220OR.01",
+      "src": "/images/watches/audemars-piguet/founder-19-ap-6-white-web.webp",
+      "sha256": "02e386f0acb69e18e0ff34b69abd05972c4380fef324af7910a35e59eb8d87b2",
+      "canonicalRoute": "/collections/audemars-piguet/royal-oak/15412or-zz-1220or-01",
+      "uploadId": "upload-19-ap-6"
+    },
+    {
+      "brand": "Audemars Piguet",
+      "reference": "15412BA.ZG.1224BA.01",
+      "src": "/images/watches/audemars-piguet/founder-19-ap-7-white-web.webp",
+      "sha256": "4607dc6d11640072e0e29cf73da4c5ddb2650b6218f4bd24bc63dd644901ba0c",
+      "canonicalRoute": "/collections/audemars-piguet/royal-oak/15412ba-zg-1224ba-01",
+      "uploadId": "upload-19-ap-7"
+    },
+    {
+      "brand": "Audemars Piguet",
+      "reference": "26341ST.OO.1105ST.01",
+      "src": "/images/watches/audemars-piguet/founder-19-ap-8-white-web.webp",
+      "sha256": "c2e6196a2c7a6e15262d9a0dadb5d68d9e838a33565d18ea62b19a9307f92b7f",
+      "canonicalRoute": "/collections/audemars-piguet/royal-oak/26341st-oo-1105st-01",
+      "uploadId": "upload-19-ap-8"
+    }
+  ],
+  "catalogSummary": {
+    "brands": 23,
+    "collections": 104,
+    "registryRecords": 298,
+    "distinctRoutes": 297,
+    "normalizedBrandReferenceIdentities": 294,
+    "approved": 228,
+    "missing": 69,
+    "collectionsWithPhotography": 82,
+    "unusedApprovedRecords": 2,
+    "duplicateNormalizedReferenceGroups": 4,
+    "fileIntegrityFailures": 0,
+    "recoverableCandidates": 0
+  },
+  "checks": [
+    {
+      "check": "omega-queue-sync",
+      "exitCode": 0,
+      "logFileName": "cleared-zip21-omega-queue-sync.log"
+    },
+    {
+      "check": "astro-check",
+      "exitCode": 0,
+      "logFileName": "cleared-zip21-astro-check.log"
+    },
+    {
+      "check": "regressions",
+      "exitCode": 0,
+      "logFileName": "cleared-zip21-regressions.log"
+    },
+    {
+      "check": "omega-audit",
+      "exitCode": 0,
+      "logFileName": "cleared-zip21-omega-audit.log"
+    },
+    {
+      "check": "omega-queue-check",
+      "exitCode": 0,
+      "logFileName": "cleared-zip21-omega-queue-check.log"
+    },
+    {
+      "check": "expansion-audit",
+      "exitCode": 0,
+      "logFileName": "cleared-zip21-expansion-audit.log"
+    },
+    {
+      "check": "build",
+      "exitCode": 0,
+      "logFileName": "cleared-zip21-build.log"
+    },
+    {
+      "check": "inventory",
+      "exitCode": 0,
+      "logFileName": "cleared-zip21-inventory.log"
+    },
+    {
+      "check": "full-audit",
+      "exitCode": 0,
+      "logFileName": "cleared-zip21-full-audit.log"
+    }
+  ],
+  "regressions": {
+    "passed": 246,
+    "failed": 0
+  },
+  "astro": {
+    "errors": 0,
+    "warnings": 0,
+    "hints": 20
+  },
+  "targetedBuild": {
+    "checkedAt": "2026-10-16T19:39:55.419827+00:00",
+    "mode": "built",
+    "exactReferencesChecked": 21,
+    "rows": [
+      {
+        "reference": "5167/1A-001",
+        "route": "/collections/patek-philippe/aquanaut/5167-1a-001",
+        "imageSha256": "d452ac2f0c20fa2169765e1cf93a45979032da89dbf0e61f930de820fe6dce1e",
+        "exactConfiguration": true,
+        "collectionGrid": true,
+        "inquiryContext": true,
+        "separateCredits": true,
+        "noImageCaptionOverlay": true
+      },
+      {
+        "reference": "5327G-001",
+        "route": "/collections/patek-philippe/grand-complications/5327g-001",
+        "imageSha256": "82ae0da48f6946d4e575973886637df252a9135c1f085dd75e927a28eae5b061",
+        "exactConfiguration": true,
+        "collectionGrid": true,
+        "inquiryContext": true,
+        "separateCredits": true,
+        "noImageCaptionOverlay": true
+      },
+      {
+        "reference": "4000U/000P-H003",
+        "route": "/collections/vacheron-constantin/patrimony/4000u-000p-h003",
+        "imageSha256": "918206a81806d71e549a7ba9a4210fc74d8a2b5e3eb91f7a5c41bac07e0062d8",
+        "exactConfiguration": true,
+        "collectionGrid": true,
+        "inquiryContext": true,
+        "separateCredits": true,
+        "noImageCaptionOverlay": true
+      },
+      {
+        "reference": "6000T/000P-H025",
+        "route": "/collections/vacheron-constantin/traditionnelle/6000t-000p-h025",
+        "imageSha256": "9a2188b4cd85e6c9b5f7836db8f6ddb73272baa448adde99c2d488a3c0476d96",
+        "exactConfiguration": true,
+        "collectionGrid": true,
+        "inquiryContext": true,
+        "separateCredits": true,
+        "noImageCaptionOverlay": true
+      },
+      {
+        "reference": "26615TI.OO.1220TI.01",
+        "route": "/collections/audemars-piguet/royal-oak/26615ti-oo-1220ti-01",
+        "imageSha256": "ff3a3c457c636c7e4c90b3b315193d2a63806b2c74f181bfc0cb77a33ccab007",
+        "exactConfiguration": true,
+        "collectionGrid": true,
+        "inquiryContext": true,
+        "separateCredits": true,
+        "noImageCaptionOverlay": true
+      },
+      {
+        "reference": "26393BC.OO.A321CR.01",
+        "route": "/collections/audemars-piguet/code-1159/26393bc-oo-a321cr-01",
+        "imageSha256": "6b806116ee8fb8e153be65edae463f16b35c1923312b3db9ef635379cf4d1781",
+        "exactConfiguration": true,
+        "collectionGrid": true,
+        "inquiryContext": true,
+        "separateCredits": true,
+        "noImageCaptionOverlay": true
+      },
+      {
+        "reference": "411.OM.1180.RX",
+        "route": "/collections/hublot/big-bang-unico/411-om-1180-rx",
+        "imageSha256": "d4b59ca26d581605873c77d572e717a1d589b3cdb837db4d44a40d1225fc4c29",
+        "exactConfiguration": true,
+        "collectionGrid": true,
+        "inquiryContext": true,
+        "separateCredits": true,
+        "noImageCaptionOverlay": true
+      },
+      {
+        "reference": "M7941A1A0RU-0003",
+        "route": "/collections/tudor/black-bay/m7941a1a0ru-0003",
+        "imageSha256": "1a161fdfb1ae12ba6b23bf517cee1e1cb693c4042854f632a3eff3ee4ab75dc5",
+        "exactConfiguration": true,
+        "collectionGrid": true,
+        "inquiryContext": true,
+        "separateCredits": true,
+        "noImageCaptionOverlay": true
+      },
+      {
+        "reference": "210.62.44.20.01.001",
+        "route": "/collections/omega/seamaster/210-62-44-20-01-001",
+        "imageSha256": "ab6c2bd368dab030d0f51563e9ef2066af8e68d47ac241fb09dfd2ca50c37c6e",
+        "exactConfiguration": true,
+        "collectionGrid": true,
+        "inquiryContext": true,
+        "separateCredits": true,
+        "noImageCaptionOverlay": true
+      },
+      {
+        "reference": "310.63.42.50.01.001",
+        "route": "/collections/omega/speedmaster/310-63-42-50-01-001",
+        "imageSha256": "d3372d17331f19a7eb9af52a9828d2f28aae80bf2ef01a6d492c055942d42f9b",
+        "exactConfiguration": true,
+        "collectionGrid": true,
+        "inquiryContext": true,
+        "separateCredits": true,
+        "noImageCaptionOverlay": true
+      },
+      {
+        "reference": "1502-151-3/93",
+        "route": "/collections/ulysse-nardin/diver/1502-151-3-93",
+        "imageSha256": "a94d96305438c13b65e45b8961293bdd879a44d780801396e084519549b381f1",
+        "exactConfiguration": true,
+        "collectionGrid": true,
+        "inquiryContext": true,
+        "separateCredits": true,
+        "noImageCaptionOverlay": true
+      },
+      {
+        "reference": "4300V/220G-H151",
+        "route": "/collections/vacheron-constantin/overseas/4300v-220g-h151",
+        "imageSha256": "669f5915c7e32c0489e4bc452ae9ea8a98481dea60999e9d66b44632b2e64af0",
+        "exactConfiguration": true,
+        "collectionGrid": true,
+        "inquiryContext": true,
+        "separateCredits": true,
+        "noImageCaptionOverlay": true
+      },
+      {
+        "reference": "26607BC.OO.1220BC.01",
+        "route": "/collections/audemars-piguet/royal-oak/26607bc-oo-1220bc-01",
+        "imageSha256": "4eebe79fcb6b9b0014ee5a2419a8a9bd5556277933a7fa98e6aff1d6c84c3ff3",
+        "exactConfiguration": true,
+        "collectionGrid": true,
+        "inquiryContext": true,
+        "separateCredits": true,
+        "noImageCaptionOverlay": true
+      },
+      {
+        "reference": "15500ST.OO.1220ST.03",
+        "route": "/collections/audemars-piguet/royal-oak/15500st-oo-1220st-03",
+        "imageSha256": "387ac64a330c7e3d1adb79f3c7b3cb750e8b9198bc0a5a32c44e91c580946fe2",
+        "exactConfiguration": true,
+        "collectionGrid": true,
+        "inquiryContext": true,
+        "separateCredits": true,
+        "noImageCaptionOverlay": true
+      },
+      {
+        "reference": "26585CE.OO.1225CE.01",
+        "route": "/collections/audemars-piguet/royal-oak/26585ce-oo-1225ce-01",
+        "imageSha256": "7bb1554e217b87158f67962703786f4e31a9ad1ecdffa21d69b64902c58539eb",
+        "exactConfiguration": true,
+        "collectionGrid": true,
+        "inquiryContext": true,
+        "separateCredits": true,
+        "noImageCaptionOverlay": true
+      },
+      {
+        "reference": "26585XT.OO.1220XT.01",
+        "route": "/collections/audemars-piguet/royal-oak/26585xt-oo-1220xt-01",
+        "imageSha256": "a991f4e502ecd75cbaedbd399f5f80ba1e1e0b9687766a28a5537cea09c54732",
+        "exactConfiguration": true,
+        "collectionGrid": true,
+        "inquiryContext": true,
+        "separateCredits": true,
+        "noImageCaptionOverlay": true
+      },
+      {
+        "reference": "26585CM.OO.D301VE.01",
+        "route": "/collections/audemars-piguet/royal-oak/26585cm-oo-d301ve-01",
+        "imageSha256": "ebdd057609a395dcf26f6beb0702da55b006e262ae77d41fcf2bbbcd2450c886",
+        "exactConfiguration": true,
+        "collectionGrid": true,
+        "inquiryContext": true,
+        "separateCredits": true,
+        "noImageCaptionOverlay": true
+      },
+      {
+        "reference": "15412BC.ZZ.1220BC.01",
+        "route": "/collections/audemars-piguet/royal-oak/15412bc-zz-1220bc-01",
+        "imageSha256": "7bd5559f1ce762de81692afbf6b5e6384429ce9c0483d057c63abf8eba96f325",
+        "exactConfiguration": true,
+        "collectionGrid": true,
+        "inquiryContext": true,
+        "separateCredits": true,
+        "noImageCaptionOverlay": true
+      },
+      {
+        "reference": "15412OR.ZZ.1220OR.01",
+        "route": "/collections/audemars-piguet/royal-oak/15412or-zz-1220or-01",
+        "imageSha256": "02e386f0acb69e18e0ff34b69abd05972c4380fef324af7910a35e59eb8d87b2",
+        "exactConfiguration": true,
+        "collectionGrid": true,
+        "inquiryContext": true,
+        "separateCredits": true,
+        "noImageCaptionOverlay": true
+      },
+      {
+        "reference": "15412BA.ZG.1224BA.01",
+        "route": "/collections/audemars-piguet/royal-oak/15412ba-zg-1224ba-01",
+        "imageSha256": "4607dc6d11640072e0e29cf73da4c5ddb2650b6218f4bd24bc63dd644901ba0c",
+        "exactConfiguration": true,
+        "collectionGrid": true,
+        "inquiryContext": true,
+        "separateCredits": true,
+        "noImageCaptionOverlay": true
+      },
+      {
+        "reference": "26341ST.OO.1105ST.01",
+        "route": "/collections/audemars-piguet/royal-oak/26341st-oo-1105st-01",
+        "imageSha256": "c2e6196a2c7a6e15262d9a0dadb5d68d9e838a33565d18ea62b19a9307f92b7f",
+        "exactConfiguration": true,
+        "collectionGrid": true,
+        "inquiryContext": true,
+        "separateCredits": true,
+        "noImageCaptionOverlay": true
+      }
+    ],
+    "publicFlowsAvailable": true,
+    "leadDataSafety": "Public GET checks only. No new lead submissions, private lead reads, runtime data or disk changes."
+  },
+  "visualQA": {
+    "desktop": "1440x1000 Code11.59 26393BC.01 entire centered white image and profile visually reviewed; document/client1425;1200photo loaded; no figure captions.",
+    "mobile": "390x844 GrandeComplication26341ST.01 whole bracelet/crown/pushers centered on blank white canvas; document/client375;1200photo loaded; no horizontal overflow or figure captions."
+  },
+  "rightsRecord": "docs/PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json",
+  "rightsDriveFileId": "1HFfmLAHtbf-YyK-66jhn025-qSpZ3ndZ",
+  "archiveReadbacks": [
+    {
+      "kind": "RAW-native-crops",
+      "fileName": "Quest_Luxo_Cleared_Upload_21_RAW-native-crops_2026-10-16.zip",
+      "bytes": 7049111,
+      "sha256": "ece84b143ae754eb00f71333dc072c9ab45333027bcb14db0215340451f390fd",
+      "watchCount": 21,
+      "driveFileId": "1PW6uo43c6HDLM8OC5SOQ__Phr7G75TOn",
+      "driveReadbackVerified": true
+    },
+    {
+      "kind": "WHITE-2400",
+      "fileName": "Quest_Luxo_Cleared_Upload_21_WHITE-2400_2026-10-16.zip",
+      "bytes": 33850453,
+      "sha256": "53de18846cd297245da9aca9ea3972d3a2ab9379ed850d88d883d7f1ef96b614",
+      "watchCount": 21,
+      "driveFileId": "1v0_NhFmOc7NIvG4ydodYGs_Irh07tt7A",
+      "driveReadbackVerified": true
+    },
+    {
+      "kind": "WEB-1200",
+      "fileName": "Quest_Luxo_Cleared_Upload_21_WEB-1200_2026-10-16.zip",
+      "bytes": 1707806,
+      "sha256": "904d0985e34635d581b5bb76e2cd097f2a4d267d68cf4ccd5dc93fdaba1b3dd8",
+      "watchCount": 21,
+      "driveFileId": "1J3i6r9vzL4cczAdg208-vHZrxc79__YF",
+      "driveReadbackVerified": true
+    }
+  ],
+  "qualityHolds": [
+    "1506-150LE-3/63-VB: source bezel clipped",
+    "266-10-3/92: further exterior mask refinement required"
+  ],
+  "specificationLimitations": "The two AP strap materials remain unconfirmed. Approved photographed configurations describe only the visually confirmed blue or brown strap; no leather, calfskin or alligator composition is inferred. Original pending specification configurations remain preserved. Unknown dimensions and calibres stay pending.",
+  "safety": "No customer records or credentials read; no form submissions, disk or hosting configuration changes.",
+  "warnings": "Existing Vite bundle size, Zenith punctuation alias and public robots warnings retained."
+}

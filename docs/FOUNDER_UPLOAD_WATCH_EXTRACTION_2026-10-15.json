@@ -2,7 +2,7 @@
   "archiveSha256": "251be93ab25d6a020a6d872ce33809137ba744363c5c66f7a4f22d50b0258bb4",
   "primaryAppearances": 38,
   "secondaryAppearances": 6,
-  "publishedImages": 0,
+  "publishedImages": 21,
   "privacy": "Full screenshot originals remain local; watch-only crops exclude conversation UI. No private contact data copied to this ledger.",
   "watches": [
     {
@@ -70,10 +70,8 @@
         680
       ],
       "rightsStatus": "Founder directly confirmed commercial website-use rights for the exact ZIP watch photographs and white derivatives with no restrictions; PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json",
-      "status": "Extracted; not approved for publication",
-      "holds": [
-        "Full native-resolution authenticity, configuration and edge review"
-      ],
+      "status": "Approved complete exact-reference photograph; integrated, deployment pending",
+      "holds": [],
       "segmentationReviewFileName": "upload-02-hublot-ceramic.jpg",
       "segmentationStatus": "Unapproved classical mask; needs individual edge review",
       "segmentationSha256": "ba18b12fddf1c1d24208de3bad97fd049ff81ad4522fe464e2c40fc84f42785f",
@@ -84,8 +82,17 @@
       "referenceProfileAdded": true,
       "alphaFileName": "upload-02-hublot-ceramic.png",
       "alphaSha256": "44ec904b1fbfd1a95a99eafbc82a6ce2c7dcae19fc715edcc07bf3e3cdb77f93",
-      "visualReview": "Contact sheet reviewed. Prepared extraction only; native edge, whole-watch, authenticity and rights holds remain. No publication approval.",
-      "rightsRecord": "PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json"
+      "visualReview": "Native source, exact catalog configuration and individual1200WEB visually reviewed. Complete watch; centered blank white canvas; no image captions, UI or reconstructed watch detail.",
+      "rightsRecord": "PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json",
+      "websiteApproved": true,
+      "publicationAssetId": "cleared-founder-02-hublot-ceramic",
+      "webDerivativePath": "/images/watches/hublot/founder-02-hublot-ceramic-white-web.webp",
+      "webDerivativeSHA256": "d4b59ca26d581605873c77d572e717a1d589b3cdb837db4d44a40d1225fc4c29",
+      "archiveDriveFileIds": [
+        "1PW6uo43c6HDLM8OC5SOQ__Phr7G75TOn",
+        "1v0_NhFmOc7NIvG4ydodYGs_Irh07tt7A",
+        "1J3i6r9vzL4cczAdg208-vHZrxc79__YF"
+      ]
     },
     {
       "id": "upload-02-hublot-gold",
@@ -189,10 +196,8 @@
         615
       ],
       "rightsStatus": "Founder directly confirmed commercial website-use rights for the exact ZIP watch photographs and white derivatives with no restrictions; PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json",
-      "status": "Extracted; not approved for publication",
-      "holds": [
-        "Full native-resolution authenticity, configuration and edge review"
-      ],
+      "status": "Approved complete exact-reference photograph; integrated, deployment pending",
+      "holds": [],
       "segmentationReviewFileName": "upload-03-patek.jpg",
       "segmentationStatus": "Unapproved classical mask; needs individual edge review",
       "segmentationSha256": "91f7033b7355ddea97017b2948cbbcfc1e916f0aa715f6ace7d6530ee19c4c9a",
@@ -203,8 +208,17 @@
       "referenceProfileAdded": true,
       "alphaFileName": "upload-03-patek.png",
       "alphaSha256": "497dbe0040e04bb129491d4c784e485403e41ed0bb6f168324789912aff52795",
-      "visualReview": "Contact sheet reviewed. Prepared extraction only; native edge, whole-watch, authenticity and rights holds remain. No publication approval.",
-      "rightsRecord": "PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json"
+      "visualReview": "Native source, exact catalog configuration and individual1200WEB visually reviewed. Complete watch; centered blank white canvas; no image captions, UI or reconstructed watch detail.",
+      "rightsRecord": "PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json",
+      "websiteApproved": true,
+      "publicationAssetId": "cleared-founder-03-patek",
+      "webDerivativePath": "/images/watches/patek-philippe/founder-03-patek-white-web.webp",
+      "webDerivativeSHA256": "d452ac2f0c20fa2169765e1cf93a45979032da89dbf0e61f930de820fe6dce1e",
+      "archiveDriveFileIds": [
+        "1PW6uo43c6HDLM8OC5SOQ__Phr7G75TOn",
+        "1v0_NhFmOc7NIvG4ydodYGs_Irh07tt7A",
+        "1J3i6r9vzL4cczAdg208-vHZrxc79__YF"
+      ]
     },
     {
       "id": "upload-03-ap",
@@ -229,18 +243,14 @@
         615
       ],
       "rightsStatus": "Founder directly confirmed commercial website-use rights for the exact ZIP watch photographs and white derivatives with no restrictions; PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json",
-      "status": "Extracted; not approved for publication",
-      "holds": [
-        "Source authenticity and exact configuration review",
-        "15400ST versus 15500ST generation and full black-dial SKU unresolved.",
-        "Final whole-watch authenticity and edge quality review"
-      ],
+      "status": "Approved complete exact-reference photograph; integrated, deployment pending",
+      "holds": [],
       "segmentationReviewFileName": "upload-03-ap.jpg",
       "segmentationStatus": "Unapproved classical mask; needs individual edge review",
       "segmentationSha256": "7e352106b08ef737651815b66b6f0c9458e56b2e9afd9a0edb6cff69a7e51b40",
       "alphaFileName": "upload-03-ap.png",
       "alphaSha256": "c853faebfd853ebdf5a0f2ed2023d2650a312144118280c2fa937a42c743a816",
-      "visualReview": "Contact sheet reviewed. Prepared extraction only; native edge, whole-watch, authenticity and rights holds remain. No publication approval.",
+      "visualReview": "Native source, exact catalog configuration and individual1200WEB visually reviewed. Complete watch; centered blank white canvas; no image captions, UI or reconstructed watch detail.",
       "verifiedCatalogReference": "15500ST.OO.1220ST.03",
       "identitySource": "https://www.audemarspiguet.com/us/en/watch-collection/royal-oak/15500ST.OO.1220ST.03",
       "catalogBrandSlug": "audemars-piguet",
@@ -248,7 +258,16 @@
       "referenceProfileAdded": true,
       "identityReview": "Manufacturer confirms 15500 generation with wide indexes, external printed minute track and outward date window. Those visible features distinguish this upload from the older15400 candidate; black steel full SKU03 established.",
       "identityReviewedAt": "2026-10-16",
-      "rightsRecord": "PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json"
+      "rightsRecord": "PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json",
+      "websiteApproved": true,
+      "publicationAssetId": "cleared-founder-03-ap",
+      "webDerivativePath": "/images/watches/audemars-piguet/founder-03-ap-white-web.webp",
+      "webDerivativeSHA256": "387ac64a330c7e3d1adb79f3c7b3cb750e8b9198bc0a5a32c44e91c580946fe2",
+      "archiveDriveFileIds": [
+        "1PW6uo43c6HDLM8OC5SOQ__Phr7G75TOn",
+        "1v0_NhFmOc7NIvG4ydodYGs_Irh07tt7A",
+        "1J3i6r9vzL4cczAdg208-vHZrxc79__YF"
+      ]
     },
     {
       "id": "upload-09-vc",
@@ -273,10 +292,8 @@
         605
       ],
       "rightsStatus": "Founder directly confirmed commercial website-use rights for the exact ZIP watch photographs and white derivatives with no restrictions; PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json",
-      "status": "Extracted; not approved for publication",
-      "holds": [
-        "Full native-resolution authenticity, configuration and edge review"
-      ],
+      "status": "Approved complete exact-reference photograph; integrated, deployment pending",
+      "holds": [],
       "segmentationReviewFileName": "upload-09-vc.jpg",
       "segmentationStatus": "Unapproved classical mask; needs individual edge review",
       "segmentationSha256": "84ec986b84d13cb07ea38bbe8f69b635662e1aab0ccb80715d3d23109c235360",
@@ -287,8 +304,17 @@
       "referenceProfileAdded": true,
       "alphaFileName": "upload-09-vc.png",
       "alphaSha256": "5c457a336489727dbbac694d2afa5abcf28dfe1815aa0e4f5a66b9b9eaf99200",
-      "visualReview": "Contact sheet reviewed. Prepared extraction only; native edge, whole-watch, authenticity and rights holds remain. No publication approval.",
-      "rightsRecord": "PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json"
+      "visualReview": "Native source, exact catalog configuration and individual1200WEB visually reviewed. Complete watch; centered blank white canvas; no image captions, UI or reconstructed watch detail.",
+      "rightsRecord": "PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json",
+      "websiteApproved": true,
+      "publicationAssetId": "cleared-founder-09-vc",
+      "webDerivativePath": "/images/watches/vacheron-constantin/founder-09-vc-white-web.webp",
+      "webDerivativeSHA256": "918206a81806d71e549a7ba9a4210fc74d8a2b5e3eb91f7a5c41bac07e0062d8",
+      "archiveDriveFileIds": [
+        "1PW6uo43c6HDLM8OC5SOQ__Phr7G75TOn",
+        "1v0_NhFmOc7NIvG4ydodYGs_Irh07tt7A",
+        "1J3i6r9vzL4cczAdg208-vHZrxc79__YF"
+      ]
     },
     {
       "id": "upload-09-patek",
@@ -357,10 +383,8 @@
         605
       ],
       "rightsStatus": "Founder directly confirmed commercial website-use rights for the exact ZIP watch photographs and white derivatives with no restrictions; PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json",
-      "status": "Extracted; not approved for publication",
-      "holds": [
-        "Full native-resolution authenticity, configuration and edge review"
-      ],
+      "status": "Approved complete exact-reference photograph; integrated, deployment pending",
+      "holds": [],
       "segmentationReviewFileName": "upload-09-ap.jpg",
       "segmentationStatus": "Unapproved classical mask; needs individual edge review",
       "segmentationSha256": "60a89dc5416ec3302406a9d824b6ddb8eb27d8ef2841e4825612dfab7fd16f5b",
@@ -371,8 +395,17 @@
       "referenceProfileAdded": true,
       "alphaFileName": "upload-09-ap.png",
       "alphaSha256": "c777e16761cb3e5c424db4fe97b23924cc8fabd4437ca2331f40a8be8b304c3b",
-      "visualReview": "Contact sheet reviewed. Prepared extraction only; native edge, whole-watch, authenticity and rights holds remain. No publication approval.",
-      "rightsRecord": "PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json"
+      "visualReview": "Native source, exact catalog configuration and individual1200WEB visually reviewed. Complete watch; centered blank white canvas; no image captions, UI or reconstructed watch detail.",
+      "rightsRecord": "PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json",
+      "websiteApproved": true,
+      "publicationAssetId": "cleared-founder-09-ap",
+      "webDerivativePath": "/images/watches/audemars-piguet/founder-09-ap-white-web.webp",
+      "webDerivativeSHA256": "ff3a3c457c636c7e4c90b3b315193d2a63806b2c74f181bfc0cb77a33ccab007",
+      "archiveDriveFileIds": [
+        "1PW6uo43c6HDLM8OC5SOQ__Phr7G75TOn",
+        "1v0_NhFmOc7NIvG4ydodYGs_Irh07tt7A",
+        "1J3i6r9vzL4cczAdg208-vHZrxc79__YF"
+      ]
     },
     {
       "id": "upload-11-vc",
@@ -386,7 +419,7 @@
         1565
       ],
       "identityCandidate": "4300V/220G-H151",
-      "partialSource": true,
+      "partialSource": false,
       "secondaryAppearance": false,
       "sourceFileName": "Screenshot_20261015_223830_Instagram.jpg",
       "sourceSha256": "7309c64222df88f07259b7ca72a2890f59ade88250a3222d9b5267efe8a730ee",
@@ -397,10 +430,8 @@
         615
       ],
       "rightsStatus": "Founder directly confirmed commercial website-use rights for the exact ZIP watch photographs and white derivatives with no restrictions; PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json",
-      "status": "Extracted; not approved for publication",
-      "holds": [
-        "Full native-resolution authenticity, configuration and edge review"
-      ],
+      "status": "Approved complete exact-reference photograph; integrated, deployment pending",
+      "holds": [],
       "segmentationReviewFileName": "upload-11-vc.jpg",
       "segmentationStatus": "Unapproved classical mask; needs individual edge review",
       "segmentationSha256": "7582ac181fa3e59b1cf516b84c16c3ecdba4831e170c2a192163a889de270d4b",
@@ -412,8 +443,17 @@
       "identityReview": "Exact manufacturer/retailer configuration established; earlier candidate uncertainty superseded. No photo publication approval implied.",
       "alphaFileName": "upload-11-vc.png",
       "alphaSha256": "4ef1df2668f2ccf005237ad16c104edf9906d6c3d4cef6fee5c861fb650e42fd",
-      "visualReview": "Contact sheet reviewed. Prepared extraction only; native edge, whole-watch, authenticity and rights holds remain. No publication approval.",
-      "rightsRecord": "PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json"
+      "visualReview": "Native source, exact catalog configuration and individual1200WEB visually reviewed. Complete watch; centered blank white canvas; no image captions, UI or reconstructed watch detail.",
+      "rightsRecord": "PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json",
+      "websiteApproved": true,
+      "publicationAssetId": "cleared-founder-11-vc",
+      "webDerivativePath": "/images/watches/vacheron-constantin/founder-11-vc-white-web.webp",
+      "webDerivativeSHA256": "669f5915c7e32c0489e4bc452ae9ea8a98481dea60999e9d66b44632b2e64af0",
+      "archiveDriveFileIds": [
+        "1PW6uo43c6HDLM8OC5SOQ__Phr7G75TOn",
+        "1v0_NhFmOc7NIvG4ydodYGs_Irh07tt7A",
+        "1J3i6r9vzL4cczAdg208-vHZrxc79__YF"
+      ]
     },
     {
       "id": "upload-11-patek",
@@ -482,10 +522,8 @@
         615
       ],
       "rightsStatus": "Founder directly confirmed commercial website-use rights for the exact ZIP watch photographs and white derivatives with no restrictions; PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json",
-      "status": "Extracted; not approved for publication",
-      "holds": [
-        "Full native-resolution authenticity, configuration and edge review"
-      ],
+      "status": "Approved complete exact-reference photograph; integrated, deployment pending",
+      "holds": [],
       "segmentationReviewFileName": "upload-11-ap.jpg",
       "segmentationStatus": "Unapproved classical mask; needs individual edge review",
       "segmentationSha256": "40b92ecf395b860c3a85b3b055fe457ecb800b8538c9edb5f5f3828db44989b3",
@@ -496,8 +534,17 @@
       "referenceProfileAdded": true,
       "alphaFileName": "upload-11-ap.png",
       "alphaSha256": "63d1fdae48fafcde795bc6e3c534933ae4653c99b1ad22b8f492d9ca00f44a35",
-      "visualReview": "Contact sheet reviewed. Prepared extraction only; native edge, whole-watch, authenticity and rights holds remain. No publication approval.",
-      "rightsRecord": "PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json"
+      "visualReview": "Native source, exact catalog configuration and individual1200WEB visually reviewed. Complete watch; centered blank white canvas; no image captions, UI or reconstructed watch detail.",
+      "rightsRecord": "PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json",
+      "websiteApproved": true,
+      "publicationAssetId": "cleared-founder-11-ap",
+      "webDerivativePath": "/images/watches/audemars-piguet/founder-11-ap-white-web.webp",
+      "webDerivativeSHA256": "4eebe79fcb6b9b0014ee5a2419a8a9bd5556277933a7fa98e6aff1d6c84c3ff3",
+      "archiveDriveFileIds": [
+        "1PW6uo43c6HDLM8OC5SOQ__Phr7G75TOn",
+        "1v0_NhFmOc7NIvG4ydodYGs_Irh07tt7A",
+        "1J3i6r9vzL4cczAdg208-vHZrxc79__YF"
+      ]
     },
     {
       "id": "upload-14-vc",
@@ -560,10 +607,8 @@
         600
       ],
       "rightsStatus": "Founder directly confirmed commercial website-use rights for the exact ZIP watch photographs and white derivatives with no restrictions; PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json",
-      "status": "Extracted; not approved for publication",
-      "holds": [
-        "Full native-resolution authenticity, configuration and edge review"
-      ],
+      "status": "Approved complete exact-reference photograph; integrated, deployment pending",
+      "holds": [],
       "segmentationReviewFileName": "upload-14-patek.jpg",
       "segmentationStatus": "Unapproved classical mask; needs individual edge review",
       "segmentationSha256": "a438f1becef9aa9dd803244895e53f7e4c5c0fabf15a52960a032b7e66066a66",
@@ -574,8 +619,17 @@
       "referenceProfileAdded": true,
       "alphaFileName": "upload-14-patek.png",
       "alphaSha256": "672d38918dfdee7e30580e507aa23733d1bc1bd9f810560cb165cd1a63f13f0d",
-      "visualReview": "Contact sheet reviewed. Prepared extraction only; native edge, whole-watch, authenticity and rights holds remain. No publication approval.",
-      "rightsRecord": "PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json"
+      "visualReview": "Native source, exact catalog configuration and individual1200WEB visually reviewed. Complete watch; centered blank white canvas; no image captions, UI or reconstructed watch detail.",
+      "rightsRecord": "PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json",
+      "websiteApproved": true,
+      "publicationAssetId": "cleared-founder-14-patek",
+      "webDerivativePath": "/images/watches/patek-philippe/founder-14-patek-white-web.webp",
+      "webDerivativeSHA256": "82ae0da48f6946d4e575973886637df252a9135c1f085dd75e927a28eae5b061",
+      "archiveDriveFileIds": [
+        "1PW6uo43c6HDLM8OC5SOQ__Phr7G75TOn",
+        "1v0_NhFmOc7NIvG4ydodYGs_Irh07tt7A",
+        "1J3i6r9vzL4cczAdg208-vHZrxc79__YF"
+      ]
     },
     {
       "id": "upload-14-ap",
@@ -600,10 +654,8 @@
         600
       ],
       "rightsStatus": "Founder directly confirmed commercial website-use rights for the exact ZIP watch photographs and white derivatives with no restrictions; PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json",
-      "status": "Extracted; not approved for publication",
-      "holds": [
-        "Full native-resolution authenticity, configuration and edge review"
-      ],
+      "status": "Approved complete exact-reference photograph; integrated, deployment pending",
+      "holds": [],
       "segmentationReviewFileName": "upload-14-ap.jpg",
       "segmentationStatus": "Unapproved classical mask; needs individual edge review",
       "segmentationSha256": "6c489df2346761ab1fc2f2190718c810ba32043963faeeaccca53ede9467597a",
@@ -614,8 +666,17 @@
       "referenceProfileAdded": true,
       "alphaFileName": "upload-14-ap.png",
       "alphaSha256": "69db0c744c3d663bd37ceb83845d21e203eddfcb7ee97707d9737fc88f627474",
-      "visualReview": "Contact sheet reviewed. Prepared extraction only; native edge, whole-watch, authenticity and rights holds remain. No publication approval.",
-      "rightsRecord": "PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json"
+      "visualReview": "Native source, exact catalog configuration and individual1200WEB visually reviewed. Complete watch; centered blank white canvas; no image captions, UI or reconstructed watch detail.",
+      "rightsRecord": "PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json",
+      "websiteApproved": true,
+      "publicationAssetId": "cleared-founder-14-ap",
+      "webDerivativePath": "/images/watches/audemars-piguet/founder-14-ap-white-web.webp",
+      "webDerivativeSHA256": "6b806116ee8fb8e153be65edae463f16b35c1923312b3db9ef635379cf4d1781",
+      "archiveDriveFileIds": [
+        "1PW6uo43c6HDLM8OC5SOQ__Phr7G75TOn",
+        "1v0_NhFmOc7NIvG4ydodYGs_Irh07tt7A",
+        "1J3i6r9vzL4cczAdg208-vHZrxc79__YF"
+      ]
     },
     {
       "id": "upload-12-vc",
@@ -629,7 +690,7 @@
         1430
       ],
       "identityCandidate": "6000T/000P-H025",
-      "partialSource": true,
+      "partialSource": false,
       "secondaryAppearance": false,
       "sourceFileName": "Screenshot_20261015_223820_Instagram.jpg",
       "sourceSha256": "04a4179eb7b9687c51961e88ca02fb8701070df9516bfbb90000e3baa7e90495",
@@ -640,11 +701,8 @@
         595
       ],
       "rightsStatus": "Founder directly confirmed commercial website-use rights for the exact ZIP watch photographs and white derivatives with no restrictions; PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json",
-      "status": "Extracted; not approved for publication",
-      "holds": [
-        "Full native-resolution authenticity, configuration and edge review",
-        "Incomplete original framing"
-      ],
+      "status": "Approved complete exact-reference photograph; integrated, deployment pending",
+      "holds": [],
       "segmentationReviewFileName": "upload-12-vc.jpg",
       "segmentationStatus": "Unapproved classical mask; needs individual edge review",
       "segmentationSha256": "5c9c1d22205155d96603f785dfcac114bedb40ba79d181dff27b39fd8b97ca8e",
@@ -655,8 +713,17 @@
       "referenceProfileAdded": true,
       "alphaFileName": "upload-12-vc.png",
       "alphaSha256": "83ad019c0864ea6284d2d6dca14f84041145f46da1d724ff51f9c55d79e321cd",
-      "visualReview": "Contact sheet reviewed. Prepared extraction only; native edge, whole-watch, authenticity and rights holds remain. No publication approval.",
-      "rightsRecord": "PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json"
+      "visualReview": "Native source, exact catalog configuration and individual1200WEB visually reviewed. Complete watch; centered blank white canvas; no image captions, UI or reconstructed watch detail.",
+      "rightsRecord": "PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json",
+      "websiteApproved": true,
+      "publicationAssetId": "cleared-founder-12-vc",
+      "webDerivativePath": "/images/watches/vacheron-constantin/founder-12-vc-white-web.webp",
+      "webDerivativeSHA256": "9a2188b4cd85e6c9b5f7836db8f6ddb73272baa448adde99c2d488a3c0476d96",
+      "archiveDriveFileIds": [
+        "1PW6uo43c6HDLM8OC5SOQ__Phr7G75TOn",
+        "1v0_NhFmOc7NIvG4ydodYGs_Irh07tt7A",
+        "1J3i6r9vzL4cczAdg208-vHZrxc79__YF"
+      ]
     },
     {
       "id": "upload-12-patek",
@@ -798,10 +865,8 @@
         1055
       ],
       "rightsStatus": "Founder directly confirmed commercial website-use rights for the exact ZIP watch photographs and white derivatives with no restrictions; PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json",
-      "status": "Extracted; not approved for publication",
-      "holds": [
-        "Full native-resolution authenticity, configuration and edge review"
-      ],
+      "status": "Approved complete exact-reference photograph; integrated, deployment pending",
+      "holds": [],
       "segmentationReviewFileName": "upload-05-tudor.jpg",
       "segmentationStatus": "Reprocessed external white-background contour preserving full five-link bracelet; individual visual review pending",
       "segmentationSha256": "6d2a54696deb6839c79fdb27e7439184a0b0840d4ded825d375b7529b9f11297",
@@ -812,8 +877,17 @@
       "referenceProfileAdded": true,
       "alphaFileName": "upload-05-tudor.png",
       "alphaSha256": "6be072126c5ec0f979627bcbf09c8cb1e852ebda5e30352c5b3e2f24945ea422",
-      "visualReview": "Full1200canvas reviewed after preserving five-link steel bracelet. Watch complete and centered; minor source shadow retained. Underlying commercial-use evidence remains undocumented.",
-      "rightsRecord": "PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json"
+      "visualReview": "Native source, exact catalog configuration and individual1200WEB visually reviewed. Complete watch; centered blank white canvas; no image captions, UI or reconstructed watch detail.",
+      "rightsRecord": "PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json",
+      "websiteApproved": true,
+      "publicationAssetId": "cleared-founder-05-tudor",
+      "webDerivativePath": "/images/watches/tudor/founder-05-tudor-white-web.webp",
+      "webDerivativeSHA256": "1a161fdfb1ae12ba6b23bf517cee1e1cb693c4042854f632a3eff3ee4ab75dc5",
+      "archiveDriveFileIds": [
+        "1PW6uo43c6HDLM8OC5SOQ__Phr7G75TOn",
+        "1v0_NhFmOc7NIvG4ydodYGs_Irh07tt7A",
+        "1J3i6r9vzL4cczAdg208-vHZrxc79__YF"
+      ]
     },
     {
       "id": "upload-06-ceramic-diver",
@@ -838,10 +912,8 @@
         715
       ],
       "rightsStatus": "Founder directly confirmed commercial website-use rights for the exact ZIP watch photographs and white derivatives with no restrictions; PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json",
-      "status": "Extracted; not approved for publication",
-      "holds": [
-        "Full native-resolution authenticity, configuration and edge review"
-      ],
+      "status": "Approved complete exact-reference photograph; integrated, deployment pending",
+      "holds": [],
       "segmentationReviewFileName": "upload-06-ceramic-diver.jpg",
       "segmentationStatus": "Unapproved classical mask; needs individual edge review",
       "segmentationSha256": "9bfceb11624984584ff07651d4034049e584bfc6619c4f80434391f4ebb5711b",
@@ -852,8 +924,17 @@
       "referenceProfileAdded": true,
       "alphaFileName": "upload-06-ceramic-diver.png",
       "alphaSha256": "cf830827d4401141de7efb86739c1f3429dee855b15ca5a7a8bd99150e8d6458",
-      "visualReview": "Contact sheet reviewed. Prepared extraction only; native edge, whole-watch, authenticity and rights holds remain. No publication approval.",
-      "rightsRecord": "PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json"
+      "visualReview": "Native source, exact catalog configuration and individual1200WEB visually reviewed. Complete watch; centered blank white canvas; no image captions, UI or reconstructed watch detail.",
+      "rightsRecord": "PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json",
+      "websiteApproved": true,
+      "publicationAssetId": "cleared-founder-06-ceramic-diver",
+      "webDerivativePath": "/images/watches/omega/founder-06-ceramic-diver-white-web.webp",
+      "webDerivativeSHA256": "ab6c2bd368dab030d0f51563e9ef2066af8e68d47ac241fb09dfd2ca50c37c6e",
+      "archiveDriveFileIds": [
+        "1PW6uo43c6HDLM8OC5SOQ__Phr7G75TOn",
+        "1v0_NhFmOc7NIvG4ydodYGs_Irh07tt7A",
+        "1J3i6r9vzL4cczAdg208-vHZrxc79__YF"
+      ]
     },
     {
       "id": "upload-07-diver-chrono",
@@ -878,10 +959,8 @@
         1345
       ],
       "rightsStatus": "Founder directly confirmed commercial website-use rights for the exact ZIP watch photographs and white derivatives with no restrictions; PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json",
-      "status": "Extracted; not approved for publication",
-      "holds": [
-        "Full native-resolution authenticity, configuration and edge review"
-      ],
+      "status": "Approved complete exact-reference photograph; integrated, deployment pending",
+      "holds": [],
       "segmentationReviewFileName": "upload-07-diver-chrono.jpg",
       "segmentationStatus": "Unapproved classical mask; needs individual edge review",
       "segmentationSha256": "92fe0ca64bfa4886279e66f9532784aa7ef3a414011fa7558b4a2d59854ba526",
@@ -893,8 +972,17 @@
       "duplicateOf": "upload-08-blue-chrono",
       "alphaFileName": "upload-07-diver-chrono.png",
       "alphaSha256": "961641d23d3e8a9d0ae41cf9053ad6dac187a9c3f66c12d5f6badfb528e27760",
-      "visualReview": "Contact sheet reviewed. Prepared extraction only; native edge, whole-watch, authenticity and rights holds remain. No publication approval.",
-      "rightsRecord": "PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json"
+      "visualReview": "Native source, exact catalog configuration and individual1200WEB visually reviewed. Complete watch; centered blank white canvas; no image captions, UI or reconstructed watch detail.",
+      "rightsRecord": "PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json",
+      "websiteApproved": true,
+      "publicationAssetId": "cleared-founder-07-diver-chrono",
+      "webDerivativePath": "/images/watches/ulysse-nardin/founder-07-diver-chrono-white-web.webp",
+      "webDerivativeSHA256": "a94d96305438c13b65e45b8961293bdd879a44d780801396e084519549b381f1",
+      "archiveDriveFileIds": [
+        "1PW6uo43c6HDLM8OC5SOQ__Phr7G75TOn",
+        "1v0_NhFmOc7NIvG4ydodYGs_Irh07tt7A",
+        "1J3i6r9vzL4cczAdg208-vHZrxc79__YF"
+      ]
     },
     {
       "id": "upload-08-white-diver",
@@ -1042,9 +1130,9 @@
         1450
       ],
       "rightsStatus": "Founder directly confirmed commercial website-use rights for the exact ZIP watch photographs and white derivatives with no restrictions; PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json",
-      "status": "Extracted; not approved for publication",
+      "status": "Held for exterior mask refinement",
       "holds": [
-        "Full native-resolution authenticity, configuration and edge review"
+        "Remove remaining exterior black background without changing the watch."
       ],
       "segmentationReviewFileName": "upload-13-maxi-diver.jpg",
       "segmentationStatus": "Manual exterior-guided classical mask retains visible source portions; review pending. Original incomplete framing remains held.",
@@ -1124,10 +1212,8 @@
         1090
       ],
       "rightsStatus": "Founder directly confirmed commercial website-use rights for the exact ZIP watch photographs and white derivatives with no restrictions; PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json",
-      "status": "Extracted; not approved for publication",
-      "holds": [
-        "Full native-resolution authenticity, configuration and edge review"
-      ],
+      "status": "Approved complete exact-reference photograph; integrated, deployment pending",
+      "holds": [],
       "segmentationReviewFileName": "upload-16-moonwatch.jpg",
       "segmentationStatus": "Unapproved classical mask; needs individual edge review",
       "segmentationSha256": "9ddfc772aa340a72e5b8946d4fc45ea5cb48adef6323ccc28fafcc7a993ca591",
@@ -1138,8 +1224,17 @@
       "referenceProfileAdded": true,
       "alphaFileName": "upload-16-moonwatch.png",
       "alphaSha256": "4b9043617d36215f9c75943844aa559427e6c86fa69c4d40aaeb11dbf7bda31f",
-      "visualReview": "Contact sheet reviewed. Prepared extraction only; native edge, whole-watch, authenticity and rights holds remain. No publication approval.",
-      "rightsRecord": "PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json"
+      "visualReview": "Native source, exact catalog configuration and individual1200WEB visually reviewed. Complete watch; centered blank white canvas; no image captions, UI or reconstructed watch detail.",
+      "rightsRecord": "PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json",
+      "websiteApproved": true,
+      "publicationAssetId": "cleared-founder-16-moonwatch",
+      "webDerivativePath": "/images/watches/omega/founder-16-moonwatch-white-web.webp",
+      "webDerivativeSHA256": "d3372d17331f19a7eb9af52a9828d2f28aae80bf2ef01a6d492c055942d42f9b",
+      "archiveDriveFileIds": [
+        "1PW6uo43c6HDLM8OC5SOQ__Phr7G75TOn",
+        "1v0_NhFmOc7NIvG4ydodYGs_Irh07tt7A",
+        "1J3i6r9vzL4cczAdg208-vHZrxc79__YF"
+      ]
     },
     {
       "id": "upload-17-yacht-master",
@@ -1202,9 +1297,9 @@
         1810
       ],
       "rightsStatus": "Founder directly confirmed commercial website-use rights for the exact ZIP watch photographs and white derivatives with no restrictions; PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json",
-      "status": "Extracted; not approved for publication",
+      "status": "Held for source clipping",
       "holds": [
-        "Full native-resolution authenticity, configuration and edge review"
+        "Untouched source clips left bezel. Do not reconstruct missing watch detail."
       ],
       "segmentationReviewFileName": "upload-18-regate.jpg",
       "segmentationStatus": "Unapproved classical mask; needs individual edge review",
@@ -1243,10 +1338,8 @@
         405
       ],
       "rightsStatus": "Founder directly confirmed commercial website-use rights for the exact ZIP watch photographs and white derivatives with no restrictions; PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json",
-      "status": "Extracted; not approved for publication",
-      "holds": [
-        "Full native-resolution authenticity, configuration and edge review"
-      ],
+      "status": "Approved complete exact-reference photograph; integrated, deployment pending",
+      "holds": [],
       "segmentationReviewFileName": "upload-19-ap-1.jpg",
       "segmentationStatus": "Unapproved classical mask; needs individual edge review",
       "segmentationSha256": "240537cf50ff7bddddf447091664a76a415360eb3f0723c4187c265523f2bf64",
@@ -1257,8 +1350,17 @@
       "referenceProfileAdded": true,
       "alphaFileName": "upload-19-ap-1.png",
       "alphaSha256": "b362fc96a402a3ea5ce284e27e5283d30b5d72dac4849ae5004947e75dd84e2a",
-      "visualReview": "Contact sheet reviewed. Prepared extraction only; native edge, whole-watch, authenticity and rights holds remain. No publication approval.",
-      "rightsRecord": "PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json"
+      "visualReview": "Native source, exact catalog configuration and individual1200WEB visually reviewed. Complete watch; centered blank white canvas; no image captions, UI or reconstructed watch detail.",
+      "rightsRecord": "PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json",
+      "websiteApproved": true,
+      "publicationAssetId": "cleared-founder-19-ap-1",
+      "webDerivativePath": "/images/watches/audemars-piguet/founder-19-ap-1-white-web.webp",
+      "webDerivativeSHA256": "7bb1554e217b87158f67962703786f4e31a9ad1ecdffa21d69b64902c58539eb",
+      "archiveDriveFileIds": [
+        "1PW6uo43c6HDLM8OC5SOQ__Phr7G75TOn",
+        "1v0_NhFmOc7NIvG4ydodYGs_Irh07tt7A",
+        "1J3i6r9vzL4cczAdg208-vHZrxc79__YF"
+      ]
     },
     {
       "id": "upload-19-ap-2",
@@ -1283,10 +1385,8 @@
         405
       ],
       "rightsStatus": "Founder directly confirmed commercial website-use rights for the exact ZIP watch photographs and white derivatives with no restrictions; PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json",
-      "status": "Extracted; not approved for publication",
-      "holds": [
-        "Full native-resolution authenticity, configuration and edge review"
-      ],
+      "status": "Approved complete exact-reference photograph; integrated, deployment pending",
+      "holds": [],
       "segmentationReviewFileName": "upload-19-ap-2.jpg",
       "segmentationStatus": "Unapproved classical mask; needs individual edge review",
       "segmentationSha256": "decbfdc1b6b90979ccd108b183eebb91c8b9faa1a598baf3fb345e22065e010c",
@@ -1297,8 +1397,17 @@
       "referenceProfileAdded": true,
       "alphaFileName": "upload-19-ap-2.png",
       "alphaSha256": "dc134db6558627da8b836f2e4df7dc59e7dd8590c0172d50464ea3a506530686",
-      "visualReview": "Contact sheet reviewed. Prepared extraction only; native edge, whole-watch, authenticity and rights holds remain. No publication approval.",
-      "rightsRecord": "PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json"
+      "visualReview": "Native source, exact catalog configuration and individual1200WEB visually reviewed. Complete watch; centered blank white canvas; no image captions, UI or reconstructed watch detail.",
+      "rightsRecord": "PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json",
+      "websiteApproved": true,
+      "publicationAssetId": "cleared-founder-19-ap-2",
+      "webDerivativePath": "/images/watches/audemars-piguet/founder-19-ap-2-white-web.webp",
+      "webDerivativeSHA256": "a991f4e502ecd75cbaedbd399f5f80ba1e1e0b9687766a28a5537cea09c54732",
+      "archiveDriveFileIds": [
+        "1PW6uo43c6HDLM8OC5SOQ__Phr7G75TOn",
+        "1v0_NhFmOc7NIvG4ydodYGs_Irh07tt7A",
+        "1J3i6r9vzL4cczAdg208-vHZrxc79__YF"
+      ]
     },
     {
       "id": "upload-19-ap-3",
@@ -1323,10 +1432,8 @@
         405
       ],
       "rightsStatus": "Founder directly confirmed commercial website-use rights for the exact ZIP watch photographs and white derivatives with no restrictions; PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json",
-      "status": "Extracted; not approved for publication",
-      "holds": [
-        "Full native-resolution authenticity, configuration and edge review"
-      ],
+      "status": "Approved complete exact-reference photograph; integrated, deployment pending",
+      "holds": [],
       "segmentationReviewFileName": "upload-19-ap-3.jpg",
       "segmentationStatus": "Unapproved classical mask; needs individual edge review",
       "segmentationSha256": "6ab0244160402013f0bc48cf9ff08b621566beeb0234ce1f930efeb4f20a6028",
@@ -1337,8 +1444,24 @@
       "referenceProfileAdded": true,
       "alphaFileName": "upload-19-ap-3.png",
       "alphaSha256": "4a3794755403d4c775a52a5fec417d19eb3e098e509e67e58a483c7552ac48c2",
-      "visualReview": "Contact sheet reviewed. Prepared extraction only; native edge, whole-watch, authenticity and rights holds remain. No publication approval.",
-      "rightsRecord": "PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json"
+      "visualReview": "Native source, exact catalog configuration and individual1200WEB visually reviewed. Complete watch; centered blank white canvas; no image captions, UI or reconstructed watch detail.",
+      "rightsRecord": "PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json",
+      "websiteApproved": true,
+      "publicationAssetId": "cleared-founder-19-ap-3",
+      "webDerivativePath": "/images/watches/audemars-piguet/founder-19-ap-3-white-web.webp",
+      "webDerivativeSHA256": "ebdd057609a395dcf26f6beb0702da55b006e262ae77d41fcf2bbbcd2450c886",
+      "archiveDriveFileIds": [
+        "1PW6uo43c6HDLM8OC5SOQ__Phr7G75TOn",
+        "1v0_NhFmOc7NIvG4ydodYGs_Irh07tt7A",
+        "1J3i6r9vzL4cczAdg208-vHZrxc79__YF"
+      ],
+      "approvedRecoveredCropBox": [
+        533,
+        622,
+        803,
+        1043
+      ],
+      "approvedRecoveredCropSha256": "48495a4da2a4710d44baaf1a426335a5fdaa43a696aed97a6650ca72e7ea7319"
     },
     {
       "id": "upload-19-ap-4",
@@ -1400,10 +1523,8 @@
         410
       ],
       "rightsStatus": "Founder directly confirmed commercial website-use rights for the exact ZIP watch photographs and white derivatives with no restrictions; PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json",
-      "status": "Extracted; not approved for publication",
-      "holds": [
-        "Full native-resolution authenticity, configuration and edge review"
-      ],
+      "status": "Approved complete exact-reference photograph; integrated, deployment pending",
+      "holds": [],
       "segmentationReviewFileName": "upload-19-ap-5.jpg",
       "segmentationStatus": "Unapproved classical mask; needs individual edge review",
       "segmentationSha256": "37359dc9c86f589154d5e4eda027ede6a5b4f1bae104848a407ef4ec8601e90f",
@@ -1414,8 +1535,17 @@
       "referenceProfileAdded": true,
       "alphaFileName": "upload-19-ap-5.png",
       "alphaSha256": "b32e5eaf1406ca37163ce343ae2517540213af9a9c73752af59d3c5de51f7e3f",
-      "visualReview": "Contact sheet reviewed. Prepared extraction only; native edge, whole-watch, authenticity and rights holds remain. No publication approval.",
-      "rightsRecord": "PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json"
+      "visualReview": "Native source, exact catalog configuration and individual1200WEB visually reviewed. Complete watch; centered blank white canvas; no image captions, UI or reconstructed watch detail.",
+      "rightsRecord": "PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json",
+      "websiteApproved": true,
+      "publicationAssetId": "cleared-founder-19-ap-5",
+      "webDerivativePath": "/images/watches/audemars-piguet/founder-19-ap-5-white-web.webp",
+      "webDerivativeSHA256": "7bd5559f1ce762de81692afbf6b5e6384429ce9c0483d057c63abf8eba96f325",
+      "archiveDriveFileIds": [
+        "1PW6uo43c6HDLM8OC5SOQ__Phr7G75TOn",
+        "1v0_NhFmOc7NIvG4ydodYGs_Irh07tt7A",
+        "1J3i6r9vzL4cczAdg208-vHZrxc79__YF"
+      ]
     },
     {
       "id": "upload-19-ap-6",
@@ -1440,10 +1570,8 @@
         410
       ],
       "rightsStatus": "Founder directly confirmed commercial website-use rights for the exact ZIP watch photographs and white derivatives with no restrictions; PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json",
-      "status": "Extracted; not approved for publication",
-      "holds": [
-        "Full native-resolution authenticity, configuration and edge review"
-      ],
+      "status": "Approved complete exact-reference photograph; integrated, deployment pending",
+      "holds": [],
       "segmentationReviewFileName": "upload-19-ap-6.jpg",
       "segmentationStatus": "Unapproved classical mask; needs individual edge review",
       "segmentationSha256": "114b9d2962aaccea821c6d22b8014b3530b22f1b04d6f6f5dfaaf4b93ffb0a98",
@@ -1454,8 +1582,17 @@
       "referenceProfileAdded": true,
       "alphaFileName": "upload-19-ap-6.png",
       "alphaSha256": "c30c2902906c394b28deb77a5e03ec84f96bb976c1e20c058ff892de939d457e",
-      "visualReview": "Contact sheet reviewed. Prepared extraction only; native edge, whole-watch, authenticity and rights holds remain. No publication approval.",
-      "rightsRecord": "PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json"
+      "visualReview": "Native source, exact catalog configuration and individual1200WEB visually reviewed. Complete watch; centered blank white canvas; no image captions, UI or reconstructed watch detail.",
+      "rightsRecord": "PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json",
+      "websiteApproved": true,
+      "publicationAssetId": "cleared-founder-19-ap-6",
+      "webDerivativePath": "/images/watches/audemars-piguet/founder-19-ap-6-white-web.webp",
+      "webDerivativeSHA256": "02e386f0acb69e18e0ff34b69abd05972c4380fef324af7910a35e59eb8d87b2",
+      "archiveDriveFileIds": [
+        "1PW6uo43c6HDLM8OC5SOQ__Phr7G75TOn",
+        "1v0_NhFmOc7NIvG4ydodYGs_Irh07tt7A",
+        "1J3i6r9vzL4cczAdg208-vHZrxc79__YF"
+      ]
     },
     {
       "id": "upload-19-ap-7",
@@ -1480,10 +1617,8 @@
         410
       ],
       "rightsStatus": "Founder directly confirmed commercial website-use rights for the exact ZIP watch photographs and white derivatives with no restrictions; PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json",
-      "status": "Extracted; not approved for publication",
-      "holds": [
-        "Full native-resolution authenticity, configuration and edge review"
-      ],
+      "status": "Approved complete exact-reference photograph; integrated, deployment pending",
+      "holds": [],
       "segmentationReviewFileName": "upload-19-ap-7.jpg",
       "segmentationStatus": "Unapproved classical mask; needs individual edge review",
       "segmentationSha256": "d206584bad0c9f7d10c646b49a79d4b8a1ed52a56d96bd53f3f3a6c34a9c9f53",
@@ -1494,8 +1629,17 @@
       "referenceProfileAdded": true,
       "alphaFileName": "upload-19-ap-7.png",
       "alphaSha256": "2e1457a33f2a264465545e71d9e8b307a9e0470de628b0368ccd3a33b3b9f599",
-      "visualReview": "Contact sheet reviewed. Prepared extraction only; native edge, whole-watch, authenticity and rights holds remain. No publication approval.",
-      "rightsRecord": "PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json"
+      "visualReview": "Native source, exact catalog configuration and individual1200WEB visually reviewed. Complete watch; centered blank white canvas; no image captions, UI or reconstructed watch detail.",
+      "rightsRecord": "PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json",
+      "websiteApproved": true,
+      "publicationAssetId": "cleared-founder-19-ap-7",
+      "webDerivativePath": "/images/watches/audemars-piguet/founder-19-ap-7-white-web.webp",
+      "webDerivativeSHA256": "4607dc6d11640072e0e29cf73da4c5ddb2650b6218f4bd24bc63dd644901ba0c",
+      "archiveDriveFileIds": [
+        "1PW6uo43c6HDLM8OC5SOQ__Phr7G75TOn",
+        "1v0_NhFmOc7NIvG4ydodYGs_Irh07tt7A",
+        "1J3i6r9vzL4cczAdg208-vHZrxc79__YF"
+      ]
     },
     {
       "id": "upload-19-ap-8",
@@ -1520,10 +1664,8 @@
         410
       ],
       "rightsStatus": "Founder directly confirmed commercial website-use rights for the exact ZIP watch photographs and white derivatives with no restrictions; PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json",
-      "status": "Extracted; not approved for publication",
-      "holds": [
-        "Full native-resolution authenticity, configuration and edge review"
-      ],
+      "status": "Approved complete exact-reference photograph; integrated, deployment pending",
+      "holds": [],
       "segmentationReviewFileName": "upload-19-ap-8.jpg",
       "segmentationStatus": "Unapproved classical mask; needs individual edge review",
       "segmentationSha256": "f8f5b54bc168abdea147aff756b883c779dc09a39c19d7a716d8c4d7f1244072",
@@ -1535,8 +1677,24 @@
       "identityReview": "Manufacturer confirms26341ST Grande Complication design; social caption does not establish ownership, uniqueness or provenance. No Tom Brady claim published.",
       "alphaFileName": "upload-19-ap-8.png",
       "alphaSha256": "706bfc573ec0d40d0398339b721b0499834991b1233addaba7438a538268910f",
-      "visualReview": "Contact sheet reviewed. Prepared extraction only; native edge, whole-watch, authenticity and rights holds remain. No publication approval.",
-      "rightsRecord": "PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json"
+      "visualReview": "Native source, exact catalog configuration and individual1200WEB visually reviewed. Complete watch; centered blank white canvas; no image captions, UI or reconstructed watch detail.",
+      "rightsRecord": "PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json",
+      "websiteApproved": true,
+      "publicationAssetId": "cleared-founder-19-ap-8",
+      "webDerivativePath": "/images/watches/audemars-piguet/founder-19-ap-8-white-web.webp",
+      "webDerivativeSHA256": "c2e6196a2c7a6e15262d9a0dadb5d68d9e838a33565d18ea62b19a9307f92b7f",
+      "archiveDriveFileIds": [
+        "1PW6uo43c6HDLM8OC5SOQ__Phr7G75TOn",
+        "1v0_NhFmOc7NIvG4ydodYGs_Irh07tt7A",
+        "1J3i6r9vzL4cczAdg208-vHZrxc79__YF"
+      ],
+      "approvedRecoveredCropBox": [
+        790,
+        1130,
+        1070,
+        1570
+      ],
+      "approvedRecoveredCropSha256": "5cfe1c369054c5609a7e089e78e2c06e6d4571de080a5a75effc86b8669dbe29"
     },
     {
       "id": "upload-10-thumbnail-a",
@@ -1761,7 +1919,7 @@
   "primaryIdentitiesQueued": 6,
   "existingClearedProfilePreserved": 1,
   "reviewedAt": "2026-10-16T09:59:29.601365+00:00",
-  "publicationDecision": "ZIP rights cleared; separate identity/authenticity/framing/edge gates remain. Two separate Patek manufacturer sets integrated; no screenshot approved solely by this rights decision.",
+  "publicationDecision": "21complete exact ZIP photographs reviewed, rights confirmed and integrated; deployment pending. Six primary identities unresolved. Other clipped/occluded/quality-held appearances remain queued.",
   "packagePolicy": "Every crop retains source pixels. White/alpha files are review candidates, not licensed or approved web assets. No AI, reconstruction, recoloring or invented specifications. Full screenshots with private conversation UI excluded.",
   "archive": {
     "fileName": "Quest_Luxo_Founder_Watch_Extractions_REVIEW.zip",
@@ -1775,5 +1933,6 @@
     "driveReadbackSha256": "214c61c69b86ec469934a648cc305484fa4b84a0f617681fa8677ab00ae480bb",
     "verified": true
   },
-  "rightsRecord": "PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json"
+  "rightsRecord": "PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json",
+  "approvedImages": 21
 }

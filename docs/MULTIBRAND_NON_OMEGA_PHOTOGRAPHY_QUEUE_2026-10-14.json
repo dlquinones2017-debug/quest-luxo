@@ -6,8 +6,8 @@
   "summary": {
     "references": 70,
     "brands": 15,
-    "approvedForImageRelease": 22,
-    "tasksAwaitingExactImageRightsReview": 48
+    "approvedForImageRelease": 41,
+    "tasksAwaitingExactImageRightsReview": 29
   },
   "queue": [
     {
@@ -1085,13 +1085,13 @@
       },
       "identitySource": "https://static.patek.com/pdf/catalogs/PatekPhilippe_Watch_Art_Tokyo_2023_Catalog_EN.pdf",
       "priorityScore": 100,
-      "status": "RIGHTS_AND_EXACT_CONFIGURATION_REVIEW_REQUIRED",
-      "rawSourceFileId": null,
-      "webDerivativePath": null,
-      "webDerivativeSHA256": null,
-      "reviewer": null,
-      "commercialUseRightsRecord": null,
-      "notes": "Founder ZIP appearance extracted separately. Underlying commercial rights, authenticity/configuration and whole-watch edge quality remain subject to existing approval gate. See FOUNDER_UPLOAD_WATCH_EXTRACTION_2026-10-15.json."
+      "status": "APPROVED_WITH_VALID_DERIVATIVE",
+      "rawSourceFileId": "1PW6uo43c6HDLM8OC5SOQ__Phr7G75TOn",
+      "webDerivativePath": "/images/watches/patek-philippe/founder-03-patek-white-web.webp",
+      "webDerivativeSHA256": "d452ac2f0c20fa2169765e1cf93a45979032da89dbf0e61f930de820fe6dce1e",
+      "reviewer": "Quest Luxo execution review with founder website-use clearance",
+      "commercialUseRightsRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for the19-imageZIP originals and white-background derivatives, with no restrictions, in response call_24a179ab128748dbb94a78640e6a1543. Record docs/PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json. Native photograph crop upload-03-patek.png (SHA256 cc1f6af9045ef97995a818519656acddeca58d507dd8d0abb0e91a5123fa225e) from Screenshot_20261015_223835_Instagram.jpg (parent SHA256 6786cf4b6f7e15dd0aaa554a2b76dd991ea30b3a68727311c604718438adff67). RAW archive contains explicitly labeled native watch crops; full private screenshot is preserved locally only. Whole watch, exact configuration and final image individually reviewed. Native source resolution retained without invented or sharpened detail; no ownership, celebrity or unique-edition provenance inferred. Separate manufacturer/reference specification source retained. Preserved RAW file: 1PW6uo43c6HDLM8OC5SOQ__Phr7G75TOn. Pictured full reference 5167/1A-001; Stainless Steel, Black embossed Aquanaut pattern, Stainless-steel bracelet. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "notes": "Exact approvedPhotograph gate and local derivative SHA-256 validated; preserve approved source and separate source attribution."
     },
     {
       "brand": "Patek Philippe",
@@ -1109,13 +1109,13 @@
       },
       "identitySource": "https://www.patek.com/en/collection/grand-complications/5327G-001",
       "priorityScore": 100,
-      "status": "RIGHTS_AND_EXACT_CONFIGURATION_REVIEW_REQUIRED",
-      "rawSourceFileId": null,
-      "webDerivativePath": null,
-      "webDerivativeSHA256": null,
-      "reviewer": null,
-      "commercialUseRightsRecord": null,
-      "notes": "Founder ZIP appearance extracted separately. Underlying commercial rights, authenticity/configuration and whole-watch edge quality remain subject to existing approval gate. See FOUNDER_UPLOAD_WATCH_EXTRACTION_2026-10-15.json."
+      "status": "APPROVED_WITH_VALID_DERIVATIVE",
+      "rawSourceFileId": "1PW6uo43c6HDLM8OC5SOQ__Phr7G75TOn",
+      "webDerivativePath": "/images/watches/patek-philippe/founder-14-patek-white-web.webp",
+      "webDerivativeSHA256": "82ae0da48f6946d4e575973886637df252a9135c1f085dd75e927a28eae5b061",
+      "reviewer": "Quest Luxo execution review with founder website-use clearance",
+      "commercialUseRightsRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for the19-imageZIP originals and white-background derivatives, with no restrictions, in response call_24a179ab128748dbb94a78640e6a1543. Record docs/PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json. Native photograph crop upload-14-patek.png (SHA256 87f42f910290056d06af0fe76e22d745d26680671c4e8f99e6c16166ed92789b) from Screenshot_20261015_223826_Instagram.jpg (parent SHA256 ac8b4b69a418a52f6d5fb9c96fa55788c2a73e3598a0c7925609b02b62c45129). RAW archive contains explicitly labeled native watch crops; full private screenshot is preserved locally only. Whole watch, exact configuration and final image individually reviewed. Native source resolution retained without invented or sharpened detail; no ownership, celebrity or unique-edition provenance inferred. Separate manufacturer/reference specification source retained. Preserved RAW file: 1PW6uo43c6HDLM8OC5SOQ__Phr7G75TOn. Pictured full reference 5327G-001; 18K white gold, Sunburst blue with Breguet numerals, Shiny navy blue alligator leather strap. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "notes": "Exact approvedPhotograph gate and local derivative SHA-256 validated; preserve approved source and separate source attribution."
     },
     {
       "brand": "Vacheron Constantin",
@@ -1133,13 +1133,13 @@
       },
       "identitySource": "https://www.vacheron-constantin.com/ca/en/collections/patrimony/4000u-000p-h003.html",
       "priorityScore": 100,
-      "status": "RIGHTS_AND_EXACT_CONFIGURATION_REVIEW_REQUIRED",
-      "rawSourceFileId": null,
-      "webDerivativePath": null,
-      "webDerivativeSHA256": null,
-      "reviewer": null,
-      "commercialUseRightsRecord": null,
-      "notes": "Founder ZIP appearance extracted separately. Underlying commercial rights, authenticity/configuration and whole-watch edge quality remain subject to existing approval gate. See FOUNDER_UPLOAD_WATCH_EXTRACTION_2026-10-15.json."
+      "status": "APPROVED_WITH_VALID_DERIVATIVE",
+      "rawSourceFileId": "1PW6uo43c6HDLM8OC5SOQ__Phr7G75TOn",
+      "webDerivativePath": "/images/watches/vacheron-constantin/founder-09-vc-white-web.webp",
+      "webDerivativeSHA256": "918206a81806d71e549a7ba9a4210fc74d8a2b5e3eb91f7a5c41bac07e0062d8",
+      "reviewer": "Quest Luxo execution review with founder website-use clearance",
+      "commercialUseRightsRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for the19-imageZIP originals and white-background derivatives, with no restrictions, in response call_24a179ab128748dbb94a78640e6a1543. Record docs/PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json. Native photograph crop upload-09-vc.png (SHA256 76de3e0df586d5bf7263de9a1abb3a8ec037e3627ff3034190a05110a82d09b9) from Screenshot_20261015_223840_Instagram.jpg (parent SHA256 78735faae70934ebc8cfca09743628fe8994340a4b4ba3d405b89e3e27fe0e22). RAW archive contains explicitly labeled native watch crops; full private screenshot is preserved locally only. Whole watch, exact configuration and final image individually reviewed. Native source resolution retained without invented or sharpened detail; no ownership, celebrity or unique-edition provenance inferred. Separate manufacturer/reference specification source retained. Preserved RAW file: 1PW6uo43c6HDLM8OC5SOQ__Phr7G75TOn. Pictured full reference 4000U/000P-H003; 950 Platinum, Salmon-toned sunburst, Dark blue alligator leather strap. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "notes": "Exact approvedPhotograph gate and local derivative SHA-256 validated; preserve approved source and separate source attribution."
     },
     {
       "brand": "Vacheron Constantin",
@@ -1157,13 +1157,13 @@
       },
       "identitySource": "https://www.vacheron-constantin.com/ww/de/collections/traditionnelle/6000t-000p-h025.html",
       "priorityScore": 100,
-      "status": "RIGHTS_AND_EXACT_CONFIGURATION_REVIEW_REQUIRED",
-      "rawSourceFileId": null,
-      "webDerivativePath": null,
-      "webDerivativeSHA256": null,
-      "reviewer": null,
-      "commercialUseRightsRecord": null,
-      "notes": "Founder ZIP appearance extracted separately. Underlying commercial rights, authenticity/configuration and whole-watch edge quality remain subject to existing approval gate. See FOUNDER_UPLOAD_WATCH_EXTRACTION_2026-10-15.json."
+      "status": "APPROVED_WITH_VALID_DERIVATIVE",
+      "rawSourceFileId": "1PW6uo43c6HDLM8OC5SOQ__Phr7G75TOn",
+      "webDerivativePath": "/images/watches/vacheron-constantin/founder-12-vc-white-web.webp",
+      "webDerivativeSHA256": "9a2188b4cd85e6c9b5f7836db8f6ddb73272baa448adde99c2d488a3c0476d96",
+      "reviewer": "Quest Luxo execution review with founder website-use clearance",
+      "commercialUseRightsRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for the19-imageZIP originals and white-background derivatives, with no restrictions, in response call_24a179ab128748dbb94a78640e6a1543. Record docs/PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json. Native photograph crop upload-12-vc.png (SHA256 fa49d2ca51e6ce56e6a935097b9cdb8dd2d2595db99d91d66a00ea6759896990) from Screenshot_20261015_223820_Instagram.jpg (parent SHA256 04a4179eb7b9687c51961e88ca02fb8701070df9516bfbb90000e3baa7e90495). RAW archive contains explicitly labeled native watch crops; full private screenshot is preserved locally only. Whole watch, exact configuration and final image individually reviewed. Native source resolution retained without invented or sharpened detail; no ownership, celebrity or unique-edition provenance inferred. Separate manufacturer/reference specification source retained. Preserved RAW file: 1PW6uo43c6HDLM8OC5SOQ__Phr7G75TOn. Pictured full reference 6000T/000P-H025; 950 Platinum, Deep green sunburst, Green alligator leather strap. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "notes": "Exact approvedPhotograph gate and local derivative SHA-256 validated; preserve approved source and separate source attribution."
     },
     {
       "brand": "Audemars Piguet",
@@ -1181,13 +1181,13 @@
       },
       "identitySource": "https://www.audemarspiguet.com/us/en/watch-collection/royal-oak/26585CE.OO.1225CE.01",
       "priorityScore": 100,
-      "status": "RIGHTS_AND_EXACT_CONFIGURATION_REVIEW_REQUIRED",
-      "rawSourceFileId": null,
-      "webDerivativePath": null,
-      "webDerivativeSHA256": null,
-      "reviewer": null,
-      "commercialUseRightsRecord": null,
-      "notes": "Founder ZIP appearance extracted separately. Underlying commercial rights, authenticity/configuration and whole-watch edge quality remain subject to existing approval gate. See FOUNDER_UPLOAD_WATCH_EXTRACTION_2026-10-15.json."
+      "status": "APPROVED_WITH_VALID_DERIVATIVE",
+      "rawSourceFileId": "1PW6uo43c6HDLM8OC5SOQ__Phr7G75TOn",
+      "webDerivativePath": "/images/watches/audemars-piguet/founder-19-ap-1-white-web.webp",
+      "webDerivativeSHA256": "7bb1554e217b87158f67962703786f4e31a9ad1ecdffa21d69b64902c58539eb",
+      "reviewer": "Quest Luxo execution review with founder website-use clearance",
+      "commercialUseRightsRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for the19-imageZIP originals and white-background derivatives, with no restrictions, in response call_24a179ab128748dbb94a78640e6a1543. Record docs/PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json. Native photograph crop upload-19-ap-1.png (SHA256 0d580b6403a99e56c289ef455ef163264bb98baae32cb270996504c2a7020e08) from Screenshot_20261015_202218_Instagram.jpg (parent SHA256 993f85545ce3ae549c52f3d02c4377dd53af7866112c75c5f4229e5530bb6a93). RAW archive contains explicitly labeled native watch crops; full private screenshot is preserved locally only. Whole watch, exact configuration and final image individually reviewed. Native source resolution retained without invented or sharpened detail; no ownership, celebrity or unique-edition provenance inferred. Separate manufacturer/reference specification source retained. Preserved RAW file: 1PW6uo43c6HDLM8OC5SOQ__Phr7G75TOn. Pictured full reference 26585CE.OO.1225CE.01; Black ceramic, Openworked sapphire with pink-gold components, Black ceramic bracelet. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "notes": "Exact approvedPhotograph gate and local derivative SHA-256 validated; preserve approved source and separate source attribution."
     },
     {
       "brand": "Audemars Piguet",
@@ -1205,13 +1205,13 @@
       },
       "identitySource": "https://www.audemarspiguet.com/us/en/watch-collection/royal-oak/26585XT.OO.1220XT.01",
       "priorityScore": 100,
-      "status": "RIGHTS_AND_EXACT_CONFIGURATION_REVIEW_REQUIRED",
-      "rawSourceFileId": null,
-      "webDerivativePath": null,
-      "webDerivativeSHA256": null,
-      "reviewer": null,
-      "commercialUseRightsRecord": null,
-      "notes": "Founder ZIP appearance extracted separately. Underlying commercial rights, authenticity/configuration and whole-watch edge quality remain subject to existing approval gate. See FOUNDER_UPLOAD_WATCH_EXTRACTION_2026-10-15.json."
+      "status": "APPROVED_WITH_VALID_DERIVATIVE",
+      "rawSourceFileId": "1PW6uo43c6HDLM8OC5SOQ__Phr7G75TOn",
+      "webDerivativePath": "/images/watches/audemars-piguet/founder-19-ap-2-white-web.webp",
+      "webDerivativeSHA256": "a991f4e502ecd75cbaedbd399f5f80ba1e1e0b9687766a28a5537cea09c54732",
+      "reviewer": "Quest Luxo execution review with founder website-use clearance",
+      "commercialUseRightsRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for the19-imageZIP originals and white-background derivatives, with no restrictions, in response call_24a179ab128748dbb94a78640e6a1543. Record docs/PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json. Native photograph crop upload-19-ap-2.png (SHA256 1436f981f64cae6e68008c8ac247d09205cc6d699dc1534f2d5633e8efefd15d) from Screenshot_20261015_202218_Instagram.jpg (parent SHA256 993f85545ce3ae549c52f3d02c4377dd53af7866112c75c5f4229e5530bb6a93). RAW archive contains explicitly labeled native watch crops; full private screenshot is preserved locally only. Whole watch, exact configuration and final image individually reviewed. Native source resolution retained without invented or sharpened detail; no ownership, celebrity or unique-edition provenance inferred. Separate manufacturer/reference specification source retained. Preserved RAW file: 1PW6uo43c6HDLM8OC5SOQ__Phr7G75TOn. Pictured full reference 26585XT.OO.1220XT.01; Titanium and Bulk Metallic Glass, Openworked blue-accented dial, Titanium and BMG bracelet. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "notes": "Exact approvedPhotograph gate and local derivative SHA-256 validated; preserve approved source and separate source attribution."
     },
     {
       "brand": "Audemars Piguet",
@@ -1229,13 +1229,13 @@
       },
       "identitySource": "https://www.audemarspiguet.com/zh-hant/watch-collection/royal-oak/26585CM.OO.D301VE.01",
       "priorityScore": 100,
-      "status": "RIGHTS_AND_EXACT_CONFIGURATION_REVIEW_REQUIRED",
-      "rawSourceFileId": null,
-      "webDerivativePath": null,
-      "webDerivativeSHA256": null,
-      "reviewer": null,
-      "commercialUseRightsRecord": null,
-      "notes": "Founder ZIP appearance extracted separately. Underlying commercial rights, authenticity/configuration and whole-watch edge quality remain subject to existing approval gate. See FOUNDER_UPLOAD_WATCH_EXTRACTION_2026-10-15.json."
+      "status": "APPROVED_WITH_VALID_DERIVATIVE",
+      "rawSourceFileId": "1PW6uo43c6HDLM8OC5SOQ__Phr7G75TOn",
+      "webDerivativePath": "/images/watches/audemars-piguet/founder-19-ap-3-white-web.webp",
+      "webDerivativeSHA256": "ebdd057609a395dcf26f6beb0702da55b006e262ae77d41fcf2bbbcd2450c886",
+      "reviewer": "Quest Luxo execution review with founder website-use clearance",
+      "commercialUseRightsRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for the19-imageZIP originals and white-background derivatives, with no restrictions, in response call_24a179ab128748dbb94a78640e6a1543. Record docs/PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json. Native photograph crop upload-19-ap-3-expanded-native.png (SHA256 48495a4da2a4710d44baaf1a426335a5fdaa43a696aed97a6650ca72e7ea7319) from Screenshot_20261015_202218_Instagram.jpg (parent SHA256 993f85545ce3ae549c52f3d02c4377dd53af7866112c75c5f4229e5530bb6a93). RAW archive contains explicitly labeled native watch crops; full private screenshot is preserved locally only. Whole watch, exact configuration and final image individually reviewed. Native source resolution retained without invented or sharpened detail; no ownership, celebrity or unique-edition provenance inferred. Separate manufacturer/reference specification source retained. Preserved RAW file: 1PW6uo43c6HDLM8OC5SOQ__Phr7G75TOn. Pictured full reference 26585CM.OO.D301VE.01; Brown ceramic, Openworked Cactus Jack dial, Brown strap. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "notes": "Exact approvedPhotograph gate and local derivative SHA-256 validated; preserve approved source and separate source attribution."
     },
     {
       "brand": "Audemars Piguet",
@@ -1253,13 +1253,13 @@
       },
       "identitySource": "https://www.audemarspiguet.com/us/en/watch-collection/royal-oak/15412BA.ZG.1224BA.01",
       "priorityScore": 100,
-      "status": "RIGHTS_AND_EXACT_CONFIGURATION_REVIEW_REQUIRED",
-      "rawSourceFileId": null,
-      "webDerivativePath": null,
-      "webDerivativeSHA256": null,
-      "reviewer": null,
-      "commercialUseRightsRecord": null,
-      "notes": "Founder ZIP appearance extracted separately. Underlying commercial rights, authenticity/configuration and whole-watch edge quality remain subject to existing approval gate. See FOUNDER_UPLOAD_WATCH_EXTRACTION_2026-10-15.json."
+      "status": "APPROVED_WITH_VALID_DERIVATIVE",
+      "rawSourceFileId": "1PW6uo43c6HDLM8OC5SOQ__Phr7G75TOn",
+      "webDerivativePath": "/images/watches/audemars-piguet/founder-19-ap-7-white-web.webp",
+      "webDerivativeSHA256": "4607dc6d11640072e0e29cf73da4c5ddb2650b6218f4bd24bc63dd644901ba0c",
+      "reviewer": "Quest Luxo execution review with founder website-use clearance",
+      "commercialUseRightsRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for the19-imageZIP originals and white-background derivatives, with no restrictions, in response call_24a179ab128748dbb94a78640e6a1543. Record docs/PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json. Native photograph crop upload-19-ap-7.png (SHA256 8a592027a441658c143bd5536b927f90948b14f105efa981b3649dd67cbd3fd6) from Screenshot_20261015_202218_Instagram.jpg (parent SHA256 993f85545ce3ae549c52f3d02c4377dd53af7866112c75c5f4229e5530bb6a93). RAW archive contains explicitly labeled native watch crops; full private screenshot is preserved locally only. Whole watch, exact configuration and final image individually reviewed. Native source resolution retained without invented or sharpened detail; no ownership, celebrity or unique-edition provenance inferred. Separate manufacturer/reference specification source retained. Preserved RAW file: 1PW6uo43c6HDLM8OC5SOQ__Phr7G75TOn. Pictured full reference 15412BA.ZG.1224BA.01; 18K yellow gold; baguette diamond-set bezel, Openworked, Frosted yellow-gold bracelet. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "notes": "Exact approvedPhotograph gate and local derivative SHA-256 validated; preserve approved source and separate source attribution."
     },
     {
       "brand": "Audemars Piguet",
@@ -1277,13 +1277,13 @@
       },
       "identitySource": "https://www.jomashop.com/audemars-piguet-15412bc-zz-1220bc-01.html",
       "priorityScore": 100,
-      "status": "RIGHTS_AND_EXACT_CONFIGURATION_REVIEW_REQUIRED",
-      "rawSourceFileId": null,
-      "webDerivativePath": null,
-      "webDerivativeSHA256": null,
-      "reviewer": null,
-      "commercialUseRightsRecord": null,
-      "notes": "Founder ZIP appearance extracted separately. Underlying commercial rights, authenticity/configuration and whole-watch edge quality remain subject to existing approval gate. See FOUNDER_UPLOAD_WATCH_EXTRACTION_2026-10-15.json."
+      "status": "APPROVED_WITH_VALID_DERIVATIVE",
+      "rawSourceFileId": "1PW6uo43c6HDLM8OC5SOQ__Phr7G75TOn",
+      "webDerivativePath": "/images/watches/audemars-piguet/founder-19-ap-5-white-web.webp",
+      "webDerivativeSHA256": "7bd5559f1ce762de81692afbf6b5e6384429ce9c0483d057c63abf8eba96f325",
+      "reviewer": "Quest Luxo execution review with founder website-use clearance",
+      "commercialUseRightsRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for the19-imageZIP originals and white-background derivatives, with no restrictions, in response call_24a179ab128748dbb94a78640e6a1543. Record docs/PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json. Native photograph crop upload-19-ap-5.png (SHA256 e067f0b16ecbbd33a6854ff0b9678026b5c293c92787d475b851c6cafdddc6f1) from Screenshot_20261015_202218_Instagram.jpg (parent SHA256 993f85545ce3ae549c52f3d02c4377dd53af7866112c75c5f4229e5530bb6a93). RAW archive contains explicitly labeled native watch crops; full private screenshot is preserved locally only. Whole watch, exact configuration and final image individually reviewed. Native source resolution retained without invented or sharpened detail; no ownership, celebrity or unique-edition provenance inferred. Separate manufacturer/reference specification source retained. Preserved RAW file: 1PW6uo43c6HDLM8OC5SOQ__Phr7G75TOn. Pictured full reference 15412BC.ZZ.1220BC.01; 18K white gold; diamond-set bezel, Openworked, 18K white-gold bracelet. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "notes": "Exact approvedPhotograph gate and local derivative SHA-256 validated; preserve approved source and separate source attribution."
     },
     {
       "brand": "Audemars Piguet",
@@ -1301,13 +1301,13 @@
       },
       "identitySource": "https://chronoboutiqueny.com/products/audemars-piguet-royal-oak-double-balance-wheel-openworked-rose-gold-baguette-15412or-zz-1220or-01-sold",
       "priorityScore": 100,
-      "status": "RIGHTS_AND_EXACT_CONFIGURATION_REVIEW_REQUIRED",
-      "rawSourceFileId": null,
-      "webDerivativePath": null,
-      "webDerivativeSHA256": null,
-      "reviewer": null,
-      "commercialUseRightsRecord": null,
-      "notes": "Founder ZIP appearance extracted separately. Underlying commercial rights, authenticity/configuration and whole-watch edge quality remain subject to existing approval gate. See FOUNDER_UPLOAD_WATCH_EXTRACTION_2026-10-15.json."
+      "status": "APPROVED_WITH_VALID_DERIVATIVE",
+      "rawSourceFileId": "1PW6uo43c6HDLM8OC5SOQ__Phr7G75TOn",
+      "webDerivativePath": "/images/watches/audemars-piguet/founder-19-ap-6-white-web.webp",
+      "webDerivativeSHA256": "02e386f0acb69e18e0ff34b69abd05972c4380fef324af7910a35e59eb8d87b2",
+      "reviewer": "Quest Luxo execution review with founder website-use clearance",
+      "commercialUseRightsRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for the19-imageZIP originals and white-background derivatives, with no restrictions, in response call_24a179ab128748dbb94a78640e6a1543. Record docs/PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json. Native photograph crop upload-19-ap-6.png (SHA256 0b15ce63013dcefbe429be6c02e4d2d5a4d4ea0e766d74820c01bb2e6daa35a2) from Screenshot_20261015_202218_Instagram.jpg (parent SHA256 993f85545ce3ae549c52f3d02c4377dd53af7866112c75c5f4229e5530bb6a93). RAW archive contains explicitly labeled native watch crops; full private screenshot is preserved locally only. Whole watch, exact configuration and final image individually reviewed. Native source resolution retained without invented or sharpened detail; no ownership, celebrity or unique-edition provenance inferred. Separate manufacturer/reference specification source retained. Preserved RAW file: 1PW6uo43c6HDLM8OC5SOQ__Phr7G75TOn. Pictured full reference 15412OR.ZZ.1220OR.01; 18K rose gold; baguette diamond-set bezel, Openworked, 18K rose-gold bracelet. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "notes": "Exact approvedPhotograph gate and local derivative SHA-256 validated; preserve approved source and separate source attribution."
     },
     {
       "brand": "Audemars Piguet",
@@ -1325,13 +1325,13 @@
       },
       "identitySource": "https://www.audemarspiguet.com/en/about/savoir-faire/grandes-complications",
       "priorityScore": 100,
-      "status": "RIGHTS_AND_EXACT_CONFIGURATION_REVIEW_REQUIRED",
-      "rawSourceFileId": null,
-      "webDerivativePath": null,
-      "webDerivativeSHA256": null,
-      "reviewer": null,
-      "commercialUseRightsRecord": null,
-      "notes": "Founder ZIP appearance extracted separately. Underlying commercial rights, authenticity/configuration and whole-watch edge quality remain subject to existing approval gate. See FOUNDER_UPLOAD_WATCH_EXTRACTION_2026-10-15.json."
+      "status": "APPROVED_WITH_VALID_DERIVATIVE",
+      "rawSourceFileId": "1PW6uo43c6HDLM8OC5SOQ__Phr7G75TOn",
+      "webDerivativePath": "/images/watches/audemars-piguet/founder-19-ap-8-white-web.webp",
+      "webDerivativeSHA256": "c2e6196a2c7a6e15262d9a0dadb5d68d9e838a33565d18ea62b19a9307f92b7f",
+      "reviewer": "Quest Luxo execution review with founder website-use clearance",
+      "commercialUseRightsRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for the19-imageZIP originals and white-background derivatives, with no restrictions, in response call_24a179ab128748dbb94a78640e6a1543. Record docs/PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json. Native photograph crop upload-19-ap-8-expanded-native.png (SHA256 5cfe1c369054c5609a7e089e78e2c06e6d4571de080a5a75effc86b8669dbe29) from Screenshot_20261015_202218_Instagram.jpg (parent SHA256 993f85545ce3ae549c52f3d02c4377dd53af7866112c75c5f4229e5530bb6a93). RAW archive contains explicitly labeled native watch crops; full private screenshot is preserved locally only. Whole watch, exact configuration and final image individually reviewed. Native source resolution retained without invented or sharpened detail; no ownership, celebrity or unique-edition provenance inferred. Separate manufacturer/reference specification source retained. Preserved RAW file: 1PW6uo43c6HDLM8OC5SOQ__Phr7G75TOn. Pictured full reference 26341ST.OO.1105ST.01; Stainless Steel, Openworked sapphire, Stainless-steel bracelet. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "notes": "Exact approvedPhotograph gate and local derivative SHA-256 validated; preserve approved source and separate source attribution."
     },
     {
       "brand": "Audemars Piguet",
@@ -1349,13 +1349,13 @@
       },
       "identitySource": "https://www.audemarspiguet.com/zh-hans/watch-collection/royal-oak/26615TI.OO.1220TI.01",
       "priorityScore": 100,
-      "status": "RIGHTS_AND_EXACT_CONFIGURATION_REVIEW_REQUIRED",
-      "rawSourceFileId": null,
-      "webDerivativePath": null,
-      "webDerivativeSHA256": null,
-      "reviewer": null,
-      "commercialUseRightsRecord": null,
-      "notes": "Founder ZIP appearance extracted separately. Underlying commercial rights, authenticity/configuration and whole-watch edge quality remain subject to existing approval gate. See FOUNDER_UPLOAD_WATCH_EXTRACTION_2026-10-15.json."
+      "status": "APPROVED_WITH_VALID_DERIVATIVE",
+      "rawSourceFileId": "1PW6uo43c6HDLM8OC5SOQ__Phr7G75TOn",
+      "webDerivativePath": "/images/watches/audemars-piguet/founder-09-ap-white-web.webp",
+      "webDerivativeSHA256": "ff3a3c457c636c7e4c90b3b315193d2a63806b2c74f181bfc0cb77a33ccab007",
+      "reviewer": "Quest Luxo execution review with founder website-use clearance",
+      "commercialUseRightsRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for the19-imageZIP originals and white-background derivatives, with no restrictions, in response call_24a179ab128748dbb94a78640e6a1543. Record docs/PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json. Native photograph crop upload-09-ap.png (SHA256 397f0a8e67e89504405dc93ddb9d4edec22adf51f07bd574d1184d8436a39544) from Screenshot_20261015_223840_Instagram.jpg (parent SHA256 78735faae70934ebc8cfca09743628fe8994340a4b4ba3d405b89e3e27fe0e22). RAW archive contains explicitly labeled native watch crops; full private screenshot is preserved locally only. Whole watch, exact configuration and final image individually reviewed. Native source resolution retained without invented or sharpened detail; no ownership, celebrity or unique-edition provenance inferred. Separate manufacturer/reference specification source retained. Preserved RAW file: 1PW6uo43c6HDLM8OC5SOQ__Phr7G75TOn. Pictured full reference 26615TI.OO.1220TI.01; Titanium, Salmon-toned Grande Tapisserie, Titanium bracelet. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "notes": "Exact approvedPhotograph gate and local derivative SHA-256 validated; preserve approved source and separate source attribution."
     },
     {
       "brand": "Audemars Piguet",
@@ -1373,13 +1373,13 @@
       },
       "identitySource": "https://www.audemarspiguet.com/com/en/watch-collection/code-1159/26393BC.OO.A321CR.01.html",
       "priorityScore": 100,
-      "status": "RIGHTS_AND_EXACT_CONFIGURATION_REVIEW_REQUIRED",
-      "rawSourceFileId": null,
-      "webDerivativePath": null,
-      "webDerivativeSHA256": null,
-      "reviewer": null,
-      "commercialUseRightsRecord": null,
-      "notes": "Founder ZIP appearance extracted separately. Underlying commercial rights, authenticity/configuration and whole-watch edge quality remain subject to existing approval gate. See FOUNDER_UPLOAD_WATCH_EXTRACTION_2026-10-15.json."
+      "status": "APPROVED_WITH_VALID_DERIVATIVE",
+      "rawSourceFileId": "1PW6uo43c6HDLM8OC5SOQ__Phr7G75TOn",
+      "webDerivativePath": "/images/watches/audemars-piguet/founder-14-ap-white-web.webp",
+      "webDerivativeSHA256": "6b806116ee8fb8e153be65edae463f16b35c1923312b3db9ef635379cf4d1781",
+      "reviewer": "Quest Luxo execution review with founder website-use clearance",
+      "commercialUseRightsRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for the19-imageZIP originals and white-background derivatives, with no restrictions, in response call_24a179ab128748dbb94a78640e6a1543. Record docs/PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json. Native photograph crop upload-14-ap.png (SHA256 02021b53a8c9faef2f1ff5fa5565e8bdf7753a381df34d8fd200b8d294079222) from Screenshot_20261015_223826_Instagram.jpg (parent SHA256 ac8b4b69a418a52f6d5fb9c96fa55788c2a73e3598a0c7925609b02b62c45129). RAW archive contains explicitly labeled native watch crops; full private screenshot is preserved locally only. Whole watch, exact configuration and final image individually reviewed. Native source resolution retained without invented or sharpened detail; no ownership, celebrity or unique-edition provenance inferred. Separate manufacturer/reference specification source retained. Preserved RAW file: 1PW6uo43c6HDLM8OC5SOQ__Phr7G75TOn. Pictured full reference 26393BC.OO.A321CR.01; 18K white gold, Deep blue lacquered, Blue strap. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "notes": "Exact approvedPhotograph gate and local derivative SHA-256 validated; preserve approved source and separate source attribution."
     },
     {
       "brand": "Hublot",
@@ -1397,13 +1397,13 @@
       },
       "identitySource": "https://www.prestigetime.com/Hublot-Big-Bang-UNICO-45mm-411-om-1180-rx.html",
       "priorityScore": 100,
-      "status": "RIGHTS_AND_EXACT_CONFIGURATION_REVIEW_REQUIRED",
-      "rawSourceFileId": null,
-      "webDerivativePath": null,
-      "webDerivativeSHA256": null,
-      "reviewer": null,
-      "commercialUseRightsRecord": null,
-      "notes": "Founder ZIP appearance extracted separately. Underlying commercial rights, authenticity/configuration and whole-watch edge quality remain subject to existing approval gate. See FOUNDER_UPLOAD_WATCH_EXTRACTION_2026-10-15.json."
+      "status": "APPROVED_WITH_VALID_DERIVATIVE",
+      "rawSourceFileId": "1PW6uo43c6HDLM8OC5SOQ__Phr7G75TOn",
+      "webDerivativePath": "/images/watches/hublot/founder-02-hublot-ceramic-white-web.webp",
+      "webDerivativeSHA256": "d4b59ca26d581605873c77d572e717a1d589b3cdb837db4d44a40d1225fc4c29",
+      "reviewer": "Quest Luxo execution review with founder website-use clearance",
+      "commercialUseRightsRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for the19-imageZIP originals and white-background derivatives, with no restrictions, in response call_24a179ab128748dbb94a78640e6a1543. Record docs/PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json. Native photograph crop upload-02-hublot-ceramic.png (SHA256 10ae12889600bcd03dfaf422fd09f3c188183f74e3483405d77b8f9e7f02f746) from Screenshot_20260914_123538_Google.jpg (parent SHA256 c267894618c15e1503ec5a3b33a06ff701caede98d5b5391431d18ecba9fba41). RAW archive contains explicitly labeled native watch crops; full private screenshot is preserved locally only. Whole watch, exact configuration and final image individually reviewed. Native source resolution retained without invented or sharpened detail; no ownership, celebrity or unique-edition provenance inferred. Separate manufacturer/reference specification source retained. Preserved RAW file: 1PW6uo43c6HDLM8OC5SOQ__Phr7G75TOn. Pictured full reference 411.OM.1180.RX; 18K King Gold with black ceramic bezel, Skeleton, Black rubber strap. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "notes": "Exact approvedPhotograph gate and local derivative SHA-256 validated; preserve approved source and separate source attribution."
     },
     {
       "brand": "Hublot",
@@ -1445,13 +1445,13 @@
       },
       "identitySource": "https://www.timepiecetrader.com/luxury-watches-brands/ulysse-nardin-marine-diver-chronograph-manufacture-mens-watch-44mm-1502-151-393/",
       "priorityScore": 100,
-      "status": "RIGHTS_AND_EXACT_CONFIGURATION_REVIEW_REQUIRED",
-      "rawSourceFileId": null,
-      "webDerivativePath": null,
-      "webDerivativeSHA256": null,
-      "reviewer": null,
-      "commercialUseRightsRecord": null,
-      "notes": "Founder ZIP appearance extracted separately. Underlying commercial rights, authenticity/configuration and whole-watch edge quality remain subject to existing approval gate. See FOUNDER_UPLOAD_WATCH_EXTRACTION_2026-10-15.json."
+      "status": "APPROVED_WITH_VALID_DERIVATIVE",
+      "rawSourceFileId": "1PW6uo43c6HDLM8OC5SOQ__Phr7G75TOn",
+      "webDerivativePath": "/images/watches/ulysse-nardin/founder-07-diver-chrono-white-web.webp",
+      "webDerivativeSHA256": "a94d96305438c13b65e45b8961293bdd879a44d780801396e084519549b381f1",
+      "reviewer": "Quest Luxo execution review with founder website-use clearance",
+      "commercialUseRightsRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for the19-imageZIP originals and white-background derivatives, with no restrictions, in response call_24a179ab128748dbb94a78640e6a1543. Record docs/PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json. Native photograph crop upload-07-diver-chrono.png (SHA256 6548216f54af1cf9c0f0b135b3eb85acff9ef48c3364b30b17bda38a991bc7f1) from Screenshot_20260914_123815_Google.jpg (parent SHA256 d3ab31ac84271dc9dfbfb66ab797079689b409728c97aab9c2e7d7fc3db9500d). RAW archive contains explicitly labeled native watch crops; full private screenshot is preserved locally only. Whole watch, exact configuration and final image individually reviewed. Native source resolution retained without invented or sharpened detail; no ownership, celebrity or unique-edition provenance inferred. Separate manufacturer/reference specification source retained. Preserved RAW file: 1PW6uo43c6HDLM8OC5SOQ__Phr7G75TOn. Pictured full reference 1502-151-3/93; 18K rose gold, Blue, Blue rubber strap. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "notes": "Exact approvedPhotograph gate and local derivative SHA-256 validated; preserve approved source and separate source attribution."
     },
     {
       "brand": "Ulysse Nardin",
@@ -1493,13 +1493,13 @@
       },
       "identitySource": "https://www.tudorwatch.com/en/watches/black-bay/m7941a1a0ru-0003",
       "priorityScore": 100,
-      "status": "RIGHTS_AND_EXACT_CONFIGURATION_REVIEW_REQUIRED",
-      "rawSourceFileId": null,
-      "webDerivativePath": null,
-      "webDerivativeSHA256": null,
-      "reviewer": null,
-      "commercialUseRightsRecord": null,
-      "notes": "Founder ZIP appearance extracted separately. Underlying commercial rights, authenticity/configuration and whole-watch edge quality remain subject to existing approval gate. See FOUNDER_UPLOAD_WATCH_EXTRACTION_2026-10-15.json."
+      "status": "APPROVED_WITH_VALID_DERIVATIVE",
+      "rawSourceFileId": "1PW6uo43c6HDLM8OC5SOQ__Phr7G75TOn",
+      "webDerivativePath": "/images/watches/tudor/founder-05-tudor-white-web.webp",
+      "webDerivativeSHA256": "1a161fdfb1ae12ba6b23bf517cee1e1cb693c4042854f632a3eff3ee4ab75dc5",
+      "reviewer": "Quest Luxo execution review with founder website-use clearance",
+      "commercialUseRightsRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for the19-imageZIP originals and white-background derivatives, with no restrictions, in response call_24a179ab128748dbb94a78640e6a1543. Record docs/PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json. Native photograph crop upload-05-tudor.png (SHA256 69780fb63d043d968b35c707838632d2bdd9f2660ca6addc45997f25f16eff83) from Screenshot_20260912_193325_Chrome.jpg (parent SHA256 a37b146ea2cc6f055c611bfd08ad74ccd8ca89e74e7f64c5046e5f812f8a0eea). RAW archive contains explicitly labeled native watch crops; full private screenshot is preserved locally only. Whole watch, exact configuration and final image individually reviewed. Native source resolution retained without invented or sharpened detail; no ownership, celebrity or unique-edition provenance inferred. Separate manufacturer/reference specification source retained. Preserved RAW file: 1PW6uo43c6HDLM8OC5SOQ__Phr7G75TOn. Pictured full reference M7941A1A0RU-0003; Stainless Steel, Black domed, Stainless-steel five-link bracelet. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "notes": "Exact approvedPhotograph gate and local derivative SHA-256 validated; preserve approved source and separate source attribution."
     },
     {
       "brand": "Audemars Piguet",
@@ -1517,13 +1517,13 @@
       },
       "identitySource": "https://wristcheck.com/us/buy/audemars-piguet/royal-oak-41-white-gold-red-dial-26607bcoo1220bc01",
       "priorityScore": 100,
-      "status": "RIGHTS_AND_EXACT_CONFIGURATION_REVIEW_REQUIRED",
-      "rawSourceFileId": null,
-      "webDerivativePath": null,
-      "webDerivativeSHA256": null,
-      "reviewer": null,
-      "commercialUseRightsRecord": null,
-      "notes": "Founder ZIP appearance extracted separately. Underlying commercial rights, authenticity/configuration and whole-watch edge quality remain subject to existing approval gate. See FOUNDER_UPLOAD_WATCH_EXTRACTION_2026-10-15.json."
+      "status": "APPROVED_WITH_VALID_DERIVATIVE",
+      "rawSourceFileId": "1PW6uo43c6HDLM8OC5SOQ__Phr7G75TOn",
+      "webDerivativePath": "/images/watches/audemars-piguet/founder-11-ap-white-web.webp",
+      "webDerivativeSHA256": "4eebe79fcb6b9b0014ee5a2419a8a9bd5556277933a7fa98e6aff1d6c84c3ff3",
+      "reviewer": "Quest Luxo execution review with founder website-use clearance",
+      "commercialUseRightsRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for the19-imageZIP originals and white-background derivatives, with no restrictions, in response call_24a179ab128748dbb94a78640e6a1543. Record docs/PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json. Native photograph crop upload-11-ap.png (SHA256 14fd5b3ce70cd5a0ed6af411d400cbacf75ed7c6ace99b76993eeda90b742987) from Screenshot_20261015_223830_Instagram.jpg (parent SHA256 7309c64222df88f07259b7ca72a2890f59ade88250a3222d9b5267efe8a730ee). RAW archive contains explicitly labeled native watch crops; full private screenshot is preserved locally only. Whole watch, exact configuration and final image individually reviewed. Native source resolution retained without invented or sharpened detail; no ownership, celebrity or unique-edition provenance inferred. Separate manufacturer/reference specification source retained. Preserved RAW file: 1PW6uo43c6HDLM8OC5SOQ__Phr7G75TOn. Pictured full reference 26607BC.OO.1220BC.01; 18K white gold, Red Grande Tapisserie, 18K white-gold bracelet. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "notes": "Exact approvedPhotograph gate and local derivative SHA-256 validated; preserve approved source and separate source attribution."
     },
     {
       "brand": "Ulysse Nardin",
@@ -1589,13 +1589,13 @@
       },
       "identitySource": "https://www.vacheron-constantin.com/ww/en/collections/overseas/4300v-220g-h151.html",
       "priorityScore": 100,
-      "status": "RIGHTS_AND_EXACT_CONFIGURATION_REVIEW_REQUIRED",
-      "rawSourceFileId": null,
-      "webDerivativePath": null,
-      "webDerivativeSHA256": null,
-      "reviewer": null,
-      "commercialUseRightsRecord": null,
-      "notes": "Founder ZIP appearance extracted separately. Underlying commercial rights, authenticity/configuration and whole-watch edge quality remain subject to existing approval gate. See FOUNDER_UPLOAD_WATCH_EXTRACTION_2026-10-15.json."
+      "status": "APPROVED_WITH_VALID_DERIVATIVE",
+      "rawSourceFileId": "1PW6uo43c6HDLM8OC5SOQ__Phr7G75TOn",
+      "webDerivativePath": "/images/watches/vacheron-constantin/founder-11-vc-white-web.webp",
+      "webDerivativeSHA256": "669f5915c7e32c0489e4bc452ae9ea8a98481dea60999e9d66b44632b2e64af0",
+      "reviewer": "Quest Luxo execution review with founder website-use clearance",
+      "commercialUseRightsRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for the19-imageZIP originals and white-background derivatives, with no restrictions, in response call_24a179ab128748dbb94a78640e6a1543. Record docs/PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json. Native photograph crop upload-11-vc.png (SHA256 22394b8a84144a532aa44e424458cd17d7a2eebb5832c216e51be5a42f69b0fb) from Screenshot_20261015_223830_Instagram.jpg (parent SHA256 7309c64222df88f07259b7ca72a2890f59ade88250a3222d9b5267efe8a730ee). RAW archive contains explicitly labeled native watch crops; full private screenshot is preserved locally only. Whole watch, exact configuration and final image individually reviewed. Native source resolution retained without invented or sharpened detail; no ownership, celebrity or unique-edition provenance inferred. Separate manufacturer/reference specification source retained. Preserved RAW file: 1PW6uo43c6HDLM8OC5SOQ__Phr7G75TOn. Pictured full reference 4300V/220G-H151; 18K white gold, Burgundy lacquered sunburst, 18K white-gold bracelet; additional burgundy and white rubber straps. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "notes": "Exact approvedPhotograph gate and local derivative SHA-256 validated; preserve approved source and separate source attribution."
     },
     {
       "brand": "Patek Philippe",
@@ -1661,13 +1661,13 @@
       },
       "identitySource": "https://www.audemarspiguet.com/us/en/watch-collection/royal-oak/15500ST.OO.1220ST.03",
       "priorityScore": 100,
-      "status": "RIGHTS_AND_EXACT_CONFIGURATION_REVIEW_REQUIRED",
-      "rawSourceFileId": null,
-      "webDerivativePath": null,
-      "webDerivativeSHA256": null,
-      "reviewer": null,
-      "commercialUseRightsRecord": null,
-      "notes": "Founder-upload identity verified October16. Separate source-original and review evidence in FOUNDER_UPLOAD_CONTINUATION_2026-10-16.json. Underlying commercial rights and final photography quality still required; no publication approval implied."
+      "status": "APPROVED_WITH_VALID_DERIVATIVE",
+      "rawSourceFileId": "1PW6uo43c6HDLM8OC5SOQ__Phr7G75TOn",
+      "webDerivativePath": "/images/watches/audemars-piguet/founder-03-ap-white-web.webp",
+      "webDerivativeSHA256": "387ac64a330c7e3d1adb79f3c7b3cb750e8b9198bc0a5a32c44e91c580946fe2",
+      "reviewer": "Quest Luxo execution review with founder website-use clearance",
+      "commercialUseRightsRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for the19-imageZIP originals and white-background derivatives, with no restrictions, in response call_24a179ab128748dbb94a78640e6a1543. Record docs/PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json. Native photograph crop upload-03-ap.png (SHA256 07adf38fe1706ed1767a8949e7b4119adfa07db68275e9726f59cd2923618b97) from Screenshot_20261015_223835_Instagram.jpg (parent SHA256 6786cf4b6f7e15dd0aaa554a2b76dd991ea30b3a68727311c604718438adff67). RAW archive contains explicitly labeled native watch crops; full private screenshot is preserved locally only. Whole watch, exact configuration and final image individually reviewed. Native source resolution retained without invented or sharpened detail; no ownership, celebrity or unique-edition provenance inferred. Separate manufacturer/reference specification source retained. Preserved RAW file: 1PW6uo43c6HDLM8OC5SOQ__Phr7G75TOn. Pictured full reference 15500ST.OO.1220ST.03; Stainless Steel, Black Grande Tapisserie, Stainless-steel bracelet with AP folding clasp. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "notes": "Exact approvedPhotograph gate and local derivative SHA-256 validated; preserve approved source and separate source attribution."
     },
     {
       "brand": "Ulysse Nardin",
@@ -1694,5 +1694,5 @@
       "notes": "Founder-upload identity verified October16. Separate source-original and review evidence in FOUNDER_UPLOAD_CONTINUATION_2026-10-16.json. Underlying commercial rights and final photography quality still required; no publication approval implied."
     }
   ],
-  "updatedAt": "2026-10-16T19:16:17.989Z"
+  "updatedAt": "2026-10-16T19:37:50.330Z"
 }
