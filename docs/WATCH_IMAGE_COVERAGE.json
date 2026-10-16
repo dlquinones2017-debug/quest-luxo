@@ -1,14 +1,14 @@
 {
-  "reviewedAt": "2026-10-16T00:40:36.729Z",
+  "reviewedAt": "2026-10-16T00:55:29.315Z",
   "note": "Generated from all exported source datasets and built routes. Source-only and duplicate configuration records are retained for review; this register is not proof of image rights. Source URLs identify research leads, not licenses.",
   "summary": {
-    "sourceConfigurations": 838,
+    "sourceConfigurations": 842,
     "builtReferenceRoutes": 268,
     "collectionRoutes": 102,
-    "approvedReferenceConfigurations": 403,
+    "approvedReferenceConfigurations": 407,
     "unmatchedReferenceRoutes": 0,
-    "approvedCanonicalReferenceRoutes": 202,
-    "queuedCanonicalReferenceRoutes": 66
+    "approvedCanonicalReferenceRoutes": 204,
+    "queuedCanonicalReferenceRoutes": 64
   },
   "collections": [
     {
@@ -7604,6 +7604,72 @@
     {
       "brand": "Omega",
       "collection": "Seamaster Diver 300M",
+      "reference": "210.22.42.20.01.002",
+      "configurations": [
+        {
+          "caseSize": "42 mm",
+          "movement": "Omega 8800 automatic",
+          "dial": "Black ceramic wave",
+          "bracelet": "Black rubber strap",
+          "nickname": "Black ceramic wave / Black rubber strap",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "Stainless Steel and 18K Sedna Gold",
+      "sources": [
+        "src/data/collectionRegistry.ts",
+        "src/data/photography-expansion.ts"
+      ],
+      "routes": [
+        "/collections/omega/seamaster/210-22-42-20-01-002"
+      ],
+      "scope": "built-reference",
+      "existingImage": "/images/watches/omega/reviewed-210-22-42-20-01-002-white-web.webp",
+      "existingImageFilePresent": true,
+      "photoAssetId": "cleared-black-seamaster-two-1Wn7HToqb1aM6mV69eoKhEU3qGh5VNtbv",
+      "status": "approved",
+      "sourceUrl": "https://www.uhrinstinkt.de/products/omega-seamaster-diver-300-m-co-axial-master-chronometer-42-mm-210-22-42-20-01-002",
+      "licenseRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for these exact two Uhrinstinkt originals and white-background derivatives with no additional restrictions stated on October15,2026 Eastern. Record docs/PHOTOGRAPHY_BLACK_SEAMASTER_TWO_FOUNDER_RIGHTS_2026-10-15.json. Authentic complete RAW and final white WEB individually visually reviewed; source credits retained separately. Preserved RAW file: 1Wn7HToqb1aM6mV69eoKhEU3qGh5VNtbv. Pictured full reference 210.22.42.20.01.002; Stainless Steel and 18K Sedna Gold, Black ceramic wave, Black rubber strap. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
+      "brand": "Omega",
+      "collection": "Seamaster Diver 300M",
+      "reference": "210.20.42.20.01.001",
+      "configurations": [
+        {
+          "caseSize": "42 mm",
+          "movement": "Omega 8800 automatic",
+          "dial": "Black ceramic wave",
+          "bracelet": "Stainless-steel and Sedna Gold bracelet",
+          "nickname": "Black ceramic wave / Stainless-steel and Sedna Gold bracelet",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "Stainless Steel and 18K Sedna Gold",
+      "sources": [
+        "src/data/collectionRegistry.ts",
+        "src/data/photography-expansion.ts"
+      ],
+      "routes": [
+        "/collections/omega/seamaster/210-20-42-20-01-001"
+      ],
+      "scope": "built-reference",
+      "existingImage": "/images/watches/omega/reviewed-210-20-42-20-01-001-white-web.webp",
+      "existingImageFilePresent": true,
+      "photoAssetId": "cleared-black-seamaster-two-1p6TrrF9B8nSbwjKUFHB4EbE_Cv7ZJOpj",
+      "status": "approved",
+      "sourceUrl": "https://www.uhrinstinkt.de/products/omega-seamaster-diver-300-m-co-axial-master-chronometer-42mm-210-20-42-20-01-001",
+      "licenseRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for these exact two Uhrinstinkt originals and white-background derivatives with no additional restrictions stated on October15,2026 Eastern. Record docs/PHOTOGRAPHY_BLACK_SEAMASTER_TWO_FOUNDER_RIGHTS_2026-10-15.json. Authentic complete RAW and final white WEB individually visually reviewed; source credits retained separately. Preserved RAW file: 1p6TrrF9B8nSbwjKUFHB4EbE_Cv7ZJOpj. Pictured full reference 210.20.42.20.01.001; Stainless Steel and 18K Sedna Gold, Black ceramic wave, Stainless-steel and Sedna Gold bracelet. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
+      "brand": "Omega",
+      "collection": "Seamaster Diver 300M",
       "reference": "210.30.42.20.01.001",
       "configurations": [
         {
@@ -7695,70 +7761,6 @@
       "photoAssetId": null,
       "status": "Requires Verification",
       "sourceUrl": "https://www.omegawatches.com.hk/en-hk/watch-omega-seamaster-diver-300m-co-axial-master-chronometer-42-mm-21062422003001",
-      "licenseRecord": null,
-      "websiteApproved": false,
-      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
-    },
-    {
-      "brand": "Omega",
-      "collection": "Seamaster Diver 300M",
-      "reference": "210.22.42.20.01.002",
-      "configurations": [
-        {
-          "caseSize": "42 mm",
-          "movement": "Omega 8800 automatic",
-          "dial": "Black ceramic wave",
-          "bracelet": "Black rubber strap",
-          "originalMSRP": null,
-          "currentMSRP": null
-        }
-      ],
-      "material": "Stainless Steel and 18K Sedna Gold",
-      "sources": [
-        "src/data/collectionRegistry.ts",
-        "src/data/verified-catalog-expansion.ts"
-      ],
-      "routes": [
-        "/collections/omega/seamaster/210-22-42-20-01-002"
-      ],
-      "scope": "built-reference",
-      "existingImage": "/images/watch-reference-placeholder.svg",
-      "existingImageFilePresent": true,
-      "photoAssetId": null,
-      "status": "Requires Verification",
-      "sourceUrl": "https://www.omegawatches.com.hk/en-hk/watch-omega-seamaster-diver-300m-co-axial-master-chronometer-42-mm-21022422001002",
-      "licenseRecord": null,
-      "websiteApproved": false,
-      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
-    },
-    {
-      "brand": "Omega",
-      "collection": "Seamaster Diver 300M",
-      "reference": "210.20.42.20.01.001",
-      "configurations": [
-        {
-          "caseSize": "42 mm",
-          "movement": "Omega 8800 automatic",
-          "dial": "Black ceramic wave",
-          "bracelet": "Stainless-steel and Sedna Gold bracelet",
-          "originalMSRP": null,
-          "currentMSRP": null
-        }
-      ],
-      "material": "Stainless Steel and 18K Sedna Gold",
-      "sources": [
-        "src/data/collectionRegistry.ts",
-        "src/data/verified-catalog-expansion.ts"
-      ],
-      "routes": [
-        "/collections/omega/seamaster/210-20-42-20-01-001"
-      ],
-      "scope": "built-reference",
-      "existingImage": "/images/watch-reference-placeholder.svg",
-      "existingImageFilePresent": true,
-      "photoAssetId": null,
-      "status": "Requires Verification",
-      "sourceUrl": "https://www.omegawatches.com.hk/en-hk/watch-omega-seamaster-diver-300m-co-axial-master-chronometer-42-mm-21020422001001",
       "licenseRecord": null,
       "websiteApproved": false,
       "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
@@ -16773,6 +16775,50 @@
       "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
     },
     {
+      "brand": "Omega",
+      "collection": "Seamaster Diver 300M",
+      "reference": "210.22.42.20.01.002",
+      "configurations": [],
+      "material": "Stainless Steel and 18K Sedna Gold",
+      "sources": [
+        "src/data/photography-cleared-sprint.ts"
+      ],
+      "routes": [
+        "/collections/omega/seamaster/210-22-42-20-01-002"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": null,
+      "status": "Requires Verification",
+      "sourceUrl": null,
+      "licenseRecord": null,
+      "websiteApproved": false,
+      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+    },
+    {
+      "brand": "Omega",
+      "collection": "Seamaster Diver 300M",
+      "reference": "210.20.42.20.01.001",
+      "configurations": [],
+      "material": "Stainless Steel and 18K Sedna Gold",
+      "sources": [
+        "src/data/photography-cleared-sprint.ts"
+      ],
+      "routes": [
+        "/collections/omega/seamaster/210-20-42-20-01-001"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": null,
+      "status": "Requires Verification",
+      "sourceUrl": null,
+      "licenseRecord": null,
+      "websiteApproved": false,
+      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+    },
+    {
       "brand": "Breitling",
       "collection": "Superocean",
       "reference": "A17376211B1A1",
@@ -25331,6 +25377,68 @@
       "status": "approved",
       "sourceUrl": "https://www.uhrinstinkt.de/en/products/omega-seamaster-diver-300-m-co-axial-master-chronometer-42-mm-210-22-42-20-03-002",
       "licenseRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for these exact two Uhrinstinkt originals and white-background derivatives with no additional restrictions on October15,2026 Eastern. Record docs/PHOTOGRAPHY_BLUE_SEAMASTER_TWO_FOUNDER_RIGHTS_2026-10-15.json. Authentic complete RAW and final white WEB individually visually reviewed; source credits retained separately. Preserved RAW file: 1ewuAKrLt8pWCMSgiL_kRlPSlA7sNI9He. Pictured full reference 210.22.42.20.03.002; Stainless Steel and 18K Sedna Gold, Blue ceramic wave, Blue rubber strap. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
+      "brand": "Omega",
+      "collection": "Seamaster Diver 300M",
+      "reference": "210.22.42.20.01.002",
+      "configurations": [
+        {
+          "caseSize": "42 mm",
+          "movement": "Omega 8800 automatic",
+          "dial": "Black ceramic wave",
+          "bracelet": "Black rubber strap",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "Stainless Steel and 18K Sedna Gold",
+      "sources": [
+        "src/data/verified-catalog-expansion.ts"
+      ],
+      "routes": [
+        "/collections/omega/seamaster/210-22-42-20-01-002"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": "cleared-black-seamaster-two-1Wn7HToqb1aM6mV69eoKhEU3qGh5VNtbv",
+      "status": "approved",
+      "sourceUrl": "https://www.uhrinstinkt.de/products/omega-seamaster-diver-300-m-co-axial-master-chronometer-42-mm-210-22-42-20-01-002",
+      "licenseRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for these exact two Uhrinstinkt originals and white-background derivatives with no additional restrictions stated on October15,2026 Eastern. Record docs/PHOTOGRAPHY_BLACK_SEAMASTER_TWO_FOUNDER_RIGHTS_2026-10-15.json. Authentic complete RAW and final white WEB individually visually reviewed; source credits retained separately. Preserved RAW file: 1Wn7HToqb1aM6mV69eoKhEU3qGh5VNtbv. Pictured full reference 210.22.42.20.01.002; Stainless Steel and 18K Sedna Gold, Black ceramic wave, Black rubber strap. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
+      "brand": "Omega",
+      "collection": "Seamaster Diver 300M",
+      "reference": "210.20.42.20.01.001",
+      "configurations": [
+        {
+          "caseSize": "42 mm",
+          "movement": "Omega 8800 automatic",
+          "dial": "Black ceramic wave",
+          "bracelet": "Stainless-steel and Sedna Gold bracelet",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "Stainless Steel and 18K Sedna Gold",
+      "sources": [
+        "src/data/verified-catalog-expansion.ts"
+      ],
+      "routes": [
+        "/collections/omega/seamaster/210-20-42-20-01-001"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": "cleared-black-seamaster-two-1p6TrrF9B8nSbwjKUFHB4EbE_Cv7ZJOpj",
+      "status": "approved",
+      "sourceUrl": "https://www.uhrinstinkt.de/products/omega-seamaster-diver-300-m-co-axial-master-chronometer-42mm-210-20-42-20-01-001",
+      "licenseRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for these exact two Uhrinstinkt originals and white-background derivatives with no additional restrictions stated on October15,2026 Eastern. Record docs/PHOTOGRAPHY_BLACK_SEAMASTER_TWO_FOUNDER_RIGHTS_2026-10-15.json. Authentic complete RAW and final white WEB individually visually reviewed; source credits retained separately. Preserved RAW file: 1p6TrrF9B8nSbwjKUFHB4EbE_Cv7ZJOpj. Pictured full reference 210.20.42.20.01.001; Stainless Steel and 18K Sedna Gold, Black ceramic wave, Stainless-steel and Sedna Gold bracelet. Exact configuration reviewed against preserved source evidence and the original photograph.",
       "websiteApproved": true,
       "nextAction": "Retain approved original and verify derivative integrity."
     },

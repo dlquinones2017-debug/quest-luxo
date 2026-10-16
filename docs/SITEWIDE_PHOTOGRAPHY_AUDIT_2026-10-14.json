@@ -1,13 +1,13 @@
 {
-  "auditedAt": "2026-10-16T00:40:37.230Z",
+  "auditedAt": "2026-10-16T00:55:29.810Z",
   "summary": {
     "brands": 23,
     "collections": 102,
     "registryRecords": 269,
     "distinctRoutes": 268,
     "normalizedBrandReferenceIdentities": 265,
-    "approved": 202,
-    "missing": 66,
+    "approved": 204,
+    "missing": 64,
     "collectionsWithPhotography": 80,
     "unusedApprovedRecords": 2,
     "duplicateNormalizedReferenceGroups": 4,
@@ -123,8 +123,8 @@
       "brand": "Omega",
       "registryRecords": 68,
       "referencePages": 68,
-      "approved": 53,
-      "missing": 15,
+      "approved": 55,
+      "missing": 13,
       "collections": 11
     },
     {
@@ -4130,6 +4130,60 @@
       "brandSlug": "omega",
       "collection": "Seamaster Diver 300M",
       "collectionSlug": "seamaster",
+      "reference": "210.22.42.20.01.002",
+      "path": "/collections/omega/seamaster/210-22-42-20-01-002",
+      "material": "Stainless Steel and 18K Sedna Gold",
+      "configurations": [
+        {
+          "caseSize": "42 mm",
+          "movement": "Omega 8800 automatic",
+          "dial": "Black ceramic wave",
+          "bracelet": "Black rubber strap",
+          "nickname": "Black ceramic wave / Black rubber strap",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "approved": true,
+      "photo": {
+        "assetId": "cleared-black-seamaster-two-1Wn7HToqb1aM6mV69eoKhEU3qGh5VNtbv",
+        "src": "/images/watches/omega/reviewed-210-22-42-20-01-002-white-web.webp",
+        "sha256": "59e4e33b65f02159683de9f43b10eed4f7db43040546faf0b2b5108e8e362a69"
+      },
+      "recoveryCandidates": []
+    },
+    {
+      "brand": "Omega",
+      "brandSlug": "omega",
+      "collection": "Seamaster Diver 300M",
+      "collectionSlug": "seamaster",
+      "reference": "210.20.42.20.01.001",
+      "path": "/collections/omega/seamaster/210-20-42-20-01-001",
+      "material": "Stainless Steel and 18K Sedna Gold",
+      "configurations": [
+        {
+          "caseSize": "42 mm",
+          "movement": "Omega 8800 automatic",
+          "dial": "Black ceramic wave",
+          "bracelet": "Stainless-steel and Sedna Gold bracelet",
+          "nickname": "Black ceramic wave / Stainless-steel and Sedna Gold bracelet",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "approved": true,
+      "photo": {
+        "assetId": "cleared-black-seamaster-two-1p6TrrF9B8nSbwjKUFHB4EbE_Cv7ZJOpj",
+        "src": "/images/watches/omega/reviewed-210-20-42-20-01-001-white-web.webp",
+        "sha256": "6dc60d92fcbf9eb8e390c750984b64069c25cb8a8b16b83a31019ed547fdc970"
+      },
+      "recoveryCandidates": []
+    },
+    {
+      "brand": "Omega",
+      "brandSlug": "omega",
+      "collection": "Seamaster Diver 300M",
+      "collectionSlug": "seamaster",
       "reference": "210.30.42.20.01.001",
       "path": "/collections/omega/seamaster/210-30-42-20-01-001",
       "material": "Stainless Steel",
@@ -4189,50 +4243,6 @@
           "movement": "Omega 8801 automatic",
           "dial": "Blue ceramic wave",
           "bracelet": "Blue rubber strap",
-          "originalMSRP": null,
-          "currentMSRP": null
-        }
-      ],
-      "approved": false,
-      "photo": null,
-      "recoveryCandidates": []
-    },
-    {
-      "brand": "Omega",
-      "brandSlug": "omega",
-      "collection": "Seamaster Diver 300M",
-      "collectionSlug": "seamaster",
-      "reference": "210.22.42.20.01.002",
-      "path": "/collections/omega/seamaster/210-22-42-20-01-002",
-      "material": "Stainless Steel and 18K Sedna Gold",
-      "configurations": [
-        {
-          "caseSize": "42 mm",
-          "movement": "Omega 8800 automatic",
-          "dial": "Black ceramic wave",
-          "bracelet": "Black rubber strap",
-          "originalMSRP": null,
-          "currentMSRP": null
-        }
-      ],
-      "approved": false,
-      "photo": null,
-      "recoveryCandidates": []
-    },
-    {
-      "brand": "Omega",
-      "brandSlug": "omega",
-      "collection": "Seamaster Diver 300M",
-      "collectionSlug": "seamaster",
-      "reference": "210.20.42.20.01.001",
-      "path": "/collections/omega/seamaster/210-20-42-20-01-001",
-      "material": "Stainless Steel and 18K Sedna Gold",
-      "configurations": [
-        {
-          "caseSize": "42 mm",
-          "movement": "Omega 8800 automatic",
-          "dial": "Black ceramic wave",
-          "bracelet": "Stainless-steel and Sedna Gold bracelet",
           "originalMSRP": null,
           "currentMSRP": null
         }

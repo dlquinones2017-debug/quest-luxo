@@ -1,17 +1,17 @@
 {
-  "reviewedAt": "2026-10-16T00:39:33.903Z",
+  "reviewedAt": "2026-10-16T00:54:46.785Z",
   "scope": "All verified-catalog-expansion.ts references only; excludes legacy inventory",
   "policy": "Source URL is NOT image-rights evidence. Exact watch, strap, dial, material, white-canvas original, licensing, website approval and actual derivative SHA256 are required.",
   "summary": {
     "expansionReferences": 99,
     "brands": 12,
     "collections": 42,
-    "approvedValidReferences": 66,
+    "approvedValidReferences": 68,
     "missingApprovedDerivative": 0,
     "checksumFailures": 0,
-    "acquisitionRequired": 33,
-    "notReleaseReady": 33,
-    "imageCoveragePercent": 66.7
+    "acquisitionRequired": 31,
+    "notReleaseReady": 31,
+    "imageCoveragePercent": 68.7
   },
   "byBrand": [
     {
@@ -53,8 +53,8 @@
     {
       "brand": "Omega",
       "references": 55,
-      "approved": 46,
-      "outstanding": 9
+      "approved": 48,
+      "outstanding": 7
     },
     {
       "brand": "Panerai",
@@ -255,13 +255,13 @@
       },
       "specificationSource": "https://www.omegawatches.com.hk/en-hk/watch-omega-seamaster-diver-300m-co-axial-master-chronometer-42-mm-21022422001002",
       "score": 76,
-      "status": "ACQUISITION_REQUIRED",
-      "photoAssetId": null,
-      "derivativePath": null,
-      "recordedSha256": null,
-      "actualSha256": null,
-      "rightsRecord": null,
-      "nextAction": "Source authentic exact-reference original; obtain commercial-use license and provenance, prepare approved full-watch white-canvas derivative and register the matching SHA-256."
+      "status": "APPROVED_WITH_VALID_DERIVATIVE",
+      "photoAssetId": "cleared-black-seamaster-two-1Wn7HToqb1aM6mV69eoKhEU3qGh5VNtbv",
+      "derivativePath": "/images/watches/omega/reviewed-210-22-42-20-01-002-white-web.webp",
+      "recordedSha256": "59e4e33b65f02159683de9f43b10eed4f7db43040546faf0b2b5108e8e362a69",
+      "actualSha256": "59e4e33b65f02159683de9f43b10eed4f7db43040546faf0b2b5108e8e362a69",
+      "rightsRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for these exact two Uhrinstinkt originals and white-background derivatives with no additional restrictions stated on October15,2026 Eastern. Record docs/PHOTOGRAPHY_BLACK_SEAMASTER_TWO_FOUNDER_RIGHTS_2026-10-15.json. Authentic complete RAW and final white WEB individually visually reviewed; source credits retained separately. Preserved RAW file: 1Wn7HToqb1aM6mV69eoKhEU3qGh5VNtbv. Pictured full reference 210.22.42.20.01.002; Stainless Steel and 18K Sedna Gold, Black ceramic wave, Black rubber strap. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "nextAction": "Retain approved source, white-canvas derivative, attribution and reference mapping."
     },
     {
       "brand": "Omega",
@@ -580,13 +580,13 @@
       },
       "specificationSource": "https://www.omegawatches.com.hk/en-hk/watch-omega-seamaster-diver-300m-co-axial-master-chronometer-42-mm-21020422001001",
       "score": 73,
-      "status": "ACQUISITION_REQUIRED",
-      "photoAssetId": null,
-      "derivativePath": null,
-      "recordedSha256": null,
-      "actualSha256": null,
-      "rightsRecord": null,
-      "nextAction": "Source authentic exact-reference original; obtain commercial-use license and provenance, prepare approved full-watch white-canvas derivative and register the matching SHA-256."
+      "status": "APPROVED_WITH_VALID_DERIVATIVE",
+      "photoAssetId": "cleared-black-seamaster-two-1p6TrrF9B8nSbwjKUFHB4EbE_Cv7ZJOpj",
+      "derivativePath": "/images/watches/omega/reviewed-210-20-42-20-01-001-white-web.webp",
+      "recordedSha256": "6dc60d92fcbf9eb8e390c750984b64069c25cb8a8b16b83a31019ed547fdc970",
+      "actualSha256": "6dc60d92fcbf9eb8e390c750984b64069c25cb8a8b16b83a31019ed547fdc970",
+      "rightsRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for these exact two Uhrinstinkt originals and white-background derivatives with no additional restrictions stated on October15,2026 Eastern. Record docs/PHOTOGRAPHY_BLACK_SEAMASTER_TWO_FOUNDER_RIGHTS_2026-10-15.json. Authentic complete RAW and final white WEB individually visually reviewed; source credits retained separately. Preserved RAW file: 1p6TrrF9B8nSbwjKUFHB4EbE_Cv7ZJOpj. Pictured full reference 210.20.42.20.01.001; Stainless Steel and 18K Sedna Gold, Black ceramic wave, Stainless-steel and Sedna Gold bracelet. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "nextAction": "Retain approved source, white-canvas derivative, attribution and reference mapping."
     },
     {
       "brand": "Omega",

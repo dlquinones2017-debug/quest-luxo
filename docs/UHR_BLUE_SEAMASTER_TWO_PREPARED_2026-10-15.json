@@ -1,6 +1,6 @@
 {
   "physicalSets": 2,
-  "websitePublished": false,
+  "websitePublished": true,
   "rightsHeldSets": 0,
   "references": [
     {
@@ -52,7 +52,7 @@
         "dial": "Blue ceramic wave",
         "bracelet": "Stainless-steel and Sedna Gold bracelet"
       },
-      "websiteApproved": false,
+      "websiteApproved": true,
       "visualReviewPassed": true,
       "exactSkuVerified": true,
       "processing": "Classical connected exterior silhouette; original RGB preserved inside the complete watch. Only external background replaced. Centered2400 white master and1200WEB. No AI, recolouring or reconstruction.",
@@ -78,7 +78,7 @@
       },
       "commercialUseRightsConfirmed": true,
       "rightsRecord": "PHOTOGRAPHY_BLUE_SEAMASTER_TWO_FOUNDER_RIGHTS_2026-10-15.json",
-      "publicationStatus": "Integrated; release checks and deployment pending"
+      "publicationStatus": "LIVE; exact configuration/grid/credits/inquiry and image hash verified"
     },
     {
       "brand": "Omega",
@@ -129,7 +129,7 @@
         "dial": "Blue ceramic wave",
         "bracelet": "Blue rubber strap"
       },
-      "websiteApproved": false,
+      "websiteApproved": true,
       "visualReviewPassed": true,
       "exactSkuVerified": true,
       "processing": "Classical connected exterior silhouette; original RGB preserved inside the complete watch. Only external background replaced. Centered2400 white master and1200WEB. No AI, recolouring or reconstruction.",
@@ -155,12 +155,14 @@
       },
       "commercialUseRightsConfirmed": true,
       "rightsRecord": "PHOTOGRAPHY_BLUE_SEAMASTER_TWO_FOUNDER_RIGHTS_2026-10-15.json",
-      "publicationStatus": "Integrated; release checks and deployment pending"
+      "publicationStatus": "LIVE; exact configuration/grid/credits/inquiry and image hash verified"
     }
   ],
   "archivedFiles": 6,
   "archiveStatus": "All untouched RAW, white masters andWEB files archived to established Drive folders. New image-specific rights pending; not published.",
   "approvedForPublication": true,
   "founderRightsRecord": "PHOTOGRAPHY_BLUE_SEAMASTER_TWO_FOUNDER_RIGHTS_2026-10-15.json",
-  "publicationStatus": "Integrated; checks and deployment pending"
+  "publicationStatus": "LIVE and independently production verified",
+  "liveCommit": "aee56c431654c472719596debe16cfb726f634cc",
+  "liveDeployId": "dep-db8n67c9v7es7393tpgg"
 }

@@ -1,0 +1,27 @@
+{
+  "recordedAt": "2026-10-16T00:53:47.090575+00:00",
+  "founderDecisionDateEastern": "2026-10-15",
+  "evidenceType": "Direct human founder response in existing Website/Product chat",
+  "questionItemId": "call_615a01dd5c18469baa0222371ec62d9d",
+  "founderAnswer": "Yes.",
+  "questionScope": "Commercial Quest Luxo website-use rights for both exact Uhrinstinkt black-dial Seamaster originals and white-background derivatives, including any restrictions",
+  "restrictionsStatus": "No additional restrictions stated in the affirmative response",
+  "sourceLedgerDriveIds": [
+    "1dMuCJFahuwCwi3Woo8FAJP8d0goBHuPY"
+  ],
+  "references": [
+    {
+      "brand": "Omega",
+      "reference": "210.22.42.20.01.002",
+      "sourceProvider": "Uhrinstinkt",
+      "rawSha256": "3ec2cef229d500ba455ae630c5582d4693787b908f66d8dfb330af57d4dc80c5"
+    },
+    {
+      "brand": "Omega",
+      "reference": "210.20.42.20.01.001",
+      "sourceProvider": "Uhrinstinkt",
+      "rawSha256": "bad4bccf7d23c8010f84a2f2dd43fc2446d783b5609897133187063ee5dc5d83"
+    }
+  ],
+  "noScopeExtension": "No rights inferred for future originals"
+}

@@ -1,10 +1,10 @@
 {
-  "verifiedAt": "2026-10-16T00:26:29.117613+00:00",
+  "verifiedAt": "2026-10-16T00:44:41.151458+00:00",
   "expectedDistinctReferenceRoutes": 268,
   "verifiedReferenceRoutes": 268,
-  "approvedDistinctReferenceRoutes": 200,
-  "verifiedDistinctPhotoFiles": 199,
-  "queuedDistinctReferenceRoutes": 68,
+  "approvedDistinctReferenceRoutes": 202,
+  "verifiedDistinctPhotoFiles": 201,
+  "queuedDistinctReferenceRoutes": 66,
   "errors": [],
   "pages": [
     {
@@ -653,6 +653,16 @@
       "status": "verified"
     },
     {
+      "route": "/collections/omega/seamaster/210-20-42-20-03-002",
+      "approved": true,
+      "status": "verified"
+    },
+    {
+      "route": "/collections/omega/seamaster/210-22-42-20-03-002",
+      "approved": true,
+      "status": "verified"
+    },
+    {
       "route": "/collections/omega/seamaster/210-30-42-20-01-001",
       "approved": true,
       "status": "verified"
@@ -668,22 +678,12 @@
       "status": "verified"
     },
     {
-      "route": "/collections/omega/seamaster/210-22-42-20-03-002",
-      "approved": false,
-      "status": "verified"
-    },
-    {
       "route": "/collections/omega/seamaster/210-22-42-20-01-002",
       "approved": false,
       "status": "verified"
     },
     {
       "route": "/collections/omega/seamaster/210-20-42-20-01-001",
-      "approved": false,
-      "status": "verified"
-    },
-    {
-      "route": "/collections/omega/seamaster/210-20-42-20-03-002",
       "approved": false,
       "status": "verified"
     },
@@ -1897,6 +1897,16 @@
     {
       "path": "/images/watches/omega/reviewed-210-30-42-20-03-003-white-web.webp",
       "sha256": "b8346b3f423c8518a6c00f07ef9a797cd473d52028f51253442b6c06210e1e3f",
+      "status": "verified"
+    },
+    {
+      "path": "/images/watches/omega/reviewed-210-20-42-20-03-002-white-web.webp",
+      "sha256": "0c3eb8d4bf827d240b8fe68da178a4cff11e1b40c01fcc95b350ca6b7ab0e8a2",
+      "status": "verified"
+    },
+    {
+      "path": "/images/watches/omega/reviewed-210-22-42-20-03-002-white-web.webp",
+      "sha256": "5c4267b25c643c2957a83945cb24a17876dd5e1b0812bb75f927ea020a49ed82",
       "status": "verified"
     },
     {

@@ -1,0 +1,53 @@
+{
+  "checkedAt": "2026-10-16T00:57:13.121387+00:00",
+  "status": "Release checks passed; deployment/production verification pending",
+  "previousProductionMain": "aee56c431654c472719596debe16cfb726f634cc",
+  "rightsDriveFileId": "1aY_Zm7nWA1T93_IuRsD7YmMrBXVhF78c",
+  "sourceLedgerDriveId": "1dMuCJFahuwCwi3Woo8FAJP8d0goBHuPY",
+  "built": {
+    "checkedAt": "2026-10-16T00:55:30.160775+00:00",
+    "mode": "built",
+    "exactReferencesChecked": 2,
+    "rows": [
+      {
+        "reference": "210.22.42.20.01.002",
+        "route": "/collections/omega/seamaster/210-22-42-20-01-002",
+        "imageSha256": "59e4e33b65f02159683de9f43b10eed4f7db43040546faf0b2b5108e8e362a69",
+        "exactConfiguration": true,
+        "collectionGrid": true,
+        "inquiryContext": true,
+        "separateCredits": true,
+        "noImageCaptionOverlay": true
+      },
+      {
+        "reference": "210.20.42.20.01.001",
+        "route": "/collections/omega/seamaster/210-20-42-20-01-001",
+        "imageSha256": "6dc60d92fcbf9eb8e390c750984b64069c25cb8a8b16b83a31019ed547fdc970",
+        "exactConfiguration": true,
+        "collectionGrid": true,
+        "inquiryContext": true,
+        "separateCredits": true,
+        "noImageCaptionOverlay": true
+      }
+    ],
+    "publicFlowsAvailable": true,
+    "leadDataSafety": "Public GET checks only. No new lead submissions, private lead reads, runtime data or disk changes."
+  },
+  "regressions": {
+    "passed": 246,
+    "failed": 0
+  },
+  "astro": {
+    "errors": 0,
+    "warnings": 0,
+    "hints": 20
+  },
+  "build": "Passed; existing Vite bundle-size, Zenith punctuation-alias and public robots warnings remain",
+  "visualReview": {
+    "mobile": "390x844 complete centered black rubber 210.22.42.20.01.002; native1200 loaded; document/client375",
+    "desktop": "1440x1000 complete centered black two-tone bracelet 210.20.42.20.01.001; native1200 loaded; document/client1425. ",
+    "intake": "Black rubber210.22 CTA clicked; exact Omega/Seamaster/reference context present. No submission."
+  },
+  "sourceReview": "Both complete unchanged RAW and final1200WEB individually reviewed. External background only replaced. All6 RAW/master/WEB archived. No AI, reconstruction or recolouring. Source product identity and pictured black dial, case and band match existing verified catalog; no source price, availability or new specs copied.",
+  "testRunNote": "Queue synchronization completed before regression suite; all246 passed."
+}
