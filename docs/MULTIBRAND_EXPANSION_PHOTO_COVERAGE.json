@@ -1,17 +1,17 @@
 {
-  "reviewedAt": "2026-10-16T10:28:30.166Z",
+  "reviewedAt": "2026-10-16T19:19:16.543Z",
   "scope": "All verified-catalog-expansion.ts references only; excludes legacy inventory",
   "policy": "Source URL is NOT image-rights evidence. Exact watch, strap, dial, material, white-canvas original, licensing, website approval and actual derivative SHA256 are required.",
   "summary": {
     "expansionReferences": 128,
     "brands": 16,
     "collections": 52,
-    "approvedValidReferences": 68,
+    "approvedValidReferences": 70,
     "missingApprovedDerivative": 0,
     "checksumFailures": 0,
-    "acquisitionRequired": 60,
-    "notReleaseReady": 60,
-    "imageCoveragePercent": 53.1
+    "acquisitionRequired": 58,
+    "notReleaseReady": 58,
+    "imageCoveragePercent": 54.7
   },
   "byBrand": [
     {
@@ -71,8 +71,8 @@
     {
       "brand": "Patek Philippe",
       "references": 4,
-      "approved": 0,
-      "outstanding": 4
+      "approved": 2,
+      "outstanding": 2
     },
     {
       "brand": "Richard Mille",
@@ -3229,13 +3229,13 @@
       },
       "specificationSource": "https://www.patek.com/en/collection/grand-complications/5236P-010",
       "score": 50,
-      "status": "ACQUISITION_REQUIRED",
-      "photoAssetId": null,
-      "derivativePath": null,
-      "recordedSha256": null,
-      "actualSha256": null,
-      "rightsRecord": null,
-      "nextAction": "Source authentic exact-reference original; obtain commercial-use license and provenance, prepare approved full-watch white-canvas derivative and register the matching SHA-256."
+      "status": "APPROVED_WITH_VALID_DERIVATIVE",
+      "photoAssetId": "cleared-founder-upload-5236p-010",
+      "derivativePath": "/images/watches/patek-philippe/reviewed-5236p-010-white-web.webp",
+      "recordedSha256": "9149feca7be1f0caa43901f6e3fa1168973f969eb1a48baee7db2792f2969c75",
+      "actualSha256": "9149feca7be1f0caa43901f6e3fa1168973f969eb1a48baee7db2792f2969c75",
+      "rightsRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for this exact manufacturer original and white-background derivatives with no restrictions on October16,2026. Record docs/PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json. Entire native original and final blank-white WEB individually reviewed; exact reference, material, dial and strap verified. Original RGB retained; no generated watch detail. Preserved RAW file: 1CukXDn5-rxPmAXNio74heBj6uRvUmoe7. Pictured full reference 5236P-010; Platinum, Rose-gilt opaline with anthracite baton hour markers, Shiny chocolate brown alligator leather strap. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "nextAction": "Retain approved source, white-canvas derivative, attribution and reference mapping."
     },
     {
       "brand": "Patek Philippe",
@@ -3254,13 +3254,13 @@
       },
       "specificationSource": "https://www.patek.com/en/collection/grand-complications/5270p-017",
       "score": 50,
-      "status": "ACQUISITION_REQUIRED",
-      "photoAssetId": null,
-      "derivativePath": null,
-      "recordedSha256": null,
-      "actualSha256": null,
-      "rightsRecord": null,
-      "nextAction": "Source authentic exact-reference original; obtain commercial-use license and provenance, prepare approved full-watch white-canvas derivative and register the matching SHA-256."
+      "status": "APPROVED_WITH_VALID_DERIVATIVE",
+      "photoAssetId": "cleared-founder-upload-5270p-017",
+      "derivativePath": "/images/watches/patek-philippe/reviewed-5270p-017-white-web.webp",
+      "recordedSha256": "da31c67c769cfe1aca48d36b60ef072f2ecb110425499ea62833adb2054aeb6a",
+      "actualSha256": "da31c67c769cfe1aca48d36b60ef072f2ecb110425499ea62833adb2054aeb6a",
+      "rightsRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for this exact manufacturer original and white-background derivatives with no restrictions on October16,2026. Record docs/PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json. Entire native original and final blank-white WEB individually reviewed; exact reference, material, dial and strap verified. Original RGB retained; no generated watch detail. Preserved RAW file: 16OyzEvZexgUD8uckQw4LdDrS2tYnWu-W. Pictured full reference 5270P-017; Platinum, Lacquered red with black-gradient rim, Black fabric-pattern composite strap with red stitching. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "nextAction": "Retain approved source, white-canvas derivative, attribution and reference mapping."
     },
     {
       "brand": "Richard Mille",

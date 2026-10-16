@@ -6,8 +6,8 @@
   "summary": {
     "references": 70,
     "brands": 15,
-    "approvedForImageRelease": 20,
-    "tasksAwaitingExactImageRightsReview": 50
+    "approvedForImageRelease": 22,
+    "tasksAwaitingExactImageRightsReview": 48
   },
   "queue": [
     {
@@ -1613,13 +1613,13 @@
       },
       "identitySource": "https://www.patek.com/en/collection/grand-complications/5236P-010",
       "priorityScore": 100,
-      "status": "RIGHTS_AND_EXACT_CONFIGURATION_REVIEW_REQUIRED",
-      "rawSourceFileId": null,
-      "webDerivativePath": null,
-      "webDerivativeSHA256": null,
-      "reviewer": null,
-      "commercialUseRightsRecord": null,
-      "notes": "Founder-upload identity verified October16. Separate source-original and review evidence in FOUNDER_UPLOAD_CONTINUATION_2026-10-16.json. Underlying commercial rights and final photography quality still required; no publication approval implied."
+      "status": "APPROVED_WITH_VALID_DERIVATIVE",
+      "rawSourceFileId": "1CukXDn5-rxPmAXNio74heBj6uRvUmoe7",
+      "webDerivativePath": "/images/watches/patek-philippe/reviewed-5236p-010-white-web.webp",
+      "webDerivativeSHA256": "9149feca7be1f0caa43901f6e3fa1168973f969eb1a48baee7db2792f2969c75",
+      "reviewer": "Quest Luxo execution review with founder website-use clearance",
+      "commercialUseRightsRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for this exact manufacturer original and white-background derivatives with no restrictions on October16,2026. Record docs/PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json. Entire native original and final blank-white WEB individually reviewed; exact reference, material, dial and strap verified. Original RGB retained; no generated watch detail. Preserved RAW file: 1CukXDn5-rxPmAXNio74heBj6uRvUmoe7. Pictured full reference 5236P-010; Platinum, Rose-gilt opaline with anthracite baton hour markers, Shiny chocolate brown alligator leather strap. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "notes": "Exact approvedPhotograph gate and local derivative SHA-256 validated; preserve approved source and separate source attribution."
     },
     {
       "brand": "Patek Philippe",
@@ -1637,13 +1637,13 @@
       },
       "identitySource": "https://www.patek.com/en/collection/grand-complications/5270p-017",
       "priorityScore": 100,
-      "status": "RIGHTS_AND_EXACT_CONFIGURATION_REVIEW_REQUIRED",
-      "rawSourceFileId": null,
-      "webDerivativePath": null,
-      "webDerivativeSHA256": null,
-      "reviewer": null,
-      "commercialUseRightsRecord": null,
-      "notes": "Founder-upload identity verified October16. Separate source-original and review evidence in FOUNDER_UPLOAD_CONTINUATION_2026-10-16.json. Underlying commercial rights and final photography quality still required; no publication approval implied."
+      "status": "APPROVED_WITH_VALID_DERIVATIVE",
+      "rawSourceFileId": "16OyzEvZexgUD8uckQw4LdDrS2tYnWu-W",
+      "webDerivativePath": "/images/watches/patek-philippe/reviewed-5270p-017-white-web.webp",
+      "webDerivativeSHA256": "da31c67c769cfe1aca48d36b60ef072f2ecb110425499ea62833adb2054aeb6a",
+      "reviewer": "Quest Luxo execution review with founder website-use clearance",
+      "commercialUseRightsRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for this exact manufacturer original and white-background derivatives with no restrictions on October16,2026. Record docs/PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json. Entire native original and final blank-white WEB individually reviewed; exact reference, material, dial and strap verified. Original RGB retained; no generated watch detail. Preserved RAW file: 16OyzEvZexgUD8uckQw4LdDrS2tYnWu-W. Pictured full reference 5270P-017; Platinum, Lacquered red with black-gradient rim, Black fabric-pattern composite strap with red stitching. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "notes": "Exact approvedPhotograph gate and local derivative SHA-256 validated; preserve approved source and separate source attribution."
     },
     {
       "brand": "Audemars Piguet",
@@ -1694,5 +1694,5 @@
       "notes": "Founder-upload identity verified October16. Separate source-original and review evidence in FOUNDER_UPLOAD_CONTINUATION_2026-10-16.json. Underlying commercial rights and final photography quality still required; no publication approval implied."
     }
   ],
-  "updatedAt": "2026-10-15T21:23:26.980Z"
+  "updatedAt": "2026-10-16T19:16:17.989Z"
 }

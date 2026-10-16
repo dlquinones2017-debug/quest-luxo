@@ -3634,5 +3634,51 @@ export const clearedSprintPhotographySeeds: readonly PhotographySeed[] = [
     "sourceProvider": "Uhrinstinkt product photography",
     "reviewedAt": "2026-10-15",
     "assetId": "cleared-snoopy-1sCAfAvvcVpqp5suZN2SHz7H9xc3r055a"
+  },
+  {
+    "brand": "Patek Philippe",
+    "brandSlug": "patek-philippe",
+    "collection": "Grand Complications",
+    "reference": "5236P-010",
+    "exactReference": "5236P-010",
+    "model": "In-Line Perpetual Calendar Rose-Gilt Opaline",
+    "material": "Platinum",
+    "configuration": {
+      "caseSize": "41.3 mm",
+      "movement": "31-260 PS QL automatic",
+      "dial": "Rose-gilt opaline with anthracite baton hour markers",
+      "bracelet": "Shiny chocolate brown alligator leather strap"
+    },
+    "sourceUrl": "https://www.patek.com/en/collection/grand-complications/5236P-010",
+    "src": "/images/watches/patek-philippe/reviewed-5236p-010-white-web.webp",
+    "sha256": "9149feca7be1f0caa43901f6e3fa1168973f969eb1a48baee7db2792f2969c75",
+    "rawDriveFileId": "1CukXDn5-rxPmAXNio74heBj6uRvUmoe7",
+    "clearanceRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for this exact manufacturer original and white-background derivatives with no restrictions on October16,2026. Record docs/PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json. Entire native original and final blank-white WEB individually reviewed; exact reference, material, dial and strap verified. Original RGB retained; no generated watch detail.",
+    "sourceProvider": "Patek Philippe manufacturer product photography",
+    "reviewedAt": "2026-10-16",
+    "assetId": "cleared-founder-upload-5236p-010"
+  },
+  {
+    "brand": "Patek Philippe",
+    "brandSlug": "patek-philippe",
+    "collection": "Grand Complications",
+    "reference": "5270P-017",
+    "exactReference": "5270P-017",
+    "model": "Perpetual Calendar Chronograph Red Dial",
+    "material": "Platinum",
+    "configuration": {
+      "caseSize": "41 mm",
+      "movement": "CH 29-535 PS Q manual winding",
+      "dial": "Lacquered red with black-gradient rim",
+      "bracelet": "Black fabric-pattern composite strap with red stitching"
+    },
+    "sourceUrl": "https://www.patek.com/en/collection/grand-complications/5270p-017",
+    "src": "/images/watches/patek-philippe/reviewed-5270p-017-white-web.webp",
+    "sha256": "da31c67c769cfe1aca48d36b60ef072f2ecb110425499ea62833adb2054aeb6a",
+    "rawDriveFileId": "16OyzEvZexgUD8uckQw4LdDrS2tYnWu-W",
+    "clearanceRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for this exact manufacturer original and white-background derivatives with no restrictions on October16,2026. Record docs/PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json. Entire native original and final blank-white WEB individually reviewed; exact reference, material, dial and strap verified. Original RGB retained; no generated watch detail.",
+    "sourceProvider": "Patek Philippe manufacturer product photography",
+    "reviewedAt": "2026-10-16",
+    "assetId": "cleared-founder-upload-5270p-017"
   }
 ];

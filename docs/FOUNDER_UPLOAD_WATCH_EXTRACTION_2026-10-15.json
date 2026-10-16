@@ -27,10 +27,9 @@
         830,
         1152
       ],
-      "rightsStatus": "User supplied screenshot; underlying third-party commercial permission not separately documented",
+      "rightsStatus": "Founder directly confirmed commercial website-use rights for the exact ZIP watch photographs and white derivatives with no restrictions; PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json",
       "status": "Extracted; not approved for publication",
       "holds": [
-        "Commercial-use evidence for underlying screenshot photograph",
         "Full native-resolution authenticity, configuration and edge review",
         "Incomplete original framing"
       ],
@@ -45,7 +44,8 @@
       "duplicateOf": "upload-05-tudor",
       "alphaFileName": "upload-01-tudor.png",
       "alphaSha256": "b237fdb9ef8aad918ea2fd1d40027ccb4b4a85be1acd2dd9d9f1b8b5c8106002",
-      "visualReview": "Individual1200canvas reviewed; visible source portions retained. Original strap framing incomplete. Not a whole-watch publication asset."
+      "visualReview": "Individual1200canvas reviewed; visible source portions retained. Original strap framing incomplete. Not a whole-watch publication asset.",
+      "rightsRecord": "PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json"
     },
     {
       "id": "upload-02-hublot-ceramic",
@@ -69,10 +69,9 @@
         455,
         680
       ],
-      "rightsStatus": "User supplied screenshot; underlying third-party commercial permission not separately documented",
+      "rightsStatus": "Founder directly confirmed commercial website-use rights for the exact ZIP watch photographs and white derivatives with no restrictions; PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json",
       "status": "Extracted; not approved for publication",
       "holds": [
-        "Commercial-use evidence for underlying screenshot photograph",
         "Full native-resolution authenticity, configuration and edge review"
       ],
       "segmentationReviewFileName": "upload-02-hublot-ceramic.jpg",
@@ -85,7 +84,8 @@
       "referenceProfileAdded": true,
       "alphaFileName": "upload-02-hublot-ceramic.png",
       "alphaSha256": "44ec904b1fbfd1a95a99eafbc82a6ce2c7dcae19fc715edcc07bf3e3cdb77f93",
-      "visualReview": "Contact sheet reviewed. Prepared extraction only; native edge, whole-watch, authenticity and rights holds remain. No publication approval."
+      "visualReview": "Contact sheet reviewed. Prepared extraction only; native edge, whole-watch, authenticity and rights holds remain. No publication approval.",
+      "rightsRecord": "PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json"
     },
     {
       "id": "upload-02-hublot-gold",
@@ -109,10 +109,9 @@
         505,
         688
       ],
-      "rightsStatus": "User supplied screenshot; underlying third-party commercial permission not separately documented",
+      "rightsStatus": "Founder directly confirmed commercial website-use rights for the exact ZIP watch photographs and white derivatives with no restrictions; PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json",
       "status": "Extracted; not approved for publication",
       "holds": [
-        "Commercial-use evidence for underlying screenshot photograph",
         "Full native-resolution authenticity, configuration and edge review",
         "Incomplete original framing"
       ],
@@ -126,7 +125,8 @@
       "referenceProfileAdded": true,
       "alphaFileName": "upload-02-hublot-gold.png",
       "alphaSha256": "52c6f46ccea5c67186451614b704faa4baf95fbcb4cfb6a9e7128307eda93f6c",
-      "visualReview": "Contact sheet reviewed. Prepared extraction only; native edge, whole-watch, authenticity and rights holds remain. No publication approval."
+      "visualReview": "Contact sheet reviewed. Prepared extraction only; native edge, whole-watch, authenticity and rights holds remain. No publication approval.",
+      "rightsRecord": "PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json"
     },
     {
       "id": "upload-03-vc",
@@ -150,11 +150,10 @@
         350,
         615
       ],
-      "rightsStatus": "User supplied screenshot; underlying third-party commercial permission not separately documented",
+      "rightsStatus": "Founder directly confirmed commercial website-use rights for the exact ZIP watch photographs and white derivatives with no restrictions; PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json",
       "status": "Extracted; not approved for publication",
       "holds": [
         "Source authenticity and exact configuration review",
-        "Commercial-use evidence",
         "Incomplete original framing",
         "4500V versus 4520V generation and full black-dial SKU unresolved."
       ],
@@ -164,7 +163,8 @@
       "identityHold": "4500V versus 4520V generation and full black-dial SKU unresolved.",
       "alphaFileName": "upload-03-vc.png",
       "alphaSha256": "27a543bc2a2caa379bdbe3f93be63a8dad86dfcac174d62fa2bd424fa2f35fcc",
-      "visualReview": "Contact sheet reviewed. Prepared extraction only; native edge, whole-watch, authenticity and rights holds remain. No publication approval."
+      "visualReview": "Contact sheet reviewed. Prepared extraction only; native edge, whole-watch, authenticity and rights holds remain. No publication approval.",
+      "rightsRecord": "PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json"
     },
     {
       "id": "upload-03-patek",
@@ -188,10 +188,9 @@
         369,
         615
       ],
-      "rightsStatus": "User supplied screenshot; underlying third-party commercial permission not separately documented",
+      "rightsStatus": "Founder directly confirmed commercial website-use rights for the exact ZIP watch photographs and white derivatives with no restrictions; PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json",
       "status": "Extracted; not approved for publication",
       "holds": [
-        "Commercial-use evidence for underlying screenshot photograph",
         "Full native-resolution authenticity, configuration and edge review"
       ],
       "segmentationReviewFileName": "upload-03-patek.jpg",
@@ -204,7 +203,8 @@
       "referenceProfileAdded": true,
       "alphaFileName": "upload-03-patek.png",
       "alphaSha256": "497dbe0040e04bb129491d4c784e485403e41ed0bb6f168324789912aff52795",
-      "visualReview": "Contact sheet reviewed. Prepared extraction only; native edge, whole-watch, authenticity and rights holds remain. No publication approval."
+      "visualReview": "Contact sheet reviewed. Prepared extraction only; native edge, whole-watch, authenticity and rights holds remain. No publication approval.",
+      "rightsRecord": "PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json"
     },
     {
       "id": "upload-03-ap",
@@ -228,13 +228,11 @@
         345,
         615
       ],
-      "rightsStatus": "User supplied screenshot; underlying third-party commercial permission not separately documented",
+      "rightsStatus": "Founder directly confirmed commercial website-use rights for the exact ZIP watch photographs and white derivatives with no restrictions; PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json",
       "status": "Extracted; not approved for publication",
       "holds": [
         "Source authenticity and exact configuration review",
-        "Commercial-use evidence",
         "15400ST versus 15500ST generation and full black-dial SKU unresolved.",
-        "Commercial-use evidence for underlying screenshot photograph",
         "Final whole-watch authenticity and edge quality review"
       ],
       "segmentationReviewFileName": "upload-03-ap.jpg",
@@ -249,7 +247,8 @@
       "catalogCollectionSlug": "royal-oak",
       "referenceProfileAdded": true,
       "identityReview": "Manufacturer confirms 15500 generation with wide indexes, external printed minute track and outward date window. Those visible features distinguish this upload from the older15400 candidate; black steel full SKU03 established.",
-      "identityReviewedAt": "2026-10-16"
+      "identityReviewedAt": "2026-10-16",
+      "rightsRecord": "PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json"
     },
     {
       "id": "upload-09-vc",
@@ -273,10 +272,9 @@
         350,
         605
       ],
-      "rightsStatus": "User supplied screenshot; underlying third-party commercial permission not separately documented",
+      "rightsStatus": "Founder directly confirmed commercial website-use rights for the exact ZIP watch photographs and white derivatives with no restrictions; PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json",
       "status": "Extracted; not approved for publication",
       "holds": [
-        "Commercial-use evidence for underlying screenshot photograph",
         "Full native-resolution authenticity, configuration and edge review"
       ],
       "segmentationReviewFileName": "upload-09-vc.jpg",
@@ -289,7 +287,8 @@
       "referenceProfileAdded": true,
       "alphaFileName": "upload-09-vc.png",
       "alphaSha256": "5c457a336489727dbbac694d2afa5abcf28dfe1815aa0e4f5a66b9b9eaf99200",
-      "visualReview": "Contact sheet reviewed. Prepared extraction only; native edge, whole-watch, authenticity and rights holds remain. No publication approval."
+      "visualReview": "Contact sheet reviewed. Prepared extraction only; native edge, whole-watch, authenticity and rights holds remain. No publication approval.",
+      "rightsRecord": "PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json"
     },
     {
       "id": "upload-09-patek",
@@ -313,13 +312,11 @@
         369,
         605
       ],
-      "rightsStatus": "User supplied screenshot; underlying third-party commercial permission not separately documented",
+      "rightsStatus": "Founder directly confirmed commercial website-use rights for the exact ZIP watch photographs and white derivatives with no restrictions; PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json",
       "status": "Extracted; not approved for publication",
       "holds": [
         "Source authenticity and exact configuration review",
-        "Commercial-use evidence",
         "Salmon calendar graphic lacks verified exact manufacturer configuration. Do not infer 5396G suffix.",
-        "Commercial-use evidence for underlying screenshot photograph",
         "Final whole-watch authenticity and edge quality review"
       ],
       "segmentationReviewFileName": "upload-09-patek.jpg",
@@ -334,7 +331,8 @@
       "catalogCollectionSlug": "grand-complications",
       "referenceProfileAdded": true,
       "identityReview": "Exact in-line day/date/month window, baton markers, rose-gilt dial and platinum case match manufacturer 5236P-010. Earlier 5396 family hypothesis rejected: that model has separate day/month and date layouts.",
-      "identityReviewedAt": "2026-10-16"
+      "identityReviewedAt": "2026-10-16",
+      "rightsRecord": "PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json"
     },
     {
       "id": "upload-09-ap",
@@ -358,10 +356,9 @@
         345,
         605
       ],
-      "rightsStatus": "User supplied screenshot; underlying third-party commercial permission not separately documented",
+      "rightsStatus": "Founder directly confirmed commercial website-use rights for the exact ZIP watch photographs and white derivatives with no restrictions; PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json",
       "status": "Extracted; not approved for publication",
       "holds": [
-        "Commercial-use evidence for underlying screenshot photograph",
         "Full native-resolution authenticity, configuration and edge review"
       ],
       "segmentationReviewFileName": "upload-09-ap.jpg",
@@ -374,7 +371,8 @@
       "referenceProfileAdded": true,
       "alphaFileName": "upload-09-ap.png",
       "alphaSha256": "c777e16761cb3e5c424db4fe97b23924cc8fabd4437ca2331f40a8be8b304c3b",
-      "visualReview": "Contact sheet reviewed. Prepared extraction only; native edge, whole-watch, authenticity and rights holds remain. No publication approval."
+      "visualReview": "Contact sheet reviewed. Prepared extraction only; native edge, whole-watch, authenticity and rights holds remain. No publication approval.",
+      "rightsRecord": "PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json"
     },
     {
       "id": "upload-11-vc",
@@ -398,10 +396,9 @@
         350,
         615
       ],
-      "rightsStatus": "User supplied screenshot; underlying third-party commercial permission not separately documented",
+      "rightsStatus": "Founder directly confirmed commercial website-use rights for the exact ZIP watch photographs and white derivatives with no restrictions; PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json",
       "status": "Extracted; not approved for publication",
       "holds": [
-        "Commercial-use evidence for underlying screenshot photograph",
         "Full native-resolution authenticity, configuration and edge review"
       ],
       "segmentationReviewFileName": "upload-11-vc.jpg",
@@ -415,7 +412,8 @@
       "identityReview": "Exact manufacturer/retailer configuration established; earlier candidate uncertainty superseded. No photo publication approval implied.",
       "alphaFileName": "upload-11-vc.png",
       "alphaSha256": "4ef1df2668f2ccf005237ad16c104edf9906d6c3d4cef6fee5c861fb650e42fd",
-      "visualReview": "Contact sheet reviewed. Prepared extraction only; native edge, whole-watch, authenticity and rights holds remain. No publication approval."
+      "visualReview": "Contact sheet reviewed. Prepared extraction only; native edge, whole-watch, authenticity and rights holds remain. No publication approval.",
+      "rightsRecord": "PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json"
     },
     {
       "id": "upload-11-patek",
@@ -439,13 +437,11 @@
         369,
         615
       ],
-      "rightsStatus": "User supplied screenshot; underlying third-party commercial permission not separately documented",
+      "rightsStatus": "Founder directly confirmed commercial website-use rights for the exact ZIP watch photographs and white derivatives with no restrictions; PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json",
       "status": "Extracted; not approved for publication",
       "holds": [
         "Source authenticity and exact configuration review",
-        "Commercial-use evidence",
         "Red perpetual-calendar chronograph graphic exact manufacturer dial/SKU not established.",
-        "Commercial-use evidence for underlying screenshot photograph",
         "Final whole-watch authenticity and edge quality review"
       ],
       "segmentationReviewFileName": "upload-11-patek.jpg",
@@ -460,7 +456,8 @@
       "catalogCollectionSlug": "grand-complications",
       "referenceProfileAdded": true,
       "identityReview": "Manufacturer confirms 5270P-017 red lacquered black-gradient dial, platinum case and black composite strap with red stitching. Exact complications, hands and case match uploaded graphic.",
-      "identityReviewedAt": "2026-10-16"
+      "identityReviewedAt": "2026-10-16",
+      "rightsRecord": "PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json"
     },
     {
       "id": "upload-11-ap",
@@ -484,10 +481,9 @@
         345,
         615
       ],
-      "rightsStatus": "User supplied screenshot; underlying third-party commercial permission not separately documented",
+      "rightsStatus": "Founder directly confirmed commercial website-use rights for the exact ZIP watch photographs and white derivatives with no restrictions; PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json",
       "status": "Extracted; not approved for publication",
       "holds": [
-        "Commercial-use evidence for underlying screenshot photograph",
         "Full native-resolution authenticity, configuration and edge review"
       ],
       "segmentationReviewFileName": "upload-11-ap.jpg",
@@ -500,7 +496,8 @@
       "referenceProfileAdded": true,
       "alphaFileName": "upload-11-ap.png",
       "alphaSha256": "63d1fdae48fafcde795bc6e3c534933ae4653c99b1ad22b8f492d9ca00f44a35",
-      "visualReview": "Contact sheet reviewed. Prepared extraction only; native edge, whole-watch, authenticity and rights holds remain. No publication approval."
+      "visualReview": "Contact sheet reviewed. Prepared extraction only; native edge, whole-watch, authenticity and rights holds remain. No publication approval.",
+      "rightsRecord": "PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json"
     },
     {
       "id": "upload-14-vc",
@@ -524,11 +521,10 @@
         350,
         600
       ],
-      "rightsStatus": "User supplied screenshot; underlying third-party commercial permission not separately documented",
+      "rightsStatus": "Founder directly confirmed commercial website-use rights for the exact ZIP watch photographs and white derivatives with no restrictions; PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json",
       "status": "Extracted; not approved for publication",
       "holds": [
         "Source authenticity and exact configuration review",
-        "Commercial-use evidence",
         "Incomplete original framing",
         "Blue Overseas dual-time graphic; 7900V versus 7920V generation unresolved. Not the moonphase-retrograde model."
       ],
@@ -538,7 +534,8 @@
       "identityHold": "Blue Overseas dual-time graphic; 7900V versus 7920V generation unresolved. Not the moonphase-retrograde model.",
       "alphaFileName": "upload-14-vc.png",
       "alphaSha256": "ff42853df6a4518ec14420934f422b84cf9e7a0f4586228a967e87ed4070a0bf",
-      "visualReview": "Contact sheet reviewed. Prepared extraction only; native edge, whole-watch, authenticity and rights holds remain. No publication approval."
+      "visualReview": "Contact sheet reviewed. Prepared extraction only; native edge, whole-watch, authenticity and rights holds remain. No publication approval.",
+      "rightsRecord": "PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json"
     },
     {
       "id": "upload-14-patek",
@@ -562,10 +559,9 @@
         369,
         600
       ],
-      "rightsStatus": "User supplied screenshot; underlying third-party commercial permission not separately documented",
+      "rightsStatus": "Founder directly confirmed commercial website-use rights for the exact ZIP watch photographs and white derivatives with no restrictions; PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json",
       "status": "Extracted; not approved for publication",
       "holds": [
-        "Commercial-use evidence for underlying screenshot photograph",
         "Full native-resolution authenticity, configuration and edge review"
       ],
       "segmentationReviewFileName": "upload-14-patek.jpg",
@@ -578,7 +574,8 @@
       "referenceProfileAdded": true,
       "alphaFileName": "upload-14-patek.png",
       "alphaSha256": "672d38918dfdee7e30580e507aa23733d1bc1bd9f810560cb165cd1a63f13f0d",
-      "visualReview": "Contact sheet reviewed. Prepared extraction only; native edge, whole-watch, authenticity and rights holds remain. No publication approval."
+      "visualReview": "Contact sheet reviewed. Prepared extraction only; native edge, whole-watch, authenticity and rights holds remain. No publication approval.",
+      "rightsRecord": "PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json"
     },
     {
       "id": "upload-14-ap",
@@ -602,10 +599,9 @@
         345,
         600
       ],
-      "rightsStatus": "User supplied screenshot; underlying third-party commercial permission not separately documented",
+      "rightsStatus": "Founder directly confirmed commercial website-use rights for the exact ZIP watch photographs and white derivatives with no restrictions; PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json",
       "status": "Extracted; not approved for publication",
       "holds": [
-        "Commercial-use evidence for underlying screenshot photograph",
         "Full native-resolution authenticity, configuration and edge review"
       ],
       "segmentationReviewFileName": "upload-14-ap.jpg",
@@ -618,7 +614,8 @@
       "referenceProfileAdded": true,
       "alphaFileName": "upload-14-ap.png",
       "alphaSha256": "69db0c744c3d663bd37ceb83845d21e203eddfcb7ee97707d9737fc88f627474",
-      "visualReview": "Contact sheet reviewed. Prepared extraction only; native edge, whole-watch, authenticity and rights holds remain. No publication approval."
+      "visualReview": "Contact sheet reviewed. Prepared extraction only; native edge, whole-watch, authenticity and rights holds remain. No publication approval.",
+      "rightsRecord": "PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json"
     },
     {
       "id": "upload-12-vc",
@@ -642,10 +639,9 @@
         350,
         595
       ],
-      "rightsStatus": "User supplied screenshot; underlying third-party commercial permission not separately documented",
+      "rightsStatus": "Founder directly confirmed commercial website-use rights for the exact ZIP watch photographs and white derivatives with no restrictions; PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json",
       "status": "Extracted; not approved for publication",
       "holds": [
-        "Commercial-use evidence for underlying screenshot photograph",
         "Full native-resolution authenticity, configuration and edge review",
         "Incomplete original framing"
       ],
@@ -659,7 +655,8 @@
       "referenceProfileAdded": true,
       "alphaFileName": "upload-12-vc.png",
       "alphaSha256": "83ad019c0864ea6284d2d6dca14f84041145f46da1d724ff51f9c55d79e321cd",
-      "visualReview": "Contact sheet reviewed. Prepared extraction only; native edge, whole-watch, authenticity and rights holds remain. No publication approval."
+      "visualReview": "Contact sheet reviewed. Prepared extraction only; native edge, whole-watch, authenticity and rights holds remain. No publication approval.",
+      "rightsRecord": "PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json"
     },
     {
       "id": "upload-12-patek",
@@ -683,11 +680,10 @@
         369,
         595
       ],
-      "rightsStatus": "User supplied screenshot; underlying third-party commercial permission not separately documented",
+      "rightsStatus": "Founder directly confirmed commercial website-use rights for the exact ZIP watch photographs and white derivatives with no restrictions; PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json",
       "status": "Extracted; not approved for publication",
       "holds": [
         "Source authenticity and exact configuration review",
-        "Commercial-use evidence",
         "Green Breguet-numeral calendar graphic has no verified matching manufacturer reference; possible altered graphic; authenticity hold."
       ],
       "segmentationReviewFileName": "upload-12-patek.jpg",
@@ -696,7 +692,8 @@
       "identityHold": "Green Breguet-numeral calendar graphic has no verified matching manufacturer reference; possible altered graphic; authenticity hold.",
       "alphaFileName": "upload-12-patek.png",
       "alphaSha256": "c6f77c074d1d7327862ea1d2f5ef0a329cd1fff611e9910bcf29d5e348caee29",
-      "visualReview": "Contact sheet reviewed. Prepared extraction only; native edge, whole-watch, authenticity and rights holds remain. No publication approval."
+      "visualReview": "Contact sheet reviewed. Prepared extraction only; native edge, whole-watch, authenticity and rights holds remain. No publication approval.",
+      "rightsRecord": "PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json"
     },
     {
       "id": "upload-12-ap",
@@ -720,11 +717,10 @@
         345,
         595
       ],
-      "rightsStatus": "User supplied screenshot; underlying third-party commercial permission not separately documented",
+      "rightsStatus": "Founder directly confirmed commercial website-use rights for the exact ZIP watch photographs and white derivatives with no restrictions; PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json",
       "status": "Extracted; not approved for publication",
       "holds": [
-        "Source authenticity and exact configuration review",
-        "Commercial-use evidence"
+        "Source authenticity and exact configuration review"
       ],
       "segmentationReviewFileName": "upload-12-ap.jpg",
       "segmentationStatus": "Unapproved classical mask; needs individual edge review",
@@ -735,7 +731,8 @@
       "nextAction": "Retain existing cleared catalog photograph; do not replace with screenshot or create duplicate profile.",
       "alphaFileName": "upload-12-ap.png",
       "alphaSha256": "3501f86e0b4b91a1ae11169c19a54b3e93f0ba4512718dda25ae6a7c2fece3ba",
-      "visualReview": "Contact sheet reviewed. Prepared extraction only; native edge, whole-watch, authenticity and rights holds remain. No publication approval."
+      "visualReview": "Contact sheet reviewed. Prepared extraction only; native edge, whole-watch, authenticity and rights holds remain. No publication approval.",
+      "rightsRecord": "PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json"
     },
     {
       "id": "upload-04-planet-ocean",
@@ -759,10 +756,9 @@
         625,
         827
       ],
-      "rightsStatus": "User supplied screenshot; underlying third-party commercial permission not separately documented",
+      "rightsStatus": "Founder directly confirmed commercial website-use rights for the exact ZIP watch photographs and white derivatives with no restrictions; PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json",
       "status": "Extracted; not approved for publication",
       "holds": [
-        "Commercial-use evidence for underlying screenshot photograph",
         "Full native-resolution authenticity, configuration and edge review",
         "Incomplete original framing"
       ],
@@ -776,7 +772,8 @@
       "referenceProfileAdded": true,
       "alphaFileName": "upload-04-planet-ocean.png",
       "alphaSha256": "163d92b9fa7a7e96c83a16dd3a97dd950ba533843250dcc97ba6644b0335f764",
-      "visualReview": "Individual1200canvas reviewed; visible source portions retained. Original strap framing incomplete. Not a whole-watch publication asset."
+      "visualReview": "Individual1200canvas reviewed; visible source portions retained. Original strap framing incomplete. Not a whole-watch publication asset.",
+      "rightsRecord": "PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json"
     },
     {
       "id": "upload-05-tudor",
@@ -800,10 +797,9 @@
         675,
         1055
       ],
-      "rightsStatus": "User supplied screenshot; underlying third-party commercial permission not separately documented",
+      "rightsStatus": "Founder directly confirmed commercial website-use rights for the exact ZIP watch photographs and white derivatives with no restrictions; PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json",
       "status": "Extracted; not approved for publication",
       "holds": [
-        "Commercial-use evidence for underlying screenshot photograph",
         "Full native-resolution authenticity, configuration and edge review"
       ],
       "segmentationReviewFileName": "upload-05-tudor.jpg",
@@ -816,7 +812,8 @@
       "referenceProfileAdded": true,
       "alphaFileName": "upload-05-tudor.png",
       "alphaSha256": "6be072126c5ec0f979627bcbf09c8cb1e852ebda5e30352c5b3e2f24945ea422",
-      "visualReview": "Full1200canvas reviewed after preserving five-link steel bracelet. Watch complete and centered; minor source shadow retained. Underlying commercial-use evidence remains undocumented."
+      "visualReview": "Full1200canvas reviewed after preserving five-link steel bracelet. Watch complete and centered; minor source shadow retained. Underlying commercial-use evidence remains undocumented.",
+      "rightsRecord": "PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json"
     },
     {
       "id": "upload-06-ceramic-diver",
@@ -840,10 +837,9 @@
         453,
         715
       ],
-      "rightsStatus": "User supplied screenshot; underlying third-party commercial permission not separately documented",
+      "rightsStatus": "Founder directly confirmed commercial website-use rights for the exact ZIP watch photographs and white derivatives with no restrictions; PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json",
       "status": "Extracted; not approved for publication",
       "holds": [
-        "Commercial-use evidence for underlying screenshot photograph",
         "Full native-resolution authenticity, configuration and edge review"
       ],
       "segmentationReviewFileName": "upload-06-ceramic-diver.jpg",
@@ -856,7 +852,8 @@
       "referenceProfileAdded": true,
       "alphaFileName": "upload-06-ceramic-diver.png",
       "alphaSha256": "cf830827d4401141de7efb86739c1f3429dee855b15ca5a7a8bd99150e8d6458",
-      "visualReview": "Contact sheet reviewed. Prepared extraction only; native edge, whole-watch, authenticity and rights holds remain. No publication approval."
+      "visualReview": "Contact sheet reviewed. Prepared extraction only; native edge, whole-watch, authenticity and rights holds remain. No publication approval.",
+      "rightsRecord": "PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json"
     },
     {
       "id": "upload-07-diver-chrono",
@@ -880,10 +877,9 @@
         1000,
         1345
       ],
-      "rightsStatus": "User supplied screenshot; underlying third-party commercial permission not separately documented",
+      "rightsStatus": "Founder directly confirmed commercial website-use rights for the exact ZIP watch photographs and white derivatives with no restrictions; PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json",
       "status": "Extracted; not approved for publication",
       "holds": [
-        "Commercial-use evidence for underlying screenshot photograph",
         "Full native-resolution authenticity, configuration and edge review"
       ],
       "segmentationReviewFileName": "upload-07-diver-chrono.jpg",
@@ -897,7 +893,8 @@
       "duplicateOf": "upload-08-blue-chrono",
       "alphaFileName": "upload-07-diver-chrono.png",
       "alphaSha256": "961641d23d3e8a9d0ae41cf9053ad6dac187a9c3f66c12d5f6badfb528e27760",
-      "visualReview": "Contact sheet reviewed. Prepared extraction only; native edge, whole-watch, authenticity and rights holds remain. No publication approval."
+      "visualReview": "Contact sheet reviewed. Prepared extraction only; native edge, whole-watch, authenticity and rights holds remain. No publication approval.",
+      "rightsRecord": "PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json"
     },
     {
       "id": "upload-08-white-diver",
@@ -921,11 +918,10 @@
         335,
         655
       ],
-      "rightsStatus": "User supplied screenshot; underlying third-party commercial permission not separately documented",
+      "rightsStatus": "Founder directly confirmed commercial website-use rights for the exact ZIP watch photographs and white derivatives with no restrictions; PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json",
       "status": "Extracted; not approved for publication",
       "holds": [
         "Source authenticity and exact configuration review",
-        "Commercial-use evidence",
         "Incomplete original framing",
         "Full suffix of white-dial rose-gold Maxi Marine Diver unresolved; strap clipped in original."
       ],
@@ -935,7 +931,8 @@
       "identityHold": "Full suffix of white-dial rose-gold Maxi Marine Diver unresolved; strap clipped in original.",
       "alphaFileName": "upload-08-white-diver.png",
       "alphaSha256": "c4618d13f7f781bf1b5acf11865a1c9e8935e4291884f9322a3123a65e8f6455",
-      "visualReview": "Contact sheet reviewed. Prepared extraction only; native edge, whole-watch, authenticity and rights holds remain. No publication approval."
+      "visualReview": "Contact sheet reviewed. Prepared extraction only; native edge, whole-watch, authenticity and rights holds remain. No publication approval.",
+      "rightsRecord": "PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json"
     },
     {
       "id": "upload-08-blue-chrono",
@@ -959,10 +956,9 @@
         315,
         488
       ],
-      "rightsStatus": "User supplied screenshot; underlying third-party commercial permission not separately documented",
+      "rightsStatus": "Founder directly confirmed commercial website-use rights for the exact ZIP watch photographs and white derivatives with no restrictions; PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json",
       "status": "Extracted; not approved for publication",
       "holds": [
-        "Commercial-use evidence for underlying screenshot photograph",
         "Full native-resolution authenticity, configuration and edge review"
       ],
       "segmentationReviewFileName": "upload-08-blue-chrono.jpg",
@@ -975,7 +971,8 @@
       "referenceProfileAdded": true,
       "alphaFileName": "upload-08-blue-chrono.png",
       "alphaSha256": "fa5f4e77e1eea3c2b8765cc0a0729ab04452ee1662e5f2373e832ea366773716",
-      "visualReview": "Contact sheet reviewed. Prepared extraction only; native edge, whole-watch, authenticity and rights holds remain. No publication approval."
+      "visualReview": "Contact sheet reviewed. Prepared extraction only; native edge, whole-watch, authenticity and rights holds remain. No publication approval.",
+      "rightsRecord": "PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json"
     },
     {
       "id": "upload-10-maxi-diver",
@@ -999,13 +996,11 @@
         730,
         980
       ],
-      "rightsStatus": "User supplied screenshot; underlying third-party commercial permission not separately documented",
+      "rightsStatus": "Founder directly confirmed commercial website-use rights for the exact ZIP watch photographs and white derivatives with no restrictions; PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json",
       "status": "Extracted; not approved for publication",
       "holds": [
         "Source authenticity and exact configuration review",
-        "Commercial-use evidence",
         "Steel/rose-gold or titanium/rose-gold blue wave model exact SKU unresolved; display stand obscures rear strap.",
-        "Commercial-use evidence for underlying screenshot photograph",
         "Final whole-watch authenticity and edge quality review",
         "Display stand obscures rear strap; source cannot establish entire unobstructed watch"
       ],
@@ -1021,7 +1016,8 @@
       "catalogCollectionSlug": "diver",
       "referenceProfileAdded": true,
       "identityReview": "Exact blue wave dial, titanium case, rose-gold bezel and black ceramic strap inserts match Prestige Time265-90-3c/93 original. Ceramic inserts distinguish the3c configuration from gold-insert3/93; display stand obscures rear strap in upload.",
-      "identityReviewedAt": "2026-10-16"
+      "identityReviewedAt": "2026-10-16",
+      "rightsRecord": "PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json"
     },
     {
       "id": "upload-13-maxi-diver",
@@ -1045,10 +1041,9 @@
         920,
         1450
       ],
-      "rightsStatus": "User supplied screenshot; underlying third-party commercial permission not separately documented",
+      "rightsStatus": "Founder directly confirmed commercial website-use rights for the exact ZIP watch photographs and white derivatives with no restrictions; PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json",
       "status": "Extracted; not approved for publication",
       "holds": [
-        "Commercial-use evidence for underlying screenshot photograph",
         "Full native-resolution authenticity, configuration and edge review"
       ],
       "segmentationReviewFileName": "upload-13-maxi-diver.jpg",
@@ -1062,7 +1057,8 @@
       "identityReview": "Exact manufacturer/retailer configuration established; earlier candidate uncertainty superseded. No photo publication approval implied.",
       "alphaFileName": "upload-13-maxi-diver.png",
       "alphaSha256": "d040725d12485f13ebed4d0a1c3fdc3953820bd446e331dd81e99c0447a22b06",
-      "visualReview": "Individual1200canvas reviewed; rear strap now retained. Residual black background at outer boundary requires finer manual edge work. Not approved."
+      "visualReview": "Individual1200canvas reviewed; rear strap now retained. Residual black background at outer boundary requires finer manual edge work. Not approved.",
+      "rightsRecord": "PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json"
     },
     {
       "id": "upload-15-marine",
@@ -1086,10 +1082,9 @@
         1080,
         1835
       ],
-      "rightsStatus": "User supplied screenshot; underlying third-party commercial permission not separately documented",
+      "rightsStatus": "Founder directly confirmed commercial website-use rights for the exact ZIP watch photographs and white derivatives with no restrictions; PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json",
       "status": "Extracted; not approved for publication",
       "holds": [
-        "Commercial-use evidence for underlying screenshot photograph",
         "Full native-resolution authenticity, configuration and edge review",
         "Incomplete original framing"
       ],
@@ -1103,7 +1098,8 @@
       "referenceProfileAdded": true,
       "alphaFileName": "upload-15-marine.png",
       "alphaSha256": "b9171fd328f8292bb12d5f0a744880cba8779130c319f667b3329660be2d3245",
-      "visualReview": "Contact sheet reviewed. Prepared extraction only; native edge, whole-watch, authenticity and rights holds remain. No publication approval."
+      "visualReview": "Contact sheet reviewed. Prepared extraction only; native edge, whole-watch, authenticity and rights holds remain. No publication approval.",
+      "rightsRecord": "PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json"
     },
     {
       "id": "upload-16-moonwatch",
@@ -1127,10 +1123,9 @@
         610,
         1090
       ],
-      "rightsStatus": "User supplied screenshot; underlying third-party commercial permission not separately documented",
+      "rightsStatus": "Founder directly confirmed commercial website-use rights for the exact ZIP watch photographs and white derivatives with no restrictions; PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json",
       "status": "Extracted; not approved for publication",
       "holds": [
-        "Commercial-use evidence for underlying screenshot photograph",
         "Full native-resolution authenticity, configuration and edge review"
       ],
       "segmentationReviewFileName": "upload-16-moonwatch.jpg",
@@ -1143,7 +1138,8 @@
       "referenceProfileAdded": true,
       "alphaFileName": "upload-16-moonwatch.png",
       "alphaSha256": "4b9043617d36215f9c75943844aa559427e6c86fa69c4d40aaeb11dbf7bda31f",
-      "visualReview": "Contact sheet reviewed. Prepared extraction only; native edge, whole-watch, authenticity and rights holds remain. No publication approval."
+      "visualReview": "Contact sheet reviewed. Prepared extraction only; native edge, whole-watch, authenticity and rights holds remain. No publication approval.",
+      "rightsRecord": "PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json"
     },
     {
       "id": "upload-17-yacht-master",
@@ -1167,11 +1163,10 @@
         930,
         1080
       ],
-      "rightsStatus": "User supplied screenshot; underlying third-party commercial permission not separately documented",
+      "rightsStatus": "Founder directly confirmed commercial website-use rights for the exact ZIP watch photographs and white derivatives with no restrictions; PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json",
       "status": "Extracted; not approved for publication",
       "holds": [
         "Source authenticity and exact configuration review",
-        "Commercial-use evidence",
         "Incomplete original framing",
         "116655 versus 126655 unresolved; original clips rubber strap. Existing126655 profile preserved."
       ],
@@ -1181,7 +1176,8 @@
       "identityHold": "116655 versus 126655 unresolved; original clips rubber strap. Existing126655 profile preserved.",
       "alphaFileName": "upload-17-yacht-master.png",
       "alphaSha256": "2c7d30e00d7bd48a5ab321858b9b58b95cac0bc4e7773ca3c9c62bf01df6ed55",
-      "visualReview": "Individual1200canvas reviewed; visible source portions retained. Original strap framing incomplete. Not a whole-watch publication asset."
+      "visualReview": "Individual1200canvas reviewed; visible source portions retained. Original strap framing incomplete. Not a whole-watch publication asset.",
+      "rightsRecord": "PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json"
     },
     {
       "id": "upload-18-regate",
@@ -1205,10 +1201,9 @@
         1070,
         1810
       ],
-      "rightsStatus": "User supplied screenshot; underlying third-party commercial permission not separately documented",
+      "rightsStatus": "Founder directly confirmed commercial website-use rights for the exact ZIP watch photographs and white derivatives with no restrictions; PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json",
       "status": "Extracted; not approved for publication",
       "holds": [
-        "Commercial-use evidence for underlying screenshot photograph",
         "Full native-resolution authenticity, configuration and edge review"
       ],
       "segmentationReviewFileName": "upload-18-regate.jpg",
@@ -1222,7 +1217,8 @@
       "identityReview": "Corrected early unverified356-66 guess to source-confirmed1506-150LE-3/63-VB Voyage Bleu. Never published the early guess.",
       "alphaFileName": "upload-18-regate.png",
       "alphaSha256": "f80c275f9020e96e87ae167efec7ecde4cfa64b9da4853d39c3c6af7f0a96747",
-      "visualReview": "Contact sheet reviewed. Prepared extraction only; native edge, whole-watch, authenticity and rights holds remain. No publication approval."
+      "visualReview": "Contact sheet reviewed. Prepared extraction only; native edge, whole-watch, authenticity and rights holds remain. No publication approval.",
+      "rightsRecord": "PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json"
     },
     {
       "id": "upload-19-ap-1",
@@ -1246,10 +1242,9 @@
         255,
         405
       ],
-      "rightsStatus": "User supplied screenshot; underlying third-party commercial permission not separately documented",
+      "rightsStatus": "Founder directly confirmed commercial website-use rights for the exact ZIP watch photographs and white derivatives with no restrictions; PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json",
       "status": "Extracted; not approved for publication",
       "holds": [
-        "Commercial-use evidence for underlying screenshot photograph",
         "Full native-resolution authenticity, configuration and edge review"
       ],
       "segmentationReviewFileName": "upload-19-ap-1.jpg",
@@ -1262,7 +1257,8 @@
       "referenceProfileAdded": true,
       "alphaFileName": "upload-19-ap-1.png",
       "alphaSha256": "b362fc96a402a3ea5ce284e27e5283d30b5d72dac4849ae5004947e75dd84e2a",
-      "visualReview": "Contact sheet reviewed. Prepared extraction only; native edge, whole-watch, authenticity and rights holds remain. No publication approval."
+      "visualReview": "Contact sheet reviewed. Prepared extraction only; native edge, whole-watch, authenticity and rights holds remain. No publication approval.",
+      "rightsRecord": "PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json"
     },
     {
       "id": "upload-19-ap-2",
@@ -1286,10 +1282,9 @@
         250,
         405
       ],
-      "rightsStatus": "User supplied screenshot; underlying third-party commercial permission not separately documented",
+      "rightsStatus": "Founder directly confirmed commercial website-use rights for the exact ZIP watch photographs and white derivatives with no restrictions; PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json",
       "status": "Extracted; not approved for publication",
       "holds": [
-        "Commercial-use evidence for underlying screenshot photograph",
         "Full native-resolution authenticity, configuration and edge review"
       ],
       "segmentationReviewFileName": "upload-19-ap-2.jpg",
@@ -1302,7 +1297,8 @@
       "referenceProfileAdded": true,
       "alphaFileName": "upload-19-ap-2.png",
       "alphaSha256": "dc134db6558627da8b836f2e4df7dc59e7dd8590c0172d50464ea3a506530686",
-      "visualReview": "Contact sheet reviewed. Prepared extraction only; native edge, whole-watch, authenticity and rights holds remain. No publication approval."
+      "visualReview": "Contact sheet reviewed. Prepared extraction only; native edge, whole-watch, authenticity and rights holds remain. No publication approval.",
+      "rightsRecord": "PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json"
     },
     {
       "id": "upload-19-ap-3",
@@ -1326,10 +1322,9 @@
         250,
         405
       ],
-      "rightsStatus": "User supplied screenshot; underlying third-party commercial permission not separately documented",
+      "rightsStatus": "Founder directly confirmed commercial website-use rights for the exact ZIP watch photographs and white derivatives with no restrictions; PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json",
       "status": "Extracted; not approved for publication",
       "holds": [
-        "Commercial-use evidence for underlying screenshot photograph",
         "Full native-resolution authenticity, configuration and edge review"
       ],
       "segmentationReviewFileName": "upload-19-ap-3.jpg",
@@ -1342,7 +1337,8 @@
       "referenceProfileAdded": true,
       "alphaFileName": "upload-19-ap-3.png",
       "alphaSha256": "4a3794755403d4c775a52a5fec417d19eb3e098e509e67e58a483c7552ac48c2",
-      "visualReview": "Contact sheet reviewed. Prepared extraction only; native edge, whole-watch, authenticity and rights holds remain. No publication approval."
+      "visualReview": "Contact sheet reviewed. Prepared extraction only; native edge, whole-watch, authenticity and rights holds remain. No publication approval.",
+      "rightsRecord": "PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json"
     },
     {
       "id": "upload-19-ap-4",
@@ -1366,11 +1362,10 @@
         250,
         405
       ],
-      "rightsStatus": "User supplied screenshot; underlying third-party commercial permission not separately documented",
+      "rightsStatus": "Founder directly confirmed commercial website-use rights for the exact ZIP watch photographs and white derivatives with no restrictions; PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json",
       "status": "Extracted; not approved for publication",
       "holds": [
         "Source authenticity and exact configuration review",
-        "Commercial-use evidence",
         "Rainbow Cactus Jack unique-piece full SKU not established; do not assign the standard non-gemset26585CM SKU."
       ],
       "segmentationReviewFileName": "upload-19-ap-4.jpg",
@@ -1379,7 +1374,8 @@
       "identityHold": "Rainbow Cactus Jack unique-piece full SKU not established; do not assign the standard non-gemset26585CM SKU.",
       "alphaFileName": "upload-19-ap-4.png",
       "alphaSha256": "ac3feba680ca1d5452892917d53cf29ba417fc60dcb600fd6b3f5603469c7c11",
-      "visualReview": "Contact sheet reviewed. Prepared extraction only; native edge, whole-watch, authenticity and rights holds remain. No publication approval."
+      "visualReview": "Contact sheet reviewed. Prepared extraction only; native edge, whole-watch, authenticity and rights holds remain. No publication approval.",
+      "rightsRecord": "PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json"
     },
     {
       "id": "upload-19-ap-5",
@@ -1403,10 +1399,9 @@
         255,
         410
       ],
-      "rightsStatus": "User supplied screenshot; underlying third-party commercial permission not separately documented",
+      "rightsStatus": "Founder directly confirmed commercial website-use rights for the exact ZIP watch photographs and white derivatives with no restrictions; PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json",
       "status": "Extracted; not approved for publication",
       "holds": [
-        "Commercial-use evidence for underlying screenshot photograph",
         "Full native-resolution authenticity, configuration and edge review"
       ],
       "segmentationReviewFileName": "upload-19-ap-5.jpg",
@@ -1419,7 +1414,8 @@
       "referenceProfileAdded": true,
       "alphaFileName": "upload-19-ap-5.png",
       "alphaSha256": "b32e5eaf1406ca37163ce343ae2517540213af9a9c73752af59d3c5de51f7e3f",
-      "visualReview": "Contact sheet reviewed. Prepared extraction only; native edge, whole-watch, authenticity and rights holds remain. No publication approval."
+      "visualReview": "Contact sheet reviewed. Prepared extraction only; native edge, whole-watch, authenticity and rights holds remain. No publication approval.",
+      "rightsRecord": "PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json"
     },
     {
       "id": "upload-19-ap-6",
@@ -1443,10 +1439,9 @@
         250,
         410
       ],
-      "rightsStatus": "User supplied screenshot; underlying third-party commercial permission not separately documented",
+      "rightsStatus": "Founder directly confirmed commercial website-use rights for the exact ZIP watch photographs and white derivatives with no restrictions; PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json",
       "status": "Extracted; not approved for publication",
       "holds": [
-        "Commercial-use evidence for underlying screenshot photograph",
         "Full native-resolution authenticity, configuration and edge review"
       ],
       "segmentationReviewFileName": "upload-19-ap-6.jpg",
@@ -1459,7 +1454,8 @@
       "referenceProfileAdded": true,
       "alphaFileName": "upload-19-ap-6.png",
       "alphaSha256": "c30c2902906c394b28deb77a5e03ec84f96bb976c1e20c058ff892de939d457e",
-      "visualReview": "Contact sheet reviewed. Prepared extraction only; native edge, whole-watch, authenticity and rights holds remain. No publication approval."
+      "visualReview": "Contact sheet reviewed. Prepared extraction only; native edge, whole-watch, authenticity and rights holds remain. No publication approval.",
+      "rightsRecord": "PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json"
     },
     {
       "id": "upload-19-ap-7",
@@ -1483,10 +1479,9 @@
         250,
         410
       ],
-      "rightsStatus": "User supplied screenshot; underlying third-party commercial permission not separately documented",
+      "rightsStatus": "Founder directly confirmed commercial website-use rights for the exact ZIP watch photographs and white derivatives with no restrictions; PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json",
       "status": "Extracted; not approved for publication",
       "holds": [
-        "Commercial-use evidence for underlying screenshot photograph",
         "Full native-resolution authenticity, configuration and edge review"
       ],
       "segmentationReviewFileName": "upload-19-ap-7.jpg",
@@ -1499,7 +1494,8 @@
       "referenceProfileAdded": true,
       "alphaFileName": "upload-19-ap-7.png",
       "alphaSha256": "2e1457a33f2a264465545e71d9e8b307a9e0470de628b0368ccd3a33b3b9f599",
-      "visualReview": "Contact sheet reviewed. Prepared extraction only; native edge, whole-watch, authenticity and rights holds remain. No publication approval."
+      "visualReview": "Contact sheet reviewed. Prepared extraction only; native edge, whole-watch, authenticity and rights holds remain. No publication approval.",
+      "rightsRecord": "PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json"
     },
     {
       "id": "upload-19-ap-8",
@@ -1523,10 +1519,9 @@
         250,
         410
       ],
-      "rightsStatus": "User supplied screenshot; underlying third-party commercial permission not separately documented",
+      "rightsStatus": "Founder directly confirmed commercial website-use rights for the exact ZIP watch photographs and white derivatives with no restrictions; PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json",
       "status": "Extracted; not approved for publication",
       "holds": [
-        "Commercial-use evidence for underlying screenshot photograph",
         "Full native-resolution authenticity, configuration and edge review"
       ],
       "segmentationReviewFileName": "upload-19-ap-8.jpg",
@@ -1540,7 +1535,8 @@
       "identityReview": "Manufacturer confirms26341ST Grande Complication design; social caption does not establish ownership, uniqueness or provenance. No Tom Brady claim published.",
       "alphaFileName": "upload-19-ap-8.png",
       "alphaSha256": "706bfc573ec0d40d0398339b721b0499834991b1233addaba7438a538268910f",
-      "visualReview": "Contact sheet reviewed. Prepared extraction only; native edge, whole-watch, authenticity and rights holds remain. No publication approval."
+      "visualReview": "Contact sheet reviewed. Prepared extraction only; native edge, whole-watch, authenticity and rights holds remain. No publication approval.",
+      "rightsRecord": "PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json"
     },
     {
       "id": "upload-10-thumbnail-a",
@@ -1564,11 +1560,10 @@
         460,
         315
       ],
-      "rightsStatus": "User supplied screenshot; underlying third-party commercial permission not separately documented",
+      "rightsStatus": "Founder directly confirmed commercial website-use rights for the exact ZIP watch photographs and white derivatives with no restrictions; PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json",
       "status": "Extracted; not approved for publication",
       "holds": [
-        "Source authenticity and exact configuration review",
-        "Commercial-use evidence"
+        "Source authenticity and exact configuration review"
       ],
       "segmentationReviewFileName": "upload-10-thumbnail-a.jpg",
       "segmentationStatus": "Unapproved classical mask; needs individual edge review",
@@ -1576,7 +1571,8 @@
       "duplicateOf": "upload-10-maxi-diver",
       "alphaFileName": "upload-10-thumbnail-a.png",
       "alphaSha256": "58eb4e7067d9da8355d8f145ed0876e3bf7fda98ca568cc9d198fda0b8828436",
-      "visualReview": "Contact sheet reviewed. Prepared extraction only; native edge, whole-watch, authenticity and rights holds remain. No publication approval."
+      "visualReview": "Contact sheet reviewed. Prepared extraction only; native edge, whole-watch, authenticity and rights holds remain. No publication approval.",
+      "rightsRecord": "PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json"
     },
     {
       "id": "upload-10-thumbnail-b",
@@ -1600,11 +1596,10 @@
         525,
         415
       ],
-      "rightsStatus": "User supplied screenshot; underlying third-party commercial permission not separately documented",
+      "rightsStatus": "Founder directly confirmed commercial website-use rights for the exact ZIP watch photographs and white derivatives with no restrictions; PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json",
       "status": "Extracted; not approved for publication",
       "holds": [
         "Source authenticity and exact configuration review",
-        "Commercial-use evidence",
         "Incomplete original framing"
       ],
       "segmentationReviewFileName": "upload-10-thumbnail-b.jpg",
@@ -1613,7 +1608,8 @@
       "duplicateOf": "upload-10-maxi-diver",
       "alphaFileName": "upload-10-thumbnail-b.png",
       "alphaSha256": "cbb401eea1ae0117fd9b4247e32e2274cd1c44073a38b13b78a70f7c87ff4182",
-      "visualReview": "Contact sheet reviewed. Prepared extraction only; native edge, whole-watch, authenticity and rights holds remain. No publication approval."
+      "visualReview": "Contact sheet reviewed. Prepared extraction only; native edge, whole-watch, authenticity and rights holds remain. No publication approval.",
+      "rightsRecord": "PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json"
     },
     {
       "id": "upload-16-thumbnail-bracelet",
@@ -1637,11 +1633,10 @@
         285,
         430
       ],
-      "rightsStatus": "User supplied screenshot; underlying third-party commercial permission not separately documented",
+      "rightsStatus": "Founder directly confirmed commercial website-use rights for the exact ZIP watch photographs and white derivatives with no restrictions; PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json",
       "status": "Extracted; not approved for publication",
       "holds": [
         "Source authenticity and exact configuration review",
-        "Commercial-use evidence",
         "Incomplete original framing"
       ],
       "segmentationReviewFileName": "upload-16-thumbnail-bracelet.jpg",
@@ -1649,7 +1644,8 @@
       "segmentationSha256": "6d3e36d0eafa7e31c62a9b5fbecae57932002ccdb00e669bf07bb417712de026",
       "alphaFileName": "upload-16-thumbnail-bracelet.png",
       "alphaSha256": "5bfc94b7a7e04c51a9c6153bcf91791049cd359fb3b7d08aef82e5d8ecff55c3",
-      "visualReview": "Contact sheet reviewed. Prepared extraction only; native edge, whole-watch, authenticity and rights holds remain. No publication approval."
+      "visualReview": "Contact sheet reviewed. Prepared extraction only; native edge, whole-watch, authenticity and rights holds remain. No publication approval.",
+      "rightsRecord": "PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json"
     },
     {
       "id": "upload-16-thumbnail-pair-a",
@@ -1673,11 +1669,10 @@
         190,
         280
       ],
-      "rightsStatus": "User supplied screenshot; underlying third-party commercial permission not separately documented",
+      "rightsStatus": "Founder directly confirmed commercial website-use rights for the exact ZIP watch photographs and white derivatives with no restrictions; PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json",
       "status": "Extracted; not approved for publication",
       "holds": [
-        "Source authenticity and exact configuration review",
-        "Commercial-use evidence"
+        "Source authenticity and exact configuration review"
       ],
       "segmentationReviewFileName": "upload-16-thumbnail-pair-a.jpg",
       "segmentationStatus": "Unapproved classical mask; needs individual edge review",
@@ -1685,7 +1680,8 @@
       "duplicateOf": "upload-16-thumbnail-bracelet",
       "alphaFileName": "upload-16-thumbnail-pair-a.png",
       "alphaSha256": "a1493d0323882f971bdd3234ec32614fca040ae8e9085337a2fc8a2dc939caa7",
-      "visualReview": "Contact sheet reviewed. Prepared extraction only; native edge, whole-watch, authenticity and rights holds remain. No publication approval."
+      "visualReview": "Contact sheet reviewed. Prepared extraction only; native edge, whole-watch, authenticity and rights holds remain. No publication approval.",
+      "rightsRecord": "PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json"
     },
     {
       "id": "upload-16-thumbnail-pair-b",
@@ -1709,11 +1705,10 @@
         225,
         300
       ],
-      "rightsStatus": "User supplied screenshot; underlying third-party commercial permission not separately documented",
+      "rightsStatus": "Founder directly confirmed commercial website-use rights for the exact ZIP watch photographs and white derivatives with no restrictions; PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json",
       "status": "Extracted; not approved for publication",
       "holds": [
-        "Source authenticity and exact configuration review",
-        "Commercial-use evidence"
+        "Source authenticity and exact configuration review"
       ],
       "segmentationReviewFileName": "upload-16-thumbnail-pair-b.jpg",
       "segmentationStatus": "Unapproved classical mask; needs individual edge review",
@@ -1721,7 +1716,8 @@
       "duplicateOf": "upload-16-moonwatch",
       "alphaFileName": "upload-16-thumbnail-pair-b.png",
       "alphaSha256": "28fb023bc80563190b15e9d1de0865824f662977b8760e1057bc496189bcae83",
-      "visualReview": "Contact sheet reviewed. Prepared extraction only; native edge, whole-watch, authenticity and rights holds remain. No publication approval."
+      "visualReview": "Contact sheet reviewed. Prepared extraction only; native edge, whole-watch, authenticity and rights holds remain. No publication approval.",
+      "rightsRecord": "PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json"
     },
     {
       "id": "upload-06-reply-thumbnail",
@@ -1745,11 +1741,10 @@
         95,
         195
       ],
-      "rightsStatus": "User supplied screenshot; underlying third-party commercial permission not separately documented",
+      "rightsStatus": "Founder directly confirmed commercial website-use rights for the exact ZIP watch photographs and white derivatives with no restrictions; PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json",
       "status": "Extracted; not approved for publication",
       "holds": [
-        "Source authenticity and exact configuration review",
-        "Commercial-use evidence"
+        "Source authenticity and exact configuration review"
       ],
       "segmentationReviewFileName": "upload-06-reply-thumbnail.jpg",
       "segmentationStatus": "Unapproved classical mask; needs individual edge review",
@@ -1757,7 +1752,8 @@
       "duplicateOf": "upload-06-ceramic-diver",
       "alphaFileName": "upload-06-reply-thumbnail.png",
       "alphaSha256": "ef635e27676dfd9bbe40c30d5bec159830edffb6134b2f1f0c82156db685fe20",
-      "visualReview": "Contact sheet reviewed. Prepared extraction only; native edge, whole-watch, authenticity and rights holds remain. No publication approval."
+      "visualReview": "Contact sheet reviewed. Prepared extraction only; native edge, whole-watch, authenticity and rights holds remain. No publication approval.",
+      "rightsRecord": "PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json"
     }
   ],
   "distinctPrimaryCandidatesAfterObviousDuplicates": 36,
@@ -1765,7 +1761,7 @@
   "primaryIdentitiesQueued": 6,
   "existingClearedProfilePreserved": 1,
   "reviewedAt": "2026-10-16T09:59:29.601365+00:00",
-  "publicationDecision": "29 uploaded identities integrated as verified reference profiles. No screenshot photograph approved; six primary identity holds remain.",
+  "publicationDecision": "ZIP rights cleared; separate identity/authenticity/framing/edge gates remain. Two separate Patek manufacturer sets integrated; no screenshot approved solely by this rights decision.",
   "packagePolicy": "Every crop retains source pixels. White/alpha files are review candidates, not licensed or approved web assets. No AI, reconstruction, recoloring or invented specifications. Full screenshots with private conversation UI excluded.",
   "archive": {
     "fileName": "Quest_Luxo_Founder_Watch_Extractions_REVIEW.zip",
@@ -1778,5 +1774,6 @@
     "driveFileId": "1XkuYKQSEE6Anhgd08g4vZGeTOXKX_0Gi",
     "driveReadbackSha256": "214c61c69b86ec469934a648cc305484fa4b84a0f617681fa8677ab00ae480bb",
     "verified": true
-  }
+  },
+  "rightsRecord": "PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json"
 }

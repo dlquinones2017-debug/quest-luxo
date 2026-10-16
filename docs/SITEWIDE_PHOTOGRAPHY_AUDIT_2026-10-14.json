@@ -1,14 +1,14 @@
 {
-  "auditedAt": "2026-10-16T10:28:47.168Z",
+  "auditedAt": "2026-10-16T19:19:43.349Z",
   "summary": {
     "brands": 23,
     "collections": 104,
     "registryRecords": 298,
     "distinctRoutes": 297,
     "normalizedBrandReferenceIdentities": 294,
-    "approved": 205,
-    "missing": 92,
-    "collectionsWithPhotography": 80,
+    "approved": 207,
+    "missing": 90,
+    "collectionsWithPhotography": 81,
     "unusedApprovedRecords": 2,
     "duplicateNormalizedReferenceGroups": 4,
     "fileIntegrityFailures": 0,
@@ -139,8 +139,8 @@
       "brand": "Patek Philippe",
       "registryRecords": 16,
       "referencePages": 16,
-      "approved": 11,
-      "missing": 5,
+      "approved": 13,
+      "missing": 3,
       "collections": 5
     },
     {
@@ -8511,11 +8511,16 @@
           "dial": "Rose-gilt opaline with anthracite baton hour markers",
           "bracelet": "Shiny chocolate brown alligator leather strap",
           "originalMSRP": null,
-          "currentMSRP": null
+          "currentMSRP": null,
+          "nickname": "Rose-gilt opaline with anthracite baton hour markers / Shiny chocolate brown alligator leather strap"
         }
       ],
-      "approved": false,
-      "photo": null,
+      "approved": true,
+      "photo": {
+        "assetId": "cleared-founder-upload-5236p-010",
+        "src": "/images/watches/patek-philippe/reviewed-5236p-010-white-web.webp",
+        "sha256": "9149feca7be1f0caa43901f6e3fa1168973f969eb1a48baee7db2792f2969c75"
+      },
       "recoveryCandidates": []
     },
     {
@@ -8533,11 +8538,16 @@
           "dial": "Lacquered red with black-gradient rim",
           "bracelet": "Black fabric-pattern composite strap with red stitching",
           "originalMSRP": null,
-          "currentMSRP": null
+          "currentMSRP": null,
+          "nickname": "Lacquered red with black-gradient rim / Black fabric-pattern composite strap with red stitching"
         }
       ],
-      "approved": false,
-      "photo": null,
+      "approved": true,
+      "photo": {
+        "assetId": "cleared-founder-upload-5270p-017",
+        "src": "/images/watches/patek-philippe/reviewed-5270p-017-white-web.webp",
+        "sha256": "da31c67c769cfe1aca48d36b60ef072f2ecb110425499ea62833adb2054aeb6a"
+      },
       "recoveryCandidates": []
     },
     {

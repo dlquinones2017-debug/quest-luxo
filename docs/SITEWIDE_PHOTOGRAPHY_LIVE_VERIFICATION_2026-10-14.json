@@ -1,10 +1,10 @@
 {
-  "verifiedAt": "2026-10-16T10:10:16.518313+00:00",
-  "expectedDistinctReferenceRoutes": 293,
-  "verifiedReferenceRoutes": 293,
+  "verifiedAt": "2026-10-16T10:35:58.102289+00:00",
+  "expectedDistinctReferenceRoutes": 297,
+  "verifiedReferenceRoutes": 297,
   "approvedDistinctReferenceRoutes": 205,
   "verifiedDistinctPhotoFiles": 204,
-  "queuedDistinctReferenceRoutes": 88,
+  "queuedDistinctReferenceRoutes": 92,
   "errors": [],
   "pages": [
     {
@@ -389,6 +389,11 @@
     },
     {
       "route": "/collections/audemars-piguet/royal-oak/26607bc-oo-1220bc-01",
+      "approved": false,
+      "status": "verified"
+    },
+    {
+      "route": "/collections/audemars-piguet/royal-oak/15500st-oo-1220st-03",
       "approved": false,
       "status": "verified"
     },
@@ -1043,6 +1048,11 @@
       "status": "verified"
     },
     {
+      "route": "/collections/ulysse-nardin/diver/265-90-3c-93",
+      "approved": false,
+      "status": "verified"
+    },
+    {
       "route": "/collections/ulysse-nardin/executive/executive-dual-time",
       "approved": true,
       "status": "verified"
@@ -1464,6 +1474,16 @@
     },
     {
       "route": "/collections/patek-philippe/grand-complications/5327g-001",
+      "approved": false,
+      "status": "verified"
+    },
+    {
+      "route": "/collections/patek-philippe/grand-complications/5236p-010",
+      "approved": false,
+      "status": "verified"
+    },
+    {
+      "route": "/collections/patek-philippe/grand-complications/5270p-017",
       "approved": false,
       "status": "verified"
     },

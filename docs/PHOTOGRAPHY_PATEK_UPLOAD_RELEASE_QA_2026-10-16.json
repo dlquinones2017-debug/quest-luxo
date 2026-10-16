@@ -1,0 +1,129 @@
+{
+  "checkedAt": "2026-10-16T19:22:03.554355+00:00",
+  "status": "2clearedPatekphotos checked; deployment pending",
+  "previousProduction": "3f4f060cc31060b449dc0cfe6032f140c8f4be91",
+  "newPhotos": [
+    {
+      "brand": "Patek Philippe",
+      "reference": "5236P-010",
+      "src": "/images/watches/patek-philippe/reviewed-5236p-010-white-web.webp",
+      "sha256": "9149feca7be1f0caa43901f6e3fa1168973f969eb1a48baee7db2792f2969c75",
+      "canonicalRoute": "/collections/patek-philippe/grand-complications/5236p-010"
+    },
+    {
+      "brand": "Patek Philippe",
+      "reference": "5270P-017",
+      "src": "/images/watches/patek-philippe/reviewed-5270p-017-white-web.webp",
+      "sha256": "da31c67c769cfe1aca48d36b60ef072f2ecb110425499ea62833adb2054aeb6a",
+      "canonicalRoute": "/collections/patek-philippe/grand-complications/5270p-017"
+    }
+  ],
+  "catalogSummary": {
+    "brands": 23,
+    "collections": 104,
+    "registryRecords": 298,
+    "distinctRoutes": 297,
+    "normalizedBrandReferenceIdentities": 294,
+    "approved": 207,
+    "missing": 90,
+    "collectionsWithPhotography": 81,
+    "unusedApprovedRecords": 2,
+    "duplicateNormalizedReferenceGroups": 4,
+    "fileIntegrityFailures": 0,
+    "recoverableCandidates": 0
+  },
+  "checks": [
+    {
+      "check": "omega-queue-sync",
+      "exitCode": 0,
+      "logFileName": "cleared-patek-omega-queue-sync.log"
+    },
+    {
+      "check": "astro-check",
+      "exitCode": 0,
+      "logFileName": "cleared-patek-astro-check.log"
+    },
+    {
+      "check": "regressions",
+      "exitCode": 0,
+      "logFileName": "cleared-patek-regressions.log"
+    },
+    {
+      "check": "omega-audit",
+      "exitCode": 0,
+      "logFileName": "cleared-patek-omega-audit.log"
+    },
+    {
+      "check": "omega-queue-check",
+      "exitCode": 0,
+      "logFileName": "cleared-patek-omega-queue-check.log"
+    },
+    {
+      "check": "expansion-audit",
+      "exitCode": 0,
+      "logFileName": "cleared-patek-expansion-audit.log"
+    },
+    {
+      "check": "build",
+      "exitCode": 0,
+      "logFileName": "cleared-patek-build.log"
+    },
+    {
+      "check": "inventory",
+      "exitCode": 0,
+      "logFileName": "cleared-patek-inventory.log"
+    },
+    {
+      "check": "full-audit",
+      "exitCode": 0,
+      "logFileName": "cleared-patek-full-audit.log"
+    }
+  ],
+  "regressions": {
+    "passed": 246,
+    "failed": 0
+  },
+  "astro": {
+    "errors": 0,
+    "warnings": 0,
+    "hints": 20
+  },
+  "targetedBuild": {
+    "checkedAt": "2026-10-16T19:20:13.013077+00:00",
+    "mode": "built",
+    "exactReferencesChecked": 2,
+    "rows": [
+      {
+        "reference": "5236P-010",
+        "route": "/collections/patek-philippe/grand-complications/5236p-010",
+        "imageSha256": "9149feca7be1f0caa43901f6e3fa1168973f969eb1a48baee7db2792f2969c75",
+        "exactConfiguration": true,
+        "collectionGrid": true,
+        "inquiryContext": true,
+        "separateCredits": true,
+        "noImageCaptionOverlay": true
+      },
+      {
+        "reference": "5270P-017",
+        "route": "/collections/patek-philippe/grand-complications/5270p-017",
+        "imageSha256": "da31c67c769cfe1aca48d36b60ef072f2ecb110425499ea62833adb2054aeb6a",
+        "exactConfiguration": true,
+        "collectionGrid": true,
+        "inquiryContext": true,
+        "separateCredits": true,
+        "noImageCaptionOverlay": true
+      }
+    ],
+    "publicFlowsAvailable": true,
+    "leadDataSafety": "Public GET checks only. No new lead submissions, private lead reads, runtime data or disk changes."
+  },
+  "visualQA": {
+    "mobile": "390x844 Patek5236P-010 entire watch centered on white, no captions or overlap; document/client375, natural1200photo loaded.",
+    "desktop": "1440x1000 Patek5270P-017 image and profile reviewed; document/client1425, natural1200photo loaded; screenshot limited to panel area."
+  },
+  "rightsRecord": "docs/PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json",
+  "rightsDriveFileId": "1HFfmLAHtbf-YyK-66jhn025-qSpZ3ndZ",
+  "quality": "Both exact manufacturer originals and final white derivatives individually reviewed. ZIP watch candidates remain in a separate final quality review.",
+  "safety": "No customer records or credentials read; no form submissions, disk or hosting configuration changes.",
+  "warnings": "Existing Vite bundle size, Zenith punctuation alias and public robots warnings retained."
+}

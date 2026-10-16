@@ -1,14 +1,14 @@
 {
-  "reviewedAt": "2026-10-16T10:28:46.199Z",
+  "reviewedAt": "2026-10-16T19:19:42.728Z",
   "note": "Generated from all exported source datasets and built routes. Source-only and duplicate configuration records are retained for review; this register is not proof of image rights. Source URLs identify research leads, not licenses.",
   "summary": {
-    "sourceConfigurations": 874,
+    "sourceConfigurations": 880,
     "builtReferenceRoutes": 297,
     "collectionRoutes": 104,
-    "approvedReferenceConfigurations": 410,
+    "approvedReferenceConfigurations": 416,
     "unmatchedReferenceRoutes": 0,
-    "approvedCanonicalReferenceRoutes": 205,
-    "queuedCanonicalReferenceRoutes": 92
+    "approvedCanonicalReferenceRoutes": 207,
+    "queuedCanonicalReferenceRoutes": 90
   },
   "collections": [
     {
@@ -13222,26 +13222,26 @@
           "dial": "Rose-gilt opaline with anthracite baton hour markers",
           "bracelet": "Shiny chocolate brown alligator leather strap",
           "originalMSRP": null,
-          "currentMSRP": null
+          "currentMSRP": null,
+          "nickname": "Rose-gilt opaline with anthracite baton hour markers / Shiny chocolate brown alligator leather strap"
         }
       ],
       "material": "Platinum",
       "sources": [
-        "src/data/collectionRegistry.ts",
-        "src/data/verified-catalog-expansion.ts"
+        "src/data/collectionRegistry.ts"
       ],
       "routes": [
         "/collections/patek-philippe/grand-complications/5236p-010"
       ],
       "scope": "built-reference",
-      "existingImage": "/images/watch-reference-placeholder.svg",
+      "existingImage": "/images/watches/patek-philippe/reviewed-5236p-010-white-web.webp",
       "existingImageFilePresent": true,
-      "photoAssetId": null,
-      "status": "Requires Verification",
+      "photoAssetId": "cleared-founder-upload-5236p-010",
+      "status": "approved",
       "sourceUrl": "https://www.patek.com/en/collection/grand-complications/5236P-010",
-      "licenseRecord": null,
-      "websiteApproved": false,
-      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+      "licenseRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for this exact manufacturer original and white-background derivatives with no restrictions on October16,2026. Record docs/PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json. Entire native original and final blank-white WEB individually reviewed; exact reference, material, dial and strap verified. Original RGB retained; no generated watch detail. Preserved RAW file: 1CukXDn5-rxPmAXNio74heBj6uRvUmoe7. Pictured full reference 5236P-010; Platinum, Rose-gilt opaline with anthracite baton hour markers, Shiny chocolate brown alligator leather strap. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
     },
     {
       "brand": "Patek Philippe",
@@ -13254,26 +13254,26 @@
           "dial": "Lacquered red with black-gradient rim",
           "bracelet": "Black fabric-pattern composite strap with red stitching",
           "originalMSRP": null,
-          "currentMSRP": null
+          "currentMSRP": null,
+          "nickname": "Lacquered red with black-gradient rim / Black fabric-pattern composite strap with red stitching"
         }
       ],
       "material": "Platinum",
       "sources": [
-        "src/data/collectionRegistry.ts",
-        "src/data/verified-catalog-expansion.ts"
+        "src/data/collectionRegistry.ts"
       ],
       "routes": [
         "/collections/patek-philippe/grand-complications/5270p-017"
       ],
       "scope": "built-reference",
-      "existingImage": "/images/watch-reference-placeholder.svg",
+      "existingImage": "/images/watches/patek-philippe/reviewed-5270p-017-white-web.webp",
       "existingImageFilePresent": true,
-      "photoAssetId": null,
-      "status": "Requires Verification",
+      "photoAssetId": "cleared-founder-upload-5270p-017",
+      "status": "approved",
       "sourceUrl": "https://www.patek.com/en/collection/grand-complications/5270p-017",
-      "licenseRecord": null,
-      "websiteApproved": false,
-      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+      "licenseRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for this exact manufacturer original and white-background derivatives with no restrictions on October16,2026. Record docs/PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json. Entire native original and final blank-white WEB individually reviewed; exact reference, material, dial and strap verified. Original RGB retained; no generated watch detail. Preserved RAW file: 16OyzEvZexgUD8uckQw4LdDrS2tYnWu-W. Pictured full reference 5270P-017; Platinum, Lacquered red with black-gradient rim, Black fabric-pattern composite strap with red stitching. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
     },
     {
       "brand": "Vacheron Constantin",
@@ -17843,6 +17843,50 @@
       "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
     },
     {
+      "brand": "Patek Philippe",
+      "collection": "Grand Complications",
+      "reference": "5236P-010",
+      "configurations": [],
+      "material": "Platinum",
+      "sources": [
+        "src/data/photography-cleared-sprint.ts"
+      ],
+      "routes": [
+        "/collections/patek-philippe/grand-complications/5236p-010"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": null,
+      "status": "Requires Verification",
+      "sourceUrl": null,
+      "licenseRecord": null,
+      "websiteApproved": false,
+      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+    },
+    {
+      "brand": "Patek Philippe",
+      "collection": "Grand Complications",
+      "reference": "5270P-017",
+      "configurations": [],
+      "material": "Platinum",
+      "sources": [
+        "src/data/photography-cleared-sprint.ts"
+      ],
+      "routes": [
+        "/collections/patek-philippe/grand-complications/5270p-017"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": null,
+      "status": "Requires Verification",
+      "sourceUrl": null,
+      "licenseRecord": null,
+      "websiteApproved": false,
+      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+    },
+    {
       "brand": "Breitling",
       "collection": "Superocean",
       "reference": "A17376211B1A1",
@@ -21566,6 +21610,70 @@
       "status": "approved",
       "sourceUrl": "https://www.uhrinstinkt.de/products/omega-speedmaster-silver-snoopy-award-50th-anniversary-310-32-42-50-02-001-z101517",
       "licenseRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for these exact Uhrinstinkt Silver Snoopy original and white-background derivatives with no additional restrictions stated on October15,2026 Eastern. Record docs/PHOTOGRAPHY_SNOOPY_FOUNDER_RIGHTS_2026-10-15.json. Authentic complete RAW and final white WEB individually visually reviewed; source credits retained separately. Preserved RAW file: 1sCAfAvvcVpqp5suZN2SHz7H9xc3r055a. Pictured full reference 310.32.42.50.02.001; Stainless Steel, Silver, Blue Nylon Strap. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
+      "brand": "Patek Philippe",
+      "collection": "Grand Complications",
+      "reference": "5236P-010",
+      "configurations": [
+        {
+          "caseSize": "41.3 mm",
+          "movement": "31-260 PS QL automatic",
+          "dial": "Rose-gilt opaline with anthracite baton hour markers",
+          "bracelet": "Shiny chocolate brown alligator leather strap",
+          "nickname": "Rose-gilt opaline with anthracite baton hour markers / Shiny chocolate brown alligator leather strap",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "Platinum",
+      "sources": [
+        "src/data/photography-expansion.ts"
+      ],
+      "routes": [
+        "/collections/patek-philippe/grand-complications/5236p-010"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": "cleared-founder-upload-5236p-010",
+      "status": "approved",
+      "sourceUrl": "https://www.patek.com/en/collection/grand-complications/5236P-010",
+      "licenseRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for this exact manufacturer original and white-background derivatives with no restrictions on October16,2026. Record docs/PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json. Entire native original and final blank-white WEB individually reviewed; exact reference, material, dial and strap verified. Original RGB retained; no generated watch detail. Preserved RAW file: 1CukXDn5-rxPmAXNio74heBj6uRvUmoe7. Pictured full reference 5236P-010; Platinum, Rose-gilt opaline with anthracite baton hour markers, Shiny chocolate brown alligator leather strap. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
+      "brand": "Patek Philippe",
+      "collection": "Grand Complications",
+      "reference": "5270P-017",
+      "configurations": [
+        {
+          "caseSize": "41 mm",
+          "movement": "CH 29-535 PS Q manual winding",
+          "dial": "Lacquered red with black-gradient rim",
+          "bracelet": "Black fabric-pattern composite strap with red stitching",
+          "nickname": "Lacquered red with black-gradient rim / Black fabric-pattern composite strap with red stitching",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "Platinum",
+      "sources": [
+        "src/data/photography-expansion.ts"
+      ],
+      "routes": [
+        "/collections/patek-philippe/grand-complications/5270p-017"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": "cleared-founder-upload-5270p-017",
+      "status": "approved",
+      "sourceUrl": "https://www.patek.com/en/collection/grand-complications/5270p-017",
+      "licenseRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for this exact manufacturer original and white-background derivatives with no restrictions on October16,2026. Record docs/PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json. Entire native original and final blank-white WEB individually reviewed; exact reference, material, dial and strap verified. Original RGB retained; no generated watch detail. Preserved RAW file: 16OyzEvZexgUD8uckQw4LdDrS2tYnWu-W. Pictured full reference 5270P-017; Platinum, Lacquered red with black-gradient rim, Black fabric-pattern composite strap with red stitching. Exact configuration reviewed against preserved source evidence and the original photograph.",
       "websiteApproved": true,
       "nextAction": "Retain approved original and verify derivative integrity."
     },
@@ -27733,6 +27841,68 @@
       "status": "approved",
       "sourceUrl": "https://sheibanjewelers.com/products/omega-seamaster-railmaster-38mm-brown-dial-on-bracelet-23510382013001",
       "licenseRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for these exact 35 originals and their white-background derivatives, with no additional restrictions, in the existing Website/Product chat on October 14, 2026. Record docs/PHOTOGRAPHY_ADDITIONAL35_FOUNDER_RIGHTS_2026-10-14.json. Exact configuration, authentic RAW and full-resolution derivative visually reviewed; source credits retained separately. Preserved RAW file: 1J58M0pyGw9Ro2hZTAaiRrxia4PG_pXbn. Pictured full reference 235.10.38.20.13.001; Stainless Steel, Beige to brown gradient non-wave, Stainless-steel bracelet. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
+      "brand": "Patek Philippe",
+      "collection": "Grand Complications",
+      "reference": "5236P-010",
+      "configurations": [
+        {
+          "caseSize": "41.3 mm",
+          "movement": "31-260 PS QL automatic",
+          "dial": "Rose-gilt opaline with anthracite baton hour markers",
+          "bracelet": "Shiny chocolate brown alligator leather strap",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "Platinum",
+      "sources": [
+        "src/data/verified-catalog-expansion.ts"
+      ],
+      "routes": [
+        "/collections/patek-philippe/grand-complications/5236p-010"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": "cleared-founder-upload-5236p-010",
+      "status": "approved",
+      "sourceUrl": "https://www.patek.com/en/collection/grand-complications/5236P-010",
+      "licenseRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for this exact manufacturer original and white-background derivatives with no restrictions on October16,2026. Record docs/PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json. Entire native original and final blank-white WEB individually reviewed; exact reference, material, dial and strap verified. Original RGB retained; no generated watch detail. Preserved RAW file: 1CukXDn5-rxPmAXNio74heBj6uRvUmoe7. Pictured full reference 5236P-010; Platinum, Rose-gilt opaline with anthracite baton hour markers, Shiny chocolate brown alligator leather strap. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
+      "brand": "Patek Philippe",
+      "collection": "Grand Complications",
+      "reference": "5270P-017",
+      "configurations": [
+        {
+          "caseSize": "41 mm",
+          "movement": "CH 29-535 PS Q manual winding",
+          "dial": "Lacquered red with black-gradient rim",
+          "bracelet": "Black fabric-pattern composite strap with red stitching",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "Platinum",
+      "sources": [
+        "src/data/verified-catalog-expansion.ts"
+      ],
+      "routes": [
+        "/collections/patek-philippe/grand-complications/5270p-017"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": "cleared-founder-upload-5270p-017",
+      "status": "approved",
+      "sourceUrl": "https://www.patek.com/en/collection/grand-complications/5270p-017",
+      "licenseRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for this exact manufacturer original and white-background derivatives with no restrictions on October16,2026. Record docs/PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json. Entire native original and final blank-white WEB individually reviewed; exact reference, material, dial and strap verified. Original RGB retained; no generated watch detail. Preserved RAW file: 16OyzEvZexgUD8uckQw4LdDrS2tYnWu-W. Pictured full reference 5270P-017; Platinum, Lacquered red with black-gradient rim, Black fabric-pattern composite strap with red stitching. Exact configuration reviewed against preserved source evidence and the original photograph.",
       "websiteApproved": true,
       "nextAction": "Retain approved original and verify derivative integrity."
     }

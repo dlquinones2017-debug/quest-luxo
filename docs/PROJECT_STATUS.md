@@ -364,3 +364,13 @@ Canonical Drive photography master updated in place to 67 pages and readback SHA
 ## Additional uploaded identities verified October 16 2026
 
 Four more exact references are integrated into existing collections: Patek Philippe 5236P-010 and 5270P-017 in Grand Complications, Audemars Piguet 15500ST.OO.1220ST.03 in Royal Oak, and Ulysse Nardin 265-90-3c/93 in Diver. They bring the uploaded profile total to 29; six primary identity holds remain. Manufacturer and specialist source evidence is archived. Two complete Patek white-canvas sets passed individual review and remain held for commercial image-use evidence. Four licensed alternatives failed whole-watch framing or exact configuration. Built coverage is 205 of 297 reference URLs, 92 pending. All 246 regressions, Astro checks, audits, build, four profile/collection/inquiry checks and representative desktop/mobile review passed. Deployment and independent live verification follow.
+
+
+## Additional uploaded references verified live
+
+Commit 3f4f060cc31060b449dc0cfe6032f140c8f4be91 and Render dep-db8vrbfavr4c739ojee0 are LIVE. Independent checks passed all 297 reference URLs, 204 existing image checksums and the four new exact source, collection and inquiry mappings. Photography remains 205 of 297 URLs with 92 queued; 29 uploaded profiles are now live and six identities remain unresolved. No new photograph was published. The canonical photography master now has 71 visually reviewed pages with all 67 historical pages pixel-identical. Source and quality evidence is checksum-verified in Drive 1fcaEAQ2xTw8jx68gPjQdyAyDfB5sJ9iJ. One consolidated factual rights request is pending for the supplied screenshot photographs and two newly acquired complete Patek sets. Existing runtime data and unrelated checkout changes remain untouched.
+
+
+## Founder ZIP rights confirmed and Patek photo release
+
+The founder directly confirmed commercial website-use rights for the19-imageZIP watch photographs and derivatives, and manufacturer Patek5236P-010 and5270P-017 originals/derivatives with no restrictions. The two complete Patek sets passed individual image review and all246regressions, Astro checks, audits, build, route/collection/hash/credits checks and desktop/mobile review. Built coverage207of297URLs with90queued. ZIP images remain subject to final exact identity, authenticity, whole-watch and exterior quality checks; missing straps are not reconstructed. Main release and independent live verification follow.

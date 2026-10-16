@@ -1,0 +1,104 @@
+{
+  "recordedAt": "2026-10-16T19:16:14.346757+00:00",
+  "evidenceType": "Direct human founder response in existing Website/Product chat",
+  "questionItemId": "call_24a179ab128748dbb94a78640e6a1543",
+  "founderAnswer": "Rights cover the ZIP and both Patek originals/derivatives; no restrictions",
+  "scope": "Commercial Quest Luxo website-use rights for the watch photographs in the supplied19-imageZIP, white-background derivatives, and the exact separately acquired Patek manufacturer5236P-010 and5270P-017 originals/derivatives.",
+  "restrictions": "No restrictions",
+  "archiveSha256": "251be93ab25d6a020a6d872ce33809137ba744363c5c66f7a4f22d50b0258bb4",
+  "zipSources": [
+    {
+      "fileName": "FB_IMG_1789318785687.jpg",
+      "sha256": "328015bd59401608b13f38a0d7298f920a5968cc5cd47768c0512074fc6c3f0d"
+    },
+    {
+      "fileName": "Screenshot_20260914_123538_Google.jpg",
+      "sha256": "c267894618c15e1503ec5a3b33a06ff701caede98d5b5391431d18ecba9fba41"
+    },
+    {
+      "fileName": "Screenshot_20261015_223835_Instagram.jpg",
+      "sha256": "6786cf4b6f7e15dd0aaa554a2b76dd991ea30b3a68727311c604718438adff67"
+    },
+    {
+      "fileName": "Screenshot_20260914_123351_Gmail.jpg",
+      "sha256": "9a814119475684a549ddb356c97d5038059c476887af768e66224c041830803a"
+    },
+    {
+      "fileName": "Screenshot_20260912_193325_Chrome.jpg",
+      "sha256": "a37b146ea2cc6f055c611bfd08ad74ccd8ca89e74e7f64c5046e5f812f8a0eea"
+    },
+    {
+      "fileName": "Screenshot_20260914_053115_WhatsApp.jpg",
+      "sha256": "0b67d7fc5808a8ca3f5a52eaa8dcf6c700cc2c124cd6831cb530d705cae9af90"
+    },
+    {
+      "fileName": "Screenshot_20260914_123815_Google.jpg",
+      "sha256": "d3ab31ac84271dc9dfbfb66ab797079689b409728c97aab9c2e7d7fc3db9500d"
+    },
+    {
+      "fileName": "Screenshot_20260914_123745_Google.jpg",
+      "sha256": "169be0fd14f64820901ac6bb61d7b1183c6ac32e6fd847d34a63c354d729ad80"
+    },
+    {
+      "fileName": "Screenshot_20261015_223840_Instagram.jpg",
+      "sha256": "78735faae70934ebc8cfca09743628fe8994340a4b4ba3d405b89e3e27fe0e22"
+    },
+    {
+      "fileName": "Screenshot_20260914_123831_Google.jpg",
+      "sha256": "ef1d9a54f52d567ffab88993cd0fe9d07a4dc478d9741b3e5aa1c4405469ee5e"
+    },
+    {
+      "fileName": "Screenshot_20261015_223830_Instagram.jpg",
+      "sha256": "7309c64222df88f07259b7ca72a2890f59ade88250a3222d9b5267efe8a730ee"
+    },
+    {
+      "fileName": "Screenshot_20261015_223820_Instagram.jpg",
+      "sha256": "04a4179eb7b9687c51961e88ca02fb8701070df9516bfbb90000e3baa7e90495"
+    },
+    {
+      "fileName": "Screenshot_20260914_123807_Google.jpg",
+      "sha256": "aad6408f56b1eee1245a0f8db592442e6f8feac8404a50e2955ee6cb455fa45b"
+    },
+    {
+      "fileName": "Screenshot_20261015_223826_Instagram.jpg",
+      "sha256": "ac8b4b69a418a52f6d5fb9c96fa55788c2a73e3598a0c7925609b02b62c45129"
+    },
+    {
+      "fileName": "Screenshot_20260912_183236_Google.jpg",
+      "sha256": "b299f103d04889f7464f7c0492275ef606df25512b382cf36a5129df57700982"
+    },
+    {
+      "fileName": "Screenshot_20260914_123918_Google.jpg",
+      "sha256": "8d6e9836237505f5739833bb3910a4a7303b676cc7b60bfb7dd7294a7cb4bef4"
+    },
+    {
+      "fileName": "Screenshot_20260912_183002_eBay.jpg",
+      "sha256": "5080dc4433ce23c2d2061a3bac3e989bde7ac278e5793fe7460d48ecb6429c12"
+    },
+    {
+      "fileName": "Screenshot_20260912_183221_Google.jpg",
+      "sha256": "68799cbb8b2bbd3efeb17a06f42ecc7a1c77867a6c2c34ac9280fc27712d4cd6"
+    },
+    {
+      "fileName": "Screenshot_20261015_202218_Instagram.jpg",
+      "sha256": "993f85545ce3ae549c52f3d02c4377dd53af7866112c75c5f4229e5530bb6a93"
+    }
+  ],
+  "additionalOriginals": [
+    {
+      "reference": "5236P-010",
+      "sourceUrl": "https://www.patek.com/en/collection/grand-complications/5236P-010",
+      "imageUrl": "https://patek-res.cloudinary.com/dfsmedia/0906caea301d42b3b8bd23bd656d1711/202387-51887",
+      "sha256": "7be029be86f81aeae82bbd3e0ef8b899ef49611ef56ce0a9c0d611889e12a9f8"
+    },
+    {
+      "reference": "5270P-017",
+      "sourceUrl": "https://www.patek.com/en/collection/grand-complications/5270p-017",
+      "imageUrl": "https://patek-res.cloudinary.com/dfsmedia/0906caea301d42b3b8bd23bd656d1711/430990-51887",
+      "sha256": "80fbca09628e27615befe487b5ceddcbe3e719c8d1a9c635f0411ead8f14038e"
+    }
+  ],
+  "sourceLedgerDriveFileId": "1fcaEAQ2xTw8jx68gPjQdyAyDfB5sJ9iJ",
+  "exclusions": "This response does not establish rights for unrelated new sources such as the separate AP15500manufacturer original, Prestige Time UN265-90-3c/93 original or AvengerII original. Identity, authenticity and whole-watch quality review remain required.",
+  "privacy": "Full screenshots containing private conversation UI remain local. Only watch crops and sanitized evidence are archived or eligible for publication."
+}
