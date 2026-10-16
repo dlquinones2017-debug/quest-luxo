@@ -1,0 +1,85 @@
+{
+  "physicalSets": 1,
+  "websitePublished": false,
+  "rightsHeldSets": 0,
+  "references": [
+    {
+      "brand": "Omega",
+      "reference": "310.32.42.50.02.001",
+      "exactSKU": "310.32.42.50.02.001",
+      "sourceProvider": "Uhrinstinkt",
+      "sourceUrl": "https://www.uhrinstinkt.de/products/omega-speedmaster-silver-snoopy-award-50th-anniversary-310-32-42-50-02-001-z101517",
+      "sourcePagePath": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\retailer-source-omega-310.32.42.50.02.001-c8682875.html",
+      "sourcePageSha256": "8da601c1ade4af721819a14a6e73934d8d0d7cf2ceab9eecd8b8151a366dad97",
+      "imageUrl": "https://www.uhrinstinkt.de/cdn/shop/files/310.32.42.50.02.001_solID_DEDF08805DA7DB56389C586EC02F57E6_39241f.jpg?v=1770830855&width=1500",
+      "path": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\uhr-snoopy-originals\\310.32.42.50.02.001-raw.jpg",
+      "size": [
+        612,
+        835
+      ],
+      "mode": "RGB",
+      "sha256": "81866123f465d6863d38066c736305349a210b5728ba1ea3f20bffdd5a91a4c3",
+      "checkedAt": "2026-10-16T00:53:05.614176+00:00",
+      "websiteApproved": false,
+      "rightsStatus": "Founder explicitly confirmed this exact original and white derivatives for commercial Quest Luxo website use; no additional restrictions stated",
+      "status": "Authentic retailer-hosted original; unchanged delivered bytes",
+      "whiteMaster": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\uhr-snoopy-white\\310.32.42.50.02.001-white-master.png",
+      "webDerivative": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\uhr-snoopy-white\\310.32.42.50.02.001-web.webp",
+      "masterSha256": "a1e250628a39e6a4befb9faaad9678a1d9dc31cd4ec3a743db7eda2496cd725e",
+      "derivativeSha256": "f87f1189bea0cddbacafe437ea2b6ddb97561035d6b0dc715ca10c75ce5324fd",
+      "foregroundBounds": [
+        125,
+        37,
+        518,
+        791
+      ],
+      "collection": "Speedmaster",
+      "canonicalRoute": "/collections/omega/speedmaster/310-32-42-50-02-001",
+      "catalogMaterial": "Stainless Steel",
+      "catalogConfigurations": [
+        {
+          "nickname": "Silver Snoopy Award 50th Anniversary",
+          "bracelet": "Blue Nylon Strap",
+          "dial": "Silver",
+          "originalMSRP": null
+        }
+      ],
+      "picturedConfiguration": {
+        "bracelet": "Blue Nylon Strap",
+        "dial": "Silver"
+      },
+      "visualReviewPassed": true,
+      "exactSkuVerified": true,
+      "processing": "Classical connected exterior silhouette; original RGB preserved inside the complete watch. Only external background replaced. Centered2400 white master and1200WEB. No AI, recolouring or reconstruction.",
+      "reviewStatus": "Untouched612x835 RAW and final1200WEB individually reviewed. Whole genuine three-quarter watch and complete looped blue nylon strap; silver dial, blue registers and Snoopy9oClock match exact310.32.42.50.02.001 and existing catalog. Original photographed angle and detail preserved; no generated detail or reconstruction. Rights pending, not published.",
+      "reviewedAt": "2026-10-16T00:58:23.823168+00:00",
+      "configurationEvidence": {
+        "sourceUrl": "https://www.uhrinstinkt.de/products/omega-speedmaster-silver-snoopy-award-50th-anniversary-310-32-42-50-02-001-z101517",
+        "pageSha256": "8da601c1ade4af721819a14a6e73934d8d0d7cf2ceab9eecd8b8151a366dad97",
+        "verified": "Exact reference, silver/white dial with blue Snoopy register, blue textile strap, steel case verified against product identity and unchanged catalog. Retailer price, condition, availability and new technical specs not copied."
+      },
+      "rawDriveFileId": "1sCAfAvvcVpqp5suZN2SHz7H9xc3r055a",
+      "masterDriveFileId": "1M7pEOUtjVPe-WA7Bq5EbxV1ZS3O-HnZd",
+      "webDriveFileId": "1XGwjW88nkQVUiZCzzyPFrtMQygM2M2Mq",
+      "driveFiles": {
+        "raw": {
+          "id": "1sCAfAvvcVpqp5suZN2SHz7H9xc3r055a"
+        },
+        "master": {
+          "id": "1M7pEOUtjVPe-WA7Bq5EbxV1ZS3O-HnZd"
+        },
+        "web": {
+          "id": "1XGwjW88nkQVUiZCzzyPFrtMQygM2M2Mq"
+        }
+      },
+      "commercialUseRightsConfirmed": true,
+      "rightsRecord": "PHOTOGRAPHY_SNOOPY_FOUNDER_RIGHTS_2026-10-15.json",
+      "publicationStatus": "Integrated; release checks and deployment pending"
+    }
+  ],
+  "archivedFiles": 3,
+  "archiveStatus": "Complete unchanged RAW, reviewed white master andWEB archived. Exact new image rights pending; not published.",
+  "approvedForPublication": true,
+  "founderRightsRecord": "PHOTOGRAPHY_SNOOPY_FOUNDER_RIGHTS_2026-10-15.json",
+  "publicationStatus": "Integrated; checks and deployment pending"
+}

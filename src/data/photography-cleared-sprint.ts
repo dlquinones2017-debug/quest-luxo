@@ -3613,5 +3613,26 @@ export const clearedSprintPhotographySeeds: readonly PhotographySeed[] = [
     "sourceProvider": "Uhrinstinkt product photography",
     "reviewedAt": "2026-10-15",
     "assetId": "cleared-black-seamaster-two-1p6TrrF9B8nSbwjKUFHB4EbE_Cv7ZJOpj"
+  },
+  {
+    "brand": "Omega",
+    "brandSlug": "omega",
+    "collection": "Speedmaster",
+    "reference": "310.32.42.50.02.001",
+    "exactReference": "310.32.42.50.02.001",
+    "model": "Speedmaster Silver Snoopy Award 50th Anniversary",
+    "material": "Stainless Steel",
+    "configuration": {
+      "bracelet": "Blue Nylon Strap",
+      "dial": "Silver"
+    },
+    "sourceUrl": "https://www.uhrinstinkt.de/products/omega-speedmaster-silver-snoopy-award-50th-anniversary-310-32-42-50-02-001-z101517",
+    "src": "/images/watches/omega/reviewed-310-32-42-50-02-001-white-web.webp",
+    "sha256": "f87f1189bea0cddbacafe437ea2b6ddb97561035d6b0dc715ca10c75ce5324fd",
+    "rawDriveFileId": "1sCAfAvvcVpqp5suZN2SHz7H9xc3r055a",
+    "clearanceRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for these exact Uhrinstinkt Silver Snoopy original and white-background derivatives with no additional restrictions stated on October15,2026 Eastern. Record docs/PHOTOGRAPHY_SNOOPY_FOUNDER_RIGHTS_2026-10-15.json. Authentic complete RAW and final white WEB individually visually reviewed; source credits retained separately.",
+    "sourceProvider": "Uhrinstinkt product photography",
+    "reviewedAt": "2026-10-15",
+    "assetId": "cleared-snoopy-1sCAfAvvcVpqp5suZN2SHz7H9xc3r055a"
   }
 ];

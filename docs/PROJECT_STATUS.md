@@ -334,3 +334,15 @@ Canonical photography master updated to56pages and all66 current pending URLs; a
 ## Two black Seamaster photographs — October15,2026
 
 Founder explicitly cleared Uhrinstinkt originals and white derivatives for210.20.42.20.01.001 and210.22.42.20.01.002 with no additional restrictions stated. Existing6 RAW/master/WEB archives reused. Registry/images/queues updated:204/268 references photographed in build,64 queued,80/102 collections. All246 regressions, Astro (0errors/0warnings/20hints), photography/hash audits, production build, targeted route/grid/credits/inquiry checks and mobile/desktop/intake-context review passed. Existing main auto-deployment follows; customer records and persistent disk untouched.
+
+
+Two-image black Seamaster release 779a6ae535eb825f225e6a07cad59713f60e5547 / Render dep-db8ncsfavr4c739ge1t0 is LIVE. Independent production verification passed all268 reference routes,203 distinct delivered image hashes and both exact-image/configuration/grid/credits/inquiry checks. Actual production204/268 photographed,64 queued,80/102 collections. Both exact founder-cleared sets are published; no cleared batch remains unpublished. Source/rights records and archive files retained; no customer data operations. Master update proceeds from56-page checksum-verified checkpoint.
+
+One further Uhrinstinkt Silver Snoopy310.32.42.50.02.001 photograph is complete, exact-reference/configuration reviewed in genuine three-quarter view, processed on white and all3RAW/master/WEB files archived. New image-specific commercial-use rights pending; not published. Existing catalog silver dial/blue nylon strap retained; no retailer prices, condition, availability or new specs copied. Production204/268,64queued including this prepared set.
+
+Canonical photography master updated in place to58pages; both new pages57/58 individually reviewed and all56historical pages pixel-identical. Drive readback SHA256 892baf47b7d67ce8b505b4bf2a337e3bebd858a384bc0ee8c80546b39a3c8d6b verified. Full catalog audit and production verification updated in their existing Drive files. Current workflow position is204/268photographed LIVE,64queued including one reviewed/archived Silver Snoopy rights-held set;63other references need usable exact photography.
+
+
+## Silver Snoopy photograph — October15,2026
+
+Founder explicitly confirmed commercial website-use rights for the exact Uhrinstinkt310.32.42.50.02.001 original/white derivatives and instructed proceeding without further permission. Existing3RAW/master/WEB archives reused. Built coverage205/268,63queued,80/102collections. Exact photo/hash/rights audits, Astro0errors/0warnings, build and desktop/mobile/intake-context review passed. All246unique regression checks passed after an isolated navigation recheck resolved a concurrent-build output race. Main auto-deployment follows; no customer data operation.

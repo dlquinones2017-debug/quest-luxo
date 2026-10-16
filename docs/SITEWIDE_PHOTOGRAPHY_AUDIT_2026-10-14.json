@@ -1,13 +1,13 @@
 {
-  "auditedAt": "2026-10-16T00:55:29.810Z",
+  "auditedAt": "2026-10-16T02:25:00.677Z",
   "summary": {
     "brands": 23,
     "collections": 102,
     "registryRecords": 269,
     "distinctRoutes": 268,
     "normalizedBrandReferenceIdentities": 265,
-    "approved": 204,
-    "missing": 64,
+    "approved": 205,
+    "missing": 63,
     "collectionsWithPhotography": 80,
     "unusedApprovedRecords": 2,
     "duplicateNormalizedReferenceGroups": 4,
@@ -123,8 +123,8 @@
       "brand": "Omega",
       "registryRecords": 68,
       "referencePages": 68,
-      "approved": 55,
-      "missing": 13,
+      "approved": 56,
+      "missing": 12,
       "collections": 11
     },
     {
@@ -2679,14 +2679,19 @@
       "material": "Stainless Steel",
       "configurations": [
         {
-          "nickname": "Silver Snoopy Award 50th Anniversary",
+          "nickname": "Silver / Blue Nylon Strap",
           "bracelet": "Blue Nylon Strap",
           "dial": "Silver",
-          "originalMSRP": null
+          "originalMSRP": null,
+          "currentMSRP": null
         }
       ],
-      "approved": false,
-      "photo": null,
+      "approved": true,
+      "photo": {
+        "assetId": "cleared-snoopy-1sCAfAvvcVpqp5suZN2SHz7H9xc3r055a",
+        "src": "/images/watches/omega/reviewed-310-32-42-50-02-001-white-web.webp",
+        "sha256": "f87f1189bea0cddbacafe437ea2b6ddb97561035d6b0dc715ca10c75ce5324fd"
+      },
       "recoveryCandidates": []
     },
     {

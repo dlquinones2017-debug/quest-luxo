@@ -1,6 +1,6 @@
 {
   "physicalSets": 2,
-  "websitePublished": false,
+  "websitePublished": true,
   "rightsHeldSets": 0,
   "references": [
     {
@@ -20,7 +20,7 @@
       "mode": "RGB",
       "sha256": "3ec2cef229d500ba455ae630c5582d4693787b908f66d8dfb330af57d4dc80c5",
       "checkedAt": "2026-10-16T00:47:48.522198+00:00",
-      "websiteApproved": false,
+      "websiteApproved": true,
       "rightsStatus": "Founder explicitly confirmed this exact original and white derivatives for commercial Quest Luxo website use; no additional restrictions stated",
       "status": "Authentic retailer-hosted original; unchanged delivered bytes",
       "whiteMaster": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\uhr-black-seamaster-two-white\\210.22.42.20.01.002-white-master.png",
@@ -78,7 +78,7 @@
       },
       "commercialUseRightsConfirmed": true,
       "rightsRecord": "PHOTOGRAPHY_BLACK_SEAMASTER_TWO_FOUNDER_RIGHTS_2026-10-15.json",
-      "publicationStatus": "Integrated; release checks and deployment pending"
+      "publicationStatus": "LIVE; exact configuration/grid/credits/inquiry and image hash verified"
     },
     {
       "brand": "Omega",
@@ -97,7 +97,7 @@
       "mode": "RGB",
       "sha256": "bad4bccf7d23c8010f84a2f2dd43fc2446d783b5609897133187063ee5dc5d83",
       "checkedAt": "2026-10-16T00:47:48.477228+00:00",
-      "websiteApproved": false,
+      "websiteApproved": true,
       "rightsStatus": "Founder explicitly confirmed this exact original and white derivatives for commercial Quest Luxo website use; no additional restrictions stated",
       "status": "Authentic retailer-hosted original; unchanged delivered bytes",
       "whiteMaster": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\uhr-black-seamaster-two-white\\210.20.42.20.01.001-white-master.png",
@@ -155,12 +155,14 @@
       },
       "commercialUseRightsConfirmed": true,
       "rightsRecord": "PHOTOGRAPHY_BLACK_SEAMASTER_TWO_FOUNDER_RIGHTS_2026-10-15.json",
-      "publicationStatus": "Integrated; release checks and deployment pending"
+      "publicationStatus": "LIVE; exact configuration/grid/credits/inquiry and image hash verified"
     }
   ],
   "archivedFiles": 6,
   "archiveStatus": "All RAW/master/WEB files archived to existing Drive folders; originals unchanged. Image-specific rights pending; not published.",
   "approvedForPublication": true,
   "founderRightsRecord": "PHOTOGRAPHY_BLACK_SEAMASTER_TWO_FOUNDER_RIGHTS_2026-10-15.json",
-  "publicationStatus": "Integrated; checks and deployment pending"
+  "publicationStatus": "LIVE and independently production verified",
+  "liveCommit": "779a6ae535eb825f225e6a07cad59713f60e5547",
+  "liveDeployId": "dep-db8ncsfavr4c739ge1t0"
 }

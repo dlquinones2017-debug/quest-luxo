@@ -1,10 +1,10 @@
 {
-  "verifiedAt": "2026-10-16T00:44:41.151458+00:00",
+  "verifiedAt": "2026-10-16T00:58:57.641280+00:00",
   "expectedDistinctReferenceRoutes": 268,
   "verifiedReferenceRoutes": 268,
-  "approvedDistinctReferenceRoutes": 202,
-  "verifiedDistinctPhotoFiles": 201,
-  "queuedDistinctReferenceRoutes": 66,
+  "approvedDistinctReferenceRoutes": 204,
+  "verifiedDistinctPhotoFiles": 203,
+  "queuedDistinctReferenceRoutes": 64,
   "errors": [],
   "pages": [
     {
@@ -663,6 +663,16 @@
       "status": "verified"
     },
     {
+      "route": "/collections/omega/seamaster/210-22-42-20-01-002",
+      "approved": true,
+      "status": "verified"
+    },
+    {
+      "route": "/collections/omega/seamaster/210-20-42-20-01-001",
+      "approved": true,
+      "status": "verified"
+    },
+    {
       "route": "/collections/omega/seamaster/210-30-42-20-01-001",
       "approved": true,
       "status": "verified"
@@ -674,16 +684,6 @@
     },
     {
       "route": "/collections/omega/seamaster/210-62-42-20-03-001",
-      "approved": false,
-      "status": "verified"
-    },
-    {
-      "route": "/collections/omega/seamaster/210-22-42-20-01-002",
-      "approved": false,
-      "status": "verified"
-    },
-    {
-      "route": "/collections/omega/seamaster/210-20-42-20-01-001",
       "approved": false,
       "status": "verified"
     },
@@ -1907,6 +1907,16 @@
     {
       "path": "/images/watches/omega/reviewed-210-22-42-20-03-002-white-web.webp",
       "sha256": "5c4267b25c643c2957a83945cb24a17876dd5e1b0812bb75f927ea020a49ed82",
+      "status": "verified"
+    },
+    {
+      "path": "/images/watches/omega/reviewed-210-22-42-20-01-002-white-web.webp",
+      "sha256": "59e4e33b65f02159683de9f43b10eed4f7db43040546faf0b2b5108e8e362a69",
+      "status": "verified"
+    },
+    {
+      "path": "/images/watches/omega/reviewed-210-20-42-20-01-001-white-web.webp",
+      "sha256": "6dc60d92fcbf9eb8e390c750984b64069c25cb8a8b16b83a31019ed547fdc970",
       "status": "verified"
     },
     {
