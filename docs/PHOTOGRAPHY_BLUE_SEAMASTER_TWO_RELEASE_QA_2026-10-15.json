@@ -1,0 +1,53 @@
+{
+  "checkedAt": "2026-10-16T00:42:59.490712+00:00",
+  "status": "Release checks passed; deployment/production verification pending",
+  "previousProductionMain": "f36e12d90d3f7e93967b492b0ef6690bccd31ce8",
+  "rightsDriveFileId": "1KEkaJKT1q6R1kAekcSMiZJ_lAPJSQs0P",
+  "sourceLedgerDriveId": "1B3TB_hp6HgMwPYn7HVE2kL5zH_d4-ZsJ",
+  "built": {
+    "checkedAt": "2026-10-16T00:40:37.687338+00:00",
+    "mode": "built",
+    "exactReferencesChecked": 2,
+    "rows": [
+      {
+        "reference": "210.20.42.20.03.002",
+        "route": "/collections/omega/seamaster/210-20-42-20-03-002",
+        "imageSha256": "0c3eb8d4bf827d240b8fe68da178a4cff11e1b40c01fcc95b350ca6b7ab0e8a2",
+        "exactConfiguration": true,
+        "collectionGrid": true,
+        "inquiryContext": true,
+        "separateCredits": true,
+        "noImageCaptionOverlay": true
+      },
+      {
+        "reference": "210.22.42.20.03.002",
+        "route": "/collections/omega/seamaster/210-22-42-20-03-002",
+        "imageSha256": "5c4267b25c643c2957a83945cb24a17876dd5e1b0812bb75f927ea020a49ed82",
+        "exactConfiguration": true,
+        "collectionGrid": true,
+        "inquiryContext": true,
+        "separateCredits": true,
+        "noImageCaptionOverlay": true
+      }
+    ],
+    "publicFlowsAvailable": true,
+    "leadDataSafety": "Public GET checks only. No new lead submissions, private lead reads, runtime data or disk changes."
+  },
+  "regressions": {
+    "passed": 246,
+    "failed": 0
+  },
+  "astro": {
+    "errors": 0,
+    "warnings": 0,
+    "hints": 20
+  },
+  "build": "Passed; existing Vite bundle-size, Zenith punctuation-alias and public robots warnings remain",
+  "visualReview": {
+    "mobile": "390x844 complete centered blue rubber 210.22.42.20.03.002; native1200 loaded; document/client375",
+    "desktop": "1440x1000 complete centered blue two-tone bracelet 210.20.42.20.03.002; native1200 loaded; document/client1425. Secondary1024x1200 width1009/1009.",
+    "intake": "Rubber210.22 CTA clicked; exact Omega/Seamaster/reference context present. No submission."
+  },
+  "sourceReview": "Both complete unchanged RAW and final1200WEB individually reviewed. External background only replaced. All6 RAW/master/WEB archived. No AI, reconstruction or recolouring. Manufacturer confirms Sedna Gold configuration; retailer table typo not copied.",
+  "testRunNote": "Initial concurrent regression run loaded the prior queue while synchronizer updated it; after synchronization all246 passed without an application fix."
+}

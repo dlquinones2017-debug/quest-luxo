@@ -1,0 +1,26 @@
+{
+  "recordedAt": "2026-10-16T00:38:42.401001+00:00",
+  "founderDecisionDateEastern": "2026-10-15",
+  "evidenceType": "Direct human founder response in existing Website/Product chat",
+  "questionItemId": "call_ed4696c0daa94718b6efa6b5a71cd006",
+  "founderAnswer": "Rights cover both originals and derivatives; no restrictions",
+  "scope": "Commercial Quest Luxo website use of these two exact Uhrinstinkt originals and white-background derivatives only",
+  "sourceLedgerDriveIds": [
+    "1B3TB_hp6HgMwPYn7HVE2kL5zH_d4-ZsJ"
+  ],
+  "references": [
+    {
+      "brand": "Omega",
+      "reference": "210.20.42.20.03.002",
+      "sourceProvider": "Uhrinstinkt",
+      "rawSha256": "a4cd4065798a33e5b79d5de2694838bb07698fb73c8ec067f2c3aea9c7bfee94"
+    },
+    {
+      "brand": "Omega",
+      "reference": "210.22.42.20.03.002",
+      "sourceProvider": "Uhrinstinkt",
+      "rawSha256": "2c6fcd49648ec3c250b60531ed0afc7a265485995c9bd8afade32b3e0372291f"
+    }
+  ],
+  "noScopeExtension": "No rights inferred for future originals"
+}

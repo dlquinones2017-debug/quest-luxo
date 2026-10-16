@@ -1,6 +1,6 @@
 {
   "checkedAt": "2026-10-16T00:24:24.671211+00:00",
-  "status": "Release checks passed; deployment/production verification pending",
+  "status": "LIVE; targeted and full catalog production verification passed",
   "previousProductionMain": "f4fde204735f66043d6fde760034b840c0e86250",
   "rightsDriveFileId": "1aDFoAqstMzsWgETbffa4QJq1zFxBnsix",
   "sourceLedgerDriveId": "15yF0KaTuzlTtYXDtu7E7lXt9iK5QAti9",
@@ -48,5 +48,46 @@
     "desktop": "1440x1000 white131.30.41.21.04.001 genuine three-quarter complete watch;1200 native loaded; document/client width1425",
     "intake": "Blue131.23 CTA clicked; exact Omega/Constellation/reference context present. No submission."
   },
-  "sourceReview": "Both untouched RAW and final1200WEB individually reviewed. Whole original watch preserved; external background only replaced. All6 RAW/master/WEB archived. No AI, reconstruction or recolouring."
+  "sourceReview": "Both untouched RAW and final1200WEB individually reviewed. Whole original watch preserved; external background only replaced. All6 RAW/master/WEB archived. No AI, reconstruction or recolouring.",
+  "commit": "f36e12d90d3f7e93967b492b0ef6690bccd31ce8",
+  "deployId": "dep-db8mtg6k1f9s73elokmg",
+  "live": {
+    "checkedAt": "2026-10-16T00:26:18.022448+00:00",
+    "mode": "live",
+    "exactReferencesChecked": 2,
+    "rows": [
+      {
+        "reference": "131.30.41.21.04.001",
+        "route": "/collections/omega/constellation/131-30-41-21-04-001",
+        "imageSha256": "3bcb11f769ef6526bfdc67c351ddfc29c022c4e9e08482242463a635c73081f4",
+        "exactConfiguration": true,
+        "collectionGrid": true,
+        "inquiryContext": true,
+        "separateCredits": true,
+        "noImageCaptionOverlay": true
+      },
+      {
+        "reference": "131.23.41.21.03.001",
+        "route": "/collections/omega/constellation/131-23-41-21-03-001",
+        "imageSha256": "10f524ad1e5fcd680e53a8f905637567c439fa01348c8e0d7fb67a298e66e3e7",
+        "exactConfiguration": true,
+        "collectionGrid": true,
+        "inquiryContext": true,
+        "separateCredits": true,
+        "noImageCaptionOverlay": true
+      }
+    ],
+    "publicFlowsAvailable": true,
+    "leadDataSafety": "Public GET checks only. No new lead submissions, private lead reads, runtime data or disk changes."
+  },
+  "liveFullCatalogSummary": {
+    "verifiedAt": "2026-10-16T00:26:29.117613+00:00",
+    "expectedDistinctReferenceRoutes": 268,
+    "verifiedReferenceRoutes": 268,
+    "approvedDistinctReferenceRoutes": 200,
+    "verifiedDistinctPhotoFiles": 199,
+    "queuedDistinctReferenceRoutes": 68,
+    "errors": [],
+    "leadSafety": "Read-only public-route checks; no customer records read or submissions created."
+  }
 }

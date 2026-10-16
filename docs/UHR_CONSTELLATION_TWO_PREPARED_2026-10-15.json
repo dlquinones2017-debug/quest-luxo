@@ -1,6 +1,6 @@
 {
   "physicalSets": 2,
-  "websitePublished": false,
+  "websitePublished": true,
   "rightsHeldSets": 0,
   "references": [
     {
@@ -52,7 +52,7 @@
         "dial": "White ceramic non-wave",
         "bracelet": "Stainless-steel bracelet"
       },
-      "websiteApproved": false,
+      "websiteApproved": true,
       "visualReviewPassed": true,
       "exactSkuVerified": true,
       "processing": "Classical connected exterior silhouette; original RGB preserved inside the complete watch. Only external background replaced. Centered2400 white master and1200WEB. No AI, recolouring or reconstruction.",
@@ -73,7 +73,7 @@
       },
       "commercialUseRightsConfirmed": true,
       "rightsRecord": "PHOTOGRAPHY_UHR_TWO_FOUNDER_RIGHTS_2026-10-15.json",
-      "publicationStatus": "Integrated; release checks and deployment pending"
+      "publicationStatus": "LIVE; exact configuration/grid/credits/inquiry and image hash verified"
     },
     {
       "brand": "Omega",
@@ -124,7 +124,7 @@
         "dial": "Blue sun-brushed non-wave",
         "bracelet": "Blue leather strap"
       },
-      "websiteApproved": false,
+      "websiteApproved": true,
       "visualReviewPassed": true,
       "exactSkuVerified": true,
       "processing": "Classical connected exterior silhouette; original RGB preserved inside the complete watch. Only external background replaced. Centered2400 white master and1200WEB. No AI, recolouring or reconstruction.",
@@ -145,14 +145,16 @@
       },
       "commercialUseRightsConfirmed": true,
       "rightsRecord": "PHOTOGRAPHY_UHR_TWO_FOUNDER_RIGHTS_2026-10-15.json",
-      "publicationStatus": "Integrated; release checks and deployment pending"
+      "publicationStatus": "LIVE; exact configuration/grid/credits/inquiry and image hash verified"
     }
   ],
   "archivedFiles": 6,
   "archiveStatus": "All RAW/master/WEB files archived to existing Drive folders; originals unchanged. Rights pending; not published.",
   "approvedForPublication": true,
   "founderRightsRecord": "PHOTOGRAPHY_UHR_TWO_FOUNDER_RIGHTS_2026-10-15.json",
-  "publicationStatus": "Integrated; release checks and deployment pending",
+  "publicationStatus": "LIVE and independently production verified",
   "founderRightsDriveFileId": "1aDFoAqstMzsWgETbffa4QJq1zFxBnsix",
-  "commercialUseRightsConfirmed": true
+  "commercialUseRightsConfirmed": true,
+  "liveCommit": "f36e12d90d3f7e93967b492b0ef6690bccd31ce8",
+  "liveDeployId": "dep-db8mtg6k1f9s73elokmg"
 }

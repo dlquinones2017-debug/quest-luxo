@@ -8,9 +8,9 @@
   "licensePolicy": "Reference source URL documents identity only; it does NOT license website reuse. No AI watches, unverified source shots or nonwhite wrist photographs.",
   "summary": {
     "references": 55,
-    "existingExactReferenceImageRecordMatches": 44,
-    "requiresAcquisition": 11,
-    "clearedForPublication": 44
+    "existingExactReferenceImageRecordMatches": 46,
+    "requiresAcquisition": 9,
+    "clearedForPublication": 46
   },
   "queue": [
     {
@@ -28,18 +28,19 @@
       "specificationSource": "https://www.omegawatches.com.hk/en-hk/watch-omega-seamaster-diver-300m-co-axial-master-chronometer-42-mm-21022422003002",
       "sourceHost": "www.omegawatches.com.hk",
       "priorityScore": 103,
-      "imageSourceFoundInCurrentClearanceCode": false,
+      "imageSourceFoundInCurrentClearanceCode": true,
       "evidence": {
         "rawImageId": null,
         "rawChecksum": null,
-        "webDerivativePath": null,
-        "webDerivativeChecksum": null,
-        "exactReferenceImageReviewed": false,
-        "centeredWhiteBackgroundVerified": false,
-        "websiteUseRightsVerified": false,
-        "rightsRecord": null,
-        "approvalReviewer": null,
-        "status": "ACQUISITION_REQUIRED"
+        "webDerivativePath": "/images/watches/omega/reviewed-210-22-42-20-03-002-white-web.webp",
+        "webDerivativeChecksum": "5c4267b25c643c2957a83945cb24a17876dd5e1b0812bb75f927ea020a49ed82",
+        "exactReferenceImageReviewed": true,
+        "centeredWhiteBackgroundVerified": true,
+        "websiteUseRightsVerified": true,
+        "rightsRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for these exact two Uhrinstinkt originals and white-background derivatives with no additional restrictions on October15,2026 Eastern. Record docs/PHOTOGRAPHY_BLUE_SEAMASTER_TWO_FOUNDER_RIGHTS_2026-10-15.json. Authentic complete RAW and final white WEB individually visually reviewed; source credits retained separately. Preserved RAW file: 1ewuAKrLt8pWCMSgiL_kRlPSlA7sNI9He. Pictured full reference 210.22.42.20.03.002; Stainless Steel and 18K Sedna Gold, Blue ceramic wave, Blue rubber strap. Exact configuration reviewed against preserved source evidence and the original photograph.",
+        "approvalReviewer": "Quest Luxo execution review with founder website-use clearance",
+        "status": "APPROVED_WITH_VALID_DERIVATIVE",
+        "approvedAssetId": "cleared-blue-seamaster-two-1ewuAKrLt8pWCMSgiL_kRlPSlA7sNI9He"
       },
       "requirements": [
         "Obtain authentic non-AI original for exact pictured reference and configuration",
@@ -209,18 +210,19 @@
       "specificationSource": "https://www.omegawatches.com.tw/watch-omega-seamaster-diver-300m-co-axial-master-chronometer-42-mm-21020422003002",
       "sourceHost": "www.omegawatches.com.tw",
       "priorityScore": 93,
-      "imageSourceFoundInCurrentClearanceCode": false,
+      "imageSourceFoundInCurrentClearanceCode": true,
       "evidence": {
         "rawImageId": null,
         "rawChecksum": null,
-        "webDerivativePath": null,
-        "webDerivativeChecksum": null,
-        "exactReferenceImageReviewed": false,
-        "centeredWhiteBackgroundVerified": false,
-        "websiteUseRightsVerified": false,
-        "rightsRecord": null,
-        "approvalReviewer": null,
-        "status": "ACQUISITION_REQUIRED"
+        "webDerivativePath": "/images/watches/omega/reviewed-210-20-42-20-03-002-white-web.webp",
+        "webDerivativeChecksum": "0c3eb8d4bf827d240b8fe68da178a4cff11e1b40c01fcc95b350ca6b7ab0e8a2",
+        "exactReferenceImageReviewed": true,
+        "centeredWhiteBackgroundVerified": true,
+        "websiteUseRightsVerified": true,
+        "rightsRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for these exact two Uhrinstinkt originals and white-background derivatives with no additional restrictions on October15,2026 Eastern. Record docs/PHOTOGRAPHY_BLUE_SEAMASTER_TWO_FOUNDER_RIGHTS_2026-10-15.json. Authentic complete RAW and final white WEB individually visually reviewed; source credits retained separately. Preserved RAW file: 1gtBfCI2wY9uYORi4O6O1nRZ1UG5Mvm6E. Pictured full reference 210.20.42.20.03.002; Stainless Steel and 18K Sedna Gold, Blue ceramic wave, Stainless-steel and Sedna Gold bracelet. Exact configuration reviewed against preserved source evidence and the original photograph.",
+        "approvalReviewer": "Quest Luxo execution review with founder website-use clearance",
+        "status": "APPROVED_WITH_VALID_DERIVATIVE",
+        "approvedAssetId": "cleared-blue-seamaster-two-1gtBfCI2wY9uYORi4O6O1nRZ1UG5Mvm6E"
       },
       "requirements": [
         "Obtain authentic non-AI original for exact pictured reference and configuration",

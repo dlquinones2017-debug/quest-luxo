@@ -312,3 +312,15 @@ Two subsequent Uhrinstinkt Constellation sets (131.30.41.21.04.001 and131.23.41.
 ## Two Constellation photographs — October15,2026
 
 Both exact Uhrinstinkt Constellation sets now have direct founder commercial website-use permission without restrictions. Existing6 RAW/master/WEB archives reused; no reacquisition or duplicate upload. Registry/images/queues updated;200/268 references photographed in build,68 queued. All246 regressions, Astro (0 errors,0 warnings,20 hints), photography/hash audits, production build, both targeted route/grid/credits/inquiry checks and mobile/desktop/intake-context review passed. Deploying through existing main auto-deploy; customer records and persistent disk untouched.
+
+
+Two-image Constellation release f36e12d90d3f7e93967b492b0ef6690bccd31ce8 / Render dep-db8mtg6k1f9s73elokmg is LIVE. Independent production verification passed all268 reference routes,199 distinct delivered image hashes and both exact-image/configuration/grid/credits/inquiry checks. Actual production200/268 photographed,68 queued,80/102 collections. Both exact founder-cleared sets are published; no cleared batch remains unpublished. Source/rights records and archive files retained; no customer data operations. Master update proceeds from52-page checksum-verified checkpoint.
+
+Canonical photography master updated in place to54 pages. New pages53/54 individually visually reviewed; all52 historical pages pixel-identical. Authenticated Drive readback SHA-256 matches c271b4885b759f001619af4baf003b10a45f7a529302e6b975ea3944b64ccf0e. Canonical full audit, production verification and cleared source ledger updated in Drive.
+
+Two further Uhrinstinkt blue Seamaster sets (210.20.42.20.03.002 on steel/Sedna bracelet;210.22.42.20.03.002 on blue rubber) are whole-watch, exact-source, individually reviewed and all6files archived. Image-specific rights pending; not published. Manufacturer identity confirms steel/Sedna despite one inconsistent retailer table label. Full-gold210.62.42.20.03.001 remains held for cropped straps and low resolution. Production remains200/268;68queued including these2prepared sets.
+
+
+## Two blue Seamaster photographs — October15,2026
+
+Founder explicitly cleared Uhrinstinkt originals and white derivatives for210.20.42.20.03.002 and210.22.42.20.03.002 without restrictions. Existing6 RAW/master/WEB archives reused. Registry/images/queues updated:202/268 references photographed in build,66 queued,80/102 collections. All246 regressions, Astro (0errors/0warnings/20hints), photography/hash audits, production build, targeted route/grid/credits/inquiry checks and mobile/desktop/intake-context review passed. Existing main auto-deployment follows; customer records and persistent disk untouched.
