@@ -217,7 +217,7 @@
         1080,
         1565
       ],
-      "identityCandidate": "black graphic: exact reference verification pending",
+      "identityCandidate": "15500ST.OO.1220ST.03",
       "partialSource": false,
       "secondaryAppearance": false,
       "sourceFileName": "Screenshot_20261015_223835_Instagram.jpg",
@@ -233,15 +233,23 @@
       "holds": [
         "Source authenticity and exact configuration review",
         "Commercial-use evidence",
-        "15400ST versus 15500ST generation and full black-dial SKU unresolved."
+        "15400ST versus 15500ST generation and full black-dial SKU unresolved.",
+        "Commercial-use evidence for underlying screenshot photograph",
+        "Final whole-watch authenticity and edge quality review"
       ],
       "segmentationReviewFileName": "upload-03-ap.jpg",
       "segmentationStatus": "Unapproved classical mask; needs individual edge review",
       "segmentationSha256": "7e352106b08ef737651815b66b6f0c9458e56b2e9afd9a0edb6cff69a7e51b40",
-      "identityHold": "15400ST versus 15500ST generation and full black-dial SKU unresolved.",
       "alphaFileName": "upload-03-ap.png",
       "alphaSha256": "c853faebfd853ebdf5a0f2ed2023d2650a312144118280c2fa937a42c743a816",
-      "visualReview": "Contact sheet reviewed. Prepared extraction only; native edge, whole-watch, authenticity and rights holds remain. No publication approval."
+      "visualReview": "Contact sheet reviewed. Prepared extraction only; native edge, whole-watch, authenticity and rights holds remain. No publication approval.",
+      "verifiedCatalogReference": "15500ST.OO.1220ST.03",
+      "identitySource": "https://www.audemarspiguet.com/us/en/watch-collection/royal-oak/15500ST.OO.1220ST.03",
+      "catalogBrandSlug": "audemars-piguet",
+      "catalogCollectionSlug": "royal-oak",
+      "referenceProfileAdded": true,
+      "identityReview": "Manufacturer confirms 15500 generation with wide indexes, external printed minute track and outward date window. Those visible features distinguish this upload from the older15400 candidate; black steel full SKU03 established.",
+      "identityReviewedAt": "2026-10-16"
     },
     {
       "id": "upload-09-vc",
@@ -294,7 +302,7 @@
         727,
         1555
       ],
-      "identityCandidate": "salmon graphic: exact reference verification pending",
+      "identityCandidate": "5236P-010",
       "partialSource": false,
       "secondaryAppearance": false,
       "sourceFileName": "Screenshot_20261015_223840_Instagram.jpg",
@@ -310,15 +318,23 @@
       "holds": [
         "Source authenticity and exact configuration review",
         "Commercial-use evidence",
-        "Salmon calendar graphic lacks verified exact manufacturer configuration. Do not infer 5396G suffix."
+        "Salmon calendar graphic lacks verified exact manufacturer configuration. Do not infer 5396G suffix.",
+        "Commercial-use evidence for underlying screenshot photograph",
+        "Final whole-watch authenticity and edge quality review"
       ],
       "segmentationReviewFileName": "upload-09-patek.jpg",
       "segmentationStatus": "Unapproved classical mask; needs individual edge review",
       "segmentationSha256": "290845b314a13f79f58aa1c881d2bad74afd02db7bb47e3abba865d70733b8bb",
-      "identityHold": "Salmon calendar graphic lacks verified exact manufacturer configuration. Do not infer 5396G suffix.",
       "alphaFileName": "upload-09-patek.png",
       "alphaSha256": "3d14426558655c4ec083f45461a8eea501df657a41c1d6f8f9ea0befbbf133d2",
-      "visualReview": "Contact sheet reviewed. Prepared extraction only; native edge, whole-watch, authenticity and rights holds remain. No publication approval."
+      "visualReview": "Contact sheet reviewed. Prepared extraction only; native edge, whole-watch, authenticity and rights holds remain. No publication approval.",
+      "verifiedCatalogReference": "5236P-010",
+      "identitySource": "https://www.patek.com/en/collection/grand-complications/5236P-010",
+      "catalogBrandSlug": "patek-philippe",
+      "catalogCollectionSlug": "grand-complications",
+      "referenceProfileAdded": true,
+      "identityReview": "Exact in-line day/date/month window, baton markers, rose-gilt dial and platinum case match manufacturer 5236P-010. Earlier 5396 family hypothesis rejected: that model has separate day/month and date layouts.",
+      "identityReviewedAt": "2026-10-16"
     },
     {
       "id": "upload-09-ap",
@@ -412,7 +428,7 @@
         727,
         1565
       ],
-      "identityCandidate": "red graphic: exact reference verification pending",
+      "identityCandidate": "5270P-017",
       "partialSource": false,
       "secondaryAppearance": false,
       "sourceFileName": "Screenshot_20261015_223830_Instagram.jpg",
@@ -428,15 +444,23 @@
       "holds": [
         "Source authenticity and exact configuration review",
         "Commercial-use evidence",
-        "Red perpetual-calendar chronograph graphic exact manufacturer dial/SKU not established."
+        "Red perpetual-calendar chronograph graphic exact manufacturer dial/SKU not established.",
+        "Commercial-use evidence for underlying screenshot photograph",
+        "Final whole-watch authenticity and edge quality review"
       ],
       "segmentationReviewFileName": "upload-11-patek.jpg",
       "segmentationStatus": "Unapproved classical mask; needs individual edge review",
       "segmentationSha256": "844944e04c2610412d643a0e107e3a191507497da8dc86c5b0c5d7fd74a96c4b",
-      "identityHold": "Red perpetual-calendar chronograph graphic exact manufacturer dial/SKU not established.",
       "alphaFileName": "upload-11-patek.png",
       "alphaSha256": "b55a30934545558b4e428646968fd543b24f26fb378d10e1fb88f5883dc99671",
-      "visualReview": "Contact sheet reviewed. Prepared extraction only; native edge, whole-watch, authenticity and rights holds remain. No publication approval."
+      "visualReview": "Contact sheet reviewed. Prepared extraction only; native edge, whole-watch, authenticity and rights holds remain. No publication approval.",
+      "verifiedCatalogReference": "5270P-017",
+      "identitySource": "https://www.patek.com/en/collection/grand-complications/5270p-017",
+      "catalogBrandSlug": "patek-philippe",
+      "catalogCollectionSlug": "grand-complications",
+      "referenceProfileAdded": true,
+      "identityReview": "Manufacturer confirms 5270P-017 red lacquered black-gradient dial, platinum case and black composite strap with red stitching. Exact complications, hands and case match uploaded graphic.",
+      "identityReviewedAt": "2026-10-16"
     },
     {
       "id": "upload-11-ap",
@@ -964,7 +988,7 @@
         930,
         1120
       ],
-      "identityCandidate": "Blue wave-dial steel/gold Maxi Marine Diver; SKU pending",
+      "identityCandidate": "265-90-3c/93",
       "partialSource": false,
       "secondaryAppearance": false,
       "sourceFileName": "Screenshot_20260914_123831_Google.jpg",
@@ -980,15 +1004,24 @@
       "holds": [
         "Source authenticity and exact configuration review",
         "Commercial-use evidence",
-        "Steel/rose-gold or titanium/rose-gold blue wave model exact SKU unresolved; display stand obscures rear strap."
+        "Steel/rose-gold or titanium/rose-gold blue wave model exact SKU unresolved; display stand obscures rear strap.",
+        "Commercial-use evidence for underlying screenshot photograph",
+        "Final whole-watch authenticity and edge quality review",
+        "Display stand obscures rear strap; source cannot establish entire unobstructed watch"
       ],
       "segmentationReviewFileName": "upload-10-maxi-diver.jpg",
       "segmentationStatus": "Unapproved classical mask; needs individual edge review",
       "segmentationSha256": "8e64ec2f0af964b42ae925acaf2d0521567d768903f95faaa941b5618dc8bd86",
-      "identityHold": "Steel/rose-gold or titanium/rose-gold blue wave model exact SKU unresolved; display stand obscures rear strap.",
       "alphaFileName": "upload-10-maxi-diver.png",
       "alphaSha256": "077007742601c339662a1e74eb4d35590d4afdecac294c90f45fb82d155eae78",
-      "visualReview": "Contact sheet reviewed. Prepared extraction only; native edge, whole-watch, authenticity and rights holds remain. No publication approval."
+      "visualReview": "Contact sheet reviewed. Prepared extraction only; native edge, whole-watch, authenticity and rights holds remain. No publication approval.",
+      "verifiedCatalogReference": "265-90-3c/93",
+      "identitySource": "https://www.prestigetime.com/Ulysse-Nardin-Maxi-Marine-Diver-Titanium-45mm-265-90-3c-93.html",
+      "catalogBrandSlug": "ulysse-nardin",
+      "catalogCollectionSlug": "diver",
+      "referenceProfileAdded": true,
+      "identityReview": "Exact blue wave dial, titanium case, rose-gold bezel and black ceramic strap inserts match Prestige Time265-90-3c/93 original. Ceramic inserts distinguish the3c configuration from gold-insert3/93; display stand obscures rear strap in upload.",
+      "identityReviewedAt": "2026-10-16"
     },
     {
       "id": "upload-13-maxi-diver",
@@ -1728,11 +1761,11 @@
     }
   ],
   "distinctPrimaryCandidatesAfterObviousDuplicates": 36,
-  "newReferenceProfiles": 25,
-  "primaryIdentitiesQueued": 10,
+  "newReferenceProfiles": 29,
+  "primaryIdentitiesQueued": 6,
   "existingClearedProfilePreserved": 1,
   "reviewedAt": "2026-10-16T09:59:29.601365+00:00",
-  "publicationDecision": "25 verified identities added as photography-pending profiles. No screenshot photographs approved; existing cleared images preserved.",
+  "publicationDecision": "29 uploaded identities integrated as verified reference profiles. No screenshot photograph approved; six primary identity holds remain.",
   "packagePolicy": "Every crop retains source pixels. White/alpha files are review candidates, not licensed or approved web assets. No AI, reconstruction, recoloring or invented specifications. Full screenshots with private conversation UI excluded.",
   "archive": {
     "fileName": "Quest_Luxo_Founder_Watch_Extractions_REVIEW.zip",

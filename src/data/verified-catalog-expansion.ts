@@ -1422,7 +1422,12 @@ export const verifiedExpansionRows: readonly VerifiedRow[] = [
   ["Audemars Piguet", "audemars-piguet", "Royal Oak", "royal-oak", "26607BC.OO.1220BC.01", "Royal Oak Perpetual Calendar Thailand Red Dial", "41 mm", "5134 automatic", "Red Grande Tapisserie", "18K white-gold bracelet", "18K white gold", "https://wristcheck.com/us/buy/audemars-piguet/royal-oak-41-white-gold-red-dial-26607bcoo1220bc01"],
   ["Ulysse Nardin", "ulysse-nardin", "Marine", "marine", "1506-150LE-3/63-VB", "Maxi Marine Chronograph Voyage Bleu", "Specification verification pending", "Automatic; calibre verification pending", "Blue with Arabic numerals", "Blue rubber strap with rose-gold inserts", "18K rose gold", "https://www.jomashop.com/ulysse-nardin-watch-1506-150le-3-63-vb.html"],
   ["Ulysse Nardin", "ulysse-nardin", "Diver", "diver", "266-10-3/92", "Maxi Marine Diver Black Wave Dial Rose Gold", "44 mm", "Automatic; calibre verification pending", "Black wave dial", "Black rubber strap with rose-gold inserts", "18K rose gold", "https://www.prestigetime.com/Ulysse-Nardin-Maxi-Marine-Diver-44mm-266-10-3-92.html"],
-  ["Vacheron Constantin", "vacheron-constantin", "Overseas", "overseas", "4300V/220G-H151", "Overseas Perpetual Calendar Ultra-Thin Burgundy Dial", "41.5 mm", "1120 QP automatic", "Burgundy lacquered sunburst", "18K white-gold bracelet; additional burgundy and white rubber straps", "18K white gold", "https://www.vacheron-constantin.com/ww/en/collections/overseas/4300v-220g-h151.html"]
+  ["Vacheron Constantin", "vacheron-constantin", "Overseas", "overseas", "4300V/220G-H151", "Overseas Perpetual Calendar Ultra-Thin Burgundy Dial", "41.5 mm", "1120 QP automatic", "Burgundy lacquered sunburst", "18K white-gold bracelet; additional burgundy and white rubber straps", "18K white gold", "https://www.vacheron-constantin.com/ww/en/collections/overseas/4300v-220g-h151.html"],
+  // Additional founder-upload identities verified against exact source configurations October 16, 2026.
+  ["Patek Philippe", "patek-philippe", "Grand Complications", "grand-complications", "5236P-010", "In-Line Perpetual Calendar Rose-Gilt Opaline", "41.3 mm", "31-260 PS QL automatic", "Rose-gilt opaline with anthracite baton hour markers", "Shiny chocolate brown alligator leather strap", "Platinum", "https://www.patek.com/en/collection/grand-complications/5236P-010"],
+  ["Patek Philippe", "patek-philippe", "Grand Complications", "grand-complications", "5270P-017", "Perpetual Calendar Chronograph Red Dial", "41 mm", "CH 29-535 PS Q manual winding", "Lacquered red with black-gradient rim", "Black fabric-pattern composite strap with red stitching", "Platinum", "https://www.patek.com/en/collection/grand-complications/5270p-017"],
+  ["Audemars Piguet", "audemars-piguet", "Royal Oak", "royal-oak", "15500ST.OO.1220ST.03", "Royal Oak Selfwinding Black Dial", "41 mm", "4302 automatic", "Black Grande Tapisserie", "Stainless-steel bracelet with AP folding clasp", "Stainless Steel", "https://www.audemarspiguet.com/us/en/watch-collection/royal-oak/15500ST.OO.1220ST.03"],
+  ["Ulysse Nardin", "ulysse-nardin", "Diver", "diver", "265-90-3c/93", "Maxi Marine Diver Titanium Rose Gold Blue Wave", "45 mm", "UN-26 automatic", "Blue wave dial with rose-gold rimmed subdials", "Blue rubber wave strap with black ceramic inserts", "Titanium with 18K rose-gold bezel", "https://www.prestigetime.com/Ulysse-Nardin-Maxi-Marine-Diver-Titanium-45mm-265-90-3c-93.html"]
 ];
 
 const founderUploadReferences = new Set([
@@ -1453,13 +1458,15 @@ const founderUploadReferences = new Set([
   "4300V/220G-H151"
 ]);
 
+const continuationUploadReferences = new Set(["5236P-010", "5270P-017", "15500ST.OO.1220ST.03", "265-90-3c/93"]);
+
 export const verifiedExpansionAssets: QuestLuxoAsset[] = verifiedExpansionRows.map((
   [brand, brandSlug, collection, collectionSlug, reference, model, caseSize, movement, dial, bracelet, material, sourceUrl]
 ) => ({
   brand, collection, reference, model, material,
   configurations: [{ caseSize, movement, dial, bracelet, originalMSRP: null, currentMSRP: null }],
   specificationSources: [{label: "Reference identity and specifications", url: sourceUrl}],
-  specificationsReviewedAt: founderUploadReferences.has(reference) ? "2026-10-15" : "2026-10-14",
+  specificationsReviewedAt: continuationUploadReferences.has(reference) ? "2026-10-16" : founderUploadReferences.has(reference) ? "2026-10-15" : "2026-10-14",
   liquidity: "Not assessed",
   allocationDifficulty: "Requires current market check",
   questLuxoView: `Verified ${brand} ${model} identity (${reference}). Quest Luxo can coordinate private sourcing subject to watch-level authentication, provenance, condition review, servicing and current market evidence; no inventory or return claim is implied.`,

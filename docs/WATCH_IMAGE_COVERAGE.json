@@ -1,14 +1,14 @@
 {
-  "reviewedAt": "2026-10-16T10:04:13.912Z",
+  "reviewedAt": "2026-10-16T10:28:46.199Z",
   "note": "Generated from all exported source datasets and built routes. Source-only and duplicate configuration records are retained for review; this register is not proof of image rights. Source URLs identify research leads, not licenses.",
   "summary": {
-    "sourceConfigurations": 870,
-    "builtReferenceRoutes": 293,
+    "sourceConfigurations": 874,
+    "builtReferenceRoutes": 297,
     "collectionRoutes": 104,
     "approvedReferenceConfigurations": 410,
     "unmatchedReferenceRoutes": 0,
     "approvedCanonicalReferenceRoutes": 205,
-    "queuedCanonicalReferenceRoutes": 88
+    "queuedCanonicalReferenceRoutes": 92
   },
   "collections": [
     {
@@ -53,6 +53,7 @@
         "/collections/audemars-piguet/royal-oak/15412bc-zz-1220bc-01",
         "/collections/audemars-piguet/royal-oak/15412or-zz-1220or-01",
         "/collections/audemars-piguet/royal-oak/15500st",
+        "/collections/audemars-piguet/royal-oak/15500st-oo-1220st-03",
         "/collections/audemars-piguet/royal-oak/15510st",
         "/collections/audemars-piguet/royal-oak/16202st",
         "/collections/audemars-piguet/royal-oak/26341st-oo-1105st-01",
@@ -702,6 +703,8 @@
       "heroAssetId": null,
       "status": "Requires Verification",
       "referenceRoutes": [
+        "/collections/patek-philippe/grand-complications/5236p-010",
+        "/collections/patek-philippe/grand-complications/5270p-017",
         "/collections/patek-philippe/grand-complications/5327g-001"
       ],
       "nextAction": "Select one exact-reference hero from approved reference photography; label the depicted configuration."
@@ -1005,6 +1008,7 @@
         "/collections/ulysse-nardin/diver/1183-170-3-93",
         "/collections/ulysse-nardin/diver/1183-170-7m-92",
         "/collections/ulysse-nardin/diver/1502-151-3-93",
+        "/collections/ulysse-nardin/diver/265-90-3c-93",
         "/collections/ulysse-nardin/diver/266-10-3-92",
         "/collections/ulysse-nardin/diver/diver-chronograph",
         "/collections/ulysse-nardin/diver/diver-x-skeleton",
@@ -5762,6 +5766,38 @@
       "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
     },
     {
+      "brand": "Audemars Piguet",
+      "collection": "Royal Oak",
+      "reference": "15500ST.OO.1220ST.03",
+      "configurations": [
+        {
+          "caseSize": "41 mm",
+          "movement": "4302 automatic",
+          "dial": "Black Grande Tapisserie",
+          "bracelet": "Stainless-steel bracelet with AP folding clasp",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "Stainless Steel",
+      "sources": [
+        "src/data/collectionRegistry.ts",
+        "src/data/verified-catalog-expansion.ts"
+      ],
+      "routes": [
+        "/collections/audemars-piguet/royal-oak/15500st-oo-1220st-03"
+      ],
+      "scope": "built-reference",
+      "existingImage": "/images/watch-reference-placeholder.svg",
+      "existingImageFilePresent": true,
+      "photoAssetId": null,
+      "status": "Requires Verification",
+      "sourceUrl": "https://www.audemarspiguet.com/us/en/watch-collection/royal-oak/15500ST.OO.1220ST.03",
+      "licenseRecord": null,
+      "websiteApproved": false,
+      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+    },
+    {
       "brand": "Richard Mille",
       "collection": "RM 11",
       "reference": "RM11-03",
@@ -10215,6 +10251,38 @@
     },
     {
       "brand": "Ulysse Nardin",
+      "collection": "Diver",
+      "reference": "265-90-3c/93",
+      "configurations": [
+        {
+          "caseSize": "45 mm",
+          "movement": "UN-26 automatic",
+          "dial": "Blue wave dial with rose-gold rimmed subdials",
+          "bracelet": "Blue rubber wave strap with black ceramic inserts",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "Titanium with 18K rose-gold bezel",
+      "sources": [
+        "src/data/collectionRegistry.ts",
+        "src/data/verified-catalog-expansion.ts"
+      ],
+      "routes": [
+        "/collections/ulysse-nardin/diver/265-90-3c-93"
+      ],
+      "scope": "built-reference",
+      "existingImage": "/images/watch-reference-placeholder.svg",
+      "existingImageFilePresent": true,
+      "photoAssetId": null,
+      "status": "Requires Verification",
+      "sourceUrl": "https://www.prestigetime.com/Ulysse-Nardin-Maxi-Marine-Diver-Titanium-45mm-265-90-3c-93.html",
+      "licenseRecord": null,
+      "websiteApproved": false,
+      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+    },
+    {
+      "brand": "Ulysse Nardin",
       "collection": "Executive",
       "reference": "Executive Dual Time",
       "configurations": [
@@ -13139,6 +13207,70 @@
       "photoAssetId": null,
       "status": "Requires Verification",
       "sourceUrl": "https://www.patek.com/en/collection/grand-complications/5327G-001",
+      "licenseRecord": null,
+      "websiteApproved": false,
+      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+    },
+    {
+      "brand": "Patek Philippe",
+      "collection": "Grand Complications",
+      "reference": "5236P-010",
+      "configurations": [
+        {
+          "caseSize": "41.3 mm",
+          "movement": "31-260 PS QL automatic",
+          "dial": "Rose-gilt opaline with anthracite baton hour markers",
+          "bracelet": "Shiny chocolate brown alligator leather strap",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "Platinum",
+      "sources": [
+        "src/data/collectionRegistry.ts",
+        "src/data/verified-catalog-expansion.ts"
+      ],
+      "routes": [
+        "/collections/patek-philippe/grand-complications/5236p-010"
+      ],
+      "scope": "built-reference",
+      "existingImage": "/images/watch-reference-placeholder.svg",
+      "existingImageFilePresent": true,
+      "photoAssetId": null,
+      "status": "Requires Verification",
+      "sourceUrl": "https://www.patek.com/en/collection/grand-complications/5236P-010",
+      "licenseRecord": null,
+      "websiteApproved": false,
+      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+    },
+    {
+      "brand": "Patek Philippe",
+      "collection": "Grand Complications",
+      "reference": "5270P-017",
+      "configurations": [
+        {
+          "caseSize": "41 mm",
+          "movement": "CH 29-535 PS Q manual winding",
+          "dial": "Lacquered red with black-gradient rim",
+          "bracelet": "Black fabric-pattern composite strap with red stitching",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "Platinum",
+      "sources": [
+        "src/data/collectionRegistry.ts",
+        "src/data/verified-catalog-expansion.ts"
+      ],
+      "routes": [
+        "/collections/patek-philippe/grand-complications/5270p-017"
+      ],
+      "scope": "built-reference",
+      "existingImage": "/images/watch-reference-placeholder.svg",
+      "existingImageFilePresent": true,
+      "photoAssetId": null,
+      "status": "Requires Verification",
+      "sourceUrl": "https://www.patek.com/en/collection/grand-complications/5270p-017",
       "licenseRecord": null,
       "websiteApproved": false,
       "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."

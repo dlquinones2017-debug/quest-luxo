@@ -1,24 +1,24 @@
 {
-  "reviewedAt": "2026-10-16T10:03:57.145Z",
+  "reviewedAt": "2026-10-16T10:28:30.166Z",
   "scope": "All verified-catalog-expansion.ts references only; excludes legacy inventory",
   "policy": "Source URL is NOT image-rights evidence. Exact watch, strap, dial, material, white-canvas original, licensing, website approval and actual derivative SHA256 are required.",
   "summary": {
-    "expansionReferences": 124,
+    "expansionReferences": 128,
     "brands": 16,
     "collections": 52,
     "approvedValidReferences": 68,
     "missingApprovedDerivative": 0,
     "checksumFailures": 0,
-    "acquisitionRequired": 56,
-    "notReleaseReady": 56,
-    "imageCoveragePercent": 54.8
+    "acquisitionRequired": 60,
+    "notReleaseReady": 60,
+    "imageCoveragePercent": 53.1
   },
   "byBrand": [
     {
       "brand": "Audemars Piguet",
-      "references": 10,
+      "references": 11,
       "approved": 0,
-      "outstanding": 10
+      "outstanding": 11
     },
     {
       "brand": "Bell & Ross",
@@ -70,9 +70,9 @@
     },
     {
       "brand": "Patek Philippe",
-      "references": 2,
+      "references": 4,
       "approved": 0,
-      "outstanding": 2
+      "outstanding": 4
     },
     {
       "brand": "Richard Mille",
@@ -94,9 +94,9 @@
     },
     {
       "brand": "Ulysse Nardin",
-      "references": 4,
+      "references": 5,
       "approved": 0,
-      "outstanding": 4
+      "outstanding": 5
     },
     {
       "brand": "Vacheron Constantin",
@@ -1940,6 +1940,31 @@
     {
       "brand": "Ulysse Nardin",
       "brandSlug": "ulysse-nardin",
+      "collection": "Diver",
+      "collectionSlug": "diver",
+      "reference": "265-90-3c/93",
+      "model": "Maxi Marine Diver Titanium Rose Gold Blue Wave",
+      "canonicalRoute": "/collections/ulysse-nardin/diver/265-90-3c-93",
+      "configuration": {
+        "caseSize": "45 mm",
+        "movement": "UN-26 automatic",
+        "dial": "Blue wave dial with rose-gold rimmed subdials",
+        "bracelet": "Blue rubber wave strap with black ceramic inserts",
+        "material": "Titanium with 18K rose-gold bezel"
+      },
+      "specificationSource": "https://www.prestigetime.com/Ulysse-Nardin-Maxi-Marine-Diver-Titanium-45mm-265-90-3c-93.html",
+      "score": 62,
+      "status": "ACQUISITION_REQUIRED",
+      "photoAssetId": null,
+      "derivativePath": null,
+      "recordedSha256": null,
+      "actualSha256": null,
+      "rightsRecord": null,
+      "nextAction": "Source authentic exact-reference original; obtain commercial-use license and provenance, prepare approved full-watch white-canvas derivative and register the matching SHA-256."
+    },
+    {
+      "brand": "Ulysse Nardin",
+      "brandSlug": "ulysse-nardin",
       "collection": "Marine",
       "collectionSlug": "marine",
       "reference": "266-67",
@@ -3042,6 +3067,31 @@
       "brandSlug": "audemars-piguet",
       "collection": "Royal Oak",
       "collectionSlug": "royal-oak",
+      "reference": "15500ST.OO.1220ST.03",
+      "model": "Royal Oak Selfwinding Black Dial",
+      "canonicalRoute": "/collections/audemars-piguet/royal-oak/15500st-oo-1220st-03",
+      "configuration": {
+        "caseSize": "41 mm",
+        "movement": "4302 automatic",
+        "dial": "Black Grande Tapisserie",
+        "bracelet": "Stainless-steel bracelet with AP folding clasp",
+        "material": "Stainless Steel"
+      },
+      "specificationSource": "https://www.audemarspiguet.com/us/en/watch-collection/royal-oak/15500ST.OO.1220ST.03",
+      "score": 50,
+      "status": "ACQUISITION_REQUIRED",
+      "photoAssetId": null,
+      "derivativePath": null,
+      "recordedSha256": null,
+      "actualSha256": null,
+      "rightsRecord": null,
+      "nextAction": "Source authentic exact-reference original; obtain commercial-use license and provenance, prepare approved full-watch white-canvas derivative and register the matching SHA-256."
+    },
+    {
+      "brand": "Audemars Piguet",
+      "brandSlug": "audemars-piguet",
+      "collection": "Royal Oak",
+      "collectionSlug": "royal-oak",
       "reference": "26341ST.OO.1105ST.01",
       "model": "Royal Oak Grande Complication",
       "canonicalRoute": "/collections/audemars-piguet/royal-oak/26341st-oo-1105st-01",
@@ -3153,6 +3203,56 @@
         "material": "Stainless Steel"
       },
       "specificationSource": "https://static.patek.com/pdf/catalogs/PatekPhilippe_Watch_Art_Tokyo_2023_Catalog_EN.pdf",
+      "score": 50,
+      "status": "ACQUISITION_REQUIRED",
+      "photoAssetId": null,
+      "derivativePath": null,
+      "recordedSha256": null,
+      "actualSha256": null,
+      "rightsRecord": null,
+      "nextAction": "Source authentic exact-reference original; obtain commercial-use license and provenance, prepare approved full-watch white-canvas derivative and register the matching SHA-256."
+    },
+    {
+      "brand": "Patek Philippe",
+      "brandSlug": "patek-philippe",
+      "collection": "Grand Complications",
+      "collectionSlug": "grand-complications",
+      "reference": "5236P-010",
+      "model": "In-Line Perpetual Calendar Rose-Gilt Opaline",
+      "canonicalRoute": "/collections/patek-philippe/grand-complications/5236p-010",
+      "configuration": {
+        "caseSize": "41.3 mm",
+        "movement": "31-260 PS QL automatic",
+        "dial": "Rose-gilt opaline with anthracite baton hour markers",
+        "bracelet": "Shiny chocolate brown alligator leather strap",
+        "material": "Platinum"
+      },
+      "specificationSource": "https://www.patek.com/en/collection/grand-complications/5236P-010",
+      "score": 50,
+      "status": "ACQUISITION_REQUIRED",
+      "photoAssetId": null,
+      "derivativePath": null,
+      "recordedSha256": null,
+      "actualSha256": null,
+      "rightsRecord": null,
+      "nextAction": "Source authentic exact-reference original; obtain commercial-use license and provenance, prepare approved full-watch white-canvas derivative and register the matching SHA-256."
+    },
+    {
+      "brand": "Patek Philippe",
+      "brandSlug": "patek-philippe",
+      "collection": "Grand Complications",
+      "collectionSlug": "grand-complications",
+      "reference": "5270P-017",
+      "model": "Perpetual Calendar Chronograph Red Dial",
+      "canonicalRoute": "/collections/patek-philippe/grand-complications/5270p-017",
+      "configuration": {
+        "caseSize": "41 mm",
+        "movement": "CH 29-535 PS Q manual winding",
+        "dial": "Lacquered red with black-gradient rim",
+        "bracelet": "Black fabric-pattern composite strap with red stitching",
+        "material": "Platinum"
+      },
+      "specificationSource": "https://www.patek.com/en/collection/grand-complications/5270p-017",
       "score": 50,
       "status": "ACQUISITION_REQUIRED",
       "photoAssetId": null,

@@ -1,13 +1,13 @@
 {
-  "auditedAt": "2026-10-16T10:04:14.686Z",
+  "auditedAt": "2026-10-16T10:28:47.168Z",
   "summary": {
     "brands": 23,
     "collections": 104,
-    "registryRecords": 294,
-    "distinctRoutes": 293,
-    "normalizedBrandReferenceIdentities": 290,
+    "registryRecords": 298,
+    "distinctRoutes": 297,
+    "normalizedBrandReferenceIdentities": 294,
     "approved": 205,
-    "missing": 88,
+    "missing": 92,
     "collectionsWithPhotography": 80,
     "unusedApprovedRecords": 2,
     "duplicateNormalizedReferenceGroups": 4,
@@ -25,10 +25,10 @@
     },
     {
       "brand": "Audemars Piguet",
-      "registryRecords": 24,
-      "referencePages": 24,
+      "registryRecords": 25,
+      "referencePages": 25,
       "approved": 6,
-      "missing": 18,
+      "missing": 19,
       "collections": 5
     },
     {
@@ -137,10 +137,10 @@
     },
     {
       "brand": "Patek Philippe",
-      "registryRecords": 14,
-      "referencePages": 14,
+      "registryRecords": 16,
+      "referencePages": 16,
       "approved": 11,
-      "missing": 3,
+      "missing": 5,
       "collections": 5
     },
     {
@@ -177,10 +177,10 @@
     },
     {
       "brand": "Ulysse Nardin",
-      "registryRecords": 26,
-      "referencePages": 26,
+      "registryRecords": 27,
+      "referencePages": 27,
       "approved": 20,
-      "missing": 6,
+      "missing": 7,
       "collections": 6
     },
     {
@@ -2503,6 +2503,28 @@
           "movement": "5134 automatic",
           "dial": "Red Grande Tapisserie",
           "bracelet": "18K white-gold bracelet",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "approved": false,
+      "photo": null,
+      "recoveryCandidates": []
+    },
+    {
+      "brand": "Audemars Piguet",
+      "brandSlug": "audemars-piguet",
+      "collection": "Royal Oak",
+      "collectionSlug": "royal-oak",
+      "reference": "15500ST.OO.1220ST.03",
+      "path": "/collections/audemars-piguet/royal-oak/15500st-oo-1220st-03",
+      "material": "Stainless Steel",
+      "configurations": [
+        {
+          "caseSize": "41 mm",
+          "movement": "4302 automatic",
+          "dial": "Black Grande Tapisserie",
+          "bracelet": "Stainless-steel bracelet with AP folding clasp",
           "originalMSRP": null,
           "currentMSRP": null
         }
@@ -6122,6 +6144,28 @@
     {
       "brand": "Ulysse Nardin",
       "brandSlug": "ulysse-nardin",
+      "collection": "Diver",
+      "collectionSlug": "diver",
+      "reference": "265-90-3c/93",
+      "path": "/collections/ulysse-nardin/diver/265-90-3c-93",
+      "material": "Titanium with 18K rose-gold bezel",
+      "configurations": [
+        {
+          "caseSize": "45 mm",
+          "movement": "UN-26 automatic",
+          "dial": "Blue wave dial with rose-gold rimmed subdials",
+          "bracelet": "Blue rubber wave strap with black ceramic inserts",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "approved": false,
+      "photo": null,
+      "recoveryCandidates": []
+    },
+    {
+      "brand": "Ulysse Nardin",
+      "brandSlug": "ulysse-nardin",
       "collection": "Executive",
       "collectionSlug": "executive",
       "reference": "Executive Dual Time",
@@ -8444,6 +8488,50 @@
           "movement": "240 Q automatic",
           "dial": "Sunburst blue with Breguet numerals",
           "bracelet": "Shiny navy blue alligator leather strap",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "approved": false,
+      "photo": null,
+      "recoveryCandidates": []
+    },
+    {
+      "brand": "Patek Philippe",
+      "brandSlug": "patek-philippe",
+      "collection": "Grand Complications",
+      "collectionSlug": "grand-complications",
+      "reference": "5236P-010",
+      "path": "/collections/patek-philippe/grand-complications/5236p-010",
+      "material": "Platinum",
+      "configurations": [
+        {
+          "caseSize": "41.3 mm",
+          "movement": "31-260 PS QL automatic",
+          "dial": "Rose-gilt opaline with anthracite baton hour markers",
+          "bracelet": "Shiny chocolate brown alligator leather strap",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "approved": false,
+      "photo": null,
+      "recoveryCandidates": []
+    },
+    {
+      "brand": "Patek Philippe",
+      "brandSlug": "patek-philippe",
+      "collection": "Grand Complications",
+      "collectionSlug": "grand-complications",
+      "reference": "5270P-017",
+      "path": "/collections/patek-philippe/grand-complications/5270p-017",
+      "material": "Platinum",
+      "configurations": [
+        {
+          "caseSize": "41 mm",
+          "movement": "CH 29-535 PS Q manual winding",
+          "dial": "Lacquered red with black-gradient rim",
+          "bracelet": "Black fabric-pattern composite strap with red stitching",
           "originalMSRP": null,
           "currentMSRP": null
         }

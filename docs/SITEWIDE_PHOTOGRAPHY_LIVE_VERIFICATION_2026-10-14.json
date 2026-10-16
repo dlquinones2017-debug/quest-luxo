@@ -1,10 +1,10 @@
 {
-  "verifiedAt": "2026-10-16T02:30:19.534466+00:00",
-  "expectedDistinctReferenceRoutes": 268,
-  "verifiedReferenceRoutes": 268,
+  "verifiedAt": "2026-10-16T10:10:16.518313+00:00",
+  "expectedDistinctReferenceRoutes": 293,
+  "verifiedReferenceRoutes": 293,
   "approvedDistinctReferenceRoutes": 205,
   "verifiedDistinctPhotoFiles": 204,
-  "queuedDistinctReferenceRoutes": 63,
+  "queuedDistinctReferenceRoutes": 88,
   "errors": [],
   "pages": [
     {
@@ -348,6 +348,51 @@
       "status": "verified"
     },
     {
+      "route": "/collections/audemars-piguet/royal-oak/26585ce-oo-1225ce-01",
+      "approved": false,
+      "status": "verified"
+    },
+    {
+      "route": "/collections/audemars-piguet/royal-oak/26585xt-oo-1220xt-01",
+      "approved": false,
+      "status": "verified"
+    },
+    {
+      "route": "/collections/audemars-piguet/royal-oak/26585cm-oo-d301ve-01",
+      "approved": false,
+      "status": "verified"
+    },
+    {
+      "route": "/collections/audemars-piguet/royal-oak/15412ba-zg-1224ba-01",
+      "approved": false,
+      "status": "verified"
+    },
+    {
+      "route": "/collections/audemars-piguet/royal-oak/15412bc-zz-1220bc-01",
+      "approved": false,
+      "status": "verified"
+    },
+    {
+      "route": "/collections/audemars-piguet/royal-oak/15412or-zz-1220or-01",
+      "approved": false,
+      "status": "verified"
+    },
+    {
+      "route": "/collections/audemars-piguet/royal-oak/26341st-oo-1105st-01",
+      "approved": false,
+      "status": "verified"
+    },
+    {
+      "route": "/collections/audemars-piguet/royal-oak/26615ti-oo-1220ti-01",
+      "approved": false,
+      "status": "verified"
+    },
+    {
+      "route": "/collections/audemars-piguet/royal-oak/26607bc-oo-1220bc-01",
+      "approved": false,
+      "status": "verified"
+    },
+    {
       "route": "/collections/richard-mille/rm-11/rm11-03",
       "approved": false,
       "status": "verified"
@@ -359,6 +404,11 @@
     },
     {
       "route": "/collections/vacheron-constantin/overseas/6000v-110a-b544",
+      "approved": false,
+      "status": "verified"
+    },
+    {
+      "route": "/collections/vacheron-constantin/overseas/4300v-220g-h151",
       "approved": false,
       "status": "verified"
     },
@@ -438,6 +488,11 @@
       "status": "verified"
     },
     {
+      "route": "/collections/omega/speedmaster/310-63-42-50-01-001",
+      "approved": false,
+      "status": "verified"
+    },
+    {
       "route": "/collections/tudor/black-bay/79030n",
       "approved": true,
       "status": "verified"
@@ -450,6 +505,11 @@
     {
       "route": "/collections/tudor/black-bay/m79000n-0001",
       "approved": true,
+      "status": "verified"
+    },
+    {
+      "route": "/collections/tudor/black-bay/m7941a1a0ru-0003",
+      "approved": false,
       "status": "verified"
     },
     {
@@ -688,6 +748,11 @@
       "status": "verified"
     },
     {
+      "route": "/collections/omega/seamaster/210-62-44-20-01-001",
+      "approved": false,
+      "status": "verified"
+    },
+    {
       "route": "/collections/omega/planet-ocean/2201-50",
       "approved": false,
       "status": "verified"
@@ -700,6 +765,11 @@
     {
       "route": "/collections/omega/planet-ocean/215-30-44-21-04-001",
       "approved": true,
+      "status": "verified"
+    },
+    {
+      "route": "/collections/omega/planet-ocean/232-63-42-21-01-001",
+      "approved": false,
       "status": "verified"
     },
     {
@@ -800,6 +870,11 @@
     {
       "route": "/collections/audemars-piguet/code-1159/code-11-59-chronograph",
       "approved": true,
+      "status": "verified"
+    },
+    {
+      "route": "/collections/audemars-piguet/code-1159/26393bc-oo-a321cr-01",
+      "approved": false,
       "status": "verified"
     },
     {
@@ -918,6 +993,16 @@
       "status": "verified"
     },
     {
+      "route": "/collections/ulysse-nardin/marine/266-67",
+      "approved": false,
+      "status": "verified"
+    },
+    {
+      "route": "/collections/ulysse-nardin/marine/1506-150le-3-63-vb",
+      "approved": false,
+      "status": "verified"
+    },
+    {
       "route": "/collections/ulysse-nardin/diver/diver-chronograph",
       "approved": true,
       "status": "verified"
@@ -945,6 +1030,16 @@
     {
       "route": "/collections/ulysse-nardin/diver/1183-170-3-92",
       "approved": true,
+      "status": "verified"
+    },
+    {
+      "route": "/collections/ulysse-nardin/diver/1502-151-3-93",
+      "approved": false,
+      "status": "verified"
+    },
+    {
+      "route": "/collections/ulysse-nardin/diver/266-10-3-92",
+      "approved": false,
       "status": "verified"
     },
     {
@@ -993,6 +1088,11 @@
       "status": "verified"
     },
     {
+      "route": "/collections/patek-philippe/aquanaut/5167-1a-001",
+      "approved": false,
+      "status": "verified"
+    },
+    {
       "route": "/collections/tudor/pelagos/m25600tn-0001",
       "approved": true,
       "status": "verified"
@@ -1038,6 +1138,16 @@
       "status": "verified"
     },
     {
+      "route": "/collections/hublot/big-bang-unico/411-om-1180-rx",
+      "approved": false,
+      "status": "verified"
+    },
+    {
+      "route": "/collections/hublot/big-bang-unico/411-ox-1180-rx",
+      "approved": false,
+      "status": "verified"
+    },
+    {
       "route": "/collections/hublot/spirit-of-big-bang/642-nx-0170-rx",
       "approved": true,
       "status": "verified"
@@ -1050,6 +1160,11 @@
     {
       "route": "/collections/vacheron-constantin/traditionnelle/82172-000r-9382",
       "approved": true,
+      "status": "verified"
+    },
+    {
+      "route": "/collections/vacheron-constantin/traditionnelle/6000t-000p-h025",
+      "approved": false,
       "status": "verified"
     },
     {
@@ -1345,6 +1460,16 @@
     {
       "route": "/collections/omega/railmaster/235-10-38-20-13-001",
       "approved": true,
+      "status": "verified"
+    },
+    {
+      "route": "/collections/patek-philippe/grand-complications/5327g-001",
+      "approved": false,
+      "status": "verified"
+    },
+    {
+      "route": "/collections/vacheron-constantin/patrimony/4000u-000p-h003",
+      "approved": false,
       "status": "verified"
     }
   ],

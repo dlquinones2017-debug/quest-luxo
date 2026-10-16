@@ -1,0 +1,496 @@
+{
+  "reviewedAt": "2026-10-16T10:27:06.161859+00:00",
+  "newReferenceProfiles": 4,
+  "newPhotographsPublished": 0,
+  "uploadedProfileTotal": 29,
+  "unresolvedPrimaryIdentities": 6,
+  "rows": [
+    [
+      "Patek Philippe",
+      "patek-philippe",
+      "Grand Complications",
+      "grand-complications",
+      "5236P-010",
+      "In-Line Perpetual Calendar Rose-Gilt Opaline",
+      "41.3 mm",
+      "31-260 PS QL automatic",
+      "Rose-gilt opaline with anthracite baton hour markers",
+      "Shiny chocolate brown alligator leather strap",
+      "Platinum",
+      "https://www.patek.com/en/collection/grand-complications/5236P-010"
+    ],
+    [
+      "Patek Philippe",
+      "patek-philippe",
+      "Grand Complications",
+      "grand-complications",
+      "5270P-017",
+      "Perpetual Calendar Chronograph Red Dial",
+      "41 mm",
+      "CH 29-535 PS Q manual winding",
+      "Lacquered red with black-gradient rim",
+      "Black fabric-pattern composite strap with red stitching",
+      "Platinum",
+      "https://www.patek.com/en/collection/grand-complications/5270p-017"
+    ],
+    [
+      "Audemars Piguet",
+      "audemars-piguet",
+      "Royal Oak",
+      "royal-oak",
+      "15500ST.OO.1220ST.03",
+      "Royal Oak Selfwinding Black Dial",
+      "41 mm",
+      "4302 automatic",
+      "Black Grande Tapisserie",
+      "Stainless-steel bracelet with AP folding clasp",
+      "Stainless Steel",
+      "https://www.audemarspiguet.com/us/en/watch-collection/royal-oak/15500ST.OO.1220ST.03"
+    ],
+    [
+      "Ulysse Nardin",
+      "ulysse-nardin",
+      "Diver",
+      "diver",
+      "265-90-3c/93",
+      "Maxi Marine Diver Titanium Rose Gold Blue Wave",
+      "45 mm",
+      "UN-26 automatic",
+      "Blue wave dial with rose-gold rimmed subdials",
+      "Blue rubber wave strap with black ceramic inserts",
+      "Titanium with 18K rose-gold bezel",
+      "https://www.prestigetime.com/Ulysse-Nardin-Maxi-Marine-Diver-Titanium-45mm-265-90-3c-93.html"
+    ]
+  ],
+  "identityReviews": [
+    "Exact in-line day/date/month window, baton markers, rose-gilt dial and platinum case match manufacturer 5236P-010. Earlier 5396 family hypothesis rejected: that model has separate day/month and date layouts.",
+    "Manufacturer confirms 5270P-017 red lacquered black-gradient dial, platinum case and black composite strap with red stitching. Exact complications, hands and case match uploaded graphic.",
+    "Manufacturer confirms 15500 generation with wide indexes, external printed minute track and outward date window. Those visible features distinguish this upload from the older15400 candidate; black steel full SKU03 established.",
+    "Exact blue wave dial, titanium case, rose-gold bezel and black ceramic strap inserts match Prestige Time265-90-3c/93 original. Ceramic inserts distinguish the3c configuration from gold-insert3/93; display stand obscures rear strap in upload."
+  ],
+  "preparedSourceOriginals": [
+    {
+      "id": "patek-5236p-010",
+      "sourceUrl": "https://www.patek.com/en/collection/grand-complications/5236P-010",
+      "checkedAt": "2026-10-16T10:24:28.451337+00:00",
+      "websiteApproved": false,
+      "rightsStatus": "No new commercial-use evidence; acquisition and identity research only",
+      "sourceFileName": "patek-5236p-010-source.html",
+      "sourceSha256": "d5a8b27a4ea1f449cae8765a1e8f023dd6f6a73b660ddf10e8cf025acf25dc0b",
+      "observedImages": [
+        "https://patek-res.cloudinary.com/dfsmedia/0906caea301d42b3b8bd23bd656d1711/175312-51882/pp-5236p-010-press-hor",
+        "https://patek-res.cloudinary.com/dfsmedia/0906caea301d42b3b8bd23bd656d1711/203554-51882",
+        "https://patek-res.cloudinary.com/dfsmedia/0906caea301d42b3b8bd23bd656d1711/203563-51882",
+        "https://patek-res.cloudinary.com/dfsmedia/0906caea301d42b3b8bd23bd656d1711/203562-51882",
+        "https://patek-res.cloudinary.com/dfsmedia/0906caea301d42b3b8bd23bd656d1711/203555-51882",
+        "https://patek-res.cloudinary.com/dfsmedia/0906caea301d42b3b8bd23bd656d1711/203559-51882",
+        "https://patek-res.cloudinary.com/dfsmedia/0906caea301d42b3b8bd23bd656d1711/203363-51882",
+        "https://patek-res.cloudinary.com/dfsmedia/0906caea301d42b3b8bd23bd656d1711/202387-51887",
+        "https://patek-res.cloudinary.com/dfsmedia/0906caea301d42b3b8bd23bd656d1711/202373-51903",
+        "https://patek-res.cloudinary.com/dfsmedia/0906caea301d42b3b8bd23bd656d1711/202375-51903",
+        "https://patek-res.cloudinary.com/dfsmedia/0906caea301d42b3b8bd23bd656d1711/202374-51903",
+        "https://patek-res.cloudinary.com/dfsmedia/0906caea301d42b3b8bd23bd656d1711/202608-51898",
+        "https://patek-res.cloudinary.com/dfsmedia/0906caea301d42b3b8bd23bd656d1711/202610-51898",
+        "https://patek-res.cloudinary.com/dfsmedia/0906caea301d42b3b8bd23bd656d1711/202387-51908",
+        "https://patek-res.cloudinary.com/dfsmedia/0906caea301d42b3b8bd23bd656d1711/202373-51908",
+        "https://patek-res.cloudinary.com/dfsmedia/0906caea301d42b3b8bd23bd656d1711/202375-51908",
+        "https://patek-res.cloudinary.com/dfsmedia/0906caea301d42b3b8bd23bd656d1711/202374-51908",
+        "https://patek-res.cloudinary.com/dfsmedia/0906caea301d42b3b8bd23bd656d1711/179811-source/options/download/p2557-calibre-31-260-ps-ql-v2-web.pdf",
+        "https://patek-res.cloudinary.com/dfsmedia/0906caea301d42b3b8bd23bd656d1711/220098-51882",
+        "https://patek-res.cloudinary.com/dfsmedia/0906caea301d42b3b8bd23bd656d1711/175312-51882",
+        "https://patek-res.cloudinary.com/dfsmedia/0906caea301d42b3b8bd23bd656d1711/203558-51882"
+      ],
+      "imageUrl": "https://patek-res.cloudinary.com/dfsmedia/0906caea301d42b3b8bd23bd656d1711/202387-51887",
+      "rawFileName": "patek-5236p-010-raw.img",
+      "rawSha256": "7be029be86f81aeae82bbd3e0ef8b899ef49611ef56ce0a9c0d611889e12a9f8",
+      "size": [
+        1920,
+        2691
+      ],
+      "mode": "P",
+      "nativeAlphaBoundingBox": [
+        313,
+        383,
+        1694,
+        2647
+      ],
+      "sourceFormat": "PNG",
+      "whiteMaster": "patek-5236p-010-white-master.png",
+      "webDerivative": "patek-5236p-010-web.webp",
+      "whiteMasterSHA256": "5151828fec5768d0b90448777e0dd0095722f0e0054f31fccf943c1b9b83c44f",
+      "webSHA256": "9149feca7be1f0caa43901f6e3fa1168973f969eb1a48baee7db2792f2969c75",
+      "processing": "Manufacturer native alpha retained around the largest opaque watch silhouette; a3pixel exterior envelope preserves anti-aliased watch edges while excluding disconnected translucent ground shadow. Native watch RGB unchanged before proportional scaling and centered2400white/1200WEB. No generative or reconstructed detail.",
+      "visualReview": "Native original and final1200white image individually reviewed: entire watch visible, exact reference/dial/material/strap, centered white canvas, no shadow residue or overlays. Original watch RGB retained. Publication held solely for commercial image-use evidence.",
+      "cleanAlphaBoundingBox": [
+        313,
+        383,
+        1694,
+        2551
+      ],
+      "driveFiles": [
+        {
+          "localFileName": "patek-5236p-010-raw.img",
+          "id": "1CukXDn5-rxPmAXNio74heBj6uRvUmoe7",
+          "mimeType": "image/png",
+          "title": "quest-luxo-5236p-010-manufacturer-raw.png",
+          "url": "https://drive.google.com/file/d/1CukXDn5-rxPmAXNio74heBj6uRvUmoe7/view?usp=drivesdk",
+          "parentId": "1EwU4nbht13ay5Obti9bjywK4rWLCxK_T"
+        },
+        {
+          "localFileName": "patek-5236p-010-white-master.png",
+          "id": "1pLDvnn9FOZzc5pW9EMcTeeWVu_K2FNVm",
+          "mimeType": "image/png",
+          "title": "quest-luxo-5236p-010-white-master-REVIEW.png",
+          "url": "https://drive.google.com/file/d/1pLDvnn9FOZzc5pW9EMcTeeWVu_K2FNVm/view?usp=drivesdk",
+          "parentId": "1vl6DzQFhMCHLjh0DcbZ5aM_s_TrZTW49"
+        },
+        {
+          "localFileName": "patek-5236p-010-web.webp",
+          "id": "1Fqp290vxX9p1Bt5IFJN72WBtdtFAAOB8",
+          "mimeType": "image/webp",
+          "title": "quest-luxo-5236p-010-web-REVIEW.webp",
+          "url": "https://drive.google.com/file/d/1Fqp290vxX9p1Bt5IFJN72WBtdtFAAOB8/view?usp=drivesdk",
+          "parentId": "1lijATpBrmBmGnjmhTJmr0gpTa5YaOd8Z"
+        }
+      ]
+    },
+    {
+      "id": "patek-5270p-017",
+      "sourceUrl": "https://www.patek.com/en/collection/grand-complications/5270p-017",
+      "checkedAt": "2026-10-16T10:24:29.967526+00:00",
+      "websiteApproved": false,
+      "rightsStatus": "No new commercial-use evidence; acquisition and identity research only",
+      "sourceFileName": "patek-5270p-017-source.html",
+      "sourceSha256": "eaac9da07af8c9f039780795ed6edf416e9894b7a482fc0e013341492ba5f0dd",
+      "observedImages": [
+        "https://patek-res.cloudinary.com/dfsmedia/0906caea301d42b3b8bd23bd656d1711/447073-51882/pp-5270p-017-det-overview-02",
+        "https://patek-res.cloudinary.com/video/upload/f_auto:video/dfsmedia/0906caea301d42b3b8bd23bd656d1711/447611-source/pp-5270p-017-banner-16-9-product-film",
+        "https://patek-res.cloudinary.com/dfsmedia/0906caea301d42b3b8bd23bd656d1711/447096-51882",
+        "https://patek-res.cloudinary.com/dfsmedia/0906caea301d42b3b8bd23bd656d1711/447059-51882",
+        "https://patek-res.cloudinary.com/dfsmedia/0906caea301d42b3b8bd23bd656d1711/447070-51882",
+        "https://patek-res.cloudinary.com/dfsmedia/0906caea301d42b3b8bd23bd656d1711/447068-51882",
+        "https://patek-res.cloudinary.com/dfsmedia/0906caea301d42b3b8bd23bd656d1711/447066-51882",
+        "https://patek-res.cloudinary.com/dfsmedia/0906caea301d42b3b8bd23bd656d1711/447064-51882",
+        "https://patek-res.cloudinary.com/dfsmedia/0906caea301d42b3b8bd23bd656d1711/430990-51887",
+        "https://patek-res.cloudinary.com/dfsmedia/0906caea301d42b3b8bd23bd656d1711/446867-51903",
+        "https://patek-res.cloudinary.com/dfsmedia/0906caea301d42b3b8bd23bd656d1711/446833-51903",
+        "https://patek-res.cloudinary.com/dfsmedia/0906caea301d42b3b8bd23bd656d1711/446834-51903",
+        "https://patek-res.cloudinary.com/dfsmedia/0906caea301d42b3b8bd23bd656d1711/202579-51898",
+        "https://patek-res.cloudinary.com/dfsmedia/0906caea301d42b3b8bd23bd656d1711/202578-51898",
+        "https://patek-res.cloudinary.com/dfsmedia/0906caea301d42b3b8bd23bd656d1711/430990-51908",
+        "https://patek-res.cloudinary.com/dfsmedia/0906caea301d42b3b8bd23bd656d1711/446867-51908",
+        "https://patek-res.cloudinary.com/dfsmedia/0906caea301d42b3b8bd23bd656d1711/446833-51908",
+        "https://patek-res.cloudinary.com/dfsmedia/0906caea301d42b3b8bd23bd656d1711/446834-51908",
+        "https://patek-res.cloudinary.com/dfsmedia/0906caea301d42b3b8bd23bd656d1711/179808-source/options/download/p2554-calibre-ch-29-535-ps-q-v2-web.pdf",
+        "https://patek-res.cloudinary.com/dfsmedia/0906caea301d42b3b8bd23bd656d1711/448716-51882",
+        "https://patek-res.cloudinary.com/dfsmedia/0906caea301d42b3b8bd23bd656d1711/446903-51882",
+        "https://patek-res.cloudinary.com/dfsmedia/0906caea301d42b3b8bd23bd656d1711/447073-51882",
+        "https://patek-res.cloudinary.com/dfsmedia/0906caea301d42b3b8bd23bd656d1711/430989-51887",
+        "https://patek-res.cloudinary.com/dfsmedia/0906caea301d42b3b8bd23bd656d1711/430988-51887",
+        "https://patek-res.cloudinary.com/dfsmedia/0906caea301d42b3b8bd23bd656d1711/202327-51887",
+        "https://patek-res.cloudinary.com/dfsmedia/0906caea301d42b3b8bd23bd656d1711/202335-51887",
+        "https://patek-res.cloudinary.com/dfsmedia/0906caea301d42b3b8bd23bd656d1711/202452-51887",
+        "https://patek-res.cloudinary.com/dfsmedia/0906caea301d42b3b8bd23bd656d1711/202455-51887",
+        "https://patek-res.cloudinary.com/dfsmedia/0906caea301d42b3b8bd23bd656d1711/202270-51887"
+      ],
+      "imageUrl": "https://patek-res.cloudinary.com/dfsmedia/0906caea301d42b3b8bd23bd656d1711/430990-51887",
+      "rawFileName": "patek-5270p-017-raw.img",
+      "rawSha256": "80fbca09628e27615befe487b5ceddcbe3e719c8d1a9c635f0411ead8f14038e",
+      "size": [
+        1920,
+        2691
+      ],
+      "mode": "P",
+      "nativeAlphaBoundingBox": [
+        315,
+        333,
+        1679,
+        2647
+      ],
+      "sourceFormat": "PNG",
+      "whiteMaster": "patek-5270p-017-white-master.png",
+      "webDerivative": "patek-5270p-017-web.webp",
+      "whiteMasterSHA256": "27aebaf9fcee88e44e0b994f7b833e5ae47e8dc20a10c8dae502ececc96e33b5",
+      "webSHA256": "da31c67c769cfe1aca48d36b60ef072f2ecb110425499ea62833adb2054aeb6a",
+      "processing": "Manufacturer native alpha retained around the largest opaque watch silhouette; a3pixel exterior envelope preserves anti-aliased watch edges while excluding disconnected translucent ground shadow. Native watch RGB unchanged before proportional scaling and centered2400white/1200WEB. No generative or reconstructed detail.",
+      "visualReview": "Native original and final1200white image individually reviewed: entire watch visible, exact reference/dial/material/strap, centered white canvas, no shadow residue or overlays. Original watch RGB retained. Publication held solely for commercial image-use evidence.",
+      "cleanAlphaBoundingBox": [
+        315,
+        333,
+        1679,
+        2549
+      ],
+      "driveFiles": [
+        {
+          "localFileName": "patek-5270p-017-raw.img",
+          "id": "16OyzEvZexgUD8uckQw4LdDrS2tYnWu-W",
+          "mimeType": "image/png",
+          "title": "quest-luxo-5270p-017-manufacturer-raw.png",
+          "url": "https://drive.google.com/file/d/16OyzEvZexgUD8uckQw4LdDrS2tYnWu-W/view?usp=drivesdk",
+          "parentId": "1EwU4nbht13ay5Obti9bjywK4rWLCxK_T"
+        },
+        {
+          "localFileName": "patek-5270p-017-white-master.png",
+          "id": "19YK6UrGdE5LIIWXzeh_EHyVB53ZNsDut",
+          "mimeType": "image/png",
+          "title": "quest-luxo-5270p-017-white-master-REVIEW.png",
+          "url": "https://drive.google.com/file/d/19YK6UrGdE5LIIWXzeh_EHyVB53ZNsDut/view?usp=drivesdk",
+          "parentId": "1vl6DzQFhMCHLjh0DcbZ5aM_s_TrZTW49"
+        },
+        {
+          "localFileName": "patek-5270p-017-web.webp",
+          "id": "1aL9SH2Yld4iM_kbLg56H9GMNQccaN_-Z",
+          "mimeType": "image/webp",
+          "title": "quest-luxo-5270p-017-web-REVIEW.webp",
+          "url": "https://drive.google.com/file/d/1aL9SH2Yld4iM_kbLg56H9GMNQccaN_-Z/view?usp=drivesdk",
+          "parentId": "1lijATpBrmBmGnjmhTJmr0gpTa5YaOd8Z"
+        }
+      ]
+    },
+    {
+      "id": "ap-15500st-03",
+      "sourceUrl": "https://www.audemarspiguet.com/us/en/watch-collection/royal-oak/15500ST.OO.1220ST.03",
+      "checkedAt": "2026-10-16T10:24:30.951269+00:00",
+      "websiteApproved": false,
+      "rightsStatus": "No new commercial-use evidence; acquisition and identity research only",
+      "sourceFileName": "ap-15500st-03-source.html",
+      "sourceSha256": "5fda3f17520204037bc62d930503f791e478b4697ddfcb20afcb01dc48913427",
+      "observedImages": [
+        "/etc.clientlibs/ap-com/ui/clientlibs/publish/resources/static/favicon-192x192.png",
+        "/etc.clientlibs/ap-com/ui/clientlibs/publish/resources/static/favicon-96x96.png",
+        "/etc.clientlibs/ap-com/ui/clientlibs/publish/resources/static/favicon-32x32.png",
+        "/etc.clientlibs/ap-com/ui/clientlibs/publish/resources/static/favicon-16x16.png",
+        "/etc.clientlibs/ap-com/ui/clientlibs/publish/resources/static/apple-touch-icon-180x180.png",
+        "/etc.clientlibs/ap-com/ui/clientlibs/publish/resources/static/apple-touch-icon-167x167.png",
+        "/etc.clientlibs/ap-com/ui/clientlibs/publish/resources/static/apple-touch-icon-152x152.png",
+        "/etc.clientlibs/ap-com/ui/clientlibs/publish/resources/static/apple-touch-icon-120x120.png",
+        "/etc.clientlibs/ap-com/ui/clientlibs/publish/resources/static/icon-310x310.png",
+        "/etc.clientlibs/ap-com/ui/clientlibs/publish/resources/static/icon-310x150.png",
+        "/etc.clientlibs/ap-com/ui/clientlibs/publish/resources/static/icon-150x150.png",
+        "/etc.clientlibs/ap-com/ui/clientlibs/publish/resources/static/icon-70x70.png"
+      ],
+      "observedReferenceImages": [
+        "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/watch-658?size=568,0&dpr=off&fmt=avif-alpha&dpr=off"
+      ],
+      "rawFileName": "ap-15500st-03-raw.img",
+      "imageUrl": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/watch-658?size=568,0&dpr=off&fmt=avif-alpha&dpr=off",
+      "rawSha256": "64535d78f1c6f27622802a0764241e261b138c3dba5a6b0fc1079dd4ed8c90ff",
+      "size": [
+        568,
+        758
+      ],
+      "mode": "RGBA",
+      "visualReview": "Native manufacturer original matches uploaded15500black steel dial, external minute track and date position. Native top and bottom bracelet are cropped at source; do not use as a whole-watch catalog photograph.",
+      "driveFiles": [
+        {
+          "localFileName": "ap-15500st-03-raw.img",
+          "id": "13JQ8NFPcAbaa_cO8snfk3eRC4Y0dSNJv",
+          "mimeType": "image/avif",
+          "title": "quest-luxo-15500st-03-manufacturer-raw.avif",
+          "url": "https://drive.google.com/file/d/13JQ8NFPcAbaa_cO8snfk3eRC4Y0dSNJv/view?usp=drivesdk",
+          "parentId": "1EwU4nbht13ay5Obti9bjywK4rWLCxK_T"
+        }
+      ]
+    },
+    {
+      "id": "un-265-90-3c-93",
+      "sourceUrl": "https://www.prestigetime.com/Ulysse-Nardin-Maxi-Marine-Diver-Titanium-45mm-265-90-3c-93.html",
+      "checkedAt": "2026-10-16T10:24:31.459012+00:00",
+      "websiteApproved": false,
+      "rightsStatus": "No new commercial-use evidence; acquisition and identity research only",
+      "sourceFileName": "un-265-90-3c-93-source.html",
+      "sourceSha256": "f9964cdc6c7aa9ca35d914c351ff7ce0f0ab622cb7a6286903a47f2dd13533b7",
+      "observedImages": [
+        "https://www.prestigetime.com/images/watches/70/1440/265-90-3c~93/265-90-3c_93_main.jpg",
+        "/img/logo.png",
+        "/img/cart-lg.png",
+        "https://www.prestigetime.com/images/watches/70/1440/265-90-3c~93/265-90-3c_93.jpg",
+        "https://www.prestigetime.com/images/watches/70/1440/265-90-3c~93/265-90-3c_93_main.jpg?ver=1",
+        "/img/BitPay_PrestigeTime_Accepts_Crypto.jpg",
+        "/img/credit-cards-item.png",
+        "/img/paypal-payment.png",
+        "/img/affirm-button.png",
+        "https://images-na.ssl-images-amazon.com/images/G/01/Iris3_US/en_US/inca/images/btnPaywAMZN-gld-Desktop-1x.png",
+        "https://seal-newyork.bbb.org/seals/blue-seal-200-42-prestige-time-llc-73113.png",
+        "/img/google-reviews-item.png",
+        "/img/yelp.png",
+        "https://www.prestigetime.com/images/watches/70/3795/1183-170-3~92/Ulysse-Nardin-Diver-1183-170-3_92_main.jpg",
+        "https://www.prestigetime.com/images/watches/70/3485/1183-310-3~40/1183-310-3~40jpg_main.jpg",
+        "https://www.prestigetime.com/images/watches/70/3485/1183-310-7MIL~40/1183-310-7mil-40-marine-torpilleur_main.jpg",
+        "https://www.prestigetime.com/images/watches/70/4355/243-20~43/243-20~43_main.jpg",
+        "/img/amex-livelife.png",
+        "/img/bbb-footer-blk.png"
+      ],
+      "rawFileName": "un-265-90-3c-93-raw.jpg",
+      "rawSha256": "19e5b653095f4029b56a67be16f5b8291f34d6c6ae6ab0c377b64020d2bedc25",
+      "imageUrl": "https://www.prestigetime.com/images/watches/70/1440/265-90-3c~93/265-90-3c_93.jpg",
+      "size": [
+        656,
+        1000
+      ],
+      "visualReview": "Native original individually reviewed; exact blue wave, rose-gold bezel, titanium case and black ceramic insert configuration matches uploaded watch. New source rights and background processing remain outstanding.",
+      "driveFiles": [
+        {
+          "localFileName": "un-265-90-3c-93-raw.jpg",
+          "id": "1tNnIRLCK16G33uDpyP-dVf6R6BSQq7gN",
+          "mimeType": "image/jpeg",
+          "title": "quest-luxo-265-90-3c-93-prestigetime-raw.jpg",
+          "url": "https://drive.google.com/file/d/1tNnIRLCK16G33uDpyP-dVf6R6BSQq7gN/view?usp=drivesdk",
+          "parentId": "1EwU4nbht13ay5Obti9bjywK4rWLCxK_T"
+        }
+      ]
+    },
+    {
+      "id": "un-266-33-3a-90",
+      "sourceUrl": "https://www.gemnation.com/watches/Ulysse-Nardin-Maxi-Marine-Diver-266-33-3A-90-9105.html",
+      "checkedAt": "2026-10-16T10:24:31.967329+00:00",
+      "websiteApproved": false,
+      "rightsStatus": "No new commercial-use evidence; acquisition and identity research only",
+      "pageError": "HTTP Error 403: Forbidden",
+      "driveFiles": []
+    }
+  ],
+  "licensedAlternatives": {
+    "acquiredAt": "2026-10-16T10:25:45.334586+00:00",
+    "items": [
+      {
+        "id": "commons-ap-diver",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Audemars_Piguet_Royal_Oak_Offshore_Diver.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Audemars_Piguet_Royal_Oak_Offshore_Diver.jpg",
+        "photographer": "Clyde94",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "sha256": "ac567d0fe14abc34e47bdb89220c1803fc17b5a2a5c9af146820d0115d336fdc",
+        "size": [
+          1197,
+          1213
+        ],
+        "fileName": "commons-ap-diver-raw.jpg",
+        "websiteApproved": false,
+        "reviewStatus": "Held after individual native visual review",
+        "hold": "Close-up crops both strap ends; green Offshore is a different configuration. Do not reconstruct straps."
+      },
+      {
+        "id": "commons-ap-15202",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Audemars_Piguet_Royal_Oak_ref._15202.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/05/Audemars_Piguet_Royal_Oak_ref._15202.jpg",
+        "photographer": "OpaleHorse",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "sha256": "dfe13f4399c270581987137ef1724be1897264115e21209657f9dd8d8b6ff6e9",
+        "size": [
+          3024,
+          4032
+        ],
+        "fileName": "commons-ap-15202-raw.jpg",
+        "websiteApproved": false,
+        "reviewStatus": "Held after individual native visual review",
+        "hold": "Wrist photograph hides rear bracelet; whole-watch requirement fails."
+      },
+      {
+        "id": "commons-ap-code",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Audemars_Piguet_CODE_11.59_Chronograph_ref._26393.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Audemars_Piguet_CODE_11.59_Chronograph_ref._26393.jpg",
+        "photographer": "EMore98",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "sha256": "2f549f8d1b27778c2e0baccd1792eafacdcd889c8242c3a8117848533db5af44",
+        "size": [
+          1119,
+          1600
+        ],
+        "fileName": "commons-ap-code-raw.jpg",
+        "websiteApproved": false,
+        "reviewStatus": "Held after individual native visual review",
+        "hold": "Full watch visible, but black fabric strap and dial cannot satisfy existing blue-alligator reference configuration. No exact full-SKU evidence; do not map as near-match."
+      },
+      {
+        "id": "commons-omega-professional",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Omega_Seamaster_Professional_Chronometer.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Omega_Seamaster_Professional_Chronometer.jpg",
+        "photographer": "Fink666 (German Wikipedia original; Commons history)",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "sha256": "7f4e95acccd4c4af5d566d4f08863d2df7bbf71443a753e01237634cee631653",
+        "fileName": "commons-omega-professional-raw.jpg",
+        "size": [
+          500,
+          779
+        ],
+        "websiteApproved": false,
+        "reviewStatus": "Held after individual native visual review",
+        "hold": "Original clips bracelet at both top and bottom, strong colored reflections and limited500x779resolution. Cannot establish entire watch; do not reconstruct. No automatic2531.80mapping from generic title."
+      }
+    ]
+  },
+  "rights": "No fabricated rights; new source and screenshot photographs remain held. No repeated permission requests.",
+  "dataSafety": "No private lead reads or writes; no credentials, storage or disk changes.",
+  "reviewedWholeWatchSetsPendingRights": 2,
+  "archivedAssets": [
+    {
+      "localFileName": "patek-5236p-010-raw.img",
+      "id": "1CukXDn5-rxPmAXNio74heBj6uRvUmoe7",
+      "mimeType": "image/png",
+      "title": "quest-luxo-5236p-010-manufacturer-raw.png",
+      "url": "https://drive.google.com/file/d/1CukXDn5-rxPmAXNio74heBj6uRvUmoe7/view?usp=drivesdk",
+      "parentId": "1EwU4nbht13ay5Obti9bjywK4rWLCxK_T"
+    },
+    {
+      "localFileName": "patek-5270p-017-raw.img",
+      "id": "16OyzEvZexgUD8uckQw4LdDrS2tYnWu-W",
+      "mimeType": "image/png",
+      "title": "quest-luxo-5270p-017-manufacturer-raw.png",
+      "url": "https://drive.google.com/file/d/16OyzEvZexgUD8uckQw4LdDrS2tYnWu-W/view?usp=drivesdk",
+      "parentId": "1EwU4nbht13ay5Obti9bjywK4rWLCxK_T"
+    },
+    {
+      "localFileName": "ap-15500st-03-raw.img",
+      "id": "13JQ8NFPcAbaa_cO8snfk3eRC4Y0dSNJv",
+      "mimeType": "image/avif",
+      "title": "quest-luxo-15500st-03-manufacturer-raw.avif",
+      "url": "https://drive.google.com/file/d/13JQ8NFPcAbaa_cO8snfk3eRC4Y0dSNJv/view?usp=drivesdk",
+      "parentId": "1EwU4nbht13ay5Obti9bjywK4rWLCxK_T"
+    },
+    {
+      "localFileName": "un-265-90-3c-93-raw.jpg",
+      "id": "1tNnIRLCK16G33uDpyP-dVf6R6BSQq7gN",
+      "mimeType": "image/jpeg",
+      "title": "quest-luxo-265-90-3c-93-prestigetime-raw.jpg",
+      "url": "https://drive.google.com/file/d/1tNnIRLCK16G33uDpyP-dVf6R6BSQq7gN/view?usp=drivesdk",
+      "parentId": "1EwU4nbht13ay5Obti9bjywK4rWLCxK_T"
+    },
+    {
+      "localFileName": "patek-5236p-010-white-master.png",
+      "id": "1pLDvnn9FOZzc5pW9EMcTeeWVu_K2FNVm",
+      "mimeType": "image/png",
+      "title": "quest-luxo-5236p-010-white-master-REVIEW.png",
+      "url": "https://drive.google.com/file/d/1pLDvnn9FOZzc5pW9EMcTeeWVu_K2FNVm/view?usp=drivesdk",
+      "parentId": "1vl6DzQFhMCHLjh0DcbZ5aM_s_TrZTW49"
+    },
+    {
+      "localFileName": "patek-5270p-017-white-master.png",
+      "id": "19YK6UrGdE5LIIWXzeh_EHyVB53ZNsDut",
+      "mimeType": "image/png",
+      "title": "quest-luxo-5270p-017-white-master-REVIEW.png",
+      "url": "https://drive.google.com/file/d/19YK6UrGdE5LIIWXzeh_EHyVB53ZNsDut/view?usp=drivesdk",
+      "parentId": "1vl6DzQFhMCHLjh0DcbZ5aM_s_TrZTW49"
+    },
+    {
+      "localFileName": "patek-5236p-010-web.webp",
+      "id": "1Fqp290vxX9p1Bt5IFJN72WBtdtFAAOB8",
+      "mimeType": "image/webp",
+      "title": "quest-luxo-5236p-010-web-REVIEW.webp",
+      "url": "https://drive.google.com/file/d/1Fqp290vxX9p1Bt5IFJN72WBtdtFAAOB8/view?usp=drivesdk",
+      "parentId": "1lijATpBrmBmGnjmhTJmr0gpTa5YaOd8Z"
+    },
+    {
+      "localFileName": "patek-5270p-017-web.webp",
+      "id": "1aL9SH2Yld4iM_kbLg56H9GMNQccaN_-Z",
+      "mimeType": "image/webp",
+      "title": "quest-luxo-5270p-017-web-REVIEW.webp",
+      "url": "https://drive.google.com/file/d/1aL9SH2Yld4iM_kbLg56H9GMNQccaN_-Z/view?usp=drivesdk",
+      "parentId": "1lijATpBrmBmGnjmhTJmr0gpTa5YaOd8Z"
+    }
+  ],
+  "archiveVerification": "All8files verified by Drive metadata readback including expected names, MIME types, sizes and canonical folder IDs. Local SHA256 recorded; no Drive byte-readback claim."
+}

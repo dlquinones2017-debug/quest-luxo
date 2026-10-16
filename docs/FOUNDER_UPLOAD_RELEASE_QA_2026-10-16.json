@@ -1,6 +1,6 @@
 {
   "checkedAt": "2026-10-16T10:08:30.572179+00:00",
-  "status": "25 source-backed profiles verified locally; production deployment pending",
+  "status": "LIVE; all25newreference profiles and full catalog independently verified",
   "previousProductionCommit": "407790aa12c74ed9ee5a3228a71ffb0aea5c5a57",
   "catalogSummary": {
     "brands": 23,
@@ -302,5 +302,250 @@
   },
   "warnings": "Existing Vite bundle-size, Zenith punctuation alias and public robots warnings remain.",
   "leadSafety": "No customer records read; no submissions, credentials, disk or storage changes.",
-  "holds": "10 primary appearances lack exact identification. All screenshot originals still require underlying commercial-use evidence and final native-resolution authenticity/configuration/edge review. Partial watches never reconstructed."
+  "holds": "10 primary appearances lack exact identification. All screenshot originals still require underlying commercial-use evidence and final native-resolution authenticity/configuration/edge review. Partial watches never reconstructed.",
+  "commit": "7b1799f87ce5bf576bc6c267867157c6e303e540",
+  "deployId": "dep-db8vfaek1f9s73eu06o0",
+  "live": {
+    "checkedAt": "2026-10-16T10:10:04.493046+00:00",
+    "mode": "live",
+    "referenceProfilesVerified": 25,
+    "rows": [
+      {
+        "reference": "210.62.44.20.01.001",
+        "route": "/collections/omega/seamaster/210-62-44-20-01-001",
+        "identitySource": "https://www.omegawatches.com.hk/en-hk/watch-omega-seamaster-diver-300m-co-axial-master-chronometer-43-5-mm-21062442001001",
+        "inquiryContext": true,
+        "collectionIntegration": true,
+        "honestPhotoPending": true
+      },
+      {
+        "reference": "310.63.42.50.01.001",
+        "route": "/collections/omega/speedmaster/310-63-42-50-01-001",
+        "identitySource": "https://www.omegawatches.com.hk/en-hk/watch-omega-speedmaster-moonwatch-professional-co-axial-master-chronometer-chronograph-42-mm-31063425001001",
+        "inquiryContext": true,
+        "collectionIntegration": true,
+        "honestPhotoPending": true
+      },
+      {
+        "reference": "232.63.42.21.01.001",
+        "route": "/collections/omega/planet-ocean/232-63-42-21-01-001",
+        "identitySource": "https://www.omegawatches.com.hk/en-hk/watch-omega-seamaster-planet-ocean-600m-omega-co-axial-42-mm-23263422101001",
+        "inquiryContext": true,
+        "collectionIntegration": true,
+        "honestPhotoPending": true
+      },
+      {
+        "reference": "5167/1A-001",
+        "route": "/collections/patek-philippe/aquanaut/5167-1a-001",
+        "identitySource": "https://static.patek.com/pdf/catalogs/PatekPhilippe_Watch_Art_Tokyo_2023_Catalog_EN.pdf",
+        "inquiryContext": true,
+        "collectionIntegration": true,
+        "honestPhotoPending": true
+      },
+      {
+        "reference": "5327G-001",
+        "route": "/collections/patek-philippe/grand-complications/5327g-001",
+        "identitySource": "https://www.patek.com/en/collection/grand-complications/5327G-001",
+        "inquiryContext": true,
+        "collectionIntegration": true,
+        "honestPhotoPending": true
+      },
+      {
+        "reference": "4000U/000P-H003",
+        "route": "/collections/vacheron-constantin/patrimony/4000u-000p-h003",
+        "identitySource": "https://www.vacheron-constantin.com/ca/en/collections/patrimony/4000u-000p-h003.html",
+        "inquiryContext": true,
+        "collectionIntegration": true,
+        "honestPhotoPending": true
+      },
+      {
+        "reference": "6000T/000P-H025",
+        "route": "/collections/vacheron-constantin/traditionnelle/6000t-000p-h025",
+        "identitySource": "https://www.vacheron-constantin.com/ww/de/collections/traditionnelle/6000t-000p-h025.html",
+        "inquiryContext": true,
+        "collectionIntegration": true,
+        "honestPhotoPending": true
+      },
+      {
+        "reference": "26585CE.OO.1225CE.01",
+        "route": "/collections/audemars-piguet/royal-oak/26585ce-oo-1225ce-01",
+        "identitySource": "https://www.audemarspiguet.com/us/en/watch-collection/royal-oak/26585CE.OO.1225CE.01",
+        "inquiryContext": true,
+        "collectionIntegration": true,
+        "honestPhotoPending": true
+      },
+      {
+        "reference": "26585XT.OO.1220XT.01",
+        "route": "/collections/audemars-piguet/royal-oak/26585xt-oo-1220xt-01",
+        "identitySource": "https://www.audemarspiguet.com/us/en/watch-collection/royal-oak/26585XT.OO.1220XT.01",
+        "inquiryContext": true,
+        "collectionIntegration": true,
+        "honestPhotoPending": true
+      },
+      {
+        "reference": "26585CM.OO.D301VE.01",
+        "route": "/collections/audemars-piguet/royal-oak/26585cm-oo-d301ve-01",
+        "identitySource": "https://www.audemarspiguet.com/zh-hant/watch-collection/royal-oak/26585CM.OO.D301VE.01",
+        "inquiryContext": true,
+        "collectionIntegration": true,
+        "honestPhotoPending": true
+      },
+      {
+        "reference": "15412BA.ZG.1224BA.01",
+        "route": "/collections/audemars-piguet/royal-oak/15412ba-zg-1224ba-01",
+        "identitySource": "https://www.audemarspiguet.com/us/en/watch-collection/royal-oak/15412BA.ZG.1224BA.01",
+        "inquiryContext": true,
+        "collectionIntegration": true,
+        "honestPhotoPending": true
+      },
+      {
+        "reference": "15412BC.ZZ.1220BC.01",
+        "route": "/collections/audemars-piguet/royal-oak/15412bc-zz-1220bc-01",
+        "identitySource": "https://www.jomashop.com/audemars-piguet-15412bc-zz-1220bc-01.html",
+        "inquiryContext": true,
+        "collectionIntegration": true,
+        "honestPhotoPending": true
+      },
+      {
+        "reference": "15412OR.ZZ.1220OR.01",
+        "route": "/collections/audemars-piguet/royal-oak/15412or-zz-1220or-01",
+        "identitySource": "https://chronoboutiqueny.com/products/audemars-piguet-royal-oak-double-balance-wheel-openworked-rose-gold-baguette-15412or-zz-1220or-01-sold",
+        "inquiryContext": true,
+        "collectionIntegration": true,
+        "honestPhotoPending": true
+      },
+      {
+        "reference": "26341ST.OO.1105ST.01",
+        "route": "/collections/audemars-piguet/royal-oak/26341st-oo-1105st-01",
+        "identitySource": "https://www.audemarspiguet.com/en/about/savoir-faire/grandes-complications",
+        "inquiryContext": true,
+        "collectionIntegration": true,
+        "honestPhotoPending": true
+      },
+      {
+        "reference": "26615TI.OO.1220TI.01",
+        "route": "/collections/audemars-piguet/royal-oak/26615ti-oo-1220ti-01",
+        "identitySource": "https://www.audemarspiguet.com/zh-hans/watch-collection/royal-oak/26615TI.OO.1220TI.01",
+        "inquiryContext": true,
+        "collectionIntegration": true,
+        "honestPhotoPending": true
+      },
+      {
+        "reference": "26393BC.OO.A321CR.01",
+        "route": "/collections/audemars-piguet/code-1159/26393bc-oo-a321cr-01",
+        "identitySource": "https://www.audemarspiguet.com/com/en/watch-collection/code-1159/26393BC.OO.A321CR.01.html",
+        "inquiryContext": true,
+        "collectionIntegration": true,
+        "honestPhotoPending": true
+      },
+      {
+        "reference": "411.OM.1180.RX",
+        "route": "/collections/hublot/big-bang-unico/411-om-1180-rx",
+        "identitySource": "https://www.prestigetime.com/Hublot-Big-Bang-UNICO-45mm-411-om-1180-rx.html",
+        "inquiryContext": true,
+        "collectionIntegration": true,
+        "honestPhotoPending": true
+      },
+      {
+        "reference": "411.OX.1180.RX",
+        "route": "/collections/hublot/big-bang-unico/411-ox-1180-rx",
+        "identitySource": "https://www.thewatchagency.com/hublot/bb-king/411-ox-1180-rx/62648",
+        "inquiryContext": true,
+        "collectionIntegration": true,
+        "honestPhotoPending": true
+      },
+      {
+        "reference": "1502-151-3/93",
+        "route": "/collections/ulysse-nardin/diver/1502-151-3-93",
+        "identitySource": "https://www.timepiecetrader.com/luxury-watches-brands/ulysse-nardin-marine-diver-chronograph-manufacture-mens-watch-44mm-1502-151-393/",
+        "inquiryContext": true,
+        "collectionIntegration": true,
+        "honestPhotoPending": true
+      },
+      {
+        "reference": "266-67",
+        "route": "/collections/ulysse-nardin/marine/266-67",
+        "identitySource": "https://davidsw.com/shop/watch/ulysse-nardin/ulysse-nardin-maxi-marine-chronometer-18k-rose-gold/",
+        "inquiryContext": true,
+        "collectionIntegration": true,
+        "honestPhotoPending": true
+      },
+      {
+        "reference": "M7941A1A0RU-0003",
+        "route": "/collections/tudor/black-bay/m7941a1a0ru-0003",
+        "identitySource": "https://www.tudorwatch.com/en/watches/black-bay/m7941a1a0ru-0003",
+        "inquiryContext": true,
+        "collectionIntegration": true,
+        "honestPhotoPending": true
+      },
+      {
+        "reference": "26607BC.OO.1220BC.01",
+        "route": "/collections/audemars-piguet/royal-oak/26607bc-oo-1220bc-01",
+        "identitySource": "https://wristcheck.com/us/buy/audemars-piguet/royal-oak-41-white-gold-red-dial-26607bcoo1220bc01",
+        "inquiryContext": true,
+        "collectionIntegration": true,
+        "honestPhotoPending": true
+      },
+      {
+        "reference": "1506-150LE-3/63-VB",
+        "route": "/collections/ulysse-nardin/marine/1506-150le-3-63-vb",
+        "identitySource": "https://www.jomashop.com/ulysse-nardin-watch-1506-150le-3-63-vb.html",
+        "inquiryContext": true,
+        "collectionIntegration": true,
+        "honestPhotoPending": true
+      },
+      {
+        "reference": "266-10-3/92",
+        "route": "/collections/ulysse-nardin/diver/266-10-3-92",
+        "identitySource": "https://www.prestigetime.com/Ulysse-Nardin-Maxi-Marine-Diver-44mm-266-10-3-92.html",
+        "inquiryContext": true,
+        "collectionIntegration": true,
+        "honestPhotoPending": true
+      },
+      {
+        "reference": "4300V/220G-H151",
+        "route": "/collections/vacheron-constantin/overseas/4300v-220g-h151",
+        "identitySource": "https://www.vacheron-constantin.com/ww/en/collections/overseas/4300v-220g-h151.html",
+        "inquiryContext": true,
+        "collectionIntegration": true,
+        "honestPhotoPending": true
+      }
+    ],
+    "noCustomerDataOperation": true
+  },
+  "liveFullCatalogSummary": {
+    "verifiedAt": "2026-10-16T10:10:16.518313+00:00",
+    "expectedDistinctReferenceRoutes": 293,
+    "verifiedReferenceRoutes": 293,
+    "approvedDistinctReferenceRoutes": 205,
+    "verifiedDistinctPhotoFiles": 204,
+    "queuedDistinctReferenceRoutes": 88,
+    "errors": [],
+    "leadSafety": "Read-only public-route checks; no customer records read or submissions created."
+  },
+  "postDeployApplicationErrors": 0,
+  "masterReview": {
+    "pages": 67,
+    "newPagesReviewed": [
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67
+    ],
+    "historicalPagesUnchanged": 60,
+    "layout": "All7appendedpages visually reviewed; no overflow, clipping, split rows or missing text.",
+    "sha256": "fc6b795d93b74a83c32c16079df3afcbcf3701d71c9b414cc52e93ae98bb3256",
+    "driveFileId": "1KEWRyRu7SquTjVb1TgF_cCn_Zux5td17",
+    "driveReadbackVerified": true
+  },
+  "cloudReadbackVerified": {
+    "master": true,
+    "inventory": true,
+    "production": true,
+    "releaseQAPriorSnapshot": true
+  },
+  "releaseQADriveFileId": "1U4pCjdkE34azPPHAk5bITUI7HCIY2lbq"
 }

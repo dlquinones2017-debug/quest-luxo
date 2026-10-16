@@ -1,0 +1,127 @@
+{
+  "checkedAt": "2026-10-16T10:33:35.153045+00:00",
+  "status": "Four additional uploaded reference identities passed pre-deployment checks; production pending.",
+  "previousProductionCommit": "7b1799f87ce5bf576bc6c267867157c6e303e540",
+  "catalogSummary": {
+    "brands": 23,
+    "collections": 104,
+    "registryRecords": 298,
+    "distinctRoutes": 297,
+    "normalizedBrandReferenceIdentities": 294,
+    "approved": 205,
+    "missing": 92,
+    "collectionsWithPhotography": 80,
+    "unusedApprovedRecords": 2,
+    "duplicateNormalizedReferenceGroups": 4,
+    "fileIntegrityFailures": 0,
+    "recoverableCandidates": 0
+  },
+  "newReferenceProfiles": 4,
+  "newPhotographsPublished": 0,
+  "checks": [
+    {
+      "check": "omega-queue-sync",
+      "exitCode": 0,
+      "logFileName": "upload-continuation-omega-queue-sync.log"
+    },
+    {
+      "check": "astro-check",
+      "exitCode": 0,
+      "logFileName": "upload-continuation-astro-check.log"
+    },
+    {
+      "check": "regressions",
+      "exitCode": 0,
+      "logFileName": "upload-continuation-regressions.log"
+    },
+    {
+      "check": "omega-audit",
+      "exitCode": 0,
+      "logFileName": "upload-continuation-omega-audit.log"
+    },
+    {
+      "check": "omega-queue-check",
+      "exitCode": 0,
+      "logFileName": "upload-continuation-omega-queue-check.log"
+    },
+    {
+      "check": "expansion-audit",
+      "exitCode": 0,
+      "logFileName": "upload-continuation-expansion-audit.log"
+    },
+    {
+      "check": "build",
+      "exitCode": 0,
+      "logFileName": "upload-continuation-build.log"
+    },
+    {
+      "check": "inventory",
+      "exitCode": 0,
+      "logFileName": "upload-continuation-inventory.log"
+    },
+    {
+      "check": "full-audit",
+      "exitCode": 0,
+      "logFileName": "upload-continuation-full-audit.log"
+    }
+  ],
+  "regressions": {
+    "passed": 246,
+    "failed": 0
+  },
+  "astro": {
+    "errors": 0,
+    "warnings": 0,
+    "hints": 20
+  },
+  "targetedPages": {
+    "checkedAt": "2026-10-16T10:31:16.925076+00:00",
+    "mode": "local-production",
+    "referenceProfilesVerified": 4,
+    "rows": [
+      {
+        "reference": "5236P-010",
+        "route": "/collections/patek-philippe/grand-complications/5236p-010",
+        "identitySource": "https://www.patek.com/en/collection/grand-complications/5236P-010",
+        "inquiryContext": true,
+        "collectionIntegration": true,
+        "honestPhotoPending": true
+      },
+      {
+        "reference": "5270P-017",
+        "route": "/collections/patek-philippe/grand-complications/5270p-017",
+        "identitySource": "https://www.patek.com/en/collection/grand-complications/5270p-017",
+        "inquiryContext": true,
+        "collectionIntegration": true,
+        "honestPhotoPending": true
+      },
+      {
+        "reference": "15500ST.OO.1220ST.03",
+        "route": "/collections/audemars-piguet/royal-oak/15500st-oo-1220st-03",
+        "identitySource": "https://www.audemarspiguet.com/us/en/watch-collection/royal-oak/15500ST.OO.1220ST.03",
+        "inquiryContext": true,
+        "collectionIntegration": true,
+        "honestPhotoPending": true
+      },
+      {
+        "reference": "265-90-3c/93",
+        "route": "/collections/ulysse-nardin/diver/265-90-3c-93",
+        "identitySource": "https://www.prestigetime.com/Ulysse-Nardin-Maxi-Marine-Diver-Titanium-45mm-265-90-3c-93.html",
+        "inquiryContext": true,
+        "collectionIntegration": true,
+        "honestPhotoPending": true
+      }
+    ],
+    "noCustomerDataOperation": true
+  },
+  "visualQA": {
+    "desktop": "Patek5236P-010 profile reviewed at1440x1000; document/client1425, no overflow. Browser screenshot captures panel area only.",
+    "mobile": "390x844 Patek profile reviewed, document/client375, no overflow. Exact Patek/Grand Complications/5236P-010 Begin Your Quest context verified by click; no submission."
+  },
+  "preparedReviewedSetsPendingRights": 2,
+  "sourceOriginalsArchived": 4,
+  "licensedAlternativesRejected": 4,
+  "unresolvedUploadedIdentities": 6,
+  "warnings": "Existing Vite bundle-size, Zenith punctuation alias and public robots warnings remain.",
+  "dataSafety": "No private lead reads or submissions; no customer data, credentials, hosting configuration or storage changes."
+}
