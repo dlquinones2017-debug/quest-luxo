@@ -1,6 +1,6 @@
 {
   "checkedAt": "2026-10-16T02:28:22.890235+00:00",
-  "status": "Release checks passed; deployment/production verification pending",
+  "status": "LIVE; targeted and full catalog production verification passed",
   "previousProductionMain": "779a6ae535eb825f225e6a07cad59713f60e5547",
   "rightsDriveFileId": "1s2dfnxeyhUFucEFL4IfgELLTd8QBi4PX",
   "sourceLedgerDriveId": "1jidPDWPEpt7zBs327CZ2MfD_PqY_PTZR",
@@ -47,5 +47,36 @@
     "desktop": "1440x1000 complete centered watch and blue nylon strap; native1200 loaded; document/client1425",
     "intake": "Begin Your Quest CTA clicked; exact Omega/Speedmaster/310.32.42.50.02.001 context present. No submission."
   },
-  "sourceReview": "Untouched612x835 RAW and final1200WEB individually reviewed. Complete genuine three-quarter watch and looped blue nylon strap. External background only replaced;3RAW/master/WEB archives reused. No AI, reconstruction, recolouring, new specifications or price/availability claims."
+  "sourceReview": "Untouched612x835 RAW and final1200WEB individually reviewed. Complete genuine three-quarter watch and looped blue nylon strap. External background only replaced;3RAW/master/WEB archives reused. No AI, reconstruction, recolouring, new specifications or price/availability claims.",
+  "commit": "407790aa12c74ed9ee5a3228a71ffb0aea5c5a57",
+  "deployId": "dep-db8onjjbc2fs738nta4g",
+  "live": {
+    "checkedAt": "2026-10-16T02:30:09.740430+00:00",
+    "mode": "live",
+    "exactReferencesChecked": 1,
+    "rows": [
+      {
+        "reference": "310.32.42.50.02.001",
+        "route": "/collections/omega/speedmaster/310-32-42-50-02-001",
+        "imageSha256": "f87f1189bea0cddbacafe437ea2b6ddb97561035d6b0dc715ca10c75ce5324fd",
+        "exactConfiguration": true,
+        "collectionGrid": true,
+        "inquiryContext": true,
+        "separateCredits": true,
+        "noImageCaptionOverlay": true
+      }
+    ],
+    "publicFlowsAvailable": true,
+    "leadDataSafety": "Public GET checks only. No new lead submissions, private lead reads, runtime data or disk changes."
+  },
+  "liveFullCatalogSummary": {
+    "verifiedAt": "2026-10-16T02:30:19.534466+00:00",
+    "expectedDistinctReferenceRoutes": 268,
+    "verifiedReferenceRoutes": 268,
+    "approvedDistinctReferenceRoutes": 205,
+    "verifiedDistinctPhotoFiles": 204,
+    "queuedDistinctReferenceRoutes": 63,
+    "errors": [],
+    "leadSafety": "Read-only public-route checks; no customer records read or submissions created."
+  }
 }

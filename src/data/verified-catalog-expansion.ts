@@ -1395,8 +1395,63 @@ export const verifiedExpansionRows: readonly VerifiedRow[] = [
     "Stainless-steel bracelet",
     "Stainless Steel",
     "https://press.omegawatches.com/the-return-of-the-omega-railmaster/"
-  ]
+  ],
+  // Founder-upload reference identities reviewed October 15, 2026.
+  // Screenshot crops remain outside the photo approval gate until all source, rights and quality checks pass.
+  ["Omega", "omega", "Seamaster Diver 300M", "seamaster", "210.62.44.20.01.001", "Seamaster Diver 300M Black Ceramic and Sedna Gold", "43.5 mm", "Omega 8806 automatic", "Black ceramic with raised waves", "Black rubber strap", "Black ceramic and 18K Sedna Gold", "https://www.omegawatches.com.hk/en-hk/watch-omega-seamaster-diver-300m-co-axial-master-chronometer-43-5-mm-21062442001001"],
+  ["Omega", "omega", "Speedmaster", "speedmaster", "310.63.42.50.01.001", "Moonwatch Professional Sedna Gold on Leather", "42 mm", "Omega 3861 manual winding", "Black step dial", "Black leather strap", "18K Sedna Gold", "https://www.omegawatches.com.hk/en-hk/watch-omega-speedmaster-moonwatch-professional-co-axial-master-chronometer-chronograph-42-mm-31063425001001"],
+  ["Omega", "omega", "Planet Ocean", "planet-ocean", "232.63.42.21.01.001", "Seamaster Planet Ocean 600M Ceragold", "42 mm", "Omega 8501 automatic", "Black", "Black alligator leather strap", "18K red gold", "https://www.omegawatches.com.hk/en-hk/watch-omega-seamaster-planet-ocean-600m-omega-co-axial-42-mm-23263422101001"],
+  ["Patek Philippe", "patek-philippe", "Aquanaut", "aquanaut", "5167/1A-001", "Aquanaut on Steel Bracelet", "40.8 mm", "26-330 S C automatic (2023 manufacturer catalog)", "Black embossed Aquanaut pattern", "Stainless-steel bracelet", "Stainless Steel", "https://static.patek.com/pdf/catalogs/PatekPhilippe_Watch_Art_Tokyo_2023_Catalog_EN.pdf"],
+  ["Patek Philippe", "patek-philippe", "Grand Complications", "grand-complications", "5327G-001", "Perpetual Calendar Blue Dial", "39 mm", "240 Q automatic", "Sunburst blue with Breguet numerals", "Shiny navy blue alligator leather strap", "18K white gold", "https://www.patek.com/en/collection/grand-complications/5327G-001"],
+  ["Vacheron Constantin", "vacheron-constantin", "Patrimony", "patrimony", "4000U/000P-H003", "Patrimony Retrograde Day-Date Salmon Dial", "42.5 mm", "2460 R31R7/3 automatic", "Salmon-toned sunburst", "Dark blue alligator leather strap", "950 Platinum", "https://www.vacheron-constantin.com/ca/en/collections/patrimony/4000u-000p-h003.html"],
+  ["Vacheron Constantin", "vacheron-constantin", "Traditionnelle", "traditionnelle", "6000T/000P-H025", "Traditionnelle Tourbillon Green Dial", "41 mm", "2160 automatic", "Deep green sunburst", "Green alligator leather strap", "950 Platinum", "https://www.vacheron-constantin.com/ww/de/collections/traditionnelle/6000t-000p-h025.html"],
+  ["Audemars Piguet", "audemars-piguet", "Royal Oak", "royal-oak", "26585CE.OO.1225CE.01", "Royal Oak Perpetual Calendar Openworked Black Ceramic", "Specification verification pending", "Calibre verification pending", "Openworked sapphire with pink-gold components", "Black ceramic bracelet", "Black ceramic", "https://www.audemarspiguet.com/us/en/watch-collection/royal-oak/26585CE.OO.1225CE.01"],
+  ["Audemars Piguet", "audemars-piguet", "Royal Oak", "royal-oak", "26585XT.OO.1220XT.01", "Royal Oak Perpetual Calendar Openworked 150th Anniversary", "Specification verification pending", "5135 automatic", "Openworked blue-accented dial", "Titanium and BMG bracelet", "Titanium and Bulk Metallic Glass", "https://www.audemarspiguet.com/us/en/watch-collection/royal-oak/26585XT.OO.1220XT.01"],
+  ["Audemars Piguet", "audemars-piguet", "Royal Oak", "royal-oak", "26585CM.OO.D301VE.01", "Royal Oak Perpetual Calendar Openworked Cactus Jack", "41 mm", "Calibre verification pending", "Openworked Cactus Jack dial", "Brown strap; material verification pending", "Brown ceramic", "https://www.audemarspiguet.com/zh-hant/watch-collection/royal-oak/26585CM.OO.D301VE.01"],
+  ["Audemars Piguet", "audemars-piguet", "Royal Oak", "royal-oak", "15412BA.ZG.1224BA.01", "Royal Oak Double Balance Wheel Openworked Frosted Yellow Gold Baguette", "Specification verification pending", "Calibre verification pending", "Openworked", "Frosted yellow-gold bracelet", "18K yellow gold; baguette diamond-set bezel", "https://www.audemarspiguet.com/us/en/watch-collection/royal-oak/15412BA.ZG.1224BA.01"],
+  ["Audemars Piguet", "audemars-piguet", "Royal Oak", "royal-oak", "15412BC.ZZ.1220BC.01", "Royal Oak Double Balance Wheel Openworked White Gold Baguette", "41 mm", "3132 automatic", "Openworked", "18K white-gold bracelet", "18K white gold; diamond-set bezel", "https://www.jomashop.com/audemars-piguet-15412bc-zz-1220bc-01.html"],
+  ["Audemars Piguet", "audemars-piguet", "Royal Oak", "royal-oak", "15412OR.ZZ.1220OR.01", "Royal Oak Double Balance Wheel Openworked Rose Gold Baguette", "41 mm", "Calibre verification pending", "Openworked", "18K rose-gold bracelet", "18K rose gold; baguette diamond-set bezel", "https://chronoboutiqueny.com/products/audemars-piguet-royal-oak-double-balance-wheel-openworked-rose-gold-baguette-15412or-zz-1220or-01-sold"],
+  ["Audemars Piguet", "audemars-piguet", "Royal Oak", "royal-oak", "26341ST.OO.1105ST.01", "Royal Oak Grande Complication", "44 mm", "Calibre verification pending", "Openworked sapphire", "Stainless-steel bracelet", "Stainless Steel", "https://www.audemarspiguet.com/en/about/savoir-faire/grandes-complications"],
+  ["Audemars Piguet", "audemars-piguet", "Royal Oak", "royal-oak", "26615TI.OO.1220TI.01", "Royal Oak Perpetual Calendar Salmon Dial Titanium", "Specification verification pending", "Calibre verification pending", "Salmon-toned Grande Tapisserie", "Titanium bracelet", "Titanium", "https://www.audemarspiguet.com/zh-hans/watch-collection/royal-oak/26615TI.OO.1220TI.01"],
+  ["Audemars Piguet", "audemars-piguet", "Code 11.59", "code-1159", "26393BC.OO.A321CR.01", "Code 11.59 Selfwinding Chronograph Blue Dial", "Specification verification pending", "Automatic; calibre verification pending", "Deep blue lacquered", "Blue leather strap; material verification pending", "18K white gold", "https://www.audemarspiguet.com/com/en/watch-collection/code-1159/26393BC.OO.A321CR.01.html"],
+  ["Hublot", "hublot", "Big Bang Unico", "big-bang-unico", "411.OM.1180.RX", "Big Bang Unico King Gold Ceramic", "45 mm", "HUB1242 automatic chronograph", "Skeleton", "Black rubber strap", "18K King Gold with black ceramic bezel", "https://www.prestigetime.com/Hublot-Big-Bang-UNICO-45mm-411-om-1180-rx.html"],
+  ["Hublot", "hublot", "Big Bang Unico", "big-bang-unico", "411.OX.1180.RX", "Big Bang Unico King Gold", "45 mm", "HUB1242 automatic chronograph", "Skeleton", "Black rubber strap", "18K King Gold", "https://www.thewatchagency.com/hublot/bb-king/411-ox-1180-rx/62648"],
+  ["Ulysse Nardin", "ulysse-nardin", "Diver", "diver", "1502-151-3/93", "Diver Chronograph Rose Gold Blue Dial", "44 mm", "Automatic; calibre verification pending", "Blue", "Blue rubber strap", "18K rose gold", "https://www.timepiecetrader.com/luxury-watches-brands/ulysse-nardin-marine-diver-chronograph-manufacture-mens-watch-44mm-1502-151-393/"],
+  ["Ulysse Nardin", "ulysse-nardin", "Marine", "marine", "266-67", "Maxi Marine Chronometer Rose Gold Blue Dial", "43 mm", "UN-26 automatic", "Blue with Roman numerals", "Blue rubber strap", "18K rose gold", "https://davidsw.com/shop/watch/ulysse-nardin/ulysse-nardin-maxi-marine-chronometer-18k-rose-gold/"],
+  ["Tudor", "tudor", "Black Bay", "black-bay", "M7941A1A0RU-0003", "Black Bay Burgundy on Five-Link Bracelet", "41 mm", "MT5602-U automatic", "Black domed", "Stainless-steel five-link bracelet", "Stainless Steel", "https://www.tudorwatch.com/en/watches/black-bay/m7941a1a0ru-0003"],
+  ["Audemars Piguet", "audemars-piguet", "Royal Oak", "royal-oak", "26607BC.OO.1220BC.01", "Royal Oak Perpetual Calendar Thailand Red Dial", "41 mm", "5134 automatic", "Red Grande Tapisserie", "18K white-gold bracelet", "18K white gold", "https://wristcheck.com/us/buy/audemars-piguet/royal-oak-41-white-gold-red-dial-26607bcoo1220bc01"],
+  ["Ulysse Nardin", "ulysse-nardin", "Marine", "marine", "1506-150LE-3/63-VB", "Maxi Marine Chronograph Voyage Bleu", "Specification verification pending", "Automatic; calibre verification pending", "Blue with Arabic numerals", "Blue rubber strap with rose-gold inserts", "18K rose gold", "https://www.jomashop.com/ulysse-nardin-watch-1506-150le-3-63-vb.html"],
+  ["Ulysse Nardin", "ulysse-nardin", "Diver", "diver", "266-10-3/92", "Maxi Marine Diver Black Wave Dial Rose Gold", "44 mm", "Automatic; calibre verification pending", "Black wave dial", "Black rubber strap with rose-gold inserts", "18K rose gold", "https://www.prestigetime.com/Ulysse-Nardin-Maxi-Marine-Diver-44mm-266-10-3-92.html"],
+  ["Vacheron Constantin", "vacheron-constantin", "Overseas", "overseas", "4300V/220G-H151", "Overseas Perpetual Calendar Ultra-Thin Burgundy Dial", "41.5 mm", "1120 QP automatic", "Burgundy lacquered sunburst", "18K white-gold bracelet; additional burgundy and white rubber straps", "18K white gold", "https://www.vacheron-constantin.com/ww/en/collections/overseas/4300v-220g-h151.html"]
 ];
+
+const founderUploadReferences = new Set([
+  "210.62.44.20.01.001",
+  "310.63.42.50.01.001",
+  "232.63.42.21.01.001",
+  "5167/1A-001",
+  "5327G-001",
+  "4000U/000P-H003",
+  "6000T/000P-H025",
+  "26585CE.OO.1225CE.01",
+  "26585XT.OO.1220XT.01",
+  "26585CM.OO.D301VE.01",
+  "15412BA.ZG.1224BA.01",
+  "15412BC.ZZ.1220BC.01",
+  "15412OR.ZZ.1220OR.01",
+  "26341ST.OO.1105ST.01",
+  "26615TI.OO.1220TI.01",
+  "26393BC.OO.A321CR.01",
+  "411.OM.1180.RX",
+  "411.OX.1180.RX",
+  "1502-151-3/93",
+  "266-67",
+  "M7941A1A0RU-0003",
+  "26607BC.OO.1220BC.01",
+  "1506-150LE-3/63-VB",
+  "266-10-3/92",
+  "4300V/220G-H151"
+]);
 
 export const verifiedExpansionAssets: QuestLuxoAsset[] = verifiedExpansionRows.map((
   [brand, brandSlug, collection, collectionSlug, reference, model, caseSize, movement, dial, bracelet, material, sourceUrl]
@@ -1404,7 +1459,7 @@ export const verifiedExpansionAssets: QuestLuxoAsset[] = verifiedExpansionRows.m
   brand, collection, reference, model, material,
   configurations: [{ caseSize, movement, dial, bracelet, originalMSRP: null, currentMSRP: null }],
   specificationSources: [{label: "Reference identity and specifications", url: sourceUrl}],
-  specificationsReviewedAt: "2026-10-14",
+  specificationsReviewedAt: founderUploadReferences.has(reference) ? "2026-10-15" : "2026-10-14",
   liquidity: "Not assessed",
   allocationDifficulty: "Requires current market check",
   questLuxoView: `Verified ${brand} ${model} identity (${reference}). Quest Luxo can coordinate private sourcing subject to watch-level authentication, provenance, condition review, servicing and current market evidence; no inventory or return claim is implied.`,

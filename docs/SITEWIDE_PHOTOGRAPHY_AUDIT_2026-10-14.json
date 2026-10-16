@@ -1,13 +1,13 @@
 {
-  "auditedAt": "2026-10-16T02:25:00.677Z",
+  "auditedAt": "2026-10-16T10:04:14.686Z",
   "summary": {
     "brands": 23,
-    "collections": 102,
-    "registryRecords": 269,
-    "distinctRoutes": 268,
-    "normalizedBrandReferenceIdentities": 265,
+    "collections": 104,
+    "registryRecords": 294,
+    "distinctRoutes": 293,
+    "normalizedBrandReferenceIdentities": 290,
     "approved": 205,
-    "missing": 63,
+    "missing": 88,
     "collectionsWithPhotography": 80,
     "unusedApprovedRecords": 2,
     "duplicateNormalizedReferenceGroups": 4,
@@ -25,10 +25,10 @@
     },
     {
       "brand": "Audemars Piguet",
-      "registryRecords": 14,
-      "referencePages": 14,
+      "registryRecords": 24,
+      "referencePages": 24,
       "approved": 6,
-      "missing": 8,
+      "missing": 18,
       "collections": 5
     },
     {
@@ -97,10 +97,10 @@
     },
     {
       "brand": "Hublot",
-      "registryRecords": 8,
-      "referencePages": 8,
+      "registryRecords": 10,
+      "referencePages": 10,
       "approved": 6,
-      "missing": 2,
+      "missing": 4,
       "collections": 5
     },
     {
@@ -121,10 +121,10 @@
     },
     {
       "brand": "Omega",
-      "registryRecords": 68,
-      "referencePages": 68,
+      "registryRecords": 71,
+      "referencePages": 71,
       "approved": 56,
-      "missing": 12,
+      "missing": 15,
       "collections": 11
     },
     {
@@ -137,11 +137,11 @@
     },
     {
       "brand": "Patek Philippe",
-      "registryRecords": 12,
-      "referencePages": 12,
+      "registryRecords": 14,
+      "referencePages": 14,
       "approved": 11,
-      "missing": 1,
-      "collections": 4
+      "missing": 3,
+      "collections": 5
     },
     {
       "brand": "Richard Mille",
@@ -169,27 +169,27 @@
     },
     {
       "brand": "Tudor",
-      "registryRecords": 11,
-      "referencePages": 11,
+      "registryRecords": 12,
+      "referencePages": 12,
       "approved": 6,
-      "missing": 5,
+      "missing": 6,
       "collections": 5
     },
     {
       "brand": "Ulysse Nardin",
-      "registryRecords": 22,
-      "referencePages": 22,
+      "registryRecords": 26,
+      "referencePages": 26,
       "approved": 20,
-      "missing": 2,
+      "missing": 6,
       "collections": 6
     },
     {
       "brand": "Vacheron Constantin",
-      "registryRecords": 5,
-      "referencePages": 5,
+      "registryRecords": 8,
+      "referencePages": 8,
       "approved": 3,
-      "missing": 2,
-      "collections": 4
+      "missing": 5,
+      "collections": 5
     },
     {
       "brand": "Zenith",
@@ -2314,6 +2314,204 @@
       "recoveryCandidates": []
     },
     {
+      "brand": "Audemars Piguet",
+      "brandSlug": "audemars-piguet",
+      "collection": "Royal Oak",
+      "collectionSlug": "royal-oak",
+      "reference": "26585CE.OO.1225CE.01",
+      "path": "/collections/audemars-piguet/royal-oak/26585ce-oo-1225ce-01",
+      "material": "Black ceramic",
+      "configurations": [
+        {
+          "caseSize": "Specification verification pending",
+          "movement": "Calibre verification pending",
+          "dial": "Openworked sapphire with pink-gold components",
+          "bracelet": "Black ceramic bracelet",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "approved": false,
+      "photo": null,
+      "recoveryCandidates": []
+    },
+    {
+      "brand": "Audemars Piguet",
+      "brandSlug": "audemars-piguet",
+      "collection": "Royal Oak",
+      "collectionSlug": "royal-oak",
+      "reference": "26585XT.OO.1220XT.01",
+      "path": "/collections/audemars-piguet/royal-oak/26585xt-oo-1220xt-01",
+      "material": "Titanium and Bulk Metallic Glass",
+      "configurations": [
+        {
+          "caseSize": "Specification verification pending",
+          "movement": "5135 automatic",
+          "dial": "Openworked blue-accented dial",
+          "bracelet": "Titanium and BMG bracelet",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "approved": false,
+      "photo": null,
+      "recoveryCandidates": []
+    },
+    {
+      "brand": "Audemars Piguet",
+      "brandSlug": "audemars-piguet",
+      "collection": "Royal Oak",
+      "collectionSlug": "royal-oak",
+      "reference": "26585CM.OO.D301VE.01",
+      "path": "/collections/audemars-piguet/royal-oak/26585cm-oo-d301ve-01",
+      "material": "Brown ceramic",
+      "configurations": [
+        {
+          "caseSize": "41 mm",
+          "movement": "Calibre verification pending",
+          "dial": "Openworked Cactus Jack dial",
+          "bracelet": "Brown strap; material verification pending",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "approved": false,
+      "photo": null,
+      "recoveryCandidates": []
+    },
+    {
+      "brand": "Audemars Piguet",
+      "brandSlug": "audemars-piguet",
+      "collection": "Royal Oak",
+      "collectionSlug": "royal-oak",
+      "reference": "15412BA.ZG.1224BA.01",
+      "path": "/collections/audemars-piguet/royal-oak/15412ba-zg-1224ba-01",
+      "material": "18K yellow gold; baguette diamond-set bezel",
+      "configurations": [
+        {
+          "caseSize": "Specification verification pending",
+          "movement": "Calibre verification pending",
+          "dial": "Openworked",
+          "bracelet": "Frosted yellow-gold bracelet",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "approved": false,
+      "photo": null,
+      "recoveryCandidates": []
+    },
+    {
+      "brand": "Audemars Piguet",
+      "brandSlug": "audemars-piguet",
+      "collection": "Royal Oak",
+      "collectionSlug": "royal-oak",
+      "reference": "15412BC.ZZ.1220BC.01",
+      "path": "/collections/audemars-piguet/royal-oak/15412bc-zz-1220bc-01",
+      "material": "18K white gold; diamond-set bezel",
+      "configurations": [
+        {
+          "caseSize": "41 mm",
+          "movement": "3132 automatic",
+          "dial": "Openworked",
+          "bracelet": "18K white-gold bracelet",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "approved": false,
+      "photo": null,
+      "recoveryCandidates": []
+    },
+    {
+      "brand": "Audemars Piguet",
+      "brandSlug": "audemars-piguet",
+      "collection": "Royal Oak",
+      "collectionSlug": "royal-oak",
+      "reference": "15412OR.ZZ.1220OR.01",
+      "path": "/collections/audemars-piguet/royal-oak/15412or-zz-1220or-01",
+      "material": "18K rose gold; baguette diamond-set bezel",
+      "configurations": [
+        {
+          "caseSize": "41 mm",
+          "movement": "Calibre verification pending",
+          "dial": "Openworked",
+          "bracelet": "18K rose-gold bracelet",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "approved": false,
+      "photo": null,
+      "recoveryCandidates": []
+    },
+    {
+      "brand": "Audemars Piguet",
+      "brandSlug": "audemars-piguet",
+      "collection": "Royal Oak",
+      "collectionSlug": "royal-oak",
+      "reference": "26341ST.OO.1105ST.01",
+      "path": "/collections/audemars-piguet/royal-oak/26341st-oo-1105st-01",
+      "material": "Stainless Steel",
+      "configurations": [
+        {
+          "caseSize": "44 mm",
+          "movement": "Calibre verification pending",
+          "dial": "Openworked sapphire",
+          "bracelet": "Stainless-steel bracelet",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "approved": false,
+      "photo": null,
+      "recoveryCandidates": []
+    },
+    {
+      "brand": "Audemars Piguet",
+      "brandSlug": "audemars-piguet",
+      "collection": "Royal Oak",
+      "collectionSlug": "royal-oak",
+      "reference": "26615TI.OO.1220TI.01",
+      "path": "/collections/audemars-piguet/royal-oak/26615ti-oo-1220ti-01",
+      "material": "Titanium",
+      "configurations": [
+        {
+          "caseSize": "Specification verification pending",
+          "movement": "Calibre verification pending",
+          "dial": "Salmon-toned Grande Tapisserie",
+          "bracelet": "Titanium bracelet",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "approved": false,
+      "photo": null,
+      "recoveryCandidates": []
+    },
+    {
+      "brand": "Audemars Piguet",
+      "brandSlug": "audemars-piguet",
+      "collection": "Royal Oak",
+      "collectionSlug": "royal-oak",
+      "reference": "26607BC.OO.1220BC.01",
+      "path": "/collections/audemars-piguet/royal-oak/26607bc-oo-1220bc-01",
+      "material": "18K white gold",
+      "configurations": [
+        {
+          "caseSize": "41 mm",
+          "movement": "5134 automatic",
+          "dial": "Red Grande Tapisserie",
+          "bracelet": "18K white-gold bracelet",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "approved": false,
+      "photo": null,
+      "recoveryCandidates": []
+    },
+    {
       "brand": "Richard Mille",
       "brandSlug": "richard-mille",
       "collection": "RM 11",
@@ -2374,6 +2572,28 @@
           "movement": "Calibre 2160 automatic tourbillon",
           "dial": "Blue",
           "bracelet": "Steel bracelet and additional straps",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "approved": false,
+      "photo": null,
+      "recoveryCandidates": []
+    },
+    {
+      "brand": "Vacheron Constantin",
+      "brandSlug": "vacheron-constantin",
+      "collection": "Overseas",
+      "collectionSlug": "overseas",
+      "reference": "4300V/220G-H151",
+      "path": "/collections/vacheron-constantin/overseas/4300v-220g-h151",
+      "material": "18K white gold",
+      "configurations": [
+        {
+          "caseSize": "41.5 mm",
+          "movement": "1120 QP automatic",
+          "dial": "Burgundy lacquered sunburst",
+          "bracelet": "18K white-gold bracelet; additional burgundy and white rubber straps",
           "originalMSRP": null,
           "currentMSRP": null
         }
@@ -2803,6 +3023,28 @@
       "recoveryCandidates": []
     },
     {
+      "brand": "Omega",
+      "brandSlug": "omega",
+      "collection": "Speedmaster",
+      "collectionSlug": "speedmaster",
+      "reference": "310.63.42.50.01.001",
+      "path": "/collections/omega/speedmaster/310-63-42-50-01-001",
+      "material": "18K Sedna Gold",
+      "configurations": [
+        {
+          "caseSize": "42 mm",
+          "movement": "Omega 3861 manual winding",
+          "dial": "Black step dial",
+          "bracelet": "Black leather strap",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "approved": false,
+      "photo": null,
+      "recoveryCandidates": []
+    },
+    {
       "brand": "Tudor",
       "brandSlug": "tudor",
       "collection": "Black Bay",
@@ -2887,6 +3129,28 @@
         "src": "/images/watches/tudor/tudor-black-bay-54-m79000n-0001-web.webp",
         "sha256": "7d5a6f51661d7e11c1a895ee8f67f74cc5c77d8b71c39f32743a6fefd6428d35"
       },
+      "recoveryCandidates": []
+    },
+    {
+      "brand": "Tudor",
+      "brandSlug": "tudor",
+      "collection": "Black Bay",
+      "collectionSlug": "black-bay",
+      "reference": "M7941A1A0RU-0003",
+      "path": "/collections/tudor/black-bay/m7941a1a0ru-0003",
+      "material": "Stainless Steel",
+      "configurations": [
+        {
+          "caseSize": "41 mm",
+          "movement": "MT5602-U automatic",
+          "dial": "Black domed",
+          "bracelet": "Stainless-steel five-link bracelet",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "approved": false,
+      "photo": null,
       "recoveryCandidates": []
     },
     {
@@ -4259,6 +4523,28 @@
     {
       "brand": "Omega",
       "brandSlug": "omega",
+      "collection": "Seamaster Diver 300M",
+      "collectionSlug": "seamaster",
+      "reference": "210.62.44.20.01.001",
+      "path": "/collections/omega/seamaster/210-62-44-20-01-001",
+      "material": "Black ceramic and 18K Sedna Gold",
+      "configurations": [
+        {
+          "caseSize": "43.5 mm",
+          "movement": "Omega 8806 automatic",
+          "dial": "Black ceramic with raised waves",
+          "bracelet": "Black rubber strap",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "approved": false,
+      "photo": null,
+      "recoveryCandidates": []
+    },
+    {
+      "brand": "Omega",
+      "brandSlug": "omega",
       "collection": "Seamaster Planet Ocean",
       "collectionSlug": "planet-ocean",
       "reference": "2201.50",
@@ -4323,6 +4609,28 @@
         "src": "/images/watches/omega/reviewed-215-30-44-21-04-001-white-web.webp",
         "sha256": "16e4f16a87172c6ad4c0508d85200888e0c5d50bd01cb5d5c8d33aac3a1f3f54"
       },
+      "recoveryCandidates": []
+    },
+    {
+      "brand": "Omega",
+      "brandSlug": "omega",
+      "collection": "Seamaster Planet Ocean",
+      "collectionSlug": "planet-ocean",
+      "reference": "232.63.42.21.01.001",
+      "path": "/collections/omega/planet-ocean/232-63-42-21-01-001",
+      "material": "18K red gold",
+      "configurations": [
+        {
+          "caseSize": "42 mm",
+          "movement": "Omega 8501 automatic",
+          "dial": "Black",
+          "bracelet": "Black alligator leather strap",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "approved": false,
+      "photo": null,
       "recoveryCandidates": []
     },
     {
@@ -4855,6 +5163,28 @@
         "src": "/images/watches/audemars-piguet/reviewed-26393or-oo-a056kb-01-white-web.webp",
         "sha256": "8a181b03104a29118163e6ab8413190163932a4242be6323bc05711aab24bc46"
       },
+      "recoveryCandidates": []
+    },
+    {
+      "brand": "Audemars Piguet",
+      "brandSlug": "audemars-piguet",
+      "collection": "Code 11.59",
+      "collectionSlug": "code-1159",
+      "reference": "26393BC.OO.A321CR.01",
+      "path": "/collections/audemars-piguet/code-1159/26393bc-oo-a321cr-01",
+      "material": "18K white gold",
+      "configurations": [
+        {
+          "caseSize": "Specification verification pending",
+          "movement": "Automatic; calibre verification pending",
+          "dial": "Deep blue lacquered",
+          "bracelet": "Blue leather strap; material verification pending",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "approved": false,
+      "photo": null,
       "recoveryCandidates": []
     },
     {
@@ -5526,6 +5856,50 @@
     {
       "brand": "Ulysse Nardin",
       "brandSlug": "ulysse-nardin",
+      "collection": "Marine",
+      "collectionSlug": "marine",
+      "reference": "266-67",
+      "path": "/collections/ulysse-nardin/marine/266-67",
+      "material": "18K rose gold",
+      "configurations": [
+        {
+          "caseSize": "43 mm",
+          "movement": "UN-26 automatic",
+          "dial": "Blue with Roman numerals",
+          "bracelet": "Blue rubber strap",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "approved": false,
+      "photo": null,
+      "recoveryCandidates": []
+    },
+    {
+      "brand": "Ulysse Nardin",
+      "brandSlug": "ulysse-nardin",
+      "collection": "Marine",
+      "collectionSlug": "marine",
+      "reference": "1506-150LE-3/63-VB",
+      "path": "/collections/ulysse-nardin/marine/1506-150le-3-63-vb",
+      "material": "18K rose gold",
+      "configurations": [
+        {
+          "caseSize": "Specification verification pending",
+          "movement": "Automatic; calibre verification pending",
+          "dial": "Blue with Arabic numerals",
+          "bracelet": "Blue rubber strap with rose-gold inserts",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "approved": false,
+      "photo": null,
+      "recoveryCandidates": []
+    },
+    {
+      "brand": "Ulysse Nardin",
+      "brandSlug": "ulysse-nardin",
       "collection": "Diver",
       "collectionSlug": "diver",
       "reference": "Diver Chronograph",
@@ -5699,6 +6073,50 @@
         "src": "/images/watches/ulysse-nardin/ulysse-nardin-diver-44-1183-170-3-92-web.webp",
         "sha256": "26825c394669e4fe298c3a47f75205c228a09703400aa515616a031fff4f52ad"
       },
+      "recoveryCandidates": []
+    },
+    {
+      "brand": "Ulysse Nardin",
+      "brandSlug": "ulysse-nardin",
+      "collection": "Diver",
+      "collectionSlug": "diver",
+      "reference": "1502-151-3/93",
+      "path": "/collections/ulysse-nardin/diver/1502-151-3-93",
+      "material": "18K rose gold",
+      "configurations": [
+        {
+          "caseSize": "44 mm",
+          "movement": "Automatic; calibre verification pending",
+          "dial": "Blue",
+          "bracelet": "Blue rubber strap",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "approved": false,
+      "photo": null,
+      "recoveryCandidates": []
+    },
+    {
+      "brand": "Ulysse Nardin",
+      "brandSlug": "ulysse-nardin",
+      "collection": "Diver",
+      "collectionSlug": "diver",
+      "reference": "266-10-3/92",
+      "path": "/collections/ulysse-nardin/diver/266-10-3-92",
+      "material": "18K rose gold",
+      "configurations": [
+        {
+          "caseSize": "44 mm",
+          "movement": "Automatic; calibre verification pending",
+          "dial": "Black wave dial",
+          "bracelet": "Black rubber strap with rose-gold inserts",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "approved": false,
+      "photo": null,
       "recoveryCandidates": []
     },
     {
@@ -5980,6 +6398,28 @@
         "src": "/images/watches/patek-philippe/patek-philippe-aquanaut-5167a-001-web.webp",
         "sha256": "7d490a64677b7532810c4482124e2fbe0cfe854d7d7b43ba959829a49a18ee03"
       },
+      "recoveryCandidates": []
+    },
+    {
+      "brand": "Patek Philippe",
+      "brandSlug": "patek-philippe",
+      "collection": "Aquanaut",
+      "collectionSlug": "aquanaut",
+      "reference": "5167/1A-001",
+      "path": "/collections/patek-philippe/aquanaut/5167-1a-001",
+      "material": "Stainless Steel",
+      "configurations": [
+        {
+          "caseSize": "40.8 mm",
+          "movement": "26-330 S C automatic (2023 manufacturer catalog)",
+          "dial": "Black embossed Aquanaut pattern",
+          "bracelet": "Stainless-steel bracelet",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "approved": false,
+      "photo": null,
       "recoveryCandidates": []
     },
     {
@@ -6271,6 +6711,50 @@
     {
       "brand": "Hublot",
       "brandSlug": "hublot",
+      "collection": "Big Bang Unico",
+      "collectionSlug": "big-bang-unico",
+      "reference": "411.OM.1180.RX",
+      "path": "/collections/hublot/big-bang-unico/411-om-1180-rx",
+      "material": "18K King Gold with black ceramic bezel",
+      "configurations": [
+        {
+          "caseSize": "45 mm",
+          "movement": "HUB1242 automatic chronograph",
+          "dial": "Skeleton",
+          "bracelet": "Black rubber strap",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "approved": false,
+      "photo": null,
+      "recoveryCandidates": []
+    },
+    {
+      "brand": "Hublot",
+      "brandSlug": "hublot",
+      "collection": "Big Bang Unico",
+      "collectionSlug": "big-bang-unico",
+      "reference": "411.OX.1180.RX",
+      "path": "/collections/hublot/big-bang-unico/411-ox-1180-rx",
+      "material": "18K King Gold",
+      "configurations": [
+        {
+          "caseSize": "45 mm",
+          "movement": "HUB1242 automatic chronograph",
+          "dial": "Skeleton",
+          "bracelet": "Black rubber strap",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "approved": false,
+      "photo": null,
+      "recoveryCandidates": []
+    },
+    {
+      "brand": "Hublot",
+      "brandSlug": "hublot",
       "collection": "Spirit of Big Bang",
       "collectionSlug": "spirit-of-big-bang",
       "reference": "642.NX.0170.RX",
@@ -6363,6 +6847,28 @@
         "src": "/images/watches/vacheron-constantin/reviewed-82172-000r-9382-white-web.webp",
         "sha256": "9a5dcd02ce14f3dbd4edbcad75a9c773ed6c77e386ae53f7631a198e90b72ee5"
       },
+      "recoveryCandidates": []
+    },
+    {
+      "brand": "Vacheron Constantin",
+      "brandSlug": "vacheron-constantin",
+      "collection": "Traditionnelle",
+      "collectionSlug": "traditionnelle",
+      "reference": "6000T/000P-H025",
+      "path": "/collections/vacheron-constantin/traditionnelle/6000t-000p-h025",
+      "material": "950 Platinum",
+      "configurations": [
+        {
+          "caseSize": "41 mm",
+          "movement": "2160 automatic",
+          "dial": "Deep green sunburst",
+          "bracelet": "Green alligator leather strap",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "approved": false,
+      "photo": null,
       "recoveryCandidates": []
     },
     {
@@ -7922,6 +8428,50 @@
         "src": "/images/watches/omega/reviewed-235-10-38-20-13-001-white-web.webp",
         "sha256": "f17ad5e5fbe4d21a627da8a68acf7743ad923945480238cf08eded417efa789f"
       },
+      "recoveryCandidates": []
+    },
+    {
+      "brand": "Patek Philippe",
+      "brandSlug": "patek-philippe",
+      "collection": "Grand Complications",
+      "collectionSlug": "grand-complications",
+      "reference": "5327G-001",
+      "path": "/collections/patek-philippe/grand-complications/5327g-001",
+      "material": "18K white gold",
+      "configurations": [
+        {
+          "caseSize": "39 mm",
+          "movement": "240 Q automatic",
+          "dial": "Sunburst blue with Breguet numerals",
+          "bracelet": "Shiny navy blue alligator leather strap",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "approved": false,
+      "photo": null,
+      "recoveryCandidates": []
+    },
+    {
+      "brand": "Vacheron Constantin",
+      "brandSlug": "vacheron-constantin",
+      "collection": "Patrimony",
+      "collectionSlug": "patrimony",
+      "reference": "4000U/000P-H003",
+      "path": "/collections/vacheron-constantin/patrimony/4000u-000p-h003",
+      "material": "950 Platinum",
+      "configurations": [
+        {
+          "caseSize": "42.5 mm",
+          "movement": "2460 R31R7/3 automatic",
+          "dial": "Salmon-toned sunburst",
+          "bracelet": "Dark blue alligator leather strap",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "approved": false,
+      "photo": null,
       "recoveryCandidates": []
     }
   ]

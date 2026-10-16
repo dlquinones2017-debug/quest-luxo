@@ -4,6 +4,18 @@ import { readFile } from "node:fs/promises";
 import { promisify } from "node:util";
 import { fileURLToPath } from "node:url";
 import test from "node:test";
+import { registerHooks } from "node:module";
+registerHooks({ resolve(specifier, context, next) {
+  try { return next(specifier, context); } catch (error) {
+    if (!specifier.startsWith(".")) throw error;
+    for (const suffix of [".ts", "/index.ts"]) {
+      try { return next(specifier + suffix, context); } catch {}
+    }
+    throw error;
+  }
+}});
+const { verifiedExpansionRows } = await import("../src/data/verified-catalog-expansion.ts");
+const expectedOmegaReferences = verifiedExpansionRows.filter(row => row[1] === "omega").length;
 
 const script = fileURLToPath(new URL("../scripts/audit-expansion-photography.mjs", import.meta.url));
 const cwd = fileURLToPath(new URL("../", import.meta.url));
@@ -21,13 +33,13 @@ test("all multi-brand expansion reference photo gaps are audited with checksum v
 
   const result = await run(process.execPath, ["--experimental-strip-types", script], {cwd});
   const report = JSON.parse(result.stdout);
-  assert.equal(report.summary.expansionReferences, 99);
+  assert.equal(report.summary.expansionReferences, verifiedExpansionRows.length);
   assert.ok(report.summary.brands >= 12);
   assert.equal(report.summary.expansionReferences,
     report.summary.approvedValidReferences + report.summary.acquisitionRequired +
     report.summary.missingApprovedDerivative + report.summary.checksumFailures);
-  assert.equal(report.byBrand.reduce((sum, item) => sum+item.references, 0), 99);
-  assert.ok(report.byBrand.some(x=>x.brand==="Omega" && x.references===55));
+  assert.equal(report.byBrand.reduce((sum, item) => sum+item.references, 0), verifiedExpansionRows.length);
+  assert.ok(report.byBrand.some(x=>x.brand==="Omega" && x.references===expectedOmegaReferences));
   assert.equal(report.summary.missingApprovedDerivative, 0, "any approved file missing is an integrity blocker");
   assert.equal(report.summary.checksumFailures, 0, "any checksum mismatch is an integrity blocker");
 });
@@ -39,7 +51,7 @@ test("Omega-only audit and all-brand audit agree on verified image coverage", as
   ]);
   const broad = JSON.parse(global.stdout);
   const specific = JSON.parse(omega.stdout);
-  assert.equal(broad.summary.expansionReferences, 55);
+  assert.equal(broad.summary.expansionReferences, expectedOmegaReferences);
   assert.equal(broad.summary.approvedValidReferences, specific.approvedWithLocalDerivative);
   assert.equal(broad.summary.acquisitionRequired, specific.outstandingImageAcquisitions);
 });

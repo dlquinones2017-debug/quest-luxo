@@ -7,9 +7,9 @@
   "clearanceAuthority": "Existing Digital Asset Library provenance and founder quality/rights process",
   "licensePolicy": "Reference source URL documents identity only; it does NOT license website reuse. No AI watches, unverified source shots or nonwhite wrist photographs.",
   "summary": {
-    "references": 55,
+    "references": 58,
     "existingExactReferenceImageRecordMatches": 48,
-    "requiresAcquisition": 7,
+    "requiresAcquisition": 10,
     "clearedForPublication": 48
   },
   "queue": [
@@ -2032,6 +2032,114 @@
         "approvalReviewer": "Quest Luxo execution review with founder website-use clearance",
         "status": "APPROVED_WITH_VALID_DERIVATIVE",
         "approvedAssetId": "cleared-additional35-1J58M0pyGw9Ro2hZTAaiRrxia4PG_pXbn"
+      },
+      "requirements": [
+        "Obtain authentic non-AI original for exact pictured reference and configuration",
+        "Verify rights for commercial website reuse; store license and any conditions",
+        "Verify full uncropped watch, centered on blank white background, no watch reconstruction",
+        "Preserve original source file and SHA-256; export optimized WEB with SHA-256",
+        "Map to canonical route only after exact-match configuration, reviewer and approval gate pass"
+      ]
+    },
+    {
+      "brand": "Omega",
+      "brandSlug": "omega",
+      "collection": "Seamaster Diver 300M",
+      "collectionSlug": "seamaster",
+      "reference": "210.62.44.20.01.001",
+      "model": "Seamaster Diver 300M Black Ceramic and Sedna Gold",
+      "caseSize": "43.5 mm",
+      "movement": "Omega 8806 automatic",
+      "dial": "Black ceramic with raised waves",
+      "braceletOrStrap": "Black rubber strap",
+      "material": "Black ceramic and 18K Sedna Gold",
+      "specificationSource": "https://www.omegawatches.com.hk/en-hk/watch-omega-seamaster-diver-300m-co-axial-master-chronometer-43-5-mm-21062442001001",
+      "sourceHost": "www.omegawatches.com.hk",
+      "priorityScore": 100,
+      "imageSourceFoundInCurrentClearanceCode": false,
+      "evidence": {
+        "rawImageId": null,
+        "rawChecksum": null,
+        "webDerivativePath": null,
+        "webDerivativeChecksum": null,
+        "exactReferenceImageReviewed": false,
+        "centeredWhiteBackgroundVerified": false,
+        "websiteUseRightsVerified": false,
+        "rightsRecord": null,
+        "approvalReviewer": null,
+        "status": "ACQUISITION_REQUIRED"
+      },
+      "requirements": [
+        "Obtain authentic non-AI original for exact pictured reference and configuration",
+        "Verify rights for commercial website reuse; store license and any conditions",
+        "Verify full uncropped watch, centered on blank white background, no watch reconstruction",
+        "Preserve original source file and SHA-256; export optimized WEB with SHA-256",
+        "Map to canonical route only after exact-match configuration, reviewer and approval gate pass"
+      ]
+    },
+    {
+      "brand": "Omega",
+      "brandSlug": "omega",
+      "collection": "Speedmaster",
+      "collectionSlug": "speedmaster",
+      "reference": "310.63.42.50.01.001",
+      "model": "Moonwatch Professional Sedna Gold on Leather",
+      "caseSize": "42 mm",
+      "movement": "Omega 3861 manual winding",
+      "dial": "Black step dial",
+      "braceletOrStrap": "Black leather strap",
+      "material": "18K Sedna Gold",
+      "specificationSource": "https://www.omegawatches.com.hk/en-hk/watch-omega-speedmaster-moonwatch-professional-co-axial-master-chronometer-chronograph-42-mm-31063425001001",
+      "sourceHost": "www.omegawatches.com.hk",
+      "priorityScore": 100,
+      "imageSourceFoundInCurrentClearanceCode": false,
+      "evidence": {
+        "rawImageId": null,
+        "rawChecksum": null,
+        "webDerivativePath": null,
+        "webDerivativeChecksum": null,
+        "exactReferenceImageReviewed": false,
+        "centeredWhiteBackgroundVerified": false,
+        "websiteUseRightsVerified": false,
+        "rightsRecord": null,
+        "approvalReviewer": null,
+        "status": "ACQUISITION_REQUIRED"
+      },
+      "requirements": [
+        "Obtain authentic non-AI original for exact pictured reference and configuration",
+        "Verify rights for commercial website reuse; store license and any conditions",
+        "Verify full uncropped watch, centered on blank white background, no watch reconstruction",
+        "Preserve original source file and SHA-256; export optimized WEB with SHA-256",
+        "Map to canonical route only after exact-match configuration, reviewer and approval gate pass"
+      ]
+    },
+    {
+      "brand": "Omega",
+      "brandSlug": "omega",
+      "collection": "Planet Ocean",
+      "collectionSlug": "planet-ocean",
+      "reference": "232.63.42.21.01.001",
+      "model": "Seamaster Planet Ocean 600M Ceragold",
+      "caseSize": "42 mm",
+      "movement": "Omega 8501 automatic",
+      "dial": "Black",
+      "braceletOrStrap": "Black alligator leather strap",
+      "material": "18K red gold",
+      "specificationSource": "https://www.omegawatches.com.hk/en-hk/watch-omega-seamaster-planet-ocean-600m-omega-co-axial-42-mm-23263422101001",
+      "sourceHost": "www.omegawatches.com.hk",
+      "priorityScore": 100,
+      "imageSourceFoundInCurrentClearanceCode": false,
+      "evidence": {
+        "rawImageId": null,
+        "rawChecksum": null,
+        "webDerivativePath": null,
+        "webDerivativeChecksum": null,
+        "exactReferenceImageReviewed": false,
+        "centeredWhiteBackgroundVerified": false,
+        "websiteUseRightsVerified": false,
+        "rightsRecord": null,
+        "approvalReviewer": null,
+        "status": "ACQUISITION_REQUIRED"
       },
       "requirements": [
         "Obtain authentic non-AI original for exact pictured reference and configuration",

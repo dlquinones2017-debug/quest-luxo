@@ -1,0 +1,24 @@
+{
+  "checkedAt": "2026-10-16T02:37:48.222072+00:00",
+  "websiteApproved": false,
+  "sources": [
+    {
+      "brand": "Tudor",
+      "catalogReference": "Tudor Royal41mm",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tudor_Royal.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Tudor_Royal.jpg",
+      "rawFileName": "commons-tudor-royal-original.jpg",
+      "rawSha256": "81368fa947182de9660ab62cffb468d240d5b9d2b711488008446ccd8a6b72b5",
+      "sourceAuthor": "Clyde94",
+      "license": "CC BY-SA4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "hold": "Wrist shot; bracelet hidden under cuff and around wrist. Does not show a complete watch. Exact fullSKU unestablished. Do not remove the wrist or reconstruct hidden bracelet."
+    },
+    {
+      "brand": "Tudor",
+      "catalogReference": "Prince Date",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tudor_Prince_Date_Day_Ref76200.jpg",
+      "hold": "Source explicitly identifies Prince Date Day76200, distinct from the queued Prince Date family. No relabeling/substitution. Original not acquired."
+    }
+  ]
+}

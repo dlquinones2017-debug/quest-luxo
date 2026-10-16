@@ -1,6 +1,6 @@
 {
   "physicalSets": 1,
-  "websitePublished": false,
+  "websitePublished": true,
   "rightsHeldSets": 0,
   "references": [
     {
@@ -20,7 +20,7 @@
       "mode": "RGB",
       "sha256": "81866123f465d6863d38066c736305349a210b5728ba1ea3f20bffdd5a91a4c3",
       "checkedAt": "2026-10-16T00:53:05.614176+00:00",
-      "websiteApproved": false,
+      "websiteApproved": true,
       "rightsStatus": "Founder explicitly confirmed this exact original and white derivatives for commercial Quest Luxo website use; no additional restrictions stated",
       "status": "Authentic retailer-hosted original; unchanged delivered bytes",
       "whiteMaster": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\uhr-snoopy-white\\310.32.42.50.02.001-white-master.png",
@@ -51,7 +51,7 @@
       "visualReviewPassed": true,
       "exactSkuVerified": true,
       "processing": "Classical connected exterior silhouette; original RGB preserved inside the complete watch. Only external background replaced. Centered2400 white master and1200WEB. No AI, recolouring or reconstruction.",
-      "reviewStatus": "Untouched612x835 RAW and final1200WEB individually reviewed. Whole genuine three-quarter watch and complete looped blue nylon strap; silver dial, blue registers and Snoopy9oClock match exact310.32.42.50.02.001 and existing catalog. Original photographed angle and detail preserved; no generated detail or reconstruction. Rights pending, not published.",
+      "reviewStatus": "Complete unchanged RAW and final white WEB individually reviewed; exact Silver Snoopy configuration; founder commercial-use rights confirmed and public publication verified",
       "reviewedAt": "2026-10-16T00:58:23.823168+00:00",
       "configurationEvidence": {
         "sourceUrl": "https://www.uhrinstinkt.de/products/omega-speedmaster-silver-snoopy-award-50th-anniversary-310-32-42-50-02-001-z101517",
@@ -74,12 +74,16 @@
       },
       "commercialUseRightsConfirmed": true,
       "rightsRecord": "PHOTOGRAPHY_SNOOPY_FOUNDER_RIGHTS_2026-10-15.json",
-      "publicationStatus": "Integrated; release checks and deployment pending"
+      "publicationStatus": "LIVE; exact configuration/grid/credits/inquiry and image hash verified",
+      "websitePublished": true
     }
   ],
   "archivedFiles": 3,
   "archiveStatus": "Complete unchanged RAW, reviewed white master andWEB archived. Exact new image rights pending; not published.",
   "approvedForPublication": true,
   "founderRightsRecord": "PHOTOGRAPHY_SNOOPY_FOUNDER_RIGHTS_2026-10-15.json",
-  "publicationStatus": "Integrated; checks and deployment pending"
+  "publicationStatus": "LIVE and independently production verified",
+  "liveCommit": "407790aa12c74ed9ee5a3228a71ffb0aea5c5a57",
+  "liveDeployId": "dep-db8onjjbc2fs738nta4g",
+  "founderRightsDriveFileId": "1s2dfnxeyhUFucEFL4IfgELLTd8QBi4PX"
 }

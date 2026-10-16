@@ -1,0 +1,1749 @@
+{
+  "archiveSha256": "251be93ab25d6a020a6d872ce33809137ba744363c5c66f7a4f22d50b0258bb4",
+  "primaryAppearances": 38,
+  "secondaryAppearances": 6,
+  "publishedImages": 0,
+  "privacy": "Full screenshot originals remain local; watch-only crops exclude conversation UI. No private contact data copied to this ledger.",
+  "watches": [
+    {
+      "id": "upload-01-tudor",
+      "sourceIndex": 1,
+      "brand": "Tudor",
+      "collection": "Black Bay",
+      "box": [
+        600,
+        0,
+        1430,
+        1152
+      ],
+      "identityCandidate": "M7941A1A0RU-0003",
+      "partialSource": true,
+      "secondaryAppearance": false,
+      "sourceFileName": "FB_IMG_1789318785687.jpg",
+      "sourceSha256": "328015bd59401608b13f38a0d7298f920a5968cc5cd47768c0512074fc6c3f0d",
+      "cropFileName": "upload-01-tudor.png",
+      "cropSha256": "f7a26f5b41dc2752aa2453f25077d4fdd44dd79e36c0fc363d24ed47efa57eb6",
+      "nativeCropSize": [
+        830,
+        1152
+      ],
+      "rightsStatus": "User supplied screenshot; underlying third-party commercial permission not separately documented",
+      "status": "Extracted; not approved for publication",
+      "holds": [
+        "Commercial-use evidence for underlying screenshot photograph",
+        "Full native-resolution authenticity, configuration and edge review",
+        "Incomplete original framing"
+      ],
+      "segmentationReviewFileName": "upload-01-tudor.jpg",
+      "segmentationStatus": "Manual exterior-guided classical mask retains visible source portions; review pending. Original incomplete framing remains held.",
+      "segmentationSha256": "081f55d2b1342df3d23a443d819ab3e472d9a06908db0ab24b63caaa0076b38b",
+      "verifiedCatalogReference": "M7941A1A0RU-0003",
+      "identitySource": "https://www.tudorwatch.com/en/watches/black-bay/m7941a1a0ru-0003",
+      "catalogBrandSlug": "tudor",
+      "catalogCollectionSlug": "black-bay",
+      "referenceProfileAdded": true,
+      "duplicateOf": "upload-05-tudor",
+      "alphaFileName": "upload-01-tudor.png",
+      "alphaSha256": "b237fdb9ef8aad918ea2fd1d40027ccb4b4a85be1acd2dd9d9f1b8b5c8106002",
+      "visualReview": "Individual1200canvas reviewed; visible source portions retained. Original strap framing incomplete. Not a whole-watch publication asset."
+    },
+    {
+      "id": "upload-02-hublot-ceramic",
+      "sourceIndex": 2,
+      "brand": "Hublot",
+      "collection": "Big Bang Unico",
+      "box": [
+        55,
+        95,
+        510,
+        775
+      ],
+      "identityCandidate": "411.OM.1180.RX",
+      "partialSource": false,
+      "secondaryAppearance": false,
+      "sourceFileName": "Screenshot_20260914_123538_Google.jpg",
+      "sourceSha256": "c267894618c15e1503ec5a3b33a06ff701caede98d5b5391431d18ecba9fba41",
+      "cropFileName": "upload-02-hublot-ceramic.png",
+      "cropSha256": "10ae12889600bcd03dfaf422fd09f3c188183f74e3483405d77b8f9e7f02f746",
+      "nativeCropSize": [
+        455,
+        680
+      ],
+      "rightsStatus": "User supplied screenshot; underlying third-party commercial permission not separately documented",
+      "status": "Extracted; not approved for publication",
+      "holds": [
+        "Commercial-use evidence for underlying screenshot photograph",
+        "Full native-resolution authenticity, configuration and edge review"
+      ],
+      "segmentationReviewFileName": "upload-02-hublot-ceramic.jpg",
+      "segmentationStatus": "Unapproved classical mask; needs individual edge review",
+      "segmentationSha256": "ba18b12fddf1c1d24208de3bad97fd049ff81ad4522fe464e2c40fc84f42785f",
+      "verifiedCatalogReference": "411.OM.1180.RX",
+      "identitySource": "https://www.prestigetime.com/Hublot-Big-Bang-UNICO-45mm-411-om-1180-rx.html",
+      "catalogBrandSlug": "hublot",
+      "catalogCollectionSlug": "big-bang-unico",
+      "referenceProfileAdded": true,
+      "alphaFileName": "upload-02-hublot-ceramic.png",
+      "alphaSha256": "44ec904b1fbfd1a95a99eafbc82a6ce2c7dcae19fc715edcc07bf3e3cdb77f93",
+      "visualReview": "Contact sheet reviewed. Prepared extraction only; native edge, whole-watch, authenticity and rights holds remain. No publication approval."
+    },
+    {
+      "id": "upload-02-hublot-gold",
+      "sourceIndex": 2,
+      "brand": "Hublot",
+      "collection": "Big Bang Unico",
+      "box": [
+        550,
+        32,
+        1055,
+        720
+      ],
+      "identityCandidate": "411.OX.1180.RX",
+      "partialSource": true,
+      "secondaryAppearance": false,
+      "sourceFileName": "Screenshot_20260914_123538_Google.jpg",
+      "sourceSha256": "c267894618c15e1503ec5a3b33a06ff701caede98d5b5391431d18ecba9fba41",
+      "cropFileName": "upload-02-hublot-gold.png",
+      "cropSha256": "70b08dd289c5a7706c8c3d2568bc91a57a0f157d72ff50219578ae9dde1b28e7",
+      "nativeCropSize": [
+        505,
+        688
+      ],
+      "rightsStatus": "User supplied screenshot; underlying third-party commercial permission not separately documented",
+      "status": "Extracted; not approved for publication",
+      "holds": [
+        "Commercial-use evidence for underlying screenshot photograph",
+        "Full native-resolution authenticity, configuration and edge review",
+        "Incomplete original framing"
+      ],
+      "segmentationReviewFileName": "upload-02-hublot-gold.jpg",
+      "segmentationStatus": "Unapproved classical mask; needs individual edge review",
+      "segmentationSha256": "2bc243275a47789365496fb34d880d8e30e47668f34b5d645b26f7908beab454",
+      "verifiedCatalogReference": "411.OX.1180.RX",
+      "identitySource": "https://www.thewatchagency.com/hublot/bb-king/411-ox-1180-rx/62648",
+      "catalogBrandSlug": "hublot",
+      "catalogCollectionSlug": "big-bang-unico",
+      "referenceProfileAdded": true,
+      "alphaFileName": "upload-02-hublot-gold.png",
+      "alphaSha256": "52c6f46ccea5c67186451614b704faa4baf95fbcb4cfb6a9e7128307eda93f6c",
+      "visualReview": "Contact sheet reviewed. Prepared extraction only; native edge, whole-watch, authenticity and rights holds remain. No publication approval."
+    },
+    {
+      "id": "upload-03-vc",
+      "sourceIndex": 3,
+      "brand": "Vacheron Constantin",
+      "collection": "Overseas",
+      "box": [
+        0,
+        950,
+        350,
+        1565
+      ],
+      "identityCandidate": "black graphic: exact reference verification pending",
+      "partialSource": true,
+      "secondaryAppearance": false,
+      "sourceFileName": "Screenshot_20261015_223835_Instagram.jpg",
+      "sourceSha256": "6786cf4b6f7e15dd0aaa554a2b76dd991ea30b3a68727311c604718438adff67",
+      "cropFileName": "upload-03-vc.png",
+      "cropSha256": "fe59ed1d6c54b39d09a5a532be9158b5e891ecec1677ce6cac861740d15a606d",
+      "nativeCropSize": [
+        350,
+        615
+      ],
+      "rightsStatus": "User supplied screenshot; underlying third-party commercial permission not separately documented",
+      "status": "Extracted; not approved for publication",
+      "holds": [
+        "Source authenticity and exact configuration review",
+        "Commercial-use evidence",
+        "Incomplete original framing",
+        "4500V versus 4520V generation and full black-dial SKU unresolved."
+      ],
+      "segmentationReviewFileName": "upload-03-vc.jpg",
+      "segmentationStatus": "Unapproved classical mask; needs individual edge review",
+      "segmentationSha256": "cd32ef930b153cb45965aaeff6dad814855b4760d163b434846a1982c98b988a",
+      "identityHold": "4500V versus 4520V generation and full black-dial SKU unresolved.",
+      "alphaFileName": "upload-03-vc.png",
+      "alphaSha256": "27a543bc2a2caa379bdbe3f93be63a8dad86dfcac174d62fa2bd424fa2f35fcc",
+      "visualReview": "Contact sheet reviewed. Prepared extraction only; native edge, whole-watch, authenticity and rights holds remain. No publication approval."
+    },
+    {
+      "id": "upload-03-patek",
+      "sourceIndex": 3,
+      "brand": "Patek Philippe",
+      "collection": "Aquanaut",
+      "box": [
+        358,
+        950,
+        727,
+        1565
+      ],
+      "identityCandidate": "5167/1A-001",
+      "partialSource": false,
+      "secondaryAppearance": false,
+      "sourceFileName": "Screenshot_20261015_223835_Instagram.jpg",
+      "sourceSha256": "6786cf4b6f7e15dd0aaa554a2b76dd991ea30b3a68727311c604718438adff67",
+      "cropFileName": "upload-03-patek.png",
+      "cropSha256": "cc1f6af9045ef97995a818519656acddeca58d507dd8d0abb0e91a5123fa225e",
+      "nativeCropSize": [
+        369,
+        615
+      ],
+      "rightsStatus": "User supplied screenshot; underlying third-party commercial permission not separately documented",
+      "status": "Extracted; not approved for publication",
+      "holds": [
+        "Commercial-use evidence for underlying screenshot photograph",
+        "Full native-resolution authenticity, configuration and edge review"
+      ],
+      "segmentationReviewFileName": "upload-03-patek.jpg",
+      "segmentationStatus": "Unapproved classical mask; needs individual edge review",
+      "segmentationSha256": "91f7033b7355ddea97017b2948cbbcfc1e916f0aa715f6ace7d6530ee19c4c9a",
+      "verifiedCatalogReference": "5167/1A-001",
+      "identitySource": "https://static.patek.com/pdf/catalogs/PatekPhilippe_Watch_Art_Tokyo_2023_Catalog_EN.pdf",
+      "catalogBrandSlug": "patek-philippe",
+      "catalogCollectionSlug": "aquanaut",
+      "referenceProfileAdded": true,
+      "alphaFileName": "upload-03-patek.png",
+      "alphaSha256": "497dbe0040e04bb129491d4c784e485403e41ed0bb6f168324789912aff52795",
+      "visualReview": "Contact sheet reviewed. Prepared extraction only; native edge, whole-watch, authenticity and rights holds remain. No publication approval."
+    },
+    {
+      "id": "upload-03-ap",
+      "sourceIndex": 3,
+      "brand": "Audemars Piguet",
+      "collection": "Royal Oak",
+      "box": [
+        735,
+        950,
+        1080,
+        1565
+      ],
+      "identityCandidate": "black graphic: exact reference verification pending",
+      "partialSource": false,
+      "secondaryAppearance": false,
+      "sourceFileName": "Screenshot_20261015_223835_Instagram.jpg",
+      "sourceSha256": "6786cf4b6f7e15dd0aaa554a2b76dd991ea30b3a68727311c604718438adff67",
+      "cropFileName": "upload-03-ap.png",
+      "cropSha256": "07adf38fe1706ed1767a8949e7b4119adfa07db68275e9726f59cd2923618b97",
+      "nativeCropSize": [
+        345,
+        615
+      ],
+      "rightsStatus": "User supplied screenshot; underlying third-party commercial permission not separately documented",
+      "status": "Extracted; not approved for publication",
+      "holds": [
+        "Source authenticity and exact configuration review",
+        "Commercial-use evidence",
+        "15400ST versus 15500ST generation and full black-dial SKU unresolved."
+      ],
+      "segmentationReviewFileName": "upload-03-ap.jpg",
+      "segmentationStatus": "Unapproved classical mask; needs individual edge review",
+      "segmentationSha256": "7e352106b08ef737651815b66b6f0c9458e56b2e9afd9a0edb6cff69a7e51b40",
+      "identityHold": "15400ST versus 15500ST generation and full black-dial SKU unresolved.",
+      "alphaFileName": "upload-03-ap.png",
+      "alphaSha256": "c853faebfd853ebdf5a0f2ed2023d2650a312144118280c2fa937a42c743a816",
+      "visualReview": "Contact sheet reviewed. Prepared extraction only; native edge, whole-watch, authenticity and rights holds remain. No publication approval."
+    },
+    {
+      "id": "upload-09-vc",
+      "sourceIndex": 9,
+      "brand": "Vacheron Constantin",
+      "collection": "Patrimony",
+      "box": [
+        0,
+        950,
+        350,
+        1555
+      ],
+      "identityCandidate": "4000U/000P-H003",
+      "partialSource": false,
+      "secondaryAppearance": false,
+      "sourceFileName": "Screenshot_20261015_223840_Instagram.jpg",
+      "sourceSha256": "78735faae70934ebc8cfca09743628fe8994340a4b4ba3d405b89e3e27fe0e22",
+      "cropFileName": "upload-09-vc.png",
+      "cropSha256": "76de3e0df586d5bf7263de9a1abb3a8ec037e3627ff3034190a05110a82d09b9",
+      "nativeCropSize": [
+        350,
+        605
+      ],
+      "rightsStatus": "User supplied screenshot; underlying third-party commercial permission not separately documented",
+      "status": "Extracted; not approved for publication",
+      "holds": [
+        "Commercial-use evidence for underlying screenshot photograph",
+        "Full native-resolution authenticity, configuration and edge review"
+      ],
+      "segmentationReviewFileName": "upload-09-vc.jpg",
+      "segmentationStatus": "Unapproved classical mask; needs individual edge review",
+      "segmentationSha256": "84ec986b84d13cb07ea38bbe8f69b635662e1aab0ccb80715d3d23109c235360",
+      "verifiedCatalogReference": "4000U/000P-H003",
+      "identitySource": "https://www.vacheron-constantin.com/ca/en/collections/patrimony/4000u-000p-h003.html",
+      "catalogBrandSlug": "vacheron-constantin",
+      "catalogCollectionSlug": "patrimony",
+      "referenceProfileAdded": true,
+      "alphaFileName": "upload-09-vc.png",
+      "alphaSha256": "5c457a336489727dbbac694d2afa5abcf28dfe1815aa0e4f5a66b9b9eaf99200",
+      "visualReview": "Contact sheet reviewed. Prepared extraction only; native edge, whole-watch, authenticity and rights holds remain. No publication approval."
+    },
+    {
+      "id": "upload-09-patek",
+      "sourceIndex": 9,
+      "brand": "Patek Philippe",
+      "collection": "Complications",
+      "box": [
+        358,
+        950,
+        727,
+        1555
+      ],
+      "identityCandidate": "salmon graphic: exact reference verification pending",
+      "partialSource": false,
+      "secondaryAppearance": false,
+      "sourceFileName": "Screenshot_20261015_223840_Instagram.jpg",
+      "sourceSha256": "78735faae70934ebc8cfca09743628fe8994340a4b4ba3d405b89e3e27fe0e22",
+      "cropFileName": "upload-09-patek.png",
+      "cropSha256": "6bd53f05079d241e7a3572aada33ca1dcbb49d94ee1fbbf3425c19d7407a6e26",
+      "nativeCropSize": [
+        369,
+        605
+      ],
+      "rightsStatus": "User supplied screenshot; underlying third-party commercial permission not separately documented",
+      "status": "Extracted; not approved for publication",
+      "holds": [
+        "Source authenticity and exact configuration review",
+        "Commercial-use evidence",
+        "Salmon calendar graphic lacks verified exact manufacturer configuration. Do not infer 5396G suffix."
+      ],
+      "segmentationReviewFileName": "upload-09-patek.jpg",
+      "segmentationStatus": "Unapproved classical mask; needs individual edge review",
+      "segmentationSha256": "290845b314a13f79f58aa1c881d2bad74afd02db7bb47e3abba865d70733b8bb",
+      "identityHold": "Salmon calendar graphic lacks verified exact manufacturer configuration. Do not infer 5396G suffix.",
+      "alphaFileName": "upload-09-patek.png",
+      "alphaSha256": "3d14426558655c4ec083f45461a8eea501df657a41c1d6f8f9ea0befbbf133d2",
+      "visualReview": "Contact sheet reviewed. Prepared extraction only; native edge, whole-watch, authenticity and rights holds remain. No publication approval."
+    },
+    {
+      "id": "upload-09-ap",
+      "sourceIndex": 9,
+      "brand": "Audemars Piguet",
+      "collection": "Royal Oak",
+      "box": [
+        735,
+        950,
+        1080,
+        1555
+      ],
+      "identityCandidate": "26615TI.OO.1220TI.01",
+      "partialSource": false,
+      "secondaryAppearance": false,
+      "sourceFileName": "Screenshot_20261015_223840_Instagram.jpg",
+      "sourceSha256": "78735faae70934ebc8cfca09743628fe8994340a4b4ba3d405b89e3e27fe0e22",
+      "cropFileName": "upload-09-ap.png",
+      "cropSha256": "397f0a8e67e89504405dc93ddb9d4edec22adf51f07bd574d1184d8436a39544",
+      "nativeCropSize": [
+        345,
+        605
+      ],
+      "rightsStatus": "User supplied screenshot; underlying third-party commercial permission not separately documented",
+      "status": "Extracted; not approved for publication",
+      "holds": [
+        "Commercial-use evidence for underlying screenshot photograph",
+        "Full native-resolution authenticity, configuration and edge review"
+      ],
+      "segmentationReviewFileName": "upload-09-ap.jpg",
+      "segmentationStatus": "Unapproved classical mask; needs individual edge review",
+      "segmentationSha256": "60a89dc5416ec3302406a9d824b6ddb8eb27d8ef2841e4825612dfab7fd16f5b",
+      "verifiedCatalogReference": "26615TI.OO.1220TI.01",
+      "identitySource": "https://www.audemarspiguet.com/zh-hans/watch-collection/royal-oak/26615TI.OO.1220TI.01",
+      "catalogBrandSlug": "audemars-piguet",
+      "catalogCollectionSlug": "royal-oak",
+      "referenceProfileAdded": true,
+      "alphaFileName": "upload-09-ap.png",
+      "alphaSha256": "c777e16761cb3e5c424db4fe97b23924cc8fabd4437ca2331f40a8be8b304c3b",
+      "visualReview": "Contact sheet reviewed. Prepared extraction only; native edge, whole-watch, authenticity and rights holds remain. No publication approval."
+    },
+    {
+      "id": "upload-11-vc",
+      "sourceIndex": 11,
+      "brand": "Vacheron Constantin",
+      "collection": "Overseas",
+      "box": [
+        0,
+        950,
+        350,
+        1565
+      ],
+      "identityCandidate": "4300V/220G-H151",
+      "partialSource": true,
+      "secondaryAppearance": false,
+      "sourceFileName": "Screenshot_20261015_223830_Instagram.jpg",
+      "sourceSha256": "7309c64222df88f07259b7ca72a2890f59ade88250a3222d9b5267efe8a730ee",
+      "cropFileName": "upload-11-vc.png",
+      "cropSha256": "22394b8a84144a532aa44e424458cd17d7a2eebb5832c216e51be5a42f69b0fb",
+      "nativeCropSize": [
+        350,
+        615
+      ],
+      "rightsStatus": "User supplied screenshot; underlying third-party commercial permission not separately documented",
+      "status": "Extracted; not approved for publication",
+      "holds": [
+        "Commercial-use evidence for underlying screenshot photograph",
+        "Full native-resolution authenticity, configuration and edge review"
+      ],
+      "segmentationReviewFileName": "upload-11-vc.jpg",
+      "segmentationStatus": "Unapproved classical mask; needs individual edge review",
+      "segmentationSha256": "7582ac181fa3e59b1cf516b84c16c3ecdba4831e170c2a192163a889de270d4b",
+      "verifiedCatalogReference": "4300V/220G-H151",
+      "identitySource": "https://www.vacheron-constantin.com/ww/en/collections/overseas/4300v-220g-h151.html",
+      "catalogBrandSlug": "vacheron-constantin",
+      "catalogCollectionSlug": "overseas",
+      "referenceProfileAdded": true,
+      "identityReview": "Exact manufacturer/retailer configuration established; earlier candidate uncertainty superseded. No photo publication approval implied.",
+      "alphaFileName": "upload-11-vc.png",
+      "alphaSha256": "4ef1df2668f2ccf005237ad16c104edf9906d6c3d4cef6fee5c861fb650e42fd",
+      "visualReview": "Contact sheet reviewed. Prepared extraction only; native edge, whole-watch, authenticity and rights holds remain. No publication approval."
+    },
+    {
+      "id": "upload-11-patek",
+      "sourceIndex": 11,
+      "brand": "Patek Philippe",
+      "collection": "Complications",
+      "box": [
+        358,
+        950,
+        727,
+        1565
+      ],
+      "identityCandidate": "red graphic: exact reference verification pending",
+      "partialSource": false,
+      "secondaryAppearance": false,
+      "sourceFileName": "Screenshot_20261015_223830_Instagram.jpg",
+      "sourceSha256": "7309c64222df88f07259b7ca72a2890f59ade88250a3222d9b5267efe8a730ee",
+      "cropFileName": "upload-11-patek.png",
+      "cropSha256": "98947ce656b47c502e7172ab8ccd0e5d66a70f15d818bdad91db37c8a32106e7",
+      "nativeCropSize": [
+        369,
+        615
+      ],
+      "rightsStatus": "User supplied screenshot; underlying third-party commercial permission not separately documented",
+      "status": "Extracted; not approved for publication",
+      "holds": [
+        "Source authenticity and exact configuration review",
+        "Commercial-use evidence",
+        "Red perpetual-calendar chronograph graphic exact manufacturer dial/SKU not established."
+      ],
+      "segmentationReviewFileName": "upload-11-patek.jpg",
+      "segmentationStatus": "Unapproved classical mask; needs individual edge review",
+      "segmentationSha256": "844944e04c2610412d643a0e107e3a191507497da8dc86c5b0c5d7fd74a96c4b",
+      "identityHold": "Red perpetual-calendar chronograph graphic exact manufacturer dial/SKU not established.",
+      "alphaFileName": "upload-11-patek.png",
+      "alphaSha256": "b55a30934545558b4e428646968fd543b24f26fb378d10e1fb88f5883dc99671",
+      "visualReview": "Contact sheet reviewed. Prepared extraction only; native edge, whole-watch, authenticity and rights holds remain. No publication approval."
+    },
+    {
+      "id": "upload-11-ap",
+      "sourceIndex": 11,
+      "brand": "Audemars Piguet",
+      "collection": "Royal Oak",
+      "box": [
+        735,
+        950,
+        1080,
+        1565
+      ],
+      "identityCandidate": "26607BC.OO.1220BC.01",
+      "partialSource": false,
+      "secondaryAppearance": false,
+      "sourceFileName": "Screenshot_20261015_223830_Instagram.jpg",
+      "sourceSha256": "7309c64222df88f07259b7ca72a2890f59ade88250a3222d9b5267efe8a730ee",
+      "cropFileName": "upload-11-ap.png",
+      "cropSha256": "14fd5b3ce70cd5a0ed6af411d400cbacf75ed7c6ace99b76993eeda90b742987",
+      "nativeCropSize": [
+        345,
+        615
+      ],
+      "rightsStatus": "User supplied screenshot; underlying third-party commercial permission not separately documented",
+      "status": "Extracted; not approved for publication",
+      "holds": [
+        "Commercial-use evidence for underlying screenshot photograph",
+        "Full native-resolution authenticity, configuration and edge review"
+      ],
+      "segmentationReviewFileName": "upload-11-ap.jpg",
+      "segmentationStatus": "Unapproved classical mask; needs individual edge review",
+      "segmentationSha256": "40b92ecf395b860c3a85b3b055fe457ecb800b8538c9edb5f5f3828db44989b3",
+      "verifiedCatalogReference": "26607BC.OO.1220BC.01",
+      "identitySource": "https://wristcheck.com/us/buy/audemars-piguet/royal-oak-41-white-gold-red-dial-26607bcoo1220bc01",
+      "catalogBrandSlug": "audemars-piguet",
+      "catalogCollectionSlug": "royal-oak",
+      "referenceProfileAdded": true,
+      "alphaFileName": "upload-11-ap.png",
+      "alphaSha256": "63d1fdae48fafcde795bc6e3c534933ae4653c99b1ad22b8f492d9ca00f44a35",
+      "visualReview": "Contact sheet reviewed. Prepared extraction only; native edge, whole-watch, authenticity and rights holds remain. No publication approval."
+    },
+    {
+      "id": "upload-14-vc",
+      "sourceIndex": 14,
+      "brand": "Vacheron Constantin",
+      "collection": "Overseas",
+      "box": [
+        0,
+        970,
+        350,
+        1570
+      ],
+      "identityCandidate": "blue graphic: exact reference verification pending",
+      "partialSource": true,
+      "secondaryAppearance": false,
+      "sourceFileName": "Screenshot_20261015_223826_Instagram.jpg",
+      "sourceSha256": "ac8b4b69a418a52f6d5fb9c96fa55788c2a73e3598a0c7925609b02b62c45129",
+      "cropFileName": "upload-14-vc.png",
+      "cropSha256": "642592725c1f7199be697f9777b6fd99bf4e2d965397179e1a12a2276a5f4127",
+      "nativeCropSize": [
+        350,
+        600
+      ],
+      "rightsStatus": "User supplied screenshot; underlying third-party commercial permission not separately documented",
+      "status": "Extracted; not approved for publication",
+      "holds": [
+        "Source authenticity and exact configuration review",
+        "Commercial-use evidence",
+        "Incomplete original framing",
+        "Blue Overseas dual-time graphic; 7900V versus 7920V generation unresolved. Not the moonphase-retrograde model."
+      ],
+      "segmentationReviewFileName": "upload-14-vc.jpg",
+      "segmentationStatus": "Unapproved classical mask; needs individual edge review",
+      "segmentationSha256": "96896cff37e9ebbe709b2479fb2c363dc48297ff8614e929ebe70ac5dada8fa9",
+      "identityHold": "Blue Overseas dual-time graphic; 7900V versus 7920V generation unresolved. Not the moonphase-retrograde model.",
+      "alphaFileName": "upload-14-vc.png",
+      "alphaSha256": "ff42853df6a4518ec14420934f422b84cf9e7a0f4586228a967e87ed4070a0bf",
+      "visualReview": "Contact sheet reviewed. Prepared extraction only; native edge, whole-watch, authenticity and rights holds remain. No publication approval."
+    },
+    {
+      "id": "upload-14-patek",
+      "sourceIndex": 14,
+      "brand": "Patek Philippe",
+      "collection": "Complications",
+      "box": [
+        358,
+        970,
+        727,
+        1570
+      ],
+      "identityCandidate": "5327G-001",
+      "partialSource": false,
+      "secondaryAppearance": false,
+      "sourceFileName": "Screenshot_20261015_223826_Instagram.jpg",
+      "sourceSha256": "ac8b4b69a418a52f6d5fb9c96fa55788c2a73e3598a0c7925609b02b62c45129",
+      "cropFileName": "upload-14-patek.png",
+      "cropSha256": "87f42f910290056d06af0fe76e22d745d26680671c4e8f99e6c16166ed92789b",
+      "nativeCropSize": [
+        369,
+        600
+      ],
+      "rightsStatus": "User supplied screenshot; underlying third-party commercial permission not separately documented",
+      "status": "Extracted; not approved for publication",
+      "holds": [
+        "Commercial-use evidence for underlying screenshot photograph",
+        "Full native-resolution authenticity, configuration and edge review"
+      ],
+      "segmentationReviewFileName": "upload-14-patek.jpg",
+      "segmentationStatus": "Unapproved classical mask; needs individual edge review",
+      "segmentationSha256": "a438f1becef9aa9dd803244895e53f7e4c5c0fabf15a52960a032b7e66066a66",
+      "verifiedCatalogReference": "5327G-001",
+      "identitySource": "https://www.patek.com/en/collection/grand-complications/5327G-001",
+      "catalogBrandSlug": "patek-philippe",
+      "catalogCollectionSlug": "grand-complications",
+      "referenceProfileAdded": true,
+      "alphaFileName": "upload-14-patek.png",
+      "alphaSha256": "672d38918dfdee7e30580e507aa23733d1bc1bd9f810560cb165cd1a63f13f0d",
+      "visualReview": "Contact sheet reviewed. Prepared extraction only; native edge, whole-watch, authenticity and rights holds remain. No publication approval."
+    },
+    {
+      "id": "upload-14-ap",
+      "sourceIndex": 14,
+      "brand": "Audemars Piguet",
+      "collection": "Code 11.59",
+      "box": [
+        735,
+        970,
+        1080,
+        1570
+      ],
+      "identityCandidate": "26393BC.OO.A321CR.01",
+      "partialSource": false,
+      "secondaryAppearance": false,
+      "sourceFileName": "Screenshot_20261015_223826_Instagram.jpg",
+      "sourceSha256": "ac8b4b69a418a52f6d5fb9c96fa55788c2a73e3598a0c7925609b02b62c45129",
+      "cropFileName": "upload-14-ap.png",
+      "cropSha256": "02021b53a8c9faef2f1ff5fa5565e8bdf7753a381df34d8fd200b8d294079222",
+      "nativeCropSize": [
+        345,
+        600
+      ],
+      "rightsStatus": "User supplied screenshot; underlying third-party commercial permission not separately documented",
+      "status": "Extracted; not approved for publication",
+      "holds": [
+        "Commercial-use evidence for underlying screenshot photograph",
+        "Full native-resolution authenticity, configuration and edge review"
+      ],
+      "segmentationReviewFileName": "upload-14-ap.jpg",
+      "segmentationStatus": "Unapproved classical mask; needs individual edge review",
+      "segmentationSha256": "6c489df2346761ab1fc2f2190718c810ba32043963faeeaccca53ede9467597a",
+      "verifiedCatalogReference": "26393BC.OO.A321CR.01",
+      "identitySource": "https://www.audemarspiguet.com/com/en/watch-collection/code-1159/26393BC.OO.A321CR.01.html",
+      "catalogBrandSlug": "audemars-piguet",
+      "catalogCollectionSlug": "code-1159",
+      "referenceProfileAdded": true,
+      "alphaFileName": "upload-14-ap.png",
+      "alphaSha256": "69db0c744c3d663bd37ceb83845d21e203eddfcb7ee97707d9737fc88f627474",
+      "visualReview": "Contact sheet reviewed. Prepared extraction only; native edge, whole-watch, authenticity and rights holds remain. No publication approval."
+    },
+    {
+      "id": "upload-12-vc",
+      "sourceIndex": 12,
+      "brand": "Vacheron Constantin",
+      "collection": "Traditionnelle",
+      "box": [
+        0,
+        835,
+        350,
+        1430
+      ],
+      "identityCandidate": "6000T/000P-H025",
+      "partialSource": true,
+      "secondaryAppearance": false,
+      "sourceFileName": "Screenshot_20261015_223820_Instagram.jpg",
+      "sourceSha256": "04a4179eb7b9687c51961e88ca02fb8701070df9516bfbb90000e3baa7e90495",
+      "cropFileName": "upload-12-vc.png",
+      "cropSha256": "fa49d2ca51e6ce56e6a935097b9cdb8dd2d2595db99d91d66a00ea6759896990",
+      "nativeCropSize": [
+        350,
+        595
+      ],
+      "rightsStatus": "User supplied screenshot; underlying third-party commercial permission not separately documented",
+      "status": "Extracted; not approved for publication",
+      "holds": [
+        "Commercial-use evidence for underlying screenshot photograph",
+        "Full native-resolution authenticity, configuration and edge review",
+        "Incomplete original framing"
+      ],
+      "segmentationReviewFileName": "upload-12-vc.jpg",
+      "segmentationStatus": "Unapproved classical mask; needs individual edge review",
+      "segmentationSha256": "5c9c1d22205155d96603f785dfcac114bedb40ba79d181dff27b39fd8b97ca8e",
+      "verifiedCatalogReference": "6000T/000P-H025",
+      "identitySource": "https://www.vacheron-constantin.com/ww/de/collections/traditionnelle/6000t-000p-h025.html",
+      "catalogBrandSlug": "vacheron-constantin",
+      "catalogCollectionSlug": "traditionnelle",
+      "referenceProfileAdded": true,
+      "alphaFileName": "upload-12-vc.png",
+      "alphaSha256": "83ad019c0864ea6284d2d6dca14f84041145f46da1d724ff51f9c55d79e321cd",
+      "visualReview": "Contact sheet reviewed. Prepared extraction only; native edge, whole-watch, authenticity and rights holds remain. No publication approval."
+    },
+    {
+      "id": "upload-12-patek",
+      "sourceIndex": 12,
+      "brand": "Patek Philippe",
+      "collection": "Complications",
+      "box": [
+        358,
+        835,
+        727,
+        1430
+      ],
+      "identityCandidate": "green graphic: exact reference verification pending",
+      "partialSource": false,
+      "secondaryAppearance": false,
+      "sourceFileName": "Screenshot_20261015_223820_Instagram.jpg",
+      "sourceSha256": "04a4179eb7b9687c51961e88ca02fb8701070df9516bfbb90000e3baa7e90495",
+      "cropFileName": "upload-12-patek.png",
+      "cropSha256": "d2698f24360d2df73053d00b27043661f4fc1a5166b509e2fb92e732678c0baf",
+      "nativeCropSize": [
+        369,
+        595
+      ],
+      "rightsStatus": "User supplied screenshot; underlying third-party commercial permission not separately documented",
+      "status": "Extracted; not approved for publication",
+      "holds": [
+        "Source authenticity and exact configuration review",
+        "Commercial-use evidence",
+        "Green Breguet-numeral calendar graphic has no verified matching manufacturer reference; possible altered graphic; authenticity hold."
+      ],
+      "segmentationReviewFileName": "upload-12-patek.jpg",
+      "segmentationStatus": "Unapproved classical mask; needs individual edge review",
+      "segmentationSha256": "987700dbb82ae55bdf4d19f1433cd7958d9adf5fc4593ff7f2ea3be73de94371",
+      "identityHold": "Green Breguet-numeral calendar graphic has no verified matching manufacturer reference; possible altered graphic; authenticity hold.",
+      "alphaFileName": "upload-12-patek.png",
+      "alphaSha256": "c6f77c074d1d7327862ea1d2f5ef0a329cd1fff611e9910bcf29d5e348caee29",
+      "visualReview": "Contact sheet reviewed. Prepared extraction only; native edge, whole-watch, authenticity and rights holds remain. No publication approval."
+    },
+    {
+      "id": "upload-12-ap",
+      "sourceIndex": 12,
+      "brand": "Audemars Piguet",
+      "collection": "Code 11.59",
+      "box": [
+        735,
+        835,
+        1080,
+        1430
+      ],
+      "identityCandidate": "green graphic: exact reference verification pending",
+      "partialSource": false,
+      "secondaryAppearance": false,
+      "sourceFileName": "Screenshot_20261015_223820_Instagram.jpg",
+      "sourceSha256": "04a4179eb7b9687c51961e88ca02fb8701070df9516bfbb90000e3baa7e90495",
+      "cropFileName": "upload-12-ap.png",
+      "cropSha256": "5ef2e553113cd1f7a79c5c76b3db96db1226dbcde7310c0d215777594a4a50b7",
+      "nativeCropSize": [
+        345,
+        595
+      ],
+      "rightsStatus": "User supplied screenshot; underlying third-party commercial permission not separately documented",
+      "status": "Extracted; not approved for publication",
+      "holds": [
+        "Source authenticity and exact configuration review",
+        "Commercial-use evidence"
+      ],
+      "segmentationReviewFileName": "upload-12-ap.jpg",
+      "segmentationStatus": "Unapproved classical mask; needs individual edge review",
+      "segmentationSha256": "8d2c1b6085f3072518a12517c72457c14e8b1bc191cae7ce15d2d9440511c355",
+      "existingCatalogReference": "Code 11.59 Chronograph",
+      "verifiedUnderlyingReference": "26393OR.OO.A056KB.01",
+      "identitySource": "https://www.audemarspiguet.com/us/en/watch-collection/code-1159/26393OR.OO.A056KB.01",
+      "nextAction": "Retain existing cleared catalog photograph; do not replace with screenshot or create duplicate profile.",
+      "alphaFileName": "upload-12-ap.png",
+      "alphaSha256": "3501f86e0b4b91a1ae11169c19a54b3e93f0ba4512718dda25ae6a7c2fece3ba",
+      "visualReview": "Contact sheet reviewed. Prepared extraction only; native edge, whole-watch, authenticity and rights holds remain. No publication approval."
+    },
+    {
+      "id": "upload-04-planet-ocean",
+      "sourceIndex": 4,
+      "brand": "Omega",
+      "collection": "Planet Ocean",
+      "box": [
+        240,
+        48,
+        865,
+        875
+      ],
+      "identityCandidate": "232.63.42.21.01.001",
+      "partialSource": true,
+      "secondaryAppearance": false,
+      "sourceFileName": "Screenshot_20260914_123351_Gmail.jpg",
+      "sourceSha256": "9a814119475684a549ddb356c97d5038059c476887af768e66224c041830803a",
+      "cropFileName": "upload-04-planet-ocean.png",
+      "cropSha256": "0bd5933c0df19ada6ba948bc38d311735c3f57144d906d01afeb219f815ea881",
+      "nativeCropSize": [
+        625,
+        827
+      ],
+      "rightsStatus": "User supplied screenshot; underlying third-party commercial permission not separately documented",
+      "status": "Extracted; not approved for publication",
+      "holds": [
+        "Commercial-use evidence for underlying screenshot photograph",
+        "Full native-resolution authenticity, configuration and edge review",
+        "Incomplete original framing"
+      ],
+      "segmentationReviewFileName": "upload-04-planet-ocean.jpg",
+      "segmentationStatus": "Manual exterior-guided classical mask retains visible source portions; review pending. Original incomplete framing remains held.",
+      "segmentationSha256": "7a31a104ec053609dd56e3fb337c20f56872ea94e6ea827ad619962b657519aa",
+      "verifiedCatalogReference": "232.63.42.21.01.001",
+      "identitySource": "https://www.omegawatches.com.hk/en-hk/watch-omega-seamaster-planet-ocean-600m-omega-co-axial-42-mm-23263422101001",
+      "catalogBrandSlug": "omega",
+      "catalogCollectionSlug": "planet-ocean",
+      "referenceProfileAdded": true,
+      "alphaFileName": "upload-04-planet-ocean.png",
+      "alphaSha256": "163d92b9fa7a7e96c83a16dd3a97dd950ba533843250dcc97ba6644b0335f764",
+      "visualReview": "Individual1200canvas reviewed; visible source portions retained. Original strap framing incomplete. Not a whole-watch publication asset."
+    },
+    {
+      "id": "upload-05-tudor",
+      "sourceIndex": 5,
+      "brand": "Tudor",
+      "collection": "Black Bay",
+      "box": [
+        95,
+        105,
+        770,
+        1160
+      ],
+      "identityCandidate": "M7941A1A0RU-0003",
+      "partialSource": false,
+      "secondaryAppearance": false,
+      "sourceFileName": "Screenshot_20260912_193325_Chrome.jpg",
+      "sourceSha256": "a37b146ea2cc6f055c611bfd08ad74ccd8ca89e74e7f64c5046e5f812f8a0eea",
+      "cropFileName": "upload-05-tudor.png",
+      "cropSha256": "69780fb63d043d968b35c707838632d2bdd9f2660ca6addc45997f25f16eff83",
+      "nativeCropSize": [
+        675,
+        1055
+      ],
+      "rightsStatus": "User supplied screenshot; underlying third-party commercial permission not separately documented",
+      "status": "Extracted; not approved for publication",
+      "holds": [
+        "Commercial-use evidence for underlying screenshot photograph",
+        "Full native-resolution authenticity, configuration and edge review"
+      ],
+      "segmentationReviewFileName": "upload-05-tudor.jpg",
+      "segmentationStatus": "Reprocessed external white-background contour preserving full five-link bracelet; individual visual review pending",
+      "segmentationSha256": "6d2a54696deb6839c79fdb27e7439184a0b0840d4ded825d375b7529b9f11297",
+      "verifiedCatalogReference": "M7941A1A0RU-0003",
+      "identitySource": "https://www.tudorwatch.com/en/watches/black-bay/m7941a1a0ru-0003",
+      "catalogBrandSlug": "tudor",
+      "catalogCollectionSlug": "black-bay",
+      "referenceProfileAdded": true,
+      "alphaFileName": "upload-05-tudor.png",
+      "alphaSha256": "6be072126c5ec0f979627bcbf09c8cb1e852ebda5e30352c5b3e2f24945ea422",
+      "visualReview": "Full1200canvas reviewed after preserving five-link steel bracelet. Watch complete and centered; minor source shadow retained. Underlying commercial-use evidence remains undocumented."
+    },
+    {
+      "id": "upload-06-ceramic-diver",
+      "sourceIndex": 6,
+      "brand": "Omega",
+      "collection": "Seamaster Diver 300M",
+      "box": [
+        265,
+        495,
+        718,
+        1210
+      ],
+      "identityCandidate": "210.62.44.20.01.001",
+      "partialSource": false,
+      "secondaryAppearance": false,
+      "sourceFileName": "Screenshot_20260914_053115_WhatsApp.jpg",
+      "sourceSha256": "0b67d7fc5808a8ca3f5a52eaa8dcf6c700cc2c124cd6831cb530d705cae9af90",
+      "cropFileName": "upload-06-ceramic-diver.png",
+      "cropSha256": "fdb9acc8ed969bd6f8d69f6594fa1772aa71e3c5bf6724ca1dc2f4bc85b146a7",
+      "nativeCropSize": [
+        453,
+        715
+      ],
+      "rightsStatus": "User supplied screenshot; underlying third-party commercial permission not separately documented",
+      "status": "Extracted; not approved for publication",
+      "holds": [
+        "Commercial-use evidence for underlying screenshot photograph",
+        "Full native-resolution authenticity, configuration and edge review"
+      ],
+      "segmentationReviewFileName": "upload-06-ceramic-diver.jpg",
+      "segmentationStatus": "Unapproved classical mask; needs individual edge review",
+      "segmentationSha256": "9bfceb11624984584ff07651d4034049e584bfc6619c4f80434391f4ebb5711b",
+      "verifiedCatalogReference": "210.62.44.20.01.001",
+      "identitySource": "https://www.omegawatches.com.hk/en-hk/watch-omega-seamaster-diver-300m-co-axial-master-chronometer-43-5-mm-21062442001001",
+      "catalogBrandSlug": "omega",
+      "catalogCollectionSlug": "seamaster",
+      "referenceProfileAdded": true,
+      "alphaFileName": "upload-06-ceramic-diver.png",
+      "alphaSha256": "cf830827d4401141de7efb86739c1f3429dee855b15ca5a7a8bd99150e8d6458",
+      "visualReview": "Contact sheet reviewed. Prepared extraction only; native edge, whole-watch, authenticity and rights holds remain. No publication approval."
+    },
+    {
+      "id": "upload-07-diver-chrono",
+      "sourceIndex": 7,
+      "brand": "Ulysse Nardin",
+      "collection": "Diver",
+      "box": [
+        45,
+        180,
+        1045,
+        1525
+      ],
+      "identityCandidate": "1502-151-3/93",
+      "partialSource": false,
+      "secondaryAppearance": false,
+      "sourceFileName": "Screenshot_20260914_123815_Google.jpg",
+      "sourceSha256": "d3ab31ac84271dc9dfbfb66ab797079689b409728c97aab9c2e7d7fc3db9500d",
+      "cropFileName": "upload-07-diver-chrono.png",
+      "cropSha256": "6548216f54af1cf9c0f0b135b3eb85acff9ef48c3364b30b17bda38a991bc7f1",
+      "nativeCropSize": [
+        1000,
+        1345
+      ],
+      "rightsStatus": "User supplied screenshot; underlying third-party commercial permission not separately documented",
+      "status": "Extracted; not approved for publication",
+      "holds": [
+        "Commercial-use evidence for underlying screenshot photograph",
+        "Full native-resolution authenticity, configuration and edge review"
+      ],
+      "segmentationReviewFileName": "upload-07-diver-chrono.jpg",
+      "segmentationStatus": "Unapproved classical mask; needs individual edge review",
+      "segmentationSha256": "92fe0ca64bfa4886279e66f9532784aa7ef3a414011fa7558b4a2d59854ba526",
+      "verifiedCatalogReference": "1502-151-3/93",
+      "identitySource": "https://www.timepiecetrader.com/luxury-watches-brands/ulysse-nardin-marine-diver-chronograph-manufacture-mens-watch-44mm-1502-151-393/",
+      "catalogBrandSlug": "ulysse-nardin",
+      "catalogCollectionSlug": "diver",
+      "referenceProfileAdded": true,
+      "duplicateOf": "upload-08-blue-chrono",
+      "alphaFileName": "upload-07-diver-chrono.png",
+      "alphaSha256": "961641d23d3e8a9d0ae41cf9053ad6dac187a9c3f66c12d5f6badfb528e27760",
+      "visualReview": "Contact sheet reviewed. Prepared extraction only; native edge, whole-watch, authenticity and rights holds remain. No publication approval."
+    },
+    {
+      "id": "upload-08-white-diver",
+      "sourceIndex": 8,
+      "brand": "Ulysse Nardin",
+      "collection": "Diver",
+      "box": [
+        110,
+        0,
+        445,
+        655
+      ],
+      "identityCandidate": "White-dial rose-gold Maxi Marine Diver; SKU pending",
+      "partialSource": true,
+      "secondaryAppearance": false,
+      "sourceFileName": "Screenshot_20260914_123745_Google.jpg",
+      "sourceSha256": "169be0fd14f64820901ac6bb61d7b1183c6ac32e6fd847d34a63c354d729ad80",
+      "cropFileName": "upload-08-white-diver.png",
+      "cropSha256": "27856c454d6d30361d4d0f3124eef364a7b71780c8a651c6a6269c005a4c3300",
+      "nativeCropSize": [
+        335,
+        655
+      ],
+      "rightsStatus": "User supplied screenshot; underlying third-party commercial permission not separately documented",
+      "status": "Extracted; not approved for publication",
+      "holds": [
+        "Source authenticity and exact configuration review",
+        "Commercial-use evidence",
+        "Incomplete original framing",
+        "Full suffix of white-dial rose-gold Maxi Marine Diver unresolved; strap clipped in original."
+      ],
+      "segmentationReviewFileName": "upload-08-white-diver.jpg",
+      "segmentationStatus": "Unapproved classical mask; needs individual edge review",
+      "segmentationSha256": "0e37be3e5193e383ce4ea3ba5baef1348ff8b7ba95ee2db800a8e229aeb032d3",
+      "identityHold": "Full suffix of white-dial rose-gold Maxi Marine Diver unresolved; strap clipped in original.",
+      "alphaFileName": "upload-08-white-diver.png",
+      "alphaSha256": "c4618d13f7f781bf1b5acf11865a1c9e8935e4291884f9322a3123a65e8f6455",
+      "visualReview": "Contact sheet reviewed. Prepared extraction only; native edge, whole-watch, authenticity and rights holds remain. No publication approval."
+    },
+    {
+      "id": "upload-08-blue-chrono",
+      "sourceIndex": 8,
+      "brand": "Ulysse Nardin",
+      "collection": "Diver",
+      "box": [
+        670,
+        12,
+        985,
+        500
+      ],
+      "identityCandidate": "1502-151-3/93",
+      "partialSource": false,
+      "secondaryAppearance": false,
+      "sourceFileName": "Screenshot_20260914_123745_Google.jpg",
+      "sourceSha256": "169be0fd14f64820901ac6bb61d7b1183c6ac32e6fd847d34a63c354d729ad80",
+      "cropFileName": "upload-08-blue-chrono.png",
+      "cropSha256": "79244886f20426218f7eab65df7c36973c21fab661039db2038111b67a7500d3",
+      "nativeCropSize": [
+        315,
+        488
+      ],
+      "rightsStatus": "User supplied screenshot; underlying third-party commercial permission not separately documented",
+      "status": "Extracted; not approved for publication",
+      "holds": [
+        "Commercial-use evidence for underlying screenshot photograph",
+        "Full native-resolution authenticity, configuration and edge review"
+      ],
+      "segmentationReviewFileName": "upload-08-blue-chrono.jpg",
+      "segmentationStatus": "Unapproved classical mask; needs individual edge review",
+      "segmentationSha256": "1e9b80056b3526b362df69310f3558bc2be46b8719f05720ec45c0f7405db41f",
+      "verifiedCatalogReference": "1502-151-3/93",
+      "identitySource": "https://www.timepiecetrader.com/luxury-watches-brands/ulysse-nardin-marine-diver-chronograph-manufacture-mens-watch-44mm-1502-151-393/",
+      "catalogBrandSlug": "ulysse-nardin",
+      "catalogCollectionSlug": "diver",
+      "referenceProfileAdded": true,
+      "alphaFileName": "upload-08-blue-chrono.png",
+      "alphaSha256": "fa5f4e77e1eea3c2b8765cc0a0729ab04452ee1662e5f2373e832ea366773716",
+      "visualReview": "Contact sheet reviewed. Prepared extraction only; native edge, whole-watch, authenticity and rights holds remain. No publication approval."
+    },
+    {
+      "id": "upload-10-maxi-diver",
+      "sourceIndex": 10,
+      "brand": "Ulysse Nardin",
+      "collection": "Diver",
+      "box": [
+        200,
+        140,
+        930,
+        1120
+      ],
+      "identityCandidate": "Blue wave-dial steel/gold Maxi Marine Diver; SKU pending",
+      "partialSource": false,
+      "secondaryAppearance": false,
+      "sourceFileName": "Screenshot_20260914_123831_Google.jpg",
+      "sourceSha256": "ef1d9a54f52d567ffab88993cd0fe9d07a4dc478d9741b3e5aa1c4405469ee5e",
+      "cropFileName": "upload-10-maxi-diver.png",
+      "cropSha256": "febec6d608aa9fc6896882c15f1d99379aca475902cce916469661f6c258bc99",
+      "nativeCropSize": [
+        730,
+        980
+      ],
+      "rightsStatus": "User supplied screenshot; underlying third-party commercial permission not separately documented",
+      "status": "Extracted; not approved for publication",
+      "holds": [
+        "Source authenticity and exact configuration review",
+        "Commercial-use evidence",
+        "Steel/rose-gold or titanium/rose-gold blue wave model exact SKU unresolved; display stand obscures rear strap."
+      ],
+      "segmentationReviewFileName": "upload-10-maxi-diver.jpg",
+      "segmentationStatus": "Unapproved classical mask; needs individual edge review",
+      "segmentationSha256": "8e64ec2f0af964b42ae925acaf2d0521567d768903f95faaa941b5618dc8bd86",
+      "identityHold": "Steel/rose-gold or titanium/rose-gold blue wave model exact SKU unresolved; display stand obscures rear strap.",
+      "alphaFileName": "upload-10-maxi-diver.png",
+      "alphaSha256": "077007742601c339662a1e74eb4d35590d4afdecac294c90f45fb82d155eae78",
+      "visualReview": "Contact sheet reviewed. Prepared extraction only; native edge, whole-watch, authenticity and rights holds remain. No publication approval."
+    },
+    {
+      "id": "upload-13-maxi-diver",
+      "sourceIndex": 13,
+      "brand": "Ulysse Nardin",
+      "collection": "Diver",
+      "box": [
+        90,
+        150,
+        1010,
+        1600
+      ],
+      "identityCandidate": "266-10-3/92",
+      "partialSource": false,
+      "secondaryAppearance": false,
+      "sourceFileName": "Screenshot_20260914_123807_Google.jpg",
+      "sourceSha256": "aad6408f56b1eee1245a0f8db592442e6f8feac8404a50e2955ee6cb455fa45b",
+      "cropFileName": "upload-13-maxi-diver.png",
+      "cropSha256": "fa3e0033b4f9eccd65d3e34c9227c7041dd1b0c258dc0f33af250f4e45e4ca1a",
+      "nativeCropSize": [
+        920,
+        1450
+      ],
+      "rightsStatus": "User supplied screenshot; underlying third-party commercial permission not separately documented",
+      "status": "Extracted; not approved for publication",
+      "holds": [
+        "Commercial-use evidence for underlying screenshot photograph",
+        "Full native-resolution authenticity, configuration and edge review"
+      ],
+      "segmentationReviewFileName": "upload-13-maxi-diver.jpg",
+      "segmentationStatus": "Manual exterior-guided classical mask retains visible source portions; review pending. Original incomplete framing remains held.",
+      "segmentationSha256": "0b503d63ce2169e8550a3ead2c990c7a1ed88827eac1d9debfe472df9c357c63",
+      "verifiedCatalogReference": "266-10-3/92",
+      "identitySource": "https://www.prestigetime.com/Ulysse-Nardin-Maxi-Marine-Diver-44mm-266-10-3-92.html",
+      "catalogBrandSlug": "ulysse-nardin",
+      "catalogCollectionSlug": "diver",
+      "referenceProfileAdded": true,
+      "identityReview": "Exact manufacturer/retailer configuration established; earlier candidate uncertainty superseded. No photo publication approval implied.",
+      "alphaFileName": "upload-13-maxi-diver.png",
+      "alphaSha256": "d040725d12485f13ebed4d0a1c3fdc3953820bd446e331dd81e99c0447a22b06",
+      "visualReview": "Individual1200canvas reviewed; rear strap now retained. Residual black background at outer boundary requires finer manual edge work. Not approved."
+    },
+    {
+      "id": "upload-15-marine",
+      "sourceIndex": 15,
+      "brand": "Ulysse Nardin",
+      "collection": "Marine",
+      "box": [
+        0,
+        245,
+        1080,
+        2080
+      ],
+      "identityCandidate": "266-67",
+      "partialSource": true,
+      "secondaryAppearance": false,
+      "sourceFileName": "Screenshot_20260912_183236_Google.jpg",
+      "sourceSha256": "b299f103d04889f7464f7c0492275ef606df25512b382cf36a5129df57700982",
+      "cropFileName": "upload-15-marine.png",
+      "cropSha256": "4472dbf93a76e71ba4608a52ccde4ff90b9f0a3a4fffd2d0ddedb473d24c1d02",
+      "nativeCropSize": [
+        1080,
+        1835
+      ],
+      "rightsStatus": "User supplied screenshot; underlying third-party commercial permission not separately documented",
+      "status": "Extracted; not approved for publication",
+      "holds": [
+        "Commercial-use evidence for underlying screenshot photograph",
+        "Full native-resolution authenticity, configuration and edge review",
+        "Incomplete original framing"
+      ],
+      "segmentationReviewFileName": "upload-15-marine.jpg",
+      "segmentationStatus": "Unapproved classical mask; needs individual edge review",
+      "segmentationSha256": "ea0c15fbd38ba0c75b64f86dc3d45af95b044b9910dac128290fd414b0e88555",
+      "verifiedCatalogReference": "266-67",
+      "identitySource": "https://davidsw.com/shop/watch/ulysse-nardin/ulysse-nardin-maxi-marine-chronometer-18k-rose-gold/",
+      "catalogBrandSlug": "ulysse-nardin",
+      "catalogCollectionSlug": "marine",
+      "referenceProfileAdded": true,
+      "alphaFileName": "upload-15-marine.png",
+      "alphaSha256": "b9171fd328f8292bb12d5f0a744880cba8779130c319f667b3329660be2d3245",
+      "visualReview": "Contact sheet reviewed. Prepared extraction only; native edge, whole-watch, authenticity and rights holds remain. No publication approval."
+    },
+    {
+      "id": "upload-16-moonwatch",
+      "sourceIndex": 16,
+      "brand": "Omega",
+      "collection": "Speedmaster",
+      "box": [
+        250,
+        90,
+        860,
+        1180
+      ],
+      "identityCandidate": "310.63.42.50.01.001",
+      "partialSource": false,
+      "secondaryAppearance": false,
+      "sourceFileName": "Screenshot_20260914_123918_Google.jpg",
+      "sourceSha256": "8d6e9836237505f5739833bb3910a4a7303b676cc7b60bfb7dd7294a7cb4bef4",
+      "cropFileName": "upload-16-moonwatch.png",
+      "cropSha256": "8d6eb1ece6c2fe08353de07481398683c9c4dc44d13af25944f4793e6731d024",
+      "nativeCropSize": [
+        610,
+        1090
+      ],
+      "rightsStatus": "User supplied screenshot; underlying third-party commercial permission not separately documented",
+      "status": "Extracted; not approved for publication",
+      "holds": [
+        "Commercial-use evidence for underlying screenshot photograph",
+        "Full native-resolution authenticity, configuration and edge review"
+      ],
+      "segmentationReviewFileName": "upload-16-moonwatch.jpg",
+      "segmentationStatus": "Unapproved classical mask; needs individual edge review",
+      "segmentationSha256": "9ddfc772aa340a72e5b8946d4fc45ea5cb48adef6323ccc28fafcc7a993ca591",
+      "verifiedCatalogReference": "310.63.42.50.01.001",
+      "identitySource": "https://www.omegawatches.com.hk/en-hk/watch-omega-speedmaster-moonwatch-professional-co-axial-master-chronometer-chronograph-42-mm-31063425001001",
+      "catalogBrandSlug": "omega",
+      "catalogCollectionSlug": "speedmaster",
+      "referenceProfileAdded": true,
+      "alphaFileName": "upload-16-moonwatch.png",
+      "alphaSha256": "4b9043617d36215f9c75943844aa559427e6c86fa69c4d40aaeb11dbf7bda31f",
+      "visualReview": "Contact sheet reviewed. Prepared extraction only; native edge, whole-watch, authenticity and rights holds remain. No publication approval."
+    },
+    {
+      "id": "upload-17-yacht-master",
+      "sourceIndex": 17,
+      "brand": "Rolex",
+      "collection": "Yacht-Master",
+      "box": [
+        100,
+        0,
+        1030,
+        1080
+      ],
+      "identityCandidate": "116655 or 126655; generation unresolved",
+      "partialSource": true,
+      "secondaryAppearance": false,
+      "sourceFileName": "Screenshot_20260912_183002_eBay.jpg",
+      "sourceSha256": "5080dc4433ce23c2d2061a3bac3e989bde7ac278e5793fe7460d48ecb6429c12",
+      "cropFileName": "upload-17-yacht-master.png",
+      "cropSha256": "d720ce7ab9c67ba0e91c8f464c4c7164b86f6d069ade0b43efb40883a6fd9231",
+      "nativeCropSize": [
+        930,
+        1080
+      ],
+      "rightsStatus": "User supplied screenshot; underlying third-party commercial permission not separately documented",
+      "status": "Extracted; not approved for publication",
+      "holds": [
+        "Source authenticity and exact configuration review",
+        "Commercial-use evidence",
+        "Incomplete original framing",
+        "116655 versus 126655 unresolved; original clips rubber strap. Existing126655 profile preserved."
+      ],
+      "segmentationReviewFileName": "upload-17-yacht-master.jpg",
+      "segmentationStatus": "Manual exterior-guided classical mask retains visible source portions; review pending. Original incomplete framing remains held.",
+      "segmentationSha256": "2f5a3762ffe1f4b3d08cfc96b37d7c757b0ab4fd7587593521be3d2175454593",
+      "identityHold": "116655 versus 126655 unresolved; original clips rubber strap. Existing126655 profile preserved.",
+      "alphaFileName": "upload-17-yacht-master.png",
+      "alphaSha256": "2c7d30e00d7bd48a5ab321858b9b58b95cac0bc4e7773ca3c9c62bf01df6ed55",
+      "visualReview": "Individual1200canvas reviewed; visible source portions retained. Original strap framing incomplete. Not a whole-watch publication asset."
+    },
+    {
+      "id": "upload-18-regate",
+      "sourceIndex": 18,
+      "brand": "Ulysse Nardin",
+      "collection": "Marine",
+      "box": [
+        0,
+        250,
+        1070,
+        2060
+      ],
+      "identityCandidate": "1506-150LE-3/63-VB",
+      "partialSource": false,
+      "secondaryAppearance": false,
+      "sourceFileName": "Screenshot_20260912_183221_Google.jpg",
+      "sourceSha256": "68799cbb8b2bbd3efeb17a06f42ecc7a1c77867a6c2c34ac9280fc27712d4cd6",
+      "cropFileName": "upload-18-regate.png",
+      "cropSha256": "79bc30b7a16080a4020ff43c6dff4d41cc2a73bfa5ca9248741748940ea34b1e",
+      "nativeCropSize": [
+        1070,
+        1810
+      ],
+      "rightsStatus": "User supplied screenshot; underlying third-party commercial permission not separately documented",
+      "status": "Extracted; not approved for publication",
+      "holds": [
+        "Commercial-use evidence for underlying screenshot photograph",
+        "Full native-resolution authenticity, configuration and edge review"
+      ],
+      "segmentationReviewFileName": "upload-18-regate.jpg",
+      "segmentationStatus": "Unapproved classical mask; needs individual edge review",
+      "segmentationSha256": "b2cfd0f31a9dab5fd66a235db8c14bdc9cdb0700254e3235fdbd8bb7075ba6b9",
+      "verifiedCatalogReference": "1506-150LE-3/63-VB",
+      "identitySource": "https://www.jomashop.com/ulysse-nardin-watch-1506-150le-3-63-vb.html",
+      "catalogBrandSlug": "ulysse-nardin",
+      "catalogCollectionSlug": "marine",
+      "referenceProfileAdded": true,
+      "identityReview": "Corrected early unverified356-66 guess to source-confirmed1506-150LE-3/63-VB Voyage Bleu. Never published the early guess.",
+      "alphaFileName": "upload-18-regate.png",
+      "alphaSha256": "f80c275f9020e96e87ae167efec7ecde4cfa64b9da4853d39c3c6af7f0a96747",
+      "visualReview": "Contact sheet reviewed. Prepared extraction only; native edge, whole-watch, authenticity and rights holds remain. No publication approval."
+    },
+    {
+      "id": "upload-19-ap-1",
+      "sourceIndex": 19,
+      "brand": "Audemars Piguet",
+      "collection": "Royal Oak",
+      "box": [
+        20,
+        630,
+        275,
+        1035
+      ],
+      "identityCandidate": "26585CE.OO.1225CE.01",
+      "partialSource": false,
+      "secondaryAppearance": false,
+      "sourceFileName": "Screenshot_20261015_202218_Instagram.jpg",
+      "sourceSha256": "993f85545ce3ae549c52f3d02c4377dd53af7866112c75c5f4229e5530bb6a93",
+      "cropFileName": "upload-19-ap-1.png",
+      "cropSha256": "0d580b6403a99e56c289ef455ef163264bb98baae32cb270996504c2a7020e08",
+      "nativeCropSize": [
+        255,
+        405
+      ],
+      "rightsStatus": "User supplied screenshot; underlying third-party commercial permission not separately documented",
+      "status": "Extracted; not approved for publication",
+      "holds": [
+        "Commercial-use evidence for underlying screenshot photograph",
+        "Full native-resolution authenticity, configuration and edge review"
+      ],
+      "segmentationReviewFileName": "upload-19-ap-1.jpg",
+      "segmentationStatus": "Unapproved classical mask; needs individual edge review",
+      "segmentationSha256": "240537cf50ff7bddddf447091664a76a415360eb3f0723c4187c265523f2bf64",
+      "verifiedCatalogReference": "26585CE.OO.1225CE.01",
+      "identitySource": "https://www.audemarspiguet.com/us/en/watch-collection/royal-oak/26585CE.OO.1225CE.01",
+      "catalogBrandSlug": "audemars-piguet",
+      "catalogCollectionSlug": "royal-oak",
+      "referenceProfileAdded": true,
+      "alphaFileName": "upload-19-ap-1.png",
+      "alphaSha256": "b362fc96a402a3ea5ce284e27e5283d30b5d72dac4849ae5004947e75dd84e2a",
+      "visualReview": "Contact sheet reviewed. Prepared extraction only; native edge, whole-watch, authenticity and rights holds remain. No publication approval."
+    },
+    {
+      "id": "upload-19-ap-2",
+      "sourceIndex": 19,
+      "brand": "Audemars Piguet",
+      "collection": "Royal Oak",
+      "box": [
+        285,
+        630,
+        535,
+        1035
+      ],
+      "identityCandidate": "26585XT.OO.1220XT.01",
+      "partialSource": false,
+      "secondaryAppearance": false,
+      "sourceFileName": "Screenshot_20261015_202218_Instagram.jpg",
+      "sourceSha256": "993f85545ce3ae549c52f3d02c4377dd53af7866112c75c5f4229e5530bb6a93",
+      "cropFileName": "upload-19-ap-2.png",
+      "cropSha256": "1436f981f64cae6e68008c8ac247d09205cc6d699dc1534f2d5633e8efefd15d",
+      "nativeCropSize": [
+        250,
+        405
+      ],
+      "rightsStatus": "User supplied screenshot; underlying third-party commercial permission not separately documented",
+      "status": "Extracted; not approved for publication",
+      "holds": [
+        "Commercial-use evidence for underlying screenshot photograph",
+        "Full native-resolution authenticity, configuration and edge review"
+      ],
+      "segmentationReviewFileName": "upload-19-ap-2.jpg",
+      "segmentationStatus": "Unapproved classical mask; needs individual edge review",
+      "segmentationSha256": "decbfdc1b6b90979ccd108b183eebb91c8b9faa1a598baf3fb345e22065e010c",
+      "verifiedCatalogReference": "26585XT.OO.1220XT.01",
+      "identitySource": "https://www.audemarspiguet.com/us/en/watch-collection/royal-oak/26585XT.OO.1220XT.01",
+      "catalogBrandSlug": "audemars-piguet",
+      "catalogCollectionSlug": "royal-oak",
+      "referenceProfileAdded": true,
+      "alphaFileName": "upload-19-ap-2.png",
+      "alphaSha256": "dc134db6558627da8b836f2e4df7dc59e7dd8590c0172d50464ea3a506530686",
+      "visualReview": "Contact sheet reviewed. Prepared extraction only; native edge, whole-watch, authenticity and rights holds remain. No publication approval."
+    },
+    {
+      "id": "upload-19-ap-3",
+      "sourceIndex": 19,
+      "brand": "Audemars Piguet",
+      "collection": "Royal Oak",
+      "box": [
+        545,
+        630,
+        795,
+        1035
+      ],
+      "identityCandidate": "26585CM.OO.D301VE.01",
+      "partialSource": false,
+      "secondaryAppearance": false,
+      "sourceFileName": "Screenshot_20261015_202218_Instagram.jpg",
+      "sourceSha256": "993f85545ce3ae549c52f3d02c4377dd53af7866112c75c5f4229e5530bb6a93",
+      "cropFileName": "upload-19-ap-3.png",
+      "cropSha256": "3542845edd91580a51a84d0de5f267b401e4061943d2462dccc5ae6c917fc8c0",
+      "nativeCropSize": [
+        250,
+        405
+      ],
+      "rightsStatus": "User supplied screenshot; underlying third-party commercial permission not separately documented",
+      "status": "Extracted; not approved for publication",
+      "holds": [
+        "Commercial-use evidence for underlying screenshot photograph",
+        "Full native-resolution authenticity, configuration and edge review"
+      ],
+      "segmentationReviewFileName": "upload-19-ap-3.jpg",
+      "segmentationStatus": "Unapproved classical mask; needs individual edge review",
+      "segmentationSha256": "6ab0244160402013f0bc48cf9ff08b621566beeb0234ce1f930efeb4f20a6028",
+      "verifiedCatalogReference": "26585CM.OO.D301VE.01",
+      "identitySource": "https://www.audemarspiguet.com/zh-hant/watch-collection/royal-oak/26585CM.OO.D301VE.01",
+      "catalogBrandSlug": "audemars-piguet",
+      "catalogCollectionSlug": "royal-oak",
+      "referenceProfileAdded": true,
+      "alphaFileName": "upload-19-ap-3.png",
+      "alphaSha256": "4a3794755403d4c775a52a5fec417d19eb3e098e509e67e58a483c7552ac48c2",
+      "visualReview": "Contact sheet reviewed. Prepared extraction only; native edge, whole-watch, authenticity and rights holds remain. No publication approval."
+    },
+    {
+      "id": "upload-19-ap-4",
+      "sourceIndex": 19,
+      "brand": "Audemars Piguet",
+      "collection": "Royal Oak",
+      "box": [
+        805,
+        630,
+        1055,
+        1035
+      ],
+      "identityCandidate": "Piece Unique Travis Scott",
+      "partialSource": false,
+      "secondaryAppearance": false,
+      "sourceFileName": "Screenshot_20261015_202218_Instagram.jpg",
+      "sourceSha256": "993f85545ce3ae549c52f3d02c4377dd53af7866112c75c5f4229e5530bb6a93",
+      "cropFileName": "upload-19-ap-4.png",
+      "cropSha256": "fde3764a44d087ab0884aec23e33b3987b2979060d60087f20e9726b146d5789",
+      "nativeCropSize": [
+        250,
+        405
+      ],
+      "rightsStatus": "User supplied screenshot; underlying third-party commercial permission not separately documented",
+      "status": "Extracted; not approved for publication",
+      "holds": [
+        "Source authenticity and exact configuration review",
+        "Commercial-use evidence",
+        "Rainbow Cactus Jack unique-piece full SKU not established; do not assign the standard non-gemset26585CM SKU."
+      ],
+      "segmentationReviewFileName": "upload-19-ap-4.jpg",
+      "segmentationStatus": "Unapproved classical mask; needs individual edge review",
+      "segmentationSha256": "86670ed010a9d438c26192fa3e7257faf2e7d7d891ef122f7ffdf96f22199e81",
+      "identityHold": "Rainbow Cactus Jack unique-piece full SKU not established; do not assign the standard non-gemset26585CM SKU.",
+      "alphaFileName": "upload-19-ap-4.png",
+      "alphaSha256": "ac3feba680ca1d5452892917d53cf29ba417fc60dcb600fd6b3f5603469c7c11",
+      "visualReview": "Contact sheet reviewed. Prepared extraction only; native edge, whole-watch, authenticity and rights holds remain. No publication approval."
+    },
+    {
+      "id": "upload-19-ap-5",
+      "sourceIndex": 19,
+      "brand": "Audemars Piguet",
+      "collection": "Royal Oak",
+      "box": [
+        20,
+        1145,
+        275,
+        1555
+      ],
+      "identityCandidate": "15412BC.ZZ.1220BC.01",
+      "partialSource": false,
+      "secondaryAppearance": false,
+      "sourceFileName": "Screenshot_20261015_202218_Instagram.jpg",
+      "sourceSha256": "993f85545ce3ae549c52f3d02c4377dd53af7866112c75c5f4229e5530bb6a93",
+      "cropFileName": "upload-19-ap-5.png",
+      "cropSha256": "e067f0b16ecbbd33a6854ff0b9678026b5c293c92787d475b851c6cafdddc6f1",
+      "nativeCropSize": [
+        255,
+        410
+      ],
+      "rightsStatus": "User supplied screenshot; underlying third-party commercial permission not separately documented",
+      "status": "Extracted; not approved for publication",
+      "holds": [
+        "Commercial-use evidence for underlying screenshot photograph",
+        "Full native-resolution authenticity, configuration and edge review"
+      ],
+      "segmentationReviewFileName": "upload-19-ap-5.jpg",
+      "segmentationStatus": "Unapproved classical mask; needs individual edge review",
+      "segmentationSha256": "37359dc9c86f589154d5e4eda027ede6a5b4f1bae104848a407ef4ec8601e90f",
+      "verifiedCatalogReference": "15412BC.ZZ.1220BC.01",
+      "identitySource": "https://www.jomashop.com/audemars-piguet-15412bc-zz-1220bc-01.html",
+      "catalogBrandSlug": "audemars-piguet",
+      "catalogCollectionSlug": "royal-oak",
+      "referenceProfileAdded": true,
+      "alphaFileName": "upload-19-ap-5.png",
+      "alphaSha256": "b32e5eaf1406ca37163ce343ae2517540213af9a9c73752af59d3c5de51f7e3f",
+      "visualReview": "Contact sheet reviewed. Prepared extraction only; native edge, whole-watch, authenticity and rights holds remain. No publication approval."
+    },
+    {
+      "id": "upload-19-ap-6",
+      "sourceIndex": 19,
+      "brand": "Audemars Piguet",
+      "collection": "Royal Oak",
+      "box": [
+        285,
+        1145,
+        535,
+        1555
+      ],
+      "identityCandidate": "15412OR.ZZ.1220OR.01",
+      "partialSource": false,
+      "secondaryAppearance": false,
+      "sourceFileName": "Screenshot_20261015_202218_Instagram.jpg",
+      "sourceSha256": "993f85545ce3ae549c52f3d02c4377dd53af7866112c75c5f4229e5530bb6a93",
+      "cropFileName": "upload-19-ap-6.png",
+      "cropSha256": "0b15ce63013dcefbe429be6c02e4d2d5a4d4ea0e766d74820c01bb2e6daa35a2",
+      "nativeCropSize": [
+        250,
+        410
+      ],
+      "rightsStatus": "User supplied screenshot; underlying third-party commercial permission not separately documented",
+      "status": "Extracted; not approved for publication",
+      "holds": [
+        "Commercial-use evidence for underlying screenshot photograph",
+        "Full native-resolution authenticity, configuration and edge review"
+      ],
+      "segmentationReviewFileName": "upload-19-ap-6.jpg",
+      "segmentationStatus": "Unapproved classical mask; needs individual edge review",
+      "segmentationSha256": "114b9d2962aaccea821c6d22b8014b3530b22f1b04d6f6f5dfaaf4b93ffb0a98",
+      "verifiedCatalogReference": "15412OR.ZZ.1220OR.01",
+      "identitySource": "https://chronoboutiqueny.com/products/audemars-piguet-royal-oak-double-balance-wheel-openworked-rose-gold-baguette-15412or-zz-1220or-01-sold",
+      "catalogBrandSlug": "audemars-piguet",
+      "catalogCollectionSlug": "royal-oak",
+      "referenceProfileAdded": true,
+      "alphaFileName": "upload-19-ap-6.png",
+      "alphaSha256": "c30c2902906c394b28deb77a5e03ec84f96bb976c1e20c058ff892de939d457e",
+      "visualReview": "Contact sheet reviewed. Prepared extraction only; native edge, whole-watch, authenticity and rights holds remain. No publication approval."
+    },
+    {
+      "id": "upload-19-ap-7",
+      "sourceIndex": 19,
+      "brand": "Audemars Piguet",
+      "collection": "Royal Oak",
+      "box": [
+        545,
+        1145,
+        795,
+        1555
+      ],
+      "identityCandidate": "15412BA.ZG.1224BA.01",
+      "partialSource": false,
+      "secondaryAppearance": false,
+      "sourceFileName": "Screenshot_20261015_202218_Instagram.jpg",
+      "sourceSha256": "993f85545ce3ae549c52f3d02c4377dd53af7866112c75c5f4229e5530bb6a93",
+      "cropFileName": "upload-19-ap-7.png",
+      "cropSha256": "8a592027a441658c143bd5536b927f90948b14f105efa981b3649dd67cbd3fd6",
+      "nativeCropSize": [
+        250,
+        410
+      ],
+      "rightsStatus": "User supplied screenshot; underlying third-party commercial permission not separately documented",
+      "status": "Extracted; not approved for publication",
+      "holds": [
+        "Commercial-use evidence for underlying screenshot photograph",
+        "Full native-resolution authenticity, configuration and edge review"
+      ],
+      "segmentationReviewFileName": "upload-19-ap-7.jpg",
+      "segmentationStatus": "Unapproved classical mask; needs individual edge review",
+      "segmentationSha256": "d206584bad0c9f7d10c646b49a79d4b8a1ed52a56d96bd53f3f3a6c34a9c9f53",
+      "verifiedCatalogReference": "15412BA.ZG.1224BA.01",
+      "identitySource": "https://www.audemarspiguet.com/us/en/watch-collection/royal-oak/15412BA.ZG.1224BA.01",
+      "catalogBrandSlug": "audemars-piguet",
+      "catalogCollectionSlug": "royal-oak",
+      "referenceProfileAdded": true,
+      "alphaFileName": "upload-19-ap-7.png",
+      "alphaSha256": "2e1457a33f2a264465545e71d9e8b307a9e0470de628b0368ccd3a33b3b9f599",
+      "visualReview": "Contact sheet reviewed. Prepared extraction only; native edge, whole-watch, authenticity and rights holds remain. No publication approval."
+    },
+    {
+      "id": "upload-19-ap-8",
+      "sourceIndex": 19,
+      "brand": "Audemars Piguet",
+      "collection": "Royal Oak",
+      "box": [
+        805,
+        1145,
+        1055,
+        1555
+      ],
+      "identityCandidate": "26341ST.OO.1105ST.01",
+      "partialSource": false,
+      "secondaryAppearance": false,
+      "sourceFileName": "Screenshot_20261015_202218_Instagram.jpg",
+      "sourceSha256": "993f85545ce3ae549c52f3d02c4377dd53af7866112c75c5f4229e5530bb6a93",
+      "cropFileName": "upload-19-ap-8.png",
+      "cropSha256": "cd06e8cebe46e0dd0e6b71a56fa830d4ceea530685d5fc975291daf60f116e08",
+      "nativeCropSize": [
+        250,
+        410
+      ],
+      "rightsStatus": "User supplied screenshot; underlying third-party commercial permission not separately documented",
+      "status": "Extracted; not approved for publication",
+      "holds": [
+        "Commercial-use evidence for underlying screenshot photograph",
+        "Full native-resolution authenticity, configuration and edge review"
+      ],
+      "segmentationReviewFileName": "upload-19-ap-8.jpg",
+      "segmentationStatus": "Unapproved classical mask; needs individual edge review",
+      "segmentationSha256": "f8f5b54bc168abdea147aff756b883c779dc09a39c19d7a716d8c4d7f1244072",
+      "verifiedCatalogReference": "26341ST.OO.1105ST.01",
+      "identitySource": "https://www.audemarspiguet.com/en/about/savoir-faire/grandes-complications",
+      "catalogBrandSlug": "audemars-piguet",
+      "catalogCollectionSlug": "royal-oak",
+      "referenceProfileAdded": true,
+      "identityReview": "Manufacturer confirms26341ST Grande Complication design; social caption does not establish ownership, uniqueness or provenance. No Tom Brady claim published.",
+      "alphaFileName": "upload-19-ap-8.png",
+      "alphaSha256": "706bfc573ec0d40d0398339b721b0499834991b1233addaba7438a538268910f",
+      "visualReview": "Contact sheet reviewed. Prepared extraction only; native edge, whole-watch, authenticity and rights holds remain. No publication approval."
+    },
+    {
+      "id": "upload-10-thumbnail-a",
+      "sourceIndex": 10,
+      "brand": "Ulysse Nardin",
+      "collection": "Diver",
+      "box": [
+        40,
+        1710,
+        500,
+        2025
+      ],
+      "identityCandidate": "Secondary blue Maxi Marine Diver view",
+      "partialSource": false,
+      "secondaryAppearance": true,
+      "sourceFileName": "Screenshot_20260914_123831_Google.jpg",
+      "sourceSha256": "ef1d9a54f52d567ffab88993cd0fe9d07a4dc478d9741b3e5aa1c4405469ee5e",
+      "cropFileName": "upload-10-thumbnail-a.png",
+      "cropSha256": "ae4c76971591225928aa43f90713dbce533ca66f168d2eba86b0f69107c66c34",
+      "nativeCropSize": [
+        460,
+        315
+      ],
+      "rightsStatus": "User supplied screenshot; underlying third-party commercial permission not separately documented",
+      "status": "Extracted; not approved for publication",
+      "holds": [
+        "Source authenticity and exact configuration review",
+        "Commercial-use evidence"
+      ],
+      "segmentationReviewFileName": "upload-10-thumbnail-a.jpg",
+      "segmentationStatus": "Unapproved classical mask; needs individual edge review",
+      "segmentationSha256": "3332a6c5a545199be69883332a5889ffc4267cdef9a65cd32a034d7d2cf509de",
+      "duplicateOf": "upload-10-maxi-diver",
+      "alphaFileName": "upload-10-thumbnail-a.png",
+      "alphaSha256": "58eb4e7067d9da8355d8f145ed0876e3bf7fda98ca568cc9d198fda0b8828436",
+      "visualReview": "Contact sheet reviewed. Prepared extraction only; native edge, whole-watch, authenticity and rights holds remain. No publication approval."
+    },
+    {
+      "id": "upload-10-thumbnail-b",
+      "sourceIndex": 10,
+      "brand": "Ulysse Nardin",
+      "collection": "Diver",
+      "box": [
+        555,
+        1630,
+        1080,
+        2045
+      ],
+      "identityCandidate": "Secondary blue Maxi Marine Diver view",
+      "partialSource": true,
+      "secondaryAppearance": true,
+      "sourceFileName": "Screenshot_20260914_123831_Google.jpg",
+      "sourceSha256": "ef1d9a54f52d567ffab88993cd0fe9d07a4dc478d9741b3e5aa1c4405469ee5e",
+      "cropFileName": "upload-10-thumbnail-b.png",
+      "cropSha256": "b7acea50408199ddf91bd15a370ca10a0997b8477d6a0b5649bb30e350e58055",
+      "nativeCropSize": [
+        525,
+        415
+      ],
+      "rightsStatus": "User supplied screenshot; underlying third-party commercial permission not separately documented",
+      "status": "Extracted; not approved for publication",
+      "holds": [
+        "Source authenticity and exact configuration review",
+        "Commercial-use evidence",
+        "Incomplete original framing"
+      ],
+      "segmentationReviewFileName": "upload-10-thumbnail-b.jpg",
+      "segmentationStatus": "Unapproved classical mask; needs individual edge review",
+      "segmentationSha256": "6b5086aef4449ff0d723aac9881807bcfb3e3091867a4ac4f83717fe21554d58",
+      "duplicateOf": "upload-10-maxi-diver",
+      "alphaFileName": "upload-10-thumbnail-b.png",
+      "alphaSha256": "cbb401eea1ae0117fd9b4247e32e2274cd1c44073a38b13b78a70f7c87ff4182",
+      "visualReview": "Contact sheet reviewed. Prepared extraction only; native edge, whole-watch, authenticity and rights holds remain. No publication approval."
+    },
+    {
+      "id": "upload-16-thumbnail-bracelet",
+      "sourceIndex": 16,
+      "brand": "Omega",
+      "collection": "Speedmaster",
+      "box": [
+        130,
+        1615,
+        415,
+        2045
+      ],
+      "identityCandidate": "310.60.42.50.01.001 candidate; already cataloged",
+      "partialSource": true,
+      "secondaryAppearance": true,
+      "sourceFileName": "Screenshot_20260914_123918_Google.jpg",
+      "sourceSha256": "8d6e9836237505f5739833bb3910a4a7303b676cc7b60bfb7dd7294a7cb4bef4",
+      "cropFileName": "upload-16-thumbnail-bracelet.png",
+      "cropSha256": "b6934e3fa9e88ffef38ef02d599db959f803862b2a124e2918fd7e36727cb8c1",
+      "nativeCropSize": [
+        285,
+        430
+      ],
+      "rightsStatus": "User supplied screenshot; underlying third-party commercial permission not separately documented",
+      "status": "Extracted; not approved for publication",
+      "holds": [
+        "Source authenticity and exact configuration review",
+        "Commercial-use evidence",
+        "Incomplete original framing"
+      ],
+      "segmentationReviewFileName": "upload-16-thumbnail-bracelet.jpg",
+      "segmentationStatus": "Unapproved classical mask; needs individual edge review",
+      "segmentationSha256": "6d3e36d0eafa7e31c62a9b5fbecae57932002ccdb00e669bf07bb417712de026",
+      "alphaFileName": "upload-16-thumbnail-bracelet.png",
+      "alphaSha256": "5bfc94b7a7e04c51a9c6153bcf91791049cd359fb3b7d08aef82e5d8ecff55c3",
+      "visualReview": "Contact sheet reviewed. Prepared extraction only; native edge, whole-watch, authenticity and rights holds remain. No publication approval."
+    },
+    {
+      "id": "upload-16-thumbnail-pair-a",
+      "sourceIndex": 16,
+      "brand": "Omega",
+      "collection": "Speedmaster",
+      "box": [
+        625,
+        1670,
+        815,
+        1950
+      ],
+      "identityCandidate": "Sedna bracelet secondary view",
+      "partialSource": false,
+      "secondaryAppearance": true,
+      "sourceFileName": "Screenshot_20260914_123918_Google.jpg",
+      "sourceSha256": "8d6e9836237505f5739833bb3910a4a7303b676cc7b60bfb7dd7294a7cb4bef4",
+      "cropFileName": "upload-16-thumbnail-pair-a.png",
+      "cropSha256": "7530b224b7eac23cc2d3de669ce6e51ddb72ead362c8d4bd7c6afd6948f75bd2",
+      "nativeCropSize": [
+        190,
+        280
+      ],
+      "rightsStatus": "User supplied screenshot; underlying third-party commercial permission not separately documented",
+      "status": "Extracted; not approved for publication",
+      "holds": [
+        "Source authenticity and exact configuration review",
+        "Commercial-use evidence"
+      ],
+      "segmentationReviewFileName": "upload-16-thumbnail-pair-a.jpg",
+      "segmentationStatus": "Unapproved classical mask; needs individual edge review",
+      "segmentationSha256": "818cb98bda39757f4869b634242a31f92e7ab778f3f6d1205fb3b0d61cfcf3d1",
+      "duplicateOf": "upload-16-thumbnail-bracelet",
+      "alphaFileName": "upload-16-thumbnail-pair-a.png",
+      "alphaSha256": "a1493d0323882f971bdd3234ec32614fca040ae8e9085337a2fc8a2dc939caa7",
+      "visualReview": "Contact sheet reviewed. Prepared extraction only; native edge, whole-watch, authenticity and rights holds remain. No publication approval."
+    },
+    {
+      "id": "upload-16-thumbnail-pair-b",
+      "sourceIndex": 16,
+      "brand": "Omega",
+      "collection": "Speedmaster",
+      "box": [
+        815,
+        1650,
+        1040,
+        1950
+      ],
+      "identityCandidate": "Sedna leather secondary view",
+      "partialSource": false,
+      "secondaryAppearance": true,
+      "sourceFileName": "Screenshot_20260914_123918_Google.jpg",
+      "sourceSha256": "8d6e9836237505f5739833bb3910a4a7303b676cc7b60bfb7dd7294a7cb4bef4",
+      "cropFileName": "upload-16-thumbnail-pair-b.png",
+      "cropSha256": "c1904ee76084686c4f54babd1dcc2170e4d77e954521a8e42133a8185dd0ba17",
+      "nativeCropSize": [
+        225,
+        300
+      ],
+      "rightsStatus": "User supplied screenshot; underlying third-party commercial permission not separately documented",
+      "status": "Extracted; not approved for publication",
+      "holds": [
+        "Source authenticity and exact configuration review",
+        "Commercial-use evidence"
+      ],
+      "segmentationReviewFileName": "upload-16-thumbnail-pair-b.jpg",
+      "segmentationStatus": "Unapproved classical mask; needs individual edge review",
+      "segmentationSha256": "bdb83028b34002adc598a8e94762af7365faa57d08ea44cbab96c8bd45fa704f",
+      "duplicateOf": "upload-16-moonwatch",
+      "alphaFileName": "upload-16-thumbnail-pair-b.png",
+      "alphaSha256": "28fb023bc80563190b15e9d1de0865824f662977b8760e1057bc496189bcae83",
+      "visualReview": "Contact sheet reviewed. Prepared extraction only; native edge, whole-watch, authenticity and rights holds remain. No publication approval."
+    },
+    {
+      "id": "upload-06-reply-thumbnail",
+      "sourceIndex": 6,
+      "brand": "Omega",
+      "collection": "Seamaster Diver 300M",
+      "box": [
+        780,
+        1740,
+        875,
+        1935
+      ],
+      "identityCandidate": "210.62.44.20.01.001 duplicate thumbnail",
+      "partialSource": false,
+      "secondaryAppearance": true,
+      "sourceFileName": "Screenshot_20260914_053115_WhatsApp.jpg",
+      "sourceSha256": "0b67d7fc5808a8ca3f5a52eaa8dcf6c700cc2c124cd6831cb530d705cae9af90",
+      "cropFileName": "upload-06-reply-thumbnail.png",
+      "cropSha256": "35e5d1ff307994c98c22586bcf9eda97a4ce90d4640f22350c005cb7fb314573",
+      "nativeCropSize": [
+        95,
+        195
+      ],
+      "rightsStatus": "User supplied screenshot; underlying third-party commercial permission not separately documented",
+      "status": "Extracted; not approved for publication",
+      "holds": [
+        "Source authenticity and exact configuration review",
+        "Commercial-use evidence"
+      ],
+      "segmentationReviewFileName": "upload-06-reply-thumbnail.jpg",
+      "segmentationStatus": "Unapproved classical mask; needs individual edge review",
+      "segmentationSha256": "838e621e47a05bd59676fe3195d002916eee307187711cd2138cc1ff7f7292a4",
+      "duplicateOf": "upload-06-ceramic-diver",
+      "alphaFileName": "upload-06-reply-thumbnail.png",
+      "alphaSha256": "ef635e27676dfd9bbe40c30d5bec159830edffb6134b2f1f0c82156db685fe20",
+      "visualReview": "Contact sheet reviewed. Prepared extraction only; native edge, whole-watch, authenticity and rights holds remain. No publication approval."
+    }
+  ],
+  "distinctPrimaryCandidatesAfterObviousDuplicates": 36,
+  "newReferenceProfiles": 25,
+  "primaryIdentitiesQueued": 10,
+  "existingClearedProfilePreserved": 1,
+  "reviewedAt": "2026-10-16T09:59:29.601365+00:00",
+  "publicationDecision": "25 verified identities added as photography-pending profiles. No screenshot photographs approved; existing cleared images preserved.",
+  "packagePolicy": "Every crop retains source pixels. White/alpha files are review candidates, not licensed or approved web assets. No AI, reconstruction, recoloring or invented specifications. Full screenshots with private conversation UI excluded.",
+  "archive": {
+    "fileName": "Quest_Luxo_Founder_Watch_Extractions_REVIEW.zip",
+    "sha256": "214c61c69b86ec469934a648cc305484fa4b84a0f617681fa8677ab00ae480bb",
+    "bytes": 47073618,
+    "imageFiles": 132,
+    "primaryAppearances": 38,
+    "secondaryAppearances": 6,
+    "noFullPrivateScreenshotsIncluded": true,
+    "driveFileId": "1XkuYKQSEE6Anhgd08g4vZGeTOXKX_0Gi",
+    "driveReadbackSha256": "214c61c69b86ec469934a648cc305484fa4b84a0f617681fa8677ab00ae480bb",
+    "verified": true
+  }
+}

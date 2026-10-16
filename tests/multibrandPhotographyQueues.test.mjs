@@ -19,9 +19,9 @@ const read = async path => JSON.parse(await readFile(new URL(path, import.meta.u
 const omega = await read("../docs/OMEGA_PHOTOGRAPHY_ACQUISITION_QUEUE_2026-10-14.json");
 const other = await read("../docs/MULTIBRAND_NON_OMEGA_PHOTOGRAPHY_QUEUE_2026-10-14.json");
 
-test("entire 99-reference expansion has exactly one correctly configured photography acquisition task", () => {
-  assert.equal(omega.queue.length, 55);
-  assert.equal(other.queue.length, 44);
+test("entire verified reference expansion has exactly one correctly configured photography acquisition task", () => {
+  assert.equal(omega.queue.length, verifiedExpansionRows.filter(row => row[1] === "omega").length);
+  assert.equal(other.queue.length, verifiedExpansionRows.filter(row => row[1] !== "omega").length);
   const all = [...omega.queue.map(x=>({
     brandSlug:x.brandSlug, collectionSlug:x.collectionSlug, reference:x.reference,
     dial:x.dial, strap:x.braceletOrStrap, material:x.material, source:x.specificationSource
@@ -30,8 +30,8 @@ test("entire 99-reference expansion has exactly one correctly configured photogr
     dial:x.configuration.dial, strap:x.configuration.strapOrBracelet,
     material:x.configuration.material, source:x.identitySource
   }))];
-  assert.equal(all.length, 99);
-  assert.equal(new Set(all.map(x=>[x.brandSlug,x.collectionSlug,x.reference].join("/"))).size, 99);
+  assert.equal(all.length, verifiedExpansionRows.length);
+  assert.equal(new Set(all.map(x=>[x.brandSlug,x.collectionSlug,x.reference].join("/"))).size, verifiedExpansionRows.length);
   for (const [brand,brandSlug,collection,collectionSlug,reference,model,caseSize,movement,dial,strap,material,source] of verifiedExpansionRows) {
     const task = all.find(x=>x.brandSlug===brandSlug&&x.collectionSlug===collectionSlug&&x.reference===reference);
     assert.ok(task, "No photo task: "+brand+" "+reference);

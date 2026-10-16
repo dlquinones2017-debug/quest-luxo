@@ -1,0 +1,73 @@
+{
+  "physicalSets": 1,
+  "websitePublished": false,
+  "rightsHeldSets": 1,
+  "references": [
+    {
+      "brand": "Breitling",
+      "reference": "A32390111G1A1",
+      "exactSKU": "A32390111G1A1",
+      "sourceProvider": "Breitling",
+      "sourceUrl": "https://www.breitling.com/id-en/watches/avenger/avenger-ii-gmt/A32390111G1A1/",
+      "sourcePagePath": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\retailer-source-breitling-A32390111G1A1-bead45a3.html",
+      "sourcePageSha256": "6a9c1c6b4c08b29fe5b393b61226bd84dfd83f6ccf39d3fb3f087926f4292146",
+      "imageUrl": "https://www-breitling.eu.saleor.cloud/media/thumbnails/products/a32390111g1a1-soldier_0a7c533a_thumbnail_1024.webp",
+      "path": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\breitling-next-originals\\A32390111G1A1-raw.webp",
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "sha256": "3de3a626d7f9dca76ea77efac84241744e936a4009626ad10d7ce24a98c47122",
+      "checkedAt": "2026-10-16T02:32:11.519145+00:00",
+      "status": "Unchanged manufacturer-delivered native bytes; visual review pending",
+      "websiteApproved": false,
+      "rightsStatus": "New manufacturer original: commercial-use evidence not yet documented; held from publication",
+      "collection": "Avenger II",
+      "canonicalRoute": "/collections/breitling/avenger-ii/a32390111g1a1",
+      "catalogMaterial": "Stainless Steel",
+      "catalogConfigurations": [
+        {
+          "caseSize": "43 mm",
+          "movement": "Breitling 32 automatic GMT",
+          "dial": "Silver",
+          "bracelet": "Stainless-steel bracelet",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "picturedConfiguration": {
+        "caseSize": "43 mm",
+        "movement": "Breitling 32 automatic GMT",
+        "dial": "Silver",
+        "bracelet": "Stainless-steel bracelet"
+      },
+      "whiteMaster": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\breitling-next-white\\A32390111G1A1-white-master.png",
+      "webDerivative": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\breitling-next-white\\A32390111G1A1-web.webp",
+      "masterSha256": "101f190e04097d0aaed60f9b1979d5f568908a89dc37f3ea8385d676ece64676",
+      "derivativeSha256": "80b17151a9f8cb634d5f6bafb8d74afad6635f9deb2c2fe519852e1ada90be70",
+      "foregroundBounds": [
+        305,
+        102,
+        761,
+        922
+      ],
+      "processing": "Manufacturer native alpha preserved without mask reconstruction; original watch RGBA retained and centered on blank white2400master/1200WEB. No AI, generated details or recolouring.",
+      "websitePublished": false,
+      "visualReviewPassed": true,
+      "exactSkuVerified": true,
+      "reviewStatus": "Untouched manufacturer native RGBA and final1200WEB individually reviewed. Complete depicted watch and closed steel bracelet within original alpha bounds; correct silver GMT dial, steel case/bracelet. Native alpha preserved; no watch detail generated or reconstructed. Commercial-use evidence pending; not published.",
+      "sourceIdentityEvidence": {
+        "sourceUrl": "https://www.breitling.com/id-en/watches/avenger/avenger-ii-gmt/A32390111G1A1/",
+        "sourcePageSha256": "6a9c1c6b4c08b29fe5b393b61226bd84dfd83f6ccf39d3fb3f087926f4292146",
+        "verified": "Manufacturer exact A32390111G1A1, silver dial, steel case/bracelet and Breitling32 GMT agree with existing catalog; no price or availability copied."
+      },
+      "rawDriveFileId": "1qDCQiMt-4smyo9ljzpOTb8at83V9nl4N",
+      "masterDriveFileId": "1ELCUADhKA68wqOCeoPNLY2Z011cg1HSE",
+      "webDriveFileId": "125WqJ5h7S3-oiSUfKgkd8eIjxrtvksIR"
+    }
+  ],
+  "archivedFiles": 3,
+  "archiveStatus": "Authentic native RAW, reviewed white master andWEB archived; source/configuration verified; new original lacks documented commercial-use permission and remains unpublished.",
+  "permissionRequestStatus": "No further permission question sent, per founder instruction; existing rights-evidence requirement retained."
+}

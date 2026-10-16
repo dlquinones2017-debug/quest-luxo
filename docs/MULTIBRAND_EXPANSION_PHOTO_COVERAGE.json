@@ -1,19 +1,25 @@
 {
-  "reviewedAt": "2026-10-16T02:23:58.373Z",
+  "reviewedAt": "2026-10-16T10:03:57.145Z",
   "scope": "All verified-catalog-expansion.ts references only; excludes legacy inventory",
   "policy": "Source URL is NOT image-rights evidence. Exact watch, strap, dial, material, white-canvas original, licensing, website approval and actual derivative SHA256 are required.",
   "summary": {
-    "expansionReferences": 99,
-    "brands": 12,
-    "collections": 42,
+    "expansionReferences": 124,
+    "brands": 16,
+    "collections": 52,
     "approvedValidReferences": 68,
     "missingApprovedDerivative": 0,
     "checksumFailures": 0,
-    "acquisitionRequired": 31,
-    "notReleaseReady": 31,
-    "imageCoveragePercent": 68.7
+    "acquisitionRequired": 56,
+    "notReleaseReady": 56,
+    "imageCoveragePercent": 54.8
   },
   "byBrand": [
+    {
+      "brand": "Audemars Piguet",
+      "references": 10,
+      "approved": 0,
+      "outstanding": 10
+    },
     {
       "brand": "Bell & Ross",
       "references": 2,
@@ -40,9 +46,9 @@
     },
     {
       "brand": "Hublot",
-      "references": 3,
+      "references": 5,
       "approved": 1,
-      "outstanding": 2
+      "outstanding": 4
     },
     {
       "brand": "IWC",
@@ -52,14 +58,20 @@
     },
     {
       "brand": "Omega",
-      "references": 55,
+      "references": 58,
       "approved": 48,
-      "outstanding": 7
+      "outstanding": 10
     },
     {
       "brand": "Panerai",
       "references": 3,
       "approved": 1,
+      "outstanding": 2
+    },
+    {
+      "brand": "Patek Philippe",
+      "references": 2,
+      "approved": 0,
       "outstanding": 2
     },
     {
@@ -75,10 +87,22 @@
       "outstanding": 1
     },
     {
-      "brand": "Vacheron Constantin",
+      "brand": "Tudor",
       "references": 1,
       "approved": 0,
       "outstanding": 1
+    },
+    {
+      "brand": "Ulysse Nardin",
+      "references": 4,
+      "approved": 0,
+      "outstanding": 4
+    },
+    {
+      "brand": "Vacheron Constantin",
+      "references": 4,
+      "approved": 0,
+      "outstanding": 4
     },
     {
       "brand": "Zenith",
@@ -262,6 +286,31 @@
       "actualSha256": "59e4e33b65f02159683de9f43b10eed4f7db43040546faf0b2b5108e8e362a69",
       "rightsRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for these exact two Uhrinstinkt originals and white-background derivatives with no additional restrictions stated on October15,2026 Eastern. Record docs/PHOTOGRAPHY_BLACK_SEAMASTER_TWO_FOUNDER_RIGHTS_2026-10-15.json. Authentic complete RAW and final white WEB individually visually reviewed; source credits retained separately. Preserved RAW file: 1Wn7HToqb1aM6mV69eoKhEU3qGh5VNtbv. Pictured full reference 210.22.42.20.01.002; Stainless Steel and 18K Sedna Gold, Black ceramic wave, Black rubber strap. Exact configuration reviewed against preserved source evidence and the original photograph.",
       "nextAction": "Retain approved source, white-canvas derivative, attribution and reference mapping."
+    },
+    {
+      "brand": "Omega",
+      "brandSlug": "omega",
+      "collection": "Seamaster Diver 300M",
+      "collectionSlug": "seamaster",
+      "reference": "210.62.44.20.01.001",
+      "model": "Seamaster Diver 300M Black Ceramic and Sedna Gold",
+      "canonicalRoute": "/collections/omega/seamaster/210-62-44-20-01-001",
+      "configuration": {
+        "caseSize": "43.5 mm",
+        "movement": "Omega 8806 automatic",
+        "dial": "Black ceramic with raised waves",
+        "bracelet": "Black rubber strap",
+        "material": "Black ceramic and 18K Sedna Gold"
+      },
+      "specificationSource": "https://www.omegawatches.com.hk/en-hk/watch-omega-seamaster-diver-300m-co-axial-master-chronometer-43-5-mm-21062442001001",
+      "score": 76,
+      "status": "ACQUISITION_REQUIRED",
+      "photoAssetId": null,
+      "derivativePath": null,
+      "recordedSha256": null,
+      "actualSha256": null,
+      "rightsRecord": null,
+      "nextAction": "Source authentic exact-reference original; obtain commercial-use license and provenance, prepare approved full-watch white-canvas derivative and register the matching SHA-256."
     },
     {
       "brand": "Omega",
@@ -612,6 +661,31 @@
       "actualSha256": "74b72a29a4eee08e5bff9d2628cb0e19deae2f3b19f3a4eac689114621c94205",
       "rightsRecord": "Founder directly confirmed commercial website-use rights for this exact retailer original and its white-background derivative in the existing Website/Product chat on October 14, 2026. Record docs/OMEGA_EIGHT_FOUNDER_RIGHTS_CONFIRMED_2026-10-14.json. Source/configuration, framing and final derivative visually reviewed; separate source credits retained. Preserved RAW file: 13VXJ7rKvU89S0T-N0eVivY1FhtvxAL5-. Pictured full reference 310.60.42.50.01.001; 18K Sedna Gold, Black non-wave, 18K Sedna Gold bracelet. Exact configuration reviewed against preserved source evidence and the original photograph.",
       "nextAction": "Retain approved source, white-canvas derivative, attribution and reference mapping."
+    },
+    {
+      "brand": "Omega",
+      "brandSlug": "omega",
+      "collection": "Speedmaster",
+      "collectionSlug": "speedmaster",
+      "reference": "310.63.42.50.01.001",
+      "model": "Moonwatch Professional Sedna Gold on Leather",
+      "canonicalRoute": "/collections/omega/speedmaster/310-63-42-50-01-001",
+      "configuration": {
+        "caseSize": "42 mm",
+        "movement": "Omega 3861 manual winding",
+        "dial": "Black step dial",
+        "bracelet": "Black leather strap",
+        "material": "18K Sedna Gold"
+      },
+      "specificationSource": "https://www.omegawatches.com.hk/en-hk/watch-omega-speedmaster-moonwatch-professional-co-axial-master-chronometer-chronograph-42-mm-31063425001001",
+      "score": 73,
+      "status": "ACQUISITION_REQUIRED",
+      "photoAssetId": null,
+      "derivativePath": null,
+      "recordedSha256": null,
+      "actualSha256": null,
+      "rightsRecord": null,
+      "nextAction": "Source authentic exact-reference original; obtain commercial-use license and provenance, prepare approved full-watch white-canvas derivative and register the matching SHA-256."
     },
     {
       "brand": "Breitling",
@@ -1139,6 +1213,31 @@
       "nextAction": "Source authentic exact-reference original; obtain commercial-use license and provenance, prepare approved full-watch white-canvas derivative and register the matching SHA-256."
     },
     {
+      "brand": "Tudor",
+      "brandSlug": "tudor",
+      "collection": "Black Bay",
+      "collectionSlug": "black-bay",
+      "reference": "M7941A1A0RU-0003",
+      "model": "Black Bay Burgundy on Five-Link Bracelet",
+      "canonicalRoute": "/collections/tudor/black-bay/m7941a1a0ru-0003",
+      "configuration": {
+        "caseSize": "41 mm",
+        "movement": "MT5602-U automatic",
+        "dial": "Black domed",
+        "bracelet": "Stainless-steel five-link bracelet",
+        "material": "Stainless Steel"
+      },
+      "specificationSource": "https://www.tudorwatch.com/en/watches/black-bay/m7941a1a0ru-0003",
+      "score": 68,
+      "status": "ACQUISITION_REQUIRED",
+      "photoAssetId": null,
+      "derivativePath": null,
+      "recordedSha256": null,
+      "actualSha256": null,
+      "rightsRecord": null,
+      "nextAction": "Source authentic exact-reference original; obtain commercial-use license and provenance, prepare approved full-watch white-canvas derivative and register the matching SHA-256."
+    },
+    {
       "brand": "Franck Muller",
       "brandSlug": "franck-muller",
       "collection": "FR2NCK Vanguard Beach",
@@ -1237,6 +1336,31 @@
       "actualSha256": "09fb393f1bca7d06c920e4084553f65430c5a753482e4d4386d3518ab43afed3",
       "rightsRecord": "Founder directly confirmed commercial website-use rights for this exact retailer original and its white-background derivative in the existing Website/Product chat on October 14, 2026. Record docs/OMEGA_EIGHT_FOUNDER_RIGHTS_CONFIRMED_2026-10-14.json. Source/configuration, framing and final derivative visually reviewed; separate source credits retained. Preserved RAW file: 18fn4hZKZM9MfDLZ39t0x4F99XUFTq4V6. Pictured full reference 220.12.43.22.03.001; Stainless Steel, Blue teak-stripe worldtime non-wave, Blue rubber strap. Exact configuration reviewed against preserved source evidence and the original photograph.",
       "nextAction": "Retain approved source, white-canvas derivative, attribution and reference mapping."
+    },
+    {
+      "brand": "Omega",
+      "brandSlug": "omega",
+      "collection": "Planet Ocean",
+      "collectionSlug": "planet-ocean",
+      "reference": "232.63.42.21.01.001",
+      "model": "Seamaster Planet Ocean 600M Ceragold",
+      "canonicalRoute": "/collections/omega/planet-ocean/232-63-42-21-01-001",
+      "configuration": {
+        "caseSize": "42 mm",
+        "movement": "Omega 8501 automatic",
+        "dial": "Black",
+        "bracelet": "Black alligator leather strap",
+        "material": "18K red gold"
+      },
+      "specificationSource": "https://www.omegawatches.com.hk/en-hk/watch-omega-seamaster-planet-ocean-600m-omega-co-axial-42-mm-23263422101001",
+      "score": 65,
+      "status": "ACQUISITION_REQUIRED",
+      "photoAssetId": null,
+      "derivativePath": null,
+      "recordedSha256": null,
+      "actualSha256": null,
+      "rightsRecord": null,
+      "nextAction": "Source authentic exact-reference original; obtain commercial-use license and provenance, prepare approved full-watch white-canvas derivative and register the matching SHA-256."
     },
     {
       "brand": "Franck Muller",
@@ -1764,6 +1888,81 @@
       "nextAction": "Retain approved source, white-canvas derivative, attribution and reference mapping."
     },
     {
+      "brand": "Ulysse Nardin",
+      "brandSlug": "ulysse-nardin",
+      "collection": "Diver",
+      "collectionSlug": "diver",
+      "reference": "1502-151-3/93",
+      "model": "Diver Chronograph Rose Gold Blue Dial",
+      "canonicalRoute": "/collections/ulysse-nardin/diver/1502-151-3-93",
+      "configuration": {
+        "caseSize": "44 mm",
+        "movement": "Automatic; calibre verification pending",
+        "dial": "Blue",
+        "bracelet": "Blue rubber strap",
+        "material": "18K rose gold"
+      },
+      "specificationSource": "https://www.timepiecetrader.com/luxury-watches-brands/ulysse-nardin-marine-diver-chronograph-manufacture-mens-watch-44mm-1502-151-393/",
+      "score": 62,
+      "status": "ACQUISITION_REQUIRED",
+      "photoAssetId": null,
+      "derivativePath": null,
+      "recordedSha256": null,
+      "actualSha256": null,
+      "rightsRecord": null,
+      "nextAction": "Source authentic exact-reference original; obtain commercial-use license and provenance, prepare approved full-watch white-canvas derivative and register the matching SHA-256."
+    },
+    {
+      "brand": "Ulysse Nardin",
+      "brandSlug": "ulysse-nardin",
+      "collection": "Marine",
+      "collectionSlug": "marine",
+      "reference": "1506-150LE-3/63-VB",
+      "model": "Maxi Marine Chronograph Voyage Bleu",
+      "canonicalRoute": "/collections/ulysse-nardin/marine/1506-150le-3-63-vb",
+      "configuration": {
+        "caseSize": "Specification verification pending",
+        "movement": "Automatic; calibre verification pending",
+        "dial": "Blue with Arabic numerals",
+        "bracelet": "Blue rubber strap with rose-gold inserts",
+        "material": "18K rose gold"
+      },
+      "specificationSource": "https://www.jomashop.com/ulysse-nardin-watch-1506-150le-3-63-vb.html",
+      "score": 62,
+      "status": "ACQUISITION_REQUIRED",
+      "photoAssetId": null,
+      "derivativePath": null,
+      "recordedSha256": null,
+      "actualSha256": null,
+      "rightsRecord": null,
+      "nextAction": "Source authentic exact-reference original; obtain commercial-use license and provenance, prepare approved full-watch white-canvas derivative and register the matching SHA-256."
+    },
+    {
+      "brand": "Ulysse Nardin",
+      "brandSlug": "ulysse-nardin",
+      "collection": "Marine",
+      "collectionSlug": "marine",
+      "reference": "266-67",
+      "model": "Maxi Marine Chronometer Rose Gold Blue Dial",
+      "canonicalRoute": "/collections/ulysse-nardin/marine/266-67",
+      "configuration": {
+        "caseSize": "43 mm",
+        "movement": "UN-26 automatic",
+        "dial": "Blue with Roman numerals",
+        "bracelet": "Blue rubber strap",
+        "material": "18K rose gold"
+      },
+      "specificationSource": "https://davidsw.com/shop/watch/ulysse-nardin/ulysse-nardin-maxi-marine-chronometer-18k-rose-gold/",
+      "score": 62,
+      "status": "ACQUISITION_REQUIRED",
+      "photoAssetId": null,
+      "derivativePath": null,
+      "recordedSha256": null,
+      "actualSha256": null,
+      "rightsRecord": null,
+      "nextAction": "Source authentic exact-reference original; obtain commercial-use license and provenance, prepare approved full-watch white-canvas derivative and register the matching SHA-256."
+    },
+    {
       "brand": "Breitling",
       "brandSlug": "breitling",
       "collection": "Colt",
@@ -2189,6 +2388,31 @@
       "nextAction": "Source authentic exact-reference original; obtain commercial-use license and provenance, prepare approved full-watch white-canvas derivative and register the matching SHA-256."
     },
     {
+      "brand": "Audemars Piguet",
+      "brandSlug": "audemars-piguet",
+      "collection": "Code 11.59",
+      "collectionSlug": "code-1159",
+      "reference": "26393BC.OO.A321CR.01",
+      "model": "Code 11.59 Selfwinding Chronograph Blue Dial",
+      "canonicalRoute": "/collections/audemars-piguet/code-1159/26393bc-oo-a321cr-01",
+      "configuration": {
+        "caseSize": "Specification verification pending",
+        "movement": "Automatic; calibre verification pending",
+        "dial": "Deep blue lacquered",
+        "bracelet": "Blue leather strap; material verification pending",
+        "material": "18K white gold"
+      },
+      "specificationSource": "https://www.audemarspiguet.com/com/en/watch-collection/code-1159/26393BC.OO.A321CR.01.html",
+      "score": 59,
+      "status": "ACQUISITION_REQUIRED",
+      "photoAssetId": null,
+      "derivativePath": null,
+      "recordedSha256": null,
+      "actualSha256": null,
+      "rightsRecord": null,
+      "nextAction": "Source authentic exact-reference original; obtain commercial-use license and provenance, prepare approved full-watch white-canvas derivative and register the matching SHA-256."
+    },
+    {
       "brand": "Cartier",
       "brandSlug": "cartier",
       "collection": "Roadster",
@@ -2205,6 +2429,81 @@
       },
       "specificationSource": "https://www.cartier.com/en-us/watches/collections/roadster/roadster-watch--CRWGRD0011.html",
       "score": 59,
+      "status": "ACQUISITION_REQUIRED",
+      "photoAssetId": null,
+      "derivativePath": null,
+      "recordedSha256": null,
+      "actualSha256": null,
+      "rightsRecord": null,
+      "nextAction": "Source authentic exact-reference original; obtain commercial-use license and provenance, prepare approved full-watch white-canvas derivative and register the matching SHA-256."
+    },
+    {
+      "brand": "Patek Philippe",
+      "brandSlug": "patek-philippe",
+      "collection": "Grand Complications",
+      "collectionSlug": "grand-complications",
+      "reference": "5327G-001",
+      "model": "Perpetual Calendar Blue Dial",
+      "canonicalRoute": "/collections/patek-philippe/grand-complications/5327g-001",
+      "configuration": {
+        "caseSize": "39 mm",
+        "movement": "240 Q automatic",
+        "dial": "Sunburst blue with Breguet numerals",
+        "bracelet": "Shiny navy blue alligator leather strap",
+        "material": "18K white gold"
+      },
+      "specificationSource": "https://www.patek.com/en/collection/grand-complications/5327G-001",
+      "score": 59,
+      "status": "ACQUISITION_REQUIRED",
+      "photoAssetId": null,
+      "derivativePath": null,
+      "recordedSha256": null,
+      "actualSha256": null,
+      "rightsRecord": null,
+      "nextAction": "Source authentic exact-reference original; obtain commercial-use license and provenance, prepare approved full-watch white-canvas derivative and register the matching SHA-256."
+    },
+    {
+      "brand": "Hublot",
+      "brandSlug": "hublot",
+      "collection": "Big Bang Unico",
+      "collectionSlug": "big-bang-unico",
+      "reference": "411.OM.1180.RX",
+      "model": "Big Bang Unico King Gold Ceramic",
+      "canonicalRoute": "/collections/hublot/big-bang-unico/411-om-1180-rx",
+      "configuration": {
+        "caseSize": "45 mm",
+        "movement": "HUB1242 automatic chronograph",
+        "dial": "Skeleton",
+        "bracelet": "Black rubber strap",
+        "material": "18K King Gold with black ceramic bezel"
+      },
+      "specificationSource": "https://www.prestigetime.com/Hublot-Big-Bang-UNICO-45mm-411-om-1180-rx.html",
+      "score": 58,
+      "status": "ACQUISITION_REQUIRED",
+      "photoAssetId": null,
+      "derivativePath": null,
+      "recordedSha256": null,
+      "actualSha256": null,
+      "rightsRecord": null,
+      "nextAction": "Source authentic exact-reference original; obtain commercial-use license and provenance, prepare approved full-watch white-canvas derivative and register the matching SHA-256."
+    },
+    {
+      "brand": "Hublot",
+      "brandSlug": "hublot",
+      "collection": "Big Bang Unico",
+      "collectionSlug": "big-bang-unico",
+      "reference": "411.OX.1180.RX",
+      "model": "Big Bang Unico King Gold",
+      "canonicalRoute": "/collections/hublot/big-bang-unico/411-ox-1180-rx",
+      "configuration": {
+        "caseSize": "45 mm",
+        "movement": "HUB1242 automatic chronograph",
+        "dial": "Skeleton",
+        "bracelet": "Black rubber strap",
+        "material": "18K King Gold"
+      },
+      "specificationSource": "https://www.thewatchagency.com/hublot/bb-king/411-ox-1180-rx/62648",
+      "score": 58,
       "status": "ACQUISITION_REQUIRED",
       "photoAssetId": null,
       "derivativePath": null,
@@ -2264,6 +2563,56 @@
       "nextAction": "Retain approved source, white-canvas derivative, attribution and reference mapping."
     },
     {
+      "brand": "Ulysse Nardin",
+      "brandSlug": "ulysse-nardin",
+      "collection": "Diver",
+      "collectionSlug": "diver",
+      "reference": "266-10-3/92",
+      "model": "Maxi Marine Diver Black Wave Dial Rose Gold",
+      "canonicalRoute": "/collections/ulysse-nardin/diver/266-10-3-92",
+      "configuration": {
+        "caseSize": "44 mm",
+        "movement": "Automatic; calibre verification pending",
+        "dial": "Black wave dial",
+        "bracelet": "Black rubber strap with rose-gold inserts",
+        "material": "18K rose gold"
+      },
+      "specificationSource": "https://www.prestigetime.com/Ulysse-Nardin-Maxi-Marine-Diver-44mm-266-10-3-92.html",
+      "score": 58,
+      "status": "ACQUISITION_REQUIRED",
+      "photoAssetId": null,
+      "derivativePath": null,
+      "recordedSha256": null,
+      "actualSha256": null,
+      "rightsRecord": null,
+      "nextAction": "Source authentic exact-reference original; obtain commercial-use license and provenance, prepare approved full-watch white-canvas derivative and register the matching SHA-256."
+    },
+    {
+      "brand": "Vacheron Constantin",
+      "brandSlug": "vacheron-constantin",
+      "collection": "Overseas",
+      "collectionSlug": "overseas",
+      "reference": "4300V/220G-H151",
+      "model": "Overseas Perpetual Calendar Ultra-Thin Burgundy Dial",
+      "canonicalRoute": "/collections/vacheron-constantin/overseas/4300v-220g-h151",
+      "configuration": {
+        "caseSize": "41.5 mm",
+        "movement": "1120 QP automatic",
+        "dial": "Burgundy lacquered sunburst",
+        "bracelet": "18K white-gold bracelet; additional burgundy and white rubber straps",
+        "material": "18K white gold"
+      },
+      "specificationSource": "https://www.vacheron-constantin.com/ww/en/collections/overseas/4300v-220g-h151.html",
+      "score": 58,
+      "status": "ACQUISITION_REQUIRED",
+      "photoAssetId": null,
+      "derivativePath": null,
+      "recordedSha256": null,
+      "actualSha256": null,
+      "rightsRecord": null,
+      "nextAction": "Source authentic exact-reference original; obtain commercial-use license and provenance, prepare approved full-watch white-canvas derivative and register the matching SHA-256."
+    },
+    {
       "brand": "Cartier",
       "brandSlug": "cartier",
       "collection": "Roadster",
@@ -2279,6 +2628,31 @@
         "material": "Stainless Steel"
       },
       "specificationSource": "https://www.cartier.com/en-pr/watches/collections/roadster/roadster-watch--CRWSRD0014",
+      "score": 57,
+      "status": "ACQUISITION_REQUIRED",
+      "photoAssetId": null,
+      "derivativePath": null,
+      "recordedSha256": null,
+      "actualSha256": null,
+      "rightsRecord": null,
+      "nextAction": "Source authentic exact-reference original; obtain commercial-use license and provenance, prepare approved full-watch white-canvas derivative and register the matching SHA-256."
+    },
+    {
+      "brand": "Vacheron Constantin",
+      "brandSlug": "vacheron-constantin",
+      "collection": "Traditionnelle",
+      "collectionSlug": "traditionnelle",
+      "reference": "6000T/000P-H025",
+      "model": "Traditionnelle Tourbillon Green Dial",
+      "canonicalRoute": "/collections/vacheron-constantin/traditionnelle/6000t-000p-h025",
+      "configuration": {
+        "caseSize": "41 mm",
+        "movement": "2160 automatic",
+        "dial": "Deep green sunburst",
+        "bracelet": "Green alligator leather strap",
+        "material": "950 Platinum"
+      },
+      "specificationSource": "https://www.vacheron-constantin.com/ww/de/collections/traditionnelle/6000t-000p-h025.html",
       "score": 57,
       "status": "ACQUISITION_REQUIRED",
       "photoAssetId": null,
@@ -2339,6 +2713,106 @@
       "nextAction": "Source authentic exact-reference original; obtain commercial-use license and provenance, prepare approved full-watch white-canvas derivative and register the matching SHA-256."
     },
     {
+      "brand": "Audemars Piguet",
+      "brandSlug": "audemars-piguet",
+      "collection": "Royal Oak",
+      "collectionSlug": "royal-oak",
+      "reference": "15412BA.ZG.1224BA.01",
+      "model": "Royal Oak Double Balance Wheel Openworked Frosted Yellow Gold Baguette",
+      "canonicalRoute": "/collections/audemars-piguet/royal-oak/15412ba-zg-1224ba-01",
+      "configuration": {
+        "caseSize": "Specification verification pending",
+        "movement": "Calibre verification pending",
+        "dial": "Openworked",
+        "bracelet": "Frosted yellow-gold bracelet",
+        "material": "18K yellow gold; baguette diamond-set bezel"
+      },
+      "specificationSource": "https://www.audemarspiguet.com/us/en/watch-collection/royal-oak/15412BA.ZG.1224BA.01",
+      "score": 55,
+      "status": "ACQUISITION_REQUIRED",
+      "photoAssetId": null,
+      "derivativePath": null,
+      "recordedSha256": null,
+      "actualSha256": null,
+      "rightsRecord": null,
+      "nextAction": "Source authentic exact-reference original; obtain commercial-use license and provenance, prepare approved full-watch white-canvas derivative and register the matching SHA-256."
+    },
+    {
+      "brand": "Audemars Piguet",
+      "brandSlug": "audemars-piguet",
+      "collection": "Royal Oak",
+      "collectionSlug": "royal-oak",
+      "reference": "15412BC.ZZ.1220BC.01",
+      "model": "Royal Oak Double Balance Wheel Openworked White Gold Baguette",
+      "canonicalRoute": "/collections/audemars-piguet/royal-oak/15412bc-zz-1220bc-01",
+      "configuration": {
+        "caseSize": "41 mm",
+        "movement": "3132 automatic",
+        "dial": "Openworked",
+        "bracelet": "18K white-gold bracelet",
+        "material": "18K white gold; diamond-set bezel"
+      },
+      "specificationSource": "https://www.jomashop.com/audemars-piguet-15412bc-zz-1220bc-01.html",
+      "score": 55,
+      "status": "ACQUISITION_REQUIRED",
+      "photoAssetId": null,
+      "derivativePath": null,
+      "recordedSha256": null,
+      "actualSha256": null,
+      "rightsRecord": null,
+      "nextAction": "Source authentic exact-reference original; obtain commercial-use license and provenance, prepare approved full-watch white-canvas derivative and register the matching SHA-256."
+    },
+    {
+      "brand": "Audemars Piguet",
+      "brandSlug": "audemars-piguet",
+      "collection": "Royal Oak",
+      "collectionSlug": "royal-oak",
+      "reference": "15412OR.ZZ.1220OR.01",
+      "model": "Royal Oak Double Balance Wheel Openworked Rose Gold Baguette",
+      "canonicalRoute": "/collections/audemars-piguet/royal-oak/15412or-zz-1220or-01",
+      "configuration": {
+        "caseSize": "41 mm",
+        "movement": "Calibre verification pending",
+        "dial": "Openworked",
+        "bracelet": "18K rose-gold bracelet",
+        "material": "18K rose gold; baguette diamond-set bezel"
+      },
+      "specificationSource": "https://chronoboutiqueny.com/products/audemars-piguet-royal-oak-double-balance-wheel-openworked-rose-gold-baguette-15412or-zz-1220or-01-sold",
+      "score": 55,
+      "status": "ACQUISITION_REQUIRED",
+      "photoAssetId": null,
+      "derivativePath": null,
+      "recordedSha256": null,
+      "actualSha256": null,
+      "rightsRecord": null,
+      "nextAction": "Source authentic exact-reference original; obtain commercial-use license and provenance, prepare approved full-watch white-canvas derivative and register the matching SHA-256."
+    },
+    {
+      "brand": "Audemars Piguet",
+      "brandSlug": "audemars-piguet",
+      "collection": "Royal Oak",
+      "collectionSlug": "royal-oak",
+      "reference": "26607BC.OO.1220BC.01",
+      "model": "Royal Oak Perpetual Calendar Thailand Red Dial",
+      "canonicalRoute": "/collections/audemars-piguet/royal-oak/26607bc-oo-1220bc-01",
+      "configuration": {
+        "caseSize": "41 mm",
+        "movement": "5134 automatic",
+        "dial": "Red Grande Tapisserie",
+        "bracelet": "18K white-gold bracelet",
+        "material": "18K white gold"
+      },
+      "specificationSource": "https://wristcheck.com/us/buy/audemars-piguet/royal-oak-41-white-gold-red-dial-26607bcoo1220bc01",
+      "score": 55,
+      "status": "ACQUISITION_REQUIRED",
+      "photoAssetId": null,
+      "derivativePath": null,
+      "recordedSha256": null,
+      "actualSha256": null,
+      "rightsRecord": null,
+      "nextAction": "Source authentic exact-reference original; obtain commercial-use license and provenance, prepare approved full-watch white-canvas derivative and register the matching SHA-256."
+    },
+    {
       "brand": "Panerai",
       "brandSlug": "panerai",
       "collection": "Radiomir GMT",
@@ -2355,6 +2829,56 @@
       },
       "specificationSource": "https://www.panerai.com/us/en/collections/special-editions-archive/2013/pam00502-radiomir-1940-chrono-monopulsante-8-days-gmt-oro-rosso-.html",
       "score": 55,
+      "status": "ACQUISITION_REQUIRED",
+      "photoAssetId": null,
+      "derivativePath": null,
+      "recordedSha256": null,
+      "actualSha256": null,
+      "rightsRecord": null,
+      "nextAction": "Source authentic exact-reference original; obtain commercial-use license and provenance, prepare approved full-watch white-canvas derivative and register the matching SHA-256."
+    },
+    {
+      "brand": "Audemars Piguet",
+      "brandSlug": "audemars-piguet",
+      "collection": "Royal Oak",
+      "collectionSlug": "royal-oak",
+      "reference": "26585CE.OO.1225CE.01",
+      "model": "Royal Oak Perpetual Calendar Openworked Black Ceramic",
+      "canonicalRoute": "/collections/audemars-piguet/royal-oak/26585ce-oo-1225ce-01",
+      "configuration": {
+        "caseSize": "Specification verification pending",
+        "movement": "Calibre verification pending",
+        "dial": "Openworked sapphire with pink-gold components",
+        "bracelet": "Black ceramic bracelet",
+        "material": "Black ceramic"
+      },
+      "specificationSource": "https://www.audemarspiguet.com/us/en/watch-collection/royal-oak/26585CE.OO.1225CE.01",
+      "score": 54,
+      "status": "ACQUISITION_REQUIRED",
+      "photoAssetId": null,
+      "derivativePath": null,
+      "recordedSha256": null,
+      "actualSha256": null,
+      "rightsRecord": null,
+      "nextAction": "Source authentic exact-reference original; obtain commercial-use license and provenance, prepare approved full-watch white-canvas derivative and register the matching SHA-256."
+    },
+    {
+      "brand": "Audemars Piguet",
+      "brandSlug": "audemars-piguet",
+      "collection": "Royal Oak",
+      "collectionSlug": "royal-oak",
+      "reference": "26585XT.OO.1220XT.01",
+      "model": "Royal Oak Perpetual Calendar Openworked 150th Anniversary",
+      "canonicalRoute": "/collections/audemars-piguet/royal-oak/26585xt-oo-1220xt-01",
+      "configuration": {
+        "caseSize": "Specification verification pending",
+        "movement": "5135 automatic",
+        "dial": "Openworked blue-accented dial",
+        "bracelet": "Titanium and BMG bracelet",
+        "material": "Titanium and Bulk Metallic Glass"
+      },
+      "specificationSource": "https://www.audemarspiguet.com/us/en/watch-collection/royal-oak/26585XT.OO.1220XT.01",
+      "score": 54,
       "status": "ACQUISITION_REQUIRED",
       "photoAssetId": null,
       "derivativePath": null,
@@ -2514,6 +3038,81 @@
       "nextAction": "Source authentic exact-reference original; obtain commercial-use license and provenance, prepare approved full-watch white-canvas derivative and register the matching SHA-256."
     },
     {
+      "brand": "Audemars Piguet",
+      "brandSlug": "audemars-piguet",
+      "collection": "Royal Oak",
+      "collectionSlug": "royal-oak",
+      "reference": "26341ST.OO.1105ST.01",
+      "model": "Royal Oak Grande Complication",
+      "canonicalRoute": "/collections/audemars-piguet/royal-oak/26341st-oo-1105st-01",
+      "configuration": {
+        "caseSize": "44 mm",
+        "movement": "Calibre verification pending",
+        "dial": "Openworked sapphire",
+        "bracelet": "Stainless-steel bracelet",
+        "material": "Stainless Steel"
+      },
+      "specificationSource": "https://www.audemarspiguet.com/en/about/savoir-faire/grandes-complications",
+      "score": 50,
+      "status": "ACQUISITION_REQUIRED",
+      "photoAssetId": null,
+      "derivativePath": null,
+      "recordedSha256": null,
+      "actualSha256": null,
+      "rightsRecord": null,
+      "nextAction": "Source authentic exact-reference original; obtain commercial-use license and provenance, prepare approved full-watch white-canvas derivative and register the matching SHA-256."
+    },
+    {
+      "brand": "Audemars Piguet",
+      "brandSlug": "audemars-piguet",
+      "collection": "Royal Oak",
+      "collectionSlug": "royal-oak",
+      "reference": "26585CM.OO.D301VE.01",
+      "model": "Royal Oak Perpetual Calendar Openworked Cactus Jack",
+      "canonicalRoute": "/collections/audemars-piguet/royal-oak/26585cm-oo-d301ve-01",
+      "configuration": {
+        "caseSize": "41 mm",
+        "movement": "Calibre verification pending",
+        "dial": "Openworked Cactus Jack dial",
+        "bracelet": "Brown strap; material verification pending",
+        "material": "Brown ceramic"
+      },
+      "specificationSource": "https://www.audemarspiguet.com/zh-hant/watch-collection/royal-oak/26585CM.OO.D301VE.01",
+      "score": 50,
+      "status": "ACQUISITION_REQUIRED",
+      "photoAssetId": null,
+      "derivativePath": null,
+      "recordedSha256": null,
+      "actualSha256": null,
+      "rightsRecord": null,
+      "nextAction": "Source authentic exact-reference original; obtain commercial-use license and provenance, prepare approved full-watch white-canvas derivative and register the matching SHA-256."
+    },
+    {
+      "brand": "Audemars Piguet",
+      "brandSlug": "audemars-piguet",
+      "collection": "Royal Oak",
+      "collectionSlug": "royal-oak",
+      "reference": "26615TI.OO.1220TI.01",
+      "model": "Royal Oak Perpetual Calendar Salmon Dial Titanium",
+      "canonicalRoute": "/collections/audemars-piguet/royal-oak/26615ti-oo-1220ti-01",
+      "configuration": {
+        "caseSize": "Specification verification pending",
+        "movement": "Calibre verification pending",
+        "dial": "Salmon-toned Grande Tapisserie",
+        "bracelet": "Titanium bracelet",
+        "material": "Titanium"
+      },
+      "specificationSource": "https://www.audemarspiguet.com/zh-hans/watch-collection/royal-oak/26615TI.OO.1220TI.01",
+      "score": 50,
+      "status": "ACQUISITION_REQUIRED",
+      "photoAssetId": null,
+      "derivativePath": null,
+      "recordedSha256": null,
+      "actualSha256": null,
+      "rightsRecord": null,
+      "nextAction": "Source authentic exact-reference original; obtain commercial-use license and provenance, prepare approved full-watch white-canvas derivative and register the matching SHA-256."
+    },
+    {
       "brand": "Bell & Ross",
       "brandSlug": "bell-and-ross",
       "collection": "BR 01",
@@ -2539,6 +3138,31 @@
       "nextAction": "Source authentic exact-reference original; obtain commercial-use license and provenance, prepare approved full-watch white-canvas derivative and register the matching SHA-256."
     },
     {
+      "brand": "Patek Philippe",
+      "brandSlug": "patek-philippe",
+      "collection": "Aquanaut",
+      "collectionSlug": "aquanaut",
+      "reference": "5167/1A-001",
+      "model": "Aquanaut on Steel Bracelet",
+      "canonicalRoute": "/collections/patek-philippe/aquanaut/5167-1a-001",
+      "configuration": {
+        "caseSize": "40.8 mm",
+        "movement": "26-330 S C automatic (2023 manufacturer catalog)",
+        "dial": "Black embossed Aquanaut pattern",
+        "bracelet": "Stainless-steel bracelet",
+        "material": "Stainless Steel"
+      },
+      "specificationSource": "https://static.patek.com/pdf/catalogs/PatekPhilippe_Watch_Art_Tokyo_2023_Catalog_EN.pdf",
+      "score": 50,
+      "status": "ACQUISITION_REQUIRED",
+      "photoAssetId": null,
+      "derivativePath": null,
+      "recordedSha256": null,
+      "actualSha256": null,
+      "rightsRecord": null,
+      "nextAction": "Source authentic exact-reference original; obtain commercial-use license and provenance, prepare approved full-watch white-canvas derivative and register the matching SHA-256."
+    },
+    {
       "brand": "Richard Mille",
       "brandSlug": "richard-mille",
       "collection": "RM 67",
@@ -2554,6 +3178,31 @@
         "material": "Model-dependent"
       },
       "specificationSource": "https://www.richardmille.com/collections/rm-67-01-automatic-extra-flat",
+      "score": 50,
+      "status": "ACQUISITION_REQUIRED",
+      "photoAssetId": null,
+      "derivativePath": null,
+      "recordedSha256": null,
+      "actualSha256": null,
+      "rightsRecord": null,
+      "nextAction": "Source authentic exact-reference original; obtain commercial-use license and provenance, prepare approved full-watch white-canvas derivative and register the matching SHA-256."
+    },
+    {
+      "brand": "Vacheron Constantin",
+      "brandSlug": "vacheron-constantin",
+      "collection": "Patrimony",
+      "collectionSlug": "patrimony",
+      "reference": "4000U/000P-H003",
+      "model": "Patrimony Retrograde Day-Date Salmon Dial",
+      "canonicalRoute": "/collections/vacheron-constantin/patrimony/4000u-000p-h003",
+      "configuration": {
+        "caseSize": "42.5 mm",
+        "movement": "2460 R31R7/3 automatic",
+        "dial": "Salmon-toned sunburst",
+        "bracelet": "Dark blue alligator leather strap",
+        "material": "950 Platinum"
+      },
+      "specificationSource": "https://www.vacheron-constantin.com/ca/en/collections/patrimony/4000u-000p-h003.html",
       "score": 50,
       "status": "ACQUISITION_REQUIRED",
       "photoAssetId": null,
