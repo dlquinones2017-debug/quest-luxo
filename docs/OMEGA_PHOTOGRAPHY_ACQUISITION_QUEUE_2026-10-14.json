@@ -8,9 +8,9 @@
   "licensePolicy": "Reference source URL documents identity only; it does NOT license website reuse. No AI watches, unverified source shots or nonwhite wrist photographs.",
   "summary": {
     "references": 55,
-    "existingExactReferenceImageRecordMatches": 42,
-    "requiresAcquisition": 13,
-    "clearedForPublication": 42
+    "existingExactReferenceImageRecordMatches": 44,
+    "requiresAcquisition": 11,
+    "clearedForPublication": 44
   },
   "queue": [
     {
@@ -1168,18 +1168,19 @@
       "specificationSource": "https://www.omegawatches.com.hk/en-hk/watch-omega-constellation-co-axial-master-chronometer-41-mm-13123412103001",
       "sourceHost": "www.omegawatches.com.hk",
       "priorityScore": 58,
-      "imageSourceFoundInCurrentClearanceCode": false,
+      "imageSourceFoundInCurrentClearanceCode": true,
       "evidence": {
         "rawImageId": null,
         "rawChecksum": null,
-        "webDerivativePath": null,
-        "webDerivativeChecksum": null,
-        "exactReferenceImageReviewed": false,
-        "centeredWhiteBackgroundVerified": false,
-        "websiteUseRightsVerified": false,
-        "rightsRecord": null,
-        "approvalReviewer": null,
-        "status": "ACQUISITION_REQUIRED"
+        "webDerivativePath": "/images/watches/omega/reviewed-131-23-41-21-03-001-white-web.webp",
+        "webDerivativeChecksum": "10f524ad1e5fcd680e53a8f905637567c439fa01348c8e0d7fb67a298e66e3e7",
+        "exactReferenceImageReviewed": true,
+        "centeredWhiteBackgroundVerified": true,
+        "websiteUseRightsVerified": true,
+        "rightsRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for these exact two Uhrinstinkt originals and white-background derivatives with no additional restrictions on October15,2026 Eastern. Record docs/PHOTOGRAPHY_UHR_TWO_FOUNDER_RIGHTS_2026-10-15.json. Authentic complete RAW and final white WEB individually visually reviewed; source credits retained separately. Preserved RAW file: 1M5WJXgeNrdwn5CH5GoO4pBoU9n_kjpGl. Pictured full reference 131.23.41.21.03.001; Stainless Steel and 18K Sedna Gold, Blue sun-brushed non-wave, Blue leather strap. Exact configuration reviewed against preserved source evidence and the original photograph.",
+        "approvalReviewer": "Quest Luxo execution review with founder website-use clearance",
+        "status": "APPROVED_WITH_VALID_DERIVATIVE",
+        "approvedAssetId": "cleared-uhr-two-1M5WJXgeNrdwn5CH5GoO4pBoU9n_kjpGl"
       },
       "requirements": [
         "Obtain authentic non-AI original for exact pictured reference and configuration",
@@ -1719,18 +1720,19 @@
       "specificationSource": "https://www.omegawatches.com.hk/en-hk/watch-omega-constellation-co-axial-master-chronometer-41-mm-13130412104001",
       "sourceHost": "www.omegawatches.com.hk",
       "priorityScore": 43,
-      "imageSourceFoundInCurrentClearanceCode": false,
+      "imageSourceFoundInCurrentClearanceCode": true,
       "evidence": {
         "rawImageId": null,
         "rawChecksum": null,
-        "webDerivativePath": null,
-        "webDerivativeChecksum": null,
-        "exactReferenceImageReviewed": false,
-        "centeredWhiteBackgroundVerified": false,
-        "websiteUseRightsVerified": false,
-        "rightsRecord": null,
-        "approvalReviewer": null,
-        "status": "ACQUISITION_REQUIRED"
+        "webDerivativePath": "/images/watches/omega/reviewed-131-30-41-21-04-001-white-web.webp",
+        "webDerivativeChecksum": "3bcb11f769ef6526bfdc67c351ddfc29c022c4e9e08482242463a635c73081f4",
+        "exactReferenceImageReviewed": true,
+        "centeredWhiteBackgroundVerified": true,
+        "websiteUseRightsVerified": true,
+        "rightsRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for these exact two Uhrinstinkt originals and white-background derivatives with no additional restrictions on October15,2026 Eastern. Record docs/PHOTOGRAPHY_UHR_TWO_FOUNDER_RIGHTS_2026-10-15.json. Authentic complete RAW and final white WEB individually visually reviewed; source credits retained separately. Preserved RAW file: 1I2zHcoV73_xD99DaV-tS0k1disNkS0Hf. Pictured full reference 131.30.41.21.04.001; Stainless Steel, White ceramic non-wave, Stainless-steel bracelet. Exact configuration reviewed against preserved source evidence and the original photograph.",
+        "approvalReviewer": "Quest Luxo execution review with founder website-use clearance",
+        "status": "APPROVED_WITH_VALID_DERIVATIVE",
+        "approvedAssetId": "cleared-uhr-two-1I2zHcoV73_xD99DaV-tS0k1disNkS0Hf"
       },
       "requirements": [
         "Obtain authentic non-AI original for exact pictured reference and configuration",

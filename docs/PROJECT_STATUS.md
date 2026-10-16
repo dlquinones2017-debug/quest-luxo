@@ -300,3 +300,15 @@ Production remains189/268 reference URLs photographed,79 queued; latest verified
 ## Nine-image photography release — October15,2026
 
 All nine newly reviewed photographs now have explicit founder commercial-use permission without restrictions: seven Rolex configurations, Panerai PAM01641 and Omega434.13.41.20.10.001. All27 RAW/master/WEB files are archived. The existing registry adds precise photographed configurations while preserving existing generic options and public URLs. Newer production73ec030 navigation and Vanguard consolidation are retained. Built coverage is198/268 references,70 queued,80/102 collections. All246 regressions, Astro validation (0 errors,0 warnings,20 hints), photography/hash audits, production build, nine targeted built checks and desktop/mobile/intake-context review passed. Deployment and live verification pending. No customer records or persistent disk changed.
+
+
+Nine-image release f4fde204735f66043d6fde760034b840c0e86250 / Render dep-db8kc9hsrm7s73e8tdkg is LIVE. Independent checks passed all268 reference routes, all197 distinct image SHA-256 checksums and all9 new exact-image/configuration/grid/credits/inquiry checks. Actual production:198/268 reference URLs photographed,70 queued,80/102 collections. No reviewed cleared set remains unpublished. Current master update proceeds from the verified50-page checkpoint. Acquisition continues for unresolved sources; no fabricated photography or new availability/pricing claims.
+
+Canonical photography master updated in place to52 pages after new pages51/52 visual review and proof that all historical50 pages are pixel-identical. Authenticated Drive readback SHA-256 matches 1e49ebf8f86ffdc6d1c4b797d9a18574dce056e5382e1e54330752bf843bee77. Source ledgers, canonical full audit and production verification updated in Drive. Founder-authorized V4 release status delivered.
+
+Two subsequent Uhrinstinkt Constellation sets (131.30.41.21.04.001 and131.23.41.21.03.001) are exact-source, complete, individually reviewed and all6 RAW/master/WEB files archived. Image-specific rights pending; neither published. Production remains198/268,70 queued. Prepared manifest and next-source holds are recorded in PHOTOGRAPHY_SPRINT_STATE.json.
+
+
+## Two Constellation photographs — October15,2026
+
+Both exact Uhrinstinkt Constellation sets now have direct founder commercial website-use permission without restrictions. Existing6 RAW/master/WEB archives reused; no reacquisition or duplicate upload. Registry/images/queues updated;200/268 references photographed in build,68 queued. All246 regressions, Astro (0 errors,0 warnings,20 hints), photography/hash audits, production build, both targeted route/grid/credits/inquiry checks and mobile/desktop/intake-context review passed. Deploying through existing main auto-deploy; customer records and persistent disk untouched.

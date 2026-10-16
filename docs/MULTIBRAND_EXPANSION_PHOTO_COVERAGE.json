@@ -1,17 +1,17 @@
 {
-  "reviewedAt": "2026-10-15T21:24:05.196Z",
+  "reviewedAt": "2026-10-16T00:20:24.070Z",
   "scope": "All verified-catalog-expansion.ts references only; excludes legacy inventory",
   "policy": "Source URL is NOT image-rights evidence. Exact watch, strap, dial, material, white-canvas original, licensing, website approval and actual derivative SHA256 are required.",
   "summary": {
     "expansionReferences": 99,
     "brands": 12,
     "collections": 42,
-    "approvedValidReferences": 62,
+    "approvedValidReferences": 64,
     "missingApprovedDerivative": 0,
     "checksumFailures": 0,
-    "acquisitionRequired": 37,
-    "notReleaseReady": 37,
-    "imageCoveragePercent": 62.6
+    "acquisitionRequired": 35,
+    "notReleaseReady": 35,
+    "imageCoveragePercent": 64.6
   },
   "byBrand": [
     {
@@ -53,8 +53,8 @@
     {
       "brand": "Omega",
       "references": 55,
-      "approved": 42,
-      "outstanding": 13
+      "approved": 44,
+      "outstanding": 11
     },
     {
       "brand": "Panerai",
@@ -955,13 +955,13 @@
       },
       "specificationSource": "https://www.omegawatches.com.hk/en-hk/watch-omega-constellation-co-axial-master-chronometer-41-mm-13123412103001",
       "score": 69,
-      "status": "ACQUISITION_REQUIRED",
-      "photoAssetId": null,
-      "derivativePath": null,
-      "recordedSha256": null,
-      "actualSha256": null,
-      "rightsRecord": null,
-      "nextAction": "Source authentic exact-reference original; obtain commercial-use license and provenance, prepare approved full-watch white-canvas derivative and register the matching SHA-256."
+      "status": "APPROVED_WITH_VALID_DERIVATIVE",
+      "photoAssetId": "cleared-uhr-two-1M5WJXgeNrdwn5CH5GoO4pBoU9n_kjpGl",
+      "derivativePath": "/images/watches/omega/reviewed-131-23-41-21-03-001-white-web.webp",
+      "recordedSha256": "10f524ad1e5fcd680e53a8f905637567c439fa01348c8e0d7fb67a298e66e3e7",
+      "actualSha256": "10f524ad1e5fcd680e53a8f905637567c439fa01348c8e0d7fb67a298e66e3e7",
+      "rightsRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for these exact two Uhrinstinkt originals and white-background derivatives with no additional restrictions on October15,2026 Eastern. Record docs/PHOTOGRAPHY_UHR_TWO_FOUNDER_RIGHTS_2026-10-15.json. Authentic complete RAW and final white WEB individually visually reviewed; source credits retained separately. Preserved RAW file: 1M5WJXgeNrdwn5CH5GoO4pBoU9n_kjpGl. Pictured full reference 131.23.41.21.03.001; Stainless Steel and 18K Sedna Gold, Blue sun-brushed non-wave, Blue leather strap. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "nextAction": "Retain approved source, white-canvas derivative, attribution and reference mapping."
     },
     {
       "brand": "Omega",
@@ -1430,13 +1430,13 @@
       },
       "specificationSource": "https://www.omegawatches.com.hk/en-hk/watch-omega-constellation-co-axial-master-chronometer-41-mm-13130412104001",
       "score": 64,
-      "status": "ACQUISITION_REQUIRED",
-      "photoAssetId": null,
-      "derivativePath": null,
-      "recordedSha256": null,
-      "actualSha256": null,
-      "rightsRecord": null,
-      "nextAction": "Source authentic exact-reference original; obtain commercial-use license and provenance, prepare approved full-watch white-canvas derivative and register the matching SHA-256."
+      "status": "APPROVED_WITH_VALID_DERIVATIVE",
+      "photoAssetId": "cleared-uhr-two-1I2zHcoV73_xD99DaV-tS0k1disNkS0Hf",
+      "derivativePath": "/images/watches/omega/reviewed-131-30-41-21-04-001-white-web.webp",
+      "recordedSha256": "3bcb11f769ef6526bfdc67c351ddfc29c022c4e9e08482242463a635c73081f4",
+      "actualSha256": "3bcb11f769ef6526bfdc67c351ddfc29c022c4e9e08482242463a635c73081f4",
+      "rightsRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for these exact two Uhrinstinkt originals and white-background derivatives with no additional restrictions on October15,2026 Eastern. Record docs/PHOTOGRAPHY_UHR_TWO_FOUNDER_RIGHTS_2026-10-15.json. Authentic complete RAW and final white WEB individually visually reviewed; source credits retained separately. Preserved RAW file: 1I2zHcoV73_xD99DaV-tS0k1disNkS0Hf. Pictured full reference 131.30.41.21.04.001; Stainless Steel, White ceramic non-wave, Stainless-steel bracelet. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "nextAction": "Retain approved source, white-canvas derivative, attribution and reference mapping."
     },
     {
       "brand": "Omega",

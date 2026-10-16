@@ -1,0 +1,158 @@
+{
+  "physicalSets": 2,
+  "websitePublished": false,
+  "rightsHeldSets": 0,
+  "references": [
+    {
+      "brand": "Omega",
+      "reference": "131.30.41.21.04.001",
+      "exactSKU": "131.30.41.21.04.001",
+      "sourceProvider": "Uhrinstinkt",
+      "sourceUrl": "https://www.uhrinstinkt.de/products/omega-constellation-co-axial-master-chronometer-41mm-131-30-41-21-04-001",
+      "sourcePagePath": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\retailer-source-omega-131.30.41.21.04.001-bdcb8ff4.html",
+      "sourcePageSha256": "501e1a04632898b0b88a324c1c9e22ab87dd5534a0662a9b7cae7dc90e8df80c",
+      "imageUrl": "https://www.uhrinstinkt.de/cdn/shop/files/131.30.41.21.04.001-PL128867__solID_9AC9965D791479E234394D2E4F0ED15E_45859f.jpg?v=1770824386&width=1500",
+      "checkedAt": "2026-10-15T21:37:41.427408+00:00",
+      "rightsStatus": "Founder explicitly confirmed this exact original and white derivatives for commercial Quest Luxo website use; no additional restrictions",
+      "reviewStatus": "Untouched RAW and final1200WEB individually reviewed side by side. Complete watch/strap/bracelet and correct dial/case configuration; blank centered white. White131.30 photo is a genuine three-quarter view. Specific rights pending; not published.",
+      "size": [
+        1500,
+        2046
+      ],
+      "mode": "RGB",
+      "path": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\next-constellation-white-originals\\131.30.41.21.04.001-UHR-raw.jpg",
+      "sha256": "12aa275144be6af6047802879e96d50ef8f83230afe132b3ca4d5a3170cd4308",
+      "status": "Authentic retailer-hosted original; unchanged delivered bytes",
+      "whiteMaster": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\uhr-constellation-two-white\\131.30.41.21.04.001-white-master.png",
+      "webDerivative": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\uhr-constellation-two-white\\131.30.41.21.04.001-web.webp",
+      "masterSha256": "57a4b1a0a5b547e60a2959ba4c8a6af1a976328b219aa9a10be1d19393897984",
+      "derivativeSha256": "3bcb11f769ef6526bfdc67c351ddfc29c022c4e9e08482242463a635c73081f4",
+      "foregroundBounds": [
+        303,
+        101,
+        1282,
+        1941
+      ],
+      "collection": "Constellation",
+      "canonicalRoute": "/collections/omega/constellation/131-30-41-21-04-001",
+      "catalogMaterial": "Stainless Steel",
+      "catalogConfigurations": [
+        {
+          "caseSize": "41 mm",
+          "movement": "Omega 8900 automatic",
+          "dial": "White ceramic non-wave",
+          "bracelet": "Stainless-steel bracelet",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "picturedConfiguration": {
+        "caseSize": "41 mm",
+        "movement": "Omega 8900 automatic",
+        "dial": "White ceramic non-wave",
+        "bracelet": "Stainless-steel bracelet"
+      },
+      "websiteApproved": false,
+      "visualReviewPassed": true,
+      "exactSkuVerified": true,
+      "processing": "Classical connected exterior silhouette; original RGB preserved inside the complete watch. Only external background replaced. Centered2400 white master and1200WEB. No AI, recolouring or reconstruction.",
+      "reviewedAt": "2026-10-15T21:40:33.324838+00:00",
+      "rawDriveFileId": "1I2zHcoV73_xD99DaV-tS0k1disNkS0Hf",
+      "masterDriveFileId": "1aKKzZg3bG_tuYhE6e3KG1UMZ6SrBYOK3",
+      "webDriveFileId": "1AIQ3KG2oUlevsGzK_lZCZK7Ldc8BZNYD",
+      "driveFiles": {
+        "raw": {
+          "id": "1I2zHcoV73_xD99DaV-tS0k1disNkS0Hf"
+        },
+        "master": {
+          "id": "1aKKzZg3bG_tuYhE6e3KG1UMZ6SrBYOK3"
+        },
+        "web": {
+          "id": "1AIQ3KG2oUlevsGzK_lZCZK7Ldc8BZNYD"
+        }
+      },
+      "commercialUseRightsConfirmed": true,
+      "rightsRecord": "PHOTOGRAPHY_UHR_TWO_FOUNDER_RIGHTS_2026-10-15.json",
+      "publicationStatus": "Integrated; release checks and deployment pending"
+    },
+    {
+      "brand": "Omega",
+      "reference": "131.23.41.21.03.001",
+      "exactSKU": "131.23.41.21.03.001",
+      "sourceProvider": "Uhrinstinkt",
+      "sourceUrl": "https://www.uhrinstinkt.de/products/omega-constellation-co-axial-master-chronometer-41mm-131-23-41-21-03-001",
+      "sourcePagePath": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\retailer-source-omega-131.23.41.21.03.001-63a69a12.html",
+      "sourcePageSha256": "4d96976982b31439a97ce894d846e2e0565c8199da706bf50b8271548541f681",
+      "imageUrl": "https://www.uhrinstinkt.de/cdn/shop/files/131.23.41.21.03.001__solID_8AE5D81BC2CED127B6371B7D8AD660F6_36536f.jpg?v=1770814316&width=1500",
+      "checkedAt": "2026-10-15T21:39:02.128213+00:00",
+      "rightsStatus": "Founder explicitly confirmed this exact original and white derivatives for commercial Quest Luxo website use; no additional restrictions",
+      "reviewStatus": "Untouched RAW and final1200WEB individually reviewed side by side. Complete watch/strap/bracelet and correct dial/case configuration; blank centered white. White131.30 photo is a genuine three-quarter view. Specific rights pending; not published.",
+      "size": [
+        1500,
+        2340
+      ],
+      "mode": "RGB",
+      "path": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\constellation-blue-leather-originals\\131.23.41.21.03.001-raw.jpg",
+      "sha256": "7822a8eb968887129c374e0b9978e510057f47f7a594f50df27a149a5b73c18d",
+      "status": "Authentic retailer-hosted original; unchanged delivered bytes",
+      "whiteMaster": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\uhr-constellation-two-white\\131.23.41.21.03.001-white-master.png",
+      "webDerivative": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\uhr-constellation-two-white\\131.23.41.21.03.001-web.webp",
+      "masterSha256": "8bae24015966e4eeb2ed6d151bf8745c4ac560261407943ce9e6c017b65f10b3",
+      "derivativeSha256": "10f524ad1e5fcd680e53a8f905637567c439fa01348c8e0d7fb67a298e66e3e7",
+      "foregroundBounds": [
+        65,
+        64,
+        1436,
+        2275
+      ],
+      "collection": "Constellation",
+      "canonicalRoute": "/collections/omega/constellation/131-23-41-21-03-001",
+      "catalogMaterial": "Stainless Steel and 18K Sedna Gold",
+      "catalogConfigurations": [
+        {
+          "caseSize": "41 mm",
+          "movement": "Omega 8900 automatic",
+          "dial": "Blue sun-brushed non-wave",
+          "bracelet": "Blue leather strap",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "picturedConfiguration": {
+        "caseSize": "41 mm",
+        "movement": "Omega 8900 automatic",
+        "dial": "Blue sun-brushed non-wave",
+        "bracelet": "Blue leather strap"
+      },
+      "websiteApproved": false,
+      "visualReviewPassed": true,
+      "exactSkuVerified": true,
+      "processing": "Classical connected exterior silhouette; original RGB preserved inside the complete watch. Only external background replaced. Centered2400 white master and1200WEB. No AI, recolouring or reconstruction.",
+      "reviewedAt": "2026-10-15T21:40:33.330864+00:00",
+      "rawDriveFileId": "1M5WJXgeNrdwn5CH5GoO4pBoU9n_kjpGl",
+      "masterDriveFileId": "1yBgiYvEmx2gv7Bb4kMSaJnHs8Ol70Mr_",
+      "webDriveFileId": "1NEzFIvHgvsfhOXoFAXM1rG_lGR9x0yD_",
+      "driveFiles": {
+        "raw": {
+          "id": "1M5WJXgeNrdwn5CH5GoO4pBoU9n_kjpGl"
+        },
+        "master": {
+          "id": "1yBgiYvEmx2gv7Bb4kMSaJnHs8Ol70Mr_"
+        },
+        "web": {
+          "id": "1NEzFIvHgvsfhOXoFAXM1rG_lGR9x0yD_"
+        }
+      },
+      "commercialUseRightsConfirmed": true,
+      "rightsRecord": "PHOTOGRAPHY_UHR_TWO_FOUNDER_RIGHTS_2026-10-15.json",
+      "publicationStatus": "Integrated; release checks and deployment pending"
+    }
+  ],
+  "archivedFiles": 6,
+  "archiveStatus": "All RAW/master/WEB files archived to existing Drive folders; originals unchanged. Rights pending; not published.",
+  "approvedForPublication": true,
+  "founderRightsRecord": "PHOTOGRAPHY_UHR_TWO_FOUNDER_RIGHTS_2026-10-15.json",
+  "publicationStatus": "Integrated; release checks and deployment pending",
+  "founderRightsDriveFileId": "1aDFoAqstMzsWgETbffa4QJq1zFxBnsix",
+  "commercialUseRightsConfirmed": true
+}

@@ -1,15 +1,15 @@
 {
-  "verifiedAt": "2026-10-15T10:43:27.872211+00:00",
+  "verifiedAt": "2026-10-15T21:33:06.334082+00:00",
   "expectedDistinctReferenceRoutes": 268,
   "verifiedReferenceRoutes": 268,
-  "approvedDistinctReferenceRoutes": 189,
-  "verifiedDistinctPhotoFiles": 188,
-  "queuedDistinctReferenceRoutes": 79,
+  "approvedDistinctReferenceRoutes": 198,
+  "verifiedDistinctPhotoFiles": 197,
+  "queuedDistinctReferenceRoutes": 70,
   "errors": [],
   "pages": [
     {
       "route": "/collections/rolex/gmt-master-ii/126710blro",
-      "approved": false,
+      "approved": true,
       "status": "verified"
     },
     {
@@ -39,12 +39,12 @@
     },
     {
       "route": "/collections/rolex/gmt-master-ii/116710blnr",
-      "approved": false,
+      "approved": true,
       "status": "verified"
     },
     {
       "route": "/collections/rolex/gmt-master-ii/116710ln",
-      "approved": false,
+      "approved": true,
       "status": "verified"
     },
     {
@@ -59,7 +59,7 @@
     },
     {
       "route": "/collections/rolex/daytona/116520",
-      "approved": false,
+      "approved": true,
       "status": "verified"
     },
     {
@@ -104,7 +104,7 @@
     },
     {
       "route": "/collections/rolex/submariner/116610lv",
-      "approved": false,
+      "approved": true,
       "status": "verified"
     },
     {
@@ -209,7 +209,7 @@
     },
     {
       "route": "/collections/rolex/sky-dweller/326934",
-      "approved": false,
+      "approved": true,
       "status": "verified"
     },
     {
@@ -284,7 +284,7 @@
     },
     {
       "route": "/collections/rolex/milgauss/116400gv",
-      "approved": false,
+      "approved": true,
       "status": "verified"
     },
     {
@@ -524,6 +524,11 @@
     },
     {
       "route": "/collections/franck-muller/vanguard/v45",
+      "approved": true,
+      "status": "verified"
+    },
+    {
+      "route": "/collections/franck-muller/vanguard/v-45-t-br-tt",
       "approved": true,
       "status": "verified"
     },
@@ -1193,11 +1198,6 @@
       "status": "verified"
     },
     {
-      "route": "/collections/franck-muller/vanguard-tourbillon/v-45-t-br-tt",
-      "approved": true,
-      "status": "verified"
-    },
-    {
       "route": "/collections/franck-muller/vanguard-beach/v-41-sc-dt-beach-bu-bl-gf1",
       "approved": true,
       "status": "verified"
@@ -1239,7 +1239,7 @@
     },
     {
       "route": "/collections/panerai/luminor-gmt/pam01641",
-      "approved": false,
+      "approved": true,
       "status": "verified"
     },
     {
@@ -1329,7 +1329,7 @@
     },
     {
       "route": "/collections/omega/de-ville-prestige/434-13-41-20-10-001",
-      "approved": false,
+      "approved": true,
       "status": "verified"
     },
     {
@@ -1349,6 +1349,11 @@
     }
   ],
   "images": [
+    {
+      "path": "/images/watches/rolex/reviewed-126710blro-white-web.webp",
+      "sha256": "ccd1dac801a3c65a9bc0cda64d2dfa9c63bed91f8b6d3fafdcb222204ff88539",
+      "status": "verified"
+    },
     {
       "path": "/images/watches/rolex/rolex-gmt-master-ii-126710blnr-oyster-web.webp",
       "sha256": "27a6e81f2279d02490116e001ee5a636e749019f8983ca90a79055ede31695f6",
@@ -1370,8 +1375,23 @@
       "status": "verified"
     },
     {
+      "path": "/images/watches/rolex/reviewed-116710blnr-white-web.webp",
+      "sha256": "23741bf02508e46d18c13cb2c90817b1b5848e4efeeaf1df12433e3da52464d6",
+      "status": "verified"
+    },
+    {
+      "path": "/images/watches/rolex/reviewed-116710ln-white-web.webp",
+      "sha256": "ae8f10fe32337f56f014056e64e89ecfb0f1ae59a445591f67f6a75c3df26057",
+      "status": "verified"
+    },
+    {
       "path": "/images/watches/rolex/rolex-cosmograph-daytona-126500ln-white-dial-web.webp",
       "sha256": "b42c8dc29bd0cccebe62d444f92c91a1e0bd7cdae02199b98211dcadf1ca3e7b",
+      "status": "verified"
+    },
+    {
+      "path": "/images/watches/rolex/reviewed-116520-white-web.webp",
+      "sha256": "4f8ae5c97b860506d520beb9e0ac5e43c1f6474decdfe4fe8f74b066dba68ff0",
       "status": "verified"
     },
     {
@@ -1410,6 +1430,11 @@
       "status": "verified"
     },
     {
+      "path": "/images/watches/rolex/reviewed-116610lv-white-web.webp",
+      "sha256": "43342530c7de9252c74a8b5a4fdb4457d806e251df74e5e6f2e4faf6a33b75ec",
+      "status": "verified"
+    },
+    {
       "path": "/images/watches/rolex/rolex-submariner-date-126613lb-web.webp",
       "sha256": "24fc98f2710ce8948a19646a4e6212f5643737a1898877c0d027095bc4b87c4a",
       "status": "verified"
@@ -1417,7 +1442,8 @@
     {
       "path": "/images/watches/rolex/rolex-submariner-date-126618lb-web.webp",
       "sha256": "70191f274fe4cd83e38d19a908e9ac54f7a66b17b051e2e2757316f40ae2d59f",
-      "status": "verified"
+      "status": "verified",
+      "transportRecheckPassed": true
     },
     {
       "path": "/images/watches/rolex/rolex-datejust-41-126334-bright-blue-oyster-web.webp",
@@ -1495,6 +1521,11 @@
       "status": "verified"
     },
     {
+      "path": "/images/watches/rolex/reviewed-326934-white-web.webp",
+      "sha256": "85a1d7fc54b9736eac438f83f94a3d2f962b7c6794054c9ec6c5512da0824892",
+      "status": "verified"
+    },
+    {
       "path": "/images/watches/rolex/rolex-sky-dweller-336938-intense-white-oyster-web.webp",
       "sha256": "019411095e89a6ace49c23db6ece894d2aaf9cb6946354df4fa73e219f1255b0",
       "status": "verified"
@@ -1557,6 +1588,11 @@
     {
       "path": "/images/watches/rolex/reviewed-52508-white-web.webp",
       "sha256": "c12d55686219fe449673e3bef2f7c00c9b7db69049e223b2519d6acbb7e74fd4",
+      "status": "verified"
+    },
+    {
+      "path": "/images/watches/rolex/reviewed-116400gv-white-web.webp",
+      "sha256": "27fc59587253611b5246bb34a997ce547ec51eded942b5fb7d19b338e6eae4a0",
       "status": "verified"
     },
     {
@@ -1747,6 +1783,11 @@
     {
       "path": "/images/watches/franck-muller/franck-muller-vanguard-v-45-sc-dt-nr-br-er-web.webp",
       "sha256": "73131e90d7ca65f689799ebb27d64021e50e1f8cfc60012d2e87d55c7d70adb9",
+      "status": "verified"
+    },
+    {
+      "path": "/images/watches/franck-muller/reviewed-v-45-t-br-tt-white-web.webp",
+      "sha256": "52999c2bd3afb88d3cd4b97adf7eee080f88c38fafe2f578655fbf4f841c6681",
       "status": "verified"
     },
     {
@@ -2235,13 +2276,13 @@
       "status": "verified"
     },
     {
-      "path": "/images/watches/franck-muller/reviewed-v-45-t-br-tt-white-web.webp",
-      "sha256": "52999c2bd3afb88d3cd4b97adf7eee080f88c38fafe2f578655fbf4f841c6681",
+      "path": "/images/watches/franck-muller/reviewed-v-41-sc-dt-beach-bu-bl-gf1-white-web.webp",
+      "sha256": "5cd85da7aa3ac855eabebe62c480be7cb736e969b2019fd561c9937e90d8d6c6",
       "status": "verified"
     },
     {
-      "path": "/images/watches/franck-muller/reviewed-v-41-sc-dt-beach-bu-bl-gf1-white-web.webp",
-      "sha256": "5cd85da7aa3ac855eabebe62c480be7cb736e969b2019fd561c9937e90d8d6c6",
+      "path": "/images/watches/panerai/reviewed-pam01641-white-web.webp",
+      "sha256": "9767844fdbf7dc81b18589bfa57f9fe14cde10b0d8060b500b7ba72cf7b26970",
       "status": "verified"
     },
     {
@@ -2272,6 +2313,11 @@
     {
       "path": "/images/watches/omega/reviewed-131-10-28-60-56-001-white-web.webp",
       "sha256": "a8e653dbcf0bd7ca0e3cc42f809198abc076f68632343f3d1ba5c58c1c14d4a1",
+      "status": "verified"
+    },
+    {
+      "path": "/images/watches/omega/reviewed-434-13-41-20-10-001-white-web.webp",
+      "sha256": "c3bf57b2705e32f403e197c58eac18f7c030b681c81d3c6953f7d4f501dd4e62",
       "status": "verified"
     },
     {
@@ -2313,6 +2359,15 @@
     }
   ],
   "leadSafety": "Read-only public-route checks; no customer records read or submissions created.",
-  "productionCommit": "ca53f04825cdaa9affbfa85d4b4a326c59332695",
-  "productionDeployId": "dep-db8arr60tbcc73ec83p0"
+  "transportRechecks": {
+    "checkedAt": "2026-10-15T21:34:21.374237+00:00",
+    "results": [
+      {
+        "path": "/images/watches/rolex/rolex-submariner-date-126618lb-web.webp",
+        "initialTransportError": "<urlopen error [WinError 10054] An existing connection was forcibly closed by the remote host>",
+        "sha256": "70191f274fe4cd83e38d19a908e9ac54f7a66b17b051e2e2757316f40ae2d59f",
+        "status": "verified"
+      }
+    ]
+  }
 }

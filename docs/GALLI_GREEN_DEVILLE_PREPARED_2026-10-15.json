@@ -1,6 +1,6 @@
 {
   "physicalSets": 1,
-  "websitePublished": false,
+  "websitePublished": true,
   "rightsHeldSets": 0,
   "references": [
     {
@@ -52,7 +52,7 @@
         905,
         1396
       ],
-      "websiteApproved": false,
+      "websiteApproved": true,
       "visualReviewPassed": true,
       "exactSkuVerified": true,
       "processing": "Native alpha preserved, original RGB unchanged. Entire original watch within source bounds; centered on2400 white master and1200WEB. No AI or reconstruction.",
@@ -73,7 +73,7 @@
       },
       "commercialUseRightsConfirmed": true,
       "rightsRecord": "PHOTOGRAPHY_NINE_FOUNDER_RIGHTS_2026-10-15.json",
-      "publicationStatus": "Integrated; release checks and deployment pending"
+      "publicationStatus": "LIVE and exact configuration/grid/credits/inquiry plus image hash verified"
     }
   ],
   "archivedFiles": 3,
@@ -81,5 +81,7 @@
   "commercialUseRightsConfirmed": true,
   "founderRightsRecord": "PHOTOGRAPHY_NINE_FOUNDER_RIGHTS_2026-10-15.json",
   "founderRightsDriveFileId": "1XMdtfeg1qIYj_zFyFM1wwFHmMs1nbCwt",
-  "publicationStatus": "Integrated; release checks and deployment pending"
+  "publicationStatus": "LIVE and independently production verified",
+  "liveCommit": "f4fde204735f66043d6fde760034b840c0e86250",
+  "liveDeployId": "dep-db8kc9hsrm7s73e8tdkg"
 }

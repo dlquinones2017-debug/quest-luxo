@@ -3475,5 +3475,51 @@ export const clearedSprintPhotographySeeds: readonly PhotographySeed[] = [
     "sourceProvider": "Galli product photography",
     "reviewedAt": "2026-10-15",
     "assetId": "cleared-nine-1X9pBGw-7_dGBLolfdxm_I0yk3rtH122b"
+  },
+  {
+    "brand": "Omega",
+    "brandSlug": "omega",
+    "collection": "Constellation",
+    "reference": "131.30.41.21.04.001",
+    "exactReference": "131.30.41.21.04.001",
+    "model": "Constellation White Ceramic Dial",
+    "material": "Stainless Steel",
+    "configuration": {
+      "caseSize": "41 mm",
+      "movement": "Omega 8900 automatic",
+      "dial": "White ceramic non-wave",
+      "bracelet": "Stainless-steel bracelet"
+    },
+    "sourceUrl": "https://www.uhrinstinkt.de/products/omega-constellation-co-axial-master-chronometer-41mm-131-30-41-21-04-001",
+    "src": "/images/watches/omega/reviewed-131-30-41-21-04-001-white-web.webp",
+    "sha256": "3bcb11f769ef6526bfdc67c351ddfc29c022c4e9e08482242463a635c73081f4",
+    "rawDriveFileId": "1I2zHcoV73_xD99DaV-tS0k1disNkS0Hf",
+    "clearanceRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for these exact two Uhrinstinkt originals and white-background derivatives with no additional restrictions on October15,2026 Eastern. Record docs/PHOTOGRAPHY_UHR_TWO_FOUNDER_RIGHTS_2026-10-15.json. Authentic complete RAW and final white WEB individually visually reviewed; source credits retained separately.",
+    "sourceProvider": "Uhrinstinkt product photography",
+    "reviewedAt": "2026-10-15",
+    "assetId": "cleared-uhr-two-1I2zHcoV73_xD99DaV-tS0k1disNkS0Hf"
+  },
+  {
+    "brand": "Omega",
+    "brandSlug": "omega",
+    "collection": "Constellation",
+    "reference": "131.23.41.21.03.001",
+    "exactReference": "131.23.41.21.03.001",
+    "model": "Constellation Blue Steel Sedna Gold",
+    "material": "Stainless Steel and 18K Sedna Gold",
+    "configuration": {
+      "caseSize": "41 mm",
+      "movement": "Omega 8900 automatic",
+      "dial": "Blue sun-brushed non-wave",
+      "bracelet": "Blue leather strap"
+    },
+    "sourceUrl": "https://www.uhrinstinkt.de/products/omega-constellation-co-axial-master-chronometer-41mm-131-23-41-21-03-001",
+    "src": "/images/watches/omega/reviewed-131-23-41-21-03-001-white-web.webp",
+    "sha256": "10f524ad1e5fcd680e53a8f905637567c439fa01348c8e0d7fb67a298e66e3e7",
+    "rawDriveFileId": "1M5WJXgeNrdwn5CH5GoO4pBoU9n_kjpGl",
+    "clearanceRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for these exact two Uhrinstinkt originals and white-background derivatives with no additional restrictions on October15,2026 Eastern. Record docs/PHOTOGRAPHY_UHR_TWO_FOUNDER_RIGHTS_2026-10-15.json. Authentic complete RAW and final white WEB individually visually reviewed; source credits retained separately.",
+    "sourceProvider": "Uhrinstinkt product photography",
+    "reviewedAt": "2026-10-15",
+    "assetId": "cleared-uhr-two-1M5WJXgeNrdwn5CH5GoO4pBoU9n_kjpGl"
   }
 ];

@@ -1,6 +1,6 @@
 {
   "checkedAt": "2026-10-15T21:31:04.009228+00:00",
-  "status": "Release checks passed; deployment and production verification pending",
+  "status": "LIVE; targeted and full catalog production verification passed",
   "previousProductionMain": "73ec0306c56a3b2eb84d41fb7cb81efe64581970",
   "rightsDriveFileId": "1XMdtfeg1qIYj_zFyFM1wwFHmMs1nbCwt",
   "sourceLedgerDriveIds": [
@@ -122,5 +122,127 @@
     "intake": "Rolex126710BLRO CTA clicked; Rolex/GMT-MasterII/reference context visible in public intake. No submission."
   },
   "newerProductionWork": "Preserved73ec030 Tourbillon feature retirement and Vanguard consolidation; local retired-feature301 redirects to/#collections verified",
-  "sourceReview": "All9 authentic RAW and final1200WEB individually reviewed; exact source SKU/dial/case/strap verified. All27 RAW/master/WEB archived with hashes. No generated or reconstructed watch pixels."
+  "sourceReview": "All9 authentic RAW and final1200WEB individually reviewed; exact source SKU/dial/case/strap verified. All27 RAW/master/WEB archived with hashes. No generated or reconstructed watch pixels.",
+  "commit": "f4fde204735f66043d6fde760034b840c0e86250",
+  "deployId": "dep-db8kc9hsrm7s73e8tdkg",
+  "live": {
+    "checkedAt": "2026-10-15T21:32:58.216893+00:00",
+    "mode": "live",
+    "exactReferencesChecked": 9,
+    "rows": [
+      {
+        "reference": "116710LN",
+        "route": "/collections/rolex/gmt-master-ii/116710ln",
+        "imageSha256": "ae8f10fe32337f56f014056e64e89ecfb0f1ae59a445591f67f6a75c3df26057",
+        "exactConfiguration": true,
+        "collectionGrid": true,
+        "inquiryContext": true,
+        "separateCredits": true,
+        "noImageCaptionOverlay": true
+      },
+      {
+        "reference": "126710BLRO",
+        "route": "/collections/rolex/gmt-master-ii/126710blro",
+        "imageSha256": "ccd1dac801a3c65a9bc0cda64d2dfa9c63bed91f8b6d3fafdcb222204ff88539",
+        "exactConfiguration": true,
+        "collectionGrid": true,
+        "inquiryContext": true,
+        "separateCredits": true,
+        "noImageCaptionOverlay": true
+      },
+      {
+        "reference": "116610LV",
+        "route": "/collections/rolex/submariner/116610lv",
+        "imageSha256": "43342530c7de9252c74a8b5a4fdb4457d806e251df74e5e6f2e4faf6a33b75ec",
+        "exactConfiguration": true,
+        "collectionGrid": true,
+        "inquiryContext": true,
+        "separateCredits": true,
+        "noImageCaptionOverlay": true
+      },
+      {
+        "reference": "326934",
+        "route": "/collections/rolex/sky-dweller/326934",
+        "imageSha256": "85a1d7fc54b9736eac438f83f94a3d2f962b7c6794054c9ec6c5512da0824892",
+        "exactConfiguration": true,
+        "collectionGrid": true,
+        "inquiryContext": true,
+        "separateCredits": true,
+        "noImageCaptionOverlay": true
+      },
+      {
+        "reference": "116520",
+        "route": "/collections/rolex/daytona/116520",
+        "imageSha256": "4f8ae5c97b860506d520beb9e0ac5e43c1f6474decdfe4fe8f74b066dba68ff0",
+        "exactConfiguration": true,
+        "collectionGrid": true,
+        "inquiryContext": true,
+        "separateCredits": true,
+        "noImageCaptionOverlay": true
+      },
+      {
+        "reference": "116400GV",
+        "route": "/collections/rolex/milgauss/116400gv",
+        "imageSha256": "27fc59587253611b5246bb34a997ce547ec51eded942b5fb7d19b338e6eae4a0",
+        "exactConfiguration": true,
+        "collectionGrid": true,
+        "inquiryContext": true,
+        "separateCredits": true,
+        "noImageCaptionOverlay": true
+      },
+      {
+        "reference": "116710BLNR",
+        "route": "/collections/rolex/gmt-master-ii/116710blnr",
+        "imageSha256": "23741bf02508e46d18c13cb2c90817b1b5848e4efeeaf1df12433e3da52464d6",
+        "exactConfiguration": true,
+        "collectionGrid": true,
+        "inquiryContext": true,
+        "separateCredits": true,
+        "noImageCaptionOverlay": true
+      },
+      {
+        "reference": "PAM01641",
+        "route": "/collections/panerai/luminor-gmt/pam01641",
+        "imageSha256": "9767844fdbf7dc81b18589bfa57f9fe14cde10b0d8060b500b7ba72cf7b26970",
+        "exactConfiguration": true,
+        "collectionGrid": true,
+        "inquiryContext": true,
+        "separateCredits": true,
+        "noImageCaptionOverlay": true
+      },
+      {
+        "reference": "434.13.41.20.10.001",
+        "route": "/collections/omega/de-ville-prestige/434-13-41-20-10-001",
+        "imageSha256": "c3bf57b2705e32f403e197c58eac18f7c030b681c81d3c6953f7d4f501dd4e62",
+        "exactConfiguration": true,
+        "collectionGrid": true,
+        "inquiryContext": true,
+        "separateCredits": true,
+        "noImageCaptionOverlay": true
+      }
+    ],
+    "publicFlowsAvailable": true,
+    "leadDataSafety": "Public GET checks only. No new lead submissions, private lead reads, runtime data or disk changes."
+  },
+  "liveFullCatalogSummary": {
+    "verifiedAt": "2026-10-15T21:33:06.334082+00:00",
+    "expectedDistinctReferenceRoutes": 268,
+    "verifiedReferenceRoutes": 268,
+    "approvedDistinctReferenceRoutes": 198,
+    "verifiedDistinctPhotoFiles": 197,
+    "queuedDistinctReferenceRoutes": 70,
+    "errors": [],
+    "leadSafety": "Read-only public-route checks; no customer records read or submissions created.",
+    "transportRechecks": {
+      "checkedAt": "2026-10-15T21:34:21.374237+00:00",
+      "results": [
+        {
+          "path": "/images/watches/rolex/rolex-submariner-date-126618lb-web.webp",
+          "initialTransportError": "<urlopen error [WinError 10054] An existing connection was forcibly closed by the remote host>",
+          "sha256": "70191f274fe4cd83e38d19a908e9ac54f7a66b17b051e2e2757316f40ae2d59f",
+          "status": "verified"
+        }
+      ]
+    }
+  }
 }
