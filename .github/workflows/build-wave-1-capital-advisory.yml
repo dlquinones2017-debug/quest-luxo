@@ -6,6 +6,7 @@ on:
       - "src/lib/capital/**"
       - "tests/funding*.test.mjs"
       - "tests/creditReportingPlan.test.mjs"
+      - "tests/universalCapitalIntake.test.mjs"
       - ".github/workflows/build-wave-1-capital-advisory.yml"
   workflow_dispatch:
 jobs:
@@ -19,7 +20,7 @@ jobs:
           cache: npm
       - run: npm ci
       - name: Capital funding and credit reporting boundary tests
-        run: node --experimental-strip-types --test tests/fundingAgents.test.mjs tests/fundingLifecycle.test.mjs tests/creditReportingPlan.test.mjs
+        run: node --experimental-strip-types --test tests/fundingAgents.test.mjs tests/fundingLifecycle.test.mjs tests/creditReportingPlan.test.mjs tests/universalCapitalIntake.test.mjs
       - name: Astro / TypeScript check
         run: npm run check
       - name: Production build
