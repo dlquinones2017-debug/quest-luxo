@@ -153,7 +153,12 @@ export function selectPublicClaims(
   asOfUTCDate: string,
 ): readonly PublicClaim[] {
   const result: PublicClaim[] = [];
+  // Duplicate IDs can mean inconsistent versions or conflicting facts. Fail
+  // closed for the *entire* ID until a human reconciles source history.
+  const counts = new Map<string, number>();
+  for (const item of candidates) counts.set(item.id, (counts.get(item.id) ?? 0) + 1);
   for (const claim of candidates) {
+    if (counts.get(claim.id) !== 1) continue;
     if (reviewClaimForPublication(claim, asOfUTCDate).status !== "PUBLICATION_ELIGIBLE") continue;
     result.push(Object.freeze({
       id: claim.id,
