@@ -56,6 +56,13 @@ export interface BusinessCreditProductIntelligence {
   /** Verified criteria must cite issuer/distributor requirements, not marketing rumors. */
   eligibilitySummary: string;
   evidenceStatus: EvidenceStatus;
+  /**
+   * Explicit issuer/source review for consumer-bureau inquiry behavior and
+   * commercial reporting, including verified absence. Empty bureau lists
+   * alone are never proof that no inquiry/reporting occurs.
+   */
+  consumerInquiryEvidenceConfirmed?: boolean;
+  commercialReportingEvidenceConfirmed?: boolean;
   evidenceUrl?: string;
   verifiedAt?: string;
   /** Per-product review expiry (ISO date). */
@@ -208,7 +215,10 @@ export function listVerifiedBusinessCreditProducts(
         reviewDueDay < currentDay || reviewDueDay < verifiedDay)
       return false;
 
-    if (p.evidenceStatus !== "VERIFIED" || !p.eligibilitySummary?.trim() ||
+    if (p.evidenceStatus !== "VERIFIED" ||
+        p.consumerInquiryEvidenceConfirmed !== true ||
+        p.commercialReportingEvidenceConfirmed !== true ||
+        !p.eligibilitySummary?.trim() ||
         typeof p.evidenceUrl !== "string" ||
         !/^https:\/\/[^\s/]+\.[^\s/]+(?:\/[^\s]*)?$/.test(p.evidenceUrl) ||
         !KINDS.has(p.kind) ||
