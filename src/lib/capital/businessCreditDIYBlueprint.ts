@@ -153,27 +153,74 @@ export function buildBusinessCreditDIYBlueprint(input: BusinessCreditDIYProfile)
  * A product can appear in an evidence-backed educational comparison ONLY when
  * its issuer/product-specific credit inquiry, PG terms, review date, and source
  * are verified. Unknown/stale product profiles are not quietly shown as facts.
+ *
+ * Duplicate product IDs or conflicting issuer/product records are entirely
+ * suppressed until reconciled by a reviewer, including when one duplicate is
+ * expired or unverified.
  */
+function validISOCalendarDay(value: unknown): number | null {
+  if (typeof value !== "string" || !/^\d{4}-\d{2}-\d{2}$/.test(value)) return null;
+  const timestamp = Date.parse(value + "T00:00:00.000Z");
+  if (!Number.isFinite(timestamp) || new Date(timestamp).toISOString().slice(0, 10) !== value)
+    return null;
+  return timestamp;
+}
+
+function canonicalValue(value: unknown): string {
+  return typeof value === "string" ? value.trim().replace(/\s+/g, " ").toLowerCase() : "";
+}
+
 export function listVerifiedBusinessCreditProducts(
   products: readonly BusinessCreditProductIntelligence[],
   currentDateISO: string,
   kind?: CreditProductKind,
   guaranteePreference?: GuaranteePreference,
 ): readonly BusinessCreditProductIntelligence[] {
-  if (!/^\d{4}-\d{2}-\d{2}$/.test(currentDateISO) ||
-      !Number.isFinite(Date.parse(currentDateISO + "T00:00:00Z")))
-    throw new Error("Valid ISO review date required.");
-  return Object.freeze(products.filter(p =>
-    p.evidenceStatus === "VERIFIED" &&
-    Boolean(p.productId.trim() && p.issuerName.trim() && p.productName.trim() &&
-      p.eligibilitySummary.trim() && p.evidenceUrl?.trim() && p.verifiedAt && p.reviewDueAt) &&
-    KINDS.has(p.kind) &&
-    p.guaranteeRequirement !== "UNKNOWN" &&
-    p.consumerBureaus.every(b => BUREAUS.has(b) && b.endsWith("_CONSUMER")) &&
-    p.commercialBureaus.every(b => BUREAUS.has(b) && !b.endsWith("_CONSUMER")) &&
-    p.verifiedAt! <= currentDateISO &&
-    p.reviewDueAt! >= currentDateISO &&
-    (!kind || p.kind === kind) &&
-    (guaranteePreference !== "PREFER_NO_PG" || p.guaranteeRequirement === "NOT_REQUIRED")
-  ));
+  const currentDay = validISOCalendarDay(currentDateISO);
+  if (currentDay === null) throw new Error("Valid ISO calendar review date required.");
+
+  const idCount = new Map<string, number>();
+  const identityCount = new Map<string, number>();
+  for (const product of products) {
+    if (!product) continue;
+    const id = canonicalValue(product.productId);
+    const issuer = canonicalValue(product.issuerName);
+    const name = canonicalValue(product.productName);
+    if (id) idCount.set(id, (idCount.get(id) ?? 0) + 1);
+    if (issuer && name && KINDS.has(product.kind)) {
+      const identity = JSON.stringify([issuer, name, product.kind]);
+      identityCount.set(identity, (identityCount.get(identity) ?? 0) + 1);
+    }
+  }
+
+  return Object.freeze(products.filter(p => {
+    if (!p) return false;
+    const id = canonicalValue(p.productId);
+    const issuer = canonicalValue(p.issuerName);
+    const name = canonicalValue(p.productName);
+    if (!id || !issuer || !name || idCount.get(id) !== 1 ||
+        identityCount.get(JSON.stringify([issuer, name, p.kind])) !== 1)
+      return false;
+
+    const verifiedDay = validISOCalendarDay(p.verifiedAt);
+    const reviewDueDay = validISOCalendarDay(p.reviewDueAt);
+    if (verifiedDay === null || reviewDueDay === null || verifiedDay > currentDay ||
+        reviewDueDay < currentDay || reviewDueDay < verifiedDay)
+      return false;
+
+    if (p.evidenceStatus !== "VERIFIED" || !p.eligibilitySummary?.trim() ||
+        typeof p.evidenceUrl !== "string" ||
+        !/^https:\/\/[^\s/]+\.[^\s/]+(?:\/[^\s]*)?$/.test(p.evidenceUrl) ||
+        !KINDS.has(p.kind) ||
+        !["REQUIRED", "MAY_BE_REQUIRED", "NOT_REQUIRED"].includes(p.guaranteeRequirement))
+      return false;
+
+    if (!Array.isArray(p.consumerBureaus) || !Array.isArray(p.commercialBureaus) ||
+        !p.consumerBureaus.every(b => BUREAUS.has(b) && b.endsWith("_CONSUMER")) ||
+        !p.commercialBureaus.every(b => BUREAUS.has(b) && !b.endsWith("_CONSUMER")))
+      return false;
+
+    return (!kind || p.kind === kind) &&
+      (guaranteePreference !== "PREFER_NO_PG" || p.guaranteeRequirement === "NOT_REQUIRED");
+  }));
 }
