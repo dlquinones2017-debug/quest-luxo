@@ -6,8 +6,8 @@
   "summary": {
     "references": 70,
     "brands": 15,
-    "approvedForImageRelease": 41,
-    "tasksAwaitingExactImageRightsReview": 29
+    "approvedForImageRelease": 42,
+    "tasksAwaitingExactImageRightsReview": 28
   },
   "queue": [
     {
@@ -1565,13 +1565,13 @@
       },
       "identitySource": "https://www.prestigetime.com/Ulysse-Nardin-Maxi-Marine-Diver-44mm-266-10-3-92.html",
       "priorityScore": 100,
-      "status": "RIGHTS_AND_EXACT_CONFIGURATION_REVIEW_REQUIRED",
-      "rawSourceFileId": null,
-      "webDerivativePath": null,
-      "webDerivativeSHA256": null,
-      "reviewer": null,
-      "commercialUseRightsRecord": null,
-      "notes": "Founder ZIP appearance extracted separately. Underlying commercial rights, authenticity/configuration and whole-watch edge quality remain subject to existing approval gate. See FOUNDER_UPLOAD_WATCH_EXTRACTION_2026-10-15.json."
+      "status": "APPROVED_WITH_VALID_DERIVATIVE",
+      "rawSourceFileId": "1XkuYKQSEE6Anhgd08g4vZGeTOXKX_0Gi",
+      "webDerivativePath": "/images/watches/ulysse-nardin/founder-13-maxi-diver-white-web.webp",
+      "webDerivativeSHA256": "eb72325c11dca7f3ca4d2e5aaf7e0479594074048a28b60505012a2b41c37a77",
+      "reviewer": "Quest Luxo execution review with founder website-use clearance",
+      "commercialUseRightsRecord": "Direct founder response call_24a179ab128748dbb94a78640e6a1543: Rights cover the ZIP and both Patek originals/derivatives; no restrictions. Record docs/PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json. Exact native photograph crop upload-13-maxi-diver.png SHA256 fa3e0033b4f9eccd65d3e34c9227c7041dd1b0c258dc0f33af250f4e45e4ca1a from source Screenshot_20260914_123807_Google.jpg SHA256 aad6408f56b1eee1245a0f8db592442e6f8feac8404a50e2955ee6cb455fa45b. Full screenshot preserved locally only; native watch crop preserved within the44appearance RAW review archive. Entire watch including returning rubber strap individually reviewed. Exterior-only classical mask, unchanged native watch RGB; no reconstruction or synthesized detail. No new price or availability inferred. Preserved RAW file: 1XkuYKQSEE6Anhgd08g4vZGeTOXKX_0Gi. Pictured full reference 266-10-3/92; 18K rose gold, Black wave dial, Black rubber strap with rose-gold inserts. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "notes": "Exact approvedPhotograph gate and local derivative SHA-256 validated; preserve approved source and separate source attribution."
     },
     {
       "brand": "Vacheron Constantin",
@@ -1694,5 +1694,5 @@
       "notes": "Founder-upload identity verified October16. Separate source-original and review evidence in FOUNDER_UPLOAD_CONTINUATION_2026-10-16.json. Underlying commercial rights and final photography quality still required; no publication approval implied."
     }
   ],
-  "updatedAt": "2026-10-16T19:37:50.330Z"
+  "updatedAt": "2026-10-19T20:25:53.657Z"
 }

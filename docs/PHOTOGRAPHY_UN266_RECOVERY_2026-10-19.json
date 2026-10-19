@@ -1,0 +1,60 @@
+{
+  "checkedAt": "2026-10-19T20:24:00.659049+00:00",
+  "brand": "Ulysse Nardin",
+  "reference": "266-10-3/92",
+  "sourceFileName": "Screenshot_20260914_123807_Google.jpg",
+  "sourceSha256": "aad6408f56b1eee1245a0f8db592442e6f8feac8404a50e2955ee6cb455fa45b",
+  "nativeCropFileName": "upload-13-maxi-diver.png",
+  "nativeCropSha256": "fa3e0033b4f9eccd65d3e34c9227c7041dd1b0c258dc0f33af250f4e45e4ca1a",
+  "nativeCropSize": [
+    920,
+    1450
+  ],
+  "nativeCropBox": [
+    90,
+    150,
+    1010,
+    1600
+  ],
+  "rawDriveFileId": "1XkuYKQSEE6Anhgd08g4vZGeTOXKX_0Gi",
+  "rawArchiveDescription": "Existing native watch crop inside the44appearance review archive. Full screenshot stays local only.",
+  "whiteMasterFileName": "ulysse-nardin-266-10-3-92-white-master.png",
+  "whiteMasterSha256": "419895b70f6b9a7ecf8170385f8c1e5f996d55998eb9c31fbc63ecc4c4017dce",
+  "webFileName": "ulysse-nardin-266-10-3-92-web.webp",
+  "webSha256": "eb72325c11dca7f3ca4d2e5aaf7e0479594074048a28b60505012a2b41c37a77",
+  "identitySource": "https://www.prestigetime.com/Ulysse-Nardin-Maxi-Marine-Diver-44mm-266-10-3-92.html",
+  "rightsRecord": "docs/PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json",
+  "rightsEvidence": "Direct founder response call_24a179ab128748dbb94a78640e6a1543: Rights cover the ZIP and both Patek originals/derivatives; no restrictions",
+  "processing": "Manually seeded classical exterior GrabCut refinement. Original native RGB retained verbatim under alpha. Complete returning rubber strap, black internal strap grooves, rose-gold case and bezel teeth retained. Removed only exterior background and private image-viewer UI. Proportional centering on blank2400white and1200WEB; no generated, reconstructed, recolored or sharpened watch detail.",
+  "visualReview": "Untouched native original,1200WEB and enlarged upper/right boundary crops individually reviewed. Whole watch visible including complete returning strap. Former black exterior band removed. Internal black grooves are genuine rubber strap and remain intact. Exact black wave dial, rose-gold case and black rubber strap/gold inserts match266-10-3/92. No overlaid captions, private UI or invented watch detail.",
+  "websiteApproved": true,
+  "status": "Integrated; final archive readback and release checks pending",
+  "seed": {
+    "brand": "Ulysse Nardin",
+    "brandSlug": "ulysse-nardin",
+    "collection": "Diver",
+    "reference": "266-10-3/92",
+    "exactReference": "266-10-3/92",
+    "model": "Maxi Marine Diver Black Wave Dial Rose Gold",
+    "material": "18K rose gold",
+    "configuration": {
+      "caseSize": "44 mm",
+      "movement": "Automatic; calibre verification pending",
+      "dial": "Black wave dial",
+      "bracelet": "Black rubber strap with rose-gold inserts"
+    },
+    "sourceUrl": "https://www.prestigetime.com/Ulysse-Nardin-Maxi-Marine-Diver-44mm-266-10-3-92.html",
+    "photographSourceUrl": "https://drive.google.com/file/d/1XkuYKQSEE6Anhgd08g4vZGeTOXKX_0Gi/view",
+    "src": "/images/watches/ulysse-nardin/founder-13-maxi-diver-white-web.webp",
+    "sha256": "eb72325c11dca7f3ca4d2e5aaf7e0479594074048a28b60505012a2b41c37a77",
+    "rawDriveFileId": "1XkuYKQSEE6Anhgd08g4vZGeTOXKX_0Gi",
+    "clearanceRecord": "Direct founder response call_24a179ab128748dbb94a78640e6a1543: Rights cover the ZIP and both Patek originals/derivatives; no restrictions. Record docs/PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json. Exact native photograph crop upload-13-maxi-diver.png SHA256 fa3e0033b4f9eccd65d3e34c9227c7041dd1b0c258dc0f33af250f4e45e4ca1a from source Screenshot_20260914_123807_Google.jpg SHA256 aad6408f56b1eee1245a0f8db592442e6f8feac8404a50e2955ee6cb455fa45b. Full screenshot preserved locally only; native watch crop preserved within the44appearance RAW review archive. Entire watch including returning rubber strap individually reviewed. Exterior-only classical mask, unchanged native watch RGB; no reconstruction or synthesized detail. No new price or availability inferred.",
+    "sourceProvider": "Founder-supplied watch photograph; native ZIP crop",
+    "reviewedAt": "2026-10-19",
+    "assetId": "cleared-founder-13-maxi-diver"
+  },
+  "whiteMasterDriveFileId": "1RLdWZM7Ghf4HtlD01E1a5VKCLOpzKDg7",
+  "webDriveFileId": "1SLtmT8TUq0p_opnU2qQQPCHW9WMa239J",
+  "canonicalRoute": "/collections/ulysse-nardin/diver/266-10-3-92",
+  "archiveReadbacksVerified": true
+}

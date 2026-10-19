@@ -1,0 +1,105 @@
+{
+  "checkedAt": "2026-10-19T20:31:26.955111+00:00",
+  "status": "Reviewed and tested; deployment pending",
+  "previousProduction": "be64e484dffa1301e204253adee1869f5dbf532b",
+  "brand": "Ulysse Nardin",
+  "reference": "266-10-3/92",
+  "checks": [
+    {
+      "check": "omega-queue-sync",
+      "exitCode": 0,
+      "logFileName": "resume-un266-omega-queue-sync.log"
+    },
+    {
+      "check": "astro-check",
+      "exitCode": 0,
+      "logFileName": "resume-un266-astro-check.log"
+    },
+    {
+      "check": "regressions",
+      "exitCode": 0,
+      "logFileName": "resume-un266-regressions.log"
+    },
+    {
+      "check": "omega-audit",
+      "exitCode": 0,
+      "logFileName": "resume-un266-omega-audit.log"
+    },
+    {
+      "check": "omega-queue-check",
+      "exitCode": 0,
+      "logFileName": "resume-un266-omega-queue-check.log"
+    },
+    {
+      "check": "expansion-audit",
+      "exitCode": 0,
+      "logFileName": "resume-un266-expansion-audit.log"
+    },
+    {
+      "check": "build",
+      "exitCode": 0,
+      "logFileName": "resume-un266-build.log"
+    },
+    {
+      "check": "inventory",
+      "exitCode": 0,
+      "logFileName": "resume-un266-inventory.log"
+    },
+    {
+      "check": "full-audit",
+      "exitCode": 0,
+      "logFileName": "resume-un266-full-audit.log"
+    }
+  ],
+  "regressions": {
+    "passed": 305,
+    "failed": 0
+  },
+  "astro": {
+    "errors": 0,
+    "warnings": 0,
+    "hints": 18
+  },
+  "targetedBuilt": {
+    "checkedAt": "2026-10-19T20:30:09.646897+00:00",
+    "mode": "built",
+    "exactReferencesChecked": 1,
+    "rows": [
+      {
+        "reference": "266-10-3/92",
+        "route": "/collections/ulysse-nardin/diver/266-10-3-92",
+        "imageSha256": "eb72325c11dca7f3ca4d2e5aaf7e0479594074048a28b60505012a2b41c37a77",
+        "exactConfiguration": true,
+        "collectionGrid": true,
+        "inquiryContext": true,
+        "separateCredits": true,
+        "noImageCaptionOverlay": true
+      }
+    ],
+    "publicFlowsAvailable": true,
+    "leadDataSafety": "Public GET checks only. No new lead submissions, private lead reads, runtime data or disk changes."
+  },
+  "visualQA": {
+    "desktop": "1440x1000: complete returning rubber strap and case centered on blank white; loaded1200photo; client/scroll1425; no captions.",
+    "mobile": "390x844: entire watch centered on white canvas; loaded1200photo; client/scroll375; no overflow or image captions."
+  },
+  "archiveReadbacksVerified": true,
+  "rawReusedFromExistingArchive": true,
+  "rightsEvidence": "Direct founder response call_24a179ab128748dbb94a78640e6a1543: Rights cover the ZIP and both Patek originals/derivatives; no restrictions",
+  "catalogSummary": {
+    "brands": 23,
+    "collections": 104,
+    "registryRecords": 298,
+    "distinctRoutes": 297,
+    "normalizedBrandReferenceIdentities": 294,
+    "approved": 229,
+    "missing": 68,
+    "collectionsWithPhotography": 82,
+    "unusedApprovedRecords": 2,
+    "duplicateNormalizedReferenceGroups": 4,
+    "fileIntegrityFailures": 0,
+    "recoverableCandidates": 0
+  },
+  "safety": "No customer records, new lead submissions, credentials, hosting settings or persistent disk changes.",
+  "warnings": "Existing Vite bundle-size, Zenith punctuation alias and public robots warnings retained."
+}

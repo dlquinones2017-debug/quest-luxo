@@ -1130,10 +1130,8 @@
         1450
       ],
       "rightsStatus": "Founder directly confirmed commercial website-use rights for the exact ZIP watch photographs and white derivatives with no restrictions; PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json",
-      "status": "Held for exterior mask refinement",
-      "holds": [
-        "Remove remaining exterior black background without changing the watch."
-      ],
+      "status": "Approved complete exact-reference photograph; integrated, deployment pending",
+      "holds": [],
       "segmentationReviewFileName": "upload-13-maxi-diver.jpg",
       "segmentationStatus": "Manual exterior-guided classical mask retains visible source portions; review pending. Original incomplete framing remains held.",
       "segmentationSha256": "0b503d63ce2169e8550a3ead2c990c7a1ed88827eac1d9debfe472df9c357c63",
@@ -1145,8 +1143,13 @@
       "identityReview": "Exact manufacturer/retailer configuration established; earlier candidate uncertainty superseded. No photo publication approval implied.",
       "alphaFileName": "upload-13-maxi-diver.png",
       "alphaSha256": "d040725d12485f13ebed4d0a1c3fdc3953820bd446e331dd81e99c0447a22b06",
-      "visualReview": "Individual1200canvas reviewed; rear strap now retained. Residual black background at outer boundary requires finer manual edge work. Not approved.",
-      "rightsRecord": "PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json"
+      "visualReview": "Untouched native original,1200WEB and enlarged upper/right boundary crops individually reviewed. Whole watch visible including complete returning strap. Former black exterior band removed. Internal black grooves are genuine rubber strap and remain intact. Exact black wave dial, rose-gold case and black rubber strap/gold inserts match266-10-3/92. No overlaid captions, private UI or invented watch detail.",
+      "rightsRecord": "PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json",
+      "websiteApproved": true,
+      "publicationAssetId": "cleared-founder-13-maxi-diver",
+      "webDerivativePath": "/images/watches/ulysse-nardin/founder-13-maxi-diver-white-web.webp",
+      "webDerivativeSHA256": "eb72325c11dca7f3ca4d2e5aaf7e0479594074048a28b60505012a2b41c37a77",
+      "finalReviewRecord": "PHOTOGRAPHY_UN266_RECOVERY_2026-10-19.json"
     },
     {
       "id": "upload-15-marine",
@@ -1934,5 +1937,5 @@
     "verified": true
   },
   "rightsRecord": "PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json",
-  "approvedImages": 21
+  "approvedImages": 22
 }

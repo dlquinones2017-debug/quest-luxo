@@ -1,14 +1,14 @@
 {
-  "reviewedAt": "2026-10-16T19:39:30.505Z",
+  "reviewedAt": "2026-10-19T20:29:17.270Z",
   "note": "Generated from all exported source datasets and built routes. Source-only and duplicate configuration records are retained for review; this register is not proof of image rights. Source URLs identify research leads, not licenses.",
   "summary": {
-    "sourceConfigurations": 924,
+    "sourceConfigurations": 926,
     "builtReferenceRoutes": 297,
     "collectionRoutes": 104,
-    "approvedReferenceConfigurations": 458,
+    "approvedReferenceConfigurations": 460,
     "unmatchedReferenceRoutes": 0,
-    "approvedCanonicalReferenceRoutes": 228,
-    "queuedCanonicalReferenceRoutes": 69
+    "approvedCanonicalReferenceRoutes": 229,
+    "queuedCanonicalReferenceRoutes": 68
   },
   "collections": [
     {
@@ -10134,6 +10134,39 @@
     {
       "brand": "Ulysse Nardin",
       "collection": "Diver",
+      "reference": "266-10-3/92",
+      "configurations": [
+        {
+          "caseSize": "44 mm",
+          "movement": "Automatic; calibre verification pending",
+          "dial": "Black wave dial",
+          "bracelet": "Black rubber strap with rose-gold inserts",
+          "nickname": "Black wave dial / Black rubber strap with rose-gold inserts",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "18K rose gold",
+      "sources": [
+        "src/data/collectionRegistry.ts",
+        "src/data/photography-expansion.ts"
+      ],
+      "routes": [
+        "/collections/ulysse-nardin/diver/266-10-3-92"
+      ],
+      "scope": "built-reference",
+      "existingImage": "/images/watches/ulysse-nardin/founder-13-maxi-diver-white-web.webp",
+      "existingImageFilePresent": true,
+      "photoAssetId": "cleared-founder-13-maxi-diver",
+      "status": "approved",
+      "sourceUrl": "https://drive.google.com/file/d/1XkuYKQSEE6Anhgd08g4vZGeTOXKX_0Gi/view",
+      "licenseRecord": "Direct founder response call_24a179ab128748dbb94a78640e6a1543: Rights cover the ZIP and both Patek originals/derivatives; no restrictions. Record docs/PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json. Exact native photograph crop upload-13-maxi-diver.png SHA256 fa3e0033b4f9eccd65d3e34c9227c7041dd1b0c258dc0f33af250f4e45e4ca1a from source Screenshot_20260914_123807_Google.jpg SHA256 aad6408f56b1eee1245a0f8db592442e6f8feac8404a50e2955ee6cb455fa45b. Full screenshot preserved locally only; native watch crop preserved within the44appearance RAW review archive. Entire watch including returning rubber strap individually reviewed. Exterior-only classical mask, unchanged native watch RGB; no reconstruction or synthesized detail. No new price or availability inferred. Preserved RAW file: 1XkuYKQSEE6Anhgd08g4vZGeTOXKX_0Gi. Pictured full reference 266-10-3/92; 18K rose gold, Black wave dial, Black rubber strap with rose-gold inserts. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
+      "brand": "Ulysse Nardin",
+      "collection": "Diver",
       "reference": "1183-170-7M/92",
       "configurations": [
         {
@@ -10232,38 +10265,6 @@
       "licenseRecord": "Founder confirmed Quest Luxo website-use permission for existing Drive manufacturer photographs on October 13, 2026. Preserved RAW file: 1EjTQI0yV6tQXCOyuFUjaSLbJ0CAj28vF. Pictured full reference 1183-170-3/92; Titanium, Black, Black rubber / titanium strap. Exact configuration reviewed against preserved source evidence and the original photograph.",
       "websiteApproved": true,
       "nextAction": "Retain approved original and verify derivative integrity."
-    },
-    {
-      "brand": "Ulysse Nardin",
-      "collection": "Diver",
-      "reference": "266-10-3/92",
-      "configurations": [
-        {
-          "caseSize": "44 mm",
-          "movement": "Automatic; calibre verification pending",
-          "dial": "Black wave dial",
-          "bracelet": "Black rubber strap with rose-gold inserts",
-          "originalMSRP": null,
-          "currentMSRP": null
-        }
-      ],
-      "material": "18K rose gold",
-      "sources": [
-        "src/data/collectionRegistry.ts",
-        "src/data/verified-catalog-expansion.ts"
-      ],
-      "routes": [
-        "/collections/ulysse-nardin/diver/266-10-3-92"
-      ],
-      "scope": "built-reference",
-      "existingImage": "/images/watch-reference-placeholder.svg",
-      "existingImageFilePresent": true,
-      "photoAssetId": null,
-      "status": "Requires Verification",
-      "sourceUrl": "https://www.prestigetime.com/Ulysse-Nardin-Maxi-Marine-Diver-44mm-266-10-3-92.html",
-      "licenseRecord": null,
-      "websiteApproved": false,
-      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
     },
     {
       "brand": "Ulysse Nardin",
@@ -18356,6 +18357,28 @@
       ],
       "routes": [
         "/collections/audemars-piguet/royal-oak/26341st-oo-1105st-01"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": null,
+      "status": "Requires Verification",
+      "sourceUrl": null,
+      "licenseRecord": null,
+      "websiteApproved": false,
+      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+    },
+    {
+      "brand": "Ulysse Nardin",
+      "collection": "Diver",
+      "reference": "266-10-3/92",
+      "configurations": [],
+      "material": "18K rose gold",
+      "sources": [
+        "src/data/photography-cleared-sprint.ts"
+      ],
+      "routes": [
+        "/collections/ulysse-nardin/diver/266-10-3-92"
       ],
       "scope": "built-reference",
       "existingImage": null,
@@ -29068,6 +29091,37 @@
       "status": "approved",
       "sourceUrl": "https://drive.google.com/file/d/1PW6uo43c6HDLM8OC5SOQ__Phr7G75TOn/view",
       "licenseRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for the19-imageZIP originals and white-background derivatives, with no restrictions, in response call_24a179ab128748dbb94a78640e6a1543. Record docs/PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json. Native photograph crop upload-07-diver-chrono.png (SHA256 6548216f54af1cf9c0f0b135b3eb85acff9ef48c3364b30b17bda38a991bc7f1) from Screenshot_20260914_123815_Google.jpg (parent SHA256 d3ab31ac84271dc9dfbfb66ab797079689b409728c97aab9c2e7d7fc3db9500d). RAW archive contains explicitly labeled native watch crops; full private screenshot is preserved locally only. Whole watch, exact configuration and final image individually reviewed. Native source resolution retained without invented or sharpened detail; no ownership, celebrity or unique-edition provenance inferred. Separate manufacturer/reference specification source retained. Preserved RAW file: 1PW6uo43c6HDLM8OC5SOQ__Phr7G75TOn. Pictured full reference 1502-151-3/93; 18K rose gold, Blue, Blue rubber strap. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
+      "brand": "Ulysse Nardin",
+      "collection": "Diver",
+      "reference": "266-10-3/92",
+      "configurations": [
+        {
+          "caseSize": "44 mm",
+          "movement": "Automatic; calibre verification pending",
+          "dial": "Black wave dial",
+          "bracelet": "Black rubber strap with rose-gold inserts",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "18K rose gold",
+      "sources": [
+        "src/data/verified-catalog-expansion.ts"
+      ],
+      "routes": [
+        "/collections/ulysse-nardin/diver/266-10-3-92"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": "cleared-founder-13-maxi-diver",
+      "status": "approved",
+      "sourceUrl": "https://drive.google.com/file/d/1XkuYKQSEE6Anhgd08g4vZGeTOXKX_0Gi/view",
+      "licenseRecord": "Direct founder response call_24a179ab128748dbb94a78640e6a1543: Rights cover the ZIP and both Patek originals/derivatives; no restrictions. Record docs/PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json. Exact native photograph crop upload-13-maxi-diver.png SHA256 fa3e0033b4f9eccd65d3e34c9227c7041dd1b0c258dc0f33af250f4e45e4ca1a from source Screenshot_20260914_123807_Google.jpg SHA256 aad6408f56b1eee1245a0f8db592442e6f8feac8404a50e2955ee6cb455fa45b. Full screenshot preserved locally only; native watch crop preserved within the44appearance RAW review archive. Entire watch including returning rubber strap individually reviewed. Exterior-only classical mask, unchanged native watch RGB; no reconstruction or synthesized detail. No new price or availability inferred. Preserved RAW file: 1XkuYKQSEE6Anhgd08g4vZGeTOXKX_0Gi. Pictured full reference 266-10-3/92; 18K rose gold, Black wave dial, Black rubber strap with rose-gold inserts. Exact configuration reviewed against preserved source evidence and the original photograph.",
       "websiteApproved": true,
       "nextAction": "Retain approved original and verify derivative integrity."
     },
