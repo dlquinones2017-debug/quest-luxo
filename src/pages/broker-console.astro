@@ -7,6 +7,9 @@ export const prerender = false;
 
 const brokerAuth = validateBrokerConsoleAccess(Astro.request);
 const isBrokerConsoleLocked = !brokerAuth.allowed;
+Astro.response.headers.set("Cache-Control", "private, no-store");
+Astro.response.headers.set("Referrer-Policy", "no-referrer");
+Astro.response.headers.set("X-Robots-Tag", "noindex, noarchive");
 ---
 
 <BaseLayout title="Broker Console MVP | Quest Luxo">

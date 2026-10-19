@@ -15,7 +15,9 @@ test("broker console mounts the founder revenue panel behind console auth",async
 
 test("founder revenue panel is read only and uses authoritative endpoint",async()=>{
  const panel=await source("src","components","FounderRevenuePanel.astro");
- assert.match(panel,/fetch\("\/api\/broker\/revenue"/);
+ assert.match(panel,/loadFounderRevenueModel\(window.location.href\)/);
+ const client=await source("src","lib","broker","founderRevenueClient.ts");
+ assert.match(client,/request\("\/api\/broker\/revenue"/);
  assert.match(panel,/verifiedEstimatedRevenue/);
  assert.match(panel,/verifiedExpectedRevenue/);
  assert.match(panel,/founderActions/);
