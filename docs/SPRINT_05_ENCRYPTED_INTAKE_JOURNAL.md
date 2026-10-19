@@ -51,3 +51,19 @@ The new **journal** retains the verified opaque receipt metadata and its checkpo
 - Tampering, a wrong key, truncated files, damaged checkpoints, and retention limits intentionally block further mutation pending verified operator recovery.
 - Protected operation depends on authorized callers providing genuine trusted adapter output; **do not expose** `commitTrustedIntakeBatch` directly on a public endpoint or accept arbitrary user-supplied VERIFIED assertions.
 - The existing metadata reader handles one bounded page; no continuous reader or encrypted key management is included in this sprint.
+
+## Read-only Capital/Realty CRM reconciliation checkpoint
+
+The stored intake journal confirms a verified *metadata receipt*, not a qualified borrower, completed diligence or a durable CRM case. `enterpriseIntakeReconciliation.ts` now compares those receipts against the existing **volatile in-memory** Capital and Realty pipeline snapshots without creating a new system of record. The Founder Revenue Brief exposes the detailed internal metadata-only findings and its authenticated Console exposes **aggregate counts only**.
+
+| Classification | Meaning | Required operator action |
+| --- | --- | --- |
+| `SOURCE_REVIEW_REQUIRED` | Unverified, conflicting or invalid source evidence | Resolve provenance before identity linking. |
+| `CANONICAL_LINK_MISSING` | Verified receipt is not linked to a reviewed case ID | Verify identity, source evidence and consent before linking. |
+| `CANONICAL_RECORD_MISSING` | Canonical ID exists but no current division pipeline record matches | Investigate lost or uncreated case; review restoration plan. |
+| `CANONICAL_EVIDENCE_MISSING` | A same-division case ID exists but lacks receipt/source proof | Reconcile proof before claiming match. |
+| `MATCHED_VOLATILE_ONLY` | Receipt and matching case share evidence, but the current case is in memory | Persist and restore-test the canonical CRM record separately. |
+
+The Founder Console refuses malformed counts or any reported `durableReconciliationVerified: true`, and shows `Unknown` for unconnected/unreadable sources instead of presenting absent observations as clean zero. Counters cannot establish inbox completeness, consumer identity, accounting accuracy, CRM durability, or a legal basis to disclose client information. No bank statements, watch details, email bodies, customer contact details, tokens, borrower data or payment instructions are added to the report.
+
+**Operational gate to graduate Sprint 05:** separately authorize a durable canonical Capital/Realty CRM store and approved credential/backup configuration; establish a case identity and source-linking procedure; prove crash-safe replay and isolated restore; verify cross-division segregation; review errors and exceptions; conduct a bounded founder-authorized Gmail metadata pilot; then approve a production rollout with defined rollback. Never turn on automatic external dispatch, lender referral, credit pulls, or marketing because reconciliation counts look healthy. The current draft branch makes no production change and does not merge the separate enterprise 57-role blueprint PR #68.
