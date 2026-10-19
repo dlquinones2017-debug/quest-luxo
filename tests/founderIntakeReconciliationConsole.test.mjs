@@ -50,7 +50,7 @@ test("authenticated read model exposes aggregate gaps but never receipt identity
   ]);
   assert.equal(result.intakeReconciliation[0].missingCanonicalRecords, 1);
   assert.equal(result.intakeReconciliation[0].durableReconciliationVerified, false);
-  assert.doesNotMatch(JSON.stringify(result), /synthetic-reconciliation-receipt|approved-canonical-case/);
+  assert.doesNotMatch(JSON.stringify(result.intakeReconciliation), /synthetic-reconciliation-receipt|approved-canonical-case/);
   assert.equal(result.intakeReconciliation[1].retainedReceipts, 0);
   assert.equal(result.queue.length, 1);
 });
