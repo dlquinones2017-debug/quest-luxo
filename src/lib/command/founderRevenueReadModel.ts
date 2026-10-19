@@ -1,4 +1,4 @@
-import { storedEnterpriseRevenueBrief, type EnterpriseRevenueStoreReaders } from "./storedEnterpriseRevenueBrief.ts";
+import { storedEnterpriseRevenueBrief, type EnterpriseRevenueStoreReaders, type StoredEnterpriseRevenueBrief } from "./storedEnterpriseRevenueBrief.ts";
 
 export interface FounderRevenueReadModel {
   generatedAt:string;
@@ -8,12 +8,16 @@ export interface FounderRevenueReadModel {
   verifiedExpectedRevenue:number;
   queue:readonly {division:string;recordId:string;status:string;reason:string}[];
   founderActions:readonly {division:string;recordId:string;action:string;expectedRevenue:number|null;revenueScore:number|null}[];
+  intakeReliability:StoredEnterpriseRevenueBrief["intakeReliability"];
+  sourceRead:StoredEnterpriseRevenueBrief["sourceRead"];
 }
 
 export async function founderRevenueReadModel(now=new Date(),readers?:EnterpriseRevenueStoreReaders):Promise<FounderRevenueReadModel>{
   const brief=await storedEnterpriseRevenueBrief(now,readers);
   return Object.freeze({
     generatedAt:now.toISOString(),
+    intakeReliability:brief.intakeReliability,
+    sourceRead:brief.sourceRead,
     totalRecords:brief.snapshot.totalRecords,
     unknownRecords:brief.snapshot.unknownRecords,
     verifiedEstimatedRevenue:brief.snapshot.verifiedEstimatedRevenue,

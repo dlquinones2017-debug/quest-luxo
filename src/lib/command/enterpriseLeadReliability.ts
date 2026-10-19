@@ -1,7 +1,7 @@
 import type { EnterpriseLeadFinding, LeadDivision } from "./enterpriseLeadIntelligence.ts";
 
 export interface IntakeObservation {
-  readonly status: "DISABLED" | "COMPLETE" | "PARTIAL" | "READ_ERROR";
+  readonly status: "DISABLED" | "COMPLETE" | "PARTIAL" | "READ_ERROR" | "SOURCE_MISSING";
   readonly observedAt?: string | null;
 }
 const divisions: readonly LeadDivision[] = ["WATCH_BROKERAGE", "CAPITAL_ADVISORY", "REALTY"];
@@ -13,10 +13,10 @@ export function enterpriseLeadReliability(findings: readonly EnterpriseLeadFindi
     const observed = observation?.observedAt ? Date.parse(observation.observedAt) : NaN;
     const observationTimeValid = Number.isFinite(observed) && observed <= now.getTime();
     const coverage = !observation || observation.status === "DISABLED" ? "UNKNOWN" :
-      observation.status === "READ_ERROR" ? "READ_ERROR" : observation.status === "PARTIAL" ? "PARTIAL" :
+      observation.status === "READ_ERROR" ? "READ_ERROR" : observation.status === "SOURCE_MISSING" ? "SOURCE_MISSING" : observation.status === "PARTIAL" ? "PARTIAL" :
       !observationTimeValid ? "UNKNOWN" : now.getTime() - observed > staleAfterMs ? "STALE" : "OBSERVED";
     return Object.freeze({
-      division, coverage,
+      division, coverage, collectionStatus: observation?.status ?? "UNVERIFIED",
       submissions: items.length ? "OBSERVED_RECEIPTS" : "NO_OBSERVED_SUBMISSIONS",
       receipts: items.length,
       notificationFailed: items.filter(f => f.notification === "FAILED").length,
