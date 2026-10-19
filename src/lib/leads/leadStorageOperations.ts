@@ -10,6 +10,7 @@ import {
   writeFile,
 } from "node:fs/promises";
 import { basename, dirname, join } from "node:path";
+import { withLeadStorageLock } from "./leadStorageLock.ts";
 
 export interface JsonlVerificationResult {
   readonly valid: true;
@@ -75,35 +76,39 @@ export async function createLeadStorageBackup(options: {
   readonly backupDirectory: string;
   readonly timestamp?: Date;
 }): Promise<LeadBackupResult> {
-  const sourceVerification = await verifyLeadJsonlFile(options.sourceFile);
-  const sourceStat = await stat(options.sourceFile);
-  const timestamp = (options.timestamp ?? new Date())
-    .toISOString()
-    .replace(/[:.]/g, "-");
-  const backupFile = join(
-    options.backupDirectory,
-    `${basename(options.sourceFile, ".jsonl")}-${timestamp}-${randomUUID().slice(
-      0,
-      8
-    )}.jsonl`
-  );
+  return withLeadStorageLock(options.sourceFile, async () => {
+    const sourceVerification = await verifyLeadJsonlFile(options.sourceFile);
+    const sourceStat = await stat(options.sourceFile);
+    const timestamp = (options.timestamp ?? new Date())
+      .toISOString()
+      .replace(/[:.]/g, "-");
+    const backupFile = join(
+      options.backupDirectory,
+      `${basename(options.sourceFile, ".jsonl")}-${timestamp}-${randomUUID().slice(
+        0,
+        8
+      )}.jsonl`
+    );
 
-  await mkdir(options.backupDirectory, { recursive: true });
-  await copyFile(options.sourceFile, backupFile, constants.COPYFILE_EXCL);
-  await chmod(backupFile, sourceStat.mode).catch(() => undefined);
+    await mkdir(options.backupDirectory, { recursive: true });
+    await copyFile(options.sourceFile, backupFile, constants.COPYFILE_EXCL);
+    await chmod(backupFile, sourceStat.mode).catch(() => undefined);
 
-  const backupVerification = await verifyLeadJsonlFile(backupFile);
+    const backupVerification = await verifyLeadJsonlFile(backupFile);
+    const sourceAfter = await verifyLeadJsonlFile(options.sourceFile);
 
-  if (
-    backupVerification.bytes !== sourceVerification.bytes ||
-    backupVerification.sha256 !== sourceVerification.sha256
-  ) {
-    throw new Error("Lead backup verification did not match the source file.");
-  }
+    if (
+      backupVerification.bytes !== sourceVerification.bytes ||
+      backupVerification.sha256 !== sourceVerification.sha256 ||
+      sourceAfter.sha256 !== sourceVerification.sha256
+    ) {
+      throw new Error("Lead backup verification did not match the source file.");
+    }
 
-  return Object.freeze({
-    ...backupVerification,
-    backupFile,
+    return Object.freeze({
+      ...backupVerification,
+      backupFile,
+    });
   });
 }
 
@@ -185,57 +190,59 @@ export async function removeExactLabeledSmokeTestLead(options: {
   readonly recordsAfter: number;
   readonly unrelatedRecordsPreserved: true;
 }> {
-  const fileContents = await readFile(options.storageFile, "utf8");
-  const records = parseJsonlRecords(fileContents);
-  const matchingIndexes = records
-    .map(({ value }, index) => ({
-      index,
-      matches:
-        value.id === options.leadId &&
-        getSmokeLabel(value).includes(options.label),
-    }))
-    .filter(({ matches }) => matches)
-    .map(({ index }) => index);
+  return withLeadStorageLock(options.storageFile, async () => {
+    const fileContents = await readFile(options.storageFile, "utf8");
+    const records = parseJsonlRecords(fileContents);
+    const matchingIndexes = records
+      .map(({ value }, index) => ({
+        index,
+        matches:
+          value.id === options.leadId &&
+          getSmokeLabel(value).includes(options.label),
+      }))
+      .filter(({ matches }) => matches)
+      .map(({ index }) => index);
 
-  if (matchingIndexes.length !== 1) {
-    throw new Error(
-      `Cleanup requires exactly one id-and-label match; found ${matchingIndexes.length}.`
+    if (matchingIndexes.length !== 1) {
+      throw new Error(
+        `Cleanup requires exactly one id-and-label match; found ${matchingIndexes.length}.`
+      );
+    }
+
+    const unrelatedBefore = records
+      .filter((_, index) => index !== matchingIndexes[0])
+      .map(({ line }) => line);
+    const unrelatedDigestBefore = hash(unrelatedBefore.join("\n"));
+    const replacementContents =
+      unrelatedBefore.join("\n") + (unrelatedBefore.length > 0 ? "\n" : "");
+    const sourceStat = await stat(options.storageFile);
+    const tempFile = `${options.storageFile}.cleanup-${randomUUID()}.tmp`;
+
+    await writeFile(tempFile, replacementContents, {
+      encoding: "utf8",
+      flag: "wx",
+      mode: sourceStat.mode,
+    });
+    await rename(tempFile, options.storageFile);
+
+    const afterContents = await readFile(options.storageFile, "utf8");
+    const afterRecords = parseJsonlRecords(afterContents);
+    const unrelatedDigestAfter = hash(
+      afterRecords.map(({ line }) => line).join("\n")
     );
-  }
 
-  const unrelatedBefore = records
-    .filter((_, index) => index !== matchingIndexes[0])
-    .map(({ line }) => line);
-  const unrelatedDigestBefore = hash(unrelatedBefore.join("\n"));
-  const replacementContents =
-    unrelatedBefore.join("\n") + (unrelatedBefore.length > 0 ? "\n" : "");
-  const sourceStat = await stat(options.storageFile);
-  const tempFile = `${options.storageFile}.cleanup-${randomUUID()}.tmp`;
+    if (
+      afterRecords.length !== records.length - 1 ||
+      unrelatedDigestAfter !== unrelatedDigestBefore
+    ) {
+      throw new Error("Smoke-test cleanup did not preserve unrelated records.");
+    }
 
-  await writeFile(tempFile, replacementContents, {
-    encoding: "utf8",
-    flag: "wx",
-    mode: sourceStat.mode,
-  });
-  await rename(tempFile, options.storageFile);
-
-  const afterContents = await readFile(options.storageFile, "utf8");
-  const afterRecords = parseJsonlRecords(afterContents);
-  const unrelatedDigestAfter = hash(
-    afterRecords.map(({ line }) => line).join("\n")
-  );
-
-  if (
-    afterRecords.length !== records.length - 1 ||
-    unrelatedDigestAfter !== unrelatedDigestBefore
-  ) {
-    throw new Error("Smoke-test cleanup did not preserve unrelated records.");
-  }
-
-  return Object.freeze({
-    removedLeadId: options.leadId,
-    recordsBefore: records.length,
-    recordsAfter: afterRecords.length,
-    unrelatedRecordsPreserved: true,
+    return Object.freeze({
+      removedLeadId: options.leadId,
+      recordsBefore: records.length,
+      recordsAfter: afterRecords.length,
+      unrelatedRecordsPreserved: true,
+    });
   });
 }

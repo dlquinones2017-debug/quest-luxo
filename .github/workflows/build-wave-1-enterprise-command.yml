@@ -6,6 +6,9 @@ on:
       - "src/lib/command/**"
       - "src/lib/leads/leadStorage.ts"
       - "src/lib/leads/leadStorageTypes.ts"
+      - "src/lib/leads/leadStorageLock.ts"
+      - "src/lib/leads/leadStorageOperations.ts"
+      - "tests/fixtures/leadStorageWriter.mjs"
       - "src/lib/broker/founderRevenue*.ts"
       - "src/components/FounderRevenuePanel.astro"
       - "src/pages/api/broker/revenue.ts"
@@ -33,4 +36,4 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: "22"
-      - run: node --experimental-strip-types --test tests/enterpriseCommand.test.mjs tests/enterpriseWave1.test.mjs tests/revenueRecoveryAgent.test.mjs tests/relationshipIntelligence.test.mjs tests/nextBestActionAgent.test.mjs tests/revenueLearningAgent.test.mjs tests/wave3RevenueAcceptance.test.mjs tests/operationsCoordinator.test.mjs tests/bottleneckExceptionAgent.test.mjs tests/ownershipDelegationAgent.test.mjs tests/slaAgingIntelligence.test.mjs tests/wave4OperationsAcceptance.test.mjs tests/enterpriseLeadIntelligence.test.mjs tests/enterpriseLeadIntakeIntegration.test.mjs tests/enterpriseIntakeConsole.test.mjs tests/founderRevenueEndpoint.test.mjs tests/founderRevenuePanel.test.mjs tests/founderRevenueReadModel.test.mjs
+      - run: node --experimental-strip-types --test tests/enterpriseCommand.test.mjs tests/enterpriseWave1.test.mjs tests/revenueRecoveryAgent.test.mjs tests/relationshipIntelligence.test.mjs tests/nextBestActionAgent.test.mjs tests/revenueLearningAgent.test.mjs tests/wave3RevenueAcceptance.test.mjs tests/operationsCoordinator.test.mjs tests/bottleneckExceptionAgent.test.mjs tests/ownershipDelegationAgent.test.mjs tests/slaAgingIntelligence.test.mjs tests/wave4OperationsAcceptance.test.mjs tests/enterpriseLeadIntelligence.test.mjs tests/enterpriseLeadIntakeIntegration.test.mjs tests/enterpriseIntakeConsole.test.mjs tests/founderRevenueEndpoint.test.mjs tests/founderRevenuePanel.test.mjs tests/founderRevenueReadModel.test.mjs tests/enterpriseLeadWriteSafety.test.mjs

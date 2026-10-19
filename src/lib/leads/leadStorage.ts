@@ -1,6 +1,7 @@
 import { createHash, randomUUID } from "node:crypto";
-import { mkdir, open, readFile, rename } from "node:fs/promises";
+import { mkdir, open, readFile, rename, unlink } from "node:fs/promises";
 import { join, resolve } from "node:path";
+import { withLeadStorageLock } from "./leadStorageLock.ts";
 import type { BrokerageEconomicsInput } from "../brokerage/brokerageEconomics.ts";
 import {
   appendBrokerageEconomicsSnapshot,
@@ -185,10 +186,14 @@ const saveJsonlLeadSubmission = async (
   });
 
   await mkdir(paths.directory, { recursive: true });
-  const handle = await open(paths.file, "a", 0o600);
+  const handle = await open(paths.file, "a+", 0o600);
 
   try {
-    await handle.writeFile(`${JSON.stringify(record)}\n`, "utf8");
+    const { size } = await handle.stat();
+    const last = Buffer.alloc(1);
+    if (size) await handle.read(last, 0, 1, size - 1);
+    const boundary = size && last[0] !== 10 ? "\n" : "";
+    await handle.writeFile(`${boundary}${JSON.stringify(record)}\n`, "utf8");
     await handle.sync();
   } finally {
     await handle.close();
@@ -211,16 +216,20 @@ const writeLeadSubmissions = async (
     (records.length > 0 ? "\n" : "");
 
   await mkdir(paths.directory, { recursive: true });
-  const handle = await open(paths.tempFile, "w", 0o600);
+  const tempFile = `${paths.tempFile}-${randomUUID()}`;
+  const handle = await open(tempFile, "wx", 0o600);
 
   try {
-    await handle.writeFile(fileContents, "utf8");
-    await handle.sync();
+    try {
+      await handle.writeFile(fileContents, "utf8");
+      await handle.sync();
+    } finally {
+      await handle.close();
+    }
+    await rename(tempFile, paths.file);
   } finally {
-    await handle.close();
+    await unlink(tempFile).catch(error => { if (!hasErrorCode(error, "ENOENT")) throw error; });
   }
-
-  await rename(paths.tempFile, paths.file);
 };
 
 const readJsonlLeadSnapshotAt = async (
@@ -404,28 +413,37 @@ export const createJsonlLeadStorageAdapter = (
   directory: string
 ): SnapshotLeadStorageAdapter => {
   const paths = createLeadStoragePaths(directory);
+  const mutate = <T>(operation: () => Promise<T>): Promise<T> =>
+    withLeadStorageLock(paths.file, async () => {
+      // A partial normalized read must never become a destructive rewrite.
+      // Preserve the original bytes for an operator to inspect and recover.
+      if ((await readJsonlLeadSnapshotAt(paths)).status === "PARTIAL") {
+        throw new Error("Lead storage integrity requires operator verification.");
+      }
+      return operation();
+    });
 
   return Object.freeze({
     provider: "jsonl",
     saveLeadSubmission: (payload, emailDelivery) =>
-      saveJsonlLeadSubmission(paths, payload, emailDelivery),
+      mutate(() => saveJsonlLeadSubmission(paths, payload, emailDelivery)),
     readLeadSubmissions: () => readJsonlLeadSubmissionsAt(paths),
     readLeadSubmissionSnapshot: () => readJsonlLeadSnapshotAt(paths),
     updateLeadSubmissionStatus: (id, status) =>
-      updateJsonlLeadSubmissionStatus(paths, id, status),
+      mutate(() => updateJsonlLeadSubmissionStatus(paths, id, status)),
     updateLeadSubmissionNotes: (id, notes) =>
-      updateJsonlLeadSubmissionNotes(paths, id, notes),
+      mutate(() => updateJsonlLeadSubmissionNotes(paths, id, notes)),
     updateLeadSubmissionTags: (id, tags) =>
-      updateJsonlLeadSubmissionTags(paths, id, tags),
+      mutate(() => updateJsonlLeadSubmissionTags(paths, id, tags)),
     updateLeadSubmissionEmailDelivery: (id, emailDelivery) =>
-      updateJsonlLeadSubmissionEmailDelivery(paths, id, emailDelivery),
+      mutate(() => updateJsonlLeadSubmissionEmailDelivery(paths, id, emailDelivery)),
     addLeadSubmissionEconomicsSnapshot: (id, economicsInput, brokerNote) =>
-      addJsonlLeadSubmissionEconomicsSnapshot(
+      mutate(() => addJsonlLeadSubmissionEconomicsSnapshot(
         paths,
         id,
         economicsInput,
         brokerNote
-      ),
+      )),
   } satisfies SnapshotLeadStorageAdapter);
 };
 
