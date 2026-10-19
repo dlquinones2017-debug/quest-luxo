@@ -38,6 +38,12 @@ export interface LeadStorageResult {
   readonly savedAt: string;
 }
 
+export interface LeadSubmissionSnapshot {
+  readonly records: readonly LeadSubmissionRecord[];
+  readonly status: "COMPLETE" | "PARTIAL" | "MISSING";
+  readonly malformedRows: number;
+}
+
 export interface LeadStorageAdapter {
   readonly provider: LeadStorageProvider;
   saveLeadSubmission(

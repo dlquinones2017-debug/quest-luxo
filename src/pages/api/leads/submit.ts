@@ -95,14 +95,6 @@ export const POST: APIRoute = async ({ request }) => {
   if (!submission.success) {
     console.error("Quest Luxo Lead Storage Error", {
       failureStage: submission.failureStage,
-      error:
-        submission.error instanceof Error
-          ? {
-              message: submission.error.message,
-              name: submission.error.name,
-              stack: submission.error.stack,
-            }
-          : submission.error,
     });
 
     return jsonResponse(
@@ -117,15 +109,8 @@ export const POST: APIRoute = async ({ request }) => {
   const emailDelivery = submission.delivery;
 
   const notificationLog = {
-    createdAt: payload.createdAt,
-    source: payload.source,
-    intent: payload.intent,
-    brand: payload.brand,
-    collection: payload.collection,
-    reference: payload.reference,
     deliveryStatus: emailDelivery.status,
     configured: emailDelivery.configured,
-    reason: emailDelivery.reason,
     providerStatus: emailDelivery.providerStatus,
     deliveryRecorded: submission.deliveryRecorded,
   };
@@ -134,13 +119,6 @@ export const POST: APIRoute = async ({ request }) => {
     console.error("Quest Luxo Lead Delivery Status Persistence Failed", {
       ...notificationLog,
       leadId: submission.storage.id,
-      error:
-        submission.deliveryRecordError instanceof Error
-          ? {
-              message: submission.deliveryRecordError.message,
-              name: submission.deliveryRecordError.name,
-            }
-          : submission.deliveryRecordError,
     });
   }
 

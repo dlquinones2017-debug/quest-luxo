@@ -15,23 +15,50 @@ const { hidden=false }=Astro.props;
     <div><strong data-founder-revenue="expected">—</strong><span>Expected</span></div>
     <div><strong data-founder-revenue="actions">—</strong><span>Founder Actions</span></div>
   </div>
+  <section class="founder-intake" aria-label="Enterprise inquiry reliability">
+    <h3>Inquiry reliability</h3>
+    <p data-founder-intake-state aria-live="polite">Waiting for the saved inquiry check.</p>
+    <p class="founder-intake-scroll-note">Scroll across the table for delivery details.</p>
+    <div class="founder-intake-table" tabindex="0" role="region" aria-label="Inquiry reliability by division">
+      <table>
+        <thead><tr><th scope="col">Division</th><th scope="col">Collection</th><th scope="col">Receipts</th><th scope="col">Email provider accepted</th><th scope="col">Failed</th><th scope="col">Delivery unknown</th><th scope="col">Review</th></tr></thead>
+        <tbody data-founder-intake-rows></tbody>
+      </table>
+    </div>
+    <p>Provider acceptance does not confirm inbox delivery. No observed inquiries does not mean a form failed. This view does not qualify clients or authorize contact.</p>
+    <p>Connecting Capital and Realty inquiries, confirming retention, and testing recovery require founder approval. Opening this panel does not start background collection.</p>
+  </section>
 </section>
 <script>
+ import { loadFounderRevenueModel, founderIntakeRows } from "../lib/broker/founderRevenueClient.ts";
  const panel=document.querySelector<HTMLElement>("[data-founder-revenue-panel]");
  const state=panel?.querySelector<HTMLElement>("[data-founder-revenue-state]");
  const set=(key:string,value:string)=>{const el=panel?.querySelector<HTMLElement>(`[data-founder-revenue="${key}"]`);if(el)el.textContent=value;};
  if(panel&&!panel.hidden){
-   fetch("/api/broker/revenue",{headers:{Accept:"application/json"}})
-    .then(async response=>{if(!response.ok)throw new Error("Revenue state unavailable");return response.json();})
+   loadFounderRevenueModel(window.location.href)
     .then(model=>{
-      set("records",String(model.totalRecords??0));
-      set("unknown",String(model.unknownRecords??0));
-      set("estimated",new Intl.NumberFormat("en-US",{style:"currency",currency:"USD",maximumFractionDigits:0}).format(model.verifiedEstimatedRevenue??0));
-      set("expected",new Intl.NumberFormat("en-US",{style:"currency",currency:"USD",maximumFractionDigits:0}).format(model.verifiedExpectedRevenue??0));
-      set("actions",String(Array.isArray(model.founderActions)?model.founderActions.length:0));
-      if(state)state.textContent=model.totalRecords===0?"No verified enterprise revenue records yet.":"Read-only view from authoritative enterprise stores.";
+      const complete=model.sourceRead.status==="COMPLETE";
+      set("records",String(model.totalRecords)+(complete?"":"+ observed"));
+      set("unknown",String(model.unknownRecords)+(complete?"":"+ observed"));
+      set("estimated",complete?new Intl.NumberFormat("en-US",{style:"currency",currency:"USD",maximumFractionDigits:0}).format(model.verifiedEstimatedRevenue):"Unknown");
+      set("expected",complete?new Intl.NumberFormat("en-US",{style:"currency",currency:"USD",maximumFractionDigits:0}).format(model.verifiedExpectedRevenue):"Unknown");
+      set("actions",String(model.founderActions.length)+(complete?"":"+ observed"));
+      if(state)state.textContent=!complete?"Some saved inquiry records are unavailable; totals are partial.":model.totalRecords===0?"No verified enterprise revenue records yet.":"Read-only view from authoritative enterprise stores.";
+      const intakeState=panel.querySelector<HTMLElement>("[data-founder-intake-state]");
+      if(intakeState)intakeState.textContent=model.sourceRead.status==="MISSING"?"Luxury’s saved inquiry source was not found. Receipt and delivery totals are unknown.":model.sourceRead.unreadableRows?`${model.sourceRead.unreadableRows} saved entry or entries could not be read. Review source integrity.`:"Luxury inquiries are checked on refresh. Other division coverage is shown separately.";
+      const rows=panel.querySelector<HTMLElement>("[data-founder-intake-rows]");
+      if(rows){
+        rows.replaceChildren();
+        for(const row of founderIntakeRows(model)){
+          const tr=document.createElement("tr");
+          for(const value of [row.division,row.coverage,row.receipts,row.accepted,row.failed,row.unknown,row.review]){
+            const td=document.createElement("td");td.textContent=value;tr.append(td);
+          }
+          rows.append(tr);
+        }
+      }
     })
-    .catch(()=>{if(state)state.textContent="Unable to load enterprise revenue state.";});
+    .catch(()=>{if(state)state.textContent="Unable to load enterprise revenue state.";const intakeState=panel.querySelector<HTMLElement>("[data-founder-intake-state]");if(intakeState)intakeState.textContent="Inquiry collection could not be checked. No zero or healthy state has been inferred.";});
  }
 </script>
 <style>
@@ -44,5 +71,14 @@ const { hidden=false }=Astro.props;
  .founder-revenue-metrics strong,.founder-revenue-metrics span{display:block}
  .founder-revenue-metrics strong{color:#173a5e;font-size:20px}
  .founder-revenue-metrics span{margin-top:5px;color:#8a6a3f;font-size:11px;font-weight:900;text-transform:uppercase}
+ .founder-intake{border-top:1px solid #d8d0c3;padding-top:16px;min-width:0}
+ .founder-intake h3{color:#173a5e;margin:0 0 8px}
+ .founder-intake p{font-size:13px;margin:8px 0}
+ .founder-intake-table{overflow-x:auto;margin:14px 0}
+ .founder-intake table{border-collapse:collapse;min-width:840px;width:100%;background:white;color:#173a5e;text-align:left;font-size:13px}
+ .founder-intake th,.founder-intake :global(td){padding:10px;border:1px solid #e3dccf;vertical-align:top}
+ .founder-intake th{color:#173a5e;background:#f0ece4}
+ .founder-intake .founder-intake-scroll-note{display:none}
+ @media(max-width:820px){.founder-intake .founder-intake-scroll-note{display:block}}
  @media(max-width:820px){.founder-revenue-metrics{grid-template-columns:repeat(2,minmax(0,1fr))}}
 </style>

@@ -17,6 +17,7 @@ import {
   type LeadStorageAdapter,
   type LeadStorageResult,
   type LeadSubmissionRecord,
+  type LeadSubmissionSnapshot,
 } from "./leadStorageTypes.ts";
 
 export {
@@ -158,13 +159,8 @@ const logMalformedRow = (
   console.error("Quest Luxo Lead Storage Malformed Row", {
     lineNumber,
     reason,
-    error:
-      error instanceof Error
-        ? {
-            message: error.message,
-            name: error.name,
-          }
-        : error,
+    // Parsed rows and JSON parser messages can contain client PII.
+    errorType: error instanceof SyntaxError ? "INVALID_JSON" : "INVALID_RECORD",
   });
 };
 
@@ -227,20 +223,21 @@ const writeLeadSubmissions = async (
   await rename(paths.tempFile, paths.file);
 };
 
-const readJsonlLeadSubmissionsAt = async (
+const readJsonlLeadSnapshotAt = async (
   paths: LeadStoragePaths
-): Promise<readonly LeadSubmissionRecord[]> => {
+): Promise<LeadSubmissionSnapshot> => {
   let fileContents: string;
 
   try {
     fileContents = await readFile(paths.file, "utf8");
   } catch (error) {
-    if (hasErrorCode(error, "ENOENT")) return [];
+    if (hasErrorCode(error, "ENOENT")) return Object.freeze({ records: Object.freeze([]), status: "MISSING", malformedRows: 0 });
 
     throw error;
   }
 
   const records: LeadSubmissionRecord[] = [];
+  let malformedRows = 0;
 
   fileContents.split(/\r?\n/).forEach((line, index) => {
     const trimmedLine = line.trim();
@@ -253,6 +250,7 @@ const readJsonlLeadSubmissionsAt = async (
       const record = normalizeLeadSubmissionRecord(parsedRow, lineNumber);
 
       if (!record) {
+        malformedRows++;
         logMalformedRow(lineNumber, parsedRow, "Invalid lead record shape.");
 
         return;
@@ -260,13 +258,23 @@ const readJsonlLeadSubmissionsAt = async (
 
       records.push(record);
     } catch (error) {
+      malformedRows++;
       logMalformedRow(lineNumber, error, "Invalid JSON.");
     }
   });
 
-  return Object.freeze(
-    records.sort((a, b) => getSavedAtTime(b) - getSavedAtTime(a))
-  );
+  return Object.freeze({
+    records: Object.freeze(records.sort((a, b) => getSavedAtTime(b) - getSavedAtTime(a))),
+    status: malformedRows ? "PARTIAL" : "COMPLETE",
+    malformedRows,
+  });
+};
+
+const readJsonlLeadSubmissionsAt = async (paths: LeadStoragePaths): Promise<readonly LeadSubmissionRecord[]> =>
+  (await readJsonlLeadSnapshotAt(paths)).records;
+
+type SnapshotLeadStorageAdapter = LeadStorageAdapter & {
+  readLeadSubmissionSnapshot(): Promise<LeadSubmissionSnapshot>;
 };
 
 const updateJsonlLeadSubmissionStatus = async (
@@ -394,7 +402,7 @@ const addJsonlLeadSubmissionEconomicsSnapshot = async (
 
 export const createJsonlLeadStorageAdapter = (
   directory: string
-): LeadStorageAdapter => {
+): SnapshotLeadStorageAdapter => {
   const paths = createLeadStoragePaths(directory);
 
   return Object.freeze({
@@ -402,6 +410,7 @@ export const createJsonlLeadStorageAdapter = (
     saveLeadSubmission: (payload, emailDelivery) =>
       saveJsonlLeadSubmission(paths, payload, emailDelivery),
     readLeadSubmissions: () => readJsonlLeadSubmissionsAt(paths),
+    readLeadSubmissionSnapshot: () => readJsonlLeadSnapshotAt(paths),
     updateLeadSubmissionStatus: (id, status) =>
       updateJsonlLeadSubmissionStatus(paths, id, status),
     updateLeadSubmissionNotes: (id, notes) =>
@@ -417,14 +426,14 @@ export const createJsonlLeadStorageAdapter = (
         economicsInput,
         brokerNote
       ),
-  } satisfies LeadStorageAdapter);
+  } satisfies SnapshotLeadStorageAdapter);
 };
 
 export const jsonlLeadStorageAdapter = createJsonlLeadStorageAdapter(
   resolve(process.cwd(), ".quest-luxo")
 );
 
-export function getLeadStorageAdapter(): LeadStorageAdapter {
+export function getLeadStorageAdapter(): SnapshotLeadStorageAdapter {
   const config = getQuestLuxoServerConfig();
 
   if (
@@ -463,6 +472,10 @@ export async function readLeadSubmissions(): Promise<
   readonly LeadSubmissionRecord[]
 > {
   return getLeadStorageAdapter().readLeadSubmissions();
+}
+
+export async function readLeadSubmissionSnapshot(): Promise<LeadSubmissionSnapshot> {
+  return getLeadStorageAdapter().readLeadSubmissionSnapshot();
 }
 
 export async function updateLeadSubmissionStatus(

@@ -1,5 +1,11 @@
 # Quest Luxo launch status
 
+## Enterprise intake continuation — October 19, 2026
+
+Sprint 02 PR #65 is merged at `6af97d35ad2987d549020a60dfae1219bf908a38`; Render deploy `dep-dbauoj7lk1mc73d9cng0` was verified live. Runtime Gmail ingestion remains inactive. Production lead storage was observed at `/var/data/leads.jsonl`, but independent backup and production recoverability remain unverified.
+
+Sprint 03 prepares the existing protected Founder panel to display intake reliability across all three divisions and corrects its authenticated data request. Missing, partial and unconnected sources remain explicit; no new CRM, revenue queue or autonomous action is added. The change is under review, not deployed. See `SPRINT_03_FOUNDER_INTAKE_READINESS.md` for scope, evidence limits and the specific founder decisions still required. Historical launch notes below do not establish current intake activation or backup readiness.
+
 Reviewed October 13, 2026. Launch release `957360b8668ed8cb9d974d1899175a97d3f1b770` is live on the existing Render service with persistent lead storage. `https://questluxo.com` serves the healthy application over HTTPS; the shareable intake URL is `https://questluxo.com/begin-your-quest`. The temporary Render intake URL remains available. Outreach may use the branded URL immediately.
 
 ## Launch release
