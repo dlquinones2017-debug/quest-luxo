@@ -68,7 +68,65 @@ Operate Quest Luxo Luxury Advisory, Quest Luxo Realty/Property Acquisitions, and
 | CAPITAL_ADVISORY | Funding Submission & Compliance Agent | Validate purpose, documentation, licensing, borrower authorization and lender-specific submission requirements. |
 | CAPITAL_ADVISORY | Funding Closing & Broker Compensation Agent | Track term sheet, underwriting conditions, funded status and earned broker fees with auditable evidence. |
 
-**Total blueprint roster:** 49 logical responsibilities (26 current registry + 23 proposed); reuse existing unregistered intelligence, lead, SLA, revenue and monitoring modules. Consolidate similar functions in common workers and storage; do not instantiate 49 independent models or cron jobs.
+**Initial blueprint:** 49 logical responsibilities (26 current registry + 23 proposed). **Expanded founder-directed target: 57 logical roles** after the eight operational specialist roles below; reuse existing unregistered intelligence, lead, SLA, revenue and monitoring modules. Consolidate similar functions in common workers and storage; do not instantiate 49 independent models or cron jobs.
+
+## Founder-directed expansion: eight additional specialist agents (proposed)
+These are **new, narrowly bounded responsibilities** beyond the 49-role baseline. They refine existing shared workflows instead of duplicating the revenue queue, canonical CRM, or website delivery system.
+
+| Exact proposed title | Operating scope, handoffs, and boundaries |
+|---|---|
+| **Unified Communications Dispatch Agent** | Normalize the consented metadata and delivery state of Gmail, business phone calls, SMS, social DMs, and other available channels; route to one customer timeline, a division owner, and an SLA. Integrates with the existing Enterprise Communications & Scheduling Agent; no unapproved outbound calls, texts, or DMs. |
+| **Corporate Inbox & Contact Hygiene Agent** | Triage `denzel@questluxo.com` messages into division, partner, customer, support, administration and exceptions; recommend labels/filing, reconcile identities across Google Contacts, Apollo and Airtable, preserve source provenance and protect sensitive information. No bulk deletion or cross-system overwrite without review. |
+| **Business Workspace Librarian Agent** | Maintain one verified workstream/session directory with owners, latest GitHub branch/PR/deploy, canonical document, next action and source links for ChatGPT chats, Work, Codex, projects and other development sessions. Where native ChatGPT conversation inventory/mutation APIs are unavailable, index founder-provided links/identifiers only; never claim to browse, move, rename or resume invisible sessions. |
+| **Website Engineering & Release Agent** | Implement authorized Astro/Sites code fixes, UI improvements, SEO and accessibility tasks on isolated branches, run tests, visual acceptance, preview and rollback checks, then submit PRs through protected deploy gates. Works under Website Product Agent; never silently replace approved photography or live forms. |
+| **Watch Deal Sniping & Negotiation Agent** | Discover potentially mispriced authentic watches, verify exact SKU and seller, request underwriting from the bid-ceiling role, rank opportunities, and prepare a founder-approved outreach and negotiation script using labels, mirroring, calibrated questions, deliberate pauses and a written walk-away rule. No misleading representation, automated offers, commitments or direct negotiations without an approved channel/policy. |
+| **Watch Pricing, Liquidity & Bid-Ceiling Agent** | Require dated like-for-like SOLD comps, condition/provenance evidence, estimated sell-through, fees, taxes, freight, insurance, servicing and target profit. Compute verified maximum acquisition price, target acquisition price, opening bid and hard walk-away price; block if evidence or margin is UNKNOWN. Feeds Watch Deal Intelligence rather than replacing it. |
+| **Cross-Division Client Vetting & Referral Agent** | Verify mandate/borrower purpose, identity and consent; distinguish watch, Realty and Capital opportunities; create evidence-linked internal suggestions to route to the correct division and permitted lender/partner. No submission or personal financial disclosures without specific borrower authorization, legal checks and founder approval. |
+| **Omnichannel Sales & Follow-Up Agent** | Maintain one accountable sales cadence across authorized calls, SMS, email, social, deal status and appointment outcomes, with missed-response and stalled-opportunity alerts. Prepare scripts and internal next best actions; send only under separately documented channel permissions, suppression rules and founder policies. |
+
+**Expanded roster:** 26 existing registry agents + 23 initial proposed agents + 8 additional proposed roles = **57 logical agent roles**. The 31 proposed agents in this document are not deployed or active merely because their specifications are recorded.
+
+## Enterprise cohesion: one record, three P&Ls
+**Each of the three divisions has its own stretch goal of at least $1,000,000 annual revenue**, to be tracked independently by properly classified and collected revenue, direct costs, contribution margin and operational cash collection. The aggregate revenue ambition is therefore at least $3,000,000 annually, **not** a guarantee of profit or free cash flow. Realty must separately distinguish assignment fees, gross property sale proceeds, realized investment gains and pass-through amounts; Capital must distinguish principal originated from brokerage/referral fees actually earned; Luxury must distinguish watch sale proceeds from advisory/brokerage margin as legally and economically appropriate.
+
+- **Unified identity:** stable source record ID and a proposed canonical entity ID; provenance and consent evidence always follow the handoff; no forced merge on conflicting contacts.
+- **Single owner:** each workflow has a verified owner division, responsible agent, source system and next action; unverified ownership stays UNKNOWN and conflicts remain CONFLICT.
+- **One queue:** canonical Enterprise Founder Revenue Queue and existing operations/SLA/ownership intelligence remain the only executive decision pipeline. New agents publish **recommendations**, not parallel opportunities.
+- **Explicit lifecycle:** INTAKE -> SOURCE_VERIFIED -> QUALIFICATION -> UNDERWRITING_OR_MATCHING -> PROPOSED_TERMS -> FOUNDER_GATE -> AUTHORIZED_EXECUTION -> CLOSED_OR_DECLINED -> RECONCILED -> RETAINED. No stage promotion from drafts alone.
+- **Deterministic handoffs:** source ID, work ID, dependency IDs, evidence IDs, timestamps, and authorization class. Each consumer checks upstream completion and can fail closed; no invented metrics, contacts or timelines.
+- **One communications history:** Gmail, approved telephony/SMS, social and Apollo interactions are linked where technically and legally permitted. Phone/social providers are **not yet integrated** simply by defining agents.
+- **One workstream index:** link each GitHub PR/commit, Render/Sites release, Airtable automation row and accessible Work/Codex session to a primary active project. ChatGPT conversation organization is **not represented as a supported native API action** without a verified connector.
+- **One set of operating metrics:** daily new/verified/qualified leads, response time, sourced/developed opportunities, proposals, closes, collections, revenue and P&L by division, conversion, margin, agent exceptions, SLA misses, founder time and unit operating cost.
+- **One constraint:** external publication, client/seller/lender messages, applications, credit pulls, buying/selling agreements, payouts and live code deployment remain gated until explicit scopes, permissions, compliance and verified workflows exist.
+
+## Luxury deal sniper: founder-approved decision policy
+The existing Watch Sourcing Agent surfaces inventory; the Deal Sniping & Negotiation Agent searches independently for exceptional opportunities; the Pricing, Liquidity & Bid-Ceiling Agent owns the numerical guardrails. All three feed the existing Watch Deal Intelligence and revenue coordination layers.
+
+1. **Evidence:** verify exact reference/configuration, serial or reliable provenance as appropriate, condition, completeness, public/authorized source identity, marketplace fees, recent *completed* comparable transactions and plausible holding period. Listings alone cannot establish realizable sale price.
+2. **Economics:** `hardMaximumAcquisition = conservativeExpectedResale - allSellingAndAcquisitionCosts - serviceAndRiskReserve - minimumAcceptableGrossProfit`. Also enforce committed buyer mandate/budget, available verified capital and exposure limits. If missing inputs are material, return `VERIFY`, not zero or a fabricated bid.
+3. **Negotiation packet:** propose initial anchor below target price when supported, target price, absolute hard maximum/walk-away price, counteroffer ladder, seller objection trees, approval limits and a written no-go rationale. Never publicly disclose internal ceilings unless specifically authorized.
+4. **Conversation:** prepare a truthful, respectful opening, mirror and label seller concerns, ask calibrated questions, seek objective supporting documents, and propose conditional next steps only with founder-approved language. A verbal strategy is a draft, not permission to contact or transact.
+5. **Hard stop:** if the seller's terms exceed the verified ceiling, risk flags remain unresolved, provenance fails, or required authorization is absent, do not recommend escalation beyond the agreed ceiling. Return `WALK_AWAY` or `VERIFY` with evidence.
+6. **Close and learn:** log approved correspondence and final economics, reconcile actual fees, shipping and service, measure profit and sell-through versus the estimate, and improve future pricing without inventing outcomes.
+
+## Unified corporate operations desk: practical starting evidence
+- Existing Airtable **Quest Luxo Intelligence** base contains `Capital Sources`, `Real Estate Intelligence`, `Luxury Asset Intelligence`, `Relationship Intelligence`, `Funding Compliance Gate`, `Fundability Assessments`, `Automation Registry` and `Automation Alerts`. **Reuse** these as appropriate; they are not automatically a complete CRM, accounting ledger or message archive.
+- Corporate Gmail already has business traffic and unread work. A read-only label/count check on 2026-10-19 returned **167 unread Inbox messages**; this is a snapshot, not a verified count of qualified opportunities.
+- Apollo is available for specific contact/company prospecting and sales workflows through connected tools. Inventory existing records and data permissions before proposing synchronization.
+- No active telephone/SMS, social DM, native ChatGPT-workspace-management, or automated Mail-to-Airtable integration was proven by this blueprint update.
+- Assign each channel a canonical owner, event ID, consent source, retention schedule, error/retry policy and founder-approval threshold before enabling automated writes.
+
+## Updated sprint priorities
+1. **Sprint 05:** complete lead intake activation, proven per-division source attribution, consent, retention, independent recovery and exception alerts.
+2. **Sprint 06:** unified corporate communications desk + CRM identity resolution + Airtable/Apollo/Contacts audit + Founder Chief-of-Staff + session index (only supported APIs).
+3. **Sprint 07:** full division-specific sales workflows, including watch-sniper financial guardrails and human-reviewed negotiation packets; Realty underwriting/diligence/dispositions; Capital qualification/lender matching/onboarding.
+4. **Sprint 08:** finance ledger/P&L and collections, reconciliations, regulatory controls and protected client-data handling.
+5. **Sprint 09:** marketing/branding, organic growth, SEO, distribution approvals, and tracked acquisition costs.
+6. **Sprint 10:** controlled internal autonomy, performance optimization, resilience/restore drills, and founder exception-only management.
+
+## Integration execution contract
+The source file `src/lib/command/enterpriseWorkHandoff.ts` adds a **proposal-only** deterministic handoff layer to this draft PR. It does not install a scheduler, create a CRM, add APIs or credentials, send communications, change production data or authorize external actions. It rejects conflicts, missing evidence, unregistered owners, missing dependencies, invalid/future timing and cross-division ownership mismatches. It never executes an action; `executionAllowed` remains false. The scope should be evaluated with both regression and the new handoff acceptance tests before merger.
+
 
 ## Workflow boundaries
 1. Intake -> trusted source receipt -> source identity -> canonical contact/opportunity -> provenance and consent review -> qualification -> division queue -> prioritized next-best-action.
