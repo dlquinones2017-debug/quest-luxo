@@ -4,11 +4,13 @@ import { capitalSnapshot, type CapitalPipelineRecord } from "../capital/capitalP
 import { realtySnapshot, type RealtyPipelineRecord } from "../realty/realtyPipelineStore.ts";
 import { enterpriseLiveRevenueBrief } from "./enterpriseLiveRevenueBrief.ts";
 import type { EnterpriseRevenueBrief } from "./enterpriseRevenueBrief.ts";
+import type { EnterpriseLeadReceipt } from "./enterpriseLeadIntelligence.ts";
 
 export interface EnterpriseRevenueStoreReaders {
   readBrokerage():Promise<readonly LeadSubmissionRecord[]>;
   readCapital():readonly CapitalPipelineRecord[];
   readRealty():readonly RealtyPipelineRecord[];
+  readIntake?():Promise<readonly EnterpriseLeadReceipt[]>;
 }
 const defaultReaders:EnterpriseRevenueStoreReaders=Object.freeze({
   readBrokerage:readLeadSubmissions,
@@ -21,5 +23,6 @@ export async function storedEnterpriseRevenueBrief(now=new Date(),readers:Enterp
     brokerage,
     capital:readers.readCapital(),
     realty:readers.readRealty(),
+    intake:readers.readIntake ? await readers.readIntake() : [],
   },now);
 }

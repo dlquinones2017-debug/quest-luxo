@@ -158,13 +158,8 @@ const logMalformedRow = (
   console.error("Quest Luxo Lead Storage Malformed Row", {
     lineNumber,
     reason,
-    error:
-      error instanceof Error
-        ? {
-            message: error.message,
-            name: error.name,
-          }
-        : error,
+    // Parsed rows and JSON parser messages can contain client PII.
+    errorType: error instanceof SyntaxError ? "INVALID_JSON" : "INVALID_RECORD",
   });
 };
 

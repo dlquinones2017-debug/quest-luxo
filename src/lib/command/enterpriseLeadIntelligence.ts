@@ -18,6 +18,7 @@ export interface EnterpriseLeadReceipt {
   readonly division: LeadDivision;
   readonly provider: LeadProvider;
   readonly sourceRecordId: string;
+  readonly canonicalRecordId?: string;
   readonly receivedAt?: string | null;
   readonly evidenceIds?: readonly string[];
   readonly receiptVerification: LeadVerification;
@@ -31,6 +32,7 @@ export interface EnterpriseLeadFinding {
   readonly division: LeadDivision;
   readonly provider: LeadProvider;
   readonly sourceRecordId: string;
+  readonly canonicalRecordId?: string;
   readonly receivedAt: string | null;
   readonly timestampVerified: boolean;
   readonly receiptVerification: LeadVerification;
@@ -68,6 +70,9 @@ function makeFinding(receipt: EnterpriseLeadReceipt, now: Date): EnterpriseLeadF
   if (!safeId.test(receipt.sourceRecordId)) {
     throw new Error("Lead sourceRecordId must be a stable opaque identifier without PII.");
   }
+  if (receipt.canonicalRecordId !== undefined && !safeId.test(receipt.canonicalRecordId)) {
+    throw new Error("Canonical record identity must be opaque metadata.");
+  }
   const ids = evidence(receipt.evidenceIds);
   const qualificationIds = evidence(receipt.qualificationEvidenceIds);
   const receivedAt = receiptTime(receipt.receivedAt, now);
@@ -91,10 +96,11 @@ function makeFinding(receipt: EnterpriseLeadReceipt, now: Date): EnterpriseLeadF
         ? "Founder reviews the qualified inquiry before any external action."
         : "Review qualification evidence and consent internally; do not contact automatically.";
   return Object.freeze({
-    key: receipt.division + ":" + receipt.provider + ":" + receipt.sourceRecordId,
+    key: receipt.division + ":" + receipt.provider + ":" + (receipt.canonicalRecordId ?? receipt.sourceRecordId),
     division: receipt.division,
     provider: receipt.provider,
     sourceRecordId: receipt.sourceRecordId,
+    ...(receipt.canonicalRecordId ? { canonicalRecordId: receipt.canonicalRecordId } : {}),
     receivedAt,
     timestampVerified,
     receiptVerification: receipt.receiptVerification,
@@ -158,7 +164,7 @@ export function enterpriseLeadRevenueRecords(
         : "UNKNOWN" as const;
     return [Object.freeze({
       division: item.division,
-      recordId: item.provider + ":" + item.sourceRecordId,
+      recordId: item.canonicalRecordId ?? item.provider + ":" + item.sourceRecordId,
       stage: "LEAD_INTAKE",
       status,
       reason: item.recommendedInternalAction,
