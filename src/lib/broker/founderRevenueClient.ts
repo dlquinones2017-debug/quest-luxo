@@ -20,6 +20,12 @@ export async function loadFounderRevenueModel(pageUrl: string, request: typeof f
     if (!model || !statuses.includes(model.sourceRead?.status) || !count(model.sourceRead?.unreadableRows) ||
         ![model.totalRecords, model.unknownRecords, model.verifiedEstimatedRevenue, model.verifiedExpectedRevenue].every(count) ||
         !Array.isArray(model.founderActions) || !Array.isArray(model.intakeReliability) || model.intakeReliability.length !== 3 ||
+        !Array.isArray(model.intakeReconciliation) || model.intakeReconciliation.length !== 2 ||
+        new Set(model.intakeReconciliation.map((row: { division: string }) => row?.division)).size !== 2 ||
+        !model.intakeReconciliation.every((row: Record<string, unknown>) => row &&
+          ["CAPITAL_ADVISORY", "REALTY"].includes(String(row.division)) &&
+          ["retainedReceipts", "sourceReviewRequired", "missingCanonicalLinks", "missingCanonicalRecords", "missingEvidence", "matchedInMemoryOnly"].every(k => Number.isSafeInteger(row[k]) && Number(row[k]) >= 0) &&
+          row.durableReconciliationVerified === false) ||
         new Set(model.intakeReliability.map((row: { division: string }) => row?.division)).size !== 3 ||
         !model.intakeReliability.every((row: Record<string, unknown>) => row && divisions.includes(row.division as typeof divisions[number]) &&
           ["receipts", "notificationFailed", "notificationUnknown", "providerAccepted", "timestampUnknown", "staleReceipts", "sourceUnverified"].every(k => count(row[k])) &&
@@ -45,6 +51,38 @@ export function founderIntakeRows(model: FounderRevenueReadModel) {
       review: !known ? "Verify collection access before assessing delivery." : row.timestampUnknown > 0 ? `${row.timestampUnknown} receipt time(s) need verification.` :
         row.notificationFailed > 0 ? "Review failed notification evidence." : row.sourceUnverified > 0 ? "Review source evidence." :
         row.staleReceipts > 0 ? `${row.staleReceipts} older receipt(s); age alone does not establish overdue work.` : "Inbox delivery, qualification and recovery require separate evidence.",
+    });
+  });
+}
+
+
+/**
+ * Read-only, aggregate display. A zero in an unconnected source means
+ * no observations, NOT that every inquiry is linked or safe.
+ */
+export function founderReconciliationRows(model: FounderRevenueReadModel) {
+  return (["CAPITAL_ADVISORY", "REALTY"] as const).map(division => {
+    const row = model.intakeReconciliation.find(r => r.division === division)!;
+    const reliability = model.intakeReliability.find(r => r.division === division)!;
+    const observed = reliability.coverage === "PARTIAL" ||
+      reliability.coverage === "OBSERVED" || reliability.coverage === "STALE";
+    const issueCount = row.sourceReviewRequired + row.missingCanonicalLinks +
+      row.missingCanonicalRecords + row.missingEvidence;
+    return Object.freeze({
+      division: labels[division],
+      collection: reliability.collectionStatus === "DISABLED" ? "Not connected" :
+        reliability.coverage === "SOURCE_MISSING" ? "Source missing" :
+        reliability.coverage === "READ_ERROR" ? "Read failed" :
+        observed ? "Partial evidence" : "Not verified",
+      receipts: observed ? String(row.retainedReceipts) + " observed" : "Unknown",
+      sourceReview: observed ? String(row.sourceReviewRequired) : "Unknown",
+      missingLinks: observed ? String(row.missingCanonicalLinks) : "Unknown",
+      missingRecords: observed ? String(row.missingCanonicalRecords) : "Unknown",
+      evidenceMissing: observed ? String(row.missingEvidence) : "Unknown",
+      inMemoryOnly: observed ? String(row.matchedInMemoryOnly) : "Unknown",
+      review: !observed ? "Verify source and saved records; zero is not proof of completeness." :
+        issueCount > 0 ? "Founder review required before any CRM assignment." :
+        "No observed link issues; durable CRM recovery is not verified.",
     });
   });
 }
