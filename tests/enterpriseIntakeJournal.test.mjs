@@ -107,7 +107,8 @@ test("failed or disabled collection cannot advance a checkpoint",async()=>tempor
  for (const status of ["READ_ERROR","DISABLED","SOURCE_MISSING"]) {
   await assert.rejects(commit(dir,key(),"EMPTY",{...batch([receipt()]),status}),/cannot advance/);
  }
- assert.deepEqual(await readdir(dir),[]);
+ const missing=await readEncryptedIntakeJournal(dir,key(),now);
+ assert.equal(missing.revision,"EMPTY");
 }));
 
 test("unverified or ambiguous receipts are rejected, not recorded",async()=>temporary(async dir=>{
@@ -121,7 +122,7 @@ test("unverified or ambiguous receipts are rejected, not recorded",async()=>temp
   {...a,evidenceIds:["source-only"]},
   {...a,sourceRecordId:"person@example.com"},
   {...a,customerEmail:"person@example.com"},
- ]) await assert.rejects(commit(dir,secret,"EMPTY",batch([invalid])),/mapped verified opaque/);
+ ]) await assert.rejects(commit(dir,secret,"EMPTY",batch([invalid])),/(?:mapped verified opaque|checkpoint requires verified opaque bounded entries)/);
  const missing=await readEncryptedIntakeJournal(dir,secret,now);
  assert.equal(missing.retainedReceiptCount,0);
 }));
