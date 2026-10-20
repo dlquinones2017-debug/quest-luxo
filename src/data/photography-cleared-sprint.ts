@@ -4329,5 +4329,28 @@ export const clearedSprintPhotographySeeds: readonly PhotographySeed[] = [
     "sourceProvider": "Gray and Sons",
     "reviewedAt": "2026-10-19",
     "assetId": "cleared-20261019-2531-80"
+  },
+  {
+    "brand": "Breitling",
+    "brandSlug": "breitling",
+    "collection": "Colt",
+    "reference": "A17388101B1A1",
+    "exactReference": "A17388101B1A1",
+    "model": "Colt Automatic A17388101B1A1",
+    "material": "Stainless Steel",
+    "configuration": {
+      "caseSize": "44 mm",
+      "movement": "Breitling 17 automatic",
+      "dial": "Black",
+      "bracelet": "Stainless-steel bracelet"
+    },
+    "sourceUrl": "https://www.breitling.com/cw-en/watches/colt/colt-automatic/A17388101B1A1/",
+    "src": "/images/watches/breitling/reviewed-a17388101b1a1-white-web.webp",
+    "sha256": "fc76ae16b38ece168ec75f3d9461cd970bab6e520feb29c061b5ce20bf9459f6",
+    "rawDriveFileId": "18LxOyxbEd-mWyO_P2c7S1DywOaEd30bP",
+    "clearanceRecord": "Direct founder answer call_b55fe08404904da28a7cbe68db69c042: Rights cover this original and derivatives; no restrictions. Record docs/PHOTOGRAPHY_COLT_RIGHTS_2026-10-19.json. Authentic manufacturer original SHA256 eb0685b7770aeddc68848479a8a3edbb1c6b44bb900fc11644dc8addd2f2f7a7. Complete native and whiteWEB individually reviewed. Original manufacturer alpha and native watch RGB retained; transparent exterior removed by white compositing only. Proportional resizing and centered2400blank white master/1200WEB; no reconstruction, recoloring or sharpening.",
+    "sourceProvider": "Breitling manufacturer product photography",
+    "reviewedAt": "2026-10-19",
+    "assetId": "cleared-colt-a17388101b1a1"
   }
 ];

@@ -1,14 +1,14 @@
 {
-  "auditedAt": "2026-10-20T01:37:46.457Z",
+  "auditedAt": "2026-10-20T01:49:24.935Z",
   "summary": {
     "brands": 23,
     "collections": 104,
     "registryRecords": 298,
     "distinctRoutes": 297,
     "normalizedBrandReferenceIdentities": 294,
-    "approved": 234,
-    "missing": 63,
-    "collectionsWithPhotography": 84,
+    "approved": 235,
+    "missing": 62,
+    "collectionsWithPhotography": 85,
     "unusedApprovedRecords": 2,
     "duplicateNormalizedReferenceGroups": 4,
     "fileIntegrityFailures": 0,
@@ -59,8 +59,8 @@
       "brand": "Breitling",
       "registryRecords": 10,
       "referencePages": 10,
-      "approved": 9,
-      "missing": 1,
+      "approved": 10,
+      "missing": 0,
       "collections": 6
     },
     {
@@ -8177,11 +8177,16 @@
           "dial": "Black",
           "bracelet": "Stainless-steel bracelet",
           "originalMSRP": null,
-          "currentMSRP": null
+          "currentMSRP": null,
+          "nickname": "Black / Stainless-steel bracelet"
         }
       ],
-      "approved": false,
-      "photo": null,
+      "approved": true,
+      "photo": {
+        "assetId": "cleared-colt-a17388101b1a1",
+        "src": "/images/watches/breitling/reviewed-a17388101b1a1-white-web.webp",
+        "sha256": "fc76ae16b38ece168ec75f3d9461cd970bab6e520feb29c061b5ce20bf9459f6"
+      },
       "recoveryCandidates": []
     },
     {

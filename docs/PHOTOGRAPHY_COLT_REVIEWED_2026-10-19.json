@@ -1,0 +1,66 @@
+{
+  "reference": "A17388101B1A1",
+  "sourceProvider": "Breitling manufacturer",
+  "sourceUrl": "https://www.breitling.com/cw-en/watches/colt/colt-automatic/A17388101B1A1/",
+  "sourceSha256": "16024dfafd79c932ace08fbd02b6e95c8dadce8d981d07509a12f2dc02812e0a",
+  "imageUrl": "https://www-breitling.eu.saleor.cloud/media/thumbnails/products/a17388101b1a1-soldier_f1bed4b7_thumbnail_2048.webp",
+  "fileName": "breitling-colt-4-raw.img",
+  "rawSha256": "eb0685b7770aeddc68848479a8a3edbb1c6b44bb900fc11644dc8addd2f2f7a7",
+  "size": [
+    1536,
+    2048
+  ],
+  "mode": "RGBA",
+  "websiteApproved": true,
+  "rightsStatus": "Exact new manufacturer original and white derivatives await image-specific rights evidence",
+  "reviewStatus": "Native2048height complete watch and final1200whiteWEB individually reviewed. Black Colt dial, steel case/bracelet; complete native alpha margins. No invented detail.",
+  "nativeAlphaBoundingBox": [
+    426,
+    437,
+    1185,
+    1855
+  ],
+  "whiteMaster": "breitling-colt-A17388101B1A1-white-master.png",
+  "webDerivative": "breitling-colt-A17388101B1A1-web.webp",
+  "masterSha256": "5e87042edd004c8468e719d59b4287d0bda00b435ac57a84ab95425785dcc72d",
+  "webSha256": "fc76ae16b38ece168ec75f3d9461cd970bab6e520feb29c061b5ce20bf9459f6",
+  "processing": "Original manufacturer alpha and native watch RGB retained; transparent exterior removed by white compositing only. Proportional resizing and centered2400blank white master/1200WEB; no reconstruction, recoloring or sharpening.",
+  "exactConfiguration": "Black dial; stainless steel case and bracelet;44mm; Breitling17 automatic. Manufacturer exactSKU page agrees with existing catalog. No price or availability inferred.",
+  "brand": "Breitling",
+  "seed": {
+    "brand": "Breitling",
+    "brandSlug": "breitling",
+    "collection": "Colt",
+    "reference": "A17388101B1A1",
+    "exactReference": "A17388101B1A1",
+    "model": "Colt Automatic A17388101B1A1",
+    "material": "Stainless Steel",
+    "configuration": {
+      "caseSize": "44 mm",
+      "movement": "Breitling 17 automatic",
+      "dial": "Black",
+      "bracelet": "Stainless-steel bracelet"
+    },
+    "sourceUrl": "https://www.breitling.com/cw-en/watches/colt/colt-automatic/A17388101B1A1/",
+    "src": "/images/watches/breitling/reviewed-a17388101b1a1-white-web.webp",
+    "sha256": "fc76ae16b38ece168ec75f3d9461cd970bab6e520feb29c061b5ce20bf9459f6",
+    "rawDriveFileId": "18LxOyxbEd-mWyO_P2c7S1DywOaEd30bP",
+    "clearanceRecord": "Direct founder answer call_b55fe08404904da28a7cbe68db69c042: Rights cover this original and derivatives; no restrictions. Record docs/PHOTOGRAPHY_COLT_RIGHTS_2026-10-19.json. Authentic manufacturer original SHA256 eb0685b7770aeddc68848479a8a3edbb1c6b44bb900fc11644dc8addd2f2f7a7. Complete native and whiteWEB individually reviewed. Original manufacturer alpha and native watch RGB retained; transparent exterior removed by white compositing only. Proportional resizing and centered2400blank white master/1200WEB; no reconstruction, recoloring or sharpening.",
+    "sourceProvider": "Breitling manufacturer product photography",
+    "reviewedAt": "2026-10-19",
+    "assetId": "cleared-colt-a17388101b1a1"
+  },
+  "rights": {
+    "confirmedAt": "2026-10-20T01:46:31.857206+00:00",
+    "questionId": "call_b55fe08404904da28a7cbe68db69c042",
+    "directFounderAnswer": "Rights cover this original and derivatives; no restrictions",
+    "reference": "A17388101B1A1",
+    "sourceUrl": "https://www.breitling.com/cw-en/watches/colt/colt-automatic/A17388101B1A1/",
+    "rawSha256": "eb0685b7770aeddc68848479a8a3edbb1c6b44bb900fc11644dc8addd2f2f7a7",
+    "scope": "This exact newly acquired manufacturer original and centered white-background derivatives"
+  },
+  "qualityReviewPassed": true,
+  "rawDriveFileId": "18LxOyxbEd-mWyO_P2c7S1DywOaEd30bP",
+  "masterDriveFileId": "1ViF1gAkg1j9AY9H-hanD9R44hST0UJHg",
+  "webDriveFileId": "1od-gNW2qmmP7i8TpYDHoLwFfGWEsIfd2"
+}

@@ -1,14 +1,14 @@
 {
-  "reviewedAt": "2026-10-20T01:37:45.736Z",
+  "reviewedAt": "2026-10-20T01:49:24.384Z",
   "note": "Generated from all exported source datasets and built routes. Source-only and duplicate configuration records are retained for review; this register is not proof of image rights. Source URLs identify research leads, not licenses.",
   "summary": {
-    "sourceConfigurations": 940,
+    "sourceConfigurations": 943,
     "builtReferenceRoutes": 297,
     "collectionRoutes": 104,
-    "approvedReferenceConfigurations": 474,
+    "approvedReferenceConfigurations": 477,
     "unmatchedReferenceRoutes": 0,
-    "approvedCanonicalReferenceRoutes": 234,
-    "queuedCanonicalReferenceRoutes": 63
+    "approvedCanonicalReferenceRoutes": 235,
+    "queuedCanonicalReferenceRoutes": 62
   },
   "collections": [
     {
@@ -12669,26 +12669,26 @@
           "dial": "Black",
           "bracelet": "Stainless-steel bracelet",
           "originalMSRP": null,
-          "currentMSRP": null
+          "currentMSRP": null,
+          "nickname": "Black / Stainless-steel bracelet"
         }
       ],
       "material": "Stainless Steel",
       "sources": [
-        "src/data/collectionRegistry.ts",
-        "src/data/verified-catalog-expansion.ts"
+        "src/data/collectionRegistry.ts"
       ],
       "routes": [
         "/collections/breitling/colt/a17388101b1a1"
       ],
       "scope": "built-reference",
-      "existingImage": "/images/watch-reference-placeholder.svg",
+      "existingImage": "/images/watches/breitling/reviewed-a17388101b1a1-white-web.webp",
       "existingImageFilePresent": true,
-      "photoAssetId": null,
-      "status": "Requires Verification",
-      "sourceUrl": "https://www.breitling.com/xk-en/watches/colt/colt-automatic/A17388101B1A1/",
-      "licenseRecord": null,
-      "websiteApproved": false,
-      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+      "photoAssetId": "cleared-colt-a17388101b1a1",
+      "status": "approved",
+      "sourceUrl": "https://www.breitling.com/cw-en/watches/colt/colt-automatic/A17388101B1A1/",
+      "licenseRecord": "Direct founder answer call_b55fe08404904da28a7cbe68db69c042: Rights cover this original and derivatives; no restrictions. Record docs/PHOTOGRAPHY_COLT_RIGHTS_2026-10-19.json. Authentic manufacturer original SHA256 eb0685b7770aeddc68848479a8a3edbb1c6b44bb900fc11644dc8addd2f2f7a7. Complete native and whiteWEB individually reviewed. Original manufacturer alpha and native watch RGB retained; transparent exterior removed by white compositing only. Proportional resizing and centered2400blank white master/1200WEB; no reconstruction, recoloring or sharpening. Preserved RAW file: 18LxOyxbEd-mWyO_P2c7S1DywOaEd30bP. Pictured full reference A17388101B1A1; Stainless Steel, Black, Stainless-steel bracelet. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
     },
     {
       "brand": "Breitling",
@@ -18505,6 +18505,28 @@
     },
     {
       "brand": "Breitling",
+      "collection": "Colt",
+      "reference": "A17388101B1A1",
+      "configurations": [],
+      "material": "Stainless Steel",
+      "sources": [
+        "src/data/photography-cleared-sprint.ts"
+      ],
+      "routes": [
+        "/collections/breitling/colt/a17388101b1a1"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": null,
+      "status": "Requires Verification",
+      "sourceUrl": null,
+      "licenseRecord": null,
+      "websiteApproved": false,
+      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+    },
+    {
+      "brand": "Breitling",
       "collection": "Superocean",
       "reference": "A17376211B1A1",
       "configurations": [
@@ -22483,6 +22505,38 @@
       "status": "approved",
       "sourceUrl": "https://drive.google.com/file/d/1MXAyK2WuBEepigUjuRerYC1Ho70lP7jX/view",
       "licenseRecord": "Direct founder answer call_fe1fcc7a57dd4fbdb5a5932c1d6e4549: Rights cover all five and derivatives; no restrictions. Record docs/PHOTOGRAPHY_FIVE_RIGHTS_2026-10-19.json. Untouched native original V-41-SC-DT-BEACH-FR2-GFRGFRG-BC--raw.png SHA256 605ee03da9ef4e331521bcb108d39503976c47cae4dd85c3f7596e2f2ac5d983. Complete whole-watch original and centered white derivative individually reviewed. No generated, reconstructed or recolored watch detail. Original publisher alpha retained with two detached black exterior background remnants removed; native watch RGB unchanged. Proportional resize and centered blank white canvas; no generated or reconstructed watch detail. Preserved RAW file: 1MXAyK2WuBEepigUjuRerYC1Ho70lP7jX. Pictured full reference V 41 SC DT BEACH FR2 GFRGFRG (BC); Red glass-fiber composite, Heatwave Red themed FR2 dial, Patterned nylon strap. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
+      "brand": "Breitling",
+      "collection": "Colt",
+      "reference": "A17388101B1A1",
+      "configurations": [
+        {
+          "caseSize": "44 mm",
+          "movement": "Breitling 17 automatic",
+          "dial": "Black",
+          "bracelet": "Stainless-steel bracelet",
+          "nickname": "Black / Stainless-steel bracelet",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "Stainless Steel",
+      "sources": [
+        "src/data/photography-expansion.ts"
+      ],
+      "routes": [
+        "/collections/breitling/colt/a17388101b1a1"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": "cleared-colt-a17388101b1a1",
+      "status": "approved",
+      "sourceUrl": "https://www.breitling.com/cw-en/watches/colt/colt-automatic/A17388101B1A1/",
+      "licenseRecord": "Direct founder answer call_b55fe08404904da28a7cbe68db69c042: Rights cover this original and derivatives; no restrictions. Record docs/PHOTOGRAPHY_COLT_RIGHTS_2026-10-19.json. Authentic manufacturer original SHA256 eb0685b7770aeddc68848479a8a3edbb1c6b44bb900fc11644dc8addd2f2f7a7. Complete native and whiteWEB individually reviewed. Original manufacturer alpha and native watch RGB retained; transparent exterior removed by white compositing only. Proportional resizing and centered2400blank white master/1200WEB; no reconstruction, recoloring or sharpening. Preserved RAW file: 18LxOyxbEd-mWyO_P2c7S1DywOaEd30bP. Pictured full reference A17388101B1A1; Stainless Steel, Black, Stainless-steel bracelet. Exact configuration reviewed against preserved source evidence and the original photograph.",
       "websiteApproved": true,
       "nextAction": "Retain approved original and verify derivative integrity."
     },
@@ -28062,6 +28116,37 @@
       "licenseRecord": null,
       "websiteApproved": false,
       "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+    },
+    {
+      "brand": "Breitling",
+      "collection": "Colt",
+      "reference": "A17388101B1A1",
+      "configurations": [
+        {
+          "caseSize": "44 mm",
+          "movement": "Breitling 17 automatic",
+          "dial": "Black",
+          "bracelet": "Stainless-steel bracelet",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "Stainless Steel",
+      "sources": [
+        "src/data/verified-catalog-expansion.ts"
+      ],
+      "routes": [
+        "/collections/breitling/colt/a17388101b1a1"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": "cleared-colt-a17388101b1a1",
+      "status": "approved",
+      "sourceUrl": "https://www.breitling.com/cw-en/watches/colt/colt-automatic/A17388101B1A1/",
+      "licenseRecord": "Direct founder answer call_b55fe08404904da28a7cbe68db69c042: Rights cover this original and derivatives; no restrictions. Record docs/PHOTOGRAPHY_COLT_RIGHTS_2026-10-19.json. Authentic manufacturer original SHA256 eb0685b7770aeddc68848479a8a3edbb1c6b44bb900fc11644dc8addd2f2f7a7. Complete native and whiteWEB individually reviewed. Original manufacturer alpha and native watch RGB retained; transparent exterior removed by white compositing only. Proportional resizing and centered2400blank white master/1200WEB; no reconstruction, recoloring or sharpening. Preserved RAW file: 18LxOyxbEd-mWyO_P2c7S1DywOaEd30bP. Pictured full reference A17388101B1A1; Stainless Steel, Black, Stainless-steel bracelet. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
     },
     {
       "brand": "Breitling",

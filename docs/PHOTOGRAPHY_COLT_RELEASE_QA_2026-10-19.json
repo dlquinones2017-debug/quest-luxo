@@ -1,0 +1,80 @@
+{
+  "checkedAt": "2026-10-20T01:51:02.210852+00:00",
+  "checks": [
+    {
+      "check": "omega-queue-sync",
+      "exitCode": 0,
+      "logFileName": "window-colt-omega-queue-sync.log"
+    },
+    {
+      "check": "astro-check",
+      "exitCode": 0,
+      "logFileName": "window-colt-astro-check.log"
+    },
+    {
+      "check": "regressions",
+      "exitCode": 0,
+      "logFileName": "window-colt-regressions.log"
+    },
+    {
+      "check": "omega-audit",
+      "exitCode": 0,
+      "logFileName": "window-colt-omega-audit.log"
+    },
+    {
+      "check": "omega-queue-check",
+      "exitCode": 0,
+      "logFileName": "window-colt-omega-queue-check.log"
+    },
+    {
+      "check": "expansion-audit",
+      "exitCode": 0,
+      "logFileName": "window-colt-expansion-audit.log"
+    },
+    {
+      "check": "build",
+      "exitCode": 0,
+      "logFileName": "window-colt-build.log"
+    },
+    {
+      "check": "inventory",
+      "exitCode": 0,
+      "logFileName": "window-colt-inventory.log"
+    },
+    {
+      "check": "full-audit",
+      "exitCode": 0,
+      "logFileName": "window-colt-full-audit.log"
+    }
+  ],
+  "builtMapping": {
+    "checkedAt": "2026-10-20T01:49:38.355870+00:00",
+    "mode": "built",
+    "exactReferencesChecked": 1,
+    "rows": [
+      {
+        "reference": "A17388101B1A1",
+        "route": "/collections/breitling/colt/a17388101b1a1",
+        "imageSha256": "fc76ae16b38ece168ec75f3d9461cd970bab6e520feb29c061b5ce20bf9459f6",
+        "exactConfiguration": true,
+        "collectionGrid": true,
+        "inquiryContext": true,
+        "separateCredits": true,
+        "noImageCaptionOverlay": true
+      }
+    ],
+    "publicFlowsAvailable": true,
+    "leadDataSafety": "Public GET checks only. No new lead submissions, private lead reads, runtime data or disk changes."
+  },
+  "archiveReadbacksVerified": true,
+  "desktopReview": "1440x1000; image1200loaded; nofigcaptions; width1425equals scroll1425; wholewatch whitecanvas reviewed",
+  "mobileReview": "390x844; image1200loaded; nofigcaptions; width375equals scroll375",
+  "tests": {
+    "total": 315,
+    "pass": 314,
+    "skip": 1,
+    "fail": 0,
+    "initialFailure": "Inherited multi-process fixture child exited1. Isolated test passed; original unchanged full concurrent suite rerun passed. No test settings or implementation changed. Initial failure log retained."
+  },
+  "status": "Passed; production deployment pending"
+}
