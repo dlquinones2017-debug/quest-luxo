@@ -5,7 +5,7 @@ import {spawnSync} from "node:child_process";
 test("the documented agent demo command runs and reports synthetic exceptions", () => {
   const run=spawnSync("npm",["run","agent:demo"],{cwd:process.cwd(),encoding:"utf8",timeout:30000});
   assert.equal(run.status,0,run.stderr);
-  const marker=run.stdout.indexOf('{"source"');
+  const marker=run.stdout.indexOf('{\n  "source"');
   assert.notEqual(marker,-1,"Expected synthetic demo JSON output");
   const result=JSON.parse(run.stdout.slice(marker));
   assert.equal(result.source,"SYNTHETIC_DEMO_ONLY");
