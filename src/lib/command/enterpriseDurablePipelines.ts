@@ -39,7 +39,7 @@ function validate(records: Records) {
           typeof item.stage !== "string" || typeof item.reason !== "string" ||
           typeof item.updatedAt !== "string" || !Number.isFinite(Date.parse(item.updatedAt)) ||
           !Array.isArray(item.evidenceIds) || item.evidenceIds.length > 100 ||
-          !item.evidenceIds.every(e => typeof e === "string" && ID.test(e)))
+          !item.evidenceIds.every((e: unknown) => typeof e === "string" && ID.test(e)))
         throw new Error("Invalid pipeline evidence or state.");
       const allowed = new Set([identity, "stage", "status", "reason", "updatedAt",
         "evidenceIds", "evidenceState", "estimatedRevenue", "probability", "urgency", "requiredHumanAction"]);
