@@ -1,0 +1,29 @@
+{
+  "reference": "16520",
+  "brand": "Rolex",
+  "sourceProvider": "Gray and Sons",
+  "sourceUrl": "https://www.grayandsons.com/w526018-rolex-daytona-40mm-16520/",
+  "sourceSha256": "ffbba06c0adbaa6743c2c4653607abed10def604248c50d269c96f494a177de4",
+  "imageUrl": "https://cdn.grayandsons.com/s/rolex_daytona_40mm_16520_w526018_ec86f4dfba-w1920.jpg",
+  "fileName": "rolex16520-gray-next-raw.jpg",
+  "rawSha256": "97dab53026393c29cfcaf8eb4d1b08b3da36cc7be43d8b318942d80d8fa6b356",
+  "whiteMaster": "rolex-16520-gray-white-master.png",
+  "masterSha256": "5237200b6859bfe1456835a7489145943e148af55bc66edecbb287a49f943d55",
+  "webDerivative": "rolex-16520-gray-web.webp",
+  "webSha256": "aace6c051264c52efb2363430da4630b97c054cf305cfeb3e17e4634f11c484a",
+  "nativeMaskBoundingBox": [
+    381,
+    61,
+    1539,
+    1860
+  ],
+  "processing": "Only original near-white exterior background excluded; internal contour filled to retain all white highlights and original watch pixels. Proportional resize and center on blank2400white master/1200WEB. No recoloring, sharpening or generated watch detail.",
+  "reviewStatus": "Authentic retailer1920square original and1200whiteWEB individually reviewed. Complete blackdial16520 and steelOysterbracelet, native bracelet end margins retained; source identifies1998Zenithgeneration. No generated or reconstructed detail.",
+  "websiteApproved": false,
+  "qualityReviewPassed": true,
+  "rightsStatus": "Image-specific direct founder rights question pending; not published.",
+  "rawDriveFileId": "1nsKaAIHW0pxRYNcXKIxlXCHqgUFP0p9S",
+  "masterDriveFileId": "1SvhLi50CdwXCS2ckOWARExAWntaYeaRv",
+  "webDriveFileId": "1Ax37cUQHlsokzKMi8105rrPtAzO26DsK",
+  "archiveReadbackVerified": true
+}
