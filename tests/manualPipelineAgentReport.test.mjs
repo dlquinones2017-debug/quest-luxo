@@ -44,3 +44,24 @@ test("manual CLI flags missing storage as unavailable, not as an empty report", 
   assert.equal(output.stdout,"");
  }finally{await rm(dir,{recursive:true,force:true});}
 });
+
+test("manual CLI rejects an incorrect encryption key without emitting a report", async()=>{
+ const {spawnSync}=await import("node:child_process");
+ const {mkdtemp,rm}=await import("node:fs/promises");
+ const {tmpdir}=await import("node:os");
+ const {join}=await import("node:path");
+ const {randomBytes}=await import("node:crypto");
+ const {commitDurablePipelines}=await import("../src/lib/command/enterpriseDurablePipelines.ts");
+ const dir=await mkdtemp(join(tmpdir(),"quest-invalid-agent-key-"));
+ try{
+  const key=randomBytes(32);
+  await commitDurablePipelines(dir,key,"EMPTY",{capital:[],realty:[]});
+  const outcome=spawnSync(process.execPath,["--experimental-strip-types","scripts/manual-pipeline-agent-report.mjs"],{
+   cwd:process.cwd(),encoding:"utf8",
+   env:{...process.env,QUEST_PIPELINE_DIRECTORY:dir,QUEST_PIPELINE_KEY_HEX:randomBytes(32).toString("hex")}
+  });
+  assert.equal(outcome.status,4);
+  assert.equal(outcome.stdout,"");
+  assert.match(outcome.stderr,/report unavailable/);
+ }finally{await rm(dir,{recursive:true,force:true});}
+});
