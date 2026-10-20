@@ -1,0 +1,33 @@
+{
+  "verifiedAt": "2026-10-20T10:45:32.360529+00:00",
+  "productionRelease": {
+    "commit": "bdabcd734c4f32d6ba76ad2cc21363c0eb8e6be9",
+    "deployId": "dep-dbbk7vek1f9s73bum96g",
+    "status": "LIVE",
+    "referenceRoutesVerified": 297,
+    "photographedReferenceRoutes": 237,
+    "queuedReferenceRoutes": 60,
+    "distinctPhotoFilesVerified": 236,
+    "photographedCollections": 85
+  },
+  "master": {
+    "pages": 82,
+    "priorPagesUnchanged": 81,
+    "driveId": "1KEWRyRu7SquTjVb1TgF_cCn_Zux5td17",
+    "sha256": "abcdceef4476dfcd7e72b357feeffa74fb6282571e232f9596a2509aaaf64d98",
+    "remoteReadbackMatched": true
+  },
+  "canonicalRecords": [
+    {
+      "fileId": "1Vl_UZMIcbQu3HASk1t1kJlMpH7RJdvAF",
+      "sha256": "0178755e0467c56da2abe6879432090bec7fd08d35b0b5946311aeb00317632e",
+      "remoteReadbackMatched": true
+    },
+    {
+      "fileId": "1P6Fcy7U8f8vFkFfUlJ0LujpoUUG1EzKx",
+      "sha256": "c8171bc8ddb7cf6ef23f2304d75220e0e731460a7c11538a35939c16484f5c87",
+      "remoteReadbackMatched": true
+    }
+  ],
+  "fullPopulationComplete": false
+}

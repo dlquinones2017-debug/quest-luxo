@@ -1,10 +1,10 @@
 {
-  "verifiedAt": "2026-10-20T01:53:18.085233+00:00",
+  "verifiedAt": "2026-10-20T10:37:13.360177+00:00",
   "expectedDistinctReferenceRoutes": 297,
   "verifiedReferenceRoutes": 297,
-  "approvedDistinctReferenceRoutes": 235,
-  "verifiedDistinctPhotoFiles": 234,
-  "queuedDistinctReferenceRoutes": 62,
+  "approvedDistinctReferenceRoutes": 237,
+  "verifiedDistinctPhotoFiles": 236,
+  "queuedDistinctReferenceRoutes": 60,
   "errors": [],
   "pages": [
     {
@@ -64,7 +64,7 @@
     },
     {
       "route": "/collections/rolex/daytona/16520",
-      "approved": false,
+      "approved": true,
       "status": "verified"
     },
     {
@@ -1264,7 +1264,7 @@
     },
     {
       "route": "/collections/iwc/portugieser/iw545901",
-      "approved": false,
+      "approved": true,
       "status": "verified"
     },
     {
@@ -1537,6 +1537,11 @@
     {
       "path": "/images/watches/rolex/reviewed-116520-white-web.webp",
       "sha256": "4f8ae5c97b860506d520beb9e0ac5e43c1f6474decdfe4fe8f74b066dba68ff0",
+      "status": "verified"
+    },
+    {
+      "path": "/images/watches/rolex/reviewed-16520-20261020-web.webp",
+      "sha256": "aace6c051264c52efb2363430da4630b97c054cf305cfeb3e17e4634f11c484a",
       "status": "verified"
     },
     {
@@ -2517,6 +2522,11 @@
     {
       "path": "/images/watches/iwc/reviewed-iw371617-white-web.webp",
       "sha256": "c49b1a7771f1060464558edaab5aaeb2b80075e90649721b99ba1a1fcfc8a5ee",
+      "status": "verified"
+    },
+    {
+      "path": "/images/watches/iwc/reviewed-iw545901-20261020-web.webp",
+      "sha256": "2a844b889bf690e9e73c1a039716619a0723e86a20b8c57ea154b8a6b8cb978a",
       "status": "verified"
     },
     {

@@ -11,8 +11,8 @@
     8000
   ],
   "mode": "RGB",
-  "websiteApproved": false,
-  "rightsStatus": "Specific direct founder rights confirmation requested; answer pending. Not published or counted as photographed.",
+  "websiteApproved": true,
+  "rightsStatus": "Exact original and white-background derivatives directly cleared by founder; no restrictions",
   "reviewStatus": "Official8000square native original and1200WEB individually visually reviewed. Complete whole watch with closed black alligator strap and all crown/case boundaries present. Only exterior white background excluded. No generated, reconstructed, recolored or sharpened watch detail.",
   "whiteMaster": "iwc-IW545901-white-master.png",
   "masterSha256": "586f8cc4f594a9783a548b0bf20c7727964c7bc2057958acc520cbe34847ad8e",
@@ -33,5 +33,32 @@
   "rawDriveFileId": "1W73itChQTu_aPvg6tidfhoVuQ4PUyglu",
   "masterDriveFileId": "1pt9l6K0iylcYt63GpTRKE22NZSM4j5la",
   "webDriveFileId": "1-nFkrgn3iqJRyfylLsQwjZVY0HlKDJls",
-  "archiveReadbackVerified": true
+  "archiveReadbackVerified": true,
+  "seed": {
+    "brand": "IWC",
+    "brandSlug": "iwc",
+    "collection": "Portugieser",
+    "reference": "IW545901",
+    "exactReference": "IW545901",
+    "model": "Portugieser Hand-Wound Tourbillon Day & Night",
+    "material": "18K Armor Gold",
+    "configuration": {
+      "caseSize": "42.4 mm",
+      "movement": "IWC 81925 manual flying tourbillon",
+      "dial": "Obsidian black",
+      "bracelet": "Black alligator leather strap"
+    },
+    "sourceUrl": "https://press.iwc.com/es/iwc-portugieser-hand-wound-tourbillon-day-and-night-es/",
+    "src": "/images/watches/iwc/reviewed-iw545901-20261020-web.webp",
+    "sha256": "2a844b889bf690e9e73c1a039716619a0723e86a20b8c57ea154b8a6b8cb978a",
+    "rawDriveFileId": "1W73itChQTu_aPvg6tidfhoVuQ4PUyglu",
+    "clearanceRecord": "Direct founder answer call_a2e0d2a2a478449c9cdc1e1b3e7626f8: Rights cover this original and derivatives; no restrictions. Record docs/PHOTOGRAPHY_TWO_RIGHTS_2026-10-20.json. Untouched native original SHA256 7d63c6fb9a726c721542a2e460a11ab981d8c36d064d603efca8c3435271ae2a. Complete native and final1200whiteWEB individually reviewed. Only original near-white exterior background excluded; internal contour filled to retain all white highlights and original watch pixels. Proportional resize and center on blank2400white master/1200WEB. No recoloring, sharpening or generated watch detail. Existing reference material terminology retained; no new alloy grade, price or availability inferred.",
+    "sourceProvider": "IWC official press office",
+    "reviewedAt": "2026-10-20",
+    "assetId": "cleared-20261020-iw545901"
+  },
+  "rightsQuestionId": "call_a2e0d2a2a478449c9cdc1e1b3e7626f8",
+  "publicationStatus": "LIVE and independently verified",
+  "websitePublished": true,
+  "productionCommit": "bdabcd734c4f32d6ba76ad2cc21363c0eb8e6be9"
 }

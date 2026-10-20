@@ -60,7 +60,9 @@
         "assetId": "cleared-20261020-iw545901"
       },
       "rightsQuestionId": "call_a2e0d2a2a478449c9cdc1e1b3e7626f8",
-      "publicationStatus": "Integrated; release checks pending"
+      "publicationStatus": "LIVE and independently verified",
+      "websitePublished": true,
+      "productionCommit": "bdabcd734c4f32d6ba76ad2cc21363c0eb8e6be9"
     },
     {
       "reference": "16520",
@@ -113,8 +115,21 @@
         "assetId": "cleared-20261020-16520"
       },
       "rightsQuestionId": "call_1cc95e139f8a42c3a7ec4d651678fd4a",
-      "publicationStatus": "Integrated; release checks pending"
+      "publicationStatus": "LIVE and independently verified",
+      "websitePublished": true,
+      "productionCommit": "bdabcd734c4f32d6ba76ad2cc21363c0eb8e6be9"
     }
   ],
-  "archiveReadbacksVerified": true
+  "archiveReadbacksVerified": true,
+  "status": "LIVE and independently verified",
+  "productionRelease": {
+    "commit": "bdabcd734c4f32d6ba76ad2cc21363c0eb8e6be9",
+    "deployId": "dep-dbbk7vek1f9s73bum96g",
+    "status": "LIVE",
+    "referenceRoutesVerified": 297,
+    "photographedReferenceRoutes": 237,
+    "queuedReferenceRoutes": 60,
+    "distinctPhotoFilesVerified": 236,
+    "photographedCollections": 85
+  }
 }

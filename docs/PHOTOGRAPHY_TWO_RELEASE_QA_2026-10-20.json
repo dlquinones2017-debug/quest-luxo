@@ -89,5 +89,66 @@
   },
   "nativeAndWhiteWebVisualReview": "Complete originals and1200WEB individually reviewed before rights confirmation; unchanged SHA256s verified at integration.",
   "archiveReadbacksVerified": true,
-  "status": "Built checks passed; production deployment and independent verification pending"
+  "status": "LIVE; all independent production checks passed",
+  "productionRelease": {
+    "commit": "bdabcd734c4f32d6ba76ad2cc21363c0eb8e6be9",
+    "deployId": "dep-dbbk7vek1f9s73bum96g",
+    "status": "LIVE",
+    "referenceRoutesVerified": 297,
+    "photographedReferenceRoutes": 237,
+    "queuedReferenceRoutes": 60,
+    "distinctPhotoFilesVerified": 236,
+    "photographedCollections": 85
+  },
+  "targetedLive": {
+    "checkedAt": "2026-10-20T10:36:59.289755+00:00",
+    "mode": "live",
+    "exactReferencesChecked": 2,
+    "rows": [
+      {
+        "reference": "IW545901",
+        "route": "/collections/iwc/portugieser/iw545901",
+        "imageSha256": "2a844b889bf690e9e73c1a039716619a0723e86a20b8c57ea154b8a6b8cb978a",
+        "exactConfiguration": true,
+        "collectionGrid": true,
+        "inquiryContext": true,
+        "separateCredits": true,
+        "noImageCaptionOverlay": true
+      },
+      {
+        "reference": "16520",
+        "route": "/collections/rolex/daytona/16520",
+        "imageSha256": "aace6c051264c52efb2363430da4630b97c054cf305cfeb3e17e4634f11c484a",
+        "exactConfiguration": true,
+        "collectionGrid": true,
+        "inquiryContext": true,
+        "separateCredits": true,
+        "noImageCaptionOverlay": true
+      }
+    ],
+    "publicFlowsAvailable": true,
+    "leadDataSafety": "Public GET checks only. No new lead submissions, private lead reads, runtime data or disk changes."
+  },
+  "desktopReview": {
+    "viewport": [
+      1440,
+      1000
+    ],
+    "documentWidth": 1425,
+    "scrollWidth": 1425,
+    "completeCenteredWatch": true,
+    "naturalImageWidth": 1200,
+    "figcaptions": 0
+  },
+  "mobileReview": {
+    "viewport": [
+      390,
+      844
+    ],
+    "documentWidth": 375,
+    "scrollWidth": 375,
+    "completeCenteredWatch": true,
+    "naturalImageWidth": 1200,
+    "figcaptions": 0
+  }
 }
