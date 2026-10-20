@@ -1,0 +1,37 @@
+{
+  "reference": "IW545901",
+  "sourceProvider": "IWC official press office",
+  "sourceUrl": "https://press.iwc.com/es/iwc-portugieser-hand-wound-tourbillon-day-and-night-es/",
+  "sourceSha256": "65e879e501431d2d255eb6427015a49b67b982a42efb259b2fbf228f169e0c22",
+  "imageUrl": "https://content.presspage.com/uploads/1859/c0691db9-0b90-48dc-8b1a-5d07a2d3a812/iw545901-front.jpg?10000",
+  "fileName": "iwc-545901-press-1-raw.img",
+  "rawSha256": "7d63c6fb9a726c721542a2e460a11ab981d8c36d064d603efca8c3435271ae2a",
+  "size": [
+    8000,
+    8000
+  ],
+  "mode": "RGB",
+  "websiteApproved": false,
+  "rightsStatus": "Specific direct founder rights confirmation requested; answer pending. Not published or counted as photographed.",
+  "reviewStatus": "Official8000square native original and1200WEB individually visually reviewed. Complete whole watch with closed black alligator strap and all crown/case boundaries present. Only exterior white background excluded. No generated, reconstructed, recolored or sharpened watch detail.",
+  "whiteMaster": "iwc-IW545901-white-master.png",
+  "masterSha256": "586f8cc4f594a9783a548b0bf20c7727964c7bc2057958acc520cbe34847ad8e",
+  "webDerivative": "iwc-IW545901-web.webp",
+  "webSha256": "2a844b889bf690e9e73c1a039716619a0723e86a20b8c57ea154b8a6b8cb978a",
+  "nativeMaskBoundingBox": [
+    2262,
+    941,
+    6064,
+    7073
+  ],
+  "processing": "Only original near-white exterior background excluded; internal contour filled to retain all white highlights and original watch pixels. Proportional resize and center on blank2400white master/1200WEB. No recoloring, sharpening or generated watch detail.",
+  "brand": "IWC",
+  "collection": "Portugieser",
+  "canonicalRoute": "/collections/iwc/portugieser/iw545901",
+  "exactConfiguration": "IW545901;18KArmorGold;Obsidianblackdial;blackalligatorstrap;42.4mm;IWC81925manualtourbillon. Existing catalog generic leather strap remains unchanged.",
+  "qualityReviewPassed": true,
+  "rawDriveFileId": "1W73itChQTu_aPvg6tidfhoVuQ4PUyglu",
+  "masterDriveFileId": "1pt9l6K0iylcYt63GpTRKE22NZSM4j5la",
+  "webDriveFileId": "1-nFkrgn3iqJRyfylLsQwjZVY0HlKDJls",
+  "archiveReadbackVerified": true
+}

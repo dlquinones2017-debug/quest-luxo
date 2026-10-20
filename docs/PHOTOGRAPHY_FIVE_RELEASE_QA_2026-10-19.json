@@ -132,5 +132,74 @@
     "figcaptions": 0
   },
   "preservedProduction": "b3443f2d1a1f849a3e196fa23a20949980cb008d",
-  "status": "Passed; deployment pending"
+  "status": "LIVE; independent production verification passed",
+  "productionRelease": {
+    "commit": "e26f9a12c9dc352a6039cdaa7026f6e67b015cd7",
+    "deployId": "dep-dbbci3bm8hqs738ptjlg",
+    "status": "LIVE",
+    "referenceRoutesVerified": 297,
+    "photographedReferenceRoutes": 235,
+    "queuedReferenceRoutes": 62,
+    "distinctPhotoFilesVerified": 234,
+    "photographedCollections": 85
+  },
+  "targetedLive": {
+    "checkedAt": "2026-10-20T01:41:47.311563+00:00",
+    "mode": "live",
+    "exactReferencesChecked": 5,
+    "rows": [
+      {
+        "reference": "A32390111G1A1",
+        "route": "/collections/breitling/avenger-ii/a32390111g1a1",
+        "imageSha256": "80b17151a9f8cb634d5f6bafb8d74afad6635f9deb2c2fe519852e1ada90be70",
+        "exactConfiguration": true,
+        "collectionGrid": true,
+        "inquiryContext": true,
+        "separateCredits": true,
+        "noImageCaptionOverlay": true
+      },
+      {
+        "reference": "V 41 SC DT BEACH FR2 GFBUBL (BC)",
+        "route": "/collections/franck-muller/fr2nck-vanguard-beach/v-41-sc-dt-beach-fr2-gfbubl-bc",
+        "imageSha256": "393d30709495fec2d8c85801646d214804681be2f33b4ce0d15911056d6002be",
+        "exactConfiguration": true,
+        "collectionGrid": true,
+        "inquiryContext": true,
+        "separateCredits": true,
+        "noImageCaptionOverlay": true
+      },
+      {
+        "reference": "V 41 SC DT BEACH FR2 GFVRVE (BC)",
+        "route": "/collections/franck-muller/fr2nck-vanguard-beach/v-41-sc-dt-beach-fr2-gfvrve-bc",
+        "imageSha256": "1e5b65c3399bdc44e27f5258cc74f245a8fec769f32d380c45e1dc0990f8de33",
+        "exactConfiguration": true,
+        "collectionGrid": true,
+        "inquiryContext": true,
+        "separateCredits": true,
+        "noImageCaptionOverlay": true
+      },
+      {
+        "reference": "V 41 SC DT BEACH FR2 GFRGFRG (BC)",
+        "route": "/collections/franck-muller/fr2nck-vanguard-beach/v-41-sc-dt-beach-fr2-gfrgfrg-bc",
+        "imageSha256": "fbea79e97d68d211fff4c5eb55431a6f79b549341172e126973520b52e4abb20",
+        "exactConfiguration": true,
+        "collectionGrid": true,
+        "inquiryContext": true,
+        "separateCredits": true,
+        "noImageCaptionOverlay": true
+      },
+      {
+        "reference": "2531.80",
+        "route": "/collections/omega/seamaster/2531-80",
+        "imageSha256": "408e1781fb9612990cd10d4e6b10eb3bd14a529b313d7b03cf23e8aeef302059",
+        "exactConfiguration": true,
+        "collectionGrid": true,
+        "inquiryContext": true,
+        "separateCredits": true,
+        "noImageCaptionOverlay": true
+      }
+    ],
+    "publicFlowsAvailable": true,
+    "leadDataSafety": "Public GET checks only. No new lead submissions, private lead reads, runtime data or disk changes."
+  }
 }

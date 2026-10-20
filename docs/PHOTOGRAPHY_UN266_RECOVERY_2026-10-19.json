@@ -28,7 +28,7 @@
   "processing": "Manually seeded classical exterior GrabCut refinement. Original native RGB retained verbatim under alpha. Complete returning rubber strap, black internal strap grooves, rose-gold case and bezel teeth retained. Removed only exterior background and private image-viewer UI. Proportional centering on blank2400white and1200WEB; no generated, reconstructed, recolored or sharpened watch detail.",
   "visualReview": "Untouched native original,1200WEB and enlarged upper/right boundary crops individually reviewed. Whole watch visible including complete returning strap. Former black exterior band removed. Internal black grooves are genuine rubber strap and remain intact. Exact black wave dial, rose-gold case and black rubber strap/gold inserts match266-10-3/92. No overlaid captions, private UI or invented watch detail.",
   "websiteApproved": true,
-  "status": "Integrated; final archive readback and release checks pending",
+  "status": "LIVE and independently verified; native entire watch preserved",
   "seed": {
     "brand": "Ulysse Nardin",
     "brandSlug": "ulysse-nardin",
@@ -56,5 +56,6 @@
   "whiteMasterDriveFileId": "1RLdWZM7Ghf4HtlD01E1a5VKCLOpzKDg7",
   "webDriveFileId": "1SLtmT8TUq0p_opnU2qQQPCHW9WMa239J",
   "canonicalRoute": "/collections/ulysse-nardin/diver/266-10-3-92",
-  "archiveReadbacksVerified": true
+  "archiveReadbacksVerified": true,
+  "productionCommit": "e26f9a12c9dc352a6039cdaa7026f6e67b015cd7"
 }

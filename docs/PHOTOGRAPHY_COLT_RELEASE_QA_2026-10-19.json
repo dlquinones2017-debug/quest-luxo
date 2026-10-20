@@ -76,5 +76,34 @@
     "fail": 0,
     "initialFailure": "Inherited multi-process fixture child exited1. Isolated test passed; original unchanged full concurrent suite rerun passed. No test settings or implementation changed. Initial failure log retained."
   },
-  "status": "Passed; production deployment pending"
+  "status": "LIVE; independent production verification passed",
+  "productionRelease": {
+    "commit": "e26f9a12c9dc352a6039cdaa7026f6e67b015cd7",
+    "deployId": "dep-dbbci3bm8hqs738ptjlg",
+    "status": "LIVE",
+    "referenceRoutesVerified": 297,
+    "photographedReferenceRoutes": 235,
+    "queuedReferenceRoutes": 62,
+    "distinctPhotoFilesVerified": 234,
+    "photographedCollections": 85
+  },
+  "targetedLive": {
+    "checkedAt": "2026-10-20T01:53:01.701827+00:00",
+    "mode": "live",
+    "exactReferencesChecked": 1,
+    "rows": [
+      {
+        "reference": "A17388101B1A1",
+        "route": "/collections/breitling/colt/a17388101b1a1",
+        "imageSha256": "fc76ae16b38ece168ec75f3d9461cd970bab6e520feb29c061b5ce20bf9459f6",
+        "exactConfiguration": true,
+        "collectionGrid": true,
+        "inquiryContext": true,
+        "separateCredits": true,
+        "noImageCaptionOverlay": true
+      }
+    ],
+    "publicFlowsAvailable": true,
+    "leadDataSafety": "Public GET checks only. No new lead submissions, private lead reads, runtime data or disk changes."
+  }
 }

@@ -12,7 +12,7 @@
   ],
   "mode": "RGBA",
   "websiteApproved": true,
-  "rightsStatus": "Exact new manufacturer original and white derivatives await image-specific rights evidence",
+  "rightsStatus": "Exact original and white-background derivatives directly confirmed by founder; no restrictions",
   "reviewStatus": "Native2048height complete watch and final1200whiteWEB individually reviewed. Black Colt dial, steel case/bracelet; complete native alpha margins. No invented detail.",
   "nativeAlphaBoundingBox": [
     426,
@@ -62,5 +62,8 @@
   "qualityReviewPassed": true,
   "rawDriveFileId": "18LxOyxbEd-mWyO_P2c7S1DywOaEd30bP",
   "masterDriveFileId": "1ViF1gAkg1j9AY9H-hanD9R44hST0UJHg",
-  "webDriveFileId": "1od-gNW2qmmP7i8TpYDHoLwFfGWEsIfd2"
+  "webDriveFileId": "1od-gNW2qmmP7i8TpYDHoLwFfGWEsIfd2",
+  "websitePublished": true,
+  "publicationStatus": "LIVE and independently verified",
+  "productionCommit": "e26f9a12c9dc352a6039cdaa7026f6e67b015cd7"
 }

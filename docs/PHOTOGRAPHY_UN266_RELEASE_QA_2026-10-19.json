@@ -1,6 +1,6 @@
 {
   "checkedAt": "2026-10-19T20:31:26.955111+00:00",
-  "status": "Reviewed and tested; deployment pending",
+  "status": "LIVE; independent production verification passed",
   "previousProduction": "be64e484dffa1301e204253adee1869f5dbf532b",
   "brand": "Ulysse Nardin",
   "reference": "266-10-3/92",
@@ -101,5 +101,16 @@
     "recoverableCandidates": 0
   },
   "safety": "No customer records, new lead submissions, credentials, hosting settings or persistent disk changes.",
-  "warnings": "Existing Vite bundle-size, Zenith punctuation alias and public robots warnings retained."
+  "warnings": "Existing Vite bundle-size, Zenith punctuation alias and public robots warnings retained.",
+  "originalLiveCommit": "d85f89ede9a7a348272013a2a29c232d2370148c",
+  "currentRelease": {
+    "commit": "e26f9a12c9dc352a6039cdaa7026f6e67b015cd7",
+    "deployId": "dep-dbbci3bm8hqs738ptjlg",
+    "status": "LIVE",
+    "referenceRoutesVerified": 297,
+    "photographedReferenceRoutes": 235,
+    "queuedReferenceRoutes": 62,
+    "distinctPhotoFilesVerified": 234,
+    "photographedCollections": 85
+  }
 }

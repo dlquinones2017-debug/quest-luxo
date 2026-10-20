@@ -1,0 +1,255 @@
+{
+  "checkedAt": "2026-10-20T01:56:14.040653+00:00",
+  "nativeAcquisition": [
+    {
+      "reference": "A17388101B1A1",
+      "sourceProvider": "Breitling manufacturer",
+      "sourceUrl": "https://www.breitling.com/cw-en/watches/colt/colt-automatic/A17388101B1A1/",
+      "sourceSha256": "16024dfafd79c932ace08fbd02b6e95c8dadce8d981d07509a12f2dc02812e0a",
+      "imageUrl": "https://www-breitling.eu.saleor.cloud/media/thumbnails/products/a17388101b1a1-soldier_f1bed4b7_thumbnail_1024.webp",
+      "fileName": "breitling-colt-0-raw.img",
+      "rawSha256": "4b90adffa5495ceceadf6436a1d26893198c8b20f31d462684993b0609090018",
+      "size": [
+        768,
+        1024
+      ],
+      "mode": "RGBA",
+      "websiteApproved": false,
+      "rightsStatus": "New exact original not yet specifically cleared",
+      "reviewStatus": "Native original preserved; complete framing and exact configuration review pending"
+    },
+    {
+      "reference": "A17388101B1A1",
+      "sourceProvider": "Breitling manufacturer",
+      "sourceUrl": "https://www.breitling.com/cw-en/watches/colt/colt-automatic/A17388101B1A1/",
+      "sourceSha256": "16024dfafd79c932ace08fbd02b6e95c8dadce8d981d07509a12f2dc02812e0a",
+      "imageUrl": "https://www-breitling.eu.saleor.cloud/media/thumbnails/products/a17388101b1a1-three-quarter_22d6f6e2_thumbnail_1024.webp",
+      "fileName": "breitling-colt-1-raw.img",
+      "rawSha256": "4c668c5ab424d9a899382f5444aef43f74a394684c027242bd5cfd148a472b56",
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "websiteApproved": false,
+      "rightsStatus": "New exact original not yet specifically cleared",
+      "reviewStatus": "Native original preserved; complete framing and exact configuration review pending"
+    },
+    {
+      "reference": "A17388101B1A1",
+      "sourceProvider": "Breitling manufacturer",
+      "sourceUrl": "https://www.breitling.com/cw-en/watches/colt/colt-automatic/A17388101B1A1/",
+      "sourceSha256": "16024dfafd79c932ace08fbd02b6e95c8dadce8d981d07509a12f2dc02812e0a",
+      "imageUrl": "https://www-breitling.eu.saleor.cloud/media/thumbnails/products/a17388101b1a1-rolled-up_dd3d5a02_thumbnail_1024.webp",
+      "fileName": "breitling-colt-2-raw.img",
+      "rawSha256": "1027ea4aed2a2343b0f8749dab3c9f842e7206b01b356482e638763300e1a63e",
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "websiteApproved": false,
+      "rightsStatus": "New exact original not yet specifically cleared",
+      "reviewStatus": "Native original preserved; complete framing and exact configuration review pending"
+    },
+    {
+      "reference": "A17388101B1A1",
+      "sourceProvider": "Breitling manufacturer",
+      "sourceUrl": "https://www.breitling.com/cw-en/watches/colt/colt-automatic/A17388101B1A1/",
+      "sourceSha256": "16024dfafd79c932ace08fbd02b6e95c8dadce8d981d07509a12f2dc02812e0a",
+      "imageUrl": "https://www-breitling.eu.saleor.cloud/media/thumbnails/products/a17388101b1a1-back_14c1391c_thumbnail_1024.webp",
+      "fileName": "breitling-colt-3-raw.img",
+      "rawSha256": "693677b62c4a85787d1faf59d0fb8a2778a92c0015cc850a28e94845bf93154a",
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "websiteApproved": false,
+      "rightsStatus": "New exact original not yet specifically cleared",
+      "reviewStatus": "Native original preserved; complete framing and exact configuration review pending"
+    },
+    {
+      "reference": "A17388101B1A1",
+      "sourceProvider": "Breitling manufacturer",
+      "sourceUrl": "https://www.breitling.com/cw-en/watches/colt/colt-automatic/A17388101B1A1/",
+      "sourceSha256": "16024dfafd79c932ace08fbd02b6e95c8dadce8d981d07509a12f2dc02812e0a",
+      "imageUrl": "https://www-breitling.eu.saleor.cloud/media/thumbnails/products/a17388101b1a1-soldier_f1bed4b7_thumbnail_2048.webp",
+      "fileName": "breitling-colt-4-raw.img",
+      "rawSha256": "eb0685b7770aeddc68848479a8a3edbb1c6b44bb900fc11644dc8addd2f2f7a7",
+      "size": [
+        1536,
+        2048
+      ],
+      "mode": "RGBA",
+      "websiteApproved": false,
+      "rightsStatus": "Exact new manufacturer original and white derivatives await image-specific rights evidence",
+      "reviewStatus": "Native2048height complete watch individually reviewed; finalWEB review pending",
+      "nativeAlphaBoundingBox": [
+        426,
+        437,
+        1185,
+        1855
+      ],
+      "whiteMaster": "breitling-colt-A17388101B1A1-white-master.png",
+      "webDerivative": "breitling-colt-A17388101B1A1-web.webp",
+      "masterSha256": "5e87042edd004c8468e719d59b4287d0bda00b435ac57a84ab95425785dcc72d",
+      "webSha256": "fc76ae16b38ece168ec75f3d9461cd970bab6e520feb29c061b5ce20bf9459f6",
+      "processing": "Original manufacturer alpha and native watch RGB retained; transparent exterior removed by white compositing only. Proportional resizing and centered2400blank white master/1200WEB; no reconstruction, recoloring or sharpening.",
+      "exactConfiguration": "Black dial; stainless steel case and bracelet;44mm; Breitling17 automatic. Manufacturer exactSKU page agrees with existing catalog. No price or availability inferred."
+    },
+    {
+      "reference": "A17388101B1A1",
+      "sourceProvider": "Breitling manufacturer",
+      "sourceUrl": "https://www.breitling.com/cw-en/watches/colt/colt-automatic/A17388101B1A1/",
+      "sourceSha256": "16024dfafd79c932ace08fbd02b6e95c8dadce8d981d07509a12f2dc02812e0a",
+      "imageUrl": "https://www-breitling.eu.saleor.cloud/media/thumbnails/products/a17388101b1a1-three-quarter_22d6f6e2_thumbnail_2048.webp",
+      "fileName": "breitling-colt-5-raw.img",
+      "rawSha256": "795f5170aa42a51ca6b5c9823c124b5f0dc6d0c8b572a4a50093187af402b994",
+      "size": [
+        2048,
+        2048
+      ],
+      "mode": "RGBA",
+      "websiteApproved": false,
+      "rightsStatus": "New exact original not yet specifically cleared",
+      "reviewStatus": "Native original preserved; complete framing and exact configuration review pending"
+    },
+    {
+      "reference": "A17388101B1A1",
+      "sourceProvider": "Breitling manufacturer",
+      "sourceUrl": "https://www.breitling.com/cw-en/watches/colt/colt-automatic/A17388101B1A1/",
+      "sourceSha256": "16024dfafd79c932ace08fbd02b6e95c8dadce8d981d07509a12f2dc02812e0a",
+      "imageUrl": "https://www-breitling.eu.saleor.cloud/media/thumbnails/products/a17388101b1a1-rolled-up_dd3d5a02_thumbnail_2048.webp",
+      "fileName": "breitling-colt-6-raw.img",
+      "rawSha256": "c2c6e594db2ff4c3d8f833f25b34c8223e7aa4fa67bdbfba30c5521e5682f98a",
+      "size": [
+        2048,
+        2048
+      ],
+      "mode": "RGBA",
+      "websiteApproved": false,
+      "rightsStatus": "New exact original not yet specifically cleared",
+      "reviewStatus": "Native original preserved; complete framing and exact configuration review pending"
+    },
+    {
+      "reference": "A17388101B1A1",
+      "sourceProvider": "Breitling manufacturer",
+      "sourceUrl": "https://www.breitling.com/cw-en/watches/colt/colt-automatic/A17388101B1A1/",
+      "sourceSha256": "16024dfafd79c932ace08fbd02b6e95c8dadce8d981d07509a12f2dc02812e0a",
+      "imageUrl": "https://www-breitling.eu.saleor.cloud/media/thumbnails/products/a17388101b1a1-back_14c1391c_thumbnail_2048.webp",
+      "fileName": "breitling-colt-7-raw.img",
+      "rawSha256": "4ff4f838bfa2115aae4d9de2b10fcdba5dd02fd28f87ceaafc37761a86b7ca85",
+      "size": [
+        2048,
+        2048
+      ],
+      "mode": "RGBA",
+      "websiteApproved": false,
+      "rightsStatus": "New exact original not yet specifically cleared",
+      "reviewStatus": "Native original preserved; complete framing and exact configuration review pending"
+    },
+    {
+      "reference": "232.30.42.21.01.001",
+      "sourceProvider": "European Watch Company",
+      "sourceUrl": "https://www.europeanwatch.com/watch/omega-23230422101001-seamaster-co-axial-planet-ocean-ss-42mm-25876",
+      "sourceSha256": "2b24c9cf61e9d75e64b6269efb4f139a525cfa65938ad4702b516998492bd599",
+      "imageUrl": "https://images.europeanwatch.com/images/25/25876-1.jpg",
+      "fileName": "omega-23230-0-raw.img",
+      "rawSha256": "8796c5dca5e039f8ca6d0550a8918b801cb90c26a32a5aad367969e38777a146",
+      "size": [
+        800,
+        640
+      ],
+      "mode": "RGB",
+      "websiteApproved": false,
+      "rightsStatus": "New exact original not yet specifically cleared",
+      "reviewStatus": "Native originals visually reviewed; held",
+      "qualityHold": "All three reviewed retailer images clip the top bracelet or hide it behind display supports. No complete watch boundary; do not publish or reconstruct."
+    },
+    {
+      "reference": "232.30.42.21.01.001",
+      "sourceProvider": "European Watch Company",
+      "sourceUrl": "https://www.europeanwatch.com/watch/omega-23230422101001-seamaster-co-axial-planet-ocean-ss-42mm-25876",
+      "sourceSha256": "2b24c9cf61e9d75e64b6269efb4f139a525cfa65938ad4702b516998492bd599",
+      "imageUrl": "https://images.europeanwatch.com/images/25/25876-2.jpg",
+      "fileName": "omega-23230-1-raw.img",
+      "rawSha256": "d5cfa0213b3887f951a12dcf45bf62c9ff75e1da9f6b92389a369b51825f2102",
+      "size": [
+        800,
+        640
+      ],
+      "mode": "RGB",
+      "websiteApproved": false,
+      "rightsStatus": "New exact original not yet specifically cleared",
+      "reviewStatus": "Native originals visually reviewed; held",
+      "qualityHold": "All three reviewed retailer images clip the top bracelet or hide it behind display supports. No complete watch boundary; do not publish or reconstruct."
+    },
+    {
+      "reference": "232.30.42.21.01.001",
+      "sourceProvider": "European Watch Company",
+      "sourceUrl": "https://www.europeanwatch.com/watch/omega-23230422101001-seamaster-co-axial-planet-ocean-ss-42mm-25876",
+      "sourceSha256": "2b24c9cf61e9d75e64b6269efb4f139a525cfa65938ad4702b516998492bd599",
+      "imageUrl": "https://images.europeanwatch.com/images/25/25876-3.jpg",
+      "fileName": "omega-23230-2-raw.img",
+      "rawSha256": "004b702f215ac75019d5eff9a546deb8e2fb349c592af813ef1cf60889352656",
+      "size": [
+        800,
+        640
+      ],
+      "mode": "RGB",
+      "websiteApproved": false,
+      "rightsStatus": "New exact original not yet specifically cleared",
+      "reviewStatus": "Native originals visually reviewed; held",
+      "qualityHold": "All three reviewed retailer images clip the top bracelet or hide it behind display supports. No complete watch boundary; do not publish or reconstruct."
+    }
+  ],
+  "iwcAcquisition": [
+    {
+      "reference": "IW545901",
+      "sourceProvider": "IWC official press office",
+      "sourceUrl": "https://press.iwc.com/es/iwc-portugieser-hand-wound-tourbillon-day-and-night-es/",
+      "sourceSha256": "65e879e501431d2d255eb6427015a49b67b982a42efb259b2fbf228f169e0c22",
+      "imageUrl": "https://content.presspage.com/uploads/1859/8410e128-4a39-49ce-87b9-ad1ea40ddbdc/iwc-iw545901.jpg?10000",
+      "fileName": "iwc-545901-press-0-raw.img",
+      "rawSha256": "8cfcb8434ed883b0aaa5a9405773b85a327837832885e646ace1c8e4290b612c",
+      "size": [
+        8500,
+        8000
+      ],
+      "mode": "RGB",
+      "websiteApproved": false,
+      "rightsStatus": "New exact original not yet specifically cleared",
+      "reviewStatus": "Native original preserved; complete framing and exact configuration review pending"
+    },
+    {
+      "reference": "IW545901",
+      "sourceProvider": "IWC official press office",
+      "sourceUrl": "https://press.iwc.com/es/iwc-portugieser-hand-wound-tourbillon-day-and-night-es/",
+      "sourceSha256": "65e879e501431d2d255eb6427015a49b67b982a42efb259b2fbf228f169e0c22",
+      "imageUrl": "https://content.presspage.com/uploads/1859/c0691db9-0b90-48dc-8b1a-5d07a2d3a812/iw545901-front.jpg?10000",
+      "fileName": "iwc-545901-press-1-raw.img",
+      "rawSha256": "7d63c6fb9a726c721542a2e460a11ab981d8c36d064d603efca8c3435271ae2a",
+      "size": [
+        8000,
+        8000
+      ],
+      "mode": "RGB",
+      "websiteApproved": false,
+      "rightsStatus": "New exact original not yet specifically cleared",
+      "reviewStatus": "Native original preserved; complete framing and exact configuration review pending"
+    }
+  ],
+  "iwcLifestyleHold": "Official lifestyle original clips both straps; rejected. Separate complete front original prepared and held for rights.",
+  "tudorSourceAttempt": [
+    {
+      "id": "tudor-0024",
+      "sourceUrl": "https://www.tudorwatch.com/en/watch-family/daring-watches/m79360n-0024",
+      "checkedAt": "2026-10-20T01:55:14.447938+00:00",
+      "websiteApproved": false,
+      "rightsStatus": "New source discovery only; commercial website-use evidence not established",
+      "error": "HTTP Error 403: Forbidden"
+    }
+  ],
+  "standards": "No clipped, occluded, synthetic or configuration-unverified photo may publish. Raw candidate bytes preserved locally; selected complete originals and derivatives archived in Drive."
+}

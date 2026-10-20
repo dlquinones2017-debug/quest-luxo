@@ -31,8 +31,8 @@
       "sha256": "3de3a626d7f9dca76ea77efac84241744e936a4009626ad10d7ce24a98c47122",
       "checkedAt": "2026-10-16T02:32:11.519145+00:00",
       "status": "Unchanged manufacturer-delivered native bytes; visual review pending",
-      "websiteApproved": false,
-      "rightsStatus": "New manufacturer original: commercial-use evidence not yet documented; held from publication",
+      "websiteApproved": true,
+      "rightsStatus": "Exact original and white-background derivatives directly confirmed by founder; no restrictions",
       "collection": "Avenger II",
       "canonicalRoute": "/collections/breitling/avenger-ii/a32390111g1a1",
       "catalogMaterial": "Stainless Steel",
@@ -63,7 +63,7 @@
         922
       ],
       "processing": "Manufacturer native alpha preserved without mask reconstruction; original watch RGBA retained and centered on blank white2400master/1200WEB. No AI, generated details or recolouring.",
-      "websitePublished": false,
+      "websitePublished": true,
       "visualReviewPassed": true,
       "exactSkuVerified": true,
       "reviewStatus": "Untouched manufacturer native RGBA and final1200WEB individually reviewed. Complete depicted watch and closed steel bracelet within original alpha bounds; correct silver GMT dial, steel case/bracelet. Native alpha preserved; no watch detail generated or reconstructed. Commercial-use evidence pending; not published.",
@@ -99,7 +99,9 @@
         "reviewedAt": "2026-10-19",
         "assetId": "cleared-20261019-a32390111g1a1"
       },
-      "rightsConfirmed": true
+      "rightsConfirmed": true,
+      "publicationStatus": "LIVE and independently verified",
+      "productionCommit": "e26f9a12c9dc352a6039cdaa7026f6e67b015cd7"
     },
     {
       "reference": "V 41 SC DT BEACH FR2 GFBUBL (BC)",
@@ -128,8 +130,8 @@
       "masterSha256": "658293526dd7dc256acef7f9a8dc445fc7739f9abc85a70fc996a914239146cf",
       "webDerivative": "V-41-SC-DT-BEACH-FR2-GFBUBL-BC--web.webp",
       "webSha256": "393d30709495fec2d8c85801646d214804681be2f33b4ce0d15911056d6002be",
-      "websiteApproved": false,
-      "rightsStatus": "Commercial website-use permission for these exact three new manufacturer originals and white derivatives not yet documented; held from publication",
+      "websiteApproved": true,
+      "rightsStatus": "Exact original and white-background derivatives directly confirmed by founder; no restrictions",
       "processing": "Original publisher alpha retained with two detached black exterior background remnants removed; native watch RGB unchanged. Proportional resize and centered blank white canvas; no generated or reconstructed watch detail.",
       "reviewStatus": "Untouched native publisher alpha and final1200WEB individually visually reviewed. Complete depicted watch and closed patterned nylon strap; source leaves25pixelupper and23pixellower margins. Exact SurfBlue/HeatwaveRed/TropicalGreencase and rabbit dial scene match recorded reference. Exterior black mask remnants removed; no generated watch detail.",
       "brand": "Franck Muller",
@@ -159,7 +161,10 @@
         "assetId": "cleared-20261019-v-41-sc-dt-beach-fr2-gfbubl-bc"
       },
       "canonicalRoute": "/collections/franck-muller/fr2nck-vanguard-beach/v-41-sc-dt-beach-fr2-gfbubl-bc",
-      "rightsConfirmed": true
+      "rightsConfirmed": true,
+      "websitePublished": true,
+      "publicationStatus": "LIVE and independently verified",
+      "productionCommit": "e26f9a12c9dc352a6039cdaa7026f6e67b015cd7"
     },
     {
       "reference": "V 41 SC DT BEACH FR2 GFVRVE (BC)",
@@ -188,8 +193,8 @@
       "masterSha256": "a644346c8d1c52ceb1d0b260d6a39989f38baad356750cf1ce5bdb280206c520",
       "webDerivative": "V-41-SC-DT-BEACH-FR2-GFVRVE-BC--web.webp",
       "webSha256": "1e5b65c3399bdc44e27f5258cc74f245a8fec769f32d380c45e1dc0990f8de33",
-      "websiteApproved": false,
-      "rightsStatus": "Commercial website-use permission for these exact three new manufacturer originals and white derivatives not yet documented; held from publication",
+      "websiteApproved": true,
+      "rightsStatus": "Exact original and white-background derivatives directly confirmed by founder; no restrictions",
       "processing": "Original publisher alpha retained with two detached black exterior background remnants removed; native watch RGB unchanged. Proportional resize and centered blank white canvas; no generated or reconstructed watch detail.",
       "reviewStatus": "Untouched native publisher alpha and final1200WEB individually visually reviewed. Complete depicted watch and closed patterned nylon strap; source leaves25pixelupper and23pixellower margins. Exact SurfBlue/HeatwaveRed/TropicalGreencase and rabbit dial scene match recorded reference. Exterior black mask remnants removed; no generated watch detail.",
       "brand": "Franck Muller",
@@ -219,7 +224,10 @@
         "assetId": "cleared-20261019-v-41-sc-dt-beach-fr2-gfvrve-bc"
       },
       "canonicalRoute": "/collections/franck-muller/fr2nck-vanguard-beach/v-41-sc-dt-beach-fr2-gfvrve-bc",
-      "rightsConfirmed": true
+      "rightsConfirmed": true,
+      "websitePublished": true,
+      "publicationStatus": "LIVE and independently verified",
+      "productionCommit": "e26f9a12c9dc352a6039cdaa7026f6e67b015cd7"
     },
     {
       "reference": "V 41 SC DT BEACH FR2 GFRGFRG (BC)",
@@ -248,8 +256,8 @@
       "masterSha256": "068ce0a65d7533649bb1615b489abadd783bda74844fbd644fcfeb02b1bcccbc",
       "webDerivative": "V-41-SC-DT-BEACH-FR2-GFRGFRG-BC--web.webp",
       "webSha256": "fbea79e97d68d211fff4c5eb55431a6f79b549341172e126973520b52e4abb20",
-      "websiteApproved": false,
-      "rightsStatus": "Commercial website-use permission for these exact three new manufacturer originals and white derivatives not yet documented; held from publication",
+      "websiteApproved": true,
+      "rightsStatus": "Exact original and white-background derivatives directly confirmed by founder; no restrictions",
       "processing": "Original publisher alpha retained with two detached black exterior background remnants removed; native watch RGB unchanged. Proportional resize and centered blank white canvas; no generated or reconstructed watch detail.",
       "reviewStatus": "Untouched native publisher alpha and final1200WEB individually visually reviewed. Complete depicted watch and closed patterned nylon strap; source leaves25pixelupper and23pixellower margins. Exact SurfBlue/HeatwaveRed/TropicalGreencase and rabbit dial scene match recorded reference. Exterior black mask remnants removed; no generated watch detail.",
       "brand": "Franck Muller",
@@ -279,7 +287,10 @@
         "assetId": "cleared-20261019-v-41-sc-dt-beach-fr2-gfrgfrg-bc"
       },
       "canonicalRoute": "/collections/franck-muller/fr2nck-vanguard-beach/v-41-sc-dt-beach-fr2-gfrgfrg-bc",
-      "rightsConfirmed": true
+      "rightsConfirmed": true,
+      "websitePublished": true,
+      "publicationStatus": "LIVE and independently verified",
+      "productionCommit": "e26f9a12c9dc352a6039cdaa7026f6e67b015cd7"
     },
     {
       "id": "omega-2531-80",
@@ -289,8 +300,8 @@
       "sourceSha256": "6e66eae618efdfc6e8997742af2662b83f241605940ab42fd635e08b8d729b2a",
       "imageUrl": "https://cdn.grayandsons.com/s/omega_seamaster_41mm_2531_80_w526350_75edbbfa54-w1920.jpg.auto",
       "fileName": "omega-2531-80-gray-hero-native.img",
-      "websiteApproved": false,
-      "rightsStatus": "Specific new third-party original; rights not established",
+      "websiteApproved": true,
+      "rightsStatus": "Exact original and white-background derivatives directly confirmed by founder; no restrictions",
       "checkedAt": "2026-10-19T20:33:27.334740+00:00",
       "rawSha256": "887561d111476ec2352e1ad5cd0fb6ac004b2cc9cb0840293a39fb20ac72cfd7",
       "size": [
@@ -341,7 +352,10 @@
         "assetId": "cleared-20261019-2531-80"
       },
       "canonicalRoute": "/collections/omega/seamaster/2531-80",
-      "rightsConfirmed": true
+      "rightsConfirmed": true,
+      "websitePublished": true,
+      "publicationStatus": "LIVE and independently verified",
+      "productionCommit": "e26f9a12c9dc352a6039cdaa7026f6e67b015cd7"
     }
   ],
   "rawPackageId": "1MXAyK2WuBEepigUjuRerYC1Ho70lP7jX",

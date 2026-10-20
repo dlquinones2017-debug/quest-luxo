@@ -1,10 +1,10 @@
 {
-  "verifiedAt": "2026-10-16T19:43:17.871284+00:00",
+  "verifiedAt": "2026-10-20T01:53:18.085233+00:00",
   "expectedDistinctReferenceRoutes": 297,
   "verifiedReferenceRoutes": 297,
-  "approvedDistinctReferenceRoutes": 228,
-  "verifiedDistinctPhotoFiles": 227,
-  "queuedDistinctReferenceRoutes": 69,
+  "approvedDistinctReferenceRoutes": 235,
+  "verifiedDistinctPhotoFiles": 234,
+  "queuedDistinctReferenceRoutes": 62,
   "errors": [],
   "pages": [
     {
@@ -624,7 +624,7 @@
     },
     {
       "route": "/collections/omega/seamaster/2531-80",
-      "approved": false,
+      "approved": true,
       "status": "verified"
     },
     {
@@ -1028,6 +1028,11 @@
       "status": "verified"
     },
     {
+      "route": "/collections/ulysse-nardin/diver/266-10-3-92",
+      "approved": true,
+      "status": "verified"
+    },
+    {
       "route": "/collections/ulysse-nardin/diver/1183-170-7m-92",
       "approved": true,
       "status": "verified"
@@ -1040,11 +1045,6 @@
     {
       "route": "/collections/ulysse-nardin/diver/1183-170-3-92",
       "approved": true,
-      "status": "verified"
-    },
-    {
-      "route": "/collections/ulysse-nardin/diver/266-10-3-92",
-      "approved": false,
       "status": "verified"
     },
     {
@@ -1329,17 +1329,17 @@
     },
     {
       "route": "/collections/franck-muller/fr2nck-vanguard-beach/v-41-sc-dt-beach-fr2-gfbubl-bc",
-      "approved": false,
+      "approved": true,
       "status": "verified"
     },
     {
       "route": "/collections/franck-muller/fr2nck-vanguard-beach/v-41-sc-dt-beach-fr2-gfrgfrg-bc",
-      "approved": false,
+      "approved": true,
       "status": "verified"
     },
     {
       "route": "/collections/franck-muller/fr2nck-vanguard-beach/v-41-sc-dt-beach-fr2-gfvrve-bc",
-      "approved": false,
+      "approved": true,
       "status": "verified"
     },
     {
@@ -1389,12 +1389,12 @@
     },
     {
       "route": "/collections/breitling/colt/a17388101b1a1",
-      "approved": false,
+      "approved": true,
       "status": "verified"
     },
     {
       "route": "/collections/breitling/avenger-ii/a32390111g1a1",
-      "approved": false,
+      "approved": true,
       "status": "verified"
     },
     {
@@ -2030,6 +2030,11 @@
       "status": "verified"
     },
     {
+      "path": "/images/watches/omega/reviewed-20261019-2531-80-web.webp",
+      "sha256": "408e1781fb9612990cd10d4e6b10eb3bd14a529b313d7b03cf23e8aeef302059",
+      "status": "verified"
+    },
+    {
       "path": "/images/watches/omega/reviewed-210-30-42-20-10-001-white-web.webp",
       "sha256": "dff60ec3072dd25afbf17b06e28222aa345293f3f160818c34c191ee713fe003",
       "status": "verified"
@@ -2325,6 +2330,11 @@
       "status": "verified"
     },
     {
+      "path": "/images/watches/ulysse-nardin/founder-13-maxi-diver-white-web.webp",
+      "sha256": "eb72325c11dca7f3ca4d2e5aaf7e0479594074048a28b60505012a2b41c37a77",
+      "status": "verified"
+    },
+    {
       "path": "/images/watches/ulysse-nardin/ulysse-nardin-diver-44-1183-170-7m-92-web.webp",
       "sha256": "ef9ca85bda856d8afa8f80605b28eb70383eaeee0e8103295328aff48f7ea53d",
       "status": "verified"
@@ -2545,8 +2555,33 @@
       "status": "verified"
     },
     {
+      "path": "/images/watches/franck-muller/reviewed-20261019-v-41-sc-dt-beach-fr2-gfbubl-bc-web.webp",
+      "sha256": "393d30709495fec2d8c85801646d214804681be2f33b4ce0d15911056d6002be",
+      "status": "verified"
+    },
+    {
+      "path": "/images/watches/franck-muller/reviewed-20261019-v-41-sc-dt-beach-fr2-gfrgfrg-bc-web.webp",
+      "sha256": "fbea79e97d68d211fff4c5eb55431a6f79b549341172e126973520b52e4abb20",
+      "status": "verified"
+    },
+    {
+      "path": "/images/watches/franck-muller/reviewed-20261019-v-41-sc-dt-beach-fr2-gfvrve-bc-web.webp",
+      "sha256": "1e5b65c3399bdc44e27f5258cc74f245a8fec769f32d380c45e1dc0990f8de33",
+      "status": "verified"
+    },
+    {
       "path": "/images/watches/panerai/reviewed-pam01641-white-web.webp",
       "sha256": "9767844fdbf7dc81b18589bfa57f9fe14cde10b0d8060b500b7ba72cf7b26970",
+      "status": "verified"
+    },
+    {
+      "path": "/images/watches/breitling/reviewed-a17388101b1a1-white-web.webp",
+      "sha256": "fc76ae16b38ece168ec75f3d9461cd970bab6e520feb29c061b5ce20bf9459f6",
+      "status": "verified"
+    },
+    {
+      "path": "/images/watches/breitling/reviewed-20261019-a32390111g1a1-web.webp",
+      "sha256": "80b17151a9f8cb634d5f6bafb8d74afad6635f9deb2c2fe519852e1ada90be70",
       "status": "verified"
     },
     {

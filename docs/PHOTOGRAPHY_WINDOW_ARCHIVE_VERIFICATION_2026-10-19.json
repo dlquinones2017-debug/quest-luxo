@@ -1,0 +1,35 @@
+{
+  "verifiedAt": "2026-10-20T01:58:14.247877+00:00",
+  "productionRelease": {
+    "commit": "e26f9a12c9dc352a6039cdaa7026f6e67b015cd7",
+    "deployId": "dep-dbbci3bm8hqs738ptjlg",
+    "status": "LIVE",
+    "referenceRoutesVerified": 297,
+    "photographedReferenceRoutes": 235,
+    "queuedReferenceRoutes": 62,
+    "distinctPhotoFilesVerified": 234,
+    "photographedCollections": 85
+  },
+  "master": {
+    "driveId": "1KEWRyRu7SquTjVb1TgF_cCn_Zux5td17",
+    "pages": 81,
+    "priorPagesUnchanged": 80,
+    "sha256": "9782dc4574a5483090220d33c26650e2c4837cafaf3b82bdefb56c6c8c6e71ef",
+    "remoteReadbackMatched": true
+  },
+  "canonicalRecords": [
+    {
+      "fileId": "1Vl_UZMIcbQu3HASk1t1kJlMpH7RJdvAF",
+      "sha256": "665a6097087799f38e479a5faa87ae9c97c0c0b18e3c22cd2b697792f9df0782",
+      "remoteReadbackMatched": true
+    },
+    {
+      "fileId": "1P6Fcy7U8f8vFkFfUlJ0LujpoUUG1EzKx",
+      "sha256": "f7bb143b042aec9863e1e182039140ddd79cd607c866f53a9a2625faa678c084",
+      "remoteReadbackMatched": true
+    }
+  ],
+  "rightsPending": "IW545901 exact newly acquired IWC press original; question already pending",
+  "fullPopulationComplete": false,
+  "customerDataSafety": "No private lead reads, new submissions, runtime data or hosting configuration changes."
+}
