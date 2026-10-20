@@ -1,6 +1,6 @@
 import test from "node:test";
 import assert from "node:assert/strict";
-import { mkdtemp, readFile, writeFile, chmod, rm } from "node:fs/promises";
+import { mkdtemp, readFile, writeFile, copyFile, unlink, chmod, rm } from "node:fs/promises";
 import { tmpdir } from "node:os";
 import { join } from "node:path";
 import { randomBytes } from "node:crypto";
@@ -47,4 +47,18 @@ test("incorrect key and tampering fail closed", async () => fixture(async ({dir,
 test("duplicate identities and unsafe fields are rejected", async () => fixture(async ({dir,key}) => {
   await assert.rejects(() => commitDurablePipelines(dir,key,"EMPTY",{capital:[capital,capital],realty:[]}),/Duplicate/);
   await assert.rejects(() => commitDurablePipelines(dir,key,"EMPTY",{capital:[{...capital,customerEmail:"hidden"}],realty:[]}),/Unexpected/);
+}));
+
+test("encrypted offline copy can restore after primary loss", async () => fixture(async ({dir,key}) => {
+  const saved = await commitDurablePipelines(dir,key,"EMPTY",{capital:[capital],realty:[realty]});
+  const primary = join(dir,"enterprise-pipelines-v1.enc.json");
+  const backup = join(dir,"offline-backup.fixture.enc");
+  await copyFile(primary,backup);
+  await unlink(primary);
+  assert.equal((await readDurablePipelines(dir,key)).revision,"EMPTY");
+  await copyFile(backup,primary);
+  const restored = await readDurablePipelines(dir,key);
+  assert.equal(restored.revision,saved.revision);
+  assert.deepEqual(restored.records.capital,[capital]);
+  assert.deepEqual(restored.records.realty,[realty]);
 }));
