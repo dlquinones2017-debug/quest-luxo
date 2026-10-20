@@ -412,3 +412,8 @@ Five-set release ef9232b is LIVE; all297publicreference routes and233distinct im
 ## October 19 production photography checkpoint
 
 Release e26f9a1 / dep-dbbci3bm8hqs738ptjlg is LIVE. All297publicreference routes and234distinctphoto hashes independently verified. Coverage235of297references,62queued;85of104collections photographed. Six additional photographs published in the current30minute continuation, with exact founder rights, complete framing, white-canvas review, archive readback and release checks. The canonical master has81reviewed pages; prior80pages unchanged. Complete official IW545901 front photography is processed/archived/readback verified but held pending the direct image-specific rights answer. Clipped IWC lifestyle and Omega retailer candidates remain rejected; Tudor source returned403. Full population remains incomplete. Workflow and all pending evidence are saved in PHOTOGRAPHY_SPRINT_STATE.json. No customer records were read or modified.
+
+
+## October 20 IWC and Rolex photography release
+
+Founder directly confirmed unrestricted commercial website-use rights for the exact IW545901 manufacturer press original and Rolex16520 GrayandSons original, including white derivatives. Both complete photographs were already individually reviewed and archived/readback verified. Additive exact pictured configurations preserve existing broader configurations and public URLs. Newbuild237of297referenceURLs photographed,60queued. Original full regression suite:314passed,1platformskip,0failed; Astro0errors/0warnings/18existinghints; audits/build and both exact mapping checks passed. Deployment and independent public verification follow; no customer data reads/submissions or hosting changes.

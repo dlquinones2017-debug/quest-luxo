@@ -6,8 +6,8 @@
   "summary": {
     "references": 70,
     "brands": 15,
-    "approvedForImageRelease": 47,
-    "tasksAwaitingExactImageRightsReview": 23
+    "approvedForImageRelease": 48,
+    "tasksAwaitingExactImageRightsReview": 22
   },
   "queue": [
     {
@@ -221,13 +221,13 @@
       },
       "identitySource": "https://press.iwc.com/iwc-portugieser-hand-wound-tourbillon-day-and-night-en/",
       "priorityScore": 68,
-      "status": "RIGHTS_AND_EXACT_CONFIGURATION_REVIEW_REQUIRED",
-      "rawSourceFileId": null,
-      "webDerivativePath": null,
-      "webDerivativeSHA256": null,
-      "reviewer": null,
-      "commercialUseRightsRecord": null,
-      "notes": "Do not publish until approvedPhotograph verifies commercial rights and exact reference, and WEB image checksum matches stored file."
+      "status": "APPROVED_WITH_VALID_DERIVATIVE",
+      "rawSourceFileId": "1W73itChQTu_aPvg6tidfhoVuQ4PUyglu",
+      "webDerivativePath": "/images/watches/iwc/reviewed-iw545901-20261020-web.webp",
+      "webDerivativeSHA256": "2a844b889bf690e9e73c1a039716619a0723e86a20b8c57ea154b8a6b8cb978a",
+      "reviewer": "Quest Luxo execution review with founder website-use clearance",
+      "commercialUseRightsRecord": "Direct founder answer call_a2e0d2a2a478449c9cdc1e1b3e7626f8: Rights cover this original and derivatives; no restrictions. Record docs/PHOTOGRAPHY_TWO_RIGHTS_2026-10-20.json. Untouched native original SHA256 7d63c6fb9a726c721542a2e460a11ab981d8c36d064d603efca8c3435271ae2a. Complete native and final1200whiteWEB individually reviewed. Only original near-white exterior background excluded; internal contour filled to retain all white highlights and original watch pixels. Proportional resize and center on blank2400white master/1200WEB. No recoloring, sharpening or generated watch detail. Existing reference material terminology retained; no new alloy grade, price or availability inferred. Preserved RAW file: 1W73itChQTu_aPvg6tidfhoVuQ4PUyglu. Pictured full reference IW545901; 18K Armor Gold, Obsidian black, Black alligator leather strap. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "notes": "Exact approvedPhotograph gate and local derivative SHA-256 validated; preserve approved source and separate source attribution."
     },
     {
       "brand": "Franck Muller",
@@ -1694,5 +1694,5 @@
       "notes": "Founder-upload identity verified October16. Separate source-original and review evidence in FOUNDER_UPLOAD_CONTINUATION_2026-10-16.json. Underlying commercial rights and final photography quality still required; no publication approval implied."
     }
   ],
-  "updatedAt": "2026-10-20T01:46:32.247Z"
+  "updatedAt": "2026-10-20T10:32:07.055Z"
 }

@@ -1,0 +1,120 @@
+{
+  "references": [
+    {
+      "reference": "IW545901",
+      "sourceProvider": "IWC official press office",
+      "sourceUrl": "https://press.iwc.com/es/iwc-portugieser-hand-wound-tourbillon-day-and-night-es/",
+      "sourceSha256": "65e879e501431d2d255eb6427015a49b67b982a42efb259b2fbf228f169e0c22",
+      "imageUrl": "https://content.presspage.com/uploads/1859/c0691db9-0b90-48dc-8b1a-5d07a2d3a812/iw545901-front.jpg?10000",
+      "fileName": "iwc-545901-press-1-raw.img",
+      "rawSha256": "7d63c6fb9a726c721542a2e460a11ab981d8c36d064d603efca8c3435271ae2a",
+      "size": [
+        8000,
+        8000
+      ],
+      "mode": "RGB",
+      "websiteApproved": true,
+      "rightsStatus": "Exact original and white-background derivatives directly cleared by founder; no restrictions",
+      "reviewStatus": "Official8000square native original and1200WEB individually visually reviewed. Complete whole watch with closed black alligator strap and all crown/case boundaries present. Only exterior white background excluded. No generated, reconstructed, recolored or sharpened watch detail.",
+      "whiteMaster": "iwc-IW545901-white-master.png",
+      "masterSha256": "586f8cc4f594a9783a548b0bf20c7727964c7bc2057958acc520cbe34847ad8e",
+      "webDerivative": "iwc-IW545901-web.webp",
+      "webSha256": "2a844b889bf690e9e73c1a039716619a0723e86a20b8c57ea154b8a6b8cb978a",
+      "nativeMaskBoundingBox": [
+        2262,
+        941,
+        6064,
+        7073
+      ],
+      "processing": "Only original near-white exterior background excluded; internal contour filled to retain all white highlights and original watch pixels. Proportional resize and center on blank2400white master/1200WEB. No recoloring, sharpening or generated watch detail.",
+      "brand": "IWC",
+      "collection": "Portugieser",
+      "canonicalRoute": "/collections/iwc/portugieser/iw545901",
+      "exactConfiguration": "IW545901;18KArmorGold;Obsidianblackdial;blackalligatorstrap;42.4mm;IWC81925manualtourbillon. Existing catalog generic leather strap remains unchanged.",
+      "qualityReviewPassed": true,
+      "rawDriveFileId": "1W73itChQTu_aPvg6tidfhoVuQ4PUyglu",
+      "masterDriveFileId": "1pt9l6K0iylcYt63GpTRKE22NZSM4j5la",
+      "webDriveFileId": "1-nFkrgn3iqJRyfylLsQwjZVY0HlKDJls",
+      "archiveReadbackVerified": true,
+      "seed": {
+        "brand": "IWC",
+        "brandSlug": "iwc",
+        "collection": "Portugieser",
+        "reference": "IW545901",
+        "exactReference": "IW545901",
+        "model": "Portugieser Hand-Wound Tourbillon Day & Night",
+        "material": "18K Armor Gold",
+        "configuration": {
+          "caseSize": "42.4 mm",
+          "movement": "IWC 81925 manual flying tourbillon",
+          "dial": "Obsidian black",
+          "bracelet": "Black alligator leather strap"
+        },
+        "sourceUrl": "https://press.iwc.com/es/iwc-portugieser-hand-wound-tourbillon-day-and-night-es/",
+        "src": "/images/watches/iwc/reviewed-iw545901-20261020-web.webp",
+        "sha256": "2a844b889bf690e9e73c1a039716619a0723e86a20b8c57ea154b8a6b8cb978a",
+        "rawDriveFileId": "1W73itChQTu_aPvg6tidfhoVuQ4PUyglu",
+        "clearanceRecord": "Direct founder answer call_a2e0d2a2a478449c9cdc1e1b3e7626f8: Rights cover this original and derivatives; no restrictions. Record docs/PHOTOGRAPHY_TWO_RIGHTS_2026-10-20.json. Untouched native original SHA256 7d63c6fb9a726c721542a2e460a11ab981d8c36d064d603efca8c3435271ae2a. Complete native and final1200whiteWEB individually reviewed. Only original near-white exterior background excluded; internal contour filled to retain all white highlights and original watch pixels. Proportional resize and center on blank2400white master/1200WEB. No recoloring, sharpening or generated watch detail. Existing reference material terminology retained; no new alloy grade, price or availability inferred.",
+        "sourceProvider": "IWC official press office",
+        "reviewedAt": "2026-10-20",
+        "assetId": "cleared-20261020-iw545901"
+      },
+      "rightsQuestionId": "call_a2e0d2a2a478449c9cdc1e1b3e7626f8",
+      "publicationStatus": "Integrated; release checks pending"
+    },
+    {
+      "reference": "16520",
+      "brand": "Rolex",
+      "sourceProvider": "Gray and Sons",
+      "sourceUrl": "https://www.grayandsons.com/w526018-rolex-daytona-40mm-16520/",
+      "sourceSha256": "ffbba06c0adbaa6743c2c4653607abed10def604248c50d269c96f494a177de4",
+      "imageUrl": "https://cdn.grayandsons.com/s/rolex_daytona_40mm_16520_w526018_ec86f4dfba-w1920.jpg",
+      "fileName": "rolex16520-gray-next-raw.jpg",
+      "rawSha256": "97dab53026393c29cfcaf8eb4d1b08b3da36cc7be43d8b318942d80d8fa6b356",
+      "whiteMaster": "rolex-16520-gray-white-master.png",
+      "masterSha256": "5237200b6859bfe1456835a7489145943e148af55bc66edecbb287a49f943d55",
+      "webDerivative": "rolex-16520-gray-web.webp",
+      "webSha256": "aace6c051264c52efb2363430da4630b97c054cf305cfeb3e17e4634f11c484a",
+      "nativeMaskBoundingBox": [
+        381,
+        61,
+        1539,
+        1860
+      ],
+      "processing": "Only original near-white exterior background excluded; internal contour filled to retain all white highlights and original watch pixels. Proportional resize and center on blank2400white master/1200WEB. No recoloring, sharpening or generated watch detail.",
+      "reviewStatus": "Authentic retailer1920square original and1200whiteWEB individually reviewed. Complete blackdial16520 and steelOysterbracelet, native bracelet end margins retained; source identifies1998Zenithgeneration. No generated or reconstructed detail.",
+      "websiteApproved": true,
+      "qualityReviewPassed": true,
+      "rightsStatus": "Exact original and white-background derivatives directly cleared by founder; no restrictions",
+      "rawDriveFileId": "1nsKaAIHW0pxRYNcXKIxlXCHqgUFP0p9S",
+      "masterDriveFileId": "1SvhLi50CdwXCS2ckOWARExAWntaYeaRv",
+      "webDriveFileId": "1Ax37cUQHlsokzKMi8105rrPtAzO26DsK",
+      "archiveReadbackVerified": true,
+      "seed": {
+        "brand": "Rolex",
+        "brandSlug": "rolex",
+        "collection": "Daytona",
+        "reference": "16520",
+        "exactReference": "16520",
+        "model": "Daytona 16520",
+        "material": "Oystersteel",
+        "configuration": {
+          "dial": "Black",
+          "bracelet": "Oyster",
+          "caseSize": "40 mm"
+        },
+        "sourceUrl": "https://www.grayandsons.com/w526018-rolex-daytona-40mm-16520/",
+        "src": "/images/watches/rolex/reviewed-16520-20261020-web.webp",
+        "sha256": "aace6c051264c52efb2363430da4630b97c054cf305cfeb3e17e4634f11c484a",
+        "rawDriveFileId": "1nsKaAIHW0pxRYNcXKIxlXCHqgUFP0p9S",
+        "clearanceRecord": "Direct founder answer call_1cc95e139f8a42c3a7ec4d651678fd4a: Rights cover this original and derivatives; no restrictions. Record docs/PHOTOGRAPHY_TWO_RIGHTS_2026-10-20.json. Untouched native original SHA256 97dab53026393c29cfcaf8eb4d1b08b3da36cc7be43d8b318942d80d8fa6b356. Complete native and final1200whiteWEB individually reviewed. Only original near-white exterior background excluded; internal contour filled to retain all white highlights and original watch pixels. Proportional resize and center on blank2400white master/1200WEB. No recoloring, sharpening or generated watch detail. Existing reference material terminology retained; no new alloy grade, price or availability inferred.",
+        "sourceProvider": "Gray and Sons",
+        "reviewedAt": "2026-10-20",
+        "assetId": "cleared-20261020-16520"
+      },
+      "rightsQuestionId": "call_1cc95e139f8a42c3a7ec4d651678fd4a",
+      "publicationStatus": "Integrated; release checks pending"
+    }
+  ],
+  "archiveReadbacksVerified": true
+}

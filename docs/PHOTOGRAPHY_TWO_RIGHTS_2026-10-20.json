@@ -1,0 +1,19 @@
+{
+  "confirmedAt": "2026-10-20T10:32:04.754218+00:00",
+  "references": [
+    {
+      "questionId": "call_a2e0d2a2a478449c9cdc1e1b3e7626f8",
+      "reference": "IW545901",
+      "directFounderAnswer": "Rights cover this original and derivatives; no restrictions",
+      "sourceUrl": "https://press.iwc.com/es/iwc-portugieser-hand-wound-tourbillon-day-and-night-es/",
+      "rawSha256": "7d63c6fb9a726c721542a2e460a11ab981d8c36d064d603efca8c3435271ae2a"
+    },
+    {
+      "questionId": "call_1cc95e139f8a42c3a7ec4d651678fd4a",
+      "reference": "16520",
+      "directFounderAnswer": "Rights cover this original and derivatives; no restrictions",
+      "sourceUrl": "https://www.grayandsons.com/w526018-rolex-daytona-40mm-16520/",
+      "rawSha256": "97dab53026393c29cfcaf8eb4d1b08b3da36cc7be43d8b318942d80d8fa6b356"
+    }
+  ]
+}

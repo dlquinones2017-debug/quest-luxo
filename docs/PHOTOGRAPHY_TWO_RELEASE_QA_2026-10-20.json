@@ -1,0 +1,93 @@
+{
+  "checkedAt": "2026-10-20T10:35:31.318988+00:00",
+  "checks": [
+    {
+      "check": "omega-queue-sync",
+      "exitCode": 0,
+      "logFileName": "two-20261020-omega-queue-sync.log"
+    },
+    {
+      "check": "astro-check",
+      "exitCode": 0,
+      "logFileName": "two-20261020-astro-check.log"
+    },
+    {
+      "check": "regressions",
+      "exitCode": 0,
+      "logFileName": "two-20261020-regressions.log"
+    },
+    {
+      "check": "omega-audit",
+      "exitCode": 0,
+      "logFileName": "two-20261020-omega-audit.log"
+    },
+    {
+      "check": "omega-queue-check",
+      "exitCode": 0,
+      "logFileName": "two-20261020-omega-queue-check.log"
+    },
+    {
+      "check": "expansion-audit",
+      "exitCode": 0,
+      "logFileName": "two-20261020-expansion-audit.log"
+    },
+    {
+      "check": "build",
+      "exitCode": 0,
+      "logFileName": "two-20261020-build.log"
+    },
+    {
+      "check": "inventory",
+      "exitCode": 0,
+      "logFileName": "two-20261020-inventory.log"
+    },
+    {
+      "check": "full-audit",
+      "exitCode": 0,
+      "logFileName": "two-20261020-full-audit.log"
+    }
+  ],
+  "builtMapping": {
+    "checkedAt": "2026-10-20T10:35:31.119639+00:00",
+    "mode": "built",
+    "exactReferencesChecked": 2,
+    "rows": [
+      {
+        "reference": "IW545901",
+        "route": "/collections/iwc/portugieser/iw545901",
+        "imageSha256": "2a844b889bf690e9e73c1a039716619a0723e86a20b8c57ea154b8a6b8cb978a",
+        "exactConfiguration": true,
+        "collectionGrid": true,
+        "inquiryContext": true,
+        "separateCredits": true,
+        "noImageCaptionOverlay": true
+      },
+      {
+        "reference": "16520",
+        "route": "/collections/rolex/daytona/16520",
+        "imageSha256": "aace6c051264c52efb2363430da4630b97c054cf305cfeb3e17e4634f11c484a",
+        "exactConfiguration": true,
+        "collectionGrid": true,
+        "inquiryContext": true,
+        "separateCredits": true,
+        "noImageCaptionOverlay": true
+      }
+    ],
+    "publicFlowsAvailable": true,
+    "leadDataSafety": "Public GET checks only. No new lead submissions, private lead reads, runtime data or disk changes."
+  },
+  "tests": {
+    "total": 315,
+    "passed": 314,
+    "skipped": 1,
+    "failed": 0
+  },
+  "astro": {
+    "errors": 0,
+    "warnings": 0,
+    "existingHints": 18
+  },
+  "nativeAndWhiteWebVisualReview": "Complete originals and1200WEB individually reviewed before rights confirmation; unchanged SHA256s verified at integration.",
+  "archiveReadbacksVerified": true,
+  "status": "Built checks passed; production deployment and independent verification pending"
+}

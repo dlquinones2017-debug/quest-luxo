@@ -4352,5 +4352,50 @@ export const clearedSprintPhotographySeeds: readonly PhotographySeed[] = [
     "sourceProvider": "Breitling manufacturer product photography",
     "reviewedAt": "2026-10-19",
     "assetId": "cleared-colt-a17388101b1a1"
+  },
+  {
+    "brand": "IWC",
+    "brandSlug": "iwc",
+    "collection": "Portugieser",
+    "reference": "IW545901",
+    "exactReference": "IW545901",
+    "model": "Portugieser Hand-Wound Tourbillon Day & Night",
+    "material": "18K Armor Gold",
+    "configuration": {
+      "caseSize": "42.4 mm",
+      "movement": "IWC 81925 manual flying tourbillon",
+      "dial": "Obsidian black",
+      "bracelet": "Black alligator leather strap"
+    },
+    "sourceUrl": "https://press.iwc.com/es/iwc-portugieser-hand-wound-tourbillon-day-and-night-es/",
+    "src": "/images/watches/iwc/reviewed-iw545901-20261020-web.webp",
+    "sha256": "2a844b889bf690e9e73c1a039716619a0723e86a20b8c57ea154b8a6b8cb978a",
+    "rawDriveFileId": "1W73itChQTu_aPvg6tidfhoVuQ4PUyglu",
+    "clearanceRecord": "Direct founder answer call_a2e0d2a2a478449c9cdc1e1b3e7626f8: Rights cover this original and derivatives; no restrictions. Record docs/PHOTOGRAPHY_TWO_RIGHTS_2026-10-20.json. Untouched native original SHA256 7d63c6fb9a726c721542a2e460a11ab981d8c36d064d603efca8c3435271ae2a. Complete native and final1200whiteWEB individually reviewed. Only original near-white exterior background excluded; internal contour filled to retain all white highlights and original watch pixels. Proportional resize and center on blank2400white master/1200WEB. No recoloring, sharpening or generated watch detail. Existing reference material terminology retained; no new alloy grade, price or availability inferred.",
+    "sourceProvider": "IWC official press office",
+    "reviewedAt": "2026-10-20",
+    "assetId": "cleared-20261020-iw545901"
+  },
+  {
+    "brand": "Rolex",
+    "brandSlug": "rolex",
+    "collection": "Daytona",
+    "reference": "16520",
+    "exactReference": "16520",
+    "model": "Daytona 16520",
+    "material": "Oystersteel",
+    "configuration": {
+      "dial": "Black",
+      "bracelet": "Oyster",
+      "caseSize": "40 mm"
+    },
+    "sourceUrl": "https://www.grayandsons.com/w526018-rolex-daytona-40mm-16520/",
+    "src": "/images/watches/rolex/reviewed-16520-20261020-web.webp",
+    "sha256": "aace6c051264c52efb2363430da4630b97c054cf305cfeb3e17e4634f11c484a",
+    "rawDriveFileId": "1nsKaAIHW0pxRYNcXKIxlXCHqgUFP0p9S",
+    "clearanceRecord": "Direct founder answer call_1cc95e139f8a42c3a7ec4d651678fd4a: Rights cover this original and derivatives; no restrictions. Record docs/PHOTOGRAPHY_TWO_RIGHTS_2026-10-20.json. Untouched native original SHA256 97dab53026393c29cfcaf8eb4d1b08b3da36cc7be43d8b318942d80d8fa6b356. Complete native and final1200whiteWEB individually reviewed. Only original near-white exterior background excluded; internal contour filled to retain all white highlights and original watch pixels. Proportional resize and center on blank2400white master/1200WEB. No recoloring, sharpening or generated watch detail. Existing reference material terminology retained; no new alloy grade, price or availability inferred.",
+    "sourceProvider": "Gray and Sons",
+    "reviewedAt": "2026-10-20",
+    "assetId": "cleared-20261020-16520"
   }
 ];

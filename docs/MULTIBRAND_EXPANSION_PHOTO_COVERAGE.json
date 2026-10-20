@@ -1,17 +1,17 @@
 {
-  "reviewedAt": "2026-10-20T01:49:06.816Z",
+  "reviewedAt": "2026-10-20T10:34:14.415Z",
   "scope": "All verified-catalog-expansion.ts references only; excludes legacy inventory",
   "policy": "Source URL is NOT image-rights evidence. Exact watch, strap, dial, material, white-canvas original, licensing, website approval and actual derivative SHA256 are required.",
   "summary": {
     "expansionReferences": 128,
     "brands": 16,
     "collections": 52,
-    "approvedValidReferences": 97,
+    "approvedValidReferences": 98,
     "missingApprovedDerivative": 0,
     "checksumFailures": 0,
-    "acquisitionRequired": 31,
-    "notReleaseReady": 31,
-    "imageCoveragePercent": 75.8
+    "acquisitionRequired": 30,
+    "notReleaseReady": 30,
+    "imageCoveragePercent": 76.6
   },
   "byBrand": [
     {
@@ -53,8 +53,8 @@
     {
       "brand": "IWC",
       "references": 8,
-      "approved": 6,
-      "outstanding": 2
+      "approved": 7,
+      "outstanding": 1
     },
     {
       "brand": "Omega",
@@ -1204,13 +1204,13 @@
       },
       "specificationSource": "https://press.iwc.com/iwc-portugieser-hand-wound-tourbillon-day-and-night-en/",
       "score": 68,
-      "status": "ACQUISITION_REQUIRED",
-      "photoAssetId": null,
-      "derivativePath": null,
-      "recordedSha256": null,
-      "actualSha256": null,
-      "rightsRecord": null,
-      "nextAction": "Source authentic exact-reference original; obtain commercial-use license and provenance, prepare approved full-watch white-canvas derivative and register the matching SHA-256."
+      "status": "APPROVED_WITH_VALID_DERIVATIVE",
+      "photoAssetId": "cleared-20261020-iw545901",
+      "derivativePath": "/images/watches/iwc/reviewed-iw545901-20261020-web.webp",
+      "recordedSha256": "2a844b889bf690e9e73c1a039716619a0723e86a20b8c57ea154b8a6b8cb978a",
+      "actualSha256": "2a844b889bf690e9e73c1a039716619a0723e86a20b8c57ea154b8a6b8cb978a",
+      "rightsRecord": "Direct founder answer call_a2e0d2a2a478449c9cdc1e1b3e7626f8: Rights cover this original and derivatives; no restrictions. Record docs/PHOTOGRAPHY_TWO_RIGHTS_2026-10-20.json. Untouched native original SHA256 7d63c6fb9a726c721542a2e460a11ab981d8c36d064d603efca8c3435271ae2a. Complete native and final1200whiteWEB individually reviewed. Only original near-white exterior background excluded; internal contour filled to retain all white highlights and original watch pixels. Proportional resize and center on blank2400white master/1200WEB. No recoloring, sharpening or generated watch detail. Existing reference material terminology retained; no new alloy grade, price or availability inferred. Preserved RAW file: 1W73itChQTu_aPvg6tidfhoVuQ4PUyglu. Pictured full reference IW545901; 18K Armor Gold, Obsidian black, Black alligator leather strap. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "nextAction": "Retain approved source, white-canvas derivative, attribution and reference mapping."
     },
     {
       "brand": "Tudor",

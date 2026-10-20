@@ -1,13 +1,13 @@
 {
-  "auditedAt": "2026-10-20T01:49:24.935Z",
+  "auditedAt": "2026-10-20T10:34:29.541Z",
   "summary": {
     "brands": 23,
     "collections": 104,
     "registryRecords": 298,
     "distinctRoutes": 297,
     "normalizedBrandReferenceIdentities": 294,
-    "approved": 235,
-    "missing": 62,
+    "approved": 237,
+    "missing": 60,
     "collectionsWithPhotography": 85,
     "unusedApprovedRecords": 2,
     "duplicateNormalizedReferenceGroups": 4,
@@ -107,8 +107,8 @@
       "brand": "IWC",
       "registryRecords": 9,
       "referencePages": 9,
-      "approved": 7,
-      "missing": 2,
+      "approved": 8,
+      "missing": 1,
       "collections": 6
     },
     {
@@ -155,8 +155,8 @@
       "brand": "Rolex",
       "registryRecords": 56,
       "referencePages": 56,
-      "approved": 49,
-      "missing": 7,
+      "approved": 50,
+      "missing": 6,
       "collections": 14
     },
     {
@@ -635,10 +635,22 @@
           "dial": "White or Black",
           "bracelet": "Oyster",
           "originalMSRP": null
+        },
+        {
+          "dial": "Black",
+          "bracelet": "Oyster",
+          "caseSize": "40 mm",
+          "nickname": "Black / Oyster",
+          "originalMSRP": null,
+          "currentMSRP": null
         }
       ],
-      "approved": false,
-      "photo": null,
+      "approved": true,
+      "photo": {
+        "assetId": "cleared-20261020-16520",
+        "src": "/images/watches/rolex/reviewed-16520-20261020-web.webp",
+        "sha256": "aace6c051264c52efb2363430da4630b97c054cf305cfeb3e17e4634f11c484a"
+      },
       "recoveryCandidates": []
     },
     {
@@ -7549,10 +7561,23 @@
           "bracelet": "Model-specific leather strap",
           "originalMSRP": null,
           "currentMSRP": null
+        },
+        {
+          "caseSize": "42.4 mm",
+          "movement": "IWC 81925 manual flying tourbillon",
+          "dial": "Obsidian black",
+          "bracelet": "Black alligator leather strap",
+          "nickname": "Obsidian black / Black alligator leather strap",
+          "originalMSRP": null,
+          "currentMSRP": null
         }
       ],
-      "approved": false,
-      "photo": null,
+      "approved": true,
+      "photo": {
+        "assetId": "cleared-20261020-iw545901",
+        "src": "/images/watches/iwc/reviewed-iw545901-20261020-web.webp",
+        "sha256": "2a844b889bf690e9e73c1a039716619a0723e86a20b8c57ea154b8a6b8cb978a"
+      },
       "recoveryCandidates": []
     },
     {

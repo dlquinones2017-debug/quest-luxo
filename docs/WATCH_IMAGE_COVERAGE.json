@@ -1,14 +1,14 @@
 {
-  "reviewedAt": "2026-10-20T01:49:24.384Z",
+  "reviewedAt": "2026-10-20T10:34:28.912Z",
   "note": "Generated from all exported source datasets and built routes. Source-only and duplicate configuration records are retained for review; this register is not proof of image rights. Source URLs identify research leads, not licenses.",
   "summary": {
-    "sourceConfigurations": 943,
+    "sourceConfigurations": 949,
     "builtReferenceRoutes": 297,
     "collectionRoutes": 104,
-    "approvedReferenceConfigurations": 477,
+    "approvedReferenceConfigurations": 481,
     "unmatchedReferenceRoutes": 0,
-    "approvedCanonicalReferenceRoutes": 235,
-    "queuedCanonicalReferenceRoutes": 62
+    "approvedCanonicalReferenceRoutes": 237,
+    "queuedCanonicalReferenceRoutes": 60
   },
   "collections": [
     {
@@ -1575,8 +1575,7 @@
       ],
       "material": "Oystersteel",
       "sources": [
-        "src/data/assets/rolex-daytona.ts",
-        "src/data/collectionRegistry.ts"
+        "src/data/assets/rolex-daytona.ts"
       ],
       "routes": [
         "/collections/rolex/daytona/16520"
@@ -3652,6 +3651,43 @@
       "status": "approved",
       "sourceUrl": "https://www.the1916company.com/rolex-certified-pre-owned/daytona/5059316/",
       "licenseRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for these exact nine originals and white-background derivatives with no additional restrictions on October15,2026 Eastern. Record docs/PHOTOGRAPHY_NINE_FOUNDER_RIGHTS_2026-10-15.json. Authentic complete RAW and final white WEB individually visually reviewed; source credits retained separately. Preserved RAW file: 1KnjAq-sgzhXdr0dI0PrP_5q8KqNqOmUY. Pictured full reference 116520-0015; Oystersteel, Black, Oyster. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
+      "brand": "Rolex",
+      "collection": "Daytona",
+      "reference": "16520",
+      "configurations": [
+        {
+          "nickname": "Zenith Daytona",
+          "dial": "White or Black",
+          "bracelet": "Oyster",
+          "originalMSRP": null
+        },
+        {
+          "dial": "Black",
+          "bracelet": "Oyster",
+          "caseSize": "40 mm",
+          "nickname": "Black / Oyster",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "Oystersteel",
+      "sources": [
+        "src/data/collectionRegistry.ts"
+      ],
+      "routes": [
+        "/collections/rolex/daytona/16520"
+      ],
+      "scope": "built-reference",
+      "existingImage": "/images/watches/rolex/reviewed-16520-20261020-web.webp",
+      "existingImageFilePresent": true,
+      "photoAssetId": "cleared-20261020-16520",
+      "status": "approved",
+      "sourceUrl": "https://www.grayandsons.com/w526018-rolex-daytona-40mm-16520/",
+      "licenseRecord": "Direct founder answer call_1cc95e139f8a42c3a7ec4d651678fd4a: Rights cover this original and derivatives; no restrictions. Record docs/PHOTOGRAPHY_TWO_RIGHTS_2026-10-20.json. Untouched native original SHA256 97dab53026393c29cfcaf8eb4d1b08b3da36cc7be43d8b318942d80d8fa6b356. Complete native and final1200whiteWEB individually reviewed. Only original near-white exterior background excluded; internal contour filled to retain all white highlights and original watch pixels. Proportional resize and center on blank2400white master/1200WEB. No recoloring, sharpening or generated watch detail. Existing reference material terminology retained; no new alloy grade, price or availability inferred. Preserved RAW file: 1nsKaAIHW0pxRYNcXKIxlXCHqgUFP0p9S. Pictured full reference 16520; Oystersteel, Black, Oyster. Exact configuration reviewed against preserved source evidence and the original photograph.",
       "websiteApproved": true,
       "nextAction": "Retain approved original and verify derivative integrity."
     },
@@ -11846,25 +11882,33 @@
           "bracelet": "Model-specific leather strap",
           "originalMSRP": null,
           "currentMSRP": null
+        },
+        {
+          "caseSize": "42.4 mm",
+          "movement": "IWC 81925 manual flying tourbillon",
+          "dial": "Obsidian black",
+          "bracelet": "Black alligator leather strap",
+          "nickname": "Obsidian black / Black alligator leather strap",
+          "originalMSRP": null,
+          "currentMSRP": null
         }
       ],
       "material": "18K Armor Gold",
       "sources": [
-        "src/data/collectionRegistry.ts",
-        "src/data/verified-catalog-expansion.ts"
+        "src/data/collectionRegistry.ts"
       ],
       "routes": [
         "/collections/iwc/portugieser/iw545901"
       ],
       "scope": "built-reference",
-      "existingImage": "/images/watch-reference-placeholder.svg",
+      "existingImage": "/images/watches/iwc/reviewed-iw545901-20261020-web.webp",
       "existingImageFilePresent": true,
-      "photoAssetId": null,
-      "status": "Requires Verification",
-      "sourceUrl": "https://press.iwc.com/iwc-portugieser-hand-wound-tourbillon-day-and-night-en/",
-      "licenseRecord": null,
-      "websiteApproved": false,
-      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+      "photoAssetId": "cleared-20261020-iw545901",
+      "status": "approved",
+      "sourceUrl": "https://press.iwc.com/es/iwc-portugieser-hand-wound-tourbillon-day-and-night-es/",
+      "licenseRecord": "Direct founder answer call_a2e0d2a2a478449c9cdc1e1b3e7626f8: Rights cover this original and derivatives; no restrictions. Record docs/PHOTOGRAPHY_TWO_RIGHTS_2026-10-20.json. Untouched native original SHA256 7d63c6fb9a726c721542a2e460a11ab981d8c36d064d603efca8c3435271ae2a. Complete native and final1200whiteWEB individually reviewed. Only original near-white exterior background excluded; internal contour filled to retain all white highlights and original watch pixels. Proportional resize and center on blank2400white master/1200WEB. No recoloring, sharpening or generated watch detail. Existing reference material terminology retained; no new alloy grade, price or availability inferred. Preserved RAW file: 1W73itChQTu_aPvg6tidfhoVuQ4PUyglu. Pictured full reference IW545901; 18K Armor Gold, Obsidian black, Black alligator leather strap. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
     },
     {
       "brand": "IWC",
@@ -18526,6 +18570,50 @@
       "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
     },
     {
+      "brand": "IWC",
+      "collection": "Portugieser",
+      "reference": "IW545901",
+      "configurations": [],
+      "material": "18K Armor Gold",
+      "sources": [
+        "src/data/photography-cleared-sprint.ts"
+      ],
+      "routes": [
+        "/collections/iwc/portugieser/iw545901"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": null,
+      "status": "Requires Verification",
+      "sourceUrl": null,
+      "licenseRecord": null,
+      "websiteApproved": false,
+      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+    },
+    {
+      "brand": "Rolex",
+      "collection": "Daytona",
+      "reference": "16520",
+      "configurations": [],
+      "material": "Oystersteel",
+      "sources": [
+        "src/data/photography-cleared-sprint.ts"
+      ],
+      "routes": [
+        "/collections/rolex/daytona/16520"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": null,
+      "status": "Requires Verification",
+      "sourceUrl": null,
+      "licenseRecord": null,
+      "websiteApproved": false,
+      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+    },
+    {
       "brand": "Breitling",
       "collection": "Superocean",
       "reference": "A17376211B1A1",
@@ -22537,6 +22625,69 @@
       "status": "approved",
       "sourceUrl": "https://www.breitling.com/cw-en/watches/colt/colt-automatic/A17388101B1A1/",
       "licenseRecord": "Direct founder answer call_b55fe08404904da28a7cbe68db69c042: Rights cover this original and derivatives; no restrictions. Record docs/PHOTOGRAPHY_COLT_RIGHTS_2026-10-19.json. Authentic manufacturer original SHA256 eb0685b7770aeddc68848479a8a3edbb1c6b44bb900fc11644dc8addd2f2f7a7. Complete native and whiteWEB individually reviewed. Original manufacturer alpha and native watch RGB retained; transparent exterior removed by white compositing only. Proportional resizing and centered2400blank white master/1200WEB; no reconstruction, recoloring or sharpening. Preserved RAW file: 18LxOyxbEd-mWyO_P2c7S1DywOaEd30bP. Pictured full reference A17388101B1A1; Stainless Steel, Black, Stainless-steel bracelet. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
+      "brand": "IWC",
+      "collection": "Portugieser",
+      "reference": "IW545901",
+      "configurations": [
+        {
+          "caseSize": "42.4 mm",
+          "movement": "IWC 81925 manual flying tourbillon",
+          "dial": "Obsidian black",
+          "bracelet": "Black alligator leather strap",
+          "nickname": "Obsidian black / Black alligator leather strap",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "18K Armor Gold",
+      "sources": [
+        "src/data/photography-expansion.ts"
+      ],
+      "routes": [
+        "/collections/iwc/portugieser/iw545901"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": "cleared-20261020-iw545901",
+      "status": "approved",
+      "sourceUrl": "https://press.iwc.com/es/iwc-portugieser-hand-wound-tourbillon-day-and-night-es/",
+      "licenseRecord": "Direct founder answer call_a2e0d2a2a478449c9cdc1e1b3e7626f8: Rights cover this original and derivatives; no restrictions. Record docs/PHOTOGRAPHY_TWO_RIGHTS_2026-10-20.json. Untouched native original SHA256 7d63c6fb9a726c721542a2e460a11ab981d8c36d064d603efca8c3435271ae2a. Complete native and final1200whiteWEB individually reviewed. Only original near-white exterior background excluded; internal contour filled to retain all white highlights and original watch pixels. Proportional resize and center on blank2400white master/1200WEB. No recoloring, sharpening or generated watch detail. Existing reference material terminology retained; no new alloy grade, price or availability inferred. Preserved RAW file: 1W73itChQTu_aPvg6tidfhoVuQ4PUyglu. Pictured full reference IW545901; 18K Armor Gold, Obsidian black, Black alligator leather strap. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
+      "brand": "Rolex",
+      "collection": "Daytona",
+      "reference": "16520",
+      "configurations": [
+        {
+          "dial": "Black",
+          "bracelet": "Oyster",
+          "caseSize": "40 mm",
+          "nickname": "Black / Oyster",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "Oystersteel",
+      "sources": [
+        "src/data/photography-expansion.ts"
+      ],
+      "routes": [
+        "/collections/rolex/daytona/16520"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": "cleared-20261020-16520",
+      "status": "approved",
+      "sourceUrl": "https://www.grayandsons.com/w526018-rolex-daytona-40mm-16520/",
+      "licenseRecord": "Direct founder answer call_1cc95e139f8a42c3a7ec4d651678fd4a: Rights cover this original and derivatives; no restrictions. Record docs/PHOTOGRAPHY_TWO_RIGHTS_2026-10-20.json. Untouched native original SHA256 97dab53026393c29cfcaf8eb4d1b08b3da36cc7be43d8b318942d80d8fa6b356. Complete native and final1200whiteWEB individually reviewed. Only original near-white exterior background excluded; internal contour filled to retain all white highlights and original watch pixels. Proportional resize and center on blank2400white master/1200WEB. No recoloring, sharpening or generated watch detail. Existing reference material terminology retained; no new alloy grade, price or availability inferred. Preserved RAW file: 1nsKaAIHW0pxRYNcXKIxlXCHqgUFP0p9S. Pictured full reference 16520; Oystersteel, Black, Oyster. Exact configuration reviewed against preserved source evidence and the original photograph.",
       "websiteApproved": true,
       "nextAction": "Retain approved original and verify derivative integrity."
     },
@@ -26876,6 +27027,37 @@
       "licenseRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for these exact eleven originals and white-background derivatives with no additional restrictions on October14,2026 Eastern. Record docs/PHOTOGRAPHY_ELEVEN_FOUNDER_RIGHTS_2026-10-15.json. Authentic complete RAW and final white WEB individually visually reviewed; source credits retained separately. Preserved RAW file: 1WrKyMkmuC6HW_9wbTemVIwuJ7R2LhMZR. Pictured full reference IW371617; Stainless Steel, Silver, Stainless-steel bracelet. Exact configuration reviewed against preserved source evidence and the original photograph.",
       "websiteApproved": true,
       "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
+      "brand": "IWC",
+      "collection": "Portugieser",
+      "reference": "IW545901",
+      "configurations": [
+        {
+          "caseSize": "42.4 mm",
+          "movement": "IWC 81925 manual flying tourbillon",
+          "dial": "Obsidian black",
+          "bracelet": "Model-specific leather strap",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "18K Armor Gold",
+      "sources": [
+        "src/data/verified-catalog-expansion.ts"
+      ],
+      "routes": [
+        "/collections/iwc/portugieser/iw545901"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": null,
+      "status": "Requires Verification",
+      "sourceUrl": "https://press.iwc.com/iwc-portugieser-hand-wound-tourbillon-day-and-night-en/",
+      "licenseRecord": null,
+      "websiteApproved": false,
+      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
     },
     {
       "brand": "IWC",
