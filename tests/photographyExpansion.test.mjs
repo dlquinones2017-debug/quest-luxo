@@ -8,7 +8,7 @@ const {collectionRegistry}=await import('../src/data/collectionRegistry.ts');
 const {photographyExpansionImages,photographyExpansionAssets}=await import('../src/data/photography-expansion.ts');
 const {approvedPhotograph}=await import('../src/lib/media/watchPhotography.ts');
 test('reviewed cleared photographs resolve only for represented exact configurations',()=>{
-  assert.equal(photographyExpansionImages.length,220);
+  assert.equal(photographyExpansionImages.length,225);
   for(const photo of photographyExpansionImages){
     const asset=collectionRegistry.find(c=>c.brand===photo.brand&&c.name===photo.collection)?.assets.find(a=>a.reference===photo.reference);
     assert.ok(asset,photo.reference+' must have a catalog record');
@@ -19,7 +19,7 @@ test('reviewed cleared photographs resolve only for represented exact configurat
   assert.ok(tudor.configuration.bracelet.toLowerCase().includes('five-link'),'correct newly cleared five-link bracelet must resolve');
   assert.equal(photographyExpansionImages.some(p=>p.reference==='M7941A1A0RU-0003'&&p.configuration.bracelet.toLowerCase().includes('rubber')),false,'mislabeled rubber-strap photograph must stay held');
   assert.ok(tudor.sourceUrl.includes('drive.google.com'),'founder image provenance stays distinct from manufacturer specification source');
-  assert.deepEqual(photographyExpansionImages.filter(p=>p.brand==='Franck Muller').map(p=>p.reference),['V 45 SC DT YACHT CR BL (BL)','V45','V 45 T BR (TT)','V 41 SC DT BEACH BU BL GF1','V 41 SC DT FR2 GFGRNR (NR)','8880CHACLB'],'only founder-cleared exact Franck Muller references may publish');
+  assert.deepEqual(photographyExpansionImages.filter(p=>p.brand==='Franck Muller').map(p=>p.reference),['V 45 SC DT YACHT CR BL (BL)','V45','V 45 T BR (TT)','V 41 SC DT BEACH BU BL GF1','V 41 SC DT BEACH FR2 GFBUBL (BC)','V 41 SC DT BEACH FR2 GFVRVE (BC)','V 41 SC DT BEACH FR2 GFRGFRG (BC)','V 41 SC DT FR2 GFGRNR (NR)','8880CHACLB'],'only founder-cleared exact Franck Muller references may publish');
   const masterControl=collectionRegistry.find(c=>c.brand==='Jaeger-LeCoultre'&&c.name==='Master Control').assets.find(a=>a.reference==='Q4018421');
   assert.ok(masterControl.configurations.some(c=>c.bracelet==='Light-brown calfskin strap'),'retain the original documented strap');
   assert.equal(approvedPhotograph(masterControl,photographyExpansionImages).configuration.bracelet,'Black alligator leather strap');

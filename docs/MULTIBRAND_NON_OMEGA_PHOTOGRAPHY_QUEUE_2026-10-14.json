@@ -6,8 +6,8 @@
   "summary": {
     "references": 70,
     "brands": 15,
-    "approvedForImageRelease": 42,
-    "tasksAwaitingExactImageRightsReview": 28
+    "approvedForImageRelease": 46,
+    "tasksAwaitingExactImageRightsReview": 24
   },
   "queue": [
     {
@@ -245,13 +245,13 @@
       },
       "identitySource": "https://www.hourstriker.com/database/franck-muller-vanguard-fr2nck-muller-vanguard-beach-v-41-sc-dt-beach-fr2-gfbubl-bc-33549",
       "priorityScore": 67,
-      "status": "RIGHTS_AND_EXACT_CONFIGURATION_REVIEW_REQUIRED",
-      "rawSourceFileId": null,
-      "webDerivativePath": null,
-      "webDerivativeSHA256": null,
-      "reviewer": null,
-      "commercialUseRightsRecord": null,
-      "notes": "Do not publish until approvedPhotograph verifies commercial rights and exact reference, and WEB image checksum matches stored file."
+      "status": "APPROVED_WITH_VALID_DERIVATIVE",
+      "rawSourceFileId": "1MXAyK2WuBEepigUjuRerYC1Ho70lP7jX",
+      "webDerivativePath": "/images/watches/franck-muller/reviewed-20261019-v-41-sc-dt-beach-fr2-gfbubl-bc-web.webp",
+      "webDerivativeSHA256": "393d30709495fec2d8c85801646d214804681be2f33b4ce0d15911056d6002be",
+      "reviewer": "Quest Luxo execution review with founder website-use clearance",
+      "commercialUseRightsRecord": "Direct founder answer call_fe1fcc7a57dd4fbdb5a5932c1d6e4549: Rights cover all five and derivatives; no restrictions. Record docs/PHOTOGRAPHY_FIVE_RIGHTS_2026-10-19.json. Untouched native original V-41-SC-DT-BEACH-FR2-GFBUBL-BC--raw.png SHA256 e09d78b337d2dbc175e811f2a9cb9ffd0b1b7095f2592116c094fdc6649e996f. Complete whole-watch original and centered white derivative individually reviewed. No generated, reconstructed or recolored watch detail. Original publisher alpha retained with two detached black exterior background remnants removed; native watch RGB unchanged. Proportional resize and centered blank white canvas; no generated or reconstructed watch detail. Preserved RAW file: 1MXAyK2WuBEepigUjuRerYC1Ho70lP7jX. Pictured full reference V 41 SC DT BEACH FR2 GFBUBL (BC); Blue glass-fiber composite, Surf Blue themed FR2 dial, Patterned nylon strap. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "notes": "Exact approvedPhotograph gate and local derivative SHA-256 validated; preserve approved source and separate source attribution."
     },
     {
       "brand": "Franck Muller",
@@ -269,13 +269,13 @@
       },
       "identitySource": "https://www.hourstriker.com/database/franck-muller-vanguard-fr2nck-muller-vanguard-beach-v-41-sc-dt-beach-fr2-gfvrve-bc-33551",
       "priorityScore": 67,
-      "status": "RIGHTS_AND_EXACT_CONFIGURATION_REVIEW_REQUIRED",
-      "rawSourceFileId": null,
-      "webDerivativePath": null,
-      "webDerivativeSHA256": null,
-      "reviewer": null,
-      "commercialUseRightsRecord": null,
-      "notes": "Do not publish until approvedPhotograph verifies commercial rights and exact reference, and WEB image checksum matches stored file."
+      "status": "APPROVED_WITH_VALID_DERIVATIVE",
+      "rawSourceFileId": "1MXAyK2WuBEepigUjuRerYC1Ho70lP7jX",
+      "webDerivativePath": "/images/watches/franck-muller/reviewed-20261019-v-41-sc-dt-beach-fr2-gfvrve-bc-web.webp",
+      "webDerivativeSHA256": "1e5b65c3399bdc44e27f5258cc74f245a8fec769f32d380c45e1dc0990f8de33",
+      "reviewer": "Quest Luxo execution review with founder website-use clearance",
+      "commercialUseRightsRecord": "Direct founder answer call_fe1fcc7a57dd4fbdb5a5932c1d6e4549: Rights cover all five and derivatives; no restrictions. Record docs/PHOTOGRAPHY_FIVE_RIGHTS_2026-10-19.json. Untouched native original V-41-SC-DT-BEACH-FR2-GFVRVE-BC--raw.png SHA256 008bfb61fb6cd85f79ef87a1b967eb12380f4db3e4fc02666e9760563e5ebc03. Complete whole-watch original and centered white derivative individually reviewed. No generated, reconstructed or recolored watch detail. Original publisher alpha retained with two detached black exterior background remnants removed; native watch RGB unchanged. Proportional resize and centered blank white canvas; no generated or reconstructed watch detail. Preserved RAW file: 1MXAyK2WuBEepigUjuRerYC1Ho70lP7jX. Pictured full reference V 41 SC DT BEACH FR2 GFVRVE (BC); Green glass-fiber composite, Tropical Green themed FR2 dial, Patterned nylon strap. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "notes": "Exact approvedPhotograph gate and local derivative SHA-256 validated; preserve approved source and separate source attribution."
     },
     {
       "brand": "IWC",
@@ -461,13 +461,13 @@
       },
       "identitySource": "https://www.hourstriker.com/database/franck-muller-vanguard-fr2nck-muller-vanguard-beach-v-41-sc-dt-beach-fr2-gfrgfrg-bc-33550",
       "priorityScore": 63,
-      "status": "RIGHTS_AND_EXACT_CONFIGURATION_REVIEW_REQUIRED",
-      "rawSourceFileId": null,
-      "webDerivativePath": null,
-      "webDerivativeSHA256": null,
-      "reviewer": null,
-      "commercialUseRightsRecord": null,
-      "notes": "Do not publish until approvedPhotograph verifies commercial rights and exact reference, and WEB image checksum matches stored file."
+      "status": "APPROVED_WITH_VALID_DERIVATIVE",
+      "rawSourceFileId": "1MXAyK2WuBEepigUjuRerYC1Ho70lP7jX",
+      "webDerivativePath": "/images/watches/franck-muller/reviewed-20261019-v-41-sc-dt-beach-fr2-gfrgfrg-bc-web.webp",
+      "webDerivativeSHA256": "fbea79e97d68d211fff4c5eb55431a6f79b549341172e126973520b52e4abb20",
+      "reviewer": "Quest Luxo execution review with founder website-use clearance",
+      "commercialUseRightsRecord": "Direct founder answer call_fe1fcc7a57dd4fbdb5a5932c1d6e4549: Rights cover all five and derivatives; no restrictions. Record docs/PHOTOGRAPHY_FIVE_RIGHTS_2026-10-19.json. Untouched native original V-41-SC-DT-BEACH-FR2-GFRGFRG-BC--raw.png SHA256 605ee03da9ef4e331521bcb108d39503976c47cae4dd85c3f7596e2f2ac5d983. Complete whole-watch original and centered white derivative individually reviewed. No generated, reconstructed or recolored watch detail. Original publisher alpha retained with two detached black exterior background remnants removed; native watch RGB unchanged. Proportional resize and centered blank white canvas; no generated or reconstructed watch detail. Preserved RAW file: 1MXAyK2WuBEepigUjuRerYC1Ho70lP7jX. Pictured full reference V 41 SC DT BEACH FR2 GFRGFRG (BC); Red glass-fiber composite, Heatwave Red themed FR2 dial, Patterned nylon strap. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "notes": "Exact approvedPhotograph gate and local derivative SHA-256 validated; preserve approved source and separate source attribution."
     },
     {
       "brand": "Franck Muller",
@@ -533,13 +533,13 @@
       },
       "identitySource": "https://www.breitling.com/xk-en/watches/avenger/avenger-ii-gmt/A32390111G1A1/",
       "priorityScore": 60,
-      "status": "RIGHTS_AND_EXACT_CONFIGURATION_REVIEW_REQUIRED",
-      "rawSourceFileId": null,
-      "webDerivativePath": null,
-      "webDerivativeSHA256": null,
-      "reviewer": null,
-      "commercialUseRightsRecord": null,
-      "notes": "Do not publish until approvedPhotograph verifies commercial rights and exact reference, and WEB image checksum matches stored file."
+      "status": "APPROVED_WITH_VALID_DERIVATIVE",
+      "rawSourceFileId": "1qDCQiMt-4smyo9ljzpOTb8at83V9nl4N",
+      "webDerivativePath": "/images/watches/breitling/reviewed-20261019-a32390111g1a1-web.webp",
+      "webDerivativeSHA256": "80b17151a9f8cb634d5f6bafb8d74afad6635f9deb2c2fe519852e1ada90be70",
+      "reviewer": "Quest Luxo execution review with founder website-use clearance",
+      "commercialUseRightsRecord": "Direct founder answer call_fe1fcc7a57dd4fbdb5a5932c1d6e4549: Rights cover all five and derivatives; no restrictions. Record docs/PHOTOGRAPHY_FIVE_RIGHTS_2026-10-19.json. Untouched native original A32390111G1A1-raw.webp SHA256 3de3a626d7f9dca76ea77efac84241744e936a4009626ad10d7ce24a98c47122. Complete whole-watch original and centered white derivative individually reviewed. No generated, reconstructed or recolored watch detail. Manufacturer native alpha preserved without mask reconstruction; original watch RGBA retained and centered on blank white2400master/1200WEB. No AI, generated details or recolouring. Preserved RAW file: 1qDCQiMt-4smyo9ljzpOTb8at83V9nl4N. Pictured full reference A32390111G1A1; Stainless Steel, Silver, Stainless-steel bracelet. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "notes": "Exact approvedPhotograph gate and local derivative SHA-256 validated; preserve approved source and separate source attribution."
     },
     {
       "brand": "Breitling",
@@ -1694,5 +1694,5 @@
       "notes": "Founder-upload identity verified October16. Separate source-original and review evidence in FOUNDER_UPLOAD_CONTINUATION_2026-10-16.json. Underlying commercial rights and final photography quality still required; no publication approval implied."
     }
   ],
-  "updatedAt": "2026-10-19T20:25:53.657Z"
+  "updatedAt": "2026-10-20T01:36:09.409Z"
 }

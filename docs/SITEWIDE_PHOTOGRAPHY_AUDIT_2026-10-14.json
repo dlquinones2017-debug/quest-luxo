@@ -1,14 +1,14 @@
 {
-  "auditedAt": "2026-10-19T20:29:18.917Z",
+  "auditedAt": "2026-10-20T01:37:46.457Z",
   "summary": {
     "brands": 23,
     "collections": 104,
     "registryRecords": 298,
     "distinctRoutes": 297,
     "normalizedBrandReferenceIdentities": 294,
-    "approved": 229,
-    "missing": 68,
-    "collectionsWithPhotography": 82,
+    "approved": 234,
+    "missing": 63,
+    "collectionsWithPhotography": 84,
     "unusedApprovedRecords": 2,
     "duplicateNormalizedReferenceGroups": 4,
     "fileIntegrityFailures": 0,
@@ -59,8 +59,8 @@
       "brand": "Breitling",
       "registryRecords": 10,
       "referencePages": 10,
-      "approved": 8,
-      "missing": 2,
+      "approved": 9,
+      "missing": 1,
       "collections": 6
     },
     {
@@ -83,8 +83,8 @@
       "brand": "Franck Muller",
       "registryRecords": 15,
       "referencePages": 15,
-      "approved": 7,
-      "missing": 8,
+      "approved": 10,
+      "missing": 5,
       "collections": 9
     },
     {
@@ -123,8 +123,8 @@
       "brand": "Omega",
       "registryRecords": 71,
       "referencePages": 71,
-      "approved": 58,
-      "missing": 13,
+      "approved": 59,
+      "missing": 12,
       "collections": 11
     },
     {
@@ -3940,11 +3940,18 @@
           "movement": "Calibre 1120 automatic",
           "dial": "Blue wave dial",
           "bracelet": "Stainless-steel bracelet",
-          "waterResistance": "300 m"
+          "waterResistance": "300 m",
+          "nickname": "Blue wave dial / Stainless-steel bracelet",
+          "originalMSRP": null,
+          "currentMSRP": null
         }
       ],
-      "approved": false,
-      "photo": null,
+      "approved": true,
+      "photo": {
+        "assetId": "cleared-20261019-2531-80",
+        "src": "/images/watches/omega/reviewed-20261019-2531-80-web.webp",
+        "sha256": "408e1781fb9612990cd10d4e6b10eb3bd14a529b313d7b03cf23e8aeef302059"
+      },
       "recoveryCandidates": []
     },
     {
@@ -7878,11 +7885,16 @@
           "dial": "Surf Blue themed FR2 dial",
           "bracelet": "Patterned nylon strap",
           "originalMSRP": null,
-          "currentMSRP": null
+          "currentMSRP": null,
+          "nickname": "Surf Blue themed FR2 dial / Patterned nylon strap"
         }
       ],
-      "approved": false,
-      "photo": null,
+      "approved": true,
+      "photo": {
+        "assetId": "cleared-20261019-v-41-sc-dt-beach-fr2-gfbubl-bc",
+        "src": "/images/watches/franck-muller/reviewed-20261019-v-41-sc-dt-beach-fr2-gfbubl-bc-web.webp",
+        "sha256": "393d30709495fec2d8c85801646d214804681be2f33b4ce0d15911056d6002be"
+      },
       "recoveryCandidates": []
     },
     {
@@ -7900,11 +7912,16 @@
           "dial": "Heatwave Red themed FR2 dial",
           "bracelet": "Patterned nylon strap",
           "originalMSRP": null,
-          "currentMSRP": null
+          "currentMSRP": null,
+          "nickname": "Heatwave Red themed FR2 dial / Patterned nylon strap"
         }
       ],
-      "approved": false,
-      "photo": null,
+      "approved": true,
+      "photo": {
+        "assetId": "cleared-20261019-v-41-sc-dt-beach-fr2-gfrgfrg-bc",
+        "src": "/images/watches/franck-muller/reviewed-20261019-v-41-sc-dt-beach-fr2-gfrgfrg-bc-web.webp",
+        "sha256": "fbea79e97d68d211fff4c5eb55431a6f79b549341172e126973520b52e4abb20"
+      },
       "recoveryCandidates": []
     },
     {
@@ -7922,11 +7939,16 @@
           "dial": "Tropical Green themed FR2 dial",
           "bracelet": "Patterned nylon strap",
           "originalMSRP": null,
-          "currentMSRP": null
+          "currentMSRP": null,
+          "nickname": "Tropical Green themed FR2 dial / Patterned nylon strap"
         }
       ],
-      "approved": false,
-      "photo": null,
+      "approved": true,
+      "photo": {
+        "assetId": "cleared-20261019-v-41-sc-dt-beach-fr2-gfvrve-bc",
+        "src": "/images/watches/franck-muller/reviewed-20261019-v-41-sc-dt-beach-fr2-gfvrve-bc-web.webp",
+        "sha256": "1e5b65c3399bdc44e27f5258cc74f245a8fec769f32d380c45e1dc0990f8de33"
+      },
       "recoveryCandidates": []
     },
     {
@@ -8177,11 +8199,16 @@
           "dial": "Silver",
           "bracelet": "Stainless-steel bracelet",
           "originalMSRP": null,
-          "currentMSRP": null
+          "currentMSRP": null,
+          "nickname": "Silver / Stainless-steel bracelet"
         }
       ],
-      "approved": false,
-      "photo": null,
+      "approved": true,
+      "photo": {
+        "assetId": "cleared-20261019-a32390111g1a1",
+        "src": "/images/watches/breitling/reviewed-20261019-a32390111g1a1-web.webp",
+        "sha256": "80b17151a9f8cb634d5f6bafb8d74afad6635f9deb2c2fe519852e1ada90be70"
+      },
       "recoveryCandidates": []
     },
     {

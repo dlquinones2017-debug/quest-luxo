@@ -1,14 +1,14 @@
 {
-  "reviewedAt": "2026-10-19T20:29:17.270Z",
+  "reviewedAt": "2026-10-20T01:37:45.736Z",
   "note": "Generated from all exported source datasets and built routes. Source-only and duplicate configuration records are retained for review; this register is not proof of image rights. Source URLs identify research leads, not licenses.",
   "summary": {
-    "sourceConfigurations": 926,
+    "sourceConfigurations": 940,
     "builtReferenceRoutes": 297,
     "collectionRoutes": 104,
-    "approvedReferenceConfigurations": 460,
+    "approvedReferenceConfigurations": 474,
     "unmatchedReferenceRoutes": 0,
-    "approvedCanonicalReferenceRoutes": 229,
-    "queuedCanonicalReferenceRoutes": 68
+    "approvedCanonicalReferenceRoutes": 234,
+    "queuedCanonicalReferenceRoutes": 63
   },
   "collections": [
     {
@@ -7395,26 +7395,29 @@
           "movement": "Calibre 1120 automatic",
           "dial": "Blue wave dial",
           "bracelet": "Stainless-steel bracelet",
-          "waterResistance": "300 m"
+          "waterResistance": "300 m",
+          "nickname": "Blue wave dial / Stainless-steel bracelet",
+          "originalMSRP": null,
+          "currentMSRP": null
         }
       ],
       "material": "Stainless Steel",
       "sources": [
         "src/data/collectionRegistry.ts",
-        "src/data/reference-expansion.ts"
+        "src/data/photography-expansion.ts"
       ],
       "routes": [
         "/collections/omega/seamaster/2531-80"
       ],
       "scope": "built-reference",
-      "existingImage": "/images/watch-reference-placeholder.svg",
+      "existingImage": "/images/watches/omega/reviewed-20261019-2531-80-web.webp",
       "existingImageFilePresent": true,
-      "photoAssetId": null,
-      "status": "Requires Verification",
-      "sourceUrl": null,
-      "licenseRecord": null,
-      "websiteApproved": false,
-      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+      "photoAssetId": "cleared-20261019-2531-80",
+      "status": "approved",
+      "sourceUrl": "https://drive.google.com/file/d/1MXAyK2WuBEepigUjuRerYC1Ho70lP7jX/view",
+      "licenseRecord": "Direct founder answer call_fe1fcc7a57dd4fbdb5a5932c1d6e4549: Rights cover all five and derivatives; no restrictions. Record docs/PHOTOGRAPHY_FIVE_RIGHTS_2026-10-19.json. Untouched native original omega-2531-80-gray-hero-native.img SHA256 887561d111476ec2352e1ad5cd0fb6ac004b2cc9cb0840293a39fb20ac72cfd7. Complete whole-watch original and centered white derivative individually reviewed. No generated, reconstructed or recolored watch detail. Only original near-white exterior background excluded; internal contour filled to retain all white highlights and original watch pixels. Proportional resize and center on blank2400white master/1200WEB. No recoloring, sharpening or generated watch detail. Preserved RAW file: 1MXAyK2WuBEepigUjuRerYC1Ho70lP7jX. Pictured full reference 2531.80; Stainless Steel, Blue wave dial, Stainless-steel bracelet. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
     },
     {
       "brand": "Omega",
@@ -12274,26 +12277,26 @@
           "dial": "Surf Blue themed FR2 dial",
           "bracelet": "Patterned nylon strap",
           "originalMSRP": null,
-          "currentMSRP": null
+          "currentMSRP": null,
+          "nickname": "Surf Blue themed FR2 dial / Patterned nylon strap"
         }
       ],
       "material": "Blue glass-fiber composite",
       "sources": [
-        "src/data/collectionRegistry.ts",
-        "src/data/verified-catalog-expansion.ts"
+        "src/data/collectionRegistry.ts"
       ],
       "routes": [
         "/collections/franck-muller/fr2nck-vanguard-beach/v-41-sc-dt-beach-fr2-gfbubl-bc"
       ],
       "scope": "built-reference",
-      "existingImage": "/images/watch-reference-placeholder.svg",
+      "existingImage": "/images/watches/franck-muller/reviewed-20261019-v-41-sc-dt-beach-fr2-gfbubl-bc-web.webp",
       "existingImageFilePresent": true,
-      "photoAssetId": null,
-      "status": "Requires Verification",
-      "sourceUrl": "https://www.hourstriker.com/database/franck-muller-vanguard-fr2nck-muller-vanguard-beach-v-41-sc-dt-beach-fr2-gfbubl-bc-33549",
-      "licenseRecord": null,
-      "websiteApproved": false,
-      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+      "photoAssetId": "cleared-20261019-v-41-sc-dt-beach-fr2-gfbubl-bc",
+      "status": "approved",
+      "sourceUrl": "https://drive.google.com/file/d/1MXAyK2WuBEepigUjuRerYC1Ho70lP7jX/view",
+      "licenseRecord": "Direct founder answer call_fe1fcc7a57dd4fbdb5a5932c1d6e4549: Rights cover all five and derivatives; no restrictions. Record docs/PHOTOGRAPHY_FIVE_RIGHTS_2026-10-19.json. Untouched native original V-41-SC-DT-BEACH-FR2-GFBUBL-BC--raw.png SHA256 e09d78b337d2dbc175e811f2a9cb9ffd0b1b7095f2592116c094fdc6649e996f. Complete whole-watch original and centered white derivative individually reviewed. No generated, reconstructed or recolored watch detail. Original publisher alpha retained with two detached black exterior background remnants removed; native watch RGB unchanged. Proportional resize and centered blank white canvas; no generated or reconstructed watch detail. Preserved RAW file: 1MXAyK2WuBEepigUjuRerYC1Ho70lP7jX. Pictured full reference V 41 SC DT BEACH FR2 GFBUBL (BC); Blue glass-fiber composite, Surf Blue themed FR2 dial, Patterned nylon strap. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
     },
     {
       "brand": "Franck Muller",
@@ -12306,26 +12309,26 @@
           "dial": "Heatwave Red themed FR2 dial",
           "bracelet": "Patterned nylon strap",
           "originalMSRP": null,
-          "currentMSRP": null
+          "currentMSRP": null,
+          "nickname": "Heatwave Red themed FR2 dial / Patterned nylon strap"
         }
       ],
       "material": "Red glass-fiber composite",
       "sources": [
-        "src/data/collectionRegistry.ts",
-        "src/data/verified-catalog-expansion.ts"
+        "src/data/collectionRegistry.ts"
       ],
       "routes": [
         "/collections/franck-muller/fr2nck-vanguard-beach/v-41-sc-dt-beach-fr2-gfrgfrg-bc"
       ],
       "scope": "built-reference",
-      "existingImage": "/images/watch-reference-placeholder.svg",
+      "existingImage": "/images/watches/franck-muller/reviewed-20261019-v-41-sc-dt-beach-fr2-gfrgfrg-bc-web.webp",
       "existingImageFilePresent": true,
-      "photoAssetId": null,
-      "status": "Requires Verification",
-      "sourceUrl": "https://www.hourstriker.com/database/franck-muller-vanguard-fr2nck-muller-vanguard-beach-v-41-sc-dt-beach-fr2-gfrgfrg-bc-33550",
-      "licenseRecord": null,
-      "websiteApproved": false,
-      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+      "photoAssetId": "cleared-20261019-v-41-sc-dt-beach-fr2-gfrgfrg-bc",
+      "status": "approved",
+      "sourceUrl": "https://drive.google.com/file/d/1MXAyK2WuBEepigUjuRerYC1Ho70lP7jX/view",
+      "licenseRecord": "Direct founder answer call_fe1fcc7a57dd4fbdb5a5932c1d6e4549: Rights cover all five and derivatives; no restrictions. Record docs/PHOTOGRAPHY_FIVE_RIGHTS_2026-10-19.json. Untouched native original V-41-SC-DT-BEACH-FR2-GFRGFRG-BC--raw.png SHA256 605ee03da9ef4e331521bcb108d39503976c47cae4dd85c3f7596e2f2ac5d983. Complete whole-watch original and centered white derivative individually reviewed. No generated, reconstructed or recolored watch detail. Original publisher alpha retained with two detached black exterior background remnants removed; native watch RGB unchanged. Proportional resize and centered blank white canvas; no generated or reconstructed watch detail. Preserved RAW file: 1MXAyK2WuBEepigUjuRerYC1Ho70lP7jX. Pictured full reference V 41 SC DT BEACH FR2 GFRGFRG (BC); Red glass-fiber composite, Heatwave Red themed FR2 dial, Patterned nylon strap. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
     },
     {
       "brand": "Franck Muller",
@@ -12338,26 +12341,26 @@
           "dial": "Tropical Green themed FR2 dial",
           "bracelet": "Patterned nylon strap",
           "originalMSRP": null,
-          "currentMSRP": null
+          "currentMSRP": null,
+          "nickname": "Tropical Green themed FR2 dial / Patterned nylon strap"
         }
       ],
       "material": "Green glass-fiber composite",
       "sources": [
-        "src/data/collectionRegistry.ts",
-        "src/data/verified-catalog-expansion.ts"
+        "src/data/collectionRegistry.ts"
       ],
       "routes": [
         "/collections/franck-muller/fr2nck-vanguard-beach/v-41-sc-dt-beach-fr2-gfvrve-bc"
       ],
       "scope": "built-reference",
-      "existingImage": "/images/watch-reference-placeholder.svg",
+      "existingImage": "/images/watches/franck-muller/reviewed-20261019-v-41-sc-dt-beach-fr2-gfvrve-bc-web.webp",
       "existingImageFilePresent": true,
-      "photoAssetId": null,
-      "status": "Requires Verification",
-      "sourceUrl": "https://www.hourstriker.com/database/franck-muller-vanguard-fr2nck-muller-vanguard-beach-v-41-sc-dt-beach-fr2-gfvrve-bc-33551",
-      "licenseRecord": null,
-      "websiteApproved": false,
-      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+      "photoAssetId": "cleared-20261019-v-41-sc-dt-beach-fr2-gfvrve-bc",
+      "status": "approved",
+      "sourceUrl": "https://drive.google.com/file/d/1MXAyK2WuBEepigUjuRerYC1Ho70lP7jX/view",
+      "licenseRecord": "Direct founder answer call_fe1fcc7a57dd4fbdb5a5932c1d6e4549: Rights cover all five and derivatives; no restrictions. Record docs/PHOTOGRAPHY_FIVE_RIGHTS_2026-10-19.json. Untouched native original V-41-SC-DT-BEACH-FR2-GFVRVE-BC--raw.png SHA256 008bfb61fb6cd85f79ef87a1b967eb12380f4db3e4fc02666e9760563e5ebc03. Complete whole-watch original and centered white derivative individually reviewed. No generated, reconstructed or recolored watch detail. Original publisher alpha retained with two detached black exterior background remnants removed; native watch RGB unchanged. Proportional resize and centered blank white canvas; no generated or reconstructed watch detail. Preserved RAW file: 1MXAyK2WuBEepigUjuRerYC1Ho70lP7jX. Pictured full reference V 41 SC DT BEACH FR2 GFVRVE (BC); Green glass-fiber composite, Tropical Green themed FR2 dial, Patterned nylon strap. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
     },
     {
       "brand": "Franck Muller",
@@ -12698,26 +12701,26 @@
           "dial": "Silver",
           "bracelet": "Stainless-steel bracelet",
           "originalMSRP": null,
-          "currentMSRP": null
+          "currentMSRP": null,
+          "nickname": "Silver / Stainless-steel bracelet"
         }
       ],
       "material": "Stainless Steel",
       "sources": [
-        "src/data/collectionRegistry.ts",
-        "src/data/verified-catalog-expansion.ts"
+        "src/data/collectionRegistry.ts"
       ],
       "routes": [
         "/collections/breitling/avenger-ii/a32390111g1a1"
       ],
       "scope": "built-reference",
-      "existingImage": "/images/watch-reference-placeholder.svg",
+      "existingImage": "/images/watches/breitling/reviewed-20261019-a32390111g1a1-web.webp",
       "existingImageFilePresent": true,
-      "photoAssetId": null,
-      "status": "Requires Verification",
-      "sourceUrl": "https://www.breitling.com/xk-en/watches/avenger/avenger-ii-gmt/A32390111G1A1/",
-      "licenseRecord": null,
-      "websiteApproved": false,
-      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+      "photoAssetId": "cleared-20261019-a32390111g1a1",
+      "status": "approved",
+      "sourceUrl": "https://drive.google.com/file/d/1qDCQiMt-4smyo9ljzpOTb8at83V9nl4N/view",
+      "licenseRecord": "Direct founder answer call_fe1fcc7a57dd4fbdb5a5932c1d6e4549: Rights cover all five and derivatives; no restrictions. Record docs/PHOTOGRAPHY_FIVE_RIGHTS_2026-10-19.json. Untouched native original A32390111G1A1-raw.webp SHA256 3de3a626d7f9dca76ea77efac84241744e936a4009626ad10d7ce24a98c47122. Complete whole-watch original and centered white derivative individually reviewed. No generated, reconstructed or recolored watch detail. Manufacturer native alpha preserved without mask reconstruction; original watch RGBA retained and centered on blank white2400master/1200WEB. No AI, generated details or recolouring. Preserved RAW file: 1qDCQiMt-4smyo9ljzpOTb8at83V9nl4N. Pictured full reference A32390111G1A1; Stainless Steel, Silver, Stainless-steel bracelet. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
     },
     {
       "brand": "Omega",
@@ -18392,6 +18395,116 @@
     },
     {
       "brand": "Breitling",
+      "collection": "Avenger II",
+      "reference": "A32390111G1A1",
+      "configurations": [],
+      "material": "Stainless Steel",
+      "sources": [
+        "src/data/photography-cleared-sprint.ts"
+      ],
+      "routes": [
+        "/collections/breitling/avenger-ii/a32390111g1a1"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": null,
+      "status": "Requires Verification",
+      "sourceUrl": null,
+      "licenseRecord": null,
+      "websiteApproved": false,
+      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+    },
+    {
+      "brand": "Franck Muller",
+      "collection": "FR2NCK Vanguard Beach",
+      "reference": "V 41 SC DT BEACH FR2 GFBUBL (BC)",
+      "configurations": [],
+      "material": "Blue glass-fiber composite",
+      "sources": [
+        "src/data/photography-cleared-sprint.ts"
+      ],
+      "routes": [
+        "/collections/franck-muller/fr2nck-vanguard-beach/v-41-sc-dt-beach-fr2-gfbubl-bc"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": null,
+      "status": "Requires Verification",
+      "sourceUrl": null,
+      "licenseRecord": null,
+      "websiteApproved": false,
+      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+    },
+    {
+      "brand": "Franck Muller",
+      "collection": "FR2NCK Vanguard Beach",
+      "reference": "V 41 SC DT BEACH FR2 GFVRVE (BC)",
+      "configurations": [],
+      "material": "Green glass-fiber composite",
+      "sources": [
+        "src/data/photography-cleared-sprint.ts"
+      ],
+      "routes": [
+        "/collections/franck-muller/fr2nck-vanguard-beach/v-41-sc-dt-beach-fr2-gfvrve-bc"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": null,
+      "status": "Requires Verification",
+      "sourceUrl": null,
+      "licenseRecord": null,
+      "websiteApproved": false,
+      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+    },
+    {
+      "brand": "Franck Muller",
+      "collection": "FR2NCK Vanguard Beach",
+      "reference": "V 41 SC DT BEACH FR2 GFRGFRG (BC)",
+      "configurations": [],
+      "material": "Red glass-fiber composite",
+      "sources": [
+        "src/data/photography-cleared-sprint.ts"
+      ],
+      "routes": [
+        "/collections/franck-muller/fr2nck-vanguard-beach/v-41-sc-dt-beach-fr2-gfrgfrg-bc"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": null,
+      "status": "Requires Verification",
+      "sourceUrl": null,
+      "licenseRecord": null,
+      "websiteApproved": false,
+      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+    },
+    {
+      "brand": "Omega",
+      "collection": "Seamaster Diver 300M",
+      "reference": "2531.80",
+      "configurations": [],
+      "material": "Stainless Steel",
+      "sources": [
+        "src/data/photography-cleared-sprint.ts"
+      ],
+      "routes": [
+        "/collections/omega/seamaster/2531-80"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": null,
+      "status": "Requires Verification",
+      "sourceUrl": null,
+      "licenseRecord": null,
+      "websiteApproved": false,
+      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+    },
+    {
+      "brand": "Breitling",
       "collection": "Superocean",
       "reference": "A17376211B1A1",
       "configurations": [
@@ -22246,6 +22359,134 @@
       "nextAction": "Retain approved original and verify derivative integrity."
     },
     {
+      "brand": "Breitling",
+      "collection": "Avenger II",
+      "reference": "A32390111G1A1",
+      "configurations": [
+        {
+          "caseSize": "43 mm",
+          "movement": "Breitling 32 automatic GMT",
+          "dial": "Silver",
+          "bracelet": "Stainless-steel bracelet",
+          "nickname": "Silver / Stainless-steel bracelet",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "Stainless Steel",
+      "sources": [
+        "src/data/photography-expansion.ts"
+      ],
+      "routes": [
+        "/collections/breitling/avenger-ii/a32390111g1a1"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": "cleared-20261019-a32390111g1a1",
+      "status": "approved",
+      "sourceUrl": "https://drive.google.com/file/d/1qDCQiMt-4smyo9ljzpOTb8at83V9nl4N/view",
+      "licenseRecord": "Direct founder answer call_fe1fcc7a57dd4fbdb5a5932c1d6e4549: Rights cover all five and derivatives; no restrictions. Record docs/PHOTOGRAPHY_FIVE_RIGHTS_2026-10-19.json. Untouched native original A32390111G1A1-raw.webp SHA256 3de3a626d7f9dca76ea77efac84241744e936a4009626ad10d7ce24a98c47122. Complete whole-watch original and centered white derivative individually reviewed. No generated, reconstructed or recolored watch detail. Manufacturer native alpha preserved without mask reconstruction; original watch RGBA retained and centered on blank white2400master/1200WEB. No AI, generated details or recolouring. Preserved RAW file: 1qDCQiMt-4smyo9ljzpOTb8at83V9nl4N. Pictured full reference A32390111G1A1; Stainless Steel, Silver, Stainless-steel bracelet. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
+      "brand": "Franck Muller",
+      "collection": "FR2NCK Vanguard Beach",
+      "reference": "V 41 SC DT BEACH FR2 GFBUBL (BC)",
+      "configurations": [
+        {
+          "caseSize": "41 mm",
+          "movement": "Automatic",
+          "dial": "Surf Blue themed FR2 dial",
+          "bracelet": "Patterned nylon strap",
+          "nickname": "Surf Blue themed FR2 dial / Patterned nylon strap",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "Blue glass-fiber composite",
+      "sources": [
+        "src/data/photography-expansion.ts"
+      ],
+      "routes": [
+        "/collections/franck-muller/fr2nck-vanguard-beach/v-41-sc-dt-beach-fr2-gfbubl-bc"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": "cleared-20261019-v-41-sc-dt-beach-fr2-gfbubl-bc",
+      "status": "approved",
+      "sourceUrl": "https://drive.google.com/file/d/1MXAyK2WuBEepigUjuRerYC1Ho70lP7jX/view",
+      "licenseRecord": "Direct founder answer call_fe1fcc7a57dd4fbdb5a5932c1d6e4549: Rights cover all five and derivatives; no restrictions. Record docs/PHOTOGRAPHY_FIVE_RIGHTS_2026-10-19.json. Untouched native original V-41-SC-DT-BEACH-FR2-GFBUBL-BC--raw.png SHA256 e09d78b337d2dbc175e811f2a9cb9ffd0b1b7095f2592116c094fdc6649e996f. Complete whole-watch original and centered white derivative individually reviewed. No generated, reconstructed or recolored watch detail. Original publisher alpha retained with two detached black exterior background remnants removed; native watch RGB unchanged. Proportional resize and centered blank white canvas; no generated or reconstructed watch detail. Preserved RAW file: 1MXAyK2WuBEepigUjuRerYC1Ho70lP7jX. Pictured full reference V 41 SC DT BEACH FR2 GFBUBL (BC); Blue glass-fiber composite, Surf Blue themed FR2 dial, Patterned nylon strap. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
+      "brand": "Franck Muller",
+      "collection": "FR2NCK Vanguard Beach",
+      "reference": "V 41 SC DT BEACH FR2 GFVRVE (BC)",
+      "configurations": [
+        {
+          "caseSize": "41 mm",
+          "movement": "Automatic",
+          "dial": "Tropical Green themed FR2 dial",
+          "bracelet": "Patterned nylon strap",
+          "nickname": "Tropical Green themed FR2 dial / Patterned nylon strap",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "Green glass-fiber composite",
+      "sources": [
+        "src/data/photography-expansion.ts"
+      ],
+      "routes": [
+        "/collections/franck-muller/fr2nck-vanguard-beach/v-41-sc-dt-beach-fr2-gfvrve-bc"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": "cleared-20261019-v-41-sc-dt-beach-fr2-gfvrve-bc",
+      "status": "approved",
+      "sourceUrl": "https://drive.google.com/file/d/1MXAyK2WuBEepigUjuRerYC1Ho70lP7jX/view",
+      "licenseRecord": "Direct founder answer call_fe1fcc7a57dd4fbdb5a5932c1d6e4549: Rights cover all five and derivatives; no restrictions. Record docs/PHOTOGRAPHY_FIVE_RIGHTS_2026-10-19.json. Untouched native original V-41-SC-DT-BEACH-FR2-GFVRVE-BC--raw.png SHA256 008bfb61fb6cd85f79ef87a1b967eb12380f4db3e4fc02666e9760563e5ebc03. Complete whole-watch original and centered white derivative individually reviewed. No generated, reconstructed or recolored watch detail. Original publisher alpha retained with two detached black exterior background remnants removed; native watch RGB unchanged. Proportional resize and centered blank white canvas; no generated or reconstructed watch detail. Preserved RAW file: 1MXAyK2WuBEepigUjuRerYC1Ho70lP7jX. Pictured full reference V 41 SC DT BEACH FR2 GFVRVE (BC); Green glass-fiber composite, Tropical Green themed FR2 dial, Patterned nylon strap. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
+      "brand": "Franck Muller",
+      "collection": "FR2NCK Vanguard Beach",
+      "reference": "V 41 SC DT BEACH FR2 GFRGFRG (BC)",
+      "configurations": [
+        {
+          "caseSize": "41 mm",
+          "movement": "Automatic",
+          "dial": "Heatwave Red themed FR2 dial",
+          "bracelet": "Patterned nylon strap",
+          "nickname": "Heatwave Red themed FR2 dial / Patterned nylon strap",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "Red glass-fiber composite",
+      "sources": [
+        "src/data/photography-expansion.ts"
+      ],
+      "routes": [
+        "/collections/franck-muller/fr2nck-vanguard-beach/v-41-sc-dt-beach-fr2-gfrgfrg-bc"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": "cleared-20261019-v-41-sc-dt-beach-fr2-gfrgfrg-bc",
+      "status": "approved",
+      "sourceUrl": "https://drive.google.com/file/d/1MXAyK2WuBEepigUjuRerYC1Ho70lP7jX/view",
+      "licenseRecord": "Direct founder answer call_fe1fcc7a57dd4fbdb5a5932c1d6e4549: Rights cover all five and derivatives; no restrictions. Record docs/PHOTOGRAPHY_FIVE_RIGHTS_2026-10-19.json. Untouched native original V-41-SC-DT-BEACH-FR2-GFRGFRG-BC--raw.png SHA256 605ee03da9ef4e331521bcb108d39503976c47cae4dd85c3f7596e2f2ac5d983. Complete whole-watch original and centered white derivative individually reviewed. No generated, reconstructed or recolored watch detail. Original publisher alpha retained with two detached black exterior background remnants removed; native watch RGB unchanged. Proportional resize and centered blank white canvas; no generated or reconstructed watch detail. Preserved RAW file: 1MXAyK2WuBEepigUjuRerYC1Ho70lP7jX. Pictured full reference V 41 SC DT BEACH FR2 GFRGFRG (BC); Red glass-fiber composite, Heatwave Red themed FR2 dial, Patterned nylon strap. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
       "brand": "Rolex",
       "collection": "Submariner",
       "reference": "126613LB",
@@ -22917,6 +23158,36 @@
       "status": "approved",
       "sourceUrl": "https://www.fpjourne.com/en/collection/classique-collection/chronometre-bleu",
       "licenseRecord": "Founder confirmed Quest Luxo website-use permission for manufacturer photographs already in the existing Drive photography library on October 13, 2026. Preserved RAW file: 11j0WkpBIOT3h99pfStf_smXgeMmbZ7C3. Pictured full reference CB; Tantalum, Chrome blue, Blue leather strap. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
+      "brand": "Omega",
+      "collection": "Seamaster Diver 300M",
+      "reference": "2531.80",
+      "configurations": [
+        {
+          "caseSize": "41 mm",
+          "movement": "Calibre 1120 automatic",
+          "dial": "Blue wave dial",
+          "bracelet": "Stainless-steel bracelet",
+          "waterResistance": "300 m"
+        }
+      ],
+      "material": "Stainless Steel",
+      "sources": [
+        "src/data/reference-expansion.ts"
+      ],
+      "routes": [
+        "/collections/omega/seamaster/2531-80"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": "cleared-20261019-2531-80",
+      "status": "approved",
+      "sourceUrl": "https://drive.google.com/file/d/1MXAyK2WuBEepigUjuRerYC1Ho70lP7jX/view",
+      "licenseRecord": "Direct founder answer call_fe1fcc7a57dd4fbdb5a5932c1d6e4549: Rights cover all five and derivatives; no restrictions. Record docs/PHOTOGRAPHY_FIVE_RIGHTS_2026-10-19.json. Untouched native original omega-2531-80-gray-hero-native.img SHA256 887561d111476ec2352e1ad5cd0fb6ac004b2cc9cb0840293a39fb20ac72cfd7. Complete whole-watch original and centered white derivative individually reviewed. No generated, reconstructed or recolored watch detail. Only original near-white exterior background excluded; internal contour filled to retain all white highlights and original watch pixels. Proportional resize and center on blank2400white master/1200WEB. No recoloring, sharpening or generated watch detail. Preserved RAW file: 1MXAyK2WuBEepigUjuRerYC1Ho70lP7jX. Pictured full reference 2531.80; Stainless Steel, Blue wave dial, Stainless-steel bracelet. Exact configuration reviewed against preserved source evidence and the original photograph.",
       "websiteApproved": true,
       "nextAction": "Retain approved original and verify derivative integrity."
     },
@@ -27669,6 +27940,99 @@
       "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
     },
     {
+      "brand": "Franck Muller",
+      "collection": "FR2NCK Vanguard Beach",
+      "reference": "V 41 SC DT BEACH FR2 GFBUBL (BC)",
+      "configurations": [
+        {
+          "caseSize": "41 mm",
+          "movement": "Automatic",
+          "dial": "Surf Blue themed FR2 dial",
+          "bracelet": "Patterned nylon strap",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "Blue glass-fiber composite",
+      "sources": [
+        "src/data/verified-catalog-expansion.ts"
+      ],
+      "routes": [
+        "/collections/franck-muller/fr2nck-vanguard-beach/v-41-sc-dt-beach-fr2-gfbubl-bc"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": "cleared-20261019-v-41-sc-dt-beach-fr2-gfbubl-bc",
+      "status": "approved",
+      "sourceUrl": "https://drive.google.com/file/d/1MXAyK2WuBEepigUjuRerYC1Ho70lP7jX/view",
+      "licenseRecord": "Direct founder answer call_fe1fcc7a57dd4fbdb5a5932c1d6e4549: Rights cover all five and derivatives; no restrictions. Record docs/PHOTOGRAPHY_FIVE_RIGHTS_2026-10-19.json. Untouched native original V-41-SC-DT-BEACH-FR2-GFBUBL-BC--raw.png SHA256 e09d78b337d2dbc175e811f2a9cb9ffd0b1b7095f2592116c094fdc6649e996f. Complete whole-watch original and centered white derivative individually reviewed. No generated, reconstructed or recolored watch detail. Original publisher alpha retained with two detached black exterior background remnants removed; native watch RGB unchanged. Proportional resize and centered blank white canvas; no generated or reconstructed watch detail. Preserved RAW file: 1MXAyK2WuBEepigUjuRerYC1Ho70lP7jX. Pictured full reference V 41 SC DT BEACH FR2 GFBUBL (BC); Blue glass-fiber composite, Surf Blue themed FR2 dial, Patterned nylon strap. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
+      "brand": "Franck Muller",
+      "collection": "FR2NCK Vanguard Beach",
+      "reference": "V 41 SC DT BEACH FR2 GFRGFRG (BC)",
+      "configurations": [
+        {
+          "caseSize": "41 mm",
+          "movement": "Automatic",
+          "dial": "Heatwave Red themed FR2 dial",
+          "bracelet": "Patterned nylon strap",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "Red glass-fiber composite",
+      "sources": [
+        "src/data/verified-catalog-expansion.ts"
+      ],
+      "routes": [
+        "/collections/franck-muller/fr2nck-vanguard-beach/v-41-sc-dt-beach-fr2-gfrgfrg-bc"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": "cleared-20261019-v-41-sc-dt-beach-fr2-gfrgfrg-bc",
+      "status": "approved",
+      "sourceUrl": "https://drive.google.com/file/d/1MXAyK2WuBEepigUjuRerYC1Ho70lP7jX/view",
+      "licenseRecord": "Direct founder answer call_fe1fcc7a57dd4fbdb5a5932c1d6e4549: Rights cover all five and derivatives; no restrictions. Record docs/PHOTOGRAPHY_FIVE_RIGHTS_2026-10-19.json. Untouched native original V-41-SC-DT-BEACH-FR2-GFRGFRG-BC--raw.png SHA256 605ee03da9ef4e331521bcb108d39503976c47cae4dd85c3f7596e2f2ac5d983. Complete whole-watch original and centered white derivative individually reviewed. No generated, reconstructed or recolored watch detail. Original publisher alpha retained with two detached black exterior background remnants removed; native watch RGB unchanged. Proportional resize and centered blank white canvas; no generated or reconstructed watch detail. Preserved RAW file: 1MXAyK2WuBEepigUjuRerYC1Ho70lP7jX. Pictured full reference V 41 SC DT BEACH FR2 GFRGFRG (BC); Red glass-fiber composite, Heatwave Red themed FR2 dial, Patterned nylon strap. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
+      "brand": "Franck Muller",
+      "collection": "FR2NCK Vanguard Beach",
+      "reference": "V 41 SC DT BEACH FR2 GFVRVE (BC)",
+      "configurations": [
+        {
+          "caseSize": "41 mm",
+          "movement": "Automatic",
+          "dial": "Tropical Green themed FR2 dial",
+          "bracelet": "Patterned nylon strap",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "Green glass-fiber composite",
+      "sources": [
+        "src/data/verified-catalog-expansion.ts"
+      ],
+      "routes": [
+        "/collections/franck-muller/fr2nck-vanguard-beach/v-41-sc-dt-beach-fr2-gfvrve-bc"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": "cleared-20261019-v-41-sc-dt-beach-fr2-gfvrve-bc",
+      "status": "approved",
+      "sourceUrl": "https://drive.google.com/file/d/1MXAyK2WuBEepigUjuRerYC1Ho70lP7jX/view",
+      "licenseRecord": "Direct founder answer call_fe1fcc7a57dd4fbdb5a5932c1d6e4549: Rights cover all five and derivatives; no restrictions. Record docs/PHOTOGRAPHY_FIVE_RIGHTS_2026-10-19.json. Untouched native original V-41-SC-DT-BEACH-FR2-GFVRVE-BC--raw.png SHA256 008bfb61fb6cd85f79ef87a1b967eb12380f4db3e4fc02666e9760563e5ebc03. Complete whole-watch original and centered white derivative individually reviewed. No generated, reconstructed or recolored watch detail. Original publisher alpha retained with two detached black exterior background remnants removed; native watch RGB unchanged. Proportional resize and centered blank white canvas; no generated or reconstructed watch detail. Preserved RAW file: 1MXAyK2WuBEepigUjuRerYC1Ho70lP7jX. Pictured full reference V 41 SC DT BEACH FR2 GFVRVE (BC); Green glass-fiber composite, Tropical Green themed FR2 dial, Patterned nylon strap. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
       "brand": "Panerai",
       "collection": "Luminor GMT",
       "reference": "PAM01641",
@@ -27698,6 +28062,37 @@
       "licenseRecord": null,
       "websiteApproved": false,
       "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+    },
+    {
+      "brand": "Breitling",
+      "collection": "Avenger II",
+      "reference": "A32390111G1A1",
+      "configurations": [
+        {
+          "caseSize": "43 mm",
+          "movement": "Breitling 32 automatic GMT",
+          "dial": "Silver",
+          "bracelet": "Stainless-steel bracelet",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "Stainless Steel",
+      "sources": [
+        "src/data/verified-catalog-expansion.ts"
+      ],
+      "routes": [
+        "/collections/breitling/avenger-ii/a32390111g1a1"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": "cleared-20261019-a32390111g1a1",
+      "status": "approved",
+      "sourceUrl": "https://drive.google.com/file/d/1qDCQiMt-4smyo9ljzpOTb8at83V9nl4N/view",
+      "licenseRecord": "Direct founder answer call_fe1fcc7a57dd4fbdb5a5932c1d6e4549: Rights cover all five and derivatives; no restrictions. Record docs/PHOTOGRAPHY_FIVE_RIGHTS_2026-10-19.json. Untouched native original A32390111G1A1-raw.webp SHA256 3de3a626d7f9dca76ea77efac84241744e936a4009626ad10d7ce24a98c47122. Complete whole-watch original and centered white derivative individually reviewed. No generated, reconstructed or recolored watch detail. Manufacturer native alpha preserved without mask reconstruction; original watch RGBA retained and centered on blank white2400master/1200WEB. No AI, generated details or recolouring. Preserved RAW file: 1qDCQiMt-4smyo9ljzpOTb8at83V9nl4N. Pictured full reference A32390111G1A1; Stainless Steel, Silver, Stainless-steel bracelet. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
     },
     {
       "brand": "Omega",

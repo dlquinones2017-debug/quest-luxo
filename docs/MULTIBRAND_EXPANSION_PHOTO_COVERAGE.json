@@ -1,17 +1,17 @@
 {
-  "reviewedAt": "2026-10-19T20:28:45.492Z",
+  "reviewedAt": "2026-10-20T01:37:28.815Z",
   "scope": "All verified-catalog-expansion.ts references only; excludes legacy inventory",
   "policy": "Source URL is NOT image-rights evidence. Exact watch, strap, dial, material, white-canvas original, licensing, website approval and actual derivative SHA256 are required.",
   "summary": {
     "expansionReferences": 128,
     "brands": 16,
     "collections": 52,
-    "approvedValidReferences": 92,
+    "approvedValidReferences": 96,
     "missingApprovedDerivative": 0,
     "checksumFailures": 0,
-    "acquisitionRequired": 36,
-    "notReleaseReady": 36,
-    "imageCoveragePercent": 71.9
+    "acquisitionRequired": 32,
+    "notReleaseReady": 32,
+    "imageCoveragePercent": 75
   },
   "byBrand": [
     {
@@ -29,8 +29,8 @@
     {
       "brand": "Breitling",
       "references": 6,
-      "approved": 4,
-      "outstanding": 2
+      "approved": 5,
+      "outstanding": 1
     },
     {
       "brand": "Cartier",
@@ -41,8 +41,8 @@
     {
       "brand": "Franck Muller",
       "references": 10,
-      "approved": 2,
-      "outstanding": 8
+      "approved": 5,
+      "outstanding": 5
     },
     {
       "brand": "Hublot",
@@ -1254,13 +1254,13 @@
       },
       "specificationSource": "https://www.hourstriker.com/database/franck-muller-vanguard-fr2nck-muller-vanguard-beach-v-41-sc-dt-beach-fr2-gfbubl-bc-33549",
       "score": 67,
-      "status": "ACQUISITION_REQUIRED",
-      "photoAssetId": null,
-      "derivativePath": null,
-      "recordedSha256": null,
-      "actualSha256": null,
-      "rightsRecord": null,
-      "nextAction": "Source authentic exact-reference original; obtain commercial-use license and provenance, prepare approved full-watch white-canvas derivative and register the matching SHA-256."
+      "status": "APPROVED_WITH_VALID_DERIVATIVE",
+      "photoAssetId": "cleared-20261019-v-41-sc-dt-beach-fr2-gfbubl-bc",
+      "derivativePath": "/images/watches/franck-muller/reviewed-20261019-v-41-sc-dt-beach-fr2-gfbubl-bc-web.webp",
+      "recordedSha256": "393d30709495fec2d8c85801646d214804681be2f33b4ce0d15911056d6002be",
+      "actualSha256": "393d30709495fec2d8c85801646d214804681be2f33b4ce0d15911056d6002be",
+      "rightsRecord": "Direct founder answer call_fe1fcc7a57dd4fbdb5a5932c1d6e4549: Rights cover all five and derivatives; no restrictions. Record docs/PHOTOGRAPHY_FIVE_RIGHTS_2026-10-19.json. Untouched native original V-41-SC-DT-BEACH-FR2-GFBUBL-BC--raw.png SHA256 e09d78b337d2dbc175e811f2a9cb9ffd0b1b7095f2592116c094fdc6649e996f. Complete whole-watch original and centered white derivative individually reviewed. No generated, reconstructed or recolored watch detail. Original publisher alpha retained with two detached black exterior background remnants removed; native watch RGB unchanged. Proportional resize and centered blank white canvas; no generated or reconstructed watch detail. Preserved RAW file: 1MXAyK2WuBEepigUjuRerYC1Ho70lP7jX. Pictured full reference V 41 SC DT BEACH FR2 GFBUBL (BC); Blue glass-fiber composite, Surf Blue themed FR2 dial, Patterned nylon strap. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "nextAction": "Retain approved source, white-canvas derivative, attribution and reference mapping."
     },
     {
       "brand": "Franck Muller",
@@ -1279,13 +1279,13 @@
       },
       "specificationSource": "https://www.hourstriker.com/database/franck-muller-vanguard-fr2nck-muller-vanguard-beach-v-41-sc-dt-beach-fr2-gfvrve-bc-33551",
       "score": 67,
-      "status": "ACQUISITION_REQUIRED",
-      "photoAssetId": null,
-      "derivativePath": null,
-      "recordedSha256": null,
-      "actualSha256": null,
-      "rightsRecord": null,
-      "nextAction": "Source authentic exact-reference original; obtain commercial-use license and provenance, prepare approved full-watch white-canvas derivative and register the matching SHA-256."
+      "status": "APPROVED_WITH_VALID_DERIVATIVE",
+      "photoAssetId": "cleared-20261019-v-41-sc-dt-beach-fr2-gfvrve-bc",
+      "derivativePath": "/images/watches/franck-muller/reviewed-20261019-v-41-sc-dt-beach-fr2-gfvrve-bc-web.webp",
+      "recordedSha256": "1e5b65c3399bdc44e27f5258cc74f245a8fec769f32d380c45e1dc0990f8de33",
+      "actualSha256": "1e5b65c3399bdc44e27f5258cc74f245a8fec769f32d380c45e1dc0990f8de33",
+      "rightsRecord": "Direct founder answer call_fe1fcc7a57dd4fbdb5a5932c1d6e4549: Rights cover all five and derivatives; no restrictions. Record docs/PHOTOGRAPHY_FIVE_RIGHTS_2026-10-19.json. Untouched native original V-41-SC-DT-BEACH-FR2-GFVRVE-BC--raw.png SHA256 008bfb61fb6cd85f79ef87a1b967eb12380f4db3e4fc02666e9760563e5ebc03. Complete whole-watch original and centered white derivative individually reviewed. No generated, reconstructed or recolored watch detail. Original publisher alpha retained with two detached black exterior background remnants removed; native watch RGB unchanged. Proportional resize and centered blank white canvas; no generated or reconstructed watch detail. Preserved RAW file: 1MXAyK2WuBEepigUjuRerYC1Ho70lP7jX. Pictured full reference V 41 SC DT BEACH FR2 GFVRVE (BC); Green glass-fiber composite, Tropical Green themed FR2 dial, Patterned nylon strap. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "nextAction": "Retain approved source, white-canvas derivative, attribution and reference mapping."
     },
     {
       "brand": "IWC",
@@ -1829,13 +1829,13 @@
       },
       "specificationSource": "https://www.hourstriker.com/database/franck-muller-vanguard-fr2nck-muller-vanguard-beach-v-41-sc-dt-beach-fr2-gfrgfrg-bc-33550",
       "score": 63,
-      "status": "ACQUISITION_REQUIRED",
-      "photoAssetId": null,
-      "derivativePath": null,
-      "recordedSha256": null,
-      "actualSha256": null,
-      "rightsRecord": null,
-      "nextAction": "Source authentic exact-reference original; obtain commercial-use license and provenance, prepare approved full-watch white-canvas derivative and register the matching SHA-256."
+      "status": "APPROVED_WITH_VALID_DERIVATIVE",
+      "photoAssetId": "cleared-20261019-v-41-sc-dt-beach-fr2-gfrgfrg-bc",
+      "derivativePath": "/images/watches/franck-muller/reviewed-20261019-v-41-sc-dt-beach-fr2-gfrgfrg-bc-web.webp",
+      "recordedSha256": "fbea79e97d68d211fff4c5eb55431a6f79b549341172e126973520b52e4abb20",
+      "actualSha256": "fbea79e97d68d211fff4c5eb55431a6f79b549341172e126973520b52e4abb20",
+      "rightsRecord": "Direct founder answer call_fe1fcc7a57dd4fbdb5a5932c1d6e4549: Rights cover all five and derivatives; no restrictions. Record docs/PHOTOGRAPHY_FIVE_RIGHTS_2026-10-19.json. Untouched native original V-41-SC-DT-BEACH-FR2-GFRGFRG-BC--raw.png SHA256 605ee03da9ef4e331521bcb108d39503976c47cae4dd85c3f7596e2f2ac5d983. Complete whole-watch original and centered white derivative individually reviewed. No generated, reconstructed or recolored watch detail. Original publisher alpha retained with two detached black exterior background remnants removed; native watch RGB unchanged. Proportional resize and centered blank white canvas; no generated or reconstructed watch detail. Preserved RAW file: 1MXAyK2WuBEepigUjuRerYC1Ho70lP7jX. Pictured full reference V 41 SC DT BEACH FR2 GFRGFRG (BC); Red glass-fiber composite, Heatwave Red themed FR2 dial, Patterned nylon strap. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "nextAction": "Retain approved source, white-canvas derivative, attribution and reference mapping."
     },
     {
       "brand": "Franck Muller",
@@ -2029,13 +2029,13 @@
       },
       "specificationSource": "https://www.breitling.com/xk-en/watches/avenger/avenger-ii-gmt/A32390111G1A1/",
       "score": 60,
-      "status": "ACQUISITION_REQUIRED",
-      "photoAssetId": null,
-      "derivativePath": null,
-      "recordedSha256": null,
-      "actualSha256": null,
-      "rightsRecord": null,
-      "nextAction": "Source authentic exact-reference original; obtain commercial-use license and provenance, prepare approved full-watch white-canvas derivative and register the matching SHA-256."
+      "status": "APPROVED_WITH_VALID_DERIVATIVE",
+      "photoAssetId": "cleared-20261019-a32390111g1a1",
+      "derivativePath": "/images/watches/breitling/reviewed-20261019-a32390111g1a1-web.webp",
+      "recordedSha256": "80b17151a9f8cb634d5f6bafb8d74afad6635f9deb2c2fe519852e1ada90be70",
+      "actualSha256": "80b17151a9f8cb634d5f6bafb8d74afad6635f9deb2c2fe519852e1ada90be70",
+      "rightsRecord": "Direct founder answer call_fe1fcc7a57dd4fbdb5a5932c1d6e4549: Rights cover all five and derivatives; no restrictions. Record docs/PHOTOGRAPHY_FIVE_RIGHTS_2026-10-19.json. Untouched native original A32390111G1A1-raw.webp SHA256 3de3a626d7f9dca76ea77efac84241744e936a4009626ad10d7ce24a98c47122. Complete whole-watch original and centered white derivative individually reviewed. No generated, reconstructed or recolored watch detail. Manufacturer native alpha preserved without mask reconstruction; original watch RGBA retained and centered on blank white2400master/1200WEB. No AI, generated details or recolouring. Preserved RAW file: 1qDCQiMt-4smyo9ljzpOTb8at83V9nl4N. Pictured full reference A32390111G1A1; Stainless Steel, Silver, Stainless-steel bracelet. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "nextAction": "Retain approved source, white-canvas derivative, attribution and reference mapping."
     },
     {
       "brand": "Breitling",
