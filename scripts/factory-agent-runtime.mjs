@@ -18,6 +18,15 @@ import { triagePublicWebsiteReport, buildPublicOperationsBrief } from "../src/li
 import { checkPublicWebsites } from "../src/lib/agents/publicWebsiteHealth.ts";
 import { assessPilotRecovery } from "../src/lib/agents/pilotRecoveryAudit.ts";
 import { readPilotRecoveryAssessment } from "./pilot-recovery-audit.mjs";
+import { coordinatePilotOperations } from "../src/lib/agents/pilotCommandOrchestrator.ts";
+
+export async function runApprovedPilotCommandAgent(input, sources, assessedAt) {
+  const spec = await validateFactorySpec(input);
+  if (spec.version !== 5 || spec.template !== "pilot-command-orchestrator" || !sources ||
+      Object.keys(sources).sort().join() !== ["health", "brief", "recovery", "modelPolicy"].sort().join()) throw Error("Reviewed command template and matching sources required.");
+  return { source: "DERIVED_VERIFIED_PILOT_REPORTS", report: coordinatePilotOperations(sources.health, sources.brief, sources.recovery, sources.modelPolicy,
+    assessedAt ?? new Date().toISOString()) };
+}
 
 export async function runApprovedPilotRecoveryAgent(input, storageState) {
   const spec = await validateFactorySpec(input);
@@ -47,6 +56,15 @@ export async function runApprovedPublicOperationsAgent(input, priorHealth, prior
 
 export async function runFactoryAgent(input) {
   const spec = await validateFactorySpec(input);
+  if (spec.version === 5) {
+    let index = 0;
+    const now = new Date().toISOString();
+    const health = await checkPublicWebsites({ now: () => new Date(now), reader: async () => new Response(null, { status: [200,403,503][index++] }) });
+    const incidents = triagePublicWebsiteReport(health, now), brief = buildPublicOperationsBrief(health, incidents, now);
+    const recovery = assessPilotRecovery({ storageVerified: true, localBackupVerified: true, pipelineRevision: "a".repeat(64), intakeRevision: "b".repeat(64) }, null, now);
+    return { source: "SYNTHETIC_FIXTURE_ONLY", report: coordinatePilotOperations(health, brief, recovery,
+      { version: 1, mode: "DISABLED_ZERO_BUDGET", enabled: false, dailyBudgetUsd: 0 }, now) };
+  }
   if (spec.version === 4) return { source: "SYNTHETIC_FIXTURE_ONLY", report: assessPilotRecovery({ storageVerified: true, localBackupVerified: true,
     pipelineRevision: "a".repeat(64), intakeRevision: "b".repeat(64) }, null, new Date().toISOString()) };
   if (spec.version === 3) {
