@@ -5,6 +5,7 @@ import { join } from "node:path";
 import { validateFactorySpec } from "../src/lib/agents/agentFactory.ts";
 import { commitDurablePipelines, readDurablePipelines } from "../src/lib/command/enterpriseDurablePipelines.ts";
 import { buildManualPipelineReport } from "./manual-pipeline-agent-report.mjs";
+import { READINESS_CHECKS, assessAgentReadiness, buildFounderOperationsBrief } from "../src/lib/agents/agentReadinessPolicy.ts";
 
 export const syntheticRecords = () => ({
   capital: [{ borrowerId: "synthetic-capital", stage: "QUALIFY", status: "BLOCKED", reason: "Synthetic only",
@@ -14,11 +15,21 @@ export const syntheticRecords = () => ({
 });
 
 export async function runFactoryAgent(input) {
-  await validateFactorySpec(input);
+  const spec = await validateFactorySpec(input);
+  const now = new Date().toISOString();
+  const evidence = syntheticReadinessEvidence(now);
+  if (spec.version === 2 && spec.template === "readiness")
+    return { source: "SYNTHETIC_FIXTURE_ONLY", report: assessAgentReadiness(evidence, now) };
   const directory = await mkdtemp(join(tmpdir(), "quest-factory-eval-"));
   const key = randomBytes(32);
   try {
     await commitDurablePipelines(directory, key, "EMPTY", syntheticRecords());
-    return { source: "SYNTHETIC_FIXTURE_ONLY", report: buildManualPipelineReport(await readDurablePipelines(directory, key)) };
+    const aggregate = buildManualPipelineReport(await readDurablePipelines(directory, key));
+    return { source: "SYNTHETIC_FIXTURE_ONLY", report: spec.version === 2 ? buildFounderOperationsBrief(aggregate, evidence, now) : aggregate };
   } finally { key.fill(0); await rm(directory, { recursive: true, force: true }); }
+}
+
+export function syntheticReadinessEvidence(now) {
+  return READINESS_CHECKS.map(check => ({ check, observedAt: now, evidenceRef: "synthetic-" + check.toLowerCase(),
+    state: ["KEY_RECOVERY", "RETENTION_POLICY", "SOURCE_SCOPE"].includes(check) ? "MISSING" : "VERIFIED" }));
 }

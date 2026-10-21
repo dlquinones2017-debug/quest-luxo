@@ -1,0 +1,40 @@
+{
+  "version": 2,
+  "id": "founder-brief-pilot",
+  "roleId": "founder-chief-of-staff-and-approval-agent",
+  "owner": "Denzel Quinones",
+  "outcomes": [
+    "Combine existing aggregate pipeline exceptions with readiness requirements without dispatching work."
+  ],
+  "inputs": [
+    "synthetic-pipeline-fixture",
+    "synthetic-readiness-fixture"
+  ],
+  "authorizedTools": [
+    "pipeline.aggregate-report",
+    "readiness.assess",
+    "founder.aggregate-brief"
+  ],
+  "permissions": {
+    "mode": "SYNTHETIC_READ_ONLY",
+    "externalWrites": false,
+    "gmail": false,
+    "crm": false,
+    "production": false
+  },
+  "evidence": {
+    "approvalRef": "founder-work-mode-handoff-2026-10-21-synthetic-development",
+    "architectureRef": "PR68@a13f374b085b29127f86f29a43b79ee9b71bfbae"
+  },
+  "outputSchema": "founder-operations-brief-v1",
+  "errorPolicy": "HOLD",
+  "evaluation": {
+    "expectedStatus": "HOLD",
+    "requiredActions": [
+      "KEY_RECOVERY",
+      "RETENTION_POLICY",
+      "SOURCE_SCOPE"
+    ]
+  },
+  "template": "founder-brief"
+}

@@ -31,18 +31,20 @@ export async function loadFactoryRoster(): Promise<readonly FactoryRole[]> {
 }
 
 export interface FactorySpec {
-  version: 1;
+  version: 1 | 2;
+  template?: "readiness" | "founder-brief";
   id: string;
   roleId: string;
   owner: string;
   outcomes: readonly string[];
-  inputs: readonly ["synthetic-pipeline-fixture"];
-  authorizedTools: readonly ["pipeline.aggregate-report"];
+  inputs: readonly string[];
+  authorizedTools: readonly string[];
   permissions: { mode: "SYNTHETIC_READ_ONLY"; externalWrites: false; gmail: false; crm: false; production: false };
   evidence: { approvalRef: string; architectureRef: "PR68@a13f374b085b29127f86f29a43b79ee9b71bfbae" };
-  outputSchema: "manual-pipeline-report-v1";
+  outputSchema: "manual-pipeline-report-v1" | "agent-readiness-report-v1" | "founder-operations-brief-v1";
   errorPolicy: "HOLD";
-  evaluation: { capitalTotal: number; capitalBlocked: number; realtyTotal: number; realtyFounderReview: number };
+  evaluation: { capitalTotal: number; capitalBlocked: number; realtyTotal: number; realtyFounderReview: number } |
+    { expectedStatus: "HOLD"; requiredActions: readonly ["KEY_RECOVERY", "RETENTION_POLICY", "SOURCE_SCOPE"] };
 }
 const text = (s: unknown) => typeof s === "string" && s.trim().length > 0 && s.length <= 300 && !/[\x00-\x1f]/.test(s);
 function exact(value: object, fields: readonly string[]) {
@@ -52,11 +54,11 @@ function exact(value: object, fields: readonly string[]) {
 export async function validateFactorySpec(input: unknown): Promise<FactorySpec> {
   if (!input || typeof input !== "object") throw Error("Agent specification required.");
   const spec = input as FactorySpec;
-  exact(spec, ["version", "id", "roleId", "owner", "outcomes", "inputs", "authorizedTools", "permissions", "evidence", "outputSchema", "errorPolicy", "evaluation"]);
-  if (spec.version !== 1 || typeof spec.id !== "string" || !/^[a-z][a-z0-9-]{2,63}$/.test(spec.id) || !text(spec.owner) ||
+  const fields = ["version", "id", "roleId", "owner", "outcomes", "inputs", "authorizedTools", "permissions", "evidence", "outputSchema", "errorPolicy", "evaluation"];
+  exact(spec, spec.version === 2 ? [...fields, "template"] : fields);
+  if (![1, 2].includes(spec.version) || typeof spec.id !== "string" || !/^[a-z][a-z0-9-]{2,63}$/.test(spec.id) || !text(spec.owner) ||
       !Array.isArray(spec.outcomes) || spec.outcomes.length < 1 || spec.outcomes.length > 10 || !spec.outcomes.every(text) ||
-      JSON.stringify(spec.inputs) !== '["synthetic-pipeline-fixture"]' || JSON.stringify(spec.authorizedTools) !== '["pipeline.aggregate-report"]' ||
-      spec.outputSchema !== "manual-pipeline-report-v1" || spec.errorPolicy !== "HOLD") throw Error("Unsupported agent specification.");
+      spec.errorPolicy !== "HOLD") throw Error("Unsupported agent specification.");
   const roles = await loadFactoryRoster();
   if (!roles.some(r => r.id === spec.roleId)) throw Error("Unregistered role; hold for architecture review.");
   const supported = ["lead-operations", "reliability-qa-and-incident-response-agent", "founder-chief-of-staff-and-approval-agent"];
@@ -66,10 +68,26 @@ export async function validateFactorySpec(input: unknown): Promise<FactorySpec> 
     throw Error("Factory cannot grant runtime permissions.");
   exact(spec.evidence, ["approvalRef", "architectureRef"]);
   if (!text(spec.evidence.approvalRef) || spec.evidence.architectureRef !== "PR68@a13f374b085b29127f86f29a43b79ee9b71bfbae") throw Error("Approval and architecture provenance required.");
-  exact(spec.evaluation, ["capitalTotal", "capitalBlocked", "realtyTotal", "realtyFounderReview"]);
-  // Fixed reviewed fixture: meaningful expectations cannot be generated from an agent's own result.
-  if (JSON.stringify(spec.evaluation) !== JSON.stringify({ capitalTotal: 1, capitalBlocked: 1, realtyTotal: 1, realtyFounderReview: 1 }))
-    throw Error("Reviewed evaluation fixture required.");
+  // Only implemented, role-bound templates can be generated. Declared tools never become executable code.
+  if (spec.version === 1) {
+    if (JSON.stringify(spec.inputs) !== '["synthetic-pipeline-fixture"]' || JSON.stringify(spec.authorizedTools) !== '["pipeline.aggregate-report"]' ||
+        spec.outputSchema !== "manual-pipeline-report-v1") throw Error("Unsupported agent specification.");
+    const expected = { capitalTotal: 1, capitalBlocked: 1, realtyTotal: 1, realtyFounderReview: 1 };
+    exact(spec.evaluation, Object.keys(expected));
+    if (Object.entries(expected).some(([k, v]) => (spec.evaluation as Record<string, unknown>)[k] !== v)) throw Error("Reviewed evaluation fixture required.");
+  } else {
+    const readiness = spec.template === "readiness";
+    if ((!readiness && spec.template !== "founder-brief") ||
+        spec.roleId !== (readiness ? "reliability-qa-and-incident-response-agent" : "founder-chief-of-staff-and-approval-agent") ||
+        spec.outputSchema !== (readiness ? "agent-readiness-report-v1" : "founder-operations-brief-v1") ||
+        JSON.stringify(spec.inputs) !== JSON.stringify(readiness ? ["synthetic-readiness-fixture"] : ["synthetic-pipeline-fixture", "synthetic-readiness-fixture"]) ||
+        JSON.stringify(spec.authorizedTools) !== JSON.stringify(readiness ? ["readiness.assess"] : ["pipeline.aggregate-report", "readiness.assess", "founder.aggregate-brief"]))
+      throw Error("Template, role, inputs and tools must match a validated implementation.");
+    exact(spec.evaluation, ["expectedStatus", "requiredActions"]);
+    const expected = spec.evaluation as { expectedStatus: unknown; requiredActions: unknown };
+    if (expected.expectedStatus !== "HOLD" || JSON.stringify(expected.requiredActions) !== '["KEY_RECOVERY","RETENTION_POLICY","SOURCE_SCOPE"]')
+      throw Error("Reviewed readiness fixture required.");
+  }
   return structuredClone(spec);
 }
 
@@ -86,8 +104,11 @@ export async function generateAgentPackage(input: unknown) {
   const staging = await mkdtemp(join(parent, ".factory-"));
   const config = JSON.stringify(spec, null, 2) + "\n";
   const runner = `import { readFile } from "node:fs/promises";\nimport { runFactoryAgent } from "../../scripts/factory-agent-runtime.mjs";\nconst spec = JSON.parse(await readFile(new URL("./agent.json", import.meta.url), "utf8"));\nconsole.log(JSON.stringify(await runFactoryAgent(spec), null, 2));\n`;
-  const tests = `import test from "node:test";\nimport assert from "node:assert/strict";\nimport { readFile } from "node:fs/promises";\nimport { runFactoryAgent } from "../../scripts/factory-agent-runtime.mjs";\nconst spec = JSON.parse(await readFile(new URL("./agent.json", import.meta.url), "utf8"));\ntest("generated operational agent retains read-only boundaries and reviewed fixture counts", async () => {\n  const result = await runFactoryAgent(spec);\n  assert.equal(result.source, "SYNTHETIC_FIXTURE_ONLY");\n  assert.deepEqual(result.report.divisions.map(r => [r.total, r.blocked, r.founderReview]), [[1,1,0],[1,0,1]]);\n  assert.equal(result.report.sendsMessages, false);\n  assert.equal(result.report.writesCRM, false);\n  assert.equal(result.report.activatesGmail, false);\n});\n`;
-  const runbook = `# Generated operations report\n\nStatus: SYNTHETIC PACKAGE ONLY. Not deployed or authorized for business data.\n\nRole: ${spec.roleId}. Owner and approval provenance: see agent.json.\n\nRun from repository root: node agent-packages/${spec.id}/run.mjs\n\nValidate: node --test agent-packages/${spec.id}/agent.test.mjs\n\nThe runner reuses the existing encrypted pipeline and report implementation with fixed synthetic fixtures. No credentials, live source adapters, Gmail, CRM, network, scheduler or production writes. Unknown permissions or unsupported roles fail closed.\n\nRelease requires reviewed data authorization, independent encrypted retention and recovery, observability and separate deployment approval. Creating a spec cannot grant access.\n`;
+  const assertions = spec.version === 1 ?
+    `  assert.deepEqual(result.report.divisions.map(r => [r.total, r.blocked, r.founderReview]), [[1,1,0],[1,0,1]]);\n` :
+    `  assert.equal(result.report.status, "HOLD");\n  assert.deepEqual(result.report.requiredActions, ["KEY_RECOVERY", "RETENTION_POLICY", "SOURCE_SCOPE"]);\n  assert.equal(result.report.businessDataExecutionAllowed, false);\n` + (spec.template === "founder-brief" ? `  assert.equal(result.report.dispatchesWork, false);\n  assert.deepEqual(result.report.divisions.map(r => [r.total, r.blocked, r.founderReview]), [[1,1,0],[1,0,1]]);\n` : "");
+  const tests = `import test from "node:test";\nimport assert from "node:assert/strict";\nimport { readFile } from "node:fs/promises";\nimport { runFactoryAgent } from "../../scripts/factory-agent-runtime.mjs";\nconst spec = JSON.parse(await readFile(new URL("./agent.json", import.meta.url), "utf8"));\ntest("generated agent preserves reviewed outcomes and read-only boundaries", async () => {\n  const result = await runFactoryAgent(spec);\n  assert.equal(result.source, "SYNTHETIC_FIXTURE_ONLY");\n${assertions}  assert.equal(result.report.sendsMessages, false);\n  assert.equal(result.report.writesCRM, false);\n  assert.equal(result.report.activatesGmail, false);\n});\n`;
+  const runbook = `# Generated ${spec.template ?? "operations"} report\n\nStatus: SYNTHETIC PACKAGE ONLY. Not authorized for business data.\n\nRole: ${spec.roleId}. Owner and approval provenance: see agent.json.\n\nRun from repository root: node agent-packages/${spec.id}/run.mjs\n\nValidate: node --test agent-packages/${spec.id}/agent.test.mjs\n\nThe runner reuses existing aggregate reporting and evidence assessment with reviewed synthetic fixtures. No credentials, live source adapters, Gmail, CRM, network, scheduler or production writes. Unsupported tools or roles fail closed. A readiness result recommends founder review and cannot grant access or dispatch work.\n\nRelease requires verified key/backup recovery, retention and monitoring, and an authorized source scope. Creating a spec cannot grant access.\n`;
   try {
     for (const [name, content] of [["agent.json", config], ["run.mjs", runner], ["agent.test.mjs", tests], ["RUNBOOK.md", runbook]])
       await writeFile(join(staging, name!), content!, { flag: "wx" });

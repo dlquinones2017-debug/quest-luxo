@@ -5,6 +5,7 @@ import { pathToFileURL } from "node:url";
 import { commitDurablePipelines, readDurablePipelines } from "../src/lib/command/enterpriseDurablePipelines.ts";
 import { syntheticRecords } from "./factory-agent-runtime.mjs";
 import { inspectPersistentSyntheticSnapshot, maintainPilotStorage, createPilotMonitor } from "./pilot-storage-maintenance.mjs";
+import { validateSyntheticAgentTeam } from "./pilot-agent-team.mjs";
 
 const PILOT_SERVICE = "srv-dbbkmb0n74is73d111hg";
 
@@ -47,12 +48,15 @@ export async function startPilot() {
   const monitor = createPilotMonitor(async () => {
     await verifyPilotEnvironment();
     const managedKey = Buffer.from(process.env.QUEST_PIPELINE_KEY_HEX, "hex");
-    try { await maintainPilotStorage(process.env.QUEST_PIPELINE_DIRECTORY, managedKey); }
+    try {
+      await maintainPilotStorage(process.env.QUEST_PIPELINE_DIRECTORY, managedKey);
+      await validateSyntheticAgentTeam();
+    }
     finally { managedKey.fill(0); }
   });
   if (!await monitor.run()) throw Error("Initial storage and retained-backup verification failed.");
   console.log(JSON.stringify({ event: "SYNTHETIC_PILOT_PASSED", recoveredExisting: result.recoveredExisting,
-    independentBackupVerified: false, businessDataReady: false }));
+    independentBackupVerified: false, businessDataReady: false, generatedTemplatesValidated: 3 }));
   const server = createPilotHealthServer(monitor);
   const interval = setInterval(async () => {
     const passed = await monitor.run();
@@ -78,7 +82,8 @@ export function createPilotHealthServer(monitor) {
     if (req.method !== "GET" || req.url !== "/healthz") { res.writeHead(404); res.end('{"error":"not_found"}'); return; }
     const healthy = monitor.healthy();
     res.writeHead(healthy ? 200 : 503);
-    res.end(JSON.stringify({ ...ready, fixturePassed: healthy, storageVerified: healthy, localBackupVerified: healthy }));
+    res.end(JSON.stringify({ ...ready, fixturePassed: healthy, storageVerified: healthy, localBackupVerified: healthy,
+      generatedTemplatesValidated: healthy ? 3 : 0 }));
   });
 }
 if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) {
