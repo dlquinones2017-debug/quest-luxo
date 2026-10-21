@@ -1,10 +1,10 @@
 import { createServer } from "node:http";
-import { readFile, realpath, mkdir } from "node:fs/promises";
+import { readFile, realpath, mkdir, lstat } from "node:fs/promises";
 import { join } from "node:path";
 import { pathToFileURL } from "node:url";
 import { commitDurablePipelines, readDurablePipelines } from "../src/lib/command/enterpriseDurablePipelines.ts";
-import { buildManualPipelineReport } from "./manual-pipeline-agent-report.mjs";
 import { syntheticRecords } from "./factory-agent-runtime.mjs";
+import { inspectPersistentSyntheticSnapshot, maintainPilotStorage, createPilotMonitor } from "./pilot-storage-maintenance.mjs";
 
 const PILOT_SERVICE = "srv-dbbkmb0n74is73d111hg";
 
@@ -28,15 +28,13 @@ export async function runPersistentSyntheticPilot(directory, key) {
   let snapshot = await readDurablePipelines(synthetic, key);
   let recoveredExisting = true;
   if (snapshot.revision === "EMPTY") {
+    // An existing retention store proves prior initialization. Never hide primary loss by reseeding on restart.
+    try { await lstat(join(directory, "retained")); throw Error("Existing retained state requires operator recovery; initialization held."); }
+    catch (error) { if (error?.code !== "ENOENT") throw error; }
     recoveredExisting = false;
     snapshot = await commitDurablePipelines(synthetic, key, "EMPTY", syntheticRecords());
   }
-  // Do not silently operate on an unexpected or real-data snapshot in the synthetic namespace.
-  if (snapshot.sequence !== 1 || JSON.stringify(snapshot.records) !== JSON.stringify(syntheticRecords()))
-    throw Error("Synthetic snapshot conflicts with reviewed fixture; hold for operator review.");
-  const report = buildManualPipelineReport(await readDurablePipelines(synthetic, key));
-  if (JSON.stringify(report.divisions.map(r => [r.total, r.blocked, r.founderReview])) !== "[[1,1,0],[1,0,1]]")
-    throw Error("Pilot aggregate acceptance failed.");
+  const { report } = await inspectPersistentSyntheticSnapshot(directory, key);
   return { source: "SYNTHETIC_ONLY", recoveredExisting, report, independentBackupVerified: false };
 }
 
@@ -46,22 +44,42 @@ export async function startPilot() {
   let result;
   try { result = await runPersistentSyntheticPilot(process.env.QUEST_PIPELINE_DIRECTORY, key); }
   finally { key.fill(0); }
-  // Health responses expose readiness only. No report, records, keys, write endpoints or filesystem serving.
-  const ready = { service: "quest-luxo-agent-pilot", mode: "SYNTHETIC_ONLY", storage: "PERSISTENT_ENCRYPTED",
-    fixturePassed: true, independentBackupVerified: false, businessDataReady: false, gmail: false, crm: false };
+  const monitor = createPilotMonitor(async () => {
+    await verifyPilotEnvironment();
+    const managedKey = Buffer.from(process.env.QUEST_PIPELINE_KEY_HEX, "hex");
+    try { await maintainPilotStorage(process.env.QUEST_PIPELINE_DIRECTORY, managedKey); }
+    finally { managedKey.fill(0); }
+  });
+  if (!await monitor.run()) throw Error("Initial storage and retained-backup verification failed.");
   console.log(JSON.stringify({ event: "SYNTHETIC_PILOT_PASSED", recoveredExisting: result.recoveredExisting,
     independentBackupVerified: false, businessDataReady: false }));
-  const server = createServer((req, res) => {
-    res.setHeader("Content-Type", "application/json"); res.setHeader("Cache-Control", "no-store");
-    if (req.method !== "GET" || req.url !== "/healthz") { res.writeHead(404); res.end('{"error":"not_found"}'); return; }
-    res.writeHead(200); res.end(JSON.stringify(ready));
-  });
+  const server = createPilotHealthServer(monitor);
+  const interval = setInterval(async () => {
+    const passed = await monitor.run();
+    console[passed ? "log" : "error"](JSON.stringify({ event: passed ? "PILOT_STORAGE_CHECK_PASSED" : "PILOT_STORAGE_CHECK_FAILED",
+      independentBackupVerified: false, businessDataReady: false }));
+  }, 60_000);
+  interval.unref();
+  server.once("close", () => clearInterval(interval));
   server.listen(Number(process.env.PORT || 10000), "0.0.0.0");
   for (const signal of ["SIGTERM", "SIGINT"]) process.once(signal, () => {
     server.close(() => process.exit(0));
     setTimeout(() => process.exit(1), 10_000).unref();
   });
   return server;
+}
+
+export function createPilotHealthServer(monitor) {
+  // Expose readiness only. Never serve reports, records, backups, keys or mutation endpoints.
+  const ready = { service: "quest-luxo-agent-pilot", mode: "SYNTHETIC_ONLY", storage: "PERSISTENT_ENCRYPTED",
+    independentBackupVerified: false, businessDataReady: false, gmail: false, crm: false };
+  return createServer((req, res) => {
+    res.setHeader("Content-Type", "application/json"); res.setHeader("Cache-Control", "no-store");
+    if (req.method !== "GET" || req.url !== "/healthz") { res.writeHead(404); res.end('{"error":"not_found"}'); return; }
+    const healthy = monitor.healthy();
+    res.writeHead(healthy ? 200 : 503);
+    res.end(JSON.stringify({ ...ready, fixturePassed: healthy, storageVerified: healthy, localBackupVerified: healthy }));
+  });
 }
 if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) {
   try { await startPilot(); }
