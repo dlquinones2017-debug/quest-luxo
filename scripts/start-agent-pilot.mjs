@@ -7,6 +7,8 @@ import { syntheticRecords } from "./factory-agent-runtime.mjs";
 import { inspectPersistentSyntheticSnapshot, maintainPilotStorage, createPilotMonitor } from "./pilot-storage-maintenance.mjs";
 import { validateSyntheticAgentTeam } from "./pilot-agent-team.mjs";
 
+import { initializeSyntheticIntake, maintainSyntheticIntake } from "./pilot-intake-maintenance.mjs";
+
 const PILOT_SERVICE = "srv-dbbkmb0n74is73d111hg";
 
 export async function verifyPilotEnvironment(env = process.env, mountInfo) {
@@ -36,7 +38,8 @@ export async function runPersistentSyntheticPilot(directory, key) {
     snapshot = await commitDurablePipelines(synthetic, key, "EMPTY", syntheticRecords());
   }
   const { report } = await inspectPersistentSyntheticSnapshot(directory, key);
-  return { source: "SYNTHETIC_ONLY", recoveredExisting, report, independentBackupVerified: false };
+  const intake = await initializeSyntheticIntake(directory, key);
+  return { source: "SYNTHETIC_ONLY", recoveredExisting, intakeRecoveredExisting: intake.recoveredExisting, report, independentBackupVerified: false };
 }
 
 export async function startPilot() {
@@ -50,12 +53,14 @@ export async function startPilot() {
     const managedKey = Buffer.from(process.env.QUEST_PIPELINE_KEY_HEX, "hex");
     try {
       await maintainPilotStorage(process.env.QUEST_PIPELINE_DIRECTORY, managedKey);
+      await maintainSyntheticIntake(process.env.QUEST_PIPELINE_DIRECTORY, managedKey);
       await validateSyntheticAgentTeam();
     }
     finally { managedKey.fill(0); }
   });
   if (!await monitor.run()) throw Error("Initial storage and retained-backup verification failed.");
   console.log(JSON.stringify({ event: "SYNTHETIC_PILOT_PASSED", recoveredExisting: result.recoveredExisting,
+    intakeRecoveredExisting: result.intakeRecoveredExisting, intakeFixtureValidated: true,
     independentBackupVerified: false, businessDataReady: false, generatedTemplatesValidated: 3 }));
   const server = createPilotHealthServer(monitor);
   const interval = setInterval(async () => {

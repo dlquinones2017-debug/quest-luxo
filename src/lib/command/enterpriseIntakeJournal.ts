@@ -62,6 +62,7 @@ function snap(journal: StoredJournal, revision: string): IntakeJournalSnapshot {
     }),
     receipts:Object.freeze(journal.receipts.map(receipt=>Object.freeze({
       ...receipt, evidenceIds:Object.freeze([...(receipt.evidenceIds ?? [])]),
+      ...(receipt.qualificationEvidenceIds !== undefined ? { qualificationEvidenceIds: Object.freeze([...receipt.qualificationEvidenceIds]) } : {}),
     }))),
     observedAt:journal.observedAt,
     retainedReceiptCount:journal.receipts.length,
@@ -97,6 +98,9 @@ function validateReceipt(receipt: EnterpriseLeadReceipt, checkpoint: IntakeCheck
       receipt.evidenceIds.length < 2 ||
       !receipt.evidenceIds.includes(receipt.sourceRecordId) ||
       !receipt.evidenceIds.every(e=>typeof e==="string" && SAFE_ID.test(e)) ||
+      (receipt.qualificationEvidenceIds !== undefined &&
+        (!Array.isArray(receipt.qualificationEvidenceIds) || receipt.qualificationEvidenceIds.length > 100 ||
+         !receipt.qualificationEvidenceIds.every(e => typeof e === "string" && SAFE_ID.test(e)))) ||
       (receipt.canonicalRecordId!==undefined && !SAFE_ID.test(receipt.canonicalRecordId)) ||
       !checkpoint.seen[receipt.sourceRecordId]) {
     throw new Error("Intake journal accepts only mapped verified opaque FormSubmit receipt metadata.");

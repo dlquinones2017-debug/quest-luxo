@@ -70,6 +70,7 @@ export async function validateFactorySpec(input: unknown): Promise<FactorySpec> 
   if (!text(spec.evidence.approvalRef) || spec.evidence.architectureRef !== "PR68@a13f374b085b29127f86f29a43b79ee9b71bfbae") throw Error("Approval and architecture provenance required.");
   // Only implemented, role-bound templates can be generated. Declared tools never become executable code.
   if (spec.version === 1) {
+    if (spec.roleId !== "lead-operations") throw Error("Operations template requires its registered role.");
     if (JSON.stringify(spec.inputs) !== '["synthetic-pipeline-fixture"]' || JSON.stringify(spec.authorizedTools) !== '["pipeline.aggregate-report"]' ||
         spec.outputSchema !== "manual-pipeline-report-v1") throw Error("Unsupported agent specification.");
     const expected = { capitalTotal: 1, capitalBlocked: 1, realtyTotal: 1, realtyFounderReview: 1 };

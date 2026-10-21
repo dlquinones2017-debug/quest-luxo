@@ -46,3 +46,8 @@ test("one bounded team validates all three templates while preserving real-data 
   assert.equal(new Set(r.agents.map(a => a.roleId)).size, 3);
   assert.deepEqual(r.agents.map(a => a.template), ["operations", "readiness", "founder-brief"]);
 });
+test("operations version 1 cannot be relabeled as a specialist role", async () => {
+  const operation = JSON.parse(await readFile(new URL("../config/agents/operations-pilot.spec.json", import.meta.url), "utf8"));
+  for (const roleId of [readiness.roleId, brief.roleId])
+    await assert.rejects(() => validateFactorySpec({ ...operation, roleId }), /registered role/);
+});

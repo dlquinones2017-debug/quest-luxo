@@ -27,7 +27,8 @@
     "agent:factory": "node --experimental-strip-types scripts/agent-factory.mjs",
     "agent:backup": "node --experimental-strip-types scripts/pipeline-backup.mjs",
     "agent:pilot": "node --experimental-strip-types scripts/start-agent-pilot.mjs",
-    "agent:source-preflight": "node --experimental-strip-types scripts/source-preflight.mjs"
+    "agent:source-preflight": "node --experimental-strip-types scripts/source-preflight.mjs",
+    "agent:intake-backup": "node --experimental-strip-types scripts/intake-backup.mjs"
   },
   "dependencies": {
     "@astrojs/node": "^11.0.2",
