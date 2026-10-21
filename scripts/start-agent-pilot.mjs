@@ -3,11 +3,13 @@ import { readFile, realpath, mkdir, lstat } from "node:fs/promises";
 import { join } from "node:path";
 import { pathToFileURL } from "node:url";
 import { commitDurablePipelines, readDurablePipelines } from "../src/lib/command/enterpriseDurablePipelines.ts";
-import { syntheticRecords } from "./factory-agent-runtime.mjs";
+import { syntheticRecords, runApprovedPublicWebsiteAgent } from "./factory-agent-runtime.mjs";
 import { inspectPersistentSyntheticSnapshot, maintainPilotStorage, createPilotMonitor } from "./pilot-storage-maintenance.mjs";
 import { validateSyntheticAgentTeam } from "./pilot-agent-team.mjs";
 
 import { initializeSyntheticIntake, maintainSyntheticIntake } from "./pilot-intake-maintenance.mjs";
+
+import { createPublicWebsiteMonitor, PUBLIC_WEBSITE_INTERVAL_MS } from "../src/lib/agents/publicWebsiteHealth.ts";
 
 const PILOT_SERVICE = "srv-dbbkmb0n74is73d111hg";
 
@@ -62,14 +64,25 @@ export async function startPilot() {
   console.log(JSON.stringify({ event: "SYNTHETIC_PILOT_PASSED", recoveredExisting: result.recoveredExisting,
     intakeRecoveredExisting: result.intakeRecoveredExisting, intakeFixtureValidated: true,
     independentBackupVerified: false, businessDataReady: false, generatedTemplatesValidated: 3 }));
-  const server = createPilotHealthServer(monitor);
+  const publicMonitor = createPublicWebsiteMonitor(async () => {
+    const spec = JSON.parse(await readFile(new URL("../config/agents/website-health.spec.json", import.meta.url), "utf8"));
+    return (await runApprovedPublicWebsiteAgent(spec)).report;
+  });
+  const runPublicCheck = async () => {
+    try { console.log(JSON.stringify({ event: "PUBLIC_WEBSITE_AGENT_COMPLETED", report: await publicMonitor.run() })); }
+    catch { console.error(JSON.stringify({ event: "PUBLIC_WEBSITE_AGENT_CHECK_FAILED" })); }
+  };
+  await runPublicCheck();
+  const publicInterval = setInterval(runPublicCheck, PUBLIC_WEBSITE_INTERVAL_MS);
+  publicInterval.unref();
+  const server = createPilotHealthServer(monitor, publicMonitor);
   const interval = setInterval(async () => {
     const passed = await monitor.run();
     console[passed ? "log" : "error"](JSON.stringify({ event: passed ? "PILOT_STORAGE_CHECK_PASSED" : "PILOT_STORAGE_CHECK_FAILED",
       independentBackupVerified: false, businessDataReady: false }));
   }, 60_000);
   interval.unref();
-  server.once("close", () => clearInterval(interval));
+  server.once("close", () => { clearInterval(interval); clearInterval(publicInterval); });
   server.listen(Number(process.env.PORT || 10000), "0.0.0.0");
   for (const signal of ["SIGTERM", "SIGINT"]) process.once(signal, () => {
     server.close(() => process.exit(0));
@@ -78,7 +91,7 @@ export async function startPilot() {
   return server;
 }
 
-export function createPilotHealthServer(monitor) {
+export function createPilotHealthServer(monitor, publicMonitor) {
   // Expose readiness only. Never serve reports, records, backups, keys or mutation endpoints.
   const ready = { service: "quest-luxo-agent-pilot", mode: "SYNTHETIC_ONLY", storage: "PERSISTENT_ENCRYPTED",
     independentBackupVerified: false, businessDataReady: false, gmail: false, crm: false };
@@ -88,7 +101,8 @@ export function createPilotHealthServer(monitor) {
     const healthy = monitor.healthy();
     res.writeHead(healthy ? 200 : 503);
     res.end(JSON.stringify({ ...ready, fixturePassed: healthy, storageVerified: healthy, localBackupVerified: healthy,
-      generatedTemplatesValidated: healthy ? 3 : 0 }));
+      generatedTemplatesValidated: healthy ? 3 : 0,
+      publicWebsiteAgent: publicMonitor?.snapshot().state ?? "NOT_CONFIGURED" }));
   });
 }
 if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) {

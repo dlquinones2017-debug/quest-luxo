@@ -14,8 +14,17 @@ export const syntheticRecords = () => ({
     updatedAt: "2026-10-21T12:00:00Z", evidenceIds: ["synthetic-proof-realty"], evidenceState: "REQUIRES_VERIFICATION" }],
 });
 
+import { checkPublicWebsites } from "../src/lib/agents/publicWebsiteHealth.ts";
+
+export async function runApprovedPublicWebsiteAgent(input) {
+  const spec = await validateFactorySpec(input);
+  if (spec.version !== 3 || spec.template !== "website-health") throw Error("Reviewed public website template required.");
+  return { source: "APPROVED_PUBLIC_HTTP_ONLY", report: await checkPublicWebsites() };
+}
+
 export async function runFactoryAgent(input) {
   const spec = await validateFactorySpec(input);
+  if (spec.version === 3) return { source: "SYNTHETIC_FIXTURE_ONLY", report: await checkPublicWebsites({ reader: async () => new Response(null, { status: 200 }) }) };
   const now = new Date().toISOString();
   const evidence = syntheticReadinessEvidence(now);
   if (spec.version === 2 && spec.template === "readiness")
