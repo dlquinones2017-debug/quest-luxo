@@ -31,21 +31,22 @@ export async function loadFactoryRoster(): Promise<readonly FactoryRole[]> {
 }
 
 export interface FactorySpec {
-  version: 1 | 2 | 3;
-  template?: "readiness" | "founder-brief" | "website-health" | "public-incident-triage" | "public-operations-brief";
+  version: 1 | 2 | 3 | 4;
+  template?: "readiness" | "founder-brief" | "website-health" | "public-incident-triage" | "public-operations-brief" | "pilot-recovery-audit";
   id: string;
   roleId: string;
   owner: string;
   outcomes: readonly string[];
   inputs: readonly string[];
   authorizedTools: readonly string[];
-  permissions: { mode: "SYNTHETIC_READ_ONLY" | "PUBLIC_READ_ONLY"; externalWrites: false; gmail: false; crm: false; production: false };
+  permissions: { mode: "SYNTHETIC_READ_ONLY" | "PUBLIC_READ_ONLY" | "PILOT_LOCAL_READ_ONLY"; externalWrites: false; gmail: false; crm: false; production: false };
   evidence: { approvalRef: string; architectureRef: "PR68@a13f374b085b29127f86f29a43b79ee9b71bfbae" };
-  outputSchema: "manual-pipeline-report-v1" | "agent-readiness-report-v1" | "founder-operations-brief-v1" | "public-website-health-v1" | "public-operational-incidents-v1" | "public-operations-brief-v1";
+  outputSchema: "manual-pipeline-report-v1" | "agent-readiness-report-v1" | "founder-operations-brief-v1" | "public-website-health-v1" | "public-operational-incidents-v1" | "public-operations-brief-v1" | "pilot-recovery-audit-v1";
   errorPolicy: "HOLD";
   evaluation: { capitalTotal: number; capitalBlocked: number; realtyTotal: number; realtyFounderReview: number } |
     { expectedStatus: "HOLD"; requiredActions: readonly ["KEY_RECOVERY", "RETENTION_POLICY", "SOURCE_SCOPE"] } |
-    { expectedTargets: 3; expectedStatus: "RESPONDING" } | { expectedStatus: "ATTENTION" | "READY_FOR_REVIEW"; expectedIncidents: 2 };
+    { expectedTargets: 3; expectedStatus: "RESPONDING" } | { expectedStatus: "ATTENTION" | "READY_FOR_REVIEW"; expectedIncidents: 2 } |
+    { expectedStatus: "HOLD"; expectedReceipt: "MISSING" };
 }
 const text = (s: unknown) => typeof s === "string" && s.trim().length > 0 && s.length <= 300 && !/[\x00-\x1f]/.test(s);
 function exact(value: object, fields: readonly string[]) {
@@ -56,8 +57,8 @@ export async function validateFactorySpec(input: unknown): Promise<FactorySpec> 
   if (!input || typeof input !== "object") throw Error("Agent specification required.");
   const spec = input as FactorySpec;
   const fields = ["version", "id", "roleId", "owner", "outcomes", "inputs", "authorizedTools", "permissions", "evidence", "outputSchema", "errorPolicy", "evaluation"];
-  exact(spec, spec.version === 2 || spec.version === 3 ? [...fields, "template"] : fields);
-  if (![1, 2, 3].includes(spec.version) || typeof spec.id !== "string" || !/^[a-z][a-z0-9-]{2,63}$/.test(spec.id) || !text(spec.owner) ||
+  exact(spec, spec.version >= 2 ? [...fields, "template"] : fields);
+  if (![1, 2, 3, 4].includes(spec.version) || typeof spec.id !== "string" || !/^[a-z][a-z0-9-]{2,63}$/.test(spec.id) || !text(spec.owner) ||
       !Array.isArray(spec.outcomes) || spec.outcomes.length < 1 || spec.outcomes.length > 10 || !spec.outcomes.every(text) ||
       spec.errorPolicy !== "HOLD") throw Error("Unsupported agent specification.");
   const roles = await loadFactoryRoster();
@@ -65,7 +66,7 @@ export async function validateFactorySpec(input: unknown): Promise<FactorySpec> 
   const supported = ["lead-operations", "reliability-qa-and-incident-response-agent", "founder-chief-of-staff-and-approval-agent", "website-product", "enterprise-risk"];
   if (!supported.includes(spec.roleId)) throw Error("No validated template for this role; hold for implementation review.");
   exact(spec.permissions, ["mode", "externalWrites", "gmail", "crm", "production"]);
-  if (spec.permissions.mode !== (spec.version === 3 ? "PUBLIC_READ_ONLY" : "SYNTHETIC_READ_ONLY") || [spec.permissions.externalWrites, spec.permissions.gmail, spec.permissions.crm, spec.permissions.production].some(v => v !== false))
+  if (spec.permissions.mode !== (spec.version === 4 ? "PILOT_LOCAL_READ_ONLY" : spec.version === 3 ? "PUBLIC_READ_ONLY" : "SYNTHETIC_READ_ONLY") || [spec.permissions.externalWrites, spec.permissions.gmail, spec.permissions.crm, spec.permissions.production].some(v => v !== false))
     throw Error("Factory cannot grant runtime permissions.");
   exact(spec.evidence, ["approvalRef", "architectureRef"]);
   if (!text(spec.evidence.approvalRef) || spec.evidence.architectureRef !== "PR68@a13f374b085b29127f86f29a43b79ee9b71bfbae") throw Error("Approval and architecture provenance required.");
@@ -77,6 +78,13 @@ export async function validateFactorySpec(input: unknown): Promise<FactorySpec> 
     const expected = { capitalTotal: 1, capitalBlocked: 1, realtyTotal: 1, realtyFounderReview: 1 };
     exact(spec.evaluation, Object.keys(expected));
     if (Object.entries(expected).some(([k, v]) => (spec.evaluation as Record<string, unknown>)[k] !== v)) throw Error("Reviewed evaluation fixture required.");
+  } else if (spec.version === 4) {
+    if (spec.template !== "pilot-recovery-audit" || spec.roleId !== "reliability-qa-and-incident-response-agent" ||
+        spec.outputSchema !== "pilot-recovery-audit-v1" || JSON.stringify(spec.inputs) !== '["isolated-pilot-storage-state","operator-recovery-receipt"]' ||
+        JSON.stringify(spec.authorizedTools) !== '["pilot-recovery.assess"]') throw Error("Recovery auditor requires its fixed pilot-local role and tool.");
+    exact(spec.evaluation, ["expectedStatus", "expectedReceipt"]);
+    const expected = spec.evaluation as { expectedStatus: unknown; expectedReceipt: unknown };
+    if (expected.expectedStatus !== "HOLD" || expected.expectedReceipt !== "MISSING") throw Error("Reviewed missing-recovery fixture required.");
   } else if (spec.version === 3) {
     const policy = spec.template === "website-health" ? {
       role: "website-product", output: "public-website-health-v1", inputs: ["approved-public-website-targets"], tools: ["public-http.head"],
@@ -123,16 +131,17 @@ export async function generateAgentPackage(input: unknown) {
   if ((await lstat(parent)).isSymbolicLink() || await realpath(parent) !== resolve(parent)) throw Error("Unsafe package directory.");
   const staging = await mkdtemp(join(parent, ".factory-"));
   const config = JSON.stringify(spec, null, 2) + "\n";
-  const runtimeEntry = spec.version !== 3 ? "runFactoryAgent" : spec.template === "public-incident-triage" ? "runApprovedPublicIncidentAgent" : spec.template === "public-operations-brief" ? "runApprovedPublicOperationsAgent" : "runApprovedPublicWebsiteAgent";
+  const runtimeEntry = spec.version === 4 ? "runApprovedPilotRecoveryAgent" : spec.version !== 3 ? "runFactoryAgent" : spec.template === "public-incident-triage" ? "runApprovedPublicIncidentAgent" : spec.template === "public-operations-brief" ? "runApprovedPublicOperationsAgent" : "runApprovedPublicWebsiteAgent";
   const runner = `import { readFile } from "node:fs/promises";\nimport { ${runtimeEntry} } from "../../scripts/factory-agent-runtime.mjs";\nconst spec = JSON.parse(await readFile(new URL("./agent.json", import.meta.url), "utf8"));\nconsole.log(JSON.stringify(await ${runtimeEntry}(spec), null, 2));\n`;
-  const assertions = spec.version === 3 && spec.template !== "website-health" ?
+  const assertions = spec.version === 4 ?
+    `  assert.equal(result.report.mode, "PILOT_LOCAL_READ_ONLY");\n  assert.equal(result.report.status, "HOLD");\n  assert.equal(result.report.recoveryReceipt, "MISSING");\n  assert.equal(result.report.independentBackupVerified, false);\n  assert.equal(result.report.businessDataExecutionAllowed, false);\n` : spec.version === 3 && spec.template !== "website-health" ?
     `  assert.equal(result.report.mode, "PUBLIC_READ_ONLY");\n  assert.equal(result.report.incidentCount, 2);\n  assert.equal(result.report.status, "${spec.template === "public-incident-triage" ? "ATTENTION" : "READY_FOR_REVIEW"}");\n  assert.equal(result.report.dispatchesWork, false);\n  assert.equal(result.report.businessDataExecutionAllowed, false);\n` : spec.version === 3 ?
     `  assert.equal(result.report.mode, "PUBLIC_READ_ONLY");\n  assert.equal(result.report.status, "RESPONDING");\n  assert.equal(result.report.checked, 3);\n  assert.equal(result.report.changesProduction, false);\n  assert.equal(result.report.businessDataExecutionAllowed, false);\n` : spec.version === 1 ?
     `  assert.deepEqual(result.report.divisions.map(r => [r.total, r.blocked, r.founderReview]), [[1,1,0],[1,0,1]]);\n` :
     `  assert.equal(result.report.status, "HOLD");\n  assert.deepEqual(result.report.requiredActions, ["KEY_RECOVERY", "RETENTION_POLICY", "SOURCE_SCOPE"]);\n  assert.equal(result.report.businessDataExecutionAllowed, false);\n` + (spec.template === "founder-brief" ? `  assert.equal(result.report.dispatchesWork, false);\n  assert.deepEqual(result.report.divisions.map(r => [r.total, r.blocked, r.founderReview]), [[1,1,0],[1,0,1]]);\n` : "");
   const tests = `import test from "node:test";\nimport assert from "node:assert/strict";\nimport { readFile } from "node:fs/promises";\nimport { runFactoryAgent } from "../../scripts/factory-agent-runtime.mjs";\nconst spec = JSON.parse(await readFile(new URL("./agent.json", import.meta.url), "utf8"));\ntest("generated agent preserves reviewed outcomes and read-only boundaries", async () => {\n  const result = await runFactoryAgent(spec);\n  assert.equal(result.source, "SYNTHETIC_FIXTURE_ONLY");\n${assertions}  assert.equal(result.report.sendsMessages, false);\n  assert.equal(result.report.writesCRM, false);\n  assert.equal(result.report.activatesGmail, false);\n});\n`;
   const publicRunbook = `# Generated public website health agent\n\nRole: ${spec.roleId}. Template: ${spec.template}. Mode: PUBLIC_READ_ONLY.\n\nRun: node agent-packages/${spec.id}/run.mjs\n\nValidate offline: node --test agent-packages/${spec.id}/agent.test.mjs\n\nThe runner uses bounded HEAD observations from the three fixed Quest Luxo public website roots. The pilot shares one observation across the three public operations packages. Derived roles triage incidents and build a founder brief without additional network requests. No redirects, response bodies, credentials, customer data, sends, CRM, Gmail or production changes. Tests use a synthetic HTTP reader; they cannot prove live availability. Access restrictions and network failures are observations from the checker location, not proof of global outage. The existing pilot schedules this package every five minutes. No new paid infrastructure.\n`;
-  const runbook = spec.version === 3 ? publicRunbook : `# Generated ${spec.template ?? "operations"} report\n\nStatus: SYNTHETIC PACKAGE ONLY. Not authorized for business data.\n\nRole: ${spec.roleId}. Owner and approval provenance: see agent.json.\n\nRun from repository root: node agent-packages/${spec.id}/run.mjs\n\nValidate: node --test agent-packages/${spec.id}/agent.test.mjs\n\nThe runner reuses existing aggregate reporting and evidence assessment with reviewed synthetic fixtures. No credentials, live source adapters, Gmail, CRM, network, scheduler or production writes. Unsupported tools or roles fail closed. A readiness result recommends founder review and cannot grant access or dispatch work.\n\nRelease requires verified key/backup recovery, retention and monitoring, and an authorized source scope. Creating a spec cannot grant access.\n`;
+  const runbook = spec.version === 4 ? `# Generated pilot recovery auditor\n\nRole: ${spec.roleId}. Mode: PILOT_LOCAL_READ_ONLY.\n\nThe existing isolated pilot invokes this package after its storage checks. Its standalone runner assumes no successful storage checks and holds. It reads only the fixed synthetic stores and a private operator-observed recovery receipt. Evidence expires after 24 hours or when either revision changes. A one-time independent recovery cannot establish recurring retention or business-data authorization. Missing or conflicting evidence holds. No network, key export, dispatch, connector or production writes.\n\nValidate offline: node --test agent-packages/${spec.id}/agent.test.mjs\n` : spec.version === 3 ? publicRunbook : `# Generated ${spec.template ?? "operations"} report\n\nStatus: SYNTHETIC PACKAGE ONLY. Not authorized for business data.\n\nRole: ${spec.roleId}. Owner and approval provenance: see agent.json.\n\nRun from repository root: node agent-packages/${spec.id}/run.mjs\n\nValidate: node --test agent-packages/${spec.id}/agent.test.mjs\n\nThe runner reuses existing aggregate reporting and evidence assessment with reviewed synthetic fixtures. No credentials, live source adapters, Gmail, CRM, network, scheduler or production writes. Unsupported tools or roles fail closed. A readiness result recommends founder review and cannot grant access or dispatch work.\n\nRelease requires verified key/backup recovery, retention and monitoring, and an authorized source scope. Creating a spec cannot grant access.\n`;
   try {
     for (const [name, content] of [["agent.json", config], ["run.mjs", runner], ["agent.test.mjs", tests], ["RUNBOOK.md", runbook]])
       await writeFile(join(staging, name!), content!, { flag: "wx" });
@@ -142,5 +151,5 @@ export async function generateAgentPackage(input: unknown) {
     catch (error) { await rm(target, { recursive: true, force: true }); throw error; }
   } finally { await rm(staging, { recursive: true, force: true }); }
   return { packagePath: `agent-packages/${spec.id}`, filesGenerated: 4, elapsedMs: Math.round(performance.now() - started),
-    status: spec.version === 3 ? "PUBLIC_READ_ONLY_PACKAGE" : "SYNTHETIC_PACKAGE_ONLY", deployed: false, externalWrites: false } as const;
+    status: spec.version === 4 ? "PILOT_LOCAL_READ_ONLY_PACKAGE" : spec.version === 3 ? "PUBLIC_READ_ONLY_PACKAGE" : "SYNTHETIC_PACKAGE_ONLY", deployed: false, externalWrites: false } as const;
 }

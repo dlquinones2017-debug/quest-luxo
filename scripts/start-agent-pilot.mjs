@@ -3,7 +3,7 @@ import { readFile, realpath, mkdir, lstat } from "node:fs/promises";
 import { join } from "node:path";
 import { pathToFileURL } from "node:url";
 import { commitDurablePipelines, readDurablePipelines } from "../src/lib/command/enterpriseDurablePipelines.ts";
-import { syntheticRecords, runApprovedPublicWebsiteAgent, runApprovedPublicIncidentAgent, runApprovedPublicOperationsAgent } from "./factory-agent-runtime.mjs";
+import { syntheticRecords, runApprovedPublicWebsiteAgent, runApprovedPublicIncidentAgent, runApprovedPublicOperationsAgent, runApprovedPilotRecoveryAgent } from "./factory-agent-runtime.mjs";
 import { inspectPersistentSyntheticSnapshot, maintainPilotStorage, createPilotMonitor } from "./pilot-storage-maintenance.mjs";
 import { validateSyntheticAgentTeam } from "./pilot-agent-team.mjs";
 
@@ -50,6 +50,8 @@ export async function startPilot() {
   let result;
   try { result = await runPersistentSyntheticPilot(process.env.QUEST_PIPELINE_DIRECTORY, key); }
   finally { key.fill(0); }
+  let recoveryReport = null, lastRecoveryCheck = -Infinity;
+  const recoverySnapshot = () => ({ state: recoveryReport && performance.now() - lastRecoveryCheck <= 120_000 ? "CURRENT" : "CHECK_FAILED", report: recoveryReport });
   const monitor = createPilotMonitor(async () => {
     await verifyPilotEnvironment();
     const managedKey = Buffer.from(process.env.QUEST_PIPELINE_KEY_HEX, "hex");
@@ -57,13 +59,19 @@ export async function startPilot() {
       await maintainPilotStorage(process.env.QUEST_PIPELINE_DIRECTORY, managedKey);
       await maintainSyntheticIntake(process.env.QUEST_PIPELINE_DIRECTORY, managedKey);
       await validateSyntheticAgentTeam();
+      try {
+        const spec = JSON.parse(await readFile(new URL("../config/agents/pilot-recovery-audit.spec.json", import.meta.url), "utf8"));
+        recoveryReport = (await runApprovedPilotRecoveryAgent(spec, { storageVerified: true, localBackupVerified: true })).report;
+        lastRecoveryCheck = performance.now();
+        console.log(JSON.stringify({ event: "PILOT_RECOVERY_AUDIT_AGENT_COMPLETED", report: recoveryReport }));
+      } catch { recoveryReport = null; console.error(JSON.stringify({ event: "PILOT_RECOVERY_AUDIT_AGENT_HELD" })); }
     }
     finally { managedKey.fill(0); }
   });
   if (!await monitor.run()) throw Error("Initial storage and retained-backup verification failed.");
   console.log(JSON.stringify({ event: "SYNTHETIC_PILOT_PASSED", recoveredExisting: result.recoveredExisting,
     intakeRecoveredExisting: result.intakeRecoveredExisting, intakeFixtureValidated: true,
-    independentBackupVerified: false, businessDataReady: false, generatedTemplatesValidated: 3 }));
+    independentBackupVerified: recoveryReport?.independentBackupVerified === true, businessDataReady: false, generatedTemplatesValidated: 3 }));
   const publicMonitor = createPublicWebsiteMonitor(async () => {
     const spec = JSON.parse(await readFile(new URL("../config/agents/website-health.spec.json", import.meta.url), "utf8"));
     return (await runApprovedPublicWebsiteAgent(spec)).report;
@@ -86,11 +94,11 @@ export async function startPilot() {
   await runPublicCheck();
   const publicInterval = setInterval(runPublicCheck, PUBLIC_WEBSITE_INTERVAL_MS);
   publicInterval.unref();
-  const server = createPilotHealthServer(monitor, publicMonitor, () => publicTeamStatus);
+  const server = createPilotHealthServer(monitor, publicMonitor, () => publicTeamStatus, recoverySnapshot);
   const interval = setInterval(async () => {
     const passed = await monitor.run();
     console[passed ? "log" : "error"](JSON.stringify({ event: passed ? "PILOT_STORAGE_CHECK_PASSED" : "PILOT_STORAGE_CHECK_FAILED",
-      independentBackupVerified: false, businessDataReady: false }));
+      independentBackupVerified: passed && recoveryReport?.independentBackupVerified === true, businessDataReady: false }));
   }, 60_000);
   interval.unref();
   server.once("close", () => { clearInterval(interval); clearInterval(publicInterval); });
@@ -102,7 +110,7 @@ export async function startPilot() {
   return server;
 }
 
-export function createPilotHealthServer(monitor, publicMonitor, publicTeamState) {
+export function createPilotHealthServer(monitor, publicMonitor, publicTeamState, recoverySnapshot) {
   // Expose readiness only. Never serve reports, records, backups, keys or mutation endpoints.
   const ready = { service: "quest-luxo-agent-pilot", mode: "SYNTHETIC_ONLY", storage: "PERSISTENT_ENCRYPTED",
     independentBackupVerified: false, businessDataReady: false, gmail: false, crm: false };
@@ -112,10 +120,17 @@ export function createPilotHealthServer(monitor, publicMonitor, publicTeamState)
     const healthy = monitor.healthy();
     const publicState = publicMonitor?.snapshot().state ?? "NOT_CONFIGURED";
     const teamState = publicState === "STALE" ? "STALE" : publicTeamState?.() ?? "NOT_CONFIGURED";
+    const recovery = recoverySnapshot?.();
+    const recoveryCurrent = healthy && recovery?.state === "CURRENT";
+    const independentVerified = recoveryCurrent && recovery.report?.independentBackupVerified === true &&
+      Date.now() <= Date.parse(recovery.report.recoveryValidUntil);
     res.writeHead(healthy ? 200 : 503);
     res.end(JSON.stringify({ ...ready, fixturePassed: healthy, storageVerified: healthy, localBackupVerified: healthy,
       generatedTemplatesValidated: healthy ? 3 : 0,
-      publicWebsiteAgent: publicState, publicOperationsTeam: teamState, livePublicAgents: teamState === "CURRENT" ? 3 : 0 }));
+      publicWebsiteAgent: publicState, publicOperationsTeam: teamState, livePublicAgents: teamState === "CURRENT" ? 3 : 0,
+      recoveryAuditAgent: recoveryCurrent ? "CURRENT" : !healthy && recovery ? "HELD" : recovery?.state ?? "NOT_CONFIGURED",
+      independentBackupVerified: Boolean(independentVerified), recurringOffsiteRetentionVerified: false,
+      liveOperationalAgents: (teamState === "CURRENT" ? 3 : 0) + (recoveryCurrent ? 1 : 0) }));
   });
 }
 if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) {

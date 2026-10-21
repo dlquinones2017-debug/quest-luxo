@@ -16,6 +16,14 @@ export const syntheticRecords = () => ({
 
 import { triagePublicWebsiteReport, buildPublicOperationsBrief } from "../src/lib/agents/publicOperationsTeam.ts";
 import { checkPublicWebsites } from "../src/lib/agents/publicWebsiteHealth.ts";
+import { assessPilotRecovery } from "../src/lib/agents/pilotRecoveryAudit.ts";
+import { readPilotRecoveryAssessment } from "./pilot-recovery-audit.mjs";
+
+export async function runApprovedPilotRecoveryAgent(input, storageState) {
+  const spec = await validateFactorySpec(input);
+  if (spec.version !== 4 || spec.template !== "pilot-recovery-audit") throw Error("Reviewed recovery auditor required.");
+  return { source: "ISOLATED_PILOT_LOCAL_STATE", report: await readPilotRecoveryAssessment(storageState) };
+}
 
 export async function runApprovedPublicWebsiteAgent(input) {
   const spec = await validateFactorySpec(input);
@@ -39,6 +47,8 @@ export async function runApprovedPublicOperationsAgent(input, priorHealth, prior
 
 export async function runFactoryAgent(input) {
   const spec = await validateFactorySpec(input);
+  if (spec.version === 4) return { source: "SYNTHETIC_FIXTURE_ONLY", report: assessPilotRecovery({ storageVerified: true, localBackupVerified: true,
+    pipelineRevision: "a".repeat(64), intakeRevision: "b".repeat(64) }, null, new Date().toISOString()) };
   if (spec.version === 3) {
     let index = 0;
     const statuses = spec.template === "website-health" ? [200,200,200] : [200,403,503];
