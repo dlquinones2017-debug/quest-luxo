@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "id": "operations-pilot",
+  "roleId": "lead-operations",
+  "owner": "Denzel Quinones",
+  "outcomes": ["Report Capital and Realty exception counts from the reviewed synthetic pipeline fixture."],
+  "inputs": ["synthetic-pipeline-fixture"],
+  "authorizedTools": ["pipeline.aggregate-report"],
+  "permissions": {"mode":"SYNTHETIC_READ_ONLY","externalWrites":false,"gmail":false,"crm":false,"production":false},
+  "evidence": {"approvalRef":"founder-work-mode-handoff-2026-10-21-synthetic-development","architectureRef":"PR68@a13f374b085b29127f86f29a43b79ee9b71bfbae"},
+  "outputSchema": "manual-pipeline-report-v1",
+  "errorPolicy": "HOLD",
+  "evaluation": {"capitalTotal":1,"capitalBlocked":1,"realtyTotal":1,"realtyFounderReview":1}
+}

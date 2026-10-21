@@ -23,7 +23,10 @@
     "check:omega-photography:queue": "node --experimental-strip-types scripts/sync-omega-photo-queue.mjs --check",
     "agent:operations-report": "node --experimental-strip-types scripts/manual-pipeline-agent-report.mjs",
     "agent:smoke": "node --experimental-strip-types --test tests/enterpriseDurablePipelines.test.mjs tests/manualPipelineAgentReport.test.mjs tests/manualPipelineAgentE2E.test.mjs",
-    "agent:demo": "node --experimental-strip-types scripts/demo-operations-agent.mjs"
+    "agent:demo": "node --experimental-strip-types scripts/demo-operations-agent.mjs",
+    "agent:factory": "node --experimental-strip-types scripts/agent-factory.mjs",
+    "agent:backup": "node --experimental-strip-types scripts/pipeline-backup.mjs",
+    "agent:pilot": "node --experimental-strip-types scripts/start-agent-pilot.mjs"
   },
   "dependencies": {
     "@astrojs/node": "^11.0.2",
