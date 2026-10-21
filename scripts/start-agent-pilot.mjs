@@ -3,7 +3,7 @@ import { readFile, realpath, mkdir, lstat } from "node:fs/promises";
 import { join } from "node:path";
 import { pathToFileURL } from "node:url";
 import { commitDurablePipelines, readDurablePipelines } from "../src/lib/command/enterpriseDurablePipelines.ts";
-import { syntheticRecords, runApprovedPublicWebsiteAgent } from "./factory-agent-runtime.mjs";
+import { syntheticRecords, runApprovedPublicWebsiteAgent, runApprovedPublicIncidentAgent, runApprovedPublicOperationsAgent } from "./factory-agent-runtime.mjs";
 import { inspectPersistentSyntheticSnapshot, maintainPilotStorage, createPilotMonitor } from "./pilot-storage-maintenance.mjs";
 import { validateSyntheticAgentTeam } from "./pilot-agent-team.mjs";
 
@@ -68,14 +68,25 @@ export async function startPilot() {
     const spec = JSON.parse(await readFile(new URL("../config/agents/website-health.spec.json", import.meta.url), "utf8"));
     return (await runApprovedPublicWebsiteAgent(spec)).report;
   });
+  let publicTeamStatus = "NOT_CHECKED";
   const runPublicCheck = async () => {
-    try { console.log(JSON.stringify({ event: "PUBLIC_WEBSITE_AGENT_COMPLETED", report: await publicMonitor.run() })); }
-    catch { console.error(JSON.stringify({ event: "PUBLIC_WEBSITE_AGENT_CHECK_FAILED" })); }
+    try {
+      const health = await publicMonitor.run(), now = new Date().toISOString();
+      console.log(JSON.stringify({ event: "PUBLIC_WEBSITE_AGENT_COMPLETED", report: health }));
+      const incidentSpec = JSON.parse(await readFile(new URL("../config/agents/public-incident-triage.spec.json", import.meta.url), "utf8"));
+      const briefSpec = JSON.parse(await readFile(new URL("../config/agents/public-operations-brief.spec.json", import.meta.url), "utf8"));
+      const incidents = await runApprovedPublicIncidentAgent(incidentSpec, health, now);
+      const brief = await runApprovedPublicOperationsAgent(briefSpec, health, incidents.report, now);
+      console.log(JSON.stringify({ event: "PUBLIC_INCIDENT_AGENT_COMPLETED", report: incidents.report }));
+      console.log(JSON.stringify({ event: "PUBLIC_FOUNDER_BRIEF_AGENT_COMPLETED", report: brief.report }));
+      publicTeamStatus = "CURRENT";
+      console.log(JSON.stringify({ event: "PUBLIC_OPERATIONS_TEAM_COMPLETED", livePublicAgents: 3, businessDataReady: false }));
+    } catch { publicTeamStatus = "CHECK_FAILED"; console.error(JSON.stringify({ event: "PUBLIC_OPERATIONS_TEAM_CHECK_FAILED" })); }
   };
   await runPublicCheck();
   const publicInterval = setInterval(runPublicCheck, PUBLIC_WEBSITE_INTERVAL_MS);
   publicInterval.unref();
-  const server = createPilotHealthServer(monitor, publicMonitor);
+  const server = createPilotHealthServer(monitor, publicMonitor, () => publicTeamStatus);
   const interval = setInterval(async () => {
     const passed = await monitor.run();
     console[passed ? "log" : "error"](JSON.stringify({ event: passed ? "PILOT_STORAGE_CHECK_PASSED" : "PILOT_STORAGE_CHECK_FAILED",
@@ -91,7 +102,7 @@ export async function startPilot() {
   return server;
 }
 
-export function createPilotHealthServer(monitor, publicMonitor) {
+export function createPilotHealthServer(monitor, publicMonitor, publicTeamState) {
   // Expose readiness only. Never serve reports, records, backups, keys or mutation endpoints.
   const ready = { service: "quest-luxo-agent-pilot", mode: "SYNTHETIC_ONLY", storage: "PERSISTENT_ENCRYPTED",
     independentBackupVerified: false, businessDataReady: false, gmail: false, crm: false };
@@ -99,10 +110,12 @@ export function createPilotHealthServer(monitor, publicMonitor) {
     res.setHeader("Content-Type", "application/json"); res.setHeader("Cache-Control", "no-store");
     if (req.method !== "GET" || req.url !== "/healthz") { res.writeHead(404); res.end('{"error":"not_found"}'); return; }
     const healthy = monitor.healthy();
+    const publicState = publicMonitor?.snapshot().state ?? "NOT_CONFIGURED";
+    const teamState = publicState === "STALE" ? "STALE" : publicTeamState?.() ?? "NOT_CONFIGURED";
     res.writeHead(healthy ? 200 : 503);
     res.end(JSON.stringify({ ...ready, fixturePassed: healthy, storageVerified: healthy, localBackupVerified: healthy,
       generatedTemplatesValidated: healthy ? 3 : 0,
-      publicWebsiteAgent: publicMonitor?.snapshot().state ?? "NOT_CONFIGURED" }));
+      publicWebsiteAgent: publicState, publicOperationsTeam: teamState, livePublicAgents: teamState === "CURRENT" ? 3 : 0 }));
   });
 }
 if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) {

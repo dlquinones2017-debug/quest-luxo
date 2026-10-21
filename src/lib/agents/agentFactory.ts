@@ -32,7 +32,7 @@ export async function loadFactoryRoster(): Promise<readonly FactoryRole[]> {
 
 export interface FactorySpec {
   version: 1 | 2 | 3;
-  template?: "readiness" | "founder-brief" | "website-health";
+  template?: "readiness" | "founder-brief" | "website-health" | "public-incident-triage" | "public-operations-brief";
   id: string;
   roleId: string;
   owner: string;
@@ -41,11 +41,11 @@ export interface FactorySpec {
   authorizedTools: readonly string[];
   permissions: { mode: "SYNTHETIC_READ_ONLY" | "PUBLIC_READ_ONLY"; externalWrites: false; gmail: false; crm: false; production: false };
   evidence: { approvalRef: string; architectureRef: "PR68@a13f374b085b29127f86f29a43b79ee9b71bfbae" };
-  outputSchema: "manual-pipeline-report-v1" | "agent-readiness-report-v1" | "founder-operations-brief-v1" | "public-website-health-v1";
+  outputSchema: "manual-pipeline-report-v1" | "agent-readiness-report-v1" | "founder-operations-brief-v1" | "public-website-health-v1" | "public-operational-incidents-v1" | "public-operations-brief-v1";
   errorPolicy: "HOLD";
   evaluation: { capitalTotal: number; capitalBlocked: number; realtyTotal: number; realtyFounderReview: number } |
     { expectedStatus: "HOLD"; requiredActions: readonly ["KEY_RECOVERY", "RETENTION_POLICY", "SOURCE_SCOPE"] } |
-    { expectedTargets: 3; expectedStatus: "RESPONDING" };
+    { expectedTargets: 3; expectedStatus: "RESPONDING" } | { expectedStatus: "ATTENTION" | "READY_FOR_REVIEW"; expectedIncidents: 2 };
 }
 const text = (s: unknown) => typeof s === "string" && s.trim().length > 0 && s.length <= 300 && !/[\x00-\x1f]/.test(s);
 function exact(value: object, fields: readonly string[]) {
@@ -62,7 +62,7 @@ export async function validateFactorySpec(input: unknown): Promise<FactorySpec> 
       spec.errorPolicy !== "HOLD") throw Error("Unsupported agent specification.");
   const roles = await loadFactoryRoster();
   if (!roles.some(r => r.id === spec.roleId)) throw Error("Unregistered role; hold for architecture review.");
-  const supported = ["lead-operations", "reliability-qa-and-incident-response-agent", "founder-chief-of-staff-and-approval-agent", "website-product"];
+  const supported = ["lead-operations", "reliability-qa-and-incident-response-agent", "founder-chief-of-staff-and-approval-agent", "website-product", "enterprise-risk"];
   if (!supported.includes(spec.roleId)) throw Error("No validated template for this role; hold for implementation review.");
   exact(spec.permissions, ["mode", "externalWrites", "gmail", "crm", "production"]);
   if (spec.permissions.mode !== (spec.version === 3 ? "PUBLIC_READ_ONLY" : "SYNTHETIC_READ_ONLY") || [spec.permissions.externalWrites, spec.permissions.gmail, spec.permissions.crm, spec.permissions.production].some(v => v !== false))
@@ -78,12 +78,23 @@ export async function validateFactorySpec(input: unknown): Promise<FactorySpec> 
     exact(spec.evaluation, Object.keys(expected));
     if (Object.entries(expected).some(([k, v]) => (spec.evaluation as Record<string, unknown>)[k] !== v)) throw Error("Reviewed evaluation fixture required.");
   } else if (spec.version === 3) {
-    if (spec.template !== "website-health" || spec.roleId !== "website-product" || spec.outputSchema !== "public-website-health-v1" ||
-        JSON.stringify(spec.inputs) !== '["approved-public-website-targets"]' || JSON.stringify(spec.authorizedTools) !== '["public-http.head"]')
+    const policy = spec.template === "website-health" ? {
+      role: "website-product", output: "public-website-health-v1", inputs: ["approved-public-website-targets"], tools: ["public-http.head"],
+      evaluation: { expectedTargets: 3, expectedStatus: "RESPONDING" },
+    } : spec.template === "public-incident-triage" ? {
+      role: "enterprise-risk", output: "public-operational-incidents-v1", inputs: ["approved-public-website-report"], tools: ["public-health.triage"],
+      evaluation: { expectedStatus: "ATTENTION", expectedIncidents: 2 },
+    } : spec.template === "public-operations-brief" ? {
+      role: "founder-chief-of-staff-and-approval-agent", output: "public-operations-brief-v1",
+      inputs: ["approved-public-website-report", "public-operational-incidents"], tools: ["public-health.brief"],
+      evaluation: { expectedStatus: "READY_FOR_REVIEW", expectedIncidents: 2 },
+    } : null;
+    if (!policy || spec.roleId !== policy.role || spec.outputSchema !== policy.output ||
+        JSON.stringify(spec.inputs) !== JSON.stringify(policy.inputs) || JSON.stringify(spec.authorizedTools) !== JSON.stringify(policy.tools))
       throw Error("Public template requires fixed targets and its registered role/tool boundary.");
-    exact(spec.evaluation, ["expectedTargets", "expectedStatus"]);
-    const expected = spec.evaluation as { expectedTargets: unknown; expectedStatus: unknown };
-    if (expected.expectedTargets !== 3 || expected.expectedStatus !== "RESPONDING") throw Error("Reviewed public HTTP fixture required.");
+    exact(spec.evaluation, Object.keys(policy.evaluation));
+    if (Object.entries(policy.evaluation).some(([key,value]) => (spec.evaluation as Record<string,unknown>)[key] !== value))
+      throw Error("Reviewed public HTTP fixture required.");
   } else {
     const readiness = spec.template === "readiness";
     if ((!readiness && spec.template !== "founder-brief") ||
@@ -112,14 +123,15 @@ export async function generateAgentPackage(input: unknown) {
   if ((await lstat(parent)).isSymbolicLink() || await realpath(parent) !== resolve(parent)) throw Error("Unsafe package directory.");
   const staging = await mkdtemp(join(parent, ".factory-"));
   const config = JSON.stringify(spec, null, 2) + "\n";
-  const runtimeEntry = spec.version === 3 ? "runApprovedPublicWebsiteAgent" : "runFactoryAgent";
+  const runtimeEntry = spec.version !== 3 ? "runFactoryAgent" : spec.template === "public-incident-triage" ? "runApprovedPublicIncidentAgent" : spec.template === "public-operations-brief" ? "runApprovedPublicOperationsAgent" : "runApprovedPublicWebsiteAgent";
   const runner = `import { readFile } from "node:fs/promises";\nimport { ${runtimeEntry} } from "../../scripts/factory-agent-runtime.mjs";\nconst spec = JSON.parse(await readFile(new URL("./agent.json", import.meta.url), "utf8"));\nconsole.log(JSON.stringify(await ${runtimeEntry}(spec), null, 2));\n`;
-  const assertions = spec.version === 3 ?
+  const assertions = spec.version === 3 && spec.template !== "website-health" ?
+    `  assert.equal(result.report.mode, "PUBLIC_READ_ONLY");\n  assert.equal(result.report.incidentCount, 2);\n  assert.equal(result.report.status, "${spec.template === "public-incident-triage" ? "ATTENTION" : "READY_FOR_REVIEW"}");\n  assert.equal(result.report.dispatchesWork, false);\n  assert.equal(result.report.businessDataExecutionAllowed, false);\n` : spec.version === 3 ?
     `  assert.equal(result.report.mode, "PUBLIC_READ_ONLY");\n  assert.equal(result.report.status, "RESPONDING");\n  assert.equal(result.report.checked, 3);\n  assert.equal(result.report.changesProduction, false);\n  assert.equal(result.report.businessDataExecutionAllowed, false);\n` : spec.version === 1 ?
     `  assert.deepEqual(result.report.divisions.map(r => [r.total, r.blocked, r.founderReview]), [[1,1,0],[1,0,1]]);\n` :
     `  assert.equal(result.report.status, "HOLD");\n  assert.deepEqual(result.report.requiredActions, ["KEY_RECOVERY", "RETENTION_POLICY", "SOURCE_SCOPE"]);\n  assert.equal(result.report.businessDataExecutionAllowed, false);\n` + (spec.template === "founder-brief" ? `  assert.equal(result.report.dispatchesWork, false);\n  assert.deepEqual(result.report.divisions.map(r => [r.total, r.blocked, r.founderReview]), [[1,1,0],[1,0,1]]);\n` : "");
   const tests = `import test from "node:test";\nimport assert from "node:assert/strict";\nimport { readFile } from "node:fs/promises";\nimport { runFactoryAgent } from "../../scripts/factory-agent-runtime.mjs";\nconst spec = JSON.parse(await readFile(new URL("./agent.json", import.meta.url), "utf8"));\ntest("generated agent preserves reviewed outcomes and read-only boundaries", async () => {\n  const result = await runFactoryAgent(spec);\n  assert.equal(result.source, "SYNTHETIC_FIXTURE_ONLY");\n${assertions}  assert.equal(result.report.sendsMessages, false);\n  assert.equal(result.report.writesCRM, false);\n  assert.equal(result.report.activatesGmail, false);\n});\n`;
-  const publicRunbook = `# Generated public website health agent\n\nRole: website-product. Mode: PUBLIC_READ_ONLY.\n\nRun: node agent-packages/${spec.id}/run.mjs\n\nValidate offline: node --test agent-packages/${spec.id}/agent.test.mjs\n\nThe runner issues bounded HEAD requests to the three fixed Quest Luxo public website roots. No redirects, response bodies, credentials, customer data, sends, CRM, Gmail or production changes. Tests use a synthetic HTTP reader; they cannot prove live availability. Access restrictions and network failures are observations from the checker location, not proof of global outage. The existing pilot schedules this package every five minutes. No new paid infrastructure.\n`;
+  const publicRunbook = `# Generated public website health agent\n\nRole: ${spec.roleId}. Template: ${spec.template}. Mode: PUBLIC_READ_ONLY.\n\nRun: node agent-packages/${spec.id}/run.mjs\n\nValidate offline: node --test agent-packages/${spec.id}/agent.test.mjs\n\nThe runner uses bounded HEAD observations from the three fixed Quest Luxo public website roots. The pilot shares one observation across the three public operations packages. Derived roles triage incidents and build a founder brief without additional network requests. No redirects, response bodies, credentials, customer data, sends, CRM, Gmail or production changes. Tests use a synthetic HTTP reader; they cannot prove live availability. Access restrictions and network failures are observations from the checker location, not proof of global outage. The existing pilot schedules this package every five minutes. No new paid infrastructure.\n`;
   const runbook = spec.version === 3 ? publicRunbook : `# Generated ${spec.template ?? "operations"} report\n\nStatus: SYNTHETIC PACKAGE ONLY. Not authorized for business data.\n\nRole: ${spec.roleId}. Owner and approval provenance: see agent.json.\n\nRun from repository root: node agent-packages/${spec.id}/run.mjs\n\nValidate: node --test agent-packages/${spec.id}/agent.test.mjs\n\nThe runner reuses existing aggregate reporting and evidence assessment with reviewed synthetic fixtures. No credentials, live source adapters, Gmail, CRM, network, scheduler or production writes. Unsupported tools or roles fail closed. A readiness result recommends founder review and cannot grant access or dispatch work.\n\nRelease requires verified key/backup recovery, retention and monitoring, and an authorized source scope. Creating a spec cannot grant access.\n`;
   try {
     for (const [name, content] of [["agent.json", config], ["run.mjs", runner], ["agent.test.mjs", tests], ["RUNBOOK.md", runbook]])

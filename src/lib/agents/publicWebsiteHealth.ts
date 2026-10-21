@@ -6,7 +6,7 @@ export const PUBLIC_WEBSITE_TARGETS = Object.freeze([
 ]);
 export const PUBLIC_WEBSITE_INTERVAL_MS = 300_000;
 type Reader = (url: string, init: RequestInit) => Promise<Response>;
-const classify = (status: number) => status >= 200 && status < 300 ? "RESPONDING" :
+export const classifyPublicHTTPStatus = (status: number) => status >= 200 && status < 300 ? "RESPONDING" :
   status >= 300 && status < 400 ? "REDIRECT_REVIEW" : status === 401 || status === 403 ? "ACCESS_RESTRICTED" :
   status === 405 ? "HEAD_UNSUPPORTED" : status === 429 ? "RATE_LIMITED" : status === 404 ? "NOT_FOUND" :
   status >= 500 ? "SERVER_ERROR" : "HTTP_REVIEW";
@@ -21,7 +21,7 @@ export async function checkPublicWebsites({ reader = fetch as Reader, now = () =
       const response = await reader(target.url, { method: "HEAD", redirect: "manual", credentials: "omit", cache: "no-store", signal,
         headers: { "User-Agent": "QuestLuxo-WebsiteHealth/1.0" } });
       if (!Number.isInteger(response.status) || response.status < 100 || response.status > 599) throw Error("Invalid HTTP status.");
-      status = response.status; state = classify(status);
+      status = response.status; state = classifyPublicHTTPStatus(status);
       // HEAD does not consume source content; discard a body if a nonstandard implementation supplies one.
       await response.body?.cancel();
     } catch (error) {

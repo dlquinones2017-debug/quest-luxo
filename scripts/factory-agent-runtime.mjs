@@ -14,6 +14,7 @@ export const syntheticRecords = () => ({
     updatedAt: "2026-10-21T12:00:00Z", evidenceIds: ["synthetic-proof-realty"], evidenceState: "REQUIRES_VERIFICATION" }],
 });
 
+import { triagePublicWebsiteReport, buildPublicOperationsBrief } from "../src/lib/agents/publicOperationsTeam.ts";
 import { checkPublicWebsites } from "../src/lib/agents/publicWebsiteHealth.ts";
 
 export async function runApprovedPublicWebsiteAgent(input) {
@@ -22,9 +23,31 @@ export async function runApprovedPublicWebsiteAgent(input) {
   return { source: "APPROVED_PUBLIC_HTTP_ONLY", report: await checkPublicWebsites() };
 }
 
+export async function runApprovedPublicIncidentAgent(input, priorHealth, assessedAt) {
+  const spec = await validateFactorySpec(input);
+  if (spec.version !== 3 || spec.template !== "public-incident-triage") throw Error("Reviewed public incident template required.");
+  const health = priorHealth ?? await checkPublicWebsites();
+  return { source: "DERIVED_PUBLIC_OBSERVATION", report: triagePublicWebsiteReport(health, assessedAt ?? new Date().toISOString()) };
+}
+export async function runApprovedPublicOperationsAgent(input, priorHealth, priorIncidents, assessedAt) {
+  const spec = await validateFactorySpec(input);
+  if (spec.version !== 3 || spec.template !== "public-operations-brief") throw Error("Reviewed public brief template required.");
+  const health = priorHealth ?? await checkPublicWebsites(), now = assessedAt ?? new Date().toISOString();
+  const incidents = priorIncidents ?? triagePublicWebsiteReport(health, now);
+  return { source: "DERIVED_PUBLIC_OBSERVATION", report: buildPublicOperationsBrief(health, incidents, now) };
+}
+
 export async function runFactoryAgent(input) {
   const spec = await validateFactorySpec(input);
-  if (spec.version === 3) return { source: "SYNTHETIC_FIXTURE_ONLY", report: await checkPublicWebsites({ reader: async () => new Response(null, { status: 200 }) }) };
+  if (spec.version === 3) {
+    let index = 0;
+    const statuses = spec.template === "website-health" ? [200,200,200] : [200,403,503];
+    const health = await checkPublicWebsites({ reader: async () => new Response(null, { status: statuses[index++] }) });
+    const now = new Date().toISOString();
+    const incidents = triagePublicWebsiteReport(health, now);
+    return { source: "SYNTHETIC_FIXTURE_ONLY", report: spec.template === "website-health" ? health :
+      spec.template === "public-incident-triage" ? incidents : buildPublicOperationsBrief(health, incidents, now) };
+  }
   const now = new Date().toISOString();
   const evidence = syntheticReadinessEvidence(now);
   if (spec.version === 2 && spec.template === "readiness")
