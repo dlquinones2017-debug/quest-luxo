@@ -1,6 +1,7 @@
 ---
 import Navbar from "../components/Navbar.astro";
 import Footer from "../components/Footer.astro";
+import AnalyticsConsent from "../components/AnalyticsConsent.astro";
 
 interface Props {
   title?: string;
@@ -83,6 +84,7 @@ const pageStructuredData = [
     <Navbar />
     <slot />
     <Footer />
+    <AnalyticsConsent />
   </body>
 </html>
 

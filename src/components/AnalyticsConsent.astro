@@ -1,0 +1,147 @@
+---
+// Existing Quest Luxo Luxury Advisory GA4 web stream, verified in Google Analytics.
+const measurementId = "G-PJPDS9FJVT";
+---
+
+<aside id="ql-analytics-choice" aria-labelledby="ql-analytics-choice-title" hidden>
+  <div class="ql-analytics-choice__copy">
+    <strong id="ql-analytics-choice-title">Optional website analytics</strong>
+    <p>May we use Google Analytics to understand which pages visitors use? We don't include your inquiry details in analytics. Read our <a href="/privacy">Privacy Policy</a>.</p>
+  </div>
+  <div class="ql-analytics-choice__actions">
+    <button type="button" data-ql-analytics-accept>Allow analytics</button>
+    <button type="button" data-ql-analytics-decline>Decline</button>
+  </div>
+</aside>
+
+<script is:inline define:vars={{ measurementId }}>
+  (() => {
+    const key = "quest-luxo-analytics-consent-v1";
+    const choice = document.getElementById("ql-analytics-choice");
+    if (!choice) return;
+    const privatePrefixes = ["/api", "/broker", "/broker-console", "/dev", "/operations"];
+    if (privatePrefixes.some((prefix) => location.pathname === prefix || location.pathname.startsWith(prefix + "/"))) return;
+
+    const read = () => {
+      try { return localStorage.getItem(key); } catch { return null; }
+    };
+    const write = (value) => {
+      try { localStorage.setItem(key, value); } catch { /* Analytics stays opt-in on storage errors. */ }
+    };
+
+    const startAnalytics = () => {
+      if (window.__questLuxoAnalyticsStarted) return;
+      window.__questLuxoAnalyticsStarted = true;
+      window.dataLayer = window.dataLayer || [];
+      function gtag() { window.dataLayer.push(arguments); }
+      window.gtag = gtag;
+      gtag("consent", "default", {
+        ad_storage: "denied",
+        analytics_storage: "denied",
+        ad_user_data: "denied",
+        ad_personalization: "denied",
+      });
+      gtag("js", new Date());
+      gtag("consent", "update", { analytics_storage: "granted" });
+      gtag("config", measurementId, {
+        send_page_view: false,
+        page_location: location.origin + location.pathname,
+        allow_google_signals: false,
+        allow_ad_personalization_signals: false,
+      });
+      const script = document.createElement("script");
+      script.async = true;
+      script.src = "https://www.googletagmanager.com/gtag/js?id=" + encodeURIComponent(measurementId);
+      document.head.appendChild(script);
+      // Strip query strings: they can contain lead context or other user-provided data.
+      gtag("event", "page_view", {
+        send_to: measurementId,
+        page_location: location.origin + location.pathname,
+        page_title: document.title,
+        business_division: "luxury",
+      });
+    };
+
+    if (read() === "granted") {
+      startAnalytics();
+    } else if (read() !== "declined") {
+      choice.hidden = false;
+    }
+
+    choice.querySelector("[data-ql-analytics-accept]")?.addEventListener("click", () => {
+      write("granted");
+      choice.hidden = true;
+      startAnalytics();
+    });
+    choice.querySelector("[data-ql-analytics-decline]")?.addEventListener("click", () => {
+      write("declined");
+      choice.hidden = true;
+    });
+
+    // An event is dispatched only when the existing lead API reports success.
+    // No contact details, message, budget, or other lead fields leave the site.
+    window.addEventListener("questluxo:lead-submitted", () => {
+      if (read() !== "granted" || !window.__questLuxoAnalyticsStarted) return;
+      window.gtag?.("event", "generate_lead", {
+        send_to: measurementId,
+        business_division: "luxury",
+        form_type: "watch_sourcing",
+      });
+    });
+
+    // The privacy page always lets visitors reset their preference.
+    document.addEventListener("click", (event) => {
+      const target = event.target;
+      if (!(target instanceof Element) || !target.closest("[data-ql-analytics-preferences]")) return;
+      try { localStorage.removeItem(key); } catch { /* No stored consent was readable. */ }
+      location.reload();
+    });
+  })();
+</script>
+
+<style>
+  #ql-analytics-choice[hidden] { display: none !important; }
+  #ql-analytics-choice {
+    position: fixed;
+    bottom: 16px;
+    left: 16px;
+    right: 16px;
+    z-index: 1500;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    max-width: 860px;
+    margin-inline: auto;
+    padding: 16px 20px;
+    border: 1px solid #d4b06a;
+    border-radius: 8px;
+    background: #ffffff;
+    color: #07111f;
+    box-shadow: 0 12px 34px rgba(7, 17, 31, .22);
+    font-family: Inter, "Helvetica Neue", Arial, sans-serif;
+  }
+  .ql-analytics-choice__copy { flex: 1 1 330px; }
+  .ql-analytics-choice__copy strong { font-size: 14px; }
+  .ql-analytics-choice__copy p { margin: 6px 0 0; font-size: 13px; line-height: 1.5; }
+  .ql-analytics-choice__copy a { color: #173a5e; text-decoration: underline; }
+  .ql-analytics-choice__actions { display: flex; flex-wrap: wrap; gap: 8px; }
+  .ql-analytics-choice__actions button {
+    cursor: pointer;
+    min-height: 40px;
+    padding: 8px 14px;
+    border: 1px solid #173a5e;
+    border-radius: 4px;
+    background: #173a5e;
+    color: #fff;
+    font: inherit;
+    font-size: 13px;
+    font-weight: 700;
+  }
+  .ql-analytics-choice__actions button:last-child { background: white; color: #173a5e; }
+  @media (max-width: 600px) {
+    #ql-analytics-choice { bottom: 8px; left: 8px; right: 8px; padding: 12px 14px; }
+    .ql-analytics-choice__actions { width: 100%; }
+  }
+</style>
