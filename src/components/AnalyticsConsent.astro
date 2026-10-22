@@ -19,6 +19,8 @@ const measurementId = "G-PJPDS9FJVT";
     const key = "quest-luxo-analytics-consent-v1";
     const choice = document.getElementById("ql-analytics-choice");
     if (!choice) return;
+    const privatePrefixes = ["/api", "/broker", "/broker-console", "/dev", "/operations"];
+    if (privatePrefixes.some((prefix) => location.pathname === prefix || location.pathname.startsWith(prefix + "/"))) return;
 
     const read = () => {
       try { return localStorage.getItem(key); } catch { return null; }
