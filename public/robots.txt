@@ -4,4 +4,6 @@ Disallow: /api/
 Disallow: /broker
 Disallow: /broker-console
 Disallow: /dev/
+Disallow: /operations
 
+Sitemap: https://questluxo.com/sitemap.xml
