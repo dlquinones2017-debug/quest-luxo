@@ -43,6 +43,7 @@ const measurementId = "G-PJPDS9FJVT";
       gtag("consent", "update", { analytics_storage: "granted" });
       gtag("config", measurementId, {
         send_page_view: false,
+        page_location: location.origin + location.pathname,
         allow_google_signals: false,
         allow_ad_personalization_signals: false,
       });
