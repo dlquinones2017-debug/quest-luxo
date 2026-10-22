@@ -460,6 +460,7 @@ import BaseLayout from "../layouts/BaseLayout.astro";
         showSuccess(
           "Your Quest Luxo lead has been submitted. A broker will review the request."
         );
+        window.dispatchEvent(new Event("questluxo:lead-submitted"));
       } catch (error) {
         showError(
           error instanceof Error
