@@ -78,6 +78,17 @@ const measurementId = "G-PJPDS9FJVT";
       choice.hidden = true;
     });
 
+    // An event is dispatched only when the existing lead API reports success.
+    // No contact details, message, budget, or other lead fields leave the site.
+    window.addEventListener("questluxo:lead-submitted", () => {
+      if (read() !== "granted" || !window.__questLuxoAnalyticsStarted) return;
+      window.gtag?.("event", "generate_lead", {
+        send_to: measurementId,
+        business_division: "luxury",
+        form_type: "watch_sourcing",
+      });
+    });
+
     // The privacy page always lets visitors reset their preference.
     document.addEventListener("click", (event) => {
       const target = event.target;
