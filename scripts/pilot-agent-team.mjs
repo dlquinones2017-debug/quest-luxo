@@ -2,7 +2,8 @@ import { readFile } from "node:fs/promises";
 import { previewBusinessSource } from "../src/lib/agents/businessSourcePreflight.ts";
 import { runFactoryAgent } from "./factory-agent-runtime.mjs";
 
-const specs = ["operations-pilot", "reliability-pilot", "founder-brief-pilot"];
+const specs = ["operations-pilot", "reliability-pilot", "founder-brief-pilot", "luxury-qualification-pilot", "realty-economics-pilot", "capital-package-pilot"];
+export const SYNTHETIC_TEMPLATE_COUNT = specs.length;
 const expectedActions = '["KEY_RECOVERY","RETENTION_POLICY","SOURCE_SCOPE"]';
 
 /** Bounded synthetic evaluation inside the existing worker. No external adapters or dispatch. */
@@ -14,6 +15,14 @@ export async function validateSyntheticAgentTeam() {
     const { source, report } = await runFactoryAgent(spec);
     if (source !== "SYNTHETIC_FIXTURE_ONLY" || report.sendsMessages !== false || report.writesCRM !== false || report.activatesGmail !== false)
       throw Error("Agent-team permission boundary failed.");
+    if (spec.version === 6) {
+      if (report.mode !== "DECISION_PREVIEW_ONLY" || report.template !== spec.template || report.status !== spec.evaluation.expectedStatus ||
+          report.businessDataExecutionAllowed !== false || report.dispatchesWork !== false || report.modelApiRequestsAllowed !== false ||
+          report.changesProduction !== false || report.submitsApplications !== false || report.makesOffers !== false)
+        throw Error("Division-decision fixture or permission boundary failed.");
+      results.push({ roleId: spec.roleId, template: spec.template, status: report.status });
+      continue;
+    }
     if (spec.version === 2 && (report.status !== "HOLD" || report.businessDataExecutionAllowed !== false ||
         JSON.stringify(report.requiredActions) !== expectedActions)) throw Error("Agent-team readiness fixture failed.");
     if (spec.version === 1 || spec.template === "founder-brief") {

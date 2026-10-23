@@ -38,13 +38,13 @@ test("newly generated specialist package runs and retains its held scope", async
     assert.equal(check.status, 0, check.stdout + check.stderr);
   } finally { await rm(new URL("../agent-packages/" + id, import.meta.url), { recursive: true, force: true }); }
 });
-test("one bounded team validates all three templates while preserving real-data and dispatch holds", async () => {
+test("one bounded team validates six synthetic templates while preserving real-data and dispatch holds", async () => {
   const r = await validateSyntheticAgentTeam();
-  assert.equal(r.validatedTemplates, 3);
+  assert.equal(r.validatedTemplates, 6);
   assert.equal(r.businessDataReady, false);
   assert.equal(r.dispatchesWork, false);
-  assert.equal(new Set(r.agents.map(a => a.roleId)).size, 3);
-  assert.deepEqual(r.agents.map(a => a.template), ["operations", "readiness", "founder-brief"]);
+  assert.equal(new Set(r.agents.map(a => a.roleId)).size, 6);
+  assert.deepEqual(r.agents.map(a => a.template), ["operations", "readiness", "founder-brief", "luxury-qualification", "realty-economics", "capital-package"]);
 });
 test("operations version 1 cannot be relabeled as a specialist role", async () => {
   const operation = JSON.parse(await readFile(new URL("../config/agents/operations-pilot.spec.json", import.meta.url), "utf8"));

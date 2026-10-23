@@ -2,6 +2,8 @@ import { buildPublicOperationsBrief, triagePublicWebsiteReport } from "./publicO
 import { RECOVERY_RECEIPT_MAX_AGE_MS, type assessPilotRecovery } from "./pilotRecoveryAudit.ts";
 import { assessModelExecutionPolicy } from "./modelExecutionPolicy.ts";
 
+import { teamForLegacyRole } from "./workforceOperatingModel.ts";
+
 type Recovery = ReturnType<typeof assessPilotRecovery>;
 type Brief = ReturnType<typeof buildPublicOperationsBrief>;
 const exact = (value: unknown, fields: readonly string[]): value is Record<string, unknown> => !!value && typeof value === "object" &&
@@ -61,6 +63,7 @@ export function coordinatePilotOperations(health: unknown, inputBrief: unknown, 
     publicIncidentCount: publicFresh ? currentIncidents.incidentCount : null, independentRecoveryVerified: independentVerified,
     modelExecution: "DISABLED_ZERO_BUDGET", dailyModelBudgetUsd: model.dailyBudgetUsd,
     businessPipeline: "NOT_CONNECTED", sourceCoverage: "PUBLIC_WEBSITES_AND_SYNTHETIC_PILOT_ONLY",
-    tasks: Object.freeze(tasks.map(task => Object.freeze(task))), businessDataExecutionAllowed: false,
+    operatingModelVersion: 2, functionalTeamCount: 6,
+    tasks: Object.freeze(tasks.map(task => Object.freeze({ ...task, accountableTeamId: teamForLegacyRole(task.ownerRoleId), executionWorkstream: "C" }))), businessDataExecutionAllowed: false,
     modelApiRequestsAllowed: false, changesProduction: false, dispatchesWork: false, sendsMessages: false, writesCRM: false, activatesGmail: false });
 }

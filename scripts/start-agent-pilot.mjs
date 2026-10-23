@@ -5,12 +5,14 @@ import { pathToFileURL } from "node:url";
 import { commitDurablePipelines, readDurablePipelines } from "../src/lib/command/enterpriseDurablePipelines.ts";
 import { syntheticRecords, runApprovedPublicWebsiteAgent, runApprovedPublicIncidentAgent, runApprovedPublicOperationsAgent, runApprovedPilotRecoveryAgent, runApprovedPilotCommandAgent } from "./factory-agent-runtime.mjs";
 import { inspectPersistentSyntheticSnapshot, maintainPilotStorage, createPilotMonitor } from "./pilot-storage-maintenance.mjs";
-import { validateSyntheticAgentTeam } from "./pilot-agent-team.mjs";
+import { validateSyntheticAgentTeam, SYNTHETIC_TEMPLATE_COUNT } from "./pilot-agent-team.mjs";
 
 import { initializeSyntheticIntake, maintainSyntheticIntake } from "./pilot-intake-maintenance.mjs";
 
 import { createPublicWebsiteMonitor, PUBLIC_WEBSITE_INTERVAL_MS } from "../src/lib/agents/publicWebsiteHealth.ts";
 import { assessModelExecutionPolicy } from "../src/lib/agents/modelExecutionPolicy.ts";
+
+import { loadConsolidatedWorkforce } from "../src/lib/agents/workforceOperatingModel.ts";
 
 const PILOT_SERVICE = "srv-dbbkmb0n74is73d111hg";
 
@@ -47,6 +49,7 @@ export async function runPersistentSyntheticPilot(directory, key) {
 
 export async function startPilot() {
   await verifyPilotEnvironment();
+  await loadConsolidatedWorkforce();
   const modelPolicy = JSON.parse(await readFile(new URL("../config/agents/model-execution-policy.json", import.meta.url), "utf8"));
   assessModelExecutionPolicy(modelPolicy);
   const key = Buffer.from(process.env.QUEST_PIPELINE_KEY_HEX, "hex");
@@ -69,6 +72,7 @@ export async function startPilot() {
   };
   const monitor = createPilotMonitor(async () => {
     await verifyPilotEnvironment();
+  await loadConsolidatedWorkforce();
     const managedKey = Buffer.from(process.env.QUEST_PIPELINE_KEY_HEX, "hex");
     try {
       await maintainPilotStorage(process.env.QUEST_PIPELINE_DIRECTORY, managedKey);
@@ -87,7 +91,7 @@ export async function startPilot() {
   if (!await monitor.run()) throw Error("Initial storage and retained-backup verification failed.");
   console.log(JSON.stringify({ event: "SYNTHETIC_PILOT_PASSED", recoveredExisting: result.recoveredExisting,
     intakeRecoveredExisting: result.intakeRecoveredExisting, intakeFixtureValidated: true,
-    independentBackupVerified: recoveryReport?.independentBackupVerified === true, businessDataReady: false, generatedTemplatesValidated: 3 }));
+    independentBackupVerified: recoveryReport?.independentBackupVerified === true, businessDataReady: false, generatedTemplatesValidated: SYNTHETIC_TEMPLATE_COUNT }));
   const publicMonitor = createPublicWebsiteMonitor(async () => {
     const spec = JSON.parse(await readFile(new URL("../config/agents/website-health.spec.json", import.meta.url), "utf8"));
     return (await runApprovedPublicWebsiteAgent(spec)).report;
@@ -147,7 +151,8 @@ export function createPilotHealthServer(monitor, publicMonitor, publicTeamState,
     const commandCurrent = healthy && recoveryCurrent && publicCurrent && command?.state === "CURRENT" && command.report?.operationalState === "CURRENT";
     res.writeHead(healthy ? 200 : 503);
     res.end(JSON.stringify({ ...ready, fixturePassed: healthy, storageVerified: healthy, localBackupVerified: healthy,
-      generatedTemplatesValidated: healthy ? 3 : 0,
+      operatingModelVersion: 2, functionalTeamCount: 6, functionalTeamsAreIndependentWorkers: false,
+      generatedTemplatesValidated: healthy ? SYNTHETIC_TEMPLATE_COUNT : 0,
       publicWebsiteAgent: publicState, publicOperationsTeam: teamState, livePublicAgents: publicCurrent ? 3 : 0,
       recoveryAuditAgent: recoveryCurrent ? "CURRENT" : !healthy && recovery ? "HELD" : recovery?.state ?? "NOT_CONFIGURED",
       independentBackupVerified: Boolean(independentVerified), recurringOffsiteRetentionVerified: false,
