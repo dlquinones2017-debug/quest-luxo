@@ -55,7 +55,7 @@ export function buildWorkforceQueue(input: readonly WorkforceEvent[], now: strin
     const stale = Date.parse(now) - Date.parse(e.observedAt) > WORKFORCE_EVENT_MAX_AGE_MS;
     const owner = resolveWorkforceOwnership(e.operation, e.division);
     const decision = conflict ? "CONFLICT" : stale ? "STALE" : e.evidenceState !== "VERIFIED" || e.status === "UNKNOWN" ? "VERIFY_SOURCE" :
-      e.status === "BLOCKED" ? "BLOCKED" : owner.handoffRequired ? "HANDOFF_REQUIRED" : owner.founderApprovalRequired || e.status === "REQUIRES_FOUNDER" ? "FOUNDER_REVIEW" : "INTERNAL_PREPARATION_READY";
+      e.status === "BLOCKED" ? "BLOCKED" : owner.founderApprovalRequired || e.status === "REQUIRES_FOUNDER" ? "FOUNDER_REVIEW" : owner.handoffRequired ? "HANDOFF_REQUIRED" : "INTERNAL_PREPARATION_READY";
     const queueStatus = conflict || e.status === "BLOCKED" ? "BLOCKED" : ["STALE", "VERIFY_SOURCE"].includes(decision) ? "UNKNOWN" : decision === "FOUNDER_REVIEW" ? "REQUIRES_FOUNDER" : "READY";
     return { key: sha(key), event: e, owner, decision, queueStatus };
   });

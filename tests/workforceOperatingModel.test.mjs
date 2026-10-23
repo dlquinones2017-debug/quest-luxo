@@ -40,6 +40,8 @@ test('stale or unknown evidence holds; external work routes to handoff and trans
  assert.equal(buildWorkforceQueue([event({evidenceState:'UNKNOWN',evidenceIds:[]})],now).items[0].decision,'VERIFY_SOURCE');
  assert.equal(buildWorkforceQueue([event({operation:'SOCIAL_PUBLISHING'})],now).items[0].decision,'HANDOFF_REQUIRED');
  assert.equal(buildWorkforceQueue([event({operation:'TRANSACTION_REVIEW'})],now).items[0].decision,'FOUNDER_REVIEW');
+ const approval=buildWorkforceQueue([event({operation:'SOCIAL_PUBLISHING',status:'REQUIRES_FOUNDER'})],now).items[0];
+ assert.equal(approval.decision,'FOUNDER_REVIEW');assert.equal(approval.handoffRequired,true);assert.equal(approval.founderApprovalRequired,true);
 });
 test('unbounded, future, PII-shaped or unsupported payloads rejected before projection',()=>{
  for(const patch of [{email:'private@example.test'},{observedAt:'2026-10-23T22:00:01.000Z'},{evidenceIds:[]},{sourceRevision:0},{sourceSystem:'private@example.test'},{division:'GROWTH_ENGINE'},{operation:'SEND_EMAIL'},{recordId:'customer-1'}])assert.throws(()=>buildWorkforceQueue([event(patch)],now));
