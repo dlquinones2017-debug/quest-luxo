@@ -1,7 +1,7 @@
 import { createCipheriv, createDecipheriv, createHash, randomBytes, randomUUID } from "node:crypto";
 import { constants } from "node:fs";
 import { lstat, mkdir, open, realpath, rename, unlink } from "node:fs/promises";
-import { join, resolve } from "node:path";
+import { dirname, join, resolve } from "node:path";
 import { withLeadStorageLock } from "../leads/leadStorageLock.ts";
 import { crmHandoffIdempotencyKey, crmHandoffMetadataFingerprint, type CRMHandoffEvent } from "./crmReconciliationPlan.ts";
 
@@ -32,7 +32,17 @@ function snapshot(s: Stored, revision: string) {
 }
 function keyCheck(key: Buffer) { if (!Buffer.isBuffer(key) || key.length !== 32) return failure(); }
 async function directory(path: string, create: boolean) {
-  if (create) await mkdir(path, { recursive: true, mode: 0o700 });
+  if (create) {
+    try { await lstat(path); }
+    catch (e) {
+      if (!errorCode(e,"ENOENT")) throw e;
+      // Only create one leaf beneath an existing canonical private parent; never traverse a symlink while creating ancestors.
+      const parent = dirname(path), stat = await lstat(parent);
+      if (!stat.isDirectory() || stat.isSymbolicLink() || await realpath(parent) !== parent ||
+        process.platform !== "win32" && (stat.mode & 0o077) !== 0) return failure();
+      try { await mkdir(path, {mode:0o700}); } catch(e) {if(!errorCode(e,"EEXIST"))throw e;}
+    }
+  }
   try {
     const stat = await lstat(path);
     if (!stat.isDirectory() || stat.isSymbolicLink() || await realpath(path) !== path ||

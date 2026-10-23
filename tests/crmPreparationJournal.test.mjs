@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { mkdtemp, readFile, writeFile, rm, mkdir, symlink, chmod, stat, copyFile } from 'node:fs/promises';
+import { mkdtemp, readFile, writeFile, rm, mkdir, symlink, chmod, stat, copyFile, rename, link } from 'node:fs/promises';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 import { randomBytes } from 'node:crypto';
@@ -54,7 +54,16 @@ test('symlink ancestry, symlink files, public permissions and missing files with
  const a=await retainCRMPreparation(dir,key,'EMPTY',[e()]);
  if(process.platform!=='win32'){
   const alias=join(dir,'alias');await symlink(dir,alias);await assert.rejects(()=>readCRMPreparationJournal(alias,key));
+  const actual=join(dir,'retained-original');await rename(join(dir,file),actual);await symlink(actual,join(dir,file));await assert.rejects(()=>readCRMPreparationJournal(dir,key));await rm(join(dir,file));await link(actual,join(dir,file));await assert.rejects(()=>readCRMPreparationJournal(dir,key));await rm(join(dir,file));await rename(actual,join(dir,file));
   await chmod(join(dir,file),0o644);await assert.rejects(()=>readCRMPreparationJournal(dir,key));await chmod(join(dir,file),0o600);
  }
  await rm(join(dir,file));await assert.rejects(()=>retainCRMPreparation(dir,key,a.revision,[e({sourceRevision:2})]));
+}));
+
+test('unsafe missing-path ancestry is rejected before creating any directory',()=>fixture(async(dir,key)=>{
+ if(process.platform==='win32')return;
+ const target=join(dir,'target');await mkdir(target,{mode:0o700});const alias=join(dir,'unsafe-parent');await symlink(target,alias);
+ await assert.rejects(()=>retainCRMPreparation(join(alias,'must-not-be-created'),key,'EMPTY',[e()]));
+ await assert.rejects(()=>stat(join(target,'must-not-be-created')),{code:'ENOENT'});
+ const safe=await retainCRMPreparation(join(target,'safe-leaf'),key,'EMPTY',[e()]);assert.equal(safe.entries.length,1);
 }));
