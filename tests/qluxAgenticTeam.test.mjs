@@ -17,5 +17,5 @@ test("registry reports truthful implementation state", () => {
   const status = getAgenticTeamStatus();
   assert.equal(status.total, QLUX_AGENTIC_TEAM.length);
   assert.ok(status.DEPLOYED >= 4);
-  assert.ok(status.SPECIFIED > 0);
+  assert.ok(status.PARTIAL > 0);\n  assert.equal(status.NOT_STARTED, 0);
 });
