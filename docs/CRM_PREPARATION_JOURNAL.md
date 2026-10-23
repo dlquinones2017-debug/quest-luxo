@@ -1,0 +1,15 @@
+# Internal CRM preparation journal
+
+`crmPreparationJournal.ts` retains a small encrypted, append-only ledger for internal preparation metadata. It supplements the existing reconciliation planner and canonical sources. It is not a CRM transport, a sent-message log or an acknowledgement checkpoint.
+
+The ledger retains division, non-personal source token, opaque source record ID, source revision, version-bound idempotency key and metadata fingerprint. It reuses the existing metadata validators. Event payloads, names, email addresses, financial details and consent claims are not retained. Callers must derive appropriately scoped opaque identifiers; hexadecimal syntax alone does not prove anonymity or authorization.
+
+Entries are encrypted with AES-256-GCM using a distinct authenticated context and a caller-supplied 256-bit key. Atomic, synced writes share the existing storage lock and require the exact previous ciphertext revision. Exact replay returns the existing revision without rewriting; conflicting fingerprints, source revision gaps, cross-division source collisions, stale writers, unsafe paths and authentication failures hold. Entries are never trimmed or silently reseeded by a writer with an expected prior revision.
+
+`readCRMPreparationJournal(directory, key)` reports `EMPTY` when a file is absent. That is an observation of this optional ledger, never proof of an empty business pipeline. `retainCRMPreparation(directory, key, expectedRevision, events)` accepts at most 100 events per append and retains at most 1,000 entries. It does not connect to sources or verify the caller's evidence, consent or scope. Old preparation evidence must always be rechecked against current source, mapping and consent state before any future action.
+
+Every snapshot explicitly reports `writesCRM`, `advancesCRMCheckpoint`, `businessDataExecutionAllowed` and `independentRecoveryVerified` as false. Retention is not delivery, and it must never be used to suppress an outstanding CRM write on the assumption that preparation equals successful synchronization.
+
+The journal is an unconnected source component. It has no production initialization, managed-key configuration, runtime caller, network transport or automated backup mechanism. Its file format is not covered by the existing pipeline/intake backup profiles. Before activation, establish reviewed source scope, key recovery, backup export/restore coverage and independently retained recurring copies. Windows deployments additionally require verified private ACLs; this module's POSIX permission checks do not establish Windows ACL safety.
+
+Validation: `node --test tests/crmPreparationJournal.test.mjs` covers encrypted persistence, replay, conflict, concurrent writers, authentication/tampering, private paths, lost-state holds and a fresh-process recovery from an independent ciphertext copy. Test keys are ephemeral and passed to the child through stdin, not command arguments or environment. These synthetic tests do not establish operational offsite recovery.
