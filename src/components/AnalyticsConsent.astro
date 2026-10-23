@@ -29,6 +29,10 @@ const measurementId = "G-PJPDS9FJVT";
       try { localStorage.setItem(key, value); } catch { /* Analytics stays opt-in on storage errors. */ }
     };
 
+    // Preserve only the referrer origin; URLs may contain private inquiry context.
+    let safeReferrer = "";
+    try { safeReferrer = new URL(document.referrer).origin + "/"; } catch { /* Direct visit. */ }
+
     const startAnalytics = () => {
       if (window.__questLuxoAnalyticsStarted) return;
       window.__questLuxoAnalyticsStarted = true;
@@ -46,6 +50,7 @@ const measurementId = "G-PJPDS9FJVT";
       gtag("config", measurementId, {
         send_page_view: false,
         page_location: location.origin + location.pathname,
+        page_referrer: safeReferrer,
         allow_google_signals: false,
         allow_ad_personalization_signals: false,
       });
@@ -57,6 +62,7 @@ const measurementId = "G-PJPDS9FJVT";
       gtag("event", "page_view", {
         send_to: measurementId,
         page_location: location.origin + location.pathname,
+        page_referrer: safeReferrer,
         page_title: document.title,
         business_division: "luxury",
       });
