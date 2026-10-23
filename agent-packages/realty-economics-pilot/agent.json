@@ -1,0 +1,32 @@
+{
+  "version": 6,
+  "template": "realty-economics",
+  "id": "realty-economics-pilot",
+  "roleId": "realty-underwriting",
+  "owner": "Denzel Quinones",
+  "outcomes": [
+    "Validate division decision requirements using metadata-only synthetic fixtures"
+  ],
+  "inputs": [
+    "synthetic-division-fixture"
+  ],
+  "authorizedTools": [
+    "division.preview"
+  ],
+  "permissions": {
+    "mode": "SYNTHETIC_READ_ONLY",
+    "externalWrites": false,
+    "gmail": false,
+    "crm": false,
+    "production": false
+  },
+  "evidence": {
+    "approvalRef": "Founder-standing-execution-2026-10-21",
+    "architectureRef": "PR68@a13f374b085b29127f86f29a43b79ee9b71bfbae"
+  },
+  "outputSchema": "division-decision-preview-v1",
+  "errorPolicy": "HOLD",
+  "evaluation": {
+    "expectedStatus": "READY_FOR_FOUNDER_REVIEW"
+  }
+}

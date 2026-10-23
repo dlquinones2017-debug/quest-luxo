@@ -1,3 +1,4 @@
+import { syntheticDivisionDecision } from "../src/lib/agents/divisionDecisionAgents.ts";
 import { randomBytes } from "node:crypto";
 import { mkdtemp, rm } from "node:fs/promises";
 import { tmpdir } from "node:os";
@@ -56,6 +57,7 @@ export async function runApprovedPublicOperationsAgent(input, priorHealth, prior
 
 export async function runFactoryAgent(input) {
   const spec = await validateFactorySpec(input);
+  if (spec.version === 6) return { source: "SYNTHETIC_FIXTURE_ONLY", report: syntheticDivisionDecision(spec.template) };
   if (spec.version === 5) {
     let index = 0;
     const now = new Date().toISOString();
