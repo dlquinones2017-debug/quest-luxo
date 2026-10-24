@@ -1,4 +1,5 @@
 import type { QuestLuxoAsset } from "../../types/questLuxo";
+import { getVerifiedUsdRetailBenchmark } from "./watchRetailPricing";
 
 export type WatchIntentUseCase = "daily" | "sports" | "investment";
 export type WatchRankingMode = "relevance" | "investment" | "liquidity";
@@ -136,9 +137,14 @@ const knownBrands = [
   "Franck Muller",
   "Bell & Ross",
   "Blancpain",
+  "Breguet",
+  "Girard-Perregaux",
+  "Zenith",
+  "TAG Heuer",
 ] as const;
 
 const knownDialColors = [
+  "ice blue",
   "black",
   "blue",
   "white",
@@ -146,7 +152,6 @@ const knownDialColors = [
   "silver",
   "champagne",
   "rhodium",
-  "ice blue",
   "polar",
 ] as const;
 
@@ -181,6 +186,12 @@ const normalizeComparable = (value: string | undefined): string =>
 const normalizeToken = (value: string | undefined): string =>
   normalizeText(value).replace(/[^a-z0-9]+/g, "");
 
+export function queryExcludesBrand(query: string, brand: string): boolean {
+  const normalizedBrand = normalizeComparable(brand);
+  return new RegExp(`\\b(?:not|without|excluding|except)(?:\\s+(?:a|an|any|the))?\\s+${normalizedBrand}\\b`)
+    .test(normalizeComparable(query));
+}
+
 const scoreMetric = (value: number | undefined): number | undefined => {
   if (typeof value !== "number" || !Number.isFinite(value)) {
     return undefined;
@@ -195,8 +206,8 @@ const textSignalScore = (value: string | undefined): number => {
   if (!normalized) return 50;
   if (normalized.includes("extreme")) return 100;
   if (normalized.includes("very high")) return 90;
-  if (normalized.includes("high")) return 78;
   if (normalized.includes("moderate to high")) return 70;
+  if (normalized.includes("high")) return 78;
   if (normalized.includes("moderate")) return 62;
   if (normalized.includes("medium")) return 55;
   if (normalized.includes("specialized")) return 48;
@@ -214,18 +225,9 @@ const averageScores = (scores: readonly number[]): number => {
 };
 
 export function getEstimatedWatchPrice(asset: QuestLuxoAsset): number | null {
-  const prices = (asset.configurations ?? [])
-    .map((configuration) => configuration.originalMSRP)
-    .filter(
-      (price): price is number =>
-        typeof price === "number" && Number.isFinite(price) && price > 0
-    );
-
-  if (prices.length === 0) {
-    return null;
-  }
-
-  return Math.min(...prices);
+  // Retail is a dated benchmark, not an estimate of today's secondary-market ask.
+  // Unsourced historical MSRP must never make a watch appear affordable today.
+  return getVerifiedUsdRetailBenchmark(asset);
 }
 
 export function filterWatchesByBudget<
@@ -330,26 +332,22 @@ export function getMarketPosition(asset: QuestLuxoAsset): WatchMarketPosition {
 
 export function parseWatchIntent(query: string): WatchIntent {
   const normalized = normalizeComparable(query);
-  const maxBudgetMatch = normalized.match(
-    /\b(?:under|below|less than|up to|max|budget)\s*(?:usd|dollars)?\s*(\d+(?:[,\s]\d{3})*|\d+)(k)?\b/
+  const maxBudgetMatch = query.match(
+    /(?:\b(?:under|below|less than|up to|max(?:imum)?|budget(?:\s+of)?)\s*(?:USD\s*|\$\s*)?|\$\s*)(\d{1,3}(?:[,\s]\d{3})+(?:\.\d+)?|\d+(?:\.\d+)?)[\s]*(k|m)?\b(?:\s*(?:USD|dollars)\b)?/i
   );
-  const dollarBudgetMatch = query.match(/\$\s*(\d[\d,]*)(k)?/i);
-  const rawBudget = maxBudgetMatch?.[1] ?? dollarBudgetMatch?.[1];
+  const rawBudget = maxBudgetMatch?.[1];
   const numericBudget = rawBudget
     ? Number(rawBudget.replace(/[,\s]/g, ""))
     : undefined;
-  const usesThousands =
-    Boolean(maxBudgetMatch?.[2]) || Boolean(dollarBudgetMatch?.[2]);
-  const maxBudget =
-    numericBudget && usesThousands
-      ? numericBudget * 1000
-      : numericBudget;
+  const multiplier = maxBudgetMatch?.[2]?.toLowerCase() === "m" ? 1_000_000
+    : maxBudgetMatch?.[2]?.toLowerCase() === "k" ? 1000 : 1;
+  const parsedBudget = numericBudget === undefined ? undefined : numericBudget * multiplier;
+  const maxBudget = parsedBudget !== undefined && Number.isFinite(parsedBudget) && parsedBudget > 0
+    ? parsedBudget : undefined;
   const matchedBrand = knownBrands.find((brand) => {
     const normalizedBrand = normalizeComparable(brand);
-    const isNegated =
-      normalized.includes(`not ${normalizedBrand}`) ||
-      normalized.includes(`without ${normalizedBrand}`);
-    return !isNegated && normalized.includes(normalizedBrand);
+    const isNegated = queryExcludesBrand(query, brand);
+    return !isNegated && ` ${normalized} `.includes(` ${normalizedBrand} `);
   });
   const matchedDial = knownDialColors.find((dialColor) =>
     normalized.includes(dialColor)
@@ -365,7 +363,11 @@ export function parseWatchIntent(query: string): WatchIntent {
     normalized.includes("everyday") ||
     normalized.includes("wear");
   const wantsSports = sportTerms.some((term) => normalized.includes(term));
-  const keywords = normalized.split(" ").filter(Boolean);
+  // Consume the full budget expression so '12.5k' does not become a search keyword.
+  const searchableQuery = maxBudgetMatch
+    ? query.slice(0, maxBudgetMatch.index) + " " + query.slice((maxBudgetMatch.index ?? 0) + maxBudgetMatch[0].length)
+    : query;
+  const keywords = normalizeComparable(searchableQuery).split(" ").filter(Boolean);
 
   return Object.freeze({
     query,
@@ -426,7 +428,7 @@ export function createWatchRecommendation<
     asset: Object.freeze({ ...input.asset }) as Readonly<TAsset>,
     brand,
     collection,
-    reference: input.asset.reference,
+    reference: input.asset.displayReference ?? input.asset.reference,
     model: input.asset.model,
     estimatedPrice: input.estimatedPrice ?? getEstimatedWatchPrice(input.asset),
     marketPosition: getMarketPosition(input.asset),
@@ -615,7 +617,7 @@ function buildRecommendationReasons(
   const reasons: string[] = [];
 
   if (scores.investmentScore >= 85) {
-    reasons.push("Strong investment profile");
+    reasons.push("Strong modeled collector-demand signals");
   }
 
   if (scores.liquidityScore >= 85) {
@@ -631,7 +633,7 @@ function buildRecommendationReasons(
   }
 
   if (reasons.length === 0) {
-    reasons.push("Balanced market profile");
+    reasons.push(asset.intelligence ? "Balanced modeled profile" : "Market evidence requires review");
   }
 
   return reasons;
