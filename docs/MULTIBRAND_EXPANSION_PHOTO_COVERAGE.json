@@ -1,17 +1,17 @@
 {
-  "reviewedAt": "2026-10-24T02:10:55.016Z",
+  "reviewedAt": "2026-10-24T02:14:33.102Z",
   "scope": "All verified-catalog-expansion.ts references only; excludes legacy inventory",
   "policy": "Source URL is NOT image-rights evidence. Exact watch, strap, dial, material, white-canvas original, licensing, website approval and actual derivative SHA256 are required.",
   "summary": {
     "expansionReferences": 128,
     "brands": 16,
     "collections": 52,
-    "approvedValidReferences": 111,
+    "approvedValidReferences": 112,
     "missingApprovedDerivative": 0,
     "checksumFailures": 0,
-    "acquisitionRequired": 17,
-    "notReleaseReady": 17,
-    "imageCoveragePercent": 86.7
+    "acquisitionRequired": 16,
+    "notReleaseReady": 16,
+    "imageCoveragePercent": 87.5
   },
   "byBrand": [
     {
@@ -77,8 +77,8 @@
     {
       "brand": "Richard Mille",
       "references": 2,
-      "approved": 0,
-      "outstanding": 2
+      "approved": 1,
+      "outstanding": 1
     },
     {
       "brand": "TAG Heuer",
@@ -3029,13 +3029,13 @@
       },
       "specificationSource": "https://www.richardmille.com/collections/rm-27-05-flying-tourbillon-rafael-nadal",
       "score": 53,
-      "status": "ACQUISITION_REQUIRED",
-      "photoAssetId": null,
-      "derivativePath": null,
-      "recordedSha256": null,
-      "actualSha256": null,
-      "rightsRecord": null,
-      "nextAction": "Source authentic exact-reference original; obtain commercial-use license and provenance, prepare approved full-watch white-canvas derivative and register the matching SHA-256."
+      "status": "APPROVED_WITH_VALID_DERIVATIVE",
+      "photoAssetId": "cleared-20261023-representative-rm-rm-27-05",
+      "derivativePath": "/images/watches/richard-mille/reviewed-rm-27-05-20261023-web.webp",
+      "recordedSha256": "fbd2ca1cd05f695fbe63eb66eb82bf4a809a4cd35765880f5313dd0fc71a9e24",
+      "actualSha256": "fbd2ca1cd05f695fbe63eb66eb82bf4a809a4cd35765880f5313dd0fc71a9e24",
+      "rightsRecord": "Direct founder answer call_8f5f4c2a4aa24f1ca43d3c67f3fe2b3d: Yes. Record docs/PHOTOGRAPHY_REPRESENTATIVES_RM_FIVE_RIGHTS_2026-10-23.json. Untouched RAW SHA256 ce0a8b1e03e060829edaf3141a20d15508a7dfec4d4e83033075e152eb423084. Complete source and whiteWEB individually reviewed; all15archive hashes matched. Classical exterior filled silhouette. Original interior RGB retained; no generated, reconstructed, recolored or sharpened watch detail. Proportional resize and centered2400 white master/1200WEB. No price, availability or unspecified specs inferred. Preserved RAW file: 1ud4Xmv-r55KiNWlo4ftmSjPmgEzwuq6l. Pictured full reference RM 27-05; Carbon TPT B.4, Openworked flying tourbillon, Black woven fabric strap. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "nextAction": "Retain approved source, white-canvas derivative, attribution and reference mapping."
     },
     {
       "brand": "TAG Heuer",

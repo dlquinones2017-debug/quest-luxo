@@ -5179,5 +5179,118 @@ export const clearedSprintPhotographySeeds: readonly PhotographySeed[] = [
     "sourceProvider": "Founder-supplied watch photograph; native ZIP crop",
     "reviewedAt": "2026-10-19",
     "assetId": "cleared-20261023-representative-maxi-marine-diver"
+  },
+  {
+    "brand": "Tudor",
+    "brandSlug": "tudor",
+    "collection": "Royal",
+    "reference": "Tudor Royal 41 mm",
+    "exactReference": "M28600-0005",
+    "model": "Royal pictured M28600-0005",
+    "material": "Stainless Steel",
+    "configuration": {
+      "dial": "Blue Roman numerals, day-date",
+      "bracelet": "Stainless-steel five-link bracelet",
+      "nickname": "Pictured reference M28600-0005 (representative)",
+      "caseSize": "41 mm"
+    },
+    "sourceUrl": "https://www.watchfinder.com/sell-your-watch/enquiry/tudor/royal/m28600-0005/48693",
+    "src": "/images/watches/tudor/reviewed-m28600-0005-20261023-web.webp",
+    "sha256": "4a054d9d9c5725b03fe57799f5bc27ba88f3d44666629fcb2b996c83b4c2a57c",
+    "rawDriveFileId": "1xZqxSjN_UgWSGv0RE16vgA2ZlF7pfjkl",
+    "clearanceRecord": "Direct founder answer call_8f5f4c2a4aa24f1ca43d3c67f3fe2b3d: Yes. Record docs/PHOTOGRAPHY_REPRESENTATIVES_RM_FIVE_RIGHTS_2026-10-23.json. Untouched RAW SHA256 00853c0a0c77d2a7fb8aa7c166fc89bc78fb1053ca19237221949554ff1c9cba. Complete source and whiteWEB individually reviewed; all15archive hashes matched. Classical exterior filled silhouette. Original interior RGB retained; no generated, reconstructed, recolored or sharpened watch detail. Proportional resize and centered2400 white master/1200WEB. No price, availability or unspecified specs inferred. Exact representative selection authorized by call_30506654800f49ee8a724c8a376b5abe; actual picturedSKU displayed while original family URL is preserved.",
+    "sourceProvider": "Watchfinder",
+    "reviewedAt": "2026-10-23",
+    "assetId": "cleared-20261023-representative-rm-m28600-0005"
+  },
+  {
+    "brand": "Tudor",
+    "brandSlug": "tudor",
+    "collection": "Prince",
+    "reference": "Prince Date",
+    "exactReference": "74000",
+    "model": "Prince pictured 74000",
+    "material": "Stainless Steel",
+    "configuration": {
+      "dial": "Silver with baton hour markers",
+      "bracelet": "Stainless-steel five-link bracelet",
+      "nickname": "Pictured reference 74000 (representative)",
+      "caseSize": "34 mm",
+      "movement": "Automatic self-winding"
+    },
+    "sourceUrl": "https://www.watchfinder.com/sell-your-watch/enquiry/tudor/prince-date/74000/25516",
+    "src": "/images/watches/tudor/reviewed-74000-20261023-web.webp",
+    "sha256": "6ebef13cb3c8157b6199a822b03bea3207e849f501e1ba58209d6f58413f12d2",
+    "rawDriveFileId": "1tWr9Ck4EYtYRGA9nX-D7Vyd6-HgCXl8z",
+    "clearanceRecord": "Direct founder answer call_8f5f4c2a4aa24f1ca43d3c67f3fe2b3d: Yes. Record docs/PHOTOGRAPHY_REPRESENTATIVES_RM_FIVE_RIGHTS_2026-10-23.json. Untouched RAW SHA256 a3a2cf77021ff61a7f0bac19bd63f4dd88bf7ec18437f1566823d08522cb897d. Complete source and whiteWEB individually reviewed; all15archive hashes matched. Classical exterior filled silhouette. Original interior RGB retained; no generated, reconstructed, recolored or sharpened watch detail. Proportional resize and centered2400 white master/1200WEB. No price, availability or unspecified specs inferred. Exact representative selection authorized by call_30506654800f49ee8a724c8a376b5abe; actual picturedSKU displayed while original family URL is preserved.",
+    "sourceProvider": "Watchfinder",
+    "reviewedAt": "2026-10-23",
+    "assetId": "cleared-20261023-representative-rm-74000"
+  },
+  {
+    "brand": "Tudor",
+    "brandSlug": "tudor",
+    "collection": "Prince",
+    "reference": "Prince Chronograph",
+    "exactReference": "79280",
+    "model": "Prince pictured 79280",
+    "material": "Stainless Steel",
+    "configuration": {
+      "dial": "Silver Arabic with three chronograph subdials",
+      "bracelet": "Stainless-steel bracelet",
+      "nickname": "Pictured reference 79280 (representative)"
+    },
+    "sourceUrl": "https://www.watchfinder.com/watches/tudor/prince-date/79280/394025",
+    "src": "/images/watches/tudor/reviewed-79280-20261023-web.webp",
+    "sha256": "58ea5a924845ec2c4051aa893dd2b2308da93b94ab32a7bff913a3ad08fe9626",
+    "rawDriveFileId": "1sP5KTjc9FfKH1_HJjOB4_2g9Kr_cVkZS",
+    "clearanceRecord": "Direct founder answer call_8f5f4c2a4aa24f1ca43d3c67f3fe2b3d: Yes. Record docs/PHOTOGRAPHY_REPRESENTATIVES_RM_FIVE_RIGHTS_2026-10-23.json. Untouched RAW SHA256 c3caa545c4bb57674931f4bb4ddacaa842c44bf736f56c2905b7fd803b607f14. Complete source and whiteWEB individually reviewed; all15archive hashes matched. Classical exterior filled silhouette. Original interior RGB retained; no generated, reconstructed, recolored or sharpened watch detail. Proportional resize and centered2400 white master/1200WEB. No price, availability or unspecified specs inferred. Exact representative selection authorized by call_30506654800f49ee8a724c8a376b5abe; actual picturedSKU displayed while original family URL is preserved.",
+    "sourceProvider": "Watchfinder",
+    "reviewedAt": "2026-10-23",
+    "assetId": "cleared-20261023-representative-rm-79280"
+  },
+  {
+    "brand": "Ulysse Nardin",
+    "brandSlug": "ulysse-nardin",
+    "collection": "Marine",
+    "reference": "Marine Chronometer",
+    "exactReference": "1183-126-7M/42",
+    "model": "Marine pictured 1183-126-7M/42",
+    "material": "Stainless Steel",
+    "configuration": {
+      "dial": "Black Roman numerals",
+      "bracelet": "Stainless-steel bracelet",
+      "nickname": "Pictured reference 1183-126-7M/42 (representative)",
+      "caseSize": "43 mm"
+    },
+    "sourceUrl": "https://www.watchfinder.com/watches/ulysse-nardin/marine-chronometer/1183-126-7m-42/413461",
+    "src": "/images/watches/ulysse-nardin/reviewed-1183-126-7m-42-20261023-web.webp",
+    "sha256": "25aa81ee842f9303960f7135b06b688ed09fb8a9f708313d95e49be03760c8ea",
+    "rawDriveFileId": "1kFKfSR20VWarwa-4elozgrBG19I3RmhY",
+    "clearanceRecord": "Direct founder answer call_8f5f4c2a4aa24f1ca43d3c67f3fe2b3d: Yes. Record docs/PHOTOGRAPHY_REPRESENTATIVES_RM_FIVE_RIGHTS_2026-10-23.json. Untouched RAW SHA256 00f21db1dc915aeebbf131c448c9d7e5d8faf0d6693ffe765fee6e1e360b7c65. Complete source and whiteWEB individually reviewed; all15archive hashes matched. Classical exterior filled silhouette. Original interior RGB retained; no generated, reconstructed, recolored or sharpened watch detail. Proportional resize and centered2400 white master/1200WEB. No price, availability or unspecified specs inferred. Exact representative selection authorized by call_30506654800f49ee8a724c8a376b5abe; actual picturedSKU displayed while original family URL is preserved.",
+    "sourceProvider": "Watchfinder",
+    "reviewedAt": "2026-10-23",
+    "assetId": "cleared-20261023-representative-rm-1183-126-7m-42"
+  },
+  {
+    "brand": "Richard Mille",
+    "brandSlug": "richard-mille",
+    "collection": "RM 27",
+    "reference": "RM 27-05",
+    "exactReference": "RM 27-05",
+    "model": "RM 27 pictured RM 27-05",
+    "material": "Carbon TPT B.4",
+    "configuration": {
+      "dial": "Openworked flying tourbillon",
+      "bracelet": "Black woven fabric strap"
+    },
+    "sourceUrl": "https://www.richardmille.com/collections/rm-27-05-flying-tourbillon-rafael-nadal",
+    "src": "/images/watches/richard-mille/reviewed-rm-27-05-20261023-web.webp",
+    "sha256": "fbd2ca1cd05f695fbe63eb66eb82bf4a809a4cd35765880f5313dd0fc71a9e24",
+    "rawDriveFileId": "1ud4Xmv-r55KiNWlo4ftmSjPmgEzwuq6l",
+    "clearanceRecord": "Direct founder answer call_8f5f4c2a4aa24f1ca43d3c67f3fe2b3d: Yes. Record docs/PHOTOGRAPHY_REPRESENTATIVES_RM_FIVE_RIGHTS_2026-10-23.json. Untouched RAW SHA256 ce0a8b1e03e060829edaf3141a20d15508a7dfec4d4e83033075e152eb423084. Complete source and whiteWEB individually reviewed; all15archive hashes matched. Classical exterior filled silhouette. Original interior RGB retained; no generated, reconstructed, recolored or sharpened watch detail. Proportional resize and centered2400 white master/1200WEB. No price, availability or unspecified specs inferred.",
+    "sourceProvider": "Richard Mille manufacturer",
+    "reviewedAt": "2026-10-23",
+    "assetId": "cleared-20261023-representative-rm-rm-27-05"
   }
 ];

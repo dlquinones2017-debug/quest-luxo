@@ -6,8 +6,8 @@
   "summary": {
     "references": 70,
     "brands": 15,
-    "approvedForImageRelease": 58,
-    "tasksAwaitingExactImageRightsReview": 12
+    "approvedForImageRelease": 59,
+    "tasksAwaitingExactImageRightsReview": 11
   },
   "queue": [
     {
@@ -989,13 +989,13 @@
       },
       "identitySource": "https://www.richardmille.com/collections/rm-27-05-flying-tourbillon-rafael-nadal",
       "priorityScore": 53,
-      "status": "RIGHTS_AND_EXACT_CONFIGURATION_REVIEW_REQUIRED",
-      "rawSourceFileId": null,
-      "webDerivativePath": null,
-      "webDerivativeSHA256": null,
-      "reviewer": null,
-      "commercialUseRightsRecord": null,
-      "notes": "Do not publish until approvedPhotograph verifies commercial rights and exact reference, and WEB image checksum matches stored file."
+      "status": "APPROVED_WITH_VALID_DERIVATIVE",
+      "rawSourceFileId": "1ud4Xmv-r55KiNWlo4ftmSjPmgEzwuq6l",
+      "webDerivativePath": "/images/watches/richard-mille/reviewed-rm-27-05-20261023-web.webp",
+      "webDerivativeSHA256": "fbd2ca1cd05f695fbe63eb66eb82bf4a809a4cd35765880f5313dd0fc71a9e24",
+      "reviewer": "Quest Luxo execution review with founder website-use clearance",
+      "commercialUseRightsRecord": "Direct founder answer call_8f5f4c2a4aa24f1ca43d3c67f3fe2b3d: Yes. Record docs/PHOTOGRAPHY_REPRESENTATIVES_RM_FIVE_RIGHTS_2026-10-23.json. Untouched RAW SHA256 ce0a8b1e03e060829edaf3141a20d15508a7dfec4d4e83033075e152eb423084. Complete source and whiteWEB individually reviewed; all15archive hashes matched. Classical exterior filled silhouette. Original interior RGB retained; no generated, reconstructed, recolored or sharpened watch detail. Proportional resize and centered2400 white master/1200WEB. No price, availability or unspecified specs inferred. Preserved RAW file: 1ud4Xmv-r55KiNWlo4ftmSjPmgEzwuq6l. Pictured full reference RM 27-05; Carbon TPT B.4, Openworked flying tourbillon, Black woven fabric strap. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "notes": "Exact approvedPhotograph gate and local derivative SHA-256 validated; preserve approved source and separate source attribution."
     },
     {
       "brand": "TAG Heuer",
@@ -1694,5 +1694,5 @@
       "notes": "Founder-upload identity verified October16. Separate source-original and review evidence in FOUNDER_UPLOAD_CONTINUATION_2026-10-16.json. Underlying commercial rights and final photography quality still required; no publication approval implied."
     }
   ],
-  "updatedAt": "2026-10-24T02:09:46.227Z"
+  "updatedAt": "2026-10-24T02:13:45.156Z"
 }

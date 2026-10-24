@@ -1,10 +1,10 @@
 {
-  "verifiedAt": "2026-10-24T01:44:30.876762+00:00",
+  "verifiedAt": "2026-10-24T02:15:26.696091+00:00",
   "expectedDistinctReferenceRoutes": 297,
   "verifiedReferenceRoutes": 297,
-  "approvedDistinctReferenceRoutes": 270,
+  "approvedDistinctReferenceRoutes": 271,
   "verifiedDistinctPhotoFiles": 268,
-  "queuedDistinctReferenceRoutes": 27,
+  "queuedDistinctReferenceRoutes": 26,
   "errors": [],
   "pages": [
     {
@@ -1019,7 +1019,7 @@
     },
     {
       "route": "/collections/ulysse-nardin/diver/maxi-marine-diver",
-      "approved": false,
+      "approved": true,
       "status": "verified"
     },
     {
@@ -2425,13 +2425,13 @@
       "status": "verified"
     },
     {
-      "path": "/images/watches/ulysse-nardin/founder-07-diver-chrono-white-web.webp",
-      "sha256": "a94d96305438c13b65e45b8961293bdd879a44d780801396e084519549b381f1",
+      "path": "/images/watches/ulysse-nardin/founder-13-maxi-diver-white-web.webp",
+      "sha256": "eb72325c11dca7f3ca4d2e5aaf7e0479594074048a28b60505012a2b41c37a77",
       "status": "verified"
     },
     {
-      "path": "/images/watches/ulysse-nardin/founder-13-maxi-diver-white-web.webp",
-      "sha256": "eb72325c11dca7f3ca4d2e5aaf7e0479594074048a28b60505012a2b41c37a77",
+      "path": "/images/watches/ulysse-nardin/founder-07-diver-chrono-white-web.webp",
+      "sha256": "a94d96305438c13b65e45b8961293bdd879a44d780801396e084519549b381f1",
       "status": "verified"
     },
     {

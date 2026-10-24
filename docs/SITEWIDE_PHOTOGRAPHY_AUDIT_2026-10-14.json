@@ -1,14 +1,14 @@
 {
-  "auditedAt": "2026-10-24T02:11:23.683Z",
+  "auditedAt": "2026-10-24T02:14:52.065Z",
   "summary": {
     "brands": 23,
     "collections": 104,
     "registryRecords": 298,
     "distinctRoutes": 297,
     "normalizedBrandReferenceIdentities": 294,
-    "approved": 271,
-    "missing": 26,
-    "collectionsWithPhotography": 96,
+    "approved": 276,
+    "missing": 21,
+    "collectionsWithPhotography": 98,
     "unusedApprovedRecords": 2,
     "duplicateNormalizedReferenceGroups": 4,
     "fileIntegrityFailures": 0,
@@ -147,8 +147,8 @@
       "brand": "Richard Mille",
       "registryRecords": 3,
       "referencePages": 3,
-      "approved": 0,
-      "missing": 3,
+      "approved": 1,
+      "missing": 2,
       "collections": 3
     },
     {
@@ -171,16 +171,16 @@
       "brand": "Tudor",
       "registryRecords": 12,
       "referencePages": 12,
-      "approved": 9,
-      "missing": 3,
+      "approved": 12,
+      "missing": 0,
       "collections": 5
     },
     {
       "brand": "Ulysse Nardin",
       "registryRecords": 27,
       "referencePages": 27,
-      "approved": 23,
-      "missing": 4,
+      "approved": 24,
+      "missing": 3,
       "collections": 6
     },
     {
@@ -5997,7 +5997,7 @@
       "collectionSlug": "royal",
       "reference": "Tudor Royal 41 mm",
       "path": "/collections/tudor/royal/tudor-royal-41-mm",
-      "material": "Steel or Steel and Gold",
+      "material": "Stainless Steel",
       "configurations": [
         {
           "caseSize": "41 mm",
@@ -6005,10 +6005,22 @@
           "dial": "Reference-dependent",
           "bracelet": "Integrated steel bracelet",
           "waterResistance": "100 m"
+        },
+        {
+          "dial": "Blue Roman numerals, day-date",
+          "bracelet": "Stainless-steel five-link bracelet",
+          "nickname": "Pictured reference M28600-0005 (representative)",
+          "caseSize": "41 mm",
+          "originalMSRP": null,
+          "currentMSRP": null
         }
       ],
-      "approved": false,
-      "photo": null,
+      "approved": true,
+      "photo": {
+        "assetId": "cleared-20261023-representative-rm-m28600-0005",
+        "src": "/images/watches/tudor/reviewed-m28600-0005-20261023-web.webp",
+        "sha256": "4a054d9d9c5725b03fe57799f5bc27ba88f3d44666629fcb2b996c83b4c2a57c"
+      },
       "recoveryCandidates": []
     },
     {
@@ -6018,16 +6030,29 @@
       "collectionSlug": "prince",
       "reference": "Prince Date",
       "path": "/collections/tudor/prince/prince-date",
-      "material": "Steel or Steel and Gold",
+      "material": "Stainless Steel",
       "configurations": [
         {
           "movement": "Automatic date",
           "dial": "Reference-dependent",
           "bracelet": "Bracelet or strap"
+        },
+        {
+          "dial": "Silver with baton hour markers",
+          "bracelet": "Stainless-steel five-link bracelet",
+          "nickname": "Pictured reference 74000 (representative)",
+          "caseSize": "34 mm",
+          "movement": "Automatic self-winding",
+          "originalMSRP": null,
+          "currentMSRP": null
         }
       ],
-      "approved": false,
-      "photo": null,
+      "approved": true,
+      "photo": {
+        "assetId": "cleared-20261023-representative-rm-74000",
+        "src": "/images/watches/tudor/reviewed-74000-20261023-web.webp",
+        "sha256": "6ebef13cb3c8157b6199a822b03bea3207e849f501e1ba58209d6f58413f12d2"
+      },
       "recoveryCandidates": []
     },
     {
@@ -6043,10 +6068,21 @@
           "movement": "Automatic chronograph",
           "dial": "Reference-dependent",
           "bracelet": "Bracelet or strap"
+        },
+        {
+          "dial": "Silver Arabic with three chronograph subdials",
+          "bracelet": "Stainless-steel bracelet",
+          "nickname": "Pictured reference 79280 (representative)",
+          "originalMSRP": null,
+          "currentMSRP": null
         }
       ],
-      "approved": false,
-      "photo": null,
+      "approved": true,
+      "photo": {
+        "assetId": "cleared-20261023-representative-rm-79280",
+        "src": "/images/watches/tudor/reviewed-79280-20261023-web.webp",
+        "sha256": "58ea5a924845ec2c4051aa893dd2b2308da93b94ab32a7bff913a3ad08fe9626"
+      },
       "recoveryCandidates": []
     },
     {
@@ -6056,7 +6092,7 @@
       "collectionSlug": "marine",
       "reference": "Marine Chronometer",
       "path": "/collections/ulysse-nardin/marine/marine-chronometer",
-      "material": "Steel or precious metal, reference dependent",
+      "material": "Stainless Steel",
       "configurations": [
         {
           "nickname": "Reference-family configuration",
@@ -6065,10 +6101,22 @@
           "bracelet": "Strap or bracelet varies by exact reference",
           "dial": "Dial and material vary by exact reference",
           "originalMSRP": null
+        },
+        {
+          "dial": "Black Roman numerals",
+          "bracelet": "Stainless-steel bracelet",
+          "nickname": "Pictured reference 1183-126-7M/42 (representative)",
+          "caseSize": "43 mm",
+          "originalMSRP": null,
+          "currentMSRP": null
         }
       ],
-      "approved": false,
-      "photo": null,
+      "approved": true,
+      "photo": {
+        "assetId": "cleared-20261023-representative-rm-1183-126-7m-42",
+        "src": "/images/watches/ulysse-nardin/reviewed-1183-126-7m-42-20261023-web.webp",
+        "sha256": "25aa81ee842f9303960f7135b06b688ed09fb8a9f708313d95e49be03760c8ea"
+      },
       "recoveryCandidates": []
     },
     {
@@ -8068,7 +8116,7 @@
       "collectionSlug": "rm-27",
       "reference": "RM 27-05",
       "path": "/collections/richard-mille/rm-27/rm-27-05",
-      "material": "Carbon TPT and titanium",
+      "material": "Carbon TPT B.4",
       "configurations": [
         {
           "caseSize": "Lightweight tonneau",
@@ -8077,10 +8125,21 @@
           "bracelet": "Model-dependent",
           "originalMSRP": null,
           "currentMSRP": null
+        },
+        {
+          "dial": "Openworked flying tourbillon",
+          "bracelet": "Black woven fabric strap",
+          "nickname": "Openworked flying tourbillon / Black woven fabric strap",
+          "originalMSRP": null,
+          "currentMSRP": null
         }
       ],
-      "approved": false,
-      "photo": null,
+      "approved": true,
+      "photo": {
+        "assetId": "cleared-20261023-representative-rm-rm-27-05",
+        "src": "/images/watches/richard-mille/reviewed-rm-27-05-20261023-web.webp",
+        "sha256": "fbd2ca1cd05f695fbe63eb66eb82bf4a809a4cd35765880f5313dd0fc71a9e24"
+      },
       "recoveryCandidates": []
     },
     {
