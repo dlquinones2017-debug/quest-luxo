@@ -1,7 +1,14 @@
 # Quest Luxo launch status
+
+## Verified watch-intelligence release — October 24, 2026
+
+Founder-approved PR #84 is merged at `6715a39940250b217020a1120a8df5bfad9e85a8`; Render deployment `dep-dbe4sjuk1f9s73eph9p0` is live. Decimal budgets, brand exclusions, shared-reference ranking identity and corrected display SKUs are verified. The first MSRP tranche covers 43/297 canonical reference URLs (46 priced configurations, plus the legacy Explorer 36); 254 references remain explicitly unpriced. All 46 published amounts were independently read from official manufacturer sources. Unstated tax basis and effective dates remain unconfirmed. Runtime-created search cards now receive their intended desktop/mobile styling.
+
+Live read-only checks verified all 297 reference pages, 104 collections and 293 delivered photo hashes, with no errors; all 43 priced references show their amount, configuration SKU and manufacturer source. Production keeps the approved forward-facing Encrypto photograph. Desktop/mobile search and inquiry surfaces passed; no test leads, customer-record reads or campaign actions occurred. See `WATCH_RETAIL_RELEASE_QA_2026-10-24.json` for route/hash evidence and validation. Consent draft PR #85 remains excluded from production.
+
 ## Optional communications repair — October 24, 2026
 
-Separate optional newsletter, marketing-text and inquiry-text choices are implemented and locally verified on the existing inquiry forms, with versioned server receipt evidence and updated public disclosures. This change is not deployed. Social/WTS confirms the campaign remains rejected; its retained Brand Website URL, registration method and generated widget are still unavailable. Provider/carrier approval is not established. See `WTS_WEBSITE_CONSENT_REPAIR_2026-10-24.md` for verification and owner handoff. Production photography remains at the verified front-facing Encrypto release `b69a409` with 297/297 reference routes populated.
+Separate optional newsletter, marketing-text and inquiry-text choices are implemented and locally verified on the existing inquiry forms, with versioned server receipt evidence and updated public disclosures. This change is not deployed. Social/WTS confirms the campaign remains rejected; its retained Brand Website URL, registration method and generated widget are still unavailable. Provider/carrier approval is not established. Social/WTS independently reviewed the manual-form implementation at `8c4bf97` and reported nine passing offline checks with no blocking defect. This does not establish registration approval. See `WTS_WEBSITE_CONSENT_REPAIR_2026-10-24.md` for verification and owner handoff. Production photography remains at the verified front-facing Encrypto release `b69a409` with 297/297 reference routes populated.
 
 ## Enterprise intake continuation — October 19, 2026
 
