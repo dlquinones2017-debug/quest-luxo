@@ -4441,5 +4441,93 @@ export const clearedSprintPhotographySeeds: readonly PhotographySeed[] = [
     "sourceProvider": "Gray and Sons",
     "reviewedAt": "2026-10-23",
     "assetId": "cleared-20261023-118238"
+  },
+  {
+    "brand": "Rolex",
+    "brandSlug": "rolex",
+    "collection": "Day-Date",
+    "reference": "228206",
+    "exactReference": "228206",
+    "model": "Day-Date 228206",
+    "material": "950 Platinum",
+    "configuration": {
+      "dial": "Ice blue diagonal motif",
+      "bracelet": "Platinum President",
+      "caseSize": "40 mm"
+    },
+    "sourceUrl": "https://www.watchguynyc.com/products/rolex-day-date-40-platinum-ice-blue-diagonal-motif-dial-men-s-watch-228206",
+    "src": "/images/watches/rolex/reviewed-228206-20261023-web.webp",
+    "sha256": "25995ef1622e43c298bc7c3395f1b22228075821438bd1c1982cdeed2ad0fdf0",
+    "rawDriveFileId": "1umCLRwA9fLuYSNheBdRzLk7Z4NHRUewT",
+    "clearanceRecord": "Direct founder answer call_8868cb23862b4c248198bc88b991e735: Rights cover all four and derivatives; no restrictions. Record docs/PHOTOGRAPHY_FOUR_RIGHTS_2026-10-23.json. Untouched RAW SHA256 fe1127c80d7aa9ce7f5291b447c2d79598f16fdd9261e06bf30e92de6e926095. Full watch, source/configuration and final1200whiteWEB individually reviewed; all archival readbacks matched. Classical exterior filled silhouette. Original interior RGB retained; no generated, reconstructed, recolored or sharpened watch detail. Proportional resize and centered2400 white master/1200WEB. No price, availability or new alloy grade inferred.",
+    "sourceProvider": "WatchGuyNYC",
+    "reviewedAt": "2026-10-23",
+    "assetId": "cleared-20261023-four-228206"
+  },
+  {
+    "brand": "Rolex",
+    "brandSlug": "rolex",
+    "collection": "Submariner",
+    "reference": "126619LB",
+    "exactReference": "126619LB",
+    "model": "Submariner 126619LB",
+    "material": "18k White Gold",
+    "configuration": {
+      "dial": "Black",
+      "bracelet": "White-gold Oyster",
+      "caseSize": "41 mm"
+    },
+    "sourceUrl": "https://www.grayandsons.com/w525030-unused-rolex-submariner-cookie-monste/",
+    "src": "/images/watches/rolex/reviewed-126619lb-20261023-web.webp",
+    "sha256": "d77c421b70a307b88d2fb4ac35cbdd7c056ccdc7f21036675ad1f84621dfd295",
+    "rawDriveFileId": "1y68y6IUGX_0VzrikczwT4eSgMpqWNFvB",
+    "clearanceRecord": "Direct founder answer call_8868cb23862b4c248198bc88b991e735: Rights cover all four and derivatives; no restrictions. Record docs/PHOTOGRAPHY_FOUR_RIGHTS_2026-10-23.json. Untouched RAW SHA256 542caf1db120baa3967ae4821cf04fbc46332e2737ea676db5ccce76db5e843a. Full watch, source/configuration and final1200whiteWEB individually reviewed; all archival readbacks matched. Classical exterior filled silhouette. Original interior RGB retained; no generated, reconstructed, recolored or sharpened watch detail. Proportional resize and centered2400 white master/1200WEB. No price, availability or new alloy grade inferred.",
+    "sourceProvider": "Gray and Sons",
+    "reviewedAt": "2026-10-23",
+    "assetId": "cleared-20261023-four-126619lb"
+  },
+  {
+    "brand": "Omega",
+    "brandSlug": "omega",
+    "collection": "Seamaster Diver 300M",
+    "reference": "2220.80",
+    "exactReference": "2220.80.00",
+    "model": "Seamaster Diver 300M 2220.80.00",
+    "material": "Stainless Steel",
+    "configuration": {
+      "dial": "Blue wave",
+      "bracelet": "Stainless-steel bracelet",
+      "caseSize": "41 mm"
+    },
+    "sourceUrl": "https://www.watchfinder.com/sell-your-watch/enquiry/omega/seamaster-300m/2220-80-00/4657",
+    "src": "/images/watches/omega/reviewed-2220-80-20261023-web.webp",
+    "sha256": "cad34f0e9a6cc5667c769778cfee0c328b66728d40888334356611b74eb43e90",
+    "rawDriveFileId": "1N6C7WnWIKkraYpAvefi0sBOipfkh0q-L",
+    "clearanceRecord": "Direct founder answer call_8868cb23862b4c248198bc88b991e735: Rights cover all four and derivatives; no restrictions. Record docs/PHOTOGRAPHY_FOUR_RIGHTS_2026-10-23.json. Untouched RAW SHA256 b1ddea38367fa30343c96ebf6928ca526a2e83bf03ef47deab869aece79ea202. Full watch, source/configuration and final1200whiteWEB individually reviewed; all archival readbacks matched. Classical exterior filled silhouette. Original interior RGB retained; no generated, reconstructed, recolored or sharpened watch detail. Proportional resize and centered2400 white master/1200WEB. No price, availability or new alloy grade inferred.",
+    "sourceProvider": "Watchfinder",
+    "reviewedAt": "2026-10-23",
+    "assetId": "cleared-20261023-four-2220-80"
+  },
+  {
+    "brand": "Patek Philippe",
+    "brandSlug": "patek-philippe",
+    "collection": "Nautilus",
+    "reference": "5712/1A",
+    "exactReference": "5712/1A-001",
+    "model": "Nautilus 5712/1A-001",
+    "material": "Stainless Steel",
+    "configuration": {
+      "dial": "Blue-black",
+      "bracelet": "Stainless-steel bracelet",
+      "caseSize": "40 mm"
+    },
+    "sourceUrl": "https://www.the1916company.com/pre-owned/patek-philippe/nautilus/5050598/",
+    "src": "/images/watches/patek-philippe/reviewed-5712-1a-20261023-web.webp",
+    "sha256": "41caaa1f530556d238e60df3818c8e4ce37d7fd1969177f1abefa6aad1cba87d",
+    "rawDriveFileId": "194vdbCLrWPgUYVQn1GkqDpPpto9ejR_f",
+    "clearanceRecord": "Direct founder answer call_8868cb23862b4c248198bc88b991e735: Rights cover all four and derivatives; no restrictions. Record docs/PHOTOGRAPHY_FOUR_RIGHTS_2026-10-23.json. Untouched RAW SHA256 971670bfe54b7558c475c50bcfde56a72588be3c1092b4fe49b08f40f51a05a4. Full watch, source/configuration and final1200whiteWEB individually reviewed; all archival readbacks matched. Classical exterior filled silhouette. Original interior RGB retained; no generated, reconstructed, recolored or sharpened watch detail. Proportional resize and centered2400 white master/1200WEB. No price, availability or new alloy grade inferred.",
+    "sourceProvider": "The 1916 Company",
+    "reviewedAt": "2026-10-23",
+    "assetId": "cleared-20261023-four-5712-1a"
   }
 ];

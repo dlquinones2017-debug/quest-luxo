@@ -1,14 +1,14 @@
 {
-  "reviewedAt": "2026-10-24T00:05:45.868Z",
+  "reviewedAt": "2026-10-24T00:17:54.371Z",
   "note": "Generated from all exported source datasets and built routes. Source-only and duplicate configuration records are retained for review; this register is not proof of image rights. Source URLs identify research leads, not licenses.",
   "summary": {
-    "sourceConfigurations": 954,
+    "sourceConfigurations": 964,
     "builtReferenceRoutes": 297,
     "collectionRoutes": 104,
-    "approvedReferenceConfigurations": 485,
+    "approvedReferenceConfigurations": 493,
     "unmatchedReferenceRoutes": 0,
-    "approvedCanonicalReferenceRoutes": 239,
-    "queuedCanonicalReferenceRoutes": 58
+    "approvedCanonicalReferenceRoutes": 243,
+    "queuedCanonicalReferenceRoutes": 54
   },
   "collections": [
     {
@@ -3986,6 +3986,14 @@
           "dial": "Black",
           "bracelet": "White Gold Oyster",
           "originalMSRP": null
+        },
+        {
+          "dial": "Black",
+          "bracelet": "White-gold Oyster",
+          "caseSize": "41 mm",
+          "nickname": "Black / White-gold Oyster",
+          "originalMSRP": null,
+          "currentMSRP": null
         }
       ],
       "material": "18k White Gold",
@@ -3996,14 +4004,14 @@
         "/collections/rolex/submariner/126619lb"
       ],
       "scope": "built-reference",
-      "existingImage": "/images/watch-reference-placeholder.svg",
+      "existingImage": "/images/watches/rolex/reviewed-126619lb-20261023-web.webp",
       "existingImageFilePresent": true,
-      "photoAssetId": null,
-      "status": "Requires Verification",
-      "sourceUrl": null,
-      "licenseRecord": null,
-      "websiteApproved": false,
-      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+      "photoAssetId": "cleared-20261023-four-126619lb",
+      "status": "approved",
+      "sourceUrl": "https://www.grayandsons.com/w525030-unused-rolex-submariner-cookie-monste/",
+      "licenseRecord": "Direct founder answer call_8868cb23862b4c248198bc88b991e735: Rights cover all four and derivatives; no restrictions. Record docs/PHOTOGRAPHY_FOUR_RIGHTS_2026-10-23.json. Untouched RAW SHA256 542caf1db120baa3967ae4821cf04fbc46332e2737ea676db5ccce76db5e843a. Full watch, source/configuration and final1200whiteWEB individually reviewed; all archival readbacks matched. Classical exterior filled silhouette. Original interior RGB retained; no generated, reconstructed, recolored or sharpened watch detail. Proportional resize and centered2400 white master/1200WEB. No price, availability or new alloy grade inferred. Preserved RAW file: 1y68y6IUGX_0VzrikczwT4eSgMpqWNFvB. Pictured full reference 126619LB; 18k White Gold, Black, White-gold Oyster. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
     },
     {
       "brand": "Rolex",
@@ -4426,6 +4434,14 @@
           "dial": "Multiple Dial Options",
           "bracelet": "President",
           "originalMSRP": null
+        },
+        {
+          "dial": "Ice blue diagonal motif",
+          "bracelet": "Platinum President",
+          "caseSize": "40 mm",
+          "nickname": "Ice blue diagonal motif / Platinum President",
+          "originalMSRP": null,
+          "currentMSRP": null
         }
       ],
       "material": "950 Platinum",
@@ -4436,14 +4452,14 @@
         "/collections/rolex/day-date/228206"
       ],
       "scope": "built-reference",
-      "existingImage": "/images/watch-reference-placeholder.svg",
+      "existingImage": "/images/watches/rolex/reviewed-228206-20261023-web.webp",
       "existingImageFilePresent": true,
-      "photoAssetId": null,
-      "status": "Requires Verification",
-      "sourceUrl": null,
-      "licenseRecord": null,
-      "websiteApproved": false,
-      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+      "photoAssetId": "cleared-20261023-four-228206",
+      "status": "approved",
+      "sourceUrl": "https://www.watchguynyc.com/products/rolex-day-date-40-platinum-ice-blue-diagonal-motif-dial-men-s-watch-228206",
+      "licenseRecord": "Direct founder answer call_8868cb23862b4c248198bc88b991e735: Rights cover all four and derivatives; no restrictions. Record docs/PHOTOGRAPHY_FOUR_RIGHTS_2026-10-23.json. Untouched RAW SHA256 fe1127c80d7aa9ce7f5291b447c2d79598f16fdd9261e06bf30e92de6e926095. Full watch, source/configuration and final1200whiteWEB individually reviewed; all archival readbacks matched. Classical exterior filled silhouette. Original interior RGB retained; no generated, reconstructed, recolored or sharpened watch detail. Proportional resize and centered2400 white master/1200WEB. No price, availability or new alloy grade inferred. Preserved RAW file: 1umCLRwA9fLuYSNheBdRzLk7Z4NHRUewT. Pictured full reference 228206; 950 Platinum, Ice blue diagonal motif, Platinum President. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
     },
     {
       "brand": "Rolex",
@@ -5382,26 +5398,32 @@
           "bracelet": "Integrated Bracelet",
           "dial": "Blue",
           "originalMSRP": null
+        },
+        {
+          "dial": "Blue-black",
+          "bracelet": "Stainless-steel bracelet",
+          "caseSize": "40 mm",
+          "nickname": "Blue-black / Stainless-steel bracelet",
+          "originalMSRP": null,
+          "currentMSRP": null
         }
       ],
       "material": "Stainless Steel",
       "sources": [
-        "src/data/collectionRegistry.ts",
-        "src/data/patek-philippe-intelligence.ts",
-        "src/data/patek-philippe.ts"
+        "src/data/collectionRegistry.ts"
       ],
       "routes": [
         "/collections/patek-philippe/nautilus/5712-1a"
       ],
       "scope": "built-reference",
-      "existingImage": "/images/watch-reference-placeholder.svg",
+      "existingImage": "/images/watches/patek-philippe/reviewed-5712-1a-20261023-web.webp",
       "existingImageFilePresent": true,
-      "photoAssetId": null,
-      "status": "Requires Verification",
-      "sourceUrl": null,
-      "licenseRecord": null,
-      "websiteApproved": false,
-      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+      "photoAssetId": "cleared-20261023-four-5712-1a",
+      "status": "approved",
+      "sourceUrl": "https://www.the1916company.com/pre-owned/patek-philippe/nautilus/5050598/",
+      "licenseRecord": "Direct founder answer call_8868cb23862b4c248198bc88b991e735: Rights cover all four and derivatives; no restrictions. Record docs/PHOTOGRAPHY_FOUR_RIGHTS_2026-10-23.json. Untouched RAW SHA256 971670bfe54b7558c475c50bcfde56a72588be3c1092b4fe49b08f40f51a05a4. Full watch, source/configuration and final1200whiteWEB individually reviewed; all archival readbacks matched. Classical exterior filled silhouette. Original interior RGB retained; no generated, reconstructed, recolored or sharpened watch detail. Proportional resize and centered2400 white master/1200WEB. No price, availability or new alloy grade inferred. Preserved RAW file: 194vdbCLrWPgUYVQn1GkqDpPpto9ejR_f. Pictured full reference 5712/1A-001; Stainless Steel, Blue-black, Stainless-steel bracelet. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
     },
     {
       "brand": "Patek Philippe",
@@ -7510,25 +7532,32 @@
           "dial": "Blue wave dial",
           "bracelet": "Stainless-steel bracelet",
           "waterResistance": "300 m"
+        },
+        {
+          "dial": "Blue wave",
+          "bracelet": "Stainless-steel bracelet",
+          "caseSize": "41 mm",
+          "nickname": "Blue wave / Stainless-steel bracelet",
+          "originalMSRP": null,
+          "currentMSRP": null
         }
       ],
       "material": "Stainless Steel",
       "sources": [
-        "src/data/collectionRegistry.ts",
-        "src/data/reference-expansion.ts"
+        "src/data/collectionRegistry.ts"
       ],
       "routes": [
         "/collections/omega/seamaster/2220-80"
       ],
       "scope": "built-reference",
-      "existingImage": "/images/watch-reference-placeholder.svg",
+      "existingImage": "/images/watches/omega/reviewed-2220-80-20261023-web.webp",
       "existingImageFilePresent": true,
-      "photoAssetId": null,
-      "status": "Requires Verification",
-      "sourceUrl": null,
-      "licenseRecord": null,
-      "websiteApproved": false,
-      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+      "photoAssetId": "cleared-20261023-four-2220-80",
+      "status": "approved",
+      "sourceUrl": "https://www.watchfinder.com/sell-your-watch/enquiry/omega/seamaster-300m/2220-80-00/4657",
+      "licenseRecord": "Direct founder answer call_8868cb23862b4c248198bc88b991e735: Rights cover all four and derivatives; no restrictions. Record docs/PHOTOGRAPHY_FOUR_RIGHTS_2026-10-23.json. Untouched RAW SHA256 b1ddea38367fa30343c96ebf6928ca526a2e83bf03ef47deab869aece79ea202. Full watch, source/configuration and final1200whiteWEB individually reviewed; all archival readbacks matched. Classical exterior filled silhouette. Original interior RGB retained; no generated, reconstructed, recolored or sharpened watch detail. Proportional resize and centered2400 white master/1200WEB. No price, availability or new alloy grade inferred. Preserved RAW file: 1N6C7WnWIKkraYpAvefi0sBOipfkh0q-L. Pictured full reference 2220.80.00; Stainless Steel, Blue wave, Stainless-steel bracelet. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
     },
     {
       "brand": "Omega",
@@ -14267,6 +14296,36 @@
     {
       "brand": "Patek Philippe",
       "collection": "Nautilus",
+      "reference": "5712/1A",
+      "configurations": [
+        {
+          "nickname": "Moon Phase",
+          "bracelet": "Integrated Bracelet",
+          "dial": "Blue",
+          "originalMSRP": null
+        }
+      ],
+      "material": "Stainless Steel",
+      "sources": [
+        "src/data/patek-philippe-intelligence.ts",
+        "src/data/patek-philippe.ts"
+      ],
+      "routes": [
+        "/collections/patek-philippe/nautilus/5712-1a"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": null,
+      "status": "Requires Verification",
+      "sourceUrl": null,
+      "licenseRecord": null,
+      "websiteApproved": false,
+      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+    },
+    {
+      "brand": "Patek Philippe",
+      "collection": "Nautilus",
       "reference": "5990/1A",
       "configurations": [
         {
@@ -18702,6 +18761,94 @@
       "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
     },
     {
+      "brand": "Rolex",
+      "collection": "Day-Date",
+      "reference": "228206",
+      "configurations": [],
+      "material": "950 Platinum",
+      "sources": [
+        "src/data/photography-cleared-sprint.ts"
+      ],
+      "routes": [
+        "/collections/rolex/day-date/228206"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": null,
+      "status": "Requires Verification",
+      "sourceUrl": null,
+      "licenseRecord": null,
+      "websiteApproved": false,
+      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+    },
+    {
+      "brand": "Rolex",
+      "collection": "Submariner",
+      "reference": "126619LB",
+      "configurations": [],
+      "material": "18k White Gold",
+      "sources": [
+        "src/data/photography-cleared-sprint.ts"
+      ],
+      "routes": [
+        "/collections/rolex/submariner/126619lb"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": null,
+      "status": "Requires Verification",
+      "sourceUrl": null,
+      "licenseRecord": null,
+      "websiteApproved": false,
+      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+    },
+    {
+      "brand": "Omega",
+      "collection": "Seamaster Diver 300M",
+      "reference": "2220.80",
+      "configurations": [],
+      "material": "Stainless Steel",
+      "sources": [
+        "src/data/photography-cleared-sprint.ts"
+      ],
+      "routes": [
+        "/collections/omega/seamaster/2220-80"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": null,
+      "status": "Requires Verification",
+      "sourceUrl": null,
+      "licenseRecord": null,
+      "websiteApproved": false,
+      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+    },
+    {
+      "brand": "Patek Philippe",
+      "collection": "Nautilus",
+      "reference": "5712/1A",
+      "configurations": [],
+      "material": "Stainless Steel",
+      "sources": [
+        "src/data/photography-cleared-sprint.ts"
+      ],
+      "routes": [
+        "/collections/patek-philippe/nautilus/5712-1a"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": null,
+      "status": "Requires Verification",
+      "sourceUrl": null,
+      "licenseRecord": null,
+      "websiteApproved": false,
+      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+    },
+    {
       "brand": "Breitling",
       "collection": "Superocean",
       "reference": "A17376211B1A1",
@@ -22843,6 +22990,130 @@
     },
     {
       "brand": "Rolex",
+      "collection": "Day-Date",
+      "reference": "228206",
+      "configurations": [
+        {
+          "dial": "Ice blue diagonal motif",
+          "bracelet": "Platinum President",
+          "caseSize": "40 mm",
+          "nickname": "Ice blue diagonal motif / Platinum President",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "950 Platinum",
+      "sources": [
+        "src/data/photography-expansion.ts"
+      ],
+      "routes": [
+        "/collections/rolex/day-date/228206"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": "cleared-20261023-four-228206",
+      "status": "approved",
+      "sourceUrl": "https://www.watchguynyc.com/products/rolex-day-date-40-platinum-ice-blue-diagonal-motif-dial-men-s-watch-228206",
+      "licenseRecord": "Direct founder answer call_8868cb23862b4c248198bc88b991e735: Rights cover all four and derivatives; no restrictions. Record docs/PHOTOGRAPHY_FOUR_RIGHTS_2026-10-23.json. Untouched RAW SHA256 fe1127c80d7aa9ce7f5291b447c2d79598f16fdd9261e06bf30e92de6e926095. Full watch, source/configuration and final1200whiteWEB individually reviewed; all archival readbacks matched. Classical exterior filled silhouette. Original interior RGB retained; no generated, reconstructed, recolored or sharpened watch detail. Proportional resize and centered2400 white master/1200WEB. No price, availability or new alloy grade inferred. Preserved RAW file: 1umCLRwA9fLuYSNheBdRzLk7Z4NHRUewT. Pictured full reference 228206; 950 Platinum, Ice blue diagonal motif, Platinum President. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
+      "brand": "Rolex",
+      "collection": "Submariner",
+      "reference": "126619LB",
+      "configurations": [
+        {
+          "dial": "Black",
+          "bracelet": "White-gold Oyster",
+          "caseSize": "41 mm",
+          "nickname": "Black / White-gold Oyster",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "18k White Gold",
+      "sources": [
+        "src/data/photography-expansion.ts"
+      ],
+      "routes": [
+        "/collections/rolex/submariner/126619lb"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": "cleared-20261023-four-126619lb",
+      "status": "approved",
+      "sourceUrl": "https://www.grayandsons.com/w525030-unused-rolex-submariner-cookie-monste/",
+      "licenseRecord": "Direct founder answer call_8868cb23862b4c248198bc88b991e735: Rights cover all four and derivatives; no restrictions. Record docs/PHOTOGRAPHY_FOUR_RIGHTS_2026-10-23.json. Untouched RAW SHA256 542caf1db120baa3967ae4821cf04fbc46332e2737ea676db5ccce76db5e843a. Full watch, source/configuration and final1200whiteWEB individually reviewed; all archival readbacks matched. Classical exterior filled silhouette. Original interior RGB retained; no generated, reconstructed, recolored or sharpened watch detail. Proportional resize and centered2400 white master/1200WEB. No price, availability or new alloy grade inferred. Preserved RAW file: 1y68y6IUGX_0VzrikczwT4eSgMpqWNFvB. Pictured full reference 126619LB; 18k White Gold, Black, White-gold Oyster. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
+      "brand": "Omega",
+      "collection": "Seamaster Diver 300M",
+      "reference": "2220.80",
+      "configurations": [
+        {
+          "dial": "Blue wave",
+          "bracelet": "Stainless-steel bracelet",
+          "caseSize": "41 mm",
+          "nickname": "Blue wave / Stainless-steel bracelet",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "Stainless Steel",
+      "sources": [
+        "src/data/photography-expansion.ts"
+      ],
+      "routes": [
+        "/collections/omega/seamaster/2220-80"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": "cleared-20261023-four-2220-80",
+      "status": "approved",
+      "sourceUrl": "https://www.watchfinder.com/sell-your-watch/enquiry/omega/seamaster-300m/2220-80-00/4657",
+      "licenseRecord": "Direct founder answer call_8868cb23862b4c248198bc88b991e735: Rights cover all four and derivatives; no restrictions. Record docs/PHOTOGRAPHY_FOUR_RIGHTS_2026-10-23.json. Untouched RAW SHA256 b1ddea38367fa30343c96ebf6928ca526a2e83bf03ef47deab869aece79ea202. Full watch, source/configuration and final1200whiteWEB individually reviewed; all archival readbacks matched. Classical exterior filled silhouette. Original interior RGB retained; no generated, reconstructed, recolored or sharpened watch detail. Proportional resize and centered2400 white master/1200WEB. No price, availability or new alloy grade inferred. Preserved RAW file: 1N6C7WnWIKkraYpAvefi0sBOipfkh0q-L. Pictured full reference 2220.80.00; Stainless Steel, Blue wave, Stainless-steel bracelet. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
+      "brand": "Patek Philippe",
+      "collection": "Nautilus",
+      "reference": "5712/1A",
+      "configurations": [
+        {
+          "dial": "Blue-black",
+          "bracelet": "Stainless-steel bracelet",
+          "caseSize": "40 mm",
+          "nickname": "Blue-black / Stainless-steel bracelet",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "Stainless Steel",
+      "sources": [
+        "src/data/photography-expansion.ts"
+      ],
+      "routes": [
+        "/collections/patek-philippe/nautilus/5712-1a"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": "cleared-20261023-four-5712-1a",
+      "status": "approved",
+      "sourceUrl": "https://www.the1916company.com/pre-owned/patek-philippe/nautilus/5050598/",
+      "licenseRecord": "Direct founder answer call_8868cb23862b4c248198bc88b991e735: Rights cover all four and derivatives; no restrictions. Record docs/PHOTOGRAPHY_FOUR_RIGHTS_2026-10-23.json. Untouched RAW SHA256 971670bfe54b7558c475c50bcfde56a72588be3c1092b4fe49b08f40f51a05a4. Full watch, source/configuration and final1200whiteWEB individually reviewed; all archival readbacks matched. Classical exterior filled silhouette. Original interior RGB retained; no generated, reconstructed, recolored or sharpened watch detail. Proportional resize and centered2400 white master/1200WEB. No price, availability or new alloy grade inferred. Preserved RAW file: 194vdbCLrWPgUYVQn1GkqDpPpto9ejR_f. Pictured full reference 5712/1A-001; Stainless Steel, Blue-black, Stainless-steel bracelet. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
+      "brand": "Rolex",
       "collection": "Submariner",
       "reference": "126613LB",
       "configurations": [
@@ -23545,6 +23816,36 @@
       "licenseRecord": "Direct founder answer call_fe1fcc7a57dd4fbdb5a5932c1d6e4549: Rights cover all five and derivatives; no restrictions. Record docs/PHOTOGRAPHY_FIVE_RIGHTS_2026-10-19.json. Untouched native original omega-2531-80-gray-hero-native.img SHA256 887561d111476ec2352e1ad5cd0fb6ac004b2cc9cb0840293a39fb20ac72cfd7. Complete whole-watch original and centered white derivative individually reviewed. No generated, reconstructed or recolored watch detail. Only original near-white exterior background excluded; internal contour filled to retain all white highlights and original watch pixels. Proportional resize and center on blank2400white master/1200WEB. No recoloring, sharpening or generated watch detail. Preserved RAW file: 1MXAyK2WuBEepigUjuRerYC1Ho70lP7jX. Pictured full reference 2531.80; Stainless Steel, Blue wave dial, Stainless-steel bracelet. Exact configuration reviewed against preserved source evidence and the original photograph.",
       "websiteApproved": true,
       "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
+      "brand": "Omega",
+      "collection": "Seamaster Diver 300M",
+      "reference": "2220.80",
+      "configurations": [
+        {
+          "caseSize": "41 mm",
+          "movement": "Calibre 2500 Co-Axial automatic",
+          "dial": "Blue wave dial",
+          "bracelet": "Stainless-steel bracelet",
+          "waterResistance": "300 m"
+        }
+      ],
+      "material": "Stainless Steel",
+      "sources": [
+        "src/data/reference-expansion.ts"
+      ],
+      "routes": [
+        "/collections/omega/seamaster/2220-80"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": null,
+      "status": "Requires Verification",
+      "sourceUrl": null,
+      "licenseRecord": null,
+      "websiteApproved": false,
+      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
     },
     {
       "brand": "Omega",

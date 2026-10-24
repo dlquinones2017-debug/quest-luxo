@@ -1,0 +1,113 @@
+{
+  "checkedAt": "2026-10-24T00:20:30.403515+00:00",
+  "checks": [
+    {
+      "check": "omega-queue-sync",
+      "exitCode": 0,
+      "logFileName": "four-20261023-omega-queue-sync.log"
+    },
+    {
+      "check": "astro-check",
+      "exitCode": 0,
+      "logFileName": "four-20261023-astro-check.log"
+    },
+    {
+      "check": "regressions",
+      "exitCode": 0,
+      "logFileName": "four-20261023-regressions.log"
+    },
+    {
+      "check": "omega-audit",
+      "exitCode": 0,
+      "logFileName": "four-20261023-omega-audit.log"
+    },
+    {
+      "check": "omega-queue-check",
+      "exitCode": 0,
+      "logFileName": "four-20261023-omega-queue-check.log"
+    },
+    {
+      "check": "expansion-audit",
+      "exitCode": 0,
+      "logFileName": "four-20261023-expansion-audit.log"
+    },
+    {
+      "check": "build",
+      "exitCode": 0,
+      "logFileName": "four-20261023-build.log"
+    },
+    {
+      "check": "inventory",
+      "exitCode": 0,
+      "logFileName": "four-20261023-inventory.log"
+    },
+    {
+      "check": "full-audit",
+      "exitCode": 0,
+      "logFileName": "four-20261023-full-audit.log"
+    }
+  ],
+  "builtMapping": {
+    "checkedAt": "2026-10-24T00:18:30.622114+00:00",
+    "mode": "built",
+    "exactReferencesChecked": 4,
+    "rows": [
+      {
+        "reference": "228206",
+        "route": "/collections/rolex/day-date/228206",
+        "imageSha256": "25995ef1622e43c298bc7c3395f1b22228075821438bd1c1982cdeed2ad0fdf0",
+        "exactConfiguration": true,
+        "collectionGrid": true,
+        "inquiryContext": true,
+        "separateCredits": true,
+        "noImageCaptionOverlay": true
+      },
+      {
+        "reference": "126619LB",
+        "route": "/collections/rolex/submariner/126619lb",
+        "imageSha256": "d77c421b70a307b88d2fb4ac35cbdd7c056ccdc7f21036675ad1f84621dfd295",
+        "exactConfiguration": true,
+        "collectionGrid": true,
+        "inquiryContext": true,
+        "separateCredits": true,
+        "noImageCaptionOverlay": true
+      },
+      {
+        "reference": "2220.80",
+        "route": "/collections/omega/seamaster/2220-80",
+        "imageSha256": "cad34f0e9a6cc5667c769778cfee0c328b66728d40888334356611b74eb43e90",
+        "exactConfiguration": true,
+        "collectionGrid": true,
+        "inquiryContext": true,
+        "separateCredits": true,
+        "noImageCaptionOverlay": true
+      },
+      {
+        "reference": "5712/1A",
+        "route": "/collections/patek-philippe/nautilus/5712-1a",
+        "imageSha256": "41caaa1f530556d238e60df3818c8e4ce37d7fd1969177f1abefa6aad1cba87d",
+        "exactConfiguration": true,
+        "collectionGrid": true,
+        "inquiryContext": true,
+        "separateCredits": true,
+        "noImageCaptionOverlay": true
+      }
+    ],
+    "publicFlowsAvailable": true,
+    "leadDataSafety": "Public GET checks only. No new lead submissions, private lead reads, runtime data or disk changes."
+  },
+  "tests": {
+    "total": 315,
+    "passed": 314,
+    "skipped": 1,
+    "failed": 0
+  },
+  "astro": {
+    "errors": 0,
+    "warnings": 0,
+    "existingHints": 18
+  },
+  "nativeAndWhiteWebVisualReview": "Complete originals and white WEB individually reviewed before direct founder rights confirmation; unchanged SHA256s verified during integration.",
+  "archiveReadbacksVerified": true,
+  "status": "Built checks passed; independent production verification pending"
+}

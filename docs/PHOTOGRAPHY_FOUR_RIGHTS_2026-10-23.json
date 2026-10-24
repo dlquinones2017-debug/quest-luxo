@@ -1,0 +1,32 @@
+{
+  "confirmedAt": "2026-10-24T00:16:23.797703+00:00",
+  "questionId": "call_8868cb23862b4c248198bc88b991e735",
+  "directFounderAnswer": "Rights cover all four and derivatives; no restrictions",
+  "sourceLedgerDriveFileId": "12rg6LajNFu3nAB8Z2xzlx-urV_1iOlpd",
+  "references": [
+    {
+      "reference": "228206",
+      "exactSKU": "228206",
+      "sourceUrl": "https://www.watchguynyc.com/products/rolex-day-date-40-platinum-ice-blue-diagonal-motif-dial-men-s-watch-228206",
+      "rawSha256": "fe1127c80d7aa9ce7f5291b447c2d79598f16fdd9261e06bf30e92de6e926095"
+    },
+    {
+      "reference": "126619LB",
+      "exactSKU": "126619LB",
+      "sourceUrl": "https://www.grayandsons.com/w525030-unused-rolex-submariner-cookie-monste/",
+      "rawSha256": "542caf1db120baa3967ae4821cf04fbc46332e2737ea676db5ccce76db5e843a"
+    },
+    {
+      "reference": "2220.80",
+      "exactSKU": "2220.80.00",
+      "sourceUrl": "https://www.watchfinder.com/sell-your-watch/enquiry/omega/seamaster-300m/2220-80-00/4657",
+      "rawSha256": "b1ddea38367fa30343c96ebf6928ca526a2e83bf03ef47deab869aece79ea202"
+    },
+    {
+      "reference": "5712/1A",
+      "exactSKU": "5712/1A-001",
+      "sourceUrl": "https://www.the1916company.com/pre-owned/patek-philippe/nautilus/5050598/",
+      "rawSha256": "971670bfe54b7558c475c50bcfde56a72588be3c1092b4fe49b08f40f51a05a4"
+    }
+  ]
+}
