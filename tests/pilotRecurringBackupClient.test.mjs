@@ -11,10 +11,11 @@ import {commitTrustedIntakeBatch} from '../src/lib/command/enterpriseIntakeJourn
 import {exportPipelineBackup,exportIntakeJournalBackup} from '../src/lib/command/enterprisePipelineBackup.ts';
 import {syntheticRecords} from '../scripts/factory-agent-runtime.mjs';
 import {syntheticIntakeBatch,SYNTHETIC_INTAKE_TIME} from '../scripts/synthetic-intake-fixture.mjs';
+import {verifySyntheticCRMOutbox} from '../scripts/pilot-crm-outbox.mjs';
 import {verifySyntheticCRMPreparation} from '../scripts/pilot-crm-preparation.mjs';
 
 const time='2026-10-24T02:00:00.000Z',sha=b=>createHash('sha256').update(b).digest('hex');
-async function fixture(fn){
+async function fixture(fn,includeOutbox=false){
  const directory=await mkdtemp(join(tmpdir(),'recurring-client-')),root=join(directory,'private'),key=randomBytes(32);await mkdir(root,{mode:0o700});
  try{
   const archives=[];
@@ -27,8 +28,9 @@ async function fixture(fn){
   }
   const preparationRoot=join(directory,'preparation');await mkdir(preparationRoot,{mode:0o700});const prep=await verifySyntheticCRMPreparation(preparationRoot,key,true),bytes=await readFile(join(preparationRoot,'retained-crm-preparation',prep.archiveFilename));
   archives.push({kind:'preparation',revision:prep.journalRevision,sha256:sha(bytes),archive:bytes.toString('utf8')});
+  if(includeOutbox){const outboxRoot=join(directory,'outbox');await mkdir(outboxRoot,{mode:0o700});const outbox=await verifySyntheticCRMOutbox(outboxRoot,key,true),bytes=await readFile(join(outboxRoot,'retained-crm-outbox',outbox.archiveFilename));archives.push({kind:'outbox',revision:outbox.journalRevision,sha256:sha(bytes),archive:bytes.toString('utf8')});}
   const calls=[];let nonce=0;
-  const options={root,key,clock:()=>new Date(time),nonceFactory:()=> (++nonce).toString(16).padStart(32,'0'),aclChecker:async()=>true};
+  const options={root,key,includeOutbox,clock:()=>new Date(time),nonceFactory:()=> (++nonce).toString(16).padStart(32,'0'),aclChecker:async()=>true};
   const signed=payload=>({status:200,body:Buffer.from(JSON.stringify({payload,signature:signPayload(key,payload)}))});
   options.transport=async request=>{
    calls.push(request);const h=request.headers;
@@ -102,3 +104,19 @@ test('unsafe root, active lock and retention capacity hold before network traffi
  await assert.rejects(runRecurringBackup(options));assert.equal(calls.length,0);assert.equal((await readdir(retained)).length,1000);
  if(process.platform!=='win32'){const alias=root+'-alias';await symlink(root,alias);await assert.rejects(runRecurringBackup({...options,root:alias}));await rm(alias);}
 }));
+
+test('opt-in four-profile client restores and verifies complete outbox pair before acknowledging all four',()=>fixture(async({root,options,calls})=>{
+ const result=await runRecurringBackup(options);assert.equal(result.acknowledged,true);assert.equal(calls.length,2);
+ const [run]=await readdir(join(root,'recurring-backups')),restored=join(root,'recurring-backups',run,'restored-outbox');
+ assert.deepEqual((await readdir(restored)).sort(),['crm-delivery-outbox-v1.enc.json','crm-delivery-outbox-v1.initialized']);
+ assert.equal(JSON.parse(calls[1].body).archives.length,4);assert.equal(result.businessDataReady,false);
+},true));
+test('four-profile client never ACKs missing outbox, incomplete recovery pair or changed revision',()=>fixture(async({options,archives,signed})=>{
+ const variants=[archives.filter(a=>a.kind!=='outbox'),archives.map(a=>a.kind==='outbox'?{...a,revision:'0'.repeat(64)}:a),archives.map(a=>{
+  if(a.kind!=='outbox')return a;const value=JSON.parse(a.archive);delete value.marker;const archive=JSON.stringify(value);return {...a,archive,sha256:sha(archive)};
+ })];
+ for(const altered of variants){options.transport=async request=>{assert.equal(request.method,'GET');return signed({version:1,nonce:request.headers['x-quest-nonce'],generatedAt:time,archives:altered});};await assert.rejects(runRecurringBackup(options));}
+},true));
+test('default three-profile client refuses unrequested outbox content',()=>fixture(async({options})=>{
+ options.includeOutbox=false;await assert.rejects(runRecurringBackup(options));
+},true));

@@ -3,6 +3,7 @@ import { realpath } from "node:fs/promises";
 import { join, resolve } from "node:path";
 import { readDurablePipelines } from "../src/lib/command/enterpriseDurablePipelines.ts";
 import { readEncryptedIntakeJournal } from "../src/lib/command/enterpriseIntakeJournal.ts";
+import { readCRMDeliveryOutbox } from "../src/lib/command/crmDeliveryOutbox.ts";
 import { readCRMPreparationJournal } from "../src/lib/command/crmPreparationJournal.ts";
 import { readRecurringCheckpoint } from "./pilot-backup-channel.mjs";
 import { assessPilotRecovery } from "../src/lib/agents/pilotRecoveryAudit.ts";
@@ -32,11 +33,14 @@ export async function readPilotRecoveryAssessment({ storageVerified = false, loc
     const intake = await readEncryptedIntakeJournal(join(env.QUEST_PIPELINE_DIRECTORY, "synthetic-intake"), key);
     const now = new Date().toISOString();
     const proof = await readRecurringCheckpoint(env.QUEST_PIPELINE_DIRECTORY, key, Date.parse(now));
-    // Decrypt and validate the current preparation snapshot before comparing all three revisions.
-    const preparation = proof ? await readCRMPreparationJournal(join(env.QUEST_PIPELINE_DIRECTORY, "synthetic-crm-preparation"), key) : null;
+    // Decrypt current selected stores before comparing their authenticated checkpoint revisions.
+    const includeOutbox = env.QUEST_ENABLE_PILOT_OUTBOX_BACKUP === "true";
+    const preparation = proof || includeOutbox ? await readCRMPreparationJournal(join(env.QUEST_PIPELINE_DIRECTORY, "synthetic-crm-preparation"), key) : null;
     if (preparation && !/^[a-f0-9]{64}$/.test(preparation.revision)) throw Error("Current preparation recovery required.");
+    const outbox = includeOutbox ? await readCRMDeliveryOutbox(join(env.QUEST_PIPELINE_DIRECTORY, "synthetic-crm-outbox"), key) : null;
+    if (outbox && !/^[a-f0-9]{64}$/.test(outbox.revision)) throw Error("Current outbox recovery required.");
     return assessPilotRecovery({ storageVerified, localBackupVerified, pipelineRevision: pipeline.revision, intakeRevision: intake.revision,
-      ...(preparation ? { preparationRevision: preparation.revision } : {}) },
+      ...(preparation ? { preparationRevision: preparation.revision } : {}), ...(outbox ? { outboxRevision: outbox.revision } : {}) },
       await readPilotRecoveryReceipt(env.QUEST_PIPELINE_DIRECTORY), now, proof);
   } finally { key.fill(0); }
 }

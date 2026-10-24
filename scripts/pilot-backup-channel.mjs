@@ -6,21 +6,21 @@ import {withLeadStorageLock} from '../src/lib/leads/leadStorageLock.ts';
 import {verifyRequest,signPayload,verifyPayload} from './pilot-backup-protocol.mjs';
 
 const FILE='recurring-backup-checkpoint.json', TTL=120_000, GAP=43_200_000, MIN_INTERVAL=60_000;
-const KINDS=['intake','pipeline','preparation'], SHA=/^[a-f0-9]{64}$/, NONCE=/^[a-f0-9]{32}$/;
+const KINDS=['intake','pipeline','preparation'], FOUR_KINDS=['intake','outbox','pipeline','preparation'], SHA=/^[a-f0-9]{64}$/, NONCE=/^[a-f0-9]{32}$/;
 const exact=(v,keys)=>!!v&&typeof v==='object'&&!Array.isArray(v)&&Object.keys(v).sort().join() === [...keys].sort().join();
 const canonicalTime=v=>typeof v==='string'&&Number.isFinite(Date.parse(v))&&new Date(v).toISOString()===v;
 const same=(a,b)=>JSON.stringify(a)===JSON.stringify(b);
 const fail=()=>{throw Error('Authenticated private backup verification required.');};
 const missing=e=>e?.code==='ENOENT';
 const digest=s=>createHash('sha256').update(s,'utf8').digest('hex');
-function archives(value,withContents=false){
- if(!Array.isArray(value)||value.length!==3)return fail();
+function archives(value,withContents=false,kinds=KINDS){
+ if(!Array.isArray(value)||value.length!==kinds.length)return fail();
  const result=value.map(a=>{
-  if(!exact(a,withContents?['kind','revision','sha256','archive']:['kind','revision','sha256'])||!KINDS.includes(a.kind)||typeof a.revision!=='string'||!SHA.test(a.revision)||typeof a.sha256!=='string'||!SHA.test(a.sha256))return fail();
+  if(!exact(a,withContents?['kind','revision','sha256','archive']:['kind','revision','sha256'])||!kinds.includes(a.kind)||typeof a.revision!=='string'||!SHA.test(a.revision)||typeof a.sha256!=='string'||!SHA.test(a.sha256))return fail();
   if(withContents&&(typeof a.archive!=='string'||Buffer.byteLength(a.archive)>20_000||digest(a.archive)!==a.sha256))return fail();
   return withContents?{kind:a.kind,revision:a.revision,sha256:a.sha256,archive:a.archive}:{kind:a.kind,revision:a.revision,sha256:a.sha256};
  }).sort((a,b)=>a.kind.localeCompare(b.kind));
- if(!same(result.map(a=>a.kind),KINDS)||withContents&&Buffer.byteLength(JSON.stringify(result))>64_000)return fail();
+ if(!same(result.map(a=>a.kind),kinds)||withContents&&Buffer.byteLength(JSON.stringify(result))>(kinds.length===4?84_000:64_000))return fail();
  return result;
 }
 async function privateRoot(root){
@@ -30,7 +30,7 @@ async function privateRoot(root){
 }
 function checkpointPayload(p){
  if(!exact(p,['version','clientId','firstSuccessAt','lastSuccessAt','successfulCycles','archives'])||p.version!==1||typeof p.clientId!=='string'||!/^[a-z][a-z0-9-]{0,63}$/.test(p.clientId)||!canonicalTime(p.firstSuccessAt)||!canonicalTime(p.lastSuccessAt)||Date.parse(p.firstSuccessAt)>Date.parse(p.lastSuccessAt)||!Number.isSafeInteger(p.successfulCycles)||p.successfulCycles<1||p.successfulCycles>1_000_000_000)return fail();
- const normalized=archives(p.archives);
+ const normalized=archives(p.archives,false,Array.isArray(p.archives)&&p.archives.length===4?FOUR_KINDS:KINDS);
  if(!same(normalized,p.archives)||p.successfulCycles===1&&p.firstSuccessAt!==p.lastSuccessAt||p.successfulCycles>1&&Date.parse(p.lastSuccessAt)-Date.parse(p.firstSuccessAt)<MIN_INTERVAL)return fail();
  return p;
 }
@@ -78,8 +78,9 @@ async function readBody(req){
 function header(req,name){const v=req.headers[name];if(typeof v!=='string'||v.length>256)return fail();return v;}
 function send(res,status,body){res.writeHead(status,{'content-type':'application/json','cache-control':'no-store','x-content-type-options':'nosniff'});res.end(JSON.stringify(body));}
 /** Mount only after isolated synthetic pilot identity checks and explicit operator opt-in. */
-export function createPilotBackupChannel({key,root,clientId,readBundle,now=()=>Date.now()}){
- if(!Buffer.isBuffer(key)||key.length!==32||typeof clientId!=='string'||!/^[a-z][a-z0-9-]{0,63}$/.test(clientId)||typeof readBundle!=='function'||typeof now!=='function')return fail();
+export function createPilotBackupChannel({key,root,clientId,readBundle,now=()=>Date.now(),includeOutbox=false}){
+ if(!Buffer.isBuffer(key)||key.length!==32||typeof clientId!=='string'||!/^[a-z][a-z0-9-]{0,63}$/.test(clientId)||typeof readBundle!=='function'||typeof now!=='function'||typeof includeOutbox!=='boolean')return fail();
+ const kinds=includeOutbox?FOUR_KINDS:KINDS;
  const seen=new Map(),pending=new Map();
  return async function handle(req,res){
   if(req.url!=='/pilot-backup/v1'&&req.url!=='/pilot-backup/v1/ack')return false;
@@ -92,17 +93,17 @@ export function createPilotBackupChannel({key,root,clientId,readBundle,now=()=>D
    seen.set(fields.nonce,clock);
    if(req.method==='GET'){
     if(body!==''||pending.size>=32)return fail();
-    const contents=archives(await readBundle(),true),descriptors=contents.map(({kind,revision,sha256})=>({kind,revision,sha256}));
+    const contents=archives(await readBundle(),true,kinds),descriptors=contents.map(({kind,revision,sha256})=>({kind,revision,sha256}));
     pending.set(fields.nonce,{at:clock,archives:descriptors});
     const payload={version:1,nonce:fields.nonce,generatedAt:new Date(clock).toISOString(),archives:contents};
     send(res,200,{payload,signature:signPayload(key,payload)});
    }else{
     const ack=JSON.parse(body);
     if(!exact(ack,['version','nonce','verifiedAt','archives','aclVerified','recoveryVerified','deviceId'])||ack.version!==1||typeof ack.nonce!=='string'||!NONCE.test(ack.nonce)||!canonicalTime(ack.verifiedAt)||Date.parse(ack.verifiedAt)>clock||clock-Date.parse(ack.verifiedAt)>TTL||ack.aclVerified!==true||ack.recoveryVerified!==true||ack.deviceId!=='windows-recovery-primary')return fail();
-    const proposal=pending.get(ack.nonce),accepted=archives(ack.archives);
+    const proposal=pending.get(ack.nonce),accepted=archives(ack.archives,false,kinds);
     if(!proposal||clock<proposal.at||clock-proposal.at>TTL||Date.parse(ack.verifiedAt)<proposal.at||!same(accepted,proposal.archives))return fail();
     pending.delete(ack.nonce); // Consume before any await: parallel ACKs cannot reuse a delivery.
-    const current=archives(await readBundle(),true).map(({kind,revision,sha256})=>({kind,revision,sha256}));
+    const current=archives(await readBundle(),true,kinds).map(({kind,revision,sha256})=>({kind,revision,sha256}));
     if(!same(current,proposal.archives))return fail();
     const saved=await recordSuccess(root,key,clientId,accepted,clock);
     const payload={version:1,nonce:ack.nonce,acknowledgedAt:new Date(clock).toISOString(),successfulCycles:saved.successfulCycles,recurringIndependentRetentionVerified:recurring(saved,clock)};

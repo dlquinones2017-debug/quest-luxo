@@ -1,5 +1,5 @@
 # This reviewed body is embedded in the current-user scheduled task via -EncodedCommand.
-# Registration supplies $Root and $ExpectedFiles; no execution policy changes are required.
+# Registration supplies $Root, $ExpectedFiles and $IncludeOutbox; no execution policy changes are required.
 $ErrorActionPreference='Stop'
 Add-Type -AssemblyName System.Security
 $key=$null
@@ -17,7 +17,8 @@ try {
   }
   $parent=[IO.DirectoryInfo]$Root
   while($null -ne $parent){if(($parent.Attributes -band [IO.FileAttributes]::ReparsePoint) -ne 0){throw 'Reparse ancestry'};$parent=$parent.Parent}
-  if($ExpectedFiles.Count -ne 4){throw 'Verifier manifest required'}
+  # The client statically imports the outbox verifier even when that profile is disabled.
+  if($ExpectedFiles.Count -ne 5){throw 'Verifier manifest required'}
   foreach($name in $ExpectedFiles.Keys){
     if($name -notmatch '^[a-z-]+\.mjs$'){throw 'Unexpected executable name'}
     if((Get-FileHash -LiteralPath (Join-Path $Root $name) -Algorithm SHA256).Hash.ToLowerInvariant() -ne $ExpectedFiles[$name]){throw 'Executable integrity mismatch'}
@@ -27,6 +28,7 @@ try {
   $start=New-Object Diagnostics.ProcessStartInfo
   $start.FileName=(Get-Command node.exe -ErrorAction Stop).Source
   $start.Arguments='"'+(Join-Path $Root 'pilot-recurring-backup-client.mjs')+'" "'+$Root+'"'
+  if($IncludeOutbox){$start.Arguments+=' --include-outbox'}
   $start.UseShellExecute=$false
   $start.RedirectStandardInput=$true
   $start.RedirectStandardOutput=$true

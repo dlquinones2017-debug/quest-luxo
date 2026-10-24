@@ -6,12 +6,12 @@ import {tmpdir} from 'node:os';
 import {join} from 'node:path';
 import {createHash,randomBytes} from 'node:crypto';
 import {createPilotBackupChannel,readRecurringCheckpoint} from '../scripts/pilot-backup-channel.mjs';
-import {signRequest,verifyPayload} from '../scripts/pilot-backup-protocol.mjs';
+import {signRequest,signPayload,verifyPayload} from '../scripts/pilot-backup-protocol.mjs';
 
 const hash=s=>createHash('sha256').update(s).digest('hex'),file='recurring-backup-checkpoint.json';
 const clientId='windows-recovery-primary';
 const bundle=()=>['pipeline','intake','preparation'].map(kind=>{const archive=JSON.stringify({kind,synthetic:true});return {kind,revision:hash(kind),sha256:hash(archive),archive};});
-async function fixture(run){const root=await mkdtemp(join(tmpdir(),'pilot-backup-channel-')),key=randomBytes(32);let clock=Date.parse('2026-10-24T10:00:00.000Z'),counter=0;const contents=bundle();const handler=createPilotBackupChannel({key,root,clientId,readBundle:async()=>contents,now:()=>clock});
+async function fixture(run,includeOutbox=false){const root=await mkdtemp(join(tmpdir(),'pilot-backup-channel-')),key=randomBytes(32);let clock=Date.parse('2026-10-24T10:00:00.000Z'),counter=0;const contents=bundle();if(includeOutbox){const archive=JSON.stringify({kind:'outbox',synthetic:true});contents.push({kind:'outbox',revision:hash('outbox'),sha256:hash(archive),archive});}const handler=createPilotBackupChannel({key,root,clientId,readBundle:async()=>contents,now:()=>clock,includeOutbox});
  const request=async(method,path,body='',patch={})=>{
   const fields={method,path,body,clientId,timestamp:new Date(clock).toISOString(),nonce:(++counter).toString(16).padStart(32,'0'),...patch};
   let signature;try{signature=signRequest(key,fields);}catch{signature='0'.repeat(64);}
@@ -75,3 +75,27 @@ test('parallel ACKs consume a delivery only once and pending deliveries remain b
  const g=await get(),results=await Promise.all([ack(g),ack(g)]);assert.deepEqual(results.map(x=>x.status).sort(),[200,403]);
  for(let i=0;i<32;i++)assert.equal((await get()).status,200);assert.equal((await get()).status,403);
 }));
+
+test('opt-in four-profile checkpoints require exact outbox and two new cycles; profile changes reset proof',()=>fixture(async({root,key,contents,get,ack,advance,now})=>{
+ const first=await get();assert.equal(first.status,200);assert.deepEqual(first.data.payload.archives.map(a=>a.kind),['intake','outbox','pipeline','preparation']);
+ const incomplete=first.data.payload.archives.filter(a=>a.kind!=='outbox').map(({kind,revision,sha256})=>({kind,revision,sha256}));
+ assert.equal((await ack(first,{archives:incomplete})).status,403);
+ assert.equal((await ack(first)).data.payload.successfulCycles,1);assert.equal(await readRecurringCheckpoint(root,key,now()),null);
+ advance(60_000);assert.equal((await ack(await get())).data.payload.successfulCycles,2);
+ assert.equal((await readRecurringCheckpoint(root,key,now())).archives.length,4);
+ contents.find(a=>a.kind==='outbox').revision=hash('changed outbox');advance(60_000);
+ assert.equal((await ack(await get())).data.payload.successfulCycles,1);assert.equal(await readRecurringCheckpoint(root,key,now()),null);
+ contents.splice(contents.findIndex(a=>a.kind==='outbox'),1);assert.equal((await get()).status,403);
+},true));
+test('default channel refuses an extra outbox kind',()=>fixture(async({contents,get})=>{
+ const archive='synthetic outbox';contents.push({kind:'outbox',revision:hash('outbox'),sha256:hash(archive),archive});assert.equal((await get()).status,403);
+}));
+
+test('switching a valid three-profile checkpoint to four requires two newly separated recoveries',()=>fixture(async({root,key,contents,get,ack,advance,now})=>{
+ const descriptors=contents.filter(a=>a.kind!=='outbox').map(({kind,revision,sha256})=>({kind,revision,sha256})).sort((a,b)=>a.kind.localeCompare(b.kind));
+ const payload={version:1,clientId,firstSuccessAt:new Date(now()-120000).toISOString(),lastSuccessAt:new Date(now()-60000).toISOString(),successfulCycles:2,archives:descriptors};
+ await writeFile(join(root,file),JSON.stringify({payload,signature:signPayload(key,payload)}),{mode:0o600});
+ assert.equal((await readRecurringCheckpoint(root,key,now())).archives.length,3);
+ assert.equal((await ack(await get())).data.payload.successfulCycles,1);assert.equal(await readRecurringCheckpoint(root,key,now()),null);
+ advance(60000);assert.equal((await ack(await get())).data.payload.successfulCycles,2);assert.equal((await readRecurringCheckpoint(root,key,now())).archives.length,4);
+},true));

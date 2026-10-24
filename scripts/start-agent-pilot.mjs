@@ -122,9 +122,9 @@ export async function startPilot() {
   if(process.env.QUEST_ENABLE_PILOT_BACKUP_EXPORT === 'true') {
     backupKey=Buffer.from(process.env.QUEST_PIPELINE_KEY_HEX,'hex');
     backupChannel=createPilotBackupChannel({key:backupKey,root:process.env.QUEST_PIPELINE_DIRECTORY,
-      clientId:'windows-recovery-primary',readBundle:()=>readSyntheticBackupBundle(process.env.QUEST_PIPELINE_DIRECTORY,backupKey)});
+      clientId:'windows-recovery-primary',includeOutbox:process.env.QUEST_ENABLE_PILOT_OUTBOX_BACKUP==='true',readBundle:()=>readSyntheticBackupBundle(process.env.QUEST_PIPELINE_DIRECTORY,backupKey,{includeOutbox:process.env.QUEST_ENABLE_PILOT_OUTBOX_BACKUP==='true'})});
   }
-  const server = createPilotHealthServer(monitor, publicMonitor, () => publicTeamStatus, recoverySnapshot, commandSnapshot, backupChannel);
+  const server = createPilotHealthServer(monitor, publicMonitor, () => publicTeamStatus, recoverySnapshot, commandSnapshot, backupChannel, process.env.QUEST_ENABLE_PILOT_OUTBOX_BACKUP === "true" ? 4 : 3);
   const interval = setInterval(async () => {
     const passed = await monitor.run();
     console[passed ? "log" : "error"](JSON.stringify({ event: passed ? "PILOT_STORAGE_CHECK_PASSED" : "PILOT_STORAGE_CHECK_FAILED",
@@ -140,8 +140,9 @@ export async function startPilot() {
   return server;
 }
 
-export function createPilotHealthServer(monitor, publicMonitor, publicTeamState, recoverySnapshot, commandSnapshot, backupChannel) {
-  // The optional authenticated channel exports only three exact encrypted synthetic fixtures.
+export function createPilotHealthServer(monitor, publicMonitor, publicTeamState, recoverySnapshot, commandSnapshot, backupChannel, expectedBackupStoreCount=3) {
+  if (![3,4].includes(expectedBackupStoreCount)) throw Error("Explicit backup profile required.");
+  // The optional authenticated channel exports only the explicitly selected synthetic profile.
   const ready = { service: "quest-luxo-agent-pilot", mode: "SYNTHETIC_ONLY", storage: "PERSISTENT_ENCRYPTED",
     independentBackupVerified: false, businessDataReady: false, gmail: false, crm: false };
   return createServer(async (req, res) => {
@@ -168,6 +169,7 @@ export function createPilotHealthServer(monitor, publicMonitor, publicTeamState,
       publicWebsiteAgent: publicState, publicOperationsTeam: teamState, livePublicAgents: publicCurrent ? 3 : 0,
       recoveryAuditAgent: recoveryCurrent ? "CURRENT" : !healthy && recovery ? "HELD" : recovery?.state ?? "NOT_CONFIGURED",
       independentBackupVerified: Boolean(independentVerified), recurringOffsiteRetentionVerified: Boolean(independentVerified && recovery.report?.recurringOffsiteRetentionVerified === true),
+      recurringBackupStoreCount: independentVerified && recovery.report?.recurringOffsiteRetentionVerified === true ? expectedBackupStoreCount : 0,
       commandOrchestrator: commandCurrent ? "CURRENT" : command ? "HELD" : "NOT_CONFIGURED",
       paidModelExecution: "DISABLED_ZERO_BUDGET",
       liveOperationalAgents: (publicCurrent ? 3 : 0) + (recoveryCurrent ? 1 : 0) + (commandCurrent ? 1 : 0) }));

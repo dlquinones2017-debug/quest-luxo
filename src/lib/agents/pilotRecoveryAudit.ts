@@ -1,15 +1,15 @@
 /** An operator-observed recovery receipt is evidence, never permission to process business data. */
 export const RECOVERY_RECEIPT_MAX_AGE_MS = 86_400_000;
 export const RECURRING_RECOVERY_MAX_AGE_MS = 43_200_000;
-export interface PilotRecoveryState { storageVerified: boolean; localBackupVerified: boolean; pipelineRevision: string; intakeRevision: string; preparationRevision?: string }
+export interface PilotRecoveryState { storageVerified: boolean; localBackupVerified: boolean; pipelineRevision: string; intakeRevision: string; preparationRevision?: string; outboxRevision?: string }
 const hash = /^[a-f0-9]{64}$/;
 const exact = (v: unknown, fields: string[]): v is Record<string, unknown> => !!v && typeof v === "object" && !Array.isArray(v) && Object.keys(v).sort().join() === [...fields].sort().join();
 const iso = (v: unknown): v is string => typeof v === "string" && Number.isFinite(Date.parse(v)) && new Date(v).toISOString() === v;
 /** Fourth argument is trusted only when obtained through the authenticated checkpoint reader. */
 export function assessPilotRecovery(state: PilotRecoveryState, evidence: unknown, now: string, recurringProof?: unknown) {
   const time = Date.parse(now);
-  if (!Number.isFinite(time) || !state || !exact(state, ["storageVerified", "localBackupVerified", "pipelineRevision", "intakeRevision", ...(state.preparationRevision === undefined ? [] : ["preparationRevision"])]) ||
-      typeof state.storageVerified !== "boolean" || typeof state.localBackupVerified !== "boolean" || typeof state.pipelineRevision !== "string" || !hash.test(state.pipelineRevision) || typeof state.intakeRevision !== "string" || !hash.test(state.intakeRevision) || state.preparationRevision !== undefined && (typeof state.preparationRevision !== "string" || !hash.test(state.preparationRevision)))
+  if (!Number.isFinite(time) || !state || !exact(state, ["storageVerified", "localBackupVerified", "pipelineRevision", "intakeRevision", ...(state.preparationRevision === undefined ? [] : ["preparationRevision"]), ...(state.outboxRevision === undefined ? [] : ["outboxRevision"])]) ||
+      typeof state.storageVerified !== "boolean" || typeof state.localBackupVerified !== "boolean" || typeof state.pipelineRevision !== "string" || !hash.test(state.pipelineRevision) || typeof state.intakeRevision !== "string" || !hash.test(state.intakeRevision) || state.preparationRevision !== undefined && (typeof state.preparationRevision !== "string" || !hash.test(state.preparationRevision)) || state.outboxRevision !== undefined && (typeof state.outboxRevision !== "string" || !hash.test(state.outboxRevision) || !state.preparationRevision))
     throw Error("Verified bounded pilot state required.");
   let receiptState = "MISSING";
   let validUntil: string | null = null;
@@ -35,19 +35,21 @@ export function assessPilotRecovery(state: PilotRecoveryState, evidence: unknown
         p.version !== 1 || p.clientId !== "windows-recovery-primary" || p.checkpointAuthenticated !== true ||
         p.recurringIndependentRetentionVerified !== true || p.businessDataExecutionAllowed !== false ||
         !iso(p.firstSuccessAt) || !iso(p.lastSuccessAt) || !Number.isSafeInteger(p.successfulCycles) || (p.successfulCycles as number) < 2 || (p.successfulCycles as number) > 1_000_000_000 ||
-        !Array.isArray(p.archives) || p.archives.length !== 3 || !state.preparationRevision) throw Error("Invalid recurring recovery proof.");
-    const kinds = ["intake", "pipeline", "preparation"];
-    const revisions = [state.intakeRevision, state.pipelineRevision, state.preparationRevision];
-    let matches = true;
+        !Array.isArray(p.archives) || ![3, 4].includes(p.archives.length) || !state.preparationRevision) throw Error("Invalid recurring recovery proof.");
+    const four = p.archives.length === 4;
+    const kinds = four ? ["intake", "outbox", "pipeline", "preparation"] : ["intake", "pipeline", "preparation"];
+    const revisions: Record<string, string | undefined> = { intake: state.intakeRevision, pipeline: state.pipelineRevision, preparation: state.preparationRevision, outbox: state.outboxRevision };
+    let matches = true, baseMatches = true;
     p.archives.forEach((a: unknown, i: number) => {
       if (!exact(a, ["kind", "revision", "sha256"]) || a.kind !== kinds[i] || typeof a.revision !== "string" || !hash.test(a.revision) || typeof a.sha256 !== "string" || !hash.test(a.sha256))
         throw Error("Invalid recurring recovery archive proof.");
-      if (a.revision !== revisions[i]) matches = false;
+      if (a.revision !== revisions[kinds[i]]) { matches = false; if (kinds[i] !== "outbox") baseMatches = false; }
     });
     const first = Date.parse(p.firstSuccessAt), last = Date.parse(p.lastSuccessAt);
     if (last - first < 60_000) throw Error("Insufficient recurring recovery cycles.");
-    recurring = matches && last <= time && time - last <= RECURRING_RECOVERY_MAX_AGE_MS;
-    if (recurring) {
+    const fresh = last <= time && time - last <= RECURRING_RECOVERY_MAX_AGE_MS;
+    recurring = matches && fresh && four === (state.outboxRevision !== undefined);
+    if (baseMatches && fresh) {
       receiptState = "VERIFIED";
       validUntil = new Date(last + RECURRING_RECOVERY_MAX_AGE_MS).toISOString();
     }
