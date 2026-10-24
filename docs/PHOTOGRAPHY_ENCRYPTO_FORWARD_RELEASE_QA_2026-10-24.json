@@ -1,6 +1,6 @@
 {
   "checkedAt": "2026-10-24T05:22:25.345081+00:00",
-  "status": "Front-facing replacement checks passed; deployment/live desktop/mobile verification pending",
+  "status": "LIVE forward-facing correction independently verified on desktop/mobile",
   "reason": "Founder disapproved the angled Time Series hero and requires a forward-facing watch with clear dial.",
   "checks": [
     {
@@ -66,5 +66,104 @@
     "sha256": "f33525dfab81a994c6d69406eeafa4645ef91aa32eae0bf46f6dfc7b7a2361ef",
     "canonicalRoute": "/collections/franck-muller/vanguard-encrypto/v-45-sc-dt-btc-tt-br-nr"
   },
-  "leadSafety": "No test lead, private lead read or runtime data operation. Existing URLs and inquiry context preserved."
+  "leadSafety": "No test lead, private lead read or runtime data operation. Existing URLs and inquiry context preserved.",
+  "verifiedAt": "2026-10-24T05:26:35.209659+00:00",
+  "productionRelease": {
+    "commit": "b69a40925966f90dc0918e274879dae9b3bb4640",
+    "deployId": "dep-dbe4170u01pc73e48bm0",
+    "status": "LIVE",
+    "referenceRoutesVerified": 297,
+    "photographedReferenceRoutes": 297,
+    "queuedReferenceRoutes": 0,
+    "distinctPhotoFilesVerified": 293,
+    "photographedCollections": 104
+  },
+  "desktopMobileReview": {
+    "reviewedAt": "2026-10-24T05:25:18.938Z",
+    "desktop": {
+      "figcaptions": 0,
+      "height": 900,
+      "images": [
+        {
+          "loaded": true,
+          "naturalWidth": 160,
+          "src": "/images/quest-luxo-logo.webp"
+        },
+        {
+          "loaded": true,
+          "naturalWidth": 1200,
+          "src": "/images/watches/franck-muller/reviewed-v-45-sc-dt-btc-tt-br-nr-forward-20261024-web.webp"
+        }
+      ],
+      "inquiry": [
+        "/begin-your-quest/?intent=request-this-watch&brand=Franck+Muller&collection=Vanguard+Encrypto&reference=V+45+SC+DT+BTC+TT+BR+%28NR%29"
+      ],
+      "scrollWidth": 1265,
+      "width": 1280
+    },
+    "mobile": {
+      "figcaptions": 0,
+      "height": 844,
+      "images": [
+        {
+          "loaded": true,
+          "naturalWidth": 160,
+          "src": "/images/quest-luxo-logo.webp"
+        },
+        {
+          "loaded": true,
+          "naturalWidth": 1200,
+          "src": "/images/watches/franck-muller/reviewed-v-45-sc-dt-btc-tt-br-nr-forward-20261024-web.webp"
+        }
+      ],
+      "scrollWidth": 375,
+      "width": 390
+    },
+    "visualReviewPassed": true,
+    "clearFrontFacingDial": true,
+    "notes": "Forward-facing watch/dial/QR/crown centered on white, no glare obscuring dial,1200px loaded, no overlays/figcaptions or horizontal overflow. Black rubber strap labeled accurately. Prior angled hero absent. No form submissions."
+  },
+  "liveVerificationSummary": {
+    "verifiedAt": "2026-10-24T05:24:04.516963+00:00",
+    "expectedDistinctReferenceRoutes": 297,
+    "verifiedReferenceRoutes": 297,
+    "approvedDistinctReferenceRoutes": 297,
+    "verifiedDistinctPhotoFiles": 293,
+    "queuedDistinctReferenceRoutes": 0,
+    "errors": [],
+    "publicFlows": [
+      {
+        "route": "/collections",
+        "status": "verified"
+      },
+      {
+        "route": "/complications/tourbillon",
+        "status": "verified"
+      },
+      {
+        "route": "/begin-your-quest",
+        "status": "verified"
+      },
+      {
+        "route": "/photography-credits",
+        "status": "verified"
+      },
+      {
+        "route": "/api/health",
+        "status": "verified"
+      }
+    ],
+    "leadSafety": "Read-only public-route checks; no customer records read or submissions created."
+  },
+  "sourceEvidenceArchiveDriveId": "1_4q-CGnothiIqvMyGqx_f_XTN_PfgVnX",
+  "sourceEvidenceArchiveReadbackVerified": true,
+  "masterReview": {
+    "pages": 94,
+    "historicalPagesPixelUnchanged": 93,
+    "newPageVisuallyReviewed": 94,
+    "sha256": "b2d7e72bafa5203d3044a362c52d3af4c9dcf7a938116730b0f084f5f5340376",
+    "canonicalDriveFileId": "1KEWRyRu7SquTjVb1TgF_cCn_Zux5td17",
+    "driveReadbackVerified": true
+  },
+  "canonicalRecordsReadbackVerified": true
 }

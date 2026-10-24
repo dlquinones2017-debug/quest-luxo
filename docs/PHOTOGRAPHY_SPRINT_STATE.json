@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-10-24T05:22:25.345081+00:00",
+  "updatedAt": "2026-10-24T05:31:09.416578+00:00",
   "deadline": "2026-10-19T22:03:41-04:00",
   "objective": "Acquire authentic exact-reference photographs and populate every featured website reference without fabrication.",
   "worktree": "C:/Users/CAU Student/.codex/worktrees/launch-sprint/quest-luxo",
   "branch": "codex/launch-sprint",
-  "baselineMain": "046043182b56afe7aca45d7ebb0e0f99efaace74",
+  "baselineMain": "b69a40925966f90dc0918e274879dae9b3bb4640",
   "canonicalReferences": 297,
   "photographedReferences": 297,
   "queuedReferences": 0,
@@ -29,11 +29,11 @@
     "No invented specs, MSRP or availability"
   ],
   "clearance": "Direct founder answer call_24a179ab128748dbb94a78640e6a1543; docs/PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json; Drive1HFfmLAHtbf-YyK-66jhn025-qSpZ3ndZ",
-  "nextBatch": "Deploy the cleared front-facing Encrypto replacement; verify reference/collection image and inquiry links, desktop/mobile and production hashes. Update same master/queue/checkpoint.",
+  "nextBatch": "Requested forward-facing correction complete. Preserve b69a409 or later as the production baseline for subsequent website work; retain six additional uploaded identity/framing holds.",
   "preparedPendingClearance": 0,
   "preparedDriveFiles": 465,
   "preparedManifest": "docs/ADDITIONAL_OMEGA_NAVITIMER_ARCHIVED_2026-10-14.json; docs/PRIMARY_FOUR_ARCHIVED_2026-10-14.json; docs/OMEGA_EXPANSION_ARCHIVED_WAVE_2026-10-14.json",
-  "masterPages": 93,
+  "masterPages": 94,
   "preparedSourceLogs": [
     "NEXT_EXACT_PHOTOGRAPHY_WAVE_2026-10-13.json",
     "ROLEX_NEXT_PHOTOGRAPHY_WAVE_2026-10-13.json",
@@ -77,13 +77,13 @@
     "1Yt7z-P4lvw0kda0-FncMojwNeMHyJdhM"
   ],
   "nextAcquisitionEvidence": "resume-20261023/encrypto-ti-product-source.json;encrypto-grailzee-source.json;encrypto-chrono-source.json;encrypto-1224-source.json;encrypto-maker-three-acquisition.json",
-  "mobileMirrorStatus": "V4 notified of297LIVE coverage and six separate upload holds.",
+  "mobileMirrorStatus": "V4 notified of verified forward-facing correction; final94-page cloud/checkpoint status ready for authorized delivery.",
   "rightsDecisionPending": {
-    "status": "Direct founder call_441d0f9b351049c3bd832f97ecb5ae61 clears Dream Watch forward original/derivative without restrictions."
+    "status": "No pending rights; direct founder call_441d0f9b351049c3bd832f97ecb5ae61 cleared Dream Watch front original/derivative without restrictions."
   },
   "processingRuntime": "Task-local photography-runtime provides OpenCV and NumPy for classical non-generative boundary masks. Requires approved elevated execution to read its installed files. process_priority_wave.py preserves original interior pixels and masks only background. Every derivative requires visual review before publication.",
   "blockers": [
-    "Six additional unidentified uploads retain separate identity/framing holds; no rights blocker for the Encrypto replacement."
+    "Six additional unidentified uploaded appearances retain separate identity/framing holds; Encrypto correction complete."
   ],
   "dataSafety": "Do not modify runtime lead data or repeat private broker reads. Preserve original dirty checkout and newer main changes.",
   "stillNeedsAcquisition": 0,
@@ -118,7 +118,7 @@
     }
   ],
   "sourceAttemptEvidence": "docs/PHOTOGRAPHY_ENCRYPTO_FINAL_SOURCE_HOLD_2026-10-24.json",
-  "documentationPublication": "Canonical93-page master, full catalog inventory/liveQA, six-upload hold queue, preserved consolidated rights and final releaseQA updated/verified in place. Master plus five reporting readbacks match;3photoarchives and1source-evidencearchive also match.",
+  "documentationPublication": "Same canonical94-page master updated in place;93historicalpages pixel-identical, correctionpage visually reviewed. Six master/inventory/liveQA/queue/rights/finalreleaseQA cloudhashes match;3photoarchives andsourceevidencearchive match.",
   "licensedNautilusRepair": {
     "record": "docs/PHOTOGRAPHY_LICENSED_NAUTILUS_2026-10-13.json",
     "logDriveId": "1tdzvZhgvKDjtADKQ5nrTauCQ07gBiXQ6",
@@ -130,18 +130,18 @@
     "rights": "Existing approved Commons CC BY-SA 4.0 source; attribution/license/change disclosure and share-alike preserved",
     "publicationStatus": "Live as 8c2f495; production route, image SHA256, full suffix, credits/license and intake HTTP 200 verified"
   },
-  "verification": "18focusedphotographytests passed;Astro0errors0warnings18existinghints;audits/queues/build pass. All297public routes,293deliveredimage hashes, and finalreference desktop/mobile reviewed; no lead reads/submissions.",
-  "sprintStatus": "Single Encrypto photo correction reopened by founder: angled image disapproved; clear straight-on replacement prepared and archived, awaiting new exact-source rights evidence.",
+  "verification": "All18focusedphotographytests pass;Astro0errors0warnings18existinghints;queue/audit/build pass;all297publicroutes/293photohashes and front-facing reference desktop/mobile pass; no lead reads/submissions.",
+  "sprintStatus": "All297featured reference URLs LIVE; founder-requested Encrypto forward-facing correction independently verified. Six additional uploaded identities remain held.",
   "deadlineOutcome": "Not achieved: every featured reference does not yet have valid cleared photography.",
   "closeoutRecord": "docs/PHOTOGRAPHY_SPRINT_CLOSEOUT_2026-10-14.json",
   "continuationInstruction": "Command Center V4 relayed the founder standing instruction to continue acquiring remaining references and not stop. This reopens useful acquisition after the missed deadline; it does not grant new photograph rights or recreate the expired automation.",
-  "preparedClearedForPublication": 1,
+  "preparedClearedForPublication": 0,
   "builtPhotographedReferences": 297,
   "builtQueuedReferences": 0,
   "publishedPreparedSets": 139,
   "productionPhotographyRelease": {
-    "commit": "046043182b56afe7aca45d7ebb0e0f99efaace74",
-    "deployId": "dep-dbe3aj0473hc73bmqmt0",
+    "commit": "b69a40925966f90dc0918e274879dae9b3bb4640",
+    "deployId": "dep-dbe4170u01pc73e48bm0",
     "status": "LIVE",
     "referenceRoutesVerified": 297,
     "photographedReferenceRoutes": 297,
@@ -154,17 +154,17 @@
   "canonicalRegistryRecords": 298,
   "canonicalBrands": 23,
   "canonicalCollections": 104,
-  "productionBaselineMain": "046043182b56afe7aca45d7ebb0e0f99efaace74",
+  "productionBaselineMain": "b69a40925966f90dc0918e274879dae9b3bb4640",
   "legacyPreparedManifest": "docs/PHOTOGRAPHY_PREPARED_PENDING_CLEARANCE_2026-10-13.json",
   "newReviewedPhysicalSets": 0,
   "newReviewedDriveFiles": 0,
   "fullSiteAuditDriveFileId": "1Vl_UZMIcbQu3HASk1t1kJlMpH7RJdvAF",
   "fullSiteVerificationDriveFileId": "1P6Fcy7U8f8vFkFfUlJ0LujpoUUG1EzKx",
   "masterReview": {
-    "pages": 93,
-    "historicalPagesPixelUnchanged": 92,
-    "newPageVisuallyReviewed": 93,
-    "sha256": "56070f97483c7752e4de9d181c3f84b6714f0aa80ab8be6a89384484cbbedd4e",
+    "pages": 94,
+    "historicalPagesPixelUnchanged": 93,
+    "newPageVisuallyReviewed": 94,
+    "sha256": "b2d7e72bafa5203d3044a362c52d3af4c9dcf7a938116730b0f084f5f5340376",
     "canonicalDriveFileId": "1KEWRyRu7SquTjVb1TgF_cCn_Zux5td17",
     "driveReadbackVerified": true
   },
@@ -213,8 +213,8 @@
     "additionalSourceAccessOrMissingPageHolds": 19,
     "remainingOmegaAcquisitionGaps": 20
   },
-  "productionCommit": "046043182b56afe7aca45d7ebb0e0f99efaace74",
-  "productionDeployId": "dep-dbe3aj0473hc73bmqmt0",
+  "productionCommit": "b69a40925966f90dc0918e274879dae9b3bb4640",
+  "productionDeployId": "dep-dbe4170u01pc73e48bm0",
   "productionStatus": "LIVE",
   "preparedSourceDriveRecords": [
     "1a3FcN1GDG1OkuOt4lxmiWNbxQjRzwf1p",
@@ -241,7 +241,7 @@
   "recentSourceHolds": "docs/PHOTOGRAPHY_SOURCE_HOLDS_NEXT_2026-10-15.json",
   "provenanceGalliDriveFileId": "1WIrbpOWUl1UQqF3fGEsYPi-q-rvhUaeN",
   "builtTotalCollections": 104,
-  "lastReleaseQADriveFileId": "1b03DJkvnV6QIdxlqxWKKQ-Nd4rWoX8oc",
+  "lastReleaseQADriveFileId": "1gmzxlZc0rS0Ixlms31-R2Yj61OEyztcr",
   "lastReleaseRightsDriveFileId": "1tPmByeqfSgmJ9iUJg76lyQdrXcV-gBcj",
   "preparedNextProvenanceDriveFileId": null,
   "permissionPreference": "Founder instructed: Proceed without seeking further permission. Do not repeat cleared approval requests; preserve all existing photography standards and rights evidence.",
@@ -276,8 +276,8 @@
     "masterPages": 76
   },
   "productionRelease": {
-    "commit": "046043182b56afe7aca45d7ebb0e0f99efaace74",
-    "deployId": "dep-dbe3aj0473hc73bmqmt0",
+    "commit": "b69a40925966f90dc0918e274879dae9b3bb4640",
+    "deployId": "dep-dbe4170u01pc73e48bm0",
     "status": "LIVE",
     "referenceRoutesVerified": 297,
     "photographedReferenceRoutes": 297,
@@ -285,9 +285,9 @@
     "distinctPhotoFilesVerified": 293,
     "photographedCollections": 104
   },
-  "masterFileSHA256": "56070f97483c7752e4de9d181c3f84b6714f0aa80ab8be6a89384484cbbedd4e",
+  "masterFileSHA256": "b2d7e72bafa5203d3044a362c52d3af4c9dcf7a938116730b0f084f5f5340376",
   "masterDriveReadbackVerified": true,
-  "currentWorkflowPosition": "Forward-facing Dream Watch Encrypto replacement integrated and explicitly cleared;18focusedtests/Astro/audits/build passed,3archivehashes matched. Old angled image absent from built reference; production deployment and live review next.",
+  "currentWorkflowPosition": "Front-facing Encrypto correction complete and LIVE atb69a409 / dep-dbe4170u01pc73e48bm0. Clear forwarddial/QR and centeredwhite presentation reviewed desktop/mobile; oldangledhero absent. All18focusedtests/Astro/audits/build pass;297routes/293photo hashes independently verified. Canonical94-page master reviewed/readbackmatched with93historicalpages unchanged. Sixcanonicalreportreadbacks,3photoarchives andsourceevidencearchive match. Rights preserved, no pendingapproval. Sixadditionaluploadedidentities remain separatelyheld. Existingfunnel/URLs preserved; no testleads orprivateleadreads.",
   "remainingByBrand": [],
   "preparedPendingClearanceRecordDriveId": null,
   "remainingGapsReport": "docs/PHOTOGRAPHY_REMAINING_GAPS_2026-10-23.md",
@@ -299,12 +299,12 @@
   "lastTwoSourceLedgerDriveFileId": "1xJw06gFoiwstV2sKWZRQXrbpYqZO9tDE",
   "lastResolvedRightsLedger": "docs/PHOTOGRAPHY_READY_EIGHT_PENDING_RIGHTS_2026-10-23.json",
   "continuationCheckpointBranch": "codex/launch-sprint",
-  "checkpointPublication": "Documentation-only final verified297LIVE checkpoint saved/pushed on existing codex/launch-sprint branch. Deployed app remains0460431; no duplicate deployment required.",
-  "lastReleaseRightsRecord": "docs/PHOTOGRAPHY_ENCRYPTO_RIGHTS_2026-10-24.json",
-  "lastReleaseSourceArchiveDriveId": "1KdDvVp7jnxH5lKoDHdwi9giE-lV4_ePJ",
+  "checkpointPublication": "Documentation-only verified correction checkpoint saved/pushed on existing codex/launch-sprint branch; live app remains b69a409 without redundant deployment.",
+  "lastReleaseRightsRecord": "docs/PHOTOGRAPHY_ENCRYPTO_FORWARD_RIGHTS_2026-10-24.json",
+  "lastReleaseSourceArchiveDriveId": "1_4q-CGnothiIqvMyGqx_f_XTN_PfgVnX",
   "canonicalReadbackVerification": {
-    "record": "docs/PHOTOGRAPHY_FINAL_CLOUD_READBACKS_2026-10-24.json",
-    "reportingFiles": 5,
+    "record": "docs/PHOTOGRAPHY_ENCRYPTO_FORWARD_CLOUD_READBACKS_2026-10-24.json",
+    "canonicalFiles": 6,
     "master": true,
     "photoArchives": 3,
     "sourceEvidenceArchive": true,

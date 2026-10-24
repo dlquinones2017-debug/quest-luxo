@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-24T04:41:58.392088+00:00",
+  "updatedAt": "2026-10-24T05:26:35.209659+00:00",
   "catalogReferenceUrls": 297,
   "builtApprovedReferenceUrls": 297,
   "remainingReferenceUrls": 0,
@@ -53,15 +53,15 @@
   "verifiedLiveApprovedReferenceUrls": 297,
   "verifiedLiveReferenceRoutes": 297,
   "verifiedLivePhotoFiles": 293,
-  "liveCommit": "046043182b56afe7aca45d7ebb0e0f99efaace74",
-  "liveDeploy": "dep-dbe3aj0473hc73bmqmt0",
-  "lastVerifiedAt": "2026-10-24T04:36:08.276812+00:00",
+  "liveCommit": "b69a40925966f90dc0918e274879dae9b3bb4640",
+  "liveDeploy": "dep-dbe4170u01pc73e48bm0",
+  "lastVerifiedAt": "2026-10-24T05:24:04.516963+00:00",
   "resolvedFinalReference": {
     "brand": "Franck Muller",
     "collection": "Vanguard Encrypto",
     "reference": "V 45 SC DT BTC TT BR (NR)",
     "canonicalRoute": "/collections/franck-muller/vanguard-encrypto/v-45-sc-dt-btc-tt-br-nr",
-    "status": "RESOLVED_LIVE_VERIFIED",
+    "status": "RESOLVED_LIVE_VERIFIED_FORWARD_VIEW",
     "blocker": "Manufacturer and dedicated Encrypto350x550 cutouts truncate both strap sections. Three maker marketing graphics show rose-gold variants or incomplete framing. Rainbow Tech Watches/Chrono24 exact titanium candidates obscure the QR dial detail and/or strap with a display stand.12-24 candidate has a diamond Bitcoin motif/orange stitching and clipped strap, differing from the no-diamond black-stitch manufacturer configuration.",
     "nextAction": "Preserve original, rights and archive records; featured reference has passed live route/image and desktop/mobile verification.",
     "priorEvidenceFiles": [
@@ -86,9 +86,9 @@
         "currentMSRP": null
       }
     ],
-    "resolution": "Complete Time Series native3000x4000 side-view original acquired; unredacted QR and no-diamond titanium/blackstrap configuration reviewed. Founder cleared exact original/derivative; all3archive hashes match.",
-    "sourceUrl": "https://timeserieswatch.com.my/product/franck-muller-30/",
-    "rightsRecord": "docs/PHOTOGRAPHY_ENCRYPTO_RIGHTS_2026-10-24.json"
+    "resolution": "Founder rejected angled Time Series photo. Clear forward-facing exact-reference Dream Watch original and white derivative cleared directly, archived and independently verified LIVE; black rubber pictured configuration labeled accurately.",
+    "sourceUrl": "https://dream-watch.ae/en/swiss-watches/vanguard-encrypto2",
+    "rightsRecord": "docs/PHOTOGRAPHY_ENCRYPTO_FORWARD_RIGHTS_2026-10-24.json"
   },
   "completionStatus": "All297featuredreferenceURLs LIVE with valid cleared photography; no featured gaps.",
   "completionScope": "All297existing featured reference URLs; six additional unidentified uploaded appearances remain separately held.",
