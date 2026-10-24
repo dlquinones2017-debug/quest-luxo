@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-10-24T04:34:04.361028+00:00",
+  "updatedAt": "2026-10-24T04:41:58.392088+00:00",
   "catalogReferenceUrls": 297,
   "builtApprovedReferenceUrls": 297,
   "remainingReferenceUrls": 0,
-  "fullPopulationComplete": false,
+  "fullPopulationComplete": true,
   "definitions": "One record per distinct existing canonical reference URL. Queued does not mean globally unavailable. Acquisition and review tasks remain active; only evidence-backed holds are stated as quality/identity blockers.",
   "records": [],
   "unidentifiedUploads": [
@@ -11,53 +11,59 @@
       "uploadId": "upload-03-vc",
       "blocker": "Overseas4500V versus4520V full SKU unresolved",
       "nextAction": "Verify full manufacturer SKU and generation from original source; then match the exact configuration.",
-      "rights": "ZIP originals and derivatives cleared; identity and quality remain mandatory."
+      "rights": "ZIP originals and derivatives cleared; identity and quality remain mandatory.",
+      "appearance": "Black Vacheron Constantin Overseas"
     },
     {
       "uploadId": "upload-14-vc",
       "blocker": "Blue Overseas Dual Time7900V versus7920V full SKU unresolved; not retrograde moonphase",
       "nextAction": "Confirm full Dual Time reference from reliable source; do not assign it to the retrograde collection.",
-      "rights": "ZIP originals and derivatives cleared; identity and quality remain mandatory."
+      "rights": "ZIP originals and derivatives cleared; identity and quality remain mandatory.",
+      "appearance": "Blue Vacheron Constantin Overseas Dual Time"
     },
     {
       "uploadId": "upload-12-patek",
       "blocker": "Green Breguet-numeral calendar image has no verified manufacturer reference; authenticity/possible altered graphic unresolved",
-      "nextAction": "Obtain reliable original source and exact-reference evidence; keep unassigned if authenticity cannot be established.",
-      "rights": "ZIP originals and derivatives cleared; identity and quality remain mandatory."
+      "nextAction": "Trace a reliable original dealer/manufacturer source and exact-reference evidence; keep unassigned if authenticity cannot be established.",
+      "rights": "ZIP originals and derivatives cleared; identity and quality remain mandatory.",
+      "appearance": "Green Patek Philippe calendar"
     },
     {
       "uploadId": "upload-08-white-diver",
       "blocker": "Ulysse Nardin white/gold full suffix unverified and strap clipped",
       "nextAction": "Confirm full reference and acquire complete unclipped original; never reconstruct the strap.",
-      "rights": "ZIP originals and derivatives cleared; identity and quality remain mandatory."
+      "rights": "ZIP originals and derivatives cleared; identity and quality remain mandatory.",
+      "appearance": "White/gold Ulysse Nardin diver"
     },
     {
       "uploadId": "upload-17-yacht-master",
-      "blocker": "Rolex116655 versus126655 identity unresolved and Oysterflex clipped",
+      "blocker": "Exact Yacht-Master generation/size/full reference unresolved; Oysterflex strap clipped. Visible dial details do not establish a unique SKU.",
       "nextAction": "Confirm exact reference and obtain full-watch original; preserve existing verified126655 photo.",
-      "rights": "ZIP originals and derivatives cleared; identity and quality remain mandatory."
+      "rights": "ZIP originals and derivatives cleared; identity and quality remain mandatory.",
+      "appearance": "Everose Rolex Yacht-Master"
     },
     {
       "uploadId": "upload-19-ap-4",
       "blocker": "Rainbow Cactus Jack unique-edition full SKU unconfirmed; not standard26585CM",
       "nextAction": "Obtain reliable edition/SKU evidence and complete original; do not attribute the unique piece to the standard model.",
-      "rights": "ZIP originals and derivatives cleared; identity and quality remain mandatory."
+      "rights": "ZIP originals and derivatives cleared; identity and quality remain mandatory.",
+      "appearance": "Rainbow Audemars Piguet Cactus Jack"
     }
   ],
-  "verifiedLiveApprovedReferenceUrls": 296,
+  "verifiedLiveApprovedReferenceUrls": 297,
   "verifiedLiveReferenceRoutes": 297,
-  "verifiedLivePhotoFiles": 292,
-  "liveCommit": "b9e8f0e6282dc8f0567d49c1afab9c3db292a3d8",
-  "liveDeploy": "dep-dbe2h7nlot8c73bas2ag",
-  "lastVerifiedAt": "2026-10-24T03:42:04.599114+00:00",
+  "verifiedLivePhotoFiles": 293,
+  "liveCommit": "046043182b56afe7aca45d7ebb0e0f99efaace74",
+  "liveDeploy": "dep-dbe3aj0473hc73bmqmt0",
+  "lastVerifiedAt": "2026-10-24T04:36:08.276812+00:00",
   "resolvedFinalReference": {
     "brand": "Franck Muller",
     "collection": "Vanguard Encrypto",
     "reference": "V 45 SC DT BTC TT BR (NR)",
     "canonicalRoute": "/collections/franck-muller/vanguard-encrypto/v-45-sc-dt-btc-tt-br-nr",
-    "status": "RESOLVED_BUILT_PENDING_LIVE",
+    "status": "RESOLVED_LIVE_VERIFIED",
     "blocker": "Manufacturer and dedicated Encrypto350x550 cutouts truncate both strap sections. Three maker marketing graphics show rose-gold variants or incomplete framing. Rainbow Tech Watches/Chrono24 exact titanium candidates obscure the QR dial detail and/or strap with a display stand.12-24 candidate has a diamond Bitcoin motif/orange stitching and clipped strap, differing from the no-diamond black-stitch manufacturer configuration.",
-    "nextAction": "Obtain a genuine complete original of V45SCDTBTCTTBR(NR), no-diamond dial and black alligator/rubber strap, without redacted dial or obscuring stand; preserve source-specific rights, review/RAW/WHITE/WEB archive hashes and production verification. Never reconstruct cropped sections or restore redacted detail.",
+    "nextAction": "Preserve original, rights and archive records; featured reference has passed live route/image and desktop/mobile verification.",
     "priorEvidenceFiles": [
       "MULTIBRAND_EXPANSION_PHOTO_COVERAGE.json",
       "MULTIBRAND_NON_OMEGA_PHOTOGRAPHY_QUEUE_2026-10-14.json",
@@ -84,5 +90,7 @@
     "sourceUrl": "https://timeserieswatch.com.my/product/franck-muller-30/",
     "rightsRecord": "docs/PHOTOGRAPHY_ENCRYPTO_RIGHTS_2026-10-24.json"
   },
-  "completionStatus": "All297built;296verifiedLIVE until release verification. Six unidentified uploads remain held."
+  "completionStatus": "All297featuredreferenceURLs LIVE with valid cleared photography; no featured gaps.",
+  "completionScope": "All297existing featured reference URLs; six additional unidentified uploaded appearances remain separately held.",
+  "additionalUploadsAllResolved": false
 }

@@ -15,7 +15,7 @@ registerHooks({ resolve(specifier, context, next) {
 const { parseWatchIntent, getEstimatedWatchPrice, rankWatchAssets } = await import("../src/lib/intelligence/watchIntelligenceEngine.ts");
 const { createSearchIndexRecord, searchWatchRecords, rankSearchRecordsWithIntelligence } = await import("../src/lib/intelligence/searchIndexGenerator.ts");
 const { askQuestLuxo } = await import("../src/lib/intelligence/askQuestLuxo.ts");
-const { getVerifiedRetailPrices } = await import("../src/lib/intelligence/watchRetailPricing.ts");
+const { getVerifiedRetailPrices, formatRetailTaxBasis } = await import("../src/lib/intelligence/watchRetailPricing.ts");
 const { verifiedRetailPrices } = await import("../src/data/verified-retail-prices.ts");
 const { collectionRegistry } = await import("../src/data/collectionRegistry.ts");
 const { rolexAssets } = await import("../src/data/rolex/index.ts");
@@ -102,7 +102,7 @@ test("all public retail entries carry exact configuration and auditable manufact
     assert.ok(price.amount > 0 && Number.isFinite(price.amount));
     assert.equal(price.currency, "USD");
     assert.equal(price.market, "United States");
-    assert.equal(price.taxBasis, "excluded");
+    assert.equal(price.taxBasis, "unconfirmed", "source silence must not establish a tax basis");
     assert.equal(price.sourceType, "manufacturer");
     assert.ok(["www.rolex.com", "www.tudorwatch.com"].includes(new URL(price.sourceUrl).hostname));
     assert.ok(price.sourceUrl.endsWith(price.manufacturerReference.toLowerCase()));
@@ -113,4 +113,10 @@ test("all public retail entries carry exact configuration and auditable manufact
     identities.add(identity);
     assert.ok(collectionRegistry.some(collection => collection.brand === price.brand && collection.assets.some(asset => asset.reference === price.reference)) || rolexAssets.some(asset => asset.reference === price.reference), `missing public reference: ${price.reference}`);
   }
+});
+
+test("tax labels distinguish verified inclusion/exclusion from source silence", () => {
+  assert.equal(formatRetailTaxBasis({ taxBasis: "unconfirmed" }), "Tax basis unconfirmed");
+  assert.equal(formatRetailTaxBasis({ taxBasis: "included" }), "Taxes included");
+  assert.equal(formatRetailTaxBasis({ taxBasis: "excluded" }), "Taxes excluded");
 });

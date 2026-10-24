@@ -1,0 +1,423 @@
+{
+  "checkedAt": "2026-10-24",
+  "method": "Independent official-page text read using web browsing; raw HTTP requests were forbidden and supplied no price evidence.",
+  "sourceHead": "817529efda732f8242a32d960d97d0705d35c3eb",
+  "configurationAmounts": 46,
+  "matchingAmounts": 46,
+  "rows": [
+    {
+      "reference": "124060",
+      "manufacturerReference": "m124060-0001",
+      "configuration": "Black dial / Oyster bracelet / black bezel",
+      "sourceUrl": "https://www.rolex.com/en-us/watches/submariner/m124060-0001",
+      "expectedAmount": 10050,
+      "observedAmount": 10050,
+      "matches": true
+    },
+    {
+      "reference": "126610LN",
+      "manufacturerReference": "m126610ln-0001",
+      "configuration": "Black dial / Oyster bracelet / black bezel",
+      "sourceUrl": "https://www.rolex.com/en-us/watches/submariner/m126610ln-0001",
+      "expectedAmount": 11350,
+      "observedAmount": 11350,
+      "matches": true
+    },
+    {
+      "reference": "126610LV",
+      "manufacturerReference": "m126610lv-0002",
+      "configuration": "Black dial / Oyster bracelet / green bezel",
+      "sourceUrl": "https://www.rolex.com/en-us/watches/submariner/m126610lv-0002",
+      "expectedAmount": 11900,
+      "observedAmount": 11900,
+      "matches": true
+    },
+    {
+      "reference": "224270",
+      "manufacturerReference": "m224270-0001",
+      "configuration": "40 mm / black dial / Oyster bracelet",
+      "sourceUrl": "https://www.rolex.com/en-us/watches/explorer/m224270-0001",
+      "expectedAmount": 8350,
+      "observedAmount": 8350,
+      "matches": true
+    },
+    {
+      "reference": "124270",
+      "manufacturerReference": "m124270-0001",
+      "configuration": "36 mm / black dial / Oyster bracelet",
+      "sourceUrl": "https://www.rolex.com/en-us/watches/explorer/m124270-0001",
+      "expectedAmount": 7900,
+      "observedAmount": 7900,
+      "matches": true
+    },
+    {
+      "reference": "126900",
+      "manufacturerReference": "m126900-0001",
+      "configuration": "Black dial / Oyster bracelet",
+      "sourceUrl": "https://www.rolex.com/en-us/watches/air-king/m126900-0001",
+      "expectedAmount": 8150,
+      "observedAmount": 8150,
+      "matches": true
+    },
+    {
+      "reference": "226570",
+      "manufacturerReference": "m226570-0001",
+      "configuration": "White dial / Oyster bracelet",
+      "sourceUrl": "https://www.rolex.com/en-us/watches/explorer-ii/m226570-0001",
+      "expectedAmount": 10600,
+      "observedAmount": 10600,
+      "matches": true
+    },
+    {
+      "reference": "226570",
+      "manufacturerReference": "m226570-0002",
+      "configuration": "Black dial / Oyster bracelet",
+      "sourceUrl": "https://www.rolex.com/en-us/watches/explorer-ii/m226570-0002",
+      "expectedAmount": 10600,
+      "observedAmount": 10600,
+      "matches": true
+    },
+    {
+      "reference": "126500LN",
+      "manufacturerReference": "m126500ln-0001",
+      "configuration": "White dial / Oyster bracelet / black ceramic bezel",
+      "sourceUrl": "https://www.rolex.com/en-us/watches/cosmograph-daytona/m126500ln-0001",
+      "expectedAmount": 16900,
+      "observedAmount": 16900,
+      "matches": true
+    },
+    {
+      "reference": "126710BLNR",
+      "manufacturerReference": "m126710blnr-0003",
+      "configuration": "Black dial / Oyster bracelet / black-blue bezel",
+      "sourceUrl": "https://www.rolex.com/en-us/watches/gmt-master-ii/m126710blnr-0003",
+      "expectedAmount": 11800,
+      "observedAmount": 11800,
+      "matches": true
+    },
+    {
+      "reference": "126710BLNR",
+      "manufacturerReference": "m126710blnr-0002",
+      "configuration": "Black dial / Jubilee bracelet / black-blue bezel",
+      "sourceUrl": "https://www.rolex.com/en-us/watches/gmt-master-ii/m126710blnr-0002",
+      "expectedAmount": 12000,
+      "observedAmount": 12000,
+      "matches": true
+    },
+    {
+      "reference": "126600",
+      "manufacturerReference": "m126600-0002",
+      "configuration": "Black dial / Oyster bracelet",
+      "sourceUrl": "https://www.rolex.com/en-us/watches/sea-dweller/m126600-0002",
+      "expectedAmount": 14550,
+      "observedAmount": 14550,
+      "matches": true
+    },
+    {
+      "reference": "126613LB",
+      "manufacturerReference": "m126613lb-0002",
+      "configuration": "Royal blue dial / yellow Rolesor / Oyster bracelet",
+      "sourceUrl": "https://www.rolex.com/en-us/watches/submariner/m126613lb-0002",
+      "expectedAmount": 19450,
+      "observedAmount": 19450,
+      "matches": true
+    },
+    {
+      "reference": "126618LB",
+      "manufacturerReference": "m126618lb-0002",
+      "configuration": "Royal blue dial / yellow gold / Oyster bracelet",
+      "sourceUrl": "https://www.rolex.com/en-us/watches/submariner/m126618lb-0002",
+      "expectedAmount": 50900,
+      "observedAmount": 50900,
+      "matches": true
+    },
+    {
+      "reference": "126622",
+      "manufacturerReference": "m126622-0001",
+      "configuration": "Slate dial / steel and platinum / Oyster bracelet",
+      "sourceUrl": "https://www.rolex.com/en-us/watches/yacht-master/m126622-0001",
+      "expectedAmount": 13200,
+      "observedAmount": 13200,
+      "matches": true
+    },
+    {
+      "reference": "126621",
+      "manufacturerReference": "m126621-0001",
+      "configuration": "Chocolate dial / steel and Everose gold / Oyster bracelet",
+      "sourceUrl": "https://www.rolex.com/en-us/watches/yacht-master/m126621-0001",
+      "expectedAmount": 19750,
+      "observedAmount": 19750,
+      "matches": true
+    },
+    {
+      "reference": "226659",
+      "manufacturerReference": "m226659-0002",
+      "configuration": "Black dial / white gold / Oysterflex bracelet",
+      "sourceUrl": "https://www.rolex.com/en-us/watches/yacht-master/m226659-0002",
+      "expectedAmount": 40000,
+      "observedAmount": 40000,
+      "matches": true
+    },
+    {
+      "reference": "226658",
+      "manufacturerReference": "m226658-0001",
+      "configuration": "Black dial / yellow gold / Oysterflex bracelet",
+      "sourceUrl": "https://www.rolex.com/en-us/watches/yacht-master/m226658-0001",
+      "expectedAmount": 38100,
+      "observedAmount": 38100,
+      "matches": true
+    },
+    {
+      "reference": "126720VTNR",
+      "manufacturerReference": "m126720vtnr-0002",
+      "configuration": "Black dial / green-black bezel / Jubilee bracelet",
+      "sourceUrl": "https://www.rolex.com/en-us/watches/gmt-master-ii/m126720vtnr-0002",
+      "expectedAmount": 12500,
+      "observedAmount": 12500,
+      "matches": true
+    },
+    {
+      "reference": "126713GRNR",
+      "manufacturerReference": "m126713grnr-0001",
+      "configuration": "Black dial / yellow Rolesor / Jubilee bracelet",
+      "sourceUrl": "https://www.rolex.com/en-us/watches/gmt-master-ii/m126713grnr-0001",
+      "expectedAmount": 20450,
+      "observedAmount": 20450,
+      "matches": true
+    },
+    {
+      "reference": "126718GRNR",
+      "manufacturerReference": "m126718grnr-0001",
+      "configuration": "Black dial / yellow gold / Jubilee bracelet",
+      "sourceUrl": "https://www.rolex.com/en-us/watches/gmt-master-ii/m126718grnr-0001",
+      "expectedAmount": 50800,
+      "observedAmount": 50800,
+      "matches": true
+    },
+    {
+      "reference": "126655",
+      "manufacturerReference": "m126655-0002",
+      "configuration": "Black dial / Everose gold / Oysterflex bracelet",
+      "sourceUrl": "https://www.rolex.com/en-us/watches/yacht-master/m126655-0002",
+      "expectedAmount": 37700,
+      "observedAmount": 37700,
+      "matches": true
+    },
+    {
+      "reference": "268622",
+      "manufacturerReference": "m268622-0002",
+      "configuration": "Slate dial / 37 mm / steel and platinum / Oyster bracelet",
+      "sourceUrl": "https://www.rolex.com/en-us/watches/yacht-master/m268622-0002",
+      "expectedAmount": 12500,
+      "observedAmount": 12500,
+      "matches": true
+    },
+    {
+      "reference": "52508",
+      "manufacturerReference": "m52508-0005",
+      "configuration": "Intense white dial / yellow gold / black alligator strap",
+      "sourceUrl": "https://www.rolex.com/en-us/watches/1908/m52508-0005",
+      "expectedAmount": 28850,
+      "observedAmount": 28850,
+      "matches": true
+    },
+    {
+      "reference": "126508",
+      "manufacturerReference": "m126508-0006",
+      "configuration": "Golden and black dial / yellow gold / Oyster bracelet",
+      "sourceUrl": "https://www.rolex.com/en-us/watches/cosmograph-daytona/m126508-0006",
+      "expectedAmount": 55200,
+      "observedAmount": 55200,
+      "matches": true
+    },
+    {
+      "reference": "126515LN",
+      "manufacturerReference": "m126515ln-0006",
+      "configuration": "Sundust and black dial / Everose gold / Oysterflex bracelet",
+      "sourceUrl": "https://www.rolex.com/en-us/watches/cosmograph-daytona/m126515ln-0006",
+      "expectedAmount": 44800,
+      "observedAmount": 44800,
+      "matches": true
+    },
+    {
+      "reference": "126519LN",
+      "manufacturerReference": "m126519ln-0004",
+      "configuration": "Black and steel diamond-set dial / white gold / Oysterflex bracelet",
+      "sourceUrl": "https://www.rolex.com/en-us/watches/cosmograph-daytona/m126519ln-0004",
+      "expectedAmount": 46900,
+      "observedAmount": 46900,
+      "matches": true
+    },
+    {
+      "reference": "126506",
+      "manufacturerReference": "m126506-0001",
+      "configuration": "Ice blue dial / platinum / Oyster bracelet",
+      "sourceUrl": "https://www.rolex.com/en-us/watches/cosmograph-daytona/m126506-0001",
+      "expectedAmount": 84600,
+      "observedAmount": 84600,
+      "matches": true
+    },
+    {
+      "reference": "126334",
+      "manufacturerReference": "m126334-0001",
+      "configuration": "Bright blue dial / 41 mm / steel and white gold / Oyster bracelet",
+      "sourceUrl": "https://www.rolex.com/en-us/watches/datejust/m126334-0001",
+      "expectedAmount": 11650,
+      "observedAmount": 11650,
+      "matches": true
+    },
+    {
+      "reference": "126300",
+      "manufacturerReference": "m126300-0001",
+      "configuration": "Bright blue dial / 41 mm / steel / Oyster bracelet",
+      "sourceUrl": "https://www.rolex.com/en-us/watches/datejust/m126300-0001",
+      "expectedAmount": 8950,
+      "observedAmount": 8950,
+      "matches": true
+    },
+    {
+      "reference": "126333",
+      "manufacturerReference": "m126333-0001",
+      "configuration": "Silver dial / 41 mm / yellow Rolesor / Oyster bracelet",
+      "sourceUrl": "https://www.rolex.com/en-us/watches/datejust/m126333-0001",
+      "expectedAmount": 16900,
+      "observedAmount": 16900,
+      "matches": true
+    },
+    {
+      "reference": "126234",
+      "manufacturerReference": "m126234-0059",
+      "configuration": "Green ombre dial / 36 mm / steel and white gold / Jubilee bracelet",
+      "sourceUrl": "https://www.rolex.com/en-us/watches/datejust/m126234-0059",
+      "expectedAmount": 10100,
+      "observedAmount": 10100,
+      "matches": true
+    },
+    {
+      "reference": "126200",
+      "manufacturerReference": "m126200-0001",
+      "configuration": "Silver dial / 36 mm / steel / Jubilee bracelet",
+      "sourceUrl": "https://www.rolex.com/en-us/watches/datejust/m126200-0001",
+      "expectedAmount": 8350,
+      "observedAmount": 8350,
+      "matches": true
+    },
+    {
+      "reference": "126303",
+      "manufacturerReference": "m126303-0001",
+      "configuration": "Silver dial / 41 mm / yellow Rolesor / Oyster bracelet",
+      "sourceUrl": "https://www.rolex.com/en-us/watches/datejust/m126303-0001",
+      "expectedAmount": 16800,
+      "observedAmount": 16800,
+      "matches": true
+    },
+    {
+      "reference": "228238",
+      "manufacturerReference": "m228238-0061",
+      "configuration": "Green dial / 40 mm / yellow gold / President bracelet",
+      "sourceUrl": "https://www.rolex.com/en-us/watches/day-date/m228238-0061",
+      "expectedAmount": 50400,
+      "observedAmount": 50400,
+      "matches": true
+    },
+    {
+      "reference": "228239",
+      "manufacturerReference": "m228239-0055",
+      "configuration": "Meteorite diamond-set dial / 40 mm / white gold / President bracelet",
+      "sourceUrl": "https://www.rolex.com/en-us/watches/day-date/m228239-0055",
+      "expectedAmount": 63900,
+      "observedAmount": 63900,
+      "matches": true
+    },
+    {
+      "reference": "228235",
+      "manufacturerReference": "m228235-0003",
+      "configuration": "Chocolate diamond-set dial / 40 mm / Everose gold / President bracelet",
+      "sourceUrl": "https://www.rolex.com/en-us/watches/day-date/m228235-0003",
+      "expectedAmount": 58950,
+      "observedAmount": 58950,
+      "matches": true
+    },
+    {
+      "reference": "128238",
+      "manufacturerReference": "m128238-0132",
+      "configuration": "Champagne diamond-set dial / 36 mm / yellow gold / President bracelet",
+      "sourceUrl": "https://www.rolex.com/en-us/watches/day-date/m128238-0132",
+      "expectedAmount": 50650,
+      "observedAmount": 50650,
+      "matches": true
+    },
+    {
+      "reference": "228236",
+      "manufacturerReference": "m228236-0011",
+      "configuration": "Meteorite diamond-set dial / 40 mm / platinum / President bracelet",
+      "sourceUrl": "https://www.rolex.com/en-us/watches/day-date/m228236-0011",
+      "expectedAmount": 78500,
+      "observedAmount": 78500,
+      "matches": true
+    },
+    {
+      "reference": "336934",
+      "manufacturerReference": "m336934-0001",
+      "configuration": "Mint green dial / steel and white gold / Oyster bracelet",
+      "sourceUrl": "https://www.rolex.com/en-us/watches/sky-dweller/m336934-0001",
+      "expectedAmount": 17750,
+      "observedAmount": 17750,
+      "matches": true
+    },
+    {
+      "reference": "336933",
+      "manufacturerReference": "m336933-0003",
+      "configuration": "Black dial / yellow Rolesor / Oyster bracelet",
+      "sourceUrl": "https://www.rolex.com/en-us/watches/sky-dweller/m336933-0003",
+      "expectedAmount": 24050,
+      "observedAmount": 24050,
+      "matches": true
+    },
+    {
+      "reference": "336238",
+      "manufacturerReference": "m336238-0001",
+      "configuration": "Champagne dial / yellow gold / Oysterflex bracelet",
+      "sourceUrl": "https://www.rolex.com/en-us/watches/sky-dweller/m336238-0001",
+      "expectedAmount": 51400,
+      "observedAmount": 51400,
+      "matches": true
+    },
+    {
+      "reference": "336235",
+      "manufacturerReference": "m336235-0004",
+      "configuration": "Slate dial / Everose gold / Oysterflex bracelet",
+      "sourceUrl": "https://www.rolex.com/en-us/watches/sky-dweller/m336235-0004",
+      "expectedAmount": 53450,
+      "observedAmount": 53450,
+      "matches": true
+    },
+    {
+      "reference": "336938",
+      "manufacturerReference": "m336938-0003",
+      "configuration": "Intense white dial / yellow gold / Oyster bracelet",
+      "sourceUrl": "https://www.rolex.com/en-us/watches/sky-dweller/m336938-0003",
+      "expectedAmount": 60100,
+      "observedAmount": 60100,
+      "matches": true
+    },
+    {
+      "reference": "336935",
+      "manufacturerReference": "m336935-0007",
+      "configuration": "Intense white dial / Everose gold / Jubilee bracelet",
+      "sourceUrl": "https://www.rolex.com/en-us/watches/sky-dweller/m336935-0007",
+      "expectedAmount": 64900,
+      "observedAmount": 64900,
+      "matches": true
+    },
+    {
+      "reference": "M79000N-0001",
+      "manufacturerReference": "m79000n-0001",
+      "configuration": "Black / 37 mm / steel bracelet",
+      "sourceUrl": "https://www.tudorwatch.com/en/watches/black-bay-54/m79000n-0001",
+      "expectedAmount": 4725,
+      "observedAmount": 4725,
+      "matches": true
+    }
+  ]
+}

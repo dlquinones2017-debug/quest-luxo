@@ -1,16 +1,14 @@
-# Quest Luxo remaining photography gaps
+# Quest Luxo photography completion and additional upload holds
 
-Verified LIVE inventory: 296 of 297 reference URLs have approved photographs; one remains. All 297 routes and 292 distinct delivered photo hashes passed. No placeholder counts as photography.
+All297 established reference URLs across104collections are LIVE with reviewed, cleared authentic photography. All297routes and293distinct delivered photo hashes verified; zero featured gaps. Six additional uploaded appearances remain held separately.
 
-| Reference and collection | Exact blocker | Next action |
+| Uploaded appearance | Exact blocker | Next action |
 | --- | --- | --- |
-| [Franck Muller V 45 SC DT BTC TT BR (NR) â€” Vanguard Encrypto](https://questluxo.com/collections/franck-muller/vanguard-encrypto/v-45-sc-dt-btc-tt-br-nr) | Manufacturer and dedicated Encrypto350x550 cutouts truncate both strap sections. Three maker marketing graphics show rose-gold variants or incomplete framing. Rainbow Tech Watches/Chrono24 exact titanium candidates obscure the QR dial detail and/or strap with a display stand.12-24 candidate has a diamond Bitcoin motif/orange stitching and clipped strap, differing from the no-diamond black-stitch manufacturer configuration. | Obtain a genuine complete original of V45SCDTBTCTTBR(NR), no-diamond dial and black alligator/rubber strap, without redacted dial or obscuring stand; preserve source-specific rights, review/RAW/WHITE/WEB archive hashes and production verification. Never reconstruct cropped sections or restore redacted detail. |
+| Black Vacheron Constantin Overseas (`upload-03-vc`) | Overseas4500V versus4520V full SKU unresolved | Verify full manufacturer SKU and generation from original source; then match the exact configuration. |
+| Blue Vacheron Constantin Overseas Dual Time (`upload-14-vc`) | Blue Overseas Dual Time7900V versus7920V full SKU unresolved; not retrograde moonphase | Confirm full Dual Time reference from reliable source; do not assign it to the retrograde collection. |
+| Green Patek Philippe calendar (`upload-12-patek`) | Green Breguet-numeral calendar image has no verified manufacturer reference; authenticity/possible altered graphic unresolved | Trace a reliable original dealer/manufacturer source and exact-reference evidence; keep unassigned if authenticity cannot be established. |
+| White/gold Ulysse Nardin diver (`upload-08-white-diver`) | Ulysse Nardin white/gold full suffix unverified and strap clipped | Confirm full reference and acquire complete unclipped original; never reconstruct the strap. |
+| Everose Rolex Yacht-Master (`upload-17-yacht-master`) | Exact Yacht-Master generation/size/full reference unresolved; Oysterflex strap clipped. Visible dial details do not establish a unique SKU. | Confirm exact reference and obtain full-watch original; preserve existing verified126655 photo. |
+| Rainbow Audemars Piguet Cactus Jack (`upload-19-ap-4`) | Rainbow Cactus Jack unique-edition full SKU unconfirmed; not standard26585CM | Obtain reliable edition/SKU evidence and complete original; do not attribute the unique piece to the standard model. |
 
-## Six unidentified founder uploads
-
-- upload-03-vc: Overseas4500V versus4520V full SKU unresolved. Next: Verify full manufacturer SKU and generation from original source; then match the exact configuration.
-- upload-14-vc: Blue Overseas Dual Time7900V versus7920V full SKU unresolved; not retrograde moonphase. Next: Confirm full Dual Time reference from reliable source; do not assign it to the retrograde collection.
-- upload-12-patek: Green Breguet-numeral calendar image has no verified manufacturer reference; authenticity/possible altered graphic unresolved. Next: Obtain reliable original source and exact-reference evidence; keep unassigned if authenticity cannot be established.
-- upload-08-white-diver: Ulysse Nardin white/gold full suffix unverified and strap clipped. Next: Confirm full reference and acquire complete unclipped original; never reconstruct the strap.
-- upload-17-yacht-master: Rolex116655 versus126655 identity unresolved and Oysterflex clipped. Next: Confirm exact reference and obtain full-watch original; preserve existing verified126655 photo.
-- upload-19-ap-4: Rainbow Cactus Jack unique-edition full SKU unconfirmed; not standard26585CM. Next: Obtain reliable edition/SKU evidence and complete original; do not attribute the unique piece to the standard model.
+Existing ZIP rights and every prior clearance remain preserved. No speculative identity, clipped replacement, generated watch detail or placeholder counts as completed photography.

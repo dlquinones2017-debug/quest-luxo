@@ -1,0 +1,70 @@
+{
+  "checkedAt": "2026-10-24T05:22:25.345081+00:00",
+  "status": "Front-facing replacement checks passed; deployment/live desktop/mobile verification pending",
+  "reason": "Founder disapproved the angled Time Series hero and requires a forward-facing watch with clear dial.",
+  "checks": [
+    {
+      "check": "nonomega-queue-sync",
+      "exitCode": 0,
+      "logFile": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\resume-20261024\\encrypto-forward-nonomega-queue-sync.log"
+    },
+    {
+      "check": "omega-queue-check",
+      "exitCode": 0,
+      "logFile": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\resume-20261024\\encrypto-forward-omega-queue-check.log"
+    },
+    {
+      "check": "astro-check",
+      "exitCode": 0,
+      "logFile": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\resume-20261024\\encrypto-forward-astro-check.log"
+    },
+    {
+      "check": "focused-tests",
+      "exitCode": 0,
+      "logFile": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\resume-20261024\\encrypto-forward-focused-tests.log"
+    },
+    {
+      "check": "expansion-audit",
+      "exitCode": 0,
+      "logFile": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\resume-20261024\\encrypto-forward-expansion-audit.log"
+    },
+    {
+      "check": "build",
+      "exitCode": 0,
+      "logFile": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\resume-20261024\\encrypto-forward-build.log"
+    },
+    {
+      "check": "inventory",
+      "exitCode": 0,
+      "logFile": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\resume-20261024\\encrypto-forward-inventory.log"
+    },
+    {
+      "check": "full-audit",
+      "exitCode": 0,
+      "logFile": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\resume-20261024\\encrypto-forward-full-audit.log"
+    }
+  ],
+  "tests": {
+    "total": 18,
+    "passed": 18,
+    "failed": 0
+  },
+  "astro": {
+    "errors": 0,
+    "warnings": 0,
+    "existingHints": 18
+  },
+  "exactBuiltReferenceAndCollectionMapping": true,
+  "oldAngledHeroAbsentFromBuiltReference": true,
+  "picturedConfiguration": "Titanium, black carbon-pattern Bitcoin QR dial/un-set motif, black rubber strap as dealer listed.",
+  "archiveReadbacksVerified": 3,
+  "rightsRecord": "docs/PHOTOGRAPHY_ENCRYPTO_FORWARD_RIGHTS_2026-10-24.json",
+  "image": {
+    "brand": "Franck Muller",
+    "reference": "V 45 SC DT BTC TT BR (NR)",
+    "src": "/images/watches/franck-muller/reviewed-v-45-sc-dt-btc-tt-br-nr-forward-20261024-web.webp",
+    "sha256": "f33525dfab81a994c6d69406eeafa4645ef91aa32eae0bf46f6dfc7b7a2361ef",
+    "canonicalRoute": "/collections/franck-muller/vanguard-encrypto/v-45-sc-dt-btc-tt-br-nr"
+  },
+  "leadSafety": "No test lead, private lead read or runtime data operation. Existing URLs and inquiry context preserved."
+}

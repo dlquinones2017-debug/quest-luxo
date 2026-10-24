@@ -23,3 +23,8 @@ export function getVerifiedUsdRetailBenchmark(asset: QuestLuxoAsset): number | n
 export function formatRetailPrice(price: VerifiedRetailPrice): string {
   return new Intl.NumberFormat("en-US", { style: "currency", currency: price.currency, maximumFractionDigits: 0 }).format(price.amount);
 }
+
+export function formatRetailTaxBasis(price: Pick<VerifiedRetailPrice, "taxBasis">): string {
+  return price.taxBasis === "unconfirmed" ? "Tax basis unconfirmed"
+    : price.taxBasis === "excluded" ? "Taxes excluded" : "Taxes included";
+}

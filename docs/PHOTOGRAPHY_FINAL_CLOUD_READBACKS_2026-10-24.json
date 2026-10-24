@@ -1,0 +1,65 @@
+{
+  "verifiedAt": "2026-10-24T04:44:05.983251+00:00",
+  "allMatched": true,
+  "reportingFiles": [
+    {
+      "key": "inventory",
+      "fileId": "1Vl_UZMIcbQu3HASk1t1kJlMpH7RJdvAF",
+      "sha256": "0faeb33ae3dc1e7080723450ee7299d99f0fdf2b4561c3136dbe39c137392dc7",
+      "matched": true
+    },
+    {
+      "key": "live-qa",
+      "fileId": "1P6Fcy7U8f8vFkFfUlJ0LujpoUUG1EzKx",
+      "sha256": "da7b8f34cd3efdee8d559ce6bd1575e657e209b79a9e5aad280d3bc2ea844bcf",
+      "matched": true
+    },
+    {
+      "key": "gap-queue",
+      "fileId": "1GlhzWaf-QeeRZuj_ijOxy7hzYUUNb-Tm",
+      "sha256": "da751f899210b6213d71ec3dbd5cc6f92b4c71e34f50bfbc3ee2853f43c0651e",
+      "matched": true
+    },
+    {
+      "key": "rights",
+      "fileId": "1tPmByeqfSgmJ9iUJg76lyQdrXcV-gBcj",
+      "sha256": "8803508d2de1c88c27a5bf698acfc60fc1550782d9b2568a96cce1061f89efbd",
+      "matched": true
+    },
+    {
+      "key": "release-qa",
+      "fileId": "1b03DJkvnV6QIdxlqxWKKQ-Nd4rWoX8oc",
+      "sha256": "7d14d7c2d390b19c1ee137a98c0be19a1aacec5203dc71a01dab8e6f9ac69bf4",
+      "matched": true
+    }
+  ],
+  "master": {
+    "fileId": "1KEWRyRu7SquTjVb1TgF_cCn_Zux5td17",
+    "sha256": "56070f97483c7752e4de9d181c3f84b6714f0aa80ab8be6a89384484cbbedd4e",
+    "matched": true,
+    "pages": 93,
+    "historicalPagesPixelUnchanged": 92
+  },
+  "photoArchives": [
+    {
+      "key": "raw",
+      "sha256": "a5b73864d35231cacda7e78d5921830c061b3690d17d5e9b70f32c7732d617ca",
+      "bytes": 145216
+    },
+    {
+      "key": "white",
+      "sha256": "da491654640a448e212bba20c35a2ccb0373a45a0e3e24a8cfcf8d6460f30c4b",
+      "bytes": 1934697
+    },
+    {
+      "key": "web",
+      "sha256": "c0c116d8680c48d3333999553aa7a0e7b398b8880ee028e938293fdb1c87be5b",
+      "bytes": 93930
+    }
+  ],
+  "sourceEvidenceArchive": {
+    "fileId": "1KdDvVp7jnxH5lKoDHdwi9giE-lV4_ePJ",
+    "sha256": "cd612d4ef206f384f7a2e50d022181761f332c075371a123ca0f476c185921b1",
+    "matched": true
+  }
+}

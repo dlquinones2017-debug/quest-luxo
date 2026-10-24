@@ -1,5 +1,5 @@
 {
-  "auditedAt": "2026-10-24T04:32:36.849Z",
+  "auditedAt": "2026-10-24T05:21:39.506Z",
   "summary": {
     "brands": 23,
     "collections": 104,
@@ -8359,17 +8359,17 @@
         },
         {
           "dial": "Black carbon-pattern Bitcoin QR dial, un-set motif",
-          "bracelet": "Black alligator/rubber strap with contrasting stitching",
-          "nickname": "Black carbon-pattern Bitcoin QR dial, un-set motif / Black alligator/rubber strap with contrasting stitching",
+          "bracelet": "Black rubber strap",
+          "nickname": "Black carbon-pattern Bitcoin QR dial, un-set motif / Black rubber strap",
           "originalMSRP": null,
           "currentMSRP": null
         }
       ],
       "approved": true,
       "photo": {
-        "assetId": "cleared-20261024-franck-muller-encrypto-timeseries",
-        "src": "/images/watches/franck-muller/reviewed-v-45-sc-dt-btc-tt-br-nr-20261024-web.webp",
-        "sha256": "c0c116d8680c48d3333999553aa7a0e7b398b8880ee028e938293fdb1c87be5b"
+        "assetId": "cleared-20261024-franck-muller-encrypto-forward-dream-watch",
+        "src": "/images/watches/franck-muller/reviewed-v-45-sc-dt-btc-tt-br-nr-forward-20261024-web.webp",
+        "sha256": "f33525dfab81a994c6d69406eeafa4645ef91aa32eae0bf46f6dfc7b7a2361ef"
       },
       "recoveryCandidates": []
     },

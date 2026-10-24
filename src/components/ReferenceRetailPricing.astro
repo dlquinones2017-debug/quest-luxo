@@ -1,6 +1,6 @@
 ---
 import type { QuestLuxoAsset } from "../types/questLuxo";
-import { formatRetailPrice, getVerifiedRetailPrices } from "../lib/intelligence/watchRetailPricing";
+import { formatRetailPrice, formatRetailTaxBasis, getVerifiedRetailPrices } from "../lib/intelligence/watchRetailPricing";
 
 interface Props { asset: QuestLuxoAsset; brand?: string; }
 const { asset, brand } = Astro.props as Props;
@@ -12,7 +12,7 @@ const prices = getVerifiedRetailPrices(asset, brand);
   <h2>Manufacturer list price</h2>
   {prices.length ? prices.map((price) => (
     <article>
-      <p><strong>{formatRetailPrice(price)} {price.currency}</strong> · {price.market} · taxes {price.taxBasis}</p>
+      <p><strong>{formatRetailPrice(price)} {price.currency}</strong> · {price.market} · {formatRetailTaxBasis(price)}</p>
       <p>{price.configuration} · {price.manufacturerReference}</p>
       <p>{price.basis === "historical-list" ? "Historical list price" : "Published list price"} checked {price.checkedAt}.
         {price.effectiveDate && ` Manufacturer effective date: ${price.effectiveDate}.`}

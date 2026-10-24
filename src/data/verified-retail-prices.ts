@@ -6,7 +6,7 @@ export interface VerifiedRetailPrice {
   readonly amount: number;
   readonly currency: "USD" | "CHF" | "EUR" | "GBP";
   readonly market: string;
-  readonly taxBasis: "excluded" | "included";
+  readonly taxBasis: "excluded" | "included" | "unconfirmed";
   readonly basis: "current-list" | "historical-list";
   /** Date the source was read; never presented as a manufacturer's effective date. */
   readonly checkedAt: string;
@@ -20,7 +20,7 @@ export interface VerifiedRetailPrice {
 // Exact configurations read on manufacturer pages. Missing references stay unknown.
 const rolex = (reference: string, manufacturerReference: string, configuration: string, amount: number, collection: string): VerifiedRetailPrice => ({
   brand: "Rolex", reference, manufacturerReference, configuration, amount,
-  currency: "USD", market: "United States", taxBasis: "excluded", basis: "current-list",
+  currency: "USD", market: "United States", taxBasis: "unconfirmed", basis: "current-list",
   checkedAt: "2026-10-24", effectiveDate: null,
   sourceUrl: `https://www.rolex.com/en-us/watches/${collection}/${manufacturerReference.toLowerCase()}`,
   sourceName: "Rolex United States", sourceType: "manufacturer",
@@ -75,7 +75,7 @@ export const verifiedRetailPrices: readonly VerifiedRetailPrice[] = Object.freez
   {
     brand: "Tudor", reference: "M79000N-0001", manufacturerReference: "M79000N-0001",
     configuration: "Black dial / 37 mm / three-link steel bracelet", amount: 4725,
-    currency: "USD", market: "United States", taxBasis: "excluded", basis: "current-list",
+    currency: "USD", market: "United States", taxBasis: "unconfirmed", basis: "current-list",
     checkedAt: "2026-10-24", effectiveDate: null,
     sourceUrl: "https://www.tudorwatch.com/en/watches/black-bay-54/m79000n-0001",
     sourceName: "Tudor", sourceType: "manufacturer",
