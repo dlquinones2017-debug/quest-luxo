@@ -1,5 +1,5 @@
 import { buildPublicOperationsBrief, triagePublicWebsiteReport } from "./publicOperationsTeam.ts";
-import { RECOVERY_RECEIPT_MAX_AGE_MS, type assessPilotRecovery } from "./pilotRecoveryAudit.ts";
+import { RECOVERY_RECEIPT_MAX_AGE_MS, RECURRING_RECOVERY_MAX_AGE_MS, type assessPilotRecovery } from "./pilotRecoveryAudit.ts";
 import { assessModelExecutionPolicy } from "./modelExecutionPolicy.ts";
 
 import { teamForLegacyRole } from "./workforceOperatingModel.ts";
@@ -18,16 +18,18 @@ function validateRecovery(input: unknown, now: string): { recovery: Recovery; fr
     r.schemaVersion !== 1 || r.mode !== "PILOT_LOCAL_READ_ONLY" || r.status !== "HOLD" || !iso(r.assessedAt) || Date.parse(r.assessedAt) > Date.parse(now) ||
     !["VERIFIED", "MISSING", "STALE", "CONFLICT"].includes(r.recoveryReceipt) ||
     typeof r.independentBackupVerified !== "boolean" || r.keyRecoveryVerified !== r.independentBackupVerified ||
-    [r.recurringOffsiteRetentionVerified, r.businessDataExecutionAllowed, r.changesProduction, r.dispatchesWork, r.sendsMessages, r.writesCRM, r.activatesGmail].some(v => v !== false) ||
+    typeof r.recurringOffsiteRetentionVerified !== "boolean" ||
+    [r.businessDataExecutionAllowed, r.changesProduction, r.dispatchesWork, r.sendsMessages, r.writesCRM, r.activatesGmail].some(v => v !== false) ||
     !Array.isArray(r.requiredActions) || r.requiredActions.length > 5 || !r.requiredActions.every(x => typeof x === "string")) throw Error("Unverified recovery assessment.");
   const storage = !r.requiredActions.includes("STORAGE"), local = !r.requiredActions.includes("LOCAL_RECOVERY");
   const verified = r.recoveryReceipt === "VERIFIED" && storage && local;
   const expected = [...(storage ? [] : ["STORAGE"]), ...(local ? [] : ["LOCAL_RECOVERY"]), ...(verified ? [] : ["CURRENT_INDEPENDENT_RECOVERY"]),
-    "RECURRING_OFFSITE_RETENTION", "AUTHORIZED_BUSINESS_SOURCE"];
+    ...(r.recurringOffsiteRetentionVerified ? [] : ["RECURRING_OFFSITE_RETENTION"]), "AUTHORIZED_BUSINESS_SOURCE"];
   if (JSON.stringify(r.requiredActions) !== JSON.stringify(expected) || r.independentBackupVerified !== verified ||
-    r.retention !== (verified ? "ONE_TIME_OFFSITE_COPY" : "NOT_VERIFIED") ||
+    r.recurringOffsiteRetentionVerified && !verified ||
+    r.retention !== (r.recurringOffsiteRetentionVerified ? "RECURRING_INDEPENDENT_COPIES" : verified ? "ONE_TIME_OFFSITE_COPY" : "NOT_VERIFIED") ||
     (r.recoveryReceipt === "VERIFIED" ? !iso(r.recoveryValidUntil) || Date.parse(r.recoveryValidUntil) < Date.parse(r.assessedAt) ||
-      Date.parse(r.recoveryValidUntil) - Date.parse(r.assessedAt) > RECOVERY_RECEIPT_MAX_AGE_MS : r.recoveryValidUntil !== null))
+      Date.parse(r.recoveryValidUntil) - Date.parse(r.assessedAt) > (r.recurringOffsiteRetentionVerified ? RECURRING_RECOVERY_MAX_AGE_MS : RECOVERY_RECEIPT_MAX_AGE_MS) : r.recoveryValidUntil !== null))
     throw Error("Inconsistent recovery assessment.");
   return { recovery: r, fresh: Date.parse(now) - Date.parse(r.assessedAt) <= 120_000 };
 }
@@ -55,7 +57,7 @@ export function coordinatePilotOperations(health: unknown, inputBrief: unknown, 
   else if (currentIncidents.incidentCount) add("REVIEW_PUBLIC_SITE_INCIDENTS", 1, "enterprise-risk");
   if (!recoveryFresh) add("VERIFY_FRESH_RECOVERY_ASSESSMENT", 1, "reliability-qa-and-incident-response-agent");
   if (!independentVerified) add("VERIFY_INDEPENDENT_RECOVERY", 1, "reliability-qa-and-incident-response-agent");
-  add("ESTABLISH_RECURRING_OFFSITE_RETENTION", 2, "reliability-qa-and-incident-response-agent");
+  if (!independentVerified || !recovery.recurringOffsiteRetentionVerified) add("ESTABLISH_RECURRING_OFFSITE_RETENTION", 2, "reliability-qa-and-incident-response-agent");
   add("REVIEW_BUSINESS_SOURCE_SCOPE", 2, "founder-chief-of-staff-and-approval-agent");
   return Object.freeze({ schemaVersion: 1, mode: "PILOT_LOCAL_READ_ONLY", assessedAt: now, status: "HOLD",
     operationalState: publicFresh && recoveryFresh ? "CURRENT" : "STALE", sourceCount: 3,

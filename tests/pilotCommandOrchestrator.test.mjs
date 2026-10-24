@@ -75,3 +75,21 @@ test('health counts a fifth role only with current source teams and withdraws it
     assert.equal((await fetch(base+'/command')).status,404);assert.equal((await fetch(base+'/healthz',{method:'POST'})).status,404);
   } finally {await new Promise(resolve=>server.close(resolve));}
 });
+
+test('command accepts only consistent recurring retention, expires it and keeps business execution held',async()=>{
+  const s=await sources(),preparationRevision='c'.repeat(64);
+  const proof={version:1,clientId:'windows-recovery-primary',firstSuccessAt:'2026-10-21T21:49:00.000Z',lastSuccessAt:now,successfulCycles:2,
+    archives:[['intake',state.intakeRevision],['pipeline',state.pipelineRevision],['preparation',preparationRevision]].map(([kind,revision])=>({kind,revision,sha256:'d'.repeat(64)})),
+    checkpointAuthenticated:true,recurringIndependentRetentionVerified:true,businessDataExecutionAllowed:false};
+  s.recovery=assessPilotRecovery({...state,preparationRevision},null,now,proof);
+  const report=run(s);assert.equal(report.independentRecoveryVerified,true);
+  assert.deepEqual(report.tasks.map(t=>t.action),['REVIEW_BUSINESS_SOURCE_SCOPE']);
+  for(const edit of [r=>r.retention='ONE_TIME_OFFSITE_COPY',r=>r.recurringOffsiteRetentionVerified=false,
+    r=>r.requiredActions=['RECURRING_OFFSITE_RETENTION','AUTHORIZED_BUSINESS_SOURCE'],r=>r.requiredActions=[],
+    r=>r.independentBackupVerified=false,r=>r.recoveryValidUntil='2026-10-22T09:50:00.001Z']){
+    const bad=structuredClone(s);edit(bad.recovery);assert.throws(()=>run(bad));
+  }
+  const expired=run(s,'2026-10-22T09:50:00.001Z');assert.equal(expired.independentRecoveryVerified,false);
+  assert(expired.tasks.some(t=>t.action==='ESTABLISH_RECURRING_OFFSITE_RETENTION'));
+  for(const key of ['businessDataExecutionAllowed','modelApiRequestsAllowed','changesProduction','dispatchesWork','sendsMessages','writesCRM','activatesGmail'])assert.equal(report[key],false);
+});

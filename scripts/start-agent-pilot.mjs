@@ -13,6 +13,8 @@ import { createPublicWebsiteMonitor, PUBLIC_WEBSITE_INTERVAL_MS } from "../src/l
 import { assessModelExecutionPolicy } from "../src/lib/agents/modelExecutionPolicy.ts";
 
 import { loadConsolidatedWorkforce } from "../src/lib/agents/workforceOperatingModel.ts";
+import { createPilotBackupChannel } from './pilot-backup-channel.mjs';
+import { readSyntheticBackupBundle } from './pilot-backup-source.mjs';
 
 const PILOT_SERVICE = "srv-dbbkmb0n74is73d111hg";
 
@@ -116,14 +118,20 @@ export async function startPilot() {
   await runPublicCheck();
   const publicInterval = setInterval(runPublicCheck, PUBLIC_WEBSITE_INTERVAL_MS);
   publicInterval.unref();
-  const server = createPilotHealthServer(monitor, publicMonitor, () => publicTeamStatus, recoverySnapshot, commandSnapshot);
+  let backupChannel, backupKey;
+  if(process.env.QUEST_ENABLE_PILOT_BACKUP_EXPORT === 'true') {
+    backupKey=Buffer.from(process.env.QUEST_PIPELINE_KEY_HEX,'hex');
+    backupChannel=createPilotBackupChannel({key:backupKey,root:process.env.QUEST_PIPELINE_DIRECTORY,
+      clientId:'windows-recovery-primary',readBundle:()=>readSyntheticBackupBundle(process.env.QUEST_PIPELINE_DIRECTORY,backupKey)});
+  }
+  const server = createPilotHealthServer(monitor, publicMonitor, () => publicTeamStatus, recoverySnapshot, commandSnapshot, backupChannel);
   const interval = setInterval(async () => {
     const passed = await monitor.run();
     console[passed ? "log" : "error"](JSON.stringify({ event: passed ? "PILOT_STORAGE_CHECK_PASSED" : "PILOT_STORAGE_CHECK_FAILED",
       independentBackupVerified: passed && recoveryReport?.independentBackupVerified === true, businessDataReady: false }));
   }, 60_000);
   interval.unref();
-  server.once("close", () => { clearInterval(interval); clearInterval(publicInterval); });
+  server.once("close", () => { clearInterval(interval); clearInterval(publicInterval); backupKey?.fill(0); });
   server.listen(Number(process.env.PORT || 10000), "0.0.0.0");
   for (const signal of ["SIGTERM", "SIGINT"]) process.once(signal, () => {
     server.close(() => process.exit(0));
@@ -132,12 +140,16 @@ export async function startPilot() {
   return server;
 }
 
-export function createPilotHealthServer(monitor, publicMonitor, publicTeamState, recoverySnapshot, commandSnapshot) {
-  // Expose readiness only. Never serve reports, records, backups, keys or mutation endpoints.
+export function createPilotHealthServer(monitor, publicMonitor, publicTeamState, recoverySnapshot, commandSnapshot, backupChannel) {
+  // The optional authenticated channel exports only three exact encrypted synthetic fixtures.
   const ready = { service: "quest-luxo-agent-pilot", mode: "SYNTHETIC_ONLY", storage: "PERSISTENT_ENCRYPTED",
     independentBackupVerified: false, businessDataReady: false, gmail: false, crm: false };
-  return createServer((req, res) => {
+  return createServer(async (req, res) => {
     res.setHeader("Content-Type", "application/json"); res.setHeader("Cache-Control", "no-store");
+    if(backupChannel) {
+      try { if(await backupChannel(req,res)) return; }
+      catch { if(!res.headersSent) res.writeHead(503); res.end('{"error":"backup_held"}'); return; }
+    }
     if (req.method !== "GET" || req.url !== "/healthz") { res.writeHead(404); res.end('{"error":"not_found"}'); return; }
     const healthy = monitor.healthy();
     const publicState = publicMonitor?.snapshot().state ?? "NOT_CONFIGURED";
@@ -155,7 +167,7 @@ export function createPilotHealthServer(monitor, publicMonitor, publicTeamState,
       generatedTemplatesValidated: healthy ? SYNTHETIC_TEMPLATE_COUNT : 0,
       publicWebsiteAgent: publicState, publicOperationsTeam: teamState, livePublicAgents: publicCurrent ? 3 : 0,
       recoveryAuditAgent: recoveryCurrent ? "CURRENT" : !healthy && recovery ? "HELD" : recovery?.state ?? "NOT_CONFIGURED",
-      independentBackupVerified: Boolean(independentVerified), recurringOffsiteRetentionVerified: false,
+      independentBackupVerified: Boolean(independentVerified), recurringOffsiteRetentionVerified: Boolean(independentVerified && recovery.report?.recurringOffsiteRetentionVerified === true),
       commandOrchestrator: commandCurrent ? "CURRENT" : command ? "HELD" : "NOT_CONFIGURED",
       paidModelExecution: "DISABLED_ZERO_BUDGET",
       liveOperationalAgents: (publicCurrent ? 3 : 0) + (recoveryCurrent ? 1 : 0) + (commandCurrent ? 1 : 0) }));
