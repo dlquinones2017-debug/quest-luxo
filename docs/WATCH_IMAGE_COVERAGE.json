@@ -1,14 +1,14 @@
 {
-  "reviewedAt": "2026-10-24T00:40:43.086Z",
+  "reviewedAt": "2026-10-24T00:56:43.000Z",
   "note": "Generated from all exported source datasets and built routes. Source-only and duplicate configuration records are retained for review; this register is not proof of image rights. Source URLs identify research leads, not licenses.",
   "summary": {
-    "sourceConfigurations": 987,
+    "sourceConfigurations": 1009,
     "builtReferenceRoutes": 297,
     "collectionRoutes": 104,
-    "approvedReferenceConfigurations": 509,
+    "approvedReferenceConfigurations": 525,
     "unmatchedReferenceRoutes": 0,
-    "approvedCanonicalReferenceRoutes": 251,
-    "queuedCanonicalReferenceRoutes": 46
+    "approvedCanonicalReferenceRoutes": 259,
+    "queuedCanonicalReferenceRoutes": 38
   },
   "collections": [
     {
@@ -8543,26 +8543,28 @@
           "movement": "Calibre 2500 Co-Axial automatic",
           "dial": "Black",
           "bracelet": "Stainless-steel bracelet",
-          "waterResistance": "600 m"
+          "waterResistance": "600 m",
+          "nickname": "Black / Stainless-steel bracelet",
+          "originalMSRP": null,
+          "currentMSRP": null
         }
       ],
       "material": "Stainless Steel",
       "sources": [
-        "src/data/collectionRegistry.ts",
-        "src/data/reference-expansion.ts"
+        "src/data/collectionRegistry.ts"
       ],
       "routes": [
         "/collections/omega/planet-ocean/2201-50"
       ],
       "scope": "built-reference",
-      "existingImage": "/images/watch-reference-placeholder.svg",
+      "existingImage": "/images/watches/omega/reviewed-2201-50-20261023-web.webp",
       "existingImageFilePresent": true,
-      "photoAssetId": null,
-      "status": "Requires Verification",
-      "sourceUrl": null,
-      "licenseRecord": null,
-      "websiteApproved": false,
-      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+      "photoAssetId": "cleared-20261023-eight-2201-50",
+      "status": "approved",
+      "sourceUrl": "https://www.watchfinder.com/sell-your-watch/enquiry/omega/planet-ocean/2201-50-00/3266",
+      "licenseRecord": "Direct founder answer call_9cf5b5975350468280654167fbdffa70: Rights cover all eight and derivatives; no restrictions. Record docs/PHOTOGRAPHY_WATCHFINDER_EIGHT_RIGHTS_2026-10-23.json. Untouched RAW SHA256 21011151302a944abae33503f885031c1cdfe617d42a58ebbb038fab2938b096. Full watch, source/configuration and final1200whiteWEB individually reviewed; all archival readbacks matched. Classical exterior filled silhouette. Original interior RGB retained; no generated, reconstructed, recolored or sharpened watch detail. Proportional resize and centered2400 white master/1200WEB. No price, availability or new alloy grade inferred. Preserved RAW file: 16v8gF9SiIvyQRY1CV-yW2Q-_DoIMNvU5. Pictured full reference 2201.50.00; Stainless Steel, Black, Stainless-steel bracelet. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
     },
     {
       "brand": "Omega",
@@ -8574,26 +8576,28 @@
           "movement": "Calibre 8500 Co-Axial automatic",
           "dial": "Black",
           "bracelet": "Stainless-steel bracelet",
-          "waterResistance": "600 m"
+          "waterResistance": "600 m",
+          "nickname": "Black / Stainless-steel bracelet",
+          "originalMSRP": null,
+          "currentMSRP": null
         }
       ],
       "material": "Stainless Steel",
       "sources": [
-        "src/data/collectionRegistry.ts",
-        "src/data/reference-expansion.ts"
+        "src/data/collectionRegistry.ts"
       ],
       "routes": [
         "/collections/omega/planet-ocean/232-30-42-21-01-001"
       ],
       "scope": "built-reference",
-      "existingImage": "/images/watch-reference-placeholder.svg",
+      "existingImage": "/images/watches/omega/reviewed-232-30-42-21-01-001-20261023-web.webp",
       "existingImageFilePresent": true,
-      "photoAssetId": null,
-      "status": "Requires Verification",
-      "sourceUrl": null,
-      "licenseRecord": null,
-      "websiteApproved": false,
-      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+      "photoAssetId": "cleared-20261023-eight-232-30-42-21-01-001",
+      "status": "approved",
+      "sourceUrl": "https://www.watchfinder.com/sell-your-watch/enquiry/omega/planet-ocean/232-30-42-21-01-001/22503",
+      "licenseRecord": "Direct founder answer call_9cf5b5975350468280654167fbdffa70: Rights cover all eight and derivatives; no restrictions. Record docs/PHOTOGRAPHY_WATCHFINDER_EIGHT_RIGHTS_2026-10-23.json. Untouched RAW SHA256 6eb1093395fc782ad217b504f1fbf1ba3370d96a5bfba063a497a242a761130b. Full watch, source/configuration and final1200whiteWEB individually reviewed; all archival readbacks matched. Classical exterior filled silhouette. Original interior RGB retained; no generated, reconstructed, recolored or sharpened watch detail. Proportional resize and centered2400 white master/1200WEB. No price, availability or new alloy grade inferred. Preserved RAW file: 1qcyPLuJ2UFEWTwOJH4lMwsFhzXrCNbqS. Pictured full reference 232.30.42.21.01.001; Stainless Steel, Black, Stainless-steel bracelet. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
     },
     {
       "brand": "Omega",
@@ -9815,25 +9819,31 @@
           "dial": "Black",
           "bracelet": "Rubber strap",
           "waterResistance": "300 m"
+        },
+        {
+          "dial": "Black",
+          "bracelet": "Black rubber strap",
+          "nickname": "Black / Black rubber strap",
+          "originalMSRP": null,
+          "currentMSRP": null
         }
       ],
       "material": "Stainless Steel",
       "sources": [
-        "src/data/collectionRegistry.ts",
-        "src/data/reference-expansion.ts"
+        "src/data/collectionRegistry.ts"
       ],
       "routes": [
         "/collections/panerai/submersible/pam00683"
       ],
       "scope": "built-reference",
-      "existingImage": "/images/watch-reference-placeholder.svg",
+      "existingImage": "/images/watches/panerai/reviewed-pam00683-20261023-web.webp",
       "existingImageFilePresent": true,
-      "photoAssetId": null,
-      "status": "Requires Verification",
-      "sourceUrl": null,
-      "licenseRecord": null,
-      "websiteApproved": false,
-      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+      "photoAssetId": "cleared-20261023-eight-pam00683",
+      "status": "approved",
+      "sourceUrl": "https://www.watchfinder.com/sell-your-watch/enquiry/panerai/submersible/pam00683/42373",
+      "licenseRecord": "Direct founder answer call_9cf5b5975350468280654167fbdffa70: Rights cover all eight and derivatives; no restrictions. Record docs/PHOTOGRAPHY_WATCHFINDER_EIGHT_RIGHTS_2026-10-23.json. Untouched RAW SHA256 8510c1d1109d9c702791c0a08c609641b4a27bb4ee3acab10ab35947432a5ea3. Full watch, source/configuration and final1200whiteWEB individually reviewed; all archival readbacks matched. Classical exterior filled silhouette. Original interior RGB retained; no generated, reconstructed, recolored or sharpened watch detail. Proportional resize and centered2400 white master/1200WEB. No price, availability or new alloy grade inferred. Preserved RAW file: 1zEl2bR6OTQRxOE9A52GNvjw4t1Zvl6uG. Pictured full reference PAM00683; Stainless Steel, Black, Black rubber strap. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
     },
     {
       "brand": "Panerai",
@@ -9846,25 +9856,31 @@
           "dial": "Black",
           "bracelet": "Rubber strap",
           "waterResistance": "300 m"
+        },
+        {
+          "dial": "Black",
+          "bracelet": "Black rubber strap",
+          "nickname": "Black / Black rubber strap",
+          "originalMSRP": null,
+          "currentMSRP": null
         }
       ],
       "material": "Titanium",
       "sources": [
-        "src/data/collectionRegistry.ts",
-        "src/data/reference-expansion.ts"
+        "src/data/collectionRegistry.ts"
       ],
       "routes": [
         "/collections/panerai/submersible/pam01305"
       ],
       "scope": "built-reference",
-      "existingImage": "/images/watch-reference-placeholder.svg",
+      "existingImage": "/images/watches/panerai/reviewed-pam01305-20261023-web.webp",
       "existingImageFilePresent": true,
-      "photoAssetId": null,
-      "status": "Requires Verification",
-      "sourceUrl": null,
-      "licenseRecord": null,
-      "websiteApproved": false,
-      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+      "photoAssetId": "cleared-20261023-eight-pam01305",
+      "status": "approved",
+      "sourceUrl": "https://www.watchfinder.com/sell-your-watch/enquiry/panerai/submersible/pam01305/35102",
+      "licenseRecord": "Direct founder answer call_9cf5b5975350468280654167fbdffa70: Rights cover all eight and derivatives; no restrictions. Record docs/PHOTOGRAPHY_WATCHFINDER_EIGHT_RIGHTS_2026-10-23.json. Untouched RAW SHA256 7902fe311d07310837703cd5d48e2bb4216f67e1b410ab09162057b6427a3e9d. Full watch, source/configuration and final1200whiteWEB individually reviewed; all archival readbacks matched. Classical exterior filled silhouette. Original interior RGB retained; no generated, reconstructed, recolored or sharpened watch detail. Proportional resize and centered2400 white master/1200WEB. No price, availability or new alloy grade inferred. Preserved RAW file: 1cMxiYolse3VPwU1x4hMen4JTIRUzbdwU. Pictured full reference PAM01305; Titanium, Black, Black rubber strap. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
     },
     {
       "brand": "Panerai",
@@ -9872,10 +9888,9 @@
       "reference": "PAM01616",
       "configurations": [
         {
-          "caseSize": "47 mm",
-          "movement": "Panerai P.9010 automatic",
-          "dial": "Black",
+          "dial": "Black with blue luminous markers",
           "bracelet": "Black rubber strap",
+          "nickname": "Black with blue luminous markers / Black rubber strap",
           "originalMSRP": null,
           "currentMSRP": null
         }
@@ -9883,20 +9898,20 @@
       "material": "Carbotech",
       "sources": [
         "src/data/collectionRegistry.ts",
-        "src/data/verified-catalog-expansion.ts"
+        "src/data/photography-expansion.ts"
       ],
       "routes": [
         "/collections/panerai/submersible/pam01616"
       ],
       "scope": "built-reference",
-      "existingImage": "/images/watch-reference-placeholder.svg",
+      "existingImage": "/images/watches/panerai/reviewed-pam01616-20261023-web.webp",
       "existingImageFilePresent": true,
-      "photoAssetId": null,
-      "status": "Requires Verification",
-      "sourceUrl": "https://www.panerai.com/content/dam/pan-assets/016-presskit/pdf/carbotech/PR_PANERAI_SUBMERSIBLE_CARBOTECH_PAM00960_PAM01616_ENG.pdf",
-      "licenseRecord": null,
-      "websiteApproved": false,
-      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+      "photoAssetId": "cleared-20261023-eight-pam01616",
+      "status": "approved",
+      "sourceUrl": "https://www.watchfinder.com/sell-your-watch/enquiry/panerai/submersible/pam01616/40277",
+      "licenseRecord": "Direct founder answer call_9cf5b5975350468280654167fbdffa70: Rights cover all eight and derivatives; no restrictions. Record docs/PHOTOGRAPHY_WATCHFINDER_EIGHT_RIGHTS_2026-10-23.json. Untouched RAW SHA256 c31b89e0c1bedda07708f0b198bcd8a1e99ba2101409be80fb37ab4bde48fe29. Full watch, source/configuration and final1200whiteWEB individually reviewed; all archival readbacks matched. Classical exterior filled silhouette. Original interior RGB retained; no generated, reconstructed, recolored or sharpened watch detail. Proportional resize and centered2400 white master/1200WEB. No price, availability or new alloy grade inferred. Preserved RAW file: 1xzPlteJlM811G4SaID2y9lbL6rjSp881. Pictured full reference PAM01616; Carbotech, Black with blue luminous markers, Black rubber strap. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
     },
     {
       "brand": "Tudor",
@@ -10854,10 +10869,9 @@
       "reference": "BR0192-REDRADAR",
       "configurations": [
         {
-          "caseSize": "46 mm",
-          "movement": "Automatic mechanical",
-          "dial": "Red Radar specialty indicator",
-          "bracelet": "Model-specific strap",
+          "dial": "Red radar",
+          "bracelet": "Black rubber strap",
+          "nickname": "Red radar / Black rubber strap",
           "originalMSRP": null,
           "currentMSRP": null
         }
@@ -10865,20 +10879,20 @@
       "material": "Stainless Steel",
       "sources": [
         "src/data/collectionRegistry.ts",
-        "src/data/verified-catalog-expansion.ts"
+        "src/data/photography-expansion.ts"
       ],
       "routes": [
         "/collections/bell-and-ross/br-01/br0192-redradar"
       ],
       "scope": "built-reference",
-      "existingImage": "/images/watch-reference-placeholder.svg",
+      "existingImage": "/images/watches/bell-and-ross/reviewed-br0192-redradar-20261023-web.webp",
       "existingImageFilePresent": true,
-      "photoAssetId": null,
-      "status": "Requires Verification",
-      "sourceUrl": "https://www.bellross.com/jp/es/https%3A/www.bellross.com/index.php?product_id=309&route=product%2Fproduct",
-      "licenseRecord": null,
-      "websiteApproved": false,
-      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+      "photoAssetId": "cleared-20261023-eight-br0192-redradar",
+      "status": "approved",
+      "sourceUrl": "https://www.watchfinder.com/sell-your-watch/enquiry/bell-and-ross/br01-92/red-radar/22836",
+      "licenseRecord": "Direct founder answer call_9cf5b5975350468280654167fbdffa70: Rights cover all eight and derivatives; no restrictions. Record docs/PHOTOGRAPHY_WATCHFINDER_EIGHT_RIGHTS_2026-10-23.json. Untouched RAW SHA256 d9959c55738ed2435648194e344a281adafb0271a83f5295a4306144307f822d. Full watch, source/configuration and final1200whiteWEB individually reviewed; all archival readbacks matched. Classical exterior filled silhouette. Original interior RGB retained; no generated, reconstructed, recolored or sharpened watch detail. Proportional resize and centered2400 white master/1200WEB. No price, availability or new alloy grade inferred. Preserved RAW file: 1vacyRa4tF1--U3P7U69fii2QXCKXmf-B. Pictured full reference BR01-92 Red Radar; Stainless Steel, Red radar, Black rubber strap. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
     },
     {
       "brand": "Patek Philippe",
@@ -12293,25 +12307,31 @@
           "bracelet": "Black rubber strap",
           "originalMSRP": null,
           "currentMSRP": null
+        },
+        {
+          "dial": "Black-and-silver skeleton",
+          "bracelet": "Black perforated rubber strap",
+          "nickname": "Black-and-silver skeleton / Black perforated rubber strap",
+          "originalMSRP": null,
+          "currentMSRP": null
         }
       ],
       "material": "Black PVD steel",
       "sources": [
-        "src/data/collectionRegistry.ts",
-        "src/data/verified-catalog-expansion.ts"
+        "src/data/collectionRegistry.ts"
       ],
       "routes": [
         "/collections/tag-heuer/carrera/car2a1z-ft6044"
       ],
       "scope": "built-reference",
-      "existingImage": "/images/watch-reference-placeholder.svg",
+      "existingImage": "/images/watches/tag-heuer/reviewed-car2a1z-ft6044-20261023-web.webp",
       "existingImageFilePresent": true,
-      "photoAssetId": null,
-      "status": "Requires Verification",
-      "sourceUrl": "https://www.tagheuer.com/us/en/timepieces/collections/tag-heuer-carrera/45-mm-calibre-heuer01-automatic/CAR2A1Z.FT6044.html",
-      "licenseRecord": null,
-      "websiteApproved": false,
-      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+      "photoAssetId": "cleared-20261023-eight-car2a1z-ft6044",
+      "status": "approved",
+      "sourceUrl": "https://www.watchfinder.com/sell-your-watch/enquiry/tag-heuer/carrera/car2a1z-ft6044/29627",
+      "licenseRecord": "Direct founder answer call_9cf5b5975350468280654167fbdffa70: Rights cover all eight and derivatives; no restrictions. Record docs/PHOTOGRAPHY_WATCHFINDER_EIGHT_RIGHTS_2026-10-23.json. Untouched RAW SHA256 cf41c9023f6019c5551224d870ff8ba213d28658d471e3c61b1aa5f31d4eb270. Full watch, source/configuration and final1200whiteWEB individually reviewed; all archival readbacks matched. Classical exterior filled silhouette. Original interior RGB retained; no generated, reconstructed, recolored or sharpened watch detail. Proportional resize and centered2400 white master/1200WEB. No price, availability or new alloy grade inferred. Preserved RAW file: 1Lj9JnWWvZgDBryMmhbbwr5AXIhLYTMFJ. Pictured full reference CAR2A1Z.FT6044; Black PVD steel, Black-and-silver skeleton, Black perforated rubber strap. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
     },
     {
       "brand": "TAG Heuer",
@@ -12461,25 +12481,31 @@
           "bracelet": "Black coated nylon strap",
           "originalMSRP": null,
           "currentMSRP": null
+        },
+        {
+          "dial": "Black",
+          "bracelet": "Black nylon fabric strap",
+          "nickname": "Black / Black nylon fabric strap",
+          "originalMSRP": null,
+          "currentMSRP": null
         }
       ],
       "material": "Black Ceramic",
       "sources": [
-        "src/data/collectionRegistry.ts",
-        "src/data/verified-catalog-expansion.ts"
+        "src/data/collectionRegistry.ts"
       ],
       "routes": [
         "/collections/omega/dark-side-of-the-moon/311-92-44-51-01-003"
       ],
       "scope": "built-reference",
-      "existingImage": "/images/watch-reference-placeholder.svg",
+      "existingImage": "/images/watches/omega/reviewed-311-92-44-51-01-003-20261023-web.webp",
       "existingImageFilePresent": true,
-      "photoAssetId": null,
-      "status": "Requires Verification",
-      "sourceUrl": "https://www.omegawatches.com.hk/media/pdf/watches/product-sheet/hk/zh-hant-hk/31192445101003-zh-hant-hk.pdf",
-      "licenseRecord": null,
-      "websiteApproved": false,
-      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+      "photoAssetId": "cleared-20261023-eight-311-92-44-51-01-003",
+      "status": "approved",
+      "sourceUrl": "https://www.watchfinder.com/sell-your-watch/enquiry/omega/speedmaster-dark-side-of-the-moon/311-92-44-51-01-003/24391",
+      "licenseRecord": "Direct founder answer call_9cf5b5975350468280654167fbdffa70: Rights cover all eight and derivatives; no restrictions. Record docs/PHOTOGRAPHY_WATCHFINDER_EIGHT_RIGHTS_2026-10-23.json. Untouched RAW SHA256 3b6888f8f85d7384e846795937dafeeadd07c312ca9fe17852b3164f88c3668b. Full watch, source/configuration and final1200whiteWEB individually reviewed; all archival readbacks matched. Classical exterior filled silhouette. Original interior RGB retained; no generated, reconstructed, recolored or sharpened watch detail. Proportional resize and centered2400 white master/1200WEB. No price, availability or new alloy grade inferred. Preserved RAW file: 1QG6lrVVpmDW6wg_36ZFlVlSAzwtYuzuA. Pictured full reference 311.92.44.51.01.003; Black Ceramic, Black, Black nylon fabric strap. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
     },
     {
       "brand": "Franck Muller",
@@ -19197,6 +19223,182 @@
       "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
     },
     {
+      "brand": "Panerai",
+      "collection": "Submersible",
+      "reference": "PAM00683",
+      "configurations": [],
+      "material": "Stainless Steel",
+      "sources": [
+        "src/data/photography-cleared-sprint.ts"
+      ],
+      "routes": [
+        "/collections/panerai/submersible/pam00683"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": null,
+      "status": "Requires Verification",
+      "sourceUrl": null,
+      "licenseRecord": null,
+      "websiteApproved": false,
+      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+    },
+    {
+      "brand": "Panerai",
+      "collection": "Submersible",
+      "reference": "PAM01305",
+      "configurations": [],
+      "material": "Titanium",
+      "sources": [
+        "src/data/photography-cleared-sprint.ts"
+      ],
+      "routes": [
+        "/collections/panerai/submersible/pam01305"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": null,
+      "status": "Requires Verification",
+      "sourceUrl": null,
+      "licenseRecord": null,
+      "websiteApproved": false,
+      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+    },
+    {
+      "brand": "Panerai",
+      "collection": "Submersible",
+      "reference": "PAM01616",
+      "configurations": [],
+      "material": "Carbotech",
+      "sources": [
+        "src/data/photography-cleared-sprint.ts"
+      ],
+      "routes": [
+        "/collections/panerai/submersible/pam01616"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": null,
+      "status": "Requires Verification",
+      "sourceUrl": null,
+      "licenseRecord": null,
+      "websiteApproved": false,
+      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+    },
+    {
+      "brand": "TAG Heuer",
+      "collection": "Carrera",
+      "reference": "CAR2A1Z.FT6044",
+      "configurations": [],
+      "material": "Black PVD steel",
+      "sources": [
+        "src/data/photography-cleared-sprint.ts"
+      ],
+      "routes": [
+        "/collections/tag-heuer/carrera/car2a1z-ft6044"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": null,
+      "status": "Requires Verification",
+      "sourceUrl": null,
+      "licenseRecord": null,
+      "websiteApproved": false,
+      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+    },
+    {
+      "brand": "Omega",
+      "collection": "Seamaster Planet Ocean",
+      "reference": "2201.50",
+      "configurations": [],
+      "material": "Stainless Steel",
+      "sources": [
+        "src/data/photography-cleared-sprint.ts"
+      ],
+      "routes": [
+        "/collections/omega/planet-ocean/2201-50"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": null,
+      "status": "Requires Verification",
+      "sourceUrl": null,
+      "licenseRecord": null,
+      "websiteApproved": false,
+      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+    },
+    {
+      "brand": "Omega",
+      "collection": "Seamaster Planet Ocean",
+      "reference": "232.30.42.21.01.001",
+      "configurations": [],
+      "material": "Stainless Steel",
+      "sources": [
+        "src/data/photography-cleared-sprint.ts"
+      ],
+      "routes": [
+        "/collections/omega/planet-ocean/232-30-42-21-01-001"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": null,
+      "status": "Requires Verification",
+      "sourceUrl": null,
+      "licenseRecord": null,
+      "websiteApproved": false,
+      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+    },
+    {
+      "brand": "Omega",
+      "collection": "Speedmaster Dark Side of the Moon",
+      "reference": "311.92.44.51.01.003",
+      "configurations": [],
+      "material": "Black Ceramic",
+      "sources": [
+        "src/data/photography-cleared-sprint.ts"
+      ],
+      "routes": [
+        "/collections/omega/dark-side-of-the-moon/311-92-44-51-01-003"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": null,
+      "status": "Requires Verification",
+      "sourceUrl": null,
+      "licenseRecord": null,
+      "websiteApproved": false,
+      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+    },
+    {
+      "brand": "Bell & Ross",
+      "collection": "BR 01",
+      "reference": "BR0192-REDRADAR",
+      "configurations": [],
+      "material": "Stainless Steel",
+      "sources": [
+        "src/data/photography-cleared-sprint.ts"
+      ],
+      "routes": [
+        "/collections/bell-and-ross/br-01/br0192-redradar"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": null,
+      "status": "Requires Verification",
+      "sourceUrl": null,
+      "licenseRecord": null,
+      "websiteApproved": false,
+      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+    },
+    {
       "brand": "Breitling",
       "collection": "Superocean",
       "reference": "A17376211B1A1",
@@ -23707,6 +23909,186 @@
       "nextAction": "Retain approved original and verify derivative integrity."
     },
     {
+      "brand": "Panerai",
+      "collection": "Submersible",
+      "reference": "PAM00683",
+      "configurations": [
+        {
+          "dial": "Black",
+          "bracelet": "Black rubber strap",
+          "nickname": "Black / Black rubber strap",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "Stainless Steel",
+      "sources": [
+        "src/data/photography-expansion.ts"
+      ],
+      "routes": [
+        "/collections/panerai/submersible/pam00683"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": "cleared-20261023-eight-pam00683",
+      "status": "approved",
+      "sourceUrl": "https://www.watchfinder.com/sell-your-watch/enquiry/panerai/submersible/pam00683/42373",
+      "licenseRecord": "Direct founder answer call_9cf5b5975350468280654167fbdffa70: Rights cover all eight and derivatives; no restrictions. Record docs/PHOTOGRAPHY_WATCHFINDER_EIGHT_RIGHTS_2026-10-23.json. Untouched RAW SHA256 8510c1d1109d9c702791c0a08c609641b4a27bb4ee3acab10ab35947432a5ea3. Full watch, source/configuration and final1200whiteWEB individually reviewed; all archival readbacks matched. Classical exterior filled silhouette. Original interior RGB retained; no generated, reconstructed, recolored or sharpened watch detail. Proportional resize and centered2400 white master/1200WEB. No price, availability or new alloy grade inferred. Preserved RAW file: 1zEl2bR6OTQRxOE9A52GNvjw4t1Zvl6uG. Pictured full reference PAM00683; Stainless Steel, Black, Black rubber strap. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
+      "brand": "Panerai",
+      "collection": "Submersible",
+      "reference": "PAM01305",
+      "configurations": [
+        {
+          "dial": "Black",
+          "bracelet": "Black rubber strap",
+          "nickname": "Black / Black rubber strap",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "Titanium",
+      "sources": [
+        "src/data/photography-expansion.ts"
+      ],
+      "routes": [
+        "/collections/panerai/submersible/pam01305"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": "cleared-20261023-eight-pam01305",
+      "status": "approved",
+      "sourceUrl": "https://www.watchfinder.com/sell-your-watch/enquiry/panerai/submersible/pam01305/35102",
+      "licenseRecord": "Direct founder answer call_9cf5b5975350468280654167fbdffa70: Rights cover all eight and derivatives; no restrictions. Record docs/PHOTOGRAPHY_WATCHFINDER_EIGHT_RIGHTS_2026-10-23.json. Untouched RAW SHA256 7902fe311d07310837703cd5d48e2bb4216f67e1b410ab09162057b6427a3e9d. Full watch, source/configuration and final1200whiteWEB individually reviewed; all archival readbacks matched. Classical exterior filled silhouette. Original interior RGB retained; no generated, reconstructed, recolored or sharpened watch detail. Proportional resize and centered2400 white master/1200WEB. No price, availability or new alloy grade inferred. Preserved RAW file: 1cMxiYolse3VPwU1x4hMen4JTIRUzbdwU. Pictured full reference PAM01305; Titanium, Black, Black rubber strap. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
+      "brand": "TAG Heuer",
+      "collection": "Carrera",
+      "reference": "CAR2A1Z.FT6044",
+      "configurations": [
+        {
+          "dial": "Black-and-silver skeleton",
+          "bracelet": "Black perforated rubber strap",
+          "nickname": "Black-and-silver skeleton / Black perforated rubber strap",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "Black PVD steel",
+      "sources": [
+        "src/data/photography-expansion.ts"
+      ],
+      "routes": [
+        "/collections/tag-heuer/carrera/car2a1z-ft6044"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": "cleared-20261023-eight-car2a1z-ft6044",
+      "status": "approved",
+      "sourceUrl": "https://www.watchfinder.com/sell-your-watch/enquiry/tag-heuer/carrera/car2a1z-ft6044/29627",
+      "licenseRecord": "Direct founder answer call_9cf5b5975350468280654167fbdffa70: Rights cover all eight and derivatives; no restrictions. Record docs/PHOTOGRAPHY_WATCHFINDER_EIGHT_RIGHTS_2026-10-23.json. Untouched RAW SHA256 cf41c9023f6019c5551224d870ff8ba213d28658d471e3c61b1aa5f31d4eb270. Full watch, source/configuration and final1200whiteWEB individually reviewed; all archival readbacks matched. Classical exterior filled silhouette. Original interior RGB retained; no generated, reconstructed, recolored or sharpened watch detail. Proportional resize and centered2400 white master/1200WEB. No price, availability or new alloy grade inferred. Preserved RAW file: 1Lj9JnWWvZgDBryMmhbbwr5AXIhLYTMFJ. Pictured full reference CAR2A1Z.FT6044; Black PVD steel, Black-and-silver skeleton, Black perforated rubber strap. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
+      "brand": "Omega",
+      "collection": "Seamaster Planet Ocean",
+      "reference": "2201.50",
+      "configurations": [
+        {
+          "dial": "Black",
+          "bracelet": "Stainless-steel bracelet",
+          "nickname": "Black / Stainless-steel bracelet",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "Stainless Steel",
+      "sources": [
+        "src/data/photography-expansion.ts"
+      ],
+      "routes": [
+        "/collections/omega/planet-ocean/2201-50"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": "cleared-20261023-eight-2201-50",
+      "status": "approved",
+      "sourceUrl": "https://www.watchfinder.com/sell-your-watch/enquiry/omega/planet-ocean/2201-50-00/3266",
+      "licenseRecord": "Direct founder answer call_9cf5b5975350468280654167fbdffa70: Rights cover all eight and derivatives; no restrictions. Record docs/PHOTOGRAPHY_WATCHFINDER_EIGHT_RIGHTS_2026-10-23.json. Untouched RAW SHA256 21011151302a944abae33503f885031c1cdfe617d42a58ebbb038fab2938b096. Full watch, source/configuration and final1200whiteWEB individually reviewed; all archival readbacks matched. Classical exterior filled silhouette. Original interior RGB retained; no generated, reconstructed, recolored or sharpened watch detail. Proportional resize and centered2400 white master/1200WEB. No price, availability or new alloy grade inferred. Preserved RAW file: 16v8gF9SiIvyQRY1CV-yW2Q-_DoIMNvU5. Pictured full reference 2201.50.00; Stainless Steel, Black, Stainless-steel bracelet. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
+      "brand": "Omega",
+      "collection": "Seamaster Planet Ocean",
+      "reference": "232.30.42.21.01.001",
+      "configurations": [
+        {
+          "dial": "Black",
+          "bracelet": "Stainless-steel bracelet",
+          "nickname": "Black / Stainless-steel bracelet",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "Stainless Steel",
+      "sources": [
+        "src/data/photography-expansion.ts"
+      ],
+      "routes": [
+        "/collections/omega/planet-ocean/232-30-42-21-01-001"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": "cleared-20261023-eight-232-30-42-21-01-001",
+      "status": "approved",
+      "sourceUrl": "https://www.watchfinder.com/sell-your-watch/enquiry/omega/planet-ocean/232-30-42-21-01-001/22503",
+      "licenseRecord": "Direct founder answer call_9cf5b5975350468280654167fbdffa70: Rights cover all eight and derivatives; no restrictions. Record docs/PHOTOGRAPHY_WATCHFINDER_EIGHT_RIGHTS_2026-10-23.json. Untouched RAW SHA256 6eb1093395fc782ad217b504f1fbf1ba3370d96a5bfba063a497a242a761130b. Full watch, source/configuration and final1200whiteWEB individually reviewed; all archival readbacks matched. Classical exterior filled silhouette. Original interior RGB retained; no generated, reconstructed, recolored or sharpened watch detail. Proportional resize and centered2400 white master/1200WEB. No price, availability or new alloy grade inferred. Preserved RAW file: 1qcyPLuJ2UFEWTwOJH4lMwsFhzXrCNbqS. Pictured full reference 232.30.42.21.01.001; Stainless Steel, Black, Stainless-steel bracelet. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
+      "brand": "Omega",
+      "collection": "Speedmaster Dark Side of the Moon",
+      "reference": "311.92.44.51.01.003",
+      "configurations": [
+        {
+          "dial": "Black",
+          "bracelet": "Black nylon fabric strap",
+          "nickname": "Black / Black nylon fabric strap",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "Black Ceramic",
+      "sources": [
+        "src/data/photography-expansion.ts"
+      ],
+      "routes": [
+        "/collections/omega/dark-side-of-the-moon/311-92-44-51-01-003"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": "cleared-20261023-eight-311-92-44-51-01-003",
+      "status": "approved",
+      "sourceUrl": "https://www.watchfinder.com/sell-your-watch/enquiry/omega/speedmaster-dark-side-of-the-moon/311-92-44-51-01-003/24391",
+      "licenseRecord": "Direct founder answer call_9cf5b5975350468280654167fbdffa70: Rights cover all eight and derivatives; no restrictions. Record docs/PHOTOGRAPHY_WATCHFINDER_EIGHT_RIGHTS_2026-10-23.json. Untouched RAW SHA256 3b6888f8f85d7384e846795937dafeeadd07c312ca9fe17852b3164f88c3668b. Full watch, source/configuration and final1200whiteWEB individually reviewed; all archival readbacks matched. Classical exterior filled silhouette. Original interior RGB retained; no generated, reconstructed, recolored or sharpened watch detail. Proportional resize and centered2400 white master/1200WEB. No price, availability or new alloy grade inferred. Preserved RAW file: 1QG6lrVVpmDW6wg_36ZFlVlSAzwtYuzuA. Pictured full reference 311.92.44.51.01.003; Black Ceramic, Black, Black nylon fabric strap. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
       "brand": "Rolex",
       "collection": "Submariner",
       "reference": "126613LB",
@@ -24443,6 +24825,66 @@
     },
     {
       "brand": "Omega",
+      "collection": "Seamaster Planet Ocean",
+      "reference": "2201.50",
+      "configurations": [
+        {
+          "caseSize": "42 mm",
+          "movement": "Calibre 2500 Co-Axial automatic",
+          "dial": "Black",
+          "bracelet": "Stainless-steel bracelet",
+          "waterResistance": "600 m"
+        }
+      ],
+      "material": "Stainless Steel",
+      "sources": [
+        "src/data/reference-expansion.ts"
+      ],
+      "routes": [
+        "/collections/omega/planet-ocean/2201-50"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": "cleared-20261023-eight-2201-50",
+      "status": "approved",
+      "sourceUrl": "https://www.watchfinder.com/sell-your-watch/enquiry/omega/planet-ocean/2201-50-00/3266",
+      "licenseRecord": "Direct founder answer call_9cf5b5975350468280654167fbdffa70: Rights cover all eight and derivatives; no restrictions. Record docs/PHOTOGRAPHY_WATCHFINDER_EIGHT_RIGHTS_2026-10-23.json. Untouched RAW SHA256 21011151302a944abae33503f885031c1cdfe617d42a58ebbb038fab2938b096. Full watch, source/configuration and final1200whiteWEB individually reviewed; all archival readbacks matched. Classical exterior filled silhouette. Original interior RGB retained; no generated, reconstructed, recolored or sharpened watch detail. Proportional resize and centered2400 white master/1200WEB. No price, availability or new alloy grade inferred. Preserved RAW file: 16v8gF9SiIvyQRY1CV-yW2Q-_DoIMNvU5. Pictured full reference 2201.50.00; Stainless Steel, Black, Stainless-steel bracelet. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
+      "brand": "Omega",
+      "collection": "Seamaster Planet Ocean",
+      "reference": "232.30.42.21.01.001",
+      "configurations": [
+        {
+          "caseSize": "42 mm",
+          "movement": "Calibre 8500 Co-Axial automatic",
+          "dial": "Black",
+          "bracelet": "Stainless-steel bracelet",
+          "waterResistance": "600 m"
+        }
+      ],
+      "material": "Stainless Steel",
+      "sources": [
+        "src/data/reference-expansion.ts"
+      ],
+      "routes": [
+        "/collections/omega/planet-ocean/232-30-42-21-01-001"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": "cleared-20261023-eight-232-30-42-21-01-001",
+      "status": "approved",
+      "sourceUrl": "https://www.watchfinder.com/sell-your-watch/enquiry/omega/planet-ocean/232-30-42-21-01-001/22503",
+      "licenseRecord": "Direct founder answer call_9cf5b5975350468280654167fbdffa70: Rights cover all eight and derivatives; no restrictions. Record docs/PHOTOGRAPHY_WATCHFINDER_EIGHT_RIGHTS_2026-10-23.json. Untouched RAW SHA256 6eb1093395fc782ad217b504f1fbf1ba3370d96a5bfba063a497a242a761130b. Full watch, source/configuration and final1200whiteWEB individually reviewed; all archival readbacks matched. Classical exterior filled silhouette. Original interior RGB retained; no generated, reconstructed, recolored or sharpened watch detail. Proportional resize and centered2400 white master/1200WEB. No price, availability or new alloy grade inferred. Preserved RAW file: 1qcyPLuJ2UFEWTwOJH4lMwsFhzXrCNbqS. Pictured full reference 232.30.42.21.01.001; Stainless Steel, Black, Stainless-steel bracelet. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
+      "brand": "Omega",
       "collection": "Aqua Terra",
       "reference": "220.12.41.21.03.002",
       "configurations": [
@@ -24981,6 +25423,66 @@
       ],
       "routes": [
         "/collections/patek-philippe/cubitus/cubitus-grand-date"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": null,
+      "status": "Requires Verification",
+      "sourceUrl": null,
+      "licenseRecord": null,
+      "websiteApproved": false,
+      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+    },
+    {
+      "brand": "Panerai",
+      "collection": "Submersible",
+      "reference": "PAM00683",
+      "configurations": [
+        {
+          "caseSize": "42 mm",
+          "movement": "Automatic",
+          "dial": "Black",
+          "bracelet": "Rubber strap",
+          "waterResistance": "300 m"
+        }
+      ],
+      "material": "Stainless Steel",
+      "sources": [
+        "src/data/reference-expansion.ts"
+      ],
+      "routes": [
+        "/collections/panerai/submersible/pam00683"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": null,
+      "status": "Requires Verification",
+      "sourceUrl": null,
+      "licenseRecord": null,
+      "websiteApproved": false,
+      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+    },
+    {
+      "brand": "Panerai",
+      "collection": "Submersible",
+      "reference": "PAM01305",
+      "configurations": [
+        {
+          "caseSize": "47 mm",
+          "movement": "Automatic",
+          "dial": "Black",
+          "bracelet": "Rubber strap",
+          "waterResistance": "300 m"
+        }
+      ],
+      "material": "Titanium",
+      "sources": [
+        "src/data/reference-expansion.ts"
+      ],
+      "routes": [
+        "/collections/panerai/submersible/pam01305"
       ],
       "scope": "built-reference",
       "existingImage": null,
@@ -29094,6 +29596,37 @@
       "nextAction": "Retain approved original and verify derivative integrity."
     },
     {
+      "brand": "Panerai",
+      "collection": "Submersible",
+      "reference": "PAM01616",
+      "configurations": [
+        {
+          "caseSize": "47 mm",
+          "movement": "Panerai P.9010 automatic",
+          "dial": "Black",
+          "bracelet": "Black rubber strap",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "Carbotech",
+      "sources": [
+        "src/data/verified-catalog-expansion.ts"
+      ],
+      "routes": [
+        "/collections/panerai/submersible/pam01616"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": null,
+      "status": "Requires Verification",
+      "sourceUrl": "https://www.panerai.com/content/dam/pan-assets/016-presskit/pdf/carbotech/PR_PANERAI_SUBMERSIBLE_CARBOTECH_PAM00960_PAM01616_ENG.pdf",
+      "licenseRecord": null,
+      "websiteApproved": false,
+      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+    },
+    {
       "brand": "Bell & Ross",
       "collection": "BR 01",
       "reference": "BR0192-COMPASS-CA",
@@ -29123,6 +29656,68 @@
       "licenseRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for these exact 35 originals and their white-background derivatives, with no additional restrictions, in the existing Website/Product chat on October 14, 2026. Record docs/PHOTOGRAPHY_ADDITIONAL35_FOUNDER_RIGHTS_2026-10-14.json. Exact configuration, authentic RAW and full-resolution derivative visually reviewed; source credits retained separately. Preserved RAW file: 10B-tgwcz2n1UZmfNnWqbB1iiPQDxGp4-. Pictured full reference BR0192-COMPASS-CA; Black PVD steel, Instrument-style Compass, Black strap. Exact configuration reviewed against preserved source evidence and the original photograph.",
       "websiteApproved": true,
       "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
+      "brand": "Bell & Ross",
+      "collection": "BR 01",
+      "reference": "BR0192-REDRADAR",
+      "configurations": [
+        {
+          "caseSize": "46 mm",
+          "movement": "Automatic mechanical",
+          "dial": "Red Radar specialty indicator",
+          "bracelet": "Model-specific strap",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "Stainless Steel",
+      "sources": [
+        "src/data/verified-catalog-expansion.ts"
+      ],
+      "routes": [
+        "/collections/bell-and-ross/br-01/br0192-redradar"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": null,
+      "status": "Requires Verification",
+      "sourceUrl": "https://www.bellross.com/jp/es/https%3A/www.bellross.com/index.php?product_id=309&route=product%2Fproduct",
+      "licenseRecord": null,
+      "websiteApproved": false,
+      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+    },
+    {
+      "brand": "TAG Heuer",
+      "collection": "Carrera",
+      "reference": "CAR2A1Z.FT6044",
+      "configurations": [
+        {
+          "caseSize": "45 mm",
+          "movement": "Calibre Heuer 01 automatic",
+          "dial": "Black",
+          "bracelet": "Black rubber strap",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "Black PVD steel",
+      "sources": [
+        "src/data/verified-catalog-expansion.ts"
+      ],
+      "routes": [
+        "/collections/tag-heuer/carrera/car2a1z-ft6044"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": null,
+      "status": "Requires Verification",
+      "sourceUrl": "https://www.tagheuer.com/us/en/timepieces/collections/tag-heuer-carrera/45-mm-calibre-heuer01-automatic/CAR2A1Z.FT6044.html",
+      "licenseRecord": null,
+      "websiteApproved": false,
+      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
     },
     {
       "brand": "TAG Heuer",
@@ -29216,6 +29811,37 @@
       "licenseRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for these exact 35 originals and their white-background derivatives, with no additional restrictions, in the existing Website/Product chat on October 14, 2026. Record docs/PHOTOGRAPHY_ADDITIONAL35_FOUNDER_RIGHTS_2026-10-14.json. Exact configuration, authentic RAW and full-resolution derivative visually reviewed; source credits retained separately. Preserved RAW file: 1vJawZGfsX75TBXXQKDSUzsS-mTipohHL. Pictured full reference 310.92.44.50.01.001; Black Ceramic, Skeletonized, Black rubber strap. Exact configuration reviewed against preserved source evidence and the original photograph.",
       "websiteApproved": true,
       "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
+      "brand": "Omega",
+      "collection": "Speedmaster Dark Side of the Moon",
+      "reference": "311.92.44.51.01.003",
+      "configurations": [
+        {
+          "caseSize": "44.25 mm",
+          "movement": "Omega 9300 automatic chronograph",
+          "dial": "Black",
+          "bracelet": "Black coated nylon strap",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "Black Ceramic",
+      "sources": [
+        "src/data/verified-catalog-expansion.ts"
+      ],
+      "routes": [
+        "/collections/omega/dark-side-of-the-moon/311-92-44-51-01-003"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": null,
+      "status": "Requires Verification",
+      "sourceUrl": "https://www.omegawatches.com.hk/media/pdf/watches/product-sheet/hk/zh-hant-hk/31192445101003-zh-hant-hk.pdf",
+      "licenseRecord": null,
+      "websiteApproved": false,
+      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
     },
     {
       "brand": "Omega",

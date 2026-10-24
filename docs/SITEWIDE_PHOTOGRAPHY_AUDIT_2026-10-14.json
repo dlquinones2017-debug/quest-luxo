@@ -1,14 +1,14 @@
 {
-  "auditedAt": "2026-10-24T00:40:43.822Z",
+  "auditedAt": "2026-10-24T00:56:44.566Z",
   "summary": {
     "brands": 23,
     "collections": 104,
     "registryRecords": 298,
     "distinctRoutes": 297,
     "normalizedBrandReferenceIdentities": 294,
-    "approved": 251,
-    "missing": 46,
-    "collectionsWithPhotography": 88,
+    "approved": 259,
+    "missing": 38,
+    "collectionsWithPhotography": 90,
     "unusedApprovedRecords": 2,
     "duplicateNormalizedReferenceGroups": 4,
     "fileIntegrityFailures": 0,
@@ -35,8 +35,8 @@
       "brand": "Bell & Ross",
       "registryRecords": 4,
       "referencePages": 4,
-      "approved": 3,
-      "missing": 1,
+      "approved": 4,
+      "missing": 0,
       "collections": 2
     },
     {
@@ -123,16 +123,16 @@
       "brand": "Omega",
       "registryRecords": 71,
       "referencePages": 71,
-      "approved": 60,
-      "missing": 11,
+      "approved": 63,
+      "missing": 8,
       "collections": 11
     },
     {
       "brand": "Panerai",
       "registryRecords": 6,
       "referencePages": 6,
-      "approved": 2,
-      "missing": 4,
+      "approved": 5,
+      "missing": 1,
       "collections": 4
     },
     {
@@ -163,8 +163,8 @@
       "brand": "TAG Heuer",
       "registryRecords": 2,
       "referencePages": 2,
-      "approved": 1,
-      "missing": 1,
+      "approved": 2,
+      "missing": 0,
       "collections": 2
     },
     {
@@ -4796,11 +4796,18 @@
           "movement": "Calibre 2500 Co-Axial automatic",
           "dial": "Black",
           "bracelet": "Stainless-steel bracelet",
-          "waterResistance": "600 m"
+          "waterResistance": "600 m",
+          "nickname": "Black / Stainless-steel bracelet",
+          "originalMSRP": null,
+          "currentMSRP": null
         }
       ],
-      "approved": false,
-      "photo": null,
+      "approved": true,
+      "photo": {
+        "assetId": "cleared-20261023-eight-2201-50",
+        "src": "/images/watches/omega/reviewed-2201-50-20261023-web.webp",
+        "sha256": "f4e36c17d495ae6ef138cb8bd80dd9e3a88ad4f9ea4bd5b39ee7aa2055350699"
+      },
       "recoveryCandidates": []
     },
     {
@@ -4817,11 +4824,18 @@
           "movement": "Calibre 8500 Co-Axial automatic",
           "dial": "Black",
           "bracelet": "Stainless-steel bracelet",
-          "waterResistance": "600 m"
+          "waterResistance": "600 m",
+          "nickname": "Black / Stainless-steel bracelet",
+          "originalMSRP": null,
+          "currentMSRP": null
         }
       ],
-      "approved": false,
-      "photo": null,
+      "approved": true,
+      "photo": {
+        "assetId": "cleared-20261023-eight-232-30-42-21-01-001",
+        "src": "/images/watches/omega/reviewed-232-30-42-21-01-001-20261023-web.webp",
+        "sha256": "2d4c113d9674f3e15689cde5986480c19e1c514e651cb8adebaf4b3373de2d11"
+      },
       "recoveryCandidates": []
     },
     {
@@ -5848,10 +5862,21 @@
           "dial": "Black",
           "bracelet": "Rubber strap",
           "waterResistance": "300 m"
+        },
+        {
+          "dial": "Black",
+          "bracelet": "Black rubber strap",
+          "nickname": "Black / Black rubber strap",
+          "originalMSRP": null,
+          "currentMSRP": null
         }
       ],
-      "approved": false,
-      "photo": null,
+      "approved": true,
+      "photo": {
+        "assetId": "cleared-20261023-eight-pam00683",
+        "src": "/images/watches/panerai/reviewed-pam00683-20261023-web.webp",
+        "sha256": "f15abe04fb8dc2457046bf9423f15ad0337654314974464c3f51c03729995411"
+      },
       "recoveryCandidates": []
     },
     {
@@ -5869,10 +5894,21 @@
           "dial": "Black",
           "bracelet": "Rubber strap",
           "waterResistance": "300 m"
+        },
+        {
+          "dial": "Black",
+          "bracelet": "Black rubber strap",
+          "nickname": "Black / Black rubber strap",
+          "originalMSRP": null,
+          "currentMSRP": null
         }
       ],
-      "approved": false,
-      "photo": null,
+      "approved": true,
+      "photo": {
+        "assetId": "cleared-20261023-eight-pam01305",
+        "src": "/images/watches/panerai/reviewed-pam01305-20261023-web.webp",
+        "sha256": "8e9f44fa93de9af363065a3bc328921c676a5307ebde7ca80e764e649c95c460"
+      },
       "recoveryCandidates": []
     },
     {
@@ -5885,16 +5921,19 @@
       "material": "Carbotech",
       "configurations": [
         {
-          "caseSize": "47 mm",
-          "movement": "Panerai P.9010 automatic",
-          "dial": "Black",
+          "dial": "Black with blue luminous markers",
           "bracelet": "Black rubber strap",
+          "nickname": "Black with blue luminous markers / Black rubber strap",
           "originalMSRP": null,
           "currentMSRP": null
         }
       ],
-      "approved": false,
-      "photo": null,
+      "approved": true,
+      "photo": {
+        "assetId": "cleared-20261023-eight-pam01616",
+        "src": "/images/watches/panerai/reviewed-pam01616-20261023-web.webp",
+        "sha256": "22e4dfc4810f73d590d6e3c007778e3fce07353b9e01b28b6c8d7ab97056c87c"
+      },
       "recoveryCandidates": []
     },
     {
@@ -6672,16 +6711,19 @@
       "material": "Stainless Steel",
       "configurations": [
         {
-          "caseSize": "46 mm",
-          "movement": "Automatic mechanical",
-          "dial": "Red Radar specialty indicator",
-          "bracelet": "Model-specific strap",
+          "dial": "Red radar",
+          "bracelet": "Black rubber strap",
+          "nickname": "Red radar / Black rubber strap",
           "originalMSRP": null,
           "currentMSRP": null
         }
       ],
-      "approved": false,
-      "photo": null,
+      "approved": true,
+      "photo": {
+        "assetId": "cleared-20261023-eight-br0192-redradar",
+        "src": "/images/watches/bell-and-ross/reviewed-br0192-redradar-20261023-web.webp",
+        "sha256": "5e6cbc427ccce40320eb8335bc886776c7e21fcba4c2f92a436859a494ba97e3"
+      },
       "recoveryCandidates": []
     },
     {
@@ -7868,10 +7910,21 @@
           "bracelet": "Black rubber strap",
           "originalMSRP": null,
           "currentMSRP": null
+        },
+        {
+          "dial": "Black-and-silver skeleton",
+          "bracelet": "Black perforated rubber strap",
+          "nickname": "Black-and-silver skeleton / Black perforated rubber strap",
+          "originalMSRP": null,
+          "currentMSRP": null
         }
       ],
-      "approved": false,
-      "photo": null,
+      "approved": true,
+      "photo": {
+        "assetId": "cleared-20261023-eight-car2a1z-ft6044",
+        "src": "/images/watches/tag-heuer/reviewed-car2a1z-ft6044-20261023-web.webp",
+        "sha256": "b59cab6c44bd035fdd30bc7034724e9673fdb209496b8125b9d1a5b5ae305a2f"
+      },
       "recoveryCandidates": []
     },
     {
@@ -7996,10 +8049,21 @@
           "bracelet": "Black coated nylon strap",
           "originalMSRP": null,
           "currentMSRP": null
+        },
+        {
+          "dial": "Black",
+          "bracelet": "Black nylon fabric strap",
+          "nickname": "Black / Black nylon fabric strap",
+          "originalMSRP": null,
+          "currentMSRP": null
         }
       ],
-      "approved": false,
-      "photo": null,
+      "approved": true,
+      "photo": {
+        "assetId": "cleared-20261023-eight-311-92-44-51-01-003",
+        "src": "/images/watches/omega/reviewed-311-92-44-51-01-003-20261023-web.webp",
+        "sha256": "266a2d0d8fbee7ce5a4dabbc2b1914634e156801124de261c5f8a364ded72889"
+      },
       "recoveryCandidates": []
     },
     {

@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-10-24T00:43:02.888295+00:00",
+  "updatedAt": "2026-10-24T00:57:47.067998+00:00",
   "deadline": "2026-10-19T22:03:41-04:00",
   "objective": "Acquire authentic exact-reference photographs and populate every featured website reference without fabrication.",
   "worktree": "C:/Users/CAU Student/.codex/worktrees/launch-sprint/quest-luxo",
   "branch": "codex/launch-sprint",
-  "baselineMain": "497109853d22acaff532b71bfdb22bc9d5f807dd",
+  "baselineMain": "7fcbe2bdd1b480d91577b6fa84d6cd637329144a",
   "canonicalReferences": 297,
   "photographedReferences": 247,
   "queuedReferences": 50,
@@ -29,7 +29,7 @@
     "No invented specs, MSRP or availability"
   ],
   "clearance": "Direct founder answer call_24a179ab128748dbb94a78640e6a1543; docs/PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json; Drive1HFfmLAHtbf-YyK-66jhn025-qSpZ3ndZ",
-  "nextBatch": "Verify four-photo release LIVE,297routes and249distinct files. Update canonical master, queue and individual46gap report. Earlier clipped124300bytes, clipped16202ST and six unidentified uploads remain held.",
+  "nextBatch": "Verify eight-photo release LIVE,297routes and257distinct files. Update canonical master/queue and individual38gap report. Old clipped124300bytes and16202SToriginal remain held; six upload identities remain held. Continue all eligible sources.",
   "preparedPendingClearance": 0,
   "preparedDriveFiles": 465,
   "preparedManifest": "docs/ADDITIONAL_OMEGA_NAVITIMER_ARCHIVED_2026-10-14.json; docs/PRIMARY_FOUR_ARCHIVED_2026-10-14.json; docs/OMEGA_EXPANSION_ARCHIVED_WAVE_2026-10-14.json",
@@ -79,7 +79,7 @@
   "nextAcquisitionEvidence": "avenger-primary-acquisition.json; BREITLING_AVENGER_PREPARED_2026-10-15.json; COMMONS_TUDOR_SOURCE_HOLDS_2026-10-15.json.",
   "mobileMirrorStatus": "Latest message blocked by automatic approval service out-of-credits error; not retried through alternate mechanism.",
   "rightsDecisionPending": {
-    "status": "15710ST,15720ST,126719BLRO and124300 exact new originals/derivatives cleared without restrictions; call_b08e9ca28dbf4d55ae1eb5c615d3224b."
+    "status": "All eight exact Watchfinder originals and derivatives cleared without restrictions; call_9cf5b5975350468280654167fbdffa70."
   },
   "processingRuntime": "Task-local photography-runtime provides OpenCV and NumPy for classical non-generative boundary masks. Requires approved elevated execution to read its installed files. process_priority_wave.py preserves original interior pixels and masks only background. Every derivative requires visual review before publication.",
   "blockers": [
@@ -139,9 +139,9 @@
   "deadlineOutcome": "Not achieved: every featured reference does not yet have valid cleared photography.",
   "closeoutRecord": "docs/PHOTOGRAPHY_SPRINT_CLOSEOUT_2026-10-14.json",
   "continuationInstruction": "Command Center V4 relayed the founder standing instruction to continue acquiring remaining references and not stop. This reopens useful acquisition after the missed deadline; it does not grant new photograph rights or recreate the expired automation.",
-  "preparedClearedForPublication": 4,
-  "builtPhotographedReferences": 251,
-  "builtQueuedReferences": 46,
+  "preparedClearedForPublication": 8,
+  "builtPhotographedReferences": 259,
+  "builtQueuedReferences": 38,
   "publishedPreparedSets": 138,
   "productionPhotographyRelease": {
     "commit": "497109853d22acaff532b71bfdb22bc9d5f807dd",
@@ -300,7 +300,7 @@
   },
   "masterFileSHA256": "5e1cd5cd9b99a2c51dbc0def7412ce37e37b49891178eccffec3c02e31b8445e",
   "masterDriveReadbackVerified": true,
-  "currentWorkflowPosition": "Four new Offshore/Rolex photographs integrated; all nine checks and exact mappings passed. Publishing251/297; verified production remains247/297 until live checks pass. New124300set has complete yellow-dial framing; earlier clipped originals stay held.",
+  "currentWorkflowPosition": "Eight authentic exact-reference photographs integrated. All checks and eight mappings passed. Original concurrent suite rerun unchanged after Windows temporary-lock EPERM; passed314with1skip. Publishing259/297; production251/297 until verified.",
   "remainingByBrand": [
     {
       "brand": "Audemars Piguet",

@@ -1,0 +1,154 @@
+{
+  "checkedAt": "2026-10-24T00:57:47.067998+00:00",
+  "checks": [
+    {
+      "check": "omega-queue-sync",
+      "exitCode": 0,
+      "logFileName": "eight-20261023-omega-queue-sync.log"
+    },
+    {
+      "check": "astro-check",
+      "exitCode": 0,
+      "logFileName": "eight-20261023-astro-check.log"
+    },
+    {
+      "check": "regressions",
+      "exitCode": 0,
+      "logFileName": "eight-20261023-regressions.log"
+    },
+    {
+      "check": "omega-audit",
+      "exitCode": 0,
+      "logFileName": "eight-20261023-omega-audit.log"
+    },
+    {
+      "check": "omega-queue-check",
+      "exitCode": 0,
+      "logFileName": "eight-20261023-omega-queue-check.log"
+    },
+    {
+      "check": "expansion-audit",
+      "exitCode": 0,
+      "logFileName": "eight-20261023-expansion-audit.log"
+    },
+    {
+      "check": "build",
+      "exitCode": 0,
+      "logFileName": "eight-20261023-build.log"
+    },
+    {
+      "check": "inventory",
+      "exitCode": 0,
+      "logFileName": "eight-20261023-inventory.log"
+    },
+    {
+      "check": "full-audit",
+      "exitCode": 0,
+      "logFileName": "eight-20261023-full-audit.log"
+    }
+  ],
+  "builtMapping": {
+    "checkedAt": "2026-10-24T00:57:40.529587+00:00",
+    "mode": "built",
+    "exactReferencesChecked": 8,
+    "rows": [
+      {
+        "reference": "PAM00683",
+        "route": "/collections/panerai/submersible/pam00683",
+        "imageSha256": "f15abe04fb8dc2457046bf9423f15ad0337654314974464c3f51c03729995411",
+        "exactConfiguration": true,
+        "collectionGrid": true,
+        "inquiryContext": true,
+        "separateCredits": true,
+        "noImageCaptionOverlay": true
+      },
+      {
+        "reference": "PAM01305",
+        "route": "/collections/panerai/submersible/pam01305",
+        "imageSha256": "8e9f44fa93de9af363065a3bc328921c676a5307ebde7ca80e764e649c95c460",
+        "exactConfiguration": true,
+        "collectionGrid": true,
+        "inquiryContext": true,
+        "separateCredits": true,
+        "noImageCaptionOverlay": true
+      },
+      {
+        "reference": "PAM01616",
+        "route": "/collections/panerai/submersible/pam01616",
+        "imageSha256": "22e4dfc4810f73d590d6e3c007778e3fce07353b9e01b28b6c8d7ab97056c87c",
+        "exactConfiguration": true,
+        "collectionGrid": true,
+        "inquiryContext": true,
+        "separateCredits": true,
+        "noImageCaptionOverlay": true
+      },
+      {
+        "reference": "CAR2A1Z.FT6044",
+        "route": "/collections/tag-heuer/carrera/car2a1z-ft6044",
+        "imageSha256": "b59cab6c44bd035fdd30bc7034724e9673fdb209496b8125b9d1a5b5ae305a2f",
+        "exactConfiguration": true,
+        "collectionGrid": true,
+        "inquiryContext": true,
+        "separateCredits": true,
+        "noImageCaptionOverlay": true
+      },
+      {
+        "reference": "2201.50",
+        "route": "/collections/omega/planet-ocean/2201-50",
+        "imageSha256": "f4e36c17d495ae6ef138cb8bd80dd9e3a88ad4f9ea4bd5b39ee7aa2055350699",
+        "exactConfiguration": true,
+        "collectionGrid": true,
+        "inquiryContext": true,
+        "separateCredits": true,
+        "noImageCaptionOverlay": true
+      },
+      {
+        "reference": "232.30.42.21.01.001",
+        "route": "/collections/omega/planet-ocean/232-30-42-21-01-001",
+        "imageSha256": "2d4c113d9674f3e15689cde5986480c19e1c514e651cb8adebaf4b3373de2d11",
+        "exactConfiguration": true,
+        "collectionGrid": true,
+        "inquiryContext": true,
+        "separateCredits": true,
+        "noImageCaptionOverlay": true
+      },
+      {
+        "reference": "311.92.44.51.01.003",
+        "route": "/collections/omega/dark-side-of-the-moon/311-92-44-51-01-003",
+        "imageSha256": "266a2d0d8fbee7ce5a4dabbc2b1914634e156801124de261c5f8a364ded72889",
+        "exactConfiguration": true,
+        "collectionGrid": true,
+        "inquiryContext": true,
+        "separateCredits": true,
+        "noImageCaptionOverlay": true
+      },
+      {
+        "reference": "BR0192-REDRADAR",
+        "route": "/collections/bell-and-ross/br-01/br0192-redradar",
+        "imageSha256": "5e6cbc427ccce40320eb8335bc886776c7e21fcba4c2f92a436859a494ba97e3",
+        "exactConfiguration": true,
+        "collectionGrid": true,
+        "inquiryContext": true,
+        "separateCredits": true,
+        "noImageCaptionOverlay": true
+      }
+    ],
+    "publicFlowsAvailable": true,
+    "leadDataSafety": "Public GET checks only. No new lead submissions, private lead reads, runtime data or disk changes."
+  },
+  "tests": {
+    "total": 315,
+    "passed": 314,
+    "skipped": 1,
+    "failed": 0
+  },
+  "astro": {
+    "errors": 0,
+    "warnings": 0,
+    "existingHints": 18
+  },
+  "nativeAndWhiteWebVisualReview": "Complete originals and white WEB individually reviewed before direct founder rights confirmation; unchanged SHA256s verified during integration.",
+  "archiveReadbacksVerified": true,
+  "status": "Built checks passed; independent production verification pending",
+  "windowsRetryEvidence": "Initial concurrent run hit Windows EPERM in temporary qlux-write lead-lock fixture; original failure log retained locally. Suite rerun unchanged,314passed1skip0fail. No concurrency or lead implementation changes."
+}

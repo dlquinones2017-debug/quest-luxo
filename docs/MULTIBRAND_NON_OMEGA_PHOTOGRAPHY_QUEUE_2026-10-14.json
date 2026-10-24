@@ -6,8 +6,8 @@
   "summary": {
     "references": 70,
     "brands": 15,
-    "approvedForImageRelease": 48,
-    "tasksAwaitingExactImageRightsReview": 22
+    "approvedForImageRelease": 51,
+    "tasksAwaitingExactImageRightsReview": 19
   },
   "queue": [
     {
@@ -749,13 +749,13 @@
       },
       "identitySource": "https://www.panerai.com/content/dam/pan-assets/016-presskit/pdf/carbotech/PR_PANERAI_SUBMERSIBLE_CARBOTECH_PAM00960_PAM01616_ENG.pdf",
       "priorityScore": 58,
-      "status": "RIGHTS_AND_EXACT_CONFIGURATION_REVIEW_REQUIRED",
-      "rawSourceFileId": null,
-      "webDerivativePath": null,
-      "webDerivativeSHA256": null,
-      "reviewer": null,
-      "commercialUseRightsRecord": null,
-      "notes": "Do not publish until approvedPhotograph verifies commercial rights and exact reference, and WEB image checksum matches stored file."
+      "status": "APPROVED_WITH_VALID_DERIVATIVE",
+      "rawSourceFileId": "1xzPlteJlM811G4SaID2y9lbL6rjSp881",
+      "webDerivativePath": "/images/watches/panerai/reviewed-pam01616-20261023-web.webp",
+      "webDerivativeSHA256": "22e4dfc4810f73d590d6e3c007778e3fce07353b9e01b28b6c8d7ab97056c87c",
+      "reviewer": "Quest Luxo execution review with founder website-use clearance",
+      "commercialUseRightsRecord": "Direct founder answer call_9cf5b5975350468280654167fbdffa70: Rights cover all eight and derivatives; no restrictions. Record docs/PHOTOGRAPHY_WATCHFINDER_EIGHT_RIGHTS_2026-10-23.json. Untouched RAW SHA256 c31b89e0c1bedda07708f0b198bcd8a1e99ba2101409be80fb37ab4bde48fe29. Full watch, source/configuration and final1200whiteWEB individually reviewed; all archival readbacks matched. Classical exterior filled silhouette. Original interior RGB retained; no generated, reconstructed, recolored or sharpened watch detail. Proportional resize and centered2400 white master/1200WEB. No price, availability or new alloy grade inferred. Preserved RAW file: 1xzPlteJlM811G4SaID2y9lbL6rjSp881. Pictured full reference PAM01616; Carbotech, Black with blue luminous markers, Black rubber strap. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "notes": "Exact approvedPhotograph gate and local derivative SHA-256 validated; preserve approved source and separate source attribution."
     },
     {
       "brand": "Panerai",
@@ -1013,13 +1013,13 @@
       },
       "identitySource": "https://www.tagheuer.com/us/en/timepieces/collections/tag-heuer-carrera/45-mm-calibre-heuer01-automatic/CAR2A1Z.FT6044.html",
       "priorityScore": 53,
-      "status": "RIGHTS_AND_EXACT_CONFIGURATION_REVIEW_REQUIRED",
-      "rawSourceFileId": null,
-      "webDerivativePath": null,
-      "webDerivativeSHA256": null,
-      "reviewer": null,
-      "commercialUseRightsRecord": null,
-      "notes": "Do not publish until approvedPhotograph verifies commercial rights and exact reference, and WEB image checksum matches stored file."
+      "status": "APPROVED_WITH_VALID_DERIVATIVE",
+      "rawSourceFileId": "1Lj9JnWWvZgDBryMmhbbwr5AXIhLYTMFJ",
+      "webDerivativePath": "/images/watches/tag-heuer/reviewed-car2a1z-ft6044-20261023-web.webp",
+      "webDerivativeSHA256": "b59cab6c44bd035fdd30bc7034724e9673fdb209496b8125b9d1a5b5ae305a2f",
+      "reviewer": "Quest Luxo execution review with founder website-use clearance",
+      "commercialUseRightsRecord": "Direct founder answer call_9cf5b5975350468280654167fbdffa70: Rights cover all eight and derivatives; no restrictions. Record docs/PHOTOGRAPHY_WATCHFINDER_EIGHT_RIGHTS_2026-10-23.json. Untouched RAW SHA256 cf41c9023f6019c5551224d870ff8ba213d28658d471e3c61b1aa5f31d4eb270. Full watch, source/configuration and final1200whiteWEB individually reviewed; all archival readbacks matched. Classical exterior filled silhouette. Original interior RGB retained; no generated, reconstructed, recolored or sharpened watch detail. Proportional resize and centered2400 white master/1200WEB. No price, availability or new alloy grade inferred. Preserved RAW file: 1Lj9JnWWvZgDBryMmhbbwr5AXIhLYTMFJ. Pictured full reference CAR2A1Z.FT6044; Black PVD steel, Black-and-silver skeleton, Black perforated rubber strap. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "notes": "Exact approvedPhotograph gate and local derivative SHA-256 validated; preserve approved source and separate source attribution."
     },
     {
       "brand": "Bell & Ross",
@@ -1037,13 +1037,13 @@
       },
       "identitySource": "https://www.bellross.com/jp/es/https%3A/www.bellross.com/index.php?product_id=309&route=product%2Fproduct",
       "priorityScore": 50,
-      "status": "RIGHTS_AND_EXACT_CONFIGURATION_REVIEW_REQUIRED",
-      "rawSourceFileId": null,
-      "webDerivativePath": null,
-      "webDerivativeSHA256": null,
-      "reviewer": null,
-      "commercialUseRightsRecord": null,
-      "notes": "Do not publish until approvedPhotograph verifies commercial rights and exact reference, and WEB image checksum matches stored file."
+      "status": "APPROVED_WITH_VALID_DERIVATIVE",
+      "rawSourceFileId": "1vacyRa4tF1--U3P7U69fii2QXCKXmf-B",
+      "webDerivativePath": "/images/watches/bell-and-ross/reviewed-br0192-redradar-20261023-web.webp",
+      "webDerivativeSHA256": "5e6cbc427ccce40320eb8335bc886776c7e21fcba4c2f92a436859a494ba97e3",
+      "reviewer": "Quest Luxo execution review with founder website-use clearance",
+      "commercialUseRightsRecord": "Direct founder answer call_9cf5b5975350468280654167fbdffa70: Rights cover all eight and derivatives; no restrictions. Record docs/PHOTOGRAPHY_WATCHFINDER_EIGHT_RIGHTS_2026-10-23.json. Untouched RAW SHA256 d9959c55738ed2435648194e344a281adafb0271a83f5295a4306144307f822d. Full watch, source/configuration and final1200whiteWEB individually reviewed; all archival readbacks matched. Classical exterior filled silhouette. Original interior RGB retained; no generated, reconstructed, recolored or sharpened watch detail. Proportional resize and centered2400 white master/1200WEB. No price, availability or new alloy grade inferred. Preserved RAW file: 1vacyRa4tF1--U3P7U69fii2QXCKXmf-B. Pictured full reference BR01-92 Red Radar; Stainless Steel, Red radar, Black rubber strap. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "notes": "Exact approvedPhotograph gate and local derivative SHA-256 validated; preserve approved source and separate source attribution."
     },
     {
       "brand": "Richard Mille",
@@ -1694,5 +1694,5 @@
       "notes": "Founder-upload identity verified October16. Separate source-original and review evidence in FOUNDER_UPLOAD_CONTINUATION_2026-10-16.json. Underlying commercial rights and final photography quality still required; no publication approval implied."
     }
   ],
-  "updatedAt": "2026-10-24T00:39:14.906Z"
+  "updatedAt": "2026-10-24T00:50:50.824Z"
 }

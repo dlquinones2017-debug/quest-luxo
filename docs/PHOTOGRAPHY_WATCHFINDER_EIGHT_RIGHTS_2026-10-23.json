@@ -1,0 +1,56 @@
+{
+  "confirmedAt": "2026-10-24T00:50:50.257738+00:00",
+  "questionId": "call_9cf5b5975350468280654167fbdffa70",
+  "directFounderAnswer": "Rights cover all eight and derivatives; no restrictions",
+  "sourceLedgerDriveFileId": "1YVwOHutNA_Mw7vSgaL95o2qi5ZtU7FVz",
+  "references": [
+    {
+      "reference": "PAM00683",
+      "exactSKU": "PAM00683",
+      "sourceUrl": "https://www.watchfinder.com/sell-your-watch/enquiry/panerai/submersible/pam00683/42373",
+      "rawSha256": "8510c1d1109d9c702791c0a08c609641b4a27bb4ee3acab10ab35947432a5ea3"
+    },
+    {
+      "reference": "PAM01305",
+      "exactSKU": "PAM01305",
+      "sourceUrl": "https://www.watchfinder.com/sell-your-watch/enquiry/panerai/submersible/pam01305/35102",
+      "rawSha256": "7902fe311d07310837703cd5d48e2bb4216f67e1b410ab09162057b6427a3e9d"
+    },
+    {
+      "reference": "PAM01616",
+      "exactSKU": "PAM01616",
+      "sourceUrl": "https://www.watchfinder.com/sell-your-watch/enquiry/panerai/submersible/pam01616/40277",
+      "rawSha256": "c31b89e0c1bedda07708f0b198bcd8a1e99ba2101409be80fb37ab4bde48fe29"
+    },
+    {
+      "reference": "CAR2A1Z.FT6044",
+      "exactSKU": "CAR2A1Z.FT6044",
+      "sourceUrl": "https://www.watchfinder.com/sell-your-watch/enquiry/tag-heuer/carrera/car2a1z-ft6044/29627",
+      "rawSha256": "cf41c9023f6019c5551224d870ff8ba213d28658d471e3c61b1aa5f31d4eb270"
+    },
+    {
+      "reference": "2201.50",
+      "exactSKU": "2201.50.00",
+      "sourceUrl": "https://www.watchfinder.com/sell-your-watch/enquiry/omega/planet-ocean/2201-50-00/3266",
+      "rawSha256": "21011151302a944abae33503f885031c1cdfe617d42a58ebbb038fab2938b096"
+    },
+    {
+      "reference": "232.30.42.21.01.001",
+      "exactSKU": "232.30.42.21.01.001",
+      "sourceUrl": "https://www.watchfinder.com/sell-your-watch/enquiry/omega/planet-ocean/232-30-42-21-01-001/22503",
+      "rawSha256": "6eb1093395fc782ad217b504f1fbf1ba3370d96a5bfba063a497a242a761130b"
+    },
+    {
+      "reference": "311.92.44.51.01.003",
+      "exactSKU": "311.92.44.51.01.003",
+      "sourceUrl": "https://www.watchfinder.com/sell-your-watch/enquiry/omega/speedmaster-dark-side-of-the-moon/311-92-44-51-01-003/24391",
+      "rawSha256": "3b6888f8f85d7384e846795937dafeeadd07c312ca9fe17852b3164f88c3668b"
+    },
+    {
+      "reference": "BR0192-REDRADAR",
+      "exactSKU": "BR01-92 Red Radar",
+      "sourceUrl": "https://www.watchfinder.com/sell-your-watch/enquiry/bell-and-ross/br01-92/red-radar/22836",
+      "rawSha256": "d9959c55738ed2435648194e344a281adafb0271a83f5295a4306144307f822d"
+    }
+  ]
+}

@@ -442,3 +442,8 @@ Founder confirmed unrestricted rights for Watchfinder AP15202ST.OO.1240ST.01,154
 ## October 23 Offshore and Rolex photography release
 
 Founder confirmed unrestricted rights for Watchfinder AP15710ST.OO.A002CA.01/AP15720ST.OO.A027CA.01 and Gray and Sons Rolex126719BLRO/124300 originals and derivatives. All four complete sets reviewed; all12archive readbacks matched. Manufacturer Offshore configuration sources preserved; earlier clipped124300bytes remain held. Additive pictured configurations retain existing broader configurations and public routes. Built coverage251of297referenceURLs;46queued. Full unchanged concurrent suite314passed,1platformskip,0failed; Astro0errors,0warnings,18existinghints; audits/build and all four exact mappings passed. New main consent/privacy changes preserved. Production verification follows. No test leads or private lead reads.
+
+
+## October 23 eight reference photography release
+
+Founder confirmed unrestricted rights for eight new Watchfinder originals and white derivatives: PAM00683,PAM01305,PAM01616,CAR2A1Z.FT6044,2201.50.00,232.30.42.21.01.001,311.92.44.51.01.003 andBR01-92RedRadar. Every native and finalWEB individually reviewed; all24archive readbacks matched. Additive pictured configurations retain existing broader configurations and public routes. Built coverage259of297referenceURLs;38queued. Full unchanged concurrent suite314passed,1platformskip,0failed; Astro0errors,0warnings,18existinghints; audits/build and all eight exact mappings passed. New main consent/privacy changes preserved. Production verification follows. No test leads or private lead reads.
