@@ -3,6 +3,7 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 import PrivateSourcingCTA from "./PrivateSourcingCTA.astro";
 import AssetIntelligencePanel from "./AssetIntelligencePanel.astro";
 import QuestLuxoScorecard from "./QuestLuxoScorecard.astro";
+import ReferenceRetailPricing from "./ReferenceRetailPricing.astro";
 import {
   brandPath,
   collectionPath,
@@ -21,14 +22,6 @@ interface Props {
 
 const { collection, asset } = Astro.props as Props;
 const displayReference = asset.displayReference ?? asset.reference;
-const formatUSD = (value?: number | null) =>
-  value
-    ? new Intl.NumberFormat("en-US", {
-        style: "currency",
-        currency: "USD",
-        maximumFractionDigits: 0,
-      }).format(value)
-    : "MSRP research pending";
 const photograph = approvedPhotograph(asset, watchPhotographs);
 const imageAlt = photograph?.alt ?? `${displayReference} ${asset.model}`;
 const referenceSource = asset.specificationSources?.find(source => source.url.startsWith("https://"))?.url;
@@ -164,16 +157,7 @@ const structuredData = [
       </div>
     </section>
 
-    <section class="msrp">
-      <p class="section-label">Reference Data</p>
-      <h2>Original MSRP</h2>
-      {(asset.configurations ?? []).map((config) => (
-        <p>
-          <strong>{config.nickname ?? "Configuration"} · {config.dial ?? "Dial details pending"}</strong>
-          <span>{formatUSD(config.originalMSRP)}</span>
-        </p>
-      ))}
-    </section>
+    <ReferenceRetailPricing asset={asset} brand={collection.brand} />
 
     {asset.intelligence && (
       <AssetIntelligencePanel

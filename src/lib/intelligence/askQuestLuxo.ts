@@ -155,7 +155,7 @@ export function generateAskQuestLuxoSummary(
         : "";
   const priceText =
     topRecommendation.estimatedPrice !== null
-      ? ` with known MSRP around ${formatCurrency(topRecommendation.estimatedPrice)}`
+      ? ` with a verified published U.S. MSRP benchmark from ${formatCurrency(topRecommendation.estimatedPrice)}`
       : " with price research pending";
 
   return `Found ${recommendations.length} Quest Luxo match${

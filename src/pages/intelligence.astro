@@ -34,6 +34,8 @@ const sourcingHref = buildBeginYourQuestUrl({ intent: "request" });
         </div>
       </form>
 
+      <label class="unknown-price-option"><input id="include-unknown-price" type="checkbox" /> Include references awaiting price verification</label>
+
       <div class="presets" aria-label="Suggested searches">
         <button type="button" data-query="best watches under $5000">Under $5,000</button>
         <button type="button" data-query="best watches under $25000">Under $25,000</button>
@@ -72,6 +74,8 @@ const sourcingHref = buildBeginYourQuestUrl({ intent: "request" });
       <div id="recommendations-output" class="recommendations"></div>
 
       <p class="disclaimer">
+        Budget filtering uses verified published U.S. manufacturer list prices, rather than market asking prices.
+        References awaiting price verification are excluded from budget matches unless you include them above.
         Recommendations are based on currently modeled Quest Luxo catalog data. Price, availability,
         condition, fit, service history, and secondary-market evidence require transaction-level verification.
         Multi-watch collection searches are advisory starting points and do not yet allocate a total budget across the results.
@@ -93,9 +97,11 @@ const sourcingHref = buildBeginYourQuestUrl({ intent: "request" });
 
 <script>
   import { askQuestLuxo } from "../lib/intelligence/askQuestLuxo";
+  import { getVerifiedRetailPrices, formatRetailTaxBasis } from "../lib/intelligence/watchRetailPricing";
 
   const form = document.querySelector<HTMLFormElement>("#ask-form");
   const input = document.querySelector<HTMLInputElement>("#ask-query");
+  const includeUnknownPrice = document.querySelector<HTMLInputElement>("#include-unknown-price");
   const summary = document.querySelector<HTMLElement>("#summary");
   const countOutput = document.querySelector<HTMLElement>("#count-output");
   const recommendationsOutput = document.querySelector<HTMLElement>("#recommendations-output");
@@ -115,12 +121,12 @@ const sourcingHref = buildBeginYourQuestUrl({ intent: "request" });
     const answer = askQuestLuxo({
       query,
       maxResults: 8,
-      includeUnknownPrice: false,
+      includeUnknownPrice: includeUnknownPrice?.checked ?? false,
     });
 
     if (summary) summary.textContent = answer.summary;
     if (countOutput) {
-      countOutput.textContent = `${answer.recommendations.length} recommendation${answer.recommendations.length === 1 ? "" : "s"}`;
+      countOutput.textContent = `Showing ${answer.recommendations.length} of ${answer.totalMatches} matches`;
     }
 
     if (!recommendationsOutput) return;
@@ -161,7 +167,9 @@ const sourcingHref = buildBeginYourQuestUrl({ intent: "request" });
 
       const price = document.createElement("p");
       price.className = "price";
-      price.textContent = formatCurrency(recommendation.estimatedPrice);
+      price.textContent = recommendation.estimatedPrice === null
+        ? "Price verification pending"
+        : `Published MSRP from ${formatCurrency(recommendation.estimatedPrice)}`;
       top.append(identity, price);
 
       const details = document.createElement("div");
@@ -179,6 +187,18 @@ const sourcingHref = buildBeginYourQuestUrl({ intent: "request" });
 
       item.append(top, details);
 
+      const retailPrice = getVerifiedRetailPrices(recommendation.asset, recommendation.brand)
+        .find((entry) => entry.amount === recommendation.estimatedPrice && entry.currency === "USD");
+      if (retailPrice) {
+        const source = document.createElement("a");
+        source.href = retailPrice.sourceUrl;
+        source.target = "_blank";
+        source.rel = "noopener noreferrer external";
+        source.textContent = `${retailPrice.configuration} · Manufacturer source · checked ${retailPrice.checkedAt} · U.S.; ${formatRetailTaxBasis(retailPrice)}`;
+        source.className = "retail-source";
+        item.append(source);
+      }
+
       if (result.record.url) {
         const link = document.createElement("a");
         link.href = result.record.url;
@@ -195,6 +215,8 @@ const sourcingHref = buildBeginYourQuestUrl({ intent: "request" });
     event.preventDefault();
     renderQuery(input?.value.trim() || "best watches under $25000");
   });
+
+  includeUnknownPrice?.addEventListener("change", () => renderQuery(input?.value.trim() || "best watches under $25000"));
 
   presetButtons.forEach((button) => {
     button.addEventListener("click", () => {
@@ -253,6 +275,10 @@ const sourcingHref = buildBeginYourQuestUrl({ intent: "request" });
   .query-form {
     margin-bottom: 18px;
   }
+
+  .unknown-price-option { display: flex; align-items: center; gap: 10px; font-size: 14px; margin-bottom: 18px; }
+  .unknown-price-option input { width: 18px; height: 18px; min-height: 0; }
+  .recommendations :global(.retail-source) { display: block; color: #52606f; font-size: 12px; margin-bottom: 18px; text-underline-offset: 3px; }
 
   label {
     display: block;
@@ -341,20 +367,21 @@ const sourcingHref = buildBeginYourQuestUrl({ intent: "request" });
     gap: 14px;
   }
 
-  .recommendation,
-  .empty {
+  .recommendations :global(.recommendation),
+  .recommendations :global(.empty) {
     border: 1px solid #e0d9cc;
     background: #ffffff;
     padding: 22px;
   }
 
-  .recommendation-top {
+  .recommendations :global(.recommendation-top) {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     gap: 24px;
   }
 
-  .brand {
+  .recommendations :global(.brand) {
     margin-bottom: 5px;
     color: #8a682b;
     font-size: 11px;
@@ -363,39 +390,39 @@ const sourcingHref = buildBeginYourQuestUrl({ intent: "request" });
     text-transform: uppercase;
   }
 
-  .recommendation h3 {
+  .recommendations :global(.recommendation h3) {
     margin-bottom: 5px;
     font-size: 23px;
   }
 
-  .reference {
+  .recommendations :global(.reference) {
     margin-bottom: 0;
     color: #66727f;
     font-size: 14px;
   }
 
-  .price {
+  .recommendations :global(.price) {
     margin-bottom: 0;
     color: #173a5e;
     font-weight: 800;
-    white-space: nowrap;
+    white-space: normal;
   }
 
-  .details {
+  .recommendations :global(.details) {
     display: flex;
     flex-wrap: wrap;
     gap: 7px;
     margin: 18px 0;
   }
 
-  .details span {
+  .recommendations :global(.details span) {
     border: 1px solid #e1d8c6;
     padding: 7px 9px;
     color: #52606f;
     font-size: 12px;
   }
 
-  .reference-link {
+  .recommendations :global(.reference-link) {
     color: #173a5e;
     font-weight: 800;
     text-underline-offset: 4px;
@@ -447,7 +474,7 @@ const sourcingHref = buildBeginYourQuestUrl({ intent: "request" });
     }
 
     .results-heading,
-    .recommendation-top,
+    .recommendations :global(.recommendation-top),
     .private-sourcing {
       align-items: flex-start;
       flex-direction: column;
