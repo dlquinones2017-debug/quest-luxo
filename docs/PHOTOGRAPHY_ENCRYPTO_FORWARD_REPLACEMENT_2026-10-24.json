@@ -1,0 +1,51 @@
+{
+  "updatedAt": "2026-10-24T05:04:07.198463+00:00",
+  "status": "PREPARED_PENDING_SOURCE_SPECIFIC_RIGHTS",
+  "request": "Founder explicitly disapproved the angled Time Series image and requested forward-facing watch with clear dial.",
+  "rejectedAssetId": "cleared-20261024-franck-muller-encrypto-timeseries",
+  "rejectedSourceImage": "/images/watches/franck-muller/reviewed-v-45-sc-dt-btc-tt-br-nr-20261024-web.webp",
+  "replacement": {
+    "index": 0,
+    "url": "https://dream-watch-prd.b-cdn.net/products/21571/5efa701f-41fd-4a6f-b605-99c76fb02225-large.webp",
+    "file": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\resume-20261024\\encrypto-dream-0-raw.webp",
+    "size": [
+      1200,
+      1440
+    ],
+    "sha256": "bf7fbb3fb29a1009c3e1ce2b98ac53dacec804c24eb85f0d2250a40c41468845",
+    "acquiredAt": "2026-10-24T04:58:24.928979+00:00",
+    "reference": "V 45 SC DT BTC TT BR (NR)",
+    "sourceUrl": "https://dream-watch.ae/en/swiss-watches/vanguard-encrypto2",
+    "canonicalRoute": "/collections/franck-muller/vanguard-encrypto/v-45-sc-dt-btc-tt-br-nr",
+    "whiteMaster": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\resume-20261024\\franck-muller-encrypto-forward-white-master.png",
+    "webDerivative": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\resume-20261024\\franck-muller-encrypto-forward-web.webp",
+    "masterSha256": "5a9ea22893cc3f746ea3b695a6dca664fa3ca41ec891fd65da3d2945763c61ef",
+    "webSha256": "f33525dfab81a994c6d69406eeafa4645ef91aa32eae0bf46f6dfc7b7a2361ef",
+    "foregroundBounds": [
+      295,
+      173,
+      954,
+      1266
+    ],
+    "configuration": {
+      "dial": "Black carbon-pattern Bitcoin QR dial, un-set motif",
+      "bracelet": "Black rubber strap"
+    },
+    "material": "Titanium",
+    "processing": "Classical exterior background masking, proportionally resized and centered2400white/1200WEB. No generated, reconstructed, sharpened, perspective-warped or recolored watch detail; no watermark removal. Front view retained exactly as supplied.",
+    "qualityReviewPassed": true,
+    "websiteApproved": false,
+    "rightsStatus": "Source-specific commercial website-use evidence pending for this Dream Watch original and white derivative; separate Time Series clearance preserved.",
+    "visualReviewPassed": true,
+    "exactReferenceConfigurationVerified": true,
+    "archiveReadbackVerified": true,
+    "rawDriveFileId": "18Nl_0M5VTbd8yVX0AFn2fB6cEmPKVJM8",
+    "whiteMasterDriveFileId": "1qtBJGqo9awaMhsalFKVw9Ke7smQO8g_U",
+    "webDriveFileId": "1OFnSu5p6yFDtPNUy8OEL8jWi6hsflZ6b",
+    "sourceProvider": "Dream Watch product imagery",
+    "qualityReview": "Straight-on dealer-supplied exact-reference view; dial and QR visible without glare or redaction. All supplied front-view watch/crown/strap silhouette retained inside white margins. Native1200x1440 source resolution stated honestly; no sharpened/generated/reconstructed detail or perspective warping."
+  },
+  "pendingRightsQuestion": "Dream Watch exact original/white derivative commercial website-use rights and restrictions; asked in Website/Product and relayed to authorized Command Center V4.",
+  "publication": "No replacement published before required rights evidence; all other296reference photos and public routes/funnel preserved.",
+  "nextAction": "Record direct founder rights decision, replace only the existing Encrypto seed/image/configuration, run focused checks/build and exact live mapping plus desktop/mobile review; update same master, queue and checkpoint."
+}
