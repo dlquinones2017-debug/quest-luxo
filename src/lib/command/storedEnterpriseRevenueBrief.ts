@@ -7,6 +7,7 @@ import type { EnterpriseRevenueBrief } from "./enterpriseRevenueBrief.ts";
 import { enterpriseLeadIntelligence, type EnterpriseLeadReceipt, type LeadDivision } from "./enterpriseLeadIntelligence.ts";
 import { luxuryLeadReceipts } from "./enterpriseLeadIntakeAdapter.ts";
 import { enterpriseLeadReliability, type IntakeObservation } from "./enterpriseLeadReliability.ts";
+import { enterpriseIntakeReconciliation } from "./enterpriseIntakeReconciliation.ts";
 
 export interface EnterpriseIntakeSnapshot {
   readonly receipts: readonly EnterpriseLeadReceipt[];
@@ -15,6 +16,7 @@ export interface EnterpriseIntakeSnapshot {
 
 export interface StoredEnterpriseRevenueBrief extends EnterpriseRevenueBrief {
   readonly intakeReliability: ReturnType<typeof enterpriseLeadReliability>;
+  readonly intakeReconciliation: ReturnType<typeof enterpriseIntakeReconciliation>;
   readonly sourceRead: { readonly status: LeadSubmissionSnapshot["status"]; readonly unreadableRows: number };
 }
 
@@ -37,10 +39,12 @@ export async function storedEnterpriseRevenueBrief(now=new Date(),readers:Enterp
     { records: await readers.readBrokerage(), status: "COMPLETE", malformedRows: 0 };
   const intake: EnterpriseIntakeSnapshot = readers.readIntakeSnapshot ? await readers.readIntakeSnapshot() :
     { receipts: readers.readIntake ? await readers.readIntake() : [], observations: {} };
+  const capitalRecords = readers.readCapital();
+  const realtyRecords = readers.readRealty();
   const brief = enterpriseLiveRevenueBrief({
     brokerage:snapshot.records,
-    capital:readers.readCapital(),
-    realty:readers.readRealty(),
+    capital:capitalRecords,
+    realty:realtyRecords,
     intake:intake.receipts,
   },now);
   // Aggregate reliability needs no canonical IDs. Preserve legacy identifiers in
@@ -57,5 +61,6 @@ export async function storedEnterpriseRevenueBrief(now=new Date(),readers:Enterp
     ...brief,
     sourceRead: Object.freeze({ status: snapshot.status, unreadableRows: snapshot.malformedRows }),
     intakeReliability: enterpriseLeadReliability(findings, observations, now),
+    intakeReconciliation: enterpriseIntakeReconciliation(findings, capitalRecords, realtyRecords),
   });
 }
