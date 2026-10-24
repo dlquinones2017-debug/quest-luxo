@@ -57,7 +57,9 @@
         "reviewedAt": "2026-10-23",
         "assetId": "cleared-20261023-116500ln"
       },
-      "publicationStatus": "Integrated; release checks pending"
+      "publicationStatus": "LIVE and independently verified",
+      "websitePublished": true,
+      "productionCommit": "26bb5dfb9851ca0dc6c58b4deef2bdea521ce091"
     },
     {
       "brand": "Rolex",
@@ -121,7 +123,9 @@
         "reviewedAt": "2026-10-23",
         "assetId": "cleared-20261023-118238"
       },
-      "publicationStatus": "Integrated; release checks pending"
+      "publicationStatus": "LIVE and independently verified",
+      "websitePublished": true,
+      "productionCommit": "26bb5dfb9851ca0dc6c58b4deef2bdea521ce091"
     }
   ],
   "rights": {
@@ -141,5 +145,16 @@
       }
     ]
   },
-  "archiveReadbacksVerified": true
+  "archiveReadbacksVerified": true,
+  "status": "LIVE and independently verified",
+  "productionRelease": {
+    "commit": "26bb5dfb9851ca0dc6c58b4deef2bdea521ce091",
+    "deployId": "dep-dbdvds0u01pc73e0jlvg",
+    "status": "LIVE",
+    "referenceRoutesVerified": 297,
+    "photographedReferenceRoutes": 239,
+    "queuedReferenceRoutes": 58,
+    "distinctPhotoFilesVerified": 238,
+    "photographedCollections": 85
+  }
 }

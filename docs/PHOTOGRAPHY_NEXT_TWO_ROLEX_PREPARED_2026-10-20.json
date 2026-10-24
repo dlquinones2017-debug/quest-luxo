@@ -2,8 +2,8 @@
   "preparedAt": "2026-10-20T10:45:32.360529+00:00",
   "physicalSets": 2,
   "qualityReviewedSets": 2,
-  "rightsHeldSets": 2,
-  "websitePublished": false,
+  "rightsHeldSets": 0,
+  "websitePublished": true,
   "references": [
     {
       "reference": "116500LN",
@@ -26,20 +26,22 @@
       ],
       "processing": "Only original near-white exterior background excluded; internal contour filled to retain all white highlights and original watch pixels. Proportional resize and center on blank2400white master/1200WEB. No recoloring, sharpening or generated watch detail.",
       "reviewStatus": "Native and final1200WEB individually reviewed; entire watch and closed bracelet present with native margins. Exact source reference, dial, metal and bracelet reviewed; original pixels preserved; no synthesized detail.",
-      "websiteApproved": false,
+      "websiteApproved": true,
       "qualityReviewPassed": true,
       "archiveReadbackVerified": true,
       "rawDriveFileId": "1zujJ7sIkxPx73uFsYVAdLmKBooVzSnhT",
       "masterDriveFileId": "14yOfMZ9yfSMYKq8RJ1iE11JIuh0G33Tr",
       "webDriveFileId": "1szUmw1HJVdvFZhR7n6I9ZopnJQDc5YP_",
-      "rightsStatus": "Specific direct founder commercial-use question for these two exact new originals and white derivatives is pending. Not published.",
+      "rightsStatus": "Founder confirmed exact originals and white derivatives without restrictions",
       "picturedConfiguration": {
         "dial": "Black",
         "bracelet": "Stainless-steel Oyster bracelet",
         "caseSize": "40 mm",
         "material": "Stainless steel",
         "bezel": "Black ceramic"
-      }
+      },
+      "websitePublished": true,
+      "publicationStatus": "LIVE and independently verified"
     },
     {
       "brand": "Rolex",
@@ -49,8 +51,8 @@
       "sourceSha256": "c94857baa8c610c4dd8a483f1d56483dc00c51783a870f5d5470ad7c8dd4621d",
       "imageUrl": "https://cdn.grayandsons.com/s/rolex_day_date_36mm_118238_w524561_20bba70582-w1536.jpg.auto",
       "fileName": "rolex-118238-gray-native.img",
-      "websiteApproved": false,
-      "rightsStatus": "Specific direct founder commercial-use question for these two exact new originals and white derivatives is pending. Not published.",
+      "websiteApproved": true,
+      "rightsStatus": "Founder confirmed exact originals and white derivatives without restrictions",
       "rawSha256": "069bfbf46610a2fa445c7ea7712d5b26e5a14a1a5e6f076691c0d274e6d95c29",
       "size": [
         1536,
@@ -80,7 +82,9 @@
         "caseSize": "36 mm",
         "material": "18K yellow gold",
         "bezel": "Fluted yellow gold"
-      }
+      },
+      "websitePublished": true,
+      "publicationStatus": "LIVE and independently verified"
     }
   ],
   "rejectedSources": [
@@ -102,5 +106,17 @@
       "mode": "RGB",
       "qualityHold": "Native1078x1536hero clips the top bracelet and right crown boundary. Rejected; no reconstruction or publication."
     }
-  ]
+  ],
+  "status": "Both exact rights questions resolved; LIVE",
+  "productionRelease": {
+    "commit": "26bb5dfb9851ca0dc6c58b4deef2bdea521ce091",
+    "deployId": "dep-dbdvds0u01pc73e0jlvg",
+    "status": "LIVE",
+    "referenceRoutesVerified": 297,
+    "photographedReferenceRoutes": 239,
+    "queuedReferenceRoutes": 58,
+    "distinctPhotoFilesVerified": 238,
+    "photographedCollections": 85
+  },
+  "rightsEvidence": "PHOTOGRAPHY_ROLEX_PAIR_RIGHTS_2026-10-23.json"
 }

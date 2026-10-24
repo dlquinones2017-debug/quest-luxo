@@ -55,7 +55,7 @@
       "masterDriveFileId": "1JLTSydd9Ply-pd_MfVhX5pT6_MAzk8X1",
       "webDriveFileId": "1qcYrv94zXO0mshPSYzPxxpM2qe2IAhaH",
       "archiveReadbackVerified": true,
-      "publicationStatus": "Integrated; release checks pending",
+      "publicationStatus": "LIVE and independently verified",
       "seed": {
         "brand": "Panerai",
         "brandSlug": "panerai",
@@ -76,7 +76,9 @@
         "sourceProvider": "Watchfinder",
         "reviewedAt": "2026-10-23",
         "assetId": "cleared-20261023-eight-pam00683"
-      }
+      },
+      "websitePublished": true,
+      "productionCommit": "5aa46a3dcbda062f10d655fbe26eda95149dcf59"
     },
     {
       "name": "panerai-pam01305-watchfinder",
@@ -132,7 +134,7 @@
       "masterDriveFileId": "10yvsAuLs0pK6TxXnT_wv9uKyLUe_l6TL",
       "webDriveFileId": "1YqNOcKlWAS3bPV8HDwVAhEZKnFR2RIHv",
       "archiveReadbackVerified": true,
-      "publicationStatus": "Integrated; release checks pending",
+      "publicationStatus": "LIVE and independently verified",
       "seed": {
         "brand": "Panerai",
         "brandSlug": "panerai",
@@ -153,7 +155,9 @@
         "sourceProvider": "Watchfinder",
         "reviewedAt": "2026-10-23",
         "assetId": "cleared-20261023-eight-pam01305"
-      }
+      },
+      "websitePublished": true,
+      "productionCommit": "5aa46a3dcbda062f10d655fbe26eda95149dcf59"
     },
     {
       "name": "panerai-pam01616-watchfinder",
@@ -210,7 +214,7 @@
       "masterDriveFileId": "100oo4RVzUUJINu44HA4udZwj1y3FlS0c",
       "webDriveFileId": "16l-6jNenqxHTnyZOyJO838GweVeIrDgu",
       "archiveReadbackVerified": true,
-      "publicationStatus": "Integrated; release checks pending",
+      "publicationStatus": "LIVE and independently verified",
       "seed": {
         "brand": "Panerai",
         "brandSlug": "panerai",
@@ -231,7 +235,9 @@
         "sourceProvider": "Watchfinder",
         "reviewedAt": "2026-10-23",
         "assetId": "cleared-20261023-eight-pam01616"
-      }
+      },
+      "websitePublished": true,
+      "productionCommit": "5aa46a3dcbda062f10d655fbe26eda95149dcf59"
     },
     {
       "name": "tag-car2a1z-watchfinder",
@@ -288,7 +294,7 @@
       "masterDriveFileId": "1A6UpDa3LONXSHxDuAUxPftK89_Tps26w",
       "webDriveFileId": "1FtX-fMhbOmMuDFKxjBy3pYZQ9kau9qT2",
       "archiveReadbackVerified": true,
-      "publicationStatus": "Integrated; release checks pending",
+      "publicationStatus": "LIVE and independently verified",
       "seed": {
         "brand": "TAG Heuer",
         "brandSlug": "tag-heuer",
@@ -309,7 +315,9 @@
         "sourceProvider": "Watchfinder",
         "reviewedAt": "2026-10-23",
         "assetId": "cleared-20261023-eight-car2a1z-ft6044"
-      }
+      },
+      "websitePublished": true,
+      "productionCommit": "5aa46a3dcbda062f10d655fbe26eda95149dcf59"
     },
     {
       "name": "omega-220150-watchfinder",
@@ -365,7 +373,7 @@
       "masterDriveFileId": "12nYRPIWCfzCe6hBMAwsEYlUkzRjHcxwL",
       "webDriveFileId": "1juJ8Bzjg4yYfGO_kmSMSpxGXOioTRzYe",
       "archiveReadbackVerified": true,
-      "publicationStatus": "Integrated; release checks pending",
+      "publicationStatus": "LIVE and independently verified",
       "seed": {
         "brand": "Omega",
         "brandSlug": "omega",
@@ -386,7 +394,9 @@
         "sourceProvider": "Watchfinder",
         "reviewedAt": "2026-10-23",
         "assetId": "cleared-20261023-eight-2201-50"
-      }
+      },
+      "websitePublished": true,
+      "productionCommit": "5aa46a3dcbda062f10d655fbe26eda95149dcf59"
     },
     {
       "name": "omega-23230422101001-watchfinder",
@@ -442,7 +452,7 @@
       "masterDriveFileId": "1-6aMgqPvRYUbUxg--iTczG0oIA4Q5jh1",
       "webDriveFileId": "1vcjNt-zx7wdrncb19MSHhDQ2Ba8Q4OHB",
       "archiveReadbackVerified": true,
-      "publicationStatus": "Integrated; release checks pending",
+      "publicationStatus": "LIVE and independently verified",
       "seed": {
         "brand": "Omega",
         "brandSlug": "omega",
@@ -463,7 +473,9 @@
         "sourceProvider": "Watchfinder",
         "reviewedAt": "2026-10-23",
         "assetId": "cleared-20261023-eight-232-30-42-21-01-001"
-      }
+      },
+      "websitePublished": true,
+      "productionCommit": "5aa46a3dcbda062f10d655fbe26eda95149dcf59"
     },
     {
       "name": "omega-31192445101003-watchfinder",
@@ -520,7 +532,7 @@
       "masterDriveFileId": "1WsWUfwrqtyvKXinH5WXscVfbYHNXhORy",
       "webDriveFileId": "1K_OCnoWGiJxCqmRZ0pH9383b4qKkKtaL",
       "archiveReadbackVerified": true,
-      "publicationStatus": "Integrated; release checks pending",
+      "publicationStatus": "LIVE and independently verified",
       "seed": {
         "brand": "Omega",
         "brandSlug": "omega",
@@ -541,7 +553,9 @@
         "sourceProvider": "Watchfinder",
         "reviewedAt": "2026-10-23",
         "assetId": "cleared-20261023-eight-311-92-44-51-01-003"
-      }
+      },
+      "websitePublished": true,
+      "productionCommit": "5aa46a3dcbda062f10d655fbe26eda95149dcf59"
     },
     {
       "name": "bellross-red-radar-watchfinder",
@@ -598,7 +612,7 @@
       "masterDriveFileId": "1xmIQhE5c91P4O4P063o5ysjk9fJ2558K",
       "webDriveFileId": "1JKYFdcjVz43iHu9TAX9lIOvi_u1uPTUs",
       "archiveReadbackVerified": true,
-      "publicationStatus": "Integrated; release checks pending",
+      "publicationStatus": "LIVE and independently verified",
       "seed": {
         "brand": "Bell & Ross",
         "brandSlug": "bell-and-ross",
@@ -619,7 +633,9 @@
         "sourceProvider": "Watchfinder",
         "reviewedAt": "2026-10-23",
         "assetId": "cleared-20261023-eight-br0192-redradar"
-      }
+      },
+      "websitePublished": true,
+      "productionCommit": "5aa46a3dcbda062f10d655fbe26eda95149dcf59"
     }
   ],
   "websitePublished": false,
@@ -678,5 +694,16 @@
         "rawSha256": "d9959c55738ed2435648194e344a281adafb0271a83f5295a4306144307f822d"
       }
     ]
+  },
+  "status": "LIVE and independently verified",
+  "productionRelease": {
+    "commit": "5aa46a3dcbda062f10d655fbe26eda95149dcf59",
+    "deployId": "dep-dbe0554s728c7388phfg",
+    "status": "LIVE",
+    "referenceRoutesVerified": 297,
+    "photographedReferenceRoutes": 259,
+    "queuedReferenceRoutes": 38,
+    "distinctPhotoFilesVerified": 257,
+    "photographedCollections": 90
   }
 }

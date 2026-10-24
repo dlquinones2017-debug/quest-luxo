@@ -109,5 +109,85 @@
   },
   "nativeAndWhiteWebVisualReview": "Complete originals and white WEB individually reviewed before direct founder rights confirmation; unchanged SHA256s verified during integration.",
   "archiveReadbacksVerified": true,
-  "status": "Built checks passed; independent production verification pending"
+  "status": "LIVE; all exact image mappings and full production verification passed",
+  "productionRelease": {
+    "commit": "7fcbe2bdd1b480d91577b6fa84d6cd637329144a",
+    "deployId": "dep-dbdvu7vlot8c73b8n8v0",
+    "status": "LIVE",
+    "referenceRoutesVerified": 297,
+    "photographedReferenceRoutes": 251,
+    "queuedReferenceRoutes": 46,
+    "distinctPhotoFilesVerified": 249,
+    "photographedCollections": 86
+  },
+  "targetedLive": {
+    "checkedAt": "2026-10-24T00:45:20.348648+00:00",
+    "mode": "live",
+    "exactReferencesChecked": 4,
+    "rows": [
+      {
+        "reference": "15710ST",
+        "route": "/collections/audemars-piguet/offshore-diver/15710st",
+        "imageSha256": "0e886ca27d84878d9025ba4884d9b08221e24868e3fae71113f045105bcac2d9",
+        "exactConfiguration": true,
+        "collectionGrid": true,
+        "inquiryContext": true,
+        "separateCredits": true,
+        "noImageCaptionOverlay": true
+      },
+      {
+        "reference": "15720ST",
+        "route": "/collections/audemars-piguet/offshore-diver/15720st",
+        "imageSha256": "fefc8fc511a332f1fe238abfbcbe6230f8d5e0e656f84010b47f63857874abc9",
+        "exactConfiguration": true,
+        "collectionGrid": true,
+        "inquiryContext": true,
+        "separateCredits": true,
+        "noImageCaptionOverlay": true
+      },
+      {
+        "reference": "126719BLRO",
+        "route": "/collections/rolex/gmt-master-ii/126719blro",
+        "imageSha256": "fda9df5ed2cd90372a39aacc6ff2868bc067b8365cadc2ca3b859fdddca2a7ef",
+        "exactConfiguration": true,
+        "collectionGrid": true,
+        "inquiryContext": true,
+        "separateCredits": true,
+        "noImageCaptionOverlay": true
+      },
+      {
+        "reference": "124300",
+        "route": "/collections/rolex/oyster-perpetual/124300",
+        "imageSha256": "d4aae30ac904421e1fee21c5619d52cd0464f1ab2fc14f05a731712bfda0d183",
+        "exactConfiguration": true,
+        "collectionGrid": true,
+        "inquiryContext": true,
+        "separateCredits": true,
+        "noImageCaptionOverlay": true
+      }
+    ],
+    "publicFlowsAvailable": true,
+    "leadDataSafety": "Public GET checks only. No new lead submissions, private lead reads, runtime data or disk changes."
+  },
+  "desktopMobileReview": {
+    "desktopReferences": [
+      "15710ST",
+      "126719BLRO"
+    ],
+    "mobileReferences": [
+      "15720ST",
+      "124300"
+    ],
+    "desktop": [
+      1440,
+      1000
+    ],
+    "mobile": [
+      390,
+      844
+    ],
+    "wholeCenteredImages": true,
+    "noHorizontalOverflow": true,
+    "noFigcaptions": true
+  }
 }

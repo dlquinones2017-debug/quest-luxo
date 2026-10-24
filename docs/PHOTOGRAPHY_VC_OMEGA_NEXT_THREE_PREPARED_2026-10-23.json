@@ -1,0 +1,162 @@
+{
+  "preparedAt": "2026-10-24T01:01:08.444436+00:00",
+  "references": [
+    {
+      "name": "vc-6000v-watchfinder",
+      "imageUrl": "https://images.watchfinder.co.uk/imgv2/catalogue/47752/VacheronConstantin-Overseas-6000V110A-B544-47752-201210-092408-.jpg",
+      "acquiredAt": "2026-10-24T00:59:40.610848+00:00",
+      "contentType": "image/jpeg",
+      "file": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\resume-20261023\\vc-6000v-watchfinder-raw.img",
+      "sha256": "fd150a6867c6b63b4c44808a4082dd768e8a038e94e455e18666d579c85c4492",
+      "size": [
+        1500,
+        1920
+      ],
+      "format": "JPEG",
+      "brand": "Vacheron Constantin",
+      "reference": "6000V/110A-B544",
+      "exactSKU": "6000V/110A-B544",
+      "sourceUrl": "https://www.watchfinder.com/sell-your-watch/enquiry/vacheron-constantin/overseas/6000v-110a-b544/47752",
+      "picturedConfiguration": {
+        "dial": "Blue",
+        "bracelet": "Stainless-steel bracelet"
+      },
+      "catalogMaterial": "Stainless Steel",
+      "catalogConfigurations": [
+        {
+          "caseSize": "42.5 mm",
+          "movement": "Calibre 2160 automatic tourbillon",
+          "dial": "Blue",
+          "bracelet": "Steel bracelet and additional straps",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "canonicalRoute": "/collections/vacheron-constantin/overseas/6000v-110a-b544",
+      "collection": "Overseas",
+      "whiteMaster": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\resume-20261023\\vc-6000v-watchfinder-white-master.png",
+      "webDerivative": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\resume-20261023\\vc-6000v-watchfinder-web.webp",
+      "masterSha256": "80d32741641e608177ee5d7a192af476920a2c3f1d4551b4549e277fd242e4e4",
+      "webSha256": "9388d8d6ce64194f0d89478288c777d73c384d9c5d9f434c2f7a514b5597d4b5",
+      "foregroundBounds": [
+        199,
+        129,
+        1372,
+        1813
+      ],
+      "visualReviewPassed": true,
+      "websiteApproved": false,
+      "rightsStatus": "New exact-source commercial website-use evidence not yet confirmed. Hold publication.",
+      "processing": "Classical exterior filled silhouette. Original interior RGB retained; no generated, reconstructed, recolored or sharpened watch detail. Proportional resize and centered2400 white master/1200WEB.",
+      "rawProviderProcessing": "Native CDN resource retrieved without image transformations or automated background-removal parameters.",
+      "qualityReviewPassed": true,
+      "exactReferenceConfigurationVerified": true,
+      "reviewStatus": "Native original and final1200WEB individually reviewed; whole depicted watch inside native margins, no generated or reconstructed detail. Native protective film retained on VC bracelet; no digital unwrapping."
+    },
+    {
+      "name": "omega-23332412101001-watchfinder",
+      "imageUrl": "https://images.watchfinder.co.uk/imgv2/catalogue/27927/Omega-Seamaster300m-233.32.41.21.01.001-27927-190107-105910-.jpg",
+      "acquiredAt": "2026-10-24T00:56:54.496013+00:00",
+      "contentType": "image/jpeg",
+      "file": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\resume-20261023\\omega-23332412101001-watchfinder-raw.img",
+      "sha256": "ae725f227cb28366135577126898e13b764c507c5c51e8ee97e10af4d1cdc51e",
+      "size": [
+        1500,
+        1920
+      ],
+      "format": "JPEG",
+      "brand": "Omega",
+      "reference": "233.32.41.21.01.001",
+      "exactSKU": "233.32.41.21.01.001",
+      "sourceUrl": "https://www.watchfinder.com/sell-your-watch/enquiry/omega/seamaster-300/233-32-41-21-01-001/27927",
+      "picturedConfiguration": {
+        "dial": "Black",
+        "bracelet": "Black-and-grey striped NATO strap"
+      },
+      "catalogMaterial": "Stainless Steel",
+      "catalogConfigurations": [
+        {
+          "caseSize": "41 mm",
+          "movement": "Omega 8400 automatic",
+          "dial": "Black",
+          "bracelet": "Black and gray NATO strap",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "canonicalRoute": "/collections/omega/seamaster-300/233-32-41-21-01-001",
+      "collection": "Seamaster 300",
+      "whiteMaster": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\resume-20261023\\omega-23332412101001-watchfinder-white-master.png",
+      "webDerivative": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\resume-20261023\\omega-23332412101001-watchfinder-web.webp",
+      "masterSha256": "de9dda69d43201b9280dcc20a191c49e7357547a1adf1ee2a204e4aefb390813",
+      "webSha256": "f3637123cbe0b1ab85b1d99fa0bad5744973e56eeddf81959eba0d0614b789e9",
+      "foregroundBounds": [
+        222,
+        136,
+        1365,
+        1828
+      ],
+      "visualReviewPassed": true,
+      "websiteApproved": false,
+      "rightsStatus": "New exact-source commercial website-use evidence not yet confirmed. Hold publication.",
+      "processing": "Classical exterior filled silhouette. Original interior RGB retained; no generated, reconstructed, recolored or sharpened watch detail. Proportional resize and centered2400 white master/1200WEB.",
+      "rawProviderProcessing": "Native CDN resource retrieved without image transformations or automated background-removal parameters.",
+      "qualityReviewPassed": true,
+      "exactReferenceConfigurationVerified": true,
+      "reviewStatus": "Native original and final1200WEB individually reviewed; whole depicted watch inside native margins, no generated or reconstructed detail. Native protective film retained on VC bracelet; no digital unwrapping."
+    },
+    {
+      "name": "omega-21530442201001-watchfinder",
+      "imageUrl": "https://www.watchfinder.com/media/catalog/product/W/a/Watch-1-Omega-PlanetOcean-215_30_44_22_01_001-431503-260716-112615681.jpg",
+      "acquiredAt": "2026-10-24T00:56:54.497019+00:00",
+      "contentType": "image/jpeg",
+      "file": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\resume-20261023\\omega-21530442201001-watchfinder-raw.img",
+      "sha256": "72d0c0822dc5a382647a84bc6cf680eb02be7609eda0dc9b7e2713e478324068",
+      "size": [
+        1500,
+        1920
+      ],
+      "format": "JPEG",
+      "brand": "Omega",
+      "reference": "215.30.44.22.01.001",
+      "exactSKU": "215.30.44.22.01.001",
+      "sourceUrl": "https://www.watchfinder.com/watches/omega/planet-ocean/215-30-44-22-01-001/431503",
+      "picturedConfiguration": {
+        "dial": "Black",
+        "bracelet": "Stainless-steel bracelet"
+      },
+      "catalogMaterial": "Stainless Steel",
+      "catalogConfigurations": [
+        {
+          "caseSize": "43.5 mm",
+          "movement": "Omega 8906 automatic GMT",
+          "dial": "Black ceramic non-wave",
+          "bracelet": "Stainless-steel bracelet",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "canonicalRoute": "/collections/omega/planet-ocean-gmt/215-30-44-22-01-001",
+      "collection": "Seamaster Planet Ocean GMT",
+      "whiteMaster": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\resume-20261023\\omega-21530442201001-watchfinder-white-master.png",
+      "webDerivative": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\resume-20261023\\omega-21530442201001-watchfinder-web.webp",
+      "masterSha256": "8a279e2970681e58b9fb7be7ed55f35c51d8d61ed801862cd238bda3f665a730",
+      "webSha256": "7f564e63353da8f9cfb23d96ce31021ebf8dbb7d44718bcf719122e519e7a07e",
+      "foregroundBounds": [
+        178,
+        128,
+        1393,
+        1806
+      ],
+      "visualReviewPassed": true,
+      "websiteApproved": false,
+      "rightsStatus": "New exact-source commercial website-use evidence not yet confirmed. Hold publication.",
+      "processing": "Classical exterior filled silhouette. Original interior RGB retained; no generated, reconstructed, recolored or sharpened watch detail. Proportional resize and centered2400 white master/1200WEB.",
+      "rawProviderProcessing": "Native CDN resource retrieved without image transformations or automated background-removal parameters.",
+      "qualityReviewPassed": true,
+      "exactReferenceConfigurationVerified": true,
+      "reviewStatus": "Native original and final1200WEB individually reviewed; whole depicted watch inside native margins, no generated or reconstructed detail. Native protective film retained on VC bracelet; no digital unwrapping."
+    }
+  ],
+  "websitePublished": false
+}

@@ -1,0 +1,545 @@
+{
+  "preparedAt": "2026-10-24T01:31:44.033560+00:00",
+  "references": [
+    {
+      "name": "zenith-defy-extreme-manufacturer",
+      "imageUrl": "https://images.zenith-watches.com/asset/ee44ff91-d28f-4e09-8bac-7339073f4d34/Digital-RGB/1-SOLDAT-2_DEFY-Extreme_95-9100-9004-01-I001_4x5.png",
+      "acquiredAt": "2026-10-24T01:15:22.104827+00:00",
+      "contentType": "image/png",
+      "file": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\resume-20261023\\zenith-defy-extreme-manufacturer-raw.img",
+      "sha256": "3ef0a4bf62a7ec92de4c4d16ccf15d49cec424793037eabca13ba29319983fd5",
+      "size": [
+        1120,
+        1600
+      ],
+      "format": "PNG",
+      "brand": "Zenith",
+      "reference": "95.9100.9004/01.I001",
+      "exactSKU": "95.9100.9004/01.I001",
+      "sourceUrl": "https://www.zenith-watches.com/en_us/product/defy-extreme-95-9100-9004-01-i001",
+      "picturedConfiguration": {
+        "dial": "Openworked sapphire with blue movement",
+        "bracelet": "Titanium bracelet"
+      },
+      "catalogMaterial": "Titanium",
+      "catalogConfigurations": [
+        {
+          "caseSize": "45 mm",
+          "movement": "El Primero 21 automatic 1/100th-second chronograph",
+          "dial": "Sapphire skeleton",
+          "bracelet": "Titanium bracelet, rubber and Velcro straps",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "canonicalRoute": "/collections/zenith/defy-extreme/95-9100-9004-01-i001",
+      "collection": "DEFY Extreme",
+      "whiteMaster": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\resume-20261023\\zenith-defy-extreme-manufacturer-white-master.png",
+      "webDerivative": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\resume-20261023\\zenith-defy-extreme-manufacturer-web.webp",
+      "masterSha256": "eb11523f206067dd92520c28b658f9068851402b8250eb6d73cb92e5446b763f",
+      "webSha256": "55bc0d86f73efa0b5f9fd1b2b5f93cb7f869dcae08f055370ca125eb863b22ca",
+      "foregroundBounds": [
+        194,
+        117,
+        1023,
+        1509
+      ],
+      "visualReviewPassed": true,
+      "websiteApproved": true,
+      "rightsStatus": "Exact original and white derivatives directly approved by founder; no restrictions specified in answer",
+      "processing": "Classical exterior filled silhouette. Original interior RGB retained; no generated, reconstructed, recolored or sharpened watch detail. Proportional resize and centered2400 white master/1200WEB.",
+      "rawProviderProcessing": "Native CDN resource retrieved without image transformations or automated background-removal parameters.",
+      "qualityReviewPassed": true,
+      "exactReferenceConfigurationVerified": true,
+      "reviewStatus": "Native source image and final1200WEB individually visually reviewed. Whole depicted watch, crown, case and closed bracelet/strap contained in native margins; exact source SKU and pictured configuration verified. No invented or reconstructed detail.",
+      "rawDriveId": "1z5t-XF6sXu4KjZ5gLXprMWrFIepopOi2",
+      "masterDriveId": "1fcgDVe1mQdv7q2txmOf19-HW_2i6GkED",
+      "webDriveId": "1GCwdoJ2zJoVE45AQPVCHCAWyFOMQJjvW",
+      "archiveReadbacksVerified": true,
+      "rawDriveFileId": "1z5t-XF6sXu4KjZ5gLXprMWrFIepopOi2",
+      "archiveReadbackVerified": true,
+      "publicationStatus": "Integrated; release checks pending",
+      "seed": {
+        "brand": "Zenith",
+        "brandSlug": "zenith",
+        "collection": "DEFY Extreme",
+        "reference": "95.9100.9004/01.I001",
+        "exactReference": "95.9100.9004/01.I001",
+        "model": "DEFY Extreme El Primero 21 Titanium",
+        "material": "Titanium",
+        "configuration": {
+          "caseSize": "45 mm",
+          "movement": "El Primero 21 automatic 1/100th-second chronograph",
+          "dial": "Openworked sapphire with blue movement",
+          "bracelet": "Titanium bracelet"
+        },
+        "sourceUrl": "https://www.zenith-watches.com/en_us/product/defy-extreme-95-9100-9004-01-i001",
+        "src": "/images/watches/zenith/reviewed-95-9100-9004-01-i001-20261023-web.webp",
+        "sha256": "55bc0d86f73efa0b5f9fd1b2b5f93cb7f869dcae08f055370ca125eb863b22ca",
+        "rawDriveFileId": "1z5t-XF6sXu4KjZ5gLXprMWrFIepopOi2",
+        "clearanceRecord": "Direct founder answer call_e5665215254c49a1a0c3f068ebd7fdfa: Yes. Approve.. Record docs/PHOTOGRAPHY_REVIEWED_SIX_RIGHTS_2026-10-23.json. Untouched RAW SHA256 3ef0a4bf62a7ec92de4c4d16ccf15d49cec424793037eabca13ba29319983fd5. Full watch, source/configuration and final1200whiteWEB individually reviewed; all archival readbacks matched. Classical exterior filled silhouette. Original interior RGB retained; no generated, reconstructed, recolored or sharpened watch detail. Proportional resize and centered2400 white master/1200WEB. No price, availability or new alloy grade inferred.",
+        "sourceProvider": "Zenith manufacturer",
+        "reviewedAt": "2026-10-23",
+        "assetId": "cleared-20261023-reviewed-six-95-9100-9004-01-i001"
+      }
+    },
+    {
+      "name": "fm-smurfette-bl-watchpages",
+      "imageUrl": "https://cdn.thewatchpages.com/app/uploads/2025/07/30190931/franck-muller-vanguard-smurfette-v-32-sc-at-fo-smurfette-bl.jpeg",
+      "acquiredAt": "2026-10-24T01:15:22.107354+00:00",
+      "contentType": "image/jpeg",
+      "file": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\resume-20261023\\fm-smurfette-bl-watchpages-raw.img",
+      "sha256": "687f712009d63bec3167c3f1a239b5fd89f04f03030ab019638bfbdd20d9218a",
+      "size": [
+        1649,
+        2397
+      ],
+      "format": "JPEG",
+      "brand": "Franck Muller",
+      "reference": "V 32 SC AT FO SMURFETTE (BL)",
+      "exactSKU": "V 32 SC AT FO SMURFETTE (BL)",
+      "sourceUrl": "https://www.thewatchpages.com/watches/franck-muller-vanguard-smurfette-v-32-sc-at-fo-smurfette-bl",
+      "picturedConfiguration": {
+        "dial": "Silver with blue numerals and Smurfette artwork",
+        "bracelet": "Blue alligator strap with yellow stitching"
+      },
+      "catalogMaterial": "Stainless Steel",
+      "catalogConfigurations": [
+        {
+          "caseSize": "32 mm",
+          "movement": "Automatic",
+          "dial": "Blue Smurfette motif",
+          "bracelet": "Blue strap",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "canonicalRoute": "/collections/franck-muller/vanguard-smurfette/v-32-sc-at-fo-smurfette-bl",
+      "collection": "Vanguard Smurfette",
+      "whiteMaster": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\resume-20261023\\fm-smurfette-bl-watchpages-white-master.png",
+      "webDerivative": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\resume-20261023\\fm-smurfette-bl-watchpages-web.webp",
+      "masterSha256": "4ac58ba099db536514837993ad4311183f1937904a29233bc4630c104fd6d3db",
+      "webSha256": "97ac8589990ecbb4f5f40a99a391495b9c31db9936e037d16742a9512d87fae9",
+      "foregroundBounds": [
+        142,
+        179,
+        1502,
+        2184
+      ],
+      "visualReviewPassed": true,
+      "websiteApproved": true,
+      "rightsStatus": "Exact original and white derivatives directly approved by founder; no restrictions specified in answer",
+      "processing": "Classical exterior filled silhouette. Original interior RGB retained; no generated, reconstructed, recolored or sharpened watch detail. Proportional resize and centered2400 white master/1200WEB.",
+      "rawProviderProcessing": "Native CDN resource retrieved without image transformations or automated background-removal parameters.",
+      "qualityReviewPassed": true,
+      "exactReferenceConfigurationVerified": true,
+      "reviewStatus": "Native source image and final1200WEB individually visually reviewed. Whole depicted watch, crown, case and closed bracelet/strap contained in native margins; exact source SKU and pictured configuration verified. No invented or reconstructed detail.",
+      "rawDriveId": "1vVonmT8mN8jjfecJeLOBRx3meR1-qvod",
+      "masterDriveId": "1xE86gSSGchAYcBqSsiYGqeHn5--pa_Id",
+      "webDriveId": "1p05EwSzlXQzJX39XcUq2B4nlC068JSmq",
+      "archiveReadbacksVerified": true,
+      "rawDriveFileId": "1vVonmT8mN8jjfecJeLOBRx3meR1-qvod",
+      "archiveReadbackVerified": true,
+      "publicationStatus": "Integrated; release checks pending",
+      "seed": {
+        "brand": "Franck Muller",
+        "brandSlug": "franck-muller",
+        "collection": "Vanguard Smurfette",
+        "reference": "V 32 SC AT FO SMURFETTE (BL)",
+        "exactReference": "V 32 SC AT FO SMURFETTE (BL)",
+        "model": "Vanguard Smurfette Blue",
+        "material": "Stainless Steel",
+        "configuration": {
+          "caseSize": "32 mm",
+          "movement": "Automatic",
+          "dial": "Silver with blue numerals and Smurfette artwork",
+          "bracelet": "Blue alligator strap with yellow stitching"
+        },
+        "sourceUrl": "https://www.thewatchpages.com/watches/franck-muller-vanguard-smurfette-v-32-sc-at-fo-smurfette-bl",
+        "src": "/images/watches/franck-muller/reviewed-v-32-sc-at-fo-smurfette-bl-20261023-web.webp",
+        "sha256": "97ac8589990ecbb4f5f40a99a391495b9c31db9936e037d16742a9512d87fae9",
+        "rawDriveFileId": "1vVonmT8mN8jjfecJeLOBRx3meR1-qvod",
+        "clearanceRecord": "Direct founder answer call_e5665215254c49a1a0c3f068ebd7fdfa: Yes. Approve.. Record docs/PHOTOGRAPHY_REVIEWED_SIX_RIGHTS_2026-10-23.json. Untouched RAW SHA256 687f712009d63bec3167c3f1a239b5fd89f04f03030ab019638bfbdd20d9218a. Full watch, source/configuration and final1200whiteWEB individually reviewed; all archival readbacks matched. Classical exterior filled silhouette. Original interior RGB retained; no generated, reconstructed, recolored or sharpened watch detail. Proportional resize and centered2400 white master/1200WEB. No price, availability or new alloy grade inferred.",
+        "sourceProvider": "The Watch Pages",
+        "reviewedAt": "2026-10-23",
+        "assetId": "cleared-20261023-reviewed-six-v-32-sc-at-fo-smurfette-bl"
+      }
+    },
+    {
+      "name": "fm-smurfette-rs-watchpages",
+      "imageUrl": "https://cdn.thewatchpages.com/app/uploads/2025/07/30190954/franck-muller-vanguard-smurfette-v-32-sc-at-fo-smurfette-rs.jpeg",
+      "acquiredAt": "2026-10-24T01:15:22.108511+00:00",
+      "contentType": "image/jpeg",
+      "file": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\resume-20261023\\fm-smurfette-rs-watchpages-raw.img",
+      "sha256": "2857c3644bf5dc0b4fd0355f7cc8f7e747b6d135c760d834e817104a724135e2",
+      "size": [
+        1649,
+        2397
+      ],
+      "format": "JPEG",
+      "brand": "Franck Muller",
+      "reference": "V 32 SC AT FO SMURFETTE (RS)",
+      "exactSKU": "V 32 SC AT FO SMURFETTE (RS)",
+      "sourceUrl": "https://www.thewatchpages.com/watches/franck-muller-vanguard-smurfette-v-32-sc-at-fo-smurfette-rs",
+      "picturedConfiguration": {
+        "dial": "Silver with pink numerals and Smurfette artwork",
+        "bracelet": "Pink alligator strap"
+      },
+      "catalogMaterial": "Stainless Steel",
+      "catalogConfigurations": [
+        {
+          "caseSize": "32 mm",
+          "movement": "Automatic",
+          "dial": "Pink Smurfette motif",
+          "bracelet": "Pink strap",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "canonicalRoute": "/collections/franck-muller/vanguard-smurfette/v-32-sc-at-fo-smurfette-rs",
+      "collection": "Vanguard Smurfette",
+      "whiteMaster": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\resume-20261023\\fm-smurfette-rs-watchpages-white-master.png",
+      "webDerivative": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\resume-20261023\\fm-smurfette-rs-watchpages-web.webp",
+      "masterSha256": "0e178c6f7492548e8f2739eb015d7ad7ddd73b802de20fe2b6a1d87b743edabf",
+      "webSha256": "8bf92d3843ee8a2054ac21f27ef717db09d7ac600e7fd7df5c846dcb9f24a85c",
+      "foregroundBounds": [
+        142,
+        179,
+        1500,
+        2184
+      ],
+      "visualReviewPassed": true,
+      "websiteApproved": true,
+      "rightsStatus": "Exact original and white derivatives directly approved by founder; no restrictions specified in answer",
+      "processing": "Classical exterior filled silhouette. Original interior RGB retained; no generated, reconstructed, recolored or sharpened watch detail. Proportional resize and centered2400 white master/1200WEB.",
+      "rawProviderProcessing": "Native CDN resource retrieved without image transformations or automated background-removal parameters.",
+      "qualityReviewPassed": true,
+      "exactReferenceConfigurationVerified": true,
+      "reviewStatus": "Native source image and final1200WEB individually visually reviewed. Whole depicted watch, crown, case and closed bracelet/strap contained in native margins; exact source SKU and pictured configuration verified. No invented or reconstructed detail.",
+      "rawDriveId": "1tSl-sXM4KP23TgYFvPpxpS9fZKMgZvlj",
+      "masterDriveId": "1gt5T4IfqSZIXjCo729tdRbTEDB9bQ6X_",
+      "webDriveId": "1YYdBAjZEhrIK0C3fFJ5wA4WSclb-E8hD",
+      "archiveReadbacksVerified": true,
+      "rawDriveFileId": "1tSl-sXM4KP23TgYFvPpxpS9fZKMgZvlj",
+      "archiveReadbackVerified": true,
+      "publicationStatus": "Integrated; release checks pending",
+      "seed": {
+        "brand": "Franck Muller",
+        "brandSlug": "franck-muller",
+        "collection": "Vanguard Smurfette",
+        "reference": "V 32 SC AT FO SMURFETTE (RS)",
+        "exactReference": "V 32 SC AT FO SMURFETTE (RS)",
+        "model": "Vanguard Smurfette Pink",
+        "material": "Stainless Steel",
+        "configuration": {
+          "caseSize": "32 mm",
+          "movement": "Automatic",
+          "dial": "Silver with pink numerals and Smurfette artwork",
+          "bracelet": "Pink alligator strap"
+        },
+        "sourceUrl": "https://www.thewatchpages.com/watches/franck-muller-vanguard-smurfette-v-32-sc-at-fo-smurfette-rs",
+        "src": "/images/watches/franck-muller/reviewed-v-32-sc-at-fo-smurfette-rs-20261023-web.webp",
+        "sha256": "8bf92d3843ee8a2054ac21f27ef717db09d7ac600e7fd7df5c846dcb9f24a85c",
+        "rawDriveFileId": "1tSl-sXM4KP23TgYFvPpxpS9fZKMgZvlj",
+        "clearanceRecord": "Direct founder answer call_e5665215254c49a1a0c3f068ebd7fdfa: Yes. Approve.. Record docs/PHOTOGRAPHY_REVIEWED_SIX_RIGHTS_2026-10-23.json. Untouched RAW SHA256 2857c3644bf5dc0b4fd0355f7cc8f7e747b6d135c760d834e817104a724135e2. Full watch, source/configuration and final1200whiteWEB individually reviewed; all archival readbacks matched. Classical exterior filled silhouette. Original interior RGB retained; no generated, reconstructed, recolored or sharpened watch detail. Proportional resize and centered2400 white master/1200WEB. No price, availability or new alloy grade inferred.",
+        "sourceProvider": "The Watch Pages",
+        "reviewedAt": "2026-10-23",
+        "assetId": "cleared-20261023-reviewed-six-v-32-sc-at-fo-smurfette-rs"
+      }
+    },
+    {
+      "name": "cartier-wgrd0011-manufacturer",
+      "imageUrl": "https://www.cartier.com/dw/image/v2/BGTJ_PRD/on/demandware.static/-/Sites-cartier-master/default/dw1c643a5c/images/large/f10db5ad74415600b8b6ce1745c66417.png",
+      "acquiredAt": "2026-10-24T01:23:43.195752+00:00",
+      "contentType": "image/jpeg",
+      "file": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\resume-20261023\\cartier-wgrd0011-manufacturer-raw.img",
+      "sha256": "0940c1a62b313bc09470f7473619a0385bbcc9053c60cdffd76db942e1c57ac5",
+      "size": [
+        2048,
+        2048
+      ],
+      "format": "JPEG",
+      "brand": "Cartier",
+      "reference": "WGRD0011",
+      "exactSKU": "WGRD0011",
+      "sourceUrl": "https://www.cartier.com/en-us/watches/collections/roadster/roadster-watch--CRWGRD0011.html",
+      "picturedConfiguration": {
+        "dial": "White with Roman numerals",
+        "bracelet": "18K yellow gold bracelet"
+      },
+      "catalogMaterial": "18K Yellow Gold",
+      "catalogConfigurations": [
+        {
+          "caseSize": "42.5 x 34.92 mm",
+          "movement": "Calibre 1899 MC automatic",
+          "dial": "White Roman-numeral dial",
+          "bracelet": "Yellow gold bracelet and gray leather strap",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "canonicalRoute": "/collections/cartier/roadster/wgrd0011",
+      "collection": "Roadster",
+      "whiteMaster": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\resume-20261023\\cartier-wgrd0011-manufacturer-white-master.png",
+      "webDerivative": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\resume-20261023\\cartier-wgrd0011-manufacturer-web.webp",
+      "masterSha256": "7759f495ed6b2011cfc4ff33d210a393a170c26c9f50f548a99ffd82006aaf04",
+      "webSha256": "0d69f78b52b5bf697c262c80f1a1e73ae663faa02c6778242a6814af1031119e",
+      "foregroundBounds": [
+        616,
+        197,
+        1525,
+        1792
+      ],
+      "visualReviewPassed": true,
+      "websiteApproved": true,
+      "rightsStatus": "Exact original and white derivatives directly approved by founder; no restrictions specified in answer",
+      "processing": "Classical GrabCut exterior segmentation and filled silhouette remove the original pale background and exterior cast shadow. All interior genuine watch RGB retained; no generation, reconstruction, recoloring or sharpening. Proportional scale and centered2400white master/1200WEB.",
+      "rawProviderProcessing": "Native CDN resource retrieved without image transformations or automated background-removal parameters.",
+      "qualityReviewPassed": true,
+      "exactReferenceConfigurationVerified": true,
+      "reviewStatus": "Native source image and final1200WEB individually visually reviewed. Whole depicted watch, crown, case and closed bracelet/strap contained in native margins; exact source SKU and pictured configuration verified. No invented or reconstructed detail.",
+      "rawDriveId": "1hJWr9-vHkg7V-hsTYcIeYUAtq9eA1uRR",
+      "masterDriveId": "14BTzSVwwlPgBFNRmlV92-ylEnXahQz1m",
+      "webDriveId": "17Mlaua2TkeNFu9FUSnEr02PmZzga6GqP",
+      "archiveReadbacksVerified": true,
+      "rawDriveFileId": "1hJWr9-vHkg7V-hsTYcIeYUAtq9eA1uRR",
+      "archiveReadbackVerified": true,
+      "publicationStatus": "Integrated; release checks pending",
+      "seed": {
+        "brand": "Cartier",
+        "brandSlug": "cartier",
+        "collection": "Roadster",
+        "reference": "WGRD0011",
+        "exactReference": "WGRD0011",
+        "model": "Roadster Medium Yellow Gold",
+        "material": "18K Yellow Gold",
+        "configuration": {
+          "caseSize": "42.5 x 34.92 mm",
+          "movement": "Calibre 1899 MC automatic",
+          "dial": "White with Roman numerals",
+          "bracelet": "18K yellow gold bracelet"
+        },
+        "sourceUrl": "https://www.cartier.com/en-us/watches/collections/roadster/roadster-watch--CRWGRD0011.html",
+        "src": "/images/watches/cartier/reviewed-wgrd0011-20261023-web.webp",
+        "sha256": "0d69f78b52b5bf697c262c80f1a1e73ae663faa02c6778242a6814af1031119e",
+        "rawDriveFileId": "1hJWr9-vHkg7V-hsTYcIeYUAtq9eA1uRR",
+        "clearanceRecord": "Direct founder answer call_e5665215254c49a1a0c3f068ebd7fdfa: Yes. Approve.. Record docs/PHOTOGRAPHY_REVIEWED_SIX_RIGHTS_2026-10-23.json. Untouched RAW SHA256 0940c1a62b313bc09470f7473619a0385bbcc9053c60cdffd76db942e1c57ac5. Full watch, source/configuration and final1200whiteWEB individually reviewed; all archival readbacks matched. Classical GrabCut exterior segmentation and filled silhouette remove the original pale background and exterior cast shadow. All interior genuine watch RGB retained; no generation, reconstruction, recoloring or sharpening. Proportional scale and centered2400white master/1200WEB. No price, availability or new alloy grade inferred.",
+        "sourceProvider": "Cartier manufacturer",
+        "reviewedAt": "2026-10-23",
+        "assetId": "cleared-20261023-reviewed-six-wgrd0011"
+      }
+    },
+    {
+      "name": "cartier-wsrd0014-manufacturer",
+      "imageUrl": "https://www.cartier.com/dw/image/v2/BGTJ_PRD/on/demandware.static/-/Sites-cartier-master/default/dw530e9f44/images/large/dbd24d3acbdf5c41b219f76800a19a64.png",
+      "acquiredAt": "2026-10-24T01:26:51.850177+00:00",
+      "contentType": "image/jpeg",
+      "file": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\resume-20261023\\cartier-wsrd0014-manufacturer-raw.img",
+      "sha256": "18846f51207a4d8d9ca070c1984766012f757b89864ac86fb2a5930192e12cad",
+      "size": [
+        2048,
+        2048
+      ],
+      "format": "JPEG",
+      "brand": "Cartier",
+      "reference": "WSRD0014",
+      "exactSKU": "WSRD0014",
+      "sourceUrl": "https://www.cartier.com/en-us/watches/collections/roadster/roadster-watch--CRWSRD0014.html",
+      "picturedConfiguration": {
+        "dial": "Blue PVD with Roman numerals",
+        "bracelet": "Navy blue rubber strap"
+      },
+      "catalogMaterial": "Stainless Steel",
+      "catalogConfigurations": [
+        {
+          "caseSize": "47.2 x 38.7 mm",
+          "movement": "Calibre 1847 MC automatic",
+          "dial": "Blue PVD with Roman numerals",
+          "bracelet": "Steel bracelet and navy blue rubber strap",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "canonicalRoute": "/collections/cartier/roadster/wsrd0014",
+      "collection": "Roadster",
+      "whiteMaster": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\resume-20261023\\cartier-wsrd0014-manufacturer-white-master.png",
+      "webDerivative": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\resume-20261023\\cartier-wsrd0014-manufacturer-web.webp",
+      "masterSha256": "a34e7a12a372e0cf16404b9e52bfc785b8a6eac0f694f4c01fc338ec38bec9da",
+      "webSha256": "13a8c65b712e1e58fa8942e73c3c872ccf0a47e473ccbc894a6edfdaee503b04",
+      "foregroundBounds": [
+        563,
+        183,
+        1574,
+        1807
+      ],
+      "visualReviewPassed": true,
+      "websiteApproved": true,
+      "rightsStatus": "Exact original and white derivatives directly approved by founder; no restrictions specified in answer",
+      "processing": "Classical external connected warm-background classification and filled silhouette remove the original pale background and exterior cast shadow. Neutral steel highlights and interior watch detail retained. All interior genuine watch RGB retained; no generation, reconstruction, recoloring or sharpening. Proportional scale and centered2400white master/1200WEB.",
+      "rawProviderProcessing": "Native CDN resource retrieved without image transformations or automated background-removal parameters.",
+      "qualityReviewPassed": true,
+      "exactReferenceConfigurationVerified": true,
+      "reviewStatus": "Native source image and final1200WEB individually visually reviewed. Whole depicted watch, crown, case and closed bracelet/strap contained in native margins; exact source SKU and pictured configuration verified. No invented or reconstructed detail.",
+      "rawDriveId": "1uZRNJJVxJIsI31CERViUT-4kd7_AEjd-",
+      "masterDriveId": "1UQcKQyCysvbl0FjA1u7Ya096XVk7EJjt",
+      "webDriveId": "1D8CTaqpQAnTR_lBmYSOYKw4BFsaLHrps",
+      "archiveReadbacksVerified": true,
+      "rawDriveFileId": "1uZRNJJVxJIsI31CERViUT-4kd7_AEjd-",
+      "archiveReadbackVerified": true,
+      "publicationStatus": "Integrated; release checks pending",
+      "seed": {
+        "brand": "Cartier",
+        "brandSlug": "cartier",
+        "collection": "Roadster",
+        "reference": "WSRD0014",
+        "exactReference": "WSRD0014",
+        "model": "Roadster Large Steel Blue",
+        "material": "Stainless Steel",
+        "configuration": {
+          "caseSize": "47.2 x 38.7 mm",
+          "movement": "Calibre 1847 MC automatic",
+          "dial": "Blue PVD with Roman numerals",
+          "bracelet": "Navy blue rubber strap"
+        },
+        "sourceUrl": "https://www.cartier.com/en-us/watches/collections/roadster/roadster-watch--CRWSRD0014.html",
+        "src": "/images/watches/cartier/reviewed-wsrd0014-20261023-web.webp",
+        "sha256": "13a8c65b712e1e58fa8942e73c3c872ccf0a47e473ccbc894a6edfdaee503b04",
+        "rawDriveFileId": "1uZRNJJVxJIsI31CERViUT-4kd7_AEjd-",
+        "clearanceRecord": "Direct founder answer call_e5665215254c49a1a0c3f068ebd7fdfa: Yes. Approve.. Record docs/PHOTOGRAPHY_REVIEWED_SIX_RIGHTS_2026-10-23.json. Untouched RAW SHA256 18846f51207a4d8d9ca070c1984766012f757b89864ac86fb2a5930192e12cad. Full watch, source/configuration and final1200whiteWEB individually reviewed; all archival readbacks matched. Classical external connected warm-background classification and filled silhouette remove the original pale background and exterior cast shadow. Neutral steel highlights and interior watch detail retained. All interior genuine watch RGB retained; no generation, reconstruction, recoloring or sharpening. Proportional scale and centered2400white master/1200WEB. No price, availability or new alloy grade inferred.",
+        "sourceProvider": "Cartier manufacturer",
+        "reviewedAt": "2026-10-23",
+        "assetId": "cleared-20261023-reviewed-six-wsrd0014"
+      }
+    },
+    {
+      "name": "iwc-iw545801-manufacturer",
+      "imageUrl": "https://img.iwc.com/product-slideshow-1/o-dpr-2/4ad146dba63999e0bc4f431fe1f5a6ee591925cc.jpg",
+      "acquiredAt": "2026-10-24T01:19:36.597666+00:00",
+      "contentType": "image/png",
+      "file": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\resume-20261023\\iwc-iw545801-manufacturer-raw.img",
+      "sha256": "360e3422c03ee153e5fffd7837f8d7e9944711d0498abe76444deb18078b0c86",
+      "size": [
+        704,
+        768
+      ],
+      "format": "PNG",
+      "brand": "IWC",
+      "reference": "IW545801",
+      "exactSKU": "IW545801",
+      "sourceUrl": "https://www.iwc.com/us-en/watches/portugieser/iw545801-portugieser-hand-wound-tourbillon",
+      "picturedConfiguration": {
+        "dial": "Silver-plated",
+        "bracelet": "Black alligator leather strap by Santoni"
+      },
+      "catalogMaterial": "18K Armor Gold",
+      "catalogConfigurations": [
+        {
+          "caseSize": "42.4 mm",
+          "movement": "IWC 81905 manual-winding flying tourbillon",
+          "dial": "Silver",
+          "bracelet": "Black alligator leather strap",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "canonicalRoute": "/collections/iwc/portugieser/iw545801",
+      "collection": "Portugieser",
+      "whiteMaster": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\resume-20261023\\iwc-iw545801-manufacturer-white-master.png",
+      "webDerivative": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\resume-20261023\\iwc-iw545801-manufacturer-web.webp",
+      "masterSha256": "1c3183dc385cb503d60f50a50024e8856b249c8a4d144ff9f6b8e077d5a568dd",
+      "webSha256": "95afec4a97ea3ec194f7c60bb2e65fc26a1839408378765d1010b834dc337cd5",
+      "foregroundBounds": [
+        184,
+        88,
+        545,
+        672
+      ],
+      "visualReviewPassed": true,
+      "websiteApproved": true,
+      "rightsStatus": "Exact original and white derivatives directly approved by founder; no restrictions specified in answer",
+      "processing": "Manufacturer-supplied alpha silhouette (>240opacity) plus filled external contour removes only exterior shadow/background. Original internal watch RGB retained and supplied transparency composited on white. Proportional scale, centered2400white master/1200WEB; no generated/reconstructed/recolored/sharpened watch detail.",
+      "rawProviderProcessing": "Untouched bytes from the official704x768product-slideshow rendition. No claim that these are higher-resolution native originals.",
+      "qualityReviewPassed": true,
+      "exactReferenceConfigurationVerified": true,
+      "reviewStatus": "Native source image and final1200WEB individually visually reviewed. Whole depicted watch, crown, case and closed bracelet/strap contained in native margins; exact source SKU and pictured configuration verified. No invented or reconstructed detail.",
+      "specificationReviewNote": "Current exact manufacturer source and existing catalog both state42.4mm. Preserve existing verified configuration fields; no new dimensions or prices inferred.",
+      "rawDriveId": "1wR5tVQufuPIEAOBYfBWUYRhuvPZGpKY1",
+      "masterDriveId": "1DTfLPCk7oWspnO8qzidnwQGCkRBR5hjY",
+      "webDriveId": "1hf-n8G8hi8s7WZuzhSXuvAXeNeJA29po",
+      "archiveReadbacksVerified": true,
+      "rawDriveFileId": "1wR5tVQufuPIEAOBYfBWUYRhuvPZGpKY1",
+      "archiveReadbackVerified": true,
+      "publicationStatus": "Integrated; release checks pending",
+      "seed": {
+        "brand": "IWC",
+        "brandSlug": "iwc",
+        "collection": "Portugieser",
+        "reference": "IW545801",
+        "exactReference": "IW545801",
+        "model": "Portugieser Hand-Wound Flying Tourbillon",
+        "material": "18K Armor Gold",
+        "configuration": {
+          "caseSize": "42.4 mm",
+          "movement": "IWC 81905 manual-winding flying tourbillon",
+          "dial": "Silver-plated",
+          "bracelet": "Black alligator leather strap by Santoni"
+        },
+        "sourceUrl": "https://www.iwc.com/us-en/watches/portugieser/iw545801-portugieser-hand-wound-tourbillon",
+        "src": "/images/watches/iwc/reviewed-iw545801-20261023-web.webp",
+        "sha256": "95afec4a97ea3ec194f7c60bb2e65fc26a1839408378765d1010b834dc337cd5",
+        "rawDriveFileId": "1wR5tVQufuPIEAOBYfBWUYRhuvPZGpKY1",
+        "clearanceRecord": "Direct founder answer call_e5665215254c49a1a0c3f068ebd7fdfa: Yes. Approve.. Record docs/PHOTOGRAPHY_REVIEWED_SIX_RIGHTS_2026-10-23.json. Untouched RAW SHA256 360e3422c03ee153e5fffd7837f8d7e9944711d0498abe76444deb18078b0c86. Full watch, source/configuration and final1200whiteWEB individually reviewed; all archival readbacks matched. Manufacturer-supplied alpha silhouette (>240opacity) plus filled external contour removes only exterior shadow/background. Original internal watch RGB retained and supplied transparency composited on white. Proportional scale, centered2400white master/1200WEB; no generated/reconstructed/recolored/sharpened watch detail. No price, availability or new alloy grade inferred.",
+        "sourceProvider": "IWC manufacturer",
+        "reviewedAt": "2026-10-23",
+        "assetId": "cleared-20261023-reviewed-six-iw545801"
+      }
+    }
+  ],
+  "websitePublished": false,
+  "status": "Six exact-source sets visually reviewed and archived; all18archive readback hashes match. Commercial-use evidence pending; publication held.",
+  "archiveVerifiedAt": "2026-10-24T01:33:55.235912+00:00",
+  "rights": {
+    "confirmedAt": "2026-10-24T01:35:10.145728+00:00",
+    "questionId": "call_e5665215254c49a1a0c3f068ebd7fdfa",
+    "directFounderAnswer": "Yes. Approve.",
+    "sourceLedgerDriveFileId": "1r8Na9-3taw5cucstriyIMIxpWvH43iPq",
+    "references": [
+      {
+        "reference": "95.9100.9004/01.I001",
+        "exactSKU": "95.9100.9004/01.I001",
+        "sourceUrl": "https://www.zenith-watches.com/en_us/product/defy-extreme-95-9100-9004-01-i001",
+        "rawSha256": "3ef0a4bf62a7ec92de4c4d16ccf15d49cec424793037eabca13ba29319983fd5"
+      },
+      {
+        "reference": "V 32 SC AT FO SMURFETTE (BL)",
+        "exactSKU": "V 32 SC AT FO SMURFETTE (BL)",
+        "sourceUrl": "https://www.thewatchpages.com/watches/franck-muller-vanguard-smurfette-v-32-sc-at-fo-smurfette-bl",
+        "rawSha256": "687f712009d63bec3167c3f1a239b5fd89f04f03030ab019638bfbdd20d9218a"
+      },
+      {
+        "reference": "V 32 SC AT FO SMURFETTE (RS)",
+        "exactSKU": "V 32 SC AT FO SMURFETTE (RS)",
+        "sourceUrl": "https://www.thewatchpages.com/watches/franck-muller-vanguard-smurfette-v-32-sc-at-fo-smurfette-rs",
+        "rawSha256": "2857c3644bf5dc0b4fd0355f7cc8f7e747b6d135c760d834e817104a724135e2"
+      },
+      {
+        "reference": "WGRD0011",
+        "exactSKU": "WGRD0011",
+        "sourceUrl": "https://www.cartier.com/en-us/watches/collections/roadster/roadster-watch--CRWGRD0011.html",
+        "rawSha256": "0940c1a62b313bc09470f7473619a0385bbcc9053c60cdffd76db942e1c57ac5"
+      },
+      {
+        "reference": "WSRD0014",
+        "exactSKU": "WSRD0014",
+        "sourceUrl": "https://www.cartier.com/en-us/watches/collections/roadster/roadster-watch--CRWSRD0014.html",
+        "rawSha256": "18846f51207a4d8d9ca070c1984766012f757b89864ac86fb2a5930192e12cad"
+      },
+      {
+        "reference": "IW545801",
+        "exactSKU": "IW545801",
+        "sourceUrl": "https://www.iwc.com/us-en/watches/portugieser/iw545801-portugieser-hand-wound-tourbillon",
+        "rawSha256": "360e3422c03ee153e5fffd7837f8d7e9944711d0498abe76444deb18078b0c86"
+      }
+    ]
+  }
+}

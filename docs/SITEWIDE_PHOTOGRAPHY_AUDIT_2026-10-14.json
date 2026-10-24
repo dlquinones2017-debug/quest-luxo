@@ -1,14 +1,14 @@
 {
-  "auditedAt": "2026-10-24T01:17:44.309Z",
+  "auditedAt": "2026-10-24T01:39:59.064Z",
   "summary": {
     "brands": 23,
     "collections": 104,
     "registryRecords": 298,
     "distinctRoutes": 297,
     "normalizedBrandReferenceIdentities": 294,
-    "approved": 264,
-    "missing": 33,
-    "collectionsWithPhotography": 93,
+    "approved": 270,
+    "missing": 27,
+    "collectionsWithPhotography": 96,
     "unusedApprovedRecords": 2,
     "duplicateNormalizedReferenceGroups": 4,
     "fileIntegrityFailures": 0,
@@ -67,8 +67,8 @@
       "brand": "Cartier",
       "registryRecords": 10,
       "referencePages": 10,
-      "approved": 8,
-      "missing": 2,
+      "approved": 10,
+      "missing": 0,
       "collections": 5
     },
     {
@@ -83,8 +83,8 @@
       "brand": "Franck Muller",
       "registryRecords": 15,
       "referencePages": 15,
-      "approved": 10,
-      "missing": 5,
+      "approved": 12,
+      "missing": 3,
       "collections": 9
     },
     {
@@ -107,8 +107,8 @@
       "brand": "IWC",
       "registryRecords": 9,
       "referencePages": 9,
-      "approved": 8,
-      "missing": 1,
+      "approved": 9,
+      "missing": 0,
       "collections": 6
     },
     {
@@ -195,8 +195,8 @@
       "brand": "Zenith",
       "registryRecords": 6,
       "referencePages": 5,
-      "approved": 4,
-      "missing": 1,
+      "approved": 5,
+      "missing": 0,
       "collections": 3
     }
   ],
@@ -2796,6 +2796,8 @@
       "material": "Stainless Steel",
       "configurations": [
         {
+          "caseSize": "42.5 mm",
+          "movement": "Calibre 2160 automatic tourbillon",
           "dial": "Blue",
           "bracelet": "Stainless-steel bracelet",
           "nickname": "Blue / Stainless-steel bracelet",
@@ -4103,9 +4105,11 @@
           "waterResistance": "300 m"
         },
         {
+          "caseSize": "41 mm",
+          "movement": "Calibre 2500 Co-Axial automatic",
+          "waterResistance": "300 m",
           "dial": "Blue wave",
           "bracelet": "Stainless-steel bracelet",
-          "caseSize": "41 mm",
           "nickname": "Blue wave / Stainless-steel bracelet",
           "originalMSRP": null,
           "currentMSRP": null
@@ -5342,9 +5346,11 @@
           "waterResistance": "300 m"
         },
         {
+          "caseSize": "42 mm",
+          "movement": "Calibre 3120 automatic",
+          "waterResistance": "300 m",
           "dial": "Black Mega Tapisserie",
           "bracelet": "Black rubber strap",
-          "caseSize": "42 mm",
           "nickname": "Black Mega Tapisserie / Black rubber strap",
           "originalMSRP": null,
           "currentMSRP": null
@@ -5375,9 +5381,11 @@
           "waterResistance": "300 m"
         },
         {
+          "caseSize": "42 mm",
+          "movement": "Calibre 4308 automatic",
+          "waterResistance": "300 m",
           "dial": "Blue Mega Tapisserie",
           "bracelet": "Blue rubber strap",
-          "caseSize": "42 mm",
           "nickname": "Blue Mega Tapisserie / Blue rubber strap",
           "originalMSRP": null,
           "currentMSRP": null
@@ -5867,6 +5875,9 @@
           "waterResistance": "300 m"
         },
         {
+          "caseSize": "42 mm",
+          "movement": "Automatic",
+          "waterResistance": "300 m",
           "dial": "Black",
           "bracelet": "Black rubber strap",
           "nickname": "Black / Black rubber strap",
@@ -5899,6 +5910,9 @@
           "waterResistance": "300 m"
         },
         {
+          "caseSize": "47 mm",
+          "movement": "Automatic",
+          "waterResistance": "300 m",
           "dial": "Black",
           "bracelet": "Black rubber strap",
           "nickname": "Black / Black rubber strap",
@@ -5924,6 +5938,8 @@
       "material": "Carbotech",
       "configurations": [
         {
+          "caseSize": "47 mm",
+          "movement": "Panerai P.9010 automatic",
           "dial": "Black with blue luminous markers",
           "bracelet": "Black rubber strap",
           "nickname": "Black with blue luminous markers / Black rubber strap",
@@ -6714,6 +6730,8 @@
       "material": "Stainless Steel",
       "configurations": [
         {
+          "caseSize": "46 mm",
+          "movement": "Automatic mechanical",
           "dial": "Red radar",
           "bracelet": "Black rubber strap",
           "nickname": "Red radar / Black rubber strap",
@@ -7299,6 +7317,9 @@
           "currentMSRP": null
         },
         {
+          "caseSize": "41 mm",
+          "movement": "Manufacture Calibre MT5813 (COSC)",
+          "waterResistance": "200 m",
           "dial": "Turquoise with black subdials",
           "bracelet": "Stainless-steel five-link bracelet",
           "nickname": "Turquoise with black subdials / Stainless-steel five-link bracelet",
@@ -7333,6 +7354,9 @@
           "currentMSRP": null
         },
         {
+          "caseSize": "41 mm",
+          "movement": "Manufacture Calibre MT5813 (COSC)",
+          "waterResistance": "200 m",
           "dial": "Pink with black subdials",
           "bracelet": "Stainless-steel five-link bracelet",
           "nickname": "Pink with black subdials / Stainless-steel five-link bracelet",
@@ -7770,10 +7794,23 @@
           "bracelet": "Black alligator leather strap",
           "originalMSRP": null,
           "currentMSRP": null
+        },
+        {
+          "caseSize": "42.4 mm",
+          "movement": "IWC 81905 manual-winding flying tourbillon",
+          "dial": "Silver-plated",
+          "bracelet": "Black alligator leather strap by Santoni",
+          "nickname": "Silver-plated / Black alligator leather strap by Santoni",
+          "originalMSRP": null,
+          "currentMSRP": null
         }
       ],
-      "approved": false,
-      "photo": null,
+      "approved": true,
+      "photo": {
+        "assetId": "cleared-20261023-reviewed-six-iw545801",
+        "src": "/images/watches/iwc/reviewed-iw545801-20261023-web.webp",
+        "sha256": "95afec4a97ea3ec194f7c60bb2e65fc26a1839408378765d1010b834dc337cd5"
+      },
       "recoveryCandidates": []
     },
     {
@@ -7937,6 +7974,8 @@
           "currentMSRP": null
         },
         {
+          "caseSize": "45 mm",
+          "movement": "Calibre Heuer 01 automatic",
           "dial": "Black-and-silver skeleton",
           "bracelet": "Black perforated rubber strap",
           "nickname": "Black-and-silver skeleton / Black perforated rubber strap",
@@ -8076,6 +8115,8 @@
           "currentMSRP": null
         },
         {
+          "caseSize": "44.25 mm",
+          "movement": "Omega 9300 automatic chronograph",
           "dial": "Black",
           "bracelet": "Black nylon fabric strap",
           "nickname": "Black / Black nylon fabric strap",
@@ -8245,10 +8286,23 @@
           "bracelet": "Blue strap",
           "originalMSRP": null,
           "currentMSRP": null
+        },
+        {
+          "caseSize": "32 mm",
+          "movement": "Automatic",
+          "dial": "Silver with blue numerals and Smurfette artwork",
+          "bracelet": "Blue alligator strap with yellow stitching",
+          "nickname": "Silver with blue numerals and Smurfette artwork / Blue alligator strap with yellow stitching",
+          "originalMSRP": null,
+          "currentMSRP": null
         }
       ],
-      "approved": false,
-      "photo": null,
+      "approved": true,
+      "photo": {
+        "assetId": "cleared-20261023-reviewed-six-v-32-sc-at-fo-smurfette-bl",
+        "src": "/images/watches/franck-muller/reviewed-v-32-sc-at-fo-smurfette-bl-20261023-web.webp",
+        "sha256": "97ac8589990ecbb4f5f40a99a391495b9c31db9936e037d16742a9512d87fae9"
+      },
       "recoveryCandidates": []
     },
     {
@@ -8267,10 +8321,23 @@
           "bracelet": "Pink strap",
           "originalMSRP": null,
           "currentMSRP": null
+        },
+        {
+          "caseSize": "32 mm",
+          "movement": "Automatic",
+          "dial": "Silver with pink numerals and Smurfette artwork",
+          "bracelet": "Pink alligator strap",
+          "nickname": "Silver with pink numerals and Smurfette artwork / Pink alligator strap",
+          "originalMSRP": null,
+          "currentMSRP": null
         }
       ],
-      "approved": false,
-      "photo": null,
+      "approved": true,
+      "photo": {
+        "assetId": "cleared-20261023-reviewed-six-v-32-sc-at-fo-smurfette-rs",
+        "src": "/images/watches/franck-muller/reviewed-v-32-sc-at-fo-smurfette-rs-20261023-web.webp",
+        "sha256": "8bf92d3843ee8a2054ac21f27ef717db09d7ac600e7fd7df5c846dcb9f24a85c"
+      },
       "recoveryCandidates": []
     },
     {
@@ -8390,10 +8457,23 @@
           "bracelet": "Yellow gold bracelet and gray leather strap",
           "originalMSRP": null,
           "currentMSRP": null
+        },
+        {
+          "caseSize": "42.5 x 34.92 mm",
+          "movement": "Calibre 1899 MC automatic",
+          "dial": "White with Roman numerals",
+          "bracelet": "18K yellow gold bracelet",
+          "nickname": "White with Roman numerals / 18K yellow gold bracelet",
+          "originalMSRP": null,
+          "currentMSRP": null
         }
       ],
-      "approved": false,
-      "photo": null,
+      "approved": true,
+      "photo": {
+        "assetId": "cleared-20261023-reviewed-six-wgrd0011",
+        "src": "/images/watches/cartier/reviewed-wgrd0011-20261023-web.webp",
+        "sha256": "0d69f78b52b5bf697c262c80f1a1e73ae663faa02c6778242a6814af1031119e"
+      },
       "recoveryCandidates": []
     },
     {
@@ -8412,10 +8492,23 @@
           "bracelet": "Steel bracelet and navy blue rubber strap",
           "originalMSRP": null,
           "currentMSRP": null
+        },
+        {
+          "caseSize": "47.2 x 38.7 mm",
+          "movement": "Calibre 1847 MC automatic",
+          "dial": "Blue PVD with Roman numerals",
+          "bracelet": "Navy blue rubber strap",
+          "nickname": "Blue PVD with Roman numerals / Navy blue rubber strap",
+          "originalMSRP": null,
+          "currentMSRP": null
         }
       ],
-      "approved": false,
-      "photo": null,
+      "approved": true,
+      "photo": {
+        "assetId": "cleared-20261023-reviewed-six-wsrd0014",
+        "src": "/images/watches/cartier/reviewed-wsrd0014-20261023-web.webp",
+        "sha256": "13a8c65b712e1e58fa8942e73c3c872ccf0a47e473ccbc894a6edfdaee503b04"
+      },
       "recoveryCandidates": []
     },
     {
@@ -8434,10 +8527,23 @@
           "bracelet": "Titanium bracelet, rubber and Velcro straps",
           "originalMSRP": null,
           "currentMSRP": null
+        },
+        {
+          "caseSize": "45 mm",
+          "movement": "El Primero 21 automatic 1/100th-second chronograph",
+          "dial": "Openworked sapphire with blue movement",
+          "bracelet": "Titanium bracelet",
+          "nickname": "Openworked sapphire with blue movement / Titanium bracelet",
+          "originalMSRP": null,
+          "currentMSRP": null
         }
       ],
-      "approved": false,
-      "photo": null,
+      "approved": true,
+      "photo": {
+        "assetId": "cleared-20261023-reviewed-six-95-9100-9004-01-i001",
+        "src": "/images/watches/zenith/reviewed-95-9100-9004-01-i001-20261023-web.webp",
+        "sha256": "55bc0d86f73efa0b5f9fd1b2b5f93cb7f869dcae08f055370ca125eb863b22ca"
+      },
       "recoveryCandidates": []
     },
     {
@@ -8512,6 +8618,8 @@
           "currentMSRP": null
         },
         {
+          "caseSize": "41 mm",
+          "movement": "Omega 8400 automatic",
           "dial": "Black",
           "bracelet": "Black-and-grey striped NATO strap",
           "nickname": "Black / Black-and-grey striped NATO strap",
@@ -8599,6 +8707,8 @@
           "currentMSRP": null
         },
         {
+          "caseSize": "43.5 mm",
+          "movement": "Omega 8906 automatic GMT",
           "dial": "Black",
           "bracelet": "Stainless-steel bracelet",
           "nickname": "Black / Stainless-steel bracelet",

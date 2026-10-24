@@ -1,0 +1,44 @@
+{
+  "confirmedAt": "2026-10-24T01:35:10.145728+00:00",
+  "questionId": "call_e5665215254c49a1a0c3f068ebd7fdfa",
+  "directFounderAnswer": "Yes. Approve.",
+  "sourceLedgerDriveFileId": "1r8Na9-3taw5cucstriyIMIxpWvH43iPq",
+  "references": [
+    {
+      "reference": "95.9100.9004/01.I001",
+      "exactSKU": "95.9100.9004/01.I001",
+      "sourceUrl": "https://www.zenith-watches.com/en_us/product/defy-extreme-95-9100-9004-01-i001",
+      "rawSha256": "3ef0a4bf62a7ec92de4c4d16ccf15d49cec424793037eabca13ba29319983fd5"
+    },
+    {
+      "reference": "V 32 SC AT FO SMURFETTE (BL)",
+      "exactSKU": "V 32 SC AT FO SMURFETTE (BL)",
+      "sourceUrl": "https://www.thewatchpages.com/watches/franck-muller-vanguard-smurfette-v-32-sc-at-fo-smurfette-bl",
+      "rawSha256": "687f712009d63bec3167c3f1a239b5fd89f04f03030ab019638bfbdd20d9218a"
+    },
+    {
+      "reference": "V 32 SC AT FO SMURFETTE (RS)",
+      "exactSKU": "V 32 SC AT FO SMURFETTE (RS)",
+      "sourceUrl": "https://www.thewatchpages.com/watches/franck-muller-vanguard-smurfette-v-32-sc-at-fo-smurfette-rs",
+      "rawSha256": "2857c3644bf5dc0b4fd0355f7cc8f7e747b6d135c760d834e817104a724135e2"
+    },
+    {
+      "reference": "WGRD0011",
+      "exactSKU": "WGRD0011",
+      "sourceUrl": "https://www.cartier.com/en-us/watches/collections/roadster/roadster-watch--CRWGRD0011.html",
+      "rawSha256": "0940c1a62b313bc09470f7473619a0385bbcc9053c60cdffd76db942e1c57ac5"
+    },
+    {
+      "reference": "WSRD0014",
+      "exactSKU": "WSRD0014",
+      "sourceUrl": "https://www.cartier.com/en-us/watches/collections/roadster/roadster-watch--CRWSRD0014.html",
+      "rawSha256": "18846f51207a4d8d9ca070c1984766012f757b89864ac86fb2a5930192e12cad"
+    },
+    {
+      "reference": "IW545801",
+      "exactSKU": "IW545801",
+      "sourceUrl": "https://www.iwc.com/us-en/watches/portugieser/iw545801-portugieser-hand-wound-tourbillon",
+      "rawSha256": "360e3422c03ee153e5fffd7837f8d7e9944711d0498abe76444deb18078b0c86"
+    }
+  ]
+}

@@ -1,10 +1,10 @@
 {
-  "verifiedAt": "2026-10-20T10:37:13.360177+00:00",
+  "verifiedAt": "2026-10-24T01:21:12.224206+00:00",
   "expectedDistinctReferenceRoutes": 297,
   "verifiedReferenceRoutes": 297,
-  "approvedDistinctReferenceRoutes": 237,
-  "verifiedDistinctPhotoFiles": 236,
-  "queuedDistinctReferenceRoutes": 60,
+  "approvedDistinctReferenceRoutes": 264,
+  "verifiedDistinctPhotoFiles": 262,
+  "queuedDistinctReferenceRoutes": 33,
   "errors": [],
   "pages": [
     {
@@ -34,7 +34,7 @@
     },
     {
       "route": "/collections/rolex/gmt-master-ii/126719blro",
-      "approved": false,
+      "approved": true,
       "status": "verified"
     },
     {
@@ -54,7 +54,7 @@
     },
     {
       "route": "/collections/rolex/daytona/116500ln",
-      "approved": false,
+      "approved": true,
       "status": "verified"
     },
     {
@@ -109,7 +109,7 @@
     },
     {
       "route": "/collections/rolex/submariner/126619lb",
-      "approved": false,
+      "approved": true,
       "status": "verified"
     },
     {
@@ -169,7 +169,7 @@
     },
     {
       "route": "/collections/rolex/day-date/228206",
-      "approved": false,
+      "approved": true,
       "status": "verified"
     },
     {
@@ -179,7 +179,7 @@
     },
     {
       "route": "/collections/rolex/day-date/118238",
-      "approved": false,
+      "approved": true,
       "status": "verified"
     },
     {
@@ -269,7 +269,7 @@
     },
     {
       "route": "/collections/rolex/oyster-perpetual/124300",
-      "approved": false,
+      "approved": true,
       "status": "verified"
     },
     {
@@ -299,7 +299,7 @@
     },
     {
       "route": "/collections/patek-philippe/nautilus/5712-1a",
-      "approved": false,
+      "approved": true,
       "status": "verified"
     },
     {
@@ -329,12 +329,12 @@
     },
     {
       "route": "/collections/audemars-piguet/royal-oak/15400st",
-      "approved": false,
+      "approved": true,
       "status": "verified"
     },
     {
       "route": "/collections/audemars-piguet/royal-oak/15202st",
-      "approved": false,
+      "approved": true,
       "status": "verified"
     },
     {
@@ -344,7 +344,7 @@
     },
     {
       "route": "/collections/audemars-piguet/royal-oak/14790st",
-      "approved": false,
+      "approved": true,
       "status": "verified"
     },
     {
@@ -414,7 +414,7 @@
     },
     {
       "route": "/collections/vacheron-constantin/overseas/6000v-110a-b544",
-      "approved": false,
+      "approved": true,
       "status": "verified"
     },
     {
@@ -629,7 +629,7 @@
     },
     {
       "route": "/collections/omega/seamaster/2220-80",
-      "approved": false,
+      "approved": true,
       "status": "verified"
     },
     {
@@ -759,12 +759,12 @@
     },
     {
       "route": "/collections/omega/planet-ocean/2201-50",
-      "approved": false,
+      "approved": true,
       "status": "verified"
     },
     {
       "route": "/collections/omega/planet-ocean/232-30-42-21-01-001",
-      "approved": false,
+      "approved": true,
       "status": "verified"
     },
     {
@@ -839,7 +839,7 @@
     },
     {
       "route": "/collections/audemars-piguet/royal-oak-jumbo/15202st",
-      "approved": false,
+      "approved": true,
       "status": "verified"
     },
     {
@@ -859,12 +859,12 @@
     },
     {
       "route": "/collections/audemars-piguet/offshore-diver/15710st",
-      "approved": false,
+      "approved": true,
       "status": "verified"
     },
     {
       "route": "/collections/audemars-piguet/offshore-diver/15720st",
-      "approved": false,
+      "approved": true,
       "status": "verified"
     },
     {
@@ -939,17 +939,17 @@
     },
     {
       "route": "/collections/panerai/submersible/pam00683",
-      "approved": false,
+      "approved": true,
       "status": "verified"
     },
     {
       "route": "/collections/panerai/submersible/pam01305",
-      "approved": false,
+      "approved": true,
       "status": "verified"
     },
     {
       "route": "/collections/panerai/submersible/pam01616",
-      "approved": false,
+      "approved": true,
       "status": "verified"
     },
     {
@@ -1089,7 +1089,7 @@
     },
     {
       "route": "/collections/bell-and-ross/br-01/br0192-redradar",
-      "approved": false,
+      "approved": true,
       "status": "verified"
     },
     {
@@ -1184,12 +1184,12 @@
     },
     {
       "route": "/collections/tudor/black-bay-chrono/m79360n-0024",
-      "approved": false,
+      "approved": true,
       "status": "verified"
     },
     {
       "route": "/collections/tudor/black-bay-chrono/m79360n-0019",
-      "approved": false,
+      "approved": true,
       "status": "verified"
     },
     {
@@ -1289,7 +1289,7 @@
     },
     {
       "route": "/collections/tag-heuer/carrera/car2a1z-ft6044",
-      "approved": false,
+      "approved": true,
       "status": "verified"
     },
     {
@@ -1314,7 +1314,7 @@
     },
     {
       "route": "/collections/omega/dark-side-of-the-moon/311-92-44-51-01-003",
-      "approved": false,
+      "approved": true,
       "status": "verified"
     },
     {
@@ -1399,7 +1399,7 @@
     },
     {
       "route": "/collections/omega/seamaster-300/233-32-41-21-01-001",
-      "approved": false,
+      "approved": true,
       "status": "verified"
     },
     {
@@ -1414,7 +1414,7 @@
     },
     {
       "route": "/collections/omega/planet-ocean-gmt/215-30-44-22-01-001",
-      "approved": false,
+      "approved": true,
       "status": "verified"
     },
     {
@@ -1520,6 +1520,11 @@
       "status": "verified"
     },
     {
+      "path": "/images/watches/rolex/reviewed-126719blro-20261023-web.webp",
+      "sha256": "fda9df5ed2cd90372a39aacc6ff2868bc067b8365cadc2ca3b859fdddca2a7ef",
+      "status": "verified"
+    },
+    {
       "path": "/images/watches/rolex/reviewed-116710blnr-white-web.webp",
       "sha256": "23741bf02508e46d18c13cb2c90817b1b5848e4efeeaf1df12433e3da52464d6",
       "status": "verified"
@@ -1532,6 +1537,11 @@
     {
       "path": "/images/watches/rolex/rolex-cosmograph-daytona-126500ln-white-dial-web.webp",
       "sha256": "b42c8dc29bd0cccebe62d444f92c91a1e0bd7cdae02199b98211dcadf1ca3e7b",
+      "status": "verified"
+    },
+    {
+      "path": "/images/watches/rolex/reviewed-116500ln-20261023-web.webp",
+      "sha256": "8a68780aa11a5fbc75cf0e4d6605cecff2a032766764731ff88dc6402e0aea43",
       "status": "verified"
     },
     {
@@ -1582,6 +1592,11 @@
     {
       "path": "/images/watches/rolex/reviewed-116610lv-white-web.webp",
       "sha256": "43342530c7de9252c74a8b5a4fdb4457d806e251df74e5e6f2e4faf6a33b75ec",
+      "status": "verified"
+    },
+    {
+      "path": "/images/watches/rolex/reviewed-126619lb-20261023-web.webp",
+      "sha256": "d77c421b70a307b88d2fb4ac35cbdd7c056ccdc7f21036675ad1f84621dfd295",
       "status": "verified"
     },
     {
@@ -1640,8 +1655,18 @@
       "status": "verified"
     },
     {
+      "path": "/images/watches/rolex/reviewed-228206-20261023-web.webp",
+      "sha256": "25995ef1622e43c298bc7c3395f1b22228075821438bd1c1982cdeed2ad0fdf0",
+      "status": "verified"
+    },
+    {
       "path": "/images/watches/rolex/reviewed-128238-white-web.webp",
       "sha256": "700c9ef809d670b496258710b5588492e6785ca613ce8a17c71781b34e98c265",
+      "status": "verified"
+    },
+    {
+      "path": "/images/watches/rolex/reviewed-118238-20261023-web.webp",
+      "sha256": "2a108ed078b2e4abc059f5643a6f6253cff38d439d9c10a8932d15e7d6671bb0",
       "status": "verified"
     },
     {
@@ -1730,6 +1755,11 @@
       "status": "verified"
     },
     {
+      "path": "/images/watches/rolex/reviewed-124300-20261023-web.webp",
+      "sha256": "d4aae30ac904421e1fee21c5619d52cd0464f1ab2fc14f05a731712bfda0d183",
+      "status": "verified"
+    },
+    {
       "path": "/images/watches/rolex/reviewed-126900-white-web.webp",
       "sha256": "48dabcee0e28288fb7355b74a685e587c64fadd72128ded3f73433c17ea7277e",
       "status": "verified"
@@ -1755,6 +1785,11 @@
       "status": "verified"
     },
     {
+      "path": "/images/watches/patek-philippe/reviewed-5712-1a-20261023-web.webp",
+      "sha256": "41caaa1f530556d238e60df3818c8e4ce37d7fd1969177f1abefa6aad1cba87d",
+      "status": "verified"
+    },
+    {
       "path": "/images/watches/patek-philippe/reviewed-5990-1a-011-white-web.webp",
       "sha256": "a5535dfe5c9430f04bdebfc7d9d9f08439a0f3abac8014e085c0b84b3cd3b511",
       "status": "verified"
@@ -1775,8 +1810,23 @@
       "status": "verified"
     },
     {
+      "path": "/images/watches/audemars-piguet/reviewed-15400st-20261023-web.webp",
+      "sha256": "bed326278d410a09d9ce779dcd27b652ea15fa3a7bb4421f79f43af8609e9890",
+      "status": "verified"
+    },
+    {
+      "path": "/images/watches/audemars-piguet/reviewed-15202st-20261023-web.webp",
+      "sha256": "becc73573672bb10215d1405a6759ac7de71aa73b29847554853fa9347d6f66a",
+      "status": "verified"
+    },
+    {
       "path": "/images/watches/audemars-piguet/reviewed-15500st-oo-1220st-02-white-web.webp",
       "sha256": "6f68553a253bfecdbe47a7ac9b9e2ab3dc0ba4bcdbc70b25213cf50ae3515b0b",
+      "status": "verified"
+    },
+    {
+      "path": "/images/watches/audemars-piguet/reviewed-14790st-20261023-web.webp",
+      "sha256": "2954414582db6f6b6eedcfaa45a0d2bcff08d60769b425cb09e020c8c72f67e6",
       "status": "verified"
     },
     {
@@ -1837,6 +1887,11 @@
     {
       "path": "/images/watches/vacheron-constantin/founder-11-vc-white-web.webp",
       "sha256": "669f5915c7e32c0489e4bc452ae9ea8a98481dea60999e9d66b44632b2e64af0",
+      "status": "verified"
+    },
+    {
+      "path": "/images/watches/vacheron-constantin/reviewed-6000v-110a-b544-20261023-web.webp",
+      "sha256": "9388d8d6ce64194f0d89478288c777d73c384d9c5d9f434c2f7a514b5597d4b5",
       "status": "verified"
     },
     {
@@ -2040,6 +2095,11 @@
       "status": "verified"
     },
     {
+      "path": "/images/watches/omega/reviewed-2220-80-20261023-web.webp",
+      "sha256": "cad34f0e9a6cc5667c769778cfee0c328b66728d40888334356611b74eb43e90",
+      "status": "verified"
+    },
+    {
       "path": "/images/watches/omega/reviewed-210-30-42-20-10-001-white-web.webp",
       "sha256": "dff60ec3072dd25afbf17b06e28222aa345293f3f160818c34c191ee713fe003",
       "status": "verified"
@@ -2155,6 +2215,16 @@
       "status": "verified"
     },
     {
+      "path": "/images/watches/omega/reviewed-2201-50-20261023-web.webp",
+      "sha256": "f4e36c17d495ae6ef138cb8bd80dd9e3a88ad4f9ea4bd5b39ee7aa2055350699",
+      "status": "verified"
+    },
+    {
+      "path": "/images/watches/omega/reviewed-232-30-42-21-01-001-20261023-web.webp",
+      "sha256": "2d4c113d9674f3e15689cde5986480c19e1c514e651cb8adebaf4b3373de2d11",
+      "status": "verified"
+    },
+    {
       "path": "/images/watches/omega/reviewed-215-30-44-21-04-001-white-web.webp",
       "sha256": "16e4f16a87172c6ad4c0508d85200888e0c5d50bd01cb5d5c8d33aac3a1f3f54",
       "status": "verified"
@@ -2225,6 +2295,16 @@
       "status": "verified"
     },
     {
+      "path": "/images/watches/audemars-piguet/reviewed-15710st-20261023-web.webp",
+      "sha256": "0e886ca27d84878d9025ba4884d9b08221e24868e3fae71113f045105bcac2d9",
+      "status": "verified"
+    },
+    {
+      "path": "/images/watches/audemars-piguet/reviewed-15720st-20261023-web.webp",
+      "sha256": "fefc8fc511a332f1fe238abfbcbe6230f8d5e0e656f84010b47f63857874abc9",
+      "status": "verified"
+    },
+    {
       "path": "/images/watches/audemars-piguet/reviewed-15210bc-oo-a021cr-01-white-web.webp",
       "sha256": "a5679747e44f1fdaa8e2b7bfae37b2d310fec216b3b1114d6d1c5965a3af50fd",
       "status": "verified"
@@ -2292,6 +2372,21 @@
     {
       "path": "/images/watches/patek-philippe/reviewed-5822p-001-white-web.webp",
       "sha256": "45a041b85369f343077bed06eb8436753a96ee3fd42405621c6bfa96ecd5ca3f",
+      "status": "verified"
+    },
+    {
+      "path": "/images/watches/panerai/reviewed-pam00683-20261023-web.webp",
+      "sha256": "f15abe04fb8dc2457046bf9423f15ad0337654314974464c3f51c03729995411",
+      "status": "verified"
+    },
+    {
+      "path": "/images/watches/panerai/reviewed-pam01305-20261023-web.webp",
+      "sha256": "8e9f44fa93de9af363065a3bc328921c676a5307ebde7ca80e764e649c95c460",
+      "status": "verified"
+    },
+    {
+      "path": "/images/watches/panerai/reviewed-pam01616-20261023-web.webp",
+      "sha256": "22e4dfc4810f73d590d6e3c007778e3fce07353b9e01b28b6c8d7ab97056c87c",
       "status": "verified"
     },
     {
@@ -2390,6 +2485,11 @@
       "status": "verified"
     },
     {
+      "path": "/images/watches/bell-and-ross/reviewed-br0192-redradar-20261023-web.webp",
+      "sha256": "5e6cbc427ccce40320eb8335bc886776c7e21fcba4c2f92a436859a494ba97e3",
+      "status": "verified"
+    },
+    {
       "path": "/images/watches/patek-philippe/patek-philippe-aquanaut-5167a-001-web.webp",
       "sha256": "7d490a64677b7532810c4482124e2fbe0cfe854d7d7b43ba959829a49a18ee03",
       "status": "verified"
@@ -2457,6 +2557,16 @@
     {
       "path": "/images/watches/vacheron-constantin/reviewed-82035-000r-h114-white-web.webp",
       "sha256": "f796fd53428667ef6729dec284b21b4700a6a1eeedc957c9c7d8d055d029a745",
+      "status": "verified"
+    },
+    {
+      "path": "/images/watches/tudor/reviewed-m79360n-0024-20261023-web.webp",
+      "sha256": "2e6ed5e7d57d053f242ef37e1b927a044c087e459e7bfd91484eecdb3eea0f20",
+      "status": "verified"
+    },
+    {
+      "path": "/images/watches/tudor/reviewed-m79360n-0019-20261023-web.webp",
+      "sha256": "60c35a43fde3471ee09eee503b1caf9c174b6077f4a6128609b6db24c6a2ceb4",
       "status": "verified"
     },
     {
@@ -2550,6 +2660,11 @@
       "status": "verified"
     },
     {
+      "path": "/images/watches/tag-heuer/reviewed-car2a1z-ft6044-20261023-web.webp",
+      "sha256": "b59cab6c44bd035fdd30bc7034724e9673fdb209496b8125b9d1a5b5ae305a2f",
+      "status": "verified"
+    },
+    {
       "path": "/images/watches/tag-heuer/reviewed-cbl2111-fc6453-white-web.webp",
       "sha256": "b0d59782fd485ef02682df1c0a01d7b96412556055180ec73d91e9fcdeee05d1",
       "status": "verified"
@@ -2557,6 +2672,11 @@
     {
       "path": "/images/watches/omega/reviewed-310-92-44-50-01-001-white-web.webp",
       "sha256": "0498776b35392fb10755d8ba15bb3cd023e0d93b4ec10dcc5a886d361d01c518",
+      "status": "verified"
+    },
+    {
+      "path": "/images/watches/omega/reviewed-311-92-44-51-01-003-20261023-web.webp",
+      "sha256": "266a2d0d8fbee7ce5a4dabbc2b1914634e156801124de261c5f8a364ded72889",
       "status": "verified"
     },
     {
@@ -2595,6 +2715,11 @@
       "status": "verified"
     },
     {
+      "path": "/images/watches/omega/reviewed-233-32-41-21-01-001-20261023-web.webp",
+      "sha256": "f3637123cbe0b1ab85b1d99fa0bad5744973e56eeddf81959eba0d0614b789e9",
+      "status": "verified"
+    },
+    {
       "path": "/images/watches/omega/reviewed-220-12-43-22-03-001-white-web.webp",
       "sha256": "09fb393f1bca7d06c920e4084553f65430c5a753482e4d4386d3518ab43afed3",
       "status": "verified"
@@ -2602,6 +2727,11 @@
     {
       "path": "/images/watches/omega/reviewed-220-10-43-22-03-001-white-web.webp",
       "sha256": "e1b02442ca59c9f3f654195341d1d772f8422b1b80edfba20754e2666340e64c",
+      "status": "verified"
+    },
+    {
+      "path": "/images/watches/omega/reviewed-215-30-44-22-01-001-20261023-web.webp",
+      "sha256": "7f564e63353da8f9cfb23d96ce31021ebf8dbb7d44718bcf719122e519e7a07e",
       "status": "verified"
     },
     {

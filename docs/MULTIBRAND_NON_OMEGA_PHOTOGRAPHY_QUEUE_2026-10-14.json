@@ -6,8 +6,8 @@
   "summary": {
     "references": 70,
     "brands": 15,
-    "approvedForImageRelease": 52,
-    "tasksAwaitingExactImageRightsReview": 18
+    "approvedForImageRelease": 58,
+    "tasksAwaitingExactImageRightsReview": 12
   },
   "queue": [
     {
@@ -149,13 +149,13 @@
       },
       "identitySource": "https://www.zenith-watches.com/int/product/defy-extreme-95-9100-9004-01-i001",
       "priorityScore": 71,
-      "status": "RIGHTS_AND_EXACT_CONFIGURATION_REVIEW_REQUIRED",
-      "rawSourceFileId": null,
-      "webDerivativePath": null,
-      "webDerivativeSHA256": null,
-      "reviewer": null,
-      "commercialUseRightsRecord": null,
-      "notes": "Do not publish until approvedPhotograph verifies commercial rights and exact reference, and WEB image checksum matches stored file."
+      "status": "APPROVED_WITH_VALID_DERIVATIVE",
+      "rawSourceFileId": "1z5t-XF6sXu4KjZ5gLXprMWrFIepopOi2",
+      "webDerivativePath": "/images/watches/zenith/reviewed-95-9100-9004-01-i001-20261023-web.webp",
+      "webDerivativeSHA256": "55bc0d86f73efa0b5f9fd1b2b5f93cb7f869dcae08f055370ca125eb863b22ca",
+      "reviewer": "Quest Luxo execution review with founder website-use clearance",
+      "commercialUseRightsRecord": "Direct founder answer call_e5665215254c49a1a0c3f068ebd7fdfa: Yes. Approve.. Record docs/PHOTOGRAPHY_REVIEWED_SIX_RIGHTS_2026-10-23.json. Untouched RAW SHA256 3ef0a4bf62a7ec92de4c4d16ccf15d49cec424793037eabca13ba29319983fd5. Full watch, source/configuration and final1200whiteWEB individually reviewed; all archival readbacks matched. Classical exterior filled silhouette. Original interior RGB retained; no generated, reconstructed, recolored or sharpened watch detail. Proportional resize and centered2400 white master/1200WEB. No price, availability or new alloy grade inferred. Preserved RAW file: 1z5t-XF6sXu4KjZ5gLXprMWrFIepopOi2. Pictured full reference 95.9100.9004/01.I001; Titanium, Openworked sapphire with blue movement, Titanium bracelet. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "notes": "Exact approvedPhotograph gate and local derivative SHA-256 validated; preserve approved source and separate source attribution."
     },
     {
       "brand": "Breitling",
@@ -197,13 +197,13 @@
       },
       "identitySource": "https://www.iwc.com/us-en/watches/portugieser/iw545801-portugieser-hand-wound-tourbillon",
       "priorityScore": 68,
-      "status": "RIGHTS_AND_EXACT_CONFIGURATION_REVIEW_REQUIRED",
-      "rawSourceFileId": null,
-      "webDerivativePath": null,
-      "webDerivativeSHA256": null,
-      "reviewer": null,
-      "commercialUseRightsRecord": null,
-      "notes": "Do not publish until approvedPhotograph verifies commercial rights and exact reference, and WEB image checksum matches stored file."
+      "status": "APPROVED_WITH_VALID_DERIVATIVE",
+      "rawSourceFileId": "1wR5tVQufuPIEAOBYfBWUYRhuvPZGpKY1",
+      "webDerivativePath": "/images/watches/iwc/reviewed-iw545801-20261023-web.webp",
+      "webDerivativeSHA256": "95afec4a97ea3ec194f7c60bb2e65fc26a1839408378765d1010b834dc337cd5",
+      "reviewer": "Quest Luxo execution review with founder website-use clearance",
+      "commercialUseRightsRecord": "Direct founder answer call_e5665215254c49a1a0c3f068ebd7fdfa: Yes. Approve.. Record docs/PHOTOGRAPHY_REVIEWED_SIX_RIGHTS_2026-10-23.json. Untouched RAW SHA256 360e3422c03ee153e5fffd7837f8d7e9944711d0498abe76444deb18078b0c86. Full watch, source/configuration and final1200whiteWEB individually reviewed; all archival readbacks matched. Manufacturer-supplied alpha silhouette (>240opacity) plus filled external contour removes only exterior shadow/background. Original internal watch RGB retained and supplied transparency composited on white. Proportional scale, centered2400white master/1200WEB; no generated/reconstructed/recolored/sharpened watch detail. No price, availability or new alloy grade inferred. Preserved RAW file: 1wR5tVQufuPIEAOBYfBWUYRhuvPZGpKY1. Pictured full reference IW545801; 18K Armor Gold, Silver-plated, Black alligator leather strap by Santoni. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "notes": "Exact approvedPhotograph gate and local derivative SHA-256 validated; preserve approved source and separate source attribution."
     },
     {
       "brand": "IWC",
@@ -317,13 +317,13 @@
       },
       "identitySource": "https://www.hourstriker.com/database/franck-muller-vanguard-smurfette-smurfette-v-32-sc-at-fo-smurfette-bl-33540",
       "priorityScore": 64,
-      "status": "RIGHTS_AND_EXACT_CONFIGURATION_REVIEW_REQUIRED",
-      "rawSourceFileId": null,
-      "webDerivativePath": null,
-      "webDerivativeSHA256": null,
-      "reviewer": null,
-      "commercialUseRightsRecord": null,
-      "notes": "Do not publish until approvedPhotograph verifies commercial rights and exact reference, and WEB image checksum matches stored file."
+      "status": "APPROVED_WITH_VALID_DERIVATIVE",
+      "rawSourceFileId": "1vVonmT8mN8jjfecJeLOBRx3meR1-qvod",
+      "webDerivativePath": "/images/watches/franck-muller/reviewed-v-32-sc-at-fo-smurfette-bl-20261023-web.webp",
+      "webDerivativeSHA256": "97ac8589990ecbb4f5f40a99a391495b9c31db9936e037d16742a9512d87fae9",
+      "reviewer": "Quest Luxo execution review with founder website-use clearance",
+      "commercialUseRightsRecord": "Direct founder answer call_e5665215254c49a1a0c3f068ebd7fdfa: Yes. Approve.. Record docs/PHOTOGRAPHY_REVIEWED_SIX_RIGHTS_2026-10-23.json. Untouched RAW SHA256 687f712009d63bec3167c3f1a239b5fd89f04f03030ab019638bfbdd20d9218a. Full watch, source/configuration and final1200whiteWEB individually reviewed; all archival readbacks matched. Classical exterior filled silhouette. Original interior RGB retained; no generated, reconstructed, recolored or sharpened watch detail. Proportional resize and centered2400 white master/1200WEB. No price, availability or new alloy grade inferred. Preserved RAW file: 1vVonmT8mN8jjfecJeLOBRx3meR1-qvod. Pictured full reference V 32 SC AT FO SMURFETTE (BL); Stainless Steel, Silver with blue numerals and Smurfette artwork, Blue alligator strap with yellow stitching. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "notes": "Exact approvedPhotograph gate and local derivative SHA-256 validated; preserve approved source and separate source attribution."
     },
     {
       "brand": "Franck Muller",
@@ -341,13 +341,13 @@
       },
       "identitySource": "https://www.hourstriker.com/database/franck-muller-vanguard-smurfette-smurfette-v-32-sc-at-fo-smurfette-rs-33541",
       "priorityScore": 64,
-      "status": "RIGHTS_AND_EXACT_CONFIGURATION_REVIEW_REQUIRED",
-      "rawSourceFileId": null,
-      "webDerivativePath": null,
-      "webDerivativeSHA256": null,
-      "reviewer": null,
-      "commercialUseRightsRecord": null,
-      "notes": "Do not publish until approvedPhotograph verifies commercial rights and exact reference, and WEB image checksum matches stored file."
+      "status": "APPROVED_WITH_VALID_DERIVATIVE",
+      "rawSourceFileId": "1tSl-sXM4KP23TgYFvPpxpS9fZKMgZvlj",
+      "webDerivativePath": "/images/watches/franck-muller/reviewed-v-32-sc-at-fo-smurfette-rs-20261023-web.webp",
+      "webDerivativeSHA256": "8bf92d3843ee8a2054ac21f27ef717db09d7ac600e7fd7df5c846dcb9f24a85c",
+      "reviewer": "Quest Luxo execution review with founder website-use clearance",
+      "commercialUseRightsRecord": "Direct founder answer call_e5665215254c49a1a0c3f068ebd7fdfa: Yes. Approve.. Record docs/PHOTOGRAPHY_REVIEWED_SIX_RIGHTS_2026-10-23.json. Untouched RAW SHA256 2857c3644bf5dc0b4fd0355f7cc8f7e747b6d135c760d834e817104a724135e2. Full watch, source/configuration and final1200whiteWEB individually reviewed; all archival readbacks matched. Classical exterior filled silhouette. Original interior RGB retained; no generated, reconstructed, recolored or sharpened watch detail. Proportional resize and centered2400 white master/1200WEB. No price, availability or new alloy grade inferred. Preserved RAW file: 1tSl-sXM4KP23TgYFvPpxpS9fZKMgZvlj. Pictured full reference V 32 SC AT FO SMURFETTE (RS); Stainless Steel, Silver with pink numerals and Smurfette artwork, Pink alligator strap. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "notes": "Exact approvedPhotograph gate and local derivative SHA-256 validated; preserve approved source and separate source attribution."
     },
     {
       "brand": "Franck Muller",
@@ -725,13 +725,13 @@
       },
       "identitySource": "https://www.cartier.com/en-us/watches/collections/roadster/roadster-watch--CRWGRD0011.html",
       "priorityScore": 59,
-      "status": "RIGHTS_AND_EXACT_CONFIGURATION_REVIEW_REQUIRED",
-      "rawSourceFileId": null,
-      "webDerivativePath": null,
-      "webDerivativeSHA256": null,
-      "reviewer": null,
-      "commercialUseRightsRecord": null,
-      "notes": "Do not publish until approvedPhotograph verifies commercial rights and exact reference, and WEB image checksum matches stored file."
+      "status": "APPROVED_WITH_VALID_DERIVATIVE",
+      "rawSourceFileId": "1hJWr9-vHkg7V-hsTYcIeYUAtq9eA1uRR",
+      "webDerivativePath": "/images/watches/cartier/reviewed-wgrd0011-20261023-web.webp",
+      "webDerivativeSHA256": "0d69f78b52b5bf697c262c80f1a1e73ae663faa02c6778242a6814af1031119e",
+      "reviewer": "Quest Luxo execution review with founder website-use clearance",
+      "commercialUseRightsRecord": "Direct founder answer call_e5665215254c49a1a0c3f068ebd7fdfa: Yes. Approve.. Record docs/PHOTOGRAPHY_REVIEWED_SIX_RIGHTS_2026-10-23.json. Untouched RAW SHA256 0940c1a62b313bc09470f7473619a0385bbcc9053c60cdffd76db942e1c57ac5. Full watch, source/configuration and final1200whiteWEB individually reviewed; all archival readbacks matched. Classical GrabCut exterior segmentation and filled silhouette remove the original pale background and exterior cast shadow. All interior genuine watch RGB retained; no generation, reconstruction, recoloring or sharpening. Proportional scale and centered2400white master/1200WEB. No price, availability or new alloy grade inferred. Preserved RAW file: 1hJWr9-vHkg7V-hsTYcIeYUAtq9eA1uRR. Pictured full reference WGRD0011; 18K Yellow Gold, White with Roman numerals, 18K yellow gold bracelet. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "notes": "Exact approvedPhotograph gate and local derivative SHA-256 validated; preserve approved source and separate source attribution."
     },
     {
       "brand": "Panerai",
@@ -797,13 +797,13 @@
       },
       "identitySource": "https://www.cartier.com/en-pr/watches/collections/roadster/roadster-watch--CRWSRD0014",
       "priorityScore": 57,
-      "status": "RIGHTS_AND_EXACT_CONFIGURATION_REVIEW_REQUIRED",
-      "rawSourceFileId": null,
-      "webDerivativePath": null,
-      "webDerivativeSHA256": null,
-      "reviewer": null,
-      "commercialUseRightsRecord": null,
-      "notes": "Do not publish until approvedPhotograph verifies commercial rights and exact reference, and WEB image checksum matches stored file."
+      "status": "APPROVED_WITH_VALID_DERIVATIVE",
+      "rawSourceFileId": "1uZRNJJVxJIsI31CERViUT-4kd7_AEjd-",
+      "webDerivativePath": "/images/watches/cartier/reviewed-wsrd0014-20261023-web.webp",
+      "webDerivativeSHA256": "13a8c65b712e1e58fa8942e73c3c872ccf0a47e473ccbc894a6edfdaee503b04",
+      "reviewer": "Quest Luxo execution review with founder website-use clearance",
+      "commercialUseRightsRecord": "Direct founder answer call_e5665215254c49a1a0c3f068ebd7fdfa: Yes. Approve.. Record docs/PHOTOGRAPHY_REVIEWED_SIX_RIGHTS_2026-10-23.json. Untouched RAW SHA256 18846f51207a4d8d9ca070c1984766012f757b89864ac86fb2a5930192e12cad. Full watch, source/configuration and final1200whiteWEB individually reviewed; all archival readbacks matched. Classical external connected warm-background classification and filled silhouette remove the original pale background and exterior cast shadow. Neutral steel highlights and interior watch detail retained. All interior genuine watch RGB retained; no generation, reconstruction, recoloring or sharpening. Proportional scale and centered2400white master/1200WEB. No price, availability or new alloy grade inferred. Preserved RAW file: 1uZRNJJVxJIsI31CERViUT-4kd7_AEjd-. Pictured full reference WSRD0014; Stainless Steel, Blue PVD with Roman numerals, Navy blue rubber strap. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "notes": "Exact approvedPhotograph gate and local derivative SHA-256 validated; preserve approved source and separate source attribution."
     },
     {
       "brand": "Vacheron Constantin",
@@ -1694,5 +1694,5 @@
       "notes": "Founder-upload identity verified October16. Separate source-original and review evidence in FOUNDER_UPLOAD_CONTINUATION_2026-10-16.json. Underlying commercial rights and final photography quality still required; no publication approval implied."
     }
   ],
-  "updatedAt": "2026-10-24T01:16:30.243Z"
+  "updatedAt": "2026-10-24T01:38:56.196Z"
 }

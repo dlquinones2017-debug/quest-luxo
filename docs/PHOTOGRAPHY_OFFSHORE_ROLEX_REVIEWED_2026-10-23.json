@@ -57,7 +57,7 @@
       "masterDriveFileId": "1t8zgIdIEfQPvfScYX3UwQI18OKN1LIQS",
       "webDriveFileId": "19Jb7bPVX9uTfWhuUSVGG1Sj63qImH0wm",
       "archiveReadbackVerified": true,
-      "publicationStatus": "Integrated; release checks pending",
+      "publicationStatus": "LIVE and independently verified",
       "seed": {
         "brand": "Audemars Piguet",
         "brandSlug": "audemars-piguet",
@@ -80,7 +80,9 @@
         "sourceProvider": "Watchfinder",
         "reviewedAt": "2026-10-23",
         "assetId": "cleared-20261023-offshore-15710st"
-      }
+      },
+      "websitePublished": true,
+      "productionCommit": "7fcbe2bdd1b480d91577b6fa84d6cd637329144a"
     },
     {
       "name": "ap-15720st-watchfinder",
@@ -138,7 +140,7 @@
       "masterDriveFileId": "1yDVSdEYtT46TFc6jdI-b4nX0Al8Lc3Dm",
       "webDriveFileId": "1qynmC5nqpm1eWIqgGWkSfuwbD0YprasT",
       "archiveReadbackVerified": true,
-      "publicationStatus": "Integrated; release checks pending",
+      "publicationStatus": "LIVE and independently verified",
       "seed": {
         "brand": "Audemars Piguet",
         "brandSlug": "audemars-piguet",
@@ -161,7 +163,9 @@
         "sourceProvider": "Watchfinder",
         "reviewedAt": "2026-10-23",
         "assetId": "cleared-20261023-offshore-15720st"
-      }
+      },
+      "websitePublished": true,
+      "productionCommit": "7fcbe2bdd1b480d91577b6fa84d6cd637329144a"
     },
     {
       "name": "rolex-126719blro-gray-next",
@@ -218,7 +222,7 @@
       "masterDriveFileId": "1mqIpwoUFX9EzSqavfMTGmTfK-mPimQhJ",
       "webDriveFileId": "1-3Ewswz2trEs8qJjHKxDfQzTuMXyn0ZF",
       "archiveReadbackVerified": true,
-      "publicationStatus": "Integrated; release checks pending",
+      "publicationStatus": "LIVE and independently verified",
       "seed": {
         "brand": "Rolex",
         "brandSlug": "rolex",
@@ -241,7 +245,9 @@
         "sourceProvider": "Gray and Sons",
         "reviewedAt": "2026-10-23",
         "assetId": "cleared-20261023-offshore-126719blro"
-      }
+      },
+      "websitePublished": true,
+      "productionCommit": "7fcbe2bdd1b480d91577b6fa84d6cd637329144a"
     },
     {
       "name": "rolex-124300-gray-next",
@@ -298,7 +304,7 @@
       "masterDriveFileId": "1eun6M8naNLLXPWXz5W_8cplBs15iKylD",
       "webDriveFileId": "1fsNJ4f6ghoz_uhFh-e1Vdm9M0kH_bRmi",
       "archiveReadbackVerified": true,
-      "publicationStatus": "Integrated; release checks pending",
+      "publicationStatus": "LIVE and independently verified",
       "seed": {
         "brand": "Rolex",
         "brandSlug": "rolex",
@@ -321,7 +327,9 @@
         "sourceProvider": "Gray and Sons",
         "reviewedAt": "2026-10-23",
         "assetId": "cleared-20261023-offshore-124300"
-      }
+      },
+      "websitePublished": true,
+      "productionCommit": "7fcbe2bdd1b480d91577b6fa84d6cd637329144a"
     }
   ],
   "websitePublished": false,
@@ -356,5 +364,16 @@
         "rawSha256": "17d244c5debcd7fd5bd4bc224804715fe5eab6c6b2672e35e78cb8206186f4b9"
       }
     ]
+  },
+  "status": "LIVE and independently verified",
+  "productionRelease": {
+    "commit": "7fcbe2bdd1b480d91577b6fa84d6cd637329144a",
+    "deployId": "dep-dbdvu7vlot8c73b8n8v0",
+    "status": "LIVE",
+    "referenceRoutesVerified": 297,
+    "photographedReferenceRoutes": 251,
+    "queuedReferenceRoutes": 46,
+    "distinctPhotoFilesVerified": 249,
+    "photographedCollections": 86
   }
 }

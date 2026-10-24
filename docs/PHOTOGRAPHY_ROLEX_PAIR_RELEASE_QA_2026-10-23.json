@@ -89,5 +89,61 @@
   },
   "nativeAndWhiteWebVisualReview": "Complete originals and white WEB individually reviewed before direct founder rights confirmation; unchanged SHA256s verified during integration.",
   "archiveReadbacksVerified": true,
-  "status": "Built checks passed; independent production verification pending"
+  "status": "LIVE; exact route/image mappings and full catalog production verification passed",
+  "productionRelease": {
+    "commit": "26bb5dfb9851ca0dc6c58b4deef2bdea521ce091",
+    "deployId": "dep-dbdvds0u01pc73e0jlvg",
+    "status": "LIVE",
+    "referenceRoutesVerified": 297,
+    "photographedReferenceRoutes": 239,
+    "queuedReferenceRoutes": 58,
+    "distinctPhotoFilesVerified": 238,
+    "photographedCollections": 85
+  },
+  "targetedLive": {
+    "checkedAt": "2026-10-24T00:10:26.612360+00:00",
+    "mode": "live",
+    "exactReferencesChecked": 2,
+    "rows": [
+      {
+        "reference": "116500LN",
+        "route": "/collections/rolex/daytona/116500ln",
+        "imageSha256": "8a68780aa11a5fbc75cf0e4d6605cecff2a032766764731ff88dc6402e0aea43",
+        "exactConfiguration": true,
+        "collectionGrid": true,
+        "inquiryContext": true,
+        "separateCredits": true,
+        "noImageCaptionOverlay": true
+      },
+      {
+        "reference": "118238",
+        "route": "/collections/rolex/day-date/118238",
+        "imageSha256": "2a108ed078b2e4abc059f5643a6f6253cff38d439d9c10a8932d15e7d6671bb0",
+        "exactConfiguration": true,
+        "collectionGrid": true,
+        "inquiryContext": true,
+        "separateCredits": true,
+        "noImageCaptionOverlay": true
+      }
+    ],
+    "publicFlowsAvailable": true,
+    "leadDataSafety": "Public GET checks only. No new lead submissions, private lead reads, runtime data or disk changes."
+  },
+  "desktopMobileReview": {
+    "desktop": [
+      1440,
+      1000
+    ],
+    "mobile": [
+      390,
+      844
+    ],
+    "references": [
+      "116500LN",
+      "118238"
+    ],
+    "completeCenteredImages": true,
+    "horizontalOverflow": false,
+    "figcaptions": 0
+  }
 }

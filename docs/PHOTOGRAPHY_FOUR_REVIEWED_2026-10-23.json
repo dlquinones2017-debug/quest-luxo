@@ -55,7 +55,7 @@
       "masterDriveFileId": "1UPOQYDSoiHyTyTcTOxVf5XFOiasUYUKz",
       "webDriveFileId": "1Mn-vwWvnfhj-7MzRe--H0G5hv9Yn_Xq2",
       "archiveReadbackVerified": true,
-      "publicationStatus": "Integrated; release checks pending",
+      "publicationStatus": "LIVE and independently verified",
       "seed": {
         "brand": "Rolex",
         "brandSlug": "rolex",
@@ -77,7 +77,9 @@
         "sourceProvider": "WatchGuyNYC",
         "reviewedAt": "2026-10-23",
         "assetId": "cleared-20261023-four-228206"
-      }
+      },
+      "websitePublished": true,
+      "productionCommit": "a00846ed98c8e872a2c900693e71ed03ee796738"
     },
     {
       "name": "rolex-126619lb-gray",
@@ -133,7 +135,7 @@
       "masterDriveFileId": "1l3qVEjdsxrWSdznSalV25_AeMUXY_T8Y",
       "webDriveFileId": "1PTnm-Wkqqy2j7eQzVDeQTtXo0V71X-kc",
       "archiveReadbackVerified": true,
-      "publicationStatus": "Integrated; release checks pending",
+      "publicationStatus": "LIVE and independently verified",
       "seed": {
         "brand": "Rolex",
         "brandSlug": "rolex",
@@ -155,7 +157,9 @@
         "sourceProvider": "Gray and Sons",
         "reviewedAt": "2026-10-23",
         "assetId": "cleared-20261023-four-126619lb"
-      }
+      },
+      "websitePublished": true,
+      "productionCommit": "a00846ed98c8e872a2c900693e71ed03ee796738"
     },
     {
       "name": "omega-2220-80-watchfinder",
@@ -212,7 +216,7 @@
       "masterDriveFileId": "1Hajh6aVD1YqUyG83BBCaU4f8ChDUikwY",
       "webDriveFileId": "1KEhN6tQrV8uw54wk7FuGYdSXsgMVK8tW",
       "archiveReadbackVerified": true,
-      "publicationStatus": "Integrated; release checks pending",
+      "publicationStatus": "LIVE and independently verified",
       "seed": {
         "brand": "Omega",
         "brandSlug": "omega",
@@ -234,7 +238,9 @@
         "sourceProvider": "Watchfinder",
         "reviewedAt": "2026-10-23",
         "assetId": "cleared-20261023-four-2220-80"
-      }
+      },
+      "websitePublished": true,
+      "productionCommit": "a00846ed98c8e872a2c900693e71ed03ee796738"
     },
     {
       "name": "patek-5712-1916",
@@ -290,7 +296,7 @@
       "masterDriveFileId": "1G1rX-gzM-Rf1ldOGlGzDvSJd5QtJwNd3",
       "webDriveFileId": "1NydGuKng_fb_XQ3TZ6H6uG24AriWmtC0",
       "archiveReadbackVerified": true,
-      "publicationStatus": "Integrated; release checks pending",
+      "publicationStatus": "LIVE and independently verified",
       "seed": {
         "brand": "Patek Philippe",
         "brandSlug": "patek-philippe",
@@ -312,7 +318,9 @@
         "sourceProvider": "The 1916 Company",
         "reviewedAt": "2026-10-23",
         "assetId": "cleared-20261023-four-5712-1a"
-      }
+      },
+      "websitePublished": true,
+      "productionCommit": "a00846ed98c8e872a2c900693e71ed03ee796738"
     }
   ],
   "websitePublished": false,
@@ -347,5 +355,16 @@
         "rawSha256": "971670bfe54b7558c475c50bcfde56a72588be3c1092b4fe49b08f40f51a05a4"
       }
     ]
+  },
+  "status": "LIVE and independently verified",
+  "productionRelease": {
+    "commit": "a00846ed98c8e872a2c900693e71ed03ee796738",
+    "deployId": "dep-dbdvjlg473hc73bjphe0",
+    "status": "LIVE",
+    "referenceRoutesVerified": 297,
+    "photographedReferenceRoutes": 243,
+    "queuedReferenceRoutes": 54,
+    "distinctPhotoFilesVerified": 242,
+    "photographedCollections": 85
   }
 }

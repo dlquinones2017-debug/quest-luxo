@@ -54,7 +54,9 @@
       "masterDriveFileId": "1bxeLHiuYjESgvpQVjnSevQRqqVktXPFN",
       "webDriveFileId": "1ljxooLxH320cyGVX3GSq5PNVepA_NnLd",
       "archiveReadbackVerified": true,
-      "publicationStatus": "Integrated; release checks pending"
+      "publicationStatus": "LIVE and independently verified",
+      "websitePublished": true,
+      "productionCommit": "497109853d22acaff532b71bfdb22bc9d5f807dd"
     },
     {
       "name": "ap-15400st-watchfinder",
@@ -109,7 +111,9 @@
       "masterDriveFileId": "1xkSBllHJLy2VrSQ50dIFVjQCZanY1kxu",
       "webDriveFileId": "1C3fXySKveFT7bdOZObGb7qFDIXREGiSw",
       "archiveReadbackVerified": true,
-      "publicationStatus": "Integrated; release checks pending"
+      "publicationStatus": "LIVE and independently verified",
+      "websitePublished": true,
+      "productionCommit": "497109853d22acaff532b71bfdb22bc9d5f807dd"
     },
     {
       "name": "ap-14790st-watchfinder",
@@ -164,7 +168,9 @@
       "masterDriveFileId": "1RKUIrTu5A3Py9gRayMSaW-oHlzwCWmFU",
       "webDriveFileId": "1jrHEF4N67OBnP-abGc4-SM_t49Su1rLC",
       "archiveReadbackVerified": true,
-      "publicationStatus": "Integrated; release checks pending"
+      "publicationStatus": "LIVE and independently verified",
+      "websitePublished": true,
+      "productionCommit": "497109853d22acaff532b71bfdb22bc9d5f807dd"
     }
   ],
   "websitePublished": false,
@@ -193,5 +199,16 @@
         "rawSha256": "a73089c2bc1670cef520f41bd6f43e75b030bcc0b91e4093c5b708875294014c"
       }
     ]
+  },
+  "status": "LIVE and independently verified",
+  "productionRelease": {
+    "commit": "497109853d22acaff532b71bfdb22bc9d5f807dd",
+    "deployId": "dep-dbdvotuq1p3s73f5fpng",
+    "status": "LIVE",
+    "referenceRoutesVerified": 297,
+    "photographedReferenceRoutes": 247,
+    "queuedReferenceRoutes": 50,
+    "distinctPhotoFilesVerified": 245,
+    "photographedCollections": 86
   }
 }

@@ -4495,9 +4495,11 @@ export const clearedSprintPhotographySeeds: readonly PhotographySeed[] = [
     "model": "Seamaster Diver 300M 2220.80.00",
     "material": "Stainless Steel",
     "configuration": {
+      "caseSize": "41 mm",
+      "movement": "Calibre 2500 Co-Axial automatic",
+      "waterResistance": "300 m",
       "dial": "Blue wave",
-      "bracelet": "Stainless-steel bracelet",
-      "caseSize": "41 mm"
+      "bracelet": "Stainless-steel bracelet"
     },
     "sourceUrl": "https://www.watchfinder.com/sell-your-watch/enquiry/omega/seamaster-300m/2220-80-00/4657",
     "src": "/images/watches/omega/reviewed-2220-80-20261023-web.webp",
@@ -4623,9 +4625,11 @@ export const clearedSprintPhotographySeeds: readonly PhotographySeed[] = [
     "model": "Offshore Diver 15710ST.OO.A002CA.01",
     "material": "Stainless Steel",
     "configuration": {
+      "caseSize": "42 mm",
+      "movement": "Calibre 3120 automatic",
+      "waterResistance": "300 m",
       "dial": "Black Mega Tapisserie",
-      "bracelet": "Black rubber strap",
-      "caseSize": "42 mm"
+      "bracelet": "Black rubber strap"
     },
     "sourceUrl": "https://www.audemarspiguet.com/us/en/watch-collection/royal-oak-offshore/15710ST.OO.A002CA.01",
     "photographSourceUrl": "https://www.watchfinder.com/sell-your-watch/enquiry/audemars-piguet/royal-oak-offshore/15710st-oo-a002ca-01/26372",
@@ -4646,9 +4650,11 @@ export const clearedSprintPhotographySeeds: readonly PhotographySeed[] = [
     "model": "Offshore Diver 15720ST.OO.A027CA.01",
     "material": "Stainless Steel",
     "configuration": {
+      "caseSize": "42 mm",
+      "movement": "Calibre 4308 automatic",
+      "waterResistance": "300 m",
       "dial": "Blue Mega Tapisserie",
-      "bracelet": "Blue rubber strap",
-      "caseSize": "42 mm"
+      "bracelet": "Blue rubber strap"
     },
     "sourceUrl": "https://www.audemarspiguet.com/en/watch-collection/royal-oak-offshore/15720ST.OO.A027CA.01",
     "photographSourceUrl": "https://www.watchfinder.com/sell-your-watch/enquiry/audemars-piguet/royal-oak-offshore/15720st-oo-a027ca-01/52607",
@@ -4715,6 +4721,9 @@ export const clearedSprintPhotographySeeds: readonly PhotographySeed[] = [
     "model": "Submersible PAM00683",
     "material": "Stainless Steel",
     "configuration": {
+      "caseSize": "42 mm",
+      "movement": "Automatic",
+      "waterResistance": "300 m",
       "dial": "Black",
       "bracelet": "Black rubber strap"
     },
@@ -4736,6 +4745,9 @@ export const clearedSprintPhotographySeeds: readonly PhotographySeed[] = [
     "model": "Submersible PAM01305",
     "material": "Titanium",
     "configuration": {
+      "caseSize": "47 mm",
+      "movement": "Automatic",
+      "waterResistance": "300 m",
       "dial": "Black",
       "bracelet": "Black rubber strap"
     },
@@ -4757,6 +4769,8 @@ export const clearedSprintPhotographySeeds: readonly PhotographySeed[] = [
     "model": "Submersible PAM01616",
     "material": "Carbotech",
     "configuration": {
+      "caseSize": "47 mm",
+      "movement": "Panerai P.9010 automatic",
       "dial": "Black with blue luminous markers",
       "bracelet": "Black rubber strap"
     },
@@ -4778,6 +4792,8 @@ export const clearedSprintPhotographySeeds: readonly PhotographySeed[] = [
     "model": "Carrera CAR2A1Z.FT6044",
     "material": "Black PVD steel",
     "configuration": {
+      "caseSize": "45 mm",
+      "movement": "Calibre Heuer 01 automatic",
       "dial": "Black-and-silver skeleton",
       "bracelet": "Black perforated rubber strap"
     },
@@ -4799,6 +4815,9 @@ export const clearedSprintPhotographySeeds: readonly PhotographySeed[] = [
     "model": "Seamaster Planet Ocean 2201.50.00",
     "material": "Stainless Steel",
     "configuration": {
+      "caseSize": "42 mm",
+      "movement": "Calibre 2500 Co-Axial automatic",
+      "waterResistance": "600 m",
       "dial": "Black",
       "bracelet": "Stainless-steel bracelet"
     },
@@ -4820,6 +4839,9 @@ export const clearedSprintPhotographySeeds: readonly PhotographySeed[] = [
     "model": "Seamaster Planet Ocean 232.30.42.21.01.001",
     "material": "Stainless Steel",
     "configuration": {
+      "caseSize": "42 mm",
+      "movement": "Calibre 8500 Co-Axial automatic",
+      "waterResistance": "600 m",
       "dial": "Black",
       "bracelet": "Stainless-steel bracelet"
     },
@@ -4841,6 +4863,8 @@ export const clearedSprintPhotographySeeds: readonly PhotographySeed[] = [
     "model": "Speedmaster Dark Side of the Moon 311.92.44.51.01.003",
     "material": "Black Ceramic",
     "configuration": {
+      "caseSize": "44.25 mm",
+      "movement": "Omega 9300 automatic chronograph",
       "dial": "Black",
       "bracelet": "Black nylon fabric strap"
     },
@@ -4862,6 +4886,8 @@ export const clearedSprintPhotographySeeds: readonly PhotographySeed[] = [
     "model": "BR 01 BR01-92 Red Radar",
     "material": "Stainless Steel",
     "configuration": {
+      "caseSize": "46 mm",
+      "movement": "Automatic mechanical",
       "dial": "Red radar",
       "bracelet": "Black rubber strap"
     },
@@ -4883,6 +4909,8 @@ export const clearedSprintPhotographySeeds: readonly PhotographySeed[] = [
     "model": "Overseas Tourbillon Steel Blue",
     "material": "Stainless Steel",
     "configuration": {
+      "caseSize": "42.5 mm",
+      "movement": "Calibre 2160 automatic tourbillon",
       "dial": "Blue",
       "bracelet": "Stainless-steel bracelet"
     },
@@ -4904,6 +4932,8 @@ export const clearedSprintPhotographySeeds: readonly PhotographySeed[] = [
     "model": "Seamaster 300 233.32.41.21.01.001",
     "material": "Stainless Steel",
     "configuration": {
+      "caseSize": "41 mm",
+      "movement": "Omega 8400 automatic",
       "dial": "Black",
       "bracelet": "Black-and-grey striped NATO strap"
     },
@@ -4925,6 +4955,8 @@ export const clearedSprintPhotographySeeds: readonly PhotographySeed[] = [
     "model": "Seamaster Planet Ocean GMT 215.30.44.22.01.001",
     "material": "Stainless Steel",
     "configuration": {
+      "caseSize": "43.5 mm",
+      "movement": "Omega 8906 automatic GMT",
       "dial": "Black",
       "bracelet": "Stainless-steel bracelet"
     },
@@ -4946,6 +4978,9 @@ export const clearedSprintPhotographySeeds: readonly PhotographySeed[] = [
     "model": "Black Bay Chrono M79360N-0024",
     "material": "Stainless Steel",
     "configuration": {
+      "caseSize": "41 mm",
+      "movement": "Manufacture Calibre MT5813 (COSC)",
+      "waterResistance": "200 m",
       "dial": "Turquoise with black subdials",
       "bracelet": "Stainless-steel five-link bracelet"
     },
@@ -4967,6 +5002,9 @@ export const clearedSprintPhotographySeeds: readonly PhotographySeed[] = [
     "model": "Black Bay Chrono M79360N-0019",
     "material": "Stainless Steel",
     "configuration": {
+      "caseSize": "41 mm",
+      "movement": "Manufacture Calibre MT5813 (COSC)",
+      "waterResistance": "200 m",
       "dial": "Pink with black subdials",
       "bracelet": "Stainless-steel five-link bracelet"
     },
@@ -4978,5 +5016,143 @@ export const clearedSprintPhotographySeeds: readonly PhotographySeed[] = [
     "sourceProvider": "Watchfinder",
     "reviewedAt": "2026-10-23",
     "assetId": "cleared-20261023-next-five-m79360n-0019"
+  },
+  {
+    "brand": "Zenith",
+    "brandSlug": "zenith",
+    "collection": "DEFY Extreme",
+    "reference": "95.9100.9004/01.I001",
+    "exactReference": "95.9100.9004/01.I001",
+    "model": "DEFY Extreme El Primero 21 Titanium",
+    "material": "Titanium",
+    "configuration": {
+      "caseSize": "45 mm",
+      "movement": "El Primero 21 automatic 1/100th-second chronograph",
+      "dial": "Openworked sapphire with blue movement",
+      "bracelet": "Titanium bracelet"
+    },
+    "sourceUrl": "https://www.zenith-watches.com/en_us/product/defy-extreme-95-9100-9004-01-i001",
+    "src": "/images/watches/zenith/reviewed-95-9100-9004-01-i001-20261023-web.webp",
+    "sha256": "55bc0d86f73efa0b5f9fd1b2b5f93cb7f869dcae08f055370ca125eb863b22ca",
+    "rawDriveFileId": "1z5t-XF6sXu4KjZ5gLXprMWrFIepopOi2",
+    "clearanceRecord": "Direct founder answer call_e5665215254c49a1a0c3f068ebd7fdfa: Yes. Approve.. Record docs/PHOTOGRAPHY_REVIEWED_SIX_RIGHTS_2026-10-23.json. Untouched RAW SHA256 3ef0a4bf62a7ec92de4c4d16ccf15d49cec424793037eabca13ba29319983fd5. Full watch, source/configuration and final1200whiteWEB individually reviewed; all archival readbacks matched. Classical exterior filled silhouette. Original interior RGB retained; no generated, reconstructed, recolored or sharpened watch detail. Proportional resize and centered2400 white master/1200WEB. No price, availability or new alloy grade inferred.",
+    "sourceProvider": "Zenith manufacturer",
+    "reviewedAt": "2026-10-23",
+    "assetId": "cleared-20261023-reviewed-six-95-9100-9004-01-i001"
+  },
+  {
+    "brand": "Franck Muller",
+    "brandSlug": "franck-muller",
+    "collection": "Vanguard Smurfette",
+    "reference": "V 32 SC AT FO SMURFETTE (BL)",
+    "exactReference": "V 32 SC AT FO SMURFETTE (BL)",
+    "model": "Vanguard Smurfette Blue",
+    "material": "Stainless Steel",
+    "configuration": {
+      "caseSize": "32 mm",
+      "movement": "Automatic",
+      "dial": "Silver with blue numerals and Smurfette artwork",
+      "bracelet": "Blue alligator strap with yellow stitching"
+    },
+    "sourceUrl": "https://www.thewatchpages.com/watches/franck-muller-vanguard-smurfette-v-32-sc-at-fo-smurfette-bl",
+    "src": "/images/watches/franck-muller/reviewed-v-32-sc-at-fo-smurfette-bl-20261023-web.webp",
+    "sha256": "97ac8589990ecbb4f5f40a99a391495b9c31db9936e037d16742a9512d87fae9",
+    "rawDriveFileId": "1vVonmT8mN8jjfecJeLOBRx3meR1-qvod",
+    "clearanceRecord": "Direct founder answer call_e5665215254c49a1a0c3f068ebd7fdfa: Yes. Approve.. Record docs/PHOTOGRAPHY_REVIEWED_SIX_RIGHTS_2026-10-23.json. Untouched RAW SHA256 687f712009d63bec3167c3f1a239b5fd89f04f03030ab019638bfbdd20d9218a. Full watch, source/configuration and final1200whiteWEB individually reviewed; all archival readbacks matched. Classical exterior filled silhouette. Original interior RGB retained; no generated, reconstructed, recolored or sharpened watch detail. Proportional resize and centered2400 white master/1200WEB. No price, availability or new alloy grade inferred.",
+    "sourceProvider": "The Watch Pages",
+    "reviewedAt": "2026-10-23",
+    "assetId": "cleared-20261023-reviewed-six-v-32-sc-at-fo-smurfette-bl"
+  },
+  {
+    "brand": "Franck Muller",
+    "brandSlug": "franck-muller",
+    "collection": "Vanguard Smurfette",
+    "reference": "V 32 SC AT FO SMURFETTE (RS)",
+    "exactReference": "V 32 SC AT FO SMURFETTE (RS)",
+    "model": "Vanguard Smurfette Pink",
+    "material": "Stainless Steel",
+    "configuration": {
+      "caseSize": "32 mm",
+      "movement": "Automatic",
+      "dial": "Silver with pink numerals and Smurfette artwork",
+      "bracelet": "Pink alligator strap"
+    },
+    "sourceUrl": "https://www.thewatchpages.com/watches/franck-muller-vanguard-smurfette-v-32-sc-at-fo-smurfette-rs",
+    "src": "/images/watches/franck-muller/reviewed-v-32-sc-at-fo-smurfette-rs-20261023-web.webp",
+    "sha256": "8bf92d3843ee8a2054ac21f27ef717db09d7ac600e7fd7df5c846dcb9f24a85c",
+    "rawDriveFileId": "1tSl-sXM4KP23TgYFvPpxpS9fZKMgZvlj",
+    "clearanceRecord": "Direct founder answer call_e5665215254c49a1a0c3f068ebd7fdfa: Yes. Approve.. Record docs/PHOTOGRAPHY_REVIEWED_SIX_RIGHTS_2026-10-23.json. Untouched RAW SHA256 2857c3644bf5dc0b4fd0355f7cc8f7e747b6d135c760d834e817104a724135e2. Full watch, source/configuration and final1200whiteWEB individually reviewed; all archival readbacks matched. Classical exterior filled silhouette. Original interior RGB retained; no generated, reconstructed, recolored or sharpened watch detail. Proportional resize and centered2400 white master/1200WEB. No price, availability or new alloy grade inferred.",
+    "sourceProvider": "The Watch Pages",
+    "reviewedAt": "2026-10-23",
+    "assetId": "cleared-20261023-reviewed-six-v-32-sc-at-fo-smurfette-rs"
+  },
+  {
+    "brand": "Cartier",
+    "brandSlug": "cartier",
+    "collection": "Roadster",
+    "reference": "WGRD0011",
+    "exactReference": "WGRD0011",
+    "model": "Roadster Medium Yellow Gold",
+    "material": "18K Yellow Gold",
+    "configuration": {
+      "caseSize": "42.5 x 34.92 mm",
+      "movement": "Calibre 1899 MC automatic",
+      "dial": "White with Roman numerals",
+      "bracelet": "18K yellow gold bracelet"
+    },
+    "sourceUrl": "https://www.cartier.com/en-us/watches/collections/roadster/roadster-watch--CRWGRD0011.html",
+    "src": "/images/watches/cartier/reviewed-wgrd0011-20261023-web.webp",
+    "sha256": "0d69f78b52b5bf697c262c80f1a1e73ae663faa02c6778242a6814af1031119e",
+    "rawDriveFileId": "1hJWr9-vHkg7V-hsTYcIeYUAtq9eA1uRR",
+    "clearanceRecord": "Direct founder answer call_e5665215254c49a1a0c3f068ebd7fdfa: Yes. Approve.. Record docs/PHOTOGRAPHY_REVIEWED_SIX_RIGHTS_2026-10-23.json. Untouched RAW SHA256 0940c1a62b313bc09470f7473619a0385bbcc9053c60cdffd76db942e1c57ac5. Full watch, source/configuration and final1200whiteWEB individually reviewed; all archival readbacks matched. Classical GrabCut exterior segmentation and filled silhouette remove the original pale background and exterior cast shadow. All interior genuine watch RGB retained; no generation, reconstruction, recoloring or sharpening. Proportional scale and centered2400white master/1200WEB. No price, availability or new alloy grade inferred.",
+    "sourceProvider": "Cartier manufacturer",
+    "reviewedAt": "2026-10-23",
+    "assetId": "cleared-20261023-reviewed-six-wgrd0011"
+  },
+  {
+    "brand": "Cartier",
+    "brandSlug": "cartier",
+    "collection": "Roadster",
+    "reference": "WSRD0014",
+    "exactReference": "WSRD0014",
+    "model": "Roadster Large Steel Blue",
+    "material": "Stainless Steel",
+    "configuration": {
+      "caseSize": "47.2 x 38.7 mm",
+      "movement": "Calibre 1847 MC automatic",
+      "dial": "Blue PVD with Roman numerals",
+      "bracelet": "Navy blue rubber strap"
+    },
+    "sourceUrl": "https://www.cartier.com/en-us/watches/collections/roadster/roadster-watch--CRWSRD0014.html",
+    "src": "/images/watches/cartier/reviewed-wsrd0014-20261023-web.webp",
+    "sha256": "13a8c65b712e1e58fa8942e73c3c872ccf0a47e473ccbc894a6edfdaee503b04",
+    "rawDriveFileId": "1uZRNJJVxJIsI31CERViUT-4kd7_AEjd-",
+    "clearanceRecord": "Direct founder answer call_e5665215254c49a1a0c3f068ebd7fdfa: Yes. Approve.. Record docs/PHOTOGRAPHY_REVIEWED_SIX_RIGHTS_2026-10-23.json. Untouched RAW SHA256 18846f51207a4d8d9ca070c1984766012f757b89864ac86fb2a5930192e12cad. Full watch, source/configuration and final1200whiteWEB individually reviewed; all archival readbacks matched. Classical external connected warm-background classification and filled silhouette remove the original pale background and exterior cast shadow. Neutral steel highlights and interior watch detail retained. All interior genuine watch RGB retained; no generation, reconstruction, recoloring or sharpening. Proportional scale and centered2400white master/1200WEB. No price, availability or new alloy grade inferred.",
+    "sourceProvider": "Cartier manufacturer",
+    "reviewedAt": "2026-10-23",
+    "assetId": "cleared-20261023-reviewed-six-wsrd0014"
+  },
+  {
+    "brand": "IWC",
+    "brandSlug": "iwc",
+    "collection": "Portugieser",
+    "reference": "IW545801",
+    "exactReference": "IW545801",
+    "model": "Portugieser Hand-Wound Flying Tourbillon",
+    "material": "18K Armor Gold",
+    "configuration": {
+      "caseSize": "42.4 mm",
+      "movement": "IWC 81905 manual-winding flying tourbillon",
+      "dial": "Silver-plated",
+      "bracelet": "Black alligator leather strap by Santoni"
+    },
+    "sourceUrl": "https://www.iwc.com/us-en/watches/portugieser/iw545801-portugieser-hand-wound-tourbillon",
+    "src": "/images/watches/iwc/reviewed-iw545801-20261023-web.webp",
+    "sha256": "95afec4a97ea3ec194f7c60bb2e65fc26a1839408378765d1010b834dc337cd5",
+    "rawDriveFileId": "1wR5tVQufuPIEAOBYfBWUYRhuvPZGpKY1",
+    "clearanceRecord": "Direct founder answer call_e5665215254c49a1a0c3f068ebd7fdfa: Yes. Approve.. Record docs/PHOTOGRAPHY_REVIEWED_SIX_RIGHTS_2026-10-23.json. Untouched RAW SHA256 360e3422c03ee153e5fffd7837f8d7e9944711d0498abe76444deb18078b0c86. Full watch, source/configuration and final1200whiteWEB individually reviewed; all archival readbacks matched. Manufacturer-supplied alpha silhouette (>240opacity) plus filled external contour removes only exterior shadow/background. Original internal watch RGB retained and supplied transparency composited on white. Proportional scale, centered2400white master/1200WEB; no generated/reconstructed/recolored/sharpened watch detail. No price, availability or new alloy grade inferred.",
+    "sourceProvider": "IWC manufacturer",
+    "reviewedAt": "2026-10-23",
+    "assetId": "cleared-20261023-reviewed-six-iw545801"
   }
 ];

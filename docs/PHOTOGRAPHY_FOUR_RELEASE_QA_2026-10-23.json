@@ -109,5 +109,85 @@
   },
   "nativeAndWhiteWebVisualReview": "Complete originals and white WEB individually reviewed before direct founder rights confirmation; unchanged SHA256s verified during integration.",
   "archiveReadbacksVerified": true,
-  "status": "Built checks passed; independent production verification pending"
+  "status": "LIVE; exact route/image mappings and full catalog production verification passed",
+  "productionRelease": {
+    "commit": "a00846ed98c8e872a2c900693e71ed03ee796738",
+    "deployId": "dep-dbdvjlg473hc73bjphe0",
+    "status": "LIVE",
+    "referenceRoutesVerified": 297,
+    "photographedReferenceRoutes": 243,
+    "queuedReferenceRoutes": 54,
+    "distinctPhotoFilesVerified": 242,
+    "photographedCollections": 85
+  },
+  "targetedLive": {
+    "checkedAt": "2026-10-24T00:21:55.753762+00:00",
+    "mode": "live",
+    "exactReferencesChecked": 4,
+    "rows": [
+      {
+        "reference": "228206",
+        "route": "/collections/rolex/day-date/228206",
+        "imageSha256": "25995ef1622e43c298bc7c3395f1b22228075821438bd1c1982cdeed2ad0fdf0",
+        "exactConfiguration": true,
+        "collectionGrid": true,
+        "inquiryContext": true,
+        "separateCredits": true,
+        "noImageCaptionOverlay": true
+      },
+      {
+        "reference": "126619LB",
+        "route": "/collections/rolex/submariner/126619lb",
+        "imageSha256": "d77c421b70a307b88d2fb4ac35cbdd7c056ccdc7f21036675ad1f84621dfd295",
+        "exactConfiguration": true,
+        "collectionGrid": true,
+        "inquiryContext": true,
+        "separateCredits": true,
+        "noImageCaptionOverlay": true
+      },
+      {
+        "reference": "2220.80",
+        "route": "/collections/omega/seamaster/2220-80",
+        "imageSha256": "cad34f0e9a6cc5667c769778cfee0c328b66728d40888334356611b74eb43e90",
+        "exactConfiguration": true,
+        "collectionGrid": true,
+        "inquiryContext": true,
+        "separateCredits": true,
+        "noImageCaptionOverlay": true
+      },
+      {
+        "reference": "5712/1A",
+        "route": "/collections/patek-philippe/nautilus/5712-1a",
+        "imageSha256": "41caaa1f530556d238e60df3818c8e4ce37d7fd1969177f1abefa6aad1cba87d",
+        "exactConfiguration": true,
+        "collectionGrid": true,
+        "inquiryContext": true,
+        "separateCredits": true,
+        "noImageCaptionOverlay": true
+      }
+    ],
+    "publicFlowsAvailable": true,
+    "leadDataSafety": "Public GET checks only. No new lead submissions, private lead reads, runtime data or disk changes."
+  },
+  "desktopMobileReview": {
+    "desktopReferences": [
+      "5712/1A",
+      "126619LB"
+    ],
+    "mobileReferences": [
+      "228206",
+      "2220.80"
+    ],
+    "desktop": [
+      1440,
+      1000
+    ],
+    "mobile": [
+      390,
+      844
+    ],
+    "completeCenteredImages": true,
+    "horizontalOverflow": false,
+    "figcaptions": 0
+  }
 }

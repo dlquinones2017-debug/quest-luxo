@@ -58,7 +58,7 @@
       "archiveReadbacksVerified": true,
       "rawDriveFileId": "1JZ8A8cKrU3cdIbyj593RsO7n1QHvuQ3K",
       "archiveReadbackVerified": true,
-      "publicationStatus": "Integrated; release checks pending",
+      "publicationStatus": "LIVE and independently verified",
       "seed": {
         "brand": "Vacheron Constantin",
         "brandSlug": "vacheron-constantin",
@@ -79,7 +79,9 @@
         "sourceProvider": "Watchfinder",
         "reviewedAt": "2026-10-23",
         "assetId": "cleared-20261023-next-five-6000v-110a-b544"
-      }
+      },
+      "websitePublished": true,
+      "productionCommit": "9c8282e9b17a5f19fc1961ffa86fb722c93f36ba"
     },
     {
       "name": "omega-23332412101001-watchfinder",
@@ -138,7 +140,7 @@
       "archiveReadbacksVerified": true,
       "rawDriveFileId": "1sf1qmuPIBBiHQLDkLYg-cM7tNSzQOsTd",
       "archiveReadbackVerified": true,
-      "publicationStatus": "Integrated; release checks pending",
+      "publicationStatus": "LIVE and independently verified",
       "seed": {
         "brand": "Omega",
         "brandSlug": "omega",
@@ -159,7 +161,9 @@
         "sourceProvider": "Watchfinder",
         "reviewedAt": "2026-10-23",
         "assetId": "cleared-20261023-next-five-233-32-41-21-01-001"
-      }
+      },
+      "websitePublished": true,
+      "productionCommit": "9c8282e9b17a5f19fc1961ffa86fb722c93f36ba"
     },
     {
       "name": "omega-21530442201001-watchfinder",
@@ -218,7 +222,7 @@
       "archiveReadbacksVerified": true,
       "rawDriveFileId": "1NnHjRQCIpivSc7h9PWca9rJdWzmVO3zL",
       "archiveReadbackVerified": true,
-      "publicationStatus": "Integrated; release checks pending",
+      "publicationStatus": "LIVE and independently verified",
       "seed": {
         "brand": "Omega",
         "brandSlug": "omega",
@@ -239,7 +243,9 @@
         "sourceProvider": "Watchfinder",
         "reviewedAt": "2026-10-23",
         "assetId": "cleared-20261023-next-five-215-30-44-22-01-001"
-      }
+      },
+      "websitePublished": true,
+      "productionCommit": "9c8282e9b17a5f19fc1961ffa86fb722c93f36ba"
     },
     {
       "name": "tudor-m79360n-0024-watchfinder",
@@ -299,7 +305,7 @@
       "archiveReadbacksVerified": true,
       "rawDriveFileId": "1e_YhEMmEKYEKF_PFm_F3gomIZkBbQIWH",
       "archiveReadbackVerified": true,
-      "publicationStatus": "Integrated; release checks pending",
+      "publicationStatus": "LIVE and independently verified",
       "seed": {
         "brand": "Tudor",
         "brandSlug": "tudor",
@@ -320,7 +326,9 @@
         "sourceProvider": "Watchfinder",
         "reviewedAt": "2026-10-23",
         "assetId": "cleared-20261023-next-five-m79360n-0024"
-      }
+      },
+      "websitePublished": true,
+      "productionCommit": "9c8282e9b17a5f19fc1961ffa86fb722c93f36ba"
     },
     {
       "name": "tudor-m79360n-0019-watchfinder",
@@ -380,7 +388,7 @@
       "archiveReadbacksVerified": true,
       "rawDriveFileId": "1LoSF9suWITO5wGuW-iP_q4fkM_SXSDha",
       "archiveReadbackVerified": true,
-      "publicationStatus": "Integrated; release checks pending",
+      "publicationStatus": "LIVE and independently verified",
       "seed": {
         "brand": "Tudor",
         "brandSlug": "tudor",
@@ -401,11 +409,13 @@
         "sourceProvider": "Watchfinder",
         "reviewedAt": "2026-10-23",
         "assetId": "cleared-20261023-next-five-m79360n-0019"
-      }
+      },
+      "websitePublished": true,
+      "productionCommit": "9c8282e9b17a5f19fc1961ffa86fb722c93f36ba"
     }
   ],
   "websitePublished": false,
-  "status": "Five exact-source sets visually reviewed and archived; all15archive readback hashes match. Commercial-use evidence pending; publication held.",
+  "status": "LIVE and independently verified",
   "archiveVerifiedAt": "2026-10-24T01:11:16.984914+00:00",
   "rights": {
     "confirmedAt": "2026-10-24T01:12:45.273812+00:00",
@@ -444,5 +454,15 @@
         "rawSha256": "4f2059d9404463b67881ccec629ef5c716be409202e2a99877bc1c2cc99472d6"
       }
     ]
+  },
+  "productionRelease": {
+    "commit": "9c8282e9b17a5f19fc1961ffa86fb722c93f36ba",
+    "deployId": "dep-dbe0etss728c73891df0",
+    "status": "LIVE",
+    "referenceRoutesVerified": 297,
+    "photographedReferenceRoutes": 264,
+    "queuedReferenceRoutes": 33,
+    "distinctPhotoFilesVerified": 262,
+    "photographedCollections": 93
   }
 }

@@ -1,0 +1,993 @@
+{
+  "updatedAt": "2026-10-24T01:23:38.522708+00:00",
+  "catalogReferenceUrls": 297,
+  "builtApprovedReferenceUrls": 264,
+  "remainingReferenceUrls": 33,
+  "fullPopulationComplete": false,
+  "definitions": "One record per distinct existing canonical reference URL. Queued does not mean globally unavailable. Acquisition and review tasks remain active; only evidence-backed holds are stated as quality/identity blockers.",
+  "records": [
+    {
+      "brand": "Audemars Piguet",
+      "collection": "Royal Oak",
+      "reference": "16202ST",
+      "canonicalRoute": "/collections/audemars-piguet/royal-oak/16202st",
+      "status": "QUALITY_HOLD",
+      "blocker": "New manufacturer16202ST.OO.1240ST.02 native960x1280alpha image clips bracelet at both frame edges; no accepted alternative is registered.",
+      "nextAction": "Preserve the clipped original; acquire a complete exact-SKU original with native bracelet margins, verify configuration/rights and final white derivative for both existing collection URLs.",
+      "priorEvidenceFiles": [
+        "catalog-photo-review.json"
+      ],
+      "sourceCandidates": [],
+      "catalogMaterial": "Stainless Steel",
+      "catalogConfigurations": [
+        {
+          "nickname": "Jumbo Extra-Thin",
+          "bracelet": "Integrated Bracelet",
+          "dial": "Blue Petite Tapisserie",
+          "originalMSRP": null
+        }
+      ]
+    },
+    {
+      "brand": "Richard Mille",
+      "collection": "RM 11",
+      "reference": "RM11-03",
+      "canonicalRoute": "/collections/richard-mille/rm-11/rm11-03",
+      "status": "SOURCE_REVIEW_OR_REPLACEMENT_REQUIRED",
+      "blocker": "Prior source bytes exist, but no complete visually accepted and rights-cleared set is available in the registry.",
+      "nextAction": "Inspect the preserved native original and its source record. Reject clipped/obscured detail; obtain a complete replacement if needed, then verify configuration, exact-source rights and final derivative.",
+      "priorEvidenceFiles": [
+        "catalog-photo-review.json",
+        "next-unpictured-source-evidence.json",
+        "next-unpictured-source-fetch.json",
+        "next-unpictured-source-queue.json",
+        "rm11-official-acquisition.json"
+      ],
+      "sourceCandidates": [
+        "https://www.the1916company.com/pre-owned/richard-mille/",
+        "https://www.richardmille.com/historical-models/rm-11-03-automatic-flyback-chronograph"
+      ],
+      "catalogMaterial": "Titanium",
+      "catalogConfigurations": [
+        {
+          "nickname": "RM 11 representative reference",
+          "dial": "Configuration details available through private advisory",
+          "bracelet": "Reference dependent",
+          "originalMSRP": null
+        }
+      ]
+    },
+    {
+      "brand": "Hublot",
+      "collection": "Big Bang",
+      "reference": "429.NM.0170.RX",
+      "canonicalRoute": "/collections/hublot/big-bang/429-nm-0170-rx",
+      "status": "ACQUISITION_REQUIRED",
+      "blocker": "No accepted, rights-cleared exact-reference photograph is registered for this route.",
+      "nextAction": "Acquire an authentic complete-watch original for this exact reference; verify pictured configuration, prepare and review white derivative, record exact-source rights, archive/readback and release with required checks.",
+      "priorEvidenceFiles": [
+        "MULTIBRAND_EXPANSION_PHOTO_COVERAGE.json",
+        "MULTIBRAND_NON_OMEGA_PHOTOGRAPHY_QUEUE_2026-10-14.json",
+        "PHOTOGRAPHY_SOURCE_QUALITY_HOLDS_2026-10-14.json",
+        "expanded-primary-next-source-evidence.json",
+        "expanded-primary-next-source-queue.json"
+      ],
+      "sourceCandidates": [
+        "https://www.hublot.com/en-us/watches/big-bang/big-bang-tourbillon-automatic-titanium-ceramic-44-mm"
+      ],
+      "catalogMaterial": "Titanium and Ceramic",
+      "catalogConfigurations": [
+        {
+          "caseSize": "44 mm",
+          "movement": "HUB6035 automatic tourbillon",
+          "dial": "Sapphire skeleton",
+          "bracelet": "Black rubber strap",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ]
+    },
+    {
+      "brand": "Omega",
+      "collection": "Speedmaster",
+      "reference": "310.33.42.50.01.002",
+      "canonicalRoute": "/collections/omega/speedmaster/310-33-42-50-01-002",
+      "status": "REFERENCE_PROOF_AND_SOURCE_REQUIRED",
+      "blocker": "Exact catalog SKU has no acquired verified source/photo; nearby310.32 references are not interchangeable evidence.",
+      "nextAction": "Verify this exact310.33.42.50.01.002 identifier against a reliable manufacturer/dealer record before matching imagery. Do not silently substitute a similar Moonwatch or change its URL.",
+      "priorEvidenceFiles": [
+        "catalog-photo-review.json"
+      ],
+      "sourceCandidates": [],
+      "catalogMaterial": "Stainless Steel",
+      "catalogConfigurations": [
+        {
+          "nickname": "3861 Moonwatch Sapphire Strap",
+          "bracelet": "Leather Strap",
+          "dial": "Black",
+          "originalMSRP": null
+        }
+      ]
+    },
+    {
+      "brand": "Omega",
+      "collection": "Seamaster Diver 300M",
+      "reference": "522.92.44.20.04.001",
+      "canonicalRoute": "/collections/omega/seamaster/522-92-44-20-04-001",
+      "status": "ACQUISITION_REQUIRED",
+      "blocker": "No accepted, rights-cleared exact-reference photograph is registered for this route.",
+      "nextAction": "Acquire an authentic complete-watch original for this exact reference; verify pictured configuration, prepare and review white derivative, record exact-source rights, archive/readback and release with required checks.",
+      "priorEvidenceFiles": [
+        "MULTIBRAND_EXPANSION_PHOTO_COVERAGE.json",
+        "OMEGA_PHOTOGRAPHY_ACQUISITION_QUEUE_2026-10-14.json",
+        "omega-expansion-source-evidence.json",
+        "omega-expansion-source-queue.json"
+      ],
+      "sourceCandidates": [
+        "https://www.omegawatches.com.hk/en-hk/watch-omega-seamaster-diver-300m-co-axial-master-chronometer-43-5-mm-52292442004001"
+      ],
+      "catalogMaterial": "White ceramic and titanium",
+      "catalogConfigurations": [
+        {
+          "caseSize": "43.5 mm",
+          "movement": "Omega 8806 automatic",
+          "dial": "White ceramic",
+          "bracelet": "White rubber strap",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ]
+    },
+    {
+      "brand": "Omega",
+      "collection": "Seamaster Diver 300M",
+      "reference": "210.62.42.20.03.001",
+      "canonicalRoute": "/collections/omega/seamaster/210-62-42-20-03-001",
+      "status": "QUALITY_HOLD",
+      "blocker": "Native438x600 image cuts both strap ends; unsuitable for complete-watch catalog presentation. Preserve untouched RAW but do not publish.",
+      "nextAction": "Retain rejected RAW as evidence. Acquire a complete, sufficiently detailed replacement of the exact reference; do not reconstruct missing watch sections. Verify configuration/rights, prepare and review, archive/readback and release.",
+      "priorEvidenceFiles": [
+        "MULTIBRAND_EXPANSION_PHOTO_COVERAGE.json",
+        "OMEGA_PHOTOGRAPHY_ACQUISITION_QUEUE_2026-10-14.json",
+        "UHR_BLUE_SEAMASTER_QUALITY_HOLD_2026-10-15.json",
+        "omega-cj-next-five-acquisition.json",
+        "omega-cj-next-five-source-evidence.json",
+        "omega-cj-next-five-source-queue.json",
+        "omega-expansion-source-evidence.json",
+        "omega-expansion-source-queue.json",
+        "omega-next-three-acquisition.json",
+        "omega-observed-next-source-evidence.json",
+        "omega-observed-next-source-queue.json",
+        "uhr-two-blue-rubber-acquisition.json"
+      ],
+      "sourceCandidates": [
+        "https://www.uhrinstinkt.de/en/products/omega-seamaster-diver-300-m-co-axial-master-chronometer-42-mm-210-62-42-20-03-001",
+        "https://www.cjcharles.com/collections/omega/products/seamaster-diver-300m-210-62-42-20-03-001",
+        "https://www.omegawatches.com.hk/en-hk/watch-omega-seamaster-diver-300m-co-axial-master-chronometer-42-mm-21062422003001",
+        "https://www.timepiece.com/omega-watch-210-62-42-20-03-001.html"
+      ],
+      "catalogMaterial": "18K Sedna Gold",
+      "catalogConfigurations": [
+        {
+          "caseSize": "42 mm",
+          "movement": "Omega 8801 automatic",
+          "dial": "Blue ceramic wave",
+          "bracelet": "Blue rubber strap",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ]
+    },
+    {
+      "brand": "Omega",
+      "collection": "Seamaster Planet Ocean",
+      "reference": "232.63.42.21.01.001",
+      "canonicalRoute": "/collections/omega/planet-ocean/232-63-42-21-01-001",
+      "status": "ACQUISITION_REQUIRED",
+      "blocker": "No accepted, rights-cleared exact-reference photograph is registered for this route.",
+      "nextAction": "Acquire an authentic complete-watch original for this exact reference; verify pictured configuration, prepare and review white derivative, record exact-source rights, archive/readback and release with required checks.",
+      "priorEvidenceFiles": [
+        "MULTIBRAND_EXPANSION_PHOTO_COVERAGE.json",
+        "OMEGA_PHOTOGRAPHY_ACQUISITION_QUEUE_2026-10-14.json"
+      ],
+      "sourceCandidates": [],
+      "catalogMaterial": "18K red gold",
+      "catalogConfigurations": [
+        {
+          "caseSize": "42 mm",
+          "movement": "Omega 8501 automatic",
+          "dial": "Black",
+          "bracelet": "Black alligator leather strap",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ]
+    },
+    {
+      "brand": "Omega",
+      "collection": "Aqua Terra",
+      "reference": "220.53.38.20.10.001",
+      "canonicalRoute": "/collections/omega/aqua-terra/220-53-38-20-10-001",
+      "status": "SOURCE_REVIEW_OR_REPLACEMENT_REQUIRED",
+      "blocker": "Prior source bytes exist, but no complete visually accepted and rights-cleared set is available in the registry.",
+      "nextAction": "Inspect the preserved native original and its source record. Reject clipped/obscured detail; obtain a complete replacement if needed, then verify configuration, exact-source rights and final derivative.",
+      "priorEvidenceFiles": [
+        "MULTIBRAND_EXPANSION_PHOTO_COVERAGE.json",
+        "OMEGA_PHOTOGRAPHY_ACQUISITION_QUEUE_2026-10-14.json",
+        "omega-cj-next-five-acquisition.json",
+        "omega-cj-next-five-source-evidence.json",
+        "omega-cj-next-five-source-queue.json",
+        "omega-post-eleven-next-source-evidence.json",
+        "omega-post-eleven-next-source-queue.json"
+      ],
+      "sourceCandidates": [
+        "https://www.cjcharles.com/collections/omega/products/seamaster-aqua-terra-shades-220-53-38-20-10-001",
+        "https://www.omegawatches.com.tw/watch-omega-seamaster-aqua-terra-shades-co-axial-master-chronometer-38-mm-22053382010001"
+      ],
+      "catalogMaterial": "18K Moonshine Gold",
+      "catalogConfigurations": [
+        {
+          "caseSize": "38 mm",
+          "movement": "Omega Master Chronometer automatic",
+          "dial": "Green sun-brushed non-wave",
+          "bracelet": "Green leather strap",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ]
+    },
+    {
+      "brand": "Audemars Piguet",
+      "collection": "Royal Oak Jumbo",
+      "reference": "16202ST",
+      "canonicalRoute": "/collections/audemars-piguet/royal-oak-jumbo/16202st",
+      "status": "QUALITY_HOLD",
+      "blocker": "New manufacturer16202ST.OO.1240ST.02 native960x1280alpha image clips bracelet at both frame edges; no accepted alternative is registered.",
+      "nextAction": "Preserve the clipped original; acquire a complete exact-SKU original with native bracelet margins, verify configuration/rights and final white derivative for both existing collection URLs.",
+      "priorEvidenceFiles": [
+        "catalog-photo-review.json"
+      ],
+      "sourceCandidates": [],
+      "catalogMaterial": "Stainless Steel",
+      "catalogConfigurations": [
+        {
+          "caseSize": "39 mm",
+          "movement": "Calibre 7121 automatic",
+          "dial": "Petite Tapisserie",
+          "bracelet": "Integrated steel bracelet"
+        }
+      ]
+    },
+    {
+      "brand": "Tudor",
+      "collection": "Royal",
+      "reference": "Tudor Royal 41 mm",
+      "canonicalRoute": "/collections/tudor/royal/tudor-royal-41-mm",
+      "status": "EXACT_IDENTITY_REQUIRED",
+      "blocker": "The catalog row is a family/model label without a verified full reference and pictured configuration.",
+      "nextAction": "Establish the full manufacturer reference and configuration from reliable source evidence before selecting a photograph; preserve the current public URL. Then acquire, clear and review exact imagery.",
+      "priorEvidenceFiles": [
+        "COMMONS_TUDOR_SOURCE_HOLDS_2026-10-15.json",
+        "catalog-photo-review.json"
+      ],
+      "sourceCandidates": [
+        "https://commons.wikimedia.org/wiki/File:Tudor_Royal.jpg"
+      ],
+      "catalogMaterial": "Steel or Steel and Gold",
+      "catalogConfigurations": [
+        {
+          "caseSize": "41 mm",
+          "movement": "Automatic day-date",
+          "dial": "Reference-dependent",
+          "bracelet": "Integrated steel bracelet",
+          "waterResistance": "100 m"
+        }
+      ]
+    },
+    {
+      "brand": "Tudor",
+      "collection": "Prince",
+      "reference": "Prince Date",
+      "canonicalRoute": "/collections/tudor/prince/prince-date",
+      "status": "EXACT_IDENTITY_REQUIRED",
+      "blocker": "The catalog row is a family/model label without a verified full reference and pictured configuration.",
+      "nextAction": "Establish the full manufacturer reference and configuration from reliable source evidence before selecting a photograph; preserve the current public URL. Then acquire, clear and review exact imagery.",
+      "priorEvidenceFiles": [
+        "COMMONS_TUDOR_SOURCE_HOLDS_2026-10-15.json",
+        "catalog-photo-review.json"
+      ],
+      "sourceCandidates": [
+        "https://commons.wikimedia.org/wiki/File:Tudor_Prince_Date_Day_Ref76200.jpg"
+      ],
+      "catalogMaterial": "Steel or Steel and Gold",
+      "catalogConfigurations": [
+        {
+          "movement": "Automatic date",
+          "dial": "Reference-dependent",
+          "bracelet": "Bracelet or strap"
+        }
+      ]
+    },
+    {
+      "brand": "Tudor",
+      "collection": "Prince",
+      "reference": "Prince Chronograph",
+      "canonicalRoute": "/collections/tudor/prince/prince-chronograph",
+      "status": "EXACT_IDENTITY_REQUIRED",
+      "blocker": "The catalog row is a family/model label without a verified full reference and pictured configuration.",
+      "nextAction": "Establish the full manufacturer reference and configuration from reliable source evidence before selecting a photograph; preserve the current public URL. Then acquire, clear and review exact imagery.",
+      "priorEvidenceFiles": [
+        "catalog-photo-review.json"
+      ],
+      "sourceCandidates": [],
+      "catalogMaterial": "Stainless Steel",
+      "catalogConfigurations": [
+        {
+          "movement": "Automatic chronograph",
+          "dial": "Reference-dependent",
+          "bracelet": "Bracelet or strap"
+        }
+      ]
+    },
+    {
+      "brand": "Ulysse Nardin",
+      "collection": "Marine",
+      "reference": "Marine Chronometer",
+      "canonicalRoute": "/collections/ulysse-nardin/marine/marine-chronometer",
+      "status": "EXACT_IDENTITY_REQUIRED",
+      "blocker": "The catalog row is a family/model label without a verified full reference and pictured configuration.",
+      "nextAction": "Establish the full manufacturer reference and configuration from reliable source evidence before selecting a photograph; preserve the current public URL. Then acquire, clear and review exact imagery.",
+      "priorEvidenceFiles": [
+        "catalog-photo-review.json"
+      ],
+      "sourceCandidates": [],
+      "catalogMaterial": "Steel or precious metal, reference dependent",
+      "catalogConfigurations": [
+        {
+          "nickname": "Reference-family configuration",
+          "caseSize": "43 mm for the representative modern generation; verify exact reference",
+          "movement": "Manufacture UN-118 self-winding movement in representative modern examples",
+          "bracelet": "Strap or bracelet varies by exact reference",
+          "dial": "Dial and material vary by exact reference",
+          "originalMSRP": null
+        }
+      ]
+    },
+    {
+      "brand": "Ulysse Nardin",
+      "collection": "Marine",
+      "reference": "266-67",
+      "canonicalRoute": "/collections/ulysse-nardin/marine/266-67",
+      "status": "QUALITY_AND_CONFIGURATION_HOLD",
+      "blocker": "Latest Watchfinder original is244x414 and depicts a black dial/strap; featured configuration is blue with Roman numerals and blue rubber. No accepted exact blue set is registered.",
+      "nextAction": "Acquire a complete higher-detail original for the exact blue266-67configuration; verify full suffix, material and source-specific rights before preparing and publishing.",
+      "priorEvidenceFiles": [
+        "MULTIBRAND_EXPANSION_PHOTO_COVERAGE.json",
+        "MULTIBRAND_NON_OMEGA_PHOTOGRAPHY_QUEUE_2026-10-14.json"
+      ],
+      "sourceCandidates": [],
+      "catalogMaterial": "18K rose gold",
+      "catalogConfigurations": [
+        {
+          "caseSize": "43 mm",
+          "movement": "UN-26 automatic",
+          "dial": "Blue with Roman numerals",
+          "bracelet": "Blue rubber strap",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ]
+    },
+    {
+      "brand": "Ulysse Nardin",
+      "collection": "Marine",
+      "reference": "1506-150LE-3/63-VB",
+      "canonicalRoute": "/collections/ulysse-nardin/marine/1506-150le-3-63-vb",
+      "status": "ACQUISITION_REQUIRED",
+      "blocker": "No accepted, rights-cleared exact-reference photograph is registered for this route.",
+      "nextAction": "Acquire an authentic complete-watch original for this exact reference; verify pictured configuration, prepare and review white derivative, record exact-source rights, archive/readback and release with required checks.",
+      "priorEvidenceFiles": [
+        "MULTIBRAND_EXPANSION_PHOTO_COVERAGE.json",
+        "MULTIBRAND_NON_OMEGA_PHOTOGRAPHY_QUEUE_2026-10-14.json"
+      ],
+      "sourceCandidates": [],
+      "catalogMaterial": "18K rose gold",
+      "catalogConfigurations": [
+        {
+          "caseSize": "Specification verification pending",
+          "movement": "Automatic; calibre verification pending",
+          "dial": "Blue with Arabic numerals",
+          "bracelet": "Blue rubber strap with rose-gold inserts",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ]
+    },
+    {
+      "brand": "Ulysse Nardin",
+      "collection": "Diver",
+      "reference": "Maxi Marine Diver",
+      "canonicalRoute": "/collections/ulysse-nardin/diver/maxi-marine-diver",
+      "status": "EXACT_IDENTITY_REQUIRED",
+      "blocker": "The catalog row is a family/model label without a verified full reference and pictured configuration.",
+      "nextAction": "Establish the full manufacturer reference and configuration from reliable source evidence before selecting a photograph; preserve the current public URL. Then acquire, clear and review exact imagery.",
+      "priorEvidenceFiles": [
+        "catalog-photo-review.json"
+      ],
+      "sourceCandidates": [],
+      "catalogMaterial": "Steel, titanium, or precious metal by reference",
+      "catalogConfigurations": [
+        {
+          "nickname": "Reference-family configuration",
+          "caseSize": "Approximately 43 mm for many examples; verify exact generation",
+          "movement": "Self-winding movement; caliber varies by generation and reference",
+          "bracelet": "Strap or bracelet varies by exact reference",
+          "dial": "Dial and material vary by exact reference",
+          "originalMSRP": null
+        }
+      ]
+    },
+    {
+      "brand": "Ulysse Nardin",
+      "collection": "Diver",
+      "reference": "265-90-3c/93",
+      "canonicalRoute": "/collections/ulysse-nardin/diver/265-90-3c-93",
+      "status": "ACQUISITION_REQUIRED",
+      "blocker": "No accepted, rights-cleared exact-reference photograph is registered for this route.",
+      "nextAction": "Acquire an authentic complete-watch original for this exact reference; verify pictured configuration, prepare and review white derivative, record exact-source rights, archive/readback and release with required checks.",
+      "priorEvidenceFiles": [
+        "MULTIBRAND_EXPANSION_PHOTO_COVERAGE.json",
+        "MULTIBRAND_NON_OMEGA_PHOTOGRAPHY_QUEUE_2026-10-14.json"
+      ],
+      "sourceCandidates": [],
+      "catalogMaterial": "Titanium with 18K rose-gold bezel",
+      "catalogConfigurations": [
+        {
+          "caseSize": "45 mm",
+          "movement": "UN-26 automatic",
+          "dial": "Blue wave dial with rose-gold rimmed subdials",
+          "bracelet": "Blue rubber wave strap with black ceramic inserts",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ]
+    },
+    {
+      "brand": "Hublot",
+      "collection": "Classic Fusion",
+      "reference": "542.CM.1171.RX",
+      "canonicalRoute": "/collections/hublot/classic-fusion/542-cm-1171-rx",
+      "status": "QUALITY_HOLD",
+      "blocker": "Source foreground reaches canvas boundary; final review required",
+      "nextAction": "Retain rejected RAW as evidence. Acquire a complete, sufficiently detailed replacement of the exact reference; do not reconstruct missing watch sections. Verify configuration/rights, prepare and review, archive/readback and release.",
+      "priorEvidenceFiles": [
+        "MULTIBRAND_EXPANSION_PHOTO_COVERAGE.json",
+        "MULTIBRAND_NON_OMEGA_PHOTOGRAPHY_QUEUE_2026-10-14.json",
+        "PHOTOGRAPHY_SOURCE_QUALITY_HOLDS_2026-10-14.json",
+        "SPECIALTY_SIX_ARCHIVED_2026-10-15.json",
+        "expanded-primary-next-source-evidence.json",
+        "expanded-primary-next-source-queue.json",
+        "next-specialty3-source-evidence.json",
+        "next-specialty3-source-queue.json",
+        "specialty3-native-acquisition.json",
+        "SPECIALTY_SIX_PREPARED_2026-10-15.json",
+        "SPECIALTY_SIX_REVIEWED_2026-10-15.json"
+      ],
+      "sourceCandidates": [
+        "https://www.hublot.com/en-ch/watches/classic-fusion/classic-fusion-black-magic-42-mm",
+        "https://www.thewatchsource.co.uk/Hublot/542.cm.1171.rx.html"
+      ],
+      "catalogMaterial": "Black Ceramic",
+      "catalogConfigurations": [
+        {
+          "caseSize": "42 mm",
+          "movement": "HUB1110 automatic",
+          "dial": "Matte Black",
+          "bracelet": "Black rubber strap",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ]
+    },
+    {
+      "brand": "Hublot",
+      "collection": "Big Bang Unico",
+      "reference": "411.OX.1180.RX",
+      "canonicalRoute": "/collections/hublot/big-bang-unico/411-ox-1180-rx",
+      "status": "ACQUISITION_REQUIRED",
+      "blocker": "No accepted, rights-cleared exact-reference photograph is registered for this route.",
+      "nextAction": "Acquire an authentic complete-watch original for this exact reference; verify pictured configuration, prepare and review white derivative, record exact-source rights, archive/readback and release with required checks.",
+      "priorEvidenceFiles": [
+        "MULTIBRAND_EXPANSION_PHOTO_COVERAGE.json",
+        "MULTIBRAND_NON_OMEGA_PHOTOGRAPHY_QUEUE_2026-10-14.json"
+      ],
+      "sourceCandidates": [],
+      "catalogMaterial": "18K King Gold",
+      "catalogConfigurations": [
+        {
+          "caseSize": "45 mm",
+          "movement": "HUB1242 automatic chronograph",
+          "dial": "Skeleton",
+          "bracelet": "Black rubber strap",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ]
+    },
+    {
+      "brand": "Vacheron Constantin",
+      "collection": "Historiques",
+      "reference": "4200H/222A-B934",
+      "canonicalRoute": "/collections/vacheron-constantin/historiques/4200h-222a-b934",
+      "status": "SOURCE_REVIEW_OR_REPLACEMENT_REQUIRED",
+      "blocker": "Prior source bytes exist, but no complete visually accepted and rights-cleared set is available in the registry. Latest exact Watchfinder catalog entry explicitly supplies an AwaitingWatchImage placeholder; a different reference image must not be substituted.",
+      "nextAction": "Inspect the preserved native original and its source record. Reject clipped/obscured detail; obtain a complete replacement if needed, then verify configuration, exact-source rights and final derivative.",
+      "priorEvidenceFiles": [
+        "catalog-photo-review.json",
+        "larger-launch-photography-acquisition.json",
+        "new-collections-native-acquisition.json",
+        "priority-collection-native-acquisition.json",
+        "remaining-collection-exact-source-evidence.json",
+        "remaining-collection-exact-source-queue.json",
+        "remaining-collection-source-fetch-output.json"
+      ],
+      "sourceCandidates": [
+        "https://www.vacheron-constantin.com/hk/en/collections/historiques/4200h-222a-b934.html",
+        "https://www.europeanwatch.com/watch/vacheron-constantin-4200h-222a-b934-4200h-historiques-222-ss-blue-69433"
+      ],
+      "catalogMaterial": "Stainless Steel",
+      "catalogConfigurations": [
+        {
+          "caseSize": "37 mm",
+          "movement": "Self-winding calibre 2455/2",
+          "dial": "Matte Blue",
+          "bracelet": "Integrated stainless-steel bracelet",
+          "waterResistance": "50 m",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ]
+    },
+    {
+      "brand": "IWC",
+      "collection": "Portugieser",
+      "reference": "IW545801",
+      "canonicalRoute": "/collections/iwc/portugieser/iw545801",
+      "status": "ACQUISITION_REQUIRED",
+      "blocker": "No accepted, rights-cleared exact-reference photograph is registered for this route. Latest exact Watchfinder catalog entry explicitly supplies an AwaitingWatchImage placeholder; a different reference image must not be substituted.",
+      "nextAction": "Acquire an authentic complete-watch original for this exact reference; verify pictured configuration, prepare and review white derivative, record exact-source rights, archive/readback and release with required checks.",
+      "priorEvidenceFiles": [
+        "MULTIBRAND_EXPANSION_PHOTO_COVERAGE.json",
+        "MULTIBRAND_NON_OMEGA_PHOTOGRAPHY_QUEUE_2026-10-14.json",
+        "independent-continuation-source-evidence.json",
+        "independent-continuation-source-queue.json"
+      ],
+      "sourceCandidates": [
+        "https://www.iwc.com/us-en/watches/portugieser/iw545801-portugieser-hand-wound-tourbillon"
+      ],
+      "catalogMaterial": "18K Armor Gold",
+      "catalogConfigurations": [
+        {
+          "caseSize": "42.4 mm",
+          "movement": "IWC 81905 manual-winding flying tourbillon",
+          "dial": "Silver",
+          "bracelet": "Black alligator leather strap",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ]
+    },
+    {
+      "brand": "Richard Mille",
+      "collection": "RM 67",
+      "reference": "RM 67-01",
+      "canonicalRoute": "/collections/richard-mille/rm-67/rm-67-01",
+      "status": "QUALITY_HOLD",
+      "blocker": "Both strap ends fade or crop into original background; incomplete watch and small native original",
+      "nextAction": "Retain rejected RAW as evidence. Acquire a complete, sufficiently detailed replacement of the exact reference; do not reconstruct missing watch sections. Verify configuration/rights, prepare and review, archive/readback and release.",
+      "priorEvidenceFiles": [
+        "MULTIBRAND_EXPANSION_PHOTO_COVERAGE.json",
+        "MULTIBRAND_NON_OMEGA_PHOTOGRAPHY_QUEUE_2026-10-14.json",
+        "PHOTOGRAPHY_SOURCE_QUALITY_HOLDS_2026-10-14.json",
+        "expanded-primary-acquisition.json",
+        "expanded-primary-next-source-evidence.json",
+        "expanded-primary-next-source-queue.json"
+      ],
+      "sourceCandidates": [
+        "https://www.richardmille.com/collections/rm-67-01-automatic-extra-flat"
+      ],
+      "catalogMaterial": "Model-dependent",
+      "catalogConfigurations": [
+        {
+          "caseSize": "Extra-flat tonneau",
+          "movement": "CRMA6 skeleton automatic",
+          "dial": "Openworked",
+          "bracelet": "Model-dependent",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ]
+    },
+    {
+      "brand": "Richard Mille",
+      "collection": "RM 27",
+      "reference": "RM 27-05",
+      "canonicalRoute": "/collections/richard-mille/rm-27/rm-27-05",
+      "status": "QUALITY_HOLD",
+      "blocker": "Both strap ends fade or crop into original background; incomplete watch",
+      "nextAction": "Retain rejected RAW as evidence. Acquire a complete, sufficiently detailed replacement of the exact reference; do not reconstruct missing watch sections. Verify configuration/rights, prepare and review, archive/readback and release.",
+      "priorEvidenceFiles": [
+        "MULTIBRAND_EXPANSION_PHOTO_COVERAGE.json",
+        "MULTIBRAND_NON_OMEGA_PHOTOGRAPHY_QUEUE_2026-10-14.json",
+        "PHOTOGRAPHY_SOURCE_QUALITY_HOLDS_2026-10-14.json",
+        "expanded-primary-acquisition.json",
+        "expanded-primary-next-source-evidence.json",
+        "expanded-primary-next-source-queue.json"
+      ],
+      "sourceCandidates": [
+        "https://www.richardmille.com/collections/rm-27-05-flying-tourbillon-rafael-nadal"
+      ],
+      "catalogMaterial": "Carbon TPT and titanium",
+      "catalogConfigurations": [
+        {
+          "caseSize": "Lightweight tonneau",
+          "movement": "RM27-05 manual flying tourbillon",
+          "dial": "Openworked",
+          "bracelet": "Model-dependent",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ]
+    },
+    {
+      "brand": "Franck Muller",
+      "collection": "Vanguard Encrypto",
+      "reference": "V 45 SC DT BTC TT BR (NR)",
+      "canonicalRoute": "/collections/franck-muller/vanguard-encrypto/v-45-sc-dt-btc-tt-br-nr",
+      "status": "QUALITY_HOLD",
+      "blocker": "Native original only 350 by 550; insufficient publication resolution",
+      "nextAction": "Retain rejected RAW as evidence. Acquire a complete, sufficiently detailed replacement of the exact reference; do not reconstruct missing watch sections. Verify configuration/rights, prepare and review, archive/readback and release.",
+      "priorEvidenceFiles": [
+        "MULTIBRAND_EXPANSION_PHOTO_COVERAGE.json",
+        "MULTIBRAND_NON_OMEGA_PHOTOGRAPHY_QUEUE_2026-10-14.json",
+        "PHOTOGRAPHY_SOURCE_QUALITY_HOLDS_2026-10-14.json",
+        "expanded-primary-acquisition.json",
+        "expanded-primary-next-source-evidence.json",
+        "expanded-primary-next-source-queue.json"
+      ],
+      "sourceCandidates": [
+        "https://www.franckmuller.com/fr/vanguard-encrypto-"
+      ],
+      "catalogMaterial": "Titanium",
+      "catalogConfigurations": [
+        {
+          "caseSize": "Model-dependent",
+          "movement": "Mechanical",
+          "dial": "Bitcoin QR dial",
+          "bracelet": "Model-dependent",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ]
+    },
+    {
+      "brand": "Franck Muller",
+      "collection": "Vanguard Smurfette",
+      "reference": "V 32 SC AT FO SMURFETTE (BL)",
+      "canonicalRoute": "/collections/franck-muller/vanguard-smurfette/v-32-sc-at-fo-smurfette-bl",
+      "status": "SOURCE_REVIEW_OR_REPLACEMENT_REQUIRED",
+      "blocker": "Prior source bytes exist, but no complete visually accepted and rights-cleared set is available in the registry.",
+      "nextAction": "Inspect the preserved native original and its source record. Reject clipped/obscured detail; obtain a complete replacement if needed, then verify configuration, exact-source rights and final derivative.",
+      "priorEvidenceFiles": [
+        "MULTIBRAND_EXPANSION_PHOTO_COVERAGE.json",
+        "MULTIBRAND_NON_OMEGA_PHOTOGRAPHY_QUEUE_2026-10-14.json",
+        "specialty2-native-acquisition.json"
+      ],
+      "sourceCandidates": [
+        "https://www.franckmuller.com/fr/news/vanguard-smurfette"
+      ],
+      "catalogMaterial": "Stainless Steel",
+      "catalogConfigurations": [
+        {
+          "caseSize": "32 mm",
+          "movement": "Automatic",
+          "dial": "Blue Smurfette motif",
+          "bracelet": "Blue strap",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ]
+    },
+    {
+      "brand": "Franck Muller",
+      "collection": "Vanguard Smurfette",
+      "reference": "V 32 SC AT FO SMURFETTE (RS)",
+      "canonicalRoute": "/collections/franck-muller/vanguard-smurfette/v-32-sc-at-fo-smurfette-rs",
+      "status": "SOURCE_REVIEW_OR_REPLACEMENT_REQUIRED",
+      "blocker": "Prior source bytes exist, but no complete visually accepted and rights-cleared set is available in the registry.",
+      "nextAction": "Inspect the preserved native original and its source record. Reject clipped/obscured detail; obtain a complete replacement if needed, then verify configuration, exact-source rights and final derivative.",
+      "priorEvidenceFiles": [
+        "MULTIBRAND_EXPANSION_PHOTO_COVERAGE.json",
+        "MULTIBRAND_NON_OMEGA_PHOTOGRAPHY_QUEUE_2026-10-14.json",
+        "specialty2-native-acquisition.json"
+      ],
+      "sourceCandidates": [
+        "https://www.franckmuller.com/fr/news/vanguard-smurfette"
+      ],
+      "catalogMaterial": "Stainless Steel",
+      "catalogConfigurations": [
+        {
+          "caseSize": "32 mm",
+          "movement": "Automatic",
+          "dial": "Pink Smurfette motif",
+          "bracelet": "Pink strap",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ]
+    },
+    {
+      "brand": "Franck Muller",
+      "collection": "Bamford Collaborations",
+      "reference": "V 45 SC POPEYE LTD TT NR BR NR",
+      "canonicalRoute": "/collections/franck-muller/bamford-collaborations/v-45-sc-popeye-ltd-tt-nr-br-nr",
+      "status": "QUALITY_HOLD",
+      "blocker": "Both strap ends cut by original frame",
+      "nextAction": "Retain rejected RAW as evidence. Acquire a complete, sufficiently detailed replacement of the exact reference; do not reconstruct missing watch sections. Verify configuration/rights, prepare and review, archive/readback and release.",
+      "priorEvidenceFiles": [
+        "MULTIBRAND_EXPANSION_PHOTO_COVERAGE.json",
+        "MULTIBRAND_NON_OMEGA_PHOTOGRAPHY_QUEUE_2026-10-14.json",
+        "PHOTOGRAPHY_SOURCE_QUALITY_HOLDS_2026-10-14.json",
+        "expanded-primary-acquisition.json",
+        "expanded-primary-next-source-evidence.json",
+        "expanded-primary-next-source-queue.json"
+      ],
+      "sourceCandidates": [
+        "https://www.phillips.com/detail/franck-muller-x-bamford/231238"
+      ],
+      "catalogMaterial": "PVD Titanium",
+      "catalogConfigurations": [
+        {
+          "caseSize": "44 mm",
+          "movement": "FM 800 automatic",
+          "dial": "Popeye illustrated",
+          "bracelet": "Black leather strap",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ]
+    },
+    {
+      "brand": "Franck Muller",
+      "collection": "Bamford Collaborations",
+      "reference": "7880 CH PNTS NR",
+      "canonicalRoute": "/collections/franck-muller/bamford-collaborations/7880-ch-pnts-nr",
+      "status": "QUALITY_HOLD",
+      "blocker": "Both strap ends cut by original frame",
+      "nextAction": "Retain rejected RAW as evidence. Acquire a complete, sufficiently detailed replacement of the exact reference; do not reconstruct missing watch sections. Verify configuration/rights, prepare and review, archive/readback and release.",
+      "priorEvidenceFiles": [
+        "MULTIBRAND_EXPANSION_PHOTO_COVERAGE.json",
+        "MULTIBRAND_NON_OMEGA_PHOTOGRAPHY_QUEUE_2026-10-14.json",
+        "PHOTOGRAPHY_SOURCE_QUALITY_HOLDS_2026-10-14.json",
+        "expanded-primary-acquisition.json",
+        "expanded-primary-next-source-evidence.json",
+        "expanded-primary-next-source-queue.json"
+      ],
+      "sourceCandidates": [
+        "https://www.bamfordwatchdepartment.com/product/franck-muller-x-bwd-crazy-love-snoopy-limited-edition/"
+      ],
+      "catalogMaterial": "Black PVD Steel",
+      "catalogConfigurations": [
+        {
+          "caseSize": "36 mm",
+          "movement": "MVD 2800-CHR automatic Crazy Hours",
+          "dial": "Black Snoopy Woodstock motif",
+          "bracelet": "Black suede strap",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ]
+    },
+    {
+      "brand": "Panerai",
+      "collection": "Radiomir GMT",
+      "reference": "PAM00502",
+      "canonicalRoute": "/collections/panerai/radiomir-gmt/pam00502",
+      "status": "SOURCE_REVIEW_OR_REPLACEMENT_REQUIRED",
+      "blocker": "Prior source bytes exist, but no complete visually accepted and rights-cleared set is available in the registry.",
+      "nextAction": "Inspect the preserved native original and its source record. Reject clipped/obscured detail; obtain a complete replacement if needed, then verify configuration, exact-source rights and final derivative.",
+      "priorEvidenceFiles": [
+        "MULTIBRAND_EXPANSION_PHOTO_COVERAGE.json",
+        "MULTIBRAND_NON_OMEGA_PHOTOGRAPHY_QUEUE_2026-10-14.json",
+        "PHOTOGRAPHY_SOURCE_QUALITY_HOLDS_2026-10-14.json",
+        "expanded-primary-next-source-evidence.json",
+        "expanded-primary-next-source-queue.json",
+        "next-five-native-acquisition.json",
+        "next-panerai-avenger-source-evidence.json",
+        "next-panerai-avenger-source-queue.json",
+        "next-panerai-two-source-evidence.json",
+        "next-panerai-two-source-queue.json",
+        "panerai-native-acquisition.json"
+      ],
+      "sourceCandidates": [
+        "https://www.panerai.com/us/en/collections/special-editions-archive/2013/pam00502-radiomir-1940-chrono-monopulsante-8-days-gmt-oro-rosso-.html",
+        "https://pisa1940.com/products/cpo-panerai-radiomir-1940-cronografo-monopulsante-8-giorni-gmt-pam00502-2015",
+        "https://www.bqwatches.com/product/23635"
+      ],
+      "catalogMaterial": "Panerai Goldtech",
+      "catalogConfigurations": [
+        {
+          "caseSize": "45 mm",
+          "movement": "P.2004/10 manual chronograph and GMT",
+          "dial": "Brown",
+          "bracelet": "Reference-dependent",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ]
+    },
+    {
+      "brand": "Cartier",
+      "collection": "Roadster",
+      "reference": "WGRD0011",
+      "canonicalRoute": "/collections/cartier/roadster/wgrd0011",
+      "status": "ACQUISITION_REQUIRED",
+      "blocker": "No accepted, rights-cleared exact-reference photograph is registered for this route.",
+      "nextAction": "Acquire an authentic complete-watch original for this exact reference; verify pictured configuration, prepare and review white derivative, record exact-source rights, archive/readback and release with required checks.",
+      "priorEvidenceFiles": [
+        "MULTIBRAND_EXPANSION_PHOTO_COVERAGE.json",
+        "MULTIBRAND_NON_OMEGA_PHOTOGRAPHY_QUEUE_2026-10-14.json",
+        "PHOTOGRAPHY_SOURCE_QUALITY_HOLDS_2026-10-14.json",
+        "expanded-primary-next-source-evidence.json",
+        "expanded-primary-next-source-queue.json"
+      ],
+      "sourceCandidates": [
+        "https://www.cartier.com/en-us/watches/collections/roadster/roadster-watch--CRWGRD0011.html"
+      ],
+      "catalogMaterial": "18K Yellow Gold",
+      "catalogConfigurations": [
+        {
+          "caseSize": "42.5 x 34.92 mm",
+          "movement": "Calibre 1899 MC automatic",
+          "dial": "White Roman-numeral dial",
+          "bracelet": "Yellow gold bracelet and gray leather strap",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ]
+    },
+    {
+      "brand": "Cartier",
+      "collection": "Roadster",
+      "reference": "WSRD0014",
+      "canonicalRoute": "/collections/cartier/roadster/wsrd0014",
+      "status": "ACQUISITION_REQUIRED",
+      "blocker": "No accepted, rights-cleared exact-reference photograph is registered for this route.",
+      "nextAction": "Acquire an authentic complete-watch original for this exact reference; verify pictured configuration, prepare and review white derivative, record exact-source rights, archive/readback and release with required checks.",
+      "priorEvidenceFiles": [
+        "MULTIBRAND_EXPANSION_PHOTO_COVERAGE.json",
+        "MULTIBRAND_NON_OMEGA_PHOTOGRAPHY_QUEUE_2026-10-14.json",
+        "PHOTOGRAPHY_SOURCE_QUALITY_HOLDS_2026-10-14.json",
+        "expanded-primary-next-source-evidence.json",
+        "expanded-primary-next-source-queue.json"
+      ],
+      "sourceCandidates": [
+        "https://www.cartier.com/en-pr/watches/collections/roadster/roadster-watch--CRWSRD0014"
+      ],
+      "catalogMaterial": "Stainless Steel",
+      "catalogConfigurations": [
+        {
+          "caseSize": "47.2 x 38.7 mm",
+          "movement": "Calibre 1847 MC automatic",
+          "dial": "Blue PVD with Roman numerals",
+          "bracelet": "Steel bracelet and navy blue rubber strap",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ]
+    },
+    {
+      "brand": "Zenith",
+      "collection": "DEFY Extreme",
+      "reference": "95.9100.9004/01.I001",
+      "canonicalRoute": "/collections/zenith/defy-extreme/95-9100-9004-01-i001",
+      "status": "ACQUISITION_REQUIRED",
+      "blocker": "No accepted, rights-cleared exact-reference photograph is registered for this route.",
+      "nextAction": "Acquire an authentic complete-watch original for this exact reference; verify pictured configuration, prepare and review white derivative, record exact-source rights, archive/readback and release with required checks.",
+      "priorEvidenceFiles": [
+        "MULTIBRAND_EXPANSION_PHOTO_COVERAGE.json",
+        "MULTIBRAND_NON_OMEGA_PHOTOGRAPHY_QUEUE_2026-10-14.json",
+        "independent-continuation-source-evidence.json",
+        "independent-continuation-source-queue.json",
+        "next-specialty2-source-evidence.json",
+        "next-specialty2-source-queue.json",
+        "next-specialty3-source-evidence.json",
+        "next-specialty3-source-queue.json"
+      ],
+      "sourceCandidates": [
+        "https://www.zenith-watches.com/int/product/defy-extreme-95-9100-9004-01-i001",
+        "https://www.kamine.co.jp/item/18501/",
+        "https://www.wempe.com/en-us/watches/zenith/defy/defy-extreme-95-9100-9004-01-i001"
+      ],
+      "catalogMaterial": "Titanium",
+      "catalogConfigurations": [
+        {
+          "caseSize": "45 mm",
+          "movement": "El Primero 21 automatic 1/100th-second chronograph",
+          "dial": "Sapphire skeleton",
+          "bracelet": "Titanium bracelet, rubber and Velcro straps",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ]
+    },
+    {
+      "brand": "Omega",
+      "collection": "Constellation",
+      "reference": "131.63.41.21.03.001",
+      "canonicalRoute": "/collections/omega/constellation/131-63-41-21-03-001",
+      "status": "SOURCE_REVIEW_OR_REPLACEMENT_REQUIRED",
+      "blocker": "Prior source bytes exist, but no complete visually accepted and rights-cleared set is available in the registry.",
+      "nextAction": "Inspect the preserved native original and its source record. Reject clipped/obscured detail; obtain a complete replacement if needed, then verify configuration, exact-source rights and final derivative.",
+      "priorEvidenceFiles": [
+        "MULTIBRAND_EXPANSION_PHOTO_COVERAGE.json",
+        "OMEGA_PHOTOGRAPHY_ACQUISITION_QUEUE_2026-10-14.json",
+        "omega-next-sedna-acquisition.json",
+        "omega-post-eleven-next-source-evidence.json",
+        "omega-post-eleven-next-source-queue.json"
+      ],
+      "sourceCandidates": [
+        "https://www.cjcharles.com/products/constellation-131-63-41-21-03-001"
+      ],
+      "catalogMaterial": "18K Sedna Gold",
+      "catalogConfigurations": [
+        {
+          "caseSize": "41 mm",
+          "movement": "Omega 8901 automatic",
+          "dial": "Blue sun-brushed non-wave",
+          "bracelet": "Blue leather strap",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ]
+    }
+  ],
+  "unidentifiedUploads": [
+    {
+      "uploadId": "upload-03-vc",
+      "blocker": "Overseas4500V versus4520V full SKU unresolved",
+      "nextAction": "Verify full manufacturer SKU and generation from original source; then match the exact configuration.",
+      "rights": "ZIP originals and derivatives cleared; identity and quality remain mandatory."
+    },
+    {
+      "uploadId": "upload-14-vc",
+      "blocker": "Blue Overseas Dual Time7900V versus7920V full SKU unresolved; not retrograde moonphase",
+      "nextAction": "Confirm full Dual Time reference from reliable source; do not assign it to the retrograde collection.",
+      "rights": "ZIP originals and derivatives cleared; identity and quality remain mandatory."
+    },
+    {
+      "uploadId": "upload-12-patek",
+      "blocker": "Green Breguet-numeral calendar image has no verified manufacturer reference; authenticity/possible altered graphic unresolved",
+      "nextAction": "Obtain reliable original source and exact-reference evidence; keep unassigned if authenticity cannot be established.",
+      "rights": "ZIP originals and derivatives cleared; identity and quality remain mandatory."
+    },
+    {
+      "uploadId": "upload-08-white-diver",
+      "blocker": "Ulysse Nardin white/gold full suffix unverified and strap clipped",
+      "nextAction": "Confirm full reference and acquire complete unclipped original; never reconstruct the strap.",
+      "rights": "ZIP originals and derivatives cleared; identity and quality remain mandatory."
+    },
+    {
+      "uploadId": "upload-17-yacht-master",
+      "blocker": "Rolex116655 versus126655 identity unresolved and Oysterflex clipped",
+      "nextAction": "Confirm exact reference and obtain full-watch original; preserve existing verified126655 photo.",
+      "rights": "ZIP originals and derivatives cleared; identity and quality remain mandatory."
+    },
+    {
+      "uploadId": "upload-19-ap-4",
+      "blocker": "Rainbow Cactus Jack unique-edition full SKU unconfirmed; not standard26585CM",
+      "nextAction": "Obtain reliable edition/SKU evidence and complete original; do not attribute the unique piece to the standard model.",
+      "rights": "ZIP originals and derivatives cleared; identity and quality remain mandatory."
+    }
+  ]
+}
