@@ -5764,5 +5764,27 @@ export const clearedSprintPhotographySeeds: readonly PhotographySeed[] = [
     "sourceProvider": "Brent Miller",
     "reviewedAt": "2026-10-24",
     "assetId": "cleared-20261024-last-two-310-32-42-50-01-002"
+  },
+  {
+    "brand": "Franck Muller",
+    "brandSlug": "franck-muller",
+    "collection": "Vanguard Encrypto",
+    "reference": "V 45 SC DT BTC TT BR (NR)",
+    "exactReference": "V 45 SC DT BTC TT BR (NR)",
+    "model": "Vanguard Encrypto Bitcoin",
+    "material": "Titanium",
+    "configuration": {
+      "dial": "Black carbon-pattern Bitcoin QR dial, un-set motif",
+      "bracelet": "Black alligator/rubber strap with contrasting stitching"
+    },
+    "sourceUrl": "https://www.franckmuller.com/fr/vanguard-encrypto-",
+    "photographSourceUrl": "https://timeserieswatch.com.my/product/franck-muller-30/",
+    "src": "/images/watches/franck-muller/reviewed-v-45-sc-dt-btc-tt-br-nr-20261024-web.webp",
+    "sha256": "c0c116d8680c48d3333999553aa7a0e7b398b8880ee028e938293fdb1c87be5b",
+    "rawDriveFileId": "1NbHChaagysBgt5YeHSObzWPzJuBZHef1",
+    "clearanceRecord": "Direct founder response call_6b15cd2f2e3b4b398612cd3895dec22b: Rights cover the original and derivative; no restrictions. Record docs/PHOTOGRAPHY_ENCRYPTO_RIGHTS_2026-10-24.json. Native3000x4000 RAW SHA256 a5b73864d35231cacda7e78d5921830c061b3690d17d5e9b70f32c7732d617ca. Complete genuine watch, crown, returning strap and clasp individually reviewed; unredacted QR detail and un-set Bitcoin motif. Manufacturer titanium reference and dealer gallery identity verified; inaccurate dealer stainless-steel text not adopted. Contrasting stitching retained as photographed, never recolored. All3RAW/WHITE/WEB archive readbacks match. Classical exterior silhouette; original watch interior RGB retained. Whole photograph rotated90degrees clockwise, proportionally resized and centered on2400white/1200WEB. No watch detail generated, reconstructed, recolored or sharpened; no watermark removed. No price, availability or undocumented specs inferred.",
+    "sourceProvider": "Time Series watch photography",
+    "reviewedAt": "2026-10-24",
+    "assetId": "cleared-20261024-franck-muller-encrypto-timeseries"
   }
 ];

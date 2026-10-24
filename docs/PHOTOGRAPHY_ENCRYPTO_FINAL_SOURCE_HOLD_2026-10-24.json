@@ -2,7 +2,7 @@
   "updatedAt": "2026-10-24T03:52:01.384804+00:00",
   "reference": "V 45 SC DT BTC TT BR (NR)",
   "canonicalRoute": "/collections/franck-muller/vanguard-encrypto/v-45-sc-dt-btc-tt-br-nr",
-  "status": "QUALITY_AND_CONFIGURATION_HOLD",
+  "status": "VALID_CLEARED_SOURCE_ACQUIRED_RELEASE_PENDING",
   "required": "Complete genuine no-diamond titanium black-dial Encrypto on black alligator/rubber strap, without redaction/occlusion/cropped strap. Source-specific rights and visual/archival/release verification remain mandatory for any replacement.",
   "attempts": [
     {
@@ -49,5 +49,10 @@
   "noGeneratedOrReconstructedImagery": true,
   "fullPopulationComplete": false,
   "unidentifiedFounderAppearancesHeld": 6,
-  "evidenceRoot": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\resume-20261023"
+  "evidenceRoot": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\resume-20261023",
+  "resolvedAt": "2026-10-24T04:34:04.361028+00:00",
+  "resolution": "Complete Time Series native3000x4000 side-view original acquired; unredacted QR and no-diamond titanium/blackstrap configuration reviewed. Founder cleared exact original/derivative; all3archive hashes match.",
+  "replacementSource": "https://timeserieswatch.com.my/product/franck-muller-30/",
+  "sourceEvidenceArchiveDriveId": "1KdDvVp7jnxH5lKoDHdwi9giE-lV4_ePJ",
+  "sourceEvidenceRecord": "docs/PHOTOGRAPHY_ENCRYPTO_REVIEWED_2026-10-24.json"
 }

@@ -1,14 +1,14 @@
 {
-  "reviewedAt": "2026-10-24T03:39:32.410Z",
+  "reviewedAt": "2026-10-24T04:32:35.076Z",
   "note": "Generated from all exported source datasets and built routes. Source-only and duplicate configuration records are retained for review; this register is not proof of image rights. Source URLs identify research leads, not licenses.",
   "summary": {
-    "sourceConfigurations": 1108,
+    "sourceConfigurations": 1111,
     "builtReferenceRoutes": 297,
     "collectionRoutes": 104,
-    "approvedReferenceConfigurations": 588,
+    "approvedReferenceConfigurations": 590,
     "unmatchedReferenceRoutes": 0,
-    "approvedCanonicalReferenceRoutes": 296,
-    "queuedCanonicalReferenceRoutes": 1
+    "approvedCanonicalReferenceRoutes": 297,
+    "queuedCanonicalReferenceRoutes": 0
   },
   "collections": [
     {
@@ -12704,25 +12704,31 @@
           "bracelet": "Model-dependent",
           "originalMSRP": null,
           "currentMSRP": null
+        },
+        {
+          "dial": "Black carbon-pattern Bitcoin QR dial, un-set motif",
+          "bracelet": "Black alligator/rubber strap with contrasting stitching",
+          "nickname": "Black carbon-pattern Bitcoin QR dial, un-set motif / Black alligator/rubber strap with contrasting stitching",
+          "originalMSRP": null,
+          "currentMSRP": null
         }
       ],
       "material": "Titanium",
       "sources": [
-        "src/data/collectionRegistry.ts",
-        "src/data/verified-catalog-expansion.ts"
+        "src/data/collectionRegistry.ts"
       ],
       "routes": [
         "/collections/franck-muller/vanguard-encrypto/v-45-sc-dt-btc-tt-br-nr"
       ],
       "scope": "built-reference",
-      "existingImage": "/images/watch-reference-placeholder.svg",
+      "existingImage": "/images/watches/franck-muller/reviewed-v-45-sc-dt-btc-tt-br-nr-20261024-web.webp",
       "existingImageFilePresent": true,
-      "photoAssetId": null,
-      "status": "Requires Verification",
-      "sourceUrl": "https://www.franckmuller.com/fr/vanguard-encrypto-",
-      "licenseRecord": null,
-      "websiteApproved": false,
-      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+      "photoAssetId": "cleared-20261024-franck-muller-encrypto-timeseries",
+      "status": "approved",
+      "sourceUrl": "https://timeserieswatch.com.my/product/franck-muller-30/",
+      "licenseRecord": "Direct founder response call_6b15cd2f2e3b4b398612cd3895dec22b: Rights cover the original and derivative; no restrictions. Record docs/PHOTOGRAPHY_ENCRYPTO_RIGHTS_2026-10-24.json. Native3000x4000 RAW SHA256 a5b73864d35231cacda7e78d5921830c061b3690d17d5e9b70f32c7732d617ca. Complete genuine watch, crown, returning strap and clasp individually reviewed; unredacted QR detail and un-set Bitcoin motif. Manufacturer titanium reference and dealer gallery identity verified; inaccurate dealer stainless-steel text not adopted. Contrasting stitching retained as photographed, never recolored. All3RAW/WHITE/WEB archive readbacks match. Classical exterior silhouette; original watch interior RGB retained. Whole photograph rotated90degrees clockwise, proportionally resized and centered on2400white/1200WEB. No watch detail generated, reconstructed, recolored or sharpened; no watermark removed. No price, availability or undocumented specs inferred. Preserved RAW file: 1NbHChaagysBgt5YeHSObzWPzJuBZHef1. Pictured full reference V 45 SC DT BTC TT BR (NR); Titanium, Black carbon-pattern Bitcoin QR dial, un-set motif, Black alligator/rubber strap with contrasting stitching. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
     },
     {
       "brand": "Franck Muller",
@@ -20616,6 +20622,28 @@
       "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
     },
     {
+      "brand": "Franck Muller",
+      "collection": "Vanguard Encrypto",
+      "reference": "V 45 SC DT BTC TT BR (NR)",
+      "configurations": [],
+      "material": "Titanium",
+      "sources": [
+        "src/data/photography-cleared-sprint.ts"
+      ],
+      "routes": [
+        "/collections/franck-muller/vanguard-encrypto/v-45-sc-dt-btc-tt-br-nr"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": null,
+      "status": "Requires Verification",
+      "sourceUrl": null,
+      "licenseRecord": null,
+      "websiteApproved": false,
+      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+    },
+    {
       "brand": "Breitling",
       "collection": "Superocean",
       "reference": "A17376211B1A1",
@@ -26157,6 +26185,36 @@
       "status": "approved",
       "sourceUrl": "https://brentmiller.com/products/moonwatch-professional-co-axial-master-chronometer-chronograph-42-mm-1",
       "licenseRecord": "Direct founder answer call_ca0ab48a5df347fd954c0e9f2049935c: Yes. Record docs/PHOTOGRAPHY_LAST_TWO_RIGHTS_2026-10-24.json. Untouched RAW SHA256 1db95f81b063f0886cd51f841816673cdeeb9c0531b4651d56bc40c64de3f27e. Native and1200WEB individually reviewed; all6archive readbacks matched. Classical exterior filled silhouette; original interior RGB retained. Proportional resize and centered blank2400 WHITE/1200WEB; no generated, reconstructed, recolored or sharpened watch detail. No price or availability inferred. Preserved RAW file: 1Nf6JUjhgh28NbPBhflc5M_RnawIiMgIa. Pictured full reference 310.32.42.50.01.002; Stainless Steel, Black step dial with applied Omega logo, Black leather strap. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
+      "brand": "Franck Muller",
+      "collection": "Vanguard Encrypto",
+      "reference": "V 45 SC DT BTC TT BR (NR)",
+      "configurations": [
+        {
+          "dial": "Black carbon-pattern Bitcoin QR dial, un-set motif",
+          "bracelet": "Black alligator/rubber strap with contrasting stitching",
+          "nickname": "Black carbon-pattern Bitcoin QR dial, un-set motif / Black alligator/rubber strap with contrasting stitching",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "Titanium",
+      "sources": [
+        "src/data/photography-expansion.ts"
+      ],
+      "routes": [
+        "/collections/franck-muller/vanguard-encrypto/v-45-sc-dt-btc-tt-br-nr"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": "cleared-20261024-franck-muller-encrypto-timeseries",
+      "status": "approved",
+      "sourceUrl": "https://timeserieswatch.com.my/product/franck-muller-30/",
+      "licenseRecord": "Direct founder response call_6b15cd2f2e3b4b398612cd3895dec22b: Rights cover the original and derivative; no restrictions. Record docs/PHOTOGRAPHY_ENCRYPTO_RIGHTS_2026-10-24.json. Native3000x4000 RAW SHA256 a5b73864d35231cacda7e78d5921830c061b3690d17d5e9b70f32c7732d617ca. Complete genuine watch, crown, returning strap and clasp individually reviewed; unredacted QR detail and un-set Bitcoin motif. Manufacturer titanium reference and dealer gallery identity verified; inaccurate dealer stainless-steel text not adopted. Contrasting stitching retained as photographed, never recolored. All3RAW/WHITE/WEB archive readbacks match. Classical exterior silhouette; original watch interior RGB retained. Whole photograph rotated90degrees clockwise, proportionally resized and centered on2400white/1200WEB. No watch detail generated, reconstructed, recolored or sharpened; no watermark removed. No price, availability or undocumented specs inferred. Preserved RAW file: 1NbHChaagysBgt5YeHSObzWPzJuBZHef1. Pictured full reference V 45 SC DT BTC TT BR (NR); Titanium, Black carbon-pattern Bitcoin QR dial, un-set motif, Black alligator/rubber strap with contrasting stitching. Exact configuration reviewed against preserved source evidence and the original photograph.",
       "websiteApproved": true,
       "nextAction": "Retain approved original and verify derivative integrity."
     },
@@ -32399,6 +32457,37 @@
       "photoAssetId": null,
       "status": "Requires Verification",
       "sourceUrl": "https://www.omegawatches.com.hk/en-hk/watch-omega-seamaster-planet-ocean-600m-omega-co-axial-42-mm-23263422101001",
+      "licenseRecord": null,
+      "websiteApproved": false,
+      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+    },
+    {
+      "brand": "Franck Muller",
+      "collection": "Vanguard Encrypto",
+      "reference": "V 45 SC DT BTC TT BR (NR)",
+      "configurations": [
+        {
+          "caseSize": "Model-dependent",
+          "movement": "Mechanical",
+          "dial": "Bitcoin QR dial",
+          "bracelet": "Model-dependent",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "Titanium",
+      "sources": [
+        "src/data/verified-catalog-expansion.ts"
+      ],
+      "routes": [
+        "/collections/franck-muller/vanguard-encrypto/v-45-sc-dt-btc-tt-br-nr"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": null,
+      "status": "Requires Verification",
+      "sourceUrl": "https://www.franckmuller.com/fr/vanguard-encrypto-",
       "licenseRecord": null,
       "websiteApproved": false,
       "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."

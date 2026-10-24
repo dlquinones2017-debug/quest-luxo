@@ -1,14 +1,14 @@
 {
-  "auditedAt": "2026-10-24T03:39:33.242Z",
+  "auditedAt": "2026-10-24T04:32:36.849Z",
   "summary": {
     "brands": 23,
     "collections": 104,
     "registryRecords": 298,
     "distinctRoutes": 297,
     "normalizedBrandReferenceIdentities": 294,
-    "approved": 296,
-    "missing": 1,
-    "collectionsWithPhotography": 103,
+    "approved": 297,
+    "missing": 0,
+    "collectionsWithPhotography": 104,
     "unusedApprovedRecords": 2,
     "duplicateNormalizedReferenceGroups": 4,
     "fileIntegrityFailures": 0,
@@ -83,8 +83,8 @@
       "brand": "Franck Muller",
       "registryRecords": 15,
       "referencePages": 15,
-      "approved": 14,
-      "missing": 1,
+      "approved": 15,
+      "missing": 0,
       "collections": 9
     },
     {
@@ -8356,10 +8356,21 @@
           "bracelet": "Model-dependent",
           "originalMSRP": null,
           "currentMSRP": null
+        },
+        {
+          "dial": "Black carbon-pattern Bitcoin QR dial, un-set motif",
+          "bracelet": "Black alligator/rubber strap with contrasting stitching",
+          "nickname": "Black carbon-pattern Bitcoin QR dial, un-set motif / Black alligator/rubber strap with contrasting stitching",
+          "originalMSRP": null,
+          "currentMSRP": null
         }
       ],
-      "approved": false,
-      "photo": null,
+      "approved": true,
+      "photo": {
+        "assetId": "cleared-20261024-franck-muller-encrypto-timeseries",
+        "src": "/images/watches/franck-muller/reviewed-v-45-sc-dt-btc-tt-br-nr-20261024-web.webp",
+        "sha256": "c0c116d8680c48d3333999553aa7a0e7b398b8880ee028e938293fdb1c87be5b"
+      },
       "recoveryCandidates": []
     },
     {

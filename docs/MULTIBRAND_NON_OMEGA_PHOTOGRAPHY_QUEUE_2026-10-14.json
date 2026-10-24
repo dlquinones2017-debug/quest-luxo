@@ -6,8 +6,8 @@
   "summary": {
     "references": 70,
     "brands": 15,
-    "approvedForImageRelease": 69,
-    "tasksAwaitingExactImageRightsReview": 1
+    "approvedForImageRelease": 70,
+    "tasksAwaitingExactImageRightsReview": 0
   },
   "queue": [
     {
@@ -605,13 +605,13 @@
       },
       "identitySource": "https://www.franckmuller.com/fr/vanguard-encrypto-",
       "priorityScore": 60,
-      "status": "RIGHTS_AND_EXACT_CONFIGURATION_REVIEW_REQUIRED",
-      "rawSourceFileId": null,
-      "webDerivativePath": null,
-      "webDerivativeSHA256": null,
-      "reviewer": null,
-      "commercialUseRightsRecord": null,
-      "notes": "Do not publish until approvedPhotograph verifies commercial rights and exact reference, and WEB image checksum matches stored file."
+      "status": "APPROVED_WITH_VALID_DERIVATIVE",
+      "rawSourceFileId": "1NbHChaagysBgt5YeHSObzWPzJuBZHef1",
+      "webDerivativePath": "/images/watches/franck-muller/reviewed-v-45-sc-dt-btc-tt-br-nr-20261024-web.webp",
+      "webDerivativeSHA256": "c0c116d8680c48d3333999553aa7a0e7b398b8880ee028e938293fdb1c87be5b",
+      "reviewer": "Quest Luxo execution review with founder website-use clearance",
+      "commercialUseRightsRecord": "Direct founder response call_6b15cd2f2e3b4b398612cd3895dec22b: Rights cover the original and derivative; no restrictions. Record docs/PHOTOGRAPHY_ENCRYPTO_RIGHTS_2026-10-24.json. Native3000x4000 RAW SHA256 a5b73864d35231cacda7e78d5921830c061b3690d17d5e9b70f32c7732d617ca. Complete genuine watch, crown, returning strap and clasp individually reviewed; unredacted QR detail and un-set Bitcoin motif. Manufacturer titanium reference and dealer gallery identity verified; inaccurate dealer stainless-steel text not adopted. Contrasting stitching retained as photographed, never recolored. All3RAW/WHITE/WEB archive readbacks match. Classical exterior silhouette; original watch interior RGB retained. Whole photograph rotated90degrees clockwise, proportionally resized and centered on2400white/1200WEB. No watch detail generated, reconstructed, recolored or sharpened; no watermark removed. No price, availability or undocumented specs inferred. Preserved RAW file: 1NbHChaagysBgt5YeHSObzWPzJuBZHef1. Pictured full reference V 45 SC DT BTC TT BR (NR); Titanium, Black carbon-pattern Bitcoin QR dial, un-set motif, Black alligator/rubber strap with contrasting stitching. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "notes": "Exact approvedPhotograph gate and local derivative SHA-256 validated; preserve approved source and separate source attribution."
     },
     {
       "brand": "Franck Muller",
@@ -1694,5 +1694,5 @@
       "notes": "Exact approvedPhotograph gate and local derivative SHA-256 validated; preserve approved source and separate source attribution."
     }
   ],
-  "updatedAt": "2026-10-24T03:38:21.766Z"
+  "updatedAt": "2026-10-24T04:31:13.258Z"
 }
