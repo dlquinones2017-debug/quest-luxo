@@ -3,9 +3,18 @@ import { constants } from "node:fs";
 import { lstat, mkdir, open, realpath, mkdtemp, rm, link } from "node:fs/promises";
 import { dirname, join, resolve, sep } from "node:path";
 import { readDurablePipelines } from "./enterpriseDurablePipelines.ts";
+import { readCRMPreparationJournal } from "./crmPreparationJournal.ts";
 import { readEncryptedIntakeJournal } from "./enterpriseIntakeJournal.ts";
 
 const profiles = {
+  preparation: {
+    filename: "crm-preparation-v1.enc.json", kind: "QUEST_CRM_PREPARATION_ENCRYPTED_BACKUP",
+    async read(directory: string, key: Buffer) {
+      const snapshot = await readCRMPreparationJournal(directory, key);
+      return { revision: snapshot.revision, metadata: { sequence: snapshot.sequence, retainedPreparationCount: snapshot.entries.length } };
+    },
+    fields: ["sequence", "retainedPreparationCount"],
+  },
   pipeline: {
     filename: "enterprise-pipelines-v1.enc.json", kind: "QUEST_PIPELINE_ENCRYPTED_BACKUP",
     async read(directory: string, key: Buffer) {
@@ -87,6 +96,9 @@ async function restoreSnapshot(backupFile: string, target: string, key: Buffer, 
        bundle.retainedReceiptCount < 0 || bundle.retainedReceiptCount > 10_000 ||
        typeof bundle.observedAt !== "string" || !Number.isFinite(Date.parse(bundle.observedAt)))))
     throw Error("Invalid backup manifest metadata.");
+  if (profile.kind === "QUEST_CRM_PREPARATION_ENCRYPTED_BACKUP" && (!Number.isSafeInteger(bundle.sequence) || bundle.sequence < 1 ||
+      !Number.isSafeInteger(bundle.retainedPreparationCount) || bundle.retainedPreparationCount < 1 || bundle.retainedPreparationCount > 1000))
+    throw Error("Invalid preparation backup metadata.");
   const encrypted = Buffer.from(bundle.encrypted, "base64");
   if (encrypted.length > 7_500_000 || hash(encrypted) !== bundle.revision) throw Error("Backup checksum mismatch.");
   const directory = resolve(target);
@@ -114,3 +126,18 @@ export const exportPipelineBackup = (primary: string, backupFile: string, key: B
 export const restorePipelineBackup = (backupFile: string, target: string, key: Buffer) => restoreSnapshot(backupFile, target, key, profiles.pipeline);
 export const exportIntakeJournalBackup = (primary: string, backupFile: string, key: Buffer) => exportSnapshot(primary, backupFile, key, profiles.intake);
 export const restoreIntakeJournalBackup = (backupFile: string, target: string, key: Buffer) => restoreSnapshot(backupFile, target, key, profiles.intake);
+
+/** Preparation storage paths must already exist privately. Never create through an unreviewed parent chain. */
+async function preparationDirectory(path: string) {
+  const directory = resolve(path), stat = await lstat(directory);
+  if (!stat.isDirectory() || stat.isSymbolicLink() || (stat.mode & 0o077) || await realpath(directory) !== directory)
+    throw Error("Existing private canonical preparation directory required.");
+}
+export async function exportCRMPreparationBackup(primary: string, backupFile: string, key: Buffer) {
+  await preparationDirectory(primary); await preparationDirectory(dirname(resolve(backupFile)));
+  return exportSnapshot(primary,backupFile,key,profiles.preparation);
+}
+export async function restoreCRMPreparationBackup(backupFile: string, target: string, key: Buffer) {
+  await preparationDirectory(target);
+  return restoreSnapshot(backupFile,target,key,profiles.preparation);
+}
