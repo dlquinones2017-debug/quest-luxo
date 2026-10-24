@@ -1,0 +1,38 @@
+{
+  "confirmedAt": "2026-10-24T01:12:45.273812+00:00",
+  "questionId": "call_fc3ee888ceee4be6aa823ffe6a901222",
+  "directFounderAnswer": "Yes. Approve",
+  "sourceLedgerDriveFileId": "13RKC7flpUXK1RZ56cR-iIhYd6ThfD8xe",
+  "references": [
+    {
+      "reference": "6000V/110A-B544",
+      "exactSKU": "6000V/110A-B544",
+      "sourceUrl": "https://www.watchfinder.com/sell-your-watch/enquiry/vacheron-constantin/overseas/6000v-110a-b544/47752",
+      "rawSha256": "fd150a6867c6b63b4c44808a4082dd768e8a038e94e455e18666d579c85c4492"
+    },
+    {
+      "reference": "233.32.41.21.01.001",
+      "exactSKU": "233.32.41.21.01.001",
+      "sourceUrl": "https://www.watchfinder.com/sell-your-watch/enquiry/omega/seamaster-300/233-32-41-21-01-001/27927",
+      "rawSha256": "ae725f227cb28366135577126898e13b764c507c5c51e8ee97e10af4d1cdc51e"
+    },
+    {
+      "reference": "215.30.44.22.01.001",
+      "exactSKU": "215.30.44.22.01.001",
+      "sourceUrl": "https://www.watchfinder.com/watches/omega/planet-ocean/215-30-44-22-01-001/431503",
+      "rawSha256": "72d0c0822dc5a382647a84bc6cf680eb02be7609eda0dc9b7e2713e478324068"
+    },
+    {
+      "reference": "M79360N-0024",
+      "exactSKU": "M79360N-0024",
+      "sourceUrl": "https://www.watchfinder.com/watches/tudor/black-bay-chrono/m79360n-0024/340031",
+      "rawSha256": "717b200ccd27b2cb4db2c09ba917cdb28c0f3b23c06e56b8d5bd51c98e7bf4e6"
+    },
+    {
+      "reference": "M79360N-0019",
+      "exactSKU": "M79360N-0019",
+      "sourceUrl": "https://www.watchfinder.com/watches/tudor/black-bay-chrono/m79360n-0019/349444",
+      "rawSha256": "4f2059d9404463b67881ccec629ef5c716be409202e2a99877bc1c2cc99472d6"
+    }
+  ]
+}

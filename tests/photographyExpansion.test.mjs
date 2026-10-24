@@ -8,7 +8,7 @@ const {collectionRegistry}=await import('../src/data/collectionRegistry.ts');
 const {photographyExpansionImages,photographyExpansionAssets}=await import('../src/data/photography-expansion.ts');
 const {approvedPhotograph}=await import('../src/lib/media/watchPhotography.ts');
 test('reviewed cleared photographs resolve only for represented exact configurations',()=>{
-  assert.equal(photographyExpansionImages.length,250);
+  assert.equal(photographyExpansionImages.length,255);
   for(const photo of photographyExpansionImages){
     const asset=collectionRegistry.find(c=>c.brand===photo.brand&&c.name===photo.collection)?.assets.find(a=>a.reference===photo.reference);
     assert.ok(asset,photo.reference+' must have a catalog record');

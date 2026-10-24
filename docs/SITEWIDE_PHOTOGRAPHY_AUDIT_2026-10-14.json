@@ -1,14 +1,14 @@
 {
-  "auditedAt": "2026-10-24T00:56:44.566Z",
+  "auditedAt": "2026-10-24T01:17:44.309Z",
   "summary": {
     "brands": 23,
     "collections": 104,
     "registryRecords": 298,
     "distinctRoutes": 297,
     "normalizedBrandReferenceIdentities": 294,
-    "approved": 259,
-    "missing": 38,
-    "collectionsWithPhotography": 90,
+    "approved": 264,
+    "missing": 33,
+    "collectionsWithPhotography": 93,
     "unusedApprovedRecords": 2,
     "duplicateNormalizedReferenceGroups": 4,
     "fileIntegrityFailures": 0,
@@ -123,8 +123,8 @@
       "brand": "Omega",
       "registryRecords": 71,
       "referencePages": 71,
-      "approved": 63,
-      "missing": 8,
+      "approved": 65,
+      "missing": 6,
       "collections": 11
     },
     {
@@ -171,8 +171,8 @@
       "brand": "Tudor",
       "registryRecords": 12,
       "referencePages": 12,
-      "approved": 7,
-      "missing": 5,
+      "approved": 9,
+      "missing": 3,
       "collections": 5
     },
     {
@@ -187,8 +187,8 @@
       "brand": "Vacheron Constantin",
       "registryRecords": 8,
       "referencePages": 8,
-      "approved": 6,
-      "missing": 2,
+      "approved": 7,
+      "missing": 1,
       "collections": 5
     },
     {
@@ -2796,16 +2796,19 @@
       "material": "Stainless Steel",
       "configurations": [
         {
-          "caseSize": "42.5 mm",
-          "movement": "Calibre 2160 automatic tourbillon",
           "dial": "Blue",
-          "bracelet": "Steel bracelet and additional straps",
+          "bracelet": "Stainless-steel bracelet",
+          "nickname": "Blue / Stainless-steel bracelet",
           "originalMSRP": null,
           "currentMSRP": null
         }
       ],
-      "approved": false,
-      "photo": null,
+      "approved": true,
+      "photo": {
+        "assetId": "cleared-20261023-next-five-6000v-110a-b544",
+        "src": "/images/watches/vacheron-constantin/reviewed-6000v-110a-b544-20261023-web.webp",
+        "sha256": "9388d8d6ce64194f0d89478288c777d73c384d9c5d9f434c2f7a514b5597d4b5"
+      },
       "recoveryCandidates": []
     },
     {
@@ -7294,10 +7297,21 @@
           "waterResistance": "200 m",
           "originalMSRP": null,
           "currentMSRP": null
+        },
+        {
+          "dial": "Turquoise with black subdials",
+          "bracelet": "Stainless-steel five-link bracelet",
+          "nickname": "Turquoise with black subdials / Stainless-steel five-link bracelet",
+          "originalMSRP": null,
+          "currentMSRP": null
         }
       ],
-      "approved": false,
-      "photo": null,
+      "approved": true,
+      "photo": {
+        "assetId": "cleared-20261023-next-five-m79360n-0024",
+        "src": "/images/watches/tudor/reviewed-m79360n-0024-20261023-web.webp",
+        "sha256": "2e6ed5e7d57d053f242ef37e1b927a044c087e459e7bfd91484eecdb3eea0f20"
+      },
       "recoveryCandidates": []
     },
     {
@@ -7317,10 +7331,21 @@
           "waterResistance": "200 m",
           "originalMSRP": null,
           "currentMSRP": null
+        },
+        {
+          "dial": "Pink with black subdials",
+          "bracelet": "Stainless-steel five-link bracelet",
+          "nickname": "Pink with black subdials / Stainless-steel five-link bracelet",
+          "originalMSRP": null,
+          "currentMSRP": null
         }
       ],
-      "approved": false,
-      "photo": null,
+      "approved": true,
+      "photo": {
+        "assetId": "cleared-20261023-next-five-m79360n-0019",
+        "src": "/images/watches/tudor/reviewed-m79360n-0019-20261023-web.webp",
+        "sha256": "60c35a43fde3471ee09eee503b1caf9c174b6077f4a6128609b6db24c6a2ceb4"
+      },
       "recoveryCandidates": []
     },
     {
@@ -8485,10 +8510,21 @@
           "bracelet": "Black and gray NATO strap",
           "originalMSRP": null,
           "currentMSRP": null
+        },
+        {
+          "dial": "Black",
+          "bracelet": "Black-and-grey striped NATO strap",
+          "nickname": "Black / Black-and-grey striped NATO strap",
+          "originalMSRP": null,
+          "currentMSRP": null
         }
       ],
-      "approved": false,
-      "photo": null,
+      "approved": true,
+      "photo": {
+        "assetId": "cleared-20261023-next-five-233-32-41-21-01-001",
+        "src": "/images/watches/omega/reviewed-233-32-41-21-01-001-20261023-web.webp",
+        "sha256": "f3637123cbe0b1ab85b1d99fa0bad5744973e56eeddf81959eba0d0614b789e9"
+      },
       "recoveryCandidates": []
     },
     {
@@ -8561,10 +8597,21 @@
           "bracelet": "Stainless-steel bracelet",
           "originalMSRP": null,
           "currentMSRP": null
+        },
+        {
+          "dial": "Black",
+          "bracelet": "Stainless-steel bracelet",
+          "nickname": "Black / Stainless-steel bracelet",
+          "originalMSRP": null,
+          "currentMSRP": null
         }
       ],
-      "approved": false,
-      "photo": null,
+      "approved": true,
+      "photo": {
+        "assetId": "cleared-20261023-next-five-215-30-44-22-01-001",
+        "src": "/images/watches/omega/reviewed-215-30-44-22-01-001-20261023-web.webp",
+        "sha256": "7f564e63353da8f9cfb23d96ce31021ebf8dbb7d44718bcf719122e519e7a07e"
+      },
       "recoveryCandidates": []
     },
     {

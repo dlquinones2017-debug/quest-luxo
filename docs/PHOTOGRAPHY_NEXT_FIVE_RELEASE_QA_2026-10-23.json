@@ -1,0 +1,129 @@
+{
+  "checkedAt": "2026-10-24T01:18:38.168244+00:00",
+  "checks": [
+    {
+      "check": "nonomega-queue-sync",
+      "exitCode": 0,
+      "logFileName": "next-five-20261023-nonomega-queue-sync.log"
+    },
+    {
+      "check": "omega-queue-sync",
+      "exitCode": 0,
+      "logFileName": "next-five-20261023-omega-queue-sync.log"
+    },
+    {
+      "check": "astro-check",
+      "exitCode": 0,
+      "logFileName": "next-five-20261023-astro-check.log"
+    },
+    {
+      "check": "regressions",
+      "exitCode": 0,
+      "logFileName": "next-five-20261023-regressions.log"
+    },
+    {
+      "check": "omega-audit",
+      "exitCode": 0,
+      "logFileName": "next-five-20261023-omega-audit.log"
+    },
+    {
+      "check": "omega-queue-check",
+      "exitCode": 0,
+      "logFileName": "next-five-20261023-omega-queue-check.log"
+    },
+    {
+      "check": "expansion-audit",
+      "exitCode": 0,
+      "logFileName": "next-five-20261023-expansion-audit.log"
+    },
+    {
+      "check": "build",
+      "exitCode": 0,
+      "logFileName": "next-five-20261023-build.log"
+    },
+    {
+      "check": "inventory",
+      "exitCode": 0,
+      "logFileName": "next-five-20261023-inventory.log"
+    },
+    {
+      "check": "full-audit",
+      "exitCode": 0,
+      "logFileName": "next-five-20261023-full-audit.log"
+    }
+  ],
+  "builtMapping": {
+    "checkedAt": "2026-10-24T01:17:58.679107+00:00",
+    "mode": "built",
+    "exactReferencesChecked": 5,
+    "rows": [
+      {
+        "reference": "6000V/110A-B544",
+        "route": "/collections/vacheron-constantin/overseas/6000v-110a-b544",
+        "imageSha256": "9388d8d6ce64194f0d89478288c777d73c384d9c5d9f434c2f7a514b5597d4b5",
+        "exactConfiguration": true,
+        "collectionGrid": true,
+        "inquiryContext": true,
+        "separateCredits": true,
+        "noImageCaptionOverlay": true
+      },
+      {
+        "reference": "233.32.41.21.01.001",
+        "route": "/collections/omega/seamaster-300/233-32-41-21-01-001",
+        "imageSha256": "f3637123cbe0b1ab85b1d99fa0bad5744973e56eeddf81959eba0d0614b789e9",
+        "exactConfiguration": true,
+        "collectionGrid": true,
+        "inquiryContext": true,
+        "separateCredits": true,
+        "noImageCaptionOverlay": true
+      },
+      {
+        "reference": "215.30.44.22.01.001",
+        "route": "/collections/omega/planet-ocean-gmt/215-30-44-22-01-001",
+        "imageSha256": "7f564e63353da8f9cfb23d96ce31021ebf8dbb7d44718bcf719122e519e7a07e",
+        "exactConfiguration": true,
+        "collectionGrid": true,
+        "inquiryContext": true,
+        "separateCredits": true,
+        "noImageCaptionOverlay": true
+      },
+      {
+        "reference": "M79360N-0024",
+        "route": "/collections/tudor/black-bay-chrono/m79360n-0024",
+        "imageSha256": "2e6ed5e7d57d053f242ef37e1b927a044c087e459e7bfd91484eecdb3eea0f20",
+        "exactConfiguration": true,
+        "collectionGrid": true,
+        "inquiryContext": true,
+        "separateCredits": true,
+        "noImageCaptionOverlay": true
+      },
+      {
+        "reference": "M79360N-0019",
+        "route": "/collections/tudor/black-bay-chrono/m79360n-0019",
+        "imageSha256": "60c35a43fde3471ee09eee503b1caf9c174b6077f4a6128609b6db24c6a2ceb4",
+        "exactConfiguration": true,
+        "collectionGrid": true,
+        "inquiryContext": true,
+        "separateCredits": true,
+        "noImageCaptionOverlay": true
+      }
+    ],
+    "publicFlowsAvailable": true,
+    "leadDataSafety": "Public GET checks only. No new lead submissions, private lead reads, runtime data or disk changes."
+  },
+  "tests": {
+    "total": 315,
+    "passed": 314,
+    "skipped": 1,
+    "failed": 0
+  },
+  "astro": {
+    "errors": 0,
+    "warnings": 0,
+    "existingHints": 18
+  },
+  "nativeAndWhiteWebVisualReview": "Complete originals and white WEB individually reviewed before direct founder rights confirmation; unchanged SHA256s verified during integration.",
+  "archiveReadbacksVerified": true,
+  "status": "Built checks passed; independent production verification pending",
+  "initialFailureEvidence": "Initial run exposed non-Omega queue lag, Vacheron model-name preservation error, and a separate Windows temporary-fixture child-process exit. The exact initial failure log is retained locally. Existing model restored and established queue reconciled; original concurrent suite rerun unchanged,314passed1skip0fail. No lead implementation or test/concurrency changes."
+}

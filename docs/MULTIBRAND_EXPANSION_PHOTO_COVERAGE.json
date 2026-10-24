@@ -1,17 +1,17 @@
 {
-  "reviewedAt": "2026-10-24T00:56:21.498Z",
+  "reviewedAt": "2026-10-24T01:17:23.259Z",
   "scope": "All verified-catalog-expansion.ts references only; excludes legacy inventory",
   "policy": "Source URL is NOT image-rights evidence. Exact watch, strap, dial, material, white-canvas original, licensing, website approval and actual derivative SHA256 are required.",
   "summary": {
     "expansionReferences": 128,
     "brands": 16,
     "collections": 52,
-    "approvedValidReferences": 102,
+    "approvedValidReferences": 105,
     "missingApprovedDerivative": 0,
     "checksumFailures": 0,
-    "acquisitionRequired": 26,
-    "notReleaseReady": 26,
-    "imageCoveragePercent": 79.7
+    "acquisitionRequired": 23,
+    "notReleaseReady": 23,
+    "imageCoveragePercent": 82
   },
   "byBrand": [
     {
@@ -59,8 +59,8 @@
     {
       "brand": "Omega",
       "references": 58,
-      "approved": 51,
-      "outstanding": 7
+      "approved": 53,
+      "outstanding": 5
     },
     {
       "brand": "Panerai",
@@ -101,8 +101,8 @@
     {
       "brand": "Vacheron Constantin",
       "references": 4,
-      "approved": 3,
-      "outstanding": 1
+      "approved": 4,
+      "outstanding": 0
     },
     {
       "brand": "Zenith",
@@ -979,13 +979,13 @@
       },
       "specificationSource": "https://www.omegawatches.com.hk/en-hk/watch-omega-seamaster-300-master-co-axial-chronometer-41-mm-23332412101001",
       "score": 71,
-      "status": "ACQUISITION_REQUIRED",
-      "photoAssetId": null,
-      "derivativePath": null,
-      "recordedSha256": null,
-      "actualSha256": null,
-      "rightsRecord": null,
-      "nextAction": "Source authentic exact-reference original; obtain commercial-use license and provenance, prepare approved full-watch white-canvas derivative and register the matching SHA-256."
+      "status": "APPROVED_WITH_VALID_DERIVATIVE",
+      "photoAssetId": "cleared-20261023-next-five-233-32-41-21-01-001",
+      "derivativePath": "/images/watches/omega/reviewed-233-32-41-21-01-001-20261023-web.webp",
+      "recordedSha256": "f3637123cbe0b1ab85b1d99fa0bad5744973e56eeddf81959eba0d0614b789e9",
+      "actualSha256": "f3637123cbe0b1ab85b1d99fa0bad5744973e56eeddf81959eba0d0614b789e9",
+      "rightsRecord": "Direct founder answer call_fc3ee888ceee4be6aa823ffe6a901222: Yes. Approve. Record docs/PHOTOGRAPHY_NEXT_FIVE_RIGHTS_2026-10-23.json. Untouched RAW SHA256 ae725f227cb28366135577126898e13b764c507c5c51e8ee97e10af4d1cdc51e. Full watch, source/configuration and final1200whiteWEB individually reviewed; all archival readbacks matched. Classical exterior filled silhouette. Original interior RGB retained; no generated, reconstructed, recolored or sharpened watch detail. Proportional resize and centered2400 white master/1200WEB. No price, availability or new alloy grade inferred. Preserved RAW file: 1sf1qmuPIBBiHQLDkLYg-cM7tNSzQOsTd. Pictured full reference 233.32.41.21.01.001; Stainless Steel, Black, Black-and-grey striped NATO strap. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "nextAction": "Retain approved source, white-canvas derivative, attribution and reference mapping."
     },
     {
       "brand": "Zenith",
@@ -2254,13 +2254,13 @@
       },
       "specificationSource": "https://www.omegawatches.com.hk/en-hk/watch-omega-seamaster-planet-ocean-600m-co-axial-master-chronometer-gmt-43-5-mm-21530442201001",
       "score": 60,
-      "status": "ACQUISITION_REQUIRED",
-      "photoAssetId": null,
-      "derivativePath": null,
-      "recordedSha256": null,
-      "actualSha256": null,
-      "rightsRecord": null,
-      "nextAction": "Source authentic exact-reference original; obtain commercial-use license and provenance, prepare approved full-watch white-canvas derivative and register the matching SHA-256."
+      "status": "APPROVED_WITH_VALID_DERIVATIVE",
+      "photoAssetId": "cleared-20261023-next-five-215-30-44-22-01-001",
+      "derivativePath": "/images/watches/omega/reviewed-215-30-44-22-01-001-20261023-web.webp",
+      "recordedSha256": "7f564e63353da8f9cfb23d96ce31021ebf8dbb7d44718bcf719122e519e7a07e",
+      "actualSha256": "7f564e63353da8f9cfb23d96ce31021ebf8dbb7d44718bcf719122e519e7a07e",
+      "rightsRecord": "Direct founder answer call_fc3ee888ceee4be6aa823ffe6a901222: Yes. Approve. Record docs/PHOTOGRAPHY_NEXT_FIVE_RIGHTS_2026-10-23.json. Untouched RAW SHA256 72d0c0822dc5a382647a84bc6cf680eb02be7609eda0dc9b7e2713e478324068. Full watch, source/configuration and final1200whiteWEB individually reviewed; all archival readbacks matched. Classical exterior filled silhouette. Original interior RGB retained; no generated, reconstructed, recolored or sharpened watch detail. Proportional resize and centered2400 white master/1200WEB. No price, availability or new alloy grade inferred. Preserved RAW file: 1NnHjRQCIpivSc7h9PWca9rJdWzmVO3zL. Pictured full reference 215.30.44.22.01.001; Stainless Steel, Black, Stainless-steel bracelet. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "nextAction": "Retain approved source, white-canvas derivative, attribution and reference mapping."
     },
     {
       "brand": "Omega",
@@ -2704,13 +2704,13 @@
       },
       "specificationSource": "https://www.vacheron-constantin.com/us/en/collections/overseas/6000v-110a-b544.html",
       "score": 57,
-      "status": "ACQUISITION_REQUIRED",
-      "photoAssetId": null,
-      "derivativePath": null,
-      "recordedSha256": null,
-      "actualSha256": null,
-      "rightsRecord": null,
-      "nextAction": "Source authentic exact-reference original; obtain commercial-use license and provenance, prepare approved full-watch white-canvas derivative and register the matching SHA-256."
+      "status": "APPROVED_WITH_VALID_DERIVATIVE",
+      "photoAssetId": "cleared-20261023-next-five-6000v-110a-b544",
+      "derivativePath": "/images/watches/vacheron-constantin/reviewed-6000v-110a-b544-20261023-web.webp",
+      "recordedSha256": "9388d8d6ce64194f0d89478288c777d73c384d9c5d9f434c2f7a514b5597d4b5",
+      "actualSha256": "9388d8d6ce64194f0d89478288c777d73c384d9c5d9f434c2f7a514b5597d4b5",
+      "rightsRecord": "Direct founder answer call_fc3ee888ceee4be6aa823ffe6a901222: Yes. Approve. Record docs/PHOTOGRAPHY_NEXT_FIVE_RIGHTS_2026-10-23.json. Untouched RAW SHA256 fd150a6867c6b63b4c44808a4082dd768e8a038e94e455e18666d579c85c4492. Full watch, source/configuration and final1200whiteWEB individually reviewed; all archival readbacks matched. Classical exterior filled silhouette. Original interior RGB retained; no generated, reconstructed, recolored or sharpened watch detail. Proportional resize and centered2400 white master/1200WEB. No price, availability or new alloy grade inferred. Preserved RAW file: 1JZ8A8cKrU3cdIbyj593RsO7n1QHvuQ3K. Pictured full reference 6000V/110A-B544; Stainless Steel, Blue, Stainless-steel bracelet. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "nextAction": "Retain approved source, white-canvas derivative, attribution and reference mapping."
     },
     {
       "brand": "Hublot",

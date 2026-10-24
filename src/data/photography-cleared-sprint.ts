@@ -4873,5 +4873,110 @@ export const clearedSprintPhotographySeeds: readonly PhotographySeed[] = [
     "sourceProvider": "Watchfinder",
     "reviewedAt": "2026-10-23",
     "assetId": "cleared-20261023-eight-br0192-redradar"
+  },
+  {
+    "brand": "Vacheron Constantin",
+    "brandSlug": "vacheron-constantin",
+    "collection": "Overseas",
+    "reference": "6000V/110A-B544",
+    "exactReference": "6000V/110A-B544",
+    "model": "Overseas Tourbillon Steel Blue",
+    "material": "Stainless Steel",
+    "configuration": {
+      "dial": "Blue",
+      "bracelet": "Stainless-steel bracelet"
+    },
+    "sourceUrl": "https://www.watchfinder.com/sell-your-watch/enquiry/vacheron-constantin/overseas/6000v-110a-b544/47752",
+    "src": "/images/watches/vacheron-constantin/reviewed-6000v-110a-b544-20261023-web.webp",
+    "sha256": "9388d8d6ce64194f0d89478288c777d73c384d9c5d9f434c2f7a514b5597d4b5",
+    "rawDriveFileId": "1JZ8A8cKrU3cdIbyj593RsO7n1QHvuQ3K",
+    "clearanceRecord": "Direct founder answer call_fc3ee888ceee4be6aa823ffe6a901222: Yes. Approve. Record docs/PHOTOGRAPHY_NEXT_FIVE_RIGHTS_2026-10-23.json. Untouched RAW SHA256 fd150a6867c6b63b4c44808a4082dd768e8a038e94e455e18666d579c85c4492. Full watch, source/configuration and final1200whiteWEB individually reviewed; all archival readbacks matched. Classical exterior filled silhouette. Original interior RGB retained; no generated, reconstructed, recolored or sharpened watch detail. Proportional resize and centered2400 white master/1200WEB. No price, availability or new alloy grade inferred.",
+    "sourceProvider": "Watchfinder",
+    "reviewedAt": "2026-10-23",
+    "assetId": "cleared-20261023-next-five-6000v-110a-b544"
+  },
+  {
+    "brand": "Omega",
+    "brandSlug": "omega",
+    "collection": "Seamaster 300",
+    "reference": "233.32.41.21.01.001",
+    "exactReference": "233.32.41.21.01.001",
+    "model": "Seamaster 300 233.32.41.21.01.001",
+    "material": "Stainless Steel",
+    "configuration": {
+      "dial": "Black",
+      "bracelet": "Black-and-grey striped NATO strap"
+    },
+    "sourceUrl": "https://www.watchfinder.com/sell-your-watch/enquiry/omega/seamaster-300/233-32-41-21-01-001/27927",
+    "src": "/images/watches/omega/reviewed-233-32-41-21-01-001-20261023-web.webp",
+    "sha256": "f3637123cbe0b1ab85b1d99fa0bad5744973e56eeddf81959eba0d0614b789e9",
+    "rawDriveFileId": "1sf1qmuPIBBiHQLDkLYg-cM7tNSzQOsTd",
+    "clearanceRecord": "Direct founder answer call_fc3ee888ceee4be6aa823ffe6a901222: Yes. Approve. Record docs/PHOTOGRAPHY_NEXT_FIVE_RIGHTS_2026-10-23.json. Untouched RAW SHA256 ae725f227cb28366135577126898e13b764c507c5c51e8ee97e10af4d1cdc51e. Full watch, source/configuration and final1200whiteWEB individually reviewed; all archival readbacks matched. Classical exterior filled silhouette. Original interior RGB retained; no generated, reconstructed, recolored or sharpened watch detail. Proportional resize and centered2400 white master/1200WEB. No price, availability or new alloy grade inferred.",
+    "sourceProvider": "Watchfinder",
+    "reviewedAt": "2026-10-23",
+    "assetId": "cleared-20261023-next-five-233-32-41-21-01-001"
+  },
+  {
+    "brand": "Omega",
+    "brandSlug": "omega",
+    "collection": "Seamaster Planet Ocean GMT",
+    "reference": "215.30.44.22.01.001",
+    "exactReference": "215.30.44.22.01.001",
+    "model": "Seamaster Planet Ocean GMT 215.30.44.22.01.001",
+    "material": "Stainless Steel",
+    "configuration": {
+      "dial": "Black",
+      "bracelet": "Stainless-steel bracelet"
+    },
+    "sourceUrl": "https://www.watchfinder.com/watches/omega/planet-ocean/215-30-44-22-01-001/431503",
+    "src": "/images/watches/omega/reviewed-215-30-44-22-01-001-20261023-web.webp",
+    "sha256": "7f564e63353da8f9cfb23d96ce31021ebf8dbb7d44718bcf719122e519e7a07e",
+    "rawDriveFileId": "1NnHjRQCIpivSc7h9PWca9rJdWzmVO3zL",
+    "clearanceRecord": "Direct founder answer call_fc3ee888ceee4be6aa823ffe6a901222: Yes. Approve. Record docs/PHOTOGRAPHY_NEXT_FIVE_RIGHTS_2026-10-23.json. Untouched RAW SHA256 72d0c0822dc5a382647a84bc6cf680eb02be7609eda0dc9b7e2713e478324068. Full watch, source/configuration and final1200whiteWEB individually reviewed; all archival readbacks matched. Classical exterior filled silhouette. Original interior RGB retained; no generated, reconstructed, recolored or sharpened watch detail. Proportional resize and centered2400 white master/1200WEB. No price, availability or new alloy grade inferred.",
+    "sourceProvider": "Watchfinder",
+    "reviewedAt": "2026-10-23",
+    "assetId": "cleared-20261023-next-five-215-30-44-22-01-001"
+  },
+  {
+    "brand": "Tudor",
+    "brandSlug": "tudor",
+    "collection": "Black Bay Chrono",
+    "reference": "M79360N-0024",
+    "exactReference": "M79360N-0024",
+    "model": "Black Bay Chrono M79360N-0024",
+    "material": "Stainless Steel",
+    "configuration": {
+      "dial": "Turquoise with black subdials",
+      "bracelet": "Stainless-steel five-link bracelet"
+    },
+    "sourceUrl": "https://www.watchfinder.com/watches/tudor/black-bay-chrono/m79360n-0024/340031",
+    "src": "/images/watches/tudor/reviewed-m79360n-0024-20261023-web.webp",
+    "sha256": "2e6ed5e7d57d053f242ef37e1b927a044c087e459e7bfd91484eecdb3eea0f20",
+    "rawDriveFileId": "1e_YhEMmEKYEKF_PFm_F3gomIZkBbQIWH",
+    "clearanceRecord": "Direct founder answer call_fc3ee888ceee4be6aa823ffe6a901222: Yes. Approve. Record docs/PHOTOGRAPHY_NEXT_FIVE_RIGHTS_2026-10-23.json. Untouched RAW SHA256 717b200ccd27b2cb4db2c09ba917cdb28c0f3b23c06e56b8d5bd51c98e7bf4e6. Full watch, source/configuration and final1200whiteWEB individually reviewed; all archival readbacks matched. Classical exterior filled silhouette. Original interior RGB retained; no generated, reconstructed, recolored or sharpened watch detail. Proportional resize and centered2400 white master/1200WEB. No price, availability or new alloy grade inferred.",
+    "sourceProvider": "Watchfinder",
+    "reviewedAt": "2026-10-23",
+    "assetId": "cleared-20261023-next-five-m79360n-0024"
+  },
+  {
+    "brand": "Tudor",
+    "brandSlug": "tudor",
+    "collection": "Black Bay Chrono",
+    "reference": "M79360N-0019",
+    "exactReference": "M79360N-0019",
+    "model": "Black Bay Chrono M79360N-0019",
+    "material": "Stainless Steel",
+    "configuration": {
+      "dial": "Pink with black subdials",
+      "bracelet": "Stainless-steel five-link bracelet"
+    },
+    "sourceUrl": "https://www.watchfinder.com/watches/tudor/black-bay-chrono/m79360n-0019/349444",
+    "src": "/images/watches/tudor/reviewed-m79360n-0019-20261023-web.webp",
+    "sha256": "60c35a43fde3471ee09eee503b1caf9c174b6077f4a6128609b6db24c6a2ceb4",
+    "rawDriveFileId": "1LoSF9suWITO5wGuW-iP_q4fkM_SXSDha",
+    "clearanceRecord": "Direct founder answer call_fc3ee888ceee4be6aa823ffe6a901222: Yes. Approve. Record docs/PHOTOGRAPHY_NEXT_FIVE_RIGHTS_2026-10-23.json. Untouched RAW SHA256 4f2059d9404463b67881ccec629ef5c716be409202e2a99877bc1c2cc99472d6. Full watch, source/configuration and final1200whiteWEB individually reviewed; all archival readbacks matched. Classical exterior filled silhouette. Original interior RGB retained; no generated, reconstructed, recolored or sharpened watch detail. Proportional resize and centered2400 white master/1200WEB. No price, availability or new alloy grade inferred.",
+    "sourceProvider": "Watchfinder",
+    "reviewedAt": "2026-10-23",
+    "assetId": "cleared-20261023-next-five-m79360n-0019"
   }
 ];

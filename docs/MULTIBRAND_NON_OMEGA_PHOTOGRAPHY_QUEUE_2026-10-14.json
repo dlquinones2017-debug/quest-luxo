@@ -6,8 +6,8 @@
   "summary": {
     "references": 70,
     "brands": 15,
-    "approvedForImageRelease": 51,
-    "tasksAwaitingExactImageRightsReview": 19
+    "approvedForImageRelease": 52,
+    "tasksAwaitingExactImageRightsReview": 18
   },
   "queue": [
     {
@@ -821,13 +821,13 @@
       },
       "identitySource": "https://www.vacheron-constantin.com/us/en/collections/overseas/6000v-110a-b544.html",
       "priorityScore": 57,
-      "status": "RIGHTS_AND_EXACT_CONFIGURATION_REVIEW_REQUIRED",
-      "rawSourceFileId": null,
-      "webDerivativePath": null,
-      "webDerivativeSHA256": null,
-      "reviewer": null,
-      "commercialUseRightsRecord": null,
-      "notes": "Do not publish until approvedPhotograph verifies commercial rights and exact reference, and WEB image checksum matches stored file."
+      "status": "APPROVED_WITH_VALID_DERIVATIVE",
+      "rawSourceFileId": "1JZ8A8cKrU3cdIbyj593RsO7n1QHvuQ3K",
+      "webDerivativePath": "/images/watches/vacheron-constantin/reviewed-6000v-110a-b544-20261023-web.webp",
+      "webDerivativeSHA256": "9388d8d6ce64194f0d89478288c777d73c384d9c5d9f434c2f7a514b5597d4b5",
+      "reviewer": "Quest Luxo execution review with founder website-use clearance",
+      "commercialUseRightsRecord": "Direct founder answer call_fc3ee888ceee4be6aa823ffe6a901222: Yes. Approve. Record docs/PHOTOGRAPHY_NEXT_FIVE_RIGHTS_2026-10-23.json. Untouched RAW SHA256 fd150a6867c6b63b4c44808a4082dd768e8a038e94e455e18666d579c85c4492. Full watch, source/configuration and final1200whiteWEB individually reviewed; all archival readbacks matched. Classical exterior filled silhouette. Original interior RGB retained; no generated, reconstructed, recolored or sharpened watch detail. Proportional resize and centered2400 white master/1200WEB. No price, availability or new alloy grade inferred. Preserved RAW file: 1JZ8A8cKrU3cdIbyj593RsO7n1QHvuQ3K. Pictured full reference 6000V/110A-B544; Stainless Steel, Blue, Stainless-steel bracelet. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "notes": "Exact approvedPhotograph gate and local derivative SHA-256 validated; preserve approved source and separate source attribution."
     },
     {
       "brand": "Hublot",
@@ -1694,5 +1694,5 @@
       "notes": "Founder-upload identity verified October16. Separate source-original and review evidence in FOUNDER_UPLOAD_CONTINUATION_2026-10-16.json. Underlying commercial rights and final photography quality still required; no publication approval implied."
     }
   ],
-  "updatedAt": "2026-10-24T00:50:50.824Z"
+  "updatedAt": "2026-10-24T01:16:30.243Z"
 }

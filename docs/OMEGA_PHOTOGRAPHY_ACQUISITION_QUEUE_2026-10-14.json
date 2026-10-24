@@ -8,9 +8,9 @@
   "licensePolicy": "Reference source URL documents identity only; it does NOT license website reuse. No AI watches, unverified source shots or nonwhite wrist photographs.",
   "summary": {
     "references": 58,
-    "existingExactReferenceImageRecordMatches": 50,
-    "requiresAcquisition": 8,
-    "clearedForPublication": 50
+    "existingExactReferenceImageRecordMatches": 53,
+    "requiresAcquisition": 5,
+    "clearedForPublication": 53
   },
   "queue": [
     {
@@ -1136,18 +1136,19 @@
       "specificationSource": "https://www.omegawatches.com.hk/media/pdf/watches/product-sheet/hk/zh-hant-hk/31192445101003-zh-hant-hk.pdf",
       "sourceHost": "www.omegawatches.com.hk",
       "priorityScore": 60,
-      "imageSourceFoundInCurrentClearanceCode": false,
+      "imageSourceFoundInCurrentClearanceCode": true,
       "evidence": {
         "rawImageId": null,
         "rawChecksum": null,
-        "webDerivativePath": null,
-        "webDerivativeChecksum": null,
-        "exactReferenceImageReviewed": false,
-        "centeredWhiteBackgroundVerified": false,
-        "websiteUseRightsVerified": false,
-        "rightsRecord": null,
-        "approvalReviewer": null,
-        "status": "ACQUISITION_REQUIRED"
+        "webDerivativePath": "/images/watches/omega/reviewed-311-92-44-51-01-003-20261023-web.webp",
+        "webDerivativeChecksum": "266a2d0d8fbee7ce5a4dabbc2b1914634e156801124de261c5f8a364ded72889",
+        "exactReferenceImageReviewed": true,
+        "centeredWhiteBackgroundVerified": true,
+        "websiteUseRightsVerified": true,
+        "rightsRecord": "Direct founder answer call_9cf5b5975350468280654167fbdffa70: Rights cover all eight and derivatives; no restrictions. Record docs/PHOTOGRAPHY_WATCHFINDER_EIGHT_RIGHTS_2026-10-23.json. Untouched RAW SHA256 3b6888f8f85d7384e846795937dafeeadd07c312ca9fe17852b3164f88c3668b. Full watch, source/configuration and final1200whiteWEB individually reviewed; all archival readbacks matched. Classical exterior filled silhouette. Original interior RGB retained; no generated, reconstructed, recolored or sharpened watch detail. Proportional resize and centered2400 white master/1200WEB. No price, availability or new alloy grade inferred. Preserved RAW file: 1QG6lrVVpmDW6wg_36ZFlVlSAzwtYuzuA. Pictured full reference 311.92.44.51.01.003; Black Ceramic, Black, Black nylon fabric strap. Exact configuration reviewed against preserved source evidence and the original photograph.",
+        "approvalReviewer": "Quest Luxo execution review with founder website-use clearance",
+        "status": "APPROVED_WITH_VALID_DERIVATIVE",
+        "approvedAssetId": "cleared-20261023-eight-311-92-44-51-01-003"
       },
       "requirements": [
         "Obtain authentic non-AI original for exact pictured reference and configuration",
@@ -1614,18 +1615,19 @@
       "specificationSource": "https://www.omegawatches.com.hk/en-hk/watch-omega-seamaster-300-master-co-axial-chronometer-41-mm-23332412101001",
       "sourceHost": "www.omegawatches.com.hk",
       "priorityScore": 45,
-      "imageSourceFoundInCurrentClearanceCode": false,
+      "imageSourceFoundInCurrentClearanceCode": true,
       "evidence": {
         "rawImageId": null,
         "rawChecksum": null,
-        "webDerivativePath": null,
-        "webDerivativeChecksum": null,
-        "exactReferenceImageReviewed": false,
-        "centeredWhiteBackgroundVerified": false,
-        "websiteUseRightsVerified": false,
-        "rightsRecord": null,
-        "approvalReviewer": null,
-        "status": "ACQUISITION_REQUIRED"
+        "webDerivativePath": "/images/watches/omega/reviewed-233-32-41-21-01-001-20261023-web.webp",
+        "webDerivativeChecksum": "f3637123cbe0b1ab85b1d99fa0bad5744973e56eeddf81959eba0d0614b789e9",
+        "exactReferenceImageReviewed": true,
+        "centeredWhiteBackgroundVerified": true,
+        "websiteUseRightsVerified": true,
+        "rightsRecord": "Direct founder answer call_fc3ee888ceee4be6aa823ffe6a901222: Yes. Approve. Record docs/PHOTOGRAPHY_NEXT_FIVE_RIGHTS_2026-10-23.json. Untouched RAW SHA256 ae725f227cb28366135577126898e13b764c507c5c51e8ee97e10af4d1cdc51e. Full watch, source/configuration and final1200whiteWEB individually reviewed; all archival readbacks matched. Classical exterior filled silhouette. Original interior RGB retained; no generated, reconstructed, recolored or sharpened watch detail. Proportional resize and centered2400 white master/1200WEB. No price, availability or new alloy grade inferred. Preserved RAW file: 1sf1qmuPIBBiHQLDkLYg-cM7tNSzQOsTd. Pictured full reference 233.32.41.21.01.001; Stainless Steel, Black, Black-and-grey striped NATO strap. Exact configuration reviewed against preserved source evidence and the original photograph.",
+        "approvalReviewer": "Quest Luxo execution review with founder website-use clearance",
+        "status": "APPROVED_WITH_VALID_DERIVATIVE",
+        "approvedAssetId": "cleared-20261023-next-five-233-32-41-21-01-001"
       },
       "requirements": [
         "Obtain authentic non-AI original for exact pictured reference and configuration",
@@ -1983,18 +1985,19 @@
       "specificationSource": "https://www.omegawatches.com.hk/en-hk/watch-omega-seamaster-planet-ocean-600m-co-axial-master-chronometer-gmt-43-5-mm-21530442201001",
       "sourceHost": "www.omegawatches.com.hk",
       "priorityScore": 35,
-      "imageSourceFoundInCurrentClearanceCode": false,
+      "imageSourceFoundInCurrentClearanceCode": true,
       "evidence": {
         "rawImageId": null,
         "rawChecksum": null,
-        "webDerivativePath": null,
-        "webDerivativeChecksum": null,
-        "exactReferenceImageReviewed": false,
-        "centeredWhiteBackgroundVerified": false,
-        "websiteUseRightsVerified": false,
-        "rightsRecord": null,
-        "approvalReviewer": null,
-        "status": "ACQUISITION_REQUIRED"
+        "webDerivativePath": "/images/watches/omega/reviewed-215-30-44-22-01-001-20261023-web.webp",
+        "webDerivativeChecksum": "7f564e63353da8f9cfb23d96ce31021ebf8dbb7d44718bcf719122e519e7a07e",
+        "exactReferenceImageReviewed": true,
+        "centeredWhiteBackgroundVerified": true,
+        "websiteUseRightsVerified": true,
+        "rightsRecord": "Direct founder answer call_fc3ee888ceee4be6aa823ffe6a901222: Yes. Approve. Record docs/PHOTOGRAPHY_NEXT_FIVE_RIGHTS_2026-10-23.json. Untouched RAW SHA256 72d0c0822dc5a382647a84bc6cf680eb02be7609eda0dc9b7e2713e478324068. Full watch, source/configuration and final1200whiteWEB individually reviewed; all archival readbacks matched. Classical exterior filled silhouette. Original interior RGB retained; no generated, reconstructed, recolored or sharpened watch detail. Proportional resize and centered2400 white master/1200WEB. No price, availability or new alloy grade inferred. Preserved RAW file: 1NnHjRQCIpivSc7h9PWca9rJdWzmVO3zL. Pictured full reference 215.30.44.22.01.001; Stainless Steel, Black, Stainless-steel bracelet. Exact configuration reviewed against preserved source evidence and the original photograph.",
+        "approvalReviewer": "Quest Luxo execution review with founder website-use clearance",
+        "status": "APPROVED_WITH_VALID_DERIVATIVE",
+        "approvedAssetId": "cleared-20261023-next-five-215-30-44-22-01-001"
       },
       "requirements": [
         "Obtain authentic non-AI original for exact pictured reference and configuration",
