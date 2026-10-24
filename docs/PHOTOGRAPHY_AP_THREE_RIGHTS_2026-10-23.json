@@ -1,0 +1,26 @@
+{
+  "confirmedAt": "2026-10-24T00:26:29.617295+00:00",
+  "questionId": "call_ecaaa9b9c5b9470984d32810ceeddf21",
+  "directFounderAnswer": "Rights cover all three and derivatives; no restrictions",
+  "sourceLedgerDriveFileId": "1RKbP_x2RFyurxKj1dWmqpMMMaf-6Djus",
+  "references": [
+    {
+      "reference": "15202ST",
+      "exactSKU": "15202ST.OO.1240ST.01",
+      "sourceUrl": "https://www.watchfinder.com/sell-your-watch/enquiry/audemars-piguet/royal-oak/15202st-oo-1240st-01/26429",
+      "rawSha256": "5ce615052dc3c618fbed0404e18becb7f326864c10e0b8aabe0323eb16d5b5a6"
+    },
+    {
+      "reference": "15400ST",
+      "exactSKU": "15400ST.OO.1220ST.02",
+      "sourceUrl": "https://www.watchfinder.com/sell-your-watch/enquiry/audemars-piguet/royal-oak/15400st-oo-1220st-02/25355",
+      "rawSha256": "b896b2338489db9dd90bea44c0b62321fa4c782d081429d4dcbedd16bb8bfb7e"
+    },
+    {
+      "reference": "14790ST",
+      "exactSKU": "14790ST.OO.0789ST.02",
+      "sourceUrl": "https://www.watchfinder.com/sell-your-watch/enquiry/audemars-piguet/royal-oak/14790st-oo-0789st-02/14932",
+      "rawSha256": "a73089c2bc1670cef520f41bd6f43e75b030bcc0b91e4093c5b708875294014c"
+    }
+  ]
+}

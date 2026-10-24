@@ -1,0 +1,197 @@
+{
+  "preparedAt": "2026-10-24T00:21:50.106574+00:00",
+  "references": [
+    {
+      "name": "ap-15202st-watchfinder",
+      "imageUrl": "https://images.watchfinder.co.uk/imgv2/catalogue/26429/AudemarsPiguet-RoyalOak-15202ST.OO.1240ST.01-26429-210309-155300-0.jpg",
+      "acquiredAt": "2026-10-24T00:19:57.228269+00:00",
+      "contentType": "image/jpeg",
+      "file": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\resume-20261023\\ap-15202st-watchfinder-raw.img",
+      "sha256": "5ce615052dc3c618fbed0404e18becb7f326864c10e0b8aabe0323eb16d5b5a6",
+      "size": [
+        1500,
+        1920
+      ],
+      "format": "JPEG",
+      "brand": "Audemars Piguet",
+      "reference": "15202ST",
+      "exactSKU": "15202ST.OO.1240ST.01",
+      "sourceUrl": "https://www.watchfinder.com/sell-your-watch/enquiry/audemars-piguet/royal-oak/15202st-oo-1240st-01/26429",
+      "picturedConfiguration": {
+        "dial": "Blue Petite Tapisserie",
+        "bracelet": "Stainless-steel integrated bracelet"
+      },
+      "catalogMaterial": "Stainless Steel",
+      "catalogConfigurations": [
+        {
+          "nickname": "Jumbo Extra-Thin",
+          "bracelet": "Integrated Bracelet",
+          "dial": "Blue Petite Tapisserie",
+          "originalMSRP": null
+        }
+      ],
+      "canonicalRoute": "/collections/audemars-piguet/royal-oak/15202st",
+      "collection": "Royal Oak",
+      "whiteMaster": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\resume-20261023\\ap-15202st-watchfinder-white-master.png",
+      "webDerivative": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\resume-20261023\\ap-15202st-watchfinder-web.webp",
+      "masterSha256": "39e44a0a6218f969f9149a6bfce0438652f2d86fbe3d73d1c4a6923451430da7",
+      "webSha256": "becc73573672bb10215d1405a6759ac7de71aa73b29847554853fa9347d6f66a",
+      "foregroundBounds": [
+        227,
+        135,
+        1359,
+        1804
+      ],
+      "visualReviewPassed": true,
+      "websiteApproved": true,
+      "rightsStatus": "Exact original and white derivatives directly cleared by founder with no restrictions",
+      "processing": "Classical exterior filled silhouette. Original interior RGB retained; no generated, reconstructed, recolored or sharpened watch detail. Proportional resize and centered2400 white master/1200WEB.",
+      "rawProviderProcessing": "Native CDN resource retrieved without image transformations or automated background-removal parameters.",
+      "qualityReviewPassed": true,
+      "exactReferenceConfigurationVerified": true,
+      "reviewStatus": "Native original and final1200WEB individually reviewed; complete depicted watch and bracelet with native margins, preserved identity and centered blank-white presentation. Case size omitted from new configuration until source proof is available.",
+      "rawDriveFileId": "1bNNP9_KtYMdzmDnKvbz_sgv9GC63mdue",
+      "masterDriveFileId": "1bxeLHiuYjESgvpQVjnSevQRqqVktXPFN",
+      "webDriveFileId": "1ljxooLxH320cyGVX3GSq5PNVepA_NnLd",
+      "archiveReadbackVerified": true,
+      "publicationStatus": "Integrated; release checks pending"
+    },
+    {
+      "name": "ap-15400st-watchfinder",
+      "imageUrl": "https://images.watchfinder.co.uk/imgv2/catalogue/25355/AudemarsPiguet-RoyalOak-15400ST.OO.1220ST.02-25355-210309-140959-0.jpg",
+      "acquiredAt": "2026-10-24T00:19:57.229272+00:00",
+      "contentType": "image/jpeg",
+      "file": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\resume-20261023\\ap-15400st-watchfinder-raw.img",
+      "sha256": "b896b2338489db9dd90bea44c0b62321fa4c782d081429d4dcbedd16bb8bfb7e",
+      "size": [
+        1500,
+        1920
+      ],
+      "format": "JPEG",
+      "brand": "Audemars Piguet",
+      "reference": "15400ST",
+      "exactSKU": "15400ST.OO.1220ST.02",
+      "sourceUrl": "https://www.watchfinder.com/sell-your-watch/enquiry/audemars-piguet/royal-oak/15400st-oo-1220st-02/25355",
+      "picturedConfiguration": {
+        "dial": "Silver-toned Grande Tapisserie",
+        "bracelet": "Stainless-steel integrated bracelet"
+      },
+      "catalogMaterial": "Stainless Steel",
+      "catalogConfigurations": [
+        {
+          "nickname": "Early 41mm Selfwinding",
+          "bracelet": "Integrated Bracelet",
+          "dial": "Blue, Black, White, or Silver",
+          "originalMSRP": null
+        }
+      ],
+      "canonicalRoute": "/collections/audemars-piguet/royal-oak/15400st",
+      "collection": "Royal Oak",
+      "whiteMaster": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\resume-20261023\\ap-15400st-watchfinder-white-master.png",
+      "webDerivative": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\resume-20261023\\ap-15400st-watchfinder-web.webp",
+      "masterSha256": "75cfb1db49839530a51343f277a6cf524d734b21b00752ac95efa24d95839236",
+      "webSha256": "bed326278d410a09d9ce779dcd27b652ea15fa3a7bb4421f79f43af8609e9890",
+      "foregroundBounds": [
+        224,
+        135,
+        1369,
+        1809
+      ],
+      "visualReviewPassed": true,
+      "websiteApproved": true,
+      "rightsStatus": "Exact original and white derivatives directly cleared by founder with no restrictions",
+      "processing": "Classical exterior filled silhouette. Original interior RGB retained; no generated, reconstructed, recolored or sharpened watch detail. Proportional resize and centered2400 white master/1200WEB.",
+      "rawProviderProcessing": "Native CDN resource retrieved without image transformations or automated background-removal parameters.",
+      "qualityReviewPassed": true,
+      "exactReferenceConfigurationVerified": true,
+      "reviewStatus": "Native original and final1200WEB individually reviewed; complete depicted watch and bracelet with native margins, preserved identity and centered blank-white presentation. Case size omitted from new configuration until source proof is available.",
+      "rawDriveFileId": "1r8BHigqPWdKFfcfR2ynKLNQrCpPiIRyX",
+      "masterDriveFileId": "1xkSBllHJLy2VrSQ50dIFVjQCZanY1kxu",
+      "webDriveFileId": "1C3fXySKveFT7bdOZObGb7qFDIXREGiSw",
+      "archiveReadbackVerified": true,
+      "publicationStatus": "Integrated; release checks pending"
+    },
+    {
+      "name": "ap-14790st-watchfinder",
+      "imageUrl": "https://images.watchfinder.co.uk/imgv3/catalogue/14932/AudemarsPiguet-RoyalOak-14790ST.OO.0789ST.02-14932-1-260409-115458152.jpg",
+      "acquiredAt": "2026-10-24T00:19:57.230294+00:00",
+      "contentType": "image/jpeg",
+      "file": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\resume-20261023\\ap-14790st-watchfinder-raw.img",
+      "sha256": "a73089c2bc1670cef520f41bd6f43e75b030bcc0b91e4093c5b708875294014c",
+      "size": [
+        1500,
+        1920
+      ],
+      "format": "JPEG",
+      "brand": "Audemars Piguet",
+      "reference": "14790ST",
+      "exactSKU": "14790ST.OO.0789ST.02",
+      "sourceUrl": "https://www.watchfinder.com/sell-your-watch/enquiry/audemars-piguet/royal-oak/14790st-oo-0789st-02/14932",
+      "picturedConfiguration": {
+        "dial": "White Tapisserie",
+        "bracelet": "Stainless-steel integrated bracelet"
+      },
+      "catalogMaterial": "Stainless Steel",
+      "catalogConfigurations": [
+        {
+          "nickname": "36mm Neo-Vintage",
+          "bracelet": "Integrated Bracelet",
+          "dial": "Blue, Black, White, or Grey",
+          "originalMSRP": null
+        }
+      ],
+      "canonicalRoute": "/collections/audemars-piguet/royal-oak/14790st",
+      "collection": "Royal Oak",
+      "whiteMaster": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\resume-20261023\\ap-14790st-watchfinder-white-master.png",
+      "webDerivative": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\resume-20261023\\ap-14790st-watchfinder-web.webp",
+      "masterSha256": "ec000f1efcedb0ce8be427cc2cd8ebf1b0e2fd08c007f7e0e933c53578482fee",
+      "webSha256": "2954414582db6f6b6eedcfaa45a0d2bcff08d60769b425cb09e020c8c72f67e6",
+      "foregroundBounds": [
+        249,
+        133,
+        1353,
+        1807
+      ],
+      "visualReviewPassed": true,
+      "websiteApproved": true,
+      "rightsStatus": "Exact original and white derivatives directly cleared by founder with no restrictions",
+      "processing": "Classical exterior filled silhouette. Original interior RGB retained; no generated, reconstructed, recolored or sharpened watch detail. Proportional resize and centered2400 white master/1200WEB.",
+      "rawProviderProcessing": "Native CDN resource retrieved without image transformations or automated background-removal parameters.",
+      "qualityReviewPassed": true,
+      "exactReferenceConfigurationVerified": true,
+      "reviewStatus": "Native original and final1200WEB individually reviewed; complete depicted watch and bracelet with native margins, preserved identity and centered blank-white presentation. Case size omitted from new configuration until source proof is available.",
+      "rawDriveFileId": "1DNA0SrZ2FEzZ7JfPz9Esomak2J9UB6Us",
+      "masterDriveFileId": "1RKUIrTu5A3Py9gRayMSaW-oHlzwCWmFU",
+      "webDriveFileId": "1jrHEF4N67OBnP-abGc4-SM_t49Su1rLC",
+      "archiveReadbackVerified": true,
+      "publicationStatus": "Integrated; release checks pending"
+    }
+  ],
+  "websitePublished": false,
+  "rights": {
+    "confirmedAt": "2026-10-24T00:26:29.617295+00:00",
+    "questionId": "call_ecaaa9b9c5b9470984d32810ceeddf21",
+    "directFounderAnswer": "Rights cover all three and derivatives; no restrictions",
+    "sourceLedgerDriveFileId": "1RKbP_x2RFyurxKj1dWmqpMMMaf-6Djus",
+    "references": [
+      {
+        "reference": "15202ST",
+        "exactSKU": "15202ST.OO.1240ST.01",
+        "sourceUrl": "https://www.watchfinder.com/sell-your-watch/enquiry/audemars-piguet/royal-oak/15202st-oo-1240st-01/26429",
+        "rawSha256": "5ce615052dc3c618fbed0404e18becb7f326864c10e0b8aabe0323eb16d5b5a6"
+      },
+      {
+        "reference": "15400ST",
+        "exactSKU": "15400ST.OO.1220ST.02",
+        "sourceUrl": "https://www.watchfinder.com/sell-your-watch/enquiry/audemars-piguet/royal-oak/15400st-oo-1220st-02/25355",
+        "rawSha256": "b896b2338489db9dd90bea44c0b62321fa4c782d081429d4dcbedd16bb8bfb7e"
+      },
+      {
+        "reference": "14790ST",
+        "exactSKU": "14790ST.OO.0789ST.02",
+        "sourceUrl": "https://www.watchfinder.com/sell-your-watch/enquiry/audemars-piguet/royal-oak/14790st-oo-0789st-02/14932",
+        "rawSha256": "a73089c2bc1670cef520f41bd6f43e75b030bcc0b91e4093c5b708875294014c"
+      }
+    ]
+  }
+}

@@ -1,14 +1,14 @@
 {
-  "auditedAt": "2026-10-24T00:17:54.918Z",
+  "auditedAt": "2026-10-24T00:30:32.933Z",
   "summary": {
     "brands": 23,
     "collections": 104,
     "registryRecords": 298,
     "distinctRoutes": 297,
     "normalizedBrandReferenceIdentities": 294,
-    "approved": 243,
-    "missing": 54,
-    "collectionsWithPhotography": 85,
+    "approved": 247,
+    "missing": 50,
+    "collectionsWithPhotography": 86,
     "unusedApprovedRecords": 2,
     "duplicateNormalizedReferenceGroups": 4,
     "fileIntegrityFailures": 0,
@@ -27,8 +27,8 @@
       "brand": "Audemars Piguet",
       "registryRecords": 25,
       "referencePages": 25,
-      "approved": 17,
-      "missing": 8,
+      "approved": 21,
+      "missing": 4,
       "collections": 5
     },
     {
@@ -2306,10 +2306,21 @@
           "bracelet": "Integrated Bracelet",
           "dial": "Blue, Black, White, or Silver",
           "originalMSRP": null
+        },
+        {
+          "dial": "Silver-toned Grande Tapisserie",
+          "bracelet": "Stainless-steel integrated bracelet",
+          "nickname": "Silver-toned Grande Tapisserie / Stainless-steel integrated bracelet",
+          "originalMSRP": null,
+          "currentMSRP": null
         }
       ],
-      "approved": false,
-      "photo": null,
+      "approved": true,
+      "photo": {
+        "assetId": "cleared-20261023-ap-15400st-royal-oak",
+        "src": "/images/watches/audemars-piguet/reviewed-15400st-20261023-web.webp",
+        "sha256": "bed326278d410a09d9ce779dcd27b652ea15fa3a7bb4421f79f43af8609e9890"
+      },
       "recoveryCandidates": []
     },
     {
@@ -2326,10 +2337,21 @@
           "bracelet": "Integrated Bracelet",
           "dial": "Blue Petite Tapisserie",
           "originalMSRP": null
+        },
+        {
+          "dial": "Blue Petite Tapisserie",
+          "bracelet": "Stainless-steel integrated bracelet",
+          "nickname": "Blue Petite Tapisserie / Stainless-steel integrated bracelet",
+          "originalMSRP": null,
+          "currentMSRP": null
         }
       ],
-      "approved": false,
-      "photo": null,
+      "approved": true,
+      "photo": {
+        "assetId": "cleared-20261023-ap-15202st-royal-oak",
+        "src": "/images/watches/audemars-piguet/reviewed-15202st-20261023-web.webp",
+        "sha256": "becc73573672bb10215d1405a6759ac7de71aa73b29847554853fa9347d6f66a"
+      },
       "recoveryCandidates": []
     },
     {
@@ -2379,10 +2401,21 @@
           "bracelet": "Integrated Bracelet",
           "dial": "Blue, Black, White, or Grey",
           "originalMSRP": null
+        },
+        {
+          "dial": "White Tapisserie",
+          "bracelet": "Stainless-steel integrated bracelet",
+          "nickname": "White Tapisserie / Stainless-steel integrated bracelet",
+          "originalMSRP": null,
+          "currentMSRP": null
         }
       ],
-      "approved": false,
-      "photo": null,
+      "approved": true,
+      "photo": {
+        "assetId": "cleared-20261023-ap-14790st-royal-oak",
+        "src": "/images/watches/audemars-piguet/reviewed-14790st-20261023-web.webp",
+        "sha256": "2954414582db6f6b6eedcfaa45a0d2bcff08d60769b425cb09e020c8c72f67e6"
+      },
       "recoveryCandidates": []
     },
     {
@@ -5148,10 +5181,21 @@
           "movement": "Calibre 2121 automatic",
           "dial": "Petite Tapisserie",
           "bracelet": "Integrated steel bracelet"
+        },
+        {
+          "dial": "Blue Petite Tapisserie",
+          "bracelet": "Stainless-steel integrated bracelet",
+          "nickname": "Blue Petite Tapisserie / Stainless-steel integrated bracelet",
+          "originalMSRP": null,
+          "currentMSRP": null
         }
       ],
-      "approved": false,
-      "photo": null,
+      "approved": true,
+      "photo": {
+        "assetId": "cleared-20261023-ap-15202st-royal-oak-jumbo",
+        "src": "/images/watches/audemars-piguet/reviewed-15202st-20261023-web.webp",
+        "sha256": "becc73573672bb10215d1405a6759ac7de71aa73b29847554853fa9347d6f66a"
+      },
       "recoveryCandidates": []
     },
     {

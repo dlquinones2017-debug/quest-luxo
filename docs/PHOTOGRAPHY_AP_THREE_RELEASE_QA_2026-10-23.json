@@ -1,0 +1,113 @@
+{
+  "checkedAt": "2026-10-24T00:31:43.181202+00:00",
+  "checks": [
+    {
+      "check": "omega-queue-sync",
+      "exitCode": 0,
+      "logFileName": "ap-20261023-omega-queue-sync.log"
+    },
+    {
+      "check": "astro-check",
+      "exitCode": 0,
+      "logFileName": "ap-20261023-astro-check.log"
+    },
+    {
+      "check": "regressions",
+      "exitCode": 0,
+      "logFileName": "ap-20261023-regressions.log"
+    },
+    {
+      "check": "omega-audit",
+      "exitCode": 0,
+      "logFileName": "ap-20261023-omega-audit.log"
+    },
+    {
+      "check": "omega-queue-check",
+      "exitCode": 0,
+      "logFileName": "ap-20261023-omega-queue-check.log"
+    },
+    {
+      "check": "expansion-audit",
+      "exitCode": 0,
+      "logFileName": "ap-20261023-expansion-audit.log"
+    },
+    {
+      "check": "build",
+      "exitCode": 0,
+      "logFileName": "ap-20261023-build.log"
+    },
+    {
+      "check": "inventory",
+      "exitCode": 0,
+      "logFileName": "ap-20261023-inventory.log"
+    },
+    {
+      "check": "full-audit",
+      "exitCode": 0,
+      "logFileName": "ap-20261023-full-audit.log"
+    }
+  ],
+  "builtMapping": {
+    "checkedAt": "2026-10-24T00:31:36.913651+00:00",
+    "mode": "built",
+    "exactReferencesChecked": 4,
+    "rows": [
+      {
+        "reference": "15202ST",
+        "route": "/collections/audemars-piguet/royal-oak/15202st",
+        "imageSha256": "becc73573672bb10215d1405a6759ac7de71aa73b29847554853fa9347d6f66a",
+        "exactConfiguration": true,
+        "collectionGrid": true,
+        "inquiryContext": true,
+        "separateCredits": true,
+        "noImageCaptionOverlay": true
+      },
+      {
+        "reference": "15202ST",
+        "route": "/collections/audemars-piguet/royal-oak-jumbo/15202st",
+        "imageSha256": "becc73573672bb10215d1405a6759ac7de71aa73b29847554853fa9347d6f66a",
+        "exactConfiguration": true,
+        "collectionGrid": true,
+        "inquiryContext": true,
+        "separateCredits": true,
+        "noImageCaptionOverlay": true
+      },
+      {
+        "reference": "15400ST",
+        "route": "/collections/audemars-piguet/royal-oak/15400st",
+        "imageSha256": "bed326278d410a09d9ce779dcd27b652ea15fa3a7bb4421f79f43af8609e9890",
+        "exactConfiguration": true,
+        "collectionGrid": true,
+        "inquiryContext": true,
+        "separateCredits": true,
+        "noImageCaptionOverlay": true
+      },
+      {
+        "reference": "14790ST",
+        "route": "/collections/audemars-piguet/royal-oak/14790st",
+        "imageSha256": "2954414582db6f6b6eedcfaa45a0d2bcff08d60769b425cb09e020c8c72f67e6",
+        "exactConfiguration": true,
+        "collectionGrid": true,
+        "inquiryContext": true,
+        "separateCredits": true,
+        "noImageCaptionOverlay": true
+      }
+    ],
+    "publicFlowsAvailable": true,
+    "leadDataSafety": "Public GET checks only. No new lead submissions, private lead reads, runtime data or disk changes."
+  },
+  "tests": {
+    "total": 315,
+    "passed": 314,
+    "skipped": 1,
+    "failed": 0
+  },
+  "astro": {
+    "errors": 0,
+    "warnings": 0,
+    "existingHints": 18
+  },
+  "nativeAndWhiteWebVisualReview": "Complete originals and white WEB individually reviewed before direct founder rights confirmation; unchanged SHA256s verified during integration.",
+  "archiveReadbacksVerified": true,
+  "status": "Built checks passed; independent production verification pending"
+}

@@ -432,3 +432,8 @@ Founder confirmed unrestricted commercial website-use rights for Gray and Sons R
 ## October 23 additional four-photo release
 
 Founder confirmed unrestricted rights for WatchGuyNYC Rolex228206, Gray and Sons Rolex126619LB, Watchfinder Omega2220.80.00 and The1916Company Patek5712/1A-001 originals and white derivatives. All four complete sets were reviewed, archived and readback verified. Additive pictured configurations retain existing broader configurations and public routes. Built coverage243of297referenceURLs;54queued. Full unchanged concurrent suite314passed,1platformskip,0failed; Astro0errors,0warnings,18existinghints; audits/build and all four exact mappings passed. New main consent/privacy changes preserved. Production verification follows. No test leads or private lead reads.
+
+
+## October 23 Royal Oak photography release
+
+Founder confirmed unrestricted rights for Watchfinder AP15202ST.OO.1240ST.01,15400ST.OO.1220ST.02 and14790ST.OO.0789ST.02 originals and derivatives. Three sets populate four existing URLs, including both15202ST collection URLs. All9archive readbacks matched. Additive pictured configurations retain existing broader configurations and public routes. Built coverage247of297referenceURLs;50queued. Full unchanged concurrent suite314passed,1platformskip,0failed; Astro0errors,0warnings,18existinghints; audits/build and all four exact mappings passed. New main consent/privacy changes preserved. Production verification follows. No test leads or private lead reads.

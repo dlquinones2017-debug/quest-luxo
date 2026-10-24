@@ -41,7 +41,8 @@ test("missing or collection-only photography remains in the placeholder path", (
 });
 
 test("catalog photography excludes rejected wrist shots and nonwhite presentation", () => {
-  const rejected = watchPhotographs.find(photo => photo.reference === "15202ST");
+  const rejected = watchPhotographs.find(photo => photo.reference === "15202ST" && photo.websiteApproved === false);
+  assert.ok(rejected, "the rejected wrist-shot fixture must remain available");
   const ap = { brand: rejected.brand, collection: rejected.collection, reference: rejected.reference,
     material: rejected.configuration.material, configurations: [rejected.configuration] };
   assert.equal(approvedPhotograph(ap, [rejected]), undefined);

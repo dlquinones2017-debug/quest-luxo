@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-10-24T00:20:30.403515+00:00",
+  "updatedAt": "2026-10-24T00:31:43.181202+00:00",
   "deadline": "2026-10-19T22:03:41-04:00",
   "objective": "Acquire authentic exact-reference photographs and populate every featured website reference without fabrication.",
   "worktree": "C:/Users/CAU Student/.codex/worktrees/launch-sprint/quest-luxo",
   "branch": "codex/launch-sprint",
-  "baselineMain": "26bb5dfb9851ca0dc6c58b4deef2bdea521ce091",
+  "baselineMain": "a00846ed98c8e872a2c900693e71ed03ee796738",
   "canonicalReferences": 297,
   "photographedReferences": 237,
   "queuedReferences": 60,
@@ -29,7 +29,7 @@
     "No invented specs, MSRP or availability"
   ],
   "clearance": "Direct founder answer call_24a179ab128748dbb94a78640e6a1543; docs/PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json; Drive1HFfmLAHtbf-YyK-66jhn025-qSpZ3ndZ",
-  "nextBatch": "Verify four-photo release LIVE,297routes and242distinct files. Update canonical master/queue and individual gap report; continue54exact-reference gaps. Clipped124300 and six unidentified uploads remain held.",
+  "nextBatch": "Verify AP release LIVE, all297routes and245distinct image files. Update canonical master/queue and individual gap report; continue50gaps. Clipped124300, clipped16202ST manufacturer candidate and six unidentified uploads held.",
   "preparedPendingClearance": 0,
   "preparedDriveFiles": 465,
   "preparedManifest": "docs/ADDITIONAL_OMEGA_NAVITIMER_ARCHIVED_2026-10-14.json; docs/PRIMARY_FOUR_ARCHIVED_2026-10-14.json; docs/OMEGA_EXPANSION_ARCHIVED_WAVE_2026-10-14.json",
@@ -79,7 +79,7 @@
   "nextAcquisitionEvidence": "avenger-primary-acquisition.json; BREITLING_AVENGER_PREPARED_2026-10-15.json; COMMONS_TUDOR_SOURCE_HOLDS_2026-10-15.json.",
   "mobileMirrorStatus": "Latest message blocked by automatic approval service out-of-credits error; not retried through alternate mechanism.",
   "rightsDecisionPending": {
-    "status": "228206,126619LB,2220.80.00 and5712/1A-001 exact originals and derivatives cleared without restrictions; call_8868cb23862b4c248198bc88b991e735."
+    "status": "Three exact Watchfinder AP originals and derivatives cleared without restrictions; call_ecaaa9b9c5b9470984d32810ceeddf21."
   },
   "processingRuntime": "Task-local photography-runtime provides OpenCV and NumPy for classical non-generative boundary masks. Requires approved elevated execution to read its installed files. process_priority_wave.py preserves original interior pixels and masks only background. Every derivative requires visual review before publication.",
   "blockers": [
@@ -139,9 +139,9 @@
   "deadlineOutcome": "Not achieved: every featured reference does not yet have valid cleared photography.",
   "closeoutRecord": "docs/PHOTOGRAPHY_SPRINT_CLOSEOUT_2026-10-14.json",
   "continuationInstruction": "Command Center V4 relayed the founder standing instruction to continue acquiring remaining references and not stop. This reopens useful acquisition after the missed deadline; it does not grant new photograph rights or recreate the expired automation.",
-  "preparedClearedForPublication": 4,
-  "builtPhotographedReferences": 243,
-  "builtQueuedReferences": 54,
+  "preparedClearedForPublication": 3,
+  "builtPhotographedReferences": 247,
+  "builtQueuedReferences": 50,
   "publishedPreparedSets": 138,
   "productionPhotographyRelease": {
     "commit": "bdabcd734c4f32d6ba76ad2cc21363c0eb8e6be9",
@@ -300,7 +300,7 @@
   },
   "masterFileSHA256": "5e1cd5cd9b99a2c51dbc0def7412ce37e37b49891178eccffec3c02e31b8445e",
   "masterDriveReadbackVerified": true,
-  "currentWorkflowPosition": "Four additional exact-reference photographs integrated. Nine checks and built mappings passed; publishing243/297. Verified production remains239/297 until live checks pass. New consent/privacy changes preserved.",
+  "currentWorkflowPosition": "Three physical AP photographs integrated for four existing URLs. All checks passed after making the rejected-wrist-shot test select its rejected fixture explicitly; no rejection assertion weakened. Publishing247/297; production verified243/297 until live checks pass.",
   "remainingByBrand": [
     {
       "brand": "Audemars Piguet",

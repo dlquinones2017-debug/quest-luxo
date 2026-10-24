@@ -1,14 +1,14 @@
 {
-  "reviewedAt": "2026-10-24T00:17:54.371Z",
+  "reviewedAt": "2026-10-24T00:30:32.257Z",
   "note": "Generated from all exported source datasets and built routes. Source-only and duplicate configuration records are retained for review; this register is not proof of image rights. Source URLs identify research leads, not licenses.",
   "summary": {
-    "sourceConfigurations": 964,
+    "sourceConfigurations": 976,
     "builtReferenceRoutes": 297,
     "collectionRoutes": 104,
-    "approvedReferenceConfigurations": 493,
+    "approvedReferenceConfigurations": 501,
     "unmatchedReferenceRoutes": 0,
-    "approvedCanonicalReferenceRoutes": 243,
-    "queuedCanonicalReferenceRoutes": 54
+    "approvedCanonicalReferenceRoutes": 247,
+    "queuedCanonicalReferenceRoutes": 50
   },
   "collections": [
     {
@@ -2531,8 +2531,7 @@
       "material": "Stainless Steel",
       "sources": [
         "src/data/audemars-piguet-intelligence.ts",
-        "src/data/audemars-piguet.ts",
-        "src/data/collectionRegistry.ts"
+        "src/data/audemars-piguet.ts"
       ],
       "routes": [
         "/collections/audemars-piguet/royal-oak/15400st"
@@ -2562,8 +2561,7 @@
       "material": "Stainless Steel",
       "sources": [
         "src/data/audemars-piguet-intelligence.ts",
-        "src/data/audemars-piguet.ts",
-        "src/data/collectionRegistry.ts"
+        "src/data/audemars-piguet.ts"
       ],
       "routes": [
         "/collections/audemars-piguet/royal-oak/15202st",
@@ -2624,8 +2622,7 @@
       "material": "Stainless Steel",
       "sources": [
         "src/data/audemars-piguet-intelligence.ts",
-        "src/data/audemars-piguet.ts",
-        "src/data/collectionRegistry.ts"
+        "src/data/audemars-piguet.ts"
       ],
       "routes": [
         "/collections/audemars-piguet/royal-oak/14790st"
@@ -5544,6 +5541,79 @@
     {
       "brand": "Audemars Piguet",
       "collection": "Royal Oak",
+      "reference": "15400ST",
+      "configurations": [
+        {
+          "nickname": "Early 41mm Selfwinding",
+          "bracelet": "Integrated Bracelet",
+          "dial": "Blue, Black, White, or Silver",
+          "originalMSRP": null
+        },
+        {
+          "dial": "Silver-toned Grande Tapisserie",
+          "bracelet": "Stainless-steel integrated bracelet",
+          "nickname": "Silver-toned Grande Tapisserie / Stainless-steel integrated bracelet",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "Stainless Steel",
+      "sources": [
+        "src/data/collectionRegistry.ts"
+      ],
+      "routes": [
+        "/collections/audemars-piguet/royal-oak/15400st"
+      ],
+      "scope": "built-reference",
+      "existingImage": "/images/watches/audemars-piguet/reviewed-15400st-20261023-web.webp",
+      "existingImageFilePresent": true,
+      "photoAssetId": "cleared-20261023-ap-15400st-royal-oak",
+      "status": "approved",
+      "sourceUrl": "https://www.watchfinder.com/sell-your-watch/enquiry/audemars-piguet/royal-oak/15400st-oo-1220st-02/25355",
+      "licenseRecord": "Direct founder answer call_ecaaa9b9c5b9470984d32810ceeddf21: Rights cover all three and derivatives; no restrictions. Record docs/PHOTOGRAPHY_AP_THREE_RIGHTS_2026-10-23.json. Untouched RAW SHA256 b896b2338489db9dd90bea44c0b62321fa4c782d081429d4dcbedd16bb8bfb7e. Native and1200WEB individually reviewed. All9archive readbacks matched. Classical exterior filled silhouette. Original interior RGB retained; no generated, reconstructed, recolored or sharpened watch detail. Proportional resize and centered2400 white master/1200WEB. Exact SKU/dial/steel bracelet verified. No unverified size, price, availability or alloy grade added. Preserved RAW file: 1r8BHigqPWdKFfcfR2ynKLNQrCpPiIRyX. Pictured full reference 15400ST.OO.1220ST.02; Stainless Steel, Silver-toned Grande Tapisserie, Stainless-steel integrated bracelet. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
+      "brand": "Audemars Piguet",
+      "collection": "Royal Oak",
+      "reference": "15202ST",
+      "configurations": [
+        {
+          "nickname": "Jumbo Extra-Thin",
+          "bracelet": "Integrated Bracelet",
+          "dial": "Blue Petite Tapisserie",
+          "originalMSRP": null
+        },
+        {
+          "dial": "Blue Petite Tapisserie",
+          "bracelet": "Stainless-steel integrated bracelet",
+          "nickname": "Blue Petite Tapisserie / Stainless-steel integrated bracelet",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "Stainless Steel",
+      "sources": [
+        "src/data/collectionRegistry.ts"
+      ],
+      "routes": [
+        "/collections/audemars-piguet/royal-oak/15202st",
+        "/collections/audemars-piguet/royal-oak-jumbo/15202st"
+      ],
+      "scope": "built-reference",
+      "existingImage": "/images/watches/audemars-piguet/reviewed-15202st-20261023-web.webp",
+      "existingImageFilePresent": true,
+      "photoAssetId": "cleared-20261023-ap-15202st-royal-oak",
+      "status": "approved",
+      "sourceUrl": "https://www.watchfinder.com/sell-your-watch/enquiry/audemars-piguet/royal-oak/15202st-oo-1240st-01/26429",
+      "licenseRecord": "Direct founder answer call_ecaaa9b9c5b9470984d32810ceeddf21: Rights cover all three and derivatives; no restrictions. Record docs/PHOTOGRAPHY_AP_THREE_RIGHTS_2026-10-23.json. Untouched RAW SHA256 5ce615052dc3c618fbed0404e18becb7f326864c10e0b8aabe0323eb16d5b5a6. Native and1200WEB individually reviewed. All9archive readbacks matched. Classical exterior filled silhouette. Original interior RGB retained; no generated, reconstructed, recolored or sharpened watch detail. Proportional resize and centered2400 white master/1200WEB. Exact SKU/dial/steel bracelet verified. No unverified size, price, availability or alloy grade added. Preserved RAW file: 1bNNP9_KtYMdzmDnKvbz_sgv9GC63mdue. Pictured full reference 15202ST.OO.1240ST.01; Stainless Steel, Blue Petite Tapisserie, Stainless-steel integrated bracelet. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
+      "brand": "Audemars Piguet",
+      "collection": "Royal Oak",
       "reference": "15500ST",
       "configurations": [
         {
@@ -5576,6 +5646,42 @@
       "status": "approved",
       "sourceUrl": "https://www.the1916company.com/pre-owned/audemars-piguet/royal-oak/5081391/",
       "licenseRecord": "Founder directly confirmed rights and authorized publication of remaining sprint photography October 14, 2026 in Command Center V4. Additional candidate identity, full framing and final white derivative reviewed before integration. Record docs/PHOTOGRAPHY_FOUNDER_CLEARANCE_2026-10-14.json. Preserved RAW file: 148WK8F5MQe0LI8BIM8HnShO8JRBDj8WC. Pictured full reference 15500ST.OO.1220ST.02; Stainless steel, Gray Grande Tapisserie, Stainless-steel integrated bracelet. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
+      "brand": "Audemars Piguet",
+      "collection": "Royal Oak",
+      "reference": "14790ST",
+      "configurations": [
+        {
+          "nickname": "36mm Neo-Vintage",
+          "bracelet": "Integrated Bracelet",
+          "dial": "Blue, Black, White, or Grey",
+          "originalMSRP": null
+        },
+        {
+          "dial": "White Tapisserie",
+          "bracelet": "Stainless-steel integrated bracelet",
+          "nickname": "White Tapisserie / Stainless-steel integrated bracelet",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "Stainless Steel",
+      "sources": [
+        "src/data/collectionRegistry.ts"
+      ],
+      "routes": [
+        "/collections/audemars-piguet/royal-oak/14790st"
+      ],
+      "scope": "built-reference",
+      "existingImage": "/images/watches/audemars-piguet/reviewed-14790st-20261023-web.webp",
+      "existingImageFilePresent": true,
+      "photoAssetId": "cleared-20261023-ap-14790st-royal-oak",
+      "status": "approved",
+      "sourceUrl": "https://www.watchfinder.com/sell-your-watch/enquiry/audemars-piguet/royal-oak/14790st-oo-0789st-02/14932",
+      "licenseRecord": "Direct founder answer call_ecaaa9b9c5b9470984d32810ceeddf21: Rights cover all three and derivatives; no restrictions. Record docs/PHOTOGRAPHY_AP_THREE_RIGHTS_2026-10-23.json. Untouched RAW SHA256 a73089c2bc1670cef520f41bd6f43e75b030bcc0b91e4093c5b708875294014c. Native and1200WEB individually reviewed. All9archive readbacks matched. Classical exterior filled silhouette. Original interior RGB retained; no generated, reconstructed, recolored or sharpened watch detail. Proportional resize and centered2400 white master/1200WEB. Exact SKU/dial/steel bracelet verified. No unverified size, price, availability or alloy grade added. Preserved RAW file: 1DNA0SrZ2FEzZ7JfPz9Esomak2J9UB6Us. Pictured full reference 14790ST.OO.0789ST.02; Stainless Steel, White Tapisserie, Stainless-steel integrated bracelet. Exact configuration reviewed against preserved source evidence and the original photograph.",
       "websiteApproved": true,
       "nextAction": "Retain approved original and verify derivative integrity."
     },
@@ -8914,26 +9020,32 @@
           "movement": "Calibre 2121 automatic",
           "dial": "Petite Tapisserie",
           "bracelet": "Integrated steel bracelet"
+        },
+        {
+          "dial": "Blue Petite Tapisserie",
+          "bracelet": "Stainless-steel integrated bracelet",
+          "nickname": "Blue Petite Tapisserie / Stainless-steel integrated bracelet",
+          "originalMSRP": null,
+          "currentMSRP": null
         }
       ],
       "material": "Stainless Steel",
       "sources": [
-        "src/data/collectionRegistry.ts",
-        "src/data/reference-expansion.ts"
+        "src/data/collectionRegistry.ts"
       ],
       "routes": [
         "/collections/audemars-piguet/royal-oak/15202st",
         "/collections/audemars-piguet/royal-oak-jumbo/15202st"
       ],
       "scope": "built-reference",
-      "existingImage": "/images/watch-reference-placeholder.svg",
+      "existingImage": "/images/watches/audemars-piguet/reviewed-15202st-20261023-web.webp",
       "existingImageFilePresent": true,
-      "photoAssetId": null,
-      "status": "Requires Verification",
-      "sourceUrl": null,
-      "licenseRecord": null,
-      "websiteApproved": false,
-      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+      "photoAssetId": "cleared-20261023-ap-15202st-royal-oak-jumbo",
+      "status": "approved",
+      "sourceUrl": "https://www.watchfinder.com/sell-your-watch/enquiry/audemars-piguet/royal-oak/15202st-oo-1240st-01/26429",
+      "licenseRecord": "Direct founder answer call_ecaaa9b9c5b9470984d32810ceeddf21: Rights cover all three and derivatives; no restrictions. Record docs/PHOTOGRAPHY_AP_THREE_RIGHTS_2026-10-23.json. Untouched RAW SHA256 5ce615052dc3c618fbed0404e18becb7f326864c10e0b8aabe0323eb16d5b5a6. Native and1200WEB individually reviewed. All9archive readbacks matched. Classical exterior filled silhouette. Original interior RGB retained; no generated, reconstructed, recolored or sharpened watch detail. Proportional resize and centered2400 white master/1200WEB. Exact SKU/dial/steel bracelet verified. No unverified size, price, availability or alloy grade added. Preserved RAW file: 1bNNP9_KtYMdzmDnKvbz_sgv9GC63mdue. Pictured full reference 15202ST.OO.1240ST.01; Stainless Steel, Blue Petite Tapisserie, Stainless-steel integrated bracelet. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
     },
     {
       "brand": "Audemars Piguet",
@@ -18849,6 +18961,96 @@
       "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
     },
     {
+      "brand": "Audemars Piguet",
+      "collection": "Royal Oak",
+      "reference": "15202ST",
+      "configurations": [],
+      "material": "Stainless Steel",
+      "sources": [
+        "src/data/photography-cleared-sprint.ts"
+      ],
+      "routes": [
+        "/collections/audemars-piguet/royal-oak/15202st",
+        "/collections/audemars-piguet/royal-oak-jumbo/15202st"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": null,
+      "status": "Requires Verification",
+      "sourceUrl": null,
+      "licenseRecord": null,
+      "websiteApproved": false,
+      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+    },
+    {
+      "brand": "Audemars Piguet",
+      "collection": "Royal Oak Jumbo",
+      "reference": "15202ST",
+      "configurations": [],
+      "material": "Stainless Steel",
+      "sources": [
+        "src/data/photography-cleared-sprint.ts"
+      ],
+      "routes": [
+        "/collections/audemars-piguet/royal-oak/15202st",
+        "/collections/audemars-piguet/royal-oak-jumbo/15202st"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": null,
+      "status": "Requires Verification",
+      "sourceUrl": null,
+      "licenseRecord": null,
+      "websiteApproved": false,
+      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+    },
+    {
+      "brand": "Audemars Piguet",
+      "collection": "Royal Oak",
+      "reference": "15400ST",
+      "configurations": [],
+      "material": "Stainless Steel",
+      "sources": [
+        "src/data/photography-cleared-sprint.ts"
+      ],
+      "routes": [
+        "/collections/audemars-piguet/royal-oak/15400st"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": null,
+      "status": "Requires Verification",
+      "sourceUrl": null,
+      "licenseRecord": null,
+      "websiteApproved": false,
+      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+    },
+    {
+      "brand": "Audemars Piguet",
+      "collection": "Royal Oak",
+      "reference": "14790ST",
+      "configurations": [],
+      "material": "Stainless Steel",
+      "sources": [
+        "src/data/photography-cleared-sprint.ts"
+      ],
+      "routes": [
+        "/collections/audemars-piguet/royal-oak/14790st"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": null,
+      "status": "Requires Verification",
+      "sourceUrl": null,
+      "licenseRecord": null,
+      "websiteApproved": false,
+      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+    },
+    {
       "brand": "Breitling",
       "collection": "Superocean",
       "reference": "A17376211B1A1",
@@ -23113,6 +23315,128 @@
       "nextAction": "Retain approved original and verify derivative integrity."
     },
     {
+      "brand": "Audemars Piguet",
+      "collection": "Royal Oak",
+      "reference": "15202ST",
+      "configurations": [
+        {
+          "dial": "Blue Petite Tapisserie",
+          "bracelet": "Stainless-steel integrated bracelet",
+          "nickname": "Blue Petite Tapisserie / Stainless-steel integrated bracelet",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "Stainless Steel",
+      "sources": [
+        "src/data/photography-expansion.ts"
+      ],
+      "routes": [
+        "/collections/audemars-piguet/royal-oak/15202st",
+        "/collections/audemars-piguet/royal-oak-jumbo/15202st"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": "cleared-20261023-ap-15202st-royal-oak",
+      "status": "approved",
+      "sourceUrl": "https://www.watchfinder.com/sell-your-watch/enquiry/audemars-piguet/royal-oak/15202st-oo-1240st-01/26429",
+      "licenseRecord": "Direct founder answer call_ecaaa9b9c5b9470984d32810ceeddf21: Rights cover all three and derivatives; no restrictions. Record docs/PHOTOGRAPHY_AP_THREE_RIGHTS_2026-10-23.json. Untouched RAW SHA256 5ce615052dc3c618fbed0404e18becb7f326864c10e0b8aabe0323eb16d5b5a6. Native and1200WEB individually reviewed. All9archive readbacks matched. Classical exterior filled silhouette. Original interior RGB retained; no generated, reconstructed, recolored or sharpened watch detail. Proportional resize and centered2400 white master/1200WEB. Exact SKU/dial/steel bracelet verified. No unverified size, price, availability or alloy grade added. Preserved RAW file: 1bNNP9_KtYMdzmDnKvbz_sgv9GC63mdue. Pictured full reference 15202ST.OO.1240ST.01; Stainless Steel, Blue Petite Tapisserie, Stainless-steel integrated bracelet. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
+      "brand": "Audemars Piguet",
+      "collection": "Royal Oak Jumbo",
+      "reference": "15202ST",
+      "configurations": [
+        {
+          "dial": "Blue Petite Tapisserie",
+          "bracelet": "Stainless-steel integrated bracelet",
+          "nickname": "Blue Petite Tapisserie / Stainless-steel integrated bracelet",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "Stainless Steel",
+      "sources": [
+        "src/data/photography-expansion.ts"
+      ],
+      "routes": [
+        "/collections/audemars-piguet/royal-oak/15202st",
+        "/collections/audemars-piguet/royal-oak-jumbo/15202st"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": "cleared-20261023-ap-15202st-royal-oak-jumbo",
+      "status": "approved",
+      "sourceUrl": "https://www.watchfinder.com/sell-your-watch/enquiry/audemars-piguet/royal-oak/15202st-oo-1240st-01/26429",
+      "licenseRecord": "Direct founder answer call_ecaaa9b9c5b9470984d32810ceeddf21: Rights cover all three and derivatives; no restrictions. Record docs/PHOTOGRAPHY_AP_THREE_RIGHTS_2026-10-23.json. Untouched RAW SHA256 5ce615052dc3c618fbed0404e18becb7f326864c10e0b8aabe0323eb16d5b5a6. Native and1200WEB individually reviewed. All9archive readbacks matched. Classical exterior filled silhouette. Original interior RGB retained; no generated, reconstructed, recolored or sharpened watch detail. Proportional resize and centered2400 white master/1200WEB. Exact SKU/dial/steel bracelet verified. No unverified size, price, availability or alloy grade added. Preserved RAW file: 1bNNP9_KtYMdzmDnKvbz_sgv9GC63mdue. Pictured full reference 15202ST.OO.1240ST.01; Stainless Steel, Blue Petite Tapisserie, Stainless-steel integrated bracelet. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
+      "brand": "Audemars Piguet",
+      "collection": "Royal Oak",
+      "reference": "15400ST",
+      "configurations": [
+        {
+          "dial": "Silver-toned Grande Tapisserie",
+          "bracelet": "Stainless-steel integrated bracelet",
+          "nickname": "Silver-toned Grande Tapisserie / Stainless-steel integrated bracelet",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "Stainless Steel",
+      "sources": [
+        "src/data/photography-expansion.ts"
+      ],
+      "routes": [
+        "/collections/audemars-piguet/royal-oak/15400st"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": "cleared-20261023-ap-15400st-royal-oak",
+      "status": "approved",
+      "sourceUrl": "https://www.watchfinder.com/sell-your-watch/enquiry/audemars-piguet/royal-oak/15400st-oo-1220st-02/25355",
+      "licenseRecord": "Direct founder answer call_ecaaa9b9c5b9470984d32810ceeddf21: Rights cover all three and derivatives; no restrictions. Record docs/PHOTOGRAPHY_AP_THREE_RIGHTS_2026-10-23.json. Untouched RAW SHA256 b896b2338489db9dd90bea44c0b62321fa4c782d081429d4dcbedd16bb8bfb7e. Native and1200WEB individually reviewed. All9archive readbacks matched. Classical exterior filled silhouette. Original interior RGB retained; no generated, reconstructed, recolored or sharpened watch detail. Proportional resize and centered2400 white master/1200WEB. Exact SKU/dial/steel bracelet verified. No unverified size, price, availability or alloy grade added. Preserved RAW file: 1r8BHigqPWdKFfcfR2ynKLNQrCpPiIRyX. Pictured full reference 15400ST.OO.1220ST.02; Stainless Steel, Silver-toned Grande Tapisserie, Stainless-steel integrated bracelet. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
+      "brand": "Audemars Piguet",
+      "collection": "Royal Oak",
+      "reference": "14790ST",
+      "configurations": [
+        {
+          "dial": "White Tapisserie",
+          "bracelet": "Stainless-steel integrated bracelet",
+          "nickname": "White Tapisserie / Stainless-steel integrated bracelet",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "Stainless Steel",
+      "sources": [
+        "src/data/photography-expansion.ts"
+      ],
+      "routes": [
+        "/collections/audemars-piguet/royal-oak/14790st"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": "cleared-20261023-ap-14790st-royal-oak",
+      "status": "approved",
+      "sourceUrl": "https://www.watchfinder.com/sell-your-watch/enquiry/audemars-piguet/royal-oak/14790st-oo-0789st-02/14932",
+      "licenseRecord": "Direct founder answer call_ecaaa9b9c5b9470984d32810ceeddf21: Rights cover all three and derivatives; no restrictions. Record docs/PHOTOGRAPHY_AP_THREE_RIGHTS_2026-10-23.json. Untouched RAW SHA256 a73089c2bc1670cef520f41bd6f43e75b030bcc0b91e4093c5b708875294014c. Native and1200WEB individually reviewed. All9archive readbacks matched. Classical exterior filled silhouette. Original interior RGB retained; no generated, reconstructed, recolored or sharpened watch detail. Proportional resize and centered2400 white master/1200WEB. Exact SKU/dial/steel bracelet verified. No unverified size, price, availability or alloy grade added. Preserved RAW file: 1DNA0SrZ2FEzZ7JfPz9Esomak2J9UB6Us. Pictured full reference 14790ST.OO.0789ST.02; Stainless Steel, White Tapisserie, Stainless-steel integrated bracelet. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
       "brand": "Rolex",
       "collection": "Submariner",
       "reference": "126613LB",
@@ -23876,6 +24200,36 @@
       "licenseRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for these exact 35 originals and their white-background derivatives, with no additional restrictions, in the existing Website/Product chat on October 14, 2026. Record docs/PHOTOGRAPHY_ADDITIONAL35_FOUNDER_RIGHTS_2026-10-14.json. Exact configuration, authentic RAW and full-resolution derivative visually reviewed; source credits retained separately. Preserved RAW file: 1hRSwQzVWdYXOd6Hs2CP3w0DcwCr6pkZO. Pictured full reference 220.12.41.21.03.002; Stainless Steel, Blue teak-pattern, Rubber strap. Exact configuration reviewed against preserved source evidence and the original photograph.",
       "websiteApproved": true,
       "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
+      "brand": "Audemars Piguet",
+      "collection": "Royal Oak Jumbo",
+      "reference": "15202ST",
+      "configurations": [
+        {
+          "caseSize": "39 mm",
+          "movement": "Calibre 2121 automatic",
+          "dial": "Petite Tapisserie",
+          "bracelet": "Integrated steel bracelet"
+        }
+      ],
+      "material": "Stainless Steel",
+      "sources": [
+        "src/data/reference-expansion.ts"
+      ],
+      "routes": [
+        "/collections/audemars-piguet/royal-oak/15202st",
+        "/collections/audemars-piguet/royal-oak-jumbo/15202st"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": null,
+      "status": "Requires Verification",
+      "sourceUrl": null,
+      "licenseRecord": null,
+      "websiteApproved": false,
+      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
     },
     {
       "brand": "Audemars Piguet",
