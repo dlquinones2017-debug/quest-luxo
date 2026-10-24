@@ -18,6 +18,7 @@ const [left, right] = guide.participants;
   title={guide.seoTitle}
   description={guide.seoDescription}
   canonicalUrl={guide.canonicalPath}
+  robots={guide.status === "active" ? "index,follow" : "noindex,follow"}
 >
   <main class="comparison-guide">
     <header class="comparison-hero">

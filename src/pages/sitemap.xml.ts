@@ -1,6 +1,7 @@
 import type { APIRoute } from "astro";
 import { brands } from "../data/brands";
 import { collectionRegistry } from "../data/collectionRegistry";
+import { getLiveComparisonGuides } from "../lib/comparisons/comparisonGuideRegistry";
 import {
   brandPath,
   collectionPath,
@@ -12,7 +13,12 @@ export const prerender = true;
 const staticPaths = [
   "/",
   "/about",
+  "/begin-your-quest/",
+  "/collections",
   "/contact",
+  "/faq",
+  "/intelligence",
+  "/photography-credits/",
   "/privacy",
   "/terms",
   "/transaction-standards",
@@ -43,6 +49,8 @@ export const GET: APIRoute = ({ site }) => {
       );
     }
   }
+  // Do not publish dormant comparison guides until deliberately activated.
+  for (const guide of getLiveComparisonGuides()) paths.add(guide.canonicalPath);
 
   const urls = [...paths]
     .sort()
