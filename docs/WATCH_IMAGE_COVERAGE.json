@@ -1,14 +1,14 @@
 {
-  "reviewedAt": "2026-10-20T10:34:28.912Z",
+  "reviewedAt": "2026-10-24T00:05:45.868Z",
   "note": "Generated from all exported source datasets and built routes. Source-only and duplicate configuration records are retained for review; this register is not proof of image rights. Source URLs identify research leads, not licenses.",
   "summary": {
-    "sourceConfigurations": 949,
+    "sourceConfigurations": 954,
     "builtReferenceRoutes": 297,
     "collectionRoutes": 104,
-    "approvedReferenceConfigurations": 481,
+    "approvedReferenceConfigurations": 485,
     "unmatchedReferenceRoutes": 0,
-    "approvedCanonicalReferenceRoutes": 237,
-    "queuedCanonicalReferenceRoutes": 60
+    "approvedCanonicalReferenceRoutes": 239,
+    "queuedCanonicalReferenceRoutes": 58
   },
   "collections": [
     {
@@ -1516,8 +1516,7 @@
       ],
       "material": "Oystersteel",
       "sources": [
-        "src/data/assets/rolex-daytona.ts",
-        "src/data/collectionRegistry.ts"
+        "src/data/assets/rolex-daytona.ts"
       ],
       "routes": [
         "/collections/rolex/daytona/116500ln"
@@ -3620,6 +3619,43 @@
     {
       "brand": "Rolex",
       "collection": "Daytona",
+      "reference": "116500LN",
+      "configurations": [
+        {
+          "nickname": "Panda / Reverse Panda",
+          "dial": "White or Black",
+          "bracelet": "Oyster",
+          "originalMSRP": null
+        },
+        {
+          "dial": "Black",
+          "bracelet": "Oyster",
+          "caseSize": "40 mm",
+          "nickname": "Black / Oyster",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "Oystersteel",
+      "sources": [
+        "src/data/collectionRegistry.ts"
+      ],
+      "routes": [
+        "/collections/rolex/daytona/116500ln"
+      ],
+      "scope": "built-reference",
+      "existingImage": "/images/watches/rolex/reviewed-116500ln-20261023-web.webp",
+      "existingImageFilePresent": true,
+      "photoAssetId": "cleared-20261023-116500ln",
+      "status": "approved",
+      "sourceUrl": "https://www.grayandsons.com/w527052-rolex-daytona-40mm-116500ln/",
+      "licenseRecord": "Direct founder answer call_a32e683bc58149f587d610e0ebc5942e: Rights cover both originals and derivatives; no restrictions. Record docs/PHOTOGRAPHY_ROLEX_PAIR_RIGHTS_2026-10-23.json. Untouched authentic RAW SHA256 c159b70a703f1b1e5b401b08d7583b14d0f73a50486f9f25b10b1022e8db0349. Complete native and1200whiteWEB individually reviewed; archive readbacks matched. Only original near-white exterior background excluded; internal contour filled to retain all white highlights and original watch pixels. Proportional resize and center on blank2400white master/1200WEB. No recoloring, sharpening or generated watch detail. No price, availability or new alloy grade inferred. Preserved RAW file: 1zujJ7sIkxPx73uFsYVAdLmKBooVzSnhT. Pictured full reference 116500LN; Oystersteel, Black, Oyster. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
+      "brand": "Rolex",
+      "collection": "Daytona",
       "reference": "116520",
       "configurations": [
         {
@@ -4458,6 +4494,14 @@
           "dial": "Multiple Dial Options",
           "bracelet": "President",
           "originalMSRP": null
+        },
+        {
+          "dial": "White with yellow-gold Roman numerals",
+          "bracelet": "President",
+          "caseSize": "36 mm",
+          "nickname": "White with yellow-gold Roman numerals / President",
+          "originalMSRP": null,
+          "currentMSRP": null
         }
       ],
       "material": "18k Yellow Gold",
@@ -4468,14 +4512,14 @@
         "/collections/rolex/day-date/118238"
       ],
       "scope": "built-reference",
-      "existingImage": "/images/watch-reference-placeholder.svg",
+      "existingImage": "/images/watches/rolex/reviewed-118238-20261023-web.webp",
       "existingImageFilePresent": true,
-      "photoAssetId": null,
-      "status": "Requires Verification",
-      "sourceUrl": null,
-      "licenseRecord": null,
-      "websiteApproved": false,
-      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+      "photoAssetId": "cleared-20261023-118238",
+      "status": "approved",
+      "sourceUrl": "https://www.grayandsons.com/w524561-rolex-day-date-36mm-118238/",
+      "licenseRecord": "Direct founder answer call_a32e683bc58149f587d610e0ebc5942e: Rights cover both originals and derivatives; no restrictions. Record docs/PHOTOGRAPHY_ROLEX_PAIR_RIGHTS_2026-10-23.json. Untouched authentic RAW SHA256 069bfbf46610a2fa445c7ea7712d5b26e5a14a1a5e6f076691c0d274e6d95c29. Complete native and1200whiteWEB individually reviewed; archive readbacks matched. Only original near-white exterior background excluded; internal contour filled to retain all white highlights and original watch pixels. Proportional resize and center on blank2400white master/1200WEB. No recoloring, sharpening or generated watch detail. No price, availability or new alloy grade inferred. Preserved RAW file: 1-Fd9nuJVh8D0IVN2aY5SXorD8yl2w2gR. Pictured full reference 118238; 18k Yellow Gold, White with yellow-gold Roman numerals, President. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
     },
     {
       "brand": "Rolex",
@@ -18614,6 +18658,50 @@
       "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
     },
     {
+      "brand": "Rolex",
+      "collection": "Daytona",
+      "reference": "116500LN",
+      "configurations": [],
+      "material": "Oystersteel",
+      "sources": [
+        "src/data/photography-cleared-sprint.ts"
+      ],
+      "routes": [
+        "/collections/rolex/daytona/116500ln"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": null,
+      "status": "Requires Verification",
+      "sourceUrl": null,
+      "licenseRecord": null,
+      "websiteApproved": false,
+      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+    },
+    {
+      "brand": "Rolex",
+      "collection": "Day-Date",
+      "reference": "118238",
+      "configurations": [],
+      "material": "18k Yellow Gold",
+      "sources": [
+        "src/data/photography-cleared-sprint.ts"
+      ],
+      "routes": [
+        "/collections/rolex/day-date/118238"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": null,
+      "status": "Requires Verification",
+      "sourceUrl": null,
+      "licenseRecord": null,
+      "websiteApproved": false,
+      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+    },
+    {
       "brand": "Breitling",
       "collection": "Superocean",
       "reference": "A17376211B1A1",
@@ -22688,6 +22776,68 @@
       "status": "approved",
       "sourceUrl": "https://www.grayandsons.com/w526018-rolex-daytona-40mm-16520/",
       "licenseRecord": "Direct founder answer call_1cc95e139f8a42c3a7ec4d651678fd4a: Rights cover this original and derivatives; no restrictions. Record docs/PHOTOGRAPHY_TWO_RIGHTS_2026-10-20.json. Untouched native original SHA256 97dab53026393c29cfcaf8eb4d1b08b3da36cc7be43d8b318942d80d8fa6b356. Complete native and final1200whiteWEB individually reviewed. Only original near-white exterior background excluded; internal contour filled to retain all white highlights and original watch pixels. Proportional resize and center on blank2400white master/1200WEB. No recoloring, sharpening or generated watch detail. Existing reference material terminology retained; no new alloy grade, price or availability inferred. Preserved RAW file: 1nsKaAIHW0pxRYNcXKIxlXCHqgUFP0p9S. Pictured full reference 16520; Oystersteel, Black, Oyster. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
+      "brand": "Rolex",
+      "collection": "Daytona",
+      "reference": "116500LN",
+      "configurations": [
+        {
+          "dial": "Black",
+          "bracelet": "Oyster",
+          "caseSize": "40 mm",
+          "nickname": "Black / Oyster",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "Oystersteel",
+      "sources": [
+        "src/data/photography-expansion.ts"
+      ],
+      "routes": [
+        "/collections/rolex/daytona/116500ln"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": "cleared-20261023-116500ln",
+      "status": "approved",
+      "sourceUrl": "https://www.grayandsons.com/w527052-rolex-daytona-40mm-116500ln/",
+      "licenseRecord": "Direct founder answer call_a32e683bc58149f587d610e0ebc5942e: Rights cover both originals and derivatives; no restrictions. Record docs/PHOTOGRAPHY_ROLEX_PAIR_RIGHTS_2026-10-23.json. Untouched authentic RAW SHA256 c159b70a703f1b1e5b401b08d7583b14d0f73a50486f9f25b10b1022e8db0349. Complete native and1200whiteWEB individually reviewed; archive readbacks matched. Only original near-white exterior background excluded; internal contour filled to retain all white highlights and original watch pixels. Proportional resize and center on blank2400white master/1200WEB. No recoloring, sharpening or generated watch detail. No price, availability or new alloy grade inferred. Preserved RAW file: 1zujJ7sIkxPx73uFsYVAdLmKBooVzSnhT. Pictured full reference 116500LN; Oystersteel, Black, Oyster. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
+      "brand": "Rolex",
+      "collection": "Day-Date",
+      "reference": "118238",
+      "configurations": [
+        {
+          "dial": "White with yellow-gold Roman numerals",
+          "bracelet": "President",
+          "caseSize": "36 mm",
+          "nickname": "White with yellow-gold Roman numerals / President",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "18k Yellow Gold",
+      "sources": [
+        "src/data/photography-expansion.ts"
+      ],
+      "routes": [
+        "/collections/rolex/day-date/118238"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": "cleared-20261023-118238",
+      "status": "approved",
+      "sourceUrl": "https://www.grayandsons.com/w524561-rolex-day-date-36mm-118238/",
+      "licenseRecord": "Direct founder answer call_a32e683bc58149f587d610e0ebc5942e: Rights cover both originals and derivatives; no restrictions. Record docs/PHOTOGRAPHY_ROLEX_PAIR_RIGHTS_2026-10-23.json. Untouched authentic RAW SHA256 069bfbf46610a2fa445c7ea7712d5b26e5a14a1a5e6f076691c0d274e6d95c29. Complete native and1200whiteWEB individually reviewed; archive readbacks matched. Only original near-white exterior background excluded; internal contour filled to retain all white highlights and original watch pixels. Proportional resize and center on blank2400white master/1200WEB. No recoloring, sharpening or generated watch detail. No price, availability or new alloy grade inferred. Preserved RAW file: 1-Fd9nuJVh8D0IVN2aY5SXorD8yl2w2gR. Pictured full reference 118238; 18k Yellow Gold, White with yellow-gold Roman numerals, President. Exact configuration reviewed against preserved source evidence and the original photograph.",
       "websiteApproved": true,
       "nextAction": "Retain approved original and verify derivative integrity."
     },

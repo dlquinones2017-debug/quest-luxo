@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-10-20T10:45:32.360529+00:00",
+  "updatedAt": "2026-10-24T00:08:08.392945+00:00",
   "deadline": "2026-10-19T22:03:41-04:00",
   "objective": "Acquire authentic exact-reference photographs and populate every featured website reference without fabrication.",
   "worktree": "C:/Users/CAU Student/.codex/worktrees/launch-sprint/quest-luxo",
   "branch": "codex/launch-sprint",
-  "baselineMain": "8c2f495e400badfa1effa88607ebbc2d384dfe2a",
+  "baselineMain": "2097c8252f9bf23c6d3d3eb08d3dcdd99f5b6e11",
   "canonicalReferences": 297,
   "photographedReferences": 237,
   "queuedReferences": 60,
@@ -29,8 +29,8 @@
     "No invented specs, MSRP or availability"
   ],
   "clearance": "Direct founder answer call_24a179ab128748dbb94a78640e6a1543; docs/PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json; Drive1HFfmLAHtbf-YyK-66jhn025-qSpZ3ndZ",
-  "nextBatch": "Record response to existing116500LN/118238 exact-image rights question; publish eligible cleared sets through existingregistry with requiredchecks/build/liveverification. Continue remaining60sources. Preserve stable routes, prior work, whole-watch framing and untouchedRAW.",
-  "preparedPendingClearance": 2,
+  "nextBatch": "Verify Rolex pair LIVE, all297routes and238 distinct images. Update canonical master and queue, continue58 exact-reference gaps. Keep clipped124300 and six unidentified uploads held.",
+  "preparedPendingClearance": 0,
   "preparedDriveFiles": 465,
   "preparedManifest": "docs/ADDITIONAL_OMEGA_NAVITIMER_ARCHIVED_2026-10-14.json; docs/PRIMARY_FOUR_ARCHIVED_2026-10-14.json; docs/OMEGA_EXPANSION_ARCHIVED_WAVE_2026-10-14.json",
   "masterPages": 82,
@@ -79,12 +79,7 @@
   "nextAcquisitionEvidence": "avenger-primary-acquisition.json; BREITLING_AVENGER_PREPARED_2026-10-15.json; COMMONS_TUDOR_SOURCE_HOLDS_2026-10-15.json.",
   "mobileMirrorStatus": "Latest message blocked by automatic approval service out-of-credits error; not retried through alternate mechanism.",
   "rightsDecisionPending": {
-    "references": [
-      "116500LN",
-      "118238"
-    ],
-    "status": "One direct founder image-specific commercial-use question pending for both new GrayandSons originals and white derivatives. Do not repeat the cleared IW545901/16520 rights questions.",
-    "preparedRecord": "docs/PHOTOGRAPHY_NEXT_TWO_ROLEX_PREPARED_2026-10-20.json"
+    "status": "116500LN and 118238 exact Gray and Sons originals and white derivatives cleared directly by founder without restrictions; call_a32e683bc58149f587d610e0ebc5942e."
   },
   "processingRuntime": "Task-local photography-runtime provides OpenCV and NumPy for classical non-generative boundary masks. Requires approved elevated execution to read its installed files. process_priority_wave.py preserves original interior pixels and masks only background. Every derivative requires visual review before publication.",
   "blockers": [
@@ -144,9 +139,9 @@
   "deadlineOutcome": "Not achieved: every featured reference does not yet have valid cleared photography.",
   "closeoutRecord": "docs/PHOTOGRAPHY_SPRINT_CLOSEOUT_2026-10-14.json",
   "continuationInstruction": "Command Center V4 relayed the founder standing instruction to continue acquiring remaining references and not stop. This reopens useful acquisition after the missed deadline; it does not grant new photograph rights or recreate the expired automation.",
-  "preparedClearedForPublication": 0,
-  "builtPhotographedReferences": 237,
-  "builtQueuedReferences": 60,
+  "preparedClearedForPublication": 2,
+  "builtPhotographedReferences": 239,
+  "builtQueuedReferences": 58,
   "publishedPreparedSets": 138,
   "productionPhotographyRelease": {
     "commit": "bdabcd734c4f32d6ba76ad2cc21363c0eb8e6be9",
@@ -305,7 +300,7 @@
   },
   "masterFileSHA256": "5e1cd5cd9b99a2c51dbc0def7412ce37e37b49891178eccffec3c02e31b8445e",
   "masterDriveReadbackVerified": true,
-  "currentWorkflowPosition": "LIVE bdabcd7 / dep-dbbk7vek1f9s73bum96g.237of297referenceURLs photographed;60queued;85of104collections;236distinctdeliveredimage hashes andall297routes verified. IW545901 and16520 rights resolved andLIVE. Next reviewed/archived116500LN and118238 await separate exact-image rights answer; all6archive readbacks matched.124300 newsource rejected for clippedbracelet/crown. Six uploaded identities remain unresolved.",
+  "currentWorkflowPosition": "Both Rolex photographs integrated; all nine checks and exact built mappings passed. Publishing 239/297; verified production remains237/297 until live checks pass. New consent/privacy changes preserved.",
   "remainingByBrand": [
     {
       "brand": "Audemars Piguet",

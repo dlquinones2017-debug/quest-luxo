@@ -1,0 +1,145 @@
+{
+  "references": [
+    {
+      "reference": "116500LN",
+      "brand": "Rolex",
+      "sourceProvider": "Gray and Sons",
+      "sourceUrl": "https://www.grayandsons.com/w527052-rolex-daytona-40mm-116500ln/",
+      "sourceSha256": "4ecb9b42d5a698bb556da9b40b08611bef49158ecedaee53b3aec3342c4cb6f4",
+      "imageUrl": "https://cdn.grayandsons.com/s/unused_rolex_daytona_40mm_116500ln_w527052_4abd1825b3-w1920.jpg.auto",
+      "fileName": "rolex116500ln-gray-raw.img",
+      "rawSha256": "c159b70a703f1b1e5b401b08d7583b14d0f73a50486f9f25b10b1022e8db0349",
+      "whiteMaster": "rolex-116500ln-gray-white-master.png",
+      "masterSha256": "9860bdbae5b3921f68f84197129ac3b8404f18587a8b9667a579b56d692ed33c",
+      "webDerivative": "rolex-116500ln-gray-web.webp",
+      "webSha256": "8a68780aa11a5fbc75cf0e4d6605cecff2a032766764731ff88dc6402e0aea43",
+      "nativeMaskBoundingBox": [
+        428,
+        97,
+        1491,
+        1824
+      ],
+      "processing": "Only original near-white exterior background excluded; internal contour filled to retain all white highlights and original watch pixels. Proportional resize and center on blank2400white master/1200WEB. No recoloring, sharpening or generated watch detail.",
+      "reviewStatus": "Native and final1200WEB individually reviewed; entire watch and closed bracelet present with native margins. Exact source reference, dial, metal and bracelet reviewed; original pixels preserved; no synthesized detail.",
+      "websiteApproved": true,
+      "qualityReviewPassed": true,
+      "archiveReadbackVerified": true,
+      "rawDriveFileId": "1zujJ7sIkxPx73uFsYVAdLmKBooVzSnhT",
+      "masterDriveFileId": "14yOfMZ9yfSMYKq8RJ1iE11JIuh0G33Tr",
+      "webDriveFileId": "1szUmw1HJVdvFZhR7n6I9ZopnJQDc5YP_",
+      "rightsStatus": "Both exact originals and derivatives directly confirmed by founder without restrictions",
+      "picturedConfiguration": {
+        "dial": "Black",
+        "bracelet": "Stainless-steel Oyster bracelet",
+        "caseSize": "40 mm",
+        "material": "Stainless steel",
+        "bezel": "Black ceramic"
+      },
+      "seed": {
+        "brand": "Rolex",
+        "brandSlug": "rolex",
+        "collection": "Daytona",
+        "reference": "116500LN",
+        "exactReference": "116500LN",
+        "model": "Daytona 116500LN",
+        "material": "Oystersteel",
+        "configuration": {
+          "dial": "Black",
+          "bracelet": "Oyster",
+          "caseSize": "40 mm"
+        },
+        "sourceUrl": "https://www.grayandsons.com/w527052-rolex-daytona-40mm-116500ln/",
+        "src": "/images/watches/rolex/reviewed-116500ln-20261023-web.webp",
+        "sha256": "8a68780aa11a5fbc75cf0e4d6605cecff2a032766764731ff88dc6402e0aea43",
+        "rawDriveFileId": "1zujJ7sIkxPx73uFsYVAdLmKBooVzSnhT",
+        "clearanceRecord": "Direct founder answer call_a32e683bc58149f587d610e0ebc5942e: Rights cover both originals and derivatives; no restrictions. Record docs/PHOTOGRAPHY_ROLEX_PAIR_RIGHTS_2026-10-23.json. Untouched authentic RAW SHA256 c159b70a703f1b1e5b401b08d7583b14d0f73a50486f9f25b10b1022e8db0349. Complete native and1200whiteWEB individually reviewed; archive readbacks matched. Only original near-white exterior background excluded; internal contour filled to retain all white highlights and original watch pixels. Proportional resize and center on blank2400white master/1200WEB. No recoloring, sharpening or generated watch detail. No price, availability or new alloy grade inferred.",
+        "sourceProvider": "Gray and Sons",
+        "reviewedAt": "2026-10-23",
+        "assetId": "cleared-20261023-116500ln"
+      },
+      "publicationStatus": "Integrated; release checks pending"
+    },
+    {
+      "brand": "Rolex",
+      "reference": "118238",
+      "sourceProvider": "Gray and Sons",
+      "sourceUrl": "https://www.grayandsons.com/w524561-rolex-day-date-36mm-118238/",
+      "sourceSha256": "c94857baa8c610c4dd8a483f1d56483dc00c51783a870f5d5470ad7c8dd4621d",
+      "imageUrl": "https://cdn.grayandsons.com/s/rolex_day_date_36mm_118238_w524561_20bba70582-w1536.jpg.auto",
+      "fileName": "rolex-118238-gray-native.img",
+      "websiteApproved": true,
+      "rightsStatus": "Both exact originals and derivatives directly confirmed by founder without restrictions",
+      "rawSha256": "069bfbf46610a2fa445c7ea7712d5b26e5a14a1a5e6f076691c0d274e6d95c29",
+      "size": [
+        1536,
+        1536
+      ],
+      "mode": "RGB",
+      "whiteMaster": "rolex-118238-gray-white-master.png",
+      "masterSha256": "c3c5e09d321dd3f9ccfd5693dd0ffb09fc43f10159c260b24442d9f5a1df7819",
+      "webDerivative": "rolex-118238-gray-web.webp",
+      "webSha256": "2a108ed078b2e4abc059f5643a6f6253cff38d439d9c10a8932d15e7d6671bb0",
+      "nativeMaskBoundingBox": [
+        393,
+        48,
+        1142,
+        1488
+      ],
+      "processing": "Only original near-white exterior background excluded; internal contour filled to retain all white highlights and original watch pixels. Proportional resize and center on blank2400white master/1200WEB. No recoloring, sharpening or generated watch detail.",
+      "reviewStatus": "Native and final1200WEB individually reviewed; entire watch and closed bracelet present with native margins. Exact source reference, dial, metal and bracelet reviewed; original pixels preserved; no synthesized detail.",
+      "qualityReviewPassed": true,
+      "archiveReadbackVerified": true,
+      "rawDriveFileId": "1-Fd9nuJVh8D0IVN2aY5SXorD8yl2w2gR",
+      "masterDriveFileId": "1314BYYdhLCMOAJKcGYm1_yo2PiMM6JLY",
+      "webDriveFileId": "13r10RbGbrZhctbeZk_Eg0_0WtMU1bPEX",
+      "picturedConfiguration": {
+        "dial": "White with applied yellow-gold Roman numerals",
+        "bracelet": "Yellow-gold President bracelet",
+        "caseSize": "36 mm",
+        "material": "18K yellow gold",
+        "bezel": "Fluted yellow gold"
+      },
+      "seed": {
+        "brand": "Rolex",
+        "brandSlug": "rolex",
+        "collection": "Day-Date",
+        "reference": "118238",
+        "exactReference": "118238",
+        "model": "Day-Date 36 118238",
+        "material": "18k Yellow Gold",
+        "configuration": {
+          "dial": "White with yellow-gold Roman numerals",
+          "bracelet": "President",
+          "caseSize": "36 mm"
+        },
+        "sourceUrl": "https://www.grayandsons.com/w524561-rolex-day-date-36mm-118238/",
+        "src": "/images/watches/rolex/reviewed-118238-20261023-web.webp",
+        "sha256": "2a108ed078b2e4abc059f5643a6f6253cff38d439d9c10a8932d15e7d6671bb0",
+        "rawDriveFileId": "1-Fd9nuJVh8D0IVN2aY5SXorD8yl2w2gR",
+        "clearanceRecord": "Direct founder answer call_a32e683bc58149f587d610e0ebc5942e: Rights cover both originals and derivatives; no restrictions. Record docs/PHOTOGRAPHY_ROLEX_PAIR_RIGHTS_2026-10-23.json. Untouched authentic RAW SHA256 069bfbf46610a2fa445c7ea7712d5b26e5a14a1a5e6f076691c0d274e6d95c29. Complete native and1200whiteWEB individually reviewed; archive readbacks matched. Only original near-white exterior background excluded; internal contour filled to retain all white highlights and original watch pixels. Proportional resize and center on blank2400white master/1200WEB. No recoloring, sharpening or generated watch detail. No price, availability or new alloy grade inferred.",
+        "sourceProvider": "Gray and Sons",
+        "reviewedAt": "2026-10-23",
+        "assetId": "cleared-20261023-118238"
+      },
+      "publicationStatus": "Integrated; release checks pending"
+    }
+  ],
+  "rights": {
+    "confirmedAt": "2026-10-24T00:03:21.664025+00:00",
+    "questionId": "call_a32e683bc58149f587d610e0ebc5942e",
+    "directFounderAnswer": "Rights cover both originals and derivatives; no restrictions",
+    "references": [
+      {
+        "reference": "116500LN",
+        "sourceUrl": "https://www.grayandsons.com/w527052-rolex-daytona-40mm-116500ln/",
+        "rawSha256": "c159b70a703f1b1e5b401b08d7583b14d0f73a50486f9f25b10b1022e8db0349"
+      },
+      {
+        "reference": "118238",
+        "sourceUrl": "https://www.grayandsons.com/w524561-rolex-day-date-36mm-118238/",
+        "rawSha256": "069bfbf46610a2fa445c7ea7712d5b26e5a14a1a5e6f076691c0d274e6d95c29"
+      }
+    ]
+  },
+  "archiveReadbacksVerified": true
+}

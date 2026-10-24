@@ -4397,5 +4397,49 @@ export const clearedSprintPhotographySeeds: readonly PhotographySeed[] = [
     "sourceProvider": "Gray and Sons",
     "reviewedAt": "2026-10-20",
     "assetId": "cleared-20261020-16520"
+  },
+  {
+    "brand": "Rolex",
+    "brandSlug": "rolex",
+    "collection": "Daytona",
+    "reference": "116500LN",
+    "exactReference": "116500LN",
+    "model": "Daytona 116500LN",
+    "material": "Oystersteel",
+    "configuration": {
+      "dial": "Black",
+      "bracelet": "Oyster",
+      "caseSize": "40 mm"
+    },
+    "sourceUrl": "https://www.grayandsons.com/w527052-rolex-daytona-40mm-116500ln/",
+    "src": "/images/watches/rolex/reviewed-116500ln-20261023-web.webp",
+    "sha256": "8a68780aa11a5fbc75cf0e4d6605cecff2a032766764731ff88dc6402e0aea43",
+    "rawDriveFileId": "1zujJ7sIkxPx73uFsYVAdLmKBooVzSnhT",
+    "clearanceRecord": "Direct founder answer call_a32e683bc58149f587d610e0ebc5942e: Rights cover both originals and derivatives; no restrictions. Record docs/PHOTOGRAPHY_ROLEX_PAIR_RIGHTS_2026-10-23.json. Untouched authentic RAW SHA256 c159b70a703f1b1e5b401b08d7583b14d0f73a50486f9f25b10b1022e8db0349. Complete native and1200whiteWEB individually reviewed; archive readbacks matched. Only original near-white exterior background excluded; internal contour filled to retain all white highlights and original watch pixels. Proportional resize and center on blank2400white master/1200WEB. No recoloring, sharpening or generated watch detail. No price, availability or new alloy grade inferred.",
+    "sourceProvider": "Gray and Sons",
+    "reviewedAt": "2026-10-23",
+    "assetId": "cleared-20261023-116500ln"
+  },
+  {
+    "brand": "Rolex",
+    "brandSlug": "rolex",
+    "collection": "Day-Date",
+    "reference": "118238",
+    "exactReference": "118238",
+    "model": "Day-Date 36 118238",
+    "material": "18k Yellow Gold",
+    "configuration": {
+      "dial": "White with yellow-gold Roman numerals",
+      "bracelet": "President",
+      "caseSize": "36 mm"
+    },
+    "sourceUrl": "https://www.grayandsons.com/w524561-rolex-day-date-36mm-118238/",
+    "src": "/images/watches/rolex/reviewed-118238-20261023-web.webp",
+    "sha256": "2a108ed078b2e4abc059f5643a6f6253cff38d439d9c10a8932d15e7d6671bb0",
+    "rawDriveFileId": "1-Fd9nuJVh8D0IVN2aY5SXorD8yl2w2gR",
+    "clearanceRecord": "Direct founder answer call_a32e683bc58149f587d610e0ebc5942e: Rights cover both originals and derivatives; no restrictions. Record docs/PHOTOGRAPHY_ROLEX_PAIR_RIGHTS_2026-10-23.json. Untouched authentic RAW SHA256 069bfbf46610a2fa445c7ea7712d5b26e5a14a1a5e6f076691c0d274e6d95c29. Complete native and1200whiteWEB individually reviewed; archive readbacks matched. Only original near-white exterior background excluded; internal contour filled to retain all white highlights and original watch pixels. Proportional resize and center on blank2400white master/1200WEB. No recoloring, sharpening or generated watch detail. No price, availability or new alloy grade inferred.",
+    "sourceProvider": "Gray and Sons",
+    "reviewedAt": "2026-10-23",
+    "assetId": "cleared-20261023-118238"
   }
 ];

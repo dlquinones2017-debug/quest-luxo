@@ -1,0 +1,17 @@
+{
+  "confirmedAt": "2026-10-24T00:03:21.664025+00:00",
+  "questionId": "call_a32e683bc58149f587d610e0ebc5942e",
+  "directFounderAnswer": "Rights cover both originals and derivatives; no restrictions",
+  "references": [
+    {
+      "reference": "116500LN",
+      "sourceUrl": "https://www.grayandsons.com/w527052-rolex-daytona-40mm-116500ln/",
+      "rawSha256": "c159b70a703f1b1e5b401b08d7583b14d0f73a50486f9f25b10b1022e8db0349"
+    },
+    {
+      "reference": "118238",
+      "sourceUrl": "https://www.grayandsons.com/w524561-rolex-day-date-36mm-118238/",
+      "rawSha256": "069bfbf46610a2fa445c7ea7712d5b26e5a14a1a5e6f076691c0d274e6d95c29"
+    }
+  ]
+}

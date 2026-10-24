@@ -422,3 +422,8 @@ Founder directly confirmed unrestricted commercial website-use rights for the ex
 ## October 20 photography production verification
 
 IWC IW545901 andRolex16520 release bdabcd7 isLIVE in dep-dbbk7vek1f9s73bum96g. Coverage237of297references,60queued;85of104collections photographed. All297publicreference routes and236distinctphoto hashes passed; both exact mappings, collection grids, separate credits and inquiry contexts verified. Desktop/mobile review,314regressions plus1platformskip,Astro/audits/build passed. The82page master preserves81priorpages pixel-for-pixel; canonicalmaster/audit/liveQA updated in place with matchingremote hashes. Two further complete GrayandSons sets116500LN and118238 are reviewed/archived/readback verified andheld for a new specificrights answer; new124300candidate isrejected for clipping. Workflow saved; fullpopulation incomplete; no customer reads/submissions.
+
+
+## October 23 Rolex photography release
+
+Founder confirmed unrestricted commercial website-use rights for Gray and Sons Rolex116500LN and118238 originals and white derivatives. Both full-watch photographs are reviewed, archived and readback verified. Additive pictured configurations retain existing broader configurations and public routes. Built coverage239of297referenceURLs;58queued. Full unchanged concurrent suite314passed,1platformskip,0failed; Astro0errors,0warnings,18existinghints; audits/build and both exact mappings passed. New main consent/privacy changes preserved. Production verification follows. No test leads or private lead reads.

@@ -1,13 +1,13 @@
 {
-  "auditedAt": "2026-10-20T10:34:29.541Z",
+  "auditedAt": "2026-10-24T00:05:46.269Z",
   "summary": {
     "brands": 23,
     "collections": 104,
     "registryRecords": 298,
     "distinctRoutes": 297,
     "normalizedBrandReferenceIdentities": 294,
-    "approved": 237,
-    "missing": 60,
+    "approved": 239,
+    "missing": 58,
     "collectionsWithPhotography": 85,
     "unusedApprovedRecords": 2,
     "duplicateNormalizedReferenceGroups": 4,
@@ -155,8 +155,8 @@
       "brand": "Rolex",
       "registryRecords": 56,
       "referencePages": 56,
-      "approved": 50,
-      "missing": 6,
+      "approved": 52,
+      "missing": 4,
       "collections": 14
     },
     {
@@ -583,10 +583,22 @@
           "dial": "White or Black",
           "bracelet": "Oyster",
           "originalMSRP": null
+        },
+        {
+          "dial": "Black",
+          "bracelet": "Oyster",
+          "caseSize": "40 mm",
+          "nickname": "Black / Oyster",
+          "originalMSRP": null,
+          "currentMSRP": null
         }
       ],
-      "approved": false,
-      "photo": null,
+      "approved": true,
+      "photo": {
+        "assetId": "cleared-20261023-116500ln",
+        "src": "/images/watches/rolex/reviewed-116500ln-20261023-web.webp",
+        "sha256": "8a68780aa11a5fbc75cf0e4d6605cecff2a032766764731ff88dc6402e0aea43"
+      },
       "recoveryCandidates": []
     },
     {
@@ -1333,10 +1345,22 @@
           "dial": "Multiple Dial Options",
           "bracelet": "President",
           "originalMSRP": null
+        },
+        {
+          "dial": "White with yellow-gold Roman numerals",
+          "bracelet": "President",
+          "caseSize": "36 mm",
+          "nickname": "White with yellow-gold Roman numerals / President",
+          "originalMSRP": null,
+          "currentMSRP": null
         }
       ],
-      "approved": false,
-      "photo": null,
+      "approved": true,
+      "photo": {
+        "assetId": "cleared-20261023-118238",
+        "src": "/images/watches/rolex/reviewed-118238-20261023-web.webp",
+        "sha256": "2a108ed078b2e4abc059f5643a6f6253cff38d439d9c10a8932d15e7d6671bb0"
+      },
       "recoveryCandidates": []
     },
     {
