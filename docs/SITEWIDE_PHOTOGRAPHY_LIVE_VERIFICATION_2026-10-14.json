@@ -1,10 +1,10 @@
 {
-  "verifiedAt": "2026-10-24T02:19:39.495484+00:00",
+  "verifiedAt": "2026-10-24T02:29:13.130136+00:00",
   "expectedDistinctReferenceRoutes": 297,
   "verifiedReferenceRoutes": 297,
-  "approvedDistinctReferenceRoutes": 276,
-  "verifiedDistinctPhotoFiles": 273,
-  "queuedDistinctReferenceRoutes": 21,
+  "approvedDistinctReferenceRoutes": 280,
+  "verifiedDistinctPhotoFiles": 277,
+  "queuedDistinctReferenceRoutes": 17,
   "errors": [],
   "pages": [
     {
@@ -743,17 +743,17 @@
       "status": "verified"
     },
     {
+      "route": "/collections/omega/seamaster/210-62-42-20-03-001",
+      "approved": true,
+      "status": "verified"
+    },
+    {
       "route": "/collections/omega/seamaster/210-30-42-20-01-001",
       "approved": true,
       "status": "verified"
     },
     {
       "route": "/collections/omega/seamaster/522-92-44-20-04-001",
-      "approved": false,
-      "status": "verified"
-    },
-    {
-      "route": "/collections/omega/seamaster/210-62-42-20-03-001",
       "approved": false,
       "status": "verified"
     },
@@ -1299,7 +1299,7 @@
     },
     {
       "route": "/collections/richard-mille/rm-67/rm-67-01",
-      "approved": false,
+      "approved": true,
       "status": "verified"
     },
     {
@@ -1369,7 +1369,7 @@
     },
     {
       "route": "/collections/panerai/radiomir-gmt/pam00502",
-      "approved": false,
+      "approved": true,
       "status": "verified"
     },
     {
@@ -1424,7 +1424,7 @@
     },
     {
       "route": "/collections/omega/constellation/131-63-41-21-03-001",
-      "approved": false,
+      "approved": true,
       "status": "verified"
     },
     {
@@ -2210,6 +2210,11 @@
       "status": "verified"
     },
     {
+      "path": "/images/watches/omega/reviewed-210-62-42-20-03-001-20261023-web.webp",
+      "sha256": "c93c68d961a4b1c7af4c7dcd3f3b8928a7ae4391fd660f30f4a9037213213cb0",
+      "status": "verified"
+    },
+    {
       "path": "/images/watches/omega/omega-seamaster-diver-300m-210-30-42-20-01-001-web.webp",
       "sha256": "d4c52129ef18076c8cef729fe7421bd27924f7aaa1f1de549943fdeac729de3c",
       "status": "verified"
@@ -2695,6 +2700,11 @@
       "status": "verified"
     },
     {
+      "path": "/images/watches/richard-mille/reviewed-rm-67-01-20261023-web.webp",
+      "sha256": "cbafda30a26c804036b0b712dc50a17e86ac5be9c929feab590b1de914fe7d35",
+      "status": "verified"
+    },
+    {
       "path": "/images/watches/richard-mille/reviewed-rm-27-05-20261023-web.webp",
       "sha256": "fbd2ca1cd05f695fbe63eb66eb82bf4a809a4cd35765880f5313dd0fc71a9e24",
       "status": "verified"
@@ -2745,6 +2755,11 @@
       "status": "verified"
     },
     {
+      "path": "/images/watches/panerai/reviewed-pam00502-20261023-web.webp",
+      "sha256": "3039fe08d5b70407d2f86f03bf365a06cb7ae188ecd13271e24cce60e618a4a9",
+      "status": "verified"
+    },
+    {
       "path": "/images/watches/cartier/reviewed-wgrd0011-20261023-web.webp",
       "sha256": "0d69f78b52b5bf697c262c80f1a1e73ae663faa02c6778242a6814af1031119e",
       "status": "verified"
@@ -2792,6 +2807,11 @@
     {
       "path": "/images/watches/omega/reviewed-131-23-41-21-03-001-white-web.webp",
       "sha256": "10f524ad1e5fcd680e53a8f905637567c439fa01348c8e0d7fb67a298e66e3e7",
+      "status": "verified"
+    },
+    {
+      "path": "/images/watches/omega/reviewed-131-63-41-21-03-001-20261023-web.webp",
+      "sha256": "b223a69b823d8e1cd25f10aea13e4b8b6996c916ff5281a73d139d280b76b826",
       "status": "verified"
     },
     {

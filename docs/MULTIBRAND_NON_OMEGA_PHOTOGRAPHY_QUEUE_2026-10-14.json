@@ -6,8 +6,8 @@
   "summary": {
     "references": 70,
     "brands": 15,
-    "approvedForImageRelease": 61,
-    "tasksAwaitingExactImageRightsReview": 9
+    "approvedForImageRelease": 63,
+    "tasksAwaitingExactImageRightsReview": 7
   },
   "queue": [
     {
@@ -941,13 +941,13 @@
       },
       "identitySource": "https://www.hublot.com/en-ch/watches/classic-fusion/classic-fusion-black-magic-42-mm",
       "priorityScore": 53,
-      "status": "RIGHTS_AND_EXACT_CONFIGURATION_REVIEW_REQUIRED",
-      "rawSourceFileId": null,
-      "webDerivativePath": null,
-      "webDerivativeSHA256": null,
-      "reviewer": null,
-      "commercialUseRightsRecord": null,
-      "notes": "Do not publish until approvedPhotograph verifies commercial rights and exact reference, and WEB image checksum matches stored file."
+      "status": "APPROVED_WITH_VALID_DERIVATIVE",
+      "rawSourceFileId": "1XLWMlQ1lfTq0k_ESI9QUQEYzkTfv42tF",
+      "webDerivativePath": "/images/watches/hublot/reviewed-542-cm-1171-rx-20261023-web.webp",
+      "webDerivativeSHA256": "67e402cfa63edd92d335fa83956b90b03fe1ffa2162b1e36dbe473b71661beac",
+      "reviewer": "Quest Luxo execution review with founder website-use clearance",
+      "commercialUseRightsRecord": "Direct founder answer call_30e10e821cae43b5875d77bae9aaa959: Yes.. Record docs/PHOTOGRAPHY_NEXT_FIVE_COMPLETE_RIGHTS_2026-10-23.json. Untouched RAW SHA256 4f3ffe363d8761f162cee8d81bd70315455990b5ce37916078a57fa722e6512d. Complete source and whiteWEB individually reviewed; all15archive hashes matched. Classical exterior filled silhouette. Original interior RGB retained; no generated, reconstructed, recolored or sharpened watch detail. Proportional resize and centered2400 white master/1200WEB. No price, availability or unspecified specs inferred. Preserved RAW file: 1XLWMlQ1lfTq0k_ESI9QUQEYzkTfv42tF. Pictured full reference 542.CM.1171.RX; Black ceramic, Black with baton hour markers, Black rubber strap. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "notes": "Exact approvedPhotograph gate and local derivative SHA-256 validated; preserve approved source and separate source attribution."
     },
     {
       "brand": "Hublot",
@@ -1421,13 +1421,13 @@
       },
       "identitySource": "https://www.thewatchagency.com/hublot/bb-king/411-ox-1180-rx/62648",
       "priorityScore": 100,
-      "status": "RIGHTS_AND_EXACT_CONFIGURATION_REVIEW_REQUIRED",
-      "rawSourceFileId": null,
-      "webDerivativePath": null,
-      "webDerivativeSHA256": null,
-      "reviewer": null,
-      "commercialUseRightsRecord": null,
-      "notes": "Founder ZIP appearance extracted separately. Underlying commercial rights, authenticity/configuration and whole-watch edge quality remain subject to existing approval gate. See FOUNDER_UPLOAD_WATCH_EXTRACTION_2026-10-15.json."
+      "status": "APPROVED_WITH_VALID_DERIVATIVE",
+      "rawSourceFileId": "1vtop_Bdr9DiqLgyaNmIFdRxuyaaNQtIG",
+      "webDerivativePath": "/images/watches/hublot/reviewed-411-ox-1180-rx-20261023-web.webp",
+      "webDerivativeSHA256": "7225e7d92c58466236ae6d7d787457be886996b463f53337aec5ee39d24b5e82",
+      "reviewer": "Quest Luxo execution review with founder website-use clearance",
+      "commercialUseRightsRecord": "Direct founder answer call_30e10e821cae43b5875d77bae9aaa959: Yes.. Record docs/PHOTOGRAPHY_NEXT_FIVE_COMPLETE_RIGHTS_2026-10-23.json. Untouched RAW SHA256 60a8a06b91c65e0fb923e7cecdb0b52c2be87d24b07ae9ff8a37a73def67d36d. Complete source and whiteWEB individually reviewed; all15archive hashes matched. Classical exterior filled silhouette. Original interior RGB retained; no generated, reconstructed, recolored or sharpened watch detail. Proportional resize and centered2400 white master/1200WEB. No price, availability or unspecified specs inferred. Preserved RAW file: 1vtop_Bdr9DiqLgyaNmIFdRxuyaaNQtIG. Pictured full reference 411.OX.1180.RX; 18K rose gold, Skeletonized chronograph, Black rubber strap. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "notes": "Exact approvedPhotograph gate and local derivative SHA-256 validated; preserve approved source and separate source attribution."
     },
     {
       "brand": "Ulysse Nardin",
@@ -1694,5 +1694,5 @@
       "notes": "Founder-upload identity verified October16. Separate source-original and review evidence in FOUNDER_UPLOAD_CONTINUATION_2026-10-16.json. Underlying commercial rights and final photography quality still required; no publication approval implied."
     }
   ],
-  "updatedAt": "2026-10-24T02:21:22.787Z"
+  "updatedAt": "2026-10-24T02:33:19.889Z"
 }

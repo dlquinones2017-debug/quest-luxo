@@ -1,14 +1,14 @@
 {
-  "auditedAt": "2026-10-24T02:25:45.329Z",
+  "auditedAt": "2026-10-24T02:34:56.690Z",
   "summary": {
     "brands": 23,
     "collections": 104,
     "registryRecords": 298,
     "distinctRoutes": 297,
     "normalizedBrandReferenceIdentities": 294,
-    "approved": 280,
-    "missing": 17,
-    "collectionsWithPhotography": 100,
+    "approved": 285,
+    "missing": 12,
+    "collectionsWithPhotography": 102,
     "unusedApprovedRecords": 2,
     "duplicateNormalizedReferenceGroups": 4,
     "fileIntegrityFailures": 0,
@@ -99,8 +99,8 @@
       "brand": "Hublot",
       "registryRecords": 10,
       "referencePages": 10,
-      "approved": 7,
-      "missing": 3,
+      "approved": 9,
+      "missing": 1,
       "collections": 5
     },
     {
@@ -123,8 +123,8 @@
       "brand": "Omega",
       "registryRecords": 71,
       "referencePages": 71,
-      "approved": 67,
-      "missing": 4,
+      "approved": 68,
+      "missing": 3,
       "collections": 11
     },
     {
@@ -147,8 +147,8 @@
       "brand": "Richard Mille",
       "registryRecords": 3,
       "referencePages": 3,
-      "approved": 2,
-      "missing": 1,
+      "approved": 3,
+      "missing": 0,
       "collections": 3
     },
     {
@@ -187,8 +187,8 @@
       "brand": "Vacheron Constantin",
       "registryRecords": 8,
       "referencePages": 8,
-      "approved": 7,
-      "missing": 1,
+      "approved": 8,
+      "missing": 0,
       "collections": 5
     },
     {
@@ -2726,10 +2726,23 @@
           "dial": "Configuration details available through private advisory",
           "bracelet": "Reference dependent",
           "originalMSRP": null
+        },
+        {
+          "dial": "Skeletonized chronograph with white numerals and green/yellow accents",
+          "bracelet": "White rubber strap",
+          "caseSize": "49.94 x 44.50 mm",
+          "movement": "Automatic",
+          "nickname": "Skeletonized chronograph with white numerals and green/yellow accents / White rubber strap",
+          "originalMSRP": null,
+          "currentMSRP": null
         }
       ],
-      "approved": false,
-      "photo": null,
+      "approved": true,
+      "photo": {
+        "assetId": "cleared-20261023-representative-rm-rm-11-03",
+        "src": "/images/watches/richard-mille/reviewed-rm-11-03-20261023-web.webp",
+        "sha256": "2ead4e6650dc79b608953b7561faff39ed95896218d24a61e68fe33066dcdaa7"
+      },
       "recoveryCandidates": []
     },
     {
@@ -4885,19 +4898,25 @@
       "collectionSlug": "planet-ocean",
       "reference": "232.63.42.21.01.001",
       "path": "/collections/omega/planet-ocean/232-63-42-21-01-001",
-      "material": "18K red gold",
+      "material": "18K rose gold",
       "configurations": [
         {
+          "dial": "Black with luminous Arabic and baton hour markers",
+          "bracelet": "Black alligator leather strap",
           "caseSize": "42 mm",
           "movement": "Omega 8501 automatic",
-          "dial": "Black",
-          "bracelet": "Black alligator leather strap",
+          "waterResistance": "600 m",
+          "nickname": "Black with luminous Arabic and baton hour markers / Black alligator leather strap",
           "originalMSRP": null,
           "currentMSRP": null
         }
       ],
-      "approved": false,
-      "photo": null,
+      "approved": true,
+      "photo": {
+        "assetId": "cleared-20261023-representative-rm-232-63-42-21-01-001",
+        "src": "/images/watches/omega/reviewed-232-63-42-21-01-001-20261023-web.webp",
+        "sha256": "0c8061f0446fd52d306986ae51ed61f4f2ec45d63c3541511285dee9df09eb27"
+      },
       "recoveryCandidates": []
     },
     {
@@ -7066,19 +7085,23 @@
       "collectionSlug": "classic-fusion",
       "reference": "542.CM.1171.RX",
       "path": "/collections/hublot/classic-fusion/542-cm-1171-rx",
-      "material": "Black Ceramic",
+      "material": "Black ceramic",
       "configurations": [
         {
-          "caseSize": "42 mm",
-          "movement": "HUB1110 automatic",
-          "dial": "Matte Black",
+          "dial": "Black with baton hour markers",
           "bracelet": "Black rubber strap",
+          "caseSize": "42 mm",
+          "nickname": "Black with baton hour markers / Black rubber strap",
           "originalMSRP": null,
           "currentMSRP": null
         }
       ],
-      "approved": false,
-      "photo": null,
+      "approved": true,
+      "photo": {
+        "assetId": "cleared-20261023-representative-rm-542-cm-1171-rx",
+        "src": "/images/watches/hublot/reviewed-542-cm-1171-rx-20261023-web.webp",
+        "sha256": "67e402cfa63edd92d335fa83956b90b03fe1ffa2162b1e36dbe473b71661beac"
+      },
       "recoveryCandidates": []
     },
     {
@@ -7189,19 +7212,25 @@
       "collectionSlug": "big-bang-unico",
       "reference": "411.OX.1180.RX",
       "path": "/collections/hublot/big-bang-unico/411-ox-1180-rx",
-      "material": "18K King Gold",
+      "material": "18K rose gold",
       "configurations": [
         {
-          "caseSize": "45 mm",
-          "movement": "HUB1242 automatic chronograph",
-          "dial": "Skeleton",
+          "dial": "Skeletonized chronograph",
           "bracelet": "Black rubber strap",
+          "caseSize": "45 mm",
+          "movement": "Automatic",
+          "waterResistance": "100 m",
+          "nickname": "Skeletonized chronograph / Black rubber strap",
           "originalMSRP": null,
           "currentMSRP": null
         }
       ],
-      "approved": false,
-      "photo": null,
+      "approved": true,
+      "photo": {
+        "assetId": "cleared-20261023-representative-rm-411-ox-1180-rx",
+        "src": "/images/watches/hublot/reviewed-411-ox-1180-rx-20261023-web.webp",
+        "sha256": "7225e7d92c58466236ae6d7d787457be886996b463f53337aec5ee39d24b5e82"
+      },
       "recoveryCandidates": []
     },
     {
@@ -7258,10 +7287,22 @@
           "waterResistance": "50 m",
           "originalMSRP": null,
           "currentMSRP": null
+        },
+        {
+          "dial": "Blue",
+          "bracelet": "Stainless-steel integrated bracelet",
+          "caseSize": "37 mm",
+          "nickname": "Blue / Stainless-steel integrated bracelet",
+          "originalMSRP": null,
+          "currentMSRP": null
         }
       ],
-      "approved": false,
-      "photo": null,
+      "approved": true,
+      "photo": {
+        "assetId": "cleared-20261023-representative-rm-4200h-222a-b934",
+        "src": "/images/watches/vacheron-constantin/reviewed-4200h-222a-b934-20261023-web.webp",
+        "sha256": "9f95df63d0059e2f7ca87898364c8f3047e5a4d201a0a84baa34440bf47f4378"
+      },
       "recoveryCandidates": []
     },
     {

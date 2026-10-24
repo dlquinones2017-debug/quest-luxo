@@ -1,17 +1,17 @@
 {
-  "reviewedAt": "2026-10-24T02:25:18.184Z",
+  "reviewedAt": "2026-10-24T02:34:34.627Z",
   "scope": "All verified-catalog-expansion.ts references only; excludes legacy inventory",
   "policy": "Source URL is NOT image-rights evidence. Exact watch, strap, dial, material, white-canvas original, licensing, website approval and actual derivative SHA256 are required.",
   "summary": {
     "expansionReferences": 128,
     "brands": 16,
     "collections": 52,
-    "approvedValidReferences": 116,
+    "approvedValidReferences": 119,
     "missingApprovedDerivative": 0,
     "checksumFailures": 0,
-    "acquisitionRequired": 12,
-    "notReleaseReady": 12,
-    "imageCoveragePercent": 90.6
+    "acquisitionRequired": 9,
+    "notReleaseReady": 9,
+    "imageCoveragePercent": 93
   },
   "byBrand": [
     {
@@ -47,8 +47,8 @@
     {
       "brand": "Hublot",
       "references": 5,
-      "approved": 2,
-      "outstanding": 3
+      "approved": 4,
+      "outstanding": 1
     },
     {
       "brand": "IWC",
@@ -59,8 +59,8 @@
     {
       "brand": "Omega",
       "references": 58,
-      "approved": 55,
-      "outstanding": 3
+      "approved": 56,
+      "outstanding": 2
     },
     {
       "brand": "Panerai",
@@ -1354,13 +1354,13 @@
       },
       "specificationSource": "https://www.omegawatches.com.hk/en-hk/watch-omega-seamaster-planet-ocean-600m-omega-co-axial-42-mm-23263422101001",
       "score": 65,
-      "status": "ACQUISITION_REQUIRED",
-      "photoAssetId": null,
-      "derivativePath": null,
-      "recordedSha256": null,
-      "actualSha256": null,
-      "rightsRecord": null,
-      "nextAction": "Source authentic exact-reference original; obtain commercial-use license and provenance, prepare approved full-watch white-canvas derivative and register the matching SHA-256."
+      "status": "APPROVED_WITH_VALID_DERIVATIVE",
+      "photoAssetId": "cleared-20261023-representative-rm-232-63-42-21-01-001",
+      "derivativePath": "/images/watches/omega/reviewed-232-63-42-21-01-001-20261023-web.webp",
+      "recordedSha256": "0c8061f0446fd52d306986ae51ed61f4f2ec45d63c3541511285dee9df09eb27",
+      "actualSha256": "0c8061f0446fd52d306986ae51ed61f4f2ec45d63c3541511285dee9df09eb27",
+      "rightsRecord": "Direct founder answer call_30e10e821cae43b5875d77bae9aaa959: Yes.. Record docs/PHOTOGRAPHY_NEXT_FIVE_COMPLETE_RIGHTS_2026-10-23.json. Untouched RAW SHA256 e68fc9ae5b6e49eaf3cd4d84c23416f61c06358d803b55e9e75862b061873176. Complete source and whiteWEB individually reviewed; all15archive hashes matched. Classical exterior filled silhouette. Original interior RGB retained; no generated, reconstructed, recolored or sharpened watch detail. Proportional resize and centered2400 white master/1200WEB. Neutral exterior cast shadow below the dark leather strap excluded before centering; watch pixels retained. No price, availability or unspecified specs inferred. Preserved RAW file: 1Tx9MMIh-v3JVVw-lApopH26xoR9aXkrA. Pictured full reference 232.63.42.21.01.001; 18K rose gold, Black with luminous Arabic and baton hour markers, Black alligator leather strap. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "nextAction": "Retain approved source, white-canvas derivative, attribution and reference mapping."
     },
     {
       "brand": "Franck Muller",
@@ -2529,13 +2529,13 @@
       },
       "specificationSource": "https://www.thewatchagency.com/hublot/bb-king/411-ox-1180-rx/62648",
       "score": 58,
-      "status": "ACQUISITION_REQUIRED",
-      "photoAssetId": null,
-      "derivativePath": null,
-      "recordedSha256": null,
-      "actualSha256": null,
-      "rightsRecord": null,
-      "nextAction": "Source authentic exact-reference original; obtain commercial-use license and provenance, prepare approved full-watch white-canvas derivative and register the matching SHA-256."
+      "status": "APPROVED_WITH_VALID_DERIVATIVE",
+      "photoAssetId": "cleared-20261023-representative-rm-411-ox-1180-rx",
+      "derivativePath": "/images/watches/hublot/reviewed-411-ox-1180-rx-20261023-web.webp",
+      "recordedSha256": "7225e7d92c58466236ae6d7d787457be886996b463f53337aec5ee39d24b5e82",
+      "actualSha256": "7225e7d92c58466236ae6d7d787457be886996b463f53337aec5ee39d24b5e82",
+      "rightsRecord": "Direct founder answer call_30e10e821cae43b5875d77bae9aaa959: Yes.. Record docs/PHOTOGRAPHY_NEXT_FIVE_COMPLETE_RIGHTS_2026-10-23.json. Untouched RAW SHA256 60a8a06b91c65e0fb923e7cecdb0b52c2be87d24b07ae9ff8a37a73def67d36d. Complete source and whiteWEB individually reviewed; all15archive hashes matched. Classical exterior filled silhouette. Original interior RGB retained; no generated, reconstructed, recolored or sharpened watch detail. Proportional resize and centered2400 white master/1200WEB. No price, availability or unspecified specs inferred. Preserved RAW file: 1vtop_Bdr9DiqLgyaNmIFdRxuyaaNQtIG. Pictured full reference 411.OX.1180.RX; 18K rose gold, Skeletonized chronograph, Black rubber strap. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "nextAction": "Retain approved source, white-canvas derivative, attribution and reference mapping."
     },
     {
       "brand": "Panerai",
@@ -2979,13 +2979,13 @@
       },
       "specificationSource": "https://www.hublot.com/en-ch/watches/classic-fusion/classic-fusion-black-magic-42-mm",
       "score": 53,
-      "status": "ACQUISITION_REQUIRED",
-      "photoAssetId": null,
-      "derivativePath": null,
-      "recordedSha256": null,
-      "actualSha256": null,
-      "rightsRecord": null,
-      "nextAction": "Source authentic exact-reference original; obtain commercial-use license and provenance, prepare approved full-watch white-canvas derivative and register the matching SHA-256."
+      "status": "APPROVED_WITH_VALID_DERIVATIVE",
+      "photoAssetId": "cleared-20261023-representative-rm-542-cm-1171-rx",
+      "derivativePath": "/images/watches/hublot/reviewed-542-cm-1171-rx-20261023-web.webp",
+      "recordedSha256": "67e402cfa63edd92d335fa83956b90b03fe1ffa2162b1e36dbe473b71661beac",
+      "actualSha256": "67e402cfa63edd92d335fa83956b90b03fe1ffa2162b1e36dbe473b71661beac",
+      "rightsRecord": "Direct founder answer call_30e10e821cae43b5875d77bae9aaa959: Yes.. Record docs/PHOTOGRAPHY_NEXT_FIVE_COMPLETE_RIGHTS_2026-10-23.json. Untouched RAW SHA256 4f3ffe363d8761f162cee8d81bd70315455990b5ce37916078a57fa722e6512d. Complete source and whiteWEB individually reviewed; all15archive hashes matched. Classical exterior filled silhouette. Original interior RGB retained; no generated, reconstructed, recolored or sharpened watch detail. Proportional resize and centered2400 white master/1200WEB. No price, availability or unspecified specs inferred. Preserved RAW file: 1XLWMlQ1lfTq0k_ESI9QUQEYzkTfv42tF. Pictured full reference 542.CM.1171.RX; Black ceramic, Black with baton hour markers, Black rubber strap. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "nextAction": "Retain approved source, white-canvas derivative, attribution and reference mapping."
     },
     {
       "brand": "Hublot",

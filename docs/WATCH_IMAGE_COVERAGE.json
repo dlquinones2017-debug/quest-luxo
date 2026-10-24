@@ -1,14 +1,14 @@
 {
-  "reviewedAt": "2026-10-24T02:25:44.379Z",
+  "reviewedAt": "2026-10-24T02:34:55.910Z",
   "note": "Generated from all exported source datasets and built routes. Source-only and duplicate configuration records are retained for review; this register is not proof of image rights. Source URLs identify research leads, not licenses.",
   "summary": {
-    "sourceConfigurations": 1070,
+    "sourceConfigurations": 1081,
     "builtReferenceRoutes": 297,
     "collectionRoutes": 104,
-    "approvedReferenceConfigurations": 565,
+    "approvedReferenceConfigurations": 572,
     "unmatchedReferenceRoutes": 0,
-    "approvedCanonicalReferenceRoutes": 280,
-    "queuedCanonicalReferenceRoutes": 17
+    "approvedCanonicalReferenceRoutes": 285,
+    "queuedCanonicalReferenceRoutes": 12
   },
   "collections": [
     {
@@ -6069,6 +6069,15 @@
           "dial": "Configuration details available through private advisory",
           "bracelet": "Reference dependent",
           "originalMSRP": null
+        },
+        {
+          "dial": "Skeletonized chronograph with white numerals and green/yellow accents",
+          "bracelet": "White rubber strap",
+          "caseSize": "49.94 x 44.50 mm",
+          "movement": "Automatic",
+          "nickname": "Skeletonized chronograph with white numerals and green/yellow accents / White rubber strap",
+          "originalMSRP": null,
+          "currentMSRP": null
         }
       ],
       "material": "Titanium",
@@ -6079,14 +6088,14 @@
         "/collections/richard-mille/rm-11/rm11-03"
       ],
       "scope": "built-reference",
-      "existingImage": "/images/watch-reference-placeholder.svg",
+      "existingImage": "/images/watches/richard-mille/reviewed-rm-11-03-20261023-web.webp",
       "existingImageFilePresent": true,
-      "photoAssetId": null,
-      "status": "Requires Verification",
-      "sourceUrl": null,
-      "licenseRecord": null,
-      "websiteApproved": false,
-      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+      "photoAssetId": "cleared-20261023-representative-rm-rm-11-03",
+      "status": "approved",
+      "sourceUrl": "https://mavaniandco.com/products/richard-mille-titanium-automatic-flyback-chronograph-rm11-03",
+      "licenseRecord": "Direct founder answer call_30e10e821cae43b5875d77bae9aaa959: Yes.. Record docs/PHOTOGRAPHY_NEXT_FIVE_COMPLETE_RIGHTS_2026-10-23.json. Untouched RAW SHA256 1f608500e249e53489dc83e884aea946731cb54a9ba240cbdaeea604f8a16691. Complete source and whiteWEB individually reviewed; all15archive hashes matched. Classical exterior filled silhouette. Original interior RGB retained; no generated, reconstructed, recolored or sharpened watch detail. Proportional resize and centered2400 white master/1200WEB. No price, availability or unspecified specs inferred. Preserved RAW file: 156mNDfQBrpocokszZatcDARqemC_X886. Pictured full reference RM 11-03; Titanium, Skeletonized chronograph with white numerals and green/yellow accents, White rubber strap. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
     },
     {
       "brand": "Vacheron Constantin",
@@ -8639,35 +8648,37 @@
     },
     {
       "brand": "Omega",
-      "collection": "Planet Ocean",
+      "collection": "Seamaster Planet Ocean",
       "reference": "232.63.42.21.01.001",
       "configurations": [
         {
+          "dial": "Black with luminous Arabic and baton hour markers",
+          "bracelet": "Black alligator leather strap",
           "caseSize": "42 mm",
           "movement": "Omega 8501 automatic",
-          "dial": "Black",
-          "bracelet": "Black alligator leather strap",
+          "waterResistance": "600 m",
+          "nickname": "Black with luminous Arabic and baton hour markers / Black alligator leather strap",
           "originalMSRP": null,
           "currentMSRP": null
         }
       ],
-      "material": "18K red gold",
+      "material": "18K rose gold",
       "sources": [
         "src/data/collectionRegistry.ts",
-        "src/data/verified-catalog-expansion.ts"
+        "src/data/photography-expansion.ts"
       ],
       "routes": [
         "/collections/omega/planet-ocean/232-63-42-21-01-001"
       ],
       "scope": "built-reference",
-      "existingImage": "/images/watch-reference-placeholder.svg",
+      "existingImage": "/images/watches/omega/reviewed-232-63-42-21-01-001-20261023-web.webp",
       "existingImageFilePresent": true,
-      "photoAssetId": null,
-      "status": "Requires Verification",
-      "sourceUrl": "https://www.omegawatches.com.hk/en-hk/watch-omega-seamaster-planet-ocean-600m-omega-co-axial-42-mm-23263422101001",
-      "licenseRecord": null,
-      "websiteApproved": false,
-      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+      "photoAssetId": "cleared-20261023-representative-rm-232-63-42-21-01-001",
+      "status": "approved",
+      "sourceUrl": "https://www.watchmaxx.com/omega-watch-232-63-42-21-01-001",
+      "licenseRecord": "Direct founder answer call_30e10e821cae43b5875d77bae9aaa959: Yes.. Record docs/PHOTOGRAPHY_NEXT_FIVE_COMPLETE_RIGHTS_2026-10-23.json. Untouched RAW SHA256 e68fc9ae5b6e49eaf3cd4d84c23416f61c06358d803b55e9e75862b061873176. Complete source and whiteWEB individually reviewed; all15archive hashes matched. Classical exterior filled silhouette. Original interior RGB retained; no generated, reconstructed, recolored or sharpened watch detail. Proportional resize and centered2400 white master/1200WEB. Neutral exterior cast shadow below the dark leather strap excluded before centering; watch pixels retained. No price, availability or unspecified specs inferred. Preserved RAW file: 1Tx9MMIh-v3JVVw-lApopH26xoR9aXkrA. Pictured full reference 232.63.42.21.01.001; 18K rose gold, Black with luminous Arabic and baton hour markers, Black alligator leather strap. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
     },
     {
       "brand": "Omega",
@@ -11244,31 +11255,31 @@
       "reference": "542.CM.1171.RX",
       "configurations": [
         {
-          "caseSize": "42 mm",
-          "movement": "HUB1110 automatic",
-          "dial": "Matte Black",
+          "dial": "Black with baton hour markers",
           "bracelet": "Black rubber strap",
+          "caseSize": "42 mm",
+          "nickname": "Black with baton hour markers / Black rubber strap",
           "originalMSRP": null,
           "currentMSRP": null
         }
       ],
-      "material": "Black Ceramic",
+      "material": "Black ceramic",
       "sources": [
         "src/data/collectionRegistry.ts",
-        "src/data/verified-catalog-expansion.ts"
+        "src/data/photography-expansion.ts"
       ],
       "routes": [
         "/collections/hublot/classic-fusion/542-cm-1171-rx"
       ],
       "scope": "built-reference",
-      "existingImage": "/images/watch-reference-placeholder.svg",
+      "existingImage": "/images/watches/hublot/reviewed-542-cm-1171-rx-20261023-web.webp",
       "existingImageFilePresent": true,
-      "photoAssetId": null,
-      "status": "Requires Verification",
-      "sourceUrl": "https://www.hublot.com/en-ch/watches/classic-fusion/classic-fusion-black-magic-42-mm",
-      "licenseRecord": null,
-      "websiteApproved": false,
-      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+      "photoAssetId": "cleared-20261023-representative-rm-542-cm-1171-rx",
+      "status": "approved",
+      "sourceUrl": "https://www.watchfinder.co.uk/watches/hublot/classic-fusion/542-cm-1171-rx/421313",
+      "licenseRecord": "Direct founder answer call_30e10e821cae43b5875d77bae9aaa959: Yes.. Record docs/PHOTOGRAPHY_NEXT_FIVE_COMPLETE_RIGHTS_2026-10-23.json. Untouched RAW SHA256 4f3ffe363d8761f162cee8d81bd70315455990b5ce37916078a57fa722e6512d. Complete source and whiteWEB individually reviewed; all15archive hashes matched. Classical exterior filled silhouette. Original interior RGB retained; no generated, reconstructed, recolored or sharpened watch detail. Proportional resize and centered2400 white master/1200WEB. No price, availability or unspecified specs inferred. Preserved RAW file: 1XLWMlQ1lfTq0k_ESI9QUQEYzkTfv42tF. Pictured full reference 542.CM.1171.RX; Black ceramic, Black with baton hour markers, Black rubber strap. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
     },
     {
       "brand": "Hublot",
@@ -11394,31 +11405,33 @@
       "reference": "411.OX.1180.RX",
       "configurations": [
         {
-          "caseSize": "45 mm",
-          "movement": "HUB1242 automatic chronograph",
-          "dial": "Skeleton",
+          "dial": "Skeletonized chronograph",
           "bracelet": "Black rubber strap",
+          "caseSize": "45 mm",
+          "movement": "Automatic",
+          "waterResistance": "100 m",
+          "nickname": "Skeletonized chronograph / Black rubber strap",
           "originalMSRP": null,
           "currentMSRP": null
         }
       ],
-      "material": "18K King Gold",
+      "material": "18K rose gold",
       "sources": [
         "src/data/collectionRegistry.ts",
-        "src/data/verified-catalog-expansion.ts"
+        "src/data/photography-expansion.ts"
       ],
       "routes": [
         "/collections/hublot/big-bang-unico/411-ox-1180-rx"
       ],
       "scope": "built-reference",
-      "existingImage": "/images/watch-reference-placeholder.svg",
+      "existingImage": "/images/watches/hublot/reviewed-411-ox-1180-rx-20261023-web.webp",
       "existingImageFilePresent": true,
-      "photoAssetId": null,
-      "status": "Requires Verification",
-      "sourceUrl": "https://www.thewatchagency.com/hublot/bb-king/411-ox-1180-rx/62648",
-      "licenseRecord": null,
-      "websiteApproved": false,
-      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+      "photoAssetId": "cleared-20261023-representative-rm-411-ox-1180-rx",
+      "status": "approved",
+      "sourceUrl": "https://www.prestigetime.com/Hublot-Big-Bang-UNICO-45mm-411-ox-1180-rx.html",
+      "licenseRecord": "Direct founder answer call_30e10e821cae43b5875d77bae9aaa959: Yes.. Record docs/PHOTOGRAPHY_NEXT_FIVE_COMPLETE_RIGHTS_2026-10-23.json. Untouched RAW SHA256 60a8a06b91c65e0fb923e7cecdb0b52c2be87d24b07ae9ff8a37a73def67d36d. Complete source and whiteWEB individually reviewed; all15archive hashes matched. Classical exterior filled silhouette. Original interior RGB retained; no generated, reconstructed, recolored or sharpened watch detail. Proportional resize and centered2400 white master/1200WEB. No price, availability or unspecified specs inferred. Preserved RAW file: 1vtop_Bdr9DiqLgyaNmIFdRxuyaaNQtIG. Pictured full reference 411.OX.1180.RX; 18K rose gold, Skeletonized chronograph, Black rubber strap. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
     },
     {
       "brand": "Hublot",
@@ -11475,25 +11488,32 @@
           "waterResistance": "50 m",
           "originalMSRP": null,
           "currentMSRP": null
+        },
+        {
+          "dial": "Blue",
+          "bracelet": "Stainless-steel integrated bracelet",
+          "caseSize": "37 mm",
+          "nickname": "Blue / Stainless-steel integrated bracelet",
+          "originalMSRP": null,
+          "currentMSRP": null
         }
       ],
       "material": "Stainless Steel",
       "sources": [
-        "src/data/collectionRegistry.ts",
-        "src/data/launch-catalog.ts"
+        "src/data/collectionRegistry.ts"
       ],
       "routes": [
         "/collections/vacheron-constantin/historiques/4200h-222a-b934"
       ],
       "scope": "built-reference",
-      "existingImage": "/images/watch-reference-placeholder.svg",
+      "existingImage": "/images/watches/vacheron-constantin/reviewed-4200h-222a-b934-20261023-web.webp",
       "existingImageFilePresent": true,
-      "photoAssetId": null,
-      "status": "Requires Verification",
-      "sourceUrl": "https://www.vacheron-constantin.com/hk/en/collections/historiques/4200h-222a-b934.html",
-      "licenseRecord": null,
-      "websiteApproved": false,
-      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+      "photoAssetId": "cleared-20261023-representative-rm-4200h-222a-b934",
+      "status": "approved",
+      "sourceUrl": "https://wristaficionado.com/products/vacheron-constantin-historiques-222-4200h-222a-b934-stainless-steel-blue-dial-2025",
+      "licenseRecord": "Direct founder answer call_30e10e821cae43b5875d77bae9aaa959: Yes.. Record docs/PHOTOGRAPHY_NEXT_FIVE_COMPLETE_RIGHTS_2026-10-23.json. Untouched RAW SHA256 48282321bb0202e8bc0a41e6025eb175042d83afff26fff532a83ca260c5b06c. Complete source and whiteWEB individually reviewed; all15archive hashes matched. Classical exterior filled silhouette. Original interior RGB retained; no generated, reconstructed, recolored or sharpened watch detail. Proportional resize and centered2400 white master/1200WEB. No price, availability or unspecified specs inferred. Preserved RAW file: 1TILI2LXMVUZgtTx_28QTi0HQaPH4aAE6. Pictured full reference 4200H/222A-B934; Stainless Steel, Blue, Stainless-steel integrated bracelet. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
     },
     {
       "brand": "Vacheron Constantin",
@@ -14205,6 +14225,38 @@
       "photoAssetId": null,
       "status": "Requires Verification",
       "sourceUrl": "https://www.hublot.com/en-us/watches/big-bang/spirit-of-big-bang-titanium-42-mm",
+      "licenseRecord": null,
+      "websiteApproved": false,
+      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+    },
+    {
+      "brand": "Vacheron Constantin",
+      "collection": "Historiques",
+      "reference": "4200H/222A-B934",
+      "configurations": [
+        {
+          "caseSize": "37 mm",
+          "movement": "Self-winding calibre 2455/2",
+          "dial": "Matte Blue",
+          "bracelet": "Integrated stainless-steel bracelet",
+          "waterResistance": "50 m",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "Stainless Steel",
+      "sources": [
+        "src/data/launch-catalog.ts"
+      ],
+      "routes": [
+        "/collections/vacheron-constantin/historiques/4200h-222a-b934"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": null,
+      "status": "Requires Verification",
+      "sourceUrl": "https://www.vacheron-constantin.com/hk/en/collections/historiques/4200h-222a-b934.html",
       "licenseRecord": null,
       "websiteApproved": false,
       "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
@@ -20098,6 +20150,116 @@
       "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
     },
     {
+      "brand": "Vacheron Constantin",
+      "collection": "Historiques",
+      "reference": "4200H/222A-B934",
+      "configurations": [],
+      "material": "Stainless Steel",
+      "sources": [
+        "src/data/photography-cleared-sprint.ts"
+      ],
+      "routes": [
+        "/collections/vacheron-constantin/historiques/4200h-222a-b934"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": null,
+      "status": "Requires Verification",
+      "sourceUrl": null,
+      "licenseRecord": null,
+      "websiteApproved": false,
+      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+    },
+    {
+      "brand": "Hublot",
+      "collection": "Classic Fusion",
+      "reference": "542.CM.1171.RX",
+      "configurations": [],
+      "material": "Black ceramic",
+      "sources": [
+        "src/data/photography-cleared-sprint.ts"
+      ],
+      "routes": [
+        "/collections/hublot/classic-fusion/542-cm-1171-rx"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": null,
+      "status": "Requires Verification",
+      "sourceUrl": null,
+      "licenseRecord": null,
+      "websiteApproved": false,
+      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+    },
+    {
+      "brand": "Hublot",
+      "collection": "Big Bang Unico",
+      "reference": "411.OX.1180.RX",
+      "configurations": [],
+      "material": "18K rose gold",
+      "sources": [
+        "src/data/photography-cleared-sprint.ts"
+      ],
+      "routes": [
+        "/collections/hublot/big-bang-unico/411-ox-1180-rx"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": null,
+      "status": "Requires Verification",
+      "sourceUrl": null,
+      "licenseRecord": null,
+      "websiteApproved": false,
+      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+    },
+    {
+      "brand": "Richard Mille",
+      "collection": "RM 11",
+      "reference": "RM11-03",
+      "configurations": [],
+      "material": "Titanium",
+      "sources": [
+        "src/data/photography-cleared-sprint.ts"
+      ],
+      "routes": [
+        "/collections/richard-mille/rm-11/rm11-03"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": null,
+      "status": "Requires Verification",
+      "sourceUrl": null,
+      "licenseRecord": null,
+      "websiteApproved": false,
+      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+    },
+    {
+      "brand": "Omega",
+      "collection": "Seamaster Planet Ocean",
+      "reference": "232.63.42.21.01.001",
+      "configurations": [],
+      "material": "18K rose gold",
+      "sources": [
+        "src/data/photography-cleared-sprint.ts"
+      ],
+      "routes": [
+        "/collections/omega/planet-ocean/232-63-42-21-01-001"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": null,
+      "status": "Requires Verification",
+      "sourceUrl": null,
+      "licenseRecord": null,
+      "websiteApproved": false,
+      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+    },
+    {
       "brand": "Breitling",
       "collection": "Superocean",
       "reference": "A17376211B1A1",
@@ -25412,6 +25574,69 @@
       "status": "approved",
       "sourceUrl": "https://diamondsourcenyc.com/product/panerai-radiomir-45mm-watch-ref-pam00502-brown-index-dial-in-18k-rose-gold-case-brown-alligator-leather-strap/",
       "licenseRecord": "Direct founder answer call_220131d0cbd843e2807272b978d968a0: Yes.. Record docs/PHOTOGRAPHY_NEW_DEALER_FOUR_RIGHTS_2026-10-23.json. Untouched RAW SHA256 fcb6cc5697123faa78a86f622050249f4bc942fa68426f3907ac8738528cd362. Complete source and whiteWEB individually reviewed; all12archive hashes matched. Classical exterior filled silhouette. Original interior RGB retained; no generated, reconstructed, recolored or sharpened watch detail. Proportional resize and centered2400 white master/1200WEB. No price, availability or unspecified specs inferred. Preserved RAW file: 19mH__clOj12xc4c-R5sgCYD4otqTJ0RG. Pictured full reference PAM00502; 18K rose gold, Brown with luminous hour markers, Brown alligator leather strap. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
+      "brand": "Vacheron Constantin",
+      "collection": "Historiques",
+      "reference": "4200H/222A-B934",
+      "configurations": [
+        {
+          "dial": "Blue",
+          "bracelet": "Stainless-steel integrated bracelet",
+          "caseSize": "37 mm",
+          "nickname": "Blue / Stainless-steel integrated bracelet",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "Stainless Steel",
+      "sources": [
+        "src/data/photography-expansion.ts"
+      ],
+      "routes": [
+        "/collections/vacheron-constantin/historiques/4200h-222a-b934"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": "cleared-20261023-representative-rm-4200h-222a-b934",
+      "status": "approved",
+      "sourceUrl": "https://wristaficionado.com/products/vacheron-constantin-historiques-222-4200h-222a-b934-stainless-steel-blue-dial-2025",
+      "licenseRecord": "Direct founder answer call_30e10e821cae43b5875d77bae9aaa959: Yes.. Record docs/PHOTOGRAPHY_NEXT_FIVE_COMPLETE_RIGHTS_2026-10-23.json. Untouched RAW SHA256 48282321bb0202e8bc0a41e6025eb175042d83afff26fff532a83ca260c5b06c. Complete source and whiteWEB individually reviewed; all15archive hashes matched. Classical exterior filled silhouette. Original interior RGB retained; no generated, reconstructed, recolored or sharpened watch detail. Proportional resize and centered2400 white master/1200WEB. No price, availability or unspecified specs inferred. Preserved RAW file: 1TILI2LXMVUZgtTx_28QTi0HQaPH4aAE6. Pictured full reference 4200H/222A-B934; Stainless Steel, Blue, Stainless-steel integrated bracelet. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
+      "brand": "Richard Mille",
+      "collection": "RM 11",
+      "reference": "RM11-03",
+      "configurations": [
+        {
+          "dial": "Skeletonized chronograph with white numerals and green/yellow accents",
+          "bracelet": "White rubber strap",
+          "caseSize": "49.94 x 44.50 mm",
+          "movement": "Automatic",
+          "nickname": "Skeletonized chronograph with white numerals and green/yellow accents / White rubber strap",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "Titanium",
+      "sources": [
+        "src/data/photography-expansion.ts"
+      ],
+      "routes": [
+        "/collections/richard-mille/rm-11/rm11-03"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": "cleared-20261023-representative-rm-rm-11-03",
+      "status": "approved",
+      "sourceUrl": "https://mavaniandco.com/products/richard-mille-titanium-automatic-flyback-chronograph-rm11-03",
+      "licenseRecord": "Direct founder answer call_30e10e821cae43b5875d77bae9aaa959: Yes.. Record docs/PHOTOGRAPHY_NEXT_FIVE_COMPLETE_RIGHTS_2026-10-23.json. Untouched RAW SHA256 1f608500e249e53489dc83e884aea946731cb54a9ba240cbdaeea604f8a16691. Complete source and whiteWEB individually reviewed; all15archive hashes matched. Classical exterior filled silhouette. Original interior RGB retained; no generated, reconstructed, recolored or sharpened watch detail. Proportional resize and centered2400 white master/1200WEB. No price, availability or unspecified specs inferred. Preserved RAW file: 156mNDfQBrpocokszZatcDARqemC_X886. Pictured full reference RM 11-03; Titanium, Skeletonized chronograph with white numerals and green/yellow accents, White rubber strap. Exact configuration reviewed against preserved source evidence and the original photograph.",
       "websiteApproved": true,
       "nextAction": "Retain approved original and verify derivative integrity."
     },
@@ -31104,6 +31329,37 @@
     {
       "brand": "Hublot",
       "collection": "Classic Fusion",
+      "reference": "542.CM.1171.RX",
+      "configurations": [
+        {
+          "caseSize": "42 mm",
+          "movement": "HUB1110 automatic",
+          "dial": "Matte Black",
+          "bracelet": "Black rubber strap",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "Black Ceramic",
+      "sources": [
+        "src/data/verified-catalog-expansion.ts"
+      ],
+      "routes": [
+        "/collections/hublot/classic-fusion/542-cm-1171-rx"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": null,
+      "status": "Requires Verification",
+      "sourceUrl": "https://www.hublot.com/en-ch/watches/classic-fusion/classic-fusion-black-magic-42-mm",
+      "licenseRecord": null,
+      "websiteApproved": false,
+      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+    },
+    {
+      "brand": "Hublot",
+      "collection": "Classic Fusion",
       "reference": "542.CX.1270.RX.MDM",
       "configurations": [
         {
@@ -31503,6 +31759,37 @@
       "licenseRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for these exact 35 originals and their white-background derivatives, with no additional restrictions, in the existing Website/Product chat on October 14, 2026. Record docs/PHOTOGRAPHY_ADDITIONAL35_FOUNDER_RIGHTS_2026-10-14.json. Exact configuration, authentic RAW and full-resolution derivative visually reviewed; source credits retained separately. Preserved RAW file: 1ccO_dIiWyzolrfe4moBNdoCqJhRRAn3F. Pictured full reference 215.30.44.21.04.001; Stainless Steel, White ceramic with orange bezel, Stainless-steel bracelet. Exact configuration reviewed against preserved source evidence and the original photograph.",
       "websiteApproved": true,
       "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
+      "brand": "Omega",
+      "collection": "Planet Ocean",
+      "reference": "232.63.42.21.01.001",
+      "configurations": [
+        {
+          "caseSize": "42 mm",
+          "movement": "Omega 8501 automatic",
+          "dial": "Black",
+          "bracelet": "Black alligator leather strap",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "18K red gold",
+      "sources": [
+        "src/data/verified-catalog-expansion.ts"
+      ],
+      "routes": [
+        "/collections/omega/planet-ocean/232-63-42-21-01-001"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": null,
+      "status": "Requires Verification",
+      "sourceUrl": "https://www.omegawatches.com.hk/en-hk/watch-omega-seamaster-planet-ocean-600m-omega-co-axial-42-mm-23263422101001",
+      "licenseRecord": null,
+      "websiteApproved": false,
+      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
     },
     {
       "brand": "Franck Muller",
@@ -33394,6 +33681,37 @@
       "licenseRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for the19-imageZIP originals and white-background derivatives, with no restrictions, in response call_24a179ab128748dbb94a78640e6a1543. Record docs/PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json. Native photograph crop upload-02-hublot-ceramic.png (SHA256 10ae12889600bcd03dfaf422fd09f3c188183f74e3483405d77b8f9e7f02f746) from Screenshot_20260914_123538_Google.jpg (parent SHA256 c267894618c15e1503ec5a3b33a06ff701caede98d5b5391431d18ecba9fba41). RAW archive contains explicitly labeled native watch crops; full private screenshot is preserved locally only. Whole watch, exact configuration and final image individually reviewed. Native source resolution retained without invented or sharpened detail; no ownership, celebrity or unique-edition provenance inferred. Separate manufacturer/reference specification source retained. Preserved RAW file: 1PW6uo43c6HDLM8OC5SOQ__Phr7G75TOn. Pictured full reference 411.OM.1180.RX; 18K King Gold with black ceramic bezel, Skeleton, Black rubber strap. Exact configuration reviewed against preserved source evidence and the original photograph.",
       "websiteApproved": true,
       "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
+      "brand": "Hublot",
+      "collection": "Big Bang Unico",
+      "reference": "411.OX.1180.RX",
+      "configurations": [
+        {
+          "caseSize": "45 mm",
+          "movement": "HUB1242 automatic chronograph",
+          "dial": "Skeleton",
+          "bracelet": "Black rubber strap",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "18K King Gold",
+      "sources": [
+        "src/data/verified-catalog-expansion.ts"
+      ],
+      "routes": [
+        "/collections/hublot/big-bang-unico/411-ox-1180-rx"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": null,
+      "status": "Requires Verification",
+      "sourceUrl": "https://www.thewatchagency.com/hublot/bb-king/411-ox-1180-rx/62648",
+      "licenseRecord": null,
+      "websiteApproved": false,
+      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
     },
     {
       "brand": "Ulysse Nardin",

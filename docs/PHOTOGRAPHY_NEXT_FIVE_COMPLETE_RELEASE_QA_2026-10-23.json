@@ -1,0 +1,129 @@
+{
+  "checkedAt": "2026-10-24T02:36:34.454330+00:00",
+  "checks": [
+    {
+      "check": "nonomega-queue-sync",
+      "exitCode": 0,
+      "logFileName": "next-five-complete-20261023-nonomega-queue-sync.log"
+    },
+    {
+      "check": "omega-queue-sync",
+      "exitCode": 0,
+      "logFileName": "next-five-complete-20261023-omega-queue-sync.log"
+    },
+    {
+      "check": "astro-check",
+      "exitCode": 0,
+      "logFileName": "next-five-complete-20261023-astro-check.log"
+    },
+    {
+      "check": "regressions",
+      "exitCode": 0,
+      "logFileName": "next-five-complete-20261023-regressions.log"
+    },
+    {
+      "check": "omega-audit",
+      "exitCode": 0,
+      "logFileName": "next-five-complete-20261023-omega-audit.log"
+    },
+    {
+      "check": "omega-queue-check",
+      "exitCode": 0,
+      "logFileName": "next-five-complete-20261023-omega-queue-check.log"
+    },
+    {
+      "check": "expansion-audit",
+      "exitCode": 0,
+      "logFileName": "next-five-complete-20261023-expansion-audit.log"
+    },
+    {
+      "check": "build",
+      "exitCode": 0,
+      "logFileName": "next-five-complete-20261023-build.log"
+    },
+    {
+      "check": "inventory",
+      "exitCode": 0,
+      "logFileName": "next-five-complete-20261023-inventory.log"
+    },
+    {
+      "check": "full-audit",
+      "exitCode": 0,
+      "logFileName": "next-five-complete-20261023-full-audit.log"
+    }
+  ],
+  "builtMapping": {
+    "checkedAt": "2026-10-24T02:36:27.568327+00:00",
+    "mode": "built",
+    "exactReferencesChecked": 5,
+    "rows": [
+      {
+        "reference": "4200H/222A-B934",
+        "route": "/collections/vacheron-constantin/historiques/4200h-222a-b934",
+        "imageSha256": "9f95df63d0059e2f7ca87898364c8f3047e5a4d201a0a84baa34440bf47f4378",
+        "exactConfiguration": true,
+        "collectionGrid": true,
+        "inquiryContext": true,
+        "separateCredits": true,
+        "noImageCaptionOverlay": true
+      },
+      {
+        "reference": "542.CM.1171.RX",
+        "route": "/collections/hublot/classic-fusion/542-cm-1171-rx",
+        "imageSha256": "67e402cfa63edd92d335fa83956b90b03fe1ffa2162b1e36dbe473b71661beac",
+        "exactConfiguration": true,
+        "collectionGrid": true,
+        "inquiryContext": true,
+        "separateCredits": true,
+        "noImageCaptionOverlay": true
+      },
+      {
+        "reference": "411.OX.1180.RX",
+        "route": "/collections/hublot/big-bang-unico/411-ox-1180-rx",
+        "imageSha256": "7225e7d92c58466236ae6d7d787457be886996b463f53337aec5ee39d24b5e82",
+        "exactConfiguration": true,
+        "collectionGrid": true,
+        "inquiryContext": true,
+        "separateCredits": true,
+        "noImageCaptionOverlay": true
+      },
+      {
+        "reference": "RM11-03",
+        "route": "/collections/richard-mille/rm-11/rm11-03",
+        "imageSha256": "2ead4e6650dc79b608953b7561faff39ed95896218d24a61e68fe33066dcdaa7",
+        "exactConfiguration": true,
+        "collectionGrid": true,
+        "inquiryContext": true,
+        "separateCredits": true,
+        "noImageCaptionOverlay": true
+      },
+      {
+        "reference": "232.63.42.21.01.001",
+        "route": "/collections/omega/planet-ocean/232-63-42-21-01-001",
+        "imageSha256": "0c8061f0446fd52d306986ae51ed61f4f2ec45d63c3541511285dee9df09eb27",
+        "exactConfiguration": true,
+        "collectionGrid": true,
+        "inquiryContext": true,
+        "separateCredits": true,
+        "noImageCaptionOverlay": true
+      }
+    ],
+    "publicFlowsAvailable": true,
+    "leadDataSafety": "Public GET checks only. No new lead submissions, private lead reads, runtime data or disk changes."
+  },
+  "tests": {
+    "total": 315,
+    "passed": 314,
+    "skipped": 1,
+    "failed": 0
+  },
+  "astro": {
+    "errors": 0,
+    "warnings": 0,
+    "existingHints": 18
+  },
+  "status": "Built checks passed; independent production verification pending",
+  "archiveReadbacksVerified": 15,
+  "rights": "Direct founder answer call_30e10e821cae43b5875d77bae9aaa959: Yes. No restrictions specified in answer.",
+  "nativeQuality": "VC/AP-style bracelet source2160,WatchfinderHublot1500x1920,RM2160;Hublot411681x1000;OmegaPlanetOcean377x608 nativebytes reviewed at intended use. No highresolutionclaim, sharpening or synthesis. Complete originalstrapends contained within originalframe; priorclippedHublot sources held."
+}
