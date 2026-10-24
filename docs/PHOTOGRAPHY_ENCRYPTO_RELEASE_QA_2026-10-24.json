@@ -1,6 +1,6 @@
 {
   "checkedAt": "2026-10-24T04:34:04.361028+00:00",
-  "status": "Build and exact mapping checks passed; deployment and live desktop/mobile verification pending",
+  "status": "LIVE and independently verified; featured catalog photography fully populated",
   "checks": [
     {
       "check": "nonomega-queue-sync",
@@ -65,5 +65,99 @@
   },
   "builtReferenceURLs": 297,
   "builtPhotographedCollections": 104,
-  "leadSafety": "Public GET/build checks only; no test leads or private customer data operations."
+  "leadSafety": "Public GET/build checks only; no test leads or private customer data operations.",
+  "verifiedAt": "2026-10-24T04:41:58.392088+00:00",
+  "productionRelease": {
+    "commit": "046043182b56afe7aca45d7ebb0e0f99efaace74",
+    "deployId": "dep-dbe3aj0473hc73bmqmt0",
+    "status": "LIVE",
+    "referenceRoutesVerified": 297,
+    "photographedReferenceRoutes": 297,
+    "queuedReferenceRoutes": 0,
+    "distinctPhotoFilesVerified": 293,
+    "photographedCollections": 104
+  },
+  "liveVerificationSummary": {
+    "verifiedAt": "2026-10-24T04:36:08.276812+00:00",
+    "expectedDistinctReferenceRoutes": 297,
+    "verifiedReferenceRoutes": 297,
+    "approvedDistinctReferenceRoutes": 297,
+    "verifiedDistinctPhotoFiles": 293,
+    "queuedDistinctReferenceRoutes": 0,
+    "errors": [],
+    "publicFlows": [
+      {
+        "route": "/collections",
+        "status": "verified"
+      },
+      {
+        "route": "/complications/tourbillon",
+        "status": "verified"
+      },
+      {
+        "route": "/begin-your-quest",
+        "status": "verified"
+      },
+      {
+        "route": "/photography-credits",
+        "status": "verified"
+      },
+      {
+        "route": "/api/health",
+        "status": "verified"
+      }
+    ],
+    "leadSafety": "Read-only public-route checks; no customer records read or submissions created."
+  },
+  "desktopMobileReview": {
+    "reviewedAt": "2026-10-24T04:37:02.507Z",
+    "desktop": {
+      "figcaptions": 0,
+      "images": [
+        {
+          "loaded": true,
+          "naturalWidth": 160,
+          "src": "/images/quest-luxo-logo.webp"
+        },
+        {
+          "loaded": true,
+          "naturalWidth": 1200,
+          "src": "/images/watches/franck-muller/reviewed-v-45-sc-dt-btc-tt-br-nr-20261024-web.webp"
+        }
+      ],
+      "scrollWidth": 1265,
+      "width": 1280
+    },
+    "mobile": {
+      "figcaptions": 0,
+      "height": 844,
+      "images": [
+        {
+          "loaded": true,
+          "naturalWidth": 160,
+          "src": "/images/quest-luxo-logo.webp"
+        },
+        {
+          "loaded": true,
+          "naturalWidth": 1200,
+          "src": "/images/watches/franck-muller/reviewed-v-45-sc-dt-btc-tt-br-nr-20261024-web.webp"
+        }
+      ],
+      "scrollWidth": 375,
+      "width": 390
+    },
+    "visualReviewPassed": true,
+    "notes": "Complete genuine watch/crown/returning strap/clasp centered on white. Image loaded1200px, no figcaptions or overlays and no horizontal overflow. Public reference and no form submission."
+  },
+  "masterReview": {
+    "pages": 93,
+    "historicalPagesPixelUnchanged": 92,
+    "newPageVisuallyReviewed": 93,
+    "sha256": "56070f97483c7752e4de9d181c3f84b6714f0aa80ab8be6a89384484cbbedd4e",
+    "canonicalDriveFileId": "1KEWRyRu7SquTjVb1TgF_cCn_Zux5td17",
+    "driveReadbackVerified": true
+  },
+  "sourceEvidenceArchiveReadbackVerified": true,
+  "additionalUnidentifiedUploadsHeld": 6,
+  "fullSuite": "Previous316-test full regression baseline passed315 with1platform skip. Final data-only release ran18relevant photography tests, all passed."
 }

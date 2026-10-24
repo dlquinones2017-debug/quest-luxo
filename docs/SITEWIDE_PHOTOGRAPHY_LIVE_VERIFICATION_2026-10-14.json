@@ -1,10 +1,10 @@
 {
-  "verifiedAt": "2026-10-24T03:42:04.599114+00:00",
+  "verifiedAt": "2026-10-24T04:36:08.276812+00:00",
   "expectedDistinctReferenceRoutes": 297,
   "verifiedReferenceRoutes": 297,
-  "approvedDistinctReferenceRoutes": 296,
-  "verifiedDistinctPhotoFiles": 292,
-  "queuedDistinctReferenceRoutes": 1,
+  "approvedDistinctReferenceRoutes": 297,
+  "verifiedDistinctPhotoFiles": 293,
+  "queuedDistinctReferenceRoutes": 0,
   "errors": [],
   "pages": [
     {
@@ -1319,7 +1319,7 @@
     },
     {
       "route": "/collections/franck-muller/vanguard-encrypto/v-45-sc-dt-btc-tt-br-nr",
-      "approved": false,
+      "approved": true,
       "status": "verified"
     },
     {
@@ -2782,6 +2782,11 @@
     {
       "path": "/images/watches/omega/reviewed-311-92-44-51-01-003-20261023-web.webp",
       "sha256": "266a2d0d8fbee7ce5a4dabbc2b1914634e156801124de261c5f8a364ded72889",
+      "status": "verified"
+    },
+    {
+      "path": "/images/watches/franck-muller/reviewed-v-45-sc-dt-btc-tt-br-nr-20261024-web.webp",
+      "sha256": "c0c116d8680c48d3333999553aa7a0e7b398b8880ee028e938293fdb1c87be5b",
       "status": "verified"
     },
     {

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-24T03:45:09.990172+00:00",
+  "updatedAt": "2026-10-24T04:41:58.392088+00:00",
   "purpose": "Preserve direct founder exact-source rights decisions across the ongoing October23/24 releases; prior evidence retained. No rights inferred from public accessibility.",
   "records": [
     {
@@ -379,6 +379,20 @@
           "exactSKU": "310.32.42.50.01.002",
           "sourceUrl": "https://brentmiller.com/products/moonwatch-professional-co-axial-master-chronometer-chronograph-42-mm-1",
           "rawSha256": "1db95f81b063f0886cd51f841816673cdeeb9c0531b4651d56bc40c64de3f27e"
+        }
+      ]
+    },
+    {
+      "confirmedAt": "2026-10-24T04:30:48.048321+00:00",
+      "questionId": "call_6b15cd2f2e3b4b398612cd3895dec22b",
+      "directFounderAnswer": "Rights cover the original and derivative; no restrictions",
+      "sourceLedgerDriveFileId": "1KdDvVp7jnxH5lKoDHdwi9giE-lV4_ePJ",
+      "references": [
+        {
+          "reference": "V 45 SC DT BTC TT BR (NR)",
+          "sourceUrl": "https://timeserieswatch.com.my/product/franck-muller-30/",
+          "rawSha256": "a5b73864d35231cacda7e78d5921830c061b3690d17d5e9b70f32c7732d617ca",
+          "webSha256": "c0c116d8680c48d3333999553aa7a0e7b398b8880ee028e938293fdb1c87be5b"
         }
       ]
     }
