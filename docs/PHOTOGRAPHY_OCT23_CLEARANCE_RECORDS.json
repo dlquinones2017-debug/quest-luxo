@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-24T04:41:58.392088+00:00",
+  "updatedAt": "2026-10-24T05:22:25.345081+00:00",
   "purpose": "Preserve direct founder exact-source rights decisions across the ongoing October23/24 releases; prior evidence retained. No rights inferred from public accessibility.",
   "records": [
     {
@@ -395,6 +395,20 @@
           "webSha256": "c0c116d8680c48d3333999553aa7a0e7b398b8880ee028e938293fdb1c87be5b"
         }
       ]
+    },
+    {
+      "confirmedAt": "2026-10-24T05:20:25.641766+00:00",
+      "questionId": "call_441d0f9b351049c3bd832f97ecb5ae61",
+      "directFounderAnswer": "Rights cover this original and derivative; no restrictions",
+      "references": [
+        {
+          "reference": "V 45 SC DT BTC TT BR (NR)",
+          "sourceUrl": "https://dream-watch.ae/en/swiss-watches/vanguard-encrypto2",
+          "rawSha256": "bf7fbb3fb29a1009c3e1ce2b98ac53dacec804c24eb85f0d2250a40c41468845",
+          "webSha256": "f33525dfab81a994c6d69406eeafa4645ef91aa32eae0bf46f6dfc7b7a2361ef"
+        }
+      ],
+      "replaces": "Angled Time Series hero disapproved for orientation; its separate rights and originals remain preserved."
     }
   ],
   "representativeSelection": {

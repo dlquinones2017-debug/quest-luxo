@@ -5775,16 +5775,16 @@ export const clearedSprintPhotographySeeds: readonly PhotographySeed[] = [
     "material": "Titanium",
     "configuration": {
       "dial": "Black carbon-pattern Bitcoin QR dial, un-set motif",
-      "bracelet": "Black alligator/rubber strap with contrasting stitching"
+      "bracelet": "Black rubber strap"
     },
     "sourceUrl": "https://www.franckmuller.com/fr/vanguard-encrypto-",
-    "photographSourceUrl": "https://timeserieswatch.com.my/product/franck-muller-30/",
-    "src": "/images/watches/franck-muller/reviewed-v-45-sc-dt-btc-tt-br-nr-20261024-web.webp",
-    "sha256": "c0c116d8680c48d3333999553aa7a0e7b398b8880ee028e938293fdb1c87be5b",
-    "rawDriveFileId": "1NbHChaagysBgt5YeHSObzWPzJuBZHef1",
-    "clearanceRecord": "Direct founder response call_6b15cd2f2e3b4b398612cd3895dec22b: Rights cover the original and derivative; no restrictions. Record docs/PHOTOGRAPHY_ENCRYPTO_RIGHTS_2026-10-24.json. Native3000x4000 RAW SHA256 a5b73864d35231cacda7e78d5921830c061b3690d17d5e9b70f32c7732d617ca. Complete genuine watch, crown, returning strap and clasp individually reviewed; unredacted QR detail and un-set Bitcoin motif. Manufacturer titanium reference and dealer gallery identity verified; inaccurate dealer stainless-steel text not adopted. Contrasting stitching retained as photographed, never recolored. All3RAW/WHITE/WEB archive readbacks match. Classical exterior silhouette; original watch interior RGB retained. Whole photograph rotated90degrees clockwise, proportionally resized and centered on2400white/1200WEB. No watch detail generated, reconstructed, recolored or sharpened; no watermark removed. No price, availability or undocumented specs inferred.",
-    "sourceProvider": "Time Series watch photography",
+    "photographSourceUrl": "https://dream-watch.ae/en/swiss-watches/vanguard-encrypto2",
+    "src": "/images/watches/franck-muller/reviewed-v-45-sc-dt-btc-tt-br-nr-forward-20261024-web.webp",
+    "sha256": "f33525dfab81a994c6d69406eeafa4645ef91aa32eae0bf46f6dfc7b7a2361ef",
+    "rawDriveFileId": "18Nl_0M5VTbd8yVX0AFn2fB6cEmPKVJM8",
+    "clearanceRecord": "Direct founder response call_441d0f9b351049c3bd832f97ecb5ae61: Rights cover this original and derivative; no restrictions. Record docs/PHOTOGRAPHY_ENCRYPTO_FORWARD_RIGHTS_2026-10-24.json. Native1200x1440 untouched source SHA256 bf7fbb3fb29a1009c3e1ce2b98ac53dacec804c24eb85f0d2250a40c41468845. Clear forward-facing exact-reference presentation reviewed with visible dial/QR, crown and supplied strap silhouette inside white margins. Dealer-listed black rubber strap accurately labeled; prior alligator image not reused. All3RAW/WHITE/WEB archive hashes match. Classical exterior background masking, proportionally resized and centered2400white/1200WEB. No generated, reconstructed, sharpened, perspective-warped or recolored watch detail; no watermark removal. Front view retained exactly as supplied. No price, availability or undocumented specifications inferred. Replaces the founder-disapproved angled Time Series hero; original rights and archives preserved.",
+    "sourceProvider": "Dream Watch product imagery",
     "reviewedAt": "2026-10-24",
-    "assetId": "cleared-20261024-franck-muller-encrypto-timeseries"
+    "assetId": "cleared-20261024-franck-muller-encrypto-forward-dream-watch"
   }
 ];
