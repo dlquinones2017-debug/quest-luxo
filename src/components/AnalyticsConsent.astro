@@ -38,7 +38,7 @@ const measurementId = "G-PJPDS9FJVT";
       if (window.__questLuxoAnalyticsStarted) return;
       window.__questLuxoAnalyticsStarted = true;
       // Never expose query-string or fragment context to the visitor SDK.
-      if (!location.search && !location.hash && !window.__questLuxoApolloStarted) {
+      if (location.hostname === "questluxo.com" && !location.search && !location.hash && !window.__questLuxoApolloStarted) {
         window.__questLuxoApolloStarted = true;
         const apollo = document.createElement("script");
         apollo.src = "https://assets.apollo.io/micro/website-tracker/tracker.iife.js?nocache=" + Math.random().toString(36).substring(7);
