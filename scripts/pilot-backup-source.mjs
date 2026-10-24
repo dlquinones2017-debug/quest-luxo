@@ -5,6 +5,8 @@ import { readDurablePipelines } from '../src/lib/command/enterpriseDurablePipeli
 import { readEncryptedIntakeJournal } from '../src/lib/command/enterpriseIntakeJournal.ts';
 import { readCRMPreparationJournal } from '../src/lib/command/crmPreparationJournal.ts';
 import { authenticateSyntheticRecovery } from './pilot-independent-recovery.mjs';
+import { readCRMDeliveryOutbox } from '../src/lib/command/crmDeliveryOutbox.ts';
+import { authenticateOutboxArchive } from './crm-outbox-independent-recovery.mjs';
 import { authenticatePreparationArchive } from './crm-preparation-independent-recovery.mjs';
 
 async function privateRead(directory, filename) {
@@ -20,16 +22,18 @@ async function privateRead(directory, filename) {
   } finally { await handle.close(); }
 }
 /** Export only authenticated fixed synthetic fixtures that match their current primaries. */
-export async function readSyntheticBackupBundle(root,key) {
+export async function readSyntheticBackupBundle(root,key,{includeOutbox=false}={}) {
+  if(typeof includeOutbox!=='boolean') throw Error('Explicit backup profile required.');
   const pipeline=await readDurablePipelines(join(root,'synthetic'),key);
   const intake=await readEncryptedIntakeJournal(join(root,'synthetic-intake'),key);
   const preparation=await readCRMPreparationJournal(join(root,'synthetic-crm-preparation'),key);
   const specs=[['pipeline',pipeline.revision,'retained','snapshot-'],['intake',intake.revision,'retained-intake','intake-'],['preparation',preparation.revision,'retained-crm-preparation','preparation-']];
+  if(includeOutbox){const outbox=await readCRMDeliveryOutbox(join(root,'synthetic-crm-outbox'),key);specs.push(['outbox',outbox.revision,'retained-crm-outbox','outbox-']);}
   const archives=[];
   for(const [kind,revision,folder,prefix] of specs){
     if(!/^[a-f0-9]{64}$/.test(revision)) throw Error('Current retained primary required.');
     const bytes=await privateRead(join(root,folder),prefix+revision+'.backup.json');
-    const proof=kind==='preparation'?authenticatePreparationArchive(bytes,key):authenticateSyntheticRecovery(bytes,key,kind);
+    const proof=kind==='outbox'?authenticateOutboxArchive(bytes,key):kind==='preparation'?authenticatePreparationArchive(bytes,key):authenticateSyntheticRecovery(bytes,key,kind);
     if(proof.revision!==revision) throw Error('Current primary mismatch.');
     archives.push({kind,revision,sha256:createHash('sha256').update(bytes).digest('hex'),archive:bytes.toString('utf8')});
   }

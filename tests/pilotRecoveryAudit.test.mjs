@@ -100,3 +100,26 @@ test('only authenticated private checkpoint reader supplies recurring evidence a
     assert.equal(assessPilotRecovery(recurringState,null,now,await readRecurringCheckpoint(root,key,Date.parse(now))).independentBackupVerified,false);
   }finally{key.fill(0);await rm(root,{recursive:true,force:true});}
 });
+
+test('required fourth outbox profile never upgrades three-profile proof to recurring coverage',()=>{
+ const withOutbox={...recurringState,outboxRevision:'e'.repeat(64)},old=assessPilotRecovery(withOutbox,null,now,recurringProof());
+ assert.equal(old.independentBackupVerified,true);assert.equal(old.recurringOffsiteRetentionVerified,false);assert.equal(old.retention,'ONE_TIME_OFFSITE_COPY');
+ assert.deepEqual(old.requiredActions,['RECURRING_OFFSITE_RETENTION','AUTHORIZED_BUSINESS_SOURCE']);
+ const four=recurringProof();four.archives.push({kind:'outbox',revision:withOutbox.outboxRevision,sha256:'f'.repeat(64)});four.archives.sort((a,b)=>a.kind.localeCompare(b.kind));
+ const current=assessPilotRecovery(withOutbox,null,now,four);assert.equal(current.recurringOffsiteRetentionVerified,true);assert.deepEqual(current.requiredActions,['AUTHORIZED_BUSINESS_SOURCE']);
+ assert.equal(current.retention,'RECURRING_INDEPENDENT_COPIES');assert.equal(current.recoveryValidUntil,'2026-10-22T09:16:08.602Z');
+ assert.equal(assessPilotRecovery({...withOutbox,outboxRevision:'f'.repeat(64)},null,now,four).recurringOffsiteRetentionVerified,false);
+ assert.equal(assessPilotRecovery(withOutbox,null,'2026-10-22T09:16:08.603Z',four).independentBackupVerified,false);
+ for(const patch of [{archives:four.archives.filter(a=>a.kind!=='preparation')},{archives:four.archives.map(a=>a.kind==='outbox'?{...a,kind:'intake'}:a)}])
+  assert.throws(()=>assessPilotRecovery(withOutbox,null,now,{...four,...patch}));
+ assert.throws(()=>assessPilotRecovery({...state,outboxRevision:'e'.repeat(64)},null,now,four));
+});
+test('health coverage count follows fresh required three/four-store recovery and withdraws expired proof',async()=>{
+ for(const expected of [3,4]){
+  let fresh=true;const server=createPilotHealthServer({healthy:()=>true},null,null,()=>({state:'CURRENT',report:{independentBackupVerified:true,recurringOffsiteRetentionVerified:fresh,recoveryValidUntil:new Date(Date.now()+60000).toISOString()}}),null,null,expected);
+  await new Promise(resolve=>server.listen(0,'127.0.0.1',resolve));
+  try{const get=async()=> (await fetch(`http://127.0.0.1:${server.address().port}/healthz`)).json();assert.equal((await get()).recurringBackupStoreCount,expected);fresh=false;assert.equal((await get()).recurringBackupStoreCount,0);}
+  finally{await new Promise(resolve=>server.close(resolve));}
+ }
+ for(const bad of [0,5,'4',null])assert.throws(()=>createPilotHealthServer({healthy:()=>true},null,null,null,null,null,bad));
+});

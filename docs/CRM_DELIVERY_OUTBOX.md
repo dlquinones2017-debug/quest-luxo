@@ -1,6 +1,6 @@
 # Durable source bindings and internal delivery outbox
 
-Status: implemented and fixture-tested source component. No production caller, source reader, CRM network client, runtime initialization or scheduled dispatcher is added. Existing canonical lead stores, capture, notifications, five operational pilot roles and three-store recurring backups are unchanged.
+Status: implemented and fixture-tested source component. No production caller, source reader, CRM network client or business dispatcher is added. The explicit isolated-pilot operator added for recovery validation accepts only a fixed synthetic fixture. Existing canonical lead stores, capture, notifications and five operational pilot roles remain unchanged. The existing recurring backup channel supports an explicitly selected fourth synthetic profile.
 
 ## Source projection
 
@@ -36,4 +36,8 @@ Capital and Realty remain separate Sites projects, with their own form architect
 
 Run `node --test tests/crmDeliveryOutbox*.test.mjs tests/luxuryCRMSourceBinding.test.mjs` and `node scripts/demo-crm-outbox.mjs`. The demonstration uses an ephemeral private directory and random key, fixtures, a simulated acknowledgement, and a separate Node process reading a copy of the full encrypted recovery pair. It verifies pending work survives after one simulated acknowledgement. It makes zero network calls and reports zero real CRM deliveries; temporary fixture files are removed afterward.
 
-This new ledger is a fourth encrypted format. Existing pilot offsite proof covers pipeline, intake and CRM preparation only. It does **not** certify this outbox. Before runtime activation: add authenticated export/restore coverage for the full recovery pair, independently verify retained recovery, establish current source and target mappings, wire approved unattended provider credentials and implement uncertain-outcome reconciliation. Keep this source-only branch separate from production and the live pilot until those release requirements are met.
+This ledger has a dedicated fourth backup format. `exportCRMDeliveryOutboxBackup` captures the pair under the source lock and verifies ciphertext revision, initialization intent and state counts. `restoreCRMDeliveryOutboxBackup` authenticates a staged pair before publishing a new target under a target lock. Existing targets are preserved. Portable directory publication requires a trusted private parent against noncooperating filesystem changes; that boundary is documented in the implementation. Manifest creation time is informational; authenticated ledger-derived sequence/counts are checked against decrypted contents.
+
+The optional pilot outbox profile and five-module Windows verifier can now independently recover the exact synthetic pair through the existing authenticated channel. Its scope must be operationally verified with two actual automatic cycles before counting it as recurring four-store recovery. Default three-store proof remains insufficient for the outbox. See `PILOT_RECURRING_BACKUP.md` for the explicit profile selection and task update requirements.
+
+Business activation still requires reviewed source and target mappings, approved unattended provider credentials, an authenticated provider adapter, and uncertain-outcome reconciliation. Synthetic acknowledgement and backup recovery do not grant those permissions or establish real CRM delivery. The generic outbox remains unconnected to production capture.
