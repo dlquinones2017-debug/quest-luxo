@@ -5292,5 +5292,100 @@ export const clearedSprintPhotographySeeds: readonly PhotographySeed[] = [
     "sourceProvider": "Richard Mille manufacturer",
     "reviewedAt": "2026-10-23",
     "assetId": "cleared-20261023-representative-rm-rm-27-05"
+  },
+  {
+    "brand": "Richard Mille",
+    "brandSlug": "richard-mille",
+    "collection": "RM 67",
+    "reference": "RM 67-01",
+    "exactReference": "RM 67-01",
+    "model": "RM 67-01 Automatic Extra Flat",
+    "material": "Titanium",
+    "configuration": {
+      "dial": "Skeletonized",
+      "bracelet": "Black rubber strap",
+      "caseSize": "38.70 x 47.52 mm",
+      "movement": "Automatic"
+    },
+    "sourceUrl": "https://mavaniandco.com/products/richard-mille-titanium-rm67-01",
+    "src": "/images/watches/richard-mille/reviewed-rm-67-01-20261023-web.webp",
+    "sha256": "cbafda30a26c804036b0b712dc50a17e86ac5be9c929feab590b1de914fe7d35",
+    "rawDriveFileId": "1qM8023aauD--jTgcd4emTGVMEjedxCXw",
+    "clearanceRecord": "Direct founder answer call_220131d0cbd843e2807272b978d968a0: Yes.. Record docs/PHOTOGRAPHY_NEW_DEALER_FOUR_RIGHTS_2026-10-23.json. Untouched RAW SHA256 6350e48b975e52cd2b6fb3556b71e2b1036cb99d96e84ac38e17938b18ed8d44. Complete source and whiteWEB individually reviewed; all12archive hashes matched. Classical exterior silhouette retaining all significant original watch/strap components and their unchanged native RGB. Native neutral cast shadow outside the lower Constellation strap excluded. Proportional resize and centered2400white master/1200WEB; no generated, reconstructed, recolored or sharpened watch detail. No price, availability or unspecified specs inferred.",
+    "sourceProvider": "Mavani & Co",
+    "reviewedAt": "2026-10-23",
+    "assetId": "cleared-20261023-representative-rm-rm-67-01"
+  },
+  {
+    "brand": "Omega",
+    "brandSlug": "omega",
+    "collection": "Seamaster Diver 300M",
+    "reference": "210.62.42.20.03.001",
+    "exactReference": "210.62.42.20.03.001",
+    "model": "Seamaster Diver 300M Blue Sedna Gold Rubber",
+    "material": "18K rose gold",
+    "configuration": {
+      "dial": "Blue ceramic wave",
+      "bracelet": "Blue rubber strap",
+      "caseSize": "42 mm",
+      "movement": "Omega 8801 automatic",
+      "waterResistance": "300 m"
+    },
+    "sourceUrl": "https://www.jomashop.com/omega-watch-210-62-42-20-03-001.html",
+    "src": "/images/watches/omega/reviewed-210-62-42-20-03-001-20261023-web.webp",
+    "sha256": "c93c68d961a4b1c7af4c7dcd3f3b8928a7ae4391fd660f30f4a9037213213cb0",
+    "rawDriveFileId": "1uVSfV7ui7AweNdQvcoP91CIlfPQIum6y",
+    "clearanceRecord": "Direct founder answer call_220131d0cbd843e2807272b978d968a0: Yes.. Record docs/PHOTOGRAPHY_NEW_DEALER_FOUR_RIGHTS_2026-10-23.json. Untouched RAW SHA256 2054af28dd2599778f384fd19a9a47be03d730b21658c4895ba868edba34ef40. Complete source and whiteWEB individually reviewed; all12archive hashes matched. Classical exterior filled silhouette. Original interior RGB retained; no generated, reconstructed, recolored or sharpened watch detail. Proportional resize and centered2400 white master/1200WEB. No price, availability or unspecified specs inferred.",
+    "sourceProvider": "Jomashop",
+    "reviewedAt": "2026-10-23",
+    "assetId": "cleared-20261023-representative-rm-210-62-42-20-03-001"
+  },
+  {
+    "brand": "Omega",
+    "brandSlug": "omega",
+    "collection": "Constellation",
+    "reference": "131.63.41.21.03.001",
+    "exactReference": "131.63.41.21.03.001",
+    "model": "Constellation Blue Sedna Gold",
+    "material": "18K Sedna gold",
+    "configuration": {
+      "dial": "Blue sun-brushed",
+      "bracelet": "Blue leather strap",
+      "caseSize": "41 mm",
+      "movement": "Omega 8901 automatic",
+      "waterResistance": "50 m"
+    },
+    "sourceUrl": "https://diamondsourcenyc.com/product/omega-constellation-41mm-watch-ref-131-63-41-21-03-001-blue-index-dial-in-18k-rose-gold-case-blue-leather-strap/",
+    "src": "/images/watches/omega/reviewed-131-63-41-21-03-001-20261023-web.webp",
+    "sha256": "b223a69b823d8e1cd25f10aea13e4b8b6996c916ff5281a73d139d280b76b826",
+    "rawDriveFileId": "1xdYOxwxe90qY_aPHbaS_u1o8nIRcQaLv",
+    "clearanceRecord": "Direct founder answer call_220131d0cbd843e2807272b978d968a0: Yes.. Record docs/PHOTOGRAPHY_NEW_DEALER_FOUR_RIGHTS_2026-10-23.json. Untouched RAW SHA256 c6e45f95b1011b26146d261c25daa7d835a67601fc5c911edade647484ad286f. Complete source and whiteWEB individually reviewed; all12archive hashes matched. Classical exterior silhouette retaining all significant original watch/strap components and their unchanged native RGB. Native neutral cast shadow outside the lower Constellation strap excluded. Proportional resize and centered2400white master/1200WEB; no generated, reconstructed, recolored or sharpened watch detail. No price, availability or unspecified specs inferred.",
+    "sourceProvider": "Diamond Source NYC",
+    "reviewedAt": "2026-10-23",
+    "assetId": "cleared-20261023-representative-rm-131-63-41-21-03-001"
+  },
+  {
+    "brand": "Panerai",
+    "brandSlug": "panerai",
+    "collection": "Radiomir GMT",
+    "reference": "PAM00502",
+    "exactReference": "PAM00502",
+    "model": "Radiomir 1940 Chrono Monopulsante 8 Days GMT",
+    "material": "18K rose gold",
+    "configuration": {
+      "dial": "Brown with luminous hour markers",
+      "bracelet": "Brown alligator leather strap",
+      "caseSize": "45 mm",
+      "movement": "Panerai P.2004/10 manual-winding",
+      "waterResistance": "50 m"
+    },
+    "sourceUrl": "https://diamondsourcenyc.com/product/panerai-radiomir-45mm-watch-ref-pam00502-brown-index-dial-in-18k-rose-gold-case-brown-alligator-leather-strap/",
+    "src": "/images/watches/panerai/reviewed-pam00502-20261023-web.webp",
+    "sha256": "3039fe08d5b70407d2f86f03bf365a06cb7ae188ecd13271e24cce60e618a4a9",
+    "rawDriveFileId": "19mH__clOj12xc4c-R5sgCYD4otqTJ0RG",
+    "clearanceRecord": "Direct founder answer call_220131d0cbd843e2807272b978d968a0: Yes.. Record docs/PHOTOGRAPHY_NEW_DEALER_FOUR_RIGHTS_2026-10-23.json. Untouched RAW SHA256 fcb6cc5697123faa78a86f622050249f4bc942fa68426f3907ac8738528cd362. Complete source and whiteWEB individually reviewed; all12archive hashes matched. Classical exterior filled silhouette. Original interior RGB retained; no generated, reconstructed, recolored or sharpened watch detail. Proportional resize and centered2400 white master/1200WEB. No price, availability or unspecified specs inferred.",
+    "sourceProvider": "Diamond Source NYC",
+    "reviewedAt": "2026-10-23",
+    "assetId": "cleared-20261023-representative-rm-pam00502"
   }
 ];

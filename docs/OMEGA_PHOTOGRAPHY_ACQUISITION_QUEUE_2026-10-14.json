@@ -8,9 +8,9 @@
   "licensePolicy": "Reference source URL documents identity only; it does NOT license website reuse. No AI watches, unverified source shots or nonwhite wrist photographs.",
   "summary": {
     "references": 58,
-    "existingExactReferenceImageRecordMatches": 53,
-    "requiresAcquisition": 5,
-    "clearedForPublication": 53
+    "existingExactReferenceImageRecordMatches": 55,
+    "requiresAcquisition": 3,
+    "clearedForPublication": 55
   },
   "queue": [
     {
@@ -65,18 +65,19 @@
       "specificationSource": "https://www.omegawatches.com.hk/en-hk/watch-omega-seamaster-diver-300m-co-axial-master-chronometer-42-mm-21062422003001",
       "sourceHost": "www.omegawatches.com.hk",
       "priorityScore": 103,
-      "imageSourceFoundInCurrentClearanceCode": false,
+      "imageSourceFoundInCurrentClearanceCode": true,
       "evidence": {
         "rawImageId": null,
         "rawChecksum": null,
-        "webDerivativePath": null,
-        "webDerivativeChecksum": null,
-        "exactReferenceImageReviewed": false,
-        "centeredWhiteBackgroundVerified": false,
-        "websiteUseRightsVerified": false,
-        "rightsRecord": null,
-        "approvalReviewer": null,
-        "status": "ACQUISITION_REQUIRED"
+        "webDerivativePath": "/images/watches/omega/reviewed-210-62-42-20-03-001-20261023-web.webp",
+        "webDerivativeChecksum": "c93c68d961a4b1c7af4c7dcd3f3b8928a7ae4391fd660f30f4a9037213213cb0",
+        "exactReferenceImageReviewed": true,
+        "centeredWhiteBackgroundVerified": true,
+        "websiteUseRightsVerified": true,
+        "rightsRecord": "Direct founder answer call_220131d0cbd843e2807272b978d968a0: Yes.. Record docs/PHOTOGRAPHY_NEW_DEALER_FOUR_RIGHTS_2026-10-23.json. Untouched RAW SHA256 2054af28dd2599778f384fd19a9a47be03d730b21658c4895ba868edba34ef40. Complete source and whiteWEB individually reviewed; all12archive hashes matched. Classical exterior filled silhouette. Original interior RGB retained; no generated, reconstructed, recolored or sharpened watch detail. Proportional resize and centered2400 white master/1200WEB. No price, availability or unspecified specs inferred. Preserved RAW file: 1uVSfV7ui7AweNdQvcoP91CIlfPQIum6y. Pictured full reference 210.62.42.20.03.001; 18K rose gold, Blue ceramic wave, Blue rubber strap. Exact configuration reviewed against preserved source evidence and the original photograph.",
+        "approvalReviewer": "Quest Luxo execution review with founder website-use clearance",
+        "status": "APPROVED_WITH_VALID_DERIVATIVE",
+        "approvedAssetId": "cleared-20261023-representative-rm-210-62-42-20-03-001"
       },
       "requirements": [
         "Obtain authentic non-AI original for exact pictured reference and configuration",
@@ -1210,18 +1211,19 @@
       "specificationSource": "https://www.omegawatches.com.hk/en-hk/watch-omega-constellation-co-axial-master-chronometer-41-mm-13163412103001",
       "sourceHost": "www.omegawatches.com.hk",
       "priorityScore": 58,
-      "imageSourceFoundInCurrentClearanceCode": false,
+      "imageSourceFoundInCurrentClearanceCode": true,
       "evidence": {
         "rawImageId": null,
         "rawChecksum": null,
-        "webDerivativePath": null,
-        "webDerivativeChecksum": null,
-        "exactReferenceImageReviewed": false,
-        "centeredWhiteBackgroundVerified": false,
-        "websiteUseRightsVerified": false,
-        "rightsRecord": null,
-        "approvalReviewer": null,
-        "status": "ACQUISITION_REQUIRED"
+        "webDerivativePath": "/images/watches/omega/reviewed-131-63-41-21-03-001-20261023-web.webp",
+        "webDerivativeChecksum": "b223a69b823d8e1cd25f10aea13e4b8b6996c916ff5281a73d139d280b76b826",
+        "exactReferenceImageReviewed": true,
+        "centeredWhiteBackgroundVerified": true,
+        "websiteUseRightsVerified": true,
+        "rightsRecord": "Direct founder answer call_220131d0cbd843e2807272b978d968a0: Yes.. Record docs/PHOTOGRAPHY_NEW_DEALER_FOUR_RIGHTS_2026-10-23.json. Untouched RAW SHA256 c6e45f95b1011b26146d261c25daa7d835a67601fc5c911edade647484ad286f. Complete source and whiteWEB individually reviewed; all12archive hashes matched. Classical exterior silhouette retaining all significant original watch/strap components and their unchanged native RGB. Native neutral cast shadow outside the lower Constellation strap excluded. Proportional resize and centered2400white master/1200WEB; no generated, reconstructed, recolored or sharpened watch detail. No price, availability or unspecified specs inferred. Preserved RAW file: 1xdYOxwxe90qY_aPHbaS_u1o8nIRcQaLv. Pictured full reference 131.63.41.21.03.001; 18K Sedna gold, Blue sun-brushed, Blue leather strap. Exact configuration reviewed against preserved source evidence and the original photograph.",
+        "approvalReviewer": "Quest Luxo execution review with founder website-use clearance",
+        "status": "APPROVED_WITH_VALID_DERIVATIVE",
+        "approvedAssetId": "cleared-20261023-representative-rm-131-63-41-21-03-001"
       },
       "requirements": [
         "Obtain authentic non-AI original for exact pictured reference and configuration",

@@ -1,14 +1,14 @@
 {
-  "reviewedAt": "2026-10-24T02:14:51.539Z",
+  "reviewedAt": "2026-10-24T02:25:44.379Z",
   "note": "Generated from all exported source datasets and built routes. Source-only and duplicate configuration records are retained for review; this register is not proof of image rights. Source URLs identify research leads, not licenses.",
   "summary": {
-    "sourceConfigurations": 1059,
+    "sourceConfigurations": 1070,
     "builtReferenceRoutes": 297,
     "collectionRoutes": 104,
-    "approvedReferenceConfigurations": 558,
+    "approvedReferenceConfigurations": 565,
     "unmatchedReferenceRoutes": 0,
-    "approvedCanonicalReferenceRoutes": 276,
-    "queuedCanonicalReferenceRoutes": 21
+    "approvedCanonicalReferenceRoutes": 280,
+    "queuedCanonicalReferenceRoutes": 17
   },
   "collections": [
     {
@@ -8441,6 +8441,40 @@
     {
       "brand": "Omega",
       "collection": "Seamaster Diver 300M",
+      "reference": "210.62.42.20.03.001",
+      "configurations": [
+        {
+          "dial": "Blue ceramic wave",
+          "bracelet": "Blue rubber strap",
+          "caseSize": "42 mm",
+          "movement": "Omega 8801 automatic",
+          "waterResistance": "300 m",
+          "nickname": "Blue ceramic wave / Blue rubber strap",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "18K rose gold",
+      "sources": [
+        "src/data/collectionRegistry.ts",
+        "src/data/photography-expansion.ts"
+      ],
+      "routes": [
+        "/collections/omega/seamaster/210-62-42-20-03-001"
+      ],
+      "scope": "built-reference",
+      "existingImage": "/images/watches/omega/reviewed-210-62-42-20-03-001-20261023-web.webp",
+      "existingImageFilePresent": true,
+      "photoAssetId": "cleared-20261023-representative-rm-210-62-42-20-03-001",
+      "status": "approved",
+      "sourceUrl": "https://www.jomashop.com/omega-watch-210-62-42-20-03-001.html",
+      "licenseRecord": "Direct founder answer call_220131d0cbd843e2807272b978d968a0: Yes.. Record docs/PHOTOGRAPHY_NEW_DEALER_FOUR_RIGHTS_2026-10-23.json. Untouched RAW SHA256 2054af28dd2599778f384fd19a9a47be03d730b21658c4895ba868edba34ef40. Complete source and whiteWEB individually reviewed; all12archive hashes matched. Classical exterior filled silhouette. Original interior RGB retained; no generated, reconstructed, recolored or sharpened watch detail. Proportional resize and centered2400 white master/1200WEB. No price, availability or unspecified specs inferred. Preserved RAW file: 1uVSfV7ui7AweNdQvcoP91CIlfPQIum6y. Pictured full reference 210.62.42.20.03.001; 18K rose gold, Blue ceramic wave, Blue rubber strap. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
+      "brand": "Omega",
+      "collection": "Seamaster Diver 300M",
       "reference": "210.30.42.20.01.001",
       "configurations": [
         {
@@ -8500,38 +8534,6 @@
       "photoAssetId": null,
       "status": "Requires Verification",
       "sourceUrl": "https://www.omegawatches.com.hk/en-hk/watch-omega-seamaster-diver-300m-co-axial-master-chronometer-43-5-mm-52292442004001",
-      "licenseRecord": null,
-      "websiteApproved": false,
-      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
-    },
-    {
-      "brand": "Omega",
-      "collection": "Seamaster Diver 300M",
-      "reference": "210.62.42.20.03.001",
-      "configurations": [
-        {
-          "caseSize": "42 mm",
-          "movement": "Omega 8801 automatic",
-          "dial": "Blue ceramic wave",
-          "bracelet": "Blue rubber strap",
-          "originalMSRP": null,
-          "currentMSRP": null
-        }
-      ],
-      "material": "18K Sedna Gold",
-      "sources": [
-        "src/data/collectionRegistry.ts",
-        "src/data/verified-catalog-expansion.ts"
-      ],
-      "routes": [
-        "/collections/omega/seamaster/210-62-42-20-03-001"
-      ],
-      "scope": "built-reference",
-      "existingImage": "/images/watch-reference-placeholder.svg",
-      "existingImageFilePresent": true,
-      "photoAssetId": null,
-      "status": "Requires Verification",
-      "sourceUrl": "https://www.omegawatches.com.hk/en-hk/watch-omega-seamaster-diver-300m-co-axial-master-chronometer-42-mm-21062422003001",
       "licenseRecord": null,
       "websiteApproved": false,
       "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
@@ -12466,25 +12468,33 @@
           "bracelet": "Model-dependent",
           "originalMSRP": null,
           "currentMSRP": null
+        },
+        {
+          "dial": "Skeletonized",
+          "bracelet": "Black rubber strap",
+          "caseSize": "38.70 x 47.52 mm",
+          "movement": "Automatic",
+          "nickname": "Skeletonized / Black rubber strap",
+          "originalMSRP": null,
+          "currentMSRP": null
         }
       ],
-      "material": "Model-dependent",
+      "material": "Titanium",
       "sources": [
-        "src/data/collectionRegistry.ts",
-        "src/data/verified-catalog-expansion.ts"
+        "src/data/collectionRegistry.ts"
       ],
       "routes": [
         "/collections/richard-mille/rm-67/rm-67-01"
       ],
       "scope": "built-reference",
-      "existingImage": "/images/watch-reference-placeholder.svg",
+      "existingImage": "/images/watches/richard-mille/reviewed-rm-67-01-20261023-web.webp",
       "existingImageFilePresent": true,
-      "photoAssetId": null,
-      "status": "Requires Verification",
-      "sourceUrl": "https://www.richardmille.com/collections/rm-67-01-automatic-extra-flat",
-      "licenseRecord": null,
-      "websiteApproved": false,
-      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+      "photoAssetId": "cleared-20261023-representative-rm-rm-67-01",
+      "status": "approved",
+      "sourceUrl": "https://mavaniandco.com/products/richard-mille-titanium-rm67-01",
+      "licenseRecord": "Direct founder answer call_220131d0cbd843e2807272b978d968a0: Yes.. Record docs/PHOTOGRAPHY_NEW_DEALER_FOUR_RIGHTS_2026-10-23.json. Untouched RAW SHA256 6350e48b975e52cd2b6fb3556b71e2b1036cb99d96e84ac38e17938b18ed8d44. Complete source and whiteWEB individually reviewed; all12archive hashes matched. Classical exterior silhouette retaining all significant original watch/strap components and their unchanged native RGB. Native neutral cast shadow outside the lower Constellation strap excluded. Proportional resize and centered2400white master/1200WEB; no generated, reconstructed, recolored or sharpened watch detail. No price, availability or unspecified specs inferred. Preserved RAW file: 1qM8023aauD--jTgcd4emTGVMEjedxCXw. Pictured full reference RM 67-01; Titanium, Skeletonized, Black rubber strap. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
     },
     {
       "brand": "Richard Mille",
@@ -12960,25 +12970,34 @@
           "bracelet": "Reference-dependent",
           "originalMSRP": null,
           "currentMSRP": null
+        },
+        {
+          "dial": "Brown with luminous hour markers",
+          "bracelet": "Brown alligator leather strap",
+          "caseSize": "45 mm",
+          "movement": "Panerai P.2004/10 manual-winding",
+          "waterResistance": "50 m",
+          "nickname": "Brown with luminous hour markers / Brown alligator leather strap",
+          "originalMSRP": null,
+          "currentMSRP": null
         }
       ],
-      "material": "Panerai Goldtech",
+      "material": "18K rose gold",
       "sources": [
-        "src/data/collectionRegistry.ts",
-        "src/data/verified-catalog-expansion.ts"
+        "src/data/collectionRegistry.ts"
       ],
       "routes": [
         "/collections/panerai/radiomir-gmt/pam00502"
       ],
       "scope": "built-reference",
-      "existingImage": "/images/watch-reference-placeholder.svg",
+      "existingImage": "/images/watches/panerai/reviewed-pam00502-20261023-web.webp",
       "existingImageFilePresent": true,
-      "photoAssetId": null,
-      "status": "Requires Verification",
-      "sourceUrl": "https://www.panerai.com/us/en/collections/special-editions-archive/2013/pam00502-radiomir-1940-chrono-monopulsante-8-days-gmt-oro-rosso-.html",
-      "licenseRecord": null,
-      "websiteApproved": false,
-      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+      "photoAssetId": "cleared-20261023-representative-rm-pam00502",
+      "status": "approved",
+      "sourceUrl": "https://diamondsourcenyc.com/product/panerai-radiomir-45mm-watch-ref-pam00502-brown-index-dial-in-18k-rose-gold-case-brown-alligator-leather-strap/",
+      "licenseRecord": "Direct founder answer call_220131d0cbd843e2807272b978d968a0: Yes.. Record docs/PHOTOGRAPHY_NEW_DEALER_FOUR_RIGHTS_2026-10-23.json. Untouched RAW SHA256 fcb6cc5697123faa78a86f622050249f4bc942fa68426f3907ac8738528cd362. Complete source and whiteWEB individually reviewed; all12archive hashes matched. Classical exterior filled silhouette. Original interior RGB retained; no generated, reconstructed, recolored or sharpened watch detail. Proportional resize and centered2400 white master/1200WEB. No price, availability or unspecified specs inferred. Preserved RAW file: 19mH__clOj12xc4c-R5sgCYD4otqTJ0RG. Pictured full reference PAM00502; 18K rose gold, Brown with luminous hour markers, Brown alligator leather strap. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
     },
     {
       "brand": "Cartier",
@@ -13352,25 +13371,34 @@
           "bracelet": "Blue leather strap",
           "originalMSRP": null,
           "currentMSRP": null
+        },
+        {
+          "dial": "Blue sun-brushed",
+          "bracelet": "Blue leather strap",
+          "caseSize": "41 mm",
+          "movement": "Omega 8901 automatic",
+          "waterResistance": "50 m",
+          "nickname": "Blue sun-brushed / Blue leather strap",
+          "originalMSRP": null,
+          "currentMSRP": null
         }
       ],
-      "material": "18K Sedna Gold",
+      "material": "18K Sedna gold",
       "sources": [
-        "src/data/collectionRegistry.ts",
-        "src/data/verified-catalog-expansion.ts"
+        "src/data/collectionRegistry.ts"
       ],
       "routes": [
         "/collections/omega/constellation/131-63-41-21-03-001"
       ],
       "scope": "built-reference",
-      "existingImage": "/images/watch-reference-placeholder.svg",
+      "existingImage": "/images/watches/omega/reviewed-131-63-41-21-03-001-20261023-web.webp",
       "existingImageFilePresent": true,
-      "photoAssetId": null,
-      "status": "Requires Verification",
-      "sourceUrl": "https://www.omegawatches.com.hk/en-hk/watch-omega-constellation-co-axial-master-chronometer-41-mm-13163412103001",
-      "licenseRecord": null,
-      "websiteApproved": false,
-      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+      "photoAssetId": "cleared-20261023-representative-rm-131-63-41-21-03-001",
+      "status": "approved",
+      "sourceUrl": "https://diamondsourcenyc.com/product/omega-constellation-41mm-watch-ref-131-63-41-21-03-001-blue-index-dial-in-18k-rose-gold-case-blue-leather-strap/",
+      "licenseRecord": "Direct founder answer call_220131d0cbd843e2807272b978d968a0: Yes.. Record docs/PHOTOGRAPHY_NEW_DEALER_FOUR_RIGHTS_2026-10-23.json. Untouched RAW SHA256 c6e45f95b1011b26146d261c25daa7d835a67601fc5c911edade647484ad286f. Complete source and whiteWEB individually reviewed; all12archive hashes matched. Classical exterior silhouette retaining all significant original watch/strap components and their unchanged native RGB. Native neutral cast shadow outside the lower Constellation strap excluded. Proportional resize and centered2400white master/1200WEB; no generated, reconstructed, recolored or sharpened watch detail. No price, availability or unspecified specs inferred. Preserved RAW file: 1xdYOxwxe90qY_aPHbaS_u1o8nIRcQaLv. Pictured full reference 131.63.41.21.03.001; 18K Sedna gold, Blue sun-brushed, Blue leather strap. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
     },
     {
       "brand": "Omega",
@@ -19982,6 +20010,94 @@
       "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
     },
     {
+      "brand": "Richard Mille",
+      "collection": "RM 67",
+      "reference": "RM 67-01",
+      "configurations": [],
+      "material": "Titanium",
+      "sources": [
+        "src/data/photography-cleared-sprint.ts"
+      ],
+      "routes": [
+        "/collections/richard-mille/rm-67/rm-67-01"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": null,
+      "status": "Requires Verification",
+      "sourceUrl": null,
+      "licenseRecord": null,
+      "websiteApproved": false,
+      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+    },
+    {
+      "brand": "Omega",
+      "collection": "Seamaster Diver 300M",
+      "reference": "210.62.42.20.03.001",
+      "configurations": [],
+      "material": "18K rose gold",
+      "sources": [
+        "src/data/photography-cleared-sprint.ts"
+      ],
+      "routes": [
+        "/collections/omega/seamaster/210-62-42-20-03-001"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": null,
+      "status": "Requires Verification",
+      "sourceUrl": null,
+      "licenseRecord": null,
+      "websiteApproved": false,
+      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+    },
+    {
+      "brand": "Omega",
+      "collection": "Constellation",
+      "reference": "131.63.41.21.03.001",
+      "configurations": [],
+      "material": "18K Sedna gold",
+      "sources": [
+        "src/data/photography-cleared-sprint.ts"
+      ],
+      "routes": [
+        "/collections/omega/constellation/131-63-41-21-03-001"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": null,
+      "status": "Requires Verification",
+      "sourceUrl": null,
+      "licenseRecord": null,
+      "websiteApproved": false,
+      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+    },
+    {
+      "brand": "Panerai",
+      "collection": "Radiomir GMT",
+      "reference": "PAM00502",
+      "configurations": [],
+      "material": "18K rose gold",
+      "sources": [
+        "src/data/photography-cleared-sprint.ts"
+      ],
+      "routes": [
+        "/collections/panerai/radiomir-gmt/pam00502"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": null,
+      "status": "Requires Verification",
+      "sourceUrl": null,
+      "licenseRecord": null,
+      "websiteApproved": false,
+      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+    },
+    {
       "brand": "Breitling",
       "collection": "Superocean",
       "reference": "A17376211B1A1",
@@ -25198,6 +25314,104 @@
       "status": "approved",
       "sourceUrl": "https://www.richardmille.com/collections/rm-27-05-flying-tourbillon-rafael-nadal",
       "licenseRecord": "Direct founder answer call_8f5f4c2a4aa24f1ca43d3c67f3fe2b3d: Yes. Record docs/PHOTOGRAPHY_REPRESENTATIVES_RM_FIVE_RIGHTS_2026-10-23.json. Untouched RAW SHA256 ce0a8b1e03e060829edaf3141a20d15508a7dfec4d4e83033075e152eb423084. Complete source and whiteWEB individually reviewed; all15archive hashes matched. Classical exterior filled silhouette. Original interior RGB retained; no generated, reconstructed, recolored or sharpened watch detail. Proportional resize and centered2400 white master/1200WEB. No price, availability or unspecified specs inferred. Preserved RAW file: 1ud4Xmv-r55KiNWlo4ftmSjPmgEzwuq6l. Pictured full reference RM 27-05; Carbon TPT B.4, Openworked flying tourbillon, Black woven fabric strap. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
+      "brand": "Richard Mille",
+      "collection": "RM 67",
+      "reference": "RM 67-01",
+      "configurations": [
+        {
+          "dial": "Skeletonized",
+          "bracelet": "Black rubber strap",
+          "caseSize": "38.70 x 47.52 mm",
+          "movement": "Automatic",
+          "nickname": "Skeletonized / Black rubber strap",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "Titanium",
+      "sources": [
+        "src/data/photography-expansion.ts"
+      ],
+      "routes": [
+        "/collections/richard-mille/rm-67/rm-67-01"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": "cleared-20261023-representative-rm-rm-67-01",
+      "status": "approved",
+      "sourceUrl": "https://mavaniandco.com/products/richard-mille-titanium-rm67-01",
+      "licenseRecord": "Direct founder answer call_220131d0cbd843e2807272b978d968a0: Yes.. Record docs/PHOTOGRAPHY_NEW_DEALER_FOUR_RIGHTS_2026-10-23.json. Untouched RAW SHA256 6350e48b975e52cd2b6fb3556b71e2b1036cb99d96e84ac38e17938b18ed8d44. Complete source and whiteWEB individually reviewed; all12archive hashes matched. Classical exterior silhouette retaining all significant original watch/strap components and their unchanged native RGB. Native neutral cast shadow outside the lower Constellation strap excluded. Proportional resize and centered2400white master/1200WEB; no generated, reconstructed, recolored or sharpened watch detail. No price, availability or unspecified specs inferred. Preserved RAW file: 1qM8023aauD--jTgcd4emTGVMEjedxCXw. Pictured full reference RM 67-01; Titanium, Skeletonized, Black rubber strap. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
+      "brand": "Omega",
+      "collection": "Constellation",
+      "reference": "131.63.41.21.03.001",
+      "configurations": [
+        {
+          "dial": "Blue sun-brushed",
+          "bracelet": "Blue leather strap",
+          "caseSize": "41 mm",
+          "movement": "Omega 8901 automatic",
+          "waterResistance": "50 m",
+          "nickname": "Blue sun-brushed / Blue leather strap",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "18K Sedna gold",
+      "sources": [
+        "src/data/photography-expansion.ts"
+      ],
+      "routes": [
+        "/collections/omega/constellation/131-63-41-21-03-001"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": "cleared-20261023-representative-rm-131-63-41-21-03-001",
+      "status": "approved",
+      "sourceUrl": "https://diamondsourcenyc.com/product/omega-constellation-41mm-watch-ref-131-63-41-21-03-001-blue-index-dial-in-18k-rose-gold-case-blue-leather-strap/",
+      "licenseRecord": "Direct founder answer call_220131d0cbd843e2807272b978d968a0: Yes.. Record docs/PHOTOGRAPHY_NEW_DEALER_FOUR_RIGHTS_2026-10-23.json. Untouched RAW SHA256 c6e45f95b1011b26146d261c25daa7d835a67601fc5c911edade647484ad286f. Complete source and whiteWEB individually reviewed; all12archive hashes matched. Classical exterior silhouette retaining all significant original watch/strap components and their unchanged native RGB. Native neutral cast shadow outside the lower Constellation strap excluded. Proportional resize and centered2400white master/1200WEB; no generated, reconstructed, recolored or sharpened watch detail. No price, availability or unspecified specs inferred. Preserved RAW file: 1xdYOxwxe90qY_aPHbaS_u1o8nIRcQaLv. Pictured full reference 131.63.41.21.03.001; 18K Sedna gold, Blue sun-brushed, Blue leather strap. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "websiteApproved": true,
+      "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
+      "brand": "Panerai",
+      "collection": "Radiomir GMT",
+      "reference": "PAM00502",
+      "configurations": [
+        {
+          "dial": "Brown with luminous hour markers",
+          "bracelet": "Brown alligator leather strap",
+          "caseSize": "45 mm",
+          "movement": "Panerai P.2004/10 manual-winding",
+          "waterResistance": "50 m",
+          "nickname": "Brown with luminous hour markers / Brown alligator leather strap",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "18K rose gold",
+      "sources": [
+        "src/data/photography-expansion.ts"
+      ],
+      "routes": [
+        "/collections/panerai/radiomir-gmt/pam00502"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": "cleared-20261023-representative-rm-pam00502",
+      "status": "approved",
+      "sourceUrl": "https://diamondsourcenyc.com/product/panerai-radiomir-45mm-watch-ref-pam00502-brown-index-dial-in-18k-rose-gold-case-brown-alligator-leather-strap/",
+      "licenseRecord": "Direct founder answer call_220131d0cbd843e2807272b978d968a0: Yes.. Record docs/PHOTOGRAPHY_NEW_DEALER_FOUR_RIGHTS_2026-10-23.json. Untouched RAW SHA256 fcb6cc5697123faa78a86f622050249f4bc942fa68426f3907ac8738528cd362. Complete source and whiteWEB individually reviewed; all12archive hashes matched. Classical exterior filled silhouette. Original interior RGB retained; no generated, reconstructed, recolored or sharpened watch detail. Proportional resize and centered2400 white master/1200WEB. No price, availability or unspecified specs inferred. Preserved RAW file: 19mH__clOj12xc4c-R5sgCYD4otqTJ0RG. Pictured full reference PAM00502; 18K rose gold, Brown with luminous hour markers, Brown alligator leather strap. Exact configuration reviewed against preserved source evidence and the original photograph.",
       "websiteApproved": true,
       "nextAction": "Retain approved original and verify derivative integrity."
     },
@@ -30518,6 +30732,37 @@
     {
       "brand": "Omega",
       "collection": "Seamaster Diver 300M",
+      "reference": "210.62.42.20.03.001",
+      "configurations": [
+        {
+          "caseSize": "42 mm",
+          "movement": "Omega 8801 automatic",
+          "dial": "Blue ceramic wave",
+          "bracelet": "Blue rubber strap",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "18K Sedna Gold",
+      "sources": [
+        "src/data/verified-catalog-expansion.ts"
+      ],
+      "routes": [
+        "/collections/omega/seamaster/210-62-42-20-03-001"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": null,
+      "status": "Requires Verification",
+      "sourceUrl": "https://www.omegawatches.com.hk/en-hk/watch-omega-seamaster-diver-300m-co-axial-master-chronometer-42-mm-21062422003001",
+      "licenseRecord": null,
+      "websiteApproved": false,
+      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+    },
+    {
+      "brand": "Omega",
+      "collection": "Seamaster Diver 300M",
       "reference": "210.22.42.20.03.002",
       "configurations": [
         {
@@ -31044,6 +31289,37 @@
     },
     {
       "brand": "Richard Mille",
+      "collection": "RM 67",
+      "reference": "RM 67-01",
+      "configurations": [
+        {
+          "caseSize": "Extra-flat tonneau",
+          "movement": "CRMA6 skeleton automatic",
+          "dial": "Openworked",
+          "bracelet": "Model-dependent",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "Model-dependent",
+      "sources": [
+        "src/data/verified-catalog-expansion.ts"
+      ],
+      "routes": [
+        "/collections/richard-mille/rm-67/rm-67-01"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": null,
+      "status": "Requires Verification",
+      "sourceUrl": "https://www.richardmille.com/collections/rm-67-01-automatic-extra-flat",
+      "licenseRecord": null,
+      "websiteApproved": false,
+      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+    },
+    {
+      "brand": "Richard Mille",
       "collection": "RM 27",
       "reference": "RM 27-05",
       "configurations": [
@@ -31472,6 +31748,37 @@
       "photoAssetId": null,
       "status": "Requires Verification",
       "sourceUrl": "https://www.panerai.com/us/en/collections/watch-collection/luminor/pam01641-luminor-gmt.html",
+      "licenseRecord": null,
+      "websiteApproved": false,
+      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
+    },
+    {
+      "brand": "Panerai",
+      "collection": "Radiomir GMT",
+      "reference": "PAM00502",
+      "configurations": [
+        {
+          "caseSize": "45 mm",
+          "movement": "P.2004/10 manual chronograph and GMT",
+          "dial": "Brown",
+          "bracelet": "Reference-dependent",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "Panerai Goldtech",
+      "sources": [
+        "src/data/verified-catalog-expansion.ts"
+      ],
+      "routes": [
+        "/collections/panerai/radiomir-gmt/pam00502"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": null,
+      "status": "Requires Verification",
+      "sourceUrl": "https://www.panerai.com/us/en/collections/special-editions-archive/2013/pam00502-radiomir-1940-chrono-monopulsante-8-days-gmt-oro-rosso-.html",
       "licenseRecord": null,
       "websiteApproved": false,
       "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
@@ -32219,6 +32526,37 @@
       "licenseRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for these exact two Uhrinstinkt originals and white-background derivatives with no additional restrictions on October15,2026 Eastern. Record docs/PHOTOGRAPHY_UHR_TWO_FOUNDER_RIGHTS_2026-10-15.json. Authentic complete RAW and final white WEB individually visually reviewed; source credits retained separately. Preserved RAW file: 1M5WJXgeNrdwn5CH5GoO4pBoU9n_kjpGl. Pictured full reference 131.23.41.21.03.001; Stainless Steel and 18K Sedna Gold, Blue sun-brushed non-wave, Blue leather strap. Exact configuration reviewed against preserved source evidence and the original photograph.",
       "websiteApproved": true,
       "nextAction": "Retain approved original and verify derivative integrity."
+    },
+    {
+      "brand": "Omega",
+      "collection": "Constellation",
+      "reference": "131.63.41.21.03.001",
+      "configurations": [
+        {
+          "caseSize": "41 mm",
+          "movement": "Omega 8901 automatic",
+          "dial": "Blue sun-brushed non-wave",
+          "bracelet": "Blue leather strap",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "material": "18K Sedna Gold",
+      "sources": [
+        "src/data/verified-catalog-expansion.ts"
+      ],
+      "routes": [
+        "/collections/omega/constellation/131-63-41-21-03-001"
+      ],
+      "scope": "built-reference",
+      "existingImage": null,
+      "existingImageFilePresent": false,
+      "photoAssetId": null,
+      "status": "Requires Verification",
+      "sourceUrl": "https://www.omegawatches.com.hk/en-hk/watch-omega-constellation-co-axial-master-chronometer-41-mm-13163412103001",
+      "licenseRecord": null,
+      "websiteApproved": false,
+      "nextAction": "Match full reference, dial, material, strap/bracelet and generation; obtain authentic photography with commercial website rights in the Digital Asset Library. Remove only the background and center the original watch on a uniform blank white canvas without generative modifications."
     },
     {
       "brand": "Omega",

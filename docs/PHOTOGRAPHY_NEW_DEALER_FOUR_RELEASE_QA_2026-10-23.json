@@ -1,0 +1,119 @@
+{
+  "checkedAt": "2026-10-24T02:26:48.617907+00:00",
+  "checks": [
+    {
+      "check": "nonomega-queue-sync",
+      "exitCode": 0,
+      "logFileName": "new-dealer-four-20261023-nonomega-queue-sync.log"
+    },
+    {
+      "check": "omega-queue-sync",
+      "exitCode": 0,
+      "logFileName": "new-dealer-four-20261023-omega-queue-sync.log"
+    },
+    {
+      "check": "astro-check",
+      "exitCode": 0,
+      "logFileName": "new-dealer-four-20261023-astro-check.log"
+    },
+    {
+      "check": "regressions",
+      "exitCode": 0,
+      "logFileName": "new-dealer-four-20261023-regressions.log"
+    },
+    {
+      "check": "omega-audit",
+      "exitCode": 0,
+      "logFileName": "new-dealer-four-20261023-omega-audit.log"
+    },
+    {
+      "check": "omega-queue-check",
+      "exitCode": 0,
+      "logFileName": "new-dealer-four-20261023-omega-queue-check.log"
+    },
+    {
+      "check": "expansion-audit",
+      "exitCode": 0,
+      "logFileName": "new-dealer-four-20261023-expansion-audit.log"
+    },
+    {
+      "check": "build",
+      "exitCode": 0,
+      "logFileName": "new-dealer-four-20261023-build.log"
+    },
+    {
+      "check": "inventory",
+      "exitCode": 0,
+      "logFileName": "new-dealer-four-20261023-inventory.log"
+    },
+    {
+      "check": "full-audit",
+      "exitCode": 0,
+      "logFileName": "new-dealer-four-20261023-full-audit.log"
+    }
+  ],
+  "builtMapping": {
+    "checkedAt": "2026-10-24T02:26:41.866043+00:00",
+    "mode": "built",
+    "exactReferencesChecked": 4,
+    "rows": [
+      {
+        "reference": "RM 67-01",
+        "route": "/collections/richard-mille/rm-67/rm-67-01",
+        "imageSha256": "cbafda30a26c804036b0b712dc50a17e86ac5be9c929feab590b1de914fe7d35",
+        "exactConfiguration": true,
+        "collectionGrid": true,
+        "inquiryContext": true,
+        "separateCredits": true,
+        "noImageCaptionOverlay": true
+      },
+      {
+        "reference": "210.62.42.20.03.001",
+        "route": "/collections/omega/seamaster/210-62-42-20-03-001",
+        "imageSha256": "c93c68d961a4b1c7af4c7dcd3f3b8928a7ae4391fd660f30f4a9037213213cb0",
+        "exactConfiguration": true,
+        "collectionGrid": true,
+        "inquiryContext": true,
+        "separateCredits": true,
+        "noImageCaptionOverlay": true
+      },
+      {
+        "reference": "131.63.41.21.03.001",
+        "route": "/collections/omega/constellation/131-63-41-21-03-001",
+        "imageSha256": "b223a69b823d8e1cd25f10aea13e4b8b6996c916ff5281a73d139d280b76b826",
+        "exactConfiguration": true,
+        "collectionGrid": true,
+        "inquiryContext": true,
+        "separateCredits": true,
+        "noImageCaptionOverlay": true
+      },
+      {
+        "reference": "PAM00502",
+        "route": "/collections/panerai/radiomir-gmt/pam00502",
+        "imageSha256": "3039fe08d5b70407d2f86f03bf365a06cb7ae188ecd13271e24cce60e618a4a9",
+        "exactConfiguration": true,
+        "collectionGrid": true,
+        "inquiryContext": true,
+        "separateCredits": true,
+        "noImageCaptionOverlay": true
+      }
+    ],
+    "publicFlowsAvailable": true,
+    "leadDataSafety": "Public GET checks only. No new lead submissions, private lead reads, runtime data or disk changes."
+  },
+  "tests": {
+    "total": 315,
+    "passed": 314,
+    "skipped": 1,
+    "failed": 0
+  },
+  "astro": {
+    "errors": 0,
+    "warnings": 0,
+    "existingHints": 18
+  },
+  "status": "Built checks passed; independent production verification pending",
+  "archiveReadbacksVerified": 12,
+  "rights": "Direct founder answer call_220131d0cbd843e2807272b978d968a0: Yes. No restrictions specified in answer.",
+  "failureEvidence": "Two original concurrent runs had one pre-existing synthetic child-process worker exit1; both logs preserved. Isolated equivalent4process diagnostic passed17/17records, zeroerrors. The unchanged original concurrent suite then passed314with1skip and0fail, followed by allremainingchecks. No test removal, concurrency reduction or runtime lead access."
+}

@@ -6,8 +6,8 @@
   "summary": {
     "references": 70,
     "brands": 15,
-    "approvedForImageRelease": 59,
-    "tasksAwaitingExactImageRightsReview": 11
+    "approvedForImageRelease": 61,
+    "tasksAwaitingExactImageRightsReview": 9
   },
   "queue": [
     {
@@ -869,13 +869,13 @@
       },
       "identitySource": "https://www.panerai.com/us/en/collections/special-editions-archive/2013/pam00502-radiomir-1940-chrono-monopulsante-8-days-gmt-oro-rosso-.html",
       "priorityScore": 55,
-      "status": "RIGHTS_AND_EXACT_CONFIGURATION_REVIEW_REQUIRED",
-      "rawSourceFileId": null,
-      "webDerivativePath": null,
-      "webDerivativeSHA256": null,
-      "reviewer": null,
-      "commercialUseRightsRecord": null,
-      "notes": "Do not publish until approvedPhotograph verifies commercial rights and exact reference, and WEB image checksum matches stored file."
+      "status": "APPROVED_WITH_VALID_DERIVATIVE",
+      "rawSourceFileId": "19mH__clOj12xc4c-R5sgCYD4otqTJ0RG",
+      "webDerivativePath": "/images/watches/panerai/reviewed-pam00502-20261023-web.webp",
+      "webDerivativeSHA256": "3039fe08d5b70407d2f86f03bf365a06cb7ae188ecd13271e24cce60e618a4a9",
+      "reviewer": "Quest Luxo execution review with founder website-use clearance",
+      "commercialUseRightsRecord": "Direct founder answer call_220131d0cbd843e2807272b978d968a0: Yes.. Record docs/PHOTOGRAPHY_NEW_DEALER_FOUR_RIGHTS_2026-10-23.json. Untouched RAW SHA256 fcb6cc5697123faa78a86f622050249f4bc942fa68426f3907ac8738528cd362. Complete source and whiteWEB individually reviewed; all12archive hashes matched. Classical exterior filled silhouette. Original interior RGB retained; no generated, reconstructed, recolored or sharpened watch detail. Proportional resize and centered2400 white master/1200WEB. No price, availability or unspecified specs inferred. Preserved RAW file: 19mH__clOj12xc4c-R5sgCYD4otqTJ0RG. Pictured full reference PAM00502; 18K rose gold, Brown with luminous hour markers, Brown alligator leather strap. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "notes": "Exact approvedPhotograph gate and local derivative SHA-256 validated; preserve approved source and separate source attribution."
     },
     {
       "brand": "TAG Heuer",
@@ -1061,13 +1061,13 @@
       },
       "identitySource": "https://www.richardmille.com/collections/rm-67-01-automatic-extra-flat",
       "priorityScore": 50,
-      "status": "RIGHTS_AND_EXACT_CONFIGURATION_REVIEW_REQUIRED",
-      "rawSourceFileId": null,
-      "webDerivativePath": null,
-      "webDerivativeSHA256": null,
-      "reviewer": null,
-      "commercialUseRightsRecord": null,
-      "notes": "Do not publish until approvedPhotograph verifies commercial rights and exact reference, and WEB image checksum matches stored file."
+      "status": "APPROVED_WITH_VALID_DERIVATIVE",
+      "rawSourceFileId": "1qM8023aauD--jTgcd4emTGVMEjedxCXw",
+      "webDerivativePath": "/images/watches/richard-mille/reviewed-rm-67-01-20261023-web.webp",
+      "webDerivativeSHA256": "cbafda30a26c804036b0b712dc50a17e86ac5be9c929feab590b1de914fe7d35",
+      "reviewer": "Quest Luxo execution review with founder website-use clearance",
+      "commercialUseRightsRecord": "Direct founder answer call_220131d0cbd843e2807272b978d968a0: Yes.. Record docs/PHOTOGRAPHY_NEW_DEALER_FOUR_RIGHTS_2026-10-23.json. Untouched RAW SHA256 6350e48b975e52cd2b6fb3556b71e2b1036cb99d96e84ac38e17938b18ed8d44. Complete source and whiteWEB individually reviewed; all12archive hashes matched. Classical exterior silhouette retaining all significant original watch/strap components and their unchanged native RGB. Native neutral cast shadow outside the lower Constellation strap excluded. Proportional resize and centered2400white master/1200WEB; no generated, reconstructed, recolored or sharpened watch detail. No price, availability or unspecified specs inferred. Preserved RAW file: 1qM8023aauD--jTgcd4emTGVMEjedxCXw. Pictured full reference RM 67-01; Titanium, Skeletonized, Black rubber strap. Exact configuration reviewed against preserved source evidence and the original photograph.",
+      "notes": "Exact approvedPhotograph gate and local derivative SHA-256 validated; preserve approved source and separate source attribution."
     },
     {
       "brand": "Patek Philippe",
@@ -1694,5 +1694,5 @@
       "notes": "Founder-upload identity verified October16. Separate source-original and review evidence in FOUNDER_UPLOAD_CONTINUATION_2026-10-16.json. Underlying commercial rights and final photography quality still required; no publication approval implied."
     }
   ],
-  "updatedAt": "2026-10-24T02:13:45.156Z"
+  "updatedAt": "2026-10-24T02:21:22.787Z"
 }

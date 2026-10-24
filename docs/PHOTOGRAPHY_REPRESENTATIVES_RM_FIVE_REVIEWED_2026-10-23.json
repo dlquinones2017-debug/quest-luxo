@@ -425,7 +425,7 @@
     }
   ],
   "websitePublished": false,
-  "status": "Five exact-source sets visually reviewed and all15Drive archive hashes matched. Source-specific image rights pending; not published.",
+  "status": "LIVE and verified",
   "archiveVerifiedAt": "2026-10-24T02:07:00.158841+00:00",
   "rights": {
     "approved": true,
@@ -440,5 +440,6 @@
       "1183-126-7M/42",
       "RM 27-05"
     ]
-  }
+  },
+  "publicationStatus": "LIVE"
 }
