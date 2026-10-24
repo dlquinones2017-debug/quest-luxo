@@ -741,7 +741,7 @@ const seeds: readonly PhotographySeed[] = [
 export const photographyExpansionAssets: QuestLuxoAsset[] = [];
 for (const seed of seeds) {
   const existing = photographyExpansionAssets.find(a => a.brand === seed.brand && a.collection === seed.collection && a.reference === seed.reference);
-  const configuration = { ...seed.configuration, nickname: `${seed.configuration.dial} / ${seed.configuration.bracelet}`, originalMSRP: null, currentMSRP: null };
+  const configuration = { ...seed.configuration, nickname: seed.configuration.nickname ?? `${seed.configuration.dial} / ${seed.configuration.bracelet}`, originalMSRP: null, currentMSRP: null };
   if (existing) {
     existing.configurations = [...(existing.configurations ?? []), configuration];
     existing.specificationSources = [...(existing.specificationSources ?? []), { label: `${seed.brand} reference source`, url: seed.sourceUrl }];

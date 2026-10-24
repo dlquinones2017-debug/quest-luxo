@@ -1,13 +1,13 @@
 {
-  "auditedAt": "2026-10-24T01:39:59.064Z",
+  "auditedAt": "2026-10-24T02:11:23.683Z",
   "summary": {
     "brands": 23,
     "collections": 104,
     "registryRecords": 298,
     "distinctRoutes": 297,
     "normalizedBrandReferenceIdentities": 294,
-    "approved": 270,
-    "missing": 27,
+    "approved": 271,
+    "missing": 26,
     "collectionsWithPhotography": 96,
     "unusedApprovedRecords": 2,
     "duplicateNormalizedReferenceGroups": 4,
@@ -179,8 +179,8 @@
       "brand": "Ulysse Nardin",
       "registryRecords": 27,
       "referencePages": 27,
-      "approved": 22,
-      "missing": 5,
+      "approved": 23,
+      "missing": 4,
       "collections": 6
     },
     {
@@ -6314,7 +6314,7 @@
       "collectionSlug": "diver",
       "reference": "Maxi Marine Diver",
       "path": "/collections/ulysse-nardin/diver/maxi-marine-diver",
-      "material": "Steel, titanium, or precious metal by reference",
+      "material": "18K rose gold",
       "configurations": [
         {
           "nickname": "Reference-family configuration",
@@ -6323,10 +6323,23 @@
           "bracelet": "Strap or bracelet varies by exact reference",
           "dial": "Dial and material vary by exact reference",
           "originalMSRP": null
+        },
+        {
+          "caseSize": "44 mm",
+          "movement": "Automatic; calibre verification pending",
+          "dial": "Black wave dial",
+          "bracelet": "Black rubber strap with rose-gold inserts",
+          "nickname": "Pictured reference 266-10-3/92 (representative)",
+          "originalMSRP": null,
+          "currentMSRP": null
         }
       ],
-      "approved": false,
-      "photo": null,
+      "approved": true,
+      "photo": {
+        "assetId": "cleared-20261023-representative-maxi-marine-diver",
+        "src": "/images/watches/ulysse-nardin/founder-13-maxi-diver-white-web.webp",
+        "sha256": "eb72325c11dca7f3ca4d2e5aaf7e0479594074048a28b60505012a2b41c37a77"
+      },
       "recoveryCandidates": []
     },
     {

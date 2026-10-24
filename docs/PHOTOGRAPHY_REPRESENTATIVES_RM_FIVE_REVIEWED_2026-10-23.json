@@ -1,0 +1,312 @@
+{
+  "preparedAt": "2026-10-24T01:58:12.113219+00:00",
+  "references": [
+    {
+      "name": "tudor-royal-28600-watchfinder",
+      "imageUrl": "https://images.watchfinder.co.uk/imgv2/catalogue/48693/Tudor-Royal-M28600-0005-48693-210225-090046-.jpg",
+      "acquiredAt": "2026-10-24T01:53:06.285653+00:00",
+      "contentType": "image/jpeg",
+      "file": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\resume-20261023\\tudor-royal-28600-watchfinder-raw.img",
+      "sha256": "00853c0a0c77d2a7fb8aa7c166fc89bc78fb1053ca19237221949554ff1c9cba",
+      "size": [
+        1500,
+        1920
+      ],
+      "format": "JPEG",
+      "brand": "Tudor",
+      "reference": "Tudor Royal 41 mm",
+      "exactSKU": "M28600-0005",
+      "sourceUrl": "https://www.watchfinder.com/sell-your-watch/enquiry/tudor/royal/m28600-0005/48693",
+      "picturedConfiguration": {
+        "dial": "Blue Roman numerals, day-date",
+        "bracelet": "Stainless-steel five-link bracelet",
+        "nickname": "Pictured reference M28600-0005 (representative)",
+        "caseSize": "41 mm"
+      },
+      "catalogMaterial": "Steel or Steel and Gold",
+      "catalogConfigurations": [
+        {
+          "caseSize": "41 mm",
+          "movement": "Automatic day-date",
+          "dial": "Reference-dependent",
+          "bracelet": "Integrated steel bracelet",
+          "waterResistance": "100 m"
+        }
+      ],
+      "canonicalRoute": "/collections/tudor/royal/tudor-royal-41-mm",
+      "collection": "Royal",
+      "whiteMaster": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\resume-20261023\\tudor-royal-28600-watchfinder-white-master.png",
+      "webDerivative": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\resume-20261023\\tudor-royal-28600-watchfinder-web.webp",
+      "masterSha256": "605861684ff0fb2511a1e836099ea6280c82103af28fe3cb0a4abbf628a7ac01",
+      "webSha256": "4a054d9d9c5725b03fe57799f5bc27ba88f3d44666629fcb2b996c83b4c2a57c",
+      "foregroundBounds": [
+        218,
+        134,
+        1341,
+        1808
+      ],
+      "visualReviewPassed": true,
+      "websiteApproved": false,
+      "rightsStatus": "New exact-source commercial website-use evidence not yet confirmed. Hold publication.",
+      "processing": "Classical exterior filled silhouette. Original interior RGB retained; no generated, reconstructed, recolored or sharpened watch detail. Proportional resize and centered2400 white master/1200WEB.",
+      "rawProviderProcessing": "Native CDN resource retrieved without image transformations or automated background-removal parameters.",
+      "qualityReviewPassed": true,
+      "reviewStatus": "Native original and final1200WEB individually reviewed. Complete depicted watch/crown/closed bracelet inside native margins. Source exact pictured SKU verified; family-row representative selection authorized in call_30506654800f49ee8a724c8a376b5abe. No ownership or availability inference.",
+      "selectionAuthority": "call_30506654800f49ee8a724c8a376b5abe",
+      "verifiedMaterial": "Stainless Steel",
+      "exactReferenceConfigurationVerified": true,
+      "specificationEvidence": {
+        "url": "https://brentmiller.com/products/pre-owned-tudor-royal-41-m28600-0005",
+        "finding": "ExactM28600-0005 dealer record identifies41mm stainless-steel case. Native source depicts blue Roman day-date dial and five-link steel bracelet."
+      },
+      "rawDriveFileId": "1xZqxSjN_UgWSGv0RE16vgA2ZlF7pfjkl",
+      "whiteMasterDriveFileId": "15QFBsJtL0r5tsZ8TnqR8nghjbataNhGA",
+      "webDriveFileId": "1SLwqe0KILLFgoMwo0nhTzjpTg4SE_p_8",
+      "archiveReadbackVerified": true
+    },
+    {
+      "name": "tudor-prince-74000-watchfinder",
+      "imageUrl": "https://images.watchfinder.co.uk/imgv2/catalogue/25516/Tudor-PrinceDate-74000-25516-210113-170901-.jpg",
+      "acquiredAt": "2026-10-24T01:53:06.286686+00:00",
+      "contentType": "image/jpeg",
+      "file": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\resume-20261023\\tudor-prince-74000-watchfinder-raw.img",
+      "sha256": "a3a2cf77021ff61a7f0bac19bd63f4dd88bf7ec18437f1566823d08522cb897d",
+      "size": [
+        1500,
+        1920
+      ],
+      "format": "JPEG",
+      "brand": "Tudor",
+      "reference": "Prince Date",
+      "exactSKU": "74000",
+      "sourceUrl": "https://www.watchfinder.com/sell-your-watch/enquiry/tudor/prince-date/74000/25516",
+      "picturedConfiguration": {
+        "dial": "Silver with baton hour markers",
+        "bracelet": "Stainless-steel five-link bracelet",
+        "nickname": "Pictured reference 74000 (representative)",
+        "caseSize": "34 mm",
+        "movement": "Automatic self-winding"
+      },
+      "catalogMaterial": "Steel or Steel and Gold",
+      "catalogConfigurations": [
+        {
+          "movement": "Automatic date",
+          "dial": "Reference-dependent",
+          "bracelet": "Bracelet or strap"
+        }
+      ],
+      "canonicalRoute": "/collections/tudor/prince/prince-date",
+      "collection": "Prince",
+      "whiteMaster": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\resume-20261023\\tudor-prince-74000-watchfinder-white-master.png",
+      "webDerivative": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\resume-20261023\\tudor-prince-74000-watchfinder-web.webp",
+      "masterSha256": "5a5afa20f2814448ddb4872eac46b747c9540233163da78356297be90b312c8e",
+      "webSha256": "6ebef13cb3c8157b6199a822b03bea3207e849f501e1ba58209d6f58413f12d2",
+      "foregroundBounds": [
+        241,
+        134,
+        1263,
+        1807
+      ],
+      "visualReviewPassed": true,
+      "websiteApproved": false,
+      "rightsStatus": "New exact-source commercial website-use evidence not yet confirmed. Hold publication.",
+      "processing": "Classical exterior filled silhouette. Original interior RGB retained; no generated, reconstructed, recolored or sharpened watch detail. Proportional resize and centered2400 white master/1200WEB.",
+      "rawProviderProcessing": "Native CDN resource retrieved without image transformations or automated background-removal parameters.",
+      "qualityReviewPassed": true,
+      "reviewStatus": "Native original and final1200WEB individually reviewed. Complete depicted watch/crown/closed bracelet inside native margins. Source exact pictured SKU verified; family-row representative selection authorized in call_30506654800f49ee8a724c8a376b5abe. No ownership or availability inference.",
+      "selectionAuthority": "call_30506654800f49ee8a724c8a376b5abe",
+      "verifiedMaterial": "Stainless Steel",
+      "exactReferenceConfigurationVerified": true,
+      "specificationReviewNote": "Independent exact-reference SwissWatchExpo record confirms74000 silver-dial stainless-steel34.0mm automatic identity; native photograph and dial/bracelet configuration tied to exact Watchfinder74000 source. No caliber or price inferred.",
+      "specificationEvidence": {
+        "url": "https://www.swisswatchexpo.com/watches/tudor-prince-oysterdate-silver-dial-steel-vintage-mens-watch-74000-box-papers-77821/",
+        "finding": "74000; silver dial; stainless-steel34.0mm case; automatic self-winding movement."
+      },
+      "rawDriveFileId": "1tWr9Ck4EYtYRGA9nX-D7Vyd6-HgCXl8z",
+      "whiteMasterDriveFileId": "1AdjrZpt3T7ozFmjGyohAmkGSw6614PGl",
+      "webDriveFileId": "1AUF2ixbWSncuAMHu2YkR9SDDd1kCWAv7",
+      "archiveReadbackVerified": true
+    },
+    {
+      "name": "tudor-prince-79280-watchfinder",
+      "imageUrl": "https://www.watchfinder.com/media/catalog/product/W/a/Watch-1-Tudor-PrinceDate-79280-394025-251216-104707864.jpg",
+      "acquiredAt": "2026-10-24T01:48:53.694395+00:00",
+      "contentType": "image/jpeg",
+      "file": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\resume-20261023\\tudor-prince-79280-watchfinder-raw.img",
+      "sha256": "c3caa545c4bb57674931f4bb4ddacaa842c44bf736f56c2905b7fd803b607f14",
+      "size": [
+        1500,
+        1920
+      ],
+      "format": "JPEG",
+      "brand": "Tudor",
+      "reference": "Prince Chronograph",
+      "exactSKU": "79280",
+      "sourceUrl": "https://www.watchfinder.com/watches/tudor/prince-date/79280/394025",
+      "picturedConfiguration": {
+        "dial": "Silver Arabic with three chronograph subdials",
+        "bracelet": "Stainless-steel bracelet",
+        "nickname": "Pictured reference 79280 (representative)"
+      },
+      "catalogMaterial": "Stainless Steel",
+      "catalogConfigurations": [
+        {
+          "movement": "Automatic chronograph",
+          "dial": "Reference-dependent",
+          "bracelet": "Bracelet or strap"
+        }
+      ],
+      "canonicalRoute": "/collections/tudor/prince/prince-chronograph",
+      "collection": "Prince",
+      "whiteMaster": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\resume-20261023\\tudor-prince-79280-watchfinder-white-master.png",
+      "webDerivative": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\resume-20261023\\tudor-prince-79280-watchfinder-web.webp",
+      "masterSha256": "ca3857cb02b7bbeaeccad0c87d290199ac5c43151e42f18ae0560865158914c9",
+      "webSha256": "58ea5a924845ec2c4051aa893dd2b2308da93b94ab32a7bff913a3ad08fe9626",
+      "foregroundBounds": [
+        225,
+        138,
+        1387,
+        1805
+      ],
+      "visualReviewPassed": true,
+      "websiteApproved": false,
+      "rightsStatus": "New exact-source commercial website-use evidence not yet confirmed. Hold publication.",
+      "processing": "Classical exterior filled silhouette. Original interior RGB retained; no generated, reconstructed, recolored or sharpened watch detail. Proportional resize and centered2400 white master/1200WEB.",
+      "rawProviderProcessing": "Native CDN resource retrieved without image transformations or automated background-removal parameters.",
+      "qualityReviewPassed": true,
+      "reviewStatus": "Native original and final1200WEB individually reviewed. Complete depicted watch/crown/closed bracelet inside native margins. Source exact pictured SKU verified; family-row representative selection authorized in call_30506654800f49ee8a724c8a376b5abe. No ownership or availability inference.",
+      "selectionAuthority": "call_30506654800f49ee8a724c8a376b5abe",
+      "verifiedMaterial": "Stainless Steel",
+      "exactReferenceConfigurationVerified": true,
+      "rawDriveFileId": "1sP5KTjc9FfKH1_HJjOB4_2g9Kr_cVkZS",
+      "whiteMasterDriveFileId": "1_6YfEGBIllhYBvJ1Z2wVyjkrnJF-l6Nj",
+      "webDriveFileId": "13vh8P1--K6RIZkR65mbcmmXbtp5CAbID",
+      "archiveReadbackVerified": true
+    },
+    {
+      "name": "un-marine-11831267m42-watchfinder",
+      "imageUrl": "https://www.watchfinder.com/media/catalog/product/W/a/Watch-1-UlysseNardin-MarineChronometer-1183-126-7M42-413461-260318-193456955.jpg",
+      "acquiredAt": "2026-10-24T01:48:53.695390+00:00",
+      "contentType": "image/jpeg",
+      "file": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\resume-20261023\\un-marine-11831267m42-watchfinder-raw.img",
+      "sha256": "00f21db1dc915aeebbf131c448c9d7e5d8faf0d6693ffe765fee6e1e360b7c65",
+      "size": [
+        1500,
+        1920
+      ],
+      "format": "JPEG",
+      "brand": "Ulysse Nardin",
+      "reference": "Marine Chronometer",
+      "exactSKU": "1183-126-7M/42",
+      "sourceUrl": "https://www.watchfinder.com/watches/ulysse-nardin/marine-chronometer/1183-126-7m-42/413461",
+      "picturedConfiguration": {
+        "dial": "Black Roman numerals",
+        "bracelet": "Stainless-steel bracelet",
+        "nickname": "Pictured reference 1183-126-7M/42 (representative)",
+        "caseSize": "43 mm"
+      },
+      "catalogMaterial": "Steel or precious metal, reference dependent",
+      "catalogConfigurations": [
+        {
+          "nickname": "Reference-family configuration",
+          "caseSize": "43 mm for the representative modern generation; verify exact reference",
+          "movement": "Manufacture UN-118 self-winding movement in representative modern examples",
+          "bracelet": "Strap or bracelet varies by exact reference",
+          "dial": "Dial and material vary by exact reference",
+          "originalMSRP": null
+        }
+      ],
+      "canonicalRoute": "/collections/ulysse-nardin/marine/marine-chronometer",
+      "collection": "Marine",
+      "whiteMaster": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\resume-20261023\\un-marine-11831267m42-watchfinder-white-master.png",
+      "webDerivative": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\resume-20261023\\un-marine-11831267m42-watchfinder-web.webp",
+      "masterSha256": "ade13ddb4188de63007ff10abf3dd8ccf536804f9b67ab7726554914770026e0",
+      "webSha256": "25aa81ee842f9303960f7135b06b688ed09fb8a9f708313d95e49be03760c8ea",
+      "foregroundBounds": [
+        199,
+        130,
+        1400,
+        1810
+      ],
+      "visualReviewPassed": true,
+      "websiteApproved": false,
+      "rightsStatus": "New exact-source commercial website-use evidence not yet confirmed. Hold publication.",
+      "processing": "Classical exterior filled silhouette. Original interior RGB retained; no generated, reconstructed, recolored or sharpened watch detail. Proportional resize and centered2400 white master/1200WEB.",
+      "rawProviderProcessing": "Native CDN resource retrieved without image transformations or automated background-removal parameters.",
+      "qualityReviewPassed": true,
+      "reviewStatus": "Native original and final1200WEB individually reviewed. Complete depicted watch/crown/closed bracelet inside native margins. Source exact pictured SKU verified; family-row representative selection authorized in call_30506654800f49ee8a724c8a376b5abe. No ownership or availability inference.",
+      "selectionAuthority": "call_30506654800f49ee8a724c8a376b5abe",
+      "verifiedMaterial": "Stainless Steel",
+      "exactReferenceConfigurationVerified": true,
+      "specificationReviewNote": "Source product table confirms43mm, Steel case and Steel bracelet, Black Roman Numeral dial. No caliber or price inferred.",
+      "rawDriveFileId": "1kFKfSR20VWarwa-4elozgrBG19I3RmhY",
+      "whiteMasterDriveFileId": "1Ct3mKDqFP59E5zxhwEIsYIuWdDZCMhLn",
+      "webDriveFileId": "1sPfQbdJPJHmpnFoithL7swCnHUDIZoRY",
+      "archiveReadbackVerified": true
+    },
+    {
+      "name": "rm2705-manufacturer",
+      "imageUrl": "https://media.richardmille.com/wp-content/uploads/2024/05/16164749/richard-mille-rm-27-05-flying-tourbillon-rafael-nadal-95125.png",
+      "acquiredAt": "2026-10-24T01:38:28.848477+00:00",
+      "contentType": "image/png",
+      "file": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\resume-20261023\\rm2705-manufacturer-raw.img",
+      "sha256": "ce0a8b1e03e060829edaf3141a20d15508a7dfec4d4e83033075e152eb423084",
+      "size": [
+        749,
+        1000
+      ],
+      "format": "PNG",
+      "brand": "Richard Mille",
+      "reference": "RM 27-05",
+      "exactSKU": "RM 27-05",
+      "sourceUrl": "https://www.richardmille.com/collections/rm-27-05-flying-tourbillon-rafael-nadal",
+      "picturedConfiguration": {
+        "dial": "Openworked flying tourbillon",
+        "bracelet": "Black woven fabric strap"
+      },
+      "catalogMaterial": "Carbon TPT and titanium",
+      "catalogConfigurations": [
+        {
+          "caseSize": "Lightweight tonneau",
+          "movement": "RM27-05 manual flying tourbillon",
+          "dial": "Openworked",
+          "bracelet": "Model-dependent",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "canonicalRoute": "/collections/richard-mille/rm-27/rm-27-05",
+      "collection": "RM 27",
+      "whiteMaster": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\resume-20261023\\rm2705-manufacturer-white-master.png",
+      "webDerivative": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\resume-20261023\\rm2705-manufacturer-web.webp",
+      "masterSha256": "b88ff73e5fdc4c7816fc263a580555a2349b41fb31247b97199d676d530ff65a",
+      "webSha256": "fbd2ca1cd05f695fbe63eb66eb82bf4a809a4cd35765880f5313dd0fc71a9e24",
+      "foregroundBounds": [
+        76,
+        29,
+        692,
+        905
+      ],
+      "visualReviewPassed": true,
+      "websiteApproved": false,
+      "rightsStatus": "New exact-source commercial website-use evidence not yet confirmed. Hold publication.",
+      "processing": "Classical exterior filled silhouette. Original interior RGB retained; no generated, reconstructed, recolored or sharpened watch detail. Proportional resize and centered2400 white master/1200WEB.",
+      "rawProviderProcessing": "Native CDN resource retrieved without image transformations or automated background-removal parameters.",
+      "qualityReviewPassed": true,
+      "exactReferenceConfigurationVerified": true,
+      "verifiedMaterial": "Carbon TPT B.4",
+      "reviewStatus": "Complete three-quarter manufacturer photograph and final1200WEB individually reviewed. Whole depicted case, crown and woven strap contained in native margins; supplied alpha retained against white. No reconstructed detail.",
+      "materialEvidence": {
+        "sourceUrl": "https://www.richardmille.com/collections/rm-27-05-flying-tourbillon-rafael-nadal",
+        "finding": "Manufacturer explicitly identifies monobloc case in Carbon TPT B.4; grade5titanium internal bridges and case screws described separately."
+      },
+      "rawDriveFileId": "1ud4Xmv-r55KiNWlo4ftmSjPmgEzwuq6l",
+      "whiteMasterDriveFileId": "1YsQWlfWuCfbLsizJzBIoEFuO9l18WwlH",
+      "webDriveFileId": "1FMCEHOaWOqag0Xe5q2d5r4s-BecQGXsb",
+      "archiveReadbackVerified": true
+    }
+  ],
+  "websitePublished": false,
+  "status": "Five exact-source sets visually reviewed and all15Drive archive hashes matched. Source-specific image rights pending; not published.",
+  "archiveVerifiedAt": "2026-10-24T02:07:00.158841+00:00"
+}

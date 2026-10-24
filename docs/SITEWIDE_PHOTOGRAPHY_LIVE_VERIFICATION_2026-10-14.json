@@ -1,10 +1,10 @@
 {
-  "verifiedAt": "2026-10-24T01:21:12.224206+00:00",
+  "verifiedAt": "2026-10-24T01:44:30.876762+00:00",
   "expectedDistinctReferenceRoutes": 297,
   "verifiedReferenceRoutes": 297,
-  "approvedDistinctReferenceRoutes": 264,
-  "verifiedDistinctPhotoFiles": 262,
-  "queuedDistinctReferenceRoutes": 33,
+  "approvedDistinctReferenceRoutes": 270,
+  "verifiedDistinctPhotoFiles": 268,
+  "queuedDistinctReferenceRoutes": 27,
   "errors": [],
   "pages": [
     {
@@ -1259,7 +1259,7 @@
     },
     {
       "route": "/collections/iwc/portugieser/iw545801",
-      "approved": false,
+      "approved": true,
       "status": "verified"
     },
     {
@@ -1344,12 +1344,12 @@
     },
     {
       "route": "/collections/franck-muller/vanguard-smurfette/v-32-sc-at-fo-smurfette-bl",
-      "approved": false,
+      "approved": true,
       "status": "verified"
     },
     {
       "route": "/collections/franck-muller/vanguard-smurfette/v-32-sc-at-fo-smurfette-rs",
-      "approved": false,
+      "approved": true,
       "status": "verified"
     },
     {
@@ -1374,17 +1374,17 @@
     },
     {
       "route": "/collections/cartier/roadster/wgrd0011",
-      "approved": false,
+      "approved": true,
       "status": "verified"
     },
     {
       "route": "/collections/cartier/roadster/wsrd0014",
-      "approved": false,
+      "approved": true,
       "status": "verified"
     },
     {
       "route": "/collections/zenith/defy-extreme/95-9100-9004-01-i001",
-      "approved": false,
+      "approved": true,
       "status": "verified"
     },
     {
@@ -2635,6 +2635,11 @@
       "status": "verified"
     },
     {
+      "path": "/images/watches/iwc/reviewed-iw545801-20261023-web.webp",
+      "sha256": "95afec4a97ea3ec194f7c60bb2e65fc26a1839408378765d1010b834dc337cd5",
+      "status": "verified"
+    },
+    {
       "path": "/images/watches/iwc/reviewed-iw545901-20261020-web.webp",
       "sha256": "2a844b889bf690e9e73c1a039716619a0723e86a20b8c57ea154b8a6b8cb978a",
       "status": "verified"
@@ -2700,8 +2705,33 @@
       "status": "verified"
     },
     {
+      "path": "/images/watches/franck-muller/reviewed-v-32-sc-at-fo-smurfette-bl-20261023-web.webp",
+      "sha256": "97ac8589990ecbb4f5f40a99a391495b9c31db9936e037d16742a9512d87fae9",
+      "status": "verified"
+    },
+    {
+      "path": "/images/watches/franck-muller/reviewed-v-32-sc-at-fo-smurfette-rs-20261023-web.webp",
+      "sha256": "8bf92d3843ee8a2054ac21f27ef717db09d7ac600e7fd7df5c846dcb9f24a85c",
+      "status": "verified"
+    },
+    {
       "path": "/images/watches/panerai/reviewed-pam01641-white-web.webp",
       "sha256": "9767844fdbf7dc81b18589bfa57f9fe14cde10b0d8060b500b7ba72cf7b26970",
+      "status": "verified"
+    },
+    {
+      "path": "/images/watches/cartier/reviewed-wgrd0011-20261023-web.webp",
+      "sha256": "0d69f78b52b5bf697c262c80f1a1e73ae663faa02c6778242a6814af1031119e",
+      "status": "verified"
+    },
+    {
+      "path": "/images/watches/cartier/reviewed-wsrd0014-20261023-web.webp",
+      "sha256": "13a8c65b712e1e58fa8942e73c3c872ccf0a47e473ccbc894a6edfdaee503b04",
+      "status": "verified"
+    },
+    {
+      "path": "/images/watches/zenith/reviewed-95-9100-9004-01-i001-20261023-web.webp",
+      "sha256": "55bc0d86f73efa0b5f9fd1b2b5f93cb7f869dcae08f055370ca125eb863b22ca",
       "status": "verified"
     },
     {

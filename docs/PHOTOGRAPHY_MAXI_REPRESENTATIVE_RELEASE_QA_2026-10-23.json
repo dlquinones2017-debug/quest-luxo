@@ -1,0 +1,88 @@
+{
+  "checkedAt": "2026-10-24T02:12:57.019019+00:00",
+  "checks": [
+    {
+      "check": "nonomega-queue-sync",
+      "exitCode": 0,
+      "logFileName": "representatives-rm-20261023-nonomega-queue-sync.log"
+    },
+    {
+      "check": "omega-queue-sync",
+      "exitCode": 0,
+      "logFileName": "representatives-rm-20261023-omega-queue-sync.log"
+    },
+    {
+      "check": "astro-check",
+      "exitCode": 0,
+      "logFileName": "representatives-rm-20261023-astro-check.log"
+    },
+    {
+      "check": "regressions",
+      "exitCode": 0,
+      "logFileName": "representatives-rm-20261023-regressions.log"
+    },
+    {
+      "check": "omega-audit",
+      "exitCode": 0,
+      "logFileName": "representatives-rm-20261023-omega-audit.log"
+    },
+    {
+      "check": "omega-queue-check",
+      "exitCode": 0,
+      "logFileName": "representatives-rm-20261023-omega-queue-check.log"
+    },
+    {
+      "check": "expansion-audit",
+      "exitCode": 0,
+      "logFileName": "representatives-rm-20261023-expansion-audit.log"
+    },
+    {
+      "check": "build",
+      "exitCode": 0,
+      "logFileName": "representatives-rm-20261023-build.log"
+    },
+    {
+      "check": "inventory",
+      "exitCode": 0,
+      "logFileName": "representatives-rm-20261023-inventory.log"
+    },
+    {
+      "check": "full-audit",
+      "exitCode": 0,
+      "logFileName": "representatives-rm-20261023-full-audit.log"
+    }
+  ],
+  "builtMapping": {
+    "checkedAt": "2026-10-24T02:11:39.040217+00:00",
+    "mode": "built",
+    "exactReferencesChecked": 1,
+    "rows": [
+      {
+        "reference": "Maxi Marine Diver",
+        "route": "/collections/ulysse-nardin/diver/maxi-marine-diver",
+        "imageSha256": "eb72325c11dca7f3ca4d2e5aaf7e0479594074048a28b60505012a2b41c37a77",
+        "exactConfiguration": true,
+        "collectionGrid": true,
+        "inquiryContext": true,
+        "separateCredits": true,
+        "noImageCaptionOverlay": true
+      }
+    ],
+    "publicFlowsAvailable": true,
+    "leadDataSafety": "Public GET checks only. No new lead submissions, private lead reads, runtime data or disk changes."
+  },
+  "tests": {
+    "total": 315,
+    "passed": 314,
+    "skipped": 1,
+    "failed": 0
+  },
+  "astro": {
+    "errors": 0,
+    "warnings": 0,
+    "existingHints": 18
+  },
+  "status": "Built checks passed; production verification pending",
+  "rights": "Existing cleared founderZIP photograph reused unchanged under literal call_24a179ab128748dbb94a78640e6a1543. Representative selection and actualSKUlabel authorized by call_30506654800f49ee8a724c8a376b5abe.",
+  "unchangedPublicRoute": "/collections/ulysse-nardin/diver/maxi-marine-diver"
+}

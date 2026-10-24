@@ -58,7 +58,7 @@
       "archiveReadbacksVerified": true,
       "rawDriveFileId": "1z5t-XF6sXu4KjZ5gLXprMWrFIepopOi2",
       "archiveReadbackVerified": true,
-      "publicationStatus": "Integrated; release checks pending",
+      "publicationStatus": "LIVE and independently verified",
       "seed": {
         "brand": "Zenith",
         "brandSlug": "zenith",
@@ -81,7 +81,9 @@
         "sourceProvider": "Zenith manufacturer",
         "reviewedAt": "2026-10-23",
         "assetId": "cleared-20261023-reviewed-six-95-9100-9004-01-i001"
-      }
+      },
+      "websitePublished": true,
+      "productionCommit": "40975179c82a61e437c45a665db618ce430ebdd3"
     },
     {
       "name": "fm-smurfette-bl-watchpages",
@@ -140,7 +142,7 @@
       "archiveReadbacksVerified": true,
       "rawDriveFileId": "1vVonmT8mN8jjfecJeLOBRx3meR1-qvod",
       "archiveReadbackVerified": true,
-      "publicationStatus": "Integrated; release checks pending",
+      "publicationStatus": "LIVE and independently verified",
       "seed": {
         "brand": "Franck Muller",
         "brandSlug": "franck-muller",
@@ -163,7 +165,9 @@
         "sourceProvider": "The Watch Pages",
         "reviewedAt": "2026-10-23",
         "assetId": "cleared-20261023-reviewed-six-v-32-sc-at-fo-smurfette-bl"
-      }
+      },
+      "websitePublished": true,
+      "productionCommit": "40975179c82a61e437c45a665db618ce430ebdd3"
     },
     {
       "name": "fm-smurfette-rs-watchpages",
@@ -222,7 +226,7 @@
       "archiveReadbacksVerified": true,
       "rawDriveFileId": "1tSl-sXM4KP23TgYFvPpxpS9fZKMgZvlj",
       "archiveReadbackVerified": true,
-      "publicationStatus": "Integrated; release checks pending",
+      "publicationStatus": "LIVE and independently verified",
       "seed": {
         "brand": "Franck Muller",
         "brandSlug": "franck-muller",
@@ -245,7 +249,9 @@
         "sourceProvider": "The Watch Pages",
         "reviewedAt": "2026-10-23",
         "assetId": "cleared-20261023-reviewed-six-v-32-sc-at-fo-smurfette-rs"
-      }
+      },
+      "websitePublished": true,
+      "productionCommit": "40975179c82a61e437c45a665db618ce430ebdd3"
     },
     {
       "name": "cartier-wgrd0011-manufacturer",
@@ -304,7 +310,7 @@
       "archiveReadbacksVerified": true,
       "rawDriveFileId": "1hJWr9-vHkg7V-hsTYcIeYUAtq9eA1uRR",
       "archiveReadbackVerified": true,
-      "publicationStatus": "Integrated; release checks pending",
+      "publicationStatus": "LIVE and independently verified",
       "seed": {
         "brand": "Cartier",
         "brandSlug": "cartier",
@@ -327,7 +333,9 @@
         "sourceProvider": "Cartier manufacturer",
         "reviewedAt": "2026-10-23",
         "assetId": "cleared-20261023-reviewed-six-wgrd0011"
-      }
+      },
+      "websitePublished": true,
+      "productionCommit": "40975179c82a61e437c45a665db618ce430ebdd3"
     },
     {
       "name": "cartier-wsrd0014-manufacturer",
@@ -386,7 +394,7 @@
       "archiveReadbacksVerified": true,
       "rawDriveFileId": "1uZRNJJVxJIsI31CERViUT-4kd7_AEjd-",
       "archiveReadbackVerified": true,
-      "publicationStatus": "Integrated; release checks pending",
+      "publicationStatus": "LIVE and independently verified",
       "seed": {
         "brand": "Cartier",
         "brandSlug": "cartier",
@@ -409,7 +417,9 @@
         "sourceProvider": "Cartier manufacturer",
         "reviewedAt": "2026-10-23",
         "assetId": "cleared-20261023-reviewed-six-wsrd0014"
-      }
+      },
+      "websitePublished": true,
+      "productionCommit": "40975179c82a61e437c45a665db618ce430ebdd3"
     },
     {
       "name": "iwc-iw545801-manufacturer",
@@ -469,7 +479,7 @@
       "archiveReadbacksVerified": true,
       "rawDriveFileId": "1wR5tVQufuPIEAOBYfBWUYRhuvPZGpKY1",
       "archiveReadbackVerified": true,
-      "publicationStatus": "Integrated; release checks pending",
+      "publicationStatus": "LIVE and independently verified",
       "seed": {
         "brand": "IWC",
         "brandSlug": "iwc",
@@ -492,11 +502,13 @@
         "sourceProvider": "IWC manufacturer",
         "reviewedAt": "2026-10-23",
         "assetId": "cleared-20261023-reviewed-six-iw545801"
-      }
+      },
+      "websitePublished": true,
+      "productionCommit": "40975179c82a61e437c45a665db618ce430ebdd3"
     }
   ],
   "websitePublished": false,
-  "status": "Six exact-source sets visually reviewed and archived; all18archive readback hashes match. Commercial-use evidence pending; publication held.",
+  "status": "LIVE and independently verified",
   "archiveVerifiedAt": "2026-10-24T01:33:55.235912+00:00",
   "rights": {
     "confirmedAt": "2026-10-24T01:35:10.145728+00:00",
@@ -541,5 +553,15 @@
         "rawSha256": "360e3422c03ee153e5fffd7837f8d7e9944711d0498abe76444deb18078b0c86"
       }
     ]
+  },
+  "productionRelease": {
+    "commit": "40975179c82a61e437c45a665db618ce430ebdd3",
+    "deployId": "dep-dbe0pomi0phs73bkff2g",
+    "status": "LIVE",
+    "referenceRoutesVerified": 297,
+    "photographedReferenceRoutes": 270,
+    "queuedReferenceRoutes": 27,
+    "distinctPhotoFilesVerified": 268,
+    "photographedCollections": 96
   }
 }

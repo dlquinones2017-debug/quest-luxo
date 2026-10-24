@@ -1,0 +1,263 @@
+{
+  "updatedAt": "2026-10-24T01:51:02.948613+00:00",
+  "purpose": "Preserve all direct founder exact-source rights decisions for these seven reviewed releases. This consolidates existing evidence and does not invent or expand permissions.",
+  "records": [
+    {
+      "confirmedAt": "2026-10-24T00:03:21.664025+00:00",
+      "questionId": "call_a32e683bc58149f587d610e0ebc5942e",
+      "directFounderAnswer": "Rights cover both originals and derivatives; no restrictions",
+      "references": [
+        {
+          "reference": "116500LN",
+          "sourceUrl": "https://www.grayandsons.com/w527052-rolex-daytona-40mm-116500ln/",
+          "rawSha256": "c159b70a703f1b1e5b401b08d7583b14d0f73a50486f9f25b10b1022e8db0349"
+        },
+        {
+          "reference": "118238",
+          "sourceUrl": "https://www.grayandsons.com/w524561-rolex-day-date-36mm-118238/",
+          "rawSha256": "069bfbf46610a2fa445c7ea7712d5b26e5a14a1a5e6f076691c0d274e6d95c29"
+        }
+      ]
+    },
+    {
+      "confirmedAt": "2026-10-24T00:16:23.797703+00:00",
+      "questionId": "call_8868cb23862b4c248198bc88b991e735",
+      "directFounderAnswer": "Rights cover all four and derivatives; no restrictions",
+      "sourceLedgerDriveFileId": "12rg6LajNFu3nAB8Z2xzlx-urV_1iOlpd",
+      "references": [
+        {
+          "reference": "228206",
+          "exactSKU": "228206",
+          "sourceUrl": "https://www.watchguynyc.com/products/rolex-day-date-40-platinum-ice-blue-diagonal-motif-dial-men-s-watch-228206",
+          "rawSha256": "fe1127c80d7aa9ce7f5291b447c2d79598f16fdd9261e06bf30e92de6e926095"
+        },
+        {
+          "reference": "126619LB",
+          "exactSKU": "126619LB",
+          "sourceUrl": "https://www.grayandsons.com/w525030-unused-rolex-submariner-cookie-monste/",
+          "rawSha256": "542caf1db120baa3967ae4821cf04fbc46332e2737ea676db5ccce76db5e843a"
+        },
+        {
+          "reference": "2220.80",
+          "exactSKU": "2220.80.00",
+          "sourceUrl": "https://www.watchfinder.com/sell-your-watch/enquiry/omega/seamaster-300m/2220-80-00/4657",
+          "rawSha256": "b1ddea38367fa30343c96ebf6928ca526a2e83bf03ef47deab869aece79ea202"
+        },
+        {
+          "reference": "5712/1A",
+          "exactSKU": "5712/1A-001",
+          "sourceUrl": "https://www.the1916company.com/pre-owned/patek-philippe/nautilus/5050598/",
+          "rawSha256": "971670bfe54b7558c475c50bcfde56a72588be3c1092b4fe49b08f40f51a05a4"
+        }
+      ]
+    },
+    {
+      "confirmedAt": "2026-10-24T00:26:29.617295+00:00",
+      "questionId": "call_ecaaa9b9c5b9470984d32810ceeddf21",
+      "directFounderAnswer": "Rights cover all three and derivatives; no restrictions",
+      "sourceLedgerDriveFileId": "1RKbP_x2RFyurxKj1dWmqpMMMaf-6Djus",
+      "references": [
+        {
+          "reference": "15202ST",
+          "exactSKU": "15202ST.OO.1240ST.01",
+          "sourceUrl": "https://www.watchfinder.com/sell-your-watch/enquiry/audemars-piguet/royal-oak/15202st-oo-1240st-01/26429",
+          "rawSha256": "5ce615052dc3c618fbed0404e18becb7f326864c10e0b8aabe0323eb16d5b5a6"
+        },
+        {
+          "reference": "15400ST",
+          "exactSKU": "15400ST.OO.1220ST.02",
+          "sourceUrl": "https://www.watchfinder.com/sell-your-watch/enquiry/audemars-piguet/royal-oak/15400st-oo-1220st-02/25355",
+          "rawSha256": "b896b2338489db9dd90bea44c0b62321fa4c782d081429d4dcbedd16bb8bfb7e"
+        },
+        {
+          "reference": "14790ST",
+          "exactSKU": "14790ST.OO.0789ST.02",
+          "sourceUrl": "https://www.watchfinder.com/sell-your-watch/enquiry/audemars-piguet/royal-oak/14790st-oo-0789st-02/14932",
+          "rawSha256": "a73089c2bc1670cef520f41bd6f43e75b030bcc0b91e4093c5b708875294014c"
+        }
+      ]
+    },
+    {
+      "confirmedAt": "2026-10-24T00:39:14.338823+00:00",
+      "questionId": "call_b08e9ca28dbf4d55ae1eb5c615d3224b",
+      "directFounderAnswer": "Rights cover all four and derivatives; no restrictions",
+      "sourceLedgerDriveFileId": "1uiMFtBQYS4zhr6XOv23gtAnQyD78fFJu",
+      "references": [
+        {
+          "reference": "15710ST",
+          "exactSKU": "15710ST.OO.A002CA.01",
+          "sourceUrl": "https://www.watchfinder.com/sell-your-watch/enquiry/audemars-piguet/royal-oak-offshore/15710st-oo-a002ca-01/26372",
+          "rawSha256": "d790cca2e797f3a39a3dbff7dbd93df6accb9f4567cc0e11229b4d1d41736c10"
+        },
+        {
+          "reference": "15720ST",
+          "exactSKU": "15720ST.OO.A027CA.01",
+          "sourceUrl": "https://www.watchfinder.com/sell-your-watch/enquiry/audemars-piguet/royal-oak-offshore/15720st-oo-a027ca-01/52607",
+          "rawSha256": "f1e0539c5e3ca8325a6cb904916a8b0d258c6f933fee6da3a606a247b3bb321c"
+        },
+        {
+          "reference": "126719BLRO",
+          "exactSKU": "126719BLRO",
+          "sourceUrl": "https://www.grayandsons.com/w525913-unused-rolex-gmt-master-ii-pepsi-40mm/",
+          "rawSha256": "c79316eb7af053089cde4cca56cf14cb04f8a4a54969dc1ba7288cd5b9802c91"
+        },
+        {
+          "reference": "124300",
+          "exactSKU": "124300",
+          "sourceUrl": "https://www.grayandsons.com/w525633-rolex-oyster-perpetual-41mm-124300/",
+          "rawSha256": "17d244c5debcd7fd5bd4bc224804715fe5eab6c6b2672e35e78cb8206186f4b9"
+        }
+      ]
+    },
+    {
+      "confirmedAt": "2026-10-24T00:50:50.257738+00:00",
+      "questionId": "call_9cf5b5975350468280654167fbdffa70",
+      "directFounderAnswer": "Rights cover all eight and derivatives; no restrictions",
+      "sourceLedgerDriveFileId": "1YVwOHutNA_Mw7vSgaL95o2qi5ZtU7FVz",
+      "references": [
+        {
+          "reference": "PAM00683",
+          "exactSKU": "PAM00683",
+          "sourceUrl": "https://www.watchfinder.com/sell-your-watch/enquiry/panerai/submersible/pam00683/42373",
+          "rawSha256": "8510c1d1109d9c702791c0a08c609641b4a27bb4ee3acab10ab35947432a5ea3"
+        },
+        {
+          "reference": "PAM01305",
+          "exactSKU": "PAM01305",
+          "sourceUrl": "https://www.watchfinder.com/sell-your-watch/enquiry/panerai/submersible/pam01305/35102",
+          "rawSha256": "7902fe311d07310837703cd5d48e2bb4216f67e1b410ab09162057b6427a3e9d"
+        },
+        {
+          "reference": "PAM01616",
+          "exactSKU": "PAM01616",
+          "sourceUrl": "https://www.watchfinder.com/sell-your-watch/enquiry/panerai/submersible/pam01616/40277",
+          "rawSha256": "c31b89e0c1bedda07708f0b198bcd8a1e99ba2101409be80fb37ab4bde48fe29"
+        },
+        {
+          "reference": "CAR2A1Z.FT6044",
+          "exactSKU": "CAR2A1Z.FT6044",
+          "sourceUrl": "https://www.watchfinder.com/sell-your-watch/enquiry/tag-heuer/carrera/car2a1z-ft6044/29627",
+          "rawSha256": "cf41c9023f6019c5551224d870ff8ba213d28658d471e3c61b1aa5f31d4eb270"
+        },
+        {
+          "reference": "2201.50",
+          "exactSKU": "2201.50.00",
+          "sourceUrl": "https://www.watchfinder.com/sell-your-watch/enquiry/omega/planet-ocean/2201-50-00/3266",
+          "rawSha256": "21011151302a944abae33503f885031c1cdfe617d42a58ebbb038fab2938b096"
+        },
+        {
+          "reference": "232.30.42.21.01.001",
+          "exactSKU": "232.30.42.21.01.001",
+          "sourceUrl": "https://www.watchfinder.com/sell-your-watch/enquiry/omega/planet-ocean/232-30-42-21-01-001/22503",
+          "rawSha256": "6eb1093395fc782ad217b504f1fbf1ba3370d96a5bfba063a497a242a761130b"
+        },
+        {
+          "reference": "311.92.44.51.01.003",
+          "exactSKU": "311.92.44.51.01.003",
+          "sourceUrl": "https://www.watchfinder.com/sell-your-watch/enquiry/omega/speedmaster-dark-side-of-the-moon/311-92-44-51-01-003/24391",
+          "rawSha256": "3b6888f8f85d7384e846795937dafeeadd07c312ca9fe17852b3164f88c3668b"
+        },
+        {
+          "reference": "BR0192-REDRADAR",
+          "exactSKU": "BR01-92 Red Radar",
+          "sourceUrl": "https://www.watchfinder.com/sell-your-watch/enquiry/bell-and-ross/br01-92/red-radar/22836",
+          "rawSha256": "d9959c55738ed2435648194e344a281adafb0271a83f5295a4306144307f822d"
+        }
+      ]
+    },
+    {
+      "confirmedAt": "2026-10-24T01:12:45.273812+00:00",
+      "questionId": "call_fc3ee888ceee4be6aa823ffe6a901222",
+      "directFounderAnswer": "Yes. Approve",
+      "sourceLedgerDriveFileId": "13RKC7flpUXK1RZ56cR-iIhYd6ThfD8xe",
+      "references": [
+        {
+          "reference": "6000V/110A-B544",
+          "exactSKU": "6000V/110A-B544",
+          "sourceUrl": "https://www.watchfinder.com/sell-your-watch/enquiry/vacheron-constantin/overseas/6000v-110a-b544/47752",
+          "rawSha256": "fd150a6867c6b63b4c44808a4082dd768e8a038e94e455e18666d579c85c4492"
+        },
+        {
+          "reference": "233.32.41.21.01.001",
+          "exactSKU": "233.32.41.21.01.001",
+          "sourceUrl": "https://www.watchfinder.com/sell-your-watch/enquiry/omega/seamaster-300/233-32-41-21-01-001/27927",
+          "rawSha256": "ae725f227cb28366135577126898e13b764c507c5c51e8ee97e10af4d1cdc51e"
+        },
+        {
+          "reference": "215.30.44.22.01.001",
+          "exactSKU": "215.30.44.22.01.001",
+          "sourceUrl": "https://www.watchfinder.com/watches/omega/planet-ocean/215-30-44-22-01-001/431503",
+          "rawSha256": "72d0c0822dc5a382647a84bc6cf680eb02be7609eda0dc9b7e2713e478324068"
+        },
+        {
+          "reference": "M79360N-0024",
+          "exactSKU": "M79360N-0024",
+          "sourceUrl": "https://www.watchfinder.com/watches/tudor/black-bay-chrono/m79360n-0024/340031",
+          "rawSha256": "717b200ccd27b2cb4db2c09ba917cdb28c0f3b23c06e56b8d5bd51c98e7bf4e6"
+        },
+        {
+          "reference": "M79360N-0019",
+          "exactSKU": "M79360N-0019",
+          "sourceUrl": "https://www.watchfinder.com/watches/tudor/black-bay-chrono/m79360n-0019/349444",
+          "rawSha256": "4f2059d9404463b67881ccec629ef5c716be409202e2a99877bc1c2cc99472d6"
+        }
+      ]
+    },
+    {
+      "confirmedAt": "2026-10-24T01:35:10.145728+00:00",
+      "questionId": "call_e5665215254c49a1a0c3f068ebd7fdfa",
+      "directFounderAnswer": "Yes. Approve.",
+      "sourceLedgerDriveFileId": "1r8Na9-3taw5cucstriyIMIxpWvH43iPq",
+      "references": [
+        {
+          "reference": "95.9100.9004/01.I001",
+          "exactSKU": "95.9100.9004/01.I001",
+          "sourceUrl": "https://www.zenith-watches.com/en_us/product/defy-extreme-95-9100-9004-01-i001",
+          "rawSha256": "3ef0a4bf62a7ec92de4c4d16ccf15d49cec424793037eabca13ba29319983fd5"
+        },
+        {
+          "reference": "V 32 SC AT FO SMURFETTE (BL)",
+          "exactSKU": "V 32 SC AT FO SMURFETTE (BL)",
+          "sourceUrl": "https://www.thewatchpages.com/watches/franck-muller-vanguard-smurfette-v-32-sc-at-fo-smurfette-bl",
+          "rawSha256": "687f712009d63bec3167c3f1a239b5fd89f04f03030ab019638bfbdd20d9218a"
+        },
+        {
+          "reference": "V 32 SC AT FO SMURFETTE (RS)",
+          "exactSKU": "V 32 SC AT FO SMURFETTE (RS)",
+          "sourceUrl": "https://www.thewatchpages.com/watches/franck-muller-vanguard-smurfette-v-32-sc-at-fo-smurfette-rs",
+          "rawSha256": "2857c3644bf5dc0b4fd0355f7cc8f7e747b6d135c760d834e817104a724135e2"
+        },
+        {
+          "reference": "WGRD0011",
+          "exactSKU": "WGRD0011",
+          "sourceUrl": "https://www.cartier.com/en-us/watches/collections/roadster/roadster-watch--CRWGRD0011.html",
+          "rawSha256": "0940c1a62b313bc09470f7473619a0385bbcc9053c60cdffd76db942e1c57ac5"
+        },
+        {
+          "reference": "WSRD0014",
+          "exactSKU": "WSRD0014",
+          "sourceUrl": "https://www.cartier.com/en-us/watches/collections/roadster/roadster-watch--CRWSRD0014.html",
+          "rawSha256": "18846f51207a4d8d9ca070c1984766012f757b89864ac86fb2a5930192e12cad"
+        },
+        {
+          "reference": "IW545801",
+          "exactSKU": "IW545801",
+          "sourceUrl": "https://www.iwc.com/us-en/watches/portugieser/iw545801-portugieser-hand-wound-tourbillon",
+          "rawSha256": "360e3422c03ee153e5fffd7837f8d7e9944711d0498abe76444deb18078b0c86"
+        }
+      ]
+    }
+  ],
+  "representativeSelection": {
+    "questionId": "call_30506654800f49ee8a724c8a376b5abe",
+    "directFounderAnswer": "Select verified representatives and label exact pictured SKUs",
+    "families": [
+      "Tudor Royal41mm",
+      "Tudor Prince Date",
+      "Tudor Prince Chronograph",
+      "Ulysse Nardin Marine Chronometer",
+      "Ulysse Nardin Maxi Marine Diver"
+    ],
+    "constraints": "Choose source-verified genuine exact variants; retain current public URLs; visibly label the actual pictured full SKU/configuration. Existing rights apply only to previously cleared originals; all new third-party photographs still require their own evidence. No invented specs or identity."
+  }
+}

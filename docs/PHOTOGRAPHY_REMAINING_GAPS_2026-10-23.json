@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-10-24T01:23:38.522708+00:00",
+  "updatedAt": "2026-10-24T01:47:19.066041+00:00",
   "catalogReferenceUrls": 297,
-  "builtApprovedReferenceUrls": 264,
-  "remainingReferenceUrls": 33,
+  "builtApprovedReferenceUrls": 270,
+  "remainingReferenceUrls": 27,
   "fullPopulationComplete": false,
   "definitions": "One record per distinct existing canonical reference URL. Queued does not mean globally unavailable. Acquisition and review tasks remain active; only evidence-backed holds are stated as quality/identity blockers.",
   "records": [
@@ -549,35 +549,6 @@
       ]
     },
     {
-      "brand": "IWC",
-      "collection": "Portugieser",
-      "reference": "IW545801",
-      "canonicalRoute": "/collections/iwc/portugieser/iw545801",
-      "status": "ACQUISITION_REQUIRED",
-      "blocker": "No accepted, rights-cleared exact-reference photograph is registered for this route. Latest exact Watchfinder catalog entry explicitly supplies an AwaitingWatchImage placeholder; a different reference image must not be substituted.",
-      "nextAction": "Acquire an authentic complete-watch original for this exact reference; verify pictured configuration, prepare and review white derivative, record exact-source rights, archive/readback and release with required checks.",
-      "priorEvidenceFiles": [
-        "MULTIBRAND_EXPANSION_PHOTO_COVERAGE.json",
-        "MULTIBRAND_NON_OMEGA_PHOTOGRAPHY_QUEUE_2026-10-14.json",
-        "independent-continuation-source-evidence.json",
-        "independent-continuation-source-queue.json"
-      ],
-      "sourceCandidates": [
-        "https://www.iwc.com/us-en/watches/portugieser/iw545801-portugieser-hand-wound-tourbillon"
-      ],
-      "catalogMaterial": "18K Armor Gold",
-      "catalogConfigurations": [
-        {
-          "caseSize": "42.4 mm",
-          "movement": "IWC 81905 manual-winding flying tourbillon",
-          "dial": "Silver",
-          "bracelet": "Black alligator leather strap",
-          "originalMSRP": null,
-          "currentMSRP": null
-        }
-      ]
-    },
-    {
       "brand": "Richard Mille",
       "collection": "RM 67",
       "reference": "RM 67-01",
@@ -665,62 +636,6 @@
           "movement": "Mechanical",
           "dial": "Bitcoin QR dial",
           "bracelet": "Model-dependent",
-          "originalMSRP": null,
-          "currentMSRP": null
-        }
-      ]
-    },
-    {
-      "brand": "Franck Muller",
-      "collection": "Vanguard Smurfette",
-      "reference": "V 32 SC AT FO SMURFETTE (BL)",
-      "canonicalRoute": "/collections/franck-muller/vanguard-smurfette/v-32-sc-at-fo-smurfette-bl",
-      "status": "SOURCE_REVIEW_OR_REPLACEMENT_REQUIRED",
-      "blocker": "Prior source bytes exist, but no complete visually accepted and rights-cleared set is available in the registry.",
-      "nextAction": "Inspect the preserved native original and its source record. Reject clipped/obscured detail; obtain a complete replacement if needed, then verify configuration, exact-source rights and final derivative.",
-      "priorEvidenceFiles": [
-        "MULTIBRAND_EXPANSION_PHOTO_COVERAGE.json",
-        "MULTIBRAND_NON_OMEGA_PHOTOGRAPHY_QUEUE_2026-10-14.json",
-        "specialty2-native-acquisition.json"
-      ],
-      "sourceCandidates": [
-        "https://www.franckmuller.com/fr/news/vanguard-smurfette"
-      ],
-      "catalogMaterial": "Stainless Steel",
-      "catalogConfigurations": [
-        {
-          "caseSize": "32 mm",
-          "movement": "Automatic",
-          "dial": "Blue Smurfette motif",
-          "bracelet": "Blue strap",
-          "originalMSRP": null,
-          "currentMSRP": null
-        }
-      ]
-    },
-    {
-      "brand": "Franck Muller",
-      "collection": "Vanguard Smurfette",
-      "reference": "V 32 SC AT FO SMURFETTE (RS)",
-      "canonicalRoute": "/collections/franck-muller/vanguard-smurfette/v-32-sc-at-fo-smurfette-rs",
-      "status": "SOURCE_REVIEW_OR_REPLACEMENT_REQUIRED",
-      "blocker": "Prior source bytes exist, but no complete visually accepted and rights-cleared set is available in the registry.",
-      "nextAction": "Inspect the preserved native original and its source record. Reject clipped/obscured detail; obtain a complete replacement if needed, then verify configuration, exact-source rights and final derivative.",
-      "priorEvidenceFiles": [
-        "MULTIBRAND_EXPANSION_PHOTO_COVERAGE.json",
-        "MULTIBRAND_NON_OMEGA_PHOTOGRAPHY_QUEUE_2026-10-14.json",
-        "specialty2-native-acquisition.json"
-      ],
-      "sourceCandidates": [
-        "https://www.franckmuller.com/fr/news/vanguard-smurfette"
-      ],
-      "catalogMaterial": "Stainless Steel",
-      "catalogConfigurations": [
-        {
-          "caseSize": "32 mm",
-          "movement": "Automatic",
-          "dial": "Pink Smurfette motif",
-          "bracelet": "Pink strap",
           "originalMSRP": null,
           "currentMSRP": null
         }
@@ -821,101 +736,6 @@
           "movement": "P.2004/10 manual chronograph and GMT",
           "dial": "Brown",
           "bracelet": "Reference-dependent",
-          "originalMSRP": null,
-          "currentMSRP": null
-        }
-      ]
-    },
-    {
-      "brand": "Cartier",
-      "collection": "Roadster",
-      "reference": "WGRD0011",
-      "canonicalRoute": "/collections/cartier/roadster/wgrd0011",
-      "status": "ACQUISITION_REQUIRED",
-      "blocker": "No accepted, rights-cleared exact-reference photograph is registered for this route.",
-      "nextAction": "Acquire an authentic complete-watch original for this exact reference; verify pictured configuration, prepare and review white derivative, record exact-source rights, archive/readback and release with required checks.",
-      "priorEvidenceFiles": [
-        "MULTIBRAND_EXPANSION_PHOTO_COVERAGE.json",
-        "MULTIBRAND_NON_OMEGA_PHOTOGRAPHY_QUEUE_2026-10-14.json",
-        "PHOTOGRAPHY_SOURCE_QUALITY_HOLDS_2026-10-14.json",
-        "expanded-primary-next-source-evidence.json",
-        "expanded-primary-next-source-queue.json"
-      ],
-      "sourceCandidates": [
-        "https://www.cartier.com/en-us/watches/collections/roadster/roadster-watch--CRWGRD0011.html"
-      ],
-      "catalogMaterial": "18K Yellow Gold",
-      "catalogConfigurations": [
-        {
-          "caseSize": "42.5 x 34.92 mm",
-          "movement": "Calibre 1899 MC automatic",
-          "dial": "White Roman-numeral dial",
-          "bracelet": "Yellow gold bracelet and gray leather strap",
-          "originalMSRP": null,
-          "currentMSRP": null
-        }
-      ]
-    },
-    {
-      "brand": "Cartier",
-      "collection": "Roadster",
-      "reference": "WSRD0014",
-      "canonicalRoute": "/collections/cartier/roadster/wsrd0014",
-      "status": "ACQUISITION_REQUIRED",
-      "blocker": "No accepted, rights-cleared exact-reference photograph is registered for this route.",
-      "nextAction": "Acquire an authentic complete-watch original for this exact reference; verify pictured configuration, prepare and review white derivative, record exact-source rights, archive/readback and release with required checks.",
-      "priorEvidenceFiles": [
-        "MULTIBRAND_EXPANSION_PHOTO_COVERAGE.json",
-        "MULTIBRAND_NON_OMEGA_PHOTOGRAPHY_QUEUE_2026-10-14.json",
-        "PHOTOGRAPHY_SOURCE_QUALITY_HOLDS_2026-10-14.json",
-        "expanded-primary-next-source-evidence.json",
-        "expanded-primary-next-source-queue.json"
-      ],
-      "sourceCandidates": [
-        "https://www.cartier.com/en-pr/watches/collections/roadster/roadster-watch--CRWSRD0014"
-      ],
-      "catalogMaterial": "Stainless Steel",
-      "catalogConfigurations": [
-        {
-          "caseSize": "47.2 x 38.7 mm",
-          "movement": "Calibre 1847 MC automatic",
-          "dial": "Blue PVD with Roman numerals",
-          "bracelet": "Steel bracelet and navy blue rubber strap",
-          "originalMSRP": null,
-          "currentMSRP": null
-        }
-      ]
-    },
-    {
-      "brand": "Zenith",
-      "collection": "DEFY Extreme",
-      "reference": "95.9100.9004/01.I001",
-      "canonicalRoute": "/collections/zenith/defy-extreme/95-9100-9004-01-i001",
-      "status": "ACQUISITION_REQUIRED",
-      "blocker": "No accepted, rights-cleared exact-reference photograph is registered for this route.",
-      "nextAction": "Acquire an authentic complete-watch original for this exact reference; verify pictured configuration, prepare and review white derivative, record exact-source rights, archive/readback and release with required checks.",
-      "priorEvidenceFiles": [
-        "MULTIBRAND_EXPANSION_PHOTO_COVERAGE.json",
-        "MULTIBRAND_NON_OMEGA_PHOTOGRAPHY_QUEUE_2026-10-14.json",
-        "independent-continuation-source-evidence.json",
-        "independent-continuation-source-queue.json",
-        "next-specialty2-source-evidence.json",
-        "next-specialty2-source-queue.json",
-        "next-specialty3-source-evidence.json",
-        "next-specialty3-source-queue.json"
-      ],
-      "sourceCandidates": [
-        "https://www.zenith-watches.com/int/product/defy-extreme-95-9100-9004-01-i001",
-        "https://www.kamine.co.jp/item/18501/",
-        "https://www.wempe.com/en-us/watches/zenith/defy/defy-extreme-95-9100-9004-01-i001"
-      ],
-      "catalogMaterial": "Titanium",
-      "catalogConfigurations": [
-        {
-          "caseSize": "45 mm",
-          "movement": "El Primero 21 automatic 1/100th-second chronograph",
-          "dial": "Sapphire skeleton",
-          "bracelet": "Titanium bracelet, rubber and Velcro straps",
           "originalMSRP": null,
           "currentMSRP": null
         }

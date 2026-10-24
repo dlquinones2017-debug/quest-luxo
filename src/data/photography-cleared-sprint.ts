@@ -5154,5 +5154,30 @@ export const clearedSprintPhotographySeeds: readonly PhotographySeed[] = [
     "sourceProvider": "IWC manufacturer",
     "reviewedAt": "2026-10-23",
     "assetId": "cleared-20261023-reviewed-six-iw545801"
+  },
+  {
+    "brand": "Ulysse Nardin",
+    "brandSlug": "ulysse-nardin",
+    "collection": "Diver",
+    "reference": "Maxi Marine Diver",
+    "exactReference": "266-10-3/92",
+    "model": "Maxi Marine Diver pictured 266-10-3/92",
+    "material": "18K rose gold",
+    "configuration": {
+      "caseSize": "44 mm",
+      "movement": "Automatic; calibre verification pending",
+      "dial": "Black wave dial",
+      "bracelet": "Black rubber strap with rose-gold inserts",
+      "nickname": "Pictured reference 266-10-3/92 (representative)"
+    },
+    "sourceUrl": "https://www.prestigetime.com/Ulysse-Nardin-Maxi-Marine-Diver-44mm-266-10-3-92.html",
+    "photographSourceUrl": "https://drive.google.com/file/d/1XkuYKQSEE6Anhgd08g4vZGeTOXKX_0Gi/view",
+    "src": "/images/watches/ulysse-nardin/founder-13-maxi-diver-white-web.webp",
+    "sha256": "eb72325c11dca7f3ca4d2e5aaf7e0479594074048a28b60505012a2b41c37a77",
+    "rawDriveFileId": "1XkuYKQSEE6Anhgd08g4vZGeTOXKX_0Gi",
+    "clearanceRecord": "Direct founder response call_24a179ab128748dbb94a78640e6a1543: Rights cover the ZIP and both Patek originals/derivatives; no restrictions. Record docs/PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json. Exact native photograph crop upload-13-maxi-diver.png SHA256 fa3e0033b4f9eccd65d3e34c9227c7041dd1b0c258dc0f33af250f4e45e4ca1a from source Screenshot_20260914_123807_Google.jpg SHA256 aad6408f56b1eee1245a0f8db592442e6f8feac8404a50e2955ee6cb455fa45b. Full screenshot preserved locally only; native watch crop preserved within the44appearance RAW review archive. Entire watch including returning rubber strap individually reviewed. Exterior-only classical mask, unchanged native watch RGB; no reconstruction or synthesized detail. No new price or availability inferred. Family representative selection directly authorized in call_30506654800f49ee8a724c8a376b5abe: Select verified representatives and label exact pictured SKUs. Existing cleared original and derivative reused unchanged; exact picturedSKU visibly labeled outside photograph; existing public family URL retained.",
+    "sourceProvider": "Founder-supplied watch photograph; native ZIP crop",
+    "reviewedAt": "2026-10-19",
+    "assetId": "cleared-20261023-representative-maxi-marine-diver"
   }
 ];

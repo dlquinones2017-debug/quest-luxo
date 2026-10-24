@@ -134,6 +134,107 @@
   },
   "nativeAndWhiteWebVisualReview": "Complete originals and white WEB individually reviewed before direct founder rights confirmation; unchanged SHA256s verified during integration.",
   "archiveReadbacksVerified": true,
-  "status": "Built checks passed; independent production verification pending",
-  "initialFailureEvidence": "Initial regression run found the exact Franck Muller coverage expectation lacked the two newly approved Smurfettes. Added both exact references while retaining every earlier expectation; original concurrent suite passed314with1skip and0fail. Initial failure log retained. No test removal or concurrency reduction."
+  "status": "LIVE and independently verified",
+  "initialFailureEvidence": "Initial regression run found the exact Franck Muller coverage expectation lacked the two newly approved Smurfettes. Added both exact references while retaining every earlier expectation; original concurrent suite passed314with1skip and0fail. Initial failure log retained. No test removal or concurrency reduction.",
+  "productionRelease": {
+    "commit": "40975179c82a61e437c45a665db618ce430ebdd3",
+    "deployId": "dep-dbe0pomi0phs73bkff2g",
+    "status": "LIVE",
+    "referenceRoutesVerified": 297,
+    "photographedReferenceRoutes": 270,
+    "queuedReferenceRoutes": 27,
+    "distinctPhotoFilesVerified": 268,
+    "photographedCollections": 96
+  },
+  "targetedLive": {
+    "checkedAt": "2026-10-24T01:44:12.029830+00:00",
+    "mode": "live",
+    "exactReferencesChecked": 6,
+    "rows": [
+      {
+        "reference": "95.9100.9004/01.I001",
+        "route": "/collections/zenith/defy-extreme/95-9100-9004-01-i001",
+        "imageSha256": "55bc0d86f73efa0b5f9fd1b2b5f93cb7f869dcae08f055370ca125eb863b22ca",
+        "exactConfiguration": true,
+        "collectionGrid": true,
+        "inquiryContext": true,
+        "separateCredits": true,
+        "noImageCaptionOverlay": true
+      },
+      {
+        "reference": "V 32 SC AT FO SMURFETTE (BL)",
+        "route": "/collections/franck-muller/vanguard-smurfette/v-32-sc-at-fo-smurfette-bl",
+        "imageSha256": "97ac8589990ecbb4f5f40a99a391495b9c31db9936e037d16742a9512d87fae9",
+        "exactConfiguration": true,
+        "collectionGrid": true,
+        "inquiryContext": true,
+        "separateCredits": true,
+        "noImageCaptionOverlay": true
+      },
+      {
+        "reference": "V 32 SC AT FO SMURFETTE (RS)",
+        "route": "/collections/franck-muller/vanguard-smurfette/v-32-sc-at-fo-smurfette-rs",
+        "imageSha256": "8bf92d3843ee8a2054ac21f27ef717db09d7ac600e7fd7df5c846dcb9f24a85c",
+        "exactConfiguration": true,
+        "collectionGrid": true,
+        "inquiryContext": true,
+        "separateCredits": true,
+        "noImageCaptionOverlay": true
+      },
+      {
+        "reference": "WGRD0011",
+        "route": "/collections/cartier/roadster/wgrd0011",
+        "imageSha256": "0d69f78b52b5bf697c262c80f1a1e73ae663faa02c6778242a6814af1031119e",
+        "exactConfiguration": true,
+        "collectionGrid": true,
+        "inquiryContext": true,
+        "separateCredits": true,
+        "noImageCaptionOverlay": true
+      },
+      {
+        "reference": "WSRD0014",
+        "route": "/collections/cartier/roadster/wsrd0014",
+        "imageSha256": "13a8c65b712e1e58fa8942e73c3c872ccf0a47e473ccbc894a6edfdaee503b04",
+        "exactConfiguration": true,
+        "collectionGrid": true,
+        "inquiryContext": true,
+        "separateCredits": true,
+        "noImageCaptionOverlay": true
+      },
+      {
+        "reference": "IW545801",
+        "route": "/collections/iwc/portugieser/iw545801",
+        "imageSha256": "95afec4a97ea3ec194f7c60bb2e65fc26a1839408378765d1010b834dc337cd5",
+        "exactConfiguration": true,
+        "collectionGrid": true,
+        "inquiryContext": true,
+        "separateCredits": true,
+        "noImageCaptionOverlay": true
+      }
+    ],
+    "publicFlowsAvailable": true,
+    "leadDataSafety": "Public GET checks only. No new lead submissions, private lead reads, runtime data or disk changes."
+  },
+  "desktopMobileReview": {
+    "desktopReferences": [
+      "WGRD0011",
+      "IW545801"
+    ],
+    "mobileReferences": [
+      "V 32 SC AT FO SMURFETTE (RS)",
+      "95.9100.9004/01.I001"
+    ],
+    "desktop": [
+      1440,
+      1000
+    ],
+    "mobile": [
+      390,
+      844
+    ],
+    "wholeCenteredImages": true,
+    "noHorizontalOverflow": true,
+    "noFigcaptions": true,
+    "preservedSizeMovementFieldsVisible": true
+  }
 }
