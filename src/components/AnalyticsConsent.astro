@@ -6,7 +6,7 @@ const measurementId = "G-PJPDS9FJVT";
 <aside id="ql-analytics-choice" aria-labelledby="ql-analytics-choice-title" hidden>
   <div class="ql-analytics-choice__copy">
     <strong id="ql-analytics-choice-title">Optional website analytics</strong>
-    <p>May we use Google Analytics to understand which pages visitors use? We don't include your inquiry details in analytics. Read our <a href="/privacy">Privacy Policy</a>.</p>
+    <p>May we use Google Analytics and Apollo to understand page visits and business interest? These services receive technical usage information when enabled. We don't add your inquiry details to analytics. Read our <a href="/privacy">Privacy Policy</a>.</p>
   </div>
   <div class="ql-analytics-choice__actions">
     <button type="button" data-ql-analytics-accept>Allow analytics</button>
@@ -16,7 +16,8 @@ const measurementId = "G-PJPDS9FJVT";
 
 <script is:inline define:vars={{ measurementId }}>
   (() => {
-    const key = "quest-luxo-analytics-consent-v1";
+    // Ask again because this version adds Apollo to the optional services.
+    const key = "quest-luxo-analytics-consent-v2";
     const choice = document.getElementById("ql-analytics-choice");
     if (!choice) return;
     const privatePrefixes = ["/api", "/broker", "/broker-console", "/dev", "/operations"];
@@ -36,6 +37,16 @@ const measurementId = "G-PJPDS9FJVT";
     const startAnalytics = () => {
       if (window.__questLuxoAnalyticsStarted) return;
       window.__questLuxoAnalyticsStarted = true;
+      // Never expose query-string or fragment context to the visitor SDK.
+      if (location.hostname === "questluxo.com" && !location.search && !location.hash && !window.__questLuxoApolloStarted) {
+        window.__questLuxoApolloStarted = true;
+        const apollo = document.createElement("script");
+        apollo.src = "https://assets.apollo.io/micro/website-tracker/tracker.iife.js?nocache=" + Math.random().toString(36).substring(7);
+        apollo.async = true;
+        apollo.defer = true;
+        apollo.onload = () => window.trackingFunctions?.onLoad({ appId: "6a9f7b36424c6500106c8df7" });
+        document.head.appendChild(apollo);
+      }
       window.dataLayer = window.dataLayer || [];
       function gtag() { window.dataLayer.push(arguments); }
       window.gtag = gtag;
@@ -99,7 +110,10 @@ const measurementId = "G-PJPDS9FJVT";
     document.addEventListener("click", (event) => {
       const target = event.target;
       if (!(target instanceof Element) || !target.closest("[data-ql-analytics-preferences]")) return;
-      try { localStorage.removeItem(key); } catch { /* No stored consent was readable. */ }
+      try {
+        localStorage.removeItem(key);
+        localStorage.removeItem("quest-luxo-analytics-consent-v1");
+      } catch { /* No stored consent was readable. */ }
       location.reload();
     });
   })();
