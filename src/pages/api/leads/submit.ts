@@ -1,4 +1,5 @@
 import type { APIRoute } from "astro";
+import { communicationPreferenceError } from "../../../lib/leads/leadCommunicationConsent.ts";
 import {
   createLeadCapturePayload,
   hasRequiredLeadContactFields,
@@ -50,6 +51,7 @@ const createPayloadInput = (body: unknown): LeadCapturePayloadInput => {
     message: getPayloadField(body, "message"),
     source: getPayloadField(body, "source"),
     createdAt: getPayloadField(body, "createdAt"),
+    communicationPreferences: body.communicationPreferences,
   };
 };
 
@@ -78,7 +80,10 @@ export const POST: APIRoute = async ({ request }) => {
     );
   }
 
-  const payload = createLeadCapturePayload(createPayloadInput(body));
+  const input = createPayloadInput(body);
+  const preferenceError = communicationPreferenceError(input.communicationPreferences, input.phone);
+  if (preferenceError) return jsonResponse({ success: false, error: preferenceError }, 400);
+  const payload = createLeadCapturePayload(input);
 
   if (!hasRequiredLeadContactFields(payload)) {
     return jsonResponse(

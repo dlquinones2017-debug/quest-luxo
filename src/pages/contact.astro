@@ -1,5 +1,6 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
+import CommunicationPreferences from "../components/CommunicationPreferences.astro";
 ---
 
 <BaseLayout
@@ -86,6 +87,8 @@ import BaseLayout from "../layouts/BaseLayout.astro";
           <textarea name="message" maxlength="2000" required></textarea>
         </label>
 
+        <CommunicationPreferences />
+
         <p class="privacy-notice">
           By submitting, you ask Quest Luxo to contact you about this inquiry
           and acknowledge our <a href="/privacy">Privacy Policy</a> and
@@ -112,6 +115,7 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 </BaseLayout>
 
 <script>
+  import { readCommunicationPreferences, communicationPreferenceError } from "../lib/leads/leadCommunicationConsent.ts";
   const params = new URLSearchParams(window.location.search);
   const requestedCollection = params.get("collection");
   const intro = document.querySelector<HTMLElement>("[data-contact-intro]");
@@ -147,9 +151,17 @@ import BaseLayout from "../layouts/BaseLayout.astro";
       return;
     }
 
-    const data = Object.fromEntries(new FormData(form).entries());
+    const formData = new FormData(form);
+    const communicationPreferences = readCommunicationPreferences(formData);
+    const preferenceError = communicationPreferenceError(communicationPreferences, String(formData.get("phone") ?? ""));
+    if (preferenceError) {
+      if (status) { status.textContent = preferenceError; status.classList.add("error"); }
+      return;
+    }
+    const data = Object.fromEntries(formData.entries());
     const payload = {
       ...data,
+      communicationPreferences,
       intent: params.get("intent") ?? "private-sourcing",
       brand: params.get("brand") ?? "",
       collection: requestedCollection ?? "",
@@ -173,7 +185,7 @@ import BaseLayout from "../layouts/BaseLayout.astro";
         throw new Error(result.error || "Unable to submit your inquiry.");
       }
       if (status) {
-        status.textContent = result.message;
+        status.textContent = result.message || "Your inquiry has been received. A Quest Luxo advisor will review your request.";
         status.classList.add("success");
       }
       form.reset();

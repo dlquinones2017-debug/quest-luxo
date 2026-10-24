@@ -1,4 +1,7 @@
 # Quest Luxo launch status
+## Optional communications repair — October 24, 2026
+
+Separate optional newsletter, marketing-text and inquiry-text choices are implemented and locally verified on the existing inquiry forms, with versioned server receipt evidence and updated public disclosures. This change is not deployed. Social/WTS confirms the campaign remains rejected; its retained Brand Website URL, registration method and generated widget are still unavailable. Provider/carrier approval is not established. See `WTS_WEBSITE_CONSENT_REPAIR_2026-10-24.md` for verification and owner handoff. Production photography remains at the verified front-facing Encrypto release `b69a409` with 297/297 reference routes populated.
 
 ## Enterprise intake continuation — October 19, 2026
 

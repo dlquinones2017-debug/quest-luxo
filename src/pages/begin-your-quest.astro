@@ -1,5 +1,6 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
+import CommunicationPreferences from "../components/CommunicationPreferences.astro";
 ---
 
 <BaseLayout title="Begin Your Quest | Quest Luxo">
@@ -110,6 +111,8 @@ import BaseLayout from "../layouts/BaseLayout.astro";
             placeholder="Condition, box/papers, trade details, preferred configuration, valuation notes, or anything else we should know."
           ></textarea>
         </label>
+
+        <CommunicationPreferences />
 
         <p class="form-message form-message--error" data-lead-error hidden></p>
         <p class="form-message form-message--success" data-lead-success hidden></p>
@@ -304,6 +307,7 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 </style>
 
 <script>
+  import { readCommunicationPreferences, communicationPreferenceError } from "../lib/leads/leadCommunicationConsent.ts";
   import {
     createLeadContextSummary,
     createLeadIntakeContext,
@@ -418,7 +422,11 @@ import BaseLayout from "../layouts/BaseLayout.astro";
       event.preventDefault();
 
       const formData = new FormData(form);
+      const communicationPreferences = readCommunicationPreferences(formData);
+      const preferenceError = communicationPreferenceError(communicationPreferences, getFormValue(formData, "phone"));
+      if (preferenceError) { showError(preferenceError); return; }
       const payload = createLeadCapturePayload({
+        communicationPreferences,
         name: getFormValue(formData, "name"),
         email: getFormValue(formData, "email"),
         phone: getFormValue(formData, "phone"),
