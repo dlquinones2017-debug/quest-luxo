@@ -1,0 +1,32 @@
+{
+  "confirmedAt": "2026-10-24T00:39:14.338823+00:00",
+  "questionId": "call_b08e9ca28dbf4d55ae1eb5c615d3224b",
+  "directFounderAnswer": "Rights cover all four and derivatives; no restrictions",
+  "sourceLedgerDriveFileId": "1uiMFtBQYS4zhr6XOv23gtAnQyD78fFJu",
+  "references": [
+    {
+      "reference": "15710ST",
+      "exactSKU": "15710ST.OO.A002CA.01",
+      "sourceUrl": "https://www.watchfinder.com/sell-your-watch/enquiry/audemars-piguet/royal-oak-offshore/15710st-oo-a002ca-01/26372",
+      "rawSha256": "d790cca2e797f3a39a3dbff7dbd93df6accb9f4567cc0e11229b4d1d41736c10"
+    },
+    {
+      "reference": "15720ST",
+      "exactSKU": "15720ST.OO.A027CA.01",
+      "sourceUrl": "https://www.watchfinder.com/sell-your-watch/enquiry/audemars-piguet/royal-oak-offshore/15720st-oo-a027ca-01/52607",
+      "rawSha256": "f1e0539c5e3ca8325a6cb904916a8b0d258c6f933fee6da3a606a247b3bb321c"
+    },
+    {
+      "reference": "126719BLRO",
+      "exactSKU": "126719BLRO",
+      "sourceUrl": "https://www.grayandsons.com/w525913-unused-rolex-gmt-master-ii-pepsi-40mm/",
+      "rawSha256": "c79316eb7af053089cde4cca56cf14cb04f8a4a54969dc1ba7288cd5b9802c91"
+    },
+    {
+      "reference": "124300",
+      "exactSKU": "124300",
+      "sourceUrl": "https://www.grayandsons.com/w525633-rolex-oyster-perpetual-41mm-124300/",
+      "rawSha256": "17d244c5debcd7fd5bd4bc224804715fe5eab6c6b2672e35e78cb8206186f4b9"
+    }
+  ]
+}

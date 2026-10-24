@@ -437,3 +437,8 @@ Founder confirmed unrestricted rights for WatchGuyNYC Rolex228206, Gray and Sons
 ## October 23 Royal Oak photography release
 
 Founder confirmed unrestricted rights for Watchfinder AP15202ST.OO.1240ST.01,15400ST.OO.1220ST.02 and14790ST.OO.0789ST.02 originals and derivatives. Three sets populate four existing URLs, including both15202ST collection URLs. All9archive readbacks matched. Additive pictured configurations retain existing broader configurations and public routes. Built coverage247of297referenceURLs;50queued. Full unchanged concurrent suite314passed,1platformskip,0failed; Astro0errors,0warnings,18existinghints; audits/build and all four exact mappings passed. New main consent/privacy changes preserved. Production verification follows. No test leads or private lead reads.
+
+
+## October 23 Offshore and Rolex photography release
+
+Founder confirmed unrestricted rights for Watchfinder AP15710ST.OO.A002CA.01/AP15720ST.OO.A027CA.01 and Gray and Sons Rolex126719BLRO/124300 originals and derivatives. All four complete sets reviewed; all12archive readbacks matched. Manufacturer Offshore configuration sources preserved; earlier clipped124300bytes remain held. Additive pictured configurations retain existing broader configurations and public routes. Built coverage251of297referenceURLs;46queued. Full unchanged concurrent suite314passed,1platformskip,0failed; Astro0errors,0warnings,18existinghints; audits/build and all four exact mappings passed. New main consent/privacy changes preserved. Production verification follows. No test leads or private lead reads.

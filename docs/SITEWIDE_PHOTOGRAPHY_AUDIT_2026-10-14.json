@@ -1,14 +1,14 @@
 {
-  "auditedAt": "2026-10-24T00:30:32.933Z",
+  "auditedAt": "2026-10-24T00:40:43.822Z",
   "summary": {
     "brands": 23,
     "collections": 104,
     "registryRecords": 298,
     "distinctRoutes": 297,
     "normalizedBrandReferenceIdentities": 294,
-    "approved": 247,
-    "missing": 50,
-    "collectionsWithPhotography": 86,
+    "approved": 251,
+    "missing": 46,
+    "collectionsWithPhotography": 88,
     "unusedApprovedRecords": 2,
     "duplicateNormalizedReferenceGroups": 4,
     "fileIntegrityFailures": 0,
@@ -27,8 +27,8 @@
       "brand": "Audemars Piguet",
       "registryRecords": 25,
       "referencePages": 25,
-      "approved": 21,
-      "missing": 4,
+      "approved": 23,
+      "missing": 2,
       "collections": 5
     },
     {
@@ -155,8 +155,8 @@
       "brand": "Rolex",
       "registryRecords": 56,
       "referencePages": 56,
-      "approved": 54,
-      "missing": 2,
+      "approved": 56,
+      "missing": 0,
       "collections": 14
     },
     {
@@ -479,10 +479,22 @@
           "dial": "Blue or Meteorite",
           "bracelet": "White Gold Oyster",
           "originalMSRP": null
+        },
+        {
+          "dial": "Blue",
+          "bracelet": "White-gold Oyster",
+          "caseSize": "40 mm",
+          "nickname": "Blue / White-gold Oyster",
+          "originalMSRP": null,
+          "currentMSRP": null
         }
       ],
-      "approved": false,
-      "photo": null,
+      "approved": true,
+      "photo": {
+        "assetId": "cleared-20261023-offshore-126719blro",
+        "src": "/images/watches/rolex/reviewed-126719blro-20261023-web.webp",
+        "sha256": "fda9df5ed2cd90372a39aacc6ff2868bc067b8365cadc2ca3b859fdddca2a7ef"
+      },
       "recoveryCandidates": []
     },
     {
@@ -1955,10 +1967,22 @@
           "dial": "Configuration details available through private advisory",
           "bracelet": "Reference dependent",
           "originalMSRP": null
+        },
+        {
+          "dial": "Yellow",
+          "bracelet": "Oyster",
+          "caseSize": "41 mm",
+          "nickname": "Yellow / Oyster",
+          "originalMSRP": null,
+          "currentMSRP": null
         }
       ],
-      "approved": false,
-      "photo": null,
+      "approved": true,
+      "photo": {
+        "assetId": "cleared-20261023-offshore-124300",
+        "src": "/images/watches/rolex/reviewed-124300-20261023-web.webp",
+        "sha256": "d4aae30ac904421e1fee21c5619d52cd0464f1ab2fc14f05a731712bfda0d183"
+      },
       "recoveryCandidates": []
     },
     {
@@ -5299,10 +5323,22 @@
           "dial": "Méga Tapisserie",
           "bracelet": "Rubber strap",
           "waterResistance": "300 m"
+        },
+        {
+          "dial": "Black Mega Tapisserie",
+          "bracelet": "Black rubber strap",
+          "caseSize": "42 mm",
+          "nickname": "Black Mega Tapisserie / Black rubber strap",
+          "originalMSRP": null,
+          "currentMSRP": null
         }
       ],
-      "approved": false,
-      "photo": null,
+      "approved": true,
+      "photo": {
+        "assetId": "cleared-20261023-offshore-15710st",
+        "src": "/images/watches/audemars-piguet/reviewed-15710st-20261023-web.webp",
+        "sha256": "0e886ca27d84878d9025ba4884d9b08221e24868e3fae71113f045105bcac2d9"
+      },
       "recoveryCandidates": []
     },
     {
@@ -5320,10 +5356,22 @@
           "dial": "Méga Tapisserie",
           "bracelet": "Interchangeable rubber strap",
           "waterResistance": "300 m"
+        },
+        {
+          "dial": "Blue Mega Tapisserie",
+          "bracelet": "Blue rubber strap",
+          "caseSize": "42 mm",
+          "nickname": "Blue Mega Tapisserie / Blue rubber strap",
+          "originalMSRP": null,
+          "currentMSRP": null
         }
       ],
-      "approved": false,
-      "photo": null,
+      "approved": true,
+      "photo": {
+        "assetId": "cleared-20261023-offshore-15720st",
+        "src": "/images/watches/audemars-piguet/reviewed-15720st-20261023-web.webp",
+        "sha256": "fefc8fc511a332f1fe238abfbcbe6230f8d5e0e656f84010b47f63857874abc9"
+      },
       "recoveryCandidates": []
     },
     {

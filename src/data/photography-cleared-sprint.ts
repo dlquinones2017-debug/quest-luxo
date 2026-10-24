@@ -4613,5 +4613,97 @@ export const clearedSprintPhotographySeeds: readonly PhotographySeed[] = [
     "sourceProvider": "Watchfinder",
     "reviewedAt": "2026-10-23",
     "assetId": "cleared-20261023-ap-14790st-royal-oak"
+  },
+  {
+    "brand": "Audemars Piguet",
+    "brandSlug": "audemars-piguet",
+    "collection": "Offshore Diver",
+    "reference": "15710ST",
+    "exactReference": "15710ST.OO.A002CA.01",
+    "model": "Offshore Diver 15710ST.OO.A002CA.01",
+    "material": "Stainless Steel",
+    "configuration": {
+      "dial": "Black Mega Tapisserie",
+      "bracelet": "Black rubber strap",
+      "caseSize": "42 mm"
+    },
+    "sourceUrl": "https://www.audemarspiguet.com/us/en/watch-collection/royal-oak-offshore/15710ST.OO.A002CA.01",
+    "photographSourceUrl": "https://www.watchfinder.com/sell-your-watch/enquiry/audemars-piguet/royal-oak-offshore/15710st-oo-a002ca-01/26372",
+    "src": "/images/watches/audemars-piguet/reviewed-15710st-20261023-web.webp",
+    "sha256": "0e886ca27d84878d9025ba4884d9b08221e24868e3fae71113f045105bcac2d9",
+    "rawDriveFileId": "1cdyN91THWPL4Mlt-8thNmCtcO3IYCI-n",
+    "clearanceRecord": "Direct founder answer call_b08e9ca28dbf4d55ae1eb5c615d3224b: Rights cover all four and derivatives; no restrictions. Record docs/PHOTOGRAPHY_OFFSHORE_ROLEX_RIGHTS_2026-10-23.json. Untouched RAW SHA256 d790cca2e797f3a39a3dbff7dbd93df6accb9f4567cc0e11229b4d1d41736c10. Full watch, source/configuration and final1200whiteWEB individually reviewed; all archival readbacks matched. Classical exterior filled silhouette. Original interior RGB retained; no generated, reconstructed, recolored or sharpened watch detail. Proportional resize and centered2400 white master/1200WEB. No price, availability or new alloy grade inferred.",
+    "sourceProvider": "Watchfinder",
+    "reviewedAt": "2026-10-23",
+    "assetId": "cleared-20261023-offshore-15710st"
+  },
+  {
+    "brand": "Audemars Piguet",
+    "brandSlug": "audemars-piguet",
+    "collection": "Offshore Diver",
+    "reference": "15720ST",
+    "exactReference": "15720ST.OO.A027CA.01",
+    "model": "Offshore Diver 15720ST.OO.A027CA.01",
+    "material": "Stainless Steel",
+    "configuration": {
+      "dial": "Blue Mega Tapisserie",
+      "bracelet": "Blue rubber strap",
+      "caseSize": "42 mm"
+    },
+    "sourceUrl": "https://www.audemarspiguet.com/en/watch-collection/royal-oak-offshore/15720ST.OO.A027CA.01",
+    "photographSourceUrl": "https://www.watchfinder.com/sell-your-watch/enquiry/audemars-piguet/royal-oak-offshore/15720st-oo-a027ca-01/52607",
+    "src": "/images/watches/audemars-piguet/reviewed-15720st-20261023-web.webp",
+    "sha256": "fefc8fc511a332f1fe238abfbcbe6230f8d5e0e656f84010b47f63857874abc9",
+    "rawDriveFileId": "1F9YoeUE6xnY5_KGPx_skadphcI19RiPh",
+    "clearanceRecord": "Direct founder answer call_b08e9ca28dbf4d55ae1eb5c615d3224b: Rights cover all four and derivatives; no restrictions. Record docs/PHOTOGRAPHY_OFFSHORE_ROLEX_RIGHTS_2026-10-23.json. Untouched RAW SHA256 f1e0539c5e3ca8325a6cb904916a8b0d258c6f933fee6da3a606a247b3bb321c. Full watch, source/configuration and final1200whiteWEB individually reviewed; all archival readbacks matched. Classical exterior filled silhouette. Original interior RGB retained; no generated, reconstructed, recolored or sharpened watch detail. Proportional resize and centered2400 white master/1200WEB. No price, availability or new alloy grade inferred.",
+    "sourceProvider": "Watchfinder",
+    "reviewedAt": "2026-10-23",
+    "assetId": "cleared-20261023-offshore-15720st"
+  },
+  {
+    "brand": "Rolex",
+    "brandSlug": "rolex",
+    "collection": "GMT-Master II",
+    "reference": "126719BLRO",
+    "exactReference": "126719BLRO",
+    "model": "GMT-Master II 126719BLRO",
+    "material": "18k White Gold",
+    "configuration": {
+      "dial": "Blue",
+      "bracelet": "White-gold Oyster",
+      "caseSize": "40 mm"
+    },
+    "sourceUrl": "https://www.grayandsons.com/w525913-unused-rolex-gmt-master-ii-pepsi-40mm/",
+    "photographSourceUrl": "https://www.grayandsons.com/w525913-unused-rolex-gmt-master-ii-pepsi-40mm/",
+    "src": "/images/watches/rolex/reviewed-126719blro-20261023-web.webp",
+    "sha256": "fda9df5ed2cd90372a39aacc6ff2868bc067b8365cadc2ca3b859fdddca2a7ef",
+    "rawDriveFileId": "17SZpitrg7iZzufsKn8RF1N3nJw8kz4GU",
+    "clearanceRecord": "Direct founder answer call_b08e9ca28dbf4d55ae1eb5c615d3224b: Rights cover all four and derivatives; no restrictions. Record docs/PHOTOGRAPHY_OFFSHORE_ROLEX_RIGHTS_2026-10-23.json. Untouched RAW SHA256 c79316eb7af053089cde4cca56cf14cb04f8a4a54969dc1ba7288cd5b9802c91. Full watch, source/configuration and final1200whiteWEB individually reviewed; all archival readbacks matched. Classical exterior filled silhouette. Original interior RGB retained; no generated, reconstructed, recolored or sharpened watch detail. Proportional resize and centered2400 white master/1200WEB. No price, availability or new alloy grade inferred.",
+    "sourceProvider": "Gray and Sons",
+    "reviewedAt": "2026-10-23",
+    "assetId": "cleared-20261023-offshore-126719blro"
+  },
+  {
+    "brand": "Rolex",
+    "brandSlug": "rolex",
+    "collection": "Oyster Perpetual",
+    "reference": "124300",
+    "exactReference": "124300",
+    "model": "Oyster Perpetual 124300",
+    "material": "Oystersteel",
+    "configuration": {
+      "dial": "Yellow",
+      "bracelet": "Oyster",
+      "caseSize": "41 mm"
+    },
+    "sourceUrl": "https://www.grayandsons.com/w525633-rolex-oyster-perpetual-41mm-124300/",
+    "photographSourceUrl": "https://www.grayandsons.com/w525633-rolex-oyster-perpetual-41mm-124300/",
+    "src": "/images/watches/rolex/reviewed-124300-20261023-web.webp",
+    "sha256": "d4aae30ac904421e1fee21c5619d52cd0464f1ab2fc14f05a731712bfda0d183",
+    "rawDriveFileId": "1l-lDcDcXqPUhJgaH-6ZiyDkDtL4EeLWu",
+    "clearanceRecord": "Direct founder answer call_b08e9ca28dbf4d55ae1eb5c615d3224b: Rights cover all four and derivatives; no restrictions. Record docs/PHOTOGRAPHY_OFFSHORE_ROLEX_RIGHTS_2026-10-23.json. Untouched RAW SHA256 17d244c5debcd7fd5bd4bc224804715fe5eab6c6b2672e35e78cb8206186f4b9. Full watch, source/configuration and final1200whiteWEB individually reviewed; all archival readbacks matched. Classical exterior filled silhouette. Original interior RGB retained; no generated, reconstructed, recolored or sharpened watch detail. Proportional resize and centered2400 white master/1200WEB. No price, availability or new alloy grade inferred.",
+    "sourceProvider": "Gray and Sons",
+    "reviewedAt": "2026-10-23",
+    "assetId": "cleared-20261023-offshore-124300"
   }
 ];

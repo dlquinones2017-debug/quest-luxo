@@ -1,14 +1,14 @@
 {
-  "updatedAt": "2026-10-24T00:31:43.181202+00:00",
+  "updatedAt": "2026-10-24T00:43:02.888295+00:00",
   "deadline": "2026-10-19T22:03:41-04:00",
   "objective": "Acquire authentic exact-reference photographs and populate every featured website reference without fabrication.",
   "worktree": "C:/Users/CAU Student/.codex/worktrees/launch-sprint/quest-luxo",
   "branch": "codex/launch-sprint",
-  "baselineMain": "a00846ed98c8e872a2c900693e71ed03ee796738",
+  "baselineMain": "497109853d22acaff532b71bfdb22bc9d5f807dd",
   "canonicalReferences": 297,
-  "photographedReferences": 237,
-  "queuedReferences": 60,
-  "coverageStatus": "237of297referenceURLs photographed;60queued;85of104collections;236distinctphoto hashes verified.",
+  "photographedReferences": 247,
+  "queuedReferences": 50,
+  "coverageStatus": "247 of297 reference URLs photographed;50 queued;86of104collections;245distinct image files verified.",
   "mobileStatusThread": "01a1371a-fad5-7e03-8807-0ae850c74269",
   "mobileStatusTitle": "Quest Luxo Command Center V4",
   "mobileStatusAuthorized": true,
@@ -29,11 +29,11 @@
     "No invented specs, MSRP or availability"
   ],
   "clearance": "Direct founder answer call_24a179ab128748dbb94a78640e6a1543; docs/PHOTOGRAPHY_FOUNDER_ZIP_RIGHTS_2026-10-16.json; Drive1HFfmLAHtbf-YyK-66jhn025-qSpZ3ndZ",
-  "nextBatch": "Verify AP release LIVE, all297routes and245distinct image files. Update canonical master/queue and individual gap report; continue50gaps. Clipped124300, clipped16202ST manufacturer candidate and six unidentified uploads held.",
+  "nextBatch": "Verify four-photo release LIVE,297routes and249distinct files. Update canonical master, queue and individual46gap report. Earlier clipped124300bytes, clipped16202ST and six unidentified uploads remain held.",
   "preparedPendingClearance": 0,
   "preparedDriveFiles": 465,
   "preparedManifest": "docs/ADDITIONAL_OMEGA_NAVITIMER_ARCHIVED_2026-10-14.json; docs/PRIMARY_FOUR_ARCHIVED_2026-10-14.json; docs/OMEGA_EXPANSION_ARCHIVED_WAVE_2026-10-14.json",
-  "masterPages": 82,
+  "masterPages": 84,
   "preparedSourceLogs": [
     "NEXT_EXACT_PHOTOGRAPHY_WAVE_2026-10-13.json",
     "ROLEX_NEXT_PHOTOGRAPHY_WAVE_2026-10-13.json",
@@ -79,19 +79,19 @@
   "nextAcquisitionEvidence": "avenger-primary-acquisition.json; BREITLING_AVENGER_PREPARED_2026-10-15.json; COMMONS_TUDOR_SOURCE_HOLDS_2026-10-15.json.",
   "mobileMirrorStatus": "Latest message blocked by automatic approval service out-of-credits error; not retried through alternate mechanism.",
   "rightsDecisionPending": {
-    "status": "Three exact Watchfinder AP originals and derivatives cleared without restrictions; call_ecaaa9b9c5b9470984d32810ceeddf21."
+    "status": "15710ST,15720ST,126719BLRO and124300 exact new originals/derivatives cleared without restrictions; call_b08e9ca28dbf4d55ae1eb5c615d3224b."
   },
   "processingRuntime": "Task-local photography-runtime provides OpenCV and NumPy for classical non-generative boundary masks. Requires approved elevated execution to read its installed files. process_priority_wave.py preserves original interior pixels and masks only background. Every derivative requires visual review before publication.",
   "blockers": [
-    "60referenceURLs still require valid cleared exact-reference photography.",
+    "50referenceURLs still lack published valid cleared photography; four reviewed exact-source sets have one pending rights question.",
+    "Five family-only catalog labels require exact SKU/configuration evidence before image matching.",
+    "Clipped and occluded originals remain rejected, including prior124300andnew16202STsource.",
     "Six uploaded identities remain unresolved.",
-    "Clipped or occluded originals remain rejected; new124300source clipsbracelet/crown.",
-    "116500LN and118238 exact new source rights question pending.",
-    "V4 status delivery previously failed due automaticapproval workspaceoutofcredits; no bypass attempted."
+    "V4 delivery previously blocked by automaticapproval outofcredits; no bypass attempted."
   ],
   "dataSafety": "Do not modify runtime lead data or repeat private broker reads. Preserve original dirty checkout and newer main changes.",
-  "stillNeedsAcquisition": 60,
-  "nextAcquisitionPriorities": "LIVE bdabcd7 / dep-dbbk7vek1f9s73bum96g.237of297referenceURLs photographed;60queued;85of104collections;236distinctdeliveredimage hashes andall297routes verified. IW545901 and16520 rights resolved andLIVE. Next reviewed/archived116500LN and118238 await separate exact-image rights answer; all6archive readbacks matched.124300 newsource rejected for clippedbracelet/crown. Six uploaded identities remain unresolved.",
+  "stillNeedsAcquisition": 50,
+  "nextAcquisitionPriorities": "LIVE4971098 / dep-dbdvotuq1p3s73f5fpng.247of297referenceURLs photographed;50queued;86of104collections;all297routes and245distinct photo hashes verified. Nine physical photographs added across10URLs in three releases. Next twoOffshore andtwoGrayandSonsRolex sets reviewed/archived awaiting exact-source rights. Earlier clipped124300bytes and newclipped16202STmanufacturer original remain held; six unidentified uploads remain held.",
   "heldSourceOriginals": [
     {
       "reference": "IW388102",
@@ -122,7 +122,7 @@
     }
   ],
   "sourceAttemptEvidence": "All44uploadedappearances extracted and archived;29reference profilesLIVE;21eligiblecompleteZIPphotosLIVE;2separatePatekmanufacturerphotosLIVE. Fullprivate screenshots remain local.",
-  "documentationPublication": "82page canonical master rendered/reviewed;all81priorpages pixel-identical. SameDriveID updated and remoteSHA256 matched. Canonical237reference inventory andall297routes/236photo LIVEverification also updated/readback verified.",
+  "documentationPublication": "84page canonical master rendered;first82pages pixel-identical;new83and84reviewed. SameDriveID updated and remote hash matched. Canonical243inventory/liveQA updated/readback matched;247refresh follows AP desktop/mobile review and85pageaddendum.",
   "licensedNautilusRepair": {
     "record": "docs/PHOTOGRAPHY_LICENSED_NAUTILUS_2026-10-13.json",
     "logDriveId": "1tdzvZhgvKDjtADKQ5nrTauCQ07gBiXQ6",
@@ -134,31 +134,31 @@
     "rights": "Existing approved Commons CC BY-SA 4.0 source; attribution/license/change disclosure and share-alike preserved",
     "publicationStatus": "Live as 8c2f495; production route, image SHA256, full suffix, credits/license and intake HTTP 200 verified"
   },
-  "verification": "315regressions:314passed,1platformskip,0fail;Astro0errors/0warnings/18hints;all9releasechecks, build,twoexactmappings,desktop/mobile andfull297route/236image productionQA passed.",
-  "sprintStatus": "Full photography population remains incomplete;60referenceURLs queued.",
+  "verification": "All9APchecks/build passed;315regressions314passed1platformskip0fail;Astro0errors0warnings18hints. Four AP exact live mappings plusfull297routes/245hashes passed.",
+  "sprintStatus": "Full photography population remains incomplete;50referenceURLs queued.",
   "deadlineOutcome": "Not achieved: every featured reference does not yet have valid cleared photography.",
   "closeoutRecord": "docs/PHOTOGRAPHY_SPRINT_CLOSEOUT_2026-10-14.json",
   "continuationInstruction": "Command Center V4 relayed the founder standing instruction to continue acquiring remaining references and not stop. This reopens useful acquisition after the missed deadline; it does not grant new photograph rights or recreate the expired automation.",
-  "preparedClearedForPublication": 3,
-  "builtPhotographedReferences": 247,
-  "builtQueuedReferences": 50,
+  "preparedClearedForPublication": 4,
+  "builtPhotographedReferences": 251,
+  "builtQueuedReferences": 46,
   "publishedPreparedSets": 138,
   "productionPhotographyRelease": {
-    "commit": "bdabcd734c4f32d6ba76ad2cc21363c0eb8e6be9",
-    "deployId": "dep-dbbk7vek1f9s73bum96g",
+    "commit": "497109853d22acaff532b71bfdb22bc9d5f807dd",
+    "deployId": "dep-dbdvotuq1p3s73f5fpng",
     "status": "LIVE",
     "referenceRoutesVerified": 297,
-    "photographedReferenceRoutes": 237,
-    "queuedReferenceRoutes": 60,
-    "distinctPhotoFilesVerified": 236,
-    "photographedCollections": 85
+    "photographedReferenceRoutes": 247,
+    "queuedReferenceRoutes": 50,
+    "distinctPhotoFilesVerified": 245,
+    "photographedCollections": 86
   },
   "clearanceDriveFileId": "1BI8HNHLSosAjzExINWoNxtzBER-FOzD5",
   "productionVerificationDriveFileId": "16ny-FBqkIk5yJolZPJr_4Lf_S1N-WiBg",
   "canonicalRegistryRecords": 298,
   "canonicalBrands": 23,
   "canonicalCollections": 104,
-  "productionBaselineMain": "bdabcd734c4f32d6ba76ad2cc21363c0eb8e6be9",
+  "productionBaselineMain": "497109853d22acaff532b71bfdb22bc9d5f807dd",
   "legacyPreparedManifest": "docs/PHOTOGRAPHY_PREPARED_PENDING_CLEARANCE_2026-10-13.json",
   "newReviewedPhysicalSets": 11,
   "newReviewedDriveFiles": 33,
@@ -223,8 +223,8 @@
     "additionalSourceAccessOrMissingPageHolds": 19,
     "remainingOmegaAcquisitionGaps": 20
   },
-  "productionCommit": "bdabcd734c4f32d6ba76ad2cc21363c0eb8e6be9",
-  "productionDeployId": "dep-dbbk7vek1f9s73bum96g",
+  "productionCommit": "497109853d22acaff532b71bfdb22bc9d5f807dd",
+  "productionDeployId": "dep-dbdvotuq1p3s73f5fpng",
   "productionStatus": "LIVE",
   "preparedSourceDriveRecords": [
     "1a3FcN1GDG1OkuOt4lxmiWNbxQjRzwf1p",
@@ -238,7 +238,7 @@
   "newReviewedSetsSinceEightSetCheckpoint": 0,
   "newDriveFilesSinceEightSetCheckpoint": 105,
   "primaryFourSourceLogDriveId": "1Gwu0S_pqL4pNcl0jRCgw2WgUrvlo90d_",
-  "builtPhotographedCollections": 85,
+  "builtPhotographedCollections": 86,
   "approvalServiceStatus": "Recovered; approved refresh, integration and release-check actions succeeded",
   "clearance35DriveFileId": "1kEzcWJ8Fo1rH3UPe-QVc05n9g80BhG3v",
   "clearanceElevenDriveFileId": "1k2qsauH8oeLIIoCmCubsHjqwBMnBDydf",
@@ -289,22 +289,22 @@
     "masterPages": 76
   },
   "productionRelease": {
-    "commit": "bdabcd734c4f32d6ba76ad2cc21363c0eb8e6be9",
-    "deployId": "dep-dbbk7vek1f9s73bum96g",
+    "commit": "497109853d22acaff532b71bfdb22bc9d5f807dd",
+    "deployId": "dep-dbdvotuq1p3s73f5fpng",
     "status": "LIVE",
     "referenceRoutesVerified": 297,
-    "photographedReferenceRoutes": 237,
-    "queuedReferenceRoutes": 60,
-    "distinctPhotoFilesVerified": 236,
-    "photographedCollections": 85
+    "photographedReferenceRoutes": 247,
+    "queuedReferenceRoutes": 50,
+    "distinctPhotoFilesVerified": 245,
+    "photographedCollections": 86
   },
   "masterFileSHA256": "5e1cd5cd9b99a2c51dbc0def7412ce37e37b49891178eccffec3c02e31b8445e",
   "masterDriveReadbackVerified": true,
-  "currentWorkflowPosition": "Three physical AP photographs integrated for four existing URLs. All checks passed after making the rejected-wrist-shot test select its rejected fixture explicitly; no rejection assertion weakened. Publishing247/297; production verified243/297 until live checks pass.",
+  "currentWorkflowPosition": "Four new Offshore/Rolex photographs integrated; all nine checks and exact mappings passed. Publishing251/297; verified production remains247/297 until live checks pass. New124300set has complete yellow-dial framing; earlier clipped originals stay held.",
   "remainingByBrand": [
     {
       "brand": "Audemars Piguet",
-      "missing": 8
+      "missing": 4
     },
     {
       "brand": "Bell & Ross",
@@ -328,15 +328,11 @@
     },
     {
       "brand": "Omega",
-      "missing": 12
+      "missing": 11
     },
     {
       "brand": "Panerai",
       "missing": 4
-    },
-    {
-      "brand": "Patek Philippe",
-      "missing": 1
     },
     {
       "brand": "Richard Mille",
@@ -344,7 +340,7 @@
     },
     {
       "brand": "Rolex",
-      "missing": 6
+      "missing": 2
     },
     {
       "brand": "TAG Heuer",
@@ -367,5 +363,7 @@
       "missing": 1
     }
   ],
-  "preparedPendingClearanceRecordDriveId": "15G_bzrchoaMz8rswaxhj13L3dI_1lJTv"
+  "preparedPendingClearanceRecordDriveId": "15G_bzrchoaMz8rswaxhj13L3dI_1lJTv",
+  "remainingGapsReport": "docs/PHOTOGRAPHY_REMAINING_GAPS_2026-10-23.md",
+  "remainingGapsData": "docs/PHOTOGRAPHY_REMAINING_GAPS_2026-10-23.json"
 }
