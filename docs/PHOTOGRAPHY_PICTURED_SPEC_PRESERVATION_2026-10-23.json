@@ -1,0 +1,32 @@
+{
+  "purpose": "Preserve existing verified exact-reference specifications when the newly pictured configuration is selected. Primary manufacturer evidence re-read from saved source pages; no generic family values or vague case-size descriptions copied. Image bytes, paths, approvals and all broader configurations unchanged.",
+  "changes": [
+    {
+      "reference": "RM 27-05",
+      "restoredFields": {
+        "movement": "RM27-05 manual flying tourbillon"
+      },
+      "imageBytesUnchanged": true
+    },
+    {
+      "reference": "4200H/222A-B934",
+      "restoredFields": {
+        "movement": "Self-winding calibre 2455/2",
+        "waterResistance": "50 m"
+      },
+      "imageBytesUnchanged": true
+    },
+    {
+      "reference": "542.CM.1171.RX",
+      "restoredFields": {
+        "movement": "HUB1110 automatic"
+      },
+      "imageBytesUnchanged": true
+    }
+  ],
+  "sourceEvidenceFiles": [
+    "rm-vc-source-2.json",
+    "rm-vc-source-3.json",
+    "broader-third-source-1.json"
+  ]
+}

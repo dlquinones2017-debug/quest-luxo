@@ -1,0 +1,217 @@
+{
+  "preparedAt": "2026-10-24T02:38:40.387329+00:00",
+  "references": [
+    {
+      "name": "un1506-prestigetime",
+      "url": "https://www.prestigetime.com/images/watches/70/2405/1506-150LE-3~63-vb_VOYAGE_BLEU/1506-150LE-3_63-VB.jpg",
+      "file": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\resume-20261023\\un1506-prestigetime-raw.img",
+      "contentType": "image/jpeg",
+      "size": [
+        696,
+        1122
+      ],
+      "format": "JPEG",
+      "sha256": "e32723fb446c14e08faf74dd717749872d4ddcfec82b619e2ecc30775ff2368b",
+      "preview": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\resume-20261023\\un1506-prestigetime-native-preview.png",
+      "acquiredAt": "2026-10-24T02:37:30.718997+00:00",
+      "brand": "Ulysse Nardin",
+      "reference": "1506-150LE-3/63-VB",
+      "exactSKU": "1506-150LE-3/63-VB",
+      "sourceUrl": "https://www.prestigetime.com/Ulysse-Nardin-Marine-Chronograph-Manufacture-43mm-1506-150LE-3-63-vb-VOYAGE-BLEU.html",
+      "picturedConfiguration": {
+        "dial": "Blue with gold Arabic numerals and chronograph subdials",
+        "bracelet": "Blue rubber strap with rose-gold Voyage Bleu insert",
+        "caseSize": "43 mm",
+        "movement": "Automatic chronometer",
+        "waterResistance": "100 m"
+      },
+      "catalogMaterial": "18K rose gold",
+      "catalogConfigurations": [
+        {
+          "caseSize": "Specification verification pending",
+          "movement": "Automatic; calibre verification pending",
+          "dial": "Blue with Arabic numerals",
+          "bracelet": "Blue rubber strap with rose-gold inserts",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "canonicalRoute": "/collections/ulysse-nardin/marine/1506-150le-3-63-vb",
+      "collection": "Marine",
+      "whiteMaster": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\resume-20261023\\un1506-prestigetime-white-master.png",
+      "webDerivative": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\resume-20261023\\un1506-prestigetime-web.webp",
+      "masterSha256": "808076e911d77ee1a5ff389d60c71ba314b81a97eeacb05ff6ede1c705d8e236",
+      "webSha256": "7ddf04bf1f60d51e757950ca6c52c2d0278fb656a0a1cfe3a7c97f17a690347b",
+      "foregroundBounds": [
+        15,
+        11,
+        671,
+        1116
+      ],
+      "visualReviewPassed": true,
+      "websiteApproved": true,
+      "rightsStatus": "Direct founder answer call_19e785b9ca7e47ba9a1672b85c8e220e: Yes. Specific original and white-background derivative use confirmed; no additional restrictions stated.",
+      "processing": "Classical exterior filled silhouette. Original interior RGB retained; no generated, reconstructed, recolored or sharpened watch detail. Proportional resize and centered2400 white master/1200WEB.",
+      "rawProviderProcessing": "Native CDN resource retrieved without image transformations or automated background-removal parameters.",
+      "qualityReviewPassed": true,
+      "exactReferenceConfigurationVerified": true,
+      "verifiedMaterial": "18K rose gold",
+      "imageUrl": "https://www.prestigetime.com/images/watches/70/2405/1506-150LE-3~63-vb_VOYAGE_BLEU/1506-150LE-3_63-VB.jpg",
+      "reviewStatus": "Untouched native original and final1200WEB individually reviewed. Entire depicted case/crown/pushers/returningstrap or bracelet contained inside native margins. AP full16202ST.OO.1240ST.02 identified by exact dealer page and manufacturer reference evidence; genuine glare/finish retained. Older clipped AP source remains held. No generated/reconstructed/recolored/sharpened detail.",
+      "rawDriveFileId": "1Twwg8-BOQrNCXi-SR0idk6BWa7Nq1yDv",
+      "whiteMasterDriveFileId": "1pWU8Vw2HTvHk6QP8Qo6Ew57Qf9Uq25Hb",
+      "webDriveFileId": "1D7cv99aumoFtd5uFEJkxy3lbdIqve2h0",
+      "archiveReadbackVerified": true,
+      "publicationStatus": "Integrated; release checks and production verification pending"
+    },
+    {
+      "name": "un265-prestigetime",
+      "url": "https://www.prestigetime.com/images/watches/70/1440/265-90-3c~93/265-90-3c_93.jpg",
+      "file": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\resume-20261023\\un265-prestigetime-raw.img",
+      "contentType": "image/jpeg",
+      "size": [
+        656,
+        1000
+      ],
+      "format": "JPEG",
+      "sha256": "19e5b653095f4029b56a67be16f5b8291f34d6c6ae6ab0c377b64020d2bedc25",
+      "preview": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\resume-20261023\\un265-prestigetime-native-preview.png",
+      "acquiredAt": "2026-10-24T02:37:30.755872+00:00",
+      "brand": "Ulysse Nardin",
+      "reference": "265-90-3c/93",
+      "exactSKU": "265-90-3c/93",
+      "sourceUrl": "https://www.prestigetime.com/Ulysse-Nardin-Maxi-Marine-Diver-Titanium-45mm-265-90-3c-93.html",
+      "picturedConfiguration": {
+        "dial": "Blue wave with rose-gold accents",
+        "bracelet": "Blue wave rubber strap with black ceramic inserts",
+        "caseSize": "45 mm",
+        "movement": "UN-26 automatic",
+        "waterResistance": "200 m"
+      },
+      "catalogMaterial": "Titanium with 18K rose-gold bezel",
+      "catalogConfigurations": [
+        {
+          "caseSize": "45 mm",
+          "movement": "UN-26 automatic",
+          "dial": "Blue wave dial with rose-gold rimmed subdials",
+          "bracelet": "Blue rubber wave strap with black ceramic inserts",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "canonicalRoute": "/collections/ulysse-nardin/diver/265-90-3c-93",
+      "collection": "Diver",
+      "whiteMaster": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\resume-20261023\\un265-prestigetime-white-master.png",
+      "webDerivative": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\resume-20261023\\un265-prestigetime-web.webp",
+      "masterSha256": "1c6c5cf90f2530287e2daf260729257310e714ee9a4af8e9e672c616a377d387",
+      "webSha256": "8df1c1c69fe1b46f971dfbe8c68b0f849f2befb837c129672f3ad2f720ff4d35",
+      "foregroundBounds": [
+        6,
+        7,
+        649,
+        996
+      ],
+      "visualReviewPassed": true,
+      "websiteApproved": true,
+      "rightsStatus": "Direct founder answer call_19e785b9ca7e47ba9a1672b85c8e220e: Yes. Specific original and white-background derivative use confirmed; no additional restrictions stated.",
+      "processing": "Classical exterior filled silhouette. Original interior RGB retained; no generated, reconstructed, recolored or sharpened watch detail. Proportional resize and centered2400 white master/1200WEB.",
+      "rawProviderProcessing": "Native CDN resource retrieved without image transformations or automated background-removal parameters.",
+      "qualityReviewPassed": true,
+      "exactReferenceConfigurationVerified": true,
+      "verifiedMaterial": "Titanium and rose gold",
+      "imageUrl": "https://www.prestigetime.com/images/watches/70/1440/265-90-3c~93/265-90-3c_93.jpg",
+      "reviewStatus": "Untouched native original and final1200WEB individually reviewed. Entire depicted case/crown/pushers/returningstrap or bracelet contained inside native margins. AP full16202ST.OO.1240ST.02 identified by exact dealer page and manufacturer reference evidence; genuine glare/finish retained. Older clipped AP source remains held. No generated/reconstructed/recolored/sharpened detail.",
+      "rawDriveFileId": "13EPGrbvkAdQJLEP9jRSvlOJn7tJC8ufU",
+      "whiteMasterDriveFileId": "1ElqL7XbuhFyrZc7M-wrO27TK3pBiVAb0",
+      "webDriveFileId": "1sWMjdLUkFqUsKkJEHarSQYI5Mo_raelg",
+      "archiveReadbackVerified": true,
+      "publicationStatus": "Integrated; release checks and production verification pending"
+    },
+    {
+      "name": "ap16202-wristaficionado",
+      "url": "https://wristaficionado.com/cdn/shop/files/audemars-piguet-royal-oak-16202st-oo-1240st-02-jumbo-extra-thin-steel-blue-dial-audemars-piguet-40258760409332.jpg?v=1706764673",
+      "file": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\resume-20261023\\ap16202-wristaficionado-raw.img",
+      "contentType": "image/jpeg",
+      "size": [
+        2160,
+        2160
+      ],
+      "format": "JPEG",
+      "sha256": "e151596d29621ab99148ba47a595be0cc50c44835981603ccdc81602dcc381c1",
+      "preview": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\resume-20261023\\ap16202-wristaficionado-native-preview.png",
+      "acquiredAt": "2026-10-24T02:37:30.427139+00:00",
+      "brand": "Audemars Piguet",
+      "reference": "16202ST",
+      "exactSKU": "16202ST.OO.1240ST.02",
+      "sourceUrl": "https://wristaficionado.com/products/audemars-piguet-royal-oak-16202st-oo-1240st-02-jumbo-extra-thin-stainless-steel-blue-dial-2025",
+      "picturedConfiguration": {
+        "dial": "Blue Petite Tapisserie",
+        "bracelet": "Stainless-steel Royal Oak bracelet",
+        "caseSize": "39 mm"
+      },
+      "catalogMaterial": "Stainless Steel",
+      "catalogConfigurations": [
+        {
+          "nickname": "Jumbo Extra-Thin",
+          "bracelet": "Integrated Bracelet",
+          "dial": "Blue Petite Tapisserie",
+          "originalMSRP": null
+        }
+      ],
+      "canonicalRoute": "/collections/audemars-piguet/royal-oak/16202st",
+      "collection": "Royal Oak",
+      "whiteMaster": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\resume-20261023\\ap16202-wristaficionado-white-master.png",
+      "webDerivative": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\resume-20261023\\ap16202-wristaficionado-web.webp",
+      "masterSha256": "db412455af5fb34b106bd6dea3b20f10e1c62473224a84e0aef7256bddbd4d90",
+      "webSha256": "8630681f9ac24cfecdc9b6a33a306dd573c564f51b146ab98a17a72622ca29a5",
+      "foregroundBounds": [
+        661,
+        335,
+        1578,
+        1909
+      ],
+      "visualReviewPassed": true,
+      "websiteApproved": true,
+      "rightsStatus": "Direct founder answer call_19e785b9ca7e47ba9a1672b85c8e220e: Yes. Specific original and white-background derivative use confirmed; no additional restrictions stated.",
+      "processing": "Classical exterior filled silhouette. Original interior RGB retained; no generated, reconstructed, recolored or sharpened watch detail. Proportional resize and centered2400 white master/1200WEB.",
+      "rawProviderProcessing": "Native CDN resource retrieved without image transformations or automated background-removal parameters.",
+      "qualityReviewPassed": true,
+      "exactReferenceConfigurationVerified": true,
+      "verifiedMaterial": "Stainless Steel",
+      "imageUrl": "https://wristaficionado.com/cdn/shop/files/audemars-piguet-royal-oak-16202st-oo-1240st-02-jumbo-extra-thin-steel-blue-dial-audemars-piguet-40258760409332.jpg?v=1706764673",
+      "reviewStatus": "Untouched native original and final1200WEB individually reviewed. Entire depicted case/crown/pushers/returningstrap or bracelet contained inside native margins. AP full16202ST.OO.1240ST.02 identified by exact dealer page and manufacturer reference evidence; genuine glare/finish retained. Older clipped AP source remains held. No generated/reconstructed/recolored/sharpened detail.",
+      "rawDriveFileId": "1eOBbw2G2vY-ttLU6ty58GnkU2-KS85Sc",
+      "whiteMasterDriveFileId": "1JnT8GTs__SWT0iZttzV5_H2kWu7zM03s",
+      "webDriveFileId": "14ur_IbIF4JJ3ikLvJuBX-YBO8K2xJOvm",
+      "archiveReadbackVerified": true,
+      "publicationStatus": "Integrated; release checks and production verification pending"
+    }
+  ],
+  "websitePublished": false,
+  "status": "All originals/derivatives directly cleared; visually reviewed and archive-hash verified. Integrated; release checks pending.",
+  "rights": {
+    "questionId": "call_19e785b9ca7e47ba9a1672b85c8e220e",
+    "directFounderAnswer": "Yes.",
+    "restrictions": "No additional restrictions stated in answer.",
+    "references": [
+      {
+        "reference": "1506-150LE-3/63-VB",
+        "exactSKU": "1506-150LE-3/63-VB",
+        "sourceUrl": "https://www.prestigetime.com/Ulysse-Nardin-Marine-Chronograph-Manufacture-43mm-1506-150LE-3-63-vb-VOYAGE-BLEU.html",
+        "rawSha256": "e32723fb446c14e08faf74dd717749872d4ddcfec82b619e2ecc30775ff2368b"
+      },
+      {
+        "reference": "265-90-3c/93",
+        "exactSKU": "265-90-3c/93",
+        "sourceUrl": "https://www.prestigetime.com/Ulysse-Nardin-Maxi-Marine-Diver-Titanium-45mm-265-90-3c-93.html",
+        "rawSha256": "19e5b653095f4029b56a67be16f5b8291f34d6c6ae6ab0c377b64020d2bedc25"
+      },
+      {
+        "reference": "16202ST",
+        "exactSKU": "16202ST.OO.1240ST.02",
+        "sourceUrl": "https://wristaficionado.com/products/audemars-piguet-royal-oak-16202st-oo-1240st-02-jumbo-extra-thin-stainless-steel-blue-dial-2025",
+        "rawSha256": "e151596d29621ab99148ba47a595be0cc50c44835981603ccdc81602dcc381c1"
+      }
+    ]
+  }
+}

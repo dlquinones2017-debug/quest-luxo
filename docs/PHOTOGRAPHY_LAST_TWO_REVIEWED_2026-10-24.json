@@ -1,0 +1,107 @@
+{
+  "preparedAt": "2026-10-24T03:24:17.339967+00:00",
+  "references": [
+    {
+      "name": "h429-1224",
+      "url": "https://12-24.com/upload/iblock/c97/en9z9qm7cj61c3f54p5ay7na3t9nlee6.png",
+      "file": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\resume-20261023\\h429-1224-raw.img",
+      "contentType": "image/png",
+      "size": [
+        900,
+        1350
+      ],
+      "format": "PNG",
+      "sha256": "bda385c97617079b4d580f8742da420fcb5d5ae0e83876e7c01e95f85cb07585",
+      "acquiredAt": "2026-10-24T03:21:18.334198+00:00",
+      "brand": "Hublot",
+      "reference": "429.NM.0170.RX",
+      "exactSKU": "429.NM.0170.RX",
+      "sourceUrl": "https://12-24.com/watches/hublot/ref-429-nm-0170-rx",
+      "imageUrl": "https://12-24.com/upload/iblock/c97/en9z9qm7cj61c3f54p5ay7na3t9nlee6.png",
+      "picturedConfiguration": {
+        "dial": "Openworked with silver-toned numerals",
+        "bracelet": "Black rubber strap",
+        "caseSize": "44 mm",
+        "movement": "HUB6035 automatic tourbillon",
+        "waterResistance": "30 m"
+      },
+      "verifiedMaterial": "Titanium and black ceramic",
+      "collection": "Big Bang",
+      "canonicalRoute": "/collections/hublot/big-bang/429-nm-0170-rx",
+      "whiteMaster": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\resume-20261023\\h429-1224-white-master.png",
+      "webDerivative": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\resume-20261023\\h429-1224-web.webp",
+      "masterSha256": "87607d6f7a36170eabd5c7a88b121db2dc548949eeac6331e30d9382f97466e1",
+      "webSha256": "f7137e1f9c3a62f638f32cc620bc6c05c42090616acfd69f5febceb3edb33ef3",
+      "foregroundBounds": [
+        100,
+        137,
+        843,
+        1251
+      ],
+      "qualityReviewPassed": true,
+      "visualReviewPassed": true,
+      "exactReferenceConfigurationVerified": true,
+      "websiteApproved": true,
+      "rightsStatus": "Direct founder answer call_ca0ab48a5df347fd954c0e9f2049935c: Yes. Exact originals and white-background derivatives cleared; no additional restrictions stated.",
+      "processing": "Native PNG alpha retained, including genuine skeleton openings; no detail reconstruction. Proportional resize and centered blank2400 WHITE/1200WEB; no generated, reconstructed, recolored or sharpened watch detail.",
+      "reviewStatus": "Untouched native and1200WEB individually reviewed. Complete crown/pushers/case/closed returningstrap inside original margins; white canvas centered and captions absent. Hublot native skeleton alpha retained without reconstructing interior detail. Moonwatch source confirms exact310.32leather/sapphire3861 configuration; founder approved visible SKU correction with legacy route preserved.",
+      "rawDriveFileId": "1Bqcv2s0hKfmyuKyjmNOv1uEZqVUmKICM",
+      "whiteMasterDriveFileId": "1KLs9TeI4op5NBF808he6DavcdaYVlTX0",
+      "webDriveFileId": "1I9RmbdlvMhePL1ZDC6oohFo3oDWO65wu",
+      "archiveReadbackVerified": true,
+      "publicationStatus": "Integrated; release checks pending"
+    },
+    {
+      "name": "moonwatch-brent",
+      "url": "https://brentmiller.com/cdn/shop/files/7eb2e931d78271fa35e53ffe6fb73ef2.jpg?v=1790000210",
+      "file": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\resume-20261023\\moonwatch-brent-raw.img",
+      "contentType": "image/jpeg",
+      "size": [
+        934,
+        934
+      ],
+      "format": "JPEG",
+      "sha256": "1db95f81b063f0886cd51f841816673cdeeb9c0531b4651d56bc40c64de3f27e",
+      "acquiredAt": "2026-10-24T03:21:17.575952+00:00",
+      "brand": "Omega",
+      "reference": "310.33.42.50.01.002",
+      "exactSKU": "310.32.42.50.01.002",
+      "sourceUrl": "https://brentmiller.com/products/moonwatch-professional-co-axial-master-chronometer-chronograph-42-mm-1",
+      "imageUrl": "https://brentmiller.com/cdn/shop/files/7eb2e931d78271fa35e53ffe6fb73ef2.jpg?v=1790000210",
+      "picturedConfiguration": {
+        "dial": "Black step dial with applied Omega logo",
+        "bracelet": "Black leather strap",
+        "caseSize": "42 mm",
+        "movement": "Omega 3861 manual-winding",
+        "waterResistance": "50 m",
+        "nickname": "Pictured verified reference 310.32.42.50.01.002"
+      },
+      "verifiedMaterial": "Stainless Steel",
+      "collection": "Speedmaster",
+      "canonicalRoute": "/collections/omega/speedmaster/310-33-42-50-01-002",
+      "whiteMaster": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\resume-20261023\\moonwatch-brent-white-master.png",
+      "webDerivative": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\resume-20261023\\moonwatch-brent-web.webp",
+      "masterSha256": "31be79e21886a7c4273235320ad573e9260b6ee4de431995c59c4fc3512d633b",
+      "webSha256": "92c4f23e03246c3626c932805709552fbadb6fd424b087304304557be48a2f35",
+      "foregroundBounds": [
+        261,
+        71,
+        697,
+        868
+      ],
+      "qualityReviewPassed": true,
+      "visualReviewPassed": true,
+      "exactReferenceConfigurationVerified": true,
+      "websiteApproved": true,
+      "rightsStatus": "Direct founder answer call_ca0ab48a5df347fd954c0e9f2049935c: Yes. Exact originals and white-background derivatives cleared; no additional restrictions stated.",
+      "processing": "Classical exterior filled silhouette; original interior RGB retained. Proportional resize and centered blank2400 WHITE/1200WEB; no generated, reconstructed, recolored or sharpened watch detail.",
+      "reviewStatus": "Untouched native and1200WEB individually reviewed. Complete crown/pushers/case/closed returningstrap inside original margins; white canvas centered and captions absent. Hublot native skeleton alpha retained without reconstructing interior detail. Moonwatch source confirms exact310.32leather/sapphire3861 configuration; founder approved visible SKU correction with legacy route preserved.",
+      "rawDriveFileId": "1Nf6JUjhgh28NbPBhflc5M_RnawIiMgIa",
+      "whiteMasterDriveFileId": "1jrUZFqOAcEAA_vwNFiqbyGyRbXUhumfN",
+      "webDriveFileId": "1t6Hi00SAZ5G7HLZO1OON_3j9RvuvKNy2",
+      "archiveReadbackVerified": true,
+      "publicationStatus": "Integrated; release checks pending"
+    }
+  ],
+  "reviewedAt": "2026-10-24T03:26:48.566723+00:00"
+}

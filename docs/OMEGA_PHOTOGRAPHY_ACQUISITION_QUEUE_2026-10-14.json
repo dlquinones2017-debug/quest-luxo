@@ -8,9 +8,9 @@
   "licensePolicy": "Reference source URL documents identity only; it does NOT license website reuse. No AI watches, unverified source shots or nonwhite wrist photographs.",
   "summary": {
     "references": 58,
-    "existingExactReferenceImageRecordMatches": 56,
-    "requiresAcquisition": 2,
-    "clearedForPublication": 56
+    "existingExactReferenceImageRecordMatches": 58,
+    "requiresAcquisition": 0,
+    "clearedForPublication": 58
   },
   "queue": [
     {
@@ -102,18 +102,19 @@
       "specificationSource": "https://www.omegawatches.com.hk/en-hk/watch-omega-seamaster-diver-300m-co-axial-master-chronometer-43-5-mm-52292442004001",
       "sourceHost": "www.omegawatches.com.hk",
       "priorityScore": 98,
-      "imageSourceFoundInCurrentClearanceCode": false,
+      "imageSourceFoundInCurrentClearanceCode": true,
       "evidence": {
         "rawImageId": null,
         "rawChecksum": null,
-        "webDerivativePath": null,
-        "webDerivativeChecksum": null,
-        "exactReferenceImageReviewed": false,
-        "centeredWhiteBackgroundVerified": false,
-        "websiteUseRightsVerified": false,
-        "rightsRecord": null,
-        "approvalReviewer": null,
-        "status": "ACQUISITION_REQUIRED"
+        "webDerivativePath": "/images/watches/omega/reviewed-522-92-44-20-04-001-20261024-web.webp",
+        "webDerivativeChecksum": "717626c1fdba6edacee453d56e944681f497271da512e161dd0c19598a7d0de4",
+        "exactReferenceImageReviewed": true,
+        "centeredWhiteBackgroundVerified": true,
+        "websiteUseRightsVerified": true,
+        "rightsRecord": "Direct founder answer call_f7a35345aa0b4cb19e7a6b67dfdffeb4: Yes. Record docs/PHOTOGRAPHY_EIGHT_RIGHTS_2026-10-24.json. Untouched RAW SHA256 d34345fc0fd7f7ae0fe42e47519b92861bd93e2ea13464e45236724f8e4cdb60. Complete source and final white WEB individually reviewed; all24 RAW/WHITE/WEB archive readbacks match. Classical exterior filled silhouette. Original interior RGB retained; no generated, reconstructed, recolored or sharpened watch detail. Proportional resize and centered2400 white master/1200WEB. No invented specifications, price or availability. Preserved RAW file: 1IW3qz_esVROpilc20eOCV0eVZFTDYhIH. Pictured full reference 522.92.44.20.04.001; White ceramic and titanium, White ceramic with raised frosted wave pattern, White rubber strap. Exact configuration reviewed against preserved source evidence and the original photograph.",
+        "approvalReviewer": "Quest Luxo execution review with founder website-use clearance",
+        "status": "APPROVED_WITH_VALID_DERIVATIVE",
+        "approvedAssetId": "cleared-20261024-eight-522-92-44-20-04-001-seamaster"
       },
       "requirements": [
         "Obtain authentic non-AI original for exact pictured reference and configuration",
@@ -1396,18 +1397,19 @@
       "specificationSource": "https://press.omegawatches.com/omega-at-the-83rd-annual-golden-globes/",
       "sourceHost": "press.omegawatches.com",
       "priorityScore": 57,
-      "imageSourceFoundInCurrentClearanceCode": false,
+      "imageSourceFoundInCurrentClearanceCode": true,
       "evidence": {
         "rawImageId": null,
         "rawChecksum": null,
-        "webDerivativePath": null,
-        "webDerivativeChecksum": null,
-        "exactReferenceImageReviewed": false,
-        "centeredWhiteBackgroundVerified": false,
-        "websiteUseRightsVerified": false,
-        "rightsRecord": null,
-        "approvalReviewer": null,
-        "status": "ACQUISITION_REQUIRED"
+        "webDerivativePath": "/images/watches/omega/reviewed-220-53-38-20-10-001-20261024-web.webp",
+        "webDerivativeChecksum": "25a51caeac993641dace5879f24c70c9deb52f1256ebb177235f03a555a1edb7",
+        "exactReferenceImageReviewed": true,
+        "centeredWhiteBackgroundVerified": true,
+        "websiteUseRightsVerified": true,
+        "rightsRecord": "Direct founder answer call_616184f3649749b38c2ad2dc9ca4e6cb: Yes. Record docs/PHOTOGRAPHY_EIGHT_RIGHTS_2026-10-24.json. Untouched RAW SHA256 9dc45facc750946b1adf6239a573d5cabe9c35c221bfa776bab1ed53849323e1. Complete source and final white WEB individually reviewed; all24 RAW/WHITE/WEB archive readbacks match. Manufacturer-supplied nativeRGBA retained exactly, cropped only to existingalphaextent including all soft pixels; whole opaque body inside source margins. Proportional resize and centered2400white master/1200WEB. No generated/reconstructed/recolored/sharpened watch detail. No invented specifications, price or availability. Preserved RAW file: 1LCr83nAg0CRRXvYddxnt_O1En6uXGU4Z. Pictured full reference 220.53.38.20.10.001; 18K Moonshine yellow gold, Green sun-brushed, Green alligator leather strap. Exact configuration reviewed against preserved source evidence and the original photograph.",
+        "approvalReviewer": "Quest Luxo execution review with founder website-use clearance",
+        "status": "APPROVED_WITH_VALID_DERIVATIVE",
+        "approvedAssetId": "cleared-20261024-eight-220-53-38-20-10-001-aqua-terra"
       },
       "requirements": [
         "Obtain authentic non-AI original for exact pictured reference and configuration",

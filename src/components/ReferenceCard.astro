@@ -24,6 +24,7 @@ const {
   linkLabel = "View Asset Profile",
 } = Astro.props as Props;
 
+const displayReference = asset.displayReference ?? asset.reference;
 const configurations = asset.configurations ?? [];
 const photograph = approvedPhotograph(asset, watchPhotographs);
 const primaryConfig = configurations.find(configuration => photograph && configuration.dial === photograph.configuration.dial && configuration.bracelet === photograph.configuration.bracelet) ?? configurations[0];
@@ -86,7 +87,7 @@ const hasVerifiedCurrentMsrp = (value?: number | null): value is number =>
 
   <p class="model">{asset.brand ?? "Rolex"} {asset.model}</p>
 
-  <h3>Ref. {asset.reference}</h3>
+  <h3>Ref. {displayReference}</h3>
 
   <p class="nickname">{topNickname}</p>
 

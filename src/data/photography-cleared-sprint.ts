@@ -5282,7 +5282,8 @@ export const clearedSprintPhotographySeeds: readonly PhotographySeed[] = [
     "material": "Carbon TPT B.4",
     "configuration": {
       "dial": "Openworked flying tourbillon",
-      "bracelet": "Black woven fabric strap"
+      "bracelet": "Black woven fabric strap",
+      "movement": "RM27-05 manual flying tourbillon"
     },
     "sourceUrl": "https://www.richardmille.com/collections/rm-27-05-flying-tourbillon-rafael-nadal",
     "src": "/images/watches/richard-mille/reviewed-rm-27-05-20261023-web.webp",
@@ -5399,7 +5400,9 @@ export const clearedSprintPhotographySeeds: readonly PhotographySeed[] = [
     "configuration": {
       "dial": "Blue",
       "bracelet": "Stainless-steel integrated bracelet",
-      "caseSize": "37 mm"
+      "caseSize": "37 mm",
+      "movement": "Self-winding calibre 2455/2",
+      "waterResistance": "50 m"
     },
     "sourceUrl": "https://wristaficionado.com/products/vacheron-constantin-historiques-222-4200h-222a-b934-stainless-steel-blue-dial-2025",
     "src": "/images/watches/vacheron-constantin/reviewed-4200h-222a-b934-20261023-web.webp",
@@ -5421,7 +5424,8 @@ export const clearedSprintPhotographySeeds: readonly PhotographySeed[] = [
     "configuration": {
       "dial": "Black with baton hour markers",
       "bracelet": "Black rubber strap",
-      "caseSize": "42 mm"
+      "caseSize": "42 mm",
+      "movement": "HUB1110 automatic"
     },
     "sourceUrl": "https://www.watchfinder.co.uk/watches/hublot/classic-fusion/542-cm-1171-rx/421313",
     "src": "/images/watches/hublot/reviewed-542-cm-1171-rx-20261023-web.webp",
@@ -5502,5 +5506,263 @@ export const clearedSprintPhotographySeeds: readonly PhotographySeed[] = [
     "sourceProvider": "WatchMaxx",
     "reviewedAt": "2026-10-23",
     "assetId": "cleared-20261023-representative-rm-232-63-42-21-01-001"
+  },
+  {
+    "brand": "Ulysse Nardin",
+    "brandSlug": "ulysse-nardin",
+    "collection": "Marine",
+    "reference": "1506-150LE-3/63-VB",
+    "exactReference": "1506-150LE-3/63-VB",
+    "model": "Marine 1506-150LE-3/63-VB",
+    "material": "18K rose gold",
+    "configuration": {
+      "dial": "Blue with gold Arabic numerals and chronograph subdials",
+      "bracelet": "Blue rubber strap with rose-gold Voyage Bleu insert",
+      "caseSize": "43 mm",
+      "movement": "Automatic chronometer",
+      "waterResistance": "100 m"
+    },
+    "sourceUrl": "https://www.prestigetime.com/Ulysse-Nardin-Marine-Chronograph-Manufacture-43mm-1506-150LE-3-63-vb-VOYAGE-BLEU.html",
+    "src": "/images/watches/ulysse-nardin/reviewed-1506-150le-3-63-vb-20261024-web.webp",
+    "sha256": "7ddf04bf1f60d51e757950ca6c52c2d0278fb656a0a1cfe3a7c97f17a690347b",
+    "rawDriveFileId": "1Twwg8-BOQrNCXi-SR0idk6BWa7Nq1yDv",
+    "clearanceRecord": "Direct founder answer call_19e785b9ca7e47ba9a1672b85c8e220e: Yes. Record docs/PHOTOGRAPHY_EIGHT_RIGHTS_2026-10-24.json. Untouched RAW SHA256 e32723fb446c14e08faf74dd717749872d4ddcfec82b619e2ecc30775ff2368b. Complete source and final white WEB individually reviewed; all24 RAW/WHITE/WEB archive readbacks match. Classical exterior filled silhouette. Original interior RGB retained; no generated, reconstructed, recolored or sharpened watch detail. Proportional resize and centered2400 white master/1200WEB. No invented specifications, price or availability.",
+    "sourceProvider": "Prestige Time",
+    "reviewedAt": "2026-10-24",
+    "assetId": "cleared-20261024-eight-1506-150le-3-63-vb-marine"
+  },
+  {
+    "brand": "Ulysse Nardin",
+    "brandSlug": "ulysse-nardin",
+    "collection": "Diver",
+    "reference": "265-90-3c/93",
+    "exactReference": "265-90-3c/93",
+    "model": "Diver 265-90-3c/93",
+    "material": "Titanium and rose gold",
+    "configuration": {
+      "dial": "Blue wave with rose-gold accents",
+      "bracelet": "Blue wave rubber strap with black ceramic inserts",
+      "caseSize": "45 mm",
+      "movement": "UN-26 automatic",
+      "waterResistance": "200 m"
+    },
+    "sourceUrl": "https://www.prestigetime.com/Ulysse-Nardin-Maxi-Marine-Diver-Titanium-45mm-265-90-3c-93.html",
+    "src": "/images/watches/ulysse-nardin/reviewed-265-90-3c-93-20261024-web.webp",
+    "sha256": "8df1c1c69fe1b46f971dfbe8c68b0f849f2befb837c129672f3ad2f720ff4d35",
+    "rawDriveFileId": "13EPGrbvkAdQJLEP9jRSvlOJn7tJC8ufU",
+    "clearanceRecord": "Direct founder answer call_19e785b9ca7e47ba9a1672b85c8e220e: Yes. Record docs/PHOTOGRAPHY_EIGHT_RIGHTS_2026-10-24.json. Untouched RAW SHA256 19e5b653095f4029b56a67be16f5b8291f34d6c6ae6ab0c377b64020d2bedc25. Complete source and final white WEB individually reviewed; all24 RAW/WHITE/WEB archive readbacks match. Classical exterior filled silhouette. Original interior RGB retained; no generated, reconstructed, recolored or sharpened watch detail. Proportional resize and centered2400 white master/1200WEB. No invented specifications, price or availability.",
+    "sourceProvider": "Prestige Time",
+    "reviewedAt": "2026-10-24",
+    "assetId": "cleared-20261024-eight-265-90-3c-93-diver"
+  },
+  {
+    "brand": "Audemars Piguet",
+    "brandSlug": "audemars-piguet",
+    "collection": "Royal Oak",
+    "reference": "16202ST",
+    "exactReference": "16202ST.OO.1240ST.02",
+    "model": "Royal Oak 16202ST.OO.1240ST.02",
+    "material": "Stainless Steel",
+    "configuration": {
+      "dial": "Blue Petite Tapisserie",
+      "bracelet": "Stainless-steel Royal Oak bracelet",
+      "caseSize": "39 mm"
+    },
+    "sourceUrl": "https://wristaficionado.com/products/audemars-piguet-royal-oak-16202st-oo-1240st-02-jumbo-extra-thin-stainless-steel-blue-dial-2025",
+    "src": "/images/watches/audemars-piguet/reviewed-16202st-20261024-web.webp",
+    "sha256": "8630681f9ac24cfecdc9b6a33a306dd573c564f51b146ab98a17a72622ca29a5",
+    "rawDriveFileId": "1eOBbw2G2vY-ttLU6ty58GnkU2-KS85Sc",
+    "clearanceRecord": "Direct founder answer call_19e785b9ca7e47ba9a1672b85c8e220e: Yes. Record docs/PHOTOGRAPHY_EIGHT_RIGHTS_2026-10-24.json. Untouched RAW SHA256 e151596d29621ab99148ba47a595be0cc50c44835981603ccdc81602dcc381c1. Complete source and final white WEB individually reviewed; all24 RAW/WHITE/WEB archive readbacks match. Classical exterior filled silhouette. Original interior RGB retained; no generated, reconstructed, recolored or sharpened watch detail. Proportional resize and centered2400 white master/1200WEB. No invented specifications, price or availability.",
+    "sourceProvider": "Wrist Aficionado",
+    "reviewedAt": "2026-10-24",
+    "assetId": "cleared-20261024-eight-16202st-royal-oak"
+  },
+  {
+    "brand": "Audemars Piguet",
+    "brandSlug": "audemars-piguet",
+    "collection": "Royal Oak Jumbo",
+    "reference": "16202ST",
+    "exactReference": "16202ST.OO.1240ST.02",
+    "model": "Royal Oak Jumbo 16202ST.OO.1240ST.02",
+    "material": "Stainless Steel",
+    "configuration": {
+      "dial": "Blue Petite Tapisserie",
+      "bracelet": "Stainless-steel Royal Oak bracelet",
+      "caseSize": "39 mm"
+    },
+    "sourceUrl": "https://wristaficionado.com/products/audemars-piguet-royal-oak-16202st-oo-1240st-02-jumbo-extra-thin-stainless-steel-blue-dial-2025",
+    "src": "/images/watches/audemars-piguet/reviewed-16202st-20261024-web.webp",
+    "sha256": "8630681f9ac24cfecdc9b6a33a306dd573c564f51b146ab98a17a72622ca29a5",
+    "rawDriveFileId": "1eOBbw2G2vY-ttLU6ty58GnkU2-KS85Sc",
+    "clearanceRecord": "Direct founder answer call_19e785b9ca7e47ba9a1672b85c8e220e: Yes. Record docs/PHOTOGRAPHY_EIGHT_RIGHTS_2026-10-24.json. Untouched RAW SHA256 e151596d29621ab99148ba47a595be0cc50c44835981603ccdc81602dcc381c1. Complete source and final white WEB individually reviewed; all24 RAW/WHITE/WEB archive readbacks match. Classical exterior filled silhouette. Original interior RGB retained; no generated, reconstructed, recolored or sharpened watch detail. Proportional resize and centered2400 white master/1200WEB. No invented specifications, price or availability.",
+    "sourceProvider": "Wrist Aficionado",
+    "reviewedAt": "2026-10-24",
+    "assetId": "cleared-20261024-eight-16202st-royal-oak-jumbo"
+  },
+  {
+    "brand": "Franck Muller",
+    "brandSlug": "franck-muller",
+    "collection": "Bamford Collaborations",
+    "reference": "7880 CH PNTS NR",
+    "exactReference": "7880 CH PNTS NR",
+    "model": "Bamford Collaborations 7880 CH PNTS NR",
+    "material": "Black PVD-treated case",
+    "configuration": {
+      "dial": "Midnight black Clous de Paris with Snoopy and Woodstock",
+      "bracelet": "Black hand-sewn suede strap",
+      "caseSize": "36 mm",
+      "movement": "MVD 2800-CHR automatic"
+    },
+    "sourceUrl": "https://www.timekeepers.club/articles/novelties/franck-muller-x-bamford-crazy-love-snoopy",
+    "src": "/images/watches/franck-muller/reviewed-7880-ch-pnts-nr-20261024-web.webp",
+    "sha256": "7cf4642ef3696fa8876db517004aff1f8b00d17c22b29aecf4aa53a77200a209",
+    "rawDriveFileId": "1AfjrG0uDrIDKMsz2z9hYDf8CmlXI2gxA",
+    "clearanceRecord": "Direct founder answer call_f7a35345aa0b4cb19e7a6b67dfdffeb4: Yes. Record docs/PHOTOGRAPHY_EIGHT_RIGHTS_2026-10-24.json. Untouched RAW SHA256 1ab90e4c7e82530f7f1335efcdd8ede1b0093dec97deccbce60b6f1c4fa41d70. Complete source and final white WEB individually reviewed; all24 RAW/WHITE/WEB archive readbacks match. Classical exterior filled silhouette. Original interior RGB retained; no generated, reconstructed, recolored or sharpened watch detail. Proportional resize and centered2400 white master/1200WEB. No invented specifications, price or availability.",
+    "sourceProvider": "Timekeepers Club / Franck Muller x Bamford press photograph; © PNTS. Exterior copyright notice retained in these separate credits with direct founder clearance.",
+    "reviewedAt": "2026-10-24",
+    "assetId": "cleared-20261024-eight-7880-ch-pnts-nr-bamford-collaborations"
+  },
+  {
+    "brand": "Ulysse Nardin",
+    "brandSlug": "ulysse-nardin",
+    "collection": "Marine",
+    "reference": "266-67",
+    "exactReference": "266-67-3/43",
+    "model": "Marine 266-67-3/43",
+    "material": "18K rose gold",
+    "configuration": {
+      "dial": "Blue with gold Roman numerals",
+      "bracelet": "Blue rubber strap with rose-gold inserts",
+      "caseSize": "43 mm",
+      "movement": "UN-26 automatic chronometer",
+      "waterResistance": "200 m",
+      "nickname": "Pictured full reference 266-67-3/43"
+    },
+    "sourceUrl": "https://www.prestigetime.com/Ulysse-Nardin-Maxi-Marine-Chronometer-43mm-266-67-3-43.html",
+    "src": "/images/watches/ulysse-nardin/reviewed-266-67-20261024-web.webp",
+    "sha256": "334a23198013a770c29fbdb0f93982007442980ed39bd1df4e8e506a4f81878f",
+    "rawDriveFileId": "1E5vHEF02-Fdm0FRTQKRvkL_mCMJXSd_R",
+    "clearanceRecord": "Direct founder answer call_f7a35345aa0b4cb19e7a6b67dfdffeb4: Yes. Record docs/PHOTOGRAPHY_EIGHT_RIGHTS_2026-10-24.json. Untouched RAW SHA256 b747936248a894f2769995776a362db113dea2a0dcca5ab13fa346b94755332b. Complete source and final white WEB individually reviewed; all24 RAW/WHITE/WEB archive readbacks match. Classical exterior filled silhouette. Original interior RGB retained; no generated, reconstructed, recolored or sharpened watch detail. Proportional resize and centered2400 white master/1200WEB. No silhouette dilation for the290x500native. Two neutral exterior cast-shadow pixels below the blue strap excluded; all darkblue strap pixels retained. Native detail is low-resolution and is not represented as higher resolution. No invented specifications, price or availability.",
+    "sourceProvider": "Prestige Time",
+    "reviewedAt": "2026-10-24",
+    "assetId": "cleared-20261024-eight-266-67-marine"
+  },
+  {
+    "brand": "Omega",
+    "brandSlug": "omega",
+    "collection": "Seamaster Diver 300M",
+    "reference": "522.92.44.20.04.001",
+    "exactReference": "522.92.44.20.04.001",
+    "model": "Seamaster Diver 300M 522.92.44.20.04.001",
+    "material": "White ceramic and titanium",
+    "configuration": {
+      "dial": "White ceramic with raised frosted wave pattern",
+      "bracelet": "White rubber strap",
+      "caseSize": "43.5 mm"
+    },
+    "sourceUrl": "https://www.jomashop.com/omega-seamaster-diver-300m-automatic-chronometer-mens-watch-522-92-44-20-04-001.html",
+    "src": "/images/watches/omega/reviewed-522-92-44-20-04-001-20261024-web.webp",
+    "sha256": "717626c1fdba6edacee453d56e944681f497271da512e161dd0c19598a7d0de4",
+    "rawDriveFileId": "1IW3qz_esVROpilc20eOCV0eVZFTDYhIH",
+    "clearanceRecord": "Direct founder answer call_f7a35345aa0b4cb19e7a6b67dfdffeb4: Yes. Record docs/PHOTOGRAPHY_EIGHT_RIGHTS_2026-10-24.json. Untouched RAW SHA256 d34345fc0fd7f7ae0fe42e47519b92861bd93e2ea13464e45236724f8e4cdb60. Complete source and final white WEB individually reviewed; all24 RAW/WHITE/WEB archive readbacks match. Classical exterior filled silhouette. Original interior RGB retained; no generated, reconstructed, recolored or sharpened watch detail. Proportional resize and centered2400 white master/1200WEB. No invented specifications, price or availability.",
+    "sourceProvider": "Jomashop",
+    "reviewedAt": "2026-10-24",
+    "assetId": "cleared-20261024-eight-522-92-44-20-04-001-seamaster"
+  },
+  {
+    "brand": "Franck Muller",
+    "brandSlug": "franck-muller",
+    "collection": "Bamford Collaborations",
+    "reference": "V 45 SC POPEYE LTD TT NR BR NR",
+    "exactReference": "V 45 SC POPEYE LTD TT NR BR NR",
+    "model": "Bamford Collaborations V 45 SC POPEYE LTD TT NR BR NR",
+    "material": "Black PVD-coated grade-2 titanium",
+    "configuration": {
+      "dial": "Black with blue numerals, Popeye and Swee’Pea hands",
+      "bracelet": "Black rubber and calfskin strap with blue stitching",
+      "caseSize": "53.7 x 44 mm",
+      "movement": "MVT FM 800 automatic"
+    },
+    "sourceUrl": "https://timekeepers.club/articles/novelties/franck-muller-x-bamford-popeye-vanguard-c-black-titanium-or-rose-gold",
+    "src": "/images/watches/franck-muller/reviewed-v-45-sc-popeye-ltd-tt-nr-br-nr-20261024-web.webp",
+    "sha256": "45d84b166491f1691bf7187452541234adfeaa8a17a3a0007fc65b2dfc880bd0",
+    "rawDriveFileId": "1e2w9nHbOFs81DlLYCrjFuIcM2LFpEq-U",
+    "clearanceRecord": "Direct founder answer call_616184f3649749b38c2ad2dc9ca4e6cb: Yes. Record docs/PHOTOGRAPHY_EIGHT_RIGHTS_2026-10-24.json. Untouched RAW SHA256 c7d0513adba74596953e1184ac5a491043b9daf5f01f99d9f7168164732f44b8. Complete source and final white WEB individually reviewed; all24 RAW/WHITE/WEB archive readbacks match. Classical exterior filled silhouette. Original interior RGB retained; no generated, reconstructed, recolored or sharpened watch detail. Proportional resize and centered2400 white master/1200WEB. No invented specifications, price or availability.",
+    "sourceProvider": "Timekeepers Club / Franck Muller x Bamford press photograph",
+    "reviewedAt": "2026-10-24",
+    "assetId": "cleared-20261024-eight-v-45-sc-popeye-ltd-tt-nr-br-nr-bamford-collaborations"
+  },
+  {
+    "brand": "Omega",
+    "brandSlug": "omega",
+    "collection": "Aqua Terra",
+    "reference": "220.53.38.20.10.001",
+    "exactReference": "220.53.38.20.10.001",
+    "model": "Aqua Terra 220.53.38.20.10.001",
+    "material": "18K Moonshine yellow gold",
+    "configuration": {
+      "dial": "Green sun-brushed",
+      "bracelet": "Green alligator leather strap",
+      "caseSize": "38 mm",
+      "movement": "Omega 8801 automatic",
+      "waterResistance": "150 m"
+    },
+    "sourceUrl": "https://kenjo.net/products/220-53-38-20-10-001",
+    "src": "/images/watches/omega/reviewed-220-53-38-20-10-001-20261024-web.webp",
+    "sha256": "25a51caeac993641dace5879f24c70c9deb52f1256ebb177235f03a555a1edb7",
+    "rawDriveFileId": "1LCr83nAg0CRRXvYddxnt_O1En6uXGU4Z",
+    "clearanceRecord": "Direct founder answer call_616184f3649749b38c2ad2dc9ca4e6cb: Yes. Record docs/PHOTOGRAPHY_EIGHT_RIGHTS_2026-10-24.json. Untouched RAW SHA256 9dc45facc750946b1adf6239a573d5cabe9c35c221bfa776bab1ed53849323e1. Complete source and final white WEB individually reviewed; all24 RAW/WHITE/WEB archive readbacks match. Manufacturer-supplied nativeRGBA retained exactly, cropped only to existingalphaextent including all soft pixels; whole opaque body inside source margins. Proportional resize and centered2400white master/1200WEB. No generated/reconstructed/recolored/sharpened watch detail. No invented specifications, price or availability.",
+    "sourceProvider": "Kenjo",
+    "reviewedAt": "2026-10-24",
+    "assetId": "cleared-20261024-eight-220-53-38-20-10-001-aqua-terra"
+  },
+  {
+    "brand": "Hublot",
+    "brandSlug": "hublot",
+    "collection": "Big Bang",
+    "reference": "429.NM.0170.RX",
+    "exactReference": "429.NM.0170.RX",
+    "model": "Big Bang Automatic Tourbillon Titanium Ceramic",
+    "material": "Titanium and black ceramic",
+    "configuration": {
+      "dial": "Openworked with silver-toned numerals",
+      "bracelet": "Black rubber strap",
+      "caseSize": "44 mm",
+      "movement": "HUB6035 automatic tourbillon",
+      "waterResistance": "30 m"
+    },
+    "sourceUrl": "https://12-24.com/watches/hublot/ref-429-nm-0170-rx",
+    "src": "/images/watches/hublot/reviewed-429-nm-0170-rx-20261024-web.webp",
+    "sha256": "f7137e1f9c3a62f638f32cc620bc6c05c42090616acfd69f5febceb3edb33ef3",
+    "rawDriveFileId": "1Bqcv2s0hKfmyuKyjmNOv1uEZqVUmKICM",
+    "clearanceRecord": "Direct founder answer call_ca0ab48a5df347fd954c0e9f2049935c: Yes. Record docs/PHOTOGRAPHY_LAST_TWO_RIGHTS_2026-10-24.json. Untouched RAW SHA256 bda385c97617079b4d580f8742da420fcb5d5ae0e83876e7c01e95f85cb07585. Native and1200WEB individually reviewed; all6archive readbacks matched. Native PNG alpha retained, including genuine skeleton openings; no detail reconstruction. Proportional resize and centered blank2400 WHITE/1200WEB; no generated, reconstructed, recolored or sharpened watch detail. No price or availability inferred.",
+    "sourceProvider": "12-24 Boutique",
+    "reviewedAt": "2026-10-24",
+    "assetId": "cleared-20261024-last-two-429-nm-0170-rx"
+  },
+  {
+    "brand": "Omega",
+    "brandSlug": "omega",
+    "collection": "Speedmaster",
+    "reference": "310.33.42.50.01.002",
+    "exactReference": "310.32.42.50.01.002",
+    "model": "Speedmaster 310.32.42.50.01.002",
+    "material": "Stainless Steel",
+    "configuration": {
+      "dial": "Black step dial with applied Omega logo",
+      "bracelet": "Black leather strap",
+      "caseSize": "42 mm",
+      "movement": "Omega 3861 manual-winding",
+      "waterResistance": "50 m",
+      "nickname": "Pictured verified reference 310.32.42.50.01.002"
+    },
+    "sourceUrl": "https://brentmiller.com/products/moonwatch-professional-co-axial-master-chronometer-chronograph-42-mm-1",
+    "src": "/images/watches/omega/reviewed-310-32-42-50-01-002-20261024-web.webp",
+    "sha256": "92c4f23e03246c3626c932805709552fbadb6fd424b087304304557be48a2f35",
+    "rawDriveFileId": "1Nf6JUjhgh28NbPBhflc5M_RnawIiMgIa",
+    "clearanceRecord": "Direct founder answer call_ca0ab48a5df347fd954c0e9f2049935c: Yes. Record docs/PHOTOGRAPHY_LAST_TWO_RIGHTS_2026-10-24.json. Untouched RAW SHA256 1db95f81b063f0886cd51f841816673cdeeb9c0531b4651d56bc40c64de3f27e. Native and1200WEB individually reviewed; all6archive readbacks matched. Classical exterior filled silhouette; original interior RGB retained. Proportional resize and centered blank2400 WHITE/1200WEB; no generated, reconstructed, recolored or sharpened watch detail. No price or availability inferred.",
+    "sourceProvider": "Brent Miller",
+    "reviewedAt": "2026-10-24",
+    "assetId": "cleared-20261024-last-two-310-32-42-50-01-002"
   }
 ];

@@ -128,6 +128,7 @@ export const omegaSpeedmasterAssets: OmegaAsset[] = [
   },
   {
     reference: "310.33.42.50.01.002",
+    displayReference: "310.32.42.50.01.002",
     model: "Speedmaster Moonwatch Professional 3861 Sapphire Strap",
     brand: "Omega",
     collection: "Speedmaster",
@@ -149,7 +150,7 @@ export const omegaSpeedmasterAssets: OmegaAsset[] = [
     liquidity: "Medium-High",
     allocationDifficulty: "Medium",
     questLuxoView:
-      "The 310.33.42.50.01.002 helps separate bracelet demand from strap-led Speedmaster clients and gives the Omega factory a practical advisory lane for slimmer, less sporty wear.",
+      "The 310.32.42.50.01.002 helps separate bracelet demand from strap-led Speedmaster clients and gives the Omega factory a practical advisory lane for slimmer, less sporty wear.",
     intelligence: {
       collectorDemand: 4,
       liquidity: 4,

@@ -72,7 +72,9 @@
         "configuration": {
           "dial": "Blue",
           "bracelet": "Stainless-steel integrated bracelet",
-          "caseSize": "37 mm"
+          "caseSize": "37 mm",
+          "movement": "Self-winding calibre 2455/2",
+          "waterResistance": "50 m"
         },
         "sourceUrl": "https://wristaficionado.com/products/vacheron-constantin-historiques-222-4200h-222a-b934-stainless-steel-blue-dial-2025",
         "src": "/images/watches/vacheron-constantin/reviewed-4200h-222a-b934-20261023-web.webp",
@@ -83,7 +85,11 @@
         "reviewedAt": "2026-10-23",
         "assetId": "cleared-20261023-representative-rm-4200h-222a-b934"
       },
-      "publicationStatus": "Integrated; release checks pending"
+      "publicationStatus": "Integrated; release checks pending",
+      "preservedVerifiedPicturedSpecifications": {
+        "movement": "Self-winding calibre 2455/2",
+        "waterResistance": "50 m"
+      }
     },
     {
       "name": "hublot542-watchfinder",
@@ -155,7 +161,8 @@
         "configuration": {
           "dial": "Black with baton hour markers",
           "bracelet": "Black rubber strap",
-          "caseSize": "42 mm"
+          "caseSize": "42 mm",
+          "movement": "HUB1110 automatic"
         },
         "sourceUrl": "https://www.watchfinder.co.uk/watches/hublot/classic-fusion/542-cm-1171-rx/421313",
         "src": "/images/watches/hublot/reviewed-542-cm-1171-rx-20261023-web.webp",
@@ -166,7 +173,10 @@
         "reviewedAt": "2026-10-23",
         "assetId": "cleared-20261023-representative-rm-542-cm-1171-rx"
       },
-      "publicationStatus": "Integrated; release checks pending"
+      "publicationStatus": "Integrated; release checks pending",
+      "preservedVerifiedPicturedSpecifications": {
+        "movement": "HUB1110 automatic"
+      }
     },
     {
       "name": "hublot411-prestigetime",
@@ -440,5 +450,7 @@
       "RM11-03",
       "232.63.42.21.01.001"
     ]
-  }
+  },
+  "status": "LIVE and verified",
+  "publicationStatus": "LIVE"
 }

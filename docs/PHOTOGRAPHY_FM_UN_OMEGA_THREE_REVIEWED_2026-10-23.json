@@ -1,0 +1,221 @@
+{
+  "preparedAt": "2026-10-24T02:52:09.292340+00:00",
+  "references": [
+    {
+      "name": "fm-snoopy-press-cutout",
+      "url": "https://www.timekeepers.club/storage/files/bwd-fm-crazyhours-snoopy-cutout-4000x4000-resize.jpg?token=a039e1a572734bb7205e893aa2d14c60",
+      "file": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\resume-20261023\\fm-snoopy-press-cutout-raw.img",
+      "contentType": "image/jpeg",
+      "size": [
+        1920,
+        2683
+      ],
+      "format": "JPEG",
+      "sha256": "1ab90e4c7e82530f7f1335efcdd8ede1b0093dec97deccbce60b6f1c4fa41d70",
+      "preview": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\resume-20261023\\fm-snoopy-press-cutout-native-preview.png",
+      "acquiredAt": "2026-10-24T02:48:39.856659+00:00",
+      "brand": "Franck Muller",
+      "reference": "7880 CH PNTS NR",
+      "exactSKU": "7880 CH PNTS NR",
+      "sourceUrl": "https://www.timekeepers.club/articles/novelties/franck-muller-x-bamford-crazy-love-snoopy",
+      "picturedConfiguration": {
+        "dial": "Midnight black Clous de Paris with Snoopy and Woodstock",
+        "bracelet": "Black hand-sewn suede strap",
+        "caseSize": "36 mm",
+        "movement": "MVD 2800-CHR automatic"
+      },
+      "catalogMaterial": "Black PVD Steel",
+      "catalogConfigurations": [
+        {
+          "caseSize": "36 mm",
+          "movement": "MVD 2800-CHR automatic Crazy Hours",
+          "dial": "Black Snoopy Woodstock motif",
+          "bracelet": "Black suede strap",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "canonicalRoute": "/collections/franck-muller/bamford-collaborations/7880-ch-pnts-nr",
+      "collection": "Bamford Collaborations",
+      "whiteMaster": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\resume-20261023\\fm-snoopy-press-cutout-white-master.png",
+      "webDerivative": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\resume-20261023\\fm-snoopy-press-cutout-web.webp",
+      "masterSha256": "44e20247b88af4aab593683f6f3d79df4b62fabab5dc7ad9ff369ea691595ea0",
+      "webSha256": "7cf4642ef3696fa8876db517004aff1f8b00d17c22b29aecf4aa53a77200a209",
+      "foregroundBounds": [
+        435,
+        270,
+        1554,
+        2455
+      ],
+      "visualReviewPassed": true,
+      "websiteApproved": true,
+      "rightsStatus": "Direct founder answer call_f7a35345aa0b4cb19e7a6b67dfdffeb4: Yes. Specific original and white-background derivative use confirmed; no additional restrictions stated.",
+      "processing": "Classical exterior filled silhouette. Original interior RGB retained; no generated, reconstructed, recolored or sharpened watch detail. Proportional resize and centered2400 white master/1200WEB.",
+      "rawProviderProcessing": "Native CDN resource retrieved without image transformations or automated background-removal parameters.",
+      "qualityReviewPassed": true,
+      "exactReferenceConfigurationVerified": true,
+      "verifiedMaterial": "Black PVD-treated case",
+      "reviewStatus": "Native original and final1200WEB individually reviewed. Entire depicted watch/crown/returningstrap inside native boundaries; original watchRGBretained without generated/reconstructed/recolored/sharpened detail.",
+      "specificationEvidence": {
+        "url": "https://www.bamfordwatchdepartment.com/product/franck-muller-x-bwd-crazy-love-snoopy-limited-edition/",
+        "finding": "Exact7880CHPNTSNR,36mm tonneau,blackPVDcase,blackhandsewnsuedesrap,MVD2800CHRautomatic. Sourcepage contradicts30mversus300mwaterresistance; omit rating rather than invent resolution."
+      },
+      "copyrightNotice": "©PNTS. Untouched RAW retains exterior notice. White derivative places notice on separate credits only, subject to explicit source-specific permission.",
+      "rawDriveFileId": "1AfjrG0uDrIDKMsz2z9hYDf8CmlXI2gxA",
+      "whiteMasterDriveFileId": "1P5QA0h5etCZaxWPUd_zYiu-HIAfO2vyO",
+      "webDriveFileId": "1YKOqfUGQYo-4mFSeCG-UCOTwQTWFZ_gN",
+      "archiveReadbackVerified": true,
+      "publicationStatus": "Integrated; release checks and production verification pending"
+    },
+    {
+      "name": "un266-prestigetime",
+      "url": "https://www.prestigetime.com/images/watches/70/1018/266-67-3~43/266-67-3.43n.jpg",
+      "file": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\resume-20261023\\un266-prestigetime-raw.img",
+      "contentType": "image/jpeg",
+      "size": [
+        290,
+        500
+      ],
+      "format": "JPEG",
+      "sha256": "b747936248a894f2769995776a362db113dea2a0dcca5ab13fa346b94755332b",
+      "preview": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\resume-20261023\\un266-prestigetime-native-preview.png",
+      "acquiredAt": "2026-10-24T02:48:40.472131+00:00",
+      "brand": "Ulysse Nardin",
+      "reference": "266-67",
+      "exactSKU": "266-67-3/43",
+      "sourceUrl": "https://www.prestigetime.com/Ulysse-Nardin-Maxi-Marine-Chronometer-43mm-266-67-3-43.html",
+      "picturedConfiguration": {
+        "dial": "Blue with gold Roman numerals",
+        "bracelet": "Blue rubber strap with rose-gold inserts",
+        "caseSize": "43 mm",
+        "movement": "UN-26 automatic chronometer",
+        "waterResistance": "200 m",
+        "nickname": "Pictured full reference 266-67-3/43"
+      },
+      "catalogMaterial": "18K rose gold",
+      "catalogConfigurations": [
+        {
+          "caseSize": "43 mm",
+          "movement": "UN-26 automatic",
+          "dial": "Blue with Roman numerals",
+          "bracelet": "Blue rubber strap",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "canonicalRoute": "/collections/ulysse-nardin/marine/266-67",
+      "collection": "Marine",
+      "whiteMaster": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\resume-20261023\\un266-prestigetime-white-master.png",
+      "webDerivative": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\resume-20261023\\un266-prestigetime-web.webp",
+      "masterSha256": "57a511571d9b4e872d80ad86e775911581112eb81dae9ee43a006272fcd1842a",
+      "webSha256": "334a23198013a770c29fbdb0f93982007442980ed39bd1df4e8e506a4f81878f",
+      "foregroundBounds": [
+        4,
+        2,
+        287,
+        499
+      ],
+      "visualReviewPassed": true,
+      "websiteApproved": true,
+      "rightsStatus": "Direct founder answer call_f7a35345aa0b4cb19e7a6b67dfdffeb4: Yes. Specific original and white-background derivative use confirmed; no additional restrictions stated.",
+      "processing": "Classical exterior filled silhouette. Original interior RGB retained; no generated, reconstructed, recolored or sharpened watch detail. Proportional resize and centered2400 white master/1200WEB. No silhouette dilation for the290x500native. Two neutral exterior cast-shadow pixels below the blue strap excluded; all darkblue strap pixels retained. Native detail is low-resolution and is not represented as higher resolution.",
+      "rawProviderProcessing": "Native CDN resource retrieved without image transformations or automated background-removal parameters.",
+      "qualityReviewPassed": true,
+      "exactReferenceConfigurationVerified": true,
+      "verifiedMaterial": "18K rose gold",
+      "reviewStatus": "Native original and final1200WEB individually reviewed. Entire depicted watch/crown/returningstrap inside native boundaries; original watchRGBretained without generated/reconstructed/recolored/sharpened detail.",
+      "rawDriveFileId": "1E5vHEF02-Fdm0FRTQKRvkL_mCMJXSd_R",
+      "whiteMasterDriveFileId": "1ePv3vYM-s2fxrEBZT7DsPiKDTFNUNj4p",
+      "webDriveFileId": "1ECxd0giSEJoG8Yv39zH75rCpYDeLfX57",
+      "archiveReadbackVerified": true,
+      "publicationStatus": "Integrated; release checks and production verification pending"
+    },
+    {
+      "name": "omega522-jomashop",
+      "url": "https://cdn2.jomashop.com/media/catalog/product/o/m/omega-seamaster-diver-300m-milano-cortina-chronometer-mens-watch-522-92-44-20-04-001-52292442004001.jpg",
+      "file": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\resume-20261023\\omega522-jomashop-raw.img",
+      "contentType": "image/jpeg",
+      "size": [
+        2560,
+        2560
+      ],
+      "format": "JPEG",
+      "sha256": "d34345fc0fd7f7ae0fe42e47519b92861bd93e2ea13464e45236724f8e4cdb60",
+      "preview": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\resume-20261023\\omega522-jomashop-native-preview.png",
+      "acquiredAt": "2026-10-24T02:49:43.475691+00:00",
+      "brand": "Omega",
+      "reference": "522.92.44.20.04.001",
+      "exactSKU": "522.92.44.20.04.001",
+      "sourceUrl": "https://www.jomashop.com/omega-seamaster-diver-300m-automatic-chronometer-mens-watch-522-92-44-20-04-001.html",
+      "picturedConfiguration": {
+        "dial": "White ceramic with raised frosted wave pattern",
+        "bracelet": "White rubber strap",
+        "caseSize": "43.5 mm"
+      },
+      "catalogMaterial": "White ceramic and titanium",
+      "catalogConfigurations": [
+        {
+          "caseSize": "43.5 mm",
+          "movement": "Omega 8806 automatic",
+          "dial": "White ceramic",
+          "bracelet": "White rubber strap",
+          "originalMSRP": null,
+          "currentMSRP": null
+        }
+      ],
+      "canonicalRoute": "/collections/omega/seamaster/522-92-44-20-04-001",
+      "collection": "Seamaster Diver 300M",
+      "whiteMaster": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\resume-20261023\\omega522-jomashop-white-master.png",
+      "webDerivative": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\resume-20261023\\omega522-jomashop-web.webp",
+      "masterSha256": "fe356bf7117e742e44aacdb4b12ff15bf63aedcf78d693a72929b0d77bef69d0",
+      "webSha256": "717626c1fdba6edacee453d56e944681f497271da512e161dd0c19598a7d0de4",
+      "foregroundBounds": [
+        445,
+        79,
+        2209,
+        2508
+      ],
+      "visualReviewPassed": true,
+      "websiteApproved": true,
+      "rightsStatus": "Direct founder answer call_f7a35345aa0b4cb19e7a6b67dfdffeb4: Yes. Specific original and white-background derivative use confirmed; no additional restrictions stated.",
+      "processing": "Classical exterior filled silhouette. Original interior RGB retained; no generated, reconstructed, recolored or sharpened watch detail. Proportional resize and centered2400 white master/1200WEB.",
+      "rawProviderProcessing": "Native CDN resource retrieved without image transformations or automated background-removal parameters.",
+      "qualityReviewPassed": true,
+      "exactReferenceConfigurationVerified": true,
+      "verifiedMaterial": "White ceramic and titanium",
+      "reviewStatus": "Native original and final1200WEB individually reviewed. Entire depicted watch/crown/returningstrap inside native boundaries; original watchRGBretained without generated/reconstructed/recolored/sharpened detail.",
+      "rawDriveFileId": "1IW3qz_esVROpilc20eOCV0eVZFTDYhIH",
+      "whiteMasterDriveFileId": "1i5k-8cacosMALO6tHh8-csV0tqIhWk38",
+      "webDriveFileId": "1Cw9A0UTRzGsb_gaUY6rhVgtyzXq_6l4n",
+      "archiveReadbackVerified": true,
+      "publicationStatus": "Integrated; release checks and production verification pending"
+    }
+  ],
+  "websitePublished": false,
+  "status": "All originals/derivatives directly cleared; visually reviewed and archive-hash verified. Integrated; release checks pending.",
+  "rights": {
+    "questionId": "call_f7a35345aa0b4cb19e7a6b67dfdffeb4",
+    "directFounderAnswer": "Yes.",
+    "restrictions": "No additional restrictions stated in answer.",
+    "references": [
+      {
+        "reference": "7880 CH PNTS NR",
+        "exactSKU": "7880 CH PNTS NR",
+        "sourceUrl": "https://www.timekeepers.club/articles/novelties/franck-muller-x-bamford-crazy-love-snoopy",
+        "rawSha256": "1ab90e4c7e82530f7f1335efcdd8ede1b0093dec97deccbce60b6f1c4fa41d70"
+      },
+      {
+        "reference": "266-67",
+        "exactSKU": "266-67-3/43",
+        "sourceUrl": "https://www.prestigetime.com/Ulysse-Nardin-Maxi-Marine-Chronometer-43mm-266-67-3-43.html",
+        "rawSha256": "b747936248a894f2769995776a362db113dea2a0dcca5ab13fa346b94755332b"
+      },
+      {
+        "reference": "522.92.44.20.04.001",
+        "exactSKU": "522.92.44.20.04.001",
+        "sourceUrl": "https://www.jomashop.com/omega-seamaster-diver-300m-automatic-chronometer-mens-watch-522-92-44-20-04-001.html",
+        "rawSha256": "d34345fc0fd7f7ae0fe42e47519b92861bd93e2ea13464e45236724f8e4cdb60"
+      }
+    ]
+  }
+}

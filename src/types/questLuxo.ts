@@ -28,6 +28,8 @@ export type QuestLuxoIntelligence = Partial<IntelligenceMetrics> & {
 
 export interface QuestLuxoAsset {
   reference: string;
+  /** Verified visible SKU when a legacy reference key must keep its public URL. */
+  displayReference?: string;
   model: string;
   brand?: string;
   collection?: string;

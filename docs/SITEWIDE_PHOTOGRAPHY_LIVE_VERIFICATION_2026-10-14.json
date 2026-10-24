@@ -1,10 +1,10 @@
 {
-  "verifiedAt": "2026-10-24T02:29:13.130136+00:00",
+  "verifiedAt": "2026-10-24T02:38:59.244402+00:00",
   "expectedDistinctReferenceRoutes": 297,
   "verifiedReferenceRoutes": 297,
-  "approvedDistinctReferenceRoutes": 280,
-  "verifiedDistinctPhotoFiles": 277,
-  "queuedDistinctReferenceRoutes": 17,
+  "approvedDistinctReferenceRoutes": 285,
+  "verifiedDistinctPhotoFiles": 282,
+  "queuedDistinctReferenceRoutes": 12,
   "errors": [],
   "pages": [
     {
@@ -399,7 +399,7 @@
     },
     {
       "route": "/collections/richard-mille/rm-11/rm11-03",
-      "approved": false,
+      "approved": true,
       "status": "verified"
     },
     {
@@ -774,7 +774,7 @@
     },
     {
       "route": "/collections/omega/planet-ocean/232-63-42-21-01-001",
-      "approved": false,
+      "approved": true,
       "status": "verified"
     },
     {
@@ -1134,7 +1134,7 @@
     },
     {
       "route": "/collections/hublot/classic-fusion/542-cm-1171-rx",
-      "approved": false,
+      "approved": true,
       "status": "verified"
     },
     {
@@ -1154,7 +1154,7 @@
     },
     {
       "route": "/collections/hublot/big-bang-unico/411-ox-1180-rx",
-      "approved": false,
+      "approved": true,
       "status": "verified"
     },
     {
@@ -1164,7 +1164,7 @@
     },
     {
       "route": "/collections/vacheron-constantin/historiques/4200h-222a-b934",
-      "approved": false,
+      "approved": true,
       "status": "verified"
     },
     {
@@ -1880,6 +1880,11 @@
       "status": "verified"
     },
     {
+      "path": "/images/watches/richard-mille/reviewed-rm-11-03-20261023-web.webp",
+      "sha256": "2ead4e6650dc79b608953b7561faff39ed95896218d24a61e68fe33066dcdaa7",
+      "status": "verified"
+    },
+    {
       "path": "/images/watches/vacheron-constantin/vacheron-overseas-4520v-210a-b128-web.webp",
       "sha256": "2d9166d3f958351e62cde15e312450e613db02dc489bacbcab600956bd59d2ef",
       "status": "verified"
@@ -2235,6 +2240,11 @@
       "status": "verified"
     },
     {
+      "path": "/images/watches/omega/reviewed-232-63-42-21-01-001-20261023-web.webp",
+      "sha256": "0c8061f0446fd52d306986ae51ed61f4f2ec45d63c3541511285dee9df09eb27",
+      "status": "verified"
+    },
+    {
       "path": "/images/watches/omega/omega-aqua-terra-220-10-41-21-03-001-web.webp",
       "sha256": "c592f3e5c091e735e9a44846b2eac63bcb76d1e82e70272b439c93170aa47a42",
       "status": "verified"
@@ -2555,6 +2565,11 @@
       "status": "verified"
     },
     {
+      "path": "/images/watches/hublot/reviewed-542-cm-1171-rx-20261023-web.webp",
+      "sha256": "67e402cfa63edd92d335fa83956b90b03fe1ffa2162b1e36dbe473b71661beac",
+      "status": "verified"
+    },
+    {
       "path": "/images/watches/hublot/reviewed-525-nx-0170-rx-white-web.webp",
       "sha256": "199086d218f47fa94763df84cf733e76c30b44a85d51074bf8f4fb721e2546f0",
       "status": "verified"
@@ -2565,8 +2580,18 @@
       "status": "verified"
     },
     {
+      "path": "/images/watches/hublot/reviewed-411-ox-1180-rx-20261023-web.webp",
+      "sha256": "7225e7d92c58466236ae6d7d787457be886996b463f53337aec5ee39d24b5e82",
+      "status": "verified"
+    },
+    {
       "path": "/images/watches/hublot/reviewed-642-nx-0170-rx-white-web.webp",
       "sha256": "e4a1c0db35969ada1a28f8b034169eef6b4ca6b5c243abd5269c97e828fcbb5e",
+      "status": "verified"
+    },
+    {
+      "path": "/images/watches/vacheron-constantin/reviewed-4200h-222a-b934-20261023-web.webp",
+      "sha256": "9f95df63d0059e2f7ca87898364c8f3047e5a4d201a0a84baa34440bf47f4378",
       "status": "verified"
     },
     {

@@ -1,0 +1,27 @@
+{
+  "confirmedAt": "2026-10-24T03:30:07.495745+00:00",
+  "questionId": "call_ca0ab48a5df347fd954c0e9f2049935c",
+  "directFounderAnswer": "Yes",
+  "restrictionStatement": "No additional restrictions stated in answer.",
+  "moonwatchIdentityDecision": {
+    "questionId": "call_e87486c5aa6f428d980c2a11d943d418",
+    "directFounderAnswer": "Use verified 310.32.42.50.01.002",
+    "legacyReferenceKey": "310.33.42.50.01.002",
+    "verifiedDisplayedReference": "310.32.42.50.01.002",
+    "preserveExistingURL": true
+  },
+  "references": [
+    {
+      "reference": "429.NM.0170.RX",
+      "exactSKU": "429.NM.0170.RX",
+      "sourceUrl": "https://12-24.com/watches/hublot/ref-429-nm-0170-rx",
+      "rawSha256": "bda385c97617079b4d580f8742da420fcb5d5ae0e83876e7c01e95f85cb07585"
+    },
+    {
+      "reference": "310.33.42.50.01.002",
+      "exactSKU": "310.32.42.50.01.002",
+      "sourceUrl": "https://brentmiller.com/products/moonwatch-professional-co-axial-master-chronometer-chronograph-42-mm-1",
+      "rawSha256": "1db95f81b063f0886cd51f841816673cdeeb9c0531b4651d56bc40c64de3f27e"
+    }
+  ]
+}

@@ -20,6 +20,7 @@ interface Props {
 }
 
 const { collection, asset } = Astro.props as Props;
+const displayReference = asset.displayReference ?? asset.reference;
 const formatUSD = (value?: number | null) =>
   value
     ? new Intl.NumberFormat("en-US", {
@@ -29,7 +30,7 @@ const formatUSD = (value?: number | null) =>
       }).format(value)
     : "MSRP research pending";
 const photograph = approvedPhotograph(asset, watchPhotographs);
-const imageAlt = photograph?.alt ?? `${asset.reference} ${asset.model}`;
+const imageAlt = photograph?.alt ?? `${displayReference} ${asset.model}`;
 const referenceSource = asset.specificationSources?.find(source => source.url.startsWith("https://"))?.url;
 const primaryConfiguration = asset.configurations?.find(configuration => photograph && configuration.dial === photograph.configuration.dial && configuration.bracelet === photograph.configuration.bracelet) ?? asset.configurations?.[0];
 const sourcingUrl = buildBeginYourQuestUrl({ intent: "request-this-watch", brand: collection.brand, collection: collection.name, reference: asset.reference });
@@ -41,18 +42,18 @@ const canonicalPath = referencePath(
 );
 const description =
   asset.questLuxoView ??
-  `Quest Luxo reference profile for ${collection.brand} ${collection.name} ${asset.reference}.`;
+  `Quest Luxo reference profile for ${collection.brand} ${collection.name} ${displayReference}.`;
 const structuredData = [
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    name: `${collection.brand} ${collection.name} ${asset.reference}`,
+    name: `${collection.brand} ${collection.name} ${displayReference}`,
     description,
     url: new URL(canonicalPath, Astro.site ?? Astro.url.origin).href,
     about: {
       "@type": "Product",
       name: `${collection.brand} ${asset.model}`,
-      model: asset.reference,
+      model: displayReference,
       brand: { "@type": "Brand", name: collection.brand },
       ...(photograph ? { image: new URL(photograph.src, Astro.site ?? Astro.url.origin).href } : {}),
     },
@@ -64,14 +65,14 @@ const structuredData = [
       { "@type": "ListItem", position: 1, name: "Home", item: new URL("/", Astro.site ?? Astro.url.origin).href },
       { "@type": "ListItem", position: 2, name: collection.brand, item: new URL(brandPath(collection.brandSlug), Astro.site ?? Astro.url.origin).href },
       { "@type": "ListItem", position: 3, name: collection.name, item: new URL(collectionUrl, Astro.site ?? Astro.url.origin).href },
-      { "@type": "ListItem", position: 4, name: `Ref. ${asset.reference}`, item: new URL(canonicalPath, Astro.site ?? Astro.url.origin).href },
+      { "@type": "ListItem", position: 4, name: `Ref. ${displayReference}`, item: new URL(canonicalPath, Astro.site ?? Astro.url.origin).href },
     ],
   },
 ];
 ---
 
 <BaseLayout
-  title={`${asset.reference} | ${collection.brand} ${collection.name} | Quest Luxo`}
+  title={`${displayReference} | ${collection.brand} ${collection.name} | Quest Luxo`}
   description={description}
   canonicalPath={canonicalPath}
   structuredData={structuredData}
@@ -83,12 +84,12 @@ const structuredData = [
       <span aria-hidden="true">/</span>
       <a href={collectionUrl}>{collection.name}</a>
       <span aria-hidden="true">/</span>
-      <span aria-current="page">Ref. {asset.reference}</span>
+      <span aria-current="page">Ref. {displayReference}</span>
     </nav>
 
     <section class="hero">
       <p class="eyebrow">{collection.brand.toUpperCase()} {collection.name.toUpperCase()} INTELLIGENCE</p>
-      <h1>Ref. {asset.reference}</h1>
+      <h1>Ref. {displayReference}</h1>
       <p class="hero-summary">{asset.questLuxoView}</p>
       <div class="tags">
         {(asset.configurations ?? []).map((config) => (
@@ -187,7 +188,7 @@ const structuredData = [
     )}
 
     <PrivateSourcingCTA
-      title={`Request Private Sourcing for Ref. ${asset.reference}`}
+      title={`Request Private Sourcing for Ref. ${displayReference}`}
       text={`Quest Luxo coordinates discreet sourcing for clients seeking specific ${collection.brand} ${collection.name} references through trusted market relationships.`}
       button="Begin Your Quest"
       href={sourcingUrl}

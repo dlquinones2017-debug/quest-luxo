@@ -127,7 +127,7 @@ export function createReferenceMetadata<
     reference: config.asset.reference,
     normalizedReferenceSlug,
     model: config.asset.model,
-    pageTitle: `${config.brand} ${config.asset.reference} | Quest Luxo`,
+    pageTitle: `${config.brand} ${config.asset.displayReference ?? config.asset.reference} | Quest Luxo`,
     basePath,
     referencePath:
       config.referencePath ??

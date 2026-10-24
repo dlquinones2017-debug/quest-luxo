@@ -41,6 +41,7 @@ if (!asset) {
   );
 }
 
+const displayReference = asset.displayReference ?? asset.reference;
 const configurations = asset.configurations ?? [];
 const brokerageIntelligence = asset.brokerageIntelligence;
 const brokerageIntelligenceItems = brokerageIntelligence
@@ -111,7 +112,7 @@ const brokerageIntelligenceItems = brokerageIntelligence
       },
     ]
   : [];
-const pageTitle = seoTitle ?? `${brand} ${asset.reference} | Quest Luxo`;
+const pageTitle = seoTitle ?? `${brand} ${displayReference} | Quest Luxo`;
 ---
 
 <BaseLayout
@@ -126,7 +127,7 @@ const pageTitle = seoTitle ?? `${brand} ${asset.reference} | Quest Luxo`;
       </a>
 
       <p class="eyebrow">{brand} {collection} Reference</p>
-      <h1>{brand} {asset.reference}</h1>
+      <h1>{brand} {displayReference}</h1>
       <p>{asset.questLuxoView}</p>
     </section>
 
@@ -147,7 +148,7 @@ const pageTitle = seoTitle ?? `${brand} ${asset.reference} | Quest Luxo`;
         <div class="specs">
           <p><strong>Brand</strong><span>{brand}</span></p>
           <p><strong>Collection</strong><span>{collection}</span></p>
-          <p><strong>Reference</strong><span>{asset.reference}</span></p>
+          <p><strong>Reference</strong><span>{displayReference}</span></p>
           <p><strong>Material</strong><span>{asset.material ?? "Research Pending"}</span></p>
           <p><strong>Bezel</strong><span>{asset.bezel ?? "Research Pending"}</span></p>
           {asset.productionStatus && <p><strong>Production</strong><span>{asset.productionStatus}</span></p>}
@@ -194,7 +195,7 @@ const pageTitle = seoTitle ?? `${brand} ${asset.reference} | Quest Luxo`;
       brokerageIntelligence && (
         <BrokerageIntelligenceSection
           eyebrow="Priority Reference Intelligence"
-          title={`${brand} ${asset.reference} Brokerage Intelligence`}
+          title={`${brand} ${displayReference} Brokerage Intelligence`}
           intro="A decision-focused view of configuration, liquidity, ownership, and transaction considerations. Example-specific inspection remains essential."
           items={brokerageIntelligenceItems}
           reviewedAt={brokerageIntelligence.reviewedAt}
@@ -209,8 +210,8 @@ const pageTitle = seoTitle ?? `${brand} ${asset.reference} | Quest Luxo`;
           brand={brand}
           collection={collection}
           reference={asset.reference}
-          headline={`Looking for ${brand} ${asset.reference}?`}
-          description={`Source, sell, trade, or value this ${brand} ${collection} ${asset.reference} with discreet guidance from Quest Luxo brokerage.`}
+          headline={`Looking for ${brand} ${displayReference}?`}
+          description={`Source, sell, trade, or value this ${brand} ${collection} ${displayReference} with discreet guidance from Quest Luxo brokerage.`}
         />
       )
     }
