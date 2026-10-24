@@ -3,6 +3,7 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 import BrokerageCTA from "./BrokerageCTA.astro";
 import BrokerageIntelligenceSection from "./BrokerageIntelligenceSection.astro";
 import ReferenceCard from "./ReferenceCard.astro";
+import ReferenceRetailPricing from "./ReferenceRetailPricing.astro";
 import type { QuestLuxoAsset } from "../types/questLuxo";
 import { normalizeReferenceSlug } from "../lib/factory/referenceGenerator";
 
@@ -137,7 +138,7 @@ const pageTitle = seoTitle ?? `${brand} ${displayReference} | Quest Luxo`;
         href={basePath}
         showIntelligenceProfile={!brokerageIntelligence}
         showMissingImagePlaceholder={true}
-        showMsrp={!brokerageIntelligence}
+        showMsrp={false}
         linkLabel={`Back to ${collection}`}
       />
 
@@ -190,6 +191,8 @@ const pageTitle = seoTitle ?? `${brand} ${displayReference} | Quest Luxo`;
         </section>
       )
     }
+
+    <ReferenceRetailPricing asset={asset} brand={brand} />
 
     {
       brokerageIntelligence && (

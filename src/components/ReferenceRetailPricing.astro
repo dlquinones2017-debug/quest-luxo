@@ -1,0 +1,34 @@
+---
+import type { QuestLuxoAsset } from "../types/questLuxo";
+import { formatRetailPrice, getVerifiedRetailPrices } from "../lib/intelligence/watchRetailPricing";
+
+interface Props { asset: QuestLuxoAsset; brand?: string; }
+const { asset, brand } = Astro.props as Props;
+const prices = getVerifiedRetailPrices(asset, brand);
+---
+
+<section class="retail-pricing" aria-label="Manufacturer retail price">
+  <p class="eyebrow">Reference pricing</p>
+  <h2>Manufacturer list price</h2>
+  {prices.length ? prices.map((price) => (
+    <article>
+      <p><strong>{formatRetailPrice(price)} {price.currency}</strong> · {price.market} · taxes {price.taxBasis}</p>
+      <p>{price.configuration} · {price.manufacturerReference}</p>
+      <p>{price.basis === "historical-list" ? "Historical list price" : "Published list price"} checked {price.checkedAt}.
+        {price.effectiveDate && ` Manufacturer effective date: ${price.effectiveDate}.`}
+        <a href={price.sourceUrl} target="_blank" rel="noopener noreferrer external">{price.sourceName}</a>
+      </p>
+    </article>
+  )) : <p>Verified MSRP is being researched for this exact reference and configuration.</p>}
+  <p class="note">List price is a retail benchmark. Availability and the price of a specific new or pre-owned watch require a sourcing quote.</p>
+</section>
+
+<style>
+  .retail-pricing { max-width: 1120px; margin: 60px auto; padding: 28px; border: 1px solid #e8e3d8; background: #faf9f7; color: #173a5e; }
+  .eyebrow { font-size: 12px; letter-spacing: 2px; text-transform: uppercase; }
+  h2 { font-size: clamp(26px, 4vw, 38px); margin: 0 0 20px; }
+  p { line-height: 1.65; }
+  article + article { border-top: 1px solid #e8e3d8; padding-top: 14px; }
+  a { color: #173a5e; margin-left: 6px; text-underline-offset: 3px; }
+  .note { color: #56616d; font-size: 13px; margin-bottom: 0; }
+</style>

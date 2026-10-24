@@ -1,0 +1,4616 @@
+{
+  "catalogReferences": 297,
+  "duplicateCatalogRows": 1,
+  "sourcedReferences": 10,
+  "pendingReferences": 287,
+  "note": "Checked dates record source observation, not manufacturer price-effective dates. Unknown values are never imputed.",
+  "rows": [
+    {
+      "brand": "Rolex",
+      "collection": "GMT-Master II",
+      "reference": "126710BLRO",
+      "path": "/collections/rolex/gmt-master-ii/126710blro",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Rolex reference source",
+          "url": "https://www.the1916company.com/rolex-certified-pre-owned/gmt-master-ii/5077201/"
+        }
+      ]
+    },
+    {
+      "brand": "Rolex",
+      "collection": "GMT-Master II",
+      "reference": "126710BLNR",
+      "path": "/collections/rolex/gmt-master-ii/126710blnr",
+      "status": "sourced-list-price",
+      "prices": [
+        {
+          "brand": "Rolex",
+          "reference": "126710BLNR",
+          "manufacturerReference": "m126710blnr-0003",
+          "configuration": "Black dial / Oyster bracelet / black-blue bezel",
+          "amount": 11800,
+          "currency": "USD",
+          "market": "United States",
+          "taxBasis": "excluded",
+          "basis": "current-list",
+          "checkedAt": "2026-10-24",
+          "effectiveDate": null,
+          "sourceUrl": "https://www.rolex.com/en-us/watches/gmt-master-ii/m126710blnr-0003",
+          "sourceName": "Rolex United States",
+          "sourceType": "manufacturer"
+        },
+        {
+          "brand": "Rolex",
+          "reference": "126710BLNR",
+          "manufacturerReference": "m126710blnr-0002",
+          "configuration": "Black dial / Jubilee bracelet / black-blue bezel",
+          "amount": 12000,
+          "currency": "USD",
+          "market": "United States",
+          "taxBasis": "excluded",
+          "basis": "current-list",
+          "checkedAt": "2026-10-24",
+          "effectiveDate": null,
+          "sourceUrl": "https://www.rolex.com/en-us/watches/gmt-master-ii/m126710blnr-0002",
+          "sourceName": "Rolex United States",
+          "sourceType": "manufacturer"
+        }
+      ],
+      "identitySources": [
+        {
+          "label": "Rolex reference source",
+          "url": "https://www.rolex.com/en-us/watches/gmt-master-ii/m126710blnr-0003"
+        },
+        {
+          "label": "Rolex reference source",
+          "url": "https://www.rolex.com/en-us/watches/gmt-master-ii/m126710blnr-0002"
+        }
+      ]
+    },
+    {
+      "brand": "Rolex",
+      "collection": "GMT-Master II",
+      "reference": "126720VTNR",
+      "path": "/collections/rolex/gmt-master-ii/126720vtnr",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Rolex reference source",
+          "url": "https://www.rolex.com/en-sg/watches/gmt-master-ii/m126720vtnr-0002"
+        }
+      ]
+    },
+    {
+      "brand": "Rolex",
+      "collection": "GMT-Master II",
+      "reference": "126713GRNR",
+      "path": "/collections/rolex/gmt-master-ii/126713grnr",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Rolex reference source",
+          "url": "https://www.rolex.com/watches/gmt-master-ii/m126713grnr-0001"
+        }
+      ]
+    },
+    {
+      "brand": "Rolex",
+      "collection": "GMT-Master II",
+      "reference": "126718GRNR",
+      "path": "/collections/rolex/gmt-master-ii/126718grnr",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Rolex reference source",
+          "url": "https://www.rolex.com/watches/gmt-master-ii/m126718grnr-0001"
+        }
+      ]
+    },
+    {
+      "brand": "Rolex",
+      "collection": "GMT-Master II",
+      "reference": "126719BLRO",
+      "path": "/collections/rolex/gmt-master-ii/126719blro",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Rolex reference source",
+          "url": "https://www.grayandsons.com/w525913-unused-rolex-gmt-master-ii-pepsi-40mm/"
+        }
+      ]
+    },
+    {
+      "brand": "Rolex",
+      "collection": "GMT-Master II",
+      "reference": "116710BLNR",
+      "path": "/collections/rolex/gmt-master-ii/116710blnr",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Rolex reference source",
+          "url": "https://www.the1916company.com/rolex-certified-pre-owned/gmt-master-ii/5078846/"
+        }
+      ]
+    },
+    {
+      "brand": "Rolex",
+      "collection": "GMT-Master II",
+      "reference": "116710LN",
+      "path": "/collections/rolex/gmt-master-ii/116710ln",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Rolex reference source",
+          "url": "https://www.the1916company.com/rolex-certified-pre-owned/gmt-master-ii/5073462/"
+        }
+      ]
+    },
+    {
+      "brand": "Rolex",
+      "collection": "Daytona",
+      "reference": "126500LN",
+      "path": "/collections/rolex/daytona/126500ln",
+      "status": "sourced-list-price",
+      "prices": [
+        {
+          "brand": "Rolex",
+          "reference": "126500LN",
+          "manufacturerReference": "m126500ln-0001",
+          "configuration": "White dial / Oyster bracelet / black ceramic bezel",
+          "amount": 16900,
+          "currency": "USD",
+          "market": "United States",
+          "taxBasis": "excluded",
+          "basis": "current-list",
+          "checkedAt": "2026-10-24",
+          "effectiveDate": null,
+          "sourceUrl": "https://www.rolex.com/en-us/watches/cosmograph-daytona/m126500ln-0001",
+          "sourceName": "Rolex United States",
+          "sourceType": "manufacturer"
+        }
+      ],
+      "identitySources": [
+        {
+          "label": "Rolex reference source",
+          "url": "https://www.rolex.com/en-us/watches/cosmograph-daytona/m126500ln-0001"
+        }
+      ]
+    },
+    {
+      "brand": "Rolex",
+      "collection": "Daytona",
+      "reference": "116500LN",
+      "path": "/collections/rolex/daytona/116500ln",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Rolex reference source",
+          "url": "https://www.grayandsons.com/w527052-rolex-daytona-40mm-116500ln/"
+        }
+      ]
+    },
+    {
+      "brand": "Rolex",
+      "collection": "Daytona",
+      "reference": "116520",
+      "path": "/collections/rolex/daytona/116520",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Rolex reference source",
+          "url": "https://www.the1916company.com/rolex-certified-pre-owned/daytona/5059316/"
+        }
+      ]
+    },
+    {
+      "brand": "Rolex",
+      "collection": "Daytona",
+      "reference": "16520",
+      "path": "/collections/rolex/daytona/16520",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Rolex reference source",
+          "url": "https://www.grayandsons.com/w526018-rolex-daytona-40mm-16520/"
+        }
+      ]
+    },
+    {
+      "brand": "Rolex",
+      "collection": "Daytona",
+      "reference": "126508",
+      "path": "/collections/rolex/daytona/126508",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Rolex reference source",
+          "url": "https://www.rolex.com/en-us/watches/cosmograph-daytona/m126508-0006"
+        }
+      ]
+    },
+    {
+      "brand": "Rolex",
+      "collection": "Daytona",
+      "reference": "126515LN",
+      "path": "/collections/rolex/daytona/126515ln",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Rolex reference source",
+          "url": "https://www.rolex.com/en-us/watches/cosmograph-daytona/m126515ln-0006"
+        }
+      ]
+    },
+    {
+      "brand": "Rolex",
+      "collection": "Daytona",
+      "reference": "126519LN",
+      "path": "/collections/rolex/daytona/126519ln",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Rolex reference source",
+          "url": "https://www.rolex.com/en-us/watches/cosmograph-daytona/m126519ln-0004"
+        }
+      ]
+    },
+    {
+      "brand": "Rolex",
+      "collection": "Daytona",
+      "reference": "126506",
+      "path": "/collections/rolex/daytona/126506",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Rolex reference source",
+          "url": "https://www.rolex.com/en-us/watches/cosmograph-daytona/m126506-0001"
+        }
+      ]
+    },
+    {
+      "brand": "Rolex",
+      "collection": "Submariner",
+      "reference": "126610LN",
+      "path": "/collections/rolex/submariner/126610ln",
+      "status": "sourced-list-price",
+      "prices": [
+        {
+          "brand": "Rolex",
+          "reference": "126610LN",
+          "manufacturerReference": "m126610ln-0001",
+          "configuration": "Black dial / Oyster bracelet / black bezel",
+          "amount": 11350,
+          "currency": "USD",
+          "market": "United States",
+          "taxBasis": "excluded",
+          "basis": "current-list",
+          "checkedAt": "2026-10-24",
+          "effectiveDate": null,
+          "sourceUrl": "https://www.rolex.com/en-us/watches/submariner/m126610ln-0001",
+          "sourceName": "Rolex United States",
+          "sourceType": "manufacturer"
+        }
+      ],
+      "identitySources": [
+        {
+          "label": "Rolex reference source",
+          "url": "https://www.rolex.com/en-us/watches/submariner/m126610ln-0001"
+        }
+      ]
+    },
+    {
+      "brand": "Rolex",
+      "collection": "Submariner",
+      "reference": "126610LV",
+      "path": "/collections/rolex/submariner/126610lv",
+      "status": "sourced-list-price",
+      "prices": [
+        {
+          "brand": "Rolex",
+          "reference": "126610LV",
+          "manufacturerReference": "m126610lv-0002",
+          "configuration": "Black dial / Oyster bracelet / green bezel",
+          "amount": 11900,
+          "currency": "USD",
+          "market": "United States",
+          "taxBasis": "excluded",
+          "basis": "current-list",
+          "checkedAt": "2026-10-24",
+          "effectiveDate": null,
+          "sourceUrl": "https://www.rolex.com/en-us/watches/submariner/m126610lv-0002",
+          "sourceName": "Rolex United States",
+          "sourceType": "manufacturer"
+        }
+      ],
+      "identitySources": [
+        {
+          "label": "Rolex reference source",
+          "url": "https://www.rolex.com/en-us/watches/submariner/m126610lv-0002"
+        }
+      ]
+    },
+    {
+      "brand": "Rolex",
+      "collection": "Submariner",
+      "reference": "124060",
+      "path": "/collections/rolex/submariner/124060",
+      "status": "sourced-list-price",
+      "prices": [
+        {
+          "brand": "Rolex",
+          "reference": "124060",
+          "manufacturerReference": "m124060-0001",
+          "configuration": "Black dial / Oyster bracelet / black bezel",
+          "amount": 10050,
+          "currency": "USD",
+          "market": "United States",
+          "taxBasis": "excluded",
+          "basis": "current-list",
+          "checkedAt": "2026-10-24",
+          "effectiveDate": null,
+          "sourceUrl": "https://www.rolex.com/en-us/watches/submariner/m124060-0001",
+          "sourceName": "Rolex United States",
+          "sourceType": "manufacturer"
+        }
+      ],
+      "identitySources": []
+    },
+    {
+      "brand": "Rolex",
+      "collection": "Submariner",
+      "reference": "116610LV",
+      "path": "/collections/rolex/submariner/116610lv",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Rolex reference source",
+          "url": "https://www.the1916company.com/rolex-certified-pre-owned/submariner/5077993/"
+        }
+      ]
+    },
+    {
+      "brand": "Rolex",
+      "collection": "Submariner",
+      "reference": "126619LB",
+      "path": "/collections/rolex/submariner/126619lb",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Rolex reference source",
+          "url": "https://www.grayandsons.com/w525030-unused-rolex-submariner-cookie-monste/"
+        }
+      ]
+    },
+    {
+      "brand": "Rolex",
+      "collection": "Submariner",
+      "reference": "126613LB",
+      "path": "/collections/rolex/submariner/126613lb",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Rolex reference source",
+          "url": "https://www.rolex.com/en-us/watches/submariner/m126613lb-0002"
+        }
+      ]
+    },
+    {
+      "brand": "Rolex",
+      "collection": "Submariner",
+      "reference": "126618LB",
+      "path": "/collections/rolex/submariner/126618lb",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Rolex reference source",
+          "url": "https://www.rolex.com/watches/submariner/m126618lb-0002"
+        }
+      ]
+    },
+    {
+      "brand": "Rolex",
+      "collection": "Datejust",
+      "reference": "126334",
+      "path": "/collections/rolex/datejust/126334",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Rolex reference source",
+          "url": "https://www.rolex.com/en-us/watches/datejust/m126334-0001"
+        }
+      ]
+    },
+    {
+      "brand": "Rolex",
+      "collection": "Datejust",
+      "reference": "126300",
+      "path": "/collections/rolex/datejust/126300",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Rolex reference source",
+          "url": "https://www.rolex.com/en-us/watches/datejust/m126300-0001"
+        }
+      ]
+    },
+    {
+      "brand": "Rolex",
+      "collection": "Datejust",
+      "reference": "126333",
+      "path": "/collections/rolex/datejust/126333",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Rolex reference source",
+          "url": "https://www.rolex.com/en-us/watches/datejust/m126333-0001"
+        }
+      ]
+    },
+    {
+      "brand": "Rolex",
+      "collection": "Datejust",
+      "reference": "126234",
+      "path": "/collections/rolex/datejust/126234",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Rolex reference source",
+          "url": "https://www.rolex.com/fr-fr/watches/datejust/m126234-0059"
+        }
+      ]
+    },
+    {
+      "brand": "Rolex",
+      "collection": "Datejust",
+      "reference": "126200",
+      "path": "/collections/rolex/datejust/126200",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Rolex reference source",
+          "url": "https://www.rolex.com/en-us/watches/datejust/m126200-0001"
+        }
+      ]
+    },
+    {
+      "brand": "Rolex",
+      "collection": "Datejust",
+      "reference": "126303",
+      "path": "/collections/rolex/datejust/126303",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Rolex reference source",
+          "url": "https://www.rolex.com/en-us/watches/datejust/m126303-0001"
+        }
+      ]
+    },
+    {
+      "brand": "Rolex",
+      "collection": "Day-Date",
+      "reference": "228238",
+      "path": "/collections/rolex/day-date/228238",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Rolex reference source",
+          "url": "https://www.rolex.com/en-us/watches/day-date/m228238-0061"
+        }
+      ]
+    },
+    {
+      "brand": "Rolex",
+      "collection": "Day-Date",
+      "reference": "228239",
+      "path": "/collections/rolex/day-date/228239",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Rolex reference source",
+          "url": "https://www.rolex.com/en-gb/watches/day-date/m228239-0055"
+        }
+      ]
+    },
+    {
+      "brand": "Rolex",
+      "collection": "Day-Date",
+      "reference": "228235",
+      "path": "/collections/rolex/day-date/228235",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Rolex reference source",
+          "url": "https://www.rolex.com/en-us/watches/day-date/m228235-0003"
+        }
+      ]
+    },
+    {
+      "brand": "Rolex",
+      "collection": "Day-Date",
+      "reference": "228206",
+      "path": "/collections/rolex/day-date/228206",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Rolex reference source",
+          "url": "https://www.watchguynyc.com/products/rolex-day-date-40-platinum-ice-blue-diagonal-motif-dial-men-s-watch-228206"
+        }
+      ]
+    },
+    {
+      "brand": "Rolex",
+      "collection": "Day-Date",
+      "reference": "128238",
+      "path": "/collections/rolex/day-date/128238",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Rolex reference source",
+          "url": "https://www.rolex.com/en-gb/watches/day-date/m128238-0132"
+        }
+      ]
+    },
+    {
+      "brand": "Rolex",
+      "collection": "Day-Date",
+      "reference": "118238",
+      "path": "/collections/rolex/day-date/118238",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Rolex reference source",
+          "url": "https://www.grayandsons.com/w524561-rolex-day-date-36mm-118238/"
+        }
+      ]
+    },
+    {
+      "brand": "Rolex",
+      "collection": "Day-Date",
+      "reference": "228236",
+      "path": "/collections/rolex/day-date/228236",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Rolex reference source",
+          "url": "https://www.rolex.com/en-us/watches/day-date/m228236-0011"
+        }
+      ]
+    },
+    {
+      "brand": "Rolex",
+      "collection": "Sky-Dweller",
+      "reference": "336934",
+      "path": "/collections/rolex/sky-dweller/336934",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Rolex reference source",
+          "url": "https://www.rolex.com/en-us/watches/sky-dweller/m336934-0001"
+        }
+      ]
+    },
+    {
+      "brand": "Rolex",
+      "collection": "Sky-Dweller",
+      "reference": "336933",
+      "path": "/collections/rolex/sky-dweller/336933",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Rolex reference source",
+          "url": "https://www.rolex.com/en-us/watches/sky-dweller/m336933-0003"
+        }
+      ]
+    },
+    {
+      "brand": "Rolex",
+      "collection": "Sky-Dweller",
+      "reference": "336238",
+      "path": "/collections/rolex/sky-dweller/336238",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Rolex reference source",
+          "url": "https://www.rolex.com/en-us/watches/sky-dweller/m336238-0001"
+        }
+      ]
+    },
+    {
+      "brand": "Rolex",
+      "collection": "Sky-Dweller",
+      "reference": "336235",
+      "path": "/collections/rolex/sky-dweller/336235",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Rolex reference source",
+          "url": "https://www.rolex.com/en-us/watches/sky-dweller/m336235-0004"
+        }
+      ]
+    },
+    {
+      "brand": "Rolex",
+      "collection": "Sky-Dweller",
+      "reference": "326934",
+      "path": "/collections/rolex/sky-dweller/326934",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Rolex reference source",
+          "url": "https://www.the1916company.com/rolex-certified-pre-owned/sky-dweller/5076865/"
+        }
+      ]
+    },
+    {
+      "brand": "Rolex",
+      "collection": "Sky-Dweller",
+      "reference": "336938",
+      "path": "/collections/rolex/sky-dweller/336938",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Rolex reference source",
+          "url": "https://www.rolex.com/en-us/watches/sky-dweller/m336938-0003"
+        }
+      ]
+    },
+    {
+      "brand": "Rolex",
+      "collection": "Sky-Dweller",
+      "reference": "336935",
+      "path": "/collections/rolex/sky-dweller/336935",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Rolex reference source",
+          "url": "https://www.rolex.com/en-us/watches/sky-dweller/m336935-0007"
+        }
+      ]
+    },
+    {
+      "brand": "Rolex",
+      "collection": "Yacht-Master",
+      "reference": "126622",
+      "path": "/collections/rolex/yacht-master/126622",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Rolex reference source",
+          "url": "https://www.rolex.com/watches/yacht-master/m126622-0002"
+        }
+      ]
+    },
+    {
+      "brand": "Rolex",
+      "collection": "Yacht-Master",
+      "reference": "126621",
+      "path": "/collections/rolex/yacht-master/126621",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Rolex reference source",
+          "url": "https://www.rolex.com/en-us/watches/yacht-master/m126621-0001"
+        }
+      ]
+    },
+    {
+      "brand": "Rolex",
+      "collection": "Yacht-Master",
+      "reference": "126655",
+      "path": "/collections/rolex/yacht-master/126655",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Rolex reference source",
+          "url": "https://www.rolex.com/en-us/watches/yacht-master/m126655-0002"
+        }
+      ]
+    },
+    {
+      "brand": "Rolex",
+      "collection": "Yacht-Master",
+      "reference": "226659",
+      "path": "/collections/rolex/yacht-master/226659",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Rolex reference source",
+          "url": "https://www.rolex.com/en-us/watches/yacht-master/m226659-0002"
+        }
+      ]
+    },
+    {
+      "brand": "Rolex",
+      "collection": "Yacht-Master",
+      "reference": "226658",
+      "path": "/collections/rolex/yacht-master/226658",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Rolex reference source",
+          "url": "https://www.rolex.com/en-us/watches/yacht-master/m226658-0001"
+        }
+      ]
+    },
+    {
+      "brand": "Rolex",
+      "collection": "Yacht-Master",
+      "reference": "268622",
+      "path": "/collections/rolex/yacht-master/268622",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Rolex reference source",
+          "url": "https://www.rolex.com/watches/yacht-master/m268622-0002"
+        }
+      ]
+    },
+    {
+      "brand": "Rolex",
+      "collection": "Explorer",
+      "reference": "224270",
+      "path": "/collections/rolex/explorer/224270",
+      "status": "sourced-list-price",
+      "prices": [
+        {
+          "brand": "Rolex",
+          "reference": "224270",
+          "manufacturerReference": "m224270-0001",
+          "configuration": "40 mm / black dial / Oyster bracelet",
+          "amount": 8350,
+          "currency": "USD",
+          "market": "United States",
+          "taxBasis": "excluded",
+          "basis": "current-list",
+          "checkedAt": "2026-10-24",
+          "effectiveDate": null,
+          "sourceUrl": "https://www.rolex.com/en-us/watches/explorer/m224270-0001",
+          "sourceName": "Rolex United States",
+          "sourceType": "manufacturer"
+        }
+      ],
+      "identitySources": [
+        {
+          "label": "Rolex reference source",
+          "url": "https://www.rolex.com/es-mx/watches/explorer/m224270-0001"
+        }
+      ]
+    },
+    {
+      "brand": "Rolex",
+      "collection": "Explorer II",
+      "reference": "226570",
+      "path": "/collections/rolex/explorer-ii/226570",
+      "status": "sourced-list-price",
+      "prices": [
+        {
+          "brand": "Rolex",
+          "reference": "226570",
+          "manufacturerReference": "m226570-0001",
+          "configuration": "White dial / Oyster bracelet",
+          "amount": 10600,
+          "currency": "USD",
+          "market": "United States",
+          "taxBasis": "excluded",
+          "basis": "current-list",
+          "checkedAt": "2026-10-24",
+          "effectiveDate": null,
+          "sourceUrl": "https://www.rolex.com/en-us/watches/explorer-ii/m226570-0001",
+          "sourceName": "Rolex United States",
+          "sourceType": "manufacturer"
+        },
+        {
+          "brand": "Rolex",
+          "reference": "226570",
+          "manufacturerReference": "m226570-0002",
+          "configuration": "Black dial / Oyster bracelet",
+          "amount": 10600,
+          "currency": "USD",
+          "market": "United States",
+          "taxBasis": "excluded",
+          "basis": "current-list",
+          "checkedAt": "2026-10-24",
+          "effectiveDate": null,
+          "sourceUrl": "https://www.rolex.com/en-us/watches/explorer-ii/m226570-0002",
+          "sourceName": "Rolex United States",
+          "sourceType": "manufacturer"
+        }
+      ],
+      "identitySources": [
+        {
+          "label": "Rolex reference source",
+          "url": "https://www.rolex.com/watches/explorer-ii/m226570-0001"
+        }
+      ]
+    },
+    {
+      "brand": "Rolex",
+      "collection": "Sea-Dweller",
+      "reference": "126600",
+      "path": "/collections/rolex/sea-dweller/126600",
+      "status": "sourced-list-price",
+      "prices": [
+        {
+          "brand": "Rolex",
+          "reference": "126600",
+          "manufacturerReference": "m126600-0002",
+          "configuration": "Black dial / Oyster bracelet",
+          "amount": 14550,
+          "currency": "USD",
+          "market": "United States",
+          "taxBasis": "excluded",
+          "basis": "current-list",
+          "checkedAt": "2026-10-24",
+          "effectiveDate": null,
+          "sourceUrl": "https://www.rolex.com/en-us/watches/sea-dweller/m126600-0002",
+          "sourceName": "Rolex United States",
+          "sourceType": "manufacturer"
+        }
+      ],
+      "identitySources": [
+        {
+          "label": "Rolex reference source",
+          "url": "https://www.rolex.com/watches/sea-dweller/m126600-0002"
+        }
+      ]
+    },
+    {
+      "brand": "Rolex",
+      "collection": "Oyster Perpetual",
+      "reference": "124300",
+      "path": "/collections/rolex/oyster-perpetual/124300",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Rolex reference source",
+          "url": "https://www.grayandsons.com/w525633-rolex-oyster-perpetual-41mm-124300/"
+        }
+      ]
+    },
+    {
+      "brand": "Rolex",
+      "collection": "Air-King",
+      "reference": "126900",
+      "path": "/collections/rolex/air-king/126900",
+      "status": "sourced-list-price",
+      "prices": [
+        {
+          "brand": "Rolex",
+          "reference": "126900",
+          "manufacturerReference": "m126900-0001",
+          "configuration": "Black dial / Oyster bracelet",
+          "amount": 8150,
+          "currency": "USD",
+          "market": "United States",
+          "taxBasis": "excluded",
+          "basis": "current-list",
+          "checkedAt": "2026-10-24",
+          "effectiveDate": null,
+          "sourceUrl": "https://www.rolex.com/en-us/watches/air-king/m126900-0001",
+          "sourceName": "Rolex United States",
+          "sourceType": "manufacturer"
+        }
+      ],
+      "identitySources": [
+        {
+          "label": "Rolex reference source",
+          "url": "https://www.rolex.com/en-us/watches/air-king/m126900-0001"
+        }
+      ]
+    },
+    {
+      "brand": "Rolex",
+      "collection": "Perpetual 1908",
+      "reference": "52508",
+      "path": "/collections/rolex/1908/52508",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Rolex reference source",
+          "url": "https://www.rolex.com/en-gb/watches/1908/m52508-0005"
+        }
+      ]
+    },
+    {
+      "brand": "Rolex",
+      "collection": "Milgauss",
+      "reference": "116400GV",
+      "path": "/collections/rolex/milgauss/116400gv",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Rolex reference source",
+          "url": "https://www.the1916company.com/rolex-certified-pre-owned/milgauss/5079641/"
+        }
+      ]
+    },
+    {
+      "brand": "Patek Philippe",
+      "collection": "Nautilus",
+      "reference": "5711/1A",
+      "path": "/collections/patek-philippe/nautilus/5711-1a",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": []
+    },
+    {
+      "brand": "Patek Philippe",
+      "collection": "Nautilus",
+      "reference": "5811/1G",
+      "path": "/collections/patek-philippe/nautilus/5811-1g",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": []
+    },
+    {
+      "brand": "Patek Philippe",
+      "collection": "Nautilus",
+      "reference": "5712/1A",
+      "path": "/collections/patek-philippe/nautilus/5712-1a",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Patek Philippe reference source",
+          "url": "https://www.the1916company.com/pre-owned/patek-philippe/nautilus/5050598/"
+        }
+      ]
+    },
+    {
+      "brand": "Patek Philippe",
+      "collection": "Nautilus",
+      "reference": "5990/1A",
+      "path": "/collections/patek-philippe/nautilus/5990-1a",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Patek Philippe reference source",
+          "url": "https://www.patek.com/en/collection/nautilus/5990-1a-011"
+        }
+      ]
+    },
+    {
+      "brand": "Patek Philippe",
+      "collection": "Nautilus",
+      "reference": "5980/1A",
+      "path": "/collections/patek-philippe/nautilus/5980-1a",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Patek Philippe reference source",
+          "url": "https://www.the1916company.com/pre-owned/patek-philippe/nautilus/5063942/"
+        }
+      ]
+    },
+    {
+      "brand": "Patek Philippe",
+      "collection": "Nautilus",
+      "reference": "5726/1A",
+      "path": "/collections/patek-philippe/nautilus/5726-1a",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Patek Philippe reference source",
+          "url": "https://www.patek.com/en/collection/nautilus/5726-1a-014"
+        }
+      ]
+    },
+    {
+      "brand": "Audemars Piguet",
+      "collection": "Royal Oak",
+      "reference": "15510ST",
+      "path": "/collections/audemars-piguet/royal-oak/15510st",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": []
+    },
+    {
+      "brand": "Audemars Piguet",
+      "collection": "Royal Oak",
+      "reference": "16202ST",
+      "path": "/collections/audemars-piguet/royal-oak/16202st",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Audemars Piguet reference source",
+          "url": "https://wristaficionado.com/products/audemars-piguet-royal-oak-16202st-oo-1240st-02-jumbo-extra-thin-stainless-steel-blue-dial-2025"
+        }
+      ]
+    },
+    {
+      "brand": "Audemars Piguet",
+      "collection": "Royal Oak",
+      "reference": "15400ST",
+      "path": "/collections/audemars-piguet/royal-oak/15400st",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Audemars Piguet reference source",
+          "url": "https://www.watchfinder.com/sell-your-watch/enquiry/audemars-piguet/royal-oak/15400st-oo-1220st-02/25355"
+        }
+      ]
+    },
+    {
+      "brand": "Audemars Piguet",
+      "collection": "Royal Oak",
+      "reference": "15202ST",
+      "path": "/collections/audemars-piguet/royal-oak/15202st",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Audemars Piguet reference source",
+          "url": "https://www.watchfinder.com/sell-your-watch/enquiry/audemars-piguet/royal-oak/15202st-oo-1240st-01/26429"
+        }
+      ]
+    },
+    {
+      "brand": "Audemars Piguet",
+      "collection": "Royal Oak",
+      "reference": "15500ST",
+      "path": "/collections/audemars-piguet/royal-oak/15500st",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Audemars Piguet reference source",
+          "url": "https://www.the1916company.com/pre-owned/audemars-piguet/royal-oak/5081391/"
+        }
+      ]
+    },
+    {
+      "brand": "Audemars Piguet",
+      "collection": "Royal Oak",
+      "reference": "14790ST",
+      "path": "/collections/audemars-piguet/royal-oak/14790st",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Audemars Piguet reference source",
+          "url": "https://www.watchfinder.com/sell-your-watch/enquiry/audemars-piguet/royal-oak/14790st-oo-0789st-02/14932"
+        }
+      ]
+    },
+    {
+      "brand": "Audemars Piguet",
+      "collection": "Royal Oak",
+      "reference": "26615TI.OO.1220TI.01",
+      "path": "/collections/audemars-piguet/royal-oak/26615ti-oo-1220ti-01",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Audemars Piguet reference source",
+          "url": "https://www.audemarspiguet.com/zh-hans/watch-collection/royal-oak/26615TI.OO.1220TI.01"
+        }
+      ]
+    },
+    {
+      "brand": "Audemars Piguet",
+      "collection": "Royal Oak",
+      "reference": "26607BC.OO.1220BC.01",
+      "path": "/collections/audemars-piguet/royal-oak/26607bc-oo-1220bc-01",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Audemars Piguet reference source",
+          "url": "https://wristcheck.com/us/buy/audemars-piguet/royal-oak-41-white-gold-red-dial-26607bcoo1220bc01"
+        }
+      ]
+    },
+    {
+      "brand": "Audemars Piguet",
+      "collection": "Royal Oak",
+      "reference": "15500ST.OO.1220ST.03",
+      "path": "/collections/audemars-piguet/royal-oak/15500st-oo-1220st-03",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Audemars Piguet reference source",
+          "url": "https://www.audemarspiguet.com/us/en/watch-collection/royal-oak/15500ST.OO.1220ST.03"
+        }
+      ]
+    },
+    {
+      "brand": "Audemars Piguet",
+      "collection": "Royal Oak",
+      "reference": "26585CE.OO.1225CE.01",
+      "path": "/collections/audemars-piguet/royal-oak/26585ce-oo-1225ce-01",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Audemars Piguet reference source",
+          "url": "https://www.audemarspiguet.com/us/en/watch-collection/royal-oak/26585CE.OO.1225CE.01"
+        }
+      ]
+    },
+    {
+      "brand": "Audemars Piguet",
+      "collection": "Royal Oak",
+      "reference": "26585XT.OO.1220XT.01",
+      "path": "/collections/audemars-piguet/royal-oak/26585xt-oo-1220xt-01",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Audemars Piguet reference source",
+          "url": "https://www.audemarspiguet.com/us/en/watch-collection/royal-oak/26585XT.OO.1220XT.01"
+        }
+      ]
+    },
+    {
+      "brand": "Audemars Piguet",
+      "collection": "Royal Oak",
+      "reference": "26585CM.OO.D301VE.01",
+      "path": "/collections/audemars-piguet/royal-oak/26585cm-oo-d301ve-01",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Audemars Piguet reference source",
+          "url": "https://www.audemarspiguet.com/zh-hant/watch-collection/royal-oak/26585CM.OO.D301VE.01"
+        }
+      ]
+    },
+    {
+      "brand": "Audemars Piguet",
+      "collection": "Royal Oak",
+      "reference": "15412BC.ZZ.1220BC.01",
+      "path": "/collections/audemars-piguet/royal-oak/15412bc-zz-1220bc-01",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Audemars Piguet reference source",
+          "url": "https://www.jomashop.com/audemars-piguet-15412bc-zz-1220bc-01.html"
+        }
+      ]
+    },
+    {
+      "brand": "Audemars Piguet",
+      "collection": "Royal Oak",
+      "reference": "15412OR.ZZ.1220OR.01",
+      "path": "/collections/audemars-piguet/royal-oak/15412or-zz-1220or-01",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Audemars Piguet reference source",
+          "url": "https://chronoboutiqueny.com/products/audemars-piguet-royal-oak-double-balance-wheel-openworked-rose-gold-baguette-15412or-zz-1220or-01-sold"
+        }
+      ]
+    },
+    {
+      "brand": "Audemars Piguet",
+      "collection": "Royal Oak",
+      "reference": "15412BA.ZG.1224BA.01",
+      "path": "/collections/audemars-piguet/royal-oak/15412ba-zg-1224ba-01",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Audemars Piguet reference source",
+          "url": "https://www.audemarspiguet.com/us/en/watch-collection/royal-oak/15412BA.ZG.1224BA.01"
+        }
+      ]
+    },
+    {
+      "brand": "Audemars Piguet",
+      "collection": "Royal Oak",
+      "reference": "26341ST.OO.1105ST.01",
+      "path": "/collections/audemars-piguet/royal-oak/26341st-oo-1105st-01",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Audemars Piguet reference source",
+          "url": "https://www.audemarspiguet.com/en/about/savoir-faire/grandes-complications"
+        }
+      ]
+    },
+    {
+      "brand": "Richard Mille",
+      "collection": "RM 11",
+      "reference": "RM11-03",
+      "path": "/collections/richard-mille/rm-11/rm11-03",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Richard Mille reference source",
+          "url": "https://mavaniandco.com/products/richard-mille-titanium-automatic-flyback-chronograph-rm11-03"
+        }
+      ]
+    },
+    {
+      "brand": "Vacheron Constantin",
+      "collection": "Overseas",
+      "reference": "4520V",
+      "path": "/collections/vacheron-constantin/overseas/4520v",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": []
+    },
+    {
+      "brand": "Vacheron Constantin",
+      "collection": "Overseas",
+      "reference": "4300V/220G-H151",
+      "path": "/collections/vacheron-constantin/overseas/4300v-220g-h151",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Vacheron Constantin reference source",
+          "url": "https://www.vacheron-constantin.com/ww/en/collections/overseas/4300v-220g-h151.html"
+        }
+      ]
+    },
+    {
+      "brand": "Vacheron Constantin",
+      "collection": "Overseas",
+      "reference": "6000V/110A-B544",
+      "path": "/collections/vacheron-constantin/overseas/6000v-110a-b544",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Vacheron Constantin reference source",
+          "url": "https://www.watchfinder.com/sell-your-watch/enquiry/vacheron-constantin/overseas/6000v-110a-b544/47752"
+        }
+      ]
+    },
+    {
+      "brand": "F.P. Journe",
+      "collection": "Chronomètre Bleu",
+      "reference": "CB",
+      "path": "/collections/fp-journe/chronometre-bleu/cb",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "F.P. Journe reference source",
+          "url": "https://www.fpjourne.com/en/collection/classique-collection/chronometre-bleu"
+        }
+      ]
+    },
+    {
+      "brand": "Hublot",
+      "collection": "Big Bang",
+      "reference": "441-NX-1171-RX",
+      "path": "/collections/hublot/big-bang/441-nx-1171-rx",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Hublot reference source",
+          "url": "https://www.maier.fr/marques-horlogerie-bijouterie/hublot/montres/big-bang-unico/big-bang-unico-titanium_441-nx-1171-rx"
+        }
+      ]
+    },
+    {
+      "brand": "Hublot",
+      "collection": "Big Bang",
+      "reference": "429.NM.0170.RX",
+      "path": "/collections/hublot/big-bang/429-nm-0170-rx",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Hublot reference source",
+          "url": "https://12-24.com/watches/hublot/ref-429-nm-0170-rx"
+        }
+      ]
+    },
+    {
+      "brand": "Cartier",
+      "collection": "Santos de Cartier",
+      "reference": "WSSA0029",
+      "path": "/collections/cartier/santos-de-cartier/wssa0029",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Cartier reference source",
+          "url": "https://www.the1916company.com/watches/cartier/santos/wssa0029/"
+        }
+      ]
+    },
+    {
+      "brand": "Cartier",
+      "collection": "Santos de Cartier",
+      "reference": "WSSA0018",
+      "path": "/collections/cartier/santos-de-cartier/wssa0018",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Cartier reference source",
+          "url": "https://int.cartier.com/en/collections/watches/choose-your-watch/by-material/steel-watches/wssa0018-santos-de-cartier-watch.html"
+        }
+      ]
+    },
+    {
+      "brand": "Omega",
+      "collection": "Speedmaster",
+      "reference": "310.30.42.50.01.002",
+      "path": "/collections/omega/speedmaster/310-30-42-50-01-002",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Omega reference source",
+          "url": "https://www.the1916company.com/watches/omega/speedmaster/o31030425001002/"
+        }
+      ]
+    },
+    {
+      "brand": "Omega",
+      "collection": "Speedmaster",
+      "reference": "310.30.42.50.01.001",
+      "path": "/collections/omega/speedmaster/310-30-42-50-01-001",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Omega reference source",
+          "url": "https://sheibanjewelers.com/products/omega-speedmaster-moonwatch-professional-hesalite-black-dial-on-bracelet-31030425001001"
+        }
+      ]
+    },
+    {
+      "brand": "Omega",
+      "collection": "Speedmaster",
+      "reference": "311.30.42.30.01.005",
+      "path": "/collections/omega/speedmaster/311-30-42-30-01-005",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Omega reference source",
+          "url": "https://www.omegawatches.com/watch-omega-speedmaster-moonwatch-professional-chronograph-42-mm-31130423001005"
+        }
+      ]
+    },
+    {
+      "brand": "Omega",
+      "collection": "Speedmaster",
+      "reference": "310.32.42.50.01.002",
+      "path": "/collections/omega/speedmaster/310-33-42-50-01-002",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Omega reference source",
+          "url": "https://brentmiller.com/products/moonwatch-professional-co-axial-master-chronometer-chronograph-42-mm-1"
+        }
+      ]
+    },
+    {
+      "brand": "Omega",
+      "collection": "Speedmaster",
+      "reference": "310.32.42.50.01.001",
+      "path": "/collections/omega/speedmaster/310-32-42-50-01-001",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Omega reference source",
+          "url": "https://sheibanjewelers.com/products/omega-speedmaster-moonwatch-professional-hesalite-black-dial-on-fabric-strap-31032425001001"
+        }
+      ]
+    },
+    {
+      "brand": "Omega",
+      "collection": "Speedmaster",
+      "reference": "310.32.42.50.02.001",
+      "path": "/collections/omega/speedmaster/310-32-42-50-02-001",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Omega reference source",
+          "url": "https://www.uhrinstinkt.de/products/omega-speedmaster-silver-snoopy-award-50th-anniversary-310-32-42-50-02-001-z101517"
+        }
+      ]
+    },
+    {
+      "brand": "Omega",
+      "collection": "Speedmaster",
+      "reference": "310.30.42.50.04.001",
+      "path": "/collections/omega/speedmaster/310-30-42-50-04-001",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Omega reference source",
+          "url": "https://www.the1916company.com/pre-owned/omega/speedmaster/5067832/"
+        }
+      ]
+    },
+    {
+      "brand": "Omega",
+      "collection": "Speedmaster",
+      "reference": "310.60.42.50.01.001",
+      "path": "/collections/omega/speedmaster/310-60-42-50-01-001",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Omega reference source",
+          "url": "https://www.the1916company.com/pre-owned/omega/speedmaster/5083325/"
+        }
+      ]
+    },
+    {
+      "brand": "Omega",
+      "collection": "Speedmaster",
+      "reference": "310.32.42.50.04.002",
+      "path": "/collections/omega/speedmaster/310-32-42-50-04-002",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Omega reference source",
+          "url": "https://sheibanjewelers.com/products/omega-speedmaster-moonwatch-professional-42mm-white-dial-on-leather-strap-31032425004002"
+        }
+      ]
+    },
+    {
+      "brand": "Omega",
+      "collection": "Speedmaster",
+      "reference": "310.20.42.50.99.001",
+      "path": "/collections/omega/speedmaster/310-20-42-50-99-001",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Omega reference source",
+          "url": "https://zadok.com/products/omega-speedmaster-moonwatch-professional-31020425099001"
+        }
+      ]
+    },
+    {
+      "brand": "Omega",
+      "collection": "Speedmaster",
+      "reference": "310.63.42.50.01.001",
+      "path": "/collections/omega/speedmaster/310-63-42-50-01-001",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Omega reference source",
+          "url": "https://www.omegawatches.com.hk/en-hk/watch-omega-speedmaster-moonwatch-professional-co-axial-master-chronometer-chronograph-42-mm-31063425001001"
+        }
+      ]
+    },
+    {
+      "brand": "Tudor",
+      "collection": "Black Bay",
+      "reference": "79030N",
+      "path": "/collections/tudor/black-bay/79030n",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Tudor reference source",
+          "url": "https://media.tudorwatch.com/image/upload/fl_attachment/v1/tudorwatch/pressroom/products/black-bay-58/pdf/bw18-tudor-black-bay-fifty-eight-en.pdf"
+        }
+      ]
+    },
+    {
+      "brand": "Tudor",
+      "collection": "Black Bay",
+      "reference": "M7941A1A0NU",
+      "path": "/collections/tudor/black-bay/m7941a1a0nu",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Tudor reference source",
+          "url": "https://www.tudorwatch.com/en/pressroom/products/black-bay"
+        }
+      ]
+    },
+    {
+      "brand": "Tudor",
+      "collection": "Black Bay",
+      "reference": "M7941A1A0RU-0003",
+      "path": "/collections/tudor/black-bay/m7941a1a0ru-0003",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Tudor reference source",
+          "url": "https://www.tudorwatch.com/en/watches/black-bay/m7941a1a0ru-0003"
+        }
+      ]
+    },
+    {
+      "brand": "Tudor",
+      "collection": "Black Bay",
+      "reference": "M79000N-0001",
+      "path": "/collections/tudor/black-bay/m79000n-0001",
+      "status": "sourced-list-price",
+      "prices": [
+        {
+          "brand": "Tudor",
+          "reference": "M79000N-0001",
+          "manufacturerReference": "M79000N-0001",
+          "configuration": "Black dial / 37 mm / three-link steel bracelet",
+          "amount": 4725,
+          "currency": "USD",
+          "market": "United States",
+          "taxBasis": "excluded",
+          "basis": "current-list",
+          "checkedAt": "2026-10-24",
+          "effectiveDate": null,
+          "sourceUrl": "https://www.tudorwatch.com/en/watches/black-bay-54/m79000n-0001",
+          "sourceName": "Tudor",
+          "sourceType": "manufacturer",
+          "corroboratingUrls": [
+            "https://www.loringjewelers.com/catalog/tudor/m79000n-0001/"
+          ]
+        }
+      ],
+      "identitySources": [
+        {
+          "label": "Tudor reference source",
+          "url": "https://www.tudorwatch.com/en/watches/black-bay-54/m79000n-0001"
+        }
+      ]
+    },
+    {
+      "brand": "Panerai",
+      "collection": "Luminor",
+      "reference": "PAM01312",
+      "path": "/collections/panerai/luminor/pam01312",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": []
+    },
+    {
+      "brand": "Breitling",
+      "collection": "Navitimer",
+      "reference": "AB0138211B1A1",
+      "path": "/collections/breitling/navitimer/ab0138211b1a1",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": []
+    },
+    {
+      "brand": "Breitling",
+      "collection": "Navitimer",
+      "reference": "A17329171C1A1",
+      "path": "/collections/breitling/navitimer/a17329171c1a1",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Breitling reference source",
+          "url": "https://www.breitling.com/de-de/watches/navitimer/navitimer-automatic-41-my23/A17329171C1A1/"
+        }
+      ]
+    },
+    {
+      "brand": "Breitling",
+      "collection": "Navitimer",
+      "reference": "AB0137211C1P1",
+      "path": "/collections/breitling/navitimer/ab0137211c1p1",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Breitling reference source",
+          "url": "https://www.breitling.com/si-en/watches/navitimer/navitimer-b01-chronograph-46-my22/AB0137211C1P1/"
+        }
+      ]
+    },
+    {
+      "brand": "Breitling",
+      "collection": "Navitimer",
+      "reference": "AB0137211B1P1",
+      "path": "/collections/breitling/navitimer/ab0137211b1p1",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Breitling reference source",
+          "url": "https://www.breitling.com/bb-en/watches/navitimer/navitimer-b01-chronograph-46-my22/AB0137211B1P1/"
+        }
+      ]
+    },
+    {
+      "brand": "IWC",
+      "collection": "Pilot's Watch",
+      "reference": "IW388102",
+      "path": "/collections/iwc/pilots-watch/iw388102",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "IWC reference source",
+          "url": "https://www.jw-oomiya.co.jp/products/iw388102"
+        }
+      ]
+    },
+    {
+      "brand": "Blancpain",
+      "collection": "Fifty Fathoms",
+      "reference": "5015-1130-52A",
+      "path": "/collections/blancpain/fifty-fathoms/5015-1130-52a",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Blancpain reference source",
+          "url": "https://www.blancpain.com/en/fifty-fathoms/fifty-fathoms-automatique-5015-1130-52a"
+        }
+      ]
+    },
+    {
+      "brand": "Jaeger-LeCoultre",
+      "collection": "Reverso",
+      "reference": "Q3848422",
+      "path": "/collections/jaeger-lecoultre/reverso/q3848422",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Jaeger-LeCoultre reference source",
+          "url": "https://www.jaeger-lecoultre.com/us-en/watches/reverso/reverso-classic/reverso-classic-duoface-small-seconds-stainless-steel-q3848422"
+        }
+      ]
+    },
+    {
+      "brand": "Ulysse Nardin",
+      "collection": "Freak",
+      "reference": "Freak",
+      "path": "/collections/ulysse-nardin/freak/freak",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Ulysse Nardin reference source",
+          "url": "https://www.ulysse-nardin.com/watches/discontinued-models/2505-250"
+        }
+      ]
+    },
+    {
+      "brand": "Ulysse Nardin",
+      "collection": "Freak",
+      "reference": "Freak X",
+      "path": "/collections/ulysse-nardin/freak/freak-x",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Ulysse Nardin reference source",
+          "url": "https://www.ulysse-nardin.com/ja-jp/watches/freak/2303-270-03"
+        }
+      ]
+    },
+    {
+      "brand": "Ulysse Nardin",
+      "collection": "Freak",
+      "reference": "Freak ONE",
+      "path": "/collections/ulysse-nardin/freak/freak-one",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Ulysse Nardin reference source",
+          "url": "https://www.ulysse-nardin.com/en-gr/watches/freak/2405-500-2a-3a"
+        }
+      ]
+    },
+    {
+      "brand": "Ulysse Nardin",
+      "collection": "Freak",
+      "reference": "2303-270/03",
+      "path": "/collections/ulysse-nardin/freak/2303-270-03",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Ulysse Nardin reference source",
+          "url": "https://www.ulysse-nardin.com/watches/freak/2303-270-03"
+        }
+      ]
+    },
+    {
+      "brand": "Ulysse Nardin",
+      "collection": "Freak",
+      "reference": "2303-270.1/BLACK",
+      "path": "/collections/ulysse-nardin/freak/2303-270-1-black",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Ulysse Nardin reference source",
+          "url": "https://www.ulysse-nardin.com/watches/freak/2303-270-1-black"
+        }
+      ]
+    },
+    {
+      "brand": "Ulysse Nardin",
+      "collection": "Freak",
+      "reference": "2405-500-2A/3A",
+      "path": "/collections/ulysse-nardin/freak/2405-500-2a-3a",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Ulysse Nardin reference source",
+          "url": "https://www.ulysse-nardin.com/en-eu/watches/freak/2405-500-2a-3a"
+        }
+      ]
+    },
+    {
+      "brand": "Franck Muller",
+      "collection": "Vanguard",
+      "reference": "V45",
+      "path": "/collections/franck-muller/vanguard/v45",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Franck Muller reference source",
+          "url": "https://www.franckmuller.com/vanguard"
+        }
+      ]
+    },
+    {
+      "brand": "Franck Muller",
+      "collection": "Vanguard",
+      "reference": "V 45 T BR (TT)",
+      "path": "/collections/franck-muller/vanguard/v-45-t-br-tt",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Franck Muller reference source",
+          "url": "https://www.franckmuller.com/vanguard"
+        }
+      ]
+    },
+    {
+      "brand": "Bell & Ross",
+      "collection": "BR 03",
+      "reference": "BR0392-BL-CE",
+      "path": "/collections/bell-and-ross/br-03/br0392-bl-ce",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Bell & Ross reference source",
+          "url": "https://bellross.com/en-us/products/br-03-92-black-matte"
+        }
+      ]
+    },
+    {
+      "brand": "A. Lange & Söhne",
+      "collection": "Lange 1",
+      "reference": "191-032",
+      "path": "/collections/a-lange-and-sohne/lange-1/191-032",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "A. Lange & Söhne reference source",
+          "url": "https://www.alange-soehne.com/gb-en/timepieces/lange-1/lange-1/lange-1-in-750-pink-gold-191-032"
+        }
+      ]
+    },
+    {
+      "brand": "Breguet",
+      "collection": "Classique",
+      "reference": "5177",
+      "path": "/collections/breguet/classique/5177",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Breguet reference source",
+          "url": "https://www.breguet.com/en/watches/classique/classique-5177/5177bb299v6?language_content_entity=en"
+        }
+      ]
+    },
+    {
+      "brand": "Girard-Perregaux",
+      "collection": "Laureato",
+      "reference": "81010-11-431-11A",
+      "path": "/collections/girard-perregaux/laureato/81010-11-431-11a",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Girard-Perregaux reference source",
+          "url": "https://www.girard-perregaux.com/en-us/watches/laureato/81010-11-431-11a"
+        }
+      ]
+    },
+    {
+      "brand": "Zenith",
+      "collection": "Chronomaster Sport",
+      "reference": "03.3100.3600/69.M3100",
+      "path": "/collections/zenith/chronomaster-sport/03-3100-3600-69-m3100",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Reference identity and specifications",
+          "url": "https://www.zenith-watches.com/en_se/product/chronomaster-sport-03-3100-3600-69-m3100"
+        }
+      ]
+    },
+    {
+      "brand": "Omega",
+      "collection": "Seamaster Diver 300M",
+      "reference": "2531.80",
+      "path": "/collections/omega/seamaster/2531-80",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Omega reference source",
+          "url": "https://www.grayandsons.com/w526350-omega-seamaster-41mm-253180/"
+        }
+      ]
+    },
+    {
+      "brand": "Omega",
+      "collection": "Seamaster Diver 300M",
+      "reference": "2220.80",
+      "path": "/collections/omega/seamaster/2220-80",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Omega reference source",
+          "url": "https://www.watchfinder.com/sell-your-watch/enquiry/omega/seamaster-300m/2220-80-00/4657"
+        }
+      ]
+    },
+    {
+      "brand": "Omega",
+      "collection": "Seamaster Diver 300M",
+      "reference": "210.30.42.20.10.001",
+      "path": "/collections/omega/seamaster/210-30-42-20-10-001",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Omega reference source",
+          "url": "https://www.the1916company.com/pre-owned/omega/seamaster/5062379/"
+        }
+      ]
+    },
+    {
+      "brand": "Omega",
+      "collection": "Seamaster Diver 300M",
+      "reference": "210.32.42.20.10.001",
+      "path": "/collections/omega/seamaster/210-32-42-20-10-001",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Omega reference source",
+          "url": "https://sheibanjewelers.com/products/omega-seamaster-diver-300m-42mm-green-ceramic-dial-on-rubber-strap-21032422010001"
+        }
+      ]
+    },
+    {
+      "brand": "Omega",
+      "collection": "Seamaster Diver 300M",
+      "reference": "210.30.42.20.03.002",
+      "path": "/collections/omega/seamaster/210-30-42-20-03-002",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Omega reference source",
+          "url": "https://sheibanjewelers.com/products/omega-seamaster-diver-300m-james-bond-60th-anniversary-edition-21030422003002"
+        }
+      ]
+    },
+    {
+      "brand": "Omega",
+      "collection": "Seamaster Diver 300M",
+      "reference": "210.30.42.20.04.001",
+      "path": "/collections/omega/seamaster/210-30-42-20-04-001",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Omega reference source",
+          "url": "https://sheibanjewelers.com/products/omega-seamaster-diver-300m-42mm-white-dial-on-bracelet-21030422004001"
+        }
+      ]
+    },
+    {
+      "brand": "Omega",
+      "collection": "Seamaster Diver 300M",
+      "reference": "210.32.42.20.03.001",
+      "path": "/collections/omega/seamaster/210-32-42-20-03-001",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Omega reference source",
+          "url": "https://sheibanjewelers.com/products/omega-seamaster-diver-300m-42mm-blue-dial-on-rubber-strap-21032422003001"
+        }
+      ]
+    },
+    {
+      "brand": "Omega",
+      "collection": "Seamaster Diver 300M",
+      "reference": "210.32.42.20.06.002",
+      "path": "/collections/omega/seamaster/210-32-42-20-06-002",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Omega reference source",
+          "url": "https://sheibanjewelers.com/products/omega-seamaster-diver-300m-titanium-bezel-silver-dial-on-rubber-strap-21032422006002"
+        }
+      ]
+    },
+    {
+      "brand": "Omega",
+      "collection": "Seamaster Diver 300M",
+      "reference": "210.32.42.20.04.001",
+      "path": "/collections/omega/seamaster/210-32-42-20-04-001",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Omega reference source",
+          "url": "https://sheibanjewelers.com/products/omega-seamaster-diver-300m-42mm-white-dial-on-rubber-strap-21032422004001"
+        }
+      ]
+    },
+    {
+      "brand": "Omega",
+      "collection": "Seamaster Diver 300M",
+      "reference": "210.30.42.20.03.001",
+      "path": "/collections/omega/seamaster/210-30-42-20-03-001",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Omega reference source",
+          "url": "https://sheibanjewelers.com/products/omega-seamaster-diver-300m-42mm-blue-dial-on-bracelet-21030422003001"
+        }
+      ]
+    },
+    {
+      "brand": "Omega",
+      "collection": "Seamaster Diver 300M",
+      "reference": "210.32.42.20.01.001",
+      "path": "/collections/omega/seamaster/210-32-42-20-01-001",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Omega reference source",
+          "url": "https://sheibanjewelers.com/products/omega-seamaster-diver-300m-black-dial-with-date-on-rubber-strap-21032422001001"
+        }
+      ]
+    },
+    {
+      "brand": "Omega",
+      "collection": "Seamaster Diver 300M",
+      "reference": "210.32.42.20.06.001",
+      "path": "/collections/omega/seamaster/210-32-42-20-06-001",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Omega reference source",
+          "url": "https://sheibanjewelers.com/products/omega-seamaster-diver-300m-blue-bezel-grey-dial-on-rubber-strap-21032422006001"
+        }
+      ]
+    },
+    {
+      "brand": "Omega",
+      "collection": "Seamaster Diver 300M",
+      "reference": "210.90.42.20.01.001",
+      "path": "/collections/omega/seamaster/210-90-42-20-01-001",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Omega reference source",
+          "url": "https://sheibanjewelers.com/products/omega-seamaster-diver-300m-007-edition-brown-dial-on-mesh-bracelet-21090422001001"
+        }
+      ]
+    },
+    {
+      "brand": "Omega",
+      "collection": "Seamaster Diver 300M",
+      "reference": "210.30.42.20.06.001",
+      "path": "/collections/omega/seamaster/210-30-42-20-06-001",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Omega reference source",
+          "url": "https://sheibanjewelers.com/products/omega-seamaster-diver-300m-42mm-blue-bezel-grey-dial-on-bracelet-21030422006001"
+        }
+      ]
+    },
+    {
+      "brand": "Omega",
+      "collection": "Seamaster Diver 300M",
+      "reference": "210.32.42.20.01.006",
+      "path": "/collections/omega/seamaster/210-32-42-20-01-006",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Omega reference source",
+          "url": "https://sheibanjewelers.com/products/omega-seamaster-diver-300m-42mm-black-orange-accent-dial-on-rubber-21032422001006"
+        }
+      ]
+    },
+    {
+      "brand": "Omega",
+      "collection": "Seamaster Diver 300M",
+      "reference": "210.32.42.20.03.002",
+      "path": "/collections/omega/seamaster/210-32-42-20-03-002",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Omega reference source",
+          "url": "https://sheibanjewelers.com/products/omega-seamaster-diver-300m-42mm-blue-gradient-dial-on-rubber-strap-21032422003002"
+        }
+      ]
+    },
+    {
+      "brand": "Omega",
+      "collection": "Seamaster Diver 300M",
+      "reference": "210.92.42.20.01.001",
+      "path": "/collections/omega/seamaster/210-92-42-20-01-001",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Omega reference source",
+          "url": "https://sheibanjewelers.com/products/omega-seamaster-diver-300m-007-edition-brown-dial-on-fabric-strap-21092422001001"
+        }
+      ]
+    },
+    {
+      "brand": "Omega",
+      "collection": "Seamaster Diver 300M",
+      "reference": "522.92.44.20.04.002",
+      "path": "/collections/omega/seamaster/522-92-44-20-04-002",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Omega reference source",
+          "url": "https://zadok.com/products/omega-seamasterdiver-300m-522-92-44-20-04-002"
+        }
+      ]
+    },
+    {
+      "brand": "Omega",
+      "collection": "Seamaster Diver 300M",
+      "reference": "210.30.42.20.03.003",
+      "path": "/collections/omega/seamaster/210-30-42-20-03-003",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Omega reference source",
+          "url": "https://zadok.com/products/omega-seamaster-diver-300m-21030422003003"
+        }
+      ]
+    },
+    {
+      "brand": "Omega",
+      "collection": "Seamaster Diver 300M",
+      "reference": "210.20.42.20.03.002",
+      "path": "/collections/omega/seamaster/210-20-42-20-03-002",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Omega reference source",
+          "url": "https://www.uhrinstinkt.de/products/omega-seamaster-diver-300-m-co-axial-master-chronometer-42-mm-210-20-42-20-03-002"
+        }
+      ]
+    },
+    {
+      "brand": "Omega",
+      "collection": "Seamaster Diver 300M",
+      "reference": "210.22.42.20.03.002",
+      "path": "/collections/omega/seamaster/210-22-42-20-03-002",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Omega reference source",
+          "url": "https://www.uhrinstinkt.de/en/products/omega-seamaster-diver-300-m-co-axial-master-chronometer-42-mm-210-22-42-20-03-002"
+        }
+      ]
+    },
+    {
+      "brand": "Omega",
+      "collection": "Seamaster Diver 300M",
+      "reference": "210.22.42.20.01.002",
+      "path": "/collections/omega/seamaster/210-22-42-20-01-002",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Omega reference source",
+          "url": "https://www.uhrinstinkt.de/products/omega-seamaster-diver-300-m-co-axial-master-chronometer-42-mm-210-22-42-20-01-002"
+        }
+      ]
+    },
+    {
+      "brand": "Omega",
+      "collection": "Seamaster Diver 300M",
+      "reference": "210.20.42.20.01.001",
+      "path": "/collections/omega/seamaster/210-20-42-20-01-001",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Omega reference source",
+          "url": "https://www.uhrinstinkt.de/products/omega-seamaster-diver-300-m-co-axial-master-chronometer-42mm-210-20-42-20-01-001"
+        }
+      ]
+    },
+    {
+      "brand": "Omega",
+      "collection": "Seamaster Diver 300M",
+      "reference": "210.62.44.20.01.001",
+      "path": "/collections/omega/seamaster/210-62-44-20-01-001",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Omega reference source",
+          "url": "https://www.omegawatches.com.hk/en-hk/watch-omega-seamaster-diver-300m-co-axial-master-chronometer-43-5-mm-21062442001001"
+        }
+      ]
+    },
+    {
+      "brand": "Omega",
+      "collection": "Seamaster Diver 300M",
+      "reference": "210.62.42.20.03.001",
+      "path": "/collections/omega/seamaster/210-62-42-20-03-001",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Omega reference source",
+          "url": "https://www.jomashop.com/omega-watch-210-62-42-20-03-001.html"
+        }
+      ]
+    },
+    {
+      "brand": "Omega",
+      "collection": "Seamaster Diver 300M",
+      "reference": "522.92.44.20.04.001",
+      "path": "/collections/omega/seamaster/522-92-44-20-04-001",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Omega reference source",
+          "url": "https://www.jomashop.com/omega-seamaster-diver-300m-automatic-chronometer-mens-watch-522-92-44-20-04-001.html"
+        }
+      ]
+    },
+    {
+      "brand": "Omega",
+      "collection": "Seamaster Diver 300M",
+      "reference": "210.30.42.20.01.001",
+      "path": "/collections/omega/seamaster/210-30-42-20-01-001",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Omega reference source",
+          "url": "https://www.omegawatches.com/watch-omega-seamaster-diver-300m-co-axial-master-chronometer-42-mm-21030422001001"
+        }
+      ]
+    },
+    {
+      "brand": "Omega",
+      "collection": "Seamaster Planet Ocean",
+      "reference": "2201.50",
+      "path": "/collections/omega/planet-ocean/2201-50",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Omega reference source",
+          "url": "https://www.watchfinder.com/sell-your-watch/enquiry/omega/planet-ocean/2201-50-00/3266"
+        }
+      ]
+    },
+    {
+      "brand": "Omega",
+      "collection": "Seamaster Planet Ocean",
+      "reference": "232.30.42.21.01.001",
+      "path": "/collections/omega/planet-ocean/232-30-42-21-01-001",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Omega reference source",
+          "url": "https://www.watchfinder.com/sell-your-watch/enquiry/omega/planet-ocean/232-30-42-21-01-001/22503"
+        }
+      ]
+    },
+    {
+      "brand": "Omega",
+      "collection": "Seamaster Planet Ocean",
+      "reference": "215.30.44.21.04.001",
+      "path": "/collections/omega/planet-ocean/215-30-44-21-04-001",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Omega reference source",
+          "url": "https://sheibanjewelers.com/products/omega-seamaster-planet-ocean-43mm-white-dial-on-bracelet-21530442104001"
+        }
+      ]
+    },
+    {
+      "brand": "Omega",
+      "collection": "Seamaster Planet Ocean",
+      "reference": "232.63.42.21.01.001",
+      "path": "/collections/omega/planet-ocean/232-63-42-21-01-001",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Omega reference source",
+          "url": "https://www.watchmaxx.com/omega-watch-232-63-42-21-01-001"
+        }
+      ]
+    },
+    {
+      "brand": "Omega",
+      "collection": "Aqua Terra",
+      "reference": "220.10.41.21.03.001",
+      "path": "/collections/omega/aqua-terra/220-10-41-21-03-001",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": []
+    },
+    {
+      "brand": "Omega",
+      "collection": "Aqua Terra",
+      "reference": "220.12.41.21.03.002",
+      "path": "/collections/omega/aqua-terra/220-12-41-21-03-002",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Omega reference source",
+          "url": "https://sheibanjewelers.com/products/omega-seamaster-aqua-terra-41mm-blue-teak-dial-on-rubber-strap-22012412103002"
+        }
+      ]
+    },
+    {
+      "brand": "Omega",
+      "collection": "Aqua Terra",
+      "reference": "220.10.38.20.03.003",
+      "path": "/collections/omega/aqua-terra/220-10-38-20-03-003",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Omega reference source",
+          "url": "https://sheibanjewelers.com/products/omega-seamaster-aqua-terra-38mm-atlantic-blue-dial-on-bracelet-22010382003003"
+        }
+      ]
+    },
+    {
+      "brand": "Omega",
+      "collection": "Aqua Terra",
+      "reference": "220.10.38.20.13.003",
+      "path": "/collections/omega/aqua-terra/220-10-38-20-13-003",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Omega reference source",
+          "url": "https://sheibanjewelers.com/products/omega-seamaster-aqua-terra-38mm-orange-terracotta-dial-on-bracelet-22010382013003"
+        }
+      ]
+    },
+    {
+      "brand": "Omega",
+      "collection": "Aqua Terra",
+      "reference": "220.10.41.21.03.006",
+      "path": "/collections/omega/aqua-terra/220-10-41-21-03-006",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Omega reference source",
+          "url": "https://sheibanjewelers.com/products/omega-seamaster-aqua-terra-41mm-turquoise-dial-on-bracelet-22010412103006"
+        }
+      ]
+    },
+    {
+      "brand": "Omega",
+      "collection": "Aqua Terra",
+      "reference": "220.10.41.21.01.002",
+      "path": "/collections/omega/aqua-terra/220-10-41-21-01-002",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Omega reference source",
+          "url": "https://sheibanjewelers.com/products/omega-seamaster-aqua-terra-41mm-black-lacquer-dial-on-bracelet-22010412101002"
+        }
+      ]
+    },
+    {
+      "brand": "Omega",
+      "collection": "Aqua Terra",
+      "reference": "220.10.41.21.03.004",
+      "path": "/collections/omega/aqua-terra/220-10-41-21-03-004",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Omega reference source",
+          "url": "https://sheibanjewelers.com/products/omega-seamaster-aqua-terra-41mm-blue-teak-dial-on-bracelet-22010412103004"
+        }
+      ]
+    },
+    {
+      "brand": "Omega",
+      "collection": "Aqua Terra",
+      "reference": "220.10.30.20.60.001",
+      "path": "/collections/omega/aqua-terra/220-10-30-20-60-001",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Omega reference source",
+          "url": "https://zadok.com/products/omega-seamaster-aqua-terra-150m-220-10-30-20-60-001"
+        }
+      ]
+    },
+    {
+      "brand": "Omega",
+      "collection": "Aqua Terra",
+      "reference": "220.50.38.20.03.001",
+      "path": "/collections/omega/aqua-terra/220-50-38-20-03-001",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Omega reference source",
+          "url": "https://www.juwelier-cwm.de/produkte/omega-22050382003001"
+        }
+      ]
+    },
+    {
+      "brand": "Omega",
+      "collection": "Aqua Terra",
+      "reference": "220.20.30.20.10.002",
+      "path": "/collections/omega/aqua-terra/220-20-30-20-10-002",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Omega reference source",
+          "url": "https://juwelier-boehnlein.de/produkt/omega-seamaster-aqua-terra-o22020302010002/"
+        }
+      ]
+    },
+    {
+      "brand": "Omega",
+      "collection": "Aqua Terra",
+      "reference": "220.10.30.20.09.001",
+      "path": "/collections/omega/aqua-terra/220-10-30-20-09-001",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Omega reference source",
+          "url": "https://www.cjcharles.com/collections/omega/products/seamaster-aqua-terra-150m-30-mm-220-10-30-20-09-001"
+        }
+      ]
+    },
+    {
+      "brand": "Omega",
+      "collection": "Aqua Terra",
+      "reference": "220.53.38.20.10.001",
+      "path": "/collections/omega/aqua-terra/220-53-38-20-10-001",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Omega reference source",
+          "url": "https://kenjo.net/products/220-53-38-20-10-001"
+        }
+      ]
+    },
+    {
+      "brand": "Audemars Piguet",
+      "collection": "Royal Oak Jumbo",
+      "reference": "15202ST",
+      "path": "/collections/audemars-piguet/royal-oak-jumbo/15202st",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Audemars Piguet reference source",
+          "url": "https://www.watchfinder.com/sell-your-watch/enquiry/audemars-piguet/royal-oak/15202st-oo-1240st-01/26429"
+        }
+      ]
+    },
+    {
+      "brand": "Audemars Piguet",
+      "collection": "Royal Oak Jumbo",
+      "reference": "16202ST",
+      "path": "/collections/audemars-piguet/royal-oak-jumbo/16202st",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Audemars Piguet reference source",
+          "url": "https://wristaficionado.com/products/audemars-piguet-royal-oak-16202st-oo-1240st-02-jumbo-extra-thin-stainless-steel-blue-dial-2025"
+        }
+      ]
+    },
+    {
+      "brand": "Audemars Piguet",
+      "collection": "Royal Oak Chronograph",
+      "reference": "26331ST",
+      "path": "/collections/audemars-piguet/royal-oak-chronograph/26331st",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Audemars Piguet reference source",
+          "url": "https://www.the1916company.com/pre-owned/audemars-piguet/royal-oak/5070670/"
+        }
+      ]
+    },
+    {
+      "brand": "Audemars Piguet",
+      "collection": "Royal Oak Chronograph",
+      "reference": "26240ST",
+      "path": "/collections/audemars-piguet/royal-oak-chronograph/26240st",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Audemars Piguet reference source",
+          "url": "https://www.the1916company.com/pre-owned/audemars-piguet/royal-oak/5053685/"
+        }
+      ]
+    },
+    {
+      "brand": "Audemars Piguet",
+      "collection": "Offshore Diver",
+      "reference": "15710ST",
+      "path": "/collections/audemars-piguet/offshore-diver/15710st",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Audemars Piguet reference source",
+          "url": "https://www.audemarspiguet.com/us/en/watch-collection/royal-oak-offshore/15710ST.OO.A002CA.01"
+        }
+      ]
+    },
+    {
+      "brand": "Audemars Piguet",
+      "collection": "Offshore Diver",
+      "reference": "15720ST",
+      "path": "/collections/audemars-piguet/offshore-diver/15720st",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Audemars Piguet reference source",
+          "url": "https://www.audemarspiguet.com/en/watch-collection/royal-oak-offshore/15720ST.OO.A027CA.01"
+        }
+      ]
+    },
+    {
+      "brand": "Audemars Piguet",
+      "collection": "Code 11.59",
+      "reference": "Code 11.59 Selfwinding",
+      "path": "/collections/audemars-piguet/code-1159/code-11-59-selfwinding",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Audemars Piguet reference source",
+          "url": "https://www.the1916company.com/pre-owned/audemars-piguet/code-11-59/5079111/"
+        }
+      ]
+    },
+    {
+      "brand": "Audemars Piguet",
+      "collection": "Code 11.59",
+      "reference": "Code 11.59 Chronograph",
+      "path": "/collections/audemars-piguet/code-1159/code-11-59-chronograph",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Audemars Piguet reference source",
+          "url": "https://www.the1916company.com/pre-owned/audemars-piguet/code-11-59/5058465/"
+        }
+      ]
+    },
+    {
+      "brand": "Audemars Piguet",
+      "collection": "Code 11.59",
+      "reference": "26393BC.OO.A321CR.01",
+      "path": "/collections/audemars-piguet/code-1159/26393bc-oo-a321cr-01",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Audemars Piguet reference source",
+          "url": "https://www.audemarspiguet.com/com/en/watch-collection/code-1159/26393BC.OO.A321CR.01.html"
+        }
+      ]
+    },
+    {
+      "brand": "Cartier",
+      "collection": "Tank",
+      "reference": "Tank Louis Cartier",
+      "path": "/collections/cartier/tank/tank-louis-cartier",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Cartier reference source",
+          "url": "https://www.the1916company.com/watches/cartier/tank/wgta0342/"
+        }
+      ]
+    },
+    {
+      "brand": "Cartier",
+      "collection": "Tank",
+      "reference": "Tank Must",
+      "path": "/collections/cartier/tank/tank-must",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Cartier reference source",
+          "url": "https://www.the1916company.com/watches/cartier/tank/wsta0106/"
+        }
+      ]
+    },
+    {
+      "brand": "Cartier",
+      "collection": "Ballon Bleu",
+      "reference": "Ballon Bleu 40 mm",
+      "path": "/collections/cartier/ballon-bleu/ballon-bleu-40-mm",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Cartier reference source",
+          "url": "https://www.the1916company.com/watches/cartier/ballon-bleu/wsbb0061/"
+        }
+      ]
+    },
+    {
+      "brand": "Cartier",
+      "collection": "Ballon Bleu",
+      "reference": "Ballon Bleu 42 mm",
+      "path": "/collections/cartier/ballon-bleu/ballon-bleu-42-mm",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Cartier reference source",
+          "url": "https://www.the1916company.com/pre-owned/cartier/ballon-bleu/ballon-bleu-w6920042/"
+        }
+      ]
+    },
+    {
+      "brand": "Cartier",
+      "collection": "Pasha",
+      "reference": "Pasha de Cartier 41 mm",
+      "path": "/collections/cartier/pasha/pasha-de-cartier-41-mm",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Cartier reference source",
+          "url": "https://www.the1916company.com/pre-owned/cartier/pasha/pasha-wspa0038/"
+        }
+      ]
+    },
+    {
+      "brand": "Cartier",
+      "collection": "Pasha",
+      "reference": "Pasha Chronograph 41 mm",
+      "path": "/collections/cartier/pasha/pasha-chronograph-41-mm",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Cartier reference source",
+          "url": "https://www.the1916company.com/pre-owned/cartier/pasha/pasha-wgpa0017/"
+        }
+      ]
+    },
+    {
+      "brand": "Patek Philippe",
+      "collection": "Calatrava",
+      "reference": "5196",
+      "path": "/collections/patek-philippe/calatrava/5196",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Patek Philippe reference source",
+          "url": "https://www.the1916company.com/pre-owned/patek-philippe/calatrava/5066480/"
+        }
+      ]
+    },
+    {
+      "brand": "Patek Philippe",
+      "collection": "Calatrava",
+      "reference": "6119",
+      "path": "/collections/patek-philippe/calatrava/6119",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Patek Philippe reference source",
+          "url": "https://www.patek.com/en/collection/calatrava/6119G-001"
+        }
+      ]
+    },
+    {
+      "brand": "Patek Philippe",
+      "collection": "Calatrava",
+      "reference": "5227",
+      "path": "/collections/patek-philippe/calatrava/5227",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Patek Philippe reference source",
+          "url": "https://www.patek.com/en/collection/calatrava/5227G-010"
+        }
+      ]
+    },
+    {
+      "brand": "Patek Philippe",
+      "collection": "Cubitus",
+      "reference": "Cubitus Time-Only",
+      "path": "/collections/patek-philippe/cubitus/cubitus-time-only",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Patek Philippe reference source",
+          "url": "https://www.patek.com/en/collection/cubitus/5821-1a-001"
+        }
+      ]
+    },
+    {
+      "brand": "Patek Philippe",
+      "collection": "Cubitus",
+      "reference": "Cubitus Grand Date",
+      "path": "/collections/patek-philippe/cubitus/cubitus-grand-date",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Patek Philippe reference source",
+          "url": "https://www.patek.com/en/collection/cubitus/5822P-001"
+        }
+      ]
+    },
+    {
+      "brand": "Panerai",
+      "collection": "Submersible",
+      "reference": "PAM00683",
+      "path": "/collections/panerai/submersible/pam00683",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Panerai reference source",
+          "url": "https://www.watchfinder.com/sell-your-watch/enquiry/panerai/submersible/pam00683/42373"
+        }
+      ]
+    },
+    {
+      "brand": "Panerai",
+      "collection": "Submersible",
+      "reference": "PAM01305",
+      "path": "/collections/panerai/submersible/pam01305",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Panerai reference source",
+          "url": "https://www.watchfinder.com/sell-your-watch/enquiry/panerai/submersible/pam01305/35102"
+        }
+      ]
+    },
+    {
+      "brand": "Panerai",
+      "collection": "Submersible",
+      "reference": "PAM01616",
+      "path": "/collections/panerai/submersible/pam01616",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Panerai reference source",
+          "url": "https://www.watchfinder.com/sell-your-watch/enquiry/panerai/submersible/pam01616/40277"
+        }
+      ]
+    },
+    {
+      "brand": "Tudor",
+      "collection": "Royal",
+      "reference": "Tudor Royal 38 mm",
+      "path": "/collections/tudor/royal/tudor-royal-38-mm",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Tudor reference source",
+          "url": "https://www.the1916company.com/watches/tudor/tudor-royal/tudor-royal-m28500-0006/"
+        }
+      ]
+    },
+    {
+      "brand": "Tudor",
+      "collection": "Royal",
+      "reference": "Tudor Royal 41 mm",
+      "path": "/collections/tudor/royal/tudor-royal-41-mm",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Tudor reference source",
+          "url": "https://www.watchfinder.com/sell-your-watch/enquiry/tudor/royal/m28600-0005/48693"
+        }
+      ]
+    },
+    {
+      "brand": "Tudor",
+      "collection": "Prince",
+      "reference": "Prince Date",
+      "path": "/collections/tudor/prince/prince-date",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Tudor reference source",
+          "url": "https://www.watchfinder.com/sell-your-watch/enquiry/tudor/prince-date/74000/25516"
+        }
+      ]
+    },
+    {
+      "brand": "Tudor",
+      "collection": "Prince",
+      "reference": "Prince Chronograph",
+      "path": "/collections/tudor/prince/prince-chronograph",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Tudor reference source",
+          "url": "https://www.watchfinder.com/watches/tudor/prince-date/79280/394025"
+        }
+      ]
+    },
+    {
+      "brand": "Ulysse Nardin",
+      "collection": "Marine",
+      "reference": "Marine Chronometer",
+      "path": "/collections/ulysse-nardin/marine/marine-chronometer",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Ulysse Nardin reference source",
+          "url": "https://www.watchfinder.com/watches/ulysse-nardin/marine-chronometer/1183-126-7m-42/413461"
+        }
+      ]
+    },
+    {
+      "brand": "Ulysse Nardin",
+      "collection": "Marine",
+      "reference": "Marine Torpilleur",
+      "path": "/collections/ulysse-nardin/marine/marine-torpilleur",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Ulysse Nardin reference source",
+          "url": "https://www.ulysse-nardin.com/en-gb/watches/marine/1183-310-0a-0a"
+        }
+      ]
+    },
+    {
+      "brand": "Ulysse Nardin",
+      "collection": "Marine",
+      "reference": "1506-150LE-3/63-VB",
+      "path": "/collections/ulysse-nardin/marine/1506-150le-3-63-vb",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Ulysse Nardin reference source",
+          "url": "https://www.prestigetime.com/Ulysse-Nardin-Marine-Chronograph-Manufacture-43mm-1506-150LE-3-63-vb-VOYAGE-BLEU.html"
+        }
+      ]
+    },
+    {
+      "brand": "Ulysse Nardin",
+      "collection": "Marine",
+      "reference": "266-67",
+      "path": "/collections/ulysse-nardin/marine/266-67",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Ulysse Nardin reference source",
+          "url": "https://www.prestigetime.com/Ulysse-Nardin-Maxi-Marine-Chronometer-43mm-266-67-3-43.html"
+        }
+      ]
+    },
+    {
+      "brand": "Ulysse Nardin",
+      "collection": "Marine",
+      "reference": "1183-310/40",
+      "path": "/collections/ulysse-nardin/marine/1183-310-40",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Ulysse Nardin reference source",
+          "url": "https://www.ulysse-nardin.com/en-us/watches/marine/1183-310-40"
+        }
+      ]
+    },
+    {
+      "brand": "Ulysse Nardin",
+      "collection": "Marine",
+      "reference": "1183-310-3A/0A",
+      "path": "/collections/ulysse-nardin/marine/1183-310-3a-0a",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Ulysse Nardin reference source",
+          "url": "https://www.ulysse-nardin.com/en-us/watches/marine/1183-310-3a-0a"
+        }
+      ]
+    },
+    {
+      "brand": "Ulysse Nardin",
+      "collection": "Marine",
+      "reference": "1183-310-3/40",
+      "path": "/collections/ulysse-nardin/marine/1183-310-3-40",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Ulysse Nardin reference source",
+          "url": "https://www.ulysse-nardin.com/en-us/watches/marine/1183-310-3-40"
+        }
+      ]
+    },
+    {
+      "brand": "Ulysse Nardin",
+      "collection": "Diver",
+      "reference": "Diver Chronograph",
+      "path": "/collections/ulysse-nardin/diver/diver-chronograph",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Ulysse Nardin reference source",
+          "url": "https://www.ulysse-nardin.com/watches/diver/1503-170le-2a-tor-3a"
+        }
+      ]
+    },
+    {
+      "brand": "Ulysse Nardin",
+      "collection": "Diver",
+      "reference": "Diver X Skeleton",
+      "path": "/collections/ulysse-nardin/diver/diver-x-skeleton",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Ulysse Nardin reference source",
+          "url": "https://www.ulysse-nardin.com/watches/diver/3723-170-2b-3a"
+        }
+      ]
+    },
+    {
+      "brand": "Ulysse Nardin",
+      "collection": "Diver",
+      "reference": "Maxi Marine Diver",
+      "path": "/collections/ulysse-nardin/diver/maxi-marine-diver",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Ulysse Nardin reference source",
+          "url": "https://www.prestigetime.com/Ulysse-Nardin-Maxi-Marine-Diver-44mm-266-10-3-92.html"
+        }
+      ]
+    },
+    {
+      "brand": "Ulysse Nardin",
+      "collection": "Diver",
+      "reference": "1502-151-3/93",
+      "path": "/collections/ulysse-nardin/diver/1502-151-3-93",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Ulysse Nardin reference source",
+          "url": "https://www.timepiecetrader.com/luxury-watches-brands/ulysse-nardin-marine-diver-chronograph-manufacture-mens-watch-44mm-1502-151-393/"
+        }
+      ]
+    },
+    {
+      "brand": "Ulysse Nardin",
+      "collection": "Diver",
+      "reference": "266-10-3/92",
+      "path": "/collections/ulysse-nardin/diver/266-10-3-92",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Ulysse Nardin reference source",
+          "url": "https://www.prestigetime.com/Ulysse-Nardin-Maxi-Marine-Diver-44mm-266-10-3-92.html"
+        }
+      ]
+    },
+    {
+      "brand": "Ulysse Nardin",
+      "collection": "Diver",
+      "reference": "265-90-3c/93",
+      "path": "/collections/ulysse-nardin/diver/265-90-3c-93",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Ulysse Nardin reference source",
+          "url": "https://www.prestigetime.com/Ulysse-Nardin-Maxi-Marine-Diver-Titanium-45mm-265-90-3c-93.html"
+        }
+      ]
+    },
+    {
+      "brand": "Ulysse Nardin",
+      "collection": "Diver",
+      "reference": "1183-170-7M/92",
+      "path": "/collections/ulysse-nardin/diver/1183-170-7m-92",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Ulysse Nardin reference source",
+          "url": "https://www.ulysse-nardin.com/en-sg/watches/diver/1183-170-7m-92"
+        }
+      ]
+    },
+    {
+      "brand": "Ulysse Nardin",
+      "collection": "Diver",
+      "reference": "1183-170-3/93",
+      "path": "/collections/ulysse-nardin/diver/1183-170-3-93",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Ulysse Nardin reference source",
+          "url": "https://www.ulysse-nardin.com/en-us/watches/diver/1183-170-3-93"
+        }
+      ]
+    },
+    {
+      "brand": "Ulysse Nardin",
+      "collection": "Diver",
+      "reference": "1183-170-3/92",
+      "path": "/collections/ulysse-nardin/diver/1183-170-3-92",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Ulysse Nardin reference source",
+          "url": "https://www.ulysse-nardin.com/en-gb/watches/diver/1183-170-3-92"
+        }
+      ]
+    },
+    {
+      "brand": "Ulysse Nardin",
+      "collection": "Executive",
+      "reference": "Executive Dual Time",
+      "path": "/collections/ulysse-nardin/executive/executive-dual-time",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Ulysse Nardin reference source",
+          "url": "https://www.ulysse-nardin.com/en-us/watches/blast/243-20-3-43"
+        }
+      ]
+    },
+    {
+      "brand": "Ulysse Nardin",
+      "collection": "Blast",
+      "reference": "Blast",
+      "path": "/collections/ulysse-nardin/blast/blast",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Ulysse Nardin reference source",
+          "url": "https://www.ulysse-nardin.com/en-us/watches/blast/3713-260-3-03"
+        }
+      ]
+    },
+    {
+      "brand": "Ulysse Nardin",
+      "collection": "Blast",
+      "reference": "Blast Tourbillon",
+      "path": "/collections/ulysse-nardin/blast/blast-tourbillon",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Ulysse Nardin reference source",
+          "url": "https://www.ulysse-nardin.com/watches/blast/1725-400-3a-3a"
+        }
+      ]
+    },
+    {
+      "brand": "Ulysse Nardin",
+      "collection": "Blast",
+      "reference": "3713-260-3/03",
+      "path": "/collections/ulysse-nardin/blast/3713-260-3-03",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Ulysse Nardin reference source",
+          "url": "https://www.ulysse-nardin.com/watches/blast/3713-260-3-03"
+        }
+      ]
+    },
+    {
+      "brand": "Ulysse Nardin",
+      "collection": "Moonstruck",
+      "reference": "Moonstruck",
+      "path": "/collections/ulysse-nardin/moonstruck/moonstruck",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Ulysse Nardin reference source",
+          "url": "https://www.ulysse-nardin.com/en-eu/watches/blast/1063-400-2a-3b"
+        }
+      ]
+    },
+    {
+      "brand": "Bell & Ross",
+      "collection": "BR 01",
+      "reference": "BR0192-BL-ST",
+      "path": "/collections/bell-and-ross/br-01/br0192-bl-st",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Bell & Ross reference source",
+          "url": "https://bellross.com/en-us/products/br-01-92-steel"
+        }
+      ]
+    },
+    {
+      "brand": "Bell & Ross",
+      "collection": "BR 01",
+      "reference": "BR0192-COMPASS-CA",
+      "path": "/collections/bell-and-ross/br-01/br0192-compass-ca",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Bell & Ross reference source",
+          "url": "https://bellross.com/en/products/br-01-compass"
+        }
+      ]
+    },
+    {
+      "brand": "Bell & Ross",
+      "collection": "BR 01",
+      "reference": "BR0192-REDRADAR",
+      "path": "/collections/bell-and-ross/br-01/br0192-redradar",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Bell & Ross reference source",
+          "url": "https://www.watchfinder.com/sell-your-watch/enquiry/bell-and-ross/br01-92/red-radar/22836"
+        }
+      ]
+    },
+    {
+      "brand": "Patek Philippe",
+      "collection": "Aquanaut",
+      "reference": "5167A-001",
+      "path": "/collections/patek-philippe/aquanaut/5167a-001",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Patek Philippe official reference",
+          "url": "https://www.patek.com/en/collection/aquanaut/5167A-001"
+        },
+        {
+          "label": "Patek Philippe reference source",
+          "url": "https://www.patek.com/en/collection/aquanaut/5167A-001"
+        }
+      ]
+    },
+    {
+      "brand": "Patek Philippe",
+      "collection": "Aquanaut",
+      "reference": "5167/1A-001",
+      "path": "/collections/patek-philippe/aquanaut/5167-1a-001",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Patek Philippe reference source",
+          "url": "https://static.patek.com/pdf/catalogs/PatekPhilippe_Watch_Art_Tokyo_2023_Catalog_EN.pdf"
+        }
+      ]
+    },
+    {
+      "brand": "Tudor",
+      "collection": "Pelagos",
+      "reference": "M25600TN-0001",
+      "path": "/collections/tudor/pelagos/m25600tn-0001",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Tudor official reference",
+          "url": "https://www.tudorwatch.com/en/watches/pelagos/m25600tn-0001"
+        },
+        {
+          "label": "Tudor reference source",
+          "url": "https://www.tudorwatch.com/en/pressroom/products/pelagos-39"
+        }
+      ]
+    },
+    {
+      "brand": "Tudor",
+      "collection": "Pelagos",
+      "reference": "M25407N-0001",
+      "path": "/collections/tudor/pelagos/m25407n-0001",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Tudor reference source",
+          "url": "https://www.tudorwatch.com/en/watches/pelagos/m25407n-0001"
+        }
+      ]
+    },
+    {
+      "brand": "Breitling",
+      "collection": "Superocean",
+      "reference": "A17376211B1A1",
+      "path": "/collections/breitling/superocean/a17376211b1a1",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Breitling official reference",
+          "url": "https://www.breitling.com/gb-en/watches/superocean/superocean-automatic-44-my22/A17376211B1A1/"
+        },
+        {
+          "label": "Breitling reference source",
+          "url": "https://www.breitling.com/gb-en/watches/superocean/superocean-automatic-44-my22/A17376211B1A1/"
+        }
+      ]
+    },
+    {
+      "brand": "Breitling",
+      "collection": "Superocean",
+      "reference": "A17376211B1S1",
+      "path": "/collections/breitling/superocean/a17376211b1s1",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Breitling official reference",
+          "url": "https://www.breitling.com/tw-en/watches/superocean/superocean-automatic-44-my22/A17376211B1S1/"
+        }
+      ]
+    },
+    {
+      "brand": "Hublot",
+      "collection": "Classic Fusion",
+      "reference": "542.NX.1171.RX",
+      "path": "/collections/hublot/classic-fusion/542-nx-1171-rx",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Hublot official reference",
+          "url": "https://www.hublot.com/en-us/watches/classic-fusion/classic-fusion-titanium-rubber-42-mm"
+        },
+        {
+          "label": "Hublot reference source",
+          "url": "https://www.the1916company.com/watches/hublot/classic-fusion/542.nx.1171.rx/"
+        }
+      ]
+    },
+    {
+      "brand": "Hublot",
+      "collection": "Classic Fusion",
+      "reference": "542.CX.1270.RX.MDM",
+      "path": "/collections/hublot/classic-fusion/542-cx-1270-rx-mdm",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Hublot reference source",
+          "url": "https://www.jw-oomiya.co.jp/products/542-cx-1270-rx-mdm"
+        }
+      ]
+    },
+    {
+      "brand": "Hublot",
+      "collection": "Classic Fusion",
+      "reference": "542.CM.1171.RX",
+      "path": "/collections/hublot/classic-fusion/542-cm-1171-rx",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Hublot reference source",
+          "url": "https://www.watchfinder.co.uk/watches/hublot/classic-fusion/542-cm-1171-rx/421313"
+        }
+      ]
+    },
+    {
+      "brand": "Hublot",
+      "collection": "Aerofusion",
+      "reference": "525.NX.0170.RX",
+      "path": "/collections/hublot/aerofusion/525-nx-0170-rx",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Hublot official reference",
+          "url": "https://www.hublot.com/en-us/watches/classic-fusion/classic-fusion-aerofusion-titanium-45-mm"
+        },
+        {
+          "label": "Hublot reference source",
+          "url": "https://www.the1916company.com/watches/hublot/classic-fusion/525.nx.0170.rx/"
+        }
+      ]
+    },
+    {
+      "brand": "Hublot",
+      "collection": "Big Bang Unico",
+      "reference": "441.NX.1171.RX",
+      "path": "/collections/hublot/big-bang-unico/441-nx-1171-rx",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Hublot official reference",
+          "url": "https://www.hublot.com/fr-fr/watches/big-bang/big-bang-unico-titanium-42-mm"
+        },
+        {
+          "label": "Hublot reference source",
+          "url": "https://www.maier.fr/marques-horlogerie-bijouterie/hublot/montres/big-bang-unico/big-bang-unico-titanium_441-nx-1171-rx"
+        }
+      ]
+    },
+    {
+      "brand": "Hublot",
+      "collection": "Big Bang Unico",
+      "reference": "411.OM.1180.RX",
+      "path": "/collections/hublot/big-bang-unico/411-om-1180-rx",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Hublot reference source",
+          "url": "https://www.prestigetime.com/Hublot-Big-Bang-UNICO-45mm-411-om-1180-rx.html"
+        }
+      ]
+    },
+    {
+      "brand": "Hublot",
+      "collection": "Big Bang Unico",
+      "reference": "411.OX.1180.RX",
+      "path": "/collections/hublot/big-bang-unico/411-ox-1180-rx",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Hublot reference source",
+          "url": "https://www.prestigetime.com/Hublot-Big-Bang-UNICO-45mm-411-ox-1180-rx.html"
+        }
+      ]
+    },
+    {
+      "brand": "Hublot",
+      "collection": "Spirit of Big Bang",
+      "reference": "642.NX.0170.RX",
+      "path": "/collections/hublot/spirit-of-big-bang/642-nx-0170-rx",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Hublot official reference",
+          "url": "https://www.hublot.com/en-us/watches/big-bang/spirit-of-big-bang-titanium-42-mm"
+        },
+        {
+          "label": "Hublot reference source",
+          "url": "https://www.the1916company.com/watches/hublot/spirit-of-big-bang/642.nx.0170.rx/"
+        }
+      ]
+    },
+    {
+      "brand": "Vacheron Constantin",
+      "collection": "Historiques",
+      "reference": "4200H/222A-B934",
+      "path": "/collections/vacheron-constantin/historiques/4200h-222a-b934",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Vacheron Constantin official reference",
+          "url": "https://www.vacheron-constantin.com/hk/en/collections/historiques/4200h-222a-b934.html"
+        },
+        {
+          "label": "Vacheron Constantin reference source",
+          "url": "https://wristaficionado.com/products/vacheron-constantin-historiques-222-4200h-222a-b934-stainless-steel-blue-dial-2025"
+        }
+      ]
+    },
+    {
+      "brand": "Vacheron Constantin",
+      "collection": "Traditionnelle",
+      "reference": "82172/000R-9382",
+      "path": "/collections/vacheron-constantin/traditionnelle/82172-000r-9382",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Vacheron Constantin official reference",
+          "url": "https://www.vacheron-constantin.com/us/en/collections/traditionnelle/82172-000r-9382.html"
+        },
+        {
+          "label": "Vacheron Constantin reference source",
+          "url": "https://www.watches-of-switzerland.co.uk/Vacheron-Constantin-Traditionnelle-Watch-82172/000R%2B9382/p/17510052"
+        }
+      ]
+    },
+    {
+      "brand": "Vacheron Constantin",
+      "collection": "Traditionnelle",
+      "reference": "6000T/000P-H025",
+      "path": "/collections/vacheron-constantin/traditionnelle/6000t-000p-h025",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Vacheron Constantin reference source",
+          "url": "https://www.vacheron-constantin.com/ww/de/collections/traditionnelle/6000t-000p-h025.html"
+        }
+      ]
+    },
+    {
+      "brand": "Vacheron Constantin",
+      "collection": "American 1921",
+      "reference": "82035/000R-H114",
+      "path": "/collections/vacheron-constantin/american-1921/82035-000r-h114",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Vacheron Constantin official reference",
+          "url": "https://www.vacheron-constantin.com/us/en/collections/historiques/82035-000r-h114.html"
+        },
+        {
+          "label": "Vacheron Constantin reference source",
+          "url": "https://www.watchswiss.com/brands/vacheron-constantin/historiques-collection/american-1921-82035-000r-h114/"
+        }
+      ]
+    },
+    {
+      "brand": "Tudor",
+      "collection": "Black Bay Chrono",
+      "reference": "M79360N-0024",
+      "path": "/collections/tudor/black-bay-chrono/m79360n-0024",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Tudor official reference",
+          "url": "https://www.tudorwatch.com/en/watches/black-bay-chrono/m79360n-0024"
+        },
+        {
+          "label": "Tudor reference source",
+          "url": "https://www.watchfinder.com/watches/tudor/black-bay-chrono/m79360n-0024/340031"
+        }
+      ]
+    },
+    {
+      "brand": "Tudor",
+      "collection": "Black Bay Chrono",
+      "reference": "M79360N-0019",
+      "path": "/collections/tudor/black-bay-chrono/m79360n-0019",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Tudor official reference",
+          "url": "https://www.tudorwatch.com/en/watches/black-bay-chrono/m79360n-0019"
+        },
+        {
+          "label": "Tudor reference source",
+          "url": "https://www.watchfinder.com/watches/tudor/black-bay-chrono/m79360n-0019/349444"
+        }
+      ]
+    },
+    {
+      "brand": "Franck Muller",
+      "collection": "Rabbit",
+      "reference": "V 41 SC DT FR2 GFGRNR (NR)",
+      "path": "/collections/franck-muller/rabbit/v-41-sc-dt-fr2-gfgrnr-nr",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Cortina Watch collaboration reference",
+          "url": "https://www.cortinawatch.com/en/franck-muller/limited-edition/v-41-sc-dt-fr2-gfgrnr-nr/"
+        },
+        {
+          "label": "Franck Muller reference source",
+          "url": "https://www.cortinawatch.com/en/franck-muller/limited-edition/v-41-sc-dt-fr2-gfgrnr-nr/"
+        }
+      ]
+    },
+    {
+      "brand": "Franck Muller",
+      "collection": "Crazy Hours",
+      "reference": "8880CHACLB",
+      "path": "/collections/franck-muller/crazy-hours/8880chaclb",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Franck Muller official reference",
+          "url": "https://franckmuller-usa.com/cintree_curvex_men_crazy_hours/8880CHACLB_Cintr%C3%A9e_Curvex_Crazy_Hours"
+        },
+        {
+          "label": "Franck Muller reference source",
+          "url": "https://franckmuller-usa.com/cintree_curvex_men_crazy_hours/8880CHACLB_Cintr%C3%A9e_Curvex_Crazy_Hours"
+        }
+      ]
+    },
+    {
+      "brand": "Franck Muller",
+      "collection": "Yachting",
+      "reference": "V45SCYACHTACBL",
+      "path": "/collections/franck-muller/yachting/v45scyachtacbl",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Franck Muller official reference",
+          "url": "https://franckmuller-usa.com/vanguard_yachting/V45SCYACHTACBL_Vanguard_Yachting"
+        }
+      ]
+    },
+    {
+      "brand": "Franck Muller",
+      "collection": "Yachting",
+      "reference": "V 45 SC DT YACHT CR BL (BL)",
+      "path": "/collections/franck-muller/yachting/v-45-sc-dt-yacht-cr-bl-bl",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Franck Muller official reference",
+          "url": "https://www.franckmuller.com/fr/vanguard-yachting-ceramic"
+        },
+        {
+          "label": "Franck Muller reference source",
+          "url": "https://www.franckmuller.com/vanguard"
+        }
+      ]
+    },
+    {
+      "brand": "Jaeger-LeCoultre",
+      "collection": "Master Control",
+      "reference": "Q4018421",
+      "path": "/collections/jaeger-lecoultre/master-control/q4018421",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Jaeger-LeCoultre official reference",
+          "url": "https://www.jaeger-lecoultre.com/us-en/watches/master-control/master-control-date-stainless-steel-q4018421"
+        },
+        {
+          "label": "Jaeger-LeCoultre reference source",
+          "url": "https://www.jaeger-lecoultre.com/us-en/watches/master-control/master-control-date-stainless-steel-q4018421"
+        }
+      ]
+    },
+    {
+      "brand": "Jaeger-LeCoultre",
+      "collection": "Master Grande Tradition",
+      "reference": "Q52334E1",
+      "path": "/collections/jaeger-lecoultre/master-grande-tradition/q52334e1",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Jaeger-LeCoultre official reference",
+          "url": "https://www.jaeger-lecoultre.com/us-en/watches/master-grande-tradition/master-grande-tradition-calibre-950-white-gold-q52334e1"
+        },
+        {
+          "label": "Jaeger-LeCoultre reference source",
+          "url": "https://www.jaeger-lecoultre.com/us-en/watches/master-grande-tradition/master-grande-tradition-calibre-950-white-gold-q52334e1"
+        }
+      ]
+    },
+    {
+      "brand": "Zenith",
+      "collection": "DEFY Skyline",
+      "reference": "03.9300.3620/51.I001",
+      "path": "/collections/zenith/defy-skyline/03-9300-3620-51-i001",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Reference identity and specifications",
+          "url": "https://www.zenith-watches.com/en_no/product/defy-skyline-03-9300-3620-51-i001"
+        },
+        {
+          "label": "Zenith reference source",
+          "url": "https://www.the1916company.com/watches/zenith/defy/defy-039300362051i001/"
+        }
+      ]
+    },
+    {
+      "brand": "Zenith",
+      "collection": "DEFY Skyline",
+      "reference": "03.9300.3620/79.I001",
+      "path": "/collections/zenith/defy-skyline/03-9300-3620-79-i001",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Reference identity and specifications",
+          "url": "https://www.zenith-watches.com/int/product/defy-skyline-03-9300-3620-79-i001"
+        },
+        {
+          "label": "Zenith reference source",
+          "url": "https://www.the1916company.com/watches/zenith/defy/039300362079i001/"
+        }
+      ]
+    },
+    {
+      "brand": "Zenith",
+      "collection": "DEFY Skyline",
+      "reference": "03.9300.3620/15.I001",
+      "path": "/collections/zenith/defy-skyline/03-9300-3620-15-i001",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Reference identity and specifications",
+          "url": "https://www.zenith-watches.com/int/product/defy-skyline-03-9300-3620-15-i001"
+        },
+        {
+          "label": "Zenith reference source",
+          "url": "https://www.jw-oomiya.co.jp/products/03-9300-3620-15-i001"
+        }
+      ]
+    },
+    {
+      "brand": "IWC",
+      "collection": "Ingenieur",
+      "reference": "IW328901",
+      "path": "/collections/iwc/ingenieur/iw328901",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Reference identity and specifications",
+          "url": "https://www.iwc.com/us-en/watches/ingenieur/iw328901-ingenieur-automatic-40"
+        },
+        {
+          "label": "IWC reference source",
+          "url": "https://www.jw-oomiya.co.jp/products/iw328901"
+        }
+      ]
+    },
+    {
+      "brand": "IWC",
+      "collection": "Pilot's Watches",
+      "reference": "IW388101",
+      "path": "/collections/iwc/pilots-watches/iw388101",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Reference identity and specifications",
+          "url": "https://www.iwc.com/us-en/watches/pilot-watches/iw388101-pilots-watch-chronograph-41"
+        },
+        {
+          "label": "IWC reference source",
+          "url": "https://www.jw-oomiya.co.jp/products/iw388101"
+        }
+      ]
+    },
+    {
+      "brand": "IWC",
+      "collection": "Portugieser",
+      "reference": "IW371615",
+      "path": "/collections/iwc/portugieser/iw371615",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Reference identity and specifications",
+          "url": "https://www.iwc.com/us-en/watches/portugieser/iw371615-portugieser-chronograph"
+        },
+        {
+          "label": "IWC reference source",
+          "url": "https://www.jw-oomiya.co.jp/products/iw371615"
+        }
+      ]
+    },
+    {
+      "brand": "IWC",
+      "collection": "Portugieser",
+      "reference": "IW371617",
+      "path": "/collections/iwc/portugieser/iw371617",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Reference identity and specifications",
+          "url": "https://www.iwc.com/us-en/watches/portugieser/iw371617-portugieser-chronograph"
+        },
+        {
+          "label": "IWC reference source",
+          "url": "https://www.jw-oomiya.co.jp/products/iw371617"
+        }
+      ]
+    },
+    {
+      "brand": "IWC",
+      "collection": "Portugieser",
+      "reference": "IW545801",
+      "path": "/collections/iwc/portugieser/iw545801",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Reference identity and specifications",
+          "url": "https://www.iwc.com/us-en/watches/portugieser/iw545801-portugieser-hand-wound-tourbillon"
+        },
+        {
+          "label": "IWC reference source",
+          "url": "https://www.iwc.com/us-en/watches/portugieser/iw545801-portugieser-hand-wound-tourbillon"
+        }
+      ]
+    },
+    {
+      "brand": "IWC",
+      "collection": "Portugieser",
+      "reference": "IW545901",
+      "path": "/collections/iwc/portugieser/iw545901",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Reference identity and specifications",
+          "url": "https://press.iwc.com/iwc-portugieser-hand-wound-tourbillon-day-and-night-en/"
+        },
+        {
+          "label": "IWC reference source",
+          "url": "https://press.iwc.com/es/iwc-portugieser-hand-wound-tourbillon-day-and-night-es/"
+        }
+      ]
+    },
+    {
+      "brand": "IWC",
+      "collection": "Portofino",
+      "reference": "IW356527",
+      "path": "/collections/iwc/portofino/iw356527",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Reference identity and specifications",
+          "url": "https://www.iwc.com/us-en/watches/portofino/iw356527-portofino-automatic"
+        },
+        {
+          "label": "IWC reference source",
+          "url": "https://www.jw-oomiya.co.jp/products/iw356527"
+        }
+      ]
+    },
+    {
+      "brand": "IWC",
+      "collection": "Aquatimer",
+      "reference": "IW328801",
+      "path": "/collections/iwc/aquatimer/iw328801",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Reference identity and specifications",
+          "url": "https://www.iwc.com/us-en/watches/aquatimer/iw328801-aquatimer-automatic"
+        },
+        {
+          "label": "IWC reference source",
+          "url": "https://www.jw-oomiya.co.jp/products/iw328801"
+        }
+      ]
+    },
+    {
+      "brand": "Breitling",
+      "collection": "Superocean Heritage",
+      "reference": "AB2010121B1S1",
+      "path": "/collections/breitling/superocean-heritage/ab2010121b1s1",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Reference identity and specifications",
+          "url": "https://www.breitling.com/xk-en/watches/superocean-heritage/superocean-heritage-b20-automatic-42/AB2010121B1S1/"
+        },
+        {
+          "label": "Breitling reference source",
+          "url": "https://www.breitling.com/xk-en/watches/superocean-heritage/superocean-heritage-b20-automatic-42/AB2010121B1S1/"
+        }
+      ]
+    },
+    {
+      "brand": "Breitling",
+      "collection": "Avenger",
+      "reference": "AB0147101B1X1",
+      "path": "/collections/breitling/avenger/ab0147101b1x1",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Reference identity and specifications",
+          "url": "https://www.breitling.com/us-en/watches/avenger/avenger-b01-chronograph-44-my23/AB0147101B1X1/"
+        },
+        {
+          "label": "Breitling reference source",
+          "url": "https://www.breitling.com/us-en/watches/avenger/avenger-b01-chronograph-44-my23/AB0147101B1X1/"
+        }
+      ]
+    },
+    {
+      "brand": "TAG Heuer",
+      "collection": "Carrera",
+      "reference": "CAR2A1Z.FT6044",
+      "path": "/collections/tag-heuer/carrera/car2a1z-ft6044",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Reference identity and specifications",
+          "url": "https://www.tagheuer.com/us/en/timepieces/collections/tag-heuer-carrera/45-mm-calibre-heuer01-automatic/CAR2A1Z.FT6044.html"
+        },
+        {
+          "label": "TAG Heuer reference source",
+          "url": "https://www.watchfinder.com/sell-your-watch/enquiry/tag-heuer/carrera/car2a1z-ft6044/29627"
+        }
+      ]
+    },
+    {
+      "brand": "TAG Heuer",
+      "collection": "Monaco",
+      "reference": "CBL2111.FC6453",
+      "path": "/collections/tag-heuer/monaco/cbl2111-fc6453",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Reference identity and specifications",
+          "url": "https://www.tagheuer.com/us/en/timepieces/collections/tag-heuer-monaco/39-mm-calibre-heuer02-automatic/CBL2111.FC6453.html"
+        },
+        {
+          "label": "TAG Heuer reference source",
+          "url": "https://www.swisswatchesdirect.co.uk/products/cbl2111-fc6453-tag-heuer-monaco"
+        }
+      ]
+    },
+    {
+      "brand": "Richard Mille",
+      "collection": "RM 67",
+      "reference": "RM 67-01",
+      "path": "/collections/richard-mille/rm-67/rm-67-01",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Reference identity and specifications",
+          "url": "https://www.richardmille.com/collections/rm-67-01-automatic-extra-flat"
+        },
+        {
+          "label": "Richard Mille reference source",
+          "url": "https://mavaniandco.com/products/richard-mille-titanium-rm67-01"
+        }
+      ]
+    },
+    {
+      "brand": "Richard Mille",
+      "collection": "RM 27",
+      "reference": "RM 27-05",
+      "path": "/collections/richard-mille/rm-27/rm-27-05",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Reference identity and specifications",
+          "url": "https://www.richardmille.com/collections/rm-27-05-flying-tourbillon-rafael-nadal"
+        },
+        {
+          "label": "Richard Mille reference source",
+          "url": "https://www.richardmille.com/collections/rm-27-05-flying-tourbillon-rafael-nadal"
+        }
+      ]
+    },
+    {
+      "brand": "Omega",
+      "collection": "Speedmaster Dark Side of the Moon",
+      "reference": "310.92.44.50.01.001",
+      "path": "/collections/omega/dark-side-of-the-moon/310-92-44-50-01-001",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Reference identity and specifications",
+          "url": "https://www.omegawatches.com.hk/en-hk/speedmaster-iconic-since-1957/watch/2023-dark-side-of-the-moon"
+        },
+        {
+          "label": "Omega reference source",
+          "url": "https://sheibanjewelers.com/products/omega-speedmaster-dark-side-of-the-moon-44mm-skeleton-dial-on-strap-31092445001001"
+        }
+      ]
+    },
+    {
+      "brand": "Omega",
+      "collection": "Speedmaster Dark Side of the Moon",
+      "reference": "311.92.44.51.01.003",
+      "path": "/collections/omega/dark-side-of-the-moon/311-92-44-51-01-003",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Reference identity and specifications",
+          "url": "https://www.omegawatches.com.hk/media/pdf/watches/product-sheet/hk/zh-hant-hk/31192445101003-zh-hant-hk.pdf"
+        },
+        {
+          "label": "Omega reference source",
+          "url": "https://www.watchfinder.com/sell-your-watch/enquiry/omega/speedmaster-dark-side-of-the-moon/311-92-44-51-01-003/24391"
+        }
+      ]
+    },
+    {
+      "brand": "Franck Muller",
+      "collection": "Vanguard Encrypto",
+      "reference": "V 45 SC DT BTC TT BR (NR)",
+      "path": "/collections/franck-muller/vanguard-encrypto/v-45-sc-dt-btc-tt-br-nr",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Reference identity and specifications",
+          "url": "https://www.franckmuller.com/fr/vanguard-encrypto-"
+        }
+      ]
+    },
+    {
+      "brand": "Franck Muller",
+      "collection": "Vanguard Beach",
+      "reference": "V 41 SC DT BEACH BU BL GF1",
+      "path": "/collections/franck-muller/vanguard-beach/v-41-sc-dt-beach-bu-bl-gf1",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Reference identity and specifications",
+          "url": "https://www.referenceintime.com/collections/franck-muller-1"
+        },
+        {
+          "label": "Franck Muller reference source",
+          "url": "https://franckmuller-asiapacific.com/timepieces/vanguard-beach/"
+        }
+      ]
+    },
+    {
+      "brand": "Franck Muller",
+      "collection": "FR2NCK Vanguard Beach",
+      "reference": "V 41 SC DT BEACH FR2 GFBUBL (BC)",
+      "path": "/collections/franck-muller/fr2nck-vanguard-beach/v-41-sc-dt-beach-fr2-gfbubl-bc",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Reference identity and specifications",
+          "url": "https://www.hourstriker.com/database/franck-muller-vanguard-fr2nck-muller-vanguard-beach-v-41-sc-dt-beach-fr2-gfbubl-bc-33549"
+        },
+        {
+          "label": "Franck Muller reference source",
+          "url": "https://franckmuller-asiapacific.com/timepieces/fr2nck-muller-vanguard-beach/"
+        }
+      ]
+    },
+    {
+      "brand": "Franck Muller",
+      "collection": "FR2NCK Vanguard Beach",
+      "reference": "V 41 SC DT BEACH FR2 GFRGFRG (BC)",
+      "path": "/collections/franck-muller/fr2nck-vanguard-beach/v-41-sc-dt-beach-fr2-gfrgfrg-bc",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Reference identity and specifications",
+          "url": "https://www.hourstriker.com/database/franck-muller-vanguard-fr2nck-muller-vanguard-beach-v-41-sc-dt-beach-fr2-gfrgfrg-bc-33550"
+        },
+        {
+          "label": "Franck Muller reference source",
+          "url": "https://franckmuller-asiapacific.com/timepieces/fr2nck-muller-vanguard-beach/"
+        }
+      ]
+    },
+    {
+      "brand": "Franck Muller",
+      "collection": "FR2NCK Vanguard Beach",
+      "reference": "V 41 SC DT BEACH FR2 GFVRVE (BC)",
+      "path": "/collections/franck-muller/fr2nck-vanguard-beach/v-41-sc-dt-beach-fr2-gfvrve-bc",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Reference identity and specifications",
+          "url": "https://www.hourstriker.com/database/franck-muller-vanguard-fr2nck-muller-vanguard-beach-v-41-sc-dt-beach-fr2-gfvrve-bc-33551"
+        },
+        {
+          "label": "Franck Muller reference source",
+          "url": "https://franckmuller-asiapacific.com/timepieces/fr2nck-muller-vanguard-beach/"
+        }
+      ]
+    },
+    {
+      "brand": "Franck Muller",
+      "collection": "Vanguard Smurfette",
+      "reference": "V 32 SC AT FO SMURFETTE (BL)",
+      "path": "/collections/franck-muller/vanguard-smurfette/v-32-sc-at-fo-smurfette-bl",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Reference identity and specifications",
+          "url": "https://www.hourstriker.com/database/franck-muller-vanguard-smurfette-smurfette-v-32-sc-at-fo-smurfette-bl-33540"
+        },
+        {
+          "label": "Franck Muller reference source",
+          "url": "https://www.thewatchpages.com/watches/franck-muller-vanguard-smurfette-v-32-sc-at-fo-smurfette-bl"
+        }
+      ]
+    },
+    {
+      "brand": "Franck Muller",
+      "collection": "Vanguard Smurfette",
+      "reference": "V 32 SC AT FO SMURFETTE (RS)",
+      "path": "/collections/franck-muller/vanguard-smurfette/v-32-sc-at-fo-smurfette-rs",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Reference identity and specifications",
+          "url": "https://www.hourstriker.com/database/franck-muller-vanguard-smurfette-smurfette-v-32-sc-at-fo-smurfette-rs-33541"
+        },
+        {
+          "label": "Franck Muller reference source",
+          "url": "https://www.thewatchpages.com/watches/franck-muller-vanguard-smurfette-v-32-sc-at-fo-smurfette-rs"
+        }
+      ]
+    },
+    {
+      "brand": "Franck Muller",
+      "collection": "Bamford Collaborations",
+      "reference": "V 45 SC POPEYE LTD TT NR BR NR",
+      "path": "/collections/franck-muller/bamford-collaborations/v-45-sc-popeye-ltd-tt-nr-br-nr",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Reference identity and specifications",
+          "url": "https://www.phillips.com/detail/franck-muller-x-bamford/231238"
+        },
+        {
+          "label": "Franck Muller reference source",
+          "url": "https://timekeepers.club/articles/novelties/franck-muller-x-bamford-popeye-vanguard-c-black-titanium-or-rose-gold"
+        }
+      ]
+    },
+    {
+      "brand": "Franck Muller",
+      "collection": "Bamford Collaborations",
+      "reference": "7880 CH PNTS NR",
+      "path": "/collections/franck-muller/bamford-collaborations/7880-ch-pnts-nr",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Reference identity and specifications",
+          "url": "https://www.bamfordwatchdepartment.com/product/franck-muller-x-bwd-crazy-love-snoopy-limited-edition/"
+        },
+        {
+          "label": "Franck Muller reference source",
+          "url": "https://www.timekeepers.club/articles/novelties/franck-muller-x-bamford-crazy-love-snoopy"
+        }
+      ]
+    },
+    {
+      "brand": "Panerai",
+      "collection": "Luminor GMT",
+      "reference": "PAM01641",
+      "path": "/collections/panerai/luminor-gmt/pam01641",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Reference identity and specifications",
+          "url": "https://www.panerai.com/us/en/collections/watch-collection/luminor/pam01641-luminor-gmt.html"
+        },
+        {
+          "label": "Panerai reference source",
+          "url": "https://www.panerai.com.mx/pam01641/p"
+        }
+      ]
+    },
+    {
+      "brand": "Panerai",
+      "collection": "Radiomir GMT",
+      "reference": "PAM00502",
+      "path": "/collections/panerai/radiomir-gmt/pam00502",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Reference identity and specifications",
+          "url": "https://www.panerai.com/us/en/collections/special-editions-archive/2013/pam00502-radiomir-1940-chrono-monopulsante-8-days-gmt-oro-rosso-.html"
+        },
+        {
+          "label": "Panerai reference source",
+          "url": "https://diamondsourcenyc.com/product/panerai-radiomir-45mm-watch-ref-pam00502-brown-index-dial-in-18k-rose-gold-case-brown-alligator-leather-strap/"
+        }
+      ]
+    },
+    {
+      "brand": "Cartier",
+      "collection": "Roadster",
+      "reference": "WGRD0011",
+      "path": "/collections/cartier/roadster/wgrd0011",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Reference identity and specifications",
+          "url": "https://www.cartier.com/en-us/watches/collections/roadster/roadster-watch--CRWGRD0011.html"
+        },
+        {
+          "label": "Cartier reference source",
+          "url": "https://www.cartier.com/en-us/watches/collections/roadster/roadster-watch--CRWGRD0011.html"
+        }
+      ]
+    },
+    {
+      "brand": "Cartier",
+      "collection": "Roadster",
+      "reference": "WSRD0014",
+      "path": "/collections/cartier/roadster/wsrd0014",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Reference identity and specifications",
+          "url": "https://www.cartier.com/en-pr/watches/collections/roadster/roadster-watch--CRWSRD0014"
+        },
+        {
+          "label": "Cartier reference source",
+          "url": "https://www.cartier.com/en-us/watches/collections/roadster/roadster-watch--CRWSRD0014.html"
+        }
+      ]
+    },
+    {
+      "brand": "Zenith",
+      "collection": "DEFY Extreme",
+      "reference": "95.9100.9004/01.I001",
+      "path": "/collections/zenith/defy-extreme/95-9100-9004-01-i001",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Reference identity and specifications",
+          "url": "https://www.zenith-watches.com/int/product/defy-extreme-95-9100-9004-01-i001"
+        },
+        {
+          "label": "Zenith reference source",
+          "url": "https://www.zenith-watches.com/en_us/product/defy-extreme-95-9100-9004-01-i001"
+        }
+      ]
+    },
+    {
+      "brand": "Breitling",
+      "collection": "Colt",
+      "reference": "A17388101B1A1",
+      "path": "/collections/breitling/colt/a17388101b1a1",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Reference identity and specifications",
+          "url": "https://www.breitling.com/xk-en/watches/colt/colt-automatic/A17388101B1A1/"
+        },
+        {
+          "label": "Breitling reference source",
+          "url": "https://www.breitling.com/cw-en/watches/colt/colt-automatic/A17388101B1A1/"
+        }
+      ]
+    },
+    {
+      "brand": "Breitling",
+      "collection": "Avenger II",
+      "reference": "A32390111G1A1",
+      "path": "/collections/breitling/avenger-ii/a32390111g1a1",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Reference identity and specifications",
+          "url": "https://www.breitling.com/xk-en/watches/avenger/avenger-ii-gmt/A32390111G1A1/"
+        },
+        {
+          "label": "Breitling reference source",
+          "url": "https://www.breitling.com/id-en/watches/avenger/avenger-ii-gmt/A32390111G1A1/"
+        }
+      ]
+    },
+    {
+      "brand": "Omega",
+      "collection": "Seamaster 300",
+      "reference": "233.32.41.21.01.001",
+      "path": "/collections/omega/seamaster-300/233-32-41-21-01-001",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Reference identity and specifications",
+          "url": "https://www.omegawatches.com.hk/en-hk/watch-omega-seamaster-300-master-co-axial-chronometer-41-mm-23332412101001"
+        },
+        {
+          "label": "Omega reference source",
+          "url": "https://www.watchfinder.com/sell-your-watch/enquiry/omega/seamaster-300/233-32-41-21-01-001/27927"
+        }
+      ]
+    },
+    {
+      "brand": "Omega",
+      "collection": "Aqua Terra Worldtimer",
+      "reference": "220.12.43.22.03.001",
+      "path": "/collections/omega/aqua-terra-worldtimer/220-12-43-22-03-001",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Reference identity and specifications",
+          "url": "https://sheibanjewelers.com/products/omega-seamaster-aqua-terra-worldtimer-43mm-blue-dial-on-rubber-strap-22012432203001"
+        },
+        {
+          "label": "Omega reference source",
+          "url": "https://sheibanjewelers.com/products/omega-seamaster-aqua-terra-worldtimer-43mm-blue-dial-on-rubber-strap-22012432203001"
+        }
+      ]
+    },
+    {
+      "brand": "Omega",
+      "collection": "Aqua Terra Worldtimer",
+      "reference": "220.10.43.22.03.001",
+      "path": "/collections/omega/aqua-terra-worldtimer/220-10-43-22-03-001",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Reference identity and specifications",
+          "url": "https://www.timeandwatches.com/2019/05/omega-seamaster-aqua-terra-worldtimer.html"
+        },
+        {
+          "label": "Omega reference source",
+          "url": "https://zadok.com/products/omega-seamaster-watch-22010432203001"
+        }
+      ]
+    },
+    {
+      "brand": "Omega",
+      "collection": "Seamaster Planet Ocean GMT",
+      "reference": "215.30.44.22.01.001",
+      "path": "/collections/omega/planet-ocean-gmt/215-30-44-22-01-001",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Reference identity and specifications",
+          "url": "https://www.omegawatches.com.hk/en-hk/watch-omega-seamaster-planet-ocean-600m-co-axial-master-chronometer-gmt-43-5-mm-21530442201001"
+        },
+        {
+          "label": "Omega reference source",
+          "url": "https://www.watchfinder.com/watches/omega/planet-ocean/215-30-44-22-01-001/431503"
+        }
+      ]
+    },
+    {
+      "brand": "Omega",
+      "collection": "Constellation",
+      "reference": "131.23.41.21.03.001",
+      "path": "/collections/omega/constellation/131-23-41-21-03-001",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Reference identity and specifications",
+          "url": "https://www.omegawatches.com.hk/en-hk/watch-omega-constellation-co-axial-master-chronometer-41-mm-13123412103001"
+        },
+        {
+          "label": "Omega reference source",
+          "url": "https://www.uhrinstinkt.de/products/omega-constellation-co-axial-master-chronometer-41mm-131-23-41-21-03-001"
+        }
+      ]
+    },
+    {
+      "brand": "Omega",
+      "collection": "Constellation",
+      "reference": "131.63.41.21.03.001",
+      "path": "/collections/omega/constellation/131-63-41-21-03-001",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Reference identity and specifications",
+          "url": "https://www.omegawatches.com.hk/en-hk/watch-omega-constellation-co-axial-master-chronometer-41-mm-13163412103001"
+        },
+        {
+          "label": "Omega reference source",
+          "url": "https://diamondsourcenyc.com/product/omega-constellation-41mm-watch-ref-131-63-41-21-03-001-blue-index-dial-in-18k-rose-gold-case-blue-leather-strap/"
+        }
+      ]
+    },
+    {
+      "brand": "Omega",
+      "collection": "Constellation",
+      "reference": "131.30.41.21.04.001",
+      "path": "/collections/omega/constellation/131-30-41-21-04-001",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Reference identity and specifications",
+          "url": "https://www.omegawatches.com.hk/en-hk/watch-omega-constellation-co-axial-master-chronometer-41-mm-13130412104001"
+        },
+        {
+          "label": "Omega reference source",
+          "url": "https://www.uhrinstinkt.de/products/omega-constellation-co-axial-master-chronometer-41mm-131-30-41-21-04-001"
+        }
+      ]
+    },
+    {
+      "brand": "Omega",
+      "collection": "Constellation",
+      "reference": "131.30.41.21.99.003",
+      "path": "/collections/omega/constellation/131-30-41-21-99-003",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Reference identity and specifications",
+          "url": "https://www.omegawatches.com.hk/en-hk/watch-omega-constellation-co-axial-master-chronometer-41-mm-13130412199003"
+        },
+        {
+          "label": "Omega reference source",
+          "url": "https://www.the1916company.com/pre-owned/omega/constellation/v111695/"
+        }
+      ]
+    },
+    {
+      "brand": "Omega",
+      "collection": "Constellation",
+      "reference": "131.10.28.60.60.002",
+      "path": "/collections/omega/constellation/131-10-28-60-60-002",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Reference identity and specifications",
+          "url": "https://www.omegawatches.com.hk/en-hk/watch-omega-constellation-quartz-28-mm-13110286060002"
+        },
+        {
+          "label": "Omega reference source",
+          "url": "https://www.cjcharles.com/products/constellation-quartz-28-mm-131-10-28-60-60-002"
+        }
+      ]
+    },
+    {
+      "brand": "Omega",
+      "collection": "Constellation",
+      "reference": "131.10.28.60.60.001",
+      "path": "/collections/omega/constellation/131-10-28-60-60-001",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Reference identity and specifications",
+          "url": "https://www.omegawatches.com.hk/en-hk/watch-omega-constellation-quartz-28-mm-13110286060001"
+        },
+        {
+          "label": "Omega reference source",
+          "url": "https://www.cjcharles.com/collections/omega/products/constellation-quartz-28-mm-131-10-28-60-60-001"
+        }
+      ]
+    },
+    {
+      "brand": "Omega",
+      "collection": "Constellation",
+      "reference": "131.10.28.60.56.001",
+      "path": "/collections/omega/constellation/131-10-28-60-56-001",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Reference identity and specifications",
+          "url": "https://www.omegawatches.com.hk/en-hk/watch-omega-constellation-quartz-28-mm-13110286056001"
+        },
+        {
+          "label": "Omega reference source",
+          "url": "https://www.kk-tanaka.com/omega/38368/"
+        }
+      ]
+    },
+    {
+      "brand": "Omega",
+      "collection": "De Ville Prestige",
+      "reference": "434.13.41.20.10.001",
+      "path": "/collections/omega/de-ville-prestige/434-13-41-20-10-001",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Reference identity and specifications",
+          "url": "https://www.omegawatches.com.hk/en-hk/watch-omega-de-ville-prestige-co-axial-master-chronometer-small-seconds-41-mm-43413412010001"
+        },
+        {
+          "label": "Omega reference source",
+          "url": "https://galli.ch/uhren/omega/de-ville/prestige-co-axial-master-chronometer-small-seconds-41-434-13-41-20-10-001/"
+        }
+      ]
+    },
+    {
+      "brand": "Omega",
+      "collection": "De Ville Prestige",
+      "reference": "434.10.41.21.03.001",
+      "path": "/collections/omega/de-ville-prestige/434-10-41-21-03-001",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Reference identity and specifications",
+          "url": "https://www.omegawatches.com.hk/en-hk/watch-omega-de-ville-prestige-co-axial-master-chronometer-power-reserve-41-mm-43410412103001"
+        },
+        {
+          "label": "Omega reference source",
+          "url": "https://www.cjcharles.com/collections/omega/products/de-ville-prestige-co-axial-master-chronometer-power-reserve-41-mm-434-10-41-21-03-001"
+        }
+      ]
+    },
+    {
+      "brand": "Omega",
+      "collection": "Railmaster",
+      "reference": "235.10.38.20.06.001",
+      "path": "/collections/omega/railmaster/235-10-38-20-06-001",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Reference identity and specifications",
+          "url": "https://press.omegawatches.com/the-return-of-the-omega-railmaster/"
+        },
+        {
+          "label": "Omega reference source",
+          "url": "https://sheibanjewelers.com/products/omega-seamaster-railmaster-38mm-grey-dial-on-bracelet-23510382006001"
+        }
+      ]
+    },
+    {
+      "brand": "Omega",
+      "collection": "Railmaster",
+      "reference": "235.10.38.20.13.001",
+      "path": "/collections/omega/railmaster/235-10-38-20-13-001",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Reference identity and specifications",
+          "url": "https://press.omegawatches.com/the-return-of-the-omega-railmaster/"
+        },
+        {
+          "label": "Omega reference source",
+          "url": "https://sheibanjewelers.com/products/omega-seamaster-railmaster-38mm-brown-dial-on-bracelet-23510382013001"
+        }
+      ]
+    },
+    {
+      "brand": "Patek Philippe",
+      "collection": "Grand Complications",
+      "reference": "5327G-001",
+      "path": "/collections/patek-philippe/grand-complications/5327g-001",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Reference identity and specifications",
+          "url": "https://www.patek.com/en/collection/grand-complications/5327G-001"
+        },
+        {
+          "label": "Patek Philippe reference source",
+          "url": "https://www.patek.com/en/collection/grand-complications/5327G-001"
+        }
+      ]
+    },
+    {
+      "brand": "Patek Philippe",
+      "collection": "Grand Complications",
+      "reference": "5236P-010",
+      "path": "/collections/patek-philippe/grand-complications/5236p-010",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Reference identity and specifications",
+          "url": "https://www.patek.com/en/collection/grand-complications/5236P-010"
+        },
+        {
+          "label": "Patek Philippe reference source",
+          "url": "https://www.patek.com/en/collection/grand-complications/5236P-010"
+        }
+      ]
+    },
+    {
+      "brand": "Patek Philippe",
+      "collection": "Grand Complications",
+      "reference": "5270P-017",
+      "path": "/collections/patek-philippe/grand-complications/5270p-017",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Reference identity and specifications",
+          "url": "https://www.patek.com/en/collection/grand-complications/5270p-017"
+        },
+        {
+          "label": "Patek Philippe reference source",
+          "url": "https://www.patek.com/en/collection/grand-complications/5270p-017"
+        }
+      ]
+    },
+    {
+      "brand": "Vacheron Constantin",
+      "collection": "Patrimony",
+      "reference": "4000U/000P-H003",
+      "path": "/collections/vacheron-constantin/patrimony/4000u-000p-h003",
+      "status": "research-pending",
+      "prices": [],
+      "identitySources": [
+        {
+          "label": "Reference identity and specifications",
+          "url": "https://www.vacheron-constantin.com/ca/en/collections/patrimony/4000u-000p-h003.html"
+        },
+        {
+          "label": "Vacheron Constantin reference source",
+          "url": "https://www.vacheron-constantin.com/ca/en/collections/patrimony/4000u-000p-h003.html"
+        }
+      ]
+    }
+  ]
+}

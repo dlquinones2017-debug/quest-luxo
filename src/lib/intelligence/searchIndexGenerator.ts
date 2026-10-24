@@ -2,6 +2,7 @@ import type { QuestLuxoAsset } from "../../types/questLuxo";
 import {
   getEstimatedWatchPrice,
   parseWatchIntent,
+  queryExcludesBrand,
   rankWatchAssets,
   type WatchIntent,
   type WatchRecommendation,
@@ -221,7 +222,7 @@ export function buildSearchFacets(
     collection: uniqueValues([asset.collection, defaultCollection]).map(
       normalizeFacetValue
     ),
-    reference: uniqueValues([asset.reference]).map(normalizeFacetValue),
+    reference: uniqueValues([asset.reference, asset.displayReference]).map(normalizeFacetValue),
     material: uniqueValues([asset.material]).map(normalizeFacetValue),
     dial: dials.map(normalizeFacetValue),
     bezel: uniqueValues([asset.bezel]).map(normalizeFacetValue),
@@ -260,6 +261,7 @@ export function createSearchIndexRecord<
       brand,
       collection,
       config.asset.reference,
+      config.asset.displayReference,
       config.asset.model,
       config.asset.material,
       config.asset.bezel,
@@ -288,11 +290,11 @@ export function createSearchIndexRecord<
     category,
     positioning,
     brokerageNotes,
-    estimatedPrice: getEstimatedWatchPrice(config.asset),
+    estimatedPrice: getEstimatedWatchPrice({ ...config.asset, brand, collection }),
     facets,
     keywords,
     searchText,
-    asset: Object.freeze({ ...config.asset }) as Readonly<TAsset>,
+    asset: Object.freeze({ ...config.asset, brand, collection }) as Readonly<TAsset>,
   });
 }
 
@@ -347,25 +349,22 @@ export function searchWatchRecords<
   options: SearchWatchRecordsOptions<TRecord>
 ): readonly TRecord[] {
   const intent = parseWatchIntent(options.query);
-  const normalizedQuery = normalizeSearchableText(options.query);
   const excludedBrands = Array.from(new Set(options.records.map((record) => record.brand)))
-    .filter((brand) => {
-      const normalizedBrand = normalizeFacetValue(brand);
-      return normalizedQuery.includes(`not ${normalizedBrand}`) ||
-        normalizedQuery.includes(`without ${normalizedBrand}`);
-    });
+    .filter((brand) => queryExcludesBrand(options.query, brand));
   const consumedTerms = new Set([
     ...splitTerms(intent.brand ?? ""),
     ...splitTerms(intent.dialColor ?? ""),
     ...excludedBrands.flatMap((brand) => splitTerms(brand)),
     "not",
     "without",
+    "excluding",
+    "except",
+    "any",
   ]);
   const queryTerms = intent.keywords.filter(
     (keyword) =>
       !ignoredSearchTerms.has(keyword) &&
-      !consumedTerms.has(keyword) &&
-      !/^\d+$/.test(keyword)
+      !consumedTerms.has(keyword)
   );
   let records = options.records;
 
@@ -436,13 +435,15 @@ export function rankSearchRecordsWithIntelligence<
     intent,
     includeUnknownPrice: true,
   });
+  const identity = (brand: string, collection: string, reference: string) =>
+    [brand, collection, reference].map(normalizeFacetValue).join(":");
   const recordsByReference = new Map(
-    records.map((record) => [record.reference, record])
+    records.map((record) => [identity(record.brand, record.collection, record.reference), record])
   );
 
   return Object.freeze(
     rankedAssets.flatMap((recommendation) => {
-      const record = recordsByReference.get(recommendation.reference);
+      const record = recordsByReference.get(identity(recommendation.brand, recommendation.collection, recommendation.asset.reference));
 
       if (!record) {
         return [];
