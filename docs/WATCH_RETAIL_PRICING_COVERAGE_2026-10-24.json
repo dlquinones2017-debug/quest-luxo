@@ -1,8 +1,8 @@
 {
   "catalogReferences": 297,
   "duplicateCatalogRows": 1,
-  "sourcedReferences": 10,
-  "pendingReferences": 287,
+  "sourcedReferences": 43,
+  "pendingReferences": 254,
   "note": "Checked dates record source observation, not manufacturer price-effective dates. Unknown values are never imputed.",
   "rows": [
     {
@@ -75,8 +75,25 @@
       "collection": "GMT-Master II",
       "reference": "126720VTNR",
       "path": "/collections/rolex/gmt-master-ii/126720vtnr",
-      "status": "research-pending",
-      "prices": [],
+      "status": "sourced-list-price",
+      "prices": [
+        {
+          "brand": "Rolex",
+          "reference": "126720VTNR",
+          "manufacturerReference": "m126720vtnr-0002",
+          "configuration": "Black dial / green-black bezel / Jubilee bracelet",
+          "amount": 12500,
+          "currency": "USD",
+          "market": "United States",
+          "taxBasis": "excluded",
+          "basis": "current-list",
+          "checkedAt": "2026-10-24",
+          "effectiveDate": null,
+          "sourceUrl": "https://www.rolex.com/en-us/watches/gmt-master-ii/m126720vtnr-0002",
+          "sourceName": "Rolex United States",
+          "sourceType": "manufacturer"
+        }
+      ],
       "identitySources": [
         {
           "label": "Rolex reference source",
@@ -89,8 +106,25 @@
       "collection": "GMT-Master II",
       "reference": "126713GRNR",
       "path": "/collections/rolex/gmt-master-ii/126713grnr",
-      "status": "research-pending",
-      "prices": [],
+      "status": "sourced-list-price",
+      "prices": [
+        {
+          "brand": "Rolex",
+          "reference": "126713GRNR",
+          "manufacturerReference": "m126713grnr-0001",
+          "configuration": "Black dial / yellow Rolesor / Jubilee bracelet",
+          "amount": 20450,
+          "currency": "USD",
+          "market": "United States",
+          "taxBasis": "excluded",
+          "basis": "current-list",
+          "checkedAt": "2026-10-24",
+          "effectiveDate": null,
+          "sourceUrl": "https://www.rolex.com/en-us/watches/gmt-master-ii/m126713grnr-0001",
+          "sourceName": "Rolex United States",
+          "sourceType": "manufacturer"
+        }
+      ],
       "identitySources": [
         {
           "label": "Rolex reference source",
@@ -103,8 +137,25 @@
       "collection": "GMT-Master II",
       "reference": "126718GRNR",
       "path": "/collections/rolex/gmt-master-ii/126718grnr",
-      "status": "research-pending",
-      "prices": [],
+      "status": "sourced-list-price",
+      "prices": [
+        {
+          "brand": "Rolex",
+          "reference": "126718GRNR",
+          "manufacturerReference": "m126718grnr-0001",
+          "configuration": "Black dial / yellow gold / Jubilee bracelet",
+          "amount": 50800,
+          "currency": "USD",
+          "market": "United States",
+          "taxBasis": "excluded",
+          "basis": "current-list",
+          "checkedAt": "2026-10-24",
+          "effectiveDate": null,
+          "sourceUrl": "https://www.rolex.com/en-us/watches/gmt-master-ii/m126718grnr-0001",
+          "sourceName": "Rolex United States",
+          "sourceType": "manufacturer"
+        }
+      ],
       "identitySources": [
         {
           "label": "Rolex reference source",
@@ -232,8 +283,25 @@
       "collection": "Daytona",
       "reference": "126508",
       "path": "/collections/rolex/daytona/126508",
-      "status": "research-pending",
-      "prices": [],
+      "status": "sourced-list-price",
+      "prices": [
+        {
+          "brand": "Rolex",
+          "reference": "126508",
+          "manufacturerReference": "m126508-0006",
+          "configuration": "Golden and black dial / yellow gold / Oyster bracelet",
+          "amount": 55200,
+          "currency": "USD",
+          "market": "United States",
+          "taxBasis": "excluded",
+          "basis": "current-list",
+          "checkedAt": "2026-10-24",
+          "effectiveDate": null,
+          "sourceUrl": "https://www.rolex.com/en-us/watches/cosmograph-daytona/m126508-0006",
+          "sourceName": "Rolex United States",
+          "sourceType": "manufacturer"
+        }
+      ],
       "identitySources": [
         {
           "label": "Rolex reference source",
@@ -246,8 +314,25 @@
       "collection": "Daytona",
       "reference": "126515LN",
       "path": "/collections/rolex/daytona/126515ln",
-      "status": "research-pending",
-      "prices": [],
+      "status": "sourced-list-price",
+      "prices": [
+        {
+          "brand": "Rolex",
+          "reference": "126515LN",
+          "manufacturerReference": "m126515ln-0006",
+          "configuration": "Sundust and black dial / Everose gold / Oysterflex bracelet",
+          "amount": 44800,
+          "currency": "USD",
+          "market": "United States",
+          "taxBasis": "excluded",
+          "basis": "current-list",
+          "checkedAt": "2026-10-24",
+          "effectiveDate": null,
+          "sourceUrl": "https://www.rolex.com/en-us/watches/cosmograph-daytona/m126515ln-0006",
+          "sourceName": "Rolex United States",
+          "sourceType": "manufacturer"
+        }
+      ],
       "identitySources": [
         {
           "label": "Rolex reference source",
@@ -260,8 +345,25 @@
       "collection": "Daytona",
       "reference": "126519LN",
       "path": "/collections/rolex/daytona/126519ln",
-      "status": "research-pending",
-      "prices": [],
+      "status": "sourced-list-price",
+      "prices": [
+        {
+          "brand": "Rolex",
+          "reference": "126519LN",
+          "manufacturerReference": "m126519ln-0004",
+          "configuration": "Black and steel diamond-set dial / white gold / Oysterflex bracelet",
+          "amount": 46900,
+          "currency": "USD",
+          "market": "United States",
+          "taxBasis": "excluded",
+          "basis": "current-list",
+          "checkedAt": "2026-10-24",
+          "effectiveDate": null,
+          "sourceUrl": "https://www.rolex.com/en-us/watches/cosmograph-daytona/m126519ln-0004",
+          "sourceName": "Rolex United States",
+          "sourceType": "manufacturer"
+        }
+      ],
       "identitySources": [
         {
           "label": "Rolex reference source",
@@ -274,8 +376,25 @@
       "collection": "Daytona",
       "reference": "126506",
       "path": "/collections/rolex/daytona/126506",
-      "status": "research-pending",
-      "prices": [],
+      "status": "sourced-list-price",
+      "prices": [
+        {
+          "brand": "Rolex",
+          "reference": "126506",
+          "manufacturerReference": "m126506-0001",
+          "configuration": "Ice blue dial / platinum / Oyster bracelet",
+          "amount": 84600,
+          "currency": "USD",
+          "market": "United States",
+          "taxBasis": "excluded",
+          "basis": "current-list",
+          "checkedAt": "2026-10-24",
+          "effectiveDate": null,
+          "sourceUrl": "https://www.rolex.com/en-us/watches/cosmograph-daytona/m126506-0001",
+          "sourceName": "Rolex United States",
+          "sourceType": "manufacturer"
+        }
+      ],
       "identitySources": [
         {
           "label": "Rolex reference source",
@@ -404,8 +523,25 @@
       "collection": "Submariner",
       "reference": "126613LB",
       "path": "/collections/rolex/submariner/126613lb",
-      "status": "research-pending",
-      "prices": [],
+      "status": "sourced-list-price",
+      "prices": [
+        {
+          "brand": "Rolex",
+          "reference": "126613LB",
+          "manufacturerReference": "m126613lb-0002",
+          "configuration": "Royal blue dial / yellow Rolesor / Oyster bracelet",
+          "amount": 19450,
+          "currency": "USD",
+          "market": "United States",
+          "taxBasis": "excluded",
+          "basis": "current-list",
+          "checkedAt": "2026-10-24",
+          "effectiveDate": null,
+          "sourceUrl": "https://www.rolex.com/en-us/watches/submariner/m126613lb-0002",
+          "sourceName": "Rolex United States",
+          "sourceType": "manufacturer"
+        }
+      ],
       "identitySources": [
         {
           "label": "Rolex reference source",
@@ -418,8 +554,25 @@
       "collection": "Submariner",
       "reference": "126618LB",
       "path": "/collections/rolex/submariner/126618lb",
-      "status": "research-pending",
-      "prices": [],
+      "status": "sourced-list-price",
+      "prices": [
+        {
+          "brand": "Rolex",
+          "reference": "126618LB",
+          "manufacturerReference": "m126618lb-0002",
+          "configuration": "Royal blue dial / yellow gold / Oyster bracelet",
+          "amount": 50900,
+          "currency": "USD",
+          "market": "United States",
+          "taxBasis": "excluded",
+          "basis": "current-list",
+          "checkedAt": "2026-10-24",
+          "effectiveDate": null,
+          "sourceUrl": "https://www.rolex.com/en-us/watches/submariner/m126618lb-0002",
+          "sourceName": "Rolex United States",
+          "sourceType": "manufacturer"
+        }
+      ],
       "identitySources": [
         {
           "label": "Rolex reference source",
@@ -432,8 +585,25 @@
       "collection": "Datejust",
       "reference": "126334",
       "path": "/collections/rolex/datejust/126334",
-      "status": "research-pending",
-      "prices": [],
+      "status": "sourced-list-price",
+      "prices": [
+        {
+          "brand": "Rolex",
+          "reference": "126334",
+          "manufacturerReference": "m126334-0001",
+          "configuration": "Bright blue dial / 41 mm / steel and white gold / Oyster bracelet",
+          "amount": 11650,
+          "currency": "USD",
+          "market": "United States",
+          "taxBasis": "excluded",
+          "basis": "current-list",
+          "checkedAt": "2026-10-24",
+          "effectiveDate": null,
+          "sourceUrl": "https://www.rolex.com/en-us/watches/datejust/m126334-0001",
+          "sourceName": "Rolex United States",
+          "sourceType": "manufacturer"
+        }
+      ],
       "identitySources": [
         {
           "label": "Rolex reference source",
@@ -446,8 +616,25 @@
       "collection": "Datejust",
       "reference": "126300",
       "path": "/collections/rolex/datejust/126300",
-      "status": "research-pending",
-      "prices": [],
+      "status": "sourced-list-price",
+      "prices": [
+        {
+          "brand": "Rolex",
+          "reference": "126300",
+          "manufacturerReference": "m126300-0001",
+          "configuration": "Bright blue dial / 41 mm / steel / Oyster bracelet",
+          "amount": 8950,
+          "currency": "USD",
+          "market": "United States",
+          "taxBasis": "excluded",
+          "basis": "current-list",
+          "checkedAt": "2026-10-24",
+          "effectiveDate": null,
+          "sourceUrl": "https://www.rolex.com/en-us/watches/datejust/m126300-0001",
+          "sourceName": "Rolex United States",
+          "sourceType": "manufacturer"
+        }
+      ],
       "identitySources": [
         {
           "label": "Rolex reference source",
@@ -460,8 +647,25 @@
       "collection": "Datejust",
       "reference": "126333",
       "path": "/collections/rolex/datejust/126333",
-      "status": "research-pending",
-      "prices": [],
+      "status": "sourced-list-price",
+      "prices": [
+        {
+          "brand": "Rolex",
+          "reference": "126333",
+          "manufacturerReference": "m126333-0001",
+          "configuration": "Silver dial / 41 mm / yellow Rolesor / Oyster bracelet",
+          "amount": 16900,
+          "currency": "USD",
+          "market": "United States",
+          "taxBasis": "excluded",
+          "basis": "current-list",
+          "checkedAt": "2026-10-24",
+          "effectiveDate": null,
+          "sourceUrl": "https://www.rolex.com/en-us/watches/datejust/m126333-0001",
+          "sourceName": "Rolex United States",
+          "sourceType": "manufacturer"
+        }
+      ],
       "identitySources": [
         {
           "label": "Rolex reference source",
@@ -474,8 +678,25 @@
       "collection": "Datejust",
       "reference": "126234",
       "path": "/collections/rolex/datejust/126234",
-      "status": "research-pending",
-      "prices": [],
+      "status": "sourced-list-price",
+      "prices": [
+        {
+          "brand": "Rolex",
+          "reference": "126234",
+          "manufacturerReference": "m126234-0059",
+          "configuration": "Green ombre dial / 36 mm / steel and white gold / Jubilee bracelet",
+          "amount": 10100,
+          "currency": "USD",
+          "market": "United States",
+          "taxBasis": "excluded",
+          "basis": "current-list",
+          "checkedAt": "2026-10-24",
+          "effectiveDate": null,
+          "sourceUrl": "https://www.rolex.com/en-us/watches/datejust/m126234-0059",
+          "sourceName": "Rolex United States",
+          "sourceType": "manufacturer"
+        }
+      ],
       "identitySources": [
         {
           "label": "Rolex reference source",
@@ -488,8 +709,25 @@
       "collection": "Datejust",
       "reference": "126200",
       "path": "/collections/rolex/datejust/126200",
-      "status": "research-pending",
-      "prices": [],
+      "status": "sourced-list-price",
+      "prices": [
+        {
+          "brand": "Rolex",
+          "reference": "126200",
+          "manufacturerReference": "m126200-0001",
+          "configuration": "Silver dial / 36 mm / steel / Jubilee bracelet",
+          "amount": 8350,
+          "currency": "USD",
+          "market": "United States",
+          "taxBasis": "excluded",
+          "basis": "current-list",
+          "checkedAt": "2026-10-24",
+          "effectiveDate": null,
+          "sourceUrl": "https://www.rolex.com/en-us/watches/datejust/m126200-0001",
+          "sourceName": "Rolex United States",
+          "sourceType": "manufacturer"
+        }
+      ],
       "identitySources": [
         {
           "label": "Rolex reference source",
@@ -502,8 +740,25 @@
       "collection": "Datejust",
       "reference": "126303",
       "path": "/collections/rolex/datejust/126303",
-      "status": "research-pending",
-      "prices": [],
+      "status": "sourced-list-price",
+      "prices": [
+        {
+          "brand": "Rolex",
+          "reference": "126303",
+          "manufacturerReference": "m126303-0001",
+          "configuration": "Silver dial / 41 mm / yellow Rolesor / Oyster bracelet",
+          "amount": 16800,
+          "currency": "USD",
+          "market": "United States",
+          "taxBasis": "excluded",
+          "basis": "current-list",
+          "checkedAt": "2026-10-24",
+          "effectiveDate": null,
+          "sourceUrl": "https://www.rolex.com/en-us/watches/datejust/m126303-0001",
+          "sourceName": "Rolex United States",
+          "sourceType": "manufacturer"
+        }
+      ],
       "identitySources": [
         {
           "label": "Rolex reference source",
@@ -516,8 +771,25 @@
       "collection": "Day-Date",
       "reference": "228238",
       "path": "/collections/rolex/day-date/228238",
-      "status": "research-pending",
-      "prices": [],
+      "status": "sourced-list-price",
+      "prices": [
+        {
+          "brand": "Rolex",
+          "reference": "228238",
+          "manufacturerReference": "m228238-0061",
+          "configuration": "Green dial / 40 mm / yellow gold / President bracelet",
+          "amount": 50400,
+          "currency": "USD",
+          "market": "United States",
+          "taxBasis": "excluded",
+          "basis": "current-list",
+          "checkedAt": "2026-10-24",
+          "effectiveDate": null,
+          "sourceUrl": "https://www.rolex.com/en-us/watches/day-date/m228238-0061",
+          "sourceName": "Rolex United States",
+          "sourceType": "manufacturer"
+        }
+      ],
       "identitySources": [
         {
           "label": "Rolex reference source",
@@ -530,8 +802,25 @@
       "collection": "Day-Date",
       "reference": "228239",
       "path": "/collections/rolex/day-date/228239",
-      "status": "research-pending",
-      "prices": [],
+      "status": "sourced-list-price",
+      "prices": [
+        {
+          "brand": "Rolex",
+          "reference": "228239",
+          "manufacturerReference": "m228239-0055",
+          "configuration": "Meteorite diamond-set dial / 40 mm / white gold / President bracelet",
+          "amount": 63900,
+          "currency": "USD",
+          "market": "United States",
+          "taxBasis": "excluded",
+          "basis": "current-list",
+          "checkedAt": "2026-10-24",
+          "effectiveDate": null,
+          "sourceUrl": "https://www.rolex.com/en-us/watches/day-date/m228239-0055",
+          "sourceName": "Rolex United States",
+          "sourceType": "manufacturer"
+        }
+      ],
       "identitySources": [
         {
           "label": "Rolex reference source",
@@ -544,8 +833,25 @@
       "collection": "Day-Date",
       "reference": "228235",
       "path": "/collections/rolex/day-date/228235",
-      "status": "research-pending",
-      "prices": [],
+      "status": "sourced-list-price",
+      "prices": [
+        {
+          "brand": "Rolex",
+          "reference": "228235",
+          "manufacturerReference": "m228235-0003",
+          "configuration": "Chocolate diamond-set dial / 40 mm / Everose gold / President bracelet",
+          "amount": 58950,
+          "currency": "USD",
+          "market": "United States",
+          "taxBasis": "excluded",
+          "basis": "current-list",
+          "checkedAt": "2026-10-24",
+          "effectiveDate": null,
+          "sourceUrl": "https://www.rolex.com/en-us/watches/day-date/m228235-0003",
+          "sourceName": "Rolex United States",
+          "sourceType": "manufacturer"
+        }
+      ],
       "identitySources": [
         {
           "label": "Rolex reference source",
@@ -572,8 +878,25 @@
       "collection": "Day-Date",
       "reference": "128238",
       "path": "/collections/rolex/day-date/128238",
-      "status": "research-pending",
-      "prices": [],
+      "status": "sourced-list-price",
+      "prices": [
+        {
+          "brand": "Rolex",
+          "reference": "128238",
+          "manufacturerReference": "m128238-0132",
+          "configuration": "Champagne diamond-set dial / 36 mm / yellow gold / President bracelet",
+          "amount": 50650,
+          "currency": "USD",
+          "market": "United States",
+          "taxBasis": "excluded",
+          "basis": "current-list",
+          "checkedAt": "2026-10-24",
+          "effectiveDate": null,
+          "sourceUrl": "https://www.rolex.com/en-us/watches/day-date/m128238-0132",
+          "sourceName": "Rolex United States",
+          "sourceType": "manufacturer"
+        }
+      ],
       "identitySources": [
         {
           "label": "Rolex reference source",
@@ -600,8 +923,25 @@
       "collection": "Day-Date",
       "reference": "228236",
       "path": "/collections/rolex/day-date/228236",
-      "status": "research-pending",
-      "prices": [],
+      "status": "sourced-list-price",
+      "prices": [
+        {
+          "brand": "Rolex",
+          "reference": "228236",
+          "manufacturerReference": "m228236-0011",
+          "configuration": "Meteorite diamond-set dial / 40 mm / platinum / President bracelet",
+          "amount": 78500,
+          "currency": "USD",
+          "market": "United States",
+          "taxBasis": "excluded",
+          "basis": "current-list",
+          "checkedAt": "2026-10-24",
+          "effectiveDate": null,
+          "sourceUrl": "https://www.rolex.com/en-us/watches/day-date/m228236-0011",
+          "sourceName": "Rolex United States",
+          "sourceType": "manufacturer"
+        }
+      ],
       "identitySources": [
         {
           "label": "Rolex reference source",
@@ -614,8 +954,25 @@
       "collection": "Sky-Dweller",
       "reference": "336934",
       "path": "/collections/rolex/sky-dweller/336934",
-      "status": "research-pending",
-      "prices": [],
+      "status": "sourced-list-price",
+      "prices": [
+        {
+          "brand": "Rolex",
+          "reference": "336934",
+          "manufacturerReference": "m336934-0001",
+          "configuration": "Mint green dial / steel and white gold / Oyster bracelet",
+          "amount": 17750,
+          "currency": "USD",
+          "market": "United States",
+          "taxBasis": "excluded",
+          "basis": "current-list",
+          "checkedAt": "2026-10-24",
+          "effectiveDate": null,
+          "sourceUrl": "https://www.rolex.com/en-us/watches/sky-dweller/m336934-0001",
+          "sourceName": "Rolex United States",
+          "sourceType": "manufacturer"
+        }
+      ],
       "identitySources": [
         {
           "label": "Rolex reference source",
@@ -628,8 +985,25 @@
       "collection": "Sky-Dweller",
       "reference": "336933",
       "path": "/collections/rolex/sky-dweller/336933",
-      "status": "research-pending",
-      "prices": [],
+      "status": "sourced-list-price",
+      "prices": [
+        {
+          "brand": "Rolex",
+          "reference": "336933",
+          "manufacturerReference": "m336933-0003",
+          "configuration": "Black dial / yellow Rolesor / Oyster bracelet",
+          "amount": 24050,
+          "currency": "USD",
+          "market": "United States",
+          "taxBasis": "excluded",
+          "basis": "current-list",
+          "checkedAt": "2026-10-24",
+          "effectiveDate": null,
+          "sourceUrl": "https://www.rolex.com/en-us/watches/sky-dweller/m336933-0003",
+          "sourceName": "Rolex United States",
+          "sourceType": "manufacturer"
+        }
+      ],
       "identitySources": [
         {
           "label": "Rolex reference source",
@@ -642,8 +1016,25 @@
       "collection": "Sky-Dweller",
       "reference": "336238",
       "path": "/collections/rolex/sky-dweller/336238",
-      "status": "research-pending",
-      "prices": [],
+      "status": "sourced-list-price",
+      "prices": [
+        {
+          "brand": "Rolex",
+          "reference": "336238",
+          "manufacturerReference": "m336238-0001",
+          "configuration": "Champagne dial / yellow gold / Oysterflex bracelet",
+          "amount": 51400,
+          "currency": "USD",
+          "market": "United States",
+          "taxBasis": "excluded",
+          "basis": "current-list",
+          "checkedAt": "2026-10-24",
+          "effectiveDate": null,
+          "sourceUrl": "https://www.rolex.com/en-us/watches/sky-dweller/m336238-0001",
+          "sourceName": "Rolex United States",
+          "sourceType": "manufacturer"
+        }
+      ],
       "identitySources": [
         {
           "label": "Rolex reference source",
@@ -656,8 +1047,25 @@
       "collection": "Sky-Dweller",
       "reference": "336235",
       "path": "/collections/rolex/sky-dweller/336235",
-      "status": "research-pending",
-      "prices": [],
+      "status": "sourced-list-price",
+      "prices": [
+        {
+          "brand": "Rolex",
+          "reference": "336235",
+          "manufacturerReference": "m336235-0004",
+          "configuration": "Slate dial / Everose gold / Oysterflex bracelet",
+          "amount": 53450,
+          "currency": "USD",
+          "market": "United States",
+          "taxBasis": "excluded",
+          "basis": "current-list",
+          "checkedAt": "2026-10-24",
+          "effectiveDate": null,
+          "sourceUrl": "https://www.rolex.com/en-us/watches/sky-dweller/m336235-0004",
+          "sourceName": "Rolex United States",
+          "sourceType": "manufacturer"
+        }
+      ],
       "identitySources": [
         {
           "label": "Rolex reference source",
@@ -684,8 +1092,25 @@
       "collection": "Sky-Dweller",
       "reference": "336938",
       "path": "/collections/rolex/sky-dweller/336938",
-      "status": "research-pending",
-      "prices": [],
+      "status": "sourced-list-price",
+      "prices": [
+        {
+          "brand": "Rolex",
+          "reference": "336938",
+          "manufacturerReference": "m336938-0003",
+          "configuration": "Intense white dial / yellow gold / Oyster bracelet",
+          "amount": 60100,
+          "currency": "USD",
+          "market": "United States",
+          "taxBasis": "excluded",
+          "basis": "current-list",
+          "checkedAt": "2026-10-24",
+          "effectiveDate": null,
+          "sourceUrl": "https://www.rolex.com/en-us/watches/sky-dweller/m336938-0003",
+          "sourceName": "Rolex United States",
+          "sourceType": "manufacturer"
+        }
+      ],
       "identitySources": [
         {
           "label": "Rolex reference source",
@@ -698,8 +1123,25 @@
       "collection": "Sky-Dweller",
       "reference": "336935",
       "path": "/collections/rolex/sky-dweller/336935",
-      "status": "research-pending",
-      "prices": [],
+      "status": "sourced-list-price",
+      "prices": [
+        {
+          "brand": "Rolex",
+          "reference": "336935",
+          "manufacturerReference": "m336935-0007",
+          "configuration": "Intense white dial / Everose gold / Jubilee bracelet",
+          "amount": 64900,
+          "currency": "USD",
+          "market": "United States",
+          "taxBasis": "excluded",
+          "basis": "current-list",
+          "checkedAt": "2026-10-24",
+          "effectiveDate": null,
+          "sourceUrl": "https://www.rolex.com/en-us/watches/sky-dweller/m336935-0007",
+          "sourceName": "Rolex United States",
+          "sourceType": "manufacturer"
+        }
+      ],
       "identitySources": [
         {
           "label": "Rolex reference source",
@@ -712,8 +1154,25 @@
       "collection": "Yacht-Master",
       "reference": "126622",
       "path": "/collections/rolex/yacht-master/126622",
-      "status": "research-pending",
-      "prices": [],
+      "status": "sourced-list-price",
+      "prices": [
+        {
+          "brand": "Rolex",
+          "reference": "126622",
+          "manufacturerReference": "m126622-0001",
+          "configuration": "Slate dial / steel and platinum / Oyster bracelet",
+          "amount": 13200,
+          "currency": "USD",
+          "market": "United States",
+          "taxBasis": "excluded",
+          "basis": "current-list",
+          "checkedAt": "2026-10-24",
+          "effectiveDate": null,
+          "sourceUrl": "https://www.rolex.com/en-us/watches/yacht-master/m126622-0001",
+          "sourceName": "Rolex United States",
+          "sourceType": "manufacturer"
+        }
+      ],
       "identitySources": [
         {
           "label": "Rolex reference source",
@@ -726,8 +1185,25 @@
       "collection": "Yacht-Master",
       "reference": "126621",
       "path": "/collections/rolex/yacht-master/126621",
-      "status": "research-pending",
-      "prices": [],
+      "status": "sourced-list-price",
+      "prices": [
+        {
+          "brand": "Rolex",
+          "reference": "126621",
+          "manufacturerReference": "m126621-0001",
+          "configuration": "Chocolate dial / steel and Everose gold / Oyster bracelet",
+          "amount": 19750,
+          "currency": "USD",
+          "market": "United States",
+          "taxBasis": "excluded",
+          "basis": "current-list",
+          "checkedAt": "2026-10-24",
+          "effectiveDate": null,
+          "sourceUrl": "https://www.rolex.com/en-us/watches/yacht-master/m126621-0001",
+          "sourceName": "Rolex United States",
+          "sourceType": "manufacturer"
+        }
+      ],
       "identitySources": [
         {
           "label": "Rolex reference source",
@@ -740,8 +1216,25 @@
       "collection": "Yacht-Master",
       "reference": "126655",
       "path": "/collections/rolex/yacht-master/126655",
-      "status": "research-pending",
-      "prices": [],
+      "status": "sourced-list-price",
+      "prices": [
+        {
+          "brand": "Rolex",
+          "reference": "126655",
+          "manufacturerReference": "m126655-0002",
+          "configuration": "Black dial / Everose gold / Oysterflex bracelet",
+          "amount": 37700,
+          "currency": "USD",
+          "market": "United States",
+          "taxBasis": "excluded",
+          "basis": "current-list",
+          "checkedAt": "2026-10-24",
+          "effectiveDate": null,
+          "sourceUrl": "https://www.rolex.com/en-us/watches/yacht-master/m126655-0002",
+          "sourceName": "Rolex United States",
+          "sourceType": "manufacturer"
+        }
+      ],
       "identitySources": [
         {
           "label": "Rolex reference source",
@@ -754,8 +1247,25 @@
       "collection": "Yacht-Master",
       "reference": "226659",
       "path": "/collections/rolex/yacht-master/226659",
-      "status": "research-pending",
-      "prices": [],
+      "status": "sourced-list-price",
+      "prices": [
+        {
+          "brand": "Rolex",
+          "reference": "226659",
+          "manufacturerReference": "m226659-0002",
+          "configuration": "Black dial / white gold / Oysterflex bracelet",
+          "amount": 40000,
+          "currency": "USD",
+          "market": "United States",
+          "taxBasis": "excluded",
+          "basis": "current-list",
+          "checkedAt": "2026-10-24",
+          "effectiveDate": null,
+          "sourceUrl": "https://www.rolex.com/en-us/watches/yacht-master/m226659-0002",
+          "sourceName": "Rolex United States",
+          "sourceType": "manufacturer"
+        }
+      ],
       "identitySources": [
         {
           "label": "Rolex reference source",
@@ -768,8 +1278,25 @@
       "collection": "Yacht-Master",
       "reference": "226658",
       "path": "/collections/rolex/yacht-master/226658",
-      "status": "research-pending",
-      "prices": [],
+      "status": "sourced-list-price",
+      "prices": [
+        {
+          "brand": "Rolex",
+          "reference": "226658",
+          "manufacturerReference": "m226658-0001",
+          "configuration": "Black dial / yellow gold / Oysterflex bracelet",
+          "amount": 38100,
+          "currency": "USD",
+          "market": "United States",
+          "taxBasis": "excluded",
+          "basis": "current-list",
+          "checkedAt": "2026-10-24",
+          "effectiveDate": null,
+          "sourceUrl": "https://www.rolex.com/en-us/watches/yacht-master/m226658-0001",
+          "sourceName": "Rolex United States",
+          "sourceType": "manufacturer"
+        }
+      ],
       "identitySources": [
         {
           "label": "Rolex reference source",
@@ -782,8 +1309,25 @@
       "collection": "Yacht-Master",
       "reference": "268622",
       "path": "/collections/rolex/yacht-master/268622",
-      "status": "research-pending",
-      "prices": [],
+      "status": "sourced-list-price",
+      "prices": [
+        {
+          "brand": "Rolex",
+          "reference": "268622",
+          "manufacturerReference": "m268622-0002",
+          "configuration": "Slate dial / 37 mm / steel and platinum / Oyster bracelet",
+          "amount": 12500,
+          "currency": "USD",
+          "market": "United States",
+          "taxBasis": "excluded",
+          "basis": "current-list",
+          "checkedAt": "2026-10-24",
+          "effectiveDate": null,
+          "sourceUrl": "https://www.rolex.com/en-us/watches/yacht-master/m268622-0002",
+          "sourceName": "Rolex United States",
+          "sourceType": "manufacturer"
+        }
+      ],
       "identitySources": [
         {
           "label": "Rolex reference source",
@@ -950,8 +1494,25 @@
       "collection": "Perpetual 1908",
       "reference": "52508",
       "path": "/collections/rolex/1908/52508",
-      "status": "research-pending",
-      "prices": [],
+      "status": "sourced-list-price",
+      "prices": [
+        {
+          "brand": "Rolex",
+          "reference": "52508",
+          "manufacturerReference": "m52508-0005",
+          "configuration": "Intense white dial / yellow gold / black alligator strap",
+          "amount": 28850,
+          "currency": "USD",
+          "market": "United States",
+          "taxBasis": "excluded",
+          "basis": "current-list",
+          "checkedAt": "2026-10-24",
+          "effectiveDate": null,
+          "sourceUrl": "https://www.rolex.com/en-us/watches/1908/m52508-0005",
+          "sourceName": "Rolex United States",
+          "sourceType": "manufacturer"
+        }
+      ],
       "identitySources": [
         {
           "label": "Rolex reference source",
@@ -3996,6 +4557,10 @@
       "identitySources": [
         {
           "label": "Reference identity and specifications",
+          "url": "https://www.franckmuller.com/fr/vanguard-encrypto-"
+        },
+        {
+          "label": "Franck Muller reference source",
           "url": "https://www.franckmuller.com/fr/vanguard-encrypto-"
         }
       ]

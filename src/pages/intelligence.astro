@@ -194,7 +194,7 @@ const sourcingHref = buildBeginYourQuestUrl({ intent: "request" });
         source.href = retailPrice.sourceUrl;
         source.target = "_blank";
         source.rel = "noopener noreferrer external";
-        source.textContent = `Manufacturer source · checked ${retailPrice.checkedAt} · U.S., before tax`;
+        source.textContent = `${retailPrice.configuration} · Manufacturer source · checked ${retailPrice.checkedAt} · U.S., before tax`;
         source.className = "retail-source";
         item.append(source);
       }
