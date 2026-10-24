@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-24T04:41:58.392088+00:00",
+  "updatedAt": "2026-10-24T05:26:35.209659+00:00",
   "reference": "V 45 SC DT BTC TT BR (NR)",
   "canonicalRoute": "/collections/franck-muller/vanguard-encrypto/v-45-sc-dt-btc-tt-br-nr",
   "status": "RESOLVED_LIVE_VERIFIED",
@@ -53,11 +53,11 @@
   "resolvedAt": "2026-10-24T04:34:04.361028+00:00",
   "resolution": "Complete Time Series native3000x4000 side-view original acquired; unredacted QR and no-diamond titanium/blackstrap configuration reviewed. Founder cleared exact original/derivative; all3archive hashes match.",
   "replacementSource": "https://timeserieswatch.com.my/product/franck-muller-30/",
-  "sourceEvidenceArchiveDriveId": "1KdDvVp7jnxH5lKoDHdwi9giE-lV4_ePJ",
+  "sourceEvidenceArchiveDriveId": "1_4q-CGnothiIqvMyGqx_f_XTN_PfgVnX",
   "sourceEvidenceRecord": "docs/PHOTOGRAPHY_ENCRYPTO_REVIEWED_2026-10-24.json",
   "productionRelease": {
-    "commit": "046043182b56afe7aca45d7ebb0e0f99efaace74",
-    "deployId": "dep-dbe3aj0473hc73bmqmt0",
+    "commit": "b69a40925966f90dc0918e274879dae9b3bb4640",
+    "deployId": "dep-dbe4170u01pc73e48bm0",
     "status": "LIVE",
     "referenceRoutesVerified": 297,
     "photographedReferenceRoutes": 297,
@@ -76,5 +76,7 @@
     "resume-20261024/timeseries-product-source.json",
     "resume-20261024/timeseries-native-acquisition.json"
   ],
-  "retainedQualityHolds": "Previously clipped, diamond-set, occluded, wrong-variant and redacted alternatives remain excluded. The accepted side view preserves its complete un-set titanium/blackstrap identity, including contrasting stitching."
+  "retainedQualityHolds": "Previously clipped, diamond-set, occluded, wrong-variant and redacted alternatives remain excluded. The accepted side view preserves its complete un-set titanium/blackstrap identity, including contrasting stitching.",
+  "currentForwardFacingReplacementRecord": "docs/PHOTOGRAPHY_ENCRYPTO_FORWARD_REPLACEMENT_2026-10-24.json",
+  "currentReplacementSource": "https://dream-watch.ae/en/swiss-watches/vanguard-encrypto2"
 }

@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-24T05:20:25.641766+00:00",
-  "status": "CLEARED_INTEGRATED_RELEASE_CHECKS_PENDING",
+  "updatedAt": "2026-10-24T05:26:35.209659+00:00",
+  "status": "LIVE_VERIFIED_FORWARD_FACING_REPLACEMENT",
   "request": "Founder explicitly disapproved the angled Time Series image and requested forward-facing watch with clear dial.",
   "rejectedAssetId": "cleared-20261024-franck-muller-encrypto-timeseries",
   "rejectedSourceImage": "/images/watches/franck-muller/reviewed-v-45-sc-dt-btc-tt-br-nr-20261024-web.webp",
@@ -44,11 +44,11 @@
     "webDriveFileId": "1OFnSu5p6yFDtPNUy8OEL8jWi6hsflZ6b",
     "sourceProvider": "Dream Watch product imagery",
     "qualityReview": "Straight-on dealer-supplied exact-reference view; dial and QR visible without glare or redaction. All supplied front-view watch/crown/strap silhouette retained inside white margins. Native1200x1440 source resolution stated honestly; no sharpened/generated/reconstructed detail or perspective warping.",
-    "publicationStatus": "Integrated; checks and deployment pending"
+    "publicationStatus": "LIVE and independently verified"
   },
   "pendingRightsQuestion": null,
-  "publication": "Forward-facing replacement integrated; release checks, production deployment and independent live review pending.",
-  "nextAction": "Record direct founder rights decision, replace only the existing Encrypto seed/image/configuration, run focused checks/build and exact live mapping plus desktop/mobile review; update same master, queue and checkpoint.",
+  "publication": "Founder-cleared forward-facing Dream Watch original replaces the angled Time Series hero on existing reference/collection pages. Live photo hash and desktop/mobile review pass.",
+  "nextAction": "Preserve original/rights/archive and release records; correction complete.",
   "rightsDecision": {
     "recordedAt": "2026-10-24T05:20:25.641766+00:00",
     "questionId": "call_441d0f9b351049c3bd832f97ecb5ae61",
@@ -105,5 +105,15 @@
     "sourceProvider": "Dream Watch product imagery",
     "reviewedAt": "2026-10-24",
     "assetId": "cleared-20261024-franck-muller-encrypto-forward-dream-watch"
+  },
+  "productionRelease": {
+    "commit": "b69a40925966f90dc0918e274879dae9b3bb4640",
+    "deployId": "dep-dbe4170u01pc73e48bm0",
+    "status": "LIVE",
+    "referenceRoutesVerified": 297,
+    "photographedReferenceRoutes": 297,
+    "queuedReferenceRoutes": 0,
+    "distinctPhotoFilesVerified": 293,
+    "photographedCollections": 104
   }
 }

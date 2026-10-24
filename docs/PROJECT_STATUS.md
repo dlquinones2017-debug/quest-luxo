@@ -1,5 +1,15 @@
 # Quest Luxo launch status
 
+## Verified watch-intelligence release — October 24, 2026
+
+Founder-approved PR #84 is merged at `6715a39940250b217020a1120a8df5bfad9e85a8`; Render deployment `dep-dbe4sjuk1f9s73eph9p0` is live. Decimal budgets, brand exclusions, shared-reference ranking identity and corrected display SKUs are verified. The first MSRP tranche covers 43/297 canonical reference URLs (46 priced configurations, plus the legacy Explorer 36); 254 references remain explicitly unpriced. All 46 published amounts were independently read from official manufacturer sources. Unstated tax basis and effective dates remain unconfirmed. Runtime-created search cards now receive their intended desktop/mobile styling.
+
+Live read-only checks verified all 297 reference pages, 104 collections and 293 delivered photo hashes, with no errors; all 43 priced references show their amount, configuration SKU and manufacturer source. Production keeps the approved forward-facing Encrypto photograph. Desktop/mobile search and inquiry surfaces passed; no test leads, customer-record reads or campaign actions occurred. See `WATCH_RETAIL_RELEASE_QA_2026-10-24.json` for route/hash evidence and validation. Consent draft PR #85 remains excluded from production.
+
+## Optional communications repair — October 24, 2026
+
+Separate optional newsletter, marketing-text and inquiry-text choices are implemented and locally verified on the existing inquiry forms, with versioned server receipt evidence and updated public disclosures. This change is not deployed. Social/WTS confirms the campaign remains rejected; its retained Brand Website URL, registration method and generated widget are still unavailable. Provider/carrier approval is not established. Social/WTS independently reviewed the manual-form implementation at `8c4bf97` and reported nine passing offline checks with no blocking defect. This does not establish registration approval. See `WTS_WEBSITE_CONSENT_REPAIR_2026-10-24.md` for verification and owner handoff. Production photography remains at the verified front-facing Encrypto release `b69a409` with 297/297 reference routes populated.
+
 ## Enterprise intake continuation — October 19, 2026
 
 Sprint 02 PR #65 is merged at `6af97d35ad2987d549020a60dfae1219bf908a38`; Render deploy `dep-dbauoj7lk1mc73d9cng0` was verified live. Runtime Gmail ingestion remains inactive. Production lead storage was observed at `/var/data/leads.jsonl`, but independent backup and production recoverability remain unverified.
@@ -493,3 +503,9 @@ October24 final-reference release: a complete, unredacted Time Series Encrypto V
 
 
 October24 verified photography completion: all297existing featured reference URLs across104collections now have reviewed, cleared authentic photographs LIVE in0460431 / dep-dbe3aj0473hc73bmqmt0. Independent public checks passed all297routes and293distinct delivered image hashes; final Encrypto desktop/mobile review passed with no captions/overlays or horizontal overflow.18focusedphotographytests, Astro0errors/0warnings18existinghints, queue/audit checks and production build passed. Canonical93-page Drive master updated in place;92historicalpages pixel-identical, newpage reviewed, cloudhash matched. Six additional unidentified uploads remain individually held with exact blockers/next actions in PHOTOGRAPHY_REMAINING_GAPS_2026-10-23.md. OriginalZIPrights and all source-specific clearances preserved. No speculative identity, fabricated imagery, test leads or customer record reads.
+
+
+October24 Encrypto correction: founder-disapproved angled Time Series hero replaced with the explicitly cleared Dream Watch forward-facing exact-reference image. Production b69a409 / dep-dbe4170u01pc73e48bm0 verified LIVE. Clear dial/QR, centered white canvas and accurate black rubber strap label reviewed on desktop/mobile.18focusedtests/Astro/audits/build pass;all297routes/293photo hashes pass. Existing public URLs and inquiry context preserved; no test leads. Prior rights/originals and six separate upload holds retained. Canonical master correction rendering/readback follows.
+
+
+Forward-facing correction documentation verified: canonical94-page master updated in place,93historicalpages pixel-identical and newcorrectionpage visually reviewed. Sixcanonical master/inventory/liveQA/queue/rights/finalreleaseQA readback hashes match; all3photoarchives and sourceevidencearchive match. Current photo release remains b69a409; documentation checkpoint saved on existing branch. No further photo approval required for this correction.

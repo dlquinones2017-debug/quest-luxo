@@ -4,7 +4,11 @@ import {
   type LeadIntent,
 } from "./leadIntakeContext.ts";
 
+import { normalizeCommunicationPreferences, type CommunicationPreferences, type CommunicationConsentEvidence } from "./leadCommunicationConsent.ts";
+
 export interface LeadCapturePayload {
+  readonly communicationPreferences?: CommunicationPreferences;
+  readonly communicationConsentEvidence?: CommunicationConsentEvidence;
   readonly name: string | null;
   readonly email: string | null;
   readonly phone: string | null;
@@ -21,6 +25,7 @@ export interface LeadCapturePayload {
 }
 
 export interface LeadCapturePayloadInput {
+  readonly communicationPreferences?: unknown;
   readonly name?: string | null;
   readonly email?: string | null;
   readonly phone?: string | null;
@@ -52,7 +57,10 @@ export function createLeadCapturePayload(
     reference: input.reference,
   });
 
+  const communicationPreferences = normalizeCommunicationPreferences(input.communicationPreferences);
+
   return Object.freeze({
+    ...(communicationPreferences ? { communicationPreferences } : {}),
     name: normalizeText(input.name),
     email: normalizeText(input.email),
     phone: normalizeText(input.phone),

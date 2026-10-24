@@ -10,6 +10,7 @@ import {
 } from "../brokerage/brokerageEconomicsSnapshot.ts";
 import { getQuestLuxoServerConfig } from "../config/questLuxoConfig.ts";
 import type { LeadCapturePayload } from "./leadCapture.ts";
+import { withServerCommunicationConsent } from "./leadCommunicationConsent.ts";
 import type { LeadEmailDeliveryResult } from "./leadEmail.ts";
 import {
   leadStatusValues,
@@ -180,7 +181,7 @@ const saveJsonlLeadSubmission = async (
     tags: [],
     tagsUpdatedAt: null,
     economicsSnapshots: [],
-    payload,
+    payload: withServerCommunicationConsent(payload, savedAt),
     savedAt,
     ...(emailDelivery ? { emailDelivery } : {}),
   });
