@@ -58,3 +58,45 @@ test('health withdraws recovery claims on audit staleness, receipt expiration or
     current=true;healthy=false;r=await get();assert.equal(r.independentBackupVerified,false);assert.equal(r.recoveryAuditAgent,'HELD');
   } finally {await new Promise(resolve=>server.close(resolve));}
 });
+
+const recurringState={...state,preparationRevision:'c'.repeat(64)};
+const recurringProof=()=>({version:1,clientId:'windows-recovery-primary',firstSuccessAt:'2026-10-21T21:15:08.602Z',lastSuccessAt:now,successfulCycles:2,
+  archives:[['intake',state.intakeRevision],['pipeline',state.pipelineRevision],['preparation',recurringState.preparationRevision]].map(([kind,revision])=>({kind,revision,sha256:'d'.repeat(64)})),
+  checkpointAuthenticated:true,recurringIndependentRetentionVerified:true,businessDataExecutionAllowed:false});
+test('fresh recurring proof binds all current revisions and supersedes a stale one-time receipt while retaining business hold',()=>{
+  const report=assessPilotRecovery(recurringState,{...receipt(),verifiedAt:'2026-10-19T00:00:00.000Z'},now,recurringProof());
+  assert.equal(report.independentBackupVerified,true);assert.equal(report.keyRecoveryVerified,true);
+  assert.equal(report.retention,'RECURRING_INDEPENDENT_COPIES');assert.equal(report.recurringOffsiteRetentionVerified,true);
+  assert.equal(report.recoveryValidUntil,'2026-10-22T09:16:08.602Z');assert.deepEqual(report.requiredActions,['AUTHORIZED_BUSINESS_SOURCE']);
+  for(const key of ['businessDataExecutionAllowed','changesProduction','dispatchesWork','sendsMessages','writesCRM','activatesGmail'])assert.equal(report[key],false);
+  for(const key of ['pipelineRevision','intakeRevision','preparationRevision']){
+    const mismatch=assessPilotRecovery({...recurringState,[key]:'e'.repeat(64)},null,now,recurringProof());
+    assert.equal(mismatch.independentBackupVerified,false);assert.equal(mismatch.recurringOffsiteRetentionVerified,false);
+  }
+  for(const time of ['2026-10-22T09:16:08.603Z','2026-10-21T21:16:08.601Z'])
+    assert.equal(assessPilotRecovery(recurringState,null,time,recurringProof()).recurringOffsiteRetentionVerified,false);
+  for(const key of ['storageVerified','localBackupVerified'])assert.equal(assessPilotRecovery({...recurringState,[key]:false},null,now,recurringProof()).recurringOffsiteRetentionVerified,false);
+});
+test('recurring assessor rejects fabricated shape, short cycles and absent preparation binding',()=>{
+  for(const patch of [{checkpointAuthenticated:false},{recurringIndependentRetentionVerified:false},{successfulCycles:1},{successfulCycles:2.5},
+    {clientId:'other-device'},{businessDataExecutionAllowed:true},{extra:true},{firstSuccessAt:'2026-10-21T21:15:09.000Z'},
+    {lastSuccessAt:'2026-10-21T21:16:08Z'},{archives:recurringProof().archives.slice(0,2)},
+    {archives:recurringProof().archives.map(a=>({...a,extra:true}))},{archives:[...recurringProof().archives].reverse()}])
+    assert.throws(()=>assessPilotRecovery(recurringState,null,now,{...recurringProof(),...patch}));
+  assert.throws(()=>assessPilotRecovery(state,null,now,recurringProof()));
+});
+test('only authenticated private checkpoint reader supplies recurring evidence across the script trust boundary',async()=>{
+  const {readRecurringCheckpoint}=await import('../scripts/pilot-backup-channel.mjs');
+  const {signPayload}=await import('../scripts/pilot-backup-protocol.mjs');
+  const root=await mkdtemp(join(tmpdir(),'recurring-recovery-'));await chmod(root,0o700);
+  const key=Buffer.alloc(32,17),file=join(root,'recurring-backup-checkpoint.json');
+  const {checkpointAuthenticated,recurringIndependentRetentionVerified,businessDataExecutionAllowed,...payload}=recurringProof();
+  try{
+    await writeFile(file,JSON.stringify({payload,signature:signPayload(key,payload)}),{mode:0o600});
+    const proof=await readRecurringCheckpoint(root,key,Date.parse(now));
+    assert.equal(assessPilotRecovery(recurringState,null,now,proof).recurringOffsiteRetentionVerified,true);
+    await writeFile(file,JSON.stringify({payload:{...payload,lastSuccessAt:'2026-10-21T21:16:08.603Z'},signature:signPayload(key,payload)}));
+    assert.equal(await readRecurringCheckpoint(root,key,Date.parse(now)),null);
+    assert.equal(assessPilotRecovery(recurringState,null,now,await readRecurringCheckpoint(root,key,Date.parse(now))).independentBackupVerified,false);
+  }finally{key.fill(0);await rm(root,{recursive:true,force:true});}
+});
