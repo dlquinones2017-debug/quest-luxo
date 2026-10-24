@@ -3,7 +3,7 @@
   "physicalSets": 8,
   "existingPublicURLs": 9,
   "archiveReadbacksVerified": 24,
-  "published": false,
+  "published": true,
   "records": [
     {
       "brand": "Ulysse Nardin",
@@ -19,7 +19,7 @@
       "whiteMasterDriveFileId": "1pWU8Vw2HTvHk6QP8Qo6Ew57Qf9Uq25Hb",
       "webDriveFileId": "1D7cv99aumoFtd5uFEJkxy3lbdIqve2h0",
       "preparedFile": "un-ap-three-prepared.json",
-      "rights": "Specific commercial original/white-derivative rights question pending. Do not publish before direct answer and release checks.",
+      "rights": "Source-specific founder answers recorded in PHOTOGRAPHY_EIGHT_RIGHTS_2026-10-24.json; LIVE release independently verified.",
       "quality": "Native original and finalwhiteWEB individually reviewed; all3archive hashes matched."
     },
     {
@@ -36,7 +36,7 @@
       "whiteMasterDriveFileId": "1ElqL7XbuhFyrZc7M-wrO27TK3pBiVAb0",
       "webDriveFileId": "1sWMjdLUkFqUsKkJEHarSQYI5Mo_raelg",
       "preparedFile": "un-ap-three-prepared.json",
-      "rights": "Specific commercial original/white-derivative rights question pending. Do not publish before direct answer and release checks.",
+      "rights": "Source-specific founder answers recorded in PHOTOGRAPHY_EIGHT_RIGHTS_2026-10-24.json; LIVE release independently verified.",
       "quality": "Native original and finalwhiteWEB individually reviewed; all3archive hashes matched."
     },
     {
@@ -54,7 +54,7 @@
       "whiteMasterDriveFileId": "1JnT8GTs__SWT0iZttzV5_H2kWu7zM03s",
       "webDriveFileId": "14ur_IbIF4JJ3ikLvJuBX-YBO8K2xJOvm",
       "preparedFile": "un-ap-three-prepared.json",
-      "rights": "Specific commercial original/white-derivative rights question pending. Do not publish before direct answer and release checks.",
+      "rights": "Source-specific founder answers recorded in PHOTOGRAPHY_EIGHT_RIGHTS_2026-10-24.json; LIVE release independently verified.",
       "quality": "Native original and finalwhiteWEB individually reviewed; all3archive hashes matched."
     },
     {
@@ -71,7 +71,7 @@
       "whiteMasterDriveFileId": "1P5QA0h5etCZaxWPUd_zYiu-HIAfO2vyO",
       "webDriveFileId": "1YKOqfUGQYo-4mFSeCG-UCOTwQTWFZ_gN",
       "preparedFile": "fm-un-omega-three-prepared.json",
-      "rights": "Specific commercial original/white-derivative rights question pending. Do not publish before direct answer and release checks.",
+      "rights": "Source-specific founder answers recorded in PHOTOGRAPHY_EIGHT_RIGHTS_2026-10-24.json; LIVE release independently verified.",
       "quality": "Native original and finalwhiteWEB individually reviewed; all3archive hashes matched."
     },
     {
@@ -88,7 +88,7 @@
       "whiteMasterDriveFileId": "1ePv3vYM-s2fxrEBZT7DsPiKDTFNUNj4p",
       "webDriveFileId": "1ECxd0giSEJoG8Yv39zH75rCpYDeLfX57",
       "preparedFile": "fm-un-omega-three-prepared.json",
-      "rights": "Specific commercial original/white-derivative rights question pending. Do not publish before direct answer and release checks.",
+      "rights": "Source-specific founder answers recorded in PHOTOGRAPHY_EIGHT_RIGHTS_2026-10-24.json; LIVE release independently verified.",
       "quality": "Native original and finalwhiteWEB individually reviewed; all3archive hashes matched."
     },
     {
@@ -105,7 +105,7 @@
       "whiteMasterDriveFileId": "1i5k-8cacosMALO6tHh8-csV0tqIhWk38",
       "webDriveFileId": "1Cw9A0UTRzGsb_gaUY6rhVgtyzXq_6l4n",
       "preparedFile": "fm-un-omega-three-prepared.json",
-      "rights": "Specific commercial original/white-derivative rights question pending. Do not publish before direct answer and release checks.",
+      "rights": "Source-specific founder answers recorded in PHOTOGRAPHY_EIGHT_RIGHTS_2026-10-24.json; LIVE release independently verified.",
       "quality": "Native original and finalwhiteWEB individually reviewed; all3archive hashes matched."
     },
     {
@@ -122,7 +122,7 @@
       "whiteMasterDriveFileId": "14sD0lXNLN1bhDAdmtQ7onKpw-1pMjlnC",
       "webDriveFileId": "1N2seAkClm7HLykCBnBo7ocEarPzg9y6Q",
       "preparedFile": "popeye-omega-two-prepared.json",
-      "rights": "Specific commercial original/white-derivative rights question pending. Do not publish before direct answer and release checks.",
+      "rights": "Source-specific founder answers recorded in PHOTOGRAPHY_EIGHT_RIGHTS_2026-10-24.json; LIVE release independently verified.",
       "quality": "Native original and finalwhiteWEB individually reviewed; all3archive hashes matched."
     },
     {
@@ -139,26 +139,20 @@
       "whiteMasterDriveFileId": "1WzrtKVaqY8kcEPQiDvkVD4_R1zfHim3w",
       "webDriveFileId": "1JqEMnK3L_cwKP__2LzdhsZvSWEeUf9bb",
       "preparedFile": "popeye-omega-two-prepared.json",
-      "rights": "Specific commercial original/white-derivative rights question pending. Do not publish before direct answer and release checks.",
+      "rights": "Source-specific founder answers recorded in PHOTOGRAPHY_EIGHT_RIGHTS_2026-10-24.json; LIVE release independently verified.",
       "quality": "Native original and finalwhiteWEB individually reviewed; all3archive hashes matched."
     }
   ],
   "otherHolds": [
-    {
-      "reference": "310.33.42.50.01.002",
-      "blocker": "Exact identifier unverified; founder intendedSKUanswerpending for manufacturer-verified310.32.42.50.01.002. Preserve currentURL; no silent substitution."
-    },
-    {
-      "reference": "429.NM.0170.RX",
-      "blocker": "Authentic makerfiledownload403;AlanFurmanoriginalwatermarkcrossesstrap;Jaztime650x850originalclipsbothstrapends;Bizaksourceisthesameclippedhublot7asset. Needgenuinecompleteunmarkedoriginal."
-    },
     {
       "reference": "V 45 SC DT BTC TT BR (NR)",
       "blocker": "Exactmanufacturer350x550originalcutstopstrapthroughFMlogo. Needcompleteexacttitaniumsource;othermaterialvariantsnotinterchangeable."
     }
   ],
   "unidentifiedUploadedAppearancesHeld": 6,
-  "status": "Rights answered directly; all eight sets integrated for nine URLs; checks passed, production verification pending",
+  "status": "All source-specific rights resolved; eight physical sets populate nine LIVE verified URLs",
   "rightsDecisionRecord": "docs/PHOTOGRAPHY_EIGHT_RIGHTS_2026-10-24.json",
-  "publicationPending": true
+  "publicationPending": false,
+  "liveCommit": "b9e8f0e6282dc8f0567d49c1afab9c3db292a3d8",
+  "liveDeploy": "dep-dbe2h7nlot8c73bas2ag"
 }

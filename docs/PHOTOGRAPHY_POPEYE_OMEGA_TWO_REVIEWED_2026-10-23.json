@@ -65,7 +65,7 @@
       "whiteMasterDriveFileId": "14sD0lXNLN1bhDAdmtQ7onKpw-1pMjlnC",
       "webDriveFileId": "1N2seAkClm7HLykCBnBo7ocEarPzg9y6Q",
       "archiveReadbackVerified": true,
-      "publicationStatus": "Integrated; release checks and production verification pending"
+      "publicationStatus": "LIVE; source/configuration/rights/archive hashes and delivered WEB verified"
     },
     {
       "name": "omega220-kenjo",
@@ -135,11 +135,11 @@
       "whiteMasterDriveFileId": "1WzrtKVaqY8kcEPQiDvkVD4_R1zfHim3w",
       "webDriveFileId": "1JqEMnK3L_cwKP__2LzdhsZvSWEeUf9bb",
       "archiveReadbackVerified": true,
-      "publicationStatus": "Integrated; release checks and production verification pending"
+      "publicationStatus": "LIVE; source/configuration/rights/archive hashes and delivered WEB verified"
     }
   ],
   "websitePublished": false,
-  "status": "All originals/derivatives directly cleared; visually reviewed and archive-hash verified. Integrated; release checks pending.",
+  "status": "LIVE; all public routes and delivered image hashes verified",
   "rights": {
     "questionId": "call_616184f3649749b38c2ad2dc9ca4e6cb",
     "directFounderAnswer": "Yes.",
@@ -158,5 +158,8 @@
         "rawSha256": "9dc45facc750946b1adf6239a573d5cabe9c35c221bfa776bab1ed53849323e1"
       }
     ]
-  }
+  },
+  "publicationStatus": "LIVE",
+  "liveCommit": "b9e8f0e6282dc8f0567d49c1afab9c3db292a3d8",
+  "liveDeploy": "dep-dbe2h7nlot8c73bas2ag"
 }

@@ -75,5 +75,11 @@
       "nextAction": "Obtain reliable edition/SKU evidence and complete original; do not attribute the unique piece to the standard model.",
       "rights": "ZIP originals and derivatives cleared; identity and quality remain mandatory."
     }
-  ]
+  ],
+  "verifiedLiveApprovedReferenceUrls": 296,
+  "verifiedLiveReferenceRoutes": 297,
+  "verifiedLivePhotoFiles": 292,
+  "liveCommit": "b9e8f0e6282dc8f0567d49c1afab9c3db292a3d8",
+  "liveDeploy": "dep-dbe2h7nlot8c73bas2ag",
+  "lastVerifiedAt": "2026-10-24T03:42:04.599114+00:00"
 }

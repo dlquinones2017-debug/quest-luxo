@@ -62,7 +62,7 @@
       "whiteMasterDriveFileId": "1pWU8Vw2HTvHk6QP8Qo6Ew57Qf9Uq25Hb",
       "webDriveFileId": "1D7cv99aumoFtd5uFEJkxy3lbdIqve2h0",
       "archiveReadbackVerified": true,
-      "publicationStatus": "Integrated; release checks and production verification pending"
+      "publicationStatus": "LIVE; source/configuration/rights/archive hashes and delivered WEB verified"
     },
     {
       "name": "un265-prestigetime",
@@ -125,7 +125,7 @@
       "whiteMasterDriveFileId": "1ElqL7XbuhFyrZc7M-wrO27TK3pBiVAb0",
       "webDriveFileId": "1sWMjdLUkFqUsKkJEHarSQYI5Mo_raelg",
       "archiveReadbackVerified": true,
-      "publicationStatus": "Integrated; release checks and production verification pending"
+      "publicationStatus": "LIVE; source/configuration/rights/archive hashes and delivered WEB verified"
     },
     {
       "name": "ap16202-wristaficionado",
@@ -184,11 +184,11 @@
       "whiteMasterDriveFileId": "1JnT8GTs__SWT0iZttzV5_H2kWu7zM03s",
       "webDriveFileId": "14ur_IbIF4JJ3ikLvJuBX-YBO8K2xJOvm",
       "archiveReadbackVerified": true,
-      "publicationStatus": "Integrated; release checks and production verification pending"
+      "publicationStatus": "LIVE; source/configuration/rights/archive hashes and delivered WEB verified"
     }
   ],
   "websitePublished": false,
-  "status": "All originals/derivatives directly cleared; visually reviewed and archive-hash verified. Integrated; release checks pending.",
+  "status": "LIVE; all public routes and delivered image hashes verified",
   "rights": {
     "questionId": "call_19e785b9ca7e47ba9a1672b85c8e220e",
     "directFounderAnswer": "Yes.",
@@ -213,5 +213,8 @@
         "rawSha256": "e151596d29621ab99148ba47a595be0cc50c44835981603ccdc81602dcc381c1"
       }
     ]
-  }
+  },
+  "publicationStatus": "LIVE",
+  "liveCommit": "b9e8f0e6282dc8f0567d49c1afab9c3db292a3d8",
+  "liveDeploy": "dep-dbe2h7nlot8c73bas2ag"
 }

@@ -1,10 +1,10 @@
 # Quest Luxo remaining photography gaps
 
-Built inventory:296of297 reference URLs have approved photographs;1remains. Independent LIVE verification follows deployment. No placeholder counts as photography.
+Verified LIVE inventory: 296 of 297 reference URLs have approved photographs; one remains. All 297 routes and 292 distinct delivered photo hashes passed. No placeholder counts as photography.
 
 | Reference and collection | Exact blocker | Next action |
 | --- | --- | --- |
-| [Franck Muller V 45 SC DT BTC TT BR (NR) — Vanguard Encrypto](https://questluxo.com/collections/franck-muller/vanguard-encrypto/v-45-sc-dt-btc-tt-br-nr) | Manufacturer and dedicated Encrypto350x550 cutouts truncate both strap sections. Three maker marketing graphics show rose-gold variants or incomplete framing. Rainbow Tech Watches/Chrono24 exact titanium candidates obscure the QR dial detail and/or strap with a display stand.12-24 candidate has a diamond Bitcoin motif/orange stitching and clipped strap, differing from the no-diamond black-stitch manufacturer configuration. | Obtain a genuine complete original of V45SCDTBTCTTBR(NR), no-diamond dial and black alligator/rubber strap, without redacted dial or obscuring stand; preserve source-specific rights, review/RAW/WHITE/WEB archive hashes and production verification. Never reconstruct cropped sections or restore redacted detail. |
+| [Franck Muller V 45 SC DT BTC TT BR (NR) â€” Vanguard Encrypto](https://questluxo.com/collections/franck-muller/vanguard-encrypto/v-45-sc-dt-btc-tt-br-nr) | Manufacturer and dedicated Encrypto350x550 cutouts truncate both strap sections. Three maker marketing graphics show rose-gold variants or incomplete framing. Rainbow Tech Watches/Chrono24 exact titanium candidates obscure the QR dial detail and/or strap with a display stand.12-24 candidate has a diamond Bitcoin motif/orange stitching and clipped strap, differing from the no-diamond black-stitch manufacturer configuration. | Obtain a genuine complete original of V45SCDTBTCTTBR(NR), no-diamond dial and black alligator/rubber strap, without redacted dial or obscuring stand; preserve source-specific rights, review/RAW/WHITE/WEB archive hashes and production verification. Never reconstruct cropped sections or restore redacted detail. |
 
 ## Six unidentified founder uploads
 

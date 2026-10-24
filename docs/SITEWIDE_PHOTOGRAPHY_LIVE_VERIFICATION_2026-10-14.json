@@ -1,10 +1,10 @@
 {
-  "verifiedAt": "2026-10-24T02:38:59.244402+00:00",
+  "verifiedAt": "2026-10-24T03:42:04.599114+00:00",
   "expectedDistinctReferenceRoutes": 297,
   "verifiedReferenceRoutes": 297,
-  "approvedDistinctReferenceRoutes": 285,
-  "verifiedDistinctPhotoFiles": 282,
-  "queuedDistinctReferenceRoutes": 12,
+  "approvedDistinctReferenceRoutes": 296,
+  "verifiedDistinctPhotoFiles": 292,
+  "queuedDistinctReferenceRoutes": 1,
   "errors": [],
   "pages": [
     {
@@ -324,7 +324,7 @@
     },
     {
       "route": "/collections/audemars-piguet/royal-oak/16202st",
-      "approved": false,
+      "approved": true,
       "status": "verified"
     },
     {
@@ -429,7 +429,7 @@
     },
     {
       "route": "/collections/hublot/big-bang/429-nm-0170-rx",
-      "approved": false,
+      "approved": true,
       "status": "verified"
     },
     {
@@ -459,7 +459,7 @@
     },
     {
       "route": "/collections/omega/speedmaster/310-33-42-50-01-002",
-      "approved": false,
+      "approved": true,
       "status": "verified"
     },
     {
@@ -748,13 +748,13 @@
       "status": "verified"
     },
     {
-      "route": "/collections/omega/seamaster/210-30-42-20-01-001",
+      "route": "/collections/omega/seamaster/522-92-44-20-04-001",
       "approved": true,
       "status": "verified"
     },
     {
-      "route": "/collections/omega/seamaster/522-92-44-20-04-001",
-      "approved": false,
+      "route": "/collections/omega/seamaster/210-30-42-20-01-001",
+      "approved": true,
       "status": "verified"
     },
     {
@@ -834,7 +834,7 @@
     },
     {
       "route": "/collections/omega/aqua-terra/220-53-38-20-10-001",
-      "approved": false,
+      "approved": true,
       "status": "verified"
     },
     {
@@ -844,7 +844,7 @@
     },
     {
       "route": "/collections/audemars-piguet/royal-oak-jumbo/16202st",
-      "approved": false,
+      "approved": true,
       "status": "verified"
     },
     {
@@ -983,6 +983,16 @@
       "status": "verified"
     },
     {
+      "route": "/collections/ulysse-nardin/marine/1506-150le-3-63-vb",
+      "approved": true,
+      "status": "verified"
+    },
+    {
+      "route": "/collections/ulysse-nardin/marine/266-67",
+      "approved": true,
+      "status": "verified"
+    },
+    {
       "route": "/collections/ulysse-nardin/marine/1183-310-40",
       "approved": true,
       "status": "verified"
@@ -995,16 +1005,6 @@
     {
       "route": "/collections/ulysse-nardin/marine/1183-310-3-40",
       "approved": true,
-      "status": "verified"
-    },
-    {
-      "route": "/collections/ulysse-nardin/marine/266-67",
-      "approved": false,
-      "status": "verified"
-    },
-    {
-      "route": "/collections/ulysse-nardin/marine/1506-150le-3-63-vb",
-      "approved": false,
       "status": "verified"
     },
     {
@@ -1033,6 +1033,11 @@
       "status": "verified"
     },
     {
+      "route": "/collections/ulysse-nardin/diver/265-90-3c-93",
+      "approved": true,
+      "status": "verified"
+    },
+    {
       "route": "/collections/ulysse-nardin/diver/1183-170-7m-92",
       "approved": true,
       "status": "verified"
@@ -1045,11 +1050,6 @@
     {
       "route": "/collections/ulysse-nardin/diver/1183-170-3-92",
       "approved": true,
-      "status": "verified"
-    },
-    {
-      "route": "/collections/ulysse-nardin/diver/265-90-3c-93",
-      "approved": false,
       "status": "verified"
     },
     {
@@ -1354,12 +1354,12 @@
     },
     {
       "route": "/collections/franck-muller/bamford-collaborations/v-45-sc-popeye-ltd-tt-nr-br-nr",
-      "approved": false,
+      "approved": true,
       "status": "verified"
     },
     {
       "route": "/collections/franck-muller/bamford-collaborations/7880-ch-pnts-nr",
-      "approved": false,
+      "approved": true,
       "status": "verified"
     },
     {
@@ -1810,6 +1810,11 @@
       "status": "verified"
     },
     {
+      "path": "/images/watches/audemars-piguet/reviewed-16202st-20261024-web.webp",
+      "sha256": "8630681f9ac24cfecdc9b6a33a306dd573c564f51b146ab98a17a72622ca29a5",
+      "status": "verified"
+    },
+    {
       "path": "/images/watches/audemars-piguet/reviewed-15400st-20261023-web.webp",
       "sha256": "bed326278d410a09d9ce779dcd27b652ea15fa3a7bb4421f79f43af8609e9890",
       "status": "verified"
@@ -1910,6 +1915,11 @@
       "status": "verified"
     },
     {
+      "path": "/images/watches/hublot/reviewed-429-nm-0170-rx-20261024-web.webp",
+      "sha256": "f7137e1f9c3a62f638f32cc620bc6c05c42090616acfd69f5febceb3edb33ef3",
+      "status": "verified"
+    },
+    {
       "path": "/images/watches/cartier/reviewed-wssa0029-white-web.webp",
       "sha256": "e12d2f446883985dc807a858b6b9cf1b6d48a4fdf9d5fd8ea8f50711dd530e4f",
       "status": "verified"
@@ -1932,6 +1942,11 @@
     {
       "path": "/images/watches/omega/omega-speedmaster-311-30-42-30-01-005-web.webp",
       "sha256": "78b25206c22b5e2d59289a23664d0c1be9881641189556833dfbb24b4a18e4e5",
+      "status": "verified"
+    },
+    {
+      "path": "/images/watches/omega/reviewed-310-32-42-50-01-002-20261024-web.webp",
+      "sha256": "92c4f23e03246c3626c932805709552fbadb6fd424b087304304557be48a2f35",
       "status": "verified"
     },
     {
@@ -2220,6 +2235,11 @@
       "status": "verified"
     },
     {
+      "path": "/images/watches/omega/reviewed-522-92-44-20-04-001-20261024-web.webp",
+      "sha256": "717626c1fdba6edacee453d56e944681f497271da512e161dd0c19598a7d0de4",
+      "status": "verified"
+    },
+    {
       "path": "/images/watches/omega/omega-seamaster-diver-300m-210-30-42-20-01-001-web.webp",
       "sha256": "d4c52129ef18076c8cef729fe7421bd27924f7aaa1f1de549943fdeac729de3c",
       "status": "verified"
@@ -2297,6 +2317,11 @@
     {
       "path": "/images/watches/omega/reviewed-220-10-30-20-09-001-white-web.webp",
       "sha256": "2001ad810b9b0d647c95911a7e7cf559d7308bf3bc4ebc391735f2b3ab525af0",
+      "status": "verified"
+    },
+    {
+      "path": "/images/watches/omega/reviewed-220-53-38-20-10-001-20261024-web.webp",
+      "sha256": "25a51caeac993641dace5879f24c70c9deb52f1256ebb177235f03a555a1edb7",
       "status": "verified"
     },
     {
@@ -2435,6 +2460,16 @@
       "status": "verified"
     },
     {
+      "path": "/images/watches/ulysse-nardin/reviewed-1506-150le-3-63-vb-20261024-web.webp",
+      "sha256": "7ddf04bf1f60d51e757950ca6c52c2d0278fb656a0a1cfe3a7c97f17a690347b",
+      "status": "verified"
+    },
+    {
+      "path": "/images/watches/ulysse-nardin/reviewed-266-67-20261024-web.webp",
+      "sha256": "334a23198013a770c29fbdb0f93982007442980ed39bd1df4e8e506a4f81878f",
+      "status": "verified"
+    },
+    {
       "path": "/images/watches/ulysse-nardin/ulysse-nardin-marine-torpilleur-1183-310-40-web.webp",
       "sha256": "f12a0f80f6eb0dde8b94b9c0df4106887f3f1922fa341732c61aa188125c911e",
       "status": "verified"
@@ -2467,6 +2502,11 @@
     {
       "path": "/images/watches/ulysse-nardin/founder-07-diver-chrono-white-web.webp",
       "sha256": "a94d96305438c13b65e45b8961293bdd879a44d780801396e084519549b381f1",
+      "status": "verified"
+    },
+    {
+      "path": "/images/watches/ulysse-nardin/reviewed-265-90-3c-93-20261024-web.webp",
+      "sha256": "8df1c1c69fe1b46f971dfbe8c68b0f849f2befb837c129672f3ad2f720ff4d35",
       "status": "verified"
     },
     {
@@ -2772,6 +2812,16 @@
     {
       "path": "/images/watches/franck-muller/reviewed-v-32-sc-at-fo-smurfette-rs-20261023-web.webp",
       "sha256": "8bf92d3843ee8a2054ac21f27ef717db09d7ac600e7fd7df5c846dcb9f24a85c",
+      "status": "verified"
+    },
+    {
+      "path": "/images/watches/franck-muller/reviewed-v-45-sc-popeye-ltd-tt-nr-br-nr-20261024-web.webp",
+      "sha256": "45d84b166491f1691bf7187452541234adfeaa8a17a3a0007fc65b2dfc880bd0",
+      "status": "verified"
+    },
+    {
+      "path": "/images/watches/franck-muller/reviewed-7880-ch-pnts-nr-20261024-web.webp",
+      "sha256": "7cf4642ef3696fa8876db517004aff1f8b00d17c22b29aecf4aa53a77200a209",
       "status": "verified"
     },
     {

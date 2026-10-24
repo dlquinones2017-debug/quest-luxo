@@ -1,0 +1,53 @@
+{
+  "updatedAt": "2026-10-24T03:52:01.384804+00:00",
+  "reference": "V 45 SC DT BTC TT BR (NR)",
+  "canonicalRoute": "/collections/franck-muller/vanguard-encrypto/v-45-sc-dt-btc-tt-br-nr",
+  "status": "QUALITY_AND_CONFIGURATION_HOLD",
+  "required": "Complete genuine no-diamond titanium black-dial Encrypto on black alligator/rubber strap, without redaction/occlusion/cropped strap. Source-specific rights and visual/archival/release verification remain mandatory for any replacement.",
+  "attempts": [
+    {
+      "source": "https://www.franckmuller.com/vanguard-encrypto-",
+      "evidence": "fm-encrypto-manufacturer-raw.img",
+      "blocker": "350x550makeroriginal truncates upper strap throughFMlogo."
+    },
+    {
+      "source": "https://franckmullerencrypto.com/product/45mm-titanium/",
+      "evidence": "encrypto-ti-acquisition.json",
+      "blocker": "350x550exact titanium cutout truncates both strapsections."
+    },
+    {
+      "source": "https://www.franckmuller.com/news/vanguard-encrypto-limited-edition",
+      "evidence": "encrypto-maker-three-acquisition.json",
+      "blocker": "Three marketing graphics show rose-gold variant and/or incomplete framing; no material substitution."
+    },
+    {
+      "source": "https://www.chrono24.com/franckmuller/franck-muller-bitcoin-limited-edition--id37341275.htm",
+      "evidence": "encrypto-chrono-acquisition.json",
+      "blocker": "Exact titanium candidates have gray redaction overQR dial detail and/or displaystand obscuring strap; boxed pose conceals strap."
+    },
+    {
+      "source": "https://grailzee.com/products/franck-muller-vanguard-v-45-sc-dt-btc-tt-br-nr",
+      "evidence": "encrypto-grailzee-source.json",
+      "blocker": "Listing title specifies additionalBCD suffix; not accepted as exact no-diamond configuration."
+    },
+    {
+      "source": "https://12-24.com/watches/franck_muller/ref-v-45-sc-dt-btc-tt-br",
+      "evidence": "encrypto-1224-acquisition.json",
+      "blocker": "DiamondBitcoin motif/orange-stitch variant with truncated strap differs from picturedno-diamond black-stitch target."
+    },
+    {
+      "source": "https://watchilove.com/2019/06/frank-muller-centurion-gold-encrypto/",
+      "evidence": "encrypto-watchilove-acquisition.json",
+      "blocker": "1713x2560genuine pressoriginal isOR-TTBRorange-accent/stitch variant and strap continues beyond crop; not a complete exact replacement."
+    },
+    {
+      "source": "https://masterhorologer.com/2019/06/28/franck-muller-vanguard-encrypto-limited-edition-the-worlds-first-functional-bitcoin-watch/",
+      "evidence": "encrypto-last-press-0.json",
+      "blocker": "Further2019pressset does not establish a complete exact target set; no approved replacement."
+    }
+  ],
+  "noGeneratedOrReconstructedImagery": true,
+  "fullPopulationComplete": false,
+  "unidentifiedFounderAppearancesHeld": 6,
+  "evidenceRoot": "C:\\Users\\CAU Student\\.codex\\visualizations\\2026\\10\\13\\01a13345-eaa8-79a3-a57b-c628ca753b40\\resume-20261023"
+}

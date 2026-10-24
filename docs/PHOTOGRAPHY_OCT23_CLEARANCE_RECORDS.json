@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-24T01:51:02.948613+00:00",
-  "purpose": "Preserve all direct founder exact-source rights decisions for these seven reviewed releases. This consolidates existing evidence and does not invent or expand permissions.",
+  "updatedAt": "2026-10-24T03:45:09.990172+00:00",
+  "purpose": "Preserve direct founder exact-source rights decisions across the ongoing October23/24 releases; prior evidence retained. No rights inferred from public accessibility.",
   "records": [
     {
       "confirmedAt": "2026-10-24T00:03:21.664025+00:00",
@@ -244,6 +244,141 @@
           "exactSKU": "IW545801",
           "sourceUrl": "https://www.iwc.com/us-en/watches/portugieser/iw545801-portugieser-hand-wound-tourbillon",
           "rawSha256": "360e3422c03ee153e5fffd7837f8d7e9944711d0498abe76444deb18078b0c86"
+        }
+      ]
+    },
+    {
+      "approved": true,
+      "questionId": "call_8f5f4c2a4aa24f1ca43d3c67f3fe2b3d",
+      "directFounderAnswer": "Yes",
+      "restrictionStatus": "No restrictions specified in direct answer.",
+      "sourceLedgerDriveFileId": "1TRa9D7VCuE2zv1HNEVBrwNDwpagw9Wuj",
+      "references": [
+        "M28600-0005",
+        "74000",
+        "79280",
+        "1183-126-7M/42",
+        "RM 27-05"
+      ]
+    },
+    {
+      "approved": true,
+      "questionId": "call_220131d0cbd843e2807272b978d968a0",
+      "directFounderAnswer": "Yes.",
+      "restrictionStatus": "No restrictions specified in direct answer.",
+      "references": [
+        "RM 67-01",
+        "210.62.42.20.03.001",
+        "131.63.41.21.03.001",
+        "PAM00502"
+      ]
+    },
+    {
+      "approved": true,
+      "questionId": "call_30e10e821cae43b5875d77bae9aaa959",
+      "directFounderAnswer": "Yes.",
+      "restrictionStatus": "No restrictions specified in direct answer.",
+      "references": [
+        "4200H/222A-B934",
+        "542.CM.1171.RX",
+        "411.OX.1180.RX",
+        "RM11-03",
+        "232.63.42.21.01.001"
+      ]
+    },
+    {
+      "questionId": "call_19e785b9ca7e47ba9a1672b85c8e220e",
+      "directFounderAnswer": "Yes.",
+      "restrictions": "No additional restrictions stated in answer.",
+      "references": [
+        {
+          "reference": "1506-150LE-3/63-VB",
+          "exactSKU": "1506-150LE-3/63-VB",
+          "sourceUrl": "https://www.prestigetime.com/Ulysse-Nardin-Marine-Chronograph-Manufacture-43mm-1506-150LE-3-63-vb-VOYAGE-BLEU.html",
+          "rawSha256": "e32723fb446c14e08faf74dd717749872d4ddcfec82b619e2ecc30775ff2368b"
+        },
+        {
+          "reference": "265-90-3c/93",
+          "exactSKU": "265-90-3c/93",
+          "sourceUrl": "https://www.prestigetime.com/Ulysse-Nardin-Maxi-Marine-Diver-Titanium-45mm-265-90-3c-93.html",
+          "rawSha256": "19e5b653095f4029b56a67be16f5b8291f34d6c6ae6ab0c377b64020d2bedc25"
+        },
+        {
+          "reference": "16202ST",
+          "exactSKU": "16202ST.OO.1240ST.02",
+          "sourceUrl": "https://wristaficionado.com/products/audemars-piguet-royal-oak-16202st-oo-1240st-02-jumbo-extra-thin-stainless-steel-blue-dial-2025",
+          "rawSha256": "e151596d29621ab99148ba47a595be0cc50c44835981603ccdc81602dcc381c1"
+        }
+      ]
+    },
+    {
+      "questionId": "call_f7a35345aa0b4cb19e7a6b67dfdffeb4",
+      "directFounderAnswer": "Yes.",
+      "restrictions": "No additional restrictions stated in answer.",
+      "references": [
+        {
+          "reference": "7880 CH PNTS NR",
+          "exactSKU": "7880 CH PNTS NR",
+          "sourceUrl": "https://www.timekeepers.club/articles/novelties/franck-muller-x-bamford-crazy-love-snoopy",
+          "rawSha256": "1ab90e4c7e82530f7f1335efcdd8ede1b0093dec97deccbce60b6f1c4fa41d70"
+        },
+        {
+          "reference": "266-67",
+          "exactSKU": "266-67-3/43",
+          "sourceUrl": "https://www.prestigetime.com/Ulysse-Nardin-Maxi-Marine-Chronometer-43mm-266-67-3-43.html",
+          "rawSha256": "b747936248a894f2769995776a362db113dea2a0dcca5ab13fa346b94755332b"
+        },
+        {
+          "reference": "522.92.44.20.04.001",
+          "exactSKU": "522.92.44.20.04.001",
+          "sourceUrl": "https://www.jomashop.com/omega-seamaster-diver-300m-automatic-chronometer-mens-watch-522-92-44-20-04-001.html",
+          "rawSha256": "d34345fc0fd7f7ae0fe42e47519b92861bd93e2ea13464e45236724f8e4cdb60"
+        }
+      ]
+    },
+    {
+      "questionId": "call_616184f3649749b38c2ad2dc9ca4e6cb",
+      "directFounderAnswer": "Yes.",
+      "restrictions": "No additional restrictions stated in answer.",
+      "references": [
+        {
+          "reference": "V 45 SC POPEYE LTD TT NR BR NR",
+          "exactSKU": "V 45 SC POPEYE LTD TT NR BR NR",
+          "sourceUrl": "https://timekeepers.club/articles/novelties/franck-muller-x-bamford-popeye-vanguard-c-black-titanium-or-rose-gold",
+          "rawSha256": "c7d0513adba74596953e1184ac5a491043b9daf5f01f99d9f7168164732f44b8"
+        },
+        {
+          "reference": "220.53.38.20.10.001",
+          "exactSKU": "220.53.38.20.10.001",
+          "sourceUrl": "https://kenjo.net/products/220-53-38-20-10-001",
+          "rawSha256": "9dc45facc750946b1adf6239a573d5cabe9c35c221bfa776bab1ed53849323e1"
+        }
+      ]
+    },
+    {
+      "confirmedAt": "2026-10-24T03:30:07.495745+00:00",
+      "questionId": "call_ca0ab48a5df347fd954c0e9f2049935c",
+      "directFounderAnswer": "Yes",
+      "restrictionStatement": "No additional restrictions stated in answer.",
+      "moonwatchIdentityDecision": {
+        "questionId": "call_e87486c5aa6f428d980c2a11d943d418",
+        "directFounderAnswer": "Use verified 310.32.42.50.01.002",
+        "legacyReferenceKey": "310.33.42.50.01.002",
+        "verifiedDisplayedReference": "310.32.42.50.01.002",
+        "preserveExistingURL": true
+      },
+      "references": [
+        {
+          "reference": "429.NM.0170.RX",
+          "exactSKU": "429.NM.0170.RX",
+          "sourceUrl": "https://12-24.com/watches/hublot/ref-429-nm-0170-rx",
+          "rawSha256": "bda385c97617079b4d580f8742da420fcb5d5ae0e83876e7c01e95f85cb07585"
+        },
+        {
+          "reference": "310.33.42.50.01.002",
+          "exactSKU": "310.32.42.50.01.002",
+          "sourceUrl": "https://brentmiller.com/products/moonwatch-professional-co-axial-master-chronometer-chronograph-42-mm-1",
+          "rawSha256": "1db95f81b063f0886cd51f841816673cdeeb9c0531b4651d56bc40c64de3f27e"
         }
       ]
     }
