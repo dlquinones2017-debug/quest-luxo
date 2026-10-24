@@ -1,0 +1,35 @@
+{
+  "version": 5,
+  "template": "pilot-command-orchestrator",
+  "id": "pilot-command-orchestrator",
+  "roleId": "command-orchestrator",
+  "owner": "Denzel Quinones",
+  "outcomes": [
+    "Coordinate verified public operations, synthetic recovery and the disabled model policy into a bounded internal recommendation queue"
+  ],
+  "inputs": [
+    "verified-public-operations-brief",
+    "pilot-recovery-assessment",
+    "model-execution-policy"
+  ],
+  "authorizedTools": [
+    "pilot-command.assess"
+  ],
+  "permissions": {
+    "mode": "PILOT_LOCAL_READ_ONLY",
+    "externalWrites": false,
+    "gmail": false,
+    "crm": false,
+    "production": false
+  },
+  "evidence": {
+    "approvalRef": "Founder-standing-execution-2026-10-21",
+    "architectureRef": "PR68@a13f374b085b29127f86f29a43b79ee9b71bfbae"
+  },
+  "outputSchema": "pilot-command-queue-v1",
+  "errorPolicy": "HOLD",
+  "evaluation": {
+    "expectedStatus": "HOLD",
+    "expectedSourceCount": 3
+  }
+}

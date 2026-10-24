@@ -1,0 +1,173 @@
+import { readFile, mkdir, writeFile, rm, rename, mkdtemp } from "node:fs/promises";
+import { fileURLToPath } from "node:url";
+import { join, resolve } from "node:path";
+import { QLUX_AGENTIC_TEAM } from "./qluxAgenticTeam.ts";
+import { createHash } from "node:crypto";
+
+const root = fileURLToPath(new URL("../../../", import.meta.url));
+const blueprint = "docs/ENTERPRISE_AGENTIC_OPERATING_BLUEPRINT_2026-10-19.md";
+const slug = (name: string) => name.toLowerCase().replace(/&/g, "and").replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+export type FactoryRole = { readonly id: string; readonly name: string; readonly status: "EXISTING_CAPABILITY" | "PROPOSED" };
+
+/** Reuse the existing 26-role registry and the 31 proposed titles in PR #68, without activating them. */
+export async function loadFactoryRoster(): Promise<readonly FactoryRole[]> {
+  const doc = await readFile(join(root, blueprint), "utf8");
+  if (createHash("sha256").update(doc).digest("hex") !== "fba35586c6ac58008ba9e52ad73c12e35cb6226cb8001125026a113baa31fefe")
+    throw Error("Pinned PR #68 blueprint integrity failure; review architecture changes explicitly.");
+  const proposed = doc.split("## Proposed additional named agents and responsibilities")[1]?.split("## Enterprise cohesion")[0];
+  if (!proposed) throw Error("Source blueprint unavailable.");
+  const titles: string[] = [];
+  for (const line of proposed.split("\n")) {
+    const cells = line.split("|").map(c => c.trim());
+    if (/^\| (SHARED_OPERATIONS|SHARED_FINANCE|MARKETING|LUXURY_ADVISORY|REALTY|CAPITAL_ADVISORY) \|/.test(line)) titles.push(cells[2]!);
+    else if (/^\| \*\*/.test(line)) titles.push(cells[1]!.replaceAll("**", ""));
+  }
+  const roles: FactoryRole[] = [
+    ...QLUX_AGENTIC_TEAM.map(role => ({ id: role.id, name: role.name, status: "EXISTING_CAPABILITY" as const })),
+    ...titles.map(name => ({ id: slug(name), name, status: "PROPOSED" as const })),
+  ];
+  if (roles.length !== 57 || new Set(roles.map(r => r.id)).size !== 57) throw Error("57-role source roster integrity failure.");
+  return Object.freeze(roles.map(r => Object.freeze(r)));
+}
+
+export interface FactorySpec {
+  version: 1 | 2 | 3 | 4 | 5 | 6;
+  template?: "readiness" | "founder-brief" | "website-health" | "public-incident-triage" | "public-operations-brief" | "pilot-recovery-audit" | "pilot-command-orchestrator" | "luxury-qualification" | "realty-economics" | "capital-package";
+  id: string;
+  roleId: string;
+  owner: string;
+  outcomes: readonly string[];
+  inputs: readonly string[];
+  authorizedTools: readonly string[];
+  permissions: { mode: "SYNTHETIC_READ_ONLY" | "PUBLIC_READ_ONLY" | "PILOT_LOCAL_READ_ONLY"; externalWrites: false; gmail: false; crm: false; production: false };
+  evidence: { approvalRef: string; architectureRef: "PR68@a13f374b085b29127f86f29a43b79ee9b71bfbae" };
+  outputSchema: "manual-pipeline-report-v1" | "agent-readiness-report-v1" | "founder-operations-brief-v1" | "public-website-health-v1" | "public-operational-incidents-v1" | "public-operations-brief-v1" | "pilot-recovery-audit-v1" | "pilot-command-queue-v1" | "division-decision-preview-v1";
+  errorPolicy: "HOLD";
+  evaluation: { capitalTotal: number; capitalBlocked: number; realtyTotal: number; realtyFounderReview: number } |
+    { expectedStatus: "HOLD"; requiredActions: readonly ["KEY_RECOVERY", "RETENTION_POLICY", "SOURCE_SCOPE"] } |
+    { expectedTargets: 3; expectedStatus: "RESPONDING" } | { expectedStatus: "ATTENTION" | "READY_FOR_REVIEW"; expectedIncidents: 2 } |
+    { expectedStatus: "HOLD"; expectedReceipt: "MISSING" } | { expectedStatus: "HOLD"; expectedSourceCount: 3 } | { expectedStatus: "HOLD" | "READY_FOR_FOUNDER_REVIEW" };
+}
+const text = (s: unknown) => typeof s === "string" && s.trim().length > 0 && s.length <= 300 && !/[\x00-\x1f]/.test(s);
+function exact(value: object, fields: readonly string[]) {
+  if (!value || typeof value !== "object" || Array.isArray(value) || Object.keys(value).some(k => !fields.includes(k)) || fields.some(k => !(k in value)))
+    throw Error("Unexpected or missing specification field.");
+}
+export async function validateFactorySpec(input: unknown): Promise<FactorySpec> {
+  if (!input || typeof input !== "object") throw Error("Agent specification required.");
+  const spec = input as FactorySpec;
+  const fields = ["version", "id", "roleId", "owner", "outcomes", "inputs", "authorizedTools", "permissions", "evidence", "outputSchema", "errorPolicy", "evaluation"];
+  exact(spec, spec.version >= 2 ? [...fields, "template"] : fields);
+  if (![1, 2, 3, 4, 5, 6].includes(spec.version) || typeof spec.id !== "string" || !/^[a-z][a-z0-9-]{2,63}$/.test(spec.id) || !text(spec.owner) ||
+      !Array.isArray(spec.outcomes) || spec.outcomes.length < 1 || spec.outcomes.length > 10 || !spec.outcomes.every(text) ||
+      spec.errorPolicy !== "HOLD") throw Error("Unsupported agent specification.");
+  const roles = await loadFactoryRoster();
+  if (!roles.some(r => r.id === spec.roleId)) throw Error("Unregistered role; hold for architecture review.");
+  const supported = ["lead-operations", "reliability-qa-and-incident-response-agent", "founder-chief-of-staff-and-approval-agent", "website-product", "enterprise-risk", "command-orchestrator", "luxury-client-qualification", "realty-underwriting", "capital-deal-packaging"];
+  if (!supported.includes(spec.roleId)) throw Error("No validated template for this role; hold for implementation review.");
+  exact(spec.permissions, ["mode", "externalWrites", "gmail", "crm", "production"]);
+  if (spec.permissions.mode !== (spec.version === 6 ? "SYNTHETIC_READ_ONLY" : spec.version >= 4 ? "PILOT_LOCAL_READ_ONLY" : spec.version === 3 ? "PUBLIC_READ_ONLY" : "SYNTHETIC_READ_ONLY") || [spec.permissions.externalWrites, spec.permissions.gmail, spec.permissions.crm, spec.permissions.production].some(v => v !== false))
+    throw Error("Factory cannot grant runtime permissions.");
+  exact(spec.evidence, ["approvalRef", "architectureRef"]);
+  if (!text(spec.evidence.approvalRef) || spec.evidence.architectureRef !== "PR68@a13f374b085b29127f86f29a43b79ee9b71bfbae") throw Error("Approval and architecture provenance required.");
+  // Only implemented, role-bound templates can be generated. Declared tools never become executable code.
+  if (spec.version === 1) {
+    if (spec.roleId !== "lead-operations") throw Error("Operations template requires its registered role.");
+    if (JSON.stringify(spec.inputs) !== '["synthetic-pipeline-fixture"]' || JSON.stringify(spec.authorizedTools) !== '["pipeline.aggregate-report"]' ||
+        spec.outputSchema !== "manual-pipeline-report-v1") throw Error("Unsupported agent specification.");
+    const expected = { capitalTotal: 1, capitalBlocked: 1, realtyTotal: 1, realtyFounderReview: 1 };
+    exact(spec.evaluation, Object.keys(expected));
+    if (Object.entries(expected).some(([k, v]) => (spec.evaluation as Record<string, unknown>)[k] !== v)) throw Error("Reviewed evaluation fixture required.");
+  } else if (spec.version === 6) {
+    const policy = spec.template === "luxury-qualification" ? { role: "luxury-client-qualification", status: "HOLD" } :
+      spec.template === "realty-economics" ? { role: "realty-underwriting", status: "READY_FOR_FOUNDER_REVIEW" } :
+      spec.template === "capital-package" ? { role: "capital-deal-packaging", status: "HOLD" } : null;
+    if (!policy || spec.roleId !== policy.role || spec.outputSchema !== "division-decision-preview-v1" ||
+        JSON.stringify(spec.inputs) !== '["synthetic-division-fixture"]' || JSON.stringify(spec.authorizedTools) !== '["division.preview"]')
+      throw Error("Division template requires its fixed role and synthetic-only inputs.");
+    exact(spec.evaluation, ["expectedStatus"]);
+    if ((spec.evaluation as { expectedStatus: unknown }).expectedStatus !== policy.status) throw Error("Reviewed division fixture required.");
+  } else if (spec.version === 5) {
+    if (spec.template !== "pilot-command-orchestrator" || spec.roleId !== "command-orchestrator" || spec.outputSchema !== "pilot-command-queue-v1" ||
+        JSON.stringify(spec.inputs) !== '["verified-public-operations-brief","pilot-recovery-assessment","model-execution-policy"]' ||
+        JSON.stringify(spec.authorizedTools) !== '["pilot-command.assess"]') throw Error("Command template requires its fixed role and report-only inputs.");
+    exact(spec.evaluation, ["expectedStatus", "expectedSourceCount"]);
+    const expected = spec.evaluation as { expectedStatus: unknown; expectedSourceCount: unknown };
+    if (expected.expectedStatus !== "HOLD" || expected.expectedSourceCount !== 3) throw Error("Reviewed coordination fixture required.");
+  } else if (spec.version === 4) {
+    if (spec.template !== "pilot-recovery-audit" || spec.roleId !== "reliability-qa-and-incident-response-agent" ||
+        spec.outputSchema !== "pilot-recovery-audit-v1" || JSON.stringify(spec.inputs) !== '["isolated-pilot-storage-state","operator-recovery-receipt"]' ||
+        JSON.stringify(spec.authorizedTools) !== '["pilot-recovery.assess"]') throw Error("Recovery auditor requires its fixed pilot-local role and tool.");
+    exact(spec.evaluation, ["expectedStatus", "expectedReceipt"]);
+    const expected = spec.evaluation as { expectedStatus: unknown; expectedReceipt: unknown };
+    if (expected.expectedStatus !== "HOLD" || expected.expectedReceipt !== "MISSING") throw Error("Reviewed missing-recovery fixture required.");
+  } else if (spec.version === 3) {
+    const policy = spec.template === "website-health" ? {
+      role: "website-product", output: "public-website-health-v1", inputs: ["approved-public-website-targets"], tools: ["public-http.head"],
+      evaluation: { expectedTargets: 3, expectedStatus: "RESPONDING" },
+    } : spec.template === "public-incident-triage" ? {
+      role: "enterprise-risk", output: "public-operational-incidents-v1", inputs: ["approved-public-website-report"], tools: ["public-health.triage"],
+      evaluation: { expectedStatus: "ATTENTION", expectedIncidents: 2 },
+    } : spec.template === "public-operations-brief" ? {
+      role: "founder-chief-of-staff-and-approval-agent", output: "public-operations-brief-v1",
+      inputs: ["approved-public-website-report", "public-operational-incidents"], tools: ["public-health.brief"],
+      evaluation: { expectedStatus: "READY_FOR_REVIEW", expectedIncidents: 2 },
+    } : null;
+    if (!policy || spec.roleId !== policy.role || spec.outputSchema !== policy.output ||
+        JSON.stringify(spec.inputs) !== JSON.stringify(policy.inputs) || JSON.stringify(spec.authorizedTools) !== JSON.stringify(policy.tools))
+      throw Error("Public template requires fixed targets and its registered role/tool boundary.");
+    exact(spec.evaluation, Object.keys(policy.evaluation));
+    if (Object.entries(policy.evaluation).some(([key,value]) => (spec.evaluation as Record<string,unknown>)[key] !== value))
+      throw Error("Reviewed public HTTP fixture required.");
+  } else {
+    const readiness = spec.template === "readiness";
+    if ((!readiness && spec.template !== "founder-brief") ||
+        spec.roleId !== (readiness ? "reliability-qa-and-incident-response-agent" : "founder-chief-of-staff-and-approval-agent") ||
+        spec.outputSchema !== (readiness ? "agent-readiness-report-v1" : "founder-operations-brief-v1") ||
+        JSON.stringify(spec.inputs) !== JSON.stringify(readiness ? ["synthetic-readiness-fixture"] : ["synthetic-pipeline-fixture", "synthetic-readiness-fixture"]) ||
+        JSON.stringify(spec.authorizedTools) !== JSON.stringify(readiness ? ["readiness.assess"] : ["pipeline.aggregate-report", "readiness.assess", "founder.aggregate-brief"]))
+      throw Error("Template, role, inputs and tools must match a validated implementation.");
+    exact(spec.evaluation, ["expectedStatus", "requiredActions"]);
+    const expected = spec.evaluation as { expectedStatus: unknown; requiredActions: unknown };
+    if (expected.expectedStatus !== "HOLD" || JSON.stringify(expected.requiredActions) !== '["KEY_RECOVERY","RETENTION_POLICY","SOURCE_SCOPE"]')
+      throw Error("Reviewed readiness fixture required.");
+  }
+  return structuredClone(spec);
+}
+
+/** Creates reviewable source only. No subprocess, network, credentials, PR merge, or deploy capability. */
+export async function generateAgentPackage(input: unknown) {
+  const started = performance.now();
+  const spec = await validateFactorySpec(input);
+  const parent = join(root, "agent-packages");
+  await mkdir(parent, { recursive: true });
+  const target = join(parent, spec.id);
+  // The parent is a repository-controlled source directory, never caller-selected.
+  const { lstat, realpath } = await import("node:fs/promises");
+  if ((await lstat(parent)).isSymbolicLink() || await realpath(parent) !== resolve(parent)) throw Error("Unsafe package directory.");
+  const staging = await mkdtemp(join(parent, ".factory-"));
+  const config = JSON.stringify(spec, null, 2) + "\n";
+  const runtimeEntry = spec.version === 5 ? "runApprovedPilotCommandAgent" : spec.version === 4 ? "runApprovedPilotRecoveryAgent" : spec.version !== 3 ? "runFactoryAgent" : spec.template === "public-incident-triage" ? "runApprovedPublicIncidentAgent" : spec.template === "public-operations-brief" ? "runApprovedPublicOperationsAgent" : "runApprovedPublicWebsiteAgent";
+  const runner = `import { readFile } from "node:fs/promises";\nimport { ${runtimeEntry} } from "../../scripts/factory-agent-runtime.mjs";\nconst spec = JSON.parse(await readFile(new URL("./agent.json", import.meta.url), "utf8"));\nconsole.log(JSON.stringify(await ${runtimeEntry}(spec), null, 2));\n`;
+  const assertions = spec.version === 6 ?
+    `  assert.equal(result.report.mode, "DECISION_PREVIEW_ONLY");\n  assert.equal(result.report.status, "${(spec.evaluation as { expectedStatus: string }).expectedStatus}");\n  assert.equal(result.report.template, "${spec.template}");\n  assert.equal(result.report.businessDataExecutionAllowed, false);\n  assert.equal(result.report.modelApiRequestsAllowed, false);\n  assert.equal(result.report.submitsApplications, false);\n  assert.equal(result.report.makesOffers, false);\n` : spec.version === 5 ?
+    `  assert.equal(result.report.mode, "PILOT_LOCAL_READ_ONLY");\n  assert.equal(result.report.status, "HOLD");\n  assert.equal(result.report.sourceCount, 3);\n  assert.equal(result.report.modelExecution, "DISABLED_ZERO_BUDGET");\n  assert.equal(result.report.dispatchesWork, false);\n  assert.equal(result.report.businessDataExecutionAllowed, false);\n` : spec.version === 4 ?
+    `  assert.equal(result.report.mode, "PILOT_LOCAL_READ_ONLY");\n  assert.equal(result.report.status, "HOLD");\n  assert.equal(result.report.recoveryReceipt, "MISSING");\n  assert.equal(result.report.independentBackupVerified, false);\n  assert.equal(result.report.businessDataExecutionAllowed, false);\n` : spec.version === 3 && spec.template !== "website-health" ?
+    `  assert.equal(result.report.mode, "PUBLIC_READ_ONLY");\n  assert.equal(result.report.incidentCount, 2);\n  assert.equal(result.report.status, "${spec.template === "public-incident-triage" ? "ATTENTION" : "READY_FOR_REVIEW"}");\n  assert.equal(result.report.dispatchesWork, false);\n  assert.equal(result.report.businessDataExecutionAllowed, false);\n` : spec.version === 3 ?
+    `  assert.equal(result.report.mode, "PUBLIC_READ_ONLY");\n  assert.equal(result.report.status, "RESPONDING");\n  assert.equal(result.report.checked, 3);\n  assert.equal(result.report.changesProduction, false);\n  assert.equal(result.report.businessDataExecutionAllowed, false);\n` : spec.version === 1 ?
+    `  assert.deepEqual(result.report.divisions.map(r => [r.total, r.blocked, r.founderReview]), [[1,1,0],[1,0,1]]);\n` :
+    `  assert.equal(result.report.status, "HOLD");\n  assert.deepEqual(result.report.requiredActions, ["KEY_RECOVERY", "RETENTION_POLICY", "SOURCE_SCOPE"]);\n  assert.equal(result.report.businessDataExecutionAllowed, false);\n` + (spec.template === "founder-brief" ? `  assert.equal(result.report.dispatchesWork, false);\n  assert.deepEqual(result.report.divisions.map(r => [r.total, r.blocked, r.founderReview]), [[1,1,0],[1,0,1]]);\n` : "");
+  const tests = `import test from "node:test";\nimport assert from "node:assert/strict";\nimport { readFile } from "node:fs/promises";\nimport { runFactoryAgent } from "../../scripts/factory-agent-runtime.mjs";\nconst spec = JSON.parse(await readFile(new URL("./agent.json", import.meta.url), "utf8"));\ntest("generated agent preserves reviewed outcomes and read-only boundaries", async () => {\n  const result = await runFactoryAgent(spec);\n  assert.equal(result.source, "SYNTHETIC_FIXTURE_ONLY");\n${assertions}  assert.equal(result.report.sendsMessages, false);\n  assert.equal(result.report.writesCRM, false);\n  assert.equal(result.report.activatesGmail, false);\n});\n`;
+  const publicRunbook = `# Generated public website health agent\n\nRole: ${spec.roleId}. Template: ${spec.template}. Mode: PUBLIC_READ_ONLY.\n\nRun: node agent-packages/${spec.id}/run.mjs\n\nValidate offline: node --test agent-packages/${spec.id}/agent.test.mjs\n\nThe runner uses bounded HEAD observations from the three fixed Quest Luxo public website roots. The pilot shares one observation across the three public operations packages. Derived roles triage incidents and build a founder brief without additional network requests. No redirects, response bodies, credentials, customer data, sends, CRM, Gmail or production changes. Tests use a synthetic HTTP reader; they cannot prove live availability. Access restrictions and network failures are observations from the checker location, not proof of global outage. The existing pilot schedules this package every five minutes. No new paid infrastructure.\n`;
+  const runbook = spec.version === 6 ? `# Generated division decision preview\n\nRole: ${spec.roleId}. Template: ${spec.template}. Mode: SYNTHETIC_READ_ONLY.\n\nThe runner uses only the fixed synthetic fixture. No business records, connector, network, credentials, model calls, messages, applications or offers. Metadata-only decision functions validate completeness and bounded economics. Positive property spread is not profit; financing, holding and disposition costs remain unmodeled. Funding document presence does not prove document validity, lender fit or funding approval. Watch mandate completeness does not establish availability or authenticity. The shared pilot evaluates this package as a synthetic template, not an additional live business agent.\n\nValidate: node --test agent-packages/${spec.id}/agent.test.mjs\n` : spec.version === 5 ? `# Generated pilot command orchestrator\n\nRole: ${spec.roleId}. Mode: PILOT_LOCAL_READ_ONLY.\n\nThe isolated pilot supplies matching public observations and briefing, a fresh recovery assessment and the fixed zero-dollar model policy. The standalone live runner refuses missing sources. It emits a bounded internal recommendation queue and expires when source reports become stale. It cannot dispatch tasks, enable paid models, access business data, send messages or modify production. A fresh queue still holds for recurring independent retention and reviewed business-source scope.\n\nValidate offline: node --test agent-packages/${spec.id}/agent.test.mjs\n` : spec.version === 4 ? `# Generated pilot recovery auditor\n\nRole: ${spec.roleId}. Mode: PILOT_LOCAL_READ_ONLY.\n\nThe existing isolated pilot invokes this package after its storage checks. Its standalone runner assumes no successful storage checks and holds. It reads only the fixed synthetic stores and a private operator-observed recovery receipt. Evidence expires after 24 hours or when either revision changes. A one-time independent recovery cannot establish recurring retention or business-data authorization. Missing or conflicting evidence holds. No network, key export, dispatch, connector or production writes.\n\nValidate offline: node --test agent-packages/${spec.id}/agent.test.mjs\n` : spec.version === 3 ? publicRunbook : `# Generated ${spec.template ?? "operations"} report\n\nStatus: SYNTHETIC PACKAGE ONLY. Not authorized for business data.\n\nRole: ${spec.roleId}. Owner and approval provenance: see agent.json.\n\nRun from repository root: node agent-packages/${spec.id}/run.mjs\n\nValidate: node --test agent-packages/${spec.id}/agent.test.mjs\n\nThe runner reuses existing aggregate reporting and evidence assessment with reviewed synthetic fixtures. No credentials, live source adapters, Gmail, CRM, network, scheduler or production writes. Unsupported tools or roles fail closed. A readiness result recommends founder review and cannot grant access or dispatch work.\n\nRelease requires verified key/backup recovery, retention and monitoring, and an authorized source scope. Creating a spec cannot grant access.\n`;
+  try {
+    for (const [name, content] of [["agent.json", config], ["run.mjs", runner], ["agent.test.mjs", tests], ["RUNBOOK.md", runbook]])
+      await writeFile(join(staging, name!), content!, { flag: "wx" });
+    // mkdir is an exclusive reservation; concurrent generators cannot replace an existing package.
+    await mkdir(target);
+    try { for (const name of ["agent.json", "run.mjs", "agent.test.mjs", "RUNBOOK.md"]) await rename(join(staging, name), join(target, name)); }
+    catch (error) { await rm(target, { recursive: true, force: true }); throw error; }
+  } finally { await rm(staging, { recursive: true, force: true }); }
+  return { packagePath: `agent-packages/${spec.id}`, filesGenerated: 4, elapsedMs: Math.round(performance.now() - started),
+    status: spec.version === 6 ? "SYNTHETIC_PACKAGE_ONLY" : spec.version >= 4 ? "PILOT_LOCAL_READ_ONLY_PACKAGE" : spec.version === 3 ? "PUBLIC_READ_ONLY_PACKAGE" : "SYNTHETIC_PACKAGE_ONLY", deployed: false, externalWrites: false } as const;
+}

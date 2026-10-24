@@ -1,0 +1,34 @@
+{
+  "version": 3,
+  "template": "public-operations-brief",
+  "id": "public-operations-brief",
+  "roleId": "founder-chief-of-staff-and-approval-agent",
+  "owner": "Denzel Quinones",
+  "outcomes": [
+    "Assess verified public website observations without customer data or production changes"
+  ],
+  "inputs": [
+    "approved-public-website-report",
+    "public-operational-incidents"
+  ],
+  "authorizedTools": [
+    "public-health.brief"
+  ],
+  "permissions": {
+    "mode": "PUBLIC_READ_ONLY",
+    "externalWrites": false,
+    "gmail": false,
+    "crm": false,
+    "production": false
+  },
+  "evidence": {
+    "approvalRef": "Founder-standing-execution-2026-10-21",
+    "architectureRef": "PR68@a13f374b085b29127f86f29a43b79ee9b71bfbae"
+  },
+  "outputSchema": "public-operations-brief-v1",
+  "errorPolicy": "HOLD",
+  "evaluation": {
+    "expectedStatus": "READY_FOR_REVIEW",
+    "expectedIncidents": 2
+  }
+}

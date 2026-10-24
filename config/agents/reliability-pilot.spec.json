@@ -1,0 +1,37 @@
+{
+  "version": 2,
+  "id": "reliability-pilot",
+  "roleId": "reliability-qa-and-incident-response-agent",
+  "owner": "Denzel Quinones",
+  "outcomes": [
+    "Assess readiness evidence and report held requirements for founder review."
+  ],
+  "inputs": [
+    "synthetic-readiness-fixture"
+  ],
+  "authorizedTools": [
+    "readiness.assess"
+  ],
+  "permissions": {
+    "mode": "SYNTHETIC_READ_ONLY",
+    "externalWrites": false,
+    "gmail": false,
+    "crm": false,
+    "production": false
+  },
+  "evidence": {
+    "approvalRef": "founder-work-mode-handoff-2026-10-21-synthetic-development",
+    "architectureRef": "PR68@a13f374b085b29127f86f29a43b79ee9b71bfbae"
+  },
+  "outputSchema": "agent-readiness-report-v1",
+  "errorPolicy": "HOLD",
+  "evaluation": {
+    "expectedStatus": "HOLD",
+    "requiredActions": [
+      "KEY_RECOVERY",
+      "RETENTION_POLICY",
+      "SOURCE_SCOPE"
+    ]
+  },
+  "template": "readiness"
+}

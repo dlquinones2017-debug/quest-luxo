@@ -1,0 +1,6 @@
+{
+  "version": 1,
+  "mode": "DISABLED_ZERO_BUDGET",
+  "enabled": false,
+  "dailyBudgetUsd": 0
+}

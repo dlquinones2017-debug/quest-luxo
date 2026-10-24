@@ -1,0 +1,34 @@
+{
+  "version": 3,
+  "template": "website-health",
+  "id": "website-health",
+  "roleId": "website-product",
+  "owner": "Denzel Quinones",
+  "outcomes": [
+    "Observe public availability of the three approved Quest Luxo website roots",
+    "Distinguish restricted access from HTTP server errors without modifying production"
+  ],
+  "inputs": [
+    "approved-public-website-targets"
+  ],
+  "authorizedTools": [
+    "public-http.head"
+  ],
+  "permissions": {
+    "mode": "PUBLIC_READ_ONLY",
+    "externalWrites": false,
+    "gmail": false,
+    "crm": false,
+    "production": false
+  },
+  "evidence": {
+    "approvalRef": "Founder-standing-execution-2026-10-21",
+    "architectureRef": "PR68@a13f374b085b29127f86f29a43b79ee9b71bfbae"
+  },
+  "outputSchema": "public-website-health-v1",
+  "errorPolicy": "HOLD",
+  "evaluation": {
+    "expectedTargets": 3,
+    "expectedStatus": "RESPONDING"
+  }
+}
