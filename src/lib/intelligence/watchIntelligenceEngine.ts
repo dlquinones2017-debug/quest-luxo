@@ -1,5 +1,5 @@
 import type { QuestLuxoAsset } from "../../types/questLuxo";
-import { getVerifiedUsdRetailBenchmark } from "./watchRetailPricing";
+import { getVerifiedUsdRetailBenchmark } from "./watchRetailPricing.ts";
 
 export type WatchIntentUseCase = "daily" | "sports" | "investment";
 export type WatchRankingMode = "relevance" | "investment" | "liquidity";
