@@ -16,6 +16,7 @@ const staticPaths = [
   "/begin-your-quest/",
   "/collections",
   "/contact",
+  "/enterprises",
   "/faq",
   "/intelligence",
   "/photography-credits/",
