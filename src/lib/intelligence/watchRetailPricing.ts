@@ -1,5 +1,5 @@
 import type { QuestLuxoAsset } from "../../types/questLuxo";
-import { verifiedRetailPrices, type VerifiedRetailPrice } from "../../data/verified-retail-prices";
+import { verifiedRetailPrices, type VerifiedRetailPrice } from "../../data/verified-retail-prices.ts";
 
 const key = (value: string) => value.normalize("NFKD").replace(/[\u0300-\u036f]/g, "").toLowerCase().replace(/[^a-z0-9]/g, "");
 
