@@ -1,0 +1,23 @@
+---
+import { COMMUNICATION_DISCLOSURE_VERSION, communicationDisclosures } from "../lib/leads/leadCommunicationConsent.ts";
+---
+<fieldset class="communication-preferences">
+  <legend>Optional communication choices</legend>
+  <p>You can submit your inquiry with every choice below unchecked.</p>
+  <p>Quest Luxo Luxury Advisory is a service of Quelux Enterprises LLC.</p>
+  <input type="hidden" name="communicationDisclosureVersion" value={COMMUNICATION_DISCLOSURE_VERSION} />
+  <label><input type="checkbox" name="newsletterConsent" value="yes" /><span>{communicationDisclosures.emailNewsletter}</span></label>
+  <label><input type="checkbox" name="smsMarketingConsent" value="yes" /><span>{communicationDisclosures.smsMarketing}</span></label>
+  <label><input type="checkbox" name="smsInquiryConsent" value="yes" /><span>{communicationDisclosures.smsInquiry}</span></label>
+  <p>Your choices are separate. Providing a phone number does not subscribe you to texts. Review our <a href="/privacy">Privacy Policy</a> and <a href="/terms#text-messaging">Text Messaging Terms</a>.</p>
+</fieldset>
+<style>
+  .communication-preferences { min-width:0; margin:0; padding:20px; border:1px solid #d8d1c3; color:#173a5e; text-align:left; }
+  legend { padding:0 8px; font-weight:800; }
+  p { margin:0 0 14px; font-size:14px; line-height:1.6; }
+  p:last-child { margin-bottom:0; }
+  label { display:flex; align-items:flex-start; gap:12px; margin:16px 0; font-size:14px; font-weight:400; line-height:1.6; cursor:pointer; }
+  input[type="checkbox"] { flex:0 0 20px; width:20px; height:20px; min-height:20px; margin:2px 0 0; padding:0; accent-color:#173a5e; }
+  span { color:#173a5e; }
+  a { color:#173a5e; text-underline-offset:3px; }
+</style>
