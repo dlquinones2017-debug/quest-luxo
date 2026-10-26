@@ -1,0 +1,94 @@
+{
+  "verifiedAt": "2026-10-26T06:34:36.627465+00:00",
+  "url": "https://questluxo.com/enterprises",
+  "finalUrl": "https://questluxo.com/enterprises",
+  "status": 200,
+  "productionCommit": "7348735a3d20b5f1178e3b8f87010c05975197a7",
+  "deployId": "dep-dbff85dg1s2s73a9e62g",
+  "canonicalUrl": "https://questluxo.com/enterprises",
+  "ogUrl": "https://questluxo.com/enterprises",
+  "newForms": 0,
+  "businessLinks": [
+    "https://questluxo.com",
+    "https://questluxo.com/begin-your-quest",
+    "https://capital.questluxo.com",
+    "https://realty.questluxo.com"
+  ],
+  "publicChecks": [
+    {
+      "url": "https://questluxo.com",
+      "status": 200,
+      "finalUrl": "https://questluxo.com"
+    },
+    {
+      "url": "https://questluxo.com/begin-your-quest",
+      "status": 200,
+      "finalUrl": "https://questluxo.com/begin-your-quest"
+    },
+    {
+      "url": "https://capital.questluxo.com",
+      "status": 200,
+      "finalUrl": "https://capital.questluxo.com"
+    },
+    {
+      "url": "https://realty.questluxo.com",
+      "status": 200,
+      "finalUrl": "https://realty.questluxo.com"
+    },
+    {
+      "url": "https://questluxo.com/api/health",
+      "status": 200,
+      "finalUrl": "https://questluxo.com/api/health"
+    },
+    {
+      "url": "https://questluxo.com/sitemap.xml",
+      "status": 200,
+      "finalUrl": "https://questluxo.com/sitemap.xml"
+    },
+    {
+      "url": "https://questluxo.com/collections/franck-muller/vanguard-encrypto/v-45-sc-dt-btc-tt-br-nr",
+      "status": 200,
+      "finalUrl": "https://questluxo.com/collections/franck-muller/vanguard-encrypto/v-45-sc-dt-btc-tt-br-nr"
+    }
+  ],
+  "pageSha256": "9471678bf7de72a029b4e7fa9fcc22fde692d905a1a59b68c48d0076b7633517",
+  "focusedTestsPassed": 9,
+  "astroErrors": 0,
+  "astroWarnings": 0,
+  "existingAstroHints": 18,
+  "productionBuild": "passed",
+  "desktopReview": {
+    "width": 1280,
+    "horizontalOverflow": false
+  },
+  "mobileReview": {
+    "width": 390,
+    "horizontalOverflow": false
+  },
+  "scope": [
+    "src/pages/enterprises.astro",
+    "src/pages/sitemap.xml.ts"
+  ],
+  "leadSafety": "Read-only public GET checks; no submissions or customer-record operations.",
+  "consentPr85Published": false,
+  "liveBrowserReview": {
+    "desktopWidth": 1280,
+    "mobileWidth": 390,
+    "noHorizontalPageOverflow": true,
+    "screenshots": [
+      "enterprises-hub-live-desktop.png",
+      "enterprises-hub-live-mobile.png"
+    ]
+  },
+  "deploymentStatus": "live",
+  "knownBuildWarnings": [
+    "large browser bundle",
+    "duplicate Zenith route",
+    "robots.txt source duplication"
+  ],
+  "socialHandoff": {
+    "threadId": "01a1371a-fad5-7e03-8807-0ae850c74269",
+    "liveUrlReported": true,
+    "profileEditsPerformedByWebsiteOwner": false
+  }
+}

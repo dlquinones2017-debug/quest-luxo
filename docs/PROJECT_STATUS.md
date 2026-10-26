@@ -1,5 +1,12 @@
 # Quest Luxo launch status
 
+## Enterprises hub release — October 26, 2026
+
+The founder's singular profile/bio link is live at `https://questluxo.com/enterprises`. PR #86 merged at `7348735a3d20b5f1178e3b8f87010c05975197a7`; Render deployment `dep-dbff85dg1s2s73a9e62g` is live. The additive page routes to Luxury Advisory, Begin Your Quest, Capital Advisory and Property Acquisitions. It describes watch sourcing, business funding/factoring and direct property/land buying without new licensing or guarantee claims. Its canonical and share URLs use the branded domain, and the sitemap includes the hub.
+
+Nine focused checks, Astro check (zero errors/warnings; 18 existing hints), production build and live desktop/mobile review passed. All four destinations and public health respond successfully; the forward-facing Encrypto reference remains intact. Existing bundle/Zenith/robots build warnings are unchanged. The published release changes only the new route and sitemap; no inquiry, storage, CRM, photography or social-account changes were included. No submissions were created. Consent PR #85 remains unpublished. Command Center V4 received the verified URL for its existing social/profile owner. See `ENTERPRISES_HUB_RELEASE_QA_2026-10-26.json` for the saved evidence.
+
+
 ## Verified watch-intelligence release — October 24, 2026
 
 Founder-approved PR #84 is merged at `6715a39940250b217020a1120a8df5bfad9e85a8`; Render deployment `dep-dbe4sjuk1f9s73eph9p0` is live. Decimal budgets, brand exclusions, shared-reference ranking identity and corrected display SKUs are verified. The first MSRP tranche covers 43/297 canonical reference URLs (46 priced configurations, plus the legacy Explorer 36); 254 references remain explicitly unpriced. All 46 published amounts were independently read from official manufacturer sources. Unstated tax basis and effective dates remain unconfirmed. Runtime-created search cards now receive their intended desktop/mobile styling.
