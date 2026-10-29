@@ -486,7 +486,7 @@ const houseCollectionSeeds: HouseCollectionSeed[] = [
     slug: "classique",
     reference: "5177",
     material: "White Gold",
-    marketPosition: "Traditional Guilloché Dress Watch",
+    marketPosition: "Traditional Dress Watch",
   },
   {
     brand: "Girard-Perregaux",
