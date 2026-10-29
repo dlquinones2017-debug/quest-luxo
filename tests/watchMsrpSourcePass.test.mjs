@@ -78,14 +78,47 @@ test("archived manufacturer-entry pricing keeps the exact Freak Vision SKU and c
   assert.match(watch.configurations[0].movement, /UN-250.*50-hour/);
 });
 
+test("additional authorized RRP evidence remains exact, tax-unconfirmed and outside dollar budgets", async () => {
+  const { stockistContinuationRetailPrices } = await import("../src/data/verified-retail-prices-stockist-continuation.ts");
+  assert.equal(stockistContinuationRetailPrices.length, 2);
+  for (const [reference, amount] of [["434.10.41.21.03.001", 5700], ["215.30.44.22.01.001", 8200]]) {
+    const watch = assets.find(a => a.brand === "Omega" && a.reference === reference);
+    const [price] = getVerifiedRetailPrices(watch);
+    assert.equal(price.amount, amount);
+    assert.equal(price.priceLabel, "RRP");
+    assert.equal(price.sourceType, "authorized-retailer");
+    assert.equal(price.currency, "GBP");
+    assert.equal(price.taxBasis, "unconfirmed");
+    assert.equal(price.effectiveDate, null);
+    assert.equal(getVerifiedUsdRetailBenchmark(watch), null);
+    assert.ok(approvedPhotograph(watch, watchPhotographs));
+    assert.ok(watch.specificationSources.some(s => s.url === price.sourceUrl));
+  }
+});
+
+test("full pictured SKUs preserve photograph approvals and never invent prices for the fourteen amended profiles", async () => {
+  const ledger = JSON.parse(await readFile(new URL("../docs/WATCH_MSRP_STOCKIST_CONTINUATION_2026-10-29.json", import.meta.url), "utf8"));
+  assert.equal(ledger.identityAmendments.length, 14);
+  for (const row of ledger.identityAmendments) {
+    const watch = assets.find(a => a.brand === row.brand && a.reference === row.previousReference);
+    assert.equal(watch.displayReference, row.displayReference);
+    assert.ok(approvedPhotograph(watch, watchPhotographs), row.displayReference);
+    assert.equal(getVerifiedRetailPrices(watch).length, 0, row.displayReference);
+    assert.equal(getVerifiedUsdRetailBenchmark(watch), null);
+  }
+  const patek = assets.find(a => a.brand === "Patek Philippe" && a.reference === "5196");
+  assert.equal(patek.displayReference, "5196R-001");
+  assert.equal(patek.material, "18K rose gold", "white-gold 5196G cannot replace the approved rose-gold watch");
+});
+
 test("all 297 pages reconcile to prices or specific unresolved evidence requirements without claiming full numeric completion", async () => {
   const read = async name => JSON.parse(await readFile(new URL(`../docs/${name}`, import.meta.url), "utf8"));
   const c = await read("WATCH_RETAIL_PRICING_COVERAGE_SOURCE_PASS_2026-10-29.json");
   const q = await read("WATCH_RETAIL_PRICING_REMAINING_SOURCE_QUEUE_SOURCE_PASS_2026-10-29.json");
   assert.equal(c.catalogReferences, 297);
-  assert.equal(c.sourcedReferences, 228);
-  assert.equal(c.pendingReferences, 69);
-  assert.equal(c.exactConfigurationSourcedReferences, 223);
+  assert.equal(c.sourcedReferences, 230);
+  assert.equal(c.pendingReferences, 67);
+  assert.equal(c.exactConfigurationSourcedReferences, 225);
   assert.equal(c.baseReferenceOnlyBenchmarks, 5);
   assert.deepEqual(q.rows.map(r => r.path).sort(), c.rows.filter(r => !r.prices.length).map(r => r.path).sort());
   assert.ok(q.rows.every(r => r.outcome && r.requiredEvidence.length && r.continuationReview));

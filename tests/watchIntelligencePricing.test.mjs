@@ -118,7 +118,7 @@ test("all public retail entries carry auditable configuration, market and date e
     } else if (price.sourceType === "authorized-retailer") {
       assert.equal(price.brand, "Omega");
       assert.equal(new URL(price.sourceUrl).hostname, "www.bankslyon.co.uk");
-      assert.ok(["131.63.41.21.03.001", "210.32.42.20.01.006"].includes(price.manufacturerReference));
+      assert.ok(["131.63.41.21.03.001", "210.32.42.20.01.006", "434.10.41.21.03.001", "215.30.44.22.01.001"].includes(price.manufacturerReference));
       assert.equal(price.priceLabel, "RRP", "a retailer asking price must not become MSRP");
       assert.ok(price.corroboratingUrls.includes("https://www.bankslyon.co.uk/omega-watches/"));
     } else if (price.brand === "Franck Muller" && new URL(price.sourceUrl).hostname === "franckmuller-asiapacific.com") {
@@ -134,7 +134,8 @@ test("all public retail entries carry auditable configuration, market and date e
     const compact = value => value.toLowerCase().replace(/[^a-z0-9]/g, "");
     assert.equal(new URL(price.sourceUrl).protocol, "https:");
     // Hublot uses descriptive product URLs; its exact selected SKU is in page evidence.
-    if (!archive && price.sourceType !== "manufacturer-submission" && !price.sourceUrl.endsWith(".pdf") && !["Hublot", "Bell & Ross", "Franck Muller"].includes(price.brand)) assert.ok(compact(price.sourceUrl).includes(compact(price.manufacturerReference)), price.sourceUrl);
+    const descriptiveStockistUrl = price.sourceType === "authorized-retailer" && price.manufacturerReference === "434.10.41.21.03.001" && price.sourceUrl === "https://www.bankslyon.co.uk/omega-de-ville-prestige-co-axial-master-chronometer-power-reserve-41mm/";
+    if (!archive && !descriptiveStockistUrl && price.sourceType !== "manufacturer-submission" && !price.sourceUrl.endsWith(".pdf") && !["Hublot", "Bell & Ross", "Franck Muller"].includes(price.brand)) assert.ok(compact(price.sourceUrl).includes(compact(price.manufacturerReference)), price.sourceUrl);
     assert.match(price.checkedAt, /^\d{4}-\d{2}-\d{2}$/);
     if (price.effectiveDate) {
       assert.match(price.effectiveDate, /^\d{4}-\d{2}-\d{2}$/);
