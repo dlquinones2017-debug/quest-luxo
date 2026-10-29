@@ -17,4 +17,8 @@ if (!readiness.healthy) {
     brokerConsoleProtected: readiness.brokerConsoleProtected,
   });
   await import("../dist/server/entry.mjs");
+  const { startWorkforceValidationRuntime } = await import("../src/lib/command/workforceValidationRuntime.ts");
+  const stopValidation = startWorkforceValidationRuntime();
+  process.once("SIGTERM", stopValidation);
+  process.once("SIGINT", stopValidation);
 }

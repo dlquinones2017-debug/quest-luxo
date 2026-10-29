@@ -1,5 +1,11 @@
 # Quest Luxo launch status
 
+## Workforce validation runtime candidate — October 29, 2026
+
+The disabled-by-default Luxury saved-record fallback now has a real CONTACT/TASK adapter and a purpose-separated encrypted phase journal in the existing Node process/disk. It implements event/email claims, immutable fingerprints, native IDs and association readback, uncertainty recovery, explicit initialization and restore holds. The existing operator fixture is reconciliation-only and cannot create records or send another notification. The exact handoff fingerprint and recovery scenarios pass focused tests. See `WORKFORCE_VALIDATION_RUNTIME_2026-10-29.md` for implementation, secure configuration and acceptance limits.
+
+This candidate is not active business automation. Production direct-variable inspection found no runtime CONTACT/TASK credential or journal key. No credentials were exported or configuration changed. Inherited access, independently retained v2 backups and actual deployed event-driven acceptance remain unverified. The workforce owner retains validation and business HOLD. Existing Gmail registration, pilot files, canonical lead response/storage contracts and completed pricing releases are preserved.
+
 ## Luxury buyer release and continued pricing — October 28, 2026
 
 PR #88 is live as `71db5f95d57e2f0a17ce921aecafe9867ff6425f`, Render deploy `dep-dbh9jgqvcj2c73frbud0`. It adds compact source-backed reference cards, exact-reference intelligence browsing, documented collection facets, earlier contextual sourcing actions and validated saved-inquiry notification identity. GitHub Quality passed 335 tests, photography checks and the build; branded desktop/mobile and reference-to-intake checks passed without submitting a live inquiry. The public API and saved-success behavior remain compatible. Downstream CRM delivery and owner follow-up require separate workforce validation.

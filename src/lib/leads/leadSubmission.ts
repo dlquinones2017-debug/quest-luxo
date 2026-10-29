@@ -10,6 +10,7 @@ import {
 } from "./leadStorage.ts";
 import type { LeadStorageResult, LeadSubmissionRecord } from "./leadStorageTypes.ts";
 import { createLeadNotificationContext, type LeadNotificationContext } from "./leadNotificationContext.ts";
+import { queueWorkforceValidationRecord } from "../command/workforceValidationRuntime.ts";
 
 export interface LeadSubmissionDependencies {
   readonly ensureReady: () => Promise<void>;
@@ -42,7 +43,12 @@ export type LeadSubmissionOutcome =
 
 const defaultDependencies: LeadSubmissionDependencies = Object.freeze({
   ensureReady: assertProductionReadiness,
-  persist: (payload: LeadCapturePayload) => saveLeadSubmission(payload),
+  persist: async (payload: LeadCapturePayload) => {
+    const storage = await saveLeadSubmission(payload);
+    try { await queueWorkforceValidationRecord({ ...storage, payload }); }
+    catch { console.error("Quest Luxo internal workforce enqueue held; canonical inquiry remains saved."); }
+    return storage;
+  },
   notify: sendLeadNotificationEmail,
   recordDelivery: updateLeadSubmissionEmailDelivery,
 });
