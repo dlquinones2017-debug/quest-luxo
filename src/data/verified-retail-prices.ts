@@ -1,5 +1,6 @@
 import { oct29RetailPrices } from "./verified-retail-prices-oct29.ts";
 import { sourceCompletionRetailPrices } from "./verified-retail-prices-source-completion.ts";
+import { gphgHistoricalRetailPrices } from "./verified-retail-prices-gphg.ts";
 import { oct28RetailPrices } from "./verified-retail-prices-oct28.ts";
 import { oct28NextRetailPrices } from "./verified-retail-prices-oct28-next.ts";
 import { oct28AdditionalRetailPrices } from "./verified-retail-prices-oct28-additional.ts";
@@ -25,7 +26,7 @@ export interface VerifiedRetailPrice {
   readonly configurationScope?: "exact" | "base-reference";
   readonly sourceUrl: string;
   readonly sourceName: string;
-  readonly sourceType: "manufacturer" | "authorized-retailer";
+  readonly sourceType: "manufacturer" | "authorized-retailer" | "manufacturer-submission";
   /** Authorized retailers must explicitly identify a recommended price, not an asking price. */
   readonly priceLabel?: "RRP";
   readonly corroboratingUrls?: readonly string[];
@@ -47,6 +48,7 @@ export const verifiedRetailPrices: readonly VerifiedRetailPrice[] = Object.freez
   ...finalSourcePassRetailPrices,
   ...oct29RetailPrices,
   ...sourceCompletionRetailPrices,
+  ...gphgHistoricalRetailPrices,
   rolex("124060", "m124060-0001", "Black dial / Oyster bracelet / black bezel", 10050, "submariner"),
   rolex("126610LN", "m126610ln-0001", "Black dial / Oyster bracelet / black bezel", 11350, "submariner"),
   rolex("126610LV", "m126610lv-0002", "Black dial / Oyster bracelet / green bezel", 11900, "submariner"),

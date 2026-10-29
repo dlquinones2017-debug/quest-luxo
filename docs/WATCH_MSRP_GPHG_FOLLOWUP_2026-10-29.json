@@ -1,0 +1,38 @@
+{
+  "checkedAt": "2026-10-29",
+  "reference": "2505-250",
+  "previousCatalogKey": "Freak",
+  "path": "/collections/ulysse-nardin/freak/freak",
+  "amount": 95000,
+  "currency": "CHF",
+  "taxBasis": "included",
+  "basis": "historical-list",
+  "period": "2018",
+  "effectiveDate": null,
+  "sourceType": "manufacturer-submission",
+  "sourceUrl": "https://www.gphg.org/en/watches/freak-vision",
+  "sourceHttpStatus": 200,
+  "authorityUrl": "https://www.gphg.org/en/gphg-2018/rules",
+  "authorityHttpStatus": 200,
+  "editionUrl": "https://www.gphg.org/en/gphg-2018/participant-watches-2018",
+  "evidence": "Official GPHG entry names2505-250 and lists CHF95000 including VAT, platinum/titanium45mm, leather/folding clasp, automatic50h and30m. Official2018 participant page includes Freak Vision. Rules1.3,1.7 and AppendixI require brands to submit entries, written descriptions, images and data; GPHG publishes those entries. The year is the competition record period, not an invented exact price-effective date.",
+  "visualMatch": "The archived manufacturer entrant photograph and founder-approved existing2505-250 derivative were separately viewed. Same blue movement display, platinum/titanium case, fixed bezel geometry and blue alligator configuration. Original website image bytes and rights record unchanged.",
+  "entryPhotographUrl": "https://cms.gphg.org/uploads/gphg2018_ulysse_nardin_freak_vision_001_c5c4512ab6.jpg",
+  "entryPhotographSha256": "7dade3c6ad2567903cb7d0716ffaa67fc8c7175cafad59d5ec3e7e33adf2447b",
+  "limits": [
+    "Historical manufacturer-submitted competition record hosted by GPHG, not a fresh direct manufacturer-site quote.",
+    "CHF tax-inclusive entry; a specific domestic sales market is not separately stated. No FX conversion.",
+    "No current MSRP, launch-day precision, last-production price, production availability or market value is inferred.",
+    "Other GPHG RoyalOak, Marine and Vanguard entries have different references/materials and cannot fill neighbouring gaps. FHH RM27-05 indicated price is an industry-body lead, not accepted as a manufacturer-direct price."
+  ],
+  "coverageAfterFollowup": {
+    "canonicalPages": 297,
+    "sourcedPages": 228,
+    "exactConfigurationPages": 223,
+    "baseReferenceOnlyPages": 5,
+    "unpricedPages": 69,
+    "currentUsBudgetEligiblePages": 198,
+    "currentInternationalOnlyPages": 10,
+    "historicalOnlyPages": 20
+  }
+}

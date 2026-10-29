@@ -60,14 +60,32 @@ test("specific sources cannot price unverified neighbours or turn retailer askin
   assert.deepEqual(retailer.map(p => p.amount).sort((a,b) => a-b), [5800,23800]);
 });
 
+test("archived manufacturer-entry pricing keeps the exact Freak Vision SKU and cannot enter current budgets", () => {
+  const watch = assets.find(a => a.brand === "Ulysse Nardin" && a.reference === "Freak");
+  assert.equal(watch.displayReference, "2505-250");
+  assert.ok(approvedPhotograph(watch, watchPhotographs));
+  const [price] = getVerifiedRetailPrices(watch);
+  assert.equal(price.amount, 95000);
+  assert.equal(price.currency, "CHF");
+  assert.equal(price.taxBasis, "included");
+  assert.equal(price.sourceType, "manufacturer-submission");
+  assert.equal(price.basis, "historical-list");
+  assert.equal(price.effectivePeriod, "2018");
+  assert.equal(price.effectiveDate, null);
+  assert.equal(getVerifiedUsdRetailBenchmark(watch), null);
+  assert.equal(getVerifiedRetailPrices({ brand: "Ulysse Nardin", reference: "2505-250" })[0], price);
+  assert.equal(getVerifiedRetailPrices({ brand: "Ulysse Nardin", reference: "Freak X" })[0].manufacturerReference, "2303-270/03");
+  assert.match(watch.configurations[0].movement, /UN-250.*50-hour/);
+});
+
 test("all 297 pages reconcile to prices or specific unresolved evidence requirements without claiming full numeric completion", async () => {
   const read = async name => JSON.parse(await readFile(new URL(`../docs/${name}`, import.meta.url), "utf8"));
   const c = await read("WATCH_RETAIL_PRICING_COVERAGE_SOURCE_PASS_2026-10-29.json");
   const q = await read("WATCH_RETAIL_PRICING_REMAINING_SOURCE_QUEUE_SOURCE_PASS_2026-10-29.json");
   assert.equal(c.catalogReferences, 297);
-  assert.equal(c.sourcedReferences, 227);
-  assert.equal(c.pendingReferences, 70);
-  assert.equal(c.exactConfigurationSourcedReferences, 222);
+  assert.equal(c.sourcedReferences, 228);
+  assert.equal(c.pendingReferences, 69);
+  assert.equal(c.exactConfigurationSourcedReferences, 223);
   assert.equal(c.baseReferenceOnlyBenchmarks, 5);
   assert.deepEqual(q.rows.map(r => r.path).sort(), c.rows.filter(r => !r.prices.length).map(r => r.path).sort());
   assert.ok(q.rows.every(r => r.outcome && r.requiredEvidence.length && r.continuationReview));

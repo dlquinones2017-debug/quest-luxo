@@ -1,10 +1,10 @@
 {
   "title": "Unresolved exact MSRP evidence after October29 source pass",
   "canonicalReferencePages": 297,
-  "sourcedReferencePages": 227,
-  "remainingPages": 70,
+  "sourcedReferencePages": 228,
+  "remainingPages": 69,
   "unmatchedPages": 0,
-  "note": "Each unresolved reference retains its specific evidence requirement. Full numeric population is not claimed. No substitute price, conversion, successor or estimate fills a gap. Manufacturer price-on-request and retrieval failures are distinct.",
+  "note": "Each unresolved reference retains its specific evidence requirement. Full numeric population is not claimed. No substitute price, conversion, successor or estimate fills a gap. Manufacturer price-on-request and retrieval failures are distinct. GPHG2018 exact Freak Vision entry subsequently resolved the former Freak hold; see WATCH_MSRP_GPHG_FOLLOWUP_2026-10-29.json.",
   "rows": [
     {
       "brand": "Rolex",
@@ -348,21 +348,6 @@
       "outcome": "Manufacturer explicitly says out of current collection, no selected product price. Recommendations and strap prices excluded.",
       "requiredEvidence": [
         "Dated exact Q3848422 manufacturer/authorized-retailer historical list price; unrelated recommendation and strap prices are excluded."
-      ],
-      "ledger": "WATCH_RETAIL_PRICING_EVIDENCE_2026-10-28_FINAL_OTHER_PASS.json",
-      "continuationReview": "2026-10-29 public source search reviewed; no new accepted exact manufacturer or authorized-retailer recommended-price evidence. Prior retrieval outcome and checked date retained."
-    },
-    {
-      "brand": "Ulysse Nardin",
-      "collection": "Freak",
-      "reference": "Freak",
-      "path": "/collections/ulysse-nardin/freak/freak",
-      "status": "manufacturer-retired-no-numeric-price",
-      "checkedAt": "2026-10-28",
-      "sourceUrl": "https://www.ulysse-nardin.com/en-us/watches/discontinued-models/2505-250",
-      "outcome": "Exact manufacturer earlier-edition page names Freak Vision2505-250 and states this piece has found its collectors and is no longer available. No numeric selected price.",
-      "requiredEvidence": [
-        "Exact2505-250 Freak Vision manufacturer/authorized-retailer historical list price, market/currency/date."
       ],
       "ledger": "WATCH_RETAIL_PRICING_EVIDENCE_2026-10-28_FINAL_OTHER_PASS.json",
       "continuationReview": "2026-10-29 public source search reviewed; no new accepted exact manufacturer or authorized-retailer recommended-price evidence. Prior retrieval outcome and checked date retained."

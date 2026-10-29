@@ -716,6 +716,7 @@ for (const collection of collectionSources) {
 // These family routes already have a founder-approved exact pictured reference.
 // Keep their URLs, but lead with that watch's identity and reviewed configuration.
 const picturedReferenceAmendments: Record<string, string> = {
+  "Ulysse Nardin|Freak": "2505-250",
   "Cartier|Ballon Bleu 40 mm": "WSBB0061",
   "Cartier|Ballon Bleu 42 mm": "W6920042",
   "Cartier|Pasha de Cartier 41 mm": "WSPA0038",

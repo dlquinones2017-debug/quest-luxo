@@ -1,13 +1,13 @@
 {
   "catalogReferences": 297,
   "duplicateCatalogRows": 1,
-  "sourcedReferences": 227,
-  "pendingReferences": 70,
+  "sourcedReferences": 228,
+  "pendingReferences": 69,
   "currentUsBudgetEligibleReferences": 198,
   "currentInternationalOnlyReferences": 10,
-  "historicalOnlyReferences": 19,
+  "historicalOnlyReferences": 20,
   "baseReferenceOnlyBenchmarks": 5,
-  "exactConfigurationSourcedReferences": 222,
+  "exactConfigurationSourcedReferences": 223,
   "note": "Coverage counts canonical reference pages, including documented aliases. Sourced benchmarks may be current, historical or base-reference; current U.S. budget eligibility is counted separately. Checked dates record source observation, not manufacturer price-effective dates. Unknown values are never imputed.",
   "rows": [
     {
@@ -3159,15 +3159,45 @@
     {
       "brand": "Ulysse Nardin",
       "collection": "Freak",
-      "reference": "Freak",
+      "reference": "2505-250",
       "path": "/collections/ulysse-nardin/freak/freak",
-      "status": "research-pending",
-      "prices": [],
+      "status": "sourced-list-price",
+      "prices": [
+        {
+          "brand": "Ulysse Nardin",
+          "reference": "2505-250",
+          "referenceAliases": [
+            "Freak"
+          ],
+          "manufacturerReference": "2505-250",
+          "configuration": "Freak Vision / 45 mm platinum and titanium / blue movement display / blue alligator strap with folding clasp; exact 2018 competition entrant configuration, visually matched to the approved photograph",
+          "amount": 95000,
+          "currency": "CHF",
+          "market": "GPHG 2018 CHF entry (sales market not separately stated)",
+          "taxBasis": "included",
+          "basis": "historical-list",
+          "checkedAt": "2026-10-29",
+          "effectiveDate": null,
+          "effectivePeriod": "2018",
+          "sourceUrl": "https://www.gphg.org/en/watches/freak-vision",
+          "sourceName": "Ulysse Nardin — 2018 manufacturer entry published by GPHG",
+          "sourceType": "manufacturer-submission",
+          "corroboratingUrls": [
+            "https://www.gphg.org/en/gphg-2018/participant-watches-2018",
+            "https://www.gphg.org/en/gphg-2018/rules",
+            "https://www.ulysse-nardin.com/watches/discontinued-models/2505-250"
+          ]
+        }
+      ],
       "currentUsBudgetBenchmark": null,
       "identitySources": [
         {
           "label": "Ulysse Nardin reference source",
           "url": "https://www.ulysse-nardin.com/watches/discontinued-models/2505-250"
+        },
+        {
+          "label": "Ulysse Nardin 2018 GPHG manufacturer entry — exact Freak Vision configuration",
+          "url": "https://www.gphg.org/en/watches/freak-vision"
         }
       ]
     },
