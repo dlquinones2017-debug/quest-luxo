@@ -158,7 +158,7 @@ export function generateAskQuestLuxoSummary(
     : "";
   const intentText =
     intent.rankingMode === "investment"
-      ? " ranked by investment strength"
+      ? " ranked by modeled collector fit"
       : intent.useCase
         ? ` for ${intent.useCase} fit`
         : "";

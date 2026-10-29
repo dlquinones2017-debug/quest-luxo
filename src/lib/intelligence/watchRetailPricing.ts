@@ -31,7 +31,9 @@ export function getRetailPriceSummary(prices: readonly VerifiedRetailPrice[]): {
   let comparable = pool.filter(price => price.currency === anchor.currency && price.market === anchor.market && (price.configurationScope ?? "exact") === (anchor.configurationScope ?? "exact"));
   if (anchor.basis === "historical-list") {
     const latestPeriod = comparable.map(price => price.effectiveDate ?? price.effectivePeriod ?? "").sort().at(-1);
-    comparable = comparable.filter(price => (price.effectiveDate ?? price.effectivePeriod ?? "") === latestPeriod);
+    comparable = latestPeriod
+      ? comparable.filter(price => (price.effectiveDate ?? price.effectivePeriod ?? "") === latestPeriod)
+      : [anchor]; // Undated historical observations cannot establish a shared period/range.
   }
   const sorted = [...comparable].sort((a,b) => a.amount - b.amount);
   return { price: sorted[0], hasRange: new Set(sorted.map(price => price.amount)).size > 1 };

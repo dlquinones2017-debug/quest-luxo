@@ -1,0 +1,185 @@
+{
+  "title": "Immutable final ready manufacturer price tranche",
+  "checkedAt": "2026-10-28",
+  "baseline": {
+    "sourcedReferences": 200,
+    "catalogReferences": 297,
+    "globalPending": 97,
+    "assignedPending": 46
+  },
+  "scope": "Only research artifacts. Root owns repository integration; other agents own Rolex, AP/Franck and Omega. Every assigned reference receives a primary-source outcome, with no inferred prices.",
+  "prices": [
+    {
+      "brand": "Bell & Ross",
+      "reference": "BR0192-BL-ST",
+      "manufacturerReference": "BR0192-BL-ST",
+      "configuration": "Black / 46 mm Stainless Steel / Black rubber (pictured manufacturer configuration)",
+      "amount": 4400,
+      "currency": "USD",
+      "market": "United States",
+      "taxBasis": "unconfirmed",
+      "basis": "current-list",
+      "checkedAt": "2026-10-28",
+      "effectiveDate": null,
+      "sourceUrl": "https://bellross.com/en-us/products/br-01-92-steel",
+      "sourceName": "Bell & Ross United States",
+      "sourceType": "manufacturer",
+      "catalogPath": "/collections/bell-and-ross/br-01/br0192-bl-st",
+      "evidence": {
+        "priceLabel": "Regular price $4,400.00",
+        "priceData": {
+          "amount": 4400,
+          "currencyCode": "USD"
+        },
+        "selectedRegion": "Active storefront link aria-current=true identifies United States, data-currency USD; selected product variant currencyCode is USD.",
+        "taxStatement": "No explicit selected-price tax treatment observed; retain unconfirmed.",
+        "availability": "Unavailable / Sold out",
+        "catalogManifest": {
+          "file": "src/data/photography-cleared-sprint.ts",
+          "reference": "BR0192-BL-ST",
+          "exactReference": "BR0192-BL-ST",
+          "configuration": {
+            "dial": "Black",
+            "bracelet": "Black rubber (pictured manufacturer configuration)",
+            "caseSize": "46 mm"
+          },
+          "sourceUrl": "https://bellross.com/en-us/products/br-01-92-steel"
+        },
+        "catalogMatch": "Full BR01 reference and 46 mm generation agree exactly; no newer BR03 price substituted."
+      }
+    },
+    {
+      "brand": "Bell & Ross",
+      "reference": "BR0192-COMPASS-CA",
+      "manufacturerReference": "BR0192-COMPASS-CA",
+      "configuration": "Instrument-style Compass / 46 mm Black PVD steel / Black strap",
+      "amount": 6100,
+      "currency": "USD",
+      "market": "United States",
+      "taxBasis": "unconfirmed",
+      "basis": "current-list",
+      "checkedAt": "2026-10-28",
+      "effectiveDate": null,
+      "sourceUrl": "https://bellross.com/en-us/products/br-01-compass",
+      "sourceName": "Bell & Ross United States",
+      "sourceType": "manufacturer",
+      "catalogPath": "/collections/bell-and-ross/br-01/br0192-compass-ca",
+      "evidence": {
+        "priceLabel": "Regular price $6,100.00",
+        "priceData": {
+          "amount": 6100,
+          "currencyCode": "USD"
+        },
+        "selectedRegion": "Active storefront link aria-current=true identifies United States, data-currency USD; selected product variant currencyCode is USD.",
+        "taxStatement": "No explicit selected-price tax treatment observed; retain unconfirmed.",
+        "availability": "Unavailable / Sold out",
+        "catalogManifest": {
+          "file": "src/data/photography-cleared-sprint.ts",
+          "reference": "BR0192-COMPASS-CA",
+          "exactReference": "BR0192-COMPASS-CA",
+          "configuration": {
+            "dial": "Instrument-style Compass",
+            "bracelet": "Black strap",
+            "caseSize": "46 mm",
+            "movement": "Automatic"
+          },
+          "sourceUrl": "https://bellross.com/en/products/br-01-compass"
+        },
+        "catalogMatch": "Full BR01 reference and 46 mm generation agree exactly; no newer BR03 price substituted."
+      }
+    },
+    {
+      "brand": "Bell & Ross",
+      "reference": "BR0192-REDRADAR",
+      "manufacturerReference": "BR0192-REDRADAR",
+      "configuration": "Red radar / 46 mm Stainless Steel / Black rubber strap",
+      "amount": 6500,
+      "currency": "USD",
+      "market": "United States",
+      "taxBasis": "unconfirmed",
+      "basis": "current-list",
+      "checkedAt": "2026-10-28",
+      "effectiveDate": null,
+      "sourceUrl": "https://bellross.com/en-us/products/br-01-92-red-radar",
+      "sourceName": "Bell & Ross United States",
+      "sourceType": "manufacturer",
+      "catalogPath": "/collections/bell-and-ross/br-01/br0192-redradar",
+      "evidence": {
+        "priceLabel": "Regular price $6,500.00",
+        "priceData": {
+          "amount": 6500,
+          "currencyCode": "USD"
+        },
+        "selectedRegion": "Active storefront link aria-current=true identifies United States, data-currency USD; selected product variant currencyCode is USD.",
+        "taxStatement": "No explicit selected-price tax treatment observed; retain unconfirmed.",
+        "availability": "Unavailable / Sold out",
+        "catalogManifest": {
+          "file": "src/data/photography-cleared-sprint.ts",
+          "reference": "BR0192-REDRADAR",
+          "exactReference": "BR01-92 Red Radar",
+          "configuration": {
+            "caseSize": "46 mm",
+            "movement": "Automatic mechanical",
+            "dial": "Red radar",
+            "bracelet": "Black rubber strap"
+          },
+          "sourceUrl": "https://www.watchfinder.com/sell-your-watch/enquiry/bell-and-ross/br01-92/red-radar/22836"
+        },
+        "catalogMatch": "Full BR01 reference and 46 mm generation agree exactly; no newer BR03 price substituted."
+      }
+    },
+    {
+      "brand": "Breguet",
+      "reference": "5177",
+      "manufacturerReference": "5177BB/29/9V6",
+      "configuration": "White Grand Feu enamel dial / 38 mm 18K white gold / black alligator strap / automatic 777 Q",
+      "amount": 36600,
+      "currency": "USD",
+      "market": "United States",
+      "taxBasis": "unconfirmed",
+      "basis": "current-list",
+      "checkedAt": "2026-10-28",
+      "effectiveDate": null,
+      "sourceUrl": "https://www.breguet.com/en/watches/classique/classique-5177/5177bb299v6?language_content_entity=en",
+      "sourceName": "Breguet",
+      "sourceType": "manufacturer",
+      "catalogPath": "/collections/breguet/classique/5177",
+      "corroboratingUrls": [
+        "https://www.breguet.com/helpers/variant/235148/price?lang=en",
+        "https://www.breguet.com/themes/custom/breguet/dist/app.js?v=1.16"
+      ],
+      "evidence": {
+        "priceLabel": "$36,600 — Recommended retail price",
+        "priceData": {
+          "country": "US",
+          "price": "36600",
+          "currency": "USD",
+          "visibility": true,
+          "formatted_price": "$36,600"
+        },
+        "variantBinding": "Exact selected 5177BB/29/9V6 heading has data-variant-id235148 and price data-nid235148. Manufacturer referenced app.js getVariantPrice GETs /helpers/variant/{node}/price?lang=en; actual235148 response explicitly supplies US/USD/36600.",
+        "taxStatement": "No explicit tax inclusion/exclusion statement returned; retain unconfirmed.",
+        "catalogManifest": {
+          "file": "src/data/photography-cleared-sprint.ts",
+          "reference": "5177",
+          "exactReference": "5177BB/29/9V6",
+          "configuration": {
+            "dial": "White Grand feu enamel",
+            "bracelet": "Black alligator leather",
+            "caseSize": "38 mm",
+            "movement": "Automatic calibre 777 Q",
+            "waterResistance": "3 bar"
+          },
+          "sourceUrl": "https://www.breguet.com/en/watches/classique/classique-5177/5177bb299v6?language_content_entity=en"
+        },
+        "catalogMatch": "Manifest exact full 5177BB/29/9V6, white gold, enamel dial, 38 mm and alligator agree with selected manufacturer variant. No other5177 generation used."
+      }
+    }
+  ],
+  "cautions": [
+    "Only exact manufacturer reference/configuration matches included.",
+    "Bell & Ross selected U.S. product prices are regular prices, but products are unavailable/sold out; availability is not implied.",
+    "Breguet US/USD confirmed by exact variant235148 manufacturer price endpoint; tax basis unconfirmed.",
+    "Manufacturer effective dates are unknown; checkedAt is retrieval date."
+  ]
+}

@@ -31,6 +31,7 @@ const report = {
   sourcedReferences: rows.filter(row => row.prices.length).length,
   pendingReferences: rows.filter(row => !row.prices.length).length,
   currentUsBudgetEligibleReferences: rows.filter(row => row.currentUsBudgetBenchmark !== null).length,
+  currentInternationalOnlyReferences: rows.filter(row => row.currentUsBudgetBenchmark === null && row.prices.some(price => price.basis === "current-list" && price.configurationScope !== "base-reference" && (price.currency !== "USD" || price.market !== "United States"))).length,
   historicalOnlyReferences: rows.filter(row => row.prices.length && row.prices.every(price => price.basis === "historical-list")).length,
   baseReferenceOnlyBenchmarks: rows.filter(row => row.prices.length && row.prices.every(price => price.configurationScope === "base-reference")).length,
   exactConfigurationSourcedReferences: rows.filter(row => row.prices.some(price => price.configurationScope !== "base-reference")).length,

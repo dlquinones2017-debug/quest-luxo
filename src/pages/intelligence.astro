@@ -28,6 +28,7 @@ const photos = Object.fromEntries(catalog.flatMap(record => {
         style, wrist preference, brand, collection, or a combination of them.
       </p>
 
+      <p class="benchmark-note">Budget matches use verified U.S. manufacturer list prices. Actual new or pre-owned sourcing prices and availability require a broker quote.</p>
       <form class="query-form" id="ask-form">
         <label for="ask-query">What are you looking for?</label>
         <div class="query-row">
@@ -286,6 +287,7 @@ const photos = Object.fromEntries(catalog.flatMap(record => {
 </script>
 
 <style>
+  .benchmark-note{font-size:14px;line-height:1.6;color:#596471;max-width:800px}
   .browse-controls{display:flex;flex-wrap:wrap;align-items:end;gap:16px;margin:20px 0}.browse-controls label{display:grid;gap:8px;font-size:14px}.browse-controls select,.browse-controls button,#show-more{padding:12px;border:1px solid #c8c2b8;background:#fff;color:#173a5e;font:inherit;min-height:44px;max-width:100%}
   :global(.recommendation-photo){display:block;width:180px;height:180px;object-fit:contain;background:#fff;margin-bottom:18px}
   :global(.sourcing-link){margin-left:16px}

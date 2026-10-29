@@ -38,11 +38,12 @@ const sourcingUrl = buildBeginYourQuestUrl({ intent: "request-this-watch", brand
       {retail ? <>
         <strong>{retail.price.basis === "historical-list" ? "Historical list" : "Published list"} {retail.hasRange ? "from " : ""}{formatRetailPrice(retail.price)}</strong>
         <span>{retail.price.currency} · {retail.price.market} · {formatRetailTaxBasis(retail.price)}</span>
+        {retail.price.basis === "current-list" && (retail.price.currency !== "USD" || retail.price.market !== "United States") && <span>International list benchmark; U.S. list price unverified.</span>}
         {retail.price.basis === "historical-list" && <span>Manufacturer price period: {retail.price.effectiveDate ?? retail.price.effectivePeriod ?? "Date unconfirmed"}. Current list price unverified.</span>}
         {retail.price.configurationScope === "base-reference" && <span>Base-reference benchmark; pictured configuration not fully priced.</span>}
         <a href={retail.price.sourceUrl} target="_blank" rel="noopener noreferrer external">{retail.price.sourceName} · checked {retail.price.checkedAt}</a>
         <span>{prices.length > 1 ? "Configuration-specific prices in reference profile." : retail.price.configuration} List benchmark; sourcing quote confirmed separately.</span>
-      </> : <span>Verified list price being researched.</span>}
+      </> : <span>List price unverified. Request a sourcing quote.</span>}
     </div>}
     <div class="actions"><a class="button" href={href}>{linkLabel}</a>{showMsrp && <a class="source-link" href={sourcingUrl}>Source this watch →</a>}</div>
     <details>
