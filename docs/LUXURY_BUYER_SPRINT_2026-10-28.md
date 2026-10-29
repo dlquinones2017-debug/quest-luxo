@@ -1,6 +1,6 @@
 # Luxury buyer and inquiry improvements — October 28, 2026
 
-Release candidate; production deployment must be verified independently.
+Initial release PR #88 is verified live as `71db5f95d57e2f0a17ce921aecafe9867ff6425f`, Render deploy `dep-dbh9jgqvcj2c73frbud0`. GitHub Quality passed all 335 regression tests, diagnostics, photography checks and production build; Watch Brokerage Acceptance passed. Branded production reference pricing, loaded photos and exact-reference intake context were checked without submitting a live inquiry.
 
 ## Buyer experience
 
@@ -12,11 +12,13 @@ Collection facets are derived from the actual collection. All-precious-metal exc
 
 ## Pricing evidence
 
-- 113 of 297 canonical references have sourced published U.S. list benchmarks; 184 remain explicitly unknown.
+- The initial release priced 113 of 297 canonical references; 184 remained explicitly unknown. A following 30-observation candidate raises coverage to 143/297 with 154 unknown; it requires its own release verification.
 - Seventy new exact manufacturer prices: 54 Omega, nine IWC, seven Breitling.
 - Every observation includes exact configuration, currency, market, source URL, observation date and tax basis. Observation dates are not price-effective dates. No FX conversion or dealer asking price is used as manufacturer MSRP.
 - IWC explicitly displays VAT excluded; Breitling displays sales tax excluded. Omega tax basis remains unconfirmed. Prior Rolex/Tudor tax-basis uncertainty is preserved.
 - Evidence: `WATCH_RETAIL_PRICING_EVIDENCE_2026-10-28.json`, its `_FOLLOWUP` ledger and `WATCH_RETAIL_PRICING_COVERAGE_2026-10-28.json`. Reviewed holds include retired/no-price references, regional/currency ambiguity and replacement-model redirects. No related-model substitution.
+- Next-tranche evidence is `WATCH_RETAIL_PRICING_EVIDENCE_2026-10-28_NEXT.json`: 11 Patek Philippe, six Cartier, five Hublot and one Panerai. Patek evidence contains explicit USD/US manufacturer price objects; generic collection labels are matched to exact photographed manufacturer references. Seven reviewed holds remain excluded.
+- `_NEXT_EXTRA.json` adds six Tudor and one Breitling observation. Tudor raw public country/currency data establishes US/USD; tax basis remains unconfirmed. The Monochrome benchmark uses pictured three-link `-0001` ($5,325), excluding the five-link `-0003` ($5,450). Reviewed 404/retired/variant holds remain unknown.
 
 ## Saved-inquiry notification contract
 
@@ -40,4 +42,4 @@ Downstream consumers must read the initial bounded event block from an authentic
 
 Focused tests cover pricing evidence, precise budget/exclusion rules, canonical routes, documented facets, notification context/spoofing, persistence-before-notification, failure semantics, retry identity and escaping. Existing intake/write-safety tests use synthetic temporary fixtures. Browser QA covers desktop/mobile search and collection cards, loaded authentic photos, expanded details and reference-context transfer into intake. No live inquiry, customer-data mutation or test email is part of this release verification.
 
-Astro diagnostics: zero errors and warnings, existing hints retained. Production build succeeds with the existing duplicate public `robots.txt` warning. Final CI and deployed commit verification are recorded in the release handoff.
+Astro diagnostics: zero errors and warnings, existing hints retained. Build warnings include the large intelligence client chunk, duplicate Zenith route entry and public `robots.txt` conflict. The initial release CI and deployment are recorded above; following pricing tranches require their own verification.

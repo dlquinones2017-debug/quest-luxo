@@ -1,8 +1,10 @@
 # Quest Luxo launch status
 
-## Luxury buyer release candidate — October 28, 2026
+## Luxury buyer release and continued pricing — October 28, 2026
 
-The isolated Luxury sprint adds compact source-backed reference cards, exact-reference intelligence browsing, documented collection facets and earlier contextual sourcing actions. Manufacturer pricing evidence covers 113 of 297 canonical references; 184 remain unknown. Saved-inquiry notifications carry validated server-derived ID, timestamp and stable event key; the public API and saved-success behavior remain compatible. Downstream CRM delivery and owner follow-up require separate workforce validation. This is a tested release candidate, not a deployment claim. See `LUXURY_BUYER_SPRINT_2026-10-28.md` for evidence and limits.
+PR #88 is live as `71db5f95d57e2f0a17ce921aecafe9867ff6425f`, Render deploy `dep-dbh9jgqvcj2c73frbud0`. It adds compact source-backed reference cards, exact-reference intelligence browsing, documented collection facets, earlier contextual sourcing actions and validated saved-inquiry notification identity. GitHub Quality passed 335 tests, photography checks and the build; branded desktop/mobile and reference-to-intake checks passed without submitting a live inquiry. The public API and saved-success behavior remain compatible. Downstream CRM delivery and owner follow-up require separate workforce validation.
+
+The following pricing tranche adds 30 manufacturer observations: 11 Patek Philippe, six Cartier, five Hublot, one Panerai, six Tudor and one Breitling. Candidate coverage is 143 of 297 canonical references; 154 remain unknown. Exact manufacturer identity, U.S. currency/market and tax evidence are in `WATCH_RETAIL_PRICING_EVIDENCE_2026-10-28_NEXT.json` and `_NEXT_EXTRA.json`. Tudor's three-link Monochrome is priced independently from its five-link variant. This tranche requires its own release verification. See `LUXURY_BUYER_SPRINT_2026-10-28.md` for the initial release scope and limits.
 
 ## Enterprise intake continuation — October 19, 2026
 

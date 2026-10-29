@@ -1,0 +1,847 @@
+{
+  "title": "Next exact-source U.S. manufacturer MSRP tranche — 2026-10-28",
+  "baseline": {
+    "canonicalReferences": 297,
+    "pricedReferences": 113,
+    "unknownReferences": 184
+  },
+  "scope": "Read-only research after release. Root is sole repository writer; no deployment or account mutations.",
+  "prices": [
+    {
+      "brand": "Hublot",
+      "reference": "542.NX.1171.RX",
+      "manufacturerReference": "542.NX.1171.RX",
+      "configuration": "Matte black dial / 42 mm titanium / black lined rubber straps / HUB1110",
+      "amount": 8700,
+      "currency": "USD",
+      "market": "United States",
+      "taxBasis": "excluded",
+      "basis": "current-list",
+      "checkedAt": "2026-10-28",
+      "effectiveDate": null,
+      "sourceUrl": "https://www.hublot.com/en-us/watches/classic-fusion/classic-fusion-titanium-rubber-42-mm",
+      "sourceName": "Hublot United States",
+      "sourceType": "manufacturer",
+      "catalogPath": "/collections/hublot/classic-fusion/542-nx-1171-rx",
+      "evidence": {
+        "priceLabel": "USD 8,700",
+        "taxStatement": "Suggested retail price (United States, VAT not included)",
+        "currencyBasis": "Manufacturer explicitly labels USD and United States.",
+        "catalogMatch": "Exact full selected manufacturer SKU; generic catalog label mapped through existing identity source. No related model substitution."
+      }
+    },
+    {
+      "brand": "Hublot",
+      "reference": "525.NX.0170.RX",
+      "manufacturerReference": "525.NX.0170.RX",
+      "configuration": "Sapphire skeleton dial / 45 mm titanium / black lined rubber straps / HUB1155 chronograph",
+      "amount": 17100,
+      "currency": "USD",
+      "market": "United States",
+      "taxBasis": "excluded",
+      "basis": "current-list",
+      "checkedAt": "2026-10-28",
+      "effectiveDate": null,
+      "sourceUrl": "https://www.hublot.com/en-us/watches/classic-fusion/classic-fusion-aerofusion-titanium-45-mm",
+      "sourceName": "Hublot United States",
+      "sourceType": "manufacturer",
+      "catalogPath": "/collections/hublot/aerofusion/525-nx-0170-rx",
+      "evidence": {
+        "priceLabel": "USD 17,100",
+        "taxStatement": "Suggested retail price (United States, VAT not included)",
+        "currencyBasis": "Manufacturer explicitly labels USD and United States.",
+        "catalogMatch": "Exact full selected manufacturer SKU; generic catalog label mapped through existing identity source. No related model substitution."
+      }
+    },
+    {
+      "brand": "Hublot",
+      "reference": "642.NX.0170.RX",
+      "manufacturerReference": "642.NX.0170.RX",
+      "configuration": "Sapphire skeleton dial / 42 mm titanium / black structured lined rubber straps / HUB4700 chronograph",
+      "amount": 26400,
+      "currency": "USD",
+      "market": "United States",
+      "taxBasis": "excluded",
+      "basis": "current-list",
+      "checkedAt": "2026-10-28",
+      "effectiveDate": null,
+      "sourceUrl": "https://www.hublot.com/en-us/watches/big-bang/spirit-of-big-bang-titanium-42-mm",
+      "sourceName": "Hublot United States",
+      "sourceType": "manufacturer",
+      "catalogPath": "/collections/hublot/spirit-of-big-bang/642-nx-0170-rx",
+      "evidence": {
+        "priceLabel": "USD 26,400",
+        "taxStatement": "Suggested retail price (United States, VAT not included)",
+        "currencyBasis": "Manufacturer explicitly labels USD and United States.",
+        "catalogMatch": "Exact full selected manufacturer SKU; generic catalog label mapped through existing identity source. No related model substitution."
+      }
+    },
+    {
+      "brand": "Cartier",
+      "reference": "WSSA0029",
+      "manufacturerReference": "WSSA0029",
+      "configuration": "Silvered opaline dial / medium 35.1 mm steel / steel SmartLink bracelet plus calfskin strap / automatic 1847 MC",
+      "amount": 8400,
+      "currency": "USD",
+      "market": "United States",
+      "taxBasis": "unconfirmed",
+      "basis": "current-list",
+      "checkedAt": "2026-10-28",
+      "effectiveDate": null,
+      "sourceUrl": "https://www.cartier.com/en-us/watches/collections/santos-de-cartier/santos-de-cartier-watch-CRWSSA0029.html",
+      "sourceName": "Cartier United States",
+      "sourceType": "manufacturer",
+      "catalogPath": "/collections/cartier/santos-de-cartier/wssa0029",
+      "evidence": {
+        "priceLabel": "$8,400",
+        "taxStatement": "No explicit selected-price tax statement observed; preserve unconfirmed.",
+        "currencyBasis": "Official Cartier US page plus metadata priceCurrency USD.",
+        "catalogMatch": "Exact full selected manufacturer SKU; generic catalog label mapped through existing identity source. No related model substitution."
+      }
+    },
+    {
+      "brand": "Cartier",
+      "reference": "WSSA0018",
+      "manufacturerReference": "WSSA0018",
+      "configuration": "Silvered opaline dial / large 39.8 mm steel / steel SmartLink bracelet plus calfskin strap / automatic 1847 MC",
+      "amount": 9200,
+      "currency": "USD",
+      "market": "United States",
+      "taxBasis": "unconfirmed",
+      "basis": "current-list",
+      "checkedAt": "2026-10-28",
+      "effectiveDate": null,
+      "sourceUrl": "https://www.cartier.com/en-us/watches/collections/santos-de-cartier/santos-de-cartier-watch-CRWSSA0018.html",
+      "sourceName": "Cartier United States",
+      "sourceType": "manufacturer",
+      "catalogPath": "/collections/cartier/santos-de-cartier/wssa0018",
+      "evidence": {
+        "priceLabel": "$9,200",
+        "taxStatement": "No explicit selected-price tax statement observed; preserve unconfirmed.",
+        "currencyBasis": "Official Cartier US page plus metadata priceCurrency USD.",
+        "catalogMatch": "Exact full selected manufacturer SKU; generic catalog label mapped through existing identity source. No related model substitution."
+      }
+    },
+    {
+      "brand": "Cartier",
+      "reference": "Tank Louis Cartier",
+      "manufacturerReference": "WGTA0342",
+      "configuration": "Silver-grained dial / small 29.5 x 22 mm yellow gold / alligator strap / quartz",
+      "amount": 12400,
+      "currency": "USD",
+      "market": "United States",
+      "taxBasis": "unconfirmed",
+      "basis": "current-list",
+      "checkedAt": "2026-10-28",
+      "effectiveDate": null,
+      "sourceUrl": "https://www.cartier.com/en-us/watches/collections/tank/tank-louis-cartier-watch-CRWGTA0342.html",
+      "sourceName": "Cartier United States",
+      "sourceType": "manufacturer",
+      "catalogPath": "/collections/cartier/tank/tank-louis-cartier",
+      "evidence": {
+        "priceLabel": "$12,400",
+        "taxStatement": "No explicit selected-price tax statement observed; preserve unconfirmed.",
+        "currencyBasis": "Official Cartier US page plus metadata priceCurrency USD.",
+        "catalogMatch": "Manifest exactReference equals manufacturer's product SKU in the official exact product URL and productReference links; size, material, dial, bracelet and quartz movement agree. No successor SKU substituted.",
+        "catalogManifest": {
+          "file": "src/data/photography-cleared-sprint.ts",
+          "line": 1417,
+          "reference": "Tank Louis Cartier",
+          "exactReference": "WGTA0342",
+          "sourceUrl": "https://www.the1916company.com/watches/cartier/tank/wgta0342/",
+          "picturedConfiguration": "18K yellow gold / silver-grain Roman dial / brown alligator / 29.5 x 22 mm / quartz"
+        }
+      }
+    },
+    {
+      "brand": "Cartier",
+      "reference": "Tank Must",
+      "manufacturerReference": "WSTA0106",
+      "configuration": "Silvered dial / large 33.7 x 25.5 mm steel / steel bracelet / High Autonomy quartz",
+      "amount": 4400,
+      "currency": "USD",
+      "market": "United States",
+      "taxBasis": "unconfirmed",
+      "basis": "current-list",
+      "checkedAt": "2026-10-28",
+      "effectiveDate": null,
+      "sourceUrl": "https://www.cartier.com/en-us/watches/collections/tank/tank-must-de-cartier-watch-CRWSTA0106.html",
+      "sourceName": "Cartier United States",
+      "sourceType": "manufacturer",
+      "catalogPath": "/collections/cartier/tank/tank-must",
+      "evidence": {
+        "priceLabel": "$4,400",
+        "taxStatement": "No explicit selected-price tax statement observed; preserve unconfirmed.",
+        "currencyBasis": "Official Cartier US page plus metadata priceCurrency USD.",
+        "catalogMatch": "Manifest exactReference equals manufacturer's product SKU in the official exact product URL and productReference links; size, material, dial, bracelet and quartz movement agree. No successor SKU substituted.",
+        "catalogManifest": {
+          "file": "src/data/photography-cleared-sprint.ts",
+          "line": 1393,
+          "reference": "Tank Must",
+          "exactReference": "WSTA0106",
+          "sourceUrl": "https://www.the1916company.com/watches/cartier/tank/wsta0106/",
+          "picturedConfiguration": "Steel / silver Roman dial / steel bracelet / 33.7 x 25.5 mm / quartz"
+        }
+      }
+    },
+    {
+      "brand": "Panerai",
+      "reference": "PAM01641",
+      "manufacturerReference": "PAM01641",
+      "configuration": "Black dial / 40 mm Goldtech / black alligator strap plus black rubber strap / P.900 GMT",
+      "amount": 29800,
+      "currency": "USD",
+      "market": "United States",
+      "taxBasis": "unconfirmed",
+      "basis": "current-list",
+      "checkedAt": "2026-10-28",
+      "effectiveDate": null,
+      "sourceUrl": "https://www.panerai.com/us/en/collections/watch-collection/luminor/pam01641-luminor-gmt.html",
+      "sourceName": "Panerai United States",
+      "sourceType": "manufacturer",
+      "catalogPath": "/collections/panerai/luminor-gmt/pam01641",
+      "evidence": {
+        "priceLabel": "$29,800",
+        "taxStatement": "Extraction concatenates incl. sales tax and excl. sales tax; displayed treatment ambiguous, preserve unconfirmed.",
+        "currencyBasis": "Official /us/en/ selected US Panerai product page; title identifies US website.",
+        "catalogMatch": "Exact full selected manufacturer SKU; generic catalog label mapped through existing identity source. No related model substitution."
+      }
+    },
+    {
+      "brand": "Patek Philippe",
+      "reference": "5990/1A",
+      "manufacturerReference": "5990/1A-011",
+      "configuration": "Sunburst blue-gray dial / 40.5 mm steel / steel bracelet / CH 28-520 C FUS",
+      "amount": 76895,
+      "currency": "USD",
+      "market": "United States",
+      "taxBasis": "excluded",
+      "basis": "current-list",
+      "checkedAt": "2026-10-28",
+      "effectiveDate": null,
+      "sourceUrl": "https://www.patek.com/en/collection/nautilus/5990-1a-011",
+      "sourceName": "Patek Philippe",
+      "sourceType": "manufacturer",
+      "catalogPath": "/collections/patek-philippe/nautilus/5990-1a",
+      "evidence": {
+        "priceData": {
+          "amount": 76895,
+          "currency": "USD",
+          "isoCode": "US"
+        },
+        "currencyBasis": "Public manufacturer HTML __NEXT_DATA__.props.pageProps.componentProps selected product-price data explicitly carries USD and isoCode US.",
+        "taxStatement": "Suggested retail prices taxes excluded.",
+        "taxSourceKey": "dictionary.product_price_info_US",
+        "catalogManifest": {
+          "file": "src/data/photography-cleared-sprint.ts",
+          "reference": "5990/1A",
+          "exactReference": "5990/1A-011",
+          "configuration": {
+            "dial": "Sunburst blue-gray with black-gradient rim",
+            "bracelet": "Steel integrated bracelet",
+            "caseSize": "40.5 mm",
+            "movement": "Self-winding CH 28-520 C FUS",
+            "waterResistance": "30 m"
+          },
+          "sourceUrl": "https://www.patek.com/en/collection/nautilus/5990-1a-011"
+        },
+        "catalogMatch": "Manifest exact full reference and material, dial, size and bracelet/strap agree with current manufacturer technical data."
+      }
+    },
+    {
+      "brand": "Patek Philippe",
+      "reference": "5726/1A",
+      "manufacturerReference": "5726/1A-014",
+      "configuration": "Sunburst blue-gray dial / 40.5 mm steel / steel bracelet / annual calendar 26-330 S QA LU 24H",
+      "amount": 62766,
+      "currency": "USD",
+      "market": "United States",
+      "taxBasis": "excluded",
+      "basis": "current-list",
+      "checkedAt": "2026-10-28",
+      "effectiveDate": null,
+      "sourceUrl": "https://www.patek.com/en/collection/nautilus/5726-1a-014",
+      "sourceName": "Patek Philippe",
+      "sourceType": "manufacturer",
+      "catalogPath": "/collections/patek-philippe/nautilus/5726-1a",
+      "evidence": {
+        "priceData": {
+          "amount": 62766,
+          "currency": "USD",
+          "isoCode": "US"
+        },
+        "currencyBasis": "Public manufacturer HTML __NEXT_DATA__.props.pageProps.componentProps selected product-price data explicitly carries USD and isoCode US.",
+        "taxStatement": "Suggested retail prices taxes excluded.",
+        "taxSourceKey": "dictionary.product_price_info_US",
+        "catalogManifest": {
+          "file": "src/data/photography-cleared-sprint.ts",
+          "reference": "5726/1A",
+          "exactReference": "5726/1A-014",
+          "configuration": {
+            "dial": "Sunburst blue-gray with black-gradient rim",
+            "bracelet": "Steel integrated bracelet",
+            "caseSize": "40.5 mm",
+            "movement": "Self-winding 26-330 S QA LU 24H",
+            "waterResistance": "30 m"
+          },
+          "sourceUrl": "https://www.patek.com/en/collection/nautilus/5726-1a-014"
+        },
+        "catalogMatch": "Manifest exact full reference and material, dial, size and bracelet/strap agree with current manufacturer technical data."
+      }
+    },
+    {
+      "brand": "Patek Philippe",
+      "reference": "6119",
+      "manufacturerReference": "6119G-001",
+      "configuration": "Charcoal gray dial / 39 mm white gold / shiny black alligator strap / 30-255 PS",
+      "amount": 37510,
+      "currency": "USD",
+      "market": "United States",
+      "taxBasis": "excluded",
+      "basis": "current-list",
+      "checkedAt": "2026-10-28",
+      "effectiveDate": null,
+      "sourceUrl": "https://www.patek.com/en/collection/calatrava/6119G-001",
+      "sourceName": "Patek Philippe",
+      "sourceType": "manufacturer",
+      "catalogPath": "/collections/patek-philippe/calatrava/6119",
+      "evidence": {
+        "priceData": {
+          "amount": 37510,
+          "currency": "USD",
+          "isoCode": "US"
+        },
+        "currencyBasis": "Public manufacturer HTML __NEXT_DATA__.props.pageProps.componentProps selected product-price data explicitly carries USD and isoCode US.",
+        "taxStatement": "Suggested retail prices taxes excluded.",
+        "taxSourceKey": "dictionary.product_price_info_US",
+        "catalogManifest": {
+          "file": "src/data/photography-cleared-sprint.ts",
+          "reference": "6119",
+          "exactReference": "6119G-001",
+          "configuration": {
+            "dial": "Charcoal gray, vertical satin finish",
+            "bracelet": "Shiny black alligator leather strap",
+            "caseSize": "39 mm",
+            "movement": "Manual-winding 30-255 PS",
+            "waterResistance": "30 m"
+          },
+          "sourceUrl": "https://www.patek.com/en/collection/calatrava/6119G-001"
+        },
+        "catalogMatch": "Manifest exact full reference and material, dial, size and bracelet/strap agree with current manufacturer technical data."
+      }
+    },
+    {
+      "brand": "Patek Philippe",
+      "reference": "5227",
+      "manufacturerReference": "5227G-010",
+      "configuration": "Lacquered black dial / 39 mm white gold / shiny black alligator strap / 26-330 S C",
+      "amount": 47262,
+      "currency": "USD",
+      "market": "United States",
+      "taxBasis": "excluded",
+      "basis": "current-list",
+      "checkedAt": "2026-10-28",
+      "effectiveDate": null,
+      "sourceUrl": "https://www.patek.com/en/collection/calatrava/5227G-010",
+      "sourceName": "Patek Philippe",
+      "sourceType": "manufacturer",
+      "catalogPath": "/collections/patek-philippe/calatrava/5227",
+      "evidence": {
+        "priceData": {
+          "amount": 47262,
+          "currency": "USD",
+          "isoCode": "US"
+        },
+        "currencyBasis": "Public manufacturer HTML __NEXT_DATA__.props.pageProps.componentProps selected product-price data explicitly carries USD and isoCode US.",
+        "taxStatement": "Suggested retail prices taxes excluded.",
+        "taxSourceKey": "dictionary.product_price_info_US",
+        "catalogManifest": {
+          "file": "src/data/photography-cleared-sprint.ts",
+          "reference": "5227",
+          "exactReference": "5227G-010",
+          "configuration": {
+            "dial": "Lacquered black",
+            "bracelet": "Shiny black alligator leather strap",
+            "caseSize": "39 mm",
+            "movement": "Self-winding 26-330 S C",
+            "waterResistance": "30 m"
+          },
+          "sourceUrl": "https://www.patek.com/en/collection/calatrava/5227G-010"
+        },
+        "catalogMatch": "Manifest exact full reference and material, dial, size and bracelet/strap agree with current manufacturer technical data."
+      }
+    },
+    {
+      "brand": "Patek Philippe",
+      "reference": "Cubitus Time-Only",
+      "manufacturerReference": "5821/1A-001",
+      "configuration": "Sunburst olive green dial / 45 mm steel / steel bracelet / 26-330 S C",
+      "amount": 45512,
+      "currency": "USD",
+      "market": "United States",
+      "taxBasis": "excluded",
+      "basis": "current-list",
+      "checkedAt": "2026-10-28",
+      "effectiveDate": null,
+      "sourceUrl": "https://www.patek.com/en/collection/cubitus/5821-1a-001",
+      "sourceName": "Patek Philippe",
+      "sourceType": "manufacturer",
+      "catalogPath": "/collections/patek-philippe/cubitus/cubitus-time-only",
+      "evidence": {
+        "priceData": {
+          "amount": 45512,
+          "currency": "USD",
+          "isoCode": "US"
+        },
+        "currencyBasis": "Public manufacturer HTML __NEXT_DATA__.props.pageProps.componentProps selected product-price data explicitly carries USD and isoCode US.",
+        "taxStatement": "Suggested retail prices taxes excluded.",
+        "taxSourceKey": "dictionary.product_price_info_US",
+        "catalogManifest": {
+          "file": "src/data/photography-cleared-sprint.ts",
+          "reference": "Cubitus Time-Only",
+          "exactReference": "5821/1A-001",
+          "configuration": {
+            "dial": "Sunburst olive green, horizontally embossed",
+            "bracelet": "Steel integrated bracelet",
+            "caseSize": "45 mm (10–4 o'clock)",
+            "movement": "Self-winding 26-330 S C",
+            "waterResistance": "30 m"
+          },
+          "sourceUrl": "https://www.patek.com/en/collection/cubitus/5821-1a-001"
+        },
+        "catalogMatch": "Manifest exact full reference and material, dial, size and bracelet/strap agree with current manufacturer technical data."
+      }
+    },
+    {
+      "brand": "Patek Philippe",
+      "reference": "Cubitus Grand Date",
+      "manufacturerReference": "5822P-001",
+      "configuration": "Sunburst blue dial / 45 mm platinum / navy fabric-pattern composite strap / 240 PS CI J LU",
+      "amount": 97525,
+      "currency": "USD",
+      "market": "United States",
+      "taxBasis": "excluded",
+      "basis": "current-list",
+      "checkedAt": "2026-10-28",
+      "effectiveDate": null,
+      "sourceUrl": "https://www.patek.com/en/collection/cubitus/5822P-001",
+      "sourceName": "Patek Philippe",
+      "sourceType": "manufacturer",
+      "catalogPath": "/collections/patek-philippe/cubitus/cubitus-grand-date",
+      "evidence": {
+        "priceData": {
+          "amount": 97525,
+          "currency": "USD",
+          "isoCode": "US"
+        },
+        "currencyBasis": "Public manufacturer HTML __NEXT_DATA__.props.pageProps.componentProps selected product-price data explicitly carries USD and isoCode US.",
+        "taxStatement": "Suggested retail prices taxes excluded.",
+        "taxSourceKey": "dictionary.product_price_info_US",
+        "catalogManifest": {
+          "file": "src/data/photography-cleared-sprint.ts",
+          "reference": "Cubitus Grand Date",
+          "exactReference": "5822P-001",
+          "configuration": {
+            "dial": "Sunburst blue, horizontally embossed",
+            "bracelet": "Navy blue composite strap with fabric pattern and cream stitching",
+            "caseSize": "45 mm (10–4 o'clock)",
+            "movement": "Self-winding 240 PS CI J LU",
+            "waterResistance": "30 m"
+          },
+          "sourceUrl": "https://www.patek.com/en/collection/cubitus/5822P-001"
+        },
+        "catalogMatch": "Manifest exact full reference and material, dial, size and bracelet/strap agree with current manufacturer technical data."
+      }
+    },
+    {
+      "brand": "Patek Philippe",
+      "reference": "5167A-001",
+      "manufacturerReference": "5167A-001",
+      "configuration": "Sunburst charcoal gray to black dial / 40.8 mm steel / black composite strap / 26-330 S C",
+      "amount": 27257,
+      "currency": "USD",
+      "market": "United States",
+      "taxBasis": "excluded",
+      "basis": "current-list",
+      "checkedAt": "2026-10-28",
+      "effectiveDate": null,
+      "sourceUrl": "https://www.patek.com/en/collection/aquanaut/5167A-001",
+      "sourceName": "Patek Philippe",
+      "sourceType": "manufacturer",
+      "catalogPath": "/collections/patek-philippe/aquanaut/5167a-001",
+      "evidence": {
+        "priceData": {
+          "amount": 27257,
+          "currency": "USD",
+          "isoCode": "US"
+        },
+        "currencyBasis": "Public manufacturer HTML __NEXT_DATA__.props.pageProps.componentProps selected product-price data explicitly carries USD and isoCode US.",
+        "taxStatement": "Suggested retail prices taxes excluded.",
+        "taxSourceKey": "dictionary.product_price_info_US",
+        "catalogManifest": {
+          "file": "src/data/launch-catalog.ts",
+          "line": 24,
+          "reference": "5167A-001",
+          "sourceUrl": "https://www.patek.com/en/collection/aquanaut/5167A-001",
+          "configuration": "40.8 mm / 26-330 S C / charcoal gray with black-gradient rim / black composite strap / steel"
+        },
+        "catalogMatch": "Canonical exact 5167A-001 full reference; steel/black composite-strap configuration matches selected manufacturer product. No base-reference substitution."
+      }
+    },
+    {
+      "brand": "Patek Philippe",
+      "reference": "5327G-001",
+      "manufacturerReference": "5327G-001",
+      "configuration": "Sunburst blue Breguet numeral dial / 39 mm white gold / shiny navy alligator strap / 240 Q",
+      "amount": 120656,
+      "currency": "USD",
+      "market": "United States",
+      "taxBasis": "excluded",
+      "basis": "current-list",
+      "checkedAt": "2026-10-28",
+      "effectiveDate": null,
+      "sourceUrl": "https://www.patek.com/en/collection/grand-complications/5327G-001",
+      "sourceName": "Patek Philippe",
+      "sourceType": "manufacturer",
+      "catalogPath": "/collections/patek-philippe/grand-complications/5327g-001",
+      "evidence": {
+        "priceData": {
+          "amount": 120656,
+          "currency": "USD",
+          "isoCode": "US"
+        },
+        "currencyBasis": "Public manufacturer HTML __NEXT_DATA__.props.pageProps.componentProps selected product-price data explicitly carries USD and isoCode US.",
+        "taxStatement": "Suggested retail prices taxes excluded.",
+        "taxSourceKey": "dictionary.product_price_info_US",
+        "catalogManifest": {
+          "file": "src/data/photography-cleared-sprint.ts",
+          "reference": "5327G-001",
+          "exactReference": "5327G-001",
+          "configuration": {
+            "caseSize": "39 mm",
+            "movement": "240 Q automatic",
+            "dial": "Sunburst blue with Breguet numerals",
+            "bracelet": "Shiny navy blue alligator leather strap"
+          },
+          "sourceUrl": "https://www.patek.com/en/collection/grand-complications/5327G-001"
+        },
+        "catalogMatch": "Manifest exact full reference and material, dial, size and bracelet/strap agree with current manufacturer technical data."
+      }
+    },
+    {
+      "brand": "Patek Philippe",
+      "reference": "5236P-010",
+      "manufacturerReference": "5236P-010",
+      "configuration": "Rose-gilt opaline dial / 41.3 mm platinum / shiny chocolate alligator strap / 31-260 PS QL",
+      "amount": 156039,
+      "currency": "USD",
+      "market": "United States",
+      "taxBasis": "excluded",
+      "basis": "current-list",
+      "checkedAt": "2026-10-28",
+      "effectiveDate": null,
+      "sourceUrl": "https://www.patek.com/en/collection/grand-complications/5236P-010",
+      "sourceName": "Patek Philippe",
+      "sourceType": "manufacturer",
+      "catalogPath": "/collections/patek-philippe/grand-complications/5236p-010",
+      "evidence": {
+        "priceData": {
+          "amount": 156039,
+          "currency": "USD",
+          "isoCode": "US"
+        },
+        "currencyBasis": "Public manufacturer HTML __NEXT_DATA__.props.pageProps.componentProps selected product-price data explicitly carries USD and isoCode US.",
+        "taxStatement": "Suggested retail prices taxes excluded.",
+        "taxSourceKey": "dictionary.product_price_info_US",
+        "catalogManifest": {
+          "file": "src/data/photography-cleared-sprint.ts",
+          "reference": "5236P-010",
+          "exactReference": "5236P-010",
+          "configuration": {
+            "caseSize": "41.3 mm",
+            "movement": "31-260 PS QL automatic",
+            "dial": "Rose-gilt opaline with anthracite baton hour markers",
+            "bracelet": "Shiny chocolate brown alligator leather strap"
+          },
+          "sourceUrl": "https://www.patek.com/en/collection/grand-complications/5236P-010"
+        },
+        "catalogMatch": "Manifest exact full reference and material, dial, size and bracelet/strap agree with current manufacturer technical data."
+      }
+    },
+    {
+      "brand": "Patek Philippe",
+      "reference": "5270P-017",
+      "manufacturerReference": "5270P-017",
+      "configuration": "Red dial with black-gradient rim / 41 mm platinum / black fabric-pattern composite strap / CH 29-535 PS Q",
+      "amount": 248813,
+      "currency": "USD",
+      "market": "United States",
+      "taxBasis": "excluded",
+      "basis": "current-list",
+      "checkedAt": "2026-10-28",
+      "effectiveDate": null,
+      "sourceUrl": "https://www.patek.com/en/collection/grand-complications/5270p-017",
+      "sourceName": "Patek Philippe",
+      "sourceType": "manufacturer",
+      "catalogPath": "/collections/patek-philippe/grand-complications/5270p-017",
+      "evidence": {
+        "priceData": {
+          "amount": 248813,
+          "currency": "USD",
+          "isoCode": "US"
+        },
+        "currencyBasis": "Public manufacturer HTML __NEXT_DATA__.props.pageProps.componentProps selected product-price data explicitly carries USD and isoCode US.",
+        "taxStatement": "Suggested retail prices taxes excluded.",
+        "taxSourceKey": "dictionary.product_price_info_US",
+        "catalogManifest": {
+          "file": "src/data/photography-cleared-sprint.ts",
+          "reference": "5270P-017",
+          "exactReference": "5270P-017",
+          "configuration": {
+            "caseSize": "41 mm",
+            "movement": "CH 29-535 PS Q manual winding",
+            "dial": "Lacquered red with black-gradient rim",
+            "bracelet": "Black fabric-pattern composite strap with red stitching"
+          },
+          "sourceUrl": "https://www.patek.com/en/collection/grand-complications/5270p-017"
+        },
+        "catalogMatch": "Manifest exact full reference and material, dial, size and bracelet/strap agree with current manufacturer technical data."
+      }
+    },
+    {
+      "brand": "Patek Philippe",
+      "reference": "5811/1G",
+      "manufacturerReference": "5811/1G-001",
+      "configuration": "Sunburst blue dial with black-gradient rim / 41 mm white gold / white gold bracelet / 26-330 S C",
+      "amount": 82021,
+      "currency": "USD",
+      "market": "United States",
+      "taxBasis": "excluded",
+      "basis": "current-list",
+      "checkedAt": "2026-10-28",
+      "effectiveDate": null,
+      "sourceUrl": "https://www.patek.com/en/collection/nautilus/5811-1G-001",
+      "sourceName": "Patek Philippe",
+      "sourceType": "manufacturer",
+      "catalogPath": "/collections/patek-philippe/nautilus/5811-1g",
+      "evidence": {
+        "priceData": {
+          "amount": 82021,
+          "currency": "USD",
+          "isoCode": "US"
+        },
+        "currencyBasis": "Public manufacturer HTML selected price has currency USD and isoCode US.",
+        "taxStatement": "Suggested retail prices taxes excluded.",
+        "taxSourceKey": "dictionary.product_price_info_US",
+        "catalogManifest": {
+          "file": "src/data/watch-photography.ts",
+          "line": 399,
+          "reference": "5811/1G",
+          "exactReference": "5811/1G-001",
+          "sourceUrl": "https://www.patek.com/en/collection/nautilus/5811-1G-001",
+          "picturedConfiguration": "Sunburst blue with black-gradient rim / white gold integrated bracelet / white gold / 41 mm; exactConfigurationVerified true."
+        },
+        "catalogMatch": "Exact pictured 5811/1G-001 asset ID/alt/source and current selected manufacturer reference agree."
+      }
+    },
+    {
+      "brand": "Hublot",
+      "reference": "542.CX.1270.RX.MDM",
+      "manufacturerReference": "542.CX.1270.RX.MDM",
+      "configuration": "Polished black lacquered dial / 42 mm black ceramic / black smooth rubber straps / HUB1110",
+      "amount": 11400,
+      "currency": "USD",
+      "market": "United States",
+      "taxBasis": "excluded",
+      "basis": "current-list",
+      "checkedAt": "2026-10-28",
+      "effectiveDate": null,
+      "sourceUrl": "https://www.hublot.com/en-us/watches/classic-fusion/classic-fusion-original-black-magic-42-mm",
+      "sourceName": "Hublot United States",
+      "sourceType": "manufacturer",
+      "catalogPath": "/collections/hublot/classic-fusion/542-cx-1270-rx-mdm",
+      "evidence": {
+        "priceLabel": "USD 11,400",
+        "taxStatement": "Suggested retail price (United States, VAT not included)",
+        "currencyBasis": "Manufacturer explicitly displays USD and United States.",
+        "catalogMatch": "Public manufacturer technical reference 542.CX.1270.RX.MDM, black ceramic, glossy black dial, rubber, 42 mm.",
+        "catalogManifest": {
+          "file": "src/data/photography-cleared-sprint.ts",
+          "line": 3168,
+          "exactReference": "542.CX.1270.RX.MDM",
+          "configuration": "Black ceramic / lacquered black dial / 42 mm / rubber / HUB1110",
+          "sourceUrl": "https://www.hublot.com/en-us/watches/classic-fusion/classic-fusion-original-black-magic-42-mm"
+        }
+      }
+    },
+    {
+      "brand": "Hublot",
+      "reference": "542.CM.1171.RX",
+      "manufacturerReference": "542.CM.1171.RX",
+      "configuration": "Matte black dial / 42 mm black ceramic / black lined rubber straps / HUB1110",
+      "amount": 10700,
+      "currency": "USD",
+      "market": "United States",
+      "taxBasis": "excluded",
+      "basis": "current-list",
+      "checkedAt": "2026-10-28",
+      "effectiveDate": null,
+      "sourceUrl": "https://www.hublot.com/en-us/watches/classic-fusion/classic-fusion-black-magic-42-mm",
+      "sourceName": "Hublot United States",
+      "sourceType": "manufacturer",
+      "catalogPath": "/collections/hublot/classic-fusion/542-cm-1171-rx",
+      "evidence": {
+        "priceLabel": "USD 10,700",
+        "taxStatement": "Suggested retail price (United States, VAT not included)",
+        "currencyBasis": "Manufacturer explicitly displays USD and United States.",
+        "catalogMatch": "Public manufacturer technical reference 542.CM.1171.RX, black ceramic, matte black dial, rubber, 42 mm.",
+        "catalogManifest": {
+          "file": "src/data/photography-cleared-sprint.ts",
+          "line": 5420,
+          "exactReference": "542.CM.1171.RX",
+          "configuration": "Black ceramic / black dial / 42 mm / black rubber / HUB1110",
+          "sourceUrl": "https://www.hublot.com/en-ch/watches/classic-fusion/classic-fusion-black-magic-42-mm"
+        }
+      }
+    },
+    {
+      "brand": "Cartier",
+      "reference": "WGRD0011",
+      "manufacturerReference": "WGRD0011",
+      "configuration": "White Roman dial / medium 42.5 x 34.92 mm yellow gold / gold bracelet plus gray alligator strap / automatic 1899 MC",
+      "amount": 51500,
+      "currency": "USD",
+      "market": "United States",
+      "taxBasis": "unconfirmed",
+      "basis": "current-list",
+      "checkedAt": "2026-10-28",
+      "effectiveDate": null,
+      "sourceUrl": "https://www.cartier.com/en-us/watches/collections/roadster/roadster-watch--CRWGRD0011.html",
+      "sourceName": "Cartier United States",
+      "sourceType": "manufacturer",
+      "catalogPath": "/collections/cartier/roadster/wgrd0011",
+      "evidence": {
+        "priceLabel": "$51,500",
+        "taxStatement": "No explicit selected-price tax statement observed; retain unconfirmed.",
+        "currencyBasis": "Cartier US /en-us/ page plus metadata priceCurrency USD.",
+        "catalogMatch": "Current exact WGRD0011 product page/metadata, medium yellow gold case and bracelet with white Roman dial.",
+        "catalogManifest": {
+          "file": "src/data/photography-cleared-sprint.ts",
+          "line": 5093,
+          "exactReference": "WGRD0011",
+          "configuration": "Medium yellow gold / white Roman dial / gold bracelet / 42.5 x 34.92 mm / 1899 MC",
+          "sourceUrl": "https://www.cartier.com/en-us/watches/collections/roadster/roadster-watch--CRWGRD0011.html"
+        }
+      }
+    },
+    {
+      "brand": "Cartier",
+      "reference": "WSRD0014",
+      "manufacturerReference": "WSRD0014",
+      "configuration": "Blue PVD Roman dial / large 47.2 x 38.7 mm steel / steel bracelet plus navy rubber strap / automatic 1847 MC",
+      "amount": 10200,
+      "currency": "USD",
+      "market": "United States",
+      "taxBasis": "unconfirmed",
+      "basis": "current-list",
+      "checkedAt": "2026-10-28",
+      "effectiveDate": null,
+      "sourceUrl": "https://www.cartier.com/en-us/watches/collections/roadster/roadster-watch--CRWSRD0014.html",
+      "sourceName": "Cartier United States",
+      "sourceType": "manufacturer",
+      "catalogPath": "/collections/cartier/roadster/wsrd0014",
+      "evidence": {
+        "priceLabel": "$10,200",
+        "taxStatement": "No explicit selected-price tax statement observed; retain unconfirmed.",
+        "currencyBasis": "Cartier US /en-us/ page plus metadata priceCurrency USD.",
+        "catalogMatch": "Current exact WSRD0014 product page/metadata, large steel case and bracelet with blue PVD Roman dial.",
+        "catalogManifest": {
+          "file": "src/data/photography-cleared-sprint.ts",
+          "line": 5116,
+          "exactReference": "WSRD0014",
+          "configuration": "Large steel / blue PVD Roman dial / navy rubber strap / 47.2 x 38.7 mm / 1847 MC",
+          "sourceUrl": "https://www.cartier.com/en-us/watches/collections/roadster/roadster-watch--CRWSRD0014.html"
+        }
+      }
+    }
+  ],
+  "held": [
+    {
+      "brand": "Hublot",
+      "reference": "441.NX.1171.RX",
+      "manufacturerReference": "441.NX.1171.RX",
+      "sourceUrl": "https://www.hublot.com/en-us/watches/big-bang/big-bang-unico-titanium-42-mm",
+      "checkedAt": "2026-10-28",
+      "reason": "Former exact product URL now returns Hublot homepage and related novelty prices. No selected 441.NX.1171.RX price remains. Do not substitute newer Unico SKU or diamond variant."
+    },
+    {
+      "brand": "Hublot",
+      "reference": "441-NX-1171-RX",
+      "manufacturerReference": "441.NX.1171.RX",
+      "sourceUrl": "https://www.hublot.com/en-us/watches/big-bang/big-bang-unico-titanium-42-mm",
+      "checkedAt": "2026-10-28",
+      "reason": "Separate canonical Big Bang route aliases same exact SKU as Big Bang Unico row. Original manufacturer URL returns homepage; no exact price verified. Preserve both existing routes."
+    },
+    {
+      "brand": "Cartier",
+      "reference": "Ballon Bleu 40 mm",
+      "manufacturerReference": "WSBB0061",
+      "sourceUrl": "https://www.cartier.com/en-us/watches/collections/ballon-de-cartier/ballon-bleu-de-cartier-watch-CRWSBB0061.html",
+      "checkedAt": "2026-10-28",
+      "reason": "Inferred manufacturer exact-SKU URLs returned 404; no actual current manufacturer price verified. Do not substitute visually similar Ballon Bleu successor."
+    },
+    {
+      "brand": "Panerai",
+      "reference": "PAM01312",
+      "sourceUrl": "https://www.panerai.com/us/en/collections/watch-collection/luminor/pam01312-luminor-marina.html",
+      "resolvedUrl": "https://www.panerai.com/us/en/collections/watch-collection/luminor/pam03312-luminor-marina.html",
+      "checkedAt": "2026-10-28",
+      "reason": "Requested PAM01312 redirects to different PAM03312 ($9,500). Replacement SKU price explicitly excluded."
+    },
+    {
+      "brand": "Panerai",
+      "reference": "PAM01616",
+      "sourceUrl": "https://www.panerai.com/us/en/collections/watch-collection/submersible/pam01616-submersible-carbotech.html",
+      "resolvedUrl": "https://www.panerai.com/us/en/collections/watch-collection/submersible.html",
+      "checkedAt": "2026-10-28",
+      "reason": "Original exact-model URL redirects to Submersible collection with different SKUs. No exact current manufacturer price verified."
+    },
+    {
+      "brand": "TAG Heuer",
+      "reference": "CAR2A1Z.FT6044",
+      "sourceUrl": "https://www.tagheuer.com/us/en/timepieces/collections/tag-heuer-carrera/45-mm-calibre-heuer01-automatic/CAR2A1Z.FT6044.html",
+      "checkedAt": "2026-10-28",
+      "observedAmount": 6950,
+      "observedCurrency": "USD",
+      "proposedBasis": "historical-list",
+      "configuration": "Black dial / 45 mm black PVD steel / black rubber strap / Calibre HEUER01",
+      "reason": "Exact official US product page displays $6,950 and explicitly says discontinued. Candidate historical list benchmark only; effective date and original/last-list timing unknown. Held out of current-price tranche pending review."
+    },
+    {
+      "brand": "TAG Heuer",
+      "reference": "CBL2111.FC6453",
+      "sourceUrl": "https://www.tagheuer.com/us/en/timepieces/collections/tag-heuer-monaco/39-mm-th20-00/CBL2111.FC6453.html",
+      "checkedAt": "2026-10-28",
+      "observedAmount": 8300,
+      "observedCurrency": "USD",
+      "reason": "Same full SKU now appears with TH20-00 instead of catalog's historical Heuer02. Current $8,300 held pending movement/configuration review; do not imply historical original MSRP."
+    }
+  ],
+  "checkedAt": "2026-10-28",
+  "summary": {
+    "ready": 23,
+    "possibleCanonicalCoverage": 136,
+    "totalCanonical": 297,
+    "unknownAfterTranche": 161,
+    "reviewedHolds": 7
+  },
+  "status": "immutable-ready-for-root-review",
+  "cautions": [
+    "All ready rows have exact current manufacturer product identity and United States USD evidence. No currency conversion or dealer asking price is used.",
+    "Patek price amounts come from its public selected-product HTML data, not conversions performed by Quest Luxo. isoCode US and currency USD are saved per row; U.S. manufacturer disclosure says tax excluded.",
+    "Hublot explicitly states USD and United States VAT not included. Cartier tax treatment remains unconfirmed. Panerai extracted tax labels conflict, so treatment remains unconfirmed.",
+    "Dates are observation dates. Manufacturer effective dates remain null. Current list benchmarks must not be labeled launch/original MSRP.",
+    "Cartier rendered text includes unavailable-online controls alongside prices. A list benchmark does not promise stock.",
+    "Historical TAG Carrera $6,950 and movement-revised Monaco $8,300 are held outside ready rows."
+  ]
+}

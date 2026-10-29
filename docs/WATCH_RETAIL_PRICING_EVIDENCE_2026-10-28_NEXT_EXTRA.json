@@ -1,0 +1,311 @@
+{
+  "title": "Further U.S. manufacturer MSRP research after 23-row snapshot — October 28",
+  "baseline": {
+    "lastReleasedCoverage": 113,
+    "frozenNextRows": 23,
+    "potentialCoverageAfterNext": 136,
+    "totalCanonical": 297
+  },
+  "prices": [
+    {
+      "brand": "Tudor",
+      "reference": "M25407N-0001",
+      "manufacturerReference": "M25407N-0001",
+      "configuration": "Black sunray dial / 39 mm titanium / titanium T-fit bracelet plus black rubber strap",
+      "amount": 5625,
+      "currency": "USD",
+      "market": "United States",
+      "taxBasis": "unconfirmed",
+      "basis": "current-list",
+      "checkedAt": "2026-10-28",
+      "effectiveDate": null,
+      "sourceUrl": "https://www.tudorwatch.com/en/watches/pelagos/m25407n-0001",
+      "sourceName": "Tudor",
+      "sourceType": "manufacturer",
+      "catalogPath": "/collections/tudor/pelagos/m25407n-0001",
+      "evidence": {
+        "priceLabel": "$5,625",
+        "pricingStatement": "All prices are TUDOR’s suggested retail price.",
+        "currencyBasis": "Public manufacturer HTML page environment includes countryCode US and countryCurrency USD.",
+        "countryData": {
+          "countryCode": "US",
+          "countryCurrency": "USD"
+        },
+        "taxStatement": "No explicit tax inclusion or exclusion statement observed; retain unconfirmed.",
+        "catalogManifest": {
+          "file": "src/data/launch-catalog.ts",
+          "reference": "M25407N-0001",
+          "manufacturerReference": "M25407N-0001",
+          "sourceUrl": "https://www.tudorwatch.com/en/watches/pelagos/m25407n-0001"
+        },
+        "catalogMatch": "Exact selected manufacturer reference and configuration agree with existing pictured/current catalog identity."
+      }
+    },
+    {
+      "brand": "Tudor",
+      "reference": "M25600TN-0001",
+      "manufacturerReference": "M25600TN-0001",
+      "configuration": "Black dial / 42 mm titanium and steel / titanium bracelet plus black rubber strap",
+      "amount": 6025,
+      "currency": "USD",
+      "market": "United States",
+      "taxBasis": "unconfirmed",
+      "basis": "current-list",
+      "checkedAt": "2026-10-28",
+      "effectiveDate": null,
+      "sourceUrl": "https://www.tudorwatch.com/en/watches/pelagos/m25600tn-0001",
+      "sourceName": "Tudor",
+      "sourceType": "manufacturer",
+      "catalogPath": "/collections/tudor/pelagos/m25600tn-0001",
+      "evidence": {
+        "priceLabel": "$6,025",
+        "pricingStatement": "All prices are TUDOR’s suggested retail price.",
+        "currencyBasis": "Public manufacturer HTML page environment includes countryCode US and countryCurrency USD.",
+        "countryData": {
+          "countryCode": "US",
+          "countryCurrency": "USD"
+        },
+        "taxStatement": "No explicit tax inclusion or exclusion statement observed; retain unconfirmed.",
+        "catalogManifest": {
+          "file": "src/data/photography-cleared-sprint.ts",
+          "exactReference": "M25600TN-0001",
+          "configuration": {
+            "dial": "Black with white indexes",
+            "bracelet": "Titanium bracelet, steel folding clasp",
+            "caseSize": "42 mm",
+            "movement": "Self-winding manufacture MT5612 COSC",
+            "waterResistance": "500 m"
+          },
+          "sourceUrl": "https://www.tudorwatch.com/en/pressroom/products/pelagos-39"
+        },
+        "catalogMatch": "Exact selected manufacturer reference and configuration agree with existing pictured/current catalog identity."
+      }
+    },
+    {
+      "brand": "Tudor",
+      "reference": "M7941A1A0NU",
+      "manufacturerReference": "M7941A1A0NU-0001",
+      "configuration": "Black dial / 41 mm steel / black bezel / three-link steel T-fit bracelet",
+      "amount": 5325,
+      "currency": "USD",
+      "market": "United States",
+      "taxBasis": "unconfirmed",
+      "basis": "current-list",
+      "checkedAt": "2026-10-28",
+      "effectiveDate": null,
+      "sourceUrl": "https://www.tudorwatch.com/en/watches/black-bay/m7941a1a0nu-0001",
+      "sourceName": "Tudor",
+      "sourceType": "manufacturer",
+      "catalogPath": "/collections/tudor/black-bay/m7941a1a0nu",
+      "evidence": {
+        "priceLabel": "$5,325",
+        "pricingStatement": "All prices are TUDOR’s suggested retail price.",
+        "currencyBasis": "Public manufacturer HTML page environment includes countryCode US and countryCurrency USD.",
+        "countryData": {
+          "countryCode": "US",
+          "countryCurrency": "USD"
+        },
+        "taxStatement": "No explicit tax inclusion or exclusion statement observed; retain unconfirmed.",
+        "catalogManifest": {
+          "file": "src/data/photography-cleared-sprint.ts",
+          "exactReference": "M7941A1A0NU-0001",
+          "configuration": {
+            "dial": "Black, domed, silver-coloured applied hour markers",
+            "bracelet": "Three-link stainless-steel bracelet, T-fit clasp",
+            "caseSize": "41 mm",
+            "movement": "Self-winding MT5602-U, COSC and METAS certified",
+            "waterResistance": "200 m"
+          },
+          "sourceUrl": "https://www.tudorwatch.com/en/pressroom/products/black-bay"
+        },
+        "catalogMatch": "Pictured manifest is -0001 THREE-link. This row intentionally uses $5,325 -0001; the $5,450 -0003 FIVE-link variant is excluded."
+      }
+    },
+    {
+      "brand": "Tudor",
+      "reference": "M7941A1A0RU-0003",
+      "manufacturerReference": "M7941A1A0RU-0003",
+      "configuration": "Black dial / 41 mm steel / burgundy bezel / five-link steel T-fit bracelet",
+      "amount": 5450,
+      "currency": "USD",
+      "market": "United States",
+      "taxBasis": "unconfirmed",
+      "basis": "current-list",
+      "checkedAt": "2026-10-28",
+      "effectiveDate": null,
+      "sourceUrl": "https://www.tudorwatch.com/en/watches/black-bay/m7941a1a0ru-0003",
+      "sourceName": "Tudor",
+      "sourceType": "manufacturer",
+      "catalogPath": "/collections/tudor/black-bay/m7941a1a0ru-0003",
+      "evidence": {
+        "priceLabel": "$5,450",
+        "pricingStatement": "All prices are TUDOR’s suggested retail price.",
+        "currencyBasis": "Public manufacturer HTML page environment includes countryCode US and countryCurrency USD.",
+        "countryData": {
+          "countryCode": "US",
+          "countryCurrency": "USD"
+        },
+        "taxStatement": "No explicit tax inclusion or exclusion statement observed; retain unconfirmed.",
+        "catalogManifest": {
+          "file": "src/data/photography-cleared-sprint.ts",
+          "exactReference": "M7941A1A0RU-0003",
+          "configuration": {
+            "caseSize": "41 mm",
+            "movement": "MT5602-U automatic",
+            "dial": "Black domed",
+            "bracelet": "Stainless-steel five-link bracelet"
+          },
+          "sourceUrl": "https://www.tudorwatch.com/en/watches/black-bay/m7941a1a0ru-0003"
+        },
+        "catalogMatch": "Exact selected manufacturer reference and configuration agree with existing pictured/current catalog identity."
+      }
+    },
+    {
+      "brand": "Tudor",
+      "reference": "M79360N-0024",
+      "manufacturerReference": "M79360N-0024",
+      "configuration": "Turquoise dial with black counters / 41 mm steel / five-link steel T-fit bracelet",
+      "amount": 7000,
+      "currency": "USD",
+      "market": "United States",
+      "taxBasis": "unconfirmed",
+      "basis": "current-list",
+      "checkedAt": "2026-10-28",
+      "effectiveDate": null,
+      "sourceUrl": "https://www.tudorwatch.com/en/watch-family/daring-watches/m79360n-0024",
+      "sourceName": "Tudor",
+      "sourceType": "manufacturer",
+      "catalogPath": "/collections/tudor/black-bay-chrono/m79360n-0024",
+      "evidence": {
+        "priceLabel": "$7,000",
+        "pricingStatement": "All prices are TUDOR’s suggested retail price.",
+        "currencyBasis": "Public manufacturer HTML page environment includes countryCode US and countryCurrency USD.",
+        "countryData": {
+          "countryCode": "US",
+          "countryCurrency": "USD"
+        },
+        "taxStatement": "No explicit tax inclusion or exclusion statement observed; retain unconfirmed.",
+        "catalogManifest": {
+          "file": "src/data/photography-cleared-sprint.ts",
+          "exactReference": "M79360N-0024",
+          "configuration": {
+            "caseSize": "41 mm",
+            "movement": "Manufacture Calibre MT5813 (COSC)",
+            "waterResistance": "200 m",
+            "dial": "Turquoise with black subdials",
+            "bracelet": "Stainless-steel five-link bracelet"
+          },
+          "sourceUrl": "https://www.watchfinder.com/watches/tudor/black-bay-chrono/m79360n-0024/340031"
+        },
+        "catalogMatch": "Exact selected manufacturer reference and configuration agree with existing pictured/current catalog identity."
+      }
+    },
+    {
+      "brand": "Tudor",
+      "reference": "M79360N-0019",
+      "manufacturerReference": "M79360N-0019",
+      "configuration": "Pink dial with black counters / 41 mm steel / five-link steel T-fit bracelet",
+      "amount": 7000,
+      "currency": "USD",
+      "market": "United States",
+      "taxBasis": "unconfirmed",
+      "basis": "current-list",
+      "checkedAt": "2026-10-28",
+      "effectiveDate": null,
+      "sourceUrl": "https://www.tudorwatch.com/en/watch-family/daring-watches/m79360n-0019",
+      "sourceName": "Tudor",
+      "sourceType": "manufacturer",
+      "catalogPath": "/collections/tudor/black-bay-chrono/m79360n-0019",
+      "evidence": {
+        "priceLabel": "$7,000",
+        "pricingStatement": "All prices are TUDOR’s suggested retail price.",
+        "currencyBasis": "Public manufacturer HTML page environment includes countryCode US and countryCurrency USD.",
+        "countryData": {
+          "countryCode": "US",
+          "countryCurrency": "USD"
+        },
+        "taxStatement": "No explicit tax inclusion or exclusion statement observed; retain unconfirmed.",
+        "catalogManifest": {
+          "file": "src/data/photography-cleared-sprint.ts",
+          "exactReference": "M79360N-0019",
+          "configuration": {
+            "caseSize": "41 mm",
+            "movement": "Manufacture Calibre MT5813 (COSC)",
+            "waterResistance": "200 m",
+            "dial": "Pink with black subdials",
+            "bracelet": "Stainless-steel five-link bracelet"
+          },
+          "sourceUrl": "https://www.watchfinder.com/watches/tudor/black-bay-chrono/m79360n-0019/349444"
+        },
+        "catalogMatch": "Exact selected manufacturer reference and configuration agree with existing pictured/current catalog identity."
+      }
+    },
+    {
+      "brand": "Breitling",
+      "reference": "A17376211B1S1",
+      "manufacturerReference": "A17376211B1S1",
+      "configuration": "44 mm stainless steel / black rubber strap",
+      "amount": 5700,
+      "currency": "USD",
+      "market": "United States",
+      "taxBasis": "excluded",
+      "basis": "current-list",
+      "checkedAt": "2026-10-28",
+      "effectiveDate": null,
+      "sourceUrl": "https://www.breitling.com/us-en/watches/superocean/superocean-automatic-44-my22/A17376211B1S1/",
+      "sourceName": "Breitling United States",
+      "sourceType": "manufacturer",
+      "catalogPath": "/collections/breitling/superocean/a17376211b1s1",
+      "evidence": {
+        "priceLabel": "USD5,700",
+        "taxStatement": "Excl. Sales Tax",
+        "priceOffer": {
+          "price": 5700,
+          "priceCurrency": "USD",
+          "priceValidUntil": "2026-11-05"
+        },
+        "catalogMatch": "Exact full SKU above selected price and in technical reference. Rubber strap material and black color from manufacturer's selected-product specification."
+      }
+    }
+  ],
+  "held": [
+    {
+      "brand": "Breitling",
+      "reference": "A17388101B1A1",
+      "sourceUrl": "https://www.breitling.com/us-en/watches/colt/colt-automatic/A17388101B1A1/",
+      "checkedAt": "2026-10-28",
+      "reason": "Official exact US product URL returns manufacturer 404 page; unrelated recommendations and their structured prices are excluded."
+    },
+    {
+      "brand": "Breitling",
+      "reference": "A32390111G1A1",
+      "sourceUrl": "https://www.breitling.com/us-en/watches/avenger/avenger-ii-gmt/A32390111G1A1/",
+      "checkedAt": "2026-10-28",
+      "reason": "Official exact US product URL returns manufacturer 404 page; unrelated recommendations and their structured prices are excluded."
+    },
+    {
+      "brand": "Tudor",
+      "reference": "M7941A1A0NU",
+      "manufacturerReference": "M7941A1A0NU-0003",
+      "observedAmount": 5450,
+      "currency": "USD",
+      "sourceUrl": "https://www.tudorwatch.com/en/watches/black-bay/m7941a1a0nu-0003",
+      "reason": "Five-link -0003 current variant differs from catalog's pictured three-link -0001. Excluded from ready canonical configuration. Ready row uses exact -0001 at $5,325."
+    }
+  ],
+  "checkedAt": "2026-10-28",
+  "status": "immutable-ready-for-root-review",
+  "summary": {
+    "ready": 7,
+    "reviewedHolds": 3,
+    "potentialCanonicalCoverage": 143,
+    "totalCanonical": 297,
+    "unknownAfterIntegration": 154
+  },
+  "cautions": [
+    "Six Tudor prices have explicit countryCode US / countryCurrency USD in public manufacturer HTML; taxes remain unconfirmed.",
+    "Monochrome base M7941A1A0NU maps to manifest full SKU -0001, THREE-link bracelet, $5,325. Five-link -0003 at $5,450 is excluded from this pictured configuration.",
+    "Breitling A17376211B1S1 has manufacturer USD 5,700 and explicit sales-tax exclusion. Source offer priceValidUntil is not the manufacturer's effective date.",
+    "Observation date is 2026-10-28; effectiveDate remains null. No FX conversion, market asking prices or stock promises."
+  ]
+}
