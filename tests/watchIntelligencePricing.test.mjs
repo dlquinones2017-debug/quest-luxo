@@ -101,7 +101,7 @@ test("all public retail entries carry auditable configuration, market and date e
   const identities = new Set();
   for (const price of verifiedRetailPrices) {
     assert.ok(price.amount > 0 && Number.isFinite(price.amount));
-    assert.ok(["USD", "CHF", "EUR", "GBP"].includes(price.currency));
+    assert.ok(["USD", "CHF", "EUR", "GBP", "IDR"].includes(price.currency));
     assert.ok(price.market.trim().length > 0);
     assert.ok(["unconfirmed", "included", "excluded"].includes(price.taxBasis));
     if (price.checkedAt === "2026-10-24" && ["Rolex", "Tudor"].includes(price.brand)) assert.equal(price.taxBasis, "unconfirmed", "source silence must not establish a tax basis");
@@ -113,18 +113,18 @@ test("all public retail entries carry auditable configuration, market and date e
       assert.match(price.sourceName, /manufacturer.*archived by/i);
     } else if (price.brand === "Tudor" && new URL(price.sourceUrl).hostname === "media.tudorwatch.com") {
       assert.equal(price.basis, "historical-list");
-    } else assert.equal(new URL(price.sourceUrl).hostname, price.brand === "TAG Heuer" ? "www.tagheuer.com" : officialHosts[price.brand]);
+    } else assert.equal(new URL(price.sourceUrl).hostname, ({ "TAG Heuer": "www.tagheuer.com", Breguet: "www.breguet.com", "Franck Muller": "www.franckmuller.com" })[price.brand] ?? officialHosts[price.brand]);
     const compact = value => value.toLowerCase().replace(/[^a-z0-9]/g, "");
     assert.equal(new URL(price.sourceUrl).protocol, "https:");
     // Hublot uses descriptive product URLs; its exact selected SKU is in page evidence.
-    if (!archive && !price.sourceUrl.endsWith(".pdf") && !["Hublot", "Bell & Ross"].includes(price.brand)) assert.ok(compact(price.sourceUrl).includes(compact(price.manufacturerReference)), price.sourceUrl);
+    if (!archive && !price.sourceUrl.endsWith(".pdf") && !["Hublot", "Bell & Ross", "Franck Muller"].includes(price.brand)) assert.ok(compact(price.sourceUrl).includes(compact(price.manufacturerReference)), price.sourceUrl);
     assert.match(price.checkedAt, /^\d{4}-\d{2}-\d{2}$/);
     if (price.effectiveDate) {
       assert.match(price.effectiveDate, /^\d{4}-\d{2}-\d{2}$/);
       assert.ok(price.effectiveDate <= price.checkedAt);
     }
     if (price.effectivePeriod) assert.match(price.effectivePeriod, /^\d{4}(?:-(?:0[1-9]|1[0-2]))?$/);
-    const identity = `${price.brand}:${price.manufacturerReference}`;
+    const identity = [price.brand, price.manufacturerReference, price.currency, price.market, price.basis, price.effectiveDate ?? price.effectivePeriod ?? "undated"].join(":");
     assert.ok(!identities.has(identity), identity);
     identities.add(identity);
     assert.ok(collectionRegistry.some(collection => collection.brand === price.brand && collection.assets.some(asset => (asset.displayReference ?? asset.reference) === price.reference)) || rolexAssets.some(asset => asset.reference === price.reference), `missing public reference: ${price.reference}`);
@@ -133,7 +133,7 @@ test("all public retail entries carry auditable configuration, market and date e
 
 test("descriptive manufacturer URLs and generic catalog labels have exact configuration evidence", async () => {
   const evidence = JSON.parse(await readFile(new URL("../docs/WATCH_RETAIL_PRICING_EVIDENCE_2026-10-28_NEXT.json", import.meta.url), "utf8"));
-  for (const price of verifiedRetailPrices.filter(price => ["Hublot", "Cartier", "Panerai", "Patek Philippe"].includes(price.brand))) {
+  for (const price of verifiedRetailPrices.filter(price => evidence.prices.some(row => row.brand === price.brand && row.manufacturerReference === price.manufacturerReference))) {
     const row = evidence.prices.find(row => row.brand === price.brand && row.manufacturerReference === price.manufacturerReference);
     assert.ok(row, price.manufacturerReference);
     assert.equal(row.reference, price.reference);
@@ -218,6 +218,50 @@ test("retail summary never treats lower foreign amounts or older historical peri
   assert.equal(selected.hasRange, false);
   const current = { ...euro, basis: "current-list", effectiveDate: null };
   assert.equal(getRetailPriceSummary([base, current]).price, current);
+  const undated = { ...base, effectiveDate: null };
+  const otherUndated = { ...undated, amount: 2000 };
+  assert.equal(getRetailPriceSummary([undated, otherUndated]).price, undated);
+  assert.equal(getRetailPriceSummary([undated, otherUndated]).hasRange, false);
+});
+
+test("final source pass retains exact manufacturer evidence without treating archives or foreign prices as U.S. budgets", async () => {
+  const ledger = JSON.parse(await readFile(new URL("../docs/WATCH_RETAIL_PRICING_EVIDENCE_2026-10-28_FINAL_INTEGRATION.json", import.meta.url), "utf8"));
+  assert.equal(ledger.prices.length, 9);
+  for (const expected of ledger.prices) {
+    const actual = getVerifiedRetailPrices({ brand: expected.brand, reference: expected.reference }).find(price => price.manufacturerReference === expected.manufacturerReference);
+    for (const key of ["amount", "currency", "market", "taxBasis", "basis", "effectiveDate", "effectivePeriod", "configuration", "sourceUrl"]) assert.equal(actual?.[key], expected[key], `${expected.reference}:${key}`);
+  }
+  const breguetEvidence = JSON.parse(await readFile(new URL("../docs/WATCH_RETAIL_PRICING_EVIDENCE_2026-10-28_FINAL_READY.json", import.meta.url), "utf8")).prices.find(price => price.brand === "Breguet");
+  assert.deepEqual(breguetEvidence.evidence.priceData, { country: "US", price: "36600", currency: "USD", visibility: true, formatted_price: "$36,600" });
+  assert.match(breguetEvidence.evidence.variantBinding, /235148/);
+  assert.equal(getVerifiedUsdRetailBenchmark({ brand: "Breguet", reference: "5177", model: "Classique" }), 36600);
+  assert.equal(getVerifiedUsdRetailBenchmark({ brand: "Hublot", reference: "429.NM.0170.RX", model: "Tourbillon" }), 119000);
+  const panerai = getVerifiedRetailPrices({ brand: "Panerai", reference: "PAM00502" })[0];
+  assert.equal(panerai.effectivePeriod, undefined, "archive grouping year is not price-effective evidence");
+  const popeye = getVerifiedRetailPrices({ brand: "Franck Muller", reference: "V 45 SC POPEYE LTD TT NR BR NR" })[0];
+  assert.equal(popeye.currency, "GBP");
+  assert.equal(popeye.effectivePeriod, "2022-10");
+  assert.match(popeye.configuration, /60-piece/);
+  const colt = getVerifiedRetailPrices({ brand: "Breitling", reference: "A17388101B1A1" })[0];
+  assert.equal(colt.currency, "USD");
+  assert.equal(colt.market, "Curaçao");
+  const avenger = getVerifiedRetailPrices({ brand: "Breitling", reference: "A32390111G1A1" })[0];
+  assert.equal(avenger.currency, "IDR");
+  assert.equal(avenger.amount, 96400000);
+  for (const price of [panerai, popeye, colt, avenger]) {
+    const asset = { brand: price.brand, reference: price.reference, model: "Source-qualified watch" };
+    assert.equal(getVerifiedUsdRetailBenchmark(asset), null);
+    const record = createSearchIndexRecord({ brand: price.brand, asset });
+    assert.equal(searchWatchRecords({ records: [record], query: "under $100000000" }).length, 0);
+  }
+});
+
+test("every remaining canonical MSRP gap has an explicit source outcome", async () => {
+  const coverage = JSON.parse(await readFile(new URL("../docs/WATCH_RETAIL_PRICING_COVERAGE_2026-10-28.json", import.meta.url), "utf8"));
+  const queue = JSON.parse(await readFile(new URL("../docs/WATCH_RETAIL_PRICING_REMAINING_SOURCE_QUEUE_2026-10-28.json", import.meta.url), "utf8"));
+  assert.deepEqual(queue.rows.map(row => row.path).sort(), coverage.rows.filter(row => !row.prices.length).map(row => row.path).sort());
+  assert.equal(queue.unmatchedPages, 0);
+  assert.ok(queue.rows.every(row => row.status && row.outcome && row.ledger && row.requiredEvidence?.length));
 });
 
 test("tax labels distinguish verified inclusion/exclusion from source silence", () => {

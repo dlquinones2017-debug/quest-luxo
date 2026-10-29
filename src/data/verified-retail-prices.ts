@@ -1,6 +1,7 @@
 import { oct28RetailPrices } from "./verified-retail-prices-oct28.ts";
 import { oct28NextRetailPrices } from "./verified-retail-prices-oct28-next.ts";
 import { oct28AdditionalRetailPrices } from "./verified-retail-prices-oct28-additional.ts";
+import { finalSourcePassRetailPrices } from "./verified-retail-prices-final-source-pass.ts";
 
 export interface VerifiedRetailPrice {
   readonly brand: string;
@@ -10,7 +11,7 @@ export interface VerifiedRetailPrice {
   readonly manufacturerReference: string;
   readonly configuration: string;
   readonly amount: number;
-  readonly currency: "USD" | "CHF" | "EUR" | "GBP";
+  readonly currency: "USD" | "CHF" | "EUR" | "GBP" | "IDR";
   readonly market: string;
   readonly taxBasis: "excluded" | "included" | "unconfirmed";
   readonly basis: "current-list" | "historical-list";
@@ -39,6 +40,7 @@ export const verifiedRetailPrices: readonly VerifiedRetailPrice[] = Object.freez
   ...oct28RetailPrices,
   ...oct28NextRetailPrices,
   ...oct28AdditionalRetailPrices,
+  ...finalSourcePassRetailPrices,
   rolex("124060", "m124060-0001", "Black dial / Oyster bracelet / black bezel", 10050, "submariner"),
   rolex("126610LN", "m126610ln-0001", "Black dial / Oyster bracelet / black bezel", 11350, "submariner"),
   rolex("126610LV", "m126610lv-0002", "Black dial / Oyster bracelet / green bezel", 11900, "submariner"),

@@ -1,0 +1,187 @@
+{
+  "title": "Immutable final extra manufacturer benchmark tranche",
+  "checkedAt": "2026-10-28",
+  "status": "frozen-for-root-review",
+  "prices": [
+    {
+      "brand": "Hublot",
+      "reference": "429.NM.0170.RX",
+      "manufacturerReference": "429.NM.0170.RX",
+      "configuration": "44 mm titanium case / black ceramic bezel / sapphire skeleton dial / black rubber strap / HUB6035 automatic tourbillon",
+      "amount": 119000,
+      "currency": "USD",
+      "market": "United States",
+      "taxBasis": "excluded",
+      "basis": "current-list",
+      "checkedAt": "2026-10-28",
+      "effectiveDate": null,
+      "sourceUrl": "https://www.hublot.com/en-us/watches/big-bang/big-bang-tourbillon-automatic-titanium-ceramic-44-mm",
+      "sourceName": "Hublot United States",
+      "sourceType": "manufacturer",
+      "catalogPath": "/collections/hublot/big-bang/429-nm-0170-rx",
+      "evidence": {
+        "priceLabel": "USD 119,000 — Suggested retail price (United States, VAT not included)",
+        "priceBinding": "Rendered selected product .js-watch-price[data-uid='429.NM.0170.RX'] explicitly shows USD119000. Technical specifications and Product sku/mpn identify exact429.NM.0170.RX.",
+        "catalogManifest": {
+          "file": "src/data/photography-cleared-sprint.ts",
+          "reference": "429.NM.0170.RX",
+          "exactReference": "429.NM.0170.RX",
+          "material": "Titanium and black ceramic",
+          "configuration": {
+            "dial": "Openworked with silver-toned numerals",
+            "bracelet": "Black rubber strap",
+            "caseSize": "44 mm",
+            "movement": "HUB6035 automatic tourbillon",
+            "waterResistance": "30 m"
+          }
+        },
+        "availability": "Make an appointment; no stock promise inferred.",
+        "taxStatement": "Suggested retail price (United States, VAT not included)",
+        "dataCaution": "Product JSON-LD has stale priceValidUntil2025-12-30 and one erroneous generic size42 mm property. Price classification relies on freshly rendered exact-SKU hero, explicit United States/VAT notice, and technical specs44 mm/HUB6035, not the stale schema date. No price effective date inferred."
+      }
+    },
+    {
+      "brand": "Panerai",
+      "reference": "PAM00502",
+      "manufacturerReference": "PAM00502",
+      "configuration": "45 mm 18K rose gold / brown dial / dark brown alligator strap / manual P.2004/10 / 50 m",
+      "amount": 41000,
+      "currency": "USD",
+      "market": "United States",
+      "taxBasis": "unconfirmed",
+      "basis": "historical-list",
+      "checkedAt": "2026-10-28",
+      "effectiveDate": null,
+      "sourceUrl": "https://www.panerai.com/us/en/collections/special-editions-archive/2013/pam00502-radiomir-1940-chrono-monopulsante-8-days-gmt-oro-rosso-.html",
+      "sourceName": "Panerai United States archive",
+      "sourceType": "manufacturer",
+      "catalogPath": "/collections/panerai/radiomir-gmt/pam00502",
+      "evidence": {
+        "priceLabel": "Manufacturer archive Product/Offer price41000.0 priceCurrencyUSD; numeric price not rendered in hero.",
+        "priceData": {
+          "name": "Radiomir 1940 Chrono Monopulsante 8 Days GMT Oro Rosso",
+          "mpn": "PAM00502",
+          "sku": "PAM00502",
+          "offers": {
+            "priceCurrency": "USD",
+            "price": "41000.0"
+          }
+        },
+        "catalogManifest": {
+          "file": "src/data/photography-cleared-sprint.ts",
+          "reference": "PAM00502",
+          "exactReference": "PAM00502",
+          "material": "18K rose gold",
+          "configuration": {
+            "dial": "Brown with luminous hour markers",
+            "bracelet": "Brown alligator leather strap",
+            "caseSize": "45 mm",
+            "movement": "Panerai P.2004/10 manual-winding",
+            "waterResistance": "50 m"
+          }
+        },
+        "archiveProof": "Actual manufacturer URL is special-editions-archive/2013; selected page names PAM00502, 300 pieces,45mmGoldtech, brown dial/alligator and P.2004/10.",
+        "taxStatement": "No explicit selected-price tax treatment observed.",
+        "availability": "Contact Concierge; no numeric visible shopping price or current stock indicated.",
+        "dataCaution": "Undated archived manufacturer structured price only.2013 is archive grouping, not proven price-effective year. Do not label as2013launch MSRP, last retail price, or current U.S. budget benchmark."
+      }
+    },
+    {
+      "brand": "Breitling",
+      "reference": "A17388101B1A1",
+      "manufacturerReference": "A17388101B1A1",
+      "configuration": "44 mm stainless steel / black dial / steel bracelet / Breitling17 automatic",
+      "amount": 4050,
+      "currency": "USD",
+      "market": "Curaçao",
+      "taxBasis": "included",
+      "basis": "historical-list",
+      "checkedAt": "2026-10-28",
+      "effectiveDate": null,
+      "sourceUrl": "https://www.breitling.com/cw-en/watches/colt/colt-automatic/A17388101B1A1/",
+      "sourceName": "Breitling Curaçao",
+      "sourceType": "manufacturer",
+      "catalogPath": "/collections/breitling/colt/a17388101b1a1",
+      "evidence": {
+        "priceLabel": "USD4,050 — VAT Incl.",
+        "priceData": {
+          "sku": "A17388101B1A1",
+          "price": 4050,
+          "priceCurrency": "USD",
+          "availability": "OutOfStock"
+        },
+        "regionProof": "Selected page footer Curaçao - English; /cw-en/ URL and exact Product/Offer USD. This is Curaçao, not United States.",
+        "catalogManifest": {
+          "file": "src/data/photography-cleared-sprint.ts",
+          "reference": "A17388101B1A1",
+          "exactReference": "A17388101B1A1",
+          "material": "Stainless Steel",
+          "configuration": {
+            "caseSize": "44 mm",
+            "movement": "Breitling17 automatic",
+            "dial": "Black",
+            "bracelet": "Stainless-steel bracelet"
+          }
+        },
+        "archiveProof": "Manufacturer selected product story explicitly says this line has been discontinued and points to updated Avenger alternative.",
+        "taxStatement": "VAT Incl.",
+        "availability": "Availability Request; Product/Offer OutOfStock.",
+        "dataCaution": "Manufacturer currently displays this undated regional price for discontinued Colt. It is not proven launch or last retail. Historical-list and Curaçao market retained; excluded from U.S. budget benchmarks despite USD currency."
+      }
+    },
+    {
+      "brand": "Breitling",
+      "reference": "A32390111G1A1",
+      "manufacturerReference": "A32390111G1A1",
+      "configuration": "43 mm stainless steel / silver dial / steel bracelet / Breitling32 automatic GMT",
+      "amount": 96400000,
+      "currency": "IDR",
+      "market": "Indonesia",
+      "taxBasis": "included",
+      "basis": "current-list",
+      "checkedAt": "2026-10-28",
+      "effectiveDate": null,
+      "sourceUrl": "https://www.breitling.com/id-en/watches/avenger/avenger-ii-gmt/A32390111G1A1/",
+      "sourceName": "Breitling Indonesia",
+      "sourceType": "manufacturer",
+      "catalogPath": "/collections/breitling/avenger-ii/a32390111g1a1",
+      "evidence": {
+        "priceLabel": "IDR96,400,000 — VAT Incl.",
+        "priceData": {
+          "sku": "A32390111G1A1",
+          "price": 96400000,
+          "priceCurrency": "IDR",
+          "availability": "OutOfStock"
+        },
+        "regionProof": "Selected page footer Indonesia - English; /id-en/ URL and selected Product/Offer IDR establish Indonesian-market price.",
+        "catalogManifest": {
+          "file": "src/data/photography-cleared-sprint.ts",
+          "reference": "A32390111G1A1",
+          "exactReference": "A32390111G1A1",
+          "material": "Stainless Steel",
+          "configuration": {
+            "caseSize": "43 mm",
+            "movement": "Breitling32 automatic GMT",
+            "dial": "Silver",
+            "bracelet": "Stainless-steel bracelet"
+          }
+        },
+        "taxStatement": "VAT Incl.",
+        "availability": "Availability Request; Product/Offer OutOfStock.",
+        "dataCaution": "Currently displayed official regional list benchmark; not a promise of production, availability, or U.S. retail price. No currency conversion."
+      }
+    }
+  ],
+  "summary": {
+    "exactCanonicalReferences": 4,
+    "currentUnitedStates": 1,
+    "currentInternational": 1,
+    "undatedHistorical": 2
+  },
+  "cautions": [
+    "Hublot USD119000 is freshly rendered exact429.NM.0170.RX United States suggested retail price excluding VAT; stale generic schema dates/size are explicitly documented and not used as effective date/configuration.",
+    "Panerai USD41000 is exact PAM00502 Product/Offer on manufacturer's2013archive page; hero has no numeric price. Price effective year unknown; never2013launch/lastMSRP or currentUSbudget.",
+    "Colt USD4050 is manufacturer's discontinued-line regional display in Curaçao, VAT included, undated historical basis; notUS despiteUSD.",
+    "Avenger II GMT IDR96400000 is exact selected manufacturer Indonesia product, VAT included, outofstock; retainIDR, noFX, notUSbudget."
+  ]
+}

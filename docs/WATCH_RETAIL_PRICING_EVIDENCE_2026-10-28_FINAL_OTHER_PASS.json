@@ -1,0 +1,1085 @@
+{
+  "title": "Remaining non-Rolex/AP/Franck/Omega manufacturer source pass — October 28",
+  "baseline": {
+    "sourcedReferences": 200,
+    "catalogReferences": 297,
+    "globalPending": 97,
+    "assignedPending": 46
+  },
+  "scope": "Only research artifacts. Root owns repository integration; other agents own Rolex, AP/Franck and Omega. Every assigned reference receives a primary-source outcome, with no inferred prices.",
+  "prices": [
+    {
+      "brand": "Bell & Ross",
+      "reference": "BR0192-BL-ST",
+      "manufacturerReference": "BR0192-BL-ST",
+      "configuration": "Black / 46 mm Stainless Steel / Black rubber (pictured manufacturer configuration)",
+      "amount": 4400,
+      "currency": "USD",
+      "market": "United States",
+      "taxBasis": "unconfirmed",
+      "basis": "current-list",
+      "checkedAt": "2026-10-28",
+      "effectiveDate": null,
+      "sourceUrl": "https://bellross.com/en-us/products/br-01-92-steel",
+      "sourceName": "Bell & Ross United States",
+      "sourceType": "manufacturer",
+      "catalogPath": "/collections/bell-and-ross/br-01/br0192-bl-st",
+      "evidence": {
+        "priceLabel": "Regular price $4,400.00",
+        "priceData": {
+          "amount": 4400,
+          "currencyCode": "USD"
+        },
+        "selectedRegion": "Active storefront link aria-current=true identifies United States, data-currency USD; selected product variant currencyCode is USD.",
+        "taxStatement": "No explicit selected-price tax treatment observed; retain unconfirmed.",
+        "availability": "Unavailable / Sold out",
+        "catalogManifest": {
+          "file": "src/data/photography-cleared-sprint.ts",
+          "reference": "BR0192-BL-ST",
+          "exactReference": "BR0192-BL-ST",
+          "configuration": {
+            "dial": "Black",
+            "bracelet": "Black rubber (pictured manufacturer configuration)",
+            "caseSize": "46 mm"
+          },
+          "sourceUrl": "https://bellross.com/en-us/products/br-01-92-steel"
+        },
+        "catalogMatch": "Full BR01 reference and 46 mm generation agree exactly; no newer BR03 price substituted."
+      }
+    },
+    {
+      "brand": "Bell & Ross",
+      "reference": "BR0192-COMPASS-CA",
+      "manufacturerReference": "BR0192-COMPASS-CA",
+      "configuration": "Instrument-style Compass / 46 mm Black PVD steel / Black strap",
+      "amount": 6100,
+      "currency": "USD",
+      "market": "United States",
+      "taxBasis": "unconfirmed",
+      "basis": "current-list",
+      "checkedAt": "2026-10-28",
+      "effectiveDate": null,
+      "sourceUrl": "https://bellross.com/en-us/products/br-01-compass",
+      "sourceName": "Bell & Ross United States",
+      "sourceType": "manufacturer",
+      "catalogPath": "/collections/bell-and-ross/br-01/br0192-compass-ca",
+      "evidence": {
+        "priceLabel": "Regular price $6,100.00",
+        "priceData": {
+          "amount": 6100,
+          "currencyCode": "USD"
+        },
+        "selectedRegion": "Active storefront link aria-current=true identifies United States, data-currency USD; selected product variant currencyCode is USD.",
+        "taxStatement": "No explicit selected-price tax treatment observed; retain unconfirmed.",
+        "availability": "Unavailable / Sold out",
+        "catalogManifest": {
+          "file": "src/data/photography-cleared-sprint.ts",
+          "reference": "BR0192-COMPASS-CA",
+          "exactReference": "BR0192-COMPASS-CA",
+          "configuration": {
+            "dial": "Instrument-style Compass",
+            "bracelet": "Black strap",
+            "caseSize": "46 mm",
+            "movement": "Automatic"
+          },
+          "sourceUrl": "https://bellross.com/en/products/br-01-compass"
+        },
+        "catalogMatch": "Full BR01 reference and 46 mm generation agree exactly; no newer BR03 price substituted."
+      }
+    },
+    {
+      "brand": "Bell & Ross",
+      "reference": "BR0192-REDRADAR",
+      "manufacturerReference": "BR0192-REDRADAR",
+      "configuration": "Red radar / 46 mm Stainless Steel / Black rubber strap",
+      "amount": 6500,
+      "currency": "USD",
+      "market": "United States",
+      "taxBasis": "unconfirmed",
+      "basis": "current-list",
+      "checkedAt": "2026-10-28",
+      "effectiveDate": null,
+      "sourceUrl": "https://bellross.com/en-us/products/br-01-92-red-radar",
+      "sourceName": "Bell & Ross United States",
+      "sourceType": "manufacturer",
+      "catalogPath": "/collections/bell-and-ross/br-01/br0192-redradar",
+      "evidence": {
+        "priceLabel": "Regular price $6,500.00",
+        "priceData": {
+          "amount": 6500,
+          "currencyCode": "USD"
+        },
+        "selectedRegion": "Active storefront link aria-current=true identifies United States, data-currency USD; selected product variant currencyCode is USD.",
+        "taxStatement": "No explicit selected-price tax treatment observed; retain unconfirmed.",
+        "availability": "Unavailable / Sold out",
+        "catalogManifest": {
+          "file": "src/data/photography-cleared-sprint.ts",
+          "reference": "BR0192-REDRADAR",
+          "exactReference": "BR01-92 Red Radar",
+          "configuration": {
+            "caseSize": "46 mm",
+            "movement": "Automatic mechanical",
+            "dial": "Red radar",
+            "bracelet": "Black rubber strap"
+          },
+          "sourceUrl": "https://www.watchfinder.com/sell-your-watch/enquiry/bell-and-ross/br01-92/red-radar/22836"
+        },
+        "catalogMatch": "Full BR01 reference and 46 mm generation agree exactly; no newer BR03 price substituted."
+      }
+    },
+    {
+      "brand": "Breguet",
+      "reference": "5177",
+      "manufacturerReference": "5177BB/29/9V6",
+      "configuration": "White Grand Feu enamel dial / 38 mm 18K white gold / black alligator strap / automatic 777 Q",
+      "amount": 36600,
+      "currency": "USD",
+      "market": "United States",
+      "taxBasis": "unconfirmed",
+      "basis": "current-list",
+      "checkedAt": "2026-10-28",
+      "effectiveDate": null,
+      "sourceUrl": "https://www.breguet.com/en/watches/classique/classique-5177/5177bb299v6?language_content_entity=en",
+      "sourceName": "Breguet",
+      "sourceType": "manufacturer",
+      "catalogPath": "/collections/breguet/classique/5177",
+      "corroboratingUrls": [
+        "https://www.breguet.com/helpers/variant/235148/price?lang=en",
+        "https://www.breguet.com/themes/custom/breguet/dist/app.js?v=1.16"
+      ],
+      "evidence": {
+        "priceLabel": "$36,600 — Recommended retail price",
+        "priceData": {
+          "country": "US",
+          "price": "36600",
+          "currency": "USD",
+          "visibility": true,
+          "formatted_price": "$36,600"
+        },
+        "variantBinding": "Exact selected 5177BB/29/9V6 heading has data-variant-id235148 and price data-nid235148. Manufacturer referenced app.js getVariantPrice GETs /helpers/variant/{node}/price?lang=en; actual235148 response explicitly supplies US/USD/36600.",
+        "taxStatement": "No explicit tax inclusion/exclusion statement returned; retain unconfirmed.",
+        "catalogManifest": {
+          "file": "src/data/photography-cleared-sprint.ts",
+          "reference": "5177",
+          "exactReference": "5177BB/29/9V6",
+          "configuration": {
+            "dial": "White Grand feu enamel",
+            "bracelet": "Black alligator leather",
+            "caseSize": "38 mm",
+            "movement": "Automatic calibre 777 Q",
+            "waterResistance": "3 bar"
+          },
+          "sourceUrl": "https://www.breguet.com/en/watches/classique/classique-5177/5177bb299v6?language_content_entity=en"
+        },
+        "catalogMatch": "Manifest exact full 5177BB/29/9V6, white gold, enamel dial, 38 mm and alligator agree with selected manufacturer variant. No other5177 generation used."
+      }
+    },
+    {
+      "brand": "Hublot",
+      "reference": "429.NM.0170.RX",
+      "manufacturerReference": "429.NM.0170.RX",
+      "configuration": "44 mm titanium case / black ceramic bezel / sapphire skeleton dial / black rubber strap / HUB6035 automatic tourbillon",
+      "amount": 119000,
+      "currency": "USD",
+      "market": "United States",
+      "taxBasis": "excluded",
+      "basis": "current-list",
+      "checkedAt": "2026-10-28",
+      "effectiveDate": null,
+      "sourceUrl": "https://www.hublot.com/en-us/watches/big-bang/big-bang-tourbillon-automatic-titanium-ceramic-44-mm",
+      "sourceName": "Hublot United States",
+      "sourceType": "manufacturer",
+      "catalogPath": "/collections/hublot/big-bang/429-nm-0170-rx",
+      "evidence": {
+        "priceLabel": "USD 119,000 — Suggested retail price (United States, VAT not included)",
+        "priceBinding": "Rendered selected product .js-watch-price[data-uid='429.NM.0170.RX'] explicitly shows USD119000. Technical specifications and Product sku/mpn identify exact429.NM.0170.RX.",
+        "catalogManifest": {
+          "file": "src/data/photography-cleared-sprint.ts",
+          "reference": "429.NM.0170.RX",
+          "exactReference": "429.NM.0170.RX",
+          "material": "Titanium and black ceramic",
+          "configuration": {
+            "dial": "Openworked with silver-toned numerals",
+            "bracelet": "Black rubber strap",
+            "caseSize": "44 mm",
+            "movement": "HUB6035 automatic tourbillon",
+            "waterResistance": "30 m"
+          }
+        },
+        "availability": "Make an appointment; no stock promise inferred.",
+        "taxStatement": "Suggested retail price (United States, VAT not included)",
+        "dataCaution": "Product JSON-LD has stale priceValidUntil2025-12-30 and one erroneous generic size42 mm property. Price classification relies on freshly rendered exact-SKU hero, explicit United States/VAT notice, and technical specs44 mm/HUB6035, not the stale schema date. No price effective date inferred."
+      }
+    },
+    {
+      "brand": "Panerai",
+      "reference": "PAM00502",
+      "manufacturerReference": "PAM00502",
+      "configuration": "45 mm 18K rose gold / brown dial / dark brown alligator strap / manual P.2004/10 / 50 m",
+      "amount": 41000,
+      "currency": "USD",
+      "market": "United States",
+      "taxBasis": "unconfirmed",
+      "basis": "historical-list",
+      "checkedAt": "2026-10-28",
+      "effectiveDate": null,
+      "sourceUrl": "https://www.panerai.com/us/en/collections/special-editions-archive/2013/pam00502-radiomir-1940-chrono-monopulsante-8-days-gmt-oro-rosso-.html",
+      "sourceName": "Panerai United States archive",
+      "sourceType": "manufacturer",
+      "catalogPath": "/collections/panerai/radiomir-gmt/pam00502",
+      "evidence": {
+        "priceLabel": "Manufacturer archive Product/Offer price41000.0 priceCurrencyUSD; numeric price not rendered in hero.",
+        "priceData": {
+          "name": "Radiomir 1940 Chrono Monopulsante 8 Days GMT Oro Rosso",
+          "mpn": "PAM00502",
+          "sku": "PAM00502",
+          "offers": {
+            "priceCurrency": "USD",
+            "price": "41000.0"
+          }
+        },
+        "catalogManifest": {
+          "file": "src/data/photography-cleared-sprint.ts",
+          "reference": "PAM00502",
+          "exactReference": "PAM00502",
+          "material": "18K rose gold",
+          "configuration": {
+            "dial": "Brown with luminous hour markers",
+            "bracelet": "Brown alligator leather strap",
+            "caseSize": "45 mm",
+            "movement": "Panerai P.2004/10 manual-winding",
+            "waterResistance": "50 m"
+          }
+        },
+        "archiveProof": "Actual manufacturer URL is special-editions-archive/2013; selected page names PAM00502, 300 pieces,45mmGoldtech, brown dial/alligator and P.2004/10.",
+        "taxStatement": "No explicit selected-price tax treatment observed.",
+        "availability": "Contact Concierge; no numeric visible shopping price or current stock indicated.",
+        "dataCaution": "Undated archived manufacturer structured price only.2013 is archive grouping, not proven price-effective year. Do not label as2013launch MSRP, last retail price, or current U.S. budget benchmark."
+      }
+    },
+    {
+      "brand": "Breitling",
+      "reference": "A17388101B1A1",
+      "manufacturerReference": "A17388101B1A1",
+      "configuration": "44 mm stainless steel / black dial / steel bracelet / Breitling17 automatic",
+      "amount": 4050,
+      "currency": "USD",
+      "market": "Curaçao",
+      "taxBasis": "included",
+      "basis": "historical-list",
+      "checkedAt": "2026-10-28",
+      "effectiveDate": null,
+      "sourceUrl": "https://www.breitling.com/cw-en/watches/colt/colt-automatic/A17388101B1A1/",
+      "sourceName": "Breitling Curaçao",
+      "sourceType": "manufacturer",
+      "catalogPath": "/collections/breitling/colt/a17388101b1a1",
+      "evidence": {
+        "priceLabel": "USD4,050 — VAT Incl.",
+        "priceData": {
+          "sku": "A17388101B1A1",
+          "price": 4050,
+          "priceCurrency": "USD",
+          "availability": "OutOfStock"
+        },
+        "regionProof": "Selected page footer Curaçao - English; /cw-en/ URL and exact Product/Offer USD. This is Curaçao, not United States.",
+        "catalogManifest": {
+          "file": "src/data/photography-cleared-sprint.ts",
+          "reference": "A17388101B1A1",
+          "exactReference": "A17388101B1A1",
+          "material": "Stainless Steel",
+          "configuration": {
+            "caseSize": "44 mm",
+            "movement": "Breitling17 automatic",
+            "dial": "Black",
+            "bracelet": "Stainless-steel bracelet"
+          }
+        },
+        "archiveProof": "Manufacturer selected product story explicitly says this line has been discontinued and points to updated Avenger alternative.",
+        "taxStatement": "VAT Incl.",
+        "availability": "Availability Request; Product/Offer OutOfStock.",
+        "dataCaution": "Manufacturer currently displays this undated regional price for discontinued Colt. It is not proven launch or last retail. Historical-list and Curaçao market retained; excluded from U.S. budget benchmarks despite USD currency."
+      }
+    },
+    {
+      "brand": "Breitling",
+      "reference": "A32390111G1A1",
+      "manufacturerReference": "A32390111G1A1",
+      "configuration": "43 mm stainless steel / silver dial / steel bracelet / Breitling32 automatic GMT",
+      "amount": 96400000,
+      "currency": "IDR",
+      "market": "Indonesia",
+      "taxBasis": "included",
+      "basis": "current-list",
+      "checkedAt": "2026-10-28",
+      "effectiveDate": null,
+      "sourceUrl": "https://www.breitling.com/id-en/watches/avenger/avenger-ii-gmt/A32390111G1A1/",
+      "sourceName": "Breitling Indonesia",
+      "sourceType": "manufacturer",
+      "catalogPath": "/collections/breitling/avenger-ii/a32390111g1a1",
+      "evidence": {
+        "priceLabel": "IDR96,400,000 — VAT Incl.",
+        "priceData": {
+          "sku": "A32390111G1A1",
+          "price": 96400000,
+          "priceCurrency": "IDR",
+          "availability": "OutOfStock"
+        },
+        "regionProof": "Selected page footer Indonesia - English; /id-en/ URL and selected Product/Offer IDR establish Indonesian-market price.",
+        "catalogManifest": {
+          "file": "src/data/photography-cleared-sprint.ts",
+          "reference": "A32390111G1A1",
+          "exactReference": "A32390111G1A1",
+          "material": "Stainless Steel",
+          "configuration": {
+            "caseSize": "43 mm",
+            "movement": "Breitling32 automatic GMT",
+            "dial": "Silver",
+            "bracelet": "Stainless-steel bracelet"
+          }
+        },
+        "taxStatement": "VAT Incl.",
+        "availability": "Availability Request; Product/Offer OutOfStock.",
+        "dataCaution": "Currently displayed official regional list benchmark; not a promise of production, availability, or U.S. retail price. No currency conversion."
+      }
+    }
+  ],
+  "outcomes": [
+    {
+      "brand": "Patek Philippe",
+      "reference": "5711/1A",
+      "catalogPath": "/collections/patek-philippe/nautilus/5711-1a",
+      "manufacturerReference": "5711/1A-010",
+      "checkedAt": "2026-10-28",
+      "outcome": "primary-address-404-no-price",
+      "sourceUrl": "https://www.patek.com/en/collection/nautilus/5711-1a-010",
+      "resolvedUrl": null,
+      "observation": "Exact pictured-reference manufacturer product address was actually retrieved and returned Page Not Found (HTTP404). No selected product/list price. A missing page does not prove manufacturer never published a price.",
+      "requiredEvidence": [
+        "Dated manufacturer historical price list/catalog or authorized-retailer original list price for this exact suffix/configuration and market.",
+        "Do not substitute later Nautilus generations, green-dial5711/1A-014, rose-gold5712, or rubber-strap5167A price."
+      ],
+      "sourceHttpStatus": 404,
+      "identityEvidence": "src/data/watch-photography.ts exact assetId/alt/attribution identify5711/1A-010 blue dial"
+    },
+    {
+      "brand": "Patek Philippe",
+      "reference": "5712/1A",
+      "catalogPath": "/collections/patek-philippe/nautilus/5712-1a",
+      "manufacturerReference": "5712/1A-001",
+      "checkedAt": "2026-10-28",
+      "outcome": "primary-address-404-no-price",
+      "sourceUrl": "https://www.patek.com/en/collection/nautilus/5712-1a-001",
+      "resolvedUrl": null,
+      "observation": "Exact pictured-reference manufacturer product address was actually retrieved and returned Page Not Found (HTTP404). No selected product/list price. A missing page does not prove manufacturer never published a price.",
+      "requiredEvidence": [
+        "Dated manufacturer historical price list/catalog or authorized-retailer original list price for this exact suffix/configuration and market.",
+        "Do not substitute later Nautilus generations, green-dial5711/1A-014, rose-gold5712, or rubber-strap5167A price."
+      ],
+      "sourceHttpStatus": 404,
+      "identityEvidence": "src/data/photography-cleared-sprint.ts exactReference5712/1A-001"
+    },
+    {
+      "brand": "Patek Philippe",
+      "reference": "5980/1A",
+      "catalogPath": "/collections/patek-philippe/nautilus/5980-1a",
+      "manufacturerReference": "5980/1A-014",
+      "checkedAt": "2026-10-28",
+      "outcome": "primary-address-404-no-price",
+      "sourceUrl": "https://www.patek.com/en/collection/nautilus/5980-1a-014",
+      "resolvedUrl": null,
+      "observation": "Exact pictured-reference manufacturer product address was actually retrieved and returned Page Not Found (HTTP404). No selected product/list price. A missing page does not prove manufacturer never published a price.",
+      "requiredEvidence": [
+        "Dated manufacturer historical price list/catalog or authorized-retailer original list price for this exact suffix/configuration and market.",
+        "Do not substitute later Nautilus generations, green-dial5711/1A-014, rose-gold5712, or rubber-strap5167A price."
+      ],
+      "sourceHttpStatus": 404,
+      "identityEvidence": "src/data/photography-cleared-sprint.ts exactReference5980/1A-014"
+    },
+    {
+      "brand": "Richard Mille",
+      "reference": "RM11-03",
+      "catalogPath": "/collections/richard-mille/rm-11/rm11-03",
+      "manufacturerReference": "RM11-03 titanium pictured configuration",
+      "checkedAt": "2026-10-28",
+      "outcome": "manufacturer-history-no-numeric-price",
+      "sourceUrl": "https://www.richardmille.com/historical-models/rm-11-03-automatic-flyback-chronograph",
+      "resolvedUrl": null,
+      "observation": "Actual Richard Mille historical-models page identifies RM11-03 and2016, with specs, but publishes no numeric manufacturer price. Earlier /collections/ address was obsolete; actual history source is now verified.",
+      "requiredEvidence": [
+        "Exact titanium configuration historical manufacturer price or authorized-retailer original list price, market/currency and date."
+      ]
+    },
+    {
+      "brand": "Vacheron Constantin",
+      "reference": "6000V/110A-B544",
+      "catalogPath": "/collections/vacheron-constantin/overseas/6000v-110a-b544",
+      "manufacturerReference": "6000V/110A-B544",
+      "checkedAt": "2026-10-28",
+      "outcome": "manufacturer-price-on-request",
+      "sourceUrl": "https://www.vacheron-constantin.com/us/en/collections/overseas/6000v-110a-b544.html",
+      "resolvedUrl": null,
+      "observation": "Manufacturer exact US page explicitly states price on request; USD metadata price field has no numeric value. No price inferred.",
+      "requiredEvidence": [
+        "Written manufacturer/boutique or authorized retailer list-price confirmation for exact reference, market/currency and date."
+      ]
+    },
+    {
+      "brand": "F.P. Journe",
+      "reference": "CB",
+      "catalogPath": "/collections/fp-journe/chronometre-bleu/cb",
+      "manufacturerReference": "CB",
+      "checkedAt": "2026-10-28",
+      "outcome": "manufacturer-no-numeric-price",
+      "sourceUrl": "https://www.fpjourne.com/en/collection/classique-collection/chronometre-bleu",
+      "resolvedUrl": null,
+      "observation": "Exact manufacturer Chronomètre Bleu page read; no numeric manufacturer list price observed. Need manufacturer pricing confirmation or dated official historical list.",
+      "requiredEvidence": [
+        "Manufacturer pricing confirmation or dated official list price for the exact catalog configuration; no dealer asking price or inference from limited-edition size."
+      ]
+    },
+    {
+      "brand": "Hublot",
+      "reference": "441-NX-1171-RX",
+      "catalogPath": "/collections/hublot/big-bang/441-nx-1171-rx",
+      "manufacturerReference": "441.NX.1171.RX",
+      "checkedAt": "2026-10-28",
+      "outcome": "manufacturer-address-redirect-no-exact-price",
+      "sourceUrl": "https://www.hublot.com/en-us/watches/big-bang/big-bang-unico-titanium-42-mm",
+      "resolvedUrl": null,
+      "observation": "Original42mm manufacturer address resolves to Hublot homepage; no selected441.NX.1171.RX price. Catalog Big Bang hyphen reference aliases the Big Bang Unico dotted SKU; preserve both canonical paths.",
+      "requiredEvidence": [
+        "Exact441.NX.1171.RX42mm official current or historical list price; no421/43mm successor."
+      ],
+      "aliasOf": "441.NX.1171.RX"
+    },
+    {
+      "brand": "Hublot",
+      "reference": "429.NM.0170.RX",
+      "catalogPath": "/collections/hublot/big-bang/429-nm-0170-rx",
+      "manufacturerReference": "429.NM.0170.RX",
+      "checkedAt": "2026-10-28",
+      "outcome": "ready-exact-benchmark",
+      "basis": "current-list",
+      "market": "United States",
+      "currency": "USD",
+      "amount": 119000,
+      "sourceUrl": "https://www.hublot.com/en-us/watches/big-bang/big-bang-tourbillon-automatic-titanium-ceramic-44-mm",
+      "observation": "USD 119,000 — Suggested retail price (United States, VAT not included)",
+      "requiredEvidence": [],
+      "priceRowReference": "429.NM.0170.RX"
+    },
+    {
+      "brand": "Panerai",
+      "reference": "PAM01312",
+      "catalogPath": "/collections/panerai/luminor/pam01312",
+      "manufacturerReference": "PAM01312",
+      "checkedAt": "2026-10-28",
+      "outcome": "manufacturer-redirect-no-exact-price",
+      "sourceUrl": "https://www.panerai.com/us/en/collections/watch-collection/luminor/pam01312-luminor-marina.html",
+      "resolvedUrl": "https://www.panerai.com/us/en/collections/watch-collection/luminor/pam03312-luminor-marina.html",
+      "observation": "Requested PAM01312 redirects to different PAM03312 ($9,500). Replacement SKU price explicitly excluded.",
+      "requiredEvidence": [
+        "Historical manufacturer or authorized-retailer list price for exact PAM code and strap/dial configuration; collection/replacement prices excluded."
+      ]
+    },
+    {
+      "brand": "Jaeger-LeCoultre",
+      "reference": "Q3848422",
+      "catalogPath": "/collections/jaeger-lecoultre/reverso/q3848422",
+      "manufacturerReference": "Q3848422",
+      "checkedAt": "2026-10-28",
+      "outcome": "manufacturer-retired-no-numeric-price",
+      "sourceUrl": "https://www.jaeger-lecoultre.com/us-en/watches/reverso/reverso-classic/reverso-classic-duoface-small-seconds-stainless-steel-q3848422",
+      "resolvedUrl": null,
+      "observation": "Manufacturer explicitly says out of current collection, no selected product price. Recommendations and strap prices excluded.",
+      "requiredEvidence": [
+        "Dated exact Q3848422 manufacturer/authorized-retailer historical list price; unrelated recommendation and strap prices are excluded."
+      ]
+    },
+    {
+      "brand": "Ulysse Nardin",
+      "reference": "Freak",
+      "catalogPath": "/collections/ulysse-nardin/freak/freak",
+      "manufacturerReference": "2505-250",
+      "checkedAt": "2026-10-28",
+      "outcome": "manufacturer-retired-no-numeric-price",
+      "sourceUrl": "https://www.ulysse-nardin.com/en-us/watches/discontinued-models/2505-250",
+      "resolvedUrl": null,
+      "observation": "Exact manufacturer earlier-edition page names Freak Vision2505-250 and states this piece has found its collectors and is no longer available. No numeric selected price.",
+      "requiredEvidence": [
+        "Exact2505-250 Freak Vision manufacturer/authorized-retailer historical list price, market/currency/date."
+      ]
+    },
+    {
+      "brand": "Breguet",
+      "reference": "5177",
+      "catalogPath": "/collections/breguet/classique/5177",
+      "manufacturerReference": "5177BB/29/9V6",
+      "checkedAt": "2026-10-28",
+      "outcome": "ready-exact-benchmark",
+      "basis": "current-list",
+      "market": "United States",
+      "currency": "USD",
+      "amount": 36600,
+      "sourceUrl": "https://www.breguet.com/en/watches/classique/classique-5177/5177bb299v6?language_content_entity=en",
+      "observation": "$36,600 — Recommended retail price",
+      "requiredEvidence": [],
+      "priceRowReference": "5177"
+    },
+    {
+      "brand": "Cartier",
+      "reference": "Ballon Bleu 40 mm",
+      "catalogPath": "/collections/cartier/ballon-bleu/ballon-bleu-40-mm",
+      "manufacturerReference": "WSBB0061",
+      "checkedAt": "2026-10-28",
+      "outcome": "primary-address-404-no-price",
+      "sourceUrl": "https://www.cartier.com/en-us/watches/collections/ballon-de-cartier/ballon-bleu-de-cartier-watch-CRWSBB0061.html",
+      "resolvedUrl": null,
+      "observation": "Actually retrieved exact-SKU inferred manufacturer address returned404/no selected price. Existing pictured reference isWSBB0061; no successor generation or visually similar dial substituted.404 is an address outcome, not proof of discontinuation.",
+      "requiredEvidence": [
+        "ExactWSBB0061 manufacturer or authorized-retailer current/historical list price with market/currency and date."
+      ],
+      "sourceHttpStatus": 404,
+      "identityEvidence": "src/data/photography-cleared-sprint.ts exactReferenceWSBB0061"
+    },
+    {
+      "brand": "Cartier",
+      "reference": "Ballon Bleu 42 mm",
+      "catalogPath": "/collections/cartier/ballon-bleu/ballon-bleu-42-mm",
+      "manufacturerReference": "W6920042",
+      "checkedAt": "2026-10-28",
+      "outcome": "primary-address-404-no-price",
+      "sourceUrl": "https://www.cartier.com/en-us/watches/collections/ballon-de-cartier/ballon-bleu-de-cartier-watch-CRW6920042.html",
+      "resolvedUrl": null,
+      "observation": "Actually retrieved exact-SKU inferred manufacturer address returned404/no selected price. Existing pictured reference isW6920042; no successor generation or visually similar dial substituted.404 is an address outcome, not proof of discontinuation.",
+      "requiredEvidence": [
+        "ExactW6920042 manufacturer or authorized-retailer current/historical list price with market/currency and date."
+      ],
+      "sourceHttpStatus": 404,
+      "identityEvidence": "src/data/photography-cleared-sprint.ts exactReferenceW6920042"
+    },
+    {
+      "brand": "Cartier",
+      "reference": "Pasha de Cartier 41 mm",
+      "catalogPath": "/collections/cartier/pasha/pasha-de-cartier-41-mm",
+      "manufacturerReference": "WSPA0038",
+      "checkedAt": "2026-10-28",
+      "outcome": "primary-address-404-no-price",
+      "sourceUrl": "https://www.cartier.com/en-us/watches/collections/pasha-de-cartier/pasha-de-cartier-watch-CRWSPA0038.html",
+      "resolvedUrl": null,
+      "observation": "Actually retrieved exact-SKU inferred manufacturer address returned404/no selected price. Existing pictured reference isWSPA0038; no successor generation or visually similar dial substituted.404 is an address outcome, not proof of discontinuation.",
+      "requiredEvidence": [
+        "ExactWSPA0038 manufacturer or authorized-retailer current/historical list price with market/currency and date."
+      ],
+      "sourceHttpStatus": 404,
+      "identityEvidence": "src/data/photography-cleared-sprint.ts exactReferenceWSPA0038"
+    },
+    {
+      "brand": "Cartier",
+      "reference": "Pasha Chronograph 41 mm",
+      "catalogPath": "/collections/cartier/pasha/pasha-chronograph-41-mm",
+      "manufacturerReference": "WGPA0017",
+      "checkedAt": "2026-10-28",
+      "outcome": "primary-address-404-no-price",
+      "sourceUrl": "https://www.cartier.com/en-us/watches/collections/pasha-de-cartier/pasha-de-cartier-watch--CRWGPA0017.html",
+      "resolvedUrl": null,
+      "observation": "Actually retrieved exact-SKU inferred manufacturer address returned404/no selected price. Existing pictured reference isWGPA0017; no successor generation or visually similar dial substituted.404 is an address outcome, not proof of discontinuation.",
+      "requiredEvidence": [
+        "ExactWGPA0017 manufacturer or authorized-retailer current/historical list price with market/currency and date."
+      ],
+      "sourceHttpStatus": 404,
+      "identityEvidence": "src/data/photography-cleared-sprint.ts exactReferenceWGPA0017"
+    },
+    {
+      "brand": "Patek Philippe",
+      "reference": "5196",
+      "catalogPath": "/collections/patek-philippe/calatrava/5196",
+      "manufacturerReference": "5196R-001",
+      "checkedAt": "2026-10-28",
+      "outcome": "primary-address-404-no-price",
+      "sourceUrl": "https://www.patek.com/en/collection/calatrava/5196R-001",
+      "resolvedUrl": null,
+      "observation": "Exact pictured-reference manufacturer product address was actually retrieved and returned Page Not Found (HTTP404). No selected product/list price. A missing page does not prove manufacturer never published a price.",
+      "requiredEvidence": [
+        "Dated manufacturer historical price list/catalog or authorized-retailer original list price for this exact suffix/configuration and market.",
+        "Do not substitute later Nautilus generations, green-dial5711/1A-014, rose-gold5712, or rubber-strap5167A price."
+      ],
+      "sourceHttpStatus": 404,
+      "identityEvidence": "src/data/photography-cleared-sprint.ts exactReference5196R-001"
+    },
+    {
+      "brand": "Panerai",
+      "reference": "PAM00683",
+      "catalogPath": "/collections/panerai/submersible/pam00683",
+      "manufacturerReference": "PAM00683",
+      "checkedAt": "2026-10-28",
+      "outcome": "primary-address-404-no-price",
+      "sourceUrl": "https://www.panerai.com/us/en/collections/watch-collection/submersible/pam00683-submersible.html",
+      "resolvedUrl": null,
+      "observation": "Exact inferred US product URL returns manufacturer 404; no price verified.",
+      "requiredEvidence": [
+        "Dated exact PAM00683 original/current list price from manufacturer archive or authorized retailer, with market and currency."
+      ],
+      "sourceHttpStatus": 404
+    },
+    {
+      "brand": "Panerai",
+      "reference": "PAM01305",
+      "catalogPath": "/collections/panerai/submersible/pam01305",
+      "manufacturerReference": "PAM01305",
+      "checkedAt": "2026-10-28",
+      "outcome": "manufacturer-redirect-no-exact-price",
+      "sourceUrl": "https://www.panerai.com/us/en/collections/watch-collection/submersible/pam01305-submersible.html",
+      "resolvedUrl": null,
+      "observation": "Original exact-model URL redirects to Submersible collection with different SKUs; no own price verified.",
+      "requiredEvidence": [
+        "Historical manufacturer or authorized-retailer list price for exact PAM code and strap/dial configuration; collection/replacement prices excluded."
+      ]
+    },
+    {
+      "brand": "Panerai",
+      "reference": "PAM01616",
+      "catalogPath": "/collections/panerai/submersible/pam01616",
+      "manufacturerReference": "PAM01616",
+      "checkedAt": "2026-10-28",
+      "outcome": "manufacturer-redirect-no-exact-price",
+      "sourceUrl": "https://www.panerai.com/us/en/collections/watch-collection/submersible/pam01616-submersible-carbotech.html",
+      "resolvedUrl": "https://www.panerai.com/us/en/collections/watch-collection/submersible.html",
+      "observation": "Original exact-model URL redirects to Submersible collection with different SKUs. No exact current manufacturer price verified.",
+      "requiredEvidence": [
+        "Historical manufacturer or authorized-retailer list price for exact PAM code and strap/dial configuration; collection/replacement prices excluded."
+      ]
+    },
+    {
+      "brand": "Tudor",
+      "reference": "Tudor Royal 38 mm",
+      "catalogPath": "/collections/tudor/royal/tudor-royal-38-mm",
+      "manufacturerReference": "M28500-0006",
+      "checkedAt": "2026-10-28",
+      "outcome": "manufacturer-redirect-different-configuration",
+      "sourceUrl": "https://www.tudorwatch.com/en/watches/tudor-royal/m28500-0006",
+      "resolvedUrl": null,
+      "observation": "Actually opened exact old model URL redirects to new Royal collection featuring different36/40mm references. No price for picturedM28500-000638/41mm established.",
+      "requiredEvidence": [
+        "ExactM28500-0006 historical manufacturer price list or dated authorized-retailer list price."
+      ]
+    },
+    {
+      "brand": "Tudor",
+      "reference": "Tudor Royal 41 mm",
+      "catalogPath": "/collections/tudor/royal/tudor-royal-41-mm",
+      "manufacturerReference": "M28600-0005",
+      "checkedAt": "2026-10-28",
+      "outcome": "manufacturer-redirect-different-configuration",
+      "sourceUrl": "https://www.tudorwatch.com/en/watches/tudor-royal/m28600-0005",
+      "resolvedUrl": null,
+      "observation": "Actually opened exact old model URL redirects to new Royal collection featuring different36/40mm references. No price for picturedM28600-000538/41mm established.",
+      "requiredEvidence": [
+        "ExactM28600-0005 historical manufacturer price list or dated authorized-retailer list price."
+      ]
+    },
+    {
+      "brand": "Tudor",
+      "reference": "Prince Date",
+      "catalogPath": "/collections/tudor/prince/prince-date",
+      "manufacturerReference": "74000",
+      "checkedAt": "2026-10-28",
+      "outcome": "primary-search-no-exact-price-provenance",
+      "sourceUrl": "https://www.tudorwatch.com/en/inside-tudor/history",
+      "resolvedUrl": null,
+      "observation": "Bounded manufacturer exact-reference search produced postal-code false matches; no manufacturer74000 retail price or valid watch-model primary source established. Existing Watchfinder source is picture identity only.",
+      "requiredEvidence": [
+        "Manufacturer historical catalog or authorized-retailer original list-price record for74000 silver-dial bracelet configuration, with date/market/currency."
+      ],
+      "primarySearch": {
+        "query": "site:tudorwatch.com \"74000\"",
+        "result": "Manufacturer matches found were postal code74000 (Annecy), not watch reference74000. No exact manufacturer price/identity page located."
+      },
+      "identityEvidence": "src/data/photography-cleared-sprint.ts exactReference74000, silver baton dial,34mm,steel five-link bracelet."
+    },
+    {
+      "brand": "Tudor",
+      "reference": "Prince Chronograph",
+      "catalogPath": "/collections/tudor/prince/prince-chronograph",
+      "manufacturerReference": "79280",
+      "checkedAt": "2026-10-28",
+      "outcome": "manufacturer-history-identity-no-price",
+      "sourceUrl": "https://www.tudorwatch.com/en/inside-tudor/history/tudor-history-chronographs-1995-to-2000",
+      "resolvedUrl": null,
+      "observation": "Actually read manufacturer1995–2000 chronograph history; it identifies Prince Oysterdate79280 and steel engraved tachymeter bezel, but no numeric MSRP. Identity history cannot establish original price.",
+      "requiredEvidence": [
+        "Dated exact79280 manufacturer or authorized-retailer original list price; dial/configuration match or explicitly base-reference-only scope."
+      ],
+      "identityEvidence": "src/data/photography-cleared-sprint.ts exactReference79280, silver Arabic dial,steel bracelet."
+    },
+    {
+      "brand": "Ulysse Nardin",
+      "reference": "Marine Chronometer",
+      "catalogPath": "/collections/ulysse-nardin/marine/marine-chronometer",
+      "manufacturerReference": "1183-126-7M/42",
+      "checkedAt": "2026-10-28",
+      "outcome": "primary-address-404-no-exact-price",
+      "sourceUrl": "https://www.ulysse-nardin.com/en-us/watches/discontinued-models/1183-126-7m-42",
+      "resolvedUrl": null,
+      "observation": "Bounded inferred manufacturer discontinued-model archive lookup was actually retrieved and returned404; official site-scoped exact-reference search yielded no corresponding indexed price source. This is not proof of discontinuation or that MSRP never existed. Recommendation prices excluded.",
+      "requiredEvidence": [
+        "Manufacturer archive/dated list or authorized-retailer historical list price for exact1183-126-7M/42configuration, including currency/market and date."
+      ],
+      "sourceHttpStatus": 404,
+      "identityEvidence": "Exact pictured full reference in src/data/photography-cleared-sprint.ts; dealer price not used."
+    },
+    {
+      "brand": "Ulysse Nardin",
+      "reference": "1506-150LE-3/63-VB",
+      "catalogPath": "/collections/ulysse-nardin/marine/1506-150le-3-63-vb",
+      "manufacturerReference": "1506-150LE-3/63-VB",
+      "checkedAt": "2026-10-28",
+      "outcome": "primary-address-404-no-exact-price",
+      "sourceUrl": "https://www.ulysse-nardin.com/en-us/watches/discontinued-models/1506-150le-3-63-vb",
+      "resolvedUrl": null,
+      "observation": "Bounded inferred manufacturer discontinued-model archive lookup was actually retrieved and returned404; official site-scoped exact-reference search yielded no corresponding indexed price source. This is not proof of discontinuation or that MSRP never existed. Recommendation prices excluded.",
+      "requiredEvidence": [
+        "Manufacturer archive/dated list or authorized-retailer historical list price for exact1506-150LE-3/63-VBconfiguration, including currency/market and date."
+      ],
+      "sourceHttpStatus": 404,
+      "identityEvidence": "Exact pictured full reference in src/data/photography-cleared-sprint.ts; dealer price not used."
+    },
+    {
+      "brand": "Ulysse Nardin",
+      "reference": "266-67",
+      "catalogPath": "/collections/ulysse-nardin/marine/266-67",
+      "manufacturerReference": "266-67-3/43",
+      "checkedAt": "2026-10-28",
+      "outcome": "primary-address-404-no-exact-price",
+      "sourceUrl": "https://www.ulysse-nardin.com/en-us/watches/discontinued-models/266-67-3-43",
+      "resolvedUrl": null,
+      "observation": "Bounded inferred manufacturer discontinued-model archive lookup was actually retrieved and returned404; official site-scoped exact-reference search yielded no corresponding indexed price source. This is not proof of discontinuation or that MSRP never existed. Recommendation prices excluded.",
+      "requiredEvidence": [
+        "Manufacturer archive/dated list or authorized-retailer historical list price for exact266-67-3/43configuration, including currency/market and date."
+      ],
+      "sourceHttpStatus": 404,
+      "identityEvidence": "Exact pictured full reference in src/data/photography-cleared-sprint.ts; dealer price not used."
+    },
+    {
+      "brand": "Ulysse Nardin",
+      "reference": "Maxi Marine Diver",
+      "catalogPath": "/collections/ulysse-nardin/diver/maxi-marine-diver",
+      "manufacturerReference": "266-10-3/92",
+      "checkedAt": "2026-10-28",
+      "outcome": "primary-address-404-no-exact-price",
+      "sourceUrl": "https://www.ulysse-nardin.com/en-us/watches/discontinued-models/266-10-3-92",
+      "resolvedUrl": null,
+      "observation": "Bounded inferred manufacturer discontinued-model archive lookup was actually retrieved and returned404; official site-scoped exact-reference search yielded no corresponding indexed price source. This is not proof of discontinuation or that MSRP never existed. Recommendation prices excluded.",
+      "requiredEvidence": [
+        "Manufacturer archive/dated list or authorized-retailer historical list price for exact266-10-3/92configuration, including currency/market and date."
+      ],
+      "sourceHttpStatus": 404,
+      "identityEvidence": "Exact pictured full reference in src/data/photography-cleared-sprint.ts; dealer price not used.",
+      "aliasOf": "266-10-3/92"
+    },
+    {
+      "brand": "Ulysse Nardin",
+      "reference": "1502-151-3/93",
+      "catalogPath": "/collections/ulysse-nardin/diver/1502-151-3-93",
+      "manufacturerReference": "1502-151-3/93",
+      "checkedAt": "2026-10-28",
+      "outcome": "primary-address-404-no-exact-price",
+      "sourceUrl": "https://www.ulysse-nardin.com/en-us/watches/discontinued-models/1502-151-3-93",
+      "resolvedUrl": null,
+      "observation": "Bounded inferred manufacturer discontinued-model archive lookup was actually retrieved and returned404; official site-scoped exact-reference search yielded no corresponding indexed price source. This is not proof of discontinuation or that MSRP never existed. Recommendation prices excluded.",
+      "requiredEvidence": [
+        "Manufacturer archive/dated list or authorized-retailer historical list price for exact1502-151-3/93configuration, including currency/market and date."
+      ],
+      "sourceHttpStatus": 404,
+      "identityEvidence": "Exact pictured full reference in src/data/photography-cleared-sprint.ts; dealer price not used."
+    },
+    {
+      "brand": "Ulysse Nardin",
+      "reference": "266-10-3/92",
+      "catalogPath": "/collections/ulysse-nardin/diver/266-10-3-92",
+      "manufacturerReference": "266-10-3/92",
+      "checkedAt": "2026-10-28",
+      "outcome": "primary-address-404-no-exact-price",
+      "sourceUrl": "https://www.ulysse-nardin.com/en-us/watches/discontinued-models/266-10-3-92",
+      "resolvedUrl": null,
+      "observation": "Bounded inferred manufacturer discontinued-model archive lookup was actually retrieved and returned404; official site-scoped exact-reference search yielded no corresponding indexed price source. This is not proof of discontinuation or that MSRP never existed. Recommendation prices excluded.",
+      "requiredEvidence": [
+        "Manufacturer archive/dated list or authorized-retailer historical list price for exact266-10-3/92configuration, including currency/market and date."
+      ],
+      "sourceHttpStatus": 404,
+      "identityEvidence": "Exact pictured full reference in src/data/photography-cleared-sprint.ts; dealer price not used.",
+      "referenceAliases": [
+        "Maxi Marine Diver"
+      ]
+    },
+    {
+      "brand": "Ulysse Nardin",
+      "reference": "265-90-3c/93",
+      "catalogPath": "/collections/ulysse-nardin/diver/265-90-3c-93",
+      "manufacturerReference": "265-90-3c/93",
+      "checkedAt": "2026-10-28",
+      "outcome": "primary-address-404-no-exact-price",
+      "sourceUrl": "https://www.ulysse-nardin.com/en-us/watches/discontinued-models/265-90-3c-93",
+      "resolvedUrl": null,
+      "observation": "Bounded inferred manufacturer discontinued-model archive lookup was actually retrieved and returned404; official site-scoped exact-reference search yielded no corresponding indexed price source. This is not proof of discontinuation or that MSRP never existed. Recommendation prices excluded.",
+      "requiredEvidence": [
+        "Manufacturer archive/dated list or authorized-retailer historical list price for exact265-90-3c/93configuration, including currency/market and date."
+      ],
+      "sourceHttpStatus": 404,
+      "identityEvidence": "Exact pictured full reference in src/data/photography-cleared-sprint.ts; dealer price not used."
+    },
+    {
+      "brand": "Bell & Ross",
+      "reference": "BR0192-BL-ST",
+      "catalogPath": "/collections/bell-and-ross/br-01/br0192-bl-st",
+      "manufacturerReference": "BR0192-BL-ST",
+      "checkedAt": "2026-10-28",
+      "outcome": "ready-exact-benchmark",
+      "basis": "current-list",
+      "market": "United States",
+      "currency": "USD",
+      "amount": 4400,
+      "sourceUrl": "https://bellross.com/en-us/products/br-01-92-steel",
+      "observation": "Regular price $4,400.00",
+      "requiredEvidence": [],
+      "priceRowReference": "BR0192-BL-ST"
+    },
+    {
+      "brand": "Bell & Ross",
+      "reference": "BR0192-COMPASS-CA",
+      "catalogPath": "/collections/bell-and-ross/br-01/br0192-compass-ca",
+      "manufacturerReference": "BR0192-COMPASS-CA",
+      "checkedAt": "2026-10-28",
+      "outcome": "ready-exact-benchmark",
+      "basis": "current-list",
+      "market": "United States",
+      "currency": "USD",
+      "amount": 6100,
+      "sourceUrl": "https://bellross.com/en-us/products/br-01-compass",
+      "observation": "Regular price $6,100.00",
+      "requiredEvidence": [],
+      "priceRowReference": "BR0192-COMPASS-CA"
+    },
+    {
+      "brand": "Bell & Ross",
+      "reference": "BR0192-REDRADAR",
+      "catalogPath": "/collections/bell-and-ross/br-01/br0192-redradar",
+      "manufacturerReference": "BR0192-REDRADAR",
+      "checkedAt": "2026-10-28",
+      "outcome": "ready-exact-benchmark",
+      "basis": "current-list",
+      "market": "United States",
+      "currency": "USD",
+      "amount": 6500,
+      "sourceUrl": "https://bellross.com/en-us/products/br-01-92-red-radar",
+      "observation": "Regular price $6,500.00",
+      "requiredEvidence": [],
+      "priceRowReference": "BR0192-REDRADAR"
+    },
+    {
+      "brand": "Patek Philippe",
+      "reference": "5167/1A-001",
+      "catalogPath": "/collections/patek-philippe/aquanaut/5167-1a-001",
+      "manufacturerReference": "5167/1A-001",
+      "checkedAt": "2026-10-28",
+      "outcome": "primary-address-404-no-price",
+      "sourceUrl": "https://www.patek.com/en/collection/aquanaut/5167-1a-001",
+      "resolvedUrl": null,
+      "observation": "Exact pictured-reference manufacturer product address was actually retrieved and returned Page Not Found (HTTP404). No selected product/list price. A missing page does not prove manufacturer never published a price.",
+      "requiredEvidence": [
+        "Dated manufacturer historical price list/catalog or authorized-retailer original list price for this exact suffix/configuration and market.",
+        "Do not substitute later Nautilus generations, green-dial5711/1A-014, rose-gold5712, or rubber-strap5167A price."
+      ],
+      "sourceHttpStatus": 404,
+      "identityEvidence": "src/data/photography-cleared-sprint.ts and manufacturer2023Tokyo catalog identify steel bracelet5167/1A-001"
+    },
+    {
+      "brand": "Hublot",
+      "reference": "441.NX.1171.RX",
+      "catalogPath": "/collections/hublot/big-bang-unico/441-nx-1171-rx",
+      "manufacturerReference": "441.NX.1171.RX",
+      "checkedAt": "2026-10-28",
+      "outcome": "manufacturer-address-redirect-no-exact-price",
+      "sourceUrl": "https://www.hublot.com/en-us/watches/big-bang/big-bang-unico-titanium-42-mm",
+      "resolvedUrl": null,
+      "observation": "Same manufacturer lookup as canonical alias441-NX-1171-RX:42mm source resolves to Hublot homepage, no exact product price.",
+      "requiredEvidence": [
+        "Exact441.NX.1171.RX42mm official current or historical list price."
+      ],
+      "referenceAliases": [
+        "441-NX-1171-RX"
+      ]
+    },
+    {
+      "brand": "Hublot",
+      "reference": "411.OM.1180.RX",
+      "catalogPath": "/collections/hublot/big-bang-unico/411-om-1180-rx",
+      "manufacturerReference": "411.OM.1180.RX",
+      "checkedAt": "2026-10-28",
+      "outcome": "manufacturer-redirect-different-configuration",
+      "sourceUrl": "https://www.hublot.com/en-us/watches/big-bang/big-bang-unico-king-gold-ceramic-45-mm",
+      "resolvedUrl": null,
+      "observation": "Old 45 mm URL redirects to 44 mm 421.OM.1180.RX, USD45,700. Different exact reference, size and movement; replacement price excluded.",
+      "requiredEvidence": [
+        "Dated exact411-series45mm/HUB1242 original list-price source. Current421-series44mm/HUB1280 retail prices are not interchangeable."
+      ]
+    },
+    {
+      "brand": "Hublot",
+      "reference": "411.OX.1180.RX",
+      "catalogPath": "/collections/hublot/big-bang-unico/411-ox-1180-rx",
+      "manufacturerReference": "411.OX.1180.RX",
+      "checkedAt": "2026-10-28",
+      "outcome": "manufacturer-redirect-different-configuration",
+      "sourceUrl": "https://www.hublot.com/en-us/watches/big-bang/big-bang-unico-king-gold-45-mm",
+      "resolvedUrl": null,
+      "observation": "Old 45 mm URL redirects to 44 mm 421.OX.1180.RX, USD49,300. Different exact reference, size and movement; replacement price excluded.",
+      "requiredEvidence": [
+        "Dated exact411-series45mm/HUB1242 original list-price source. Current421-series44mm/HUB1280 retail prices are not interchangeable."
+      ]
+    },
+    {
+      "brand": "Vacheron Constantin",
+      "reference": "6000T/000P-H025",
+      "catalogPath": "/collections/vacheron-constantin/traditionnelle/6000t-000p-h025",
+      "manufacturerReference": "6000T/000P-H025",
+      "checkedAt": "2026-10-28",
+      "outcome": "manufacturer-price-on-request",
+      "sourceUrl": "https://www.vacheron-constantin.com/us/en/collections/traditionnelle/6000t-000p-h025.html",
+      "resolvedUrl": null,
+      "observation": "Manufacturer exact US page explicitly states price on request; USD metadata price field has no numeric value. No price inferred.",
+      "requiredEvidence": [
+        "Written manufacturer/boutique or authorized retailer list-price confirmation for exact reference, market/currency and date."
+      ]
+    },
+    {
+      "brand": "Jaeger-LeCoultre",
+      "reference": "Q52334E1",
+      "catalogPath": "/collections/jaeger-lecoultre/master-grande-tradition/q52334e1",
+      "manufacturerReference": "Q52334E1",
+      "checkedAt": "2026-10-28",
+      "outcome": "manufacturer-price-on-request",
+      "sourceUrl": "https://www.jaeger-lecoultre.com/us-en/watches/master-grande-tradition/master-grande-tradition-calibre-950-white-gold-q52334e1",
+      "resolvedUrl": null,
+      "observation": "Manufacturer exact reference says price available upon request. No numeric price inferred from similar minute repeaters or recommendations.",
+      "requiredEvidence": [
+        "Written manufacturer/boutique or authorized retailer list-price confirmation for exact reference, market/currency and date."
+      ]
+    },
+    {
+      "brand": "TAG Heuer",
+      "reference": "CBL2111.FC6453",
+      "catalogPath": "/collections/tag-heuer/monaco/cbl2111-fc6453",
+      "manufacturerReference": "CBL2111.FC6453",
+      "checkedAt": "2026-10-28",
+      "outcome": "same-sku-generation-movement-mismatch",
+      "sourceUrl": "https://www.tagheuer.com/us/en/timepieces/collections/tag-heuer-monaco/39-mm-th20-00/CBL2111.FC6453.html",
+      "resolvedUrl": null,
+      "observation": "Actual current manufacturer selected samefullSKU now specifies TH20-00, whereas pictured catalog specifies historical Heuer02. Current USD8300 price held pending exact movement/generation applicability; not used as original MSRP.",
+      "requiredEvidence": [
+        "Dated manufacturer/authorized-retailer Heuer02-specific list price or manufacturer confirmation that same-SKU current benchmark applies to pictured generation."
+      ],
+      "observedExcludedPrice": {
+        "amount": 8300,
+        "currency": "USD",
+        "market": "United States",
+        "movement": "TH20-00"
+      }
+    },
+    {
+      "brand": "Richard Mille",
+      "reference": "RM 67-01",
+      "catalogPath": "/collections/richard-mille/rm-67/rm-67-01",
+      "manufacturerReference": "RM 67-01",
+      "checkedAt": "2026-10-28",
+      "outcome": "manufacturer-no-numeric-price",
+      "sourceUrl": "https://www.richardmille.com/collections/rm-67-01-automatic-extra-flat",
+      "resolvedUrl": null,
+      "observation": "Exact manufacturer model page read; no numeric manufacturer list price observed. No dealer ask used.",
+      "requiredEvidence": [
+        "Manufacturer pricing confirmation or dated official list price for the exact catalog configuration; no dealer asking price or inference from limited-edition size."
+      ]
+    },
+    {
+      "brand": "Richard Mille",
+      "reference": "RM 27-05",
+      "catalogPath": "/collections/richard-mille/rm-27/rm-27-05",
+      "manufacturerReference": "RM 27-05",
+      "checkedAt": "2026-10-28",
+      "outcome": "manufacturer-no-numeric-price",
+      "sourceUrl": "https://www.richardmille.com/collections/rm-27-05-flying-tourbillon-rafael-nadal",
+      "resolvedUrl": null,
+      "observation": "Exact manufacturer model page read; no numeric manufacturer price observed. No estimate inferred from its limited edition or other Richard Mille references.",
+      "requiredEvidence": [
+        "Manufacturer pricing confirmation or dated official list price for the exact catalog configuration; no dealer asking price or inference from limited-edition size."
+      ]
+    },
+    {
+      "brand": "Panerai",
+      "reference": "PAM00502",
+      "catalogPath": "/collections/panerai/radiomir-gmt/pam00502",
+      "manufacturerReference": "PAM00502",
+      "checkedAt": "2026-10-28",
+      "outcome": "ready-exact-benchmark",
+      "basis": "historical-list",
+      "market": "United States",
+      "currency": "USD",
+      "amount": 41000,
+      "sourceUrl": "https://www.panerai.com/us/en/collections/special-editions-archive/2013/pam00502-radiomir-1940-chrono-monopulsante-8-days-gmt-oro-rosso-.html",
+      "observation": "Manufacturer archive Product/Offer price41000.0 priceCurrencyUSD; numeric price not rendered in hero.",
+      "requiredEvidence": [],
+      "priceRowReference": "PAM00502"
+    },
+    {
+      "brand": "Breitling",
+      "reference": "A17388101B1A1",
+      "catalogPath": "/collections/breitling/colt/a17388101b1a1",
+      "manufacturerReference": "A17388101B1A1",
+      "checkedAt": "2026-10-28",
+      "outcome": "ready-exact-benchmark",
+      "basis": "historical-list",
+      "market": "Curaçao",
+      "currency": "USD",
+      "amount": 4050,
+      "sourceUrl": "https://www.breitling.com/cw-en/watches/colt/colt-automatic/A17388101B1A1/",
+      "observation": "USD4,050 — VAT Incl.",
+      "requiredEvidence": [],
+      "priceRowReference": "A17388101B1A1"
+    },
+    {
+      "brand": "Breitling",
+      "reference": "A32390111G1A1",
+      "catalogPath": "/collections/breitling/avenger-ii/a32390111g1a1",
+      "manufacturerReference": "A32390111G1A1",
+      "checkedAt": "2026-10-28",
+      "outcome": "ready-exact-benchmark",
+      "basis": "current-list",
+      "market": "Indonesia",
+      "currency": "IDR",
+      "amount": 96400000,
+      "sourceUrl": "https://www.breitling.com/id-en/watches/avenger/avenger-ii-gmt/A32390111G1A1/",
+      "observation": "IDR96,400,000 — VAT Incl.",
+      "requiredEvidence": [],
+      "priceRowReference": "A32390111G1A1"
+    }
+  ],
+  "checkedAt": "2026-10-28",
+  "summary": {
+    "assignedCanonicalPages": 46,
+    "reviewedCanonicalPages": 46,
+    "readyExactBenchmarks": 8,
+    "readyCurrentUnitedStates": 5,
+    "readyRegionalCurrent": 1,
+    "readyUndatedHistorical": 2,
+    "reviewedHolds": 38,
+    "researchPending": 0
+  },
+  "status": "final-bounded-source-pass-complete",
+  "notes": [
+    "No code, publication, deployment or cloud mutation performed.",
+    "Actual primary-source outcome recorded for all46 assigned canonical pages; no research-pending placeholders remain. A404 or no-result search is not evidence that MSRP never existed.",
+    "Manufacturer price-on-request/no-price models need boutique/manufacturer or authorized-retailer historical list evidence. Do not fill unknowns with marketplace asks, related successors or implicit FX.",
+    "Four-row immutable release snapshot is remaining-brand-final-ready-oct28.json. Additional Hublot/archived Panerai/regional Breitling rows are separately reviewable in remaining-brand-final-additional-evidence-oct28.json.",
+    "Canonically separate Hublot441 and UNMaxiMarineDiver routes alias the same fullmanufacturerSKU; hold outcomes retain all paths."
+  ]
+}
