@@ -16,7 +16,7 @@ registerHooks({ resolve(specifier, context, next) {
 const { parseWatchIntent, getEstimatedWatchPrice, rankWatchAssets } = await import("../src/lib/intelligence/watchIntelligenceEngine.ts");
 const { createSearchIndexRecord, searchWatchRecords, rankSearchRecordsWithIntelligence } = await import("../src/lib/intelligence/searchIndexGenerator.ts");
 const { askQuestLuxo, getAskQuestLuxoCatalog } = await import("../src/lib/intelligence/askQuestLuxo.ts");
-const { getVerifiedRetailPrices, formatRetailTaxBasis } = await import("../src/lib/intelligence/watchRetailPricing.ts");
+const { getVerifiedRetailPrices, getRetailPriceSummary, getVerifiedUsdRetailBenchmark, formatRetailTaxBasis } = await import("../src/lib/intelligence/watchRetailPricing.ts");
 const { verifiedRetailPrices } = await import("../src/data/verified-retail-prices.ts");
 const { collectionRegistry } = await import("../src/data/collectionRegistry.ts");
 const { rolexAssets } = await import("../src/data/rolex/index.ts");
@@ -97,23 +97,33 @@ test("a corrected display SKU preserves the original catalog route and ranking i
   assert.deepEqual(searched.map(result => result.reference), [record.reference]);
 });
 
-test("all public retail entries carry exact configuration and auditable manufacturer evidence", () => {
+test("all public retail entries carry auditable configuration, market and date evidence", () => {
   const identities = new Set();
   for (const price of verifiedRetailPrices) {
     assert.ok(price.amount > 0 && Number.isFinite(price.amount));
-    assert.equal(price.currency, "USD");
-    assert.equal(price.market, "United States");
+    assert.ok(["USD", "CHF", "EUR", "GBP"].includes(price.currency));
+    assert.ok(price.market.trim().length > 0);
     assert.ok(["unconfirmed", "included", "excluded"].includes(price.taxBasis));
-    if (price.brand === "Rolex" || price.brand === "Tudor") assert.equal(price.taxBasis, "unconfirmed", "source silence must not establish a tax basis");
+    if (price.checkedAt === "2026-10-24" && ["Rolex", "Tudor"].includes(price.brand)) assert.equal(price.taxBasis, "unconfirmed", "source silence must not establish a tax basis");
     assert.equal(price.sourceType, "manufacturer");
-    const officialHosts = { Rolex: "www.rolex.com", Tudor: "www.tudorwatch.com", IWC: "www.iwc.com", Omega: "www.omegawatches.com", Breitling: "www.breitling.com", Cartier: "www.cartier.com", Hublot: "www.hublot.com", Panerai: "www.panerai.com", "Patek Philippe": "www.patek.com" };
-    assert.equal(new URL(price.sourceUrl).hostname, officialHosts[price.brand]);
+    const officialHosts = { Rolex: "www.rolex.com", Tudor: "www.tudorwatch.com", IWC: "www.iwc.com", Omega: "www.omegawatches.com", Breitling: "www.breitling.com", Cartier: "www.cartier.com", Hublot: "www.hublot.com", Panerai: "www.panerai.com", "Patek Philippe": "www.patek.com", "Audemars Piguet": "www.audemarspiguet.com", "Ulysse Nardin": "www.ulysse-nardin.com", Zenith: "www.zenith-watches.com", "Jaeger-LeCoultre": "www.jaeger-lecoultre.com", "Bell & Ross": "bellross.com", Blancpain: "www.blancpain.com", "Vacheron Constantin": "www.vacheron-constantin.com", "Girard-Perregaux": "www.girard-perregaux.com", "A. Lange & Söhne": "www.alange-soehne.com" };
+    const archive = price.brand === "Rolex" && price.basis === "historical-list";
+    if (archive) {
+      assert.ok(["davidsw.com", "www.minus4plus6.com", "rolexforum.nl"].includes(new URL(price.sourceUrl).hostname));
+      assert.match(price.sourceName, /manufacturer.*archived by/i);
+    } else if (price.brand === "Tudor" && new URL(price.sourceUrl).hostname === "media.tudorwatch.com") {
+      assert.equal(price.basis, "historical-list");
+    } else assert.equal(new URL(price.sourceUrl).hostname, price.brand === "TAG Heuer" ? "www.tagheuer.com" : officialHosts[price.brand]);
     const compact = value => value.toLowerCase().replace(/[^a-z0-9]/g, "");
     assert.equal(new URL(price.sourceUrl).protocol, "https:");
     // Hublot uses descriptive product URLs; its exact selected SKU is in page evidence.
-    if (price.brand !== "Hublot") assert.ok(compact(price.sourceUrl).includes(compact(price.manufacturerReference)), price.sourceUrl);
+    if (!archive && !price.sourceUrl.endsWith(".pdf") && !["Hublot", "Bell & Ross"].includes(price.brand)) assert.ok(compact(price.sourceUrl).includes(compact(price.manufacturerReference)), price.sourceUrl);
     assert.match(price.checkedAt, /^\d{4}-\d{2}-\d{2}$/);
-    assert.equal(price.effectiveDate, null, "observation date must not become a claimed effective date");
+    if (price.effectiveDate) {
+      assert.match(price.effectiveDate, /^\d{4}-\d{2}-\d{2}$/);
+      assert.ok(price.effectiveDate <= price.checkedAt);
+    }
+    if (price.effectivePeriod) assert.match(price.effectivePeriod, /^\d{4}(?:-(?:0[1-9]|1[0-2]))?$/);
     const identity = `${price.brand}:${price.manufacturerReference}`;
     assert.ok(!identities.has(identity), identity);
     identities.add(identity);
@@ -154,9 +164,60 @@ test("default recommendations use unique exact references from active catalog ro
   const { referencePath } = await import("../src/lib/routes/collectionRoutes.ts");
   const activePaths = new Set(collectionRegistry.flatMap(collection => collection.assets.map(asset => referencePath(collection.brandSlug, collection.slug, asset.reference))));
   const records = getAskQuestLuxoCatalog();
-  assert.equal(records.length, activePaths.size);
   assert.equal(new Set(records.map(record => record.url)).size, records.length);
+  const identities = new Set(records.map(record => `${record.brand}:${record.asset.displayReference ?? record.reference}`));
+  const paths = new Set(records.map(record => record.url));
+  assert.equal(identities.size, records.length);
   assert.ok(records.every(record => activePaths.has(record.url)));
+  for (const collection of collectionRegistry) for (const asset of collection.assets) {
+    const visible = asset.displayReference ?? asset.reference;
+    assert.ok(identities.has(`${collection.brand}:${visible}`) || paths.has(referencePath(collection.brandSlug, collection.slug, asset.reference)) || getVerifiedRetailPrices(asset, collection.brand).some(price => price.referenceAliases?.includes(visible) && identities.has(`${collection.brand}:${price.reference}`)), `missing unaliased reference: ${collection.brand}:${visible}`);
+  }
+});
+
+test("verified aliases reuse one observation and recommend the full reference without changing public routes", () => {
+  const family = getVerifiedRetailPrices({ brand: "Ulysse Nardin", reference: "Freak X" });
+  const exact = getVerifiedRetailPrices({ brand: "Ulysse Nardin", reference: "2303-270/03" });
+  assert.equal(family.length, 1);
+  assert.equal(family[0], exact[0]);
+  const matches = getAskQuestLuxoCatalog().filter(record => record.brand === "Ulysse Nardin" && ["Freak X", "2303-270/03"].includes(record.reference));
+  assert.equal(matches.length, 1);
+  assert.equal(matches[0].reference, "2303-270/03");
+  assert.ok(collectionRegistry.some(collection => collection.assets.some(asset => asset.reference === "Freak X")), "legacy route remains in registry");
+});
+
+test("historical and international benchmarks never become current U.S. budget prices", () => {
+  for (const reference of ["126710BLRO", "116710BLNR", "116520"]) {
+    const asset = { brand: "Rolex", reference, model: "Historical watch" };
+    assert.equal(getVerifiedUsdRetailBenchmark(asset), null);
+    const record = createSearchIndexRecord({ brand: "Rolex", asset });
+    assert.equal(searchWatchRecords({ records: [record], query: "under $50000" }).length, 0);
+    assert.equal(searchWatchRecords({ records: [record], query: "under $50000", includeUnknownPrice: true }).length, 1);
+  }
+  const batman = getVerifiedRetailPrices({ brand: "Rolex", reference: "116710BLNR" })[0];
+  assert.equal(batman.currency, "EUR");
+  assert.equal(batman.market, "Netherlands");
+  assert.equal(batman.effectiveDate, null);
+  assert.equal(batman.effectivePeriod, "2016-02");
+  assert.equal(getVerifiedRetailPrices({ brand: "Rolex", reference: "116520" })[0].configurationScope, "base-reference");
+  const tudor = getVerifiedRetailPrices({ brand: "Tudor", reference: "79030N" })[0];
+  assert.equal(tudor.currency, "CHF");
+  assert.equal(tudor.amount, 3400);
+  assert.equal(tudor.effectiveDate, null);
+  assert.equal(tudor.effectivePeriod, "2018");
+  assert.equal(getVerifiedUsdRetailBenchmark({ brand: "Tudor", reference: "79030N", model: "Fifty-Eight" }), null);
+});
+
+test("retail summary never treats lower foreign amounts or older historical periods as a comparable price range", () => {
+  const base = getVerifiedRetailPrices({ brand: "Rolex", reference: "126710BLRO" })[0];
+  const euro = { ...base, currency: "EUR", market: "Netherlands", amount: 1000 };
+  const older = { ...base, amount: 2000, effectiveDate: "2012-06-01" };
+  const selected = getRetailPriceSummary([euro, older, base]);
+  assert.equal(selected.price.amount, 10700);
+  assert.equal(selected.price.currency, "USD");
+  assert.equal(selected.hasRange, false);
+  const current = { ...euro, basis: "current-list", effectiveDate: null };
+  assert.equal(getRetailPriceSummary([base, current]).price, current);
 });
 
 test("tax labels distinguish verified inclusion/exclusion from source silence", () => {

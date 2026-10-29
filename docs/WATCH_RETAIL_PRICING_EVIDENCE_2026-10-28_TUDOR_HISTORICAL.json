@@ -1,0 +1,34 @@
+{
+  "prices": [
+    {
+      "brand": "Tudor",
+      "reference": "79030N",
+      "manufacturerReference": "79030N",
+      "configuration": "Black domed dial / 39 mm steel / riveted steel bracelet / MT5402",
+      "amount": 3400,
+      "currency": "CHF",
+      "market": "Switzerland",
+      "taxBasis": "included",
+      "basis": "historical-list",
+      "checkedAt": "2026-10-28",
+      "effectiveDate": null,
+      "effectivePeriod": "2018",
+      "sourceUrl": "https://media.tudorwatch.com/image/upload/fl_attachment/v1/tudorwatch/pressroom/products/black-bay-58/pdf/bw18-tudor-black-bay-fifty-eight-en.pdf",
+      "sourceName": "TUDOR 2018 Black Bay Fifty-Eight manufacturer press kit",
+      "sourceType": "manufacturer"
+    }
+  ],
+  "evidence": {
+    "publisher": "TUDOR",
+    "pdfPages": 5,
+    "priceTablePage": 5,
+    "sourceYearEvidence": "Page2 explicitly introduces the2018 MT5402 family; manufacturer BW18 press kit.",
+    "visualReview": "Root rendered PDF page5 with Poppler and visually matched the LEFT steel-bracelet image/column to CHF3,400; middle leather and right fabric are CHF3,100 and excluded.",
+    "sourceSha256": "1CFA2F8302FC4B6D972DE206C44F2C5AE5B328B6EAABCE0C8CCBC3F026E1BCDE",
+    "proofImage": "luxury-optimization-oct28/tudor-2018-price-page.png",
+    "catalogReference": "79030N",
+    "catalogPhotograph": "Riveted Steel Bracelet, Black, Stainless Steel; existing cleared exact-configuration image",
+    "taxEvidence": "Swiss price (VAT incl.) below each illustrated configuration",
+    "dateCaution": "Only2018 publication year established; effectiveDate stays null, effectivePeriod2018. No month/day or currency conversion inferred."
+  }
+}

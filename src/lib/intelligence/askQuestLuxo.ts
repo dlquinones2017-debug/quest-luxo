@@ -1,6 +1,7 @@
 import { rolexAssets } from "../../data/rolex";
 import { collectionRegistry } from "../../data/collectionRegistry";
 import { getReferenceFilterTags } from "../catalog/referenceFacets.ts";
+import { getVerifiedRetailPrices } from "./watchRetailPricing.ts";
 import { referencePath } from "../routes/collectionRoutes";
 import type { QuestLuxoAsset } from "../../types/questLuxo";
 import {
@@ -73,9 +74,17 @@ const registrySearchRecords = collectionRegistry.flatMap((collection) =>
 
 // Recommendations point to exact, active reference routes. Legacy collection/family
 // search records can describe several configurations and must not pose as one watch.
-const defaultSearchRecords = Object.freeze(
-  [...new Map(registrySearchRecords.map(record => [record.url, record])).values()]
-);
+const uniqueRouteRecords = [...new Map(registrySearchRecords.map(record => [record.url, record])).values()];
+const uniqueReferenceRecords = [...new Map(uniqueRouteRecords.map(record => [`${record.brand}:${record.asset.displayReference ?? record.reference}`, record])).values()];
+const canonicalIdentities = new Set(uniqueReferenceRecords.map(record => `${record.brand}:${record.asset.displayReference ?? record.reference}`));
+const defaultSearchRecords = Object.freeze(uniqueReferenceRecords.filter(record => {
+  const visibleReference = record.asset.displayReference ?? record.reference;
+  // Keep old public routes intact, while recommending one exact watch when a
+  // source-verified family alias has an equivalent full-SKU route in the registry.
+  return !getVerifiedRetailPrices(record.asset, record.brand).some(price =>
+    price.referenceAliases?.includes(visibleReference) && canonicalIdentities.has(`${record.brand}:${price.reference}`)
+  );
+}));
 
 export function getAskQuestLuxoCatalog(): readonly SearchableWatchRecord[] {
   return defaultSearchRecords;
@@ -156,7 +165,7 @@ export function generateAskQuestLuxoSummary(
   const priceText =
     topRecommendation.estimatedPrice !== null
       ? ` with a verified published U.S. MSRP benchmark from ${formatCurrency(topRecommendation.estimatedPrice)}`
-      : " with price research pending";
+      : " with current U.S. list-price verification pending";
 
   return `Showing ${recommendations.length} Quest Luxo match${
     recommendations.length === 1 ? "" : "es"

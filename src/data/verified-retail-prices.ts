@@ -1,9 +1,12 @@
 import { oct28RetailPrices } from "./verified-retail-prices-oct28.ts";
 import { oct28NextRetailPrices } from "./verified-retail-prices-oct28-next.ts";
+import { oct28AdditionalRetailPrices } from "./verified-retail-prices-oct28-additional.ts";
 
 export interface VerifiedRetailPrice {
   readonly brand: string;
   readonly reference: string;
+  /** Explicit equivalent catalog labels; never inferred from a similar model. */
+  readonly referenceAliases?: readonly string[];
   readonly manufacturerReference: string;
   readonly configuration: string;
   readonly amount: number;
@@ -14,6 +17,9 @@ export interface VerifiedRetailPrice {
   /** Date the source was read; never presented as a manufacturer's effective date. */
   readonly checkedAt: string;
   readonly effectiveDate: string | null;
+  /** A published year/month when the manufacturer does not give an exact day. */
+  readonly effectivePeriod?: string;
+  readonly configurationScope?: "exact" | "base-reference";
   readonly sourceUrl: string;
   readonly sourceName: string;
   readonly sourceType: "manufacturer" | "authorized-retailer";
@@ -32,6 +38,7 @@ const rolex = (reference: string, manufacturerReference: string, configuration: 
 export const verifiedRetailPrices: readonly VerifiedRetailPrice[] = Object.freeze(([
   ...oct28RetailPrices,
   ...oct28NextRetailPrices,
+  ...oct28AdditionalRetailPrices,
   rolex("124060", "m124060-0001", "Black dial / Oyster bracelet / black bezel", 10050, "submariner"),
   rolex("126610LN", "m126610ln-0001", "Black dial / Oyster bracelet / black bezel", 11350, "submariner"),
   rolex("126610LV", "m126610lv-0002", "Black dial / Oyster bracelet / green bezel", 11900, "submariner"),

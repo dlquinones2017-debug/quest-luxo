@@ -1,0 +1,2142 @@
+{
+  "title": "Further non-Rolex current manufacturer MSRP research — October 28",
+  "baseline": {
+    "originalReleasedCoverage": 113,
+    "frozenReadyPendingIntegration": 30,
+    "potentialAfterFrozen": 143,
+    "totalCanonical": 297
+  },
+  "prices": [
+    {
+      "brand": "Ulysse Nardin",
+      "reference": "Freak X",
+      "manufacturerReference": "2303-270/03",
+      "configuration": "Blue movement display / 43 mm titanium with blue PVD / blue alligator strap / UN-230",
+      "amount": 32100,
+      "currency": "USD",
+      "market": "United States",
+      "taxBasis": "unconfirmed",
+      "basis": "current-list",
+      "checkedAt": "2026-10-28",
+      "effectiveDate": null,
+      "sourceUrl": "https://www.ulysse-nardin.com/en-us/watches/freak/2303-270-03",
+      "sourceName": "Ulysse Nardin United States",
+      "sourceType": "manufacturer",
+      "catalogPath": "/collections/ulysse-nardin/freak/freak-x",
+      "evidence": {
+        "priceData": {
+          "price": 32100,
+          "priceCurrency": "USD"
+        },
+        "currencyBasis": "Official US manufacturer product page's selected Product/Offer schema explicitly carries priceCurrency USD and exact selected product price.",
+        "taxStatement": "No explicit selected-price tax treatment observed; retain unconfirmed.",
+        "catalogManifest": {
+          "file": "src/data/photography-cleared-sprint.ts",
+          "reference": "Freak X",
+          "exactReference": "2303-270/03",
+          "configuration": {
+            "dial": "Blue movement display; no conventional dial",
+            "bracelet": "Blue alligator strap",
+            "caseSize": "43 mm",
+            "movement": "Self-winding UN-230",
+            "waterResistance": "50 m"
+          },
+          "sourceUrl": "https://www.ulysse-nardin.com/ja-jp/watches/freak/2303-270-03"
+        },
+        "catalogMatch": "Selected full manufacturer reference and configuration match exact canonical identity. Generic Freak family aliases map only to the pictured full reference; routes unchanged.",
+        "availabilityNote": "Manufacturer list benchmark; availability must be confirmed separately."
+      }
+    },
+    {
+      "brand": "Ulysse Nardin",
+      "reference": "2303-270/03",
+      "manufacturerReference": "2303-270/03",
+      "configuration": "Blue movement display / 43 mm titanium with blue PVD / blue alligator strap / UN-230",
+      "amount": 32100,
+      "currency": "USD",
+      "market": "United States",
+      "taxBasis": "unconfirmed",
+      "basis": "current-list",
+      "checkedAt": "2026-10-28",
+      "effectiveDate": null,
+      "sourceUrl": "https://www.ulysse-nardin.com/en-us/watches/freak/2303-270-03",
+      "sourceName": "Ulysse Nardin United States",
+      "sourceType": "manufacturer",
+      "catalogPath": "/collections/ulysse-nardin/freak/2303-270-03",
+      "evidence": {
+        "priceData": {
+          "price": 32100,
+          "priceCurrency": "USD"
+        },
+        "currencyBasis": "Official US manufacturer product page's selected Product/Offer schema explicitly carries priceCurrency USD and exact selected product price.",
+        "taxStatement": "No explicit selected-price tax treatment observed; retain unconfirmed.",
+        "catalogManifest": {
+          "file": "src/data/photography-cleared-sprint.ts",
+          "reference": "Freak X",
+          "exactReference": "2303-270/03",
+          "configuration": {
+            "dial": "Blue movement display; no conventional dial",
+            "bracelet": "Blue alligator strap",
+            "caseSize": "43 mm",
+            "movement": "Self-winding UN-230",
+            "waterResistance": "50 m"
+          },
+          "sourceUrl": "https://www.ulysse-nardin.com/ja-jp/watches/freak/2303-270-03"
+        },
+        "catalogMatch": "Selected full manufacturer reference and configuration match exact canonical identity. Generic Freak family aliases map only to the pictured full reference; routes unchanged.",
+        "availabilityNote": "Manufacturer list benchmark; availability must be confirmed separately."
+      }
+    },
+    {
+      "brand": "Ulysse Nardin",
+      "reference": "Freak ONE",
+      "manufacturerReference": "2405-500-2A/3A",
+      "configuration": "Black movement display / 44 mm titanium and 18 ct gold / black rubber strap / UN-240",
+      "amount": 84900,
+      "currency": "USD",
+      "market": "United States",
+      "taxBasis": "unconfirmed",
+      "basis": "current-list",
+      "checkedAt": "2026-10-28",
+      "effectiveDate": null,
+      "sourceUrl": "https://www.ulysse-nardin.com/en-us/watches/freak/2405-500-2a-3a",
+      "sourceName": "Ulysse Nardin United States",
+      "sourceType": "manufacturer",
+      "catalogPath": "/collections/ulysse-nardin/freak/freak-one",
+      "evidence": {
+        "priceData": {
+          "price": 84900,
+          "priceCurrency": "USD"
+        },
+        "currencyBasis": "Official US manufacturer product page's selected Product/Offer schema explicitly carries priceCurrency USD and exact selected product price.",
+        "taxStatement": "No explicit selected-price tax treatment observed; retain unconfirmed.",
+        "catalogManifest": {
+          "file": "src/data/photography-cleared-sprint.ts",
+          "reference": "Freak ONE",
+          "exactReference": "2405-500-2A/3A",
+          "configuration": {
+            "dial": "Black movement display; no conventional dial",
+            "bracelet": "Black rubber strap",
+            "caseSize": "44 mm",
+            "movement": "Self-winding UN-240",
+            "waterResistance": "30 m"
+          },
+          "sourceUrl": "https://www.ulysse-nardin.com/en-gr/watches/freak/2405-500-2a-3a"
+        },
+        "catalogMatch": "Selected full manufacturer reference and configuration match exact canonical identity. Generic Freak family aliases map only to the pictured full reference; routes unchanged.",
+        "availabilityNote": "Manufacturer list benchmark; availability must be confirmed separately."
+      }
+    },
+    {
+      "brand": "Ulysse Nardin",
+      "reference": "2405-500-2A/3A",
+      "manufacturerReference": "2405-500-2A/3A",
+      "configuration": "Black movement display / 44 mm titanium and 18 ct gold / black rubber strap / UN-240",
+      "amount": 84900,
+      "currency": "USD",
+      "market": "United States",
+      "taxBasis": "unconfirmed",
+      "basis": "current-list",
+      "checkedAt": "2026-10-28",
+      "effectiveDate": null,
+      "sourceUrl": "https://www.ulysse-nardin.com/en-us/watches/freak/2405-500-2a-3a",
+      "sourceName": "Ulysse Nardin United States",
+      "sourceType": "manufacturer",
+      "catalogPath": "/collections/ulysse-nardin/freak/2405-500-2a-3a",
+      "evidence": {
+        "priceData": {
+          "price": 84900,
+          "priceCurrency": "USD"
+        },
+        "currencyBasis": "Official US manufacturer product page's selected Product/Offer schema explicitly carries priceCurrency USD and exact selected product price.",
+        "taxStatement": "No explicit selected-price tax treatment observed; retain unconfirmed.",
+        "catalogManifest": {
+          "file": "src/data/photography-cleared-sprint.ts",
+          "reference": "Freak ONE",
+          "exactReference": "2405-500-2A/3A",
+          "configuration": {
+            "dial": "Black movement display; no conventional dial",
+            "bracelet": "Black rubber strap",
+            "caseSize": "44 mm",
+            "movement": "Self-winding UN-240",
+            "waterResistance": "30 m"
+          },
+          "sourceUrl": "https://www.ulysse-nardin.com/en-gr/watches/freak/2405-500-2a-3a"
+        },
+        "catalogMatch": "Selected full manufacturer reference and configuration match exact canonical identity. Generic Freak family aliases map only to the pictured full reference; routes unchanged.",
+        "availabilityNote": "Manufacturer list benchmark; availability must be confirmed separately."
+      }
+    },
+    {
+      "brand": "Zenith",
+      "reference": "95.9100.9004/01.I001",
+      "manufacturerReference": "95.9100.9004/01.I001",
+      "configuration": "Openworked sapphire dial / 45 mm titanium / titanium bracelet / El Primero 21",
+      "amount": 20100,
+      "currency": "USD",
+      "market": "United States",
+      "taxBasis": "unconfirmed",
+      "basis": "current-list",
+      "checkedAt": "2026-10-28",
+      "effectiveDate": null,
+      "sourceUrl": "https://www.zenith-watches.com/en_us/product/defy-extreme-95-9100-9004-01-i001",
+      "sourceName": "Zenith United States",
+      "sourceType": "manufacturer",
+      "catalogPath": "/collections/zenith/defy-extreme/95-9100-9004-01-i001",
+      "evidence": {
+        "priceData": {
+          "price": 20100,
+          "priceCurrency": "USD"
+        },
+        "currencyBasis": "Official US manufacturer product page's selected Product/Offer schema explicitly carries priceCurrency USD and exact selected product price.",
+        "taxStatement": "No explicit selected-price tax treatment observed; retain unconfirmed.",
+        "catalogManifest": {
+          "file": "src/data/photography-cleared-sprint.ts",
+          "reference": "95.9100.9004/01.I001",
+          "exactReference": "95.9100.9004/01.I001",
+          "configuration": {
+            "caseSize": "45 mm",
+            "movement": "El Primero 21 automatic 1/100th-second chronograph",
+            "dial": "Openworked sapphire with blue movement",
+            "bracelet": "Titanium bracelet"
+          },
+          "sourceUrl": "https://www.zenith-watches.com/en_us/product/defy-extreme-95-9100-9004-01-i001"
+        },
+        "catalogMatch": "Selected full manufacturer reference and configuration match exact canonical identity. Generic Freak family aliases map only to the pictured full reference; routes unchanged.",
+        "availabilityNote": "Manufacturer selected-product schema marks out of stock; list benchmark does not promise availability."
+      }
+    },
+    {
+      "brand": "Zenith",
+      "reference": "03.3100.3600/69.M3100",
+      "manufacturerReference": "03.3100.3600/69.M3100",
+      "configuration": "White tricolor dial / 41 mm steel / black ceramic bezel / steel bracelet / El Primero 3600",
+      "amount": 12300,
+      "currency": "USD",
+      "market": "United States",
+      "taxBasis": "unconfirmed",
+      "basis": "current-list",
+      "checkedAt": "2026-10-28",
+      "effectiveDate": null,
+      "sourceUrl": "https://www.zenith-watches.com/en_us/product/chronomaster-sport-03-3100-3600-69-m3100",
+      "sourceName": "Zenith United States",
+      "sourceType": "manufacturer",
+      "catalogPath": "/collections/zenith/chronomaster-sport/03-3100-3600-69-m3100",
+      "evidence": {
+        "priceData": {
+          "price": 12300,
+          "priceCurrency": "USD"
+        },
+        "currencyBasis": "Official US manufacturer product page's selected Product/Offer schema explicitly carries priceCurrency USD and exact selected product price.",
+        "taxStatement": "No explicit selected-price tax treatment observed; retain unconfirmed.",
+        "catalogManifest": {
+          "file": "src/data/photography-cleared-sprint.ts",
+          "reference": "03-3100-3600-69-M3100",
+          "exactReference": "03.3100.3600/69.M3100",
+          "configuration": {
+            "dial": "White with grey, anthracite and blue counters",
+            "bracelet": "Stainless-steel bracelet",
+            "caseSize": "41 mm"
+          },
+          "sourceUrl": "https://www.zenith-watches.com/es_es/product/chronomaster-sport-03-3100-3600-69-m3100"
+        },
+        "catalogMatch": "Selected full manufacturer reference and configuration match exact canonical identity. Generic Freak family aliases map only to the pictured full reference; routes unchanged.",
+        "availabilityNote": "Manufacturer list benchmark; availability must be confirmed separately."
+      }
+    },
+    {
+      "brand": "Zenith",
+      "reference": "03.9300.3620/51.I001",
+      "manufacturerReference": "03.9300.3620/51.I001",
+      "configuration": "Blue star-patterned dial / 41 mm steel / steel bracelet plus blue rubber strap / El Primero 3620",
+      "amount": 10000,
+      "currency": "USD",
+      "market": "United States",
+      "taxBasis": "unconfirmed",
+      "basis": "current-list",
+      "checkedAt": "2026-10-28",
+      "effectiveDate": null,
+      "sourceUrl": "https://www.zenith-watches.com/en_us/product/defy-skyline-03-9300-3620-51-i001",
+      "sourceName": "Zenith United States",
+      "sourceType": "manufacturer",
+      "catalogPath": "/collections/zenith/defy-skyline/03-9300-3620-51-i001",
+      "evidence": {
+        "priceData": {
+          "price": 10000,
+          "priceCurrency": "USD"
+        },
+        "currencyBasis": "Official US manufacturer product page's selected Product/Offer schema explicitly carries priceCurrency USD and exact selected product price.",
+        "taxStatement": "No explicit selected-price tax treatment observed; retain unconfirmed.",
+        "catalogManifest": {
+          "file": "src/data/photography-cleared-sprint.ts",
+          "reference": "03.9300.3620/51.I001",
+          "exactReference": "03.9300.3620/51.I001",
+          "configuration": {
+            "caseSize": "41 mm",
+            "movement": "El Primero 3620 automatic",
+            "dial": "Blue",
+            "bracelet": "Stainless-steel bracelet"
+          },
+          "sourceUrl": "https://www.the1916company.com/watches/zenith/defy/defy-039300362051i001/"
+        },
+        "catalogMatch": "Selected full manufacturer reference and configuration match exact canonical identity. Generic Freak family aliases map only to the pictured full reference; routes unchanged.",
+        "availabilityNote": "Manufacturer list benchmark; availability must be confirmed separately."
+      }
+    },
+    {
+      "brand": "Zenith",
+      "reference": "03.9300.3620/79.I001",
+      "manufacturerReference": "03.9300.3620/79.I001",
+      "configuration": "Blue skeleton dial / 41 mm steel / steel bracelet plus blue rubber strap / El Primero 3620 SK",
+      "amount": 12300,
+      "currency": "USD",
+      "market": "United States",
+      "taxBasis": "unconfirmed",
+      "basis": "current-list",
+      "checkedAt": "2026-10-28",
+      "effectiveDate": null,
+      "sourceUrl": "https://www.zenith-watches.com/en_us/product/defy-skyline-03-9300-3620-79-i001",
+      "sourceName": "Zenith United States",
+      "sourceType": "manufacturer",
+      "catalogPath": "/collections/zenith/defy-skyline/03-9300-3620-79-i001",
+      "evidence": {
+        "priceData": {
+          "price": 12300,
+          "priceCurrency": "USD"
+        },
+        "currencyBasis": "Official US manufacturer product page's selected Product/Offer schema explicitly carries priceCurrency USD and exact selected product price.",
+        "taxStatement": "No explicit selected-price tax treatment observed; retain unconfirmed.",
+        "catalogManifest": {
+          "file": "src/data/photography-cleared-sprint.ts",
+          "reference": "03.9300.3620/79.I001",
+          "exactReference": "03.9300.3620/79.I001",
+          "configuration": {
+            "caseSize": "41 mm",
+            "movement": "El Primero 3620 SK automatic",
+            "dial": "Blue skeleton",
+            "bracelet": "Stainless-steel bracelet"
+          },
+          "sourceUrl": "https://www.the1916company.com/watches/zenith/defy/039300362079i001/"
+        },
+        "catalogMatch": "Selected full manufacturer reference and configuration match exact canonical identity. Generic Freak family aliases map only to the pictured full reference; routes unchanged.",
+        "availabilityNote": "Manufacturer list benchmark; availability must be confirmed separately."
+      }
+    },
+    {
+      "brand": "Zenith",
+      "reference": "03.9300.3620/15.I001",
+      "manufacturerReference": "03.9300.3620/15.I001",
+      "configuration": "Ice blue star-patterned dial / 41 mm steel / steel bracelet plus ice blue rubber strap / El Primero 3620",
+      "amount": 10000,
+      "currency": "USD",
+      "market": "United States",
+      "taxBasis": "unconfirmed",
+      "basis": "current-list",
+      "checkedAt": "2026-10-28",
+      "effectiveDate": null,
+      "sourceUrl": "https://www.zenith-watches.com/en_us/product/defy-skyline-03-9300-3620-15-i001",
+      "sourceName": "Zenith United States",
+      "sourceType": "manufacturer",
+      "catalogPath": "/collections/zenith/defy-skyline/03-9300-3620-15-i001",
+      "evidence": {
+        "priceData": {
+          "price": 10000,
+          "priceCurrency": "USD"
+        },
+        "currencyBasis": "Official US manufacturer product page's selected Product/Offer schema explicitly carries priceCurrency USD and exact selected product price.",
+        "taxStatement": "No explicit selected-price tax treatment observed; retain unconfirmed.",
+        "catalogManifest": {
+          "file": "src/data/photography-cleared-sprint.ts",
+          "reference": "03.9300.3620/15.I001",
+          "exactReference": "03.9300.3620/15.I001",
+          "configuration": {
+            "caseSize": "41 mm",
+            "movement": "El Primero 3620 automatic",
+            "dial": "Ice Blue",
+            "bracelet": "Stainless-steel bracelet"
+          },
+          "sourceUrl": "https://www.jw-oomiya.co.jp/products/03-9300-3620-15-i001"
+        },
+        "catalogMatch": "Selected full manufacturer reference and configuration match exact canonical identity. Generic Freak family aliases map only to the pictured full reference; routes unchanged.",
+        "availabilityNote": "Manufacturer selected-product schema marks out of stock; list benchmark does not promise availability."
+      }
+    },
+    {
+      "brand": "Jaeger-LeCoultre",
+      "reference": "Q4018421",
+      "manufacturerReference": "Q4018421",
+      "configuration": "Silvered gray sunray dial / 40 mm steel / interchangeable strap / automatic caliber 899",
+      "amount": 10500,
+      "currency": "USD",
+      "market": "United States",
+      "taxBasis": "excluded",
+      "basis": "current-list",
+      "checkedAt": "2026-10-28",
+      "effectiveDate": null,
+      "sourceUrl": "https://www.jaeger-lecoultre.com/us-en/watches/master-control/master-control-date-stainless-steel-q4018421",
+      "sourceName": "Jaeger-LeCoultre United States",
+      "sourceType": "manufacturer",
+      "catalogPath": "/collections/jaeger-lecoultre/master-control/q4018421",
+      "evidence": {
+        "priceData": {
+          "price": 10500,
+          "priceCurrency": "USD"
+        },
+        "currencyBasis": "Official US manufacturer product page's selected Product/Offer schema explicitly carries priceCurrency USD and exact selected product price.",
+        "taxStatement": "Price excluding taxes",
+        "catalogManifest": {
+          "file": "src/data/launch-catalog.ts",
+          "line": 157,
+          "reference": "Q4018421",
+          "configuration": "40 mm / caliber899 / silvered gray sunray / light-brown calfskin strap / steel",
+          "sourceUrl": "https://www.jaeger-lecoultre.com/us-en/watches/master-control/master-control-date-stainless-steel-q4018421"
+        },
+        "catalogMatch": "Selected full manufacturer reference and configuration match exact canonical identity. Generic Freak family aliases map only to the pictured full reference; routes unchanged.",
+        "availabilityNote": "Manufacturer list benchmark; availability must be confirmed separately."
+      }
+    },
+    {
+      "brand": "Bell & Ross",
+      "reference": "BR0392-BL-CE",
+      "manufacturerReference": "BR0392-BL-CE",
+      "configuration": "Black dial / 42 mm matte black ceramic / black rubber and black synthetic fabric straps / BR-CAL.302",
+      "amount": 4000,
+      "currency": "USD",
+      "market": "United States",
+      "taxBasis": "unconfirmed",
+      "basis": "current-list",
+      "checkedAt": "2026-10-28",
+      "effectiveDate": null,
+      "sourceUrl": "https://bellross.com/en-us/products/br-03-92-black-matte",
+      "sourceName": "Bell & Ross United States",
+      "sourceType": "manufacturer",
+      "catalogPath": "/collections/bell-and-ross/br-03/br0392-bl-ce",
+      "evidence": {
+        "priceData": {
+          "price": 4000,
+          "priceCurrency": "USD"
+        },
+        "currencyBasis": "Manufacturer US storefront selected exact product variants explicitly carry amount 4000 and currencyCode USD; rendered country United States.",
+        "taxStatement": "No explicit selected-price tax treatment observed; retain unconfirmed.",
+        "catalogManifest": {
+          "file": "src/data/photography-cleared-sprint.ts",
+          "reference": "BR0392-BL-CE",
+          "exactReference": "BR0392-BL-CE",
+          "configuration": {
+            "dial": "Black with luminous numerals, indexes and hands",
+            "bracelet": "Black rubber",
+            "caseSize": "42 mm",
+            "movement": "Automatic BR-CAL.302",
+            "waterResistance": "100 m"
+          },
+          "sourceUrl": "https://bellross.com/en-us/products/br-03-92-black-matte"
+        },
+        "catalogMatch": "Selected full manufacturer reference and configuration match exact canonical identity. Generic Freak family aliases map only to the pictured full reference; routes unchanged.",
+        "availabilityNote": "Exact old 42 mm model page says unavailable; $4,000 regular list differs from recommended newer 41 mm BR03 at $4,300. No successor substitution."
+      }
+    },
+    {
+      "brand": "Blancpain",
+      "reference": "5015-1130-52A",
+      "manufacturerReference": "5015-1130-52A",
+      "configuration": "Black dial / 45 mm steel / black sail-canvas strap / classic pin buckle / automatic 1315",
+      "amount": 19100,
+      "currency": "USD",
+      "market": "United States",
+      "taxBasis": "unconfirmed",
+      "basis": "current-list",
+      "checkedAt": "2026-10-28",
+      "effectiveDate": null,
+      "sourceUrl": "https://www.blancpain.com/en-us/fifty-fathoms/fifty-fathoms-automatique-5015-1130-52a",
+      "sourceName": "Blancpain United States",
+      "sourceType": "manufacturer",
+      "catalogPath": "/collections/blancpain/fifty-fathoms/5015-1130-52a",
+      "evidence": {
+        "priceData": {
+          "price": 19100,
+          "priceCurrency": "USD"
+        },
+        "currencyBasis": "Official US manufacturer product page's selected Product/Offer schema explicitly carries priceCurrency USD and exact selected product price.",
+        "taxStatement": "No explicit selected-price tax treatment observed; retain unconfirmed.",
+        "catalogManifest": null,
+        "catalogMatch": "Selected full manufacturer reference and configuration match exact canonical identity. Generic Freak family aliases map only to the pictured full reference; routes unchanged.",
+        "availabilityNote": "Manufacturer states price may vary by pin buckle versus folding clasp. This selected 5015-1130-52A configuration is described with classic pin buckle; do not generalize to folding clasp 52B."
+      }
+    },
+    {
+      "brand": "Ulysse Nardin",
+      "reference": "2303-270.1/BLACK",
+      "manufacturerReference": "2303-270.1/BLACK",
+      "configuration": "Black movement display / 43 mm titanium with black PVD / black openwork calf leather strap / UN-230",
+      "amount": 32100,
+      "currency": "USD",
+      "market": "United States",
+      "taxBasis": "unconfirmed",
+      "basis": "current-list",
+      "checkedAt": "2026-10-28",
+      "effectiveDate": null,
+      "sourceUrl": "https://www.ulysse-nardin.com/en-us/watches/freak/2303-270-1-black",
+      "sourceName": "Ulysse Nardin United States",
+      "sourceType": "manufacturer",
+      "catalogPath": "/collections/ulysse-nardin/freak/2303-270-1-black",
+      "evidence": {
+        "priceLabel": "$32,100",
+        "priceData": {
+          "price": 32100,
+          "priceCurrency": "USD"
+        },
+        "currencyBasis": "Exact selected product US manufacturer page Product/Offer schema supplies USD.",
+        "taxStatement": "No explicit selected-price tax treatment observed; retain unconfirmed.",
+        "catalogManifest": {
+          "file": "src/data/photography-expansion.ts",
+          "reference": "2303-270.1/BLACK",
+          "exactReference": "2303-270.1/BLACK",
+          "configuration": {
+            "dial": "Black movement display (no conventional dial)",
+            "bracelet": "Black openwork calf leather strap",
+            "caseSize": "43 mm",
+            "movement": "UN-230 self-winding",
+            "waterResistance": "50 m"
+          },
+          "sourceUrl": "https://www.ulysse-nardin.com/watches/freak/2303-270-1-black"
+        },
+        "catalogMatch": "Exact pictured full reference, case, diameter and strap/bracelet match selected manufacturer identity. No related model substitution.",
+        "availabilityNote": "Numeric list price present even where page offers contact boutique; availability must be checked separately."
+      }
+    },
+    {
+      "brand": "Ulysse Nardin",
+      "reference": "1183-310/40",
+      "manufacturerReference": "1183-310/40",
+      "configuration": "White Roman dial / 42 mm steel / black alligator strap / UN-118",
+      "amount": 11800,
+      "currency": "USD",
+      "market": "United States",
+      "taxBasis": "unconfirmed",
+      "basis": "current-list",
+      "checkedAt": "2026-10-28",
+      "effectiveDate": null,
+      "sourceUrl": "https://www.ulysse-nardin.com/en-us/watches/marine/1183-310-40",
+      "sourceName": "Ulysse Nardin United States",
+      "sourceType": "manufacturer",
+      "catalogPath": "/collections/ulysse-nardin/marine/1183-310-40",
+      "evidence": {
+        "priceLabel": "$11,800",
+        "priceData": {
+          "price": 11800,
+          "priceCurrency": "USD"
+        },
+        "currencyBasis": "Exact selected product US manufacturer page Product/Offer schema supplies USD.",
+        "taxStatement": "No explicit selected-price tax treatment observed; retain unconfirmed.",
+        "catalogManifest": {
+          "file": "src/data/photography-expansion.ts",
+          "reference": "1183-310/40",
+          "exactReference": "1183-310/40",
+          "configuration": {
+            "dial": "White lacquered, Roman numerals",
+            "bracelet": "Black alligator strap",
+            "caseSize": "42 mm",
+            "movement": "UN-118 self-winding",
+            "waterResistance": "50 m"
+          },
+          "sourceUrl": "https://www.ulysse-nardin.com/en-us/watches/marine/1183-310-40"
+        },
+        "catalogMatch": "Exact pictured full reference, case, diameter and strap/bracelet match selected manufacturer identity. No related model substitution.",
+        "availabilityNote": "Numeric list price present even where page offers contact boutique; availability must be checked separately."
+      }
+    },
+    {
+      "brand": "Ulysse Nardin",
+      "reference": "1183-310-3A/0A",
+      "manufacturerReference": "1183-310-3A/0A",
+      "configuration": "Blue Roman dial / 42 mm steel / blue fabric strap / UN-118",
+      "amount": 11800,
+      "currency": "USD",
+      "market": "United States",
+      "taxBasis": "unconfirmed",
+      "basis": "current-list",
+      "checkedAt": "2026-10-28",
+      "effectiveDate": null,
+      "sourceUrl": "https://www.ulysse-nardin.com/en-us/watches/marine/1183-310-3a-0a",
+      "sourceName": "Ulysse Nardin United States",
+      "sourceType": "manufacturer",
+      "catalogPath": "/collections/ulysse-nardin/marine/1183-310-3a-0a",
+      "evidence": {
+        "priceLabel": "$11,800",
+        "priceData": {
+          "price": 11800,
+          "priceCurrency": "USD"
+        },
+        "currencyBasis": "Exact selected product US manufacturer page Product/Offer schema supplies USD.",
+        "taxStatement": "No explicit selected-price tax treatment observed; retain unconfirmed.",
+        "catalogManifest": {
+          "file": "src/data/photography-expansion.ts",
+          "reference": "1183-310-3A/0A",
+          "exactReference": "1183-310-3A/0A",
+          "configuration": {
+            "dial": "Blue, Roman numerals",
+            "bracelet": "Blue fabric strap",
+            "caseSize": "42 mm",
+            "movement": "UN-118 self-winding",
+            "waterResistance": "50 m"
+          },
+          "sourceUrl": "https://www.ulysse-nardin.com/en-us/watches/marine/1183-310-3a-0a"
+        },
+        "catalogMatch": "Exact pictured full reference, case, diameter and strap/bracelet match selected manufacturer identity. No related model substitution.",
+        "availabilityNote": "Numeric list price present even where page offers contact boutique; availability must be checked separately."
+      }
+    },
+    {
+      "brand": "Ulysse Nardin",
+      "reference": "1183-310-3/40",
+      "manufacturerReference": "1183-310-3/40",
+      "configuration": "White Roman dial / 42 mm steel / black rubber and titanium strap / UN-118",
+      "amount": 11800,
+      "currency": "USD",
+      "market": "United States",
+      "taxBasis": "unconfirmed",
+      "basis": "current-list",
+      "checkedAt": "2026-10-28",
+      "effectiveDate": null,
+      "sourceUrl": "https://www.ulysse-nardin.com/en-us/watches/marine/1183-310-3-40",
+      "sourceName": "Ulysse Nardin United States",
+      "sourceType": "manufacturer",
+      "catalogPath": "/collections/ulysse-nardin/marine/1183-310-3-40",
+      "evidence": {
+        "priceLabel": "$11,800",
+        "priceData": {
+          "price": 11800,
+          "priceCurrency": "USD"
+        },
+        "currencyBasis": "Exact selected product US manufacturer page Product/Offer schema supplies USD.",
+        "taxStatement": "No explicit selected-price tax treatment observed; retain unconfirmed.",
+        "catalogManifest": {
+          "file": "src/data/photography-expansion.ts",
+          "reference": "1183-310-3/40",
+          "exactReference": "1183-310-3/40",
+          "configuration": {
+            "dial": "White lacquered, Roman numerals",
+            "bracelet": "Black rubber / titanium strap",
+            "caseSize": "42 mm",
+            "movement": "UN-118 self-winding",
+            "waterResistance": "50 m"
+          },
+          "sourceUrl": "https://www.ulysse-nardin.com/en-us/watches/marine/1183-310-3-40"
+        },
+        "catalogMatch": "Exact pictured full reference, case, diameter and strap/bracelet match selected manufacturer identity. No related model substitution.",
+        "availabilityNote": "Numeric list price present even where page offers contact boutique; availability must be checked separately."
+      }
+    },
+    {
+      "brand": "Ulysse Nardin",
+      "reference": "1183-170-7M/92",
+      "manufacturerReference": "1183-170-7M/92",
+      "configuration": "Black dial / 44 mm titanium / titanium bracelet / UN-118",
+      "amount": 13400,
+      "currency": "USD",
+      "market": "United States",
+      "taxBasis": "unconfirmed",
+      "basis": "current-list",
+      "checkedAt": "2026-10-28",
+      "effectiveDate": null,
+      "sourceUrl": "https://www.ulysse-nardin.com/en-us/watches/diver/1183-170-7m-92",
+      "sourceName": "Ulysse Nardin United States",
+      "sourceType": "manufacturer",
+      "catalogPath": "/collections/ulysse-nardin/diver/1183-170-7m-92",
+      "evidence": {
+        "priceLabel": "$13,400",
+        "priceData": {
+          "price": 13400,
+          "priceCurrency": "USD"
+        },
+        "currencyBasis": "Exact selected product US manufacturer page Product/Offer schema supplies USD.",
+        "taxStatement": "No explicit selected-price tax treatment observed; retain unconfirmed.",
+        "catalogManifest": {
+          "file": "src/data/photography-expansion.ts",
+          "reference": "1183-170-7M/92",
+          "exactReference": "1183-170-7M/92",
+          "configuration": {
+            "dial": "Black",
+            "bracelet": "Titanium bracelet",
+            "caseSize": "44 mm",
+            "movement": "UN-118 self-winding",
+            "waterResistance": "300 m"
+          },
+          "sourceUrl": "https://www.ulysse-nardin.com/en-sg/watches/diver/1183-170-7m-92"
+        },
+        "catalogMatch": "Exact pictured full reference, case, diameter and strap/bracelet match selected manufacturer identity. No related model substitution.",
+        "availabilityNote": "Numeric list price present even where page offers contact boutique; availability must be checked separately."
+      }
+    },
+    {
+      "brand": "Ulysse Nardin",
+      "reference": "1183-170-3/93",
+      "manufacturerReference": "1183-170-3/93",
+      "configuration": "Blue dial / 44 mm titanium / blue rubber and titanium strap / UN-118",
+      "amount": 12400,
+      "currency": "USD",
+      "market": "United States",
+      "taxBasis": "unconfirmed",
+      "basis": "current-list",
+      "checkedAt": "2026-10-28",
+      "effectiveDate": null,
+      "sourceUrl": "https://www.ulysse-nardin.com/en-us/watches/diver/1183-170-3-93",
+      "sourceName": "Ulysse Nardin United States",
+      "sourceType": "manufacturer",
+      "catalogPath": "/collections/ulysse-nardin/diver/1183-170-3-93",
+      "evidence": {
+        "priceLabel": "$12,400",
+        "priceData": {
+          "price": 12400,
+          "priceCurrency": "USD"
+        },
+        "currencyBasis": "Exact selected product US manufacturer page Product/Offer schema supplies USD.",
+        "taxStatement": "No explicit selected-price tax treatment observed; retain unconfirmed.",
+        "catalogManifest": {
+          "file": "src/data/photography-expansion.ts",
+          "reference": "1183-170-3/93",
+          "exactReference": "1183-170-3/93",
+          "configuration": {
+            "dial": "Blue",
+            "bracelet": "Blue rubber / titanium strap",
+            "caseSize": "44 mm",
+            "movement": "UN-118 self-winding",
+            "waterResistance": "300 m"
+          },
+          "sourceUrl": "https://www.ulysse-nardin.com/en-us/watches/diver/1183-170-3-93"
+        },
+        "catalogMatch": "Exact pictured full reference, case, diameter and strap/bracelet match selected manufacturer identity. No related model substitution.",
+        "availabilityNote": "Numeric list price present even where page offers contact boutique; availability must be checked separately."
+      }
+    },
+    {
+      "brand": "Ulysse Nardin",
+      "reference": "1183-170-3/92",
+      "manufacturerReference": "1183-170-3/92",
+      "configuration": "Black dial / 44 mm titanium / black rubber and titanium strap / UN-118",
+      "amount": 12400,
+      "currency": "USD",
+      "market": "United States",
+      "taxBasis": "unconfirmed",
+      "basis": "current-list",
+      "checkedAt": "2026-10-28",
+      "effectiveDate": null,
+      "sourceUrl": "https://www.ulysse-nardin.com/en-us/watches/diver/1183-170-3-92",
+      "sourceName": "Ulysse Nardin United States",
+      "sourceType": "manufacturer",
+      "catalogPath": "/collections/ulysse-nardin/diver/1183-170-3-92",
+      "evidence": {
+        "priceLabel": "$12,400",
+        "priceData": {
+          "price": 12400,
+          "priceCurrency": "USD"
+        },
+        "currencyBasis": "Exact selected product US manufacturer page Product/Offer schema supplies USD.",
+        "taxStatement": "No explicit selected-price tax treatment observed; retain unconfirmed.",
+        "catalogManifest": {
+          "file": "src/data/photography-expansion.ts",
+          "reference": "1183-170-3/92",
+          "exactReference": "1183-170-3/92",
+          "configuration": {
+            "dial": "Black",
+            "bracelet": "Black rubber / titanium strap",
+            "caseSize": "44 mm",
+            "movement": "UN-118 self-winding",
+            "waterResistance": "300 m"
+          },
+          "sourceUrl": "https://www.ulysse-nardin.com/en-gb/watches/diver/1183-170-3-92"
+        },
+        "catalogMatch": "Exact pictured full reference, case, diameter and strap/bracelet match selected manufacturer identity. No related model substitution.",
+        "availabilityNote": "Numeric list price present even where page offers contact boutique; availability must be checked separately."
+      }
+    },
+    {
+      "brand": "Ulysse Nardin",
+      "reference": "3713-260-3/03",
+      "manufacturerReference": "3713-260-3/03",
+      "configuration": "Blue skeleton display / 42 mm titanium / blue rubber strap / manual UN-371",
+      "amount": 27900,
+      "currency": "USD",
+      "market": "United States",
+      "taxBasis": "unconfirmed",
+      "basis": "current-list",
+      "checkedAt": "2026-10-28",
+      "effectiveDate": null,
+      "sourceUrl": "https://www.ulysse-nardin.com/en-us/watches/blast/3713-260-3-03",
+      "sourceName": "Ulysse Nardin United States",
+      "sourceType": "manufacturer",
+      "catalogPath": "/collections/ulysse-nardin/blast/3713-260-3-03",
+      "evidence": {
+        "priceLabel": "$27,900",
+        "priceData": {
+          "price": 27900,
+          "priceCurrency": "USD"
+        },
+        "currencyBasis": "Exact selected product US manufacturer page Product/Offer schema supplies USD.",
+        "taxStatement": "No explicit selected-price tax treatment observed; retain unconfirmed.",
+        "catalogManifest": {
+          "file": "src/data/photography-expansion.ts",
+          "reference": "3713-260-3/03",
+          "exactReference": "3713-260-3/03",
+          "configuration": {
+            "dial": "Skeletonized movement display",
+            "bracelet": "Blue rubber strap",
+            "caseSize": "42 mm",
+            "movement": "UN-371 manual-winding",
+            "waterResistance": "50 m"
+          },
+          "sourceUrl": "https://www.ulysse-nardin.com/watches/blast/3713-260-3-03"
+        },
+        "catalogMatch": "Exact pictured full reference, case, diameter and strap/bracelet match selected manufacturer identity. No related model substitution.",
+        "availabilityNote": "Numeric list price present even where page offers contact boutique; availability must be checked separately."
+      }
+    },
+    {
+      "brand": "Ulysse Nardin",
+      "reference": "Blast",
+      "manufacturerReference": "3713-260-3/03",
+      "configuration": "Blue skeleton display / 42 mm titanium / blue rubber strap / manual UN-371",
+      "amount": 27900,
+      "currency": "USD",
+      "market": "United States",
+      "taxBasis": "unconfirmed",
+      "basis": "current-list",
+      "checkedAt": "2026-10-28",
+      "effectiveDate": null,
+      "sourceUrl": "https://www.ulysse-nardin.com/en-us/watches/blast/3713-260-3-03",
+      "sourceName": "Ulysse Nardin United States",
+      "sourceType": "manufacturer",
+      "catalogPath": "/collections/ulysse-nardin/blast/blast",
+      "evidence": {
+        "priceLabel": "$27,900",
+        "priceData": {
+          "price": 27900,
+          "priceCurrency": "USD"
+        },
+        "currencyBasis": "Exact selected product US manufacturer page Product/Offer schema supplies USD.",
+        "taxStatement": "No explicit selected-price tax treatment observed; retain unconfirmed.",
+        "catalogManifest": {
+          "file": "src/data/photography-cleared-sprint.ts",
+          "reference": "Blast",
+          "exactReference": "3713-260-3/03",
+          "configuration": {
+            "dial": "Blue skeleton display",
+            "bracelet": "Blue rubber strap",
+            "caseSize": "42 mm",
+            "movement": "Manual-winding UN-371",
+            "waterResistance": "50 m"
+          },
+          "sourceUrl": "https://www.ulysse-nardin.com/en-us/watches/blast/3713-260-3-03"
+        },
+        "catalogMatch": "Generic Blast manifest explicitly maps to the same pictured 3713-260-3/03; canonical alias retained.",
+        "availabilityNote": "Numeric list price present even where page offers contact boutique; availability must be checked separately."
+      }
+    },
+    {
+      "brand": "Ulysse Nardin",
+      "reference": "Marine Torpilleur",
+      "manufacturerReference": "1183-310-0A/0A",
+      "configuration": "White Roman dial / 42 mm steel / black fabric strap / UN-118",
+      "amount": 11800,
+      "currency": "USD",
+      "market": "United States",
+      "taxBasis": "unconfirmed",
+      "basis": "current-list",
+      "checkedAt": "2026-10-28",
+      "effectiveDate": null,
+      "sourceUrl": "https://www.ulysse-nardin.com/en-us/watches/marine/1183-310-0a-0a",
+      "sourceName": "Ulysse Nardin United States",
+      "sourceType": "manufacturer",
+      "catalogPath": "/collections/ulysse-nardin/marine/marine-torpilleur",
+      "evidence": {
+        "priceLabel": "$11,800",
+        "priceData": {
+          "price": 11800,
+          "priceCurrency": "USD"
+        },
+        "currencyBasis": "Exact selected product US manufacturer page Product/Offer schema supplies USD.",
+        "taxStatement": "No explicit selected-price tax treatment observed; retain unconfirmed.",
+        "catalogManifest": {
+          "file": "src/data/photography-cleared-sprint.ts",
+          "reference": "Marine Torpilleur",
+          "exactReference": "1183-310-0A/0A",
+          "configuration": {
+            "dial": "White lacquered, Roman numerals",
+            "bracelet": "Black fabric strap",
+            "caseSize": "42 mm",
+            "movement": "Self-winding UN-118",
+            "waterResistance": "50 m"
+          },
+          "sourceUrl": "https://www.ulysse-nardin.com/en-gb/watches/marine/1183-310-0a-0a"
+        },
+        "catalogMatch": "Exact pictured full reference, case, diameter and strap/bracelet match selected manufacturer identity. No related model substitution.",
+        "availabilityNote": "Numeric list price present even where page offers contact boutique; availability must be checked separately."
+      }
+    },
+    {
+      "brand": "Ulysse Nardin",
+      "reference": "Diver Chronograph",
+      "manufacturerReference": "1503-170LE-2A-TOR/3A",
+      "configuration": "Black dial / 44 mm titanium and black DLC / black rubber and ceramic strap / Ocean Race chronograph",
+      "amount": 18900,
+      "currency": "USD",
+      "market": "United States",
+      "taxBasis": "unconfirmed",
+      "basis": "current-list",
+      "checkedAt": "2026-10-28",
+      "effectiveDate": null,
+      "sourceUrl": "https://www.ulysse-nardin.com/en-us/watches/diver/1503-170le-2a-tor-3a",
+      "sourceName": "Ulysse Nardin United States",
+      "sourceType": "manufacturer",
+      "catalogPath": "/collections/ulysse-nardin/diver/diver-chronograph",
+      "evidence": {
+        "priceLabel": "$18,900",
+        "priceData": {
+          "price": 18900,
+          "priceCurrency": "USD"
+        },
+        "currencyBasis": "Exact selected product US manufacturer page Product/Offer schema supplies USD.",
+        "taxStatement": "No explicit selected-price tax treatment observed; retain unconfirmed.",
+        "catalogManifest": {
+          "file": "src/data/photography-cleared-sprint.ts",
+          "reference": "Diver Chronograph",
+          "exactReference": "1503-170LE-2A-TOR/3A",
+          "configuration": {
+            "dial": "Black",
+            "bracelet": "Black RUBBER/CERAMIC STRAP",
+            "caseSize": "Ø 44 mm",
+            "movement": "Self-winding",
+            "waterResistance": "300 m"
+          },
+          "sourceUrl": "https://www.ulysse-nardin.com/watches/diver/1503-170le-2a-tor-3a"
+        },
+        "catalogMatch": "Exact pictured full reference, case, diameter and strap/bracelet match selected manufacturer identity. No related model substitution.",
+        "availabilityNote": "Numeric list price present even where page offers contact boutique; availability must be checked separately."
+      }
+    },
+    {
+      "brand": "Ulysse Nardin",
+      "reference": "Diver X Skeleton",
+      "manufacturerReference": "3723-170-2B/3A",
+      "configuration": "Black skeleton display with azure accents / 44 mm titanium and carbon composite / blue rubber and ceramic strap",
+      "amount": 33000,
+      "currency": "USD",
+      "market": "United States",
+      "taxBasis": "unconfirmed",
+      "basis": "current-list",
+      "checkedAt": "2026-10-28",
+      "effectiveDate": null,
+      "sourceUrl": "https://www.ulysse-nardin.com/en-us/watches/diver/3723-170-2b-3a",
+      "sourceName": "Ulysse Nardin United States",
+      "sourceType": "manufacturer",
+      "catalogPath": "/collections/ulysse-nardin/diver/diver-x-skeleton",
+      "evidence": {
+        "priceLabel": "$33,000",
+        "priceData": {
+          "price": 33000,
+          "priceCurrency": "USD"
+        },
+        "currencyBasis": "Exact selected product US manufacturer page Product/Offer schema supplies USD.",
+        "taxStatement": "No explicit selected-price tax treatment observed; retain unconfirmed.",
+        "catalogManifest": {
+          "file": "src/data/photography-cleared-sprint.ts",
+          "reference": "Diver X Skeleton",
+          "exactReference": "3723-170-2B/3A",
+          "configuration": {
+            "dial": "Black skeletonised display with Azure blue accents (pictured)",
+            "bracelet": "Blue RUBBER/CERAMIC STRAP",
+            "caseSize": "Ø 44 mm",
+            "movement": "Self-winding",
+            "waterResistance": "200 m"
+          },
+          "sourceUrl": "https://www.ulysse-nardin.com/watches/diver/3723-170-2b-3a"
+        },
+        "catalogMatch": "Exact pictured full reference, case, diameter and strap/bracelet match selected manufacturer identity. No related model substitution.",
+        "availabilityNote": "Numeric list price present even where page offers contact boutique; availability must be checked separately."
+      }
+    },
+    {
+      "brand": "Ulysse Nardin",
+      "reference": "Blast Tourbillon",
+      "manufacturerReference": "1725-400-3A/3A",
+      "configuration": "Blue skeleton display / 45 mm titanium and 18 ct gold / blue velvet rubber strap",
+      "amount": 80400,
+      "currency": "USD",
+      "market": "United States",
+      "taxBasis": "unconfirmed",
+      "basis": "current-list",
+      "checkedAt": "2026-10-28",
+      "effectiveDate": null,
+      "sourceUrl": "https://www.ulysse-nardin.com/en-us/watches/blast/1725-400-3a-3a",
+      "sourceName": "Ulysse Nardin United States",
+      "sourceType": "manufacturer",
+      "catalogPath": "/collections/ulysse-nardin/blast/blast-tourbillon",
+      "evidence": {
+        "priceLabel": "$80,400",
+        "priceData": {
+          "price": 80400,
+          "priceCurrency": "USD"
+        },
+        "currencyBasis": "Exact selected product US manufacturer page Product/Offer schema supplies USD.",
+        "taxStatement": "No explicit selected-price tax treatment observed; retain unconfirmed.",
+        "catalogManifest": {
+          "file": "src/data/photography-cleared-sprint.ts",
+          "reference": "Blast Tourbillon",
+          "exactReference": "1725-400-3A/3A",
+          "configuration": {
+            "dial": "Blue",
+            "bracelet": "Blue Velvet rubber strap",
+            "caseSize": "Ø 45 mm",
+            "movement": "Self-winding",
+            "waterResistance": "50 m"
+          },
+          "sourceUrl": "https://www.ulysse-nardin.com/watches/blast/1725-400-3a-3a"
+        },
+        "catalogMatch": "Exact pictured full reference, case, diameter and strap/bracelet match selected manufacturer identity. No related model substitution.",
+        "availabilityNote": "Numeric list price present even where page offers contact boutique; availability must be checked separately."
+      }
+    },
+    {
+      "brand": "Ulysse Nardin",
+      "reference": "Moonstruck",
+      "manufacturerReference": "1063-400-2A/3B",
+      "configuration": "Earth astronomical display / 45 mm titanium and ceramic / black Craters rubber strap",
+      "amount": 107700,
+      "currency": "USD",
+      "market": "United States",
+      "taxBasis": "unconfirmed",
+      "basis": "current-list",
+      "checkedAt": "2026-10-28",
+      "effectiveDate": null,
+      "sourceUrl": "https://www.ulysse-nardin.com/en-us/watches/blast/1063-400-2a-3b",
+      "sourceName": "Ulysse Nardin United States",
+      "sourceType": "manufacturer",
+      "catalogPath": "/collections/ulysse-nardin/moonstruck/moonstruck",
+      "evidence": {
+        "priceLabel": "$107,700",
+        "priceData": {
+          "price": 107700,
+          "priceCurrency": "USD"
+        },
+        "currencyBasis": "Exact selected product US manufacturer page Product/Offer schema supplies USD.",
+        "taxStatement": "No explicit selected-price tax treatment observed; retain unconfirmed.",
+        "catalogManifest": {
+          "file": "src/data/photography-cleared-sprint.ts",
+          "reference": "Moonstruck",
+          "exactReference": "1063-400-2A/3B",
+          "configuration": {
+            "dial": "Earth astronomical display",
+            "bracelet": "Black \"Craters\" rubber strap",
+            "caseSize": "Ø 45 mm",
+            "movement": "Self-winding",
+            "waterResistance": "30 m"
+          },
+          "sourceUrl": "https://www.ulysse-nardin.com/en-eu/watches/blast/1063-400-2a-3b"
+        },
+        "catalogMatch": "Exact pictured full reference, case, diameter and strap/bracelet match selected manufacturer identity. No related model substitution.",
+        "availabilityNote": "Numeric list price present even where page offers contact boutique; availability must be checked separately."
+      }
+    },
+    {
+      "brand": "Ulysse Nardin",
+      "reference": "Executive Dual Time",
+      "manufacturerReference": "243-20-3/43",
+      "configuration": "Blue Roman dial / 42 mm steel / blue rubber strap / UN-24 dual time",
+      "amount": 11900,
+      "currency": "USD",
+      "market": "United States",
+      "taxBasis": "unconfirmed",
+      "basis": "current-list",
+      "checkedAt": "2026-10-28",
+      "effectiveDate": null,
+      "sourceUrl": "https://www.ulysse-nardin.com/en-us/watches/blast/243-20-3-43",
+      "sourceName": "Ulysse Nardin United States",
+      "sourceType": "manufacturer",
+      "catalogPath": "/collections/ulysse-nardin/executive/executive-dual-time",
+      "evidence": {
+        "priceLabel": "$11,900",
+        "priceData": {
+          "price": 11900,
+          "priceCurrency": "USD"
+        },
+        "currencyBasis": "Exact selected product US manufacturer page Product/Offer schema supplies USD.",
+        "taxStatement": "No explicit selected-price tax treatment observed; retain unconfirmed.",
+        "catalogManifest": {
+          "file": "src/data/photography-cleared-sprint.ts",
+          "reference": "Executive Dual Time",
+          "exactReference": "243-20-3/43",
+          "configuration": {
+            "dial": "Blue, Roman numerals",
+            "bracelet": "Blue rubber strap",
+            "caseSize": "42 mm",
+            "movement": "Self-winding UN-24",
+            "waterResistance": "50 m"
+          },
+          "sourceUrl": "https://www.ulysse-nardin.com/en-us/watches/blast/243-20-3-43"
+        },
+        "catalogMatch": "Exact pictured full reference, case, diameter and strap/bracelet match selected manufacturer identity. No related model substitution.",
+        "availabilityNote": "Numeric list price present even where page offers contact boutique; availability must be checked separately."
+      }
+    }
+  ],
+  "held": [
+    {
+      "brand": "Jaeger-LeCoultre",
+      "reference": "Q3848422",
+      "sourceUrl": "https://www.jaeger-lecoultre.com/us-en/watches/reverso/reverso-classic/reverso-classic-duoface-small-seconds-stainless-steel-q3848422",
+      "checkedAt": "2026-10-28",
+      "reason": "Manufacturer explicitly says out of current collection, no selected product price. Recommendations and strap prices excluded."
+    },
+    {
+      "brand": "Jaeger-LeCoultre",
+      "reference": "Q52334E1",
+      "sourceUrl": "https://www.jaeger-lecoultre.com/us-en/watches/master-grande-tradition/master-grande-tradition-calibre-950-white-gold-q52334e1",
+      "checkedAt": "2026-10-28",
+      "reason": "Manufacturer exact reference says price available upon request. No numeric price inferred from similar minute repeaters or recommendations."
+    }
+  ],
+  "checkedAt": "2026-10-28",
+  "status": "immutable-ready-for-root-review",
+  "summary": {
+    "canonicalReferences": 27,
+    "manufacturerObservations": 24,
+    "aliasGroups": 3,
+    "reviewedHolds": 2,
+    "potentialCanonicalCoverageExcludingParallelRolex": 170,
+    "totalCanonical": 297,
+    "unknownAfterThisBatchExcludingParallelRolex": 127
+  },
+  "manufacturerObservations": [
+    {
+      "brand": "Ulysse Nardin",
+      "reference": "2303-270/03",
+      "manufacturerReference": "2303-270/03",
+      "configuration": "Blue movement display / 43 mm titanium with blue PVD / blue alligator strap / UN-230",
+      "amount": 32100,
+      "currency": "USD",
+      "market": "United States",
+      "taxBasis": "unconfirmed",
+      "basis": "current-list",
+      "checkedAt": "2026-10-28",
+      "effectiveDate": null,
+      "sourceUrl": "https://www.ulysse-nardin.com/en-us/watches/freak/2303-270-03",
+      "sourceName": "Ulysse Nardin United States",
+      "sourceType": "manufacturer",
+      "catalogPath": "/collections/ulysse-nardin/freak/2303-270-03",
+      "evidence": {
+        "priceData": {
+          "price": 32100,
+          "priceCurrency": "USD"
+        },
+        "currencyBasis": "Official US manufacturer product page's selected Product/Offer schema explicitly carries priceCurrency USD and exact selected product price.",
+        "taxStatement": "No explicit selected-price tax treatment observed; retain unconfirmed.",
+        "catalogManifest": {
+          "file": "src/data/photography-cleared-sprint.ts",
+          "reference": "Freak X",
+          "exactReference": "2303-270/03",
+          "configuration": {
+            "dial": "Blue movement display; no conventional dial",
+            "bracelet": "Blue alligator strap",
+            "caseSize": "43 mm",
+            "movement": "Self-winding UN-230",
+            "waterResistance": "50 m"
+          },
+          "sourceUrl": "https://www.ulysse-nardin.com/ja-jp/watches/freak/2303-270-03"
+        },
+        "catalogMatch": "Selected full manufacturer reference and configuration match exact canonical identity. Generic Freak family aliases map only to the pictured full reference; routes unchanged.",
+        "availabilityNote": "Manufacturer list benchmark; availability must be confirmed separately."
+      },
+      "referenceAliases": [
+        "Freak X"
+      ],
+      "aliasEvidence": [
+        {
+          "reference": "Freak X",
+          "catalogPath": "/collections/ulysse-nardin/freak/freak-x",
+          "manufacturerReference": "2303-270/03",
+          "manifest": {
+            "file": "src/data/photography-cleared-sprint.ts",
+            "reference": "Freak X",
+            "exactReference": "2303-270/03",
+            "configuration": {
+              "dial": "Blue movement display; no conventional dial",
+              "bracelet": "Blue alligator strap",
+              "caseSize": "43 mm",
+              "movement": "Self-winding UN-230",
+              "waterResistance": "50 m"
+            },
+            "sourceUrl": "https://www.ulysse-nardin.com/ja-jp/watches/freak/2303-270-03"
+          },
+          "reason": "Same explicit full manufacturer SKU, same exact source URL and price observation; alias names retained solely for canonical routing."
+        }
+      ]
+    },
+    {
+      "brand": "Ulysse Nardin",
+      "reference": "2405-500-2A/3A",
+      "manufacturerReference": "2405-500-2A/3A",
+      "configuration": "Black movement display / 44 mm titanium and 18 ct gold / black rubber strap / UN-240",
+      "amount": 84900,
+      "currency": "USD",
+      "market": "United States",
+      "taxBasis": "unconfirmed",
+      "basis": "current-list",
+      "checkedAt": "2026-10-28",
+      "effectiveDate": null,
+      "sourceUrl": "https://www.ulysse-nardin.com/en-us/watches/freak/2405-500-2a-3a",
+      "sourceName": "Ulysse Nardin United States",
+      "sourceType": "manufacturer",
+      "catalogPath": "/collections/ulysse-nardin/freak/2405-500-2a-3a",
+      "evidence": {
+        "priceData": {
+          "price": 84900,
+          "priceCurrency": "USD"
+        },
+        "currencyBasis": "Official US manufacturer product page's selected Product/Offer schema explicitly carries priceCurrency USD and exact selected product price.",
+        "taxStatement": "No explicit selected-price tax treatment observed; retain unconfirmed.",
+        "catalogManifest": {
+          "file": "src/data/photography-cleared-sprint.ts",
+          "reference": "Freak ONE",
+          "exactReference": "2405-500-2A/3A",
+          "configuration": {
+            "dial": "Black movement display; no conventional dial",
+            "bracelet": "Black rubber strap",
+            "caseSize": "44 mm",
+            "movement": "Self-winding UN-240",
+            "waterResistance": "30 m"
+          },
+          "sourceUrl": "https://www.ulysse-nardin.com/en-gr/watches/freak/2405-500-2a-3a"
+        },
+        "catalogMatch": "Selected full manufacturer reference and configuration match exact canonical identity. Generic Freak family aliases map only to the pictured full reference; routes unchanged.",
+        "availabilityNote": "Manufacturer list benchmark; availability must be confirmed separately."
+      },
+      "referenceAliases": [
+        "Freak ONE"
+      ],
+      "aliasEvidence": [
+        {
+          "reference": "Freak ONE",
+          "catalogPath": "/collections/ulysse-nardin/freak/freak-one",
+          "manufacturerReference": "2405-500-2A/3A",
+          "manifest": {
+            "file": "src/data/photography-cleared-sprint.ts",
+            "reference": "Freak ONE",
+            "exactReference": "2405-500-2A/3A",
+            "configuration": {
+              "dial": "Black movement display; no conventional dial",
+              "bracelet": "Black rubber strap",
+              "caseSize": "44 mm",
+              "movement": "Self-winding UN-240",
+              "waterResistance": "30 m"
+            },
+            "sourceUrl": "https://www.ulysse-nardin.com/en-gr/watches/freak/2405-500-2a-3a"
+          },
+          "reason": "Same explicit full manufacturer SKU, same exact source URL and price observation; alias names retained solely for canonical routing."
+        }
+      ]
+    },
+    {
+      "brand": "Zenith",
+      "reference": "95.9100.9004/01.I001",
+      "manufacturerReference": "95.9100.9004/01.I001",
+      "configuration": "Openworked sapphire dial / 45 mm titanium / titanium bracelet / El Primero 21",
+      "amount": 20100,
+      "currency": "USD",
+      "market": "United States",
+      "taxBasis": "unconfirmed",
+      "basis": "current-list",
+      "checkedAt": "2026-10-28",
+      "effectiveDate": null,
+      "sourceUrl": "https://www.zenith-watches.com/en_us/product/defy-extreme-95-9100-9004-01-i001",
+      "sourceName": "Zenith United States",
+      "sourceType": "manufacturer",
+      "catalogPath": "/collections/zenith/defy-extreme/95-9100-9004-01-i001",
+      "evidence": {
+        "priceData": {
+          "price": 20100,
+          "priceCurrency": "USD"
+        },
+        "currencyBasis": "Official US manufacturer product page's selected Product/Offer schema explicitly carries priceCurrency USD and exact selected product price.",
+        "taxStatement": "No explicit selected-price tax treatment observed; retain unconfirmed.",
+        "catalogManifest": {
+          "file": "src/data/photography-cleared-sprint.ts",
+          "reference": "95.9100.9004/01.I001",
+          "exactReference": "95.9100.9004/01.I001",
+          "configuration": {
+            "caseSize": "45 mm",
+            "movement": "El Primero 21 automatic 1/100th-second chronograph",
+            "dial": "Openworked sapphire with blue movement",
+            "bracelet": "Titanium bracelet"
+          },
+          "sourceUrl": "https://www.zenith-watches.com/en_us/product/defy-extreme-95-9100-9004-01-i001"
+        },
+        "catalogMatch": "Selected full manufacturer reference and configuration match exact canonical identity. Generic Freak family aliases map only to the pictured full reference; routes unchanged.",
+        "availabilityNote": "Manufacturer selected-product schema marks out of stock; list benchmark does not promise availability."
+      }
+    },
+    {
+      "brand": "Zenith",
+      "reference": "03.3100.3600/69.M3100",
+      "manufacturerReference": "03.3100.3600/69.M3100",
+      "configuration": "White tricolor dial / 41 mm steel / black ceramic bezel / steel bracelet / El Primero 3600",
+      "amount": 12300,
+      "currency": "USD",
+      "market": "United States",
+      "taxBasis": "unconfirmed",
+      "basis": "current-list",
+      "checkedAt": "2026-10-28",
+      "effectiveDate": null,
+      "sourceUrl": "https://www.zenith-watches.com/en_us/product/chronomaster-sport-03-3100-3600-69-m3100",
+      "sourceName": "Zenith United States",
+      "sourceType": "manufacturer",
+      "catalogPath": "/collections/zenith/chronomaster-sport/03-3100-3600-69-m3100",
+      "evidence": {
+        "priceData": {
+          "price": 12300,
+          "priceCurrency": "USD"
+        },
+        "currencyBasis": "Official US manufacturer product page's selected Product/Offer schema explicitly carries priceCurrency USD and exact selected product price.",
+        "taxStatement": "No explicit selected-price tax treatment observed; retain unconfirmed.",
+        "catalogManifest": {
+          "file": "src/data/photography-cleared-sprint.ts",
+          "reference": "03-3100-3600-69-M3100",
+          "exactReference": "03.3100.3600/69.M3100",
+          "configuration": {
+            "dial": "White with grey, anthracite and blue counters",
+            "bracelet": "Stainless-steel bracelet",
+            "caseSize": "41 mm"
+          },
+          "sourceUrl": "https://www.zenith-watches.com/es_es/product/chronomaster-sport-03-3100-3600-69-m3100"
+        },
+        "catalogMatch": "Selected full manufacturer reference and configuration match exact canonical identity. Generic Freak family aliases map only to the pictured full reference; routes unchanged.",
+        "availabilityNote": "Manufacturer list benchmark; availability must be confirmed separately."
+      }
+    },
+    {
+      "brand": "Zenith",
+      "reference": "03.9300.3620/51.I001",
+      "manufacturerReference": "03.9300.3620/51.I001",
+      "configuration": "Blue star-patterned dial / 41 mm steel / steel bracelet plus blue rubber strap / El Primero 3620",
+      "amount": 10000,
+      "currency": "USD",
+      "market": "United States",
+      "taxBasis": "unconfirmed",
+      "basis": "current-list",
+      "checkedAt": "2026-10-28",
+      "effectiveDate": null,
+      "sourceUrl": "https://www.zenith-watches.com/en_us/product/defy-skyline-03-9300-3620-51-i001",
+      "sourceName": "Zenith United States",
+      "sourceType": "manufacturer",
+      "catalogPath": "/collections/zenith/defy-skyline/03-9300-3620-51-i001",
+      "evidence": {
+        "priceData": {
+          "price": 10000,
+          "priceCurrency": "USD"
+        },
+        "currencyBasis": "Official US manufacturer product page's selected Product/Offer schema explicitly carries priceCurrency USD and exact selected product price.",
+        "taxStatement": "No explicit selected-price tax treatment observed; retain unconfirmed.",
+        "catalogManifest": {
+          "file": "src/data/photography-cleared-sprint.ts",
+          "reference": "03.9300.3620/51.I001",
+          "exactReference": "03.9300.3620/51.I001",
+          "configuration": {
+            "caseSize": "41 mm",
+            "movement": "El Primero 3620 automatic",
+            "dial": "Blue",
+            "bracelet": "Stainless-steel bracelet"
+          },
+          "sourceUrl": "https://www.the1916company.com/watches/zenith/defy/defy-039300362051i001/"
+        },
+        "catalogMatch": "Selected full manufacturer reference and configuration match exact canonical identity. Generic Freak family aliases map only to the pictured full reference; routes unchanged.",
+        "availabilityNote": "Manufacturer list benchmark; availability must be confirmed separately."
+      }
+    },
+    {
+      "brand": "Zenith",
+      "reference": "03.9300.3620/79.I001",
+      "manufacturerReference": "03.9300.3620/79.I001",
+      "configuration": "Blue skeleton dial / 41 mm steel / steel bracelet plus blue rubber strap / El Primero 3620 SK",
+      "amount": 12300,
+      "currency": "USD",
+      "market": "United States",
+      "taxBasis": "unconfirmed",
+      "basis": "current-list",
+      "checkedAt": "2026-10-28",
+      "effectiveDate": null,
+      "sourceUrl": "https://www.zenith-watches.com/en_us/product/defy-skyline-03-9300-3620-79-i001",
+      "sourceName": "Zenith United States",
+      "sourceType": "manufacturer",
+      "catalogPath": "/collections/zenith/defy-skyline/03-9300-3620-79-i001",
+      "evidence": {
+        "priceData": {
+          "price": 12300,
+          "priceCurrency": "USD"
+        },
+        "currencyBasis": "Official US manufacturer product page's selected Product/Offer schema explicitly carries priceCurrency USD and exact selected product price.",
+        "taxStatement": "No explicit selected-price tax treatment observed; retain unconfirmed.",
+        "catalogManifest": {
+          "file": "src/data/photography-cleared-sprint.ts",
+          "reference": "03.9300.3620/79.I001",
+          "exactReference": "03.9300.3620/79.I001",
+          "configuration": {
+            "caseSize": "41 mm",
+            "movement": "El Primero 3620 SK automatic",
+            "dial": "Blue skeleton",
+            "bracelet": "Stainless-steel bracelet"
+          },
+          "sourceUrl": "https://www.the1916company.com/watches/zenith/defy/039300362079i001/"
+        },
+        "catalogMatch": "Selected full manufacturer reference and configuration match exact canonical identity. Generic Freak family aliases map only to the pictured full reference; routes unchanged.",
+        "availabilityNote": "Manufacturer list benchmark; availability must be confirmed separately."
+      }
+    },
+    {
+      "brand": "Zenith",
+      "reference": "03.9300.3620/15.I001",
+      "manufacturerReference": "03.9300.3620/15.I001",
+      "configuration": "Ice blue star-patterned dial / 41 mm steel / steel bracelet plus ice blue rubber strap / El Primero 3620",
+      "amount": 10000,
+      "currency": "USD",
+      "market": "United States",
+      "taxBasis": "unconfirmed",
+      "basis": "current-list",
+      "checkedAt": "2026-10-28",
+      "effectiveDate": null,
+      "sourceUrl": "https://www.zenith-watches.com/en_us/product/defy-skyline-03-9300-3620-15-i001",
+      "sourceName": "Zenith United States",
+      "sourceType": "manufacturer",
+      "catalogPath": "/collections/zenith/defy-skyline/03-9300-3620-15-i001",
+      "evidence": {
+        "priceData": {
+          "price": 10000,
+          "priceCurrency": "USD"
+        },
+        "currencyBasis": "Official US manufacturer product page's selected Product/Offer schema explicitly carries priceCurrency USD and exact selected product price.",
+        "taxStatement": "No explicit selected-price tax treatment observed; retain unconfirmed.",
+        "catalogManifest": {
+          "file": "src/data/photography-cleared-sprint.ts",
+          "reference": "03.9300.3620/15.I001",
+          "exactReference": "03.9300.3620/15.I001",
+          "configuration": {
+            "caseSize": "41 mm",
+            "movement": "El Primero 3620 automatic",
+            "dial": "Ice Blue",
+            "bracelet": "Stainless-steel bracelet"
+          },
+          "sourceUrl": "https://www.jw-oomiya.co.jp/products/03-9300-3620-15-i001"
+        },
+        "catalogMatch": "Selected full manufacturer reference and configuration match exact canonical identity. Generic Freak family aliases map only to the pictured full reference; routes unchanged.",
+        "availabilityNote": "Manufacturer selected-product schema marks out of stock; list benchmark does not promise availability."
+      }
+    },
+    {
+      "brand": "Jaeger-LeCoultre",
+      "reference": "Q4018421",
+      "manufacturerReference": "Q4018421",
+      "configuration": "Silvered gray sunray dial / 40 mm steel / interchangeable strap / automatic caliber 899",
+      "amount": 10500,
+      "currency": "USD",
+      "market": "United States",
+      "taxBasis": "excluded",
+      "basis": "current-list",
+      "checkedAt": "2026-10-28",
+      "effectiveDate": null,
+      "sourceUrl": "https://www.jaeger-lecoultre.com/us-en/watches/master-control/master-control-date-stainless-steel-q4018421",
+      "sourceName": "Jaeger-LeCoultre United States",
+      "sourceType": "manufacturer",
+      "catalogPath": "/collections/jaeger-lecoultre/master-control/q4018421",
+      "evidence": {
+        "priceData": {
+          "price": 10500,
+          "priceCurrency": "USD"
+        },
+        "currencyBasis": "Official US manufacturer product page's selected Product/Offer schema explicitly carries priceCurrency USD and exact selected product price.",
+        "taxStatement": "Price excluding taxes",
+        "catalogManifest": {
+          "file": "src/data/launch-catalog.ts",
+          "line": 157,
+          "reference": "Q4018421",
+          "configuration": "40 mm / caliber899 / silvered gray sunray / light-brown calfskin strap / steel",
+          "sourceUrl": "https://www.jaeger-lecoultre.com/us-en/watches/master-control/master-control-date-stainless-steel-q4018421"
+        },
+        "catalogMatch": "Selected full manufacturer reference and configuration match exact canonical identity. Generic Freak family aliases map only to the pictured full reference; routes unchanged.",
+        "availabilityNote": "Manufacturer list benchmark; availability must be confirmed separately."
+      }
+    },
+    {
+      "brand": "Bell & Ross",
+      "reference": "BR0392-BL-CE",
+      "manufacturerReference": "BR0392-BL-CE",
+      "configuration": "Black dial / 42 mm matte black ceramic / black rubber and black synthetic fabric straps / BR-CAL.302",
+      "amount": 4000,
+      "currency": "USD",
+      "market": "United States",
+      "taxBasis": "unconfirmed",
+      "basis": "current-list",
+      "checkedAt": "2026-10-28",
+      "effectiveDate": null,
+      "sourceUrl": "https://bellross.com/en-us/products/br-03-92-black-matte",
+      "sourceName": "Bell & Ross United States",
+      "sourceType": "manufacturer",
+      "catalogPath": "/collections/bell-and-ross/br-03/br0392-bl-ce",
+      "evidence": {
+        "priceData": {
+          "price": 4000,
+          "priceCurrency": "USD"
+        },
+        "currencyBasis": "Manufacturer US storefront selected exact product variants explicitly carry amount 4000 and currencyCode USD; rendered country United States.",
+        "taxStatement": "No explicit selected-price tax treatment observed; retain unconfirmed.",
+        "catalogManifest": {
+          "file": "src/data/photography-cleared-sprint.ts",
+          "reference": "BR0392-BL-CE",
+          "exactReference": "BR0392-BL-CE",
+          "configuration": {
+            "dial": "Black with luminous numerals, indexes and hands",
+            "bracelet": "Black rubber",
+            "caseSize": "42 mm",
+            "movement": "Automatic BR-CAL.302",
+            "waterResistance": "100 m"
+          },
+          "sourceUrl": "https://bellross.com/en-us/products/br-03-92-black-matte"
+        },
+        "catalogMatch": "Selected full manufacturer reference and configuration match exact canonical identity. Generic Freak family aliases map only to the pictured full reference; routes unchanged.",
+        "availabilityNote": "Exact old 42 mm model page says unavailable; $4,000 regular list differs from recommended newer 41 mm BR03 at $4,300. No successor substitution."
+      }
+    },
+    {
+      "brand": "Blancpain",
+      "reference": "5015-1130-52A",
+      "manufacturerReference": "5015-1130-52A",
+      "configuration": "Black dial / 45 mm steel / black sail-canvas strap / classic pin buckle / automatic 1315",
+      "amount": 19100,
+      "currency": "USD",
+      "market": "United States",
+      "taxBasis": "unconfirmed",
+      "basis": "current-list",
+      "checkedAt": "2026-10-28",
+      "effectiveDate": null,
+      "sourceUrl": "https://www.blancpain.com/en-us/fifty-fathoms/fifty-fathoms-automatique-5015-1130-52a",
+      "sourceName": "Blancpain United States",
+      "sourceType": "manufacturer",
+      "catalogPath": "/collections/blancpain/fifty-fathoms/5015-1130-52a",
+      "evidence": {
+        "priceData": {
+          "price": 19100,
+          "priceCurrency": "USD"
+        },
+        "currencyBasis": "Official US manufacturer product page's selected Product/Offer schema explicitly carries priceCurrency USD and exact selected product price.",
+        "taxStatement": "No explicit selected-price tax treatment observed; retain unconfirmed.",
+        "catalogManifest": null,
+        "catalogMatch": "Selected full manufacturer reference and configuration match exact canonical identity. Generic Freak family aliases map only to the pictured full reference; routes unchanged.",
+        "availabilityNote": "Manufacturer states price may vary by pin buckle versus folding clasp. This selected 5015-1130-52A configuration is described with classic pin buckle; do not generalize to folding clasp 52B."
+      }
+    },
+    {
+      "brand": "Ulysse Nardin",
+      "reference": "2303-270.1/BLACK",
+      "manufacturerReference": "2303-270.1/BLACK",
+      "configuration": "Black movement display / 43 mm titanium with black PVD / black openwork calf leather strap / UN-230",
+      "amount": 32100,
+      "currency": "USD",
+      "market": "United States",
+      "taxBasis": "unconfirmed",
+      "basis": "current-list",
+      "checkedAt": "2026-10-28",
+      "effectiveDate": null,
+      "sourceUrl": "https://www.ulysse-nardin.com/en-us/watches/freak/2303-270-1-black",
+      "sourceName": "Ulysse Nardin United States",
+      "sourceType": "manufacturer",
+      "catalogPath": "/collections/ulysse-nardin/freak/2303-270-1-black",
+      "evidence": {
+        "priceLabel": "$32,100",
+        "priceData": {
+          "price": 32100,
+          "priceCurrency": "USD"
+        },
+        "currencyBasis": "Exact selected product US manufacturer page Product/Offer schema supplies USD.",
+        "taxStatement": "No explicit selected-price tax treatment observed; retain unconfirmed.",
+        "catalogManifest": {
+          "file": "src/data/photography-expansion.ts",
+          "reference": "2303-270.1/BLACK",
+          "exactReference": "2303-270.1/BLACK",
+          "configuration": {
+            "dial": "Black movement display (no conventional dial)",
+            "bracelet": "Black openwork calf leather strap",
+            "caseSize": "43 mm",
+            "movement": "UN-230 self-winding",
+            "waterResistance": "50 m"
+          },
+          "sourceUrl": "https://www.ulysse-nardin.com/watches/freak/2303-270-1-black"
+        },
+        "catalogMatch": "Exact pictured full reference, case, diameter and strap/bracelet match selected manufacturer identity. No related model substitution.",
+        "availabilityNote": "Numeric list price present even where page offers contact boutique; availability must be checked separately."
+      }
+    },
+    {
+      "brand": "Ulysse Nardin",
+      "reference": "1183-310/40",
+      "manufacturerReference": "1183-310/40",
+      "configuration": "White Roman dial / 42 mm steel / black alligator strap / UN-118",
+      "amount": 11800,
+      "currency": "USD",
+      "market": "United States",
+      "taxBasis": "unconfirmed",
+      "basis": "current-list",
+      "checkedAt": "2026-10-28",
+      "effectiveDate": null,
+      "sourceUrl": "https://www.ulysse-nardin.com/en-us/watches/marine/1183-310-40",
+      "sourceName": "Ulysse Nardin United States",
+      "sourceType": "manufacturer",
+      "catalogPath": "/collections/ulysse-nardin/marine/1183-310-40",
+      "evidence": {
+        "priceLabel": "$11,800",
+        "priceData": {
+          "price": 11800,
+          "priceCurrency": "USD"
+        },
+        "currencyBasis": "Exact selected product US manufacturer page Product/Offer schema supplies USD.",
+        "taxStatement": "No explicit selected-price tax treatment observed; retain unconfirmed.",
+        "catalogManifest": {
+          "file": "src/data/photography-expansion.ts",
+          "reference": "1183-310/40",
+          "exactReference": "1183-310/40",
+          "configuration": {
+            "dial": "White lacquered, Roman numerals",
+            "bracelet": "Black alligator strap",
+            "caseSize": "42 mm",
+            "movement": "UN-118 self-winding",
+            "waterResistance": "50 m"
+          },
+          "sourceUrl": "https://www.ulysse-nardin.com/en-us/watches/marine/1183-310-40"
+        },
+        "catalogMatch": "Exact pictured full reference, case, diameter and strap/bracelet match selected manufacturer identity. No related model substitution.",
+        "availabilityNote": "Numeric list price present even where page offers contact boutique; availability must be checked separately."
+      }
+    },
+    {
+      "brand": "Ulysse Nardin",
+      "reference": "1183-310-3A/0A",
+      "manufacturerReference": "1183-310-3A/0A",
+      "configuration": "Blue Roman dial / 42 mm steel / blue fabric strap / UN-118",
+      "amount": 11800,
+      "currency": "USD",
+      "market": "United States",
+      "taxBasis": "unconfirmed",
+      "basis": "current-list",
+      "checkedAt": "2026-10-28",
+      "effectiveDate": null,
+      "sourceUrl": "https://www.ulysse-nardin.com/en-us/watches/marine/1183-310-3a-0a",
+      "sourceName": "Ulysse Nardin United States",
+      "sourceType": "manufacturer",
+      "catalogPath": "/collections/ulysse-nardin/marine/1183-310-3a-0a",
+      "evidence": {
+        "priceLabel": "$11,800",
+        "priceData": {
+          "price": 11800,
+          "priceCurrency": "USD"
+        },
+        "currencyBasis": "Exact selected product US manufacturer page Product/Offer schema supplies USD.",
+        "taxStatement": "No explicit selected-price tax treatment observed; retain unconfirmed.",
+        "catalogManifest": {
+          "file": "src/data/photography-expansion.ts",
+          "reference": "1183-310-3A/0A",
+          "exactReference": "1183-310-3A/0A",
+          "configuration": {
+            "dial": "Blue, Roman numerals",
+            "bracelet": "Blue fabric strap",
+            "caseSize": "42 mm",
+            "movement": "UN-118 self-winding",
+            "waterResistance": "50 m"
+          },
+          "sourceUrl": "https://www.ulysse-nardin.com/en-us/watches/marine/1183-310-3a-0a"
+        },
+        "catalogMatch": "Exact pictured full reference, case, diameter and strap/bracelet match selected manufacturer identity. No related model substitution.",
+        "availabilityNote": "Numeric list price present even where page offers contact boutique; availability must be checked separately."
+      }
+    },
+    {
+      "brand": "Ulysse Nardin",
+      "reference": "1183-310-3/40",
+      "manufacturerReference": "1183-310-3/40",
+      "configuration": "White Roman dial / 42 mm steel / black rubber and titanium strap / UN-118",
+      "amount": 11800,
+      "currency": "USD",
+      "market": "United States",
+      "taxBasis": "unconfirmed",
+      "basis": "current-list",
+      "checkedAt": "2026-10-28",
+      "effectiveDate": null,
+      "sourceUrl": "https://www.ulysse-nardin.com/en-us/watches/marine/1183-310-3-40",
+      "sourceName": "Ulysse Nardin United States",
+      "sourceType": "manufacturer",
+      "catalogPath": "/collections/ulysse-nardin/marine/1183-310-3-40",
+      "evidence": {
+        "priceLabel": "$11,800",
+        "priceData": {
+          "price": 11800,
+          "priceCurrency": "USD"
+        },
+        "currencyBasis": "Exact selected product US manufacturer page Product/Offer schema supplies USD.",
+        "taxStatement": "No explicit selected-price tax treatment observed; retain unconfirmed.",
+        "catalogManifest": {
+          "file": "src/data/photography-expansion.ts",
+          "reference": "1183-310-3/40",
+          "exactReference": "1183-310-3/40",
+          "configuration": {
+            "dial": "White lacquered, Roman numerals",
+            "bracelet": "Black rubber / titanium strap",
+            "caseSize": "42 mm",
+            "movement": "UN-118 self-winding",
+            "waterResistance": "50 m"
+          },
+          "sourceUrl": "https://www.ulysse-nardin.com/en-us/watches/marine/1183-310-3-40"
+        },
+        "catalogMatch": "Exact pictured full reference, case, diameter and strap/bracelet match selected manufacturer identity. No related model substitution.",
+        "availabilityNote": "Numeric list price present even where page offers contact boutique; availability must be checked separately."
+      }
+    },
+    {
+      "brand": "Ulysse Nardin",
+      "reference": "1183-170-7M/92",
+      "manufacturerReference": "1183-170-7M/92",
+      "configuration": "Black dial / 44 mm titanium / titanium bracelet / UN-118",
+      "amount": 13400,
+      "currency": "USD",
+      "market": "United States",
+      "taxBasis": "unconfirmed",
+      "basis": "current-list",
+      "checkedAt": "2026-10-28",
+      "effectiveDate": null,
+      "sourceUrl": "https://www.ulysse-nardin.com/en-us/watches/diver/1183-170-7m-92",
+      "sourceName": "Ulysse Nardin United States",
+      "sourceType": "manufacturer",
+      "catalogPath": "/collections/ulysse-nardin/diver/1183-170-7m-92",
+      "evidence": {
+        "priceLabel": "$13,400",
+        "priceData": {
+          "price": 13400,
+          "priceCurrency": "USD"
+        },
+        "currencyBasis": "Exact selected product US manufacturer page Product/Offer schema supplies USD.",
+        "taxStatement": "No explicit selected-price tax treatment observed; retain unconfirmed.",
+        "catalogManifest": {
+          "file": "src/data/photography-expansion.ts",
+          "reference": "1183-170-7M/92",
+          "exactReference": "1183-170-7M/92",
+          "configuration": {
+            "dial": "Black",
+            "bracelet": "Titanium bracelet",
+            "caseSize": "44 mm",
+            "movement": "UN-118 self-winding",
+            "waterResistance": "300 m"
+          },
+          "sourceUrl": "https://www.ulysse-nardin.com/en-sg/watches/diver/1183-170-7m-92"
+        },
+        "catalogMatch": "Exact pictured full reference, case, diameter and strap/bracelet match selected manufacturer identity. No related model substitution.",
+        "availabilityNote": "Numeric list price present even where page offers contact boutique; availability must be checked separately."
+      }
+    },
+    {
+      "brand": "Ulysse Nardin",
+      "reference": "1183-170-3/93",
+      "manufacturerReference": "1183-170-3/93",
+      "configuration": "Blue dial / 44 mm titanium / blue rubber and titanium strap / UN-118",
+      "amount": 12400,
+      "currency": "USD",
+      "market": "United States",
+      "taxBasis": "unconfirmed",
+      "basis": "current-list",
+      "checkedAt": "2026-10-28",
+      "effectiveDate": null,
+      "sourceUrl": "https://www.ulysse-nardin.com/en-us/watches/diver/1183-170-3-93",
+      "sourceName": "Ulysse Nardin United States",
+      "sourceType": "manufacturer",
+      "catalogPath": "/collections/ulysse-nardin/diver/1183-170-3-93",
+      "evidence": {
+        "priceLabel": "$12,400",
+        "priceData": {
+          "price": 12400,
+          "priceCurrency": "USD"
+        },
+        "currencyBasis": "Exact selected product US manufacturer page Product/Offer schema supplies USD.",
+        "taxStatement": "No explicit selected-price tax treatment observed; retain unconfirmed.",
+        "catalogManifest": {
+          "file": "src/data/photography-expansion.ts",
+          "reference": "1183-170-3/93",
+          "exactReference": "1183-170-3/93",
+          "configuration": {
+            "dial": "Blue",
+            "bracelet": "Blue rubber / titanium strap",
+            "caseSize": "44 mm",
+            "movement": "UN-118 self-winding",
+            "waterResistance": "300 m"
+          },
+          "sourceUrl": "https://www.ulysse-nardin.com/en-us/watches/diver/1183-170-3-93"
+        },
+        "catalogMatch": "Exact pictured full reference, case, diameter and strap/bracelet match selected manufacturer identity. No related model substitution.",
+        "availabilityNote": "Numeric list price present even where page offers contact boutique; availability must be checked separately."
+      }
+    },
+    {
+      "brand": "Ulysse Nardin",
+      "reference": "1183-170-3/92",
+      "manufacturerReference": "1183-170-3/92",
+      "configuration": "Black dial / 44 mm titanium / black rubber and titanium strap / UN-118",
+      "amount": 12400,
+      "currency": "USD",
+      "market": "United States",
+      "taxBasis": "unconfirmed",
+      "basis": "current-list",
+      "checkedAt": "2026-10-28",
+      "effectiveDate": null,
+      "sourceUrl": "https://www.ulysse-nardin.com/en-us/watches/diver/1183-170-3-92",
+      "sourceName": "Ulysse Nardin United States",
+      "sourceType": "manufacturer",
+      "catalogPath": "/collections/ulysse-nardin/diver/1183-170-3-92",
+      "evidence": {
+        "priceLabel": "$12,400",
+        "priceData": {
+          "price": 12400,
+          "priceCurrency": "USD"
+        },
+        "currencyBasis": "Exact selected product US manufacturer page Product/Offer schema supplies USD.",
+        "taxStatement": "No explicit selected-price tax treatment observed; retain unconfirmed.",
+        "catalogManifest": {
+          "file": "src/data/photography-expansion.ts",
+          "reference": "1183-170-3/92",
+          "exactReference": "1183-170-3/92",
+          "configuration": {
+            "dial": "Black",
+            "bracelet": "Black rubber / titanium strap",
+            "caseSize": "44 mm",
+            "movement": "UN-118 self-winding",
+            "waterResistance": "300 m"
+          },
+          "sourceUrl": "https://www.ulysse-nardin.com/en-gb/watches/diver/1183-170-3-92"
+        },
+        "catalogMatch": "Exact pictured full reference, case, diameter and strap/bracelet match selected manufacturer identity. No related model substitution.",
+        "availabilityNote": "Numeric list price present even where page offers contact boutique; availability must be checked separately."
+      }
+    },
+    {
+      "brand": "Ulysse Nardin",
+      "reference": "3713-260-3/03",
+      "manufacturerReference": "3713-260-3/03",
+      "configuration": "Blue skeleton display / 42 mm titanium / blue rubber strap / manual UN-371",
+      "amount": 27900,
+      "currency": "USD",
+      "market": "United States",
+      "taxBasis": "unconfirmed",
+      "basis": "current-list",
+      "checkedAt": "2026-10-28",
+      "effectiveDate": null,
+      "sourceUrl": "https://www.ulysse-nardin.com/en-us/watches/blast/3713-260-3-03",
+      "sourceName": "Ulysse Nardin United States",
+      "sourceType": "manufacturer",
+      "catalogPath": "/collections/ulysse-nardin/blast/3713-260-3-03",
+      "evidence": {
+        "priceLabel": "$27,900",
+        "priceData": {
+          "price": 27900,
+          "priceCurrency": "USD"
+        },
+        "currencyBasis": "Exact selected product US manufacturer page Product/Offer schema supplies USD.",
+        "taxStatement": "No explicit selected-price tax treatment observed; retain unconfirmed.",
+        "catalogManifest": {
+          "file": "src/data/photography-expansion.ts",
+          "reference": "3713-260-3/03",
+          "exactReference": "3713-260-3/03",
+          "configuration": {
+            "dial": "Skeletonized movement display",
+            "bracelet": "Blue rubber strap",
+            "caseSize": "42 mm",
+            "movement": "UN-371 manual-winding",
+            "waterResistance": "50 m"
+          },
+          "sourceUrl": "https://www.ulysse-nardin.com/watches/blast/3713-260-3-03"
+        },
+        "catalogMatch": "Exact pictured full reference, case, diameter and strap/bracelet match selected manufacturer identity. No related model substitution.",
+        "availabilityNote": "Numeric list price present even where page offers contact boutique; availability must be checked separately."
+      },
+      "referenceAliases": [
+        "Blast"
+      ],
+      "aliasEvidence": [
+        {
+          "reference": "Blast",
+          "catalogPath": "/collections/ulysse-nardin/blast/blast",
+          "manufacturerReference": "3713-260-3/03",
+          "manifest": {
+            "file": "src/data/photography-cleared-sprint.ts",
+            "reference": "Blast",
+            "exactReference": "3713-260-3/03",
+            "configuration": {
+              "dial": "Blue skeleton display",
+              "bracelet": "Blue rubber strap",
+              "caseSize": "42 mm",
+              "movement": "Manual-winding UN-371",
+              "waterResistance": "50 m"
+            },
+            "sourceUrl": "https://www.ulysse-nardin.com/en-us/watches/blast/3713-260-3-03"
+          },
+          "reason": "Same explicit full manufacturer SKU, same exact source URL and price observation; alias names retained solely for canonical routing."
+        }
+      ]
+    },
+    {
+      "brand": "Ulysse Nardin",
+      "reference": "Marine Torpilleur",
+      "manufacturerReference": "1183-310-0A/0A",
+      "configuration": "White Roman dial / 42 mm steel / black fabric strap / UN-118",
+      "amount": 11800,
+      "currency": "USD",
+      "market": "United States",
+      "taxBasis": "unconfirmed",
+      "basis": "current-list",
+      "checkedAt": "2026-10-28",
+      "effectiveDate": null,
+      "sourceUrl": "https://www.ulysse-nardin.com/en-us/watches/marine/1183-310-0a-0a",
+      "sourceName": "Ulysse Nardin United States",
+      "sourceType": "manufacturer",
+      "catalogPath": "/collections/ulysse-nardin/marine/marine-torpilleur",
+      "evidence": {
+        "priceLabel": "$11,800",
+        "priceData": {
+          "price": 11800,
+          "priceCurrency": "USD"
+        },
+        "currencyBasis": "Exact selected product US manufacturer page Product/Offer schema supplies USD.",
+        "taxStatement": "No explicit selected-price tax treatment observed; retain unconfirmed.",
+        "catalogManifest": {
+          "file": "src/data/photography-cleared-sprint.ts",
+          "reference": "Marine Torpilleur",
+          "exactReference": "1183-310-0A/0A",
+          "configuration": {
+            "dial": "White lacquered, Roman numerals",
+            "bracelet": "Black fabric strap",
+            "caseSize": "42 mm",
+            "movement": "Self-winding UN-118",
+            "waterResistance": "50 m"
+          },
+          "sourceUrl": "https://www.ulysse-nardin.com/en-gb/watches/marine/1183-310-0a-0a"
+        },
+        "catalogMatch": "Exact pictured full reference, case, diameter and strap/bracelet match selected manufacturer identity. No related model substitution.",
+        "availabilityNote": "Numeric list price present even where page offers contact boutique; availability must be checked separately."
+      }
+    },
+    {
+      "brand": "Ulysse Nardin",
+      "reference": "Diver Chronograph",
+      "manufacturerReference": "1503-170LE-2A-TOR/3A",
+      "configuration": "Black dial / 44 mm titanium and black DLC / black rubber and ceramic strap / Ocean Race chronograph",
+      "amount": 18900,
+      "currency": "USD",
+      "market": "United States",
+      "taxBasis": "unconfirmed",
+      "basis": "current-list",
+      "checkedAt": "2026-10-28",
+      "effectiveDate": null,
+      "sourceUrl": "https://www.ulysse-nardin.com/en-us/watches/diver/1503-170le-2a-tor-3a",
+      "sourceName": "Ulysse Nardin United States",
+      "sourceType": "manufacturer",
+      "catalogPath": "/collections/ulysse-nardin/diver/diver-chronograph",
+      "evidence": {
+        "priceLabel": "$18,900",
+        "priceData": {
+          "price": 18900,
+          "priceCurrency": "USD"
+        },
+        "currencyBasis": "Exact selected product US manufacturer page Product/Offer schema supplies USD.",
+        "taxStatement": "No explicit selected-price tax treatment observed; retain unconfirmed.",
+        "catalogManifest": {
+          "file": "src/data/photography-cleared-sprint.ts",
+          "reference": "Diver Chronograph",
+          "exactReference": "1503-170LE-2A-TOR/3A",
+          "configuration": {
+            "dial": "Black",
+            "bracelet": "Black RUBBER/CERAMIC STRAP",
+            "caseSize": "Ø 44 mm",
+            "movement": "Self-winding",
+            "waterResistance": "300 m"
+          },
+          "sourceUrl": "https://www.ulysse-nardin.com/watches/diver/1503-170le-2a-tor-3a"
+        },
+        "catalogMatch": "Exact pictured full reference, case, diameter and strap/bracelet match selected manufacturer identity. No related model substitution.",
+        "availabilityNote": "Numeric list price present even where page offers contact boutique; availability must be checked separately."
+      }
+    },
+    {
+      "brand": "Ulysse Nardin",
+      "reference": "Diver X Skeleton",
+      "manufacturerReference": "3723-170-2B/3A",
+      "configuration": "Black skeleton display with azure accents / 44 mm titanium and carbon composite / blue rubber and ceramic strap",
+      "amount": 33000,
+      "currency": "USD",
+      "market": "United States",
+      "taxBasis": "unconfirmed",
+      "basis": "current-list",
+      "checkedAt": "2026-10-28",
+      "effectiveDate": null,
+      "sourceUrl": "https://www.ulysse-nardin.com/en-us/watches/diver/3723-170-2b-3a",
+      "sourceName": "Ulysse Nardin United States",
+      "sourceType": "manufacturer",
+      "catalogPath": "/collections/ulysse-nardin/diver/diver-x-skeleton",
+      "evidence": {
+        "priceLabel": "$33,000",
+        "priceData": {
+          "price": 33000,
+          "priceCurrency": "USD"
+        },
+        "currencyBasis": "Exact selected product US manufacturer page Product/Offer schema supplies USD.",
+        "taxStatement": "No explicit selected-price tax treatment observed; retain unconfirmed.",
+        "catalogManifest": {
+          "file": "src/data/photography-cleared-sprint.ts",
+          "reference": "Diver X Skeleton",
+          "exactReference": "3723-170-2B/3A",
+          "configuration": {
+            "dial": "Black skeletonised display with Azure blue accents (pictured)",
+            "bracelet": "Blue RUBBER/CERAMIC STRAP",
+            "caseSize": "Ø 44 mm",
+            "movement": "Self-winding",
+            "waterResistance": "200 m"
+          },
+          "sourceUrl": "https://www.ulysse-nardin.com/watches/diver/3723-170-2b-3a"
+        },
+        "catalogMatch": "Exact pictured full reference, case, diameter and strap/bracelet match selected manufacturer identity. No related model substitution.",
+        "availabilityNote": "Numeric list price present even where page offers contact boutique; availability must be checked separately."
+      }
+    },
+    {
+      "brand": "Ulysse Nardin",
+      "reference": "Blast Tourbillon",
+      "manufacturerReference": "1725-400-3A/3A",
+      "configuration": "Blue skeleton display / 45 mm titanium and 18 ct gold / blue velvet rubber strap",
+      "amount": 80400,
+      "currency": "USD",
+      "market": "United States",
+      "taxBasis": "unconfirmed",
+      "basis": "current-list",
+      "checkedAt": "2026-10-28",
+      "effectiveDate": null,
+      "sourceUrl": "https://www.ulysse-nardin.com/en-us/watches/blast/1725-400-3a-3a",
+      "sourceName": "Ulysse Nardin United States",
+      "sourceType": "manufacturer",
+      "catalogPath": "/collections/ulysse-nardin/blast/blast-tourbillon",
+      "evidence": {
+        "priceLabel": "$80,400",
+        "priceData": {
+          "price": 80400,
+          "priceCurrency": "USD"
+        },
+        "currencyBasis": "Exact selected product US manufacturer page Product/Offer schema supplies USD.",
+        "taxStatement": "No explicit selected-price tax treatment observed; retain unconfirmed.",
+        "catalogManifest": {
+          "file": "src/data/photography-cleared-sprint.ts",
+          "reference": "Blast Tourbillon",
+          "exactReference": "1725-400-3A/3A",
+          "configuration": {
+            "dial": "Blue",
+            "bracelet": "Blue Velvet rubber strap",
+            "caseSize": "Ø 45 mm",
+            "movement": "Self-winding",
+            "waterResistance": "50 m"
+          },
+          "sourceUrl": "https://www.ulysse-nardin.com/watches/blast/1725-400-3a-3a"
+        },
+        "catalogMatch": "Exact pictured full reference, case, diameter and strap/bracelet match selected manufacturer identity. No related model substitution.",
+        "availabilityNote": "Numeric list price present even where page offers contact boutique; availability must be checked separately."
+      }
+    },
+    {
+      "brand": "Ulysse Nardin",
+      "reference": "Moonstruck",
+      "manufacturerReference": "1063-400-2A/3B",
+      "configuration": "Earth astronomical display / 45 mm titanium and ceramic / black Craters rubber strap",
+      "amount": 107700,
+      "currency": "USD",
+      "market": "United States",
+      "taxBasis": "unconfirmed",
+      "basis": "current-list",
+      "checkedAt": "2026-10-28",
+      "effectiveDate": null,
+      "sourceUrl": "https://www.ulysse-nardin.com/en-us/watches/blast/1063-400-2a-3b",
+      "sourceName": "Ulysse Nardin United States",
+      "sourceType": "manufacturer",
+      "catalogPath": "/collections/ulysse-nardin/moonstruck/moonstruck",
+      "evidence": {
+        "priceLabel": "$107,700",
+        "priceData": {
+          "price": 107700,
+          "priceCurrency": "USD"
+        },
+        "currencyBasis": "Exact selected product US manufacturer page Product/Offer schema supplies USD.",
+        "taxStatement": "No explicit selected-price tax treatment observed; retain unconfirmed.",
+        "catalogManifest": {
+          "file": "src/data/photography-cleared-sprint.ts",
+          "reference": "Moonstruck",
+          "exactReference": "1063-400-2A/3B",
+          "configuration": {
+            "dial": "Earth astronomical display",
+            "bracelet": "Black \"Craters\" rubber strap",
+            "caseSize": "Ø 45 mm",
+            "movement": "Self-winding",
+            "waterResistance": "30 m"
+          },
+          "sourceUrl": "https://www.ulysse-nardin.com/en-eu/watches/blast/1063-400-2a-3b"
+        },
+        "catalogMatch": "Exact pictured full reference, case, diameter and strap/bracelet match selected manufacturer identity. No related model substitution.",
+        "availabilityNote": "Numeric list price present even where page offers contact boutique; availability must be checked separately."
+      }
+    },
+    {
+      "brand": "Ulysse Nardin",
+      "reference": "Executive Dual Time",
+      "manufacturerReference": "243-20-3/43",
+      "configuration": "Blue Roman dial / 42 mm steel / blue rubber strap / UN-24 dual time",
+      "amount": 11900,
+      "currency": "USD",
+      "market": "United States",
+      "taxBasis": "unconfirmed",
+      "basis": "current-list",
+      "checkedAt": "2026-10-28",
+      "effectiveDate": null,
+      "sourceUrl": "https://www.ulysse-nardin.com/en-us/watches/blast/243-20-3-43",
+      "sourceName": "Ulysse Nardin United States",
+      "sourceType": "manufacturer",
+      "catalogPath": "/collections/ulysse-nardin/executive/executive-dual-time",
+      "evidence": {
+        "priceLabel": "$11,900",
+        "priceData": {
+          "price": 11900,
+          "priceCurrency": "USD"
+        },
+        "currencyBasis": "Exact selected product US manufacturer page Product/Offer schema supplies USD.",
+        "taxStatement": "No explicit selected-price tax treatment observed; retain unconfirmed.",
+        "catalogManifest": {
+          "file": "src/data/photography-cleared-sprint.ts",
+          "reference": "Executive Dual Time",
+          "exactReference": "243-20-3/43",
+          "configuration": {
+            "dial": "Blue, Roman numerals",
+            "bracelet": "Blue rubber strap",
+            "caseSize": "42 mm",
+            "movement": "Self-winding UN-24",
+            "waterResistance": "50 m"
+          },
+          "sourceUrl": "https://www.ulysse-nardin.com/en-us/watches/blast/243-20-3-43"
+        },
+        "catalogMatch": "Exact pictured full reference, case, diameter and strap/bracelet match selected manufacturer identity. No related model substitution.",
+        "availabilityNote": "Numeric list price present even where page offers contact boutique; availability must be checked separately."
+      }
+    }
+  ],
+  "cautions": [
+    "prices contains 27 canonical mappings for audit; manufacturerObservations contains the 24 unique exact manufacturer observations with referenceAliases additive mappings for integration.",
+    "All ready prices are official current US manufacturer USD list benchmarks. No FX conversion or dealer market asks.",
+    "JLC explicitly excludes tax. Other manufacturers' selected-price tax treatment is unconfirmed; do not infer tax treatment from region alone.",
+    "Alias equivalence is exact full-SKU identity backed by the existing manifest, not similarity of model names or appearance.",
+    "Blancpain 5015-1130-52A price applies to selected sail-canvas/pin-buckle configuration; folding-clasp variants may differ.",
+    "Bell & Ross BR0392-BL-CE is the exact 42 mm $4,000 page; unavailable status is retained, and the newer 41 mm recommended model is excluded.",
+    "Observation date is not manufacturer effective date; all effectiveDate values remain null. Prices do not promise stock."
+  ]
+}

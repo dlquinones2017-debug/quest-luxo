@@ -1,17 +1,39 @@
 {
   "catalogReferences": 297,
   "duplicateCatalogRows": 1,
-  "sourcedReferences": 143,
-  "pendingReferences": 154,
-  "note": "Checked dates record source observation, not manufacturer price-effective dates. Unknown values are never imputed.",
+  "sourcedReferences": 200,
+  "pendingReferences": 97,
+  "currentUsBudgetEligibleReferences": 190,
+  "historicalOnlyReferences": 10,
+  "baseReferenceOnlyBenchmarks": 2,
+  "exactConfigurationSourcedReferences": 198,
+  "note": "Coverage counts canonical reference pages, including documented aliases. Sourced benchmarks may be current, historical or base-reference; current U.S. budget eligibility is counted separately. Checked dates record source observation, not manufacturer price-effective dates. Unknown values are never imputed.",
   "rows": [
     {
       "brand": "Rolex",
       "collection": "GMT-Master II",
       "reference": "126710BLRO",
       "path": "/collections/rolex/gmt-master-ii/126710blro",
-      "status": "research-pending",
-      "prices": [],
+      "status": "sourced-list-price",
+      "prices": [
+        {
+          "brand": "Rolex",
+          "reference": "126710BLRO",
+          "manufacturerReference": "126710BLRO-0002",
+          "configuration": "Oystersteel / black dial / red-and-blue bezel / Oyster bracelet 79200",
+          "amount": 10700,
+          "currency": "USD",
+          "market": "United States",
+          "taxBasis": "excluded",
+          "basis": "historical-list",
+          "checkedAt": "2026-10-28",
+          "effectiveDate": "2024-06-01",
+          "sourceUrl": "https://davidsw.com/wp-content/uploads/2024/05/Rolex-Brochure-HIGH-RES-24.05.30-01.pdf",
+          "sourceName": "Rolex Watch U.S.A. - June 2024 manufacturer MSRP list (archived by DavidSW)",
+          "sourceType": "manufacturer"
+        }
+      ],
+      "currentUsBudgetBenchmark": null,
       "identitySources": [
         {
           "label": "Rolex reference source",
@@ -59,6 +81,7 @@
           "sourceType": "manufacturer"
         }
       ],
+      "currentUsBudgetBenchmark": 11800,
       "identitySources": [
         {
           "label": "Rolex reference source",
@@ -94,6 +117,7 @@
           "sourceType": "manufacturer"
         }
       ],
+      "currentUsBudgetBenchmark": 12500,
       "identitySources": [
         {
           "label": "Rolex reference source",
@@ -125,6 +149,7 @@
           "sourceType": "manufacturer"
         }
       ],
+      "currentUsBudgetBenchmark": 20450,
       "identitySources": [
         {
           "label": "Rolex reference source",
@@ -156,6 +181,7 @@
           "sourceType": "manufacturer"
         }
       ],
+      "currentUsBudgetBenchmark": 50800,
       "identitySources": [
         {
           "label": "Rolex reference source",
@@ -168,8 +194,26 @@
       "collection": "GMT-Master II",
       "reference": "126719BLRO",
       "path": "/collections/rolex/gmt-master-ii/126719blro",
-      "status": "research-pending",
-      "prices": [],
+      "status": "sourced-list-price",
+      "prices": [
+        {
+          "brand": "Rolex",
+          "reference": "126719BLRO",
+          "manufacturerReference": "126719BLRO-0003",
+          "configuration": "18 ct white gold / midnight blue dial / red-and-blue bezel / Oyster bracelet 79209",
+          "amount": 42300,
+          "currency": "USD",
+          "market": "United States",
+          "taxBasis": "excluded",
+          "basis": "historical-list",
+          "checkedAt": "2026-10-28",
+          "effectiveDate": "2024-06-01",
+          "sourceUrl": "https://davidsw.com/wp-content/uploads/2024/05/Rolex-Brochure-HIGH-RES-24.05.30-01.pdf",
+          "sourceName": "Rolex Watch U.S.A. - June 2024 manufacturer MSRP list (archived by DavidSW)",
+          "sourceType": "manufacturer"
+        }
+      ],
+      "currentUsBudgetBenchmark": null,
       "identitySources": [
         {
           "label": "Rolex reference source",
@@ -182,8 +226,27 @@
       "collection": "GMT-Master II",
       "reference": "116710BLNR",
       "path": "/collections/rolex/gmt-master-ii/116710blnr",
-      "status": "research-pending",
-      "prices": [],
+      "status": "sourced-list-price",
+      "prices": [
+        {
+          "brand": "Rolex",
+          "reference": "116710BLNR",
+          "manufacturerReference": "116710BLNR",
+          "configuration": "Steel / black dial / black-and-blue ceramic bezel / Oyster bracelet 78200",
+          "amount": 8250,
+          "currency": "EUR",
+          "market": "Netherlands",
+          "taxBasis": "included",
+          "basis": "historical-list",
+          "checkedAt": "2026-10-28",
+          "effectiveDate": null,
+          "effectivePeriod": "2016-02",
+          "sourceUrl": "https://rolexforum.nl/prijslijst-rolex-NL2016.pdf",
+          "sourceName": "Rolex SA - 2016-02 manufacturer MSRP list (archived by rolexforum.nl)",
+          "sourceType": "manufacturer"
+        }
+      ],
+      "currentUsBudgetBenchmark": null,
       "identitySources": [
         {
           "label": "Rolex reference source",
@@ -196,8 +259,26 @@
       "collection": "GMT-Master II",
       "reference": "116710LN",
       "path": "/collections/rolex/gmt-master-ii/116710ln",
-      "status": "research-pending",
-      "prices": [],
+      "status": "sourced-list-price",
+      "prices": [
+        {
+          "brand": "Rolex",
+          "reference": "116710LN",
+          "manufacturerReference": "116710LN",
+          "configuration": "Steel / black dial / black ceramic bezel / Oysterlock bracelet 78200",
+          "amount": 8450,
+          "currency": "USD",
+          "market": "United States",
+          "taxBasis": "unconfirmed",
+          "basis": "historical-list",
+          "checkedAt": "2026-10-28",
+          "effectiveDate": "2012-06-01",
+          "sourceUrl": "https://www.minus4plus6.com/pdf/Rolex_Price_List_June-1-2012.pdf",
+          "sourceName": "Rolex Watch U.S.A., Inc. - 2012-06 manufacturer MSRP list (archived by minus4plus6.com)",
+          "sourceType": "manufacturer"
+        }
+      ],
+      "currentUsBudgetBenchmark": null,
       "identitySources": [
         {
           "label": "Rolex reference source",
@@ -229,6 +310,7 @@
           "sourceType": "manufacturer"
         }
       ],
+      "currentUsBudgetBenchmark": 16900,
       "identitySources": [
         {
           "label": "Rolex reference source",
@@ -243,6 +325,7 @@
       "path": "/collections/rolex/daytona/116500ln",
       "status": "research-pending",
       "prices": [],
+      "currentUsBudgetBenchmark": null,
       "identitySources": [
         {
           "label": "Rolex reference source",
@@ -255,8 +338,27 @@
       "collection": "Daytona",
       "reference": "116520",
       "path": "/collections/rolex/daytona/116520",
-      "status": "research-pending",
-      "prices": [],
+      "status": "sourced-list-price",
+      "prices": [
+        {
+          "brand": "Rolex",
+          "reference": "116520",
+          "manufacturerReference": "116520",
+          "configuration": "Standard steel Cosmograph Daytona / Oysterlock 78590; source does not specify a dial suffix",
+          "configurationScope": "base-reference",
+          "amount": 12000,
+          "currency": "USD",
+          "market": "United States",
+          "taxBasis": "unconfirmed",
+          "basis": "historical-list",
+          "checkedAt": "2026-10-28",
+          "effectiveDate": "2012-06-01",
+          "sourceUrl": "https://www.minus4plus6.com/pdf/Rolex_Price_List_June-1-2012.pdf",
+          "sourceName": "Rolex Watch U.S.A., Inc. - 2012-06 manufacturer MSRP list (archived by minus4plus6.com)",
+          "sourceType": "manufacturer"
+        }
+      ],
+      "currentUsBudgetBenchmark": null,
       "identitySources": [
         {
           "label": "Rolex reference source",
@@ -271,6 +373,7 @@
       "path": "/collections/rolex/daytona/16520",
       "status": "research-pending",
       "prices": [],
+      "currentUsBudgetBenchmark": null,
       "identitySources": [
         {
           "label": "Rolex reference source",
@@ -302,6 +405,7 @@
           "sourceType": "manufacturer"
         }
       ],
+      "currentUsBudgetBenchmark": 55200,
       "identitySources": [
         {
           "label": "Rolex reference source",
@@ -333,6 +437,7 @@
           "sourceType": "manufacturer"
         }
       ],
+      "currentUsBudgetBenchmark": 44800,
       "identitySources": [
         {
           "label": "Rolex reference source",
@@ -364,6 +469,7 @@
           "sourceType": "manufacturer"
         }
       ],
+      "currentUsBudgetBenchmark": 46900,
       "identitySources": [
         {
           "label": "Rolex reference source",
@@ -395,6 +501,7 @@
           "sourceType": "manufacturer"
         }
       ],
+      "currentUsBudgetBenchmark": 84600,
       "identitySources": [
         {
           "label": "Rolex reference source",
@@ -426,6 +533,7 @@
           "sourceType": "manufacturer"
         }
       ],
+      "currentUsBudgetBenchmark": 11350,
       "identitySources": [
         {
           "label": "Rolex reference source",
@@ -457,6 +565,7 @@
           "sourceType": "manufacturer"
         }
       ],
+      "currentUsBudgetBenchmark": 11900,
       "identitySources": [
         {
           "label": "Rolex reference source",
@@ -488,6 +597,7 @@
           "sourceType": "manufacturer"
         }
       ],
+      "currentUsBudgetBenchmark": 10050,
       "identitySources": []
     },
     {
@@ -495,8 +605,26 @@
       "collection": "Submariner",
       "reference": "116610LV",
       "path": "/collections/rolex/submariner/116610lv",
-      "status": "research-pending",
-      "prices": [],
+      "status": "sourced-list-price",
+      "prices": [
+        {
+          "brand": "Rolex",
+          "reference": "116610LV",
+          "manufacturerReference": "116610LV",
+          "configuration": "Steel / green dial / green ceramic bezel / Oyster Glidelock bracelet 97200",
+          "amount": 9050,
+          "currency": "USD",
+          "market": "United States",
+          "taxBasis": "unconfirmed",
+          "basis": "historical-list",
+          "checkedAt": "2026-10-28",
+          "effectiveDate": "2012-06-01",
+          "sourceUrl": "https://www.minus4plus6.com/pdf/Rolex_Price_List_June-1-2012.pdf",
+          "sourceName": "Rolex Watch U.S.A., Inc. - 2012-06 manufacturer MSRP list (archived by minus4plus6.com)",
+          "sourceType": "manufacturer"
+        }
+      ],
+      "currentUsBudgetBenchmark": null,
       "identitySources": [
         {
           "label": "Rolex reference source",
@@ -509,8 +637,26 @@
       "collection": "Submariner",
       "reference": "126619LB",
       "path": "/collections/rolex/submariner/126619lb",
-      "status": "research-pending",
-      "prices": [],
+      "status": "sourced-list-price",
+      "prices": [
+        {
+          "brand": "Rolex",
+          "reference": "126619LB",
+          "manufacturerReference": "126619LB-0003",
+          "configuration": "18 ct white gold / black dial / blue bezel / Oyster bracelet 97JA09",
+          "amount": 43700,
+          "currency": "USD",
+          "market": "United States",
+          "taxBasis": "excluded",
+          "basis": "historical-list",
+          "checkedAt": "2026-10-28",
+          "effectiveDate": "2024-06-01",
+          "sourceUrl": "https://davidsw.com/wp-content/uploads/2024/05/Rolex-Brochure-HIGH-RES-24.05.30-01.pdf",
+          "sourceName": "Rolex Watch U.S.A. - June 2024 manufacturer MSRP list (archived by DavidSW)",
+          "sourceType": "manufacturer"
+        }
+      ],
+      "currentUsBudgetBenchmark": null,
       "identitySources": [
         {
           "label": "Rolex reference source",
@@ -542,6 +688,7 @@
           "sourceType": "manufacturer"
         }
       ],
+      "currentUsBudgetBenchmark": 19450,
       "identitySources": [
         {
           "label": "Rolex reference source",
@@ -573,6 +720,7 @@
           "sourceType": "manufacturer"
         }
       ],
+      "currentUsBudgetBenchmark": 50900,
       "identitySources": [
         {
           "label": "Rolex reference source",
@@ -604,6 +752,7 @@
           "sourceType": "manufacturer"
         }
       ],
+      "currentUsBudgetBenchmark": 11650,
       "identitySources": [
         {
           "label": "Rolex reference source",
@@ -635,6 +784,7 @@
           "sourceType": "manufacturer"
         }
       ],
+      "currentUsBudgetBenchmark": 8950,
       "identitySources": [
         {
           "label": "Rolex reference source",
@@ -666,6 +816,7 @@
           "sourceType": "manufacturer"
         }
       ],
+      "currentUsBudgetBenchmark": 16900,
       "identitySources": [
         {
           "label": "Rolex reference source",
@@ -697,6 +848,7 @@
           "sourceType": "manufacturer"
         }
       ],
+      "currentUsBudgetBenchmark": 10100,
       "identitySources": [
         {
           "label": "Rolex reference source",
@@ -728,6 +880,7 @@
           "sourceType": "manufacturer"
         }
       ],
+      "currentUsBudgetBenchmark": 8350,
       "identitySources": [
         {
           "label": "Rolex reference source",
@@ -759,6 +912,7 @@
           "sourceType": "manufacturer"
         }
       ],
+      "currentUsBudgetBenchmark": 16800,
       "identitySources": [
         {
           "label": "Rolex reference source",
@@ -790,6 +944,7 @@
           "sourceType": "manufacturer"
         }
       ],
+      "currentUsBudgetBenchmark": 50400,
       "identitySources": [
         {
           "label": "Rolex reference source",
@@ -821,6 +976,7 @@
           "sourceType": "manufacturer"
         }
       ],
+      "currentUsBudgetBenchmark": 63900,
       "identitySources": [
         {
           "label": "Rolex reference source",
@@ -852,6 +1008,7 @@
           "sourceType": "manufacturer"
         }
       ],
+      "currentUsBudgetBenchmark": 58950,
       "identitySources": [
         {
           "label": "Rolex reference source",
@@ -866,6 +1023,7 @@
       "path": "/collections/rolex/day-date/228206",
       "status": "research-pending",
       "prices": [],
+      "currentUsBudgetBenchmark": null,
       "identitySources": [
         {
           "label": "Rolex reference source",
@@ -897,6 +1055,7 @@
           "sourceType": "manufacturer"
         }
       ],
+      "currentUsBudgetBenchmark": 50650,
       "identitySources": [
         {
           "label": "Rolex reference source",
@@ -911,6 +1070,7 @@
       "path": "/collections/rolex/day-date/118238",
       "status": "research-pending",
       "prices": [],
+      "currentUsBudgetBenchmark": null,
       "identitySources": [
         {
           "label": "Rolex reference source",
@@ -942,6 +1102,7 @@
           "sourceType": "manufacturer"
         }
       ],
+      "currentUsBudgetBenchmark": 78500,
       "identitySources": [
         {
           "label": "Rolex reference source",
@@ -973,6 +1134,7 @@
           "sourceType": "manufacturer"
         }
       ],
+      "currentUsBudgetBenchmark": 17750,
       "identitySources": [
         {
           "label": "Rolex reference source",
@@ -1004,6 +1166,7 @@
           "sourceType": "manufacturer"
         }
       ],
+      "currentUsBudgetBenchmark": 24050,
       "identitySources": [
         {
           "label": "Rolex reference source",
@@ -1035,6 +1198,7 @@
           "sourceType": "manufacturer"
         }
       ],
+      "currentUsBudgetBenchmark": 51400,
       "identitySources": [
         {
           "label": "Rolex reference source",
@@ -1066,6 +1230,7 @@
           "sourceType": "manufacturer"
         }
       ],
+      "currentUsBudgetBenchmark": 53450,
       "identitySources": [
         {
           "label": "Rolex reference source",
@@ -1080,6 +1245,7 @@
       "path": "/collections/rolex/sky-dweller/326934",
       "status": "research-pending",
       "prices": [],
+      "currentUsBudgetBenchmark": null,
       "identitySources": [
         {
           "label": "Rolex reference source",
@@ -1111,6 +1277,7 @@
           "sourceType": "manufacturer"
         }
       ],
+      "currentUsBudgetBenchmark": 60100,
       "identitySources": [
         {
           "label": "Rolex reference source",
@@ -1142,6 +1309,7 @@
           "sourceType": "manufacturer"
         }
       ],
+      "currentUsBudgetBenchmark": 64900,
       "identitySources": [
         {
           "label": "Rolex reference source",
@@ -1173,6 +1341,7 @@
           "sourceType": "manufacturer"
         }
       ],
+      "currentUsBudgetBenchmark": 13200,
       "identitySources": [
         {
           "label": "Rolex reference source",
@@ -1204,6 +1373,7 @@
           "sourceType": "manufacturer"
         }
       ],
+      "currentUsBudgetBenchmark": 19750,
       "identitySources": [
         {
           "label": "Rolex reference source",
@@ -1235,6 +1405,7 @@
           "sourceType": "manufacturer"
         }
       ],
+      "currentUsBudgetBenchmark": 37700,
       "identitySources": [
         {
           "label": "Rolex reference source",
@@ -1266,6 +1437,7 @@
           "sourceType": "manufacturer"
         }
       ],
+      "currentUsBudgetBenchmark": 40000,
       "identitySources": [
         {
           "label": "Rolex reference source",
@@ -1297,6 +1469,7 @@
           "sourceType": "manufacturer"
         }
       ],
+      "currentUsBudgetBenchmark": 38100,
       "identitySources": [
         {
           "label": "Rolex reference source",
@@ -1328,6 +1501,7 @@
           "sourceType": "manufacturer"
         }
       ],
+      "currentUsBudgetBenchmark": 12500,
       "identitySources": [
         {
           "label": "Rolex reference source",
@@ -1359,6 +1533,7 @@
           "sourceType": "manufacturer"
         }
       ],
+      "currentUsBudgetBenchmark": 8350,
       "identitySources": [
         {
           "label": "Rolex reference source",
@@ -1406,6 +1581,7 @@
           "sourceType": "manufacturer"
         }
       ],
+      "currentUsBudgetBenchmark": 10600,
       "identitySources": [
         {
           "label": "Rolex reference source",
@@ -1437,6 +1613,7 @@
           "sourceType": "manufacturer"
         }
       ],
+      "currentUsBudgetBenchmark": 14550,
       "identitySources": [
         {
           "label": "Rolex reference source",
@@ -1451,6 +1628,7 @@
       "path": "/collections/rolex/oyster-perpetual/124300",
       "status": "research-pending",
       "prices": [],
+      "currentUsBudgetBenchmark": null,
       "identitySources": [
         {
           "label": "Rolex reference source",
@@ -1482,6 +1660,7 @@
           "sourceType": "manufacturer"
         }
       ],
+      "currentUsBudgetBenchmark": 8150,
       "identitySources": [
         {
           "label": "Rolex reference source",
@@ -1513,6 +1692,7 @@
           "sourceType": "manufacturer"
         }
       ],
+      "currentUsBudgetBenchmark": 28850,
       "identitySources": [
         {
           "label": "Rolex reference source",
@@ -1525,8 +1705,27 @@
       "collection": "Milgauss",
       "reference": "116400GV",
       "path": "/collections/rolex/milgauss/116400gv",
-      "status": "research-pending",
-      "prices": [],
+      "status": "sourced-list-price",
+      "prices": [
+        {
+          "brand": "Rolex",
+          "reference": "116400GV",
+          "manufacturerReference": "116400GV",
+          "configuration": "Standard steel Milgauss GV / green sapphire crystal / Oyster 72400; source does not specify a dial suffix",
+          "configurationScope": "base-reference",
+          "amount": 8200,
+          "currency": "USD",
+          "market": "United States",
+          "taxBasis": "unconfirmed",
+          "basis": "historical-list",
+          "checkedAt": "2026-10-28",
+          "effectiveDate": "2012-06-01",
+          "sourceUrl": "https://www.minus4plus6.com/pdf/Rolex_Price_List_June-1-2012.pdf",
+          "sourceName": "Rolex Watch U.S.A., Inc. - 2012-06 manufacturer MSRP list (archived by minus4plus6.com)",
+          "sourceType": "manufacturer"
+        }
+      ],
+      "currentUsBudgetBenchmark": null,
       "identitySources": [
         {
           "label": "Rolex reference source",
@@ -1541,6 +1740,7 @@
       "path": "/collections/patek-philippe/nautilus/5711-1a",
       "status": "research-pending",
       "prices": [],
+      "currentUsBudgetBenchmark": null,
       "identitySources": []
     },
     {
@@ -1567,6 +1767,7 @@
           "sourceType": "manufacturer"
         }
       ],
+      "currentUsBudgetBenchmark": 82021,
       "identitySources": []
     },
     {
@@ -1576,6 +1777,7 @@
       "path": "/collections/patek-philippe/nautilus/5712-1a",
       "status": "research-pending",
       "prices": [],
+      "currentUsBudgetBenchmark": null,
       "identitySources": [
         {
           "label": "Patek Philippe reference source",
@@ -1607,6 +1809,7 @@
           "sourceType": "manufacturer"
         }
       ],
+      "currentUsBudgetBenchmark": 76895,
       "identitySources": [
         {
           "label": "Patek Philippe reference source",
@@ -1621,6 +1824,7 @@
       "path": "/collections/patek-philippe/nautilus/5980-1a",
       "status": "research-pending",
       "prices": [],
+      "currentUsBudgetBenchmark": null,
       "identitySources": [
         {
           "label": "Patek Philippe reference source",
@@ -1652,6 +1856,7 @@
           "sourceType": "manufacturer"
         }
       ],
+      "currentUsBudgetBenchmark": 62766,
       "identitySources": [
         {
           "label": "Patek Philippe reference source",
@@ -1664,8 +1869,26 @@
       "collection": "Royal Oak",
       "reference": "15510ST",
       "path": "/collections/audemars-piguet/royal-oak/15510st",
-      "status": "research-pending",
-      "prices": [],
+      "status": "sourced-list-price",
+      "prices": [
+        {
+          "brand": "Audemars Piguet",
+          "reference": "15510ST",
+          "manufacturerReference": "15510ST.OO.1320ST.06",
+          "configuration": "41 mm stainless steel / Bleu Nuit, Nuage 50 Grande Tapisserie dial / stainless-steel bracelet",
+          "amount": 31900,
+          "currency": "USD",
+          "market": "United States",
+          "taxBasis": "excluded",
+          "basis": "current-list",
+          "checkedAt": "2026-10-28",
+          "effectiveDate": null,
+          "sourceUrl": "https://www.audemarspiguet.com/us/en/watch-collection/royal-oak/15510ST.OO.1320ST.06",
+          "sourceName": "Audemars Piguet United States",
+          "sourceType": "manufacturer"
+        }
+      ],
+      "currentUsBudgetBenchmark": 31900,
       "identitySources": []
     },
     {
@@ -1673,8 +1896,26 @@
       "collection": "Royal Oak",
       "reference": "16202ST",
       "path": "/collections/audemars-piguet/royal-oak/16202st",
-      "status": "research-pending",
-      "prices": [],
+      "status": "sourced-list-price",
+      "prices": [
+        {
+          "brand": "Audemars Piguet",
+          "reference": "16202ST",
+          "manufacturerReference": "16202ST.OO.1240ST.02",
+          "configuration": "39 mm stainless steel / Bleu Nuit, Nuage 50 Petite Tapisserie dial / stainless-steel bracelet",
+          "amount": 40100,
+          "currency": "USD",
+          "market": "United States",
+          "taxBasis": "excluded",
+          "basis": "current-list",
+          "checkedAt": "2026-10-28",
+          "effectiveDate": null,
+          "sourceUrl": "https://www.audemarspiguet.com/us/en/watch-collection/royal-oak/16202ST.OO.1240ST.02",
+          "sourceName": "Audemars Piguet United States",
+          "sourceType": "manufacturer"
+        }
+      ],
+      "currentUsBudgetBenchmark": 40100,
       "identitySources": [
         {
           "label": "Audemars Piguet reference source",
@@ -1689,6 +1930,7 @@
       "path": "/collections/audemars-piguet/royal-oak/15400st",
       "status": "research-pending",
       "prices": [],
+      "currentUsBudgetBenchmark": null,
       "identitySources": [
         {
           "label": "Audemars Piguet reference source",
@@ -1703,6 +1945,7 @@
       "path": "/collections/audemars-piguet/royal-oak/15202st",
       "status": "research-pending",
       "prices": [],
+      "currentUsBudgetBenchmark": null,
       "identitySources": [
         {
           "label": "Audemars Piguet reference source",
@@ -1715,8 +1958,26 @@
       "collection": "Royal Oak",
       "reference": "15500ST",
       "path": "/collections/audemars-piguet/royal-oak/15500st",
-      "status": "research-pending",
-      "prices": [],
+      "status": "sourced-list-price",
+      "prices": [
+        {
+          "brand": "Audemars Piguet",
+          "reference": "15500ST",
+          "manufacturerReference": "15500ST.OO.1220ST.02",
+          "configuration": "41 mm stainless steel / slate-grey Grande Tapisserie dial / stainless-steel bracelet",
+          "amount": 31900,
+          "currency": "USD",
+          "market": "United States",
+          "taxBasis": "excluded",
+          "basis": "current-list",
+          "checkedAt": "2026-10-28",
+          "effectiveDate": null,
+          "sourceUrl": "https://www.audemarspiguet.com/us/en/watch-collection/royal-oak/15500ST.OO.1220ST.02",
+          "sourceName": "Audemars Piguet United States",
+          "sourceType": "manufacturer"
+        }
+      ],
+      "currentUsBudgetBenchmark": 31900,
       "identitySources": [
         {
           "label": "Audemars Piguet reference source",
@@ -1731,6 +1992,7 @@
       "path": "/collections/audemars-piguet/royal-oak/14790st",
       "status": "research-pending",
       "prices": [],
+      "currentUsBudgetBenchmark": null,
       "identitySources": [
         {
           "label": "Audemars Piguet reference source",
@@ -1743,8 +2005,26 @@
       "collection": "Royal Oak",
       "reference": "26615TI.OO.1220TI.01",
       "path": "/collections/audemars-piguet/royal-oak/26615ti-oo-1220ti-01",
-      "status": "research-pending",
-      "prices": [],
+      "status": "sourced-list-price",
+      "prices": [
+        {
+          "brand": "Audemars Piguet",
+          "reference": "26615TI.OO.1220TI.01",
+          "manufacturerReference": "26615TI.OO.1220TI.01",
+          "configuration": "41 mm titanium / salmon Grande Tapisserie dial / titanium bracelet",
+          "amount": 124200,
+          "currency": "USD",
+          "market": "United States",
+          "taxBasis": "excluded",
+          "basis": "current-list",
+          "checkedAt": "2026-10-28",
+          "effectiveDate": null,
+          "sourceUrl": "https://www.audemarspiguet.com/us/en/watch-collection/royal-oak/26615TI.OO.1220TI.01",
+          "sourceName": "Audemars Piguet United States",
+          "sourceType": "manufacturer"
+        }
+      ],
+      "currentUsBudgetBenchmark": 124200,
       "identitySources": [
         {
           "label": "Audemars Piguet reference source",
@@ -1759,6 +2039,7 @@
       "path": "/collections/audemars-piguet/royal-oak/26607bc-oo-1220bc-01",
       "status": "research-pending",
       "prices": [],
+      "currentUsBudgetBenchmark": null,
       "identitySources": [
         {
           "label": "Audemars Piguet reference source",
@@ -1771,8 +2052,26 @@
       "collection": "Royal Oak",
       "reference": "15500ST.OO.1220ST.03",
       "path": "/collections/audemars-piguet/royal-oak/15500st-oo-1220st-03",
-      "status": "research-pending",
-      "prices": [],
+      "status": "sourced-list-price",
+      "prices": [
+        {
+          "brand": "Audemars Piguet",
+          "reference": "15500ST.OO.1220ST.03",
+          "manufacturerReference": "15500ST.OO.1220ST.03",
+          "configuration": "41 mm stainless steel / black Grande Tapisserie dial / stainless-steel bracelet",
+          "amount": 31900,
+          "currency": "USD",
+          "market": "United States",
+          "taxBasis": "excluded",
+          "basis": "current-list",
+          "checkedAt": "2026-10-28",
+          "effectiveDate": null,
+          "sourceUrl": "https://www.audemarspiguet.com/us/en/watch-collection/royal-oak/15500ST.OO.1220ST.03",
+          "sourceName": "Audemars Piguet United States",
+          "sourceType": "manufacturer"
+        }
+      ],
+      "currentUsBudgetBenchmark": 31900,
       "identitySources": [
         {
           "label": "Audemars Piguet reference source",
@@ -1787,6 +2086,7 @@
       "path": "/collections/audemars-piguet/royal-oak/26585ce-oo-1225ce-01",
       "status": "research-pending",
       "prices": [],
+      "currentUsBudgetBenchmark": null,
       "identitySources": [
         {
           "label": "Audemars Piguet reference source",
@@ -1801,6 +2101,7 @@
       "path": "/collections/audemars-piguet/royal-oak/26585xt-oo-1220xt-01",
       "status": "research-pending",
       "prices": [],
+      "currentUsBudgetBenchmark": null,
       "identitySources": [
         {
           "label": "Audemars Piguet reference source",
@@ -1815,6 +2116,7 @@
       "path": "/collections/audemars-piguet/royal-oak/26585cm-oo-d301ve-01",
       "status": "research-pending",
       "prices": [],
+      "currentUsBudgetBenchmark": null,
       "identitySources": [
         {
           "label": "Audemars Piguet reference source",
@@ -1829,6 +2131,7 @@
       "path": "/collections/audemars-piguet/royal-oak/15412bc-zz-1220bc-01",
       "status": "research-pending",
       "prices": [],
+      "currentUsBudgetBenchmark": null,
       "identitySources": [
         {
           "label": "Audemars Piguet reference source",
@@ -1843,6 +2146,7 @@
       "path": "/collections/audemars-piguet/royal-oak/15412or-zz-1220or-01",
       "status": "research-pending",
       "prices": [],
+      "currentUsBudgetBenchmark": null,
       "identitySources": [
         {
           "label": "Audemars Piguet reference source",
@@ -1857,6 +2161,7 @@
       "path": "/collections/audemars-piguet/royal-oak/15412ba-zg-1224ba-01",
       "status": "research-pending",
       "prices": [],
+      "currentUsBudgetBenchmark": null,
       "identitySources": [
         {
           "label": "Audemars Piguet reference source",
@@ -1871,6 +2176,7 @@
       "path": "/collections/audemars-piguet/royal-oak/26341st-oo-1105st-01",
       "status": "research-pending",
       "prices": [],
+      "currentUsBudgetBenchmark": null,
       "identitySources": [
         {
           "label": "Audemars Piguet reference source",
@@ -1885,6 +2191,7 @@
       "path": "/collections/richard-mille/rm-11/rm11-03",
       "status": "research-pending",
       "prices": [],
+      "currentUsBudgetBenchmark": null,
       "identitySources": [
         {
           "label": "Richard Mille reference source",
@@ -1897,8 +2204,26 @@
       "collection": "Overseas",
       "reference": "4520V",
       "path": "/collections/vacheron-constantin/overseas/4520v",
-      "status": "research-pending",
-      "prices": [],
+      "status": "sourced-list-price",
+      "prices": [
+        {
+          "brand": "Vacheron Constantin",
+          "reference": "4520V",
+          "manufacturerReference": "4520V/210A-B128",
+          "configuration": "Blue lacquered sunburst dial / 41 mm steel / steel bracelet / caliber 5100",
+          "amount": 29200,
+          "currency": "USD",
+          "market": "United States",
+          "taxBasis": "excluded",
+          "basis": "current-list",
+          "checkedAt": "2026-10-28",
+          "effectiveDate": null,
+          "sourceUrl": "https://www.vacheron-constantin.com/us/en/collections/overseas/4520v-210a-b128.html",
+          "sourceName": "Vacheron Constantin United States",
+          "sourceType": "manufacturer"
+        }
+      ],
+      "currentUsBudgetBenchmark": 29200,
       "identitySources": []
     },
     {
@@ -1906,8 +2231,26 @@
       "collection": "Overseas",
       "reference": "4300V/220G-H151",
       "path": "/collections/vacheron-constantin/overseas/4300v-220g-h151",
-      "status": "research-pending",
-      "prices": [],
+      "status": "sourced-list-price",
+      "prices": [
+        {
+          "brand": "Vacheron Constantin",
+          "reference": "4300V/220G-H151",
+          "manufacturerReference": "4300V/220G-H151",
+          "configuration": "Burgundy lacquered sunburst dial / 41.5 mm white gold / white gold bracelet plus burgundy and white rubber straps / 1120 QP",
+          "amount": 132000,
+          "currency": "USD",
+          "market": "United States",
+          "taxBasis": "excluded",
+          "basis": "current-list",
+          "checkedAt": "2026-10-28",
+          "effectiveDate": null,
+          "sourceUrl": "https://www.vacheron-constantin.com/us/en/collections/overseas/4300v-220g-h151.html",
+          "sourceName": "Vacheron Constantin United States",
+          "sourceType": "manufacturer"
+        }
+      ],
+      "currentUsBudgetBenchmark": 132000,
       "identitySources": [
         {
           "label": "Vacheron Constantin reference source",
@@ -1922,6 +2265,7 @@
       "path": "/collections/vacheron-constantin/overseas/6000v-110a-b544",
       "status": "research-pending",
       "prices": [],
+      "currentUsBudgetBenchmark": null,
       "identitySources": [
         {
           "label": "Vacheron Constantin reference source",
@@ -1936,6 +2280,7 @@
       "path": "/collections/fp-journe/chronometre-bleu/cb",
       "status": "research-pending",
       "prices": [],
+      "currentUsBudgetBenchmark": null,
       "identitySources": [
         {
           "label": "F.P. Journe reference source",
@@ -1950,6 +2295,7 @@
       "path": "/collections/hublot/big-bang/441-nx-1171-rx",
       "status": "research-pending",
       "prices": [],
+      "currentUsBudgetBenchmark": null,
       "identitySources": [
         {
           "label": "Hublot reference source",
@@ -1964,6 +2310,7 @@
       "path": "/collections/hublot/big-bang/429-nm-0170-rx",
       "status": "research-pending",
       "prices": [],
+      "currentUsBudgetBenchmark": null,
       "identitySources": [
         {
           "label": "Hublot reference source",
@@ -1995,6 +2342,7 @@
           "sourceType": "manufacturer"
         }
       ],
+      "currentUsBudgetBenchmark": 8400,
       "identitySources": [
         {
           "label": "Cartier reference source",
@@ -2026,6 +2374,7 @@
           "sourceType": "manufacturer"
         }
       ],
+      "currentUsBudgetBenchmark": 9200,
       "identitySources": [
         {
           "label": "Cartier reference source",
@@ -2057,6 +2406,7 @@
           "sourceType": "manufacturer"
         }
       ],
+      "currentUsBudgetBenchmark": 9000,
       "identitySources": [
         {
           "label": "Omega reference source",
@@ -2088,6 +2438,7 @@
           "sourceType": "manufacturer"
         }
       ],
+      "currentUsBudgetBenchmark": 7800,
       "identitySources": [
         {
           "label": "Omega reference source",
@@ -2102,6 +2453,7 @@
       "path": "/collections/omega/speedmaster/311-30-42-30-01-005",
       "status": "research-pending",
       "prices": [],
+      "currentUsBudgetBenchmark": null,
       "identitySources": [
         {
           "label": "Omega reference source",
@@ -2133,6 +2485,7 @@
           "sourceType": "manufacturer"
         }
       ],
+      "currentUsBudgetBenchmark": 8600,
       "identitySources": [
         {
           "label": "Omega reference source",
@@ -2164,6 +2517,7 @@
           "sourceType": "manufacturer"
         }
       ],
+      "currentUsBudgetBenchmark": 7400,
       "identitySources": [
         {
           "label": "Omega reference source",
@@ -2195,6 +2549,7 @@
           "sourceType": "manufacturer"
         }
       ],
+      "currentUsBudgetBenchmark": 11900,
       "identitySources": [
         {
           "label": "Omega reference source",
@@ -2226,6 +2581,7 @@
           "sourceType": "manufacturer"
         }
       ],
+      "currentUsBudgetBenchmark": 9100,
       "identitySources": [
         {
           "label": "Omega reference source",
@@ -2257,6 +2613,7 @@
           "sourceType": "manufacturer"
         }
       ],
+      "currentUsBudgetBenchmark": 50900,
       "identitySources": [
         {
           "label": "Omega reference source",
@@ -2288,6 +2645,7 @@
           "sourceType": "manufacturer"
         }
       ],
+      "currentUsBudgetBenchmark": 8700,
       "identitySources": [
         {
           "label": "Omega reference source",
@@ -2319,6 +2677,7 @@
           "sourceType": "manufacturer"
         }
       ],
+      "currentUsBudgetBenchmark": 21100,
       "identitySources": [
         {
           "label": "Omega reference source",
@@ -2350,6 +2709,7 @@
           "sourceType": "manufacturer"
         }
       ],
+      "currentUsBudgetBenchmark": 36100,
       "identitySources": [
         {
           "label": "Omega reference source",
@@ -2362,8 +2722,27 @@
       "collection": "Black Bay",
       "reference": "79030N",
       "path": "/collections/tudor/black-bay/79030n",
-      "status": "research-pending",
-      "prices": [],
+      "status": "sourced-list-price",
+      "prices": [
+        {
+          "brand": "Tudor",
+          "reference": "79030N",
+          "manufacturerReference": "79030N",
+          "configuration": "Black domed dial / 39 mm steel / riveted steel bracelet / MT5402",
+          "amount": 3400,
+          "currency": "CHF",
+          "market": "Switzerland",
+          "taxBasis": "included",
+          "basis": "historical-list",
+          "checkedAt": "2026-10-28",
+          "effectiveDate": null,
+          "effectivePeriod": "2018",
+          "sourceUrl": "https://media.tudorwatch.com/image/upload/fl_attachment/v1/tudorwatch/pressroom/products/black-bay-58/pdf/bw18-tudor-black-bay-fifty-eight-en.pdf",
+          "sourceName": "TUDOR 2018 Black Bay Fifty-Eight manufacturer press kit",
+          "sourceType": "manufacturer"
+        }
+      ],
+      "currentUsBudgetBenchmark": null,
       "identitySources": [
         {
           "label": "Tudor reference source",
@@ -2395,6 +2774,7 @@
           "sourceType": "manufacturer"
         }
       ],
+      "currentUsBudgetBenchmark": 5325,
       "identitySources": [
         {
           "label": "Tudor reference source",
@@ -2426,6 +2806,7 @@
           "sourceType": "manufacturer"
         }
       ],
+      "currentUsBudgetBenchmark": 5450,
       "identitySources": [
         {
           "label": "Tudor reference source",
@@ -2460,6 +2841,7 @@
           ]
         }
       ],
+      "currentUsBudgetBenchmark": 4725,
       "identitySources": [
         {
           "label": "Tudor reference source",
@@ -2474,6 +2856,7 @@
       "path": "/collections/panerai/luminor/pam01312",
       "status": "research-pending",
       "prices": [],
+      "currentUsBudgetBenchmark": null,
       "identitySources": []
     },
     {
@@ -2500,6 +2883,7 @@
           "sourceType": "manufacturer"
         }
       ],
+      "currentUsBudgetBenchmark": 10700,
       "identitySources": []
     },
     {
@@ -2526,6 +2910,7 @@
           "sourceType": "manufacturer"
         }
       ],
+      "currentUsBudgetBenchmark": 6150,
       "identitySources": [
         {
           "label": "Breitling reference source",
@@ -2557,6 +2942,7 @@
           "sourceType": "manufacturer"
         }
       ],
+      "currentUsBudgetBenchmark": 10300,
       "identitySources": [
         {
           "label": "Breitling reference source",
@@ -2588,6 +2974,7 @@
           "sourceType": "manufacturer"
         }
       ],
+      "currentUsBudgetBenchmark": 10300,
       "identitySources": [
         {
           "label": "Breitling reference source",
@@ -2619,6 +3006,7 @@
           "sourceType": "manufacturer"
         }
       ],
+      "currentUsBudgetBenchmark": 8800,
       "identitySources": [
         {
           "label": "IWC reference source",
@@ -2631,8 +3019,26 @@
       "collection": "Fifty Fathoms",
       "reference": "5015-1130-52A",
       "path": "/collections/blancpain/fifty-fathoms/5015-1130-52a",
-      "status": "research-pending",
-      "prices": [],
+      "status": "sourced-list-price",
+      "prices": [
+        {
+          "brand": "Blancpain",
+          "reference": "5015-1130-52A",
+          "manufacturerReference": "5015-1130-52A",
+          "configuration": "Black dial / 45 mm steel / black sail-canvas strap / classic pin buckle / automatic 1315",
+          "amount": 19100,
+          "currency": "USD",
+          "market": "United States",
+          "taxBasis": "unconfirmed",
+          "basis": "current-list",
+          "checkedAt": "2026-10-28",
+          "effectiveDate": null,
+          "sourceUrl": "https://www.blancpain.com/en-us/fifty-fathoms/fifty-fathoms-automatique-5015-1130-52a",
+          "sourceName": "Blancpain United States",
+          "sourceType": "manufacturer"
+        }
+      ],
+      "currentUsBudgetBenchmark": 19100,
       "identitySources": [
         {
           "label": "Blancpain reference source",
@@ -2647,6 +3053,7 @@
       "path": "/collections/jaeger-lecoultre/reverso/q3848422",
       "status": "research-pending",
       "prices": [],
+      "currentUsBudgetBenchmark": null,
       "identitySources": [
         {
           "label": "Jaeger-LeCoultre reference source",
@@ -2661,6 +3068,7 @@
       "path": "/collections/ulysse-nardin/freak/freak",
       "status": "research-pending",
       "prices": [],
+      "currentUsBudgetBenchmark": null,
       "identitySources": [
         {
           "label": "Ulysse Nardin reference source",
@@ -2673,8 +3081,29 @@
       "collection": "Freak",
       "reference": "Freak X",
       "path": "/collections/ulysse-nardin/freak/freak-x",
-      "status": "research-pending",
-      "prices": [],
+      "status": "sourced-list-price",
+      "prices": [
+        {
+          "brand": "Ulysse Nardin",
+          "reference": "2303-270/03",
+          "referenceAliases": [
+            "Freak X"
+          ],
+          "manufacturerReference": "2303-270/03",
+          "configuration": "Blue movement display / 43 mm titanium with blue PVD / blue alligator strap / UN-230",
+          "amount": 32100,
+          "currency": "USD",
+          "market": "United States",
+          "taxBasis": "unconfirmed",
+          "basis": "current-list",
+          "checkedAt": "2026-10-28",
+          "effectiveDate": null,
+          "sourceUrl": "https://www.ulysse-nardin.com/en-us/watches/freak/2303-270-03",
+          "sourceName": "Ulysse Nardin United States",
+          "sourceType": "manufacturer"
+        }
+      ],
+      "currentUsBudgetBenchmark": 32100,
       "identitySources": [
         {
           "label": "Ulysse Nardin reference source",
@@ -2687,8 +3116,29 @@
       "collection": "Freak",
       "reference": "Freak ONE",
       "path": "/collections/ulysse-nardin/freak/freak-one",
-      "status": "research-pending",
-      "prices": [],
+      "status": "sourced-list-price",
+      "prices": [
+        {
+          "brand": "Ulysse Nardin",
+          "reference": "2405-500-2A/3A",
+          "referenceAliases": [
+            "Freak ONE"
+          ],
+          "manufacturerReference": "2405-500-2A/3A",
+          "configuration": "Black movement display / 44 mm titanium and 18 ct gold / black rubber strap / UN-240",
+          "amount": 84900,
+          "currency": "USD",
+          "market": "United States",
+          "taxBasis": "unconfirmed",
+          "basis": "current-list",
+          "checkedAt": "2026-10-28",
+          "effectiveDate": null,
+          "sourceUrl": "https://www.ulysse-nardin.com/en-us/watches/freak/2405-500-2a-3a",
+          "sourceName": "Ulysse Nardin United States",
+          "sourceType": "manufacturer"
+        }
+      ],
+      "currentUsBudgetBenchmark": 84900,
       "identitySources": [
         {
           "label": "Ulysse Nardin reference source",
@@ -2701,8 +3151,29 @@
       "collection": "Freak",
       "reference": "2303-270/03",
       "path": "/collections/ulysse-nardin/freak/2303-270-03",
-      "status": "research-pending",
-      "prices": [],
+      "status": "sourced-list-price",
+      "prices": [
+        {
+          "brand": "Ulysse Nardin",
+          "reference": "2303-270/03",
+          "referenceAliases": [
+            "Freak X"
+          ],
+          "manufacturerReference": "2303-270/03",
+          "configuration": "Blue movement display / 43 mm titanium with blue PVD / blue alligator strap / UN-230",
+          "amount": 32100,
+          "currency": "USD",
+          "market": "United States",
+          "taxBasis": "unconfirmed",
+          "basis": "current-list",
+          "checkedAt": "2026-10-28",
+          "effectiveDate": null,
+          "sourceUrl": "https://www.ulysse-nardin.com/en-us/watches/freak/2303-270-03",
+          "sourceName": "Ulysse Nardin United States",
+          "sourceType": "manufacturer"
+        }
+      ],
+      "currentUsBudgetBenchmark": 32100,
       "identitySources": [
         {
           "label": "Ulysse Nardin reference source",
@@ -2715,8 +3186,26 @@
       "collection": "Freak",
       "reference": "2303-270.1/BLACK",
       "path": "/collections/ulysse-nardin/freak/2303-270-1-black",
-      "status": "research-pending",
-      "prices": [],
+      "status": "sourced-list-price",
+      "prices": [
+        {
+          "brand": "Ulysse Nardin",
+          "reference": "2303-270.1/BLACK",
+          "manufacturerReference": "2303-270.1/BLACK",
+          "configuration": "Black movement display / 43 mm titanium with black PVD / black openwork calf leather strap / UN-230",
+          "amount": 32100,
+          "currency": "USD",
+          "market": "United States",
+          "taxBasis": "unconfirmed",
+          "basis": "current-list",
+          "checkedAt": "2026-10-28",
+          "effectiveDate": null,
+          "sourceUrl": "https://www.ulysse-nardin.com/en-us/watches/freak/2303-270-1-black",
+          "sourceName": "Ulysse Nardin United States",
+          "sourceType": "manufacturer"
+        }
+      ],
+      "currentUsBudgetBenchmark": 32100,
       "identitySources": [
         {
           "label": "Ulysse Nardin reference source",
@@ -2729,8 +3218,29 @@
       "collection": "Freak",
       "reference": "2405-500-2A/3A",
       "path": "/collections/ulysse-nardin/freak/2405-500-2a-3a",
-      "status": "research-pending",
-      "prices": [],
+      "status": "sourced-list-price",
+      "prices": [
+        {
+          "brand": "Ulysse Nardin",
+          "reference": "2405-500-2A/3A",
+          "referenceAliases": [
+            "Freak ONE"
+          ],
+          "manufacturerReference": "2405-500-2A/3A",
+          "configuration": "Black movement display / 44 mm titanium and 18 ct gold / black rubber strap / UN-240",
+          "amount": 84900,
+          "currency": "USD",
+          "market": "United States",
+          "taxBasis": "unconfirmed",
+          "basis": "current-list",
+          "checkedAt": "2026-10-28",
+          "effectiveDate": null,
+          "sourceUrl": "https://www.ulysse-nardin.com/en-us/watches/freak/2405-500-2a-3a",
+          "sourceName": "Ulysse Nardin United States",
+          "sourceType": "manufacturer"
+        }
+      ],
+      "currentUsBudgetBenchmark": 84900,
       "identitySources": [
         {
           "label": "Ulysse Nardin reference source",
@@ -2745,6 +3255,7 @@
       "path": "/collections/franck-muller/vanguard/v45",
       "status": "research-pending",
       "prices": [],
+      "currentUsBudgetBenchmark": null,
       "identitySources": [
         {
           "label": "Franck Muller reference source",
@@ -2759,6 +3270,7 @@
       "path": "/collections/franck-muller/vanguard/v-45-t-br-tt",
       "status": "research-pending",
       "prices": [],
+      "currentUsBudgetBenchmark": null,
       "identitySources": [
         {
           "label": "Franck Muller reference source",
@@ -2771,8 +3283,26 @@
       "collection": "BR 03",
       "reference": "BR0392-BL-CE",
       "path": "/collections/bell-and-ross/br-03/br0392-bl-ce",
-      "status": "research-pending",
-      "prices": [],
+      "status": "sourced-list-price",
+      "prices": [
+        {
+          "brand": "Bell & Ross",
+          "reference": "BR0392-BL-CE",
+          "manufacturerReference": "BR0392-BL-CE",
+          "configuration": "Black dial / 42 mm matte black ceramic / black rubber and black synthetic fabric straps / BR-CAL.302",
+          "amount": 4000,
+          "currency": "USD",
+          "market": "United States",
+          "taxBasis": "unconfirmed",
+          "basis": "current-list",
+          "checkedAt": "2026-10-28",
+          "effectiveDate": null,
+          "sourceUrl": "https://bellross.com/en-us/products/br-03-92-black-matte",
+          "sourceName": "Bell & Ross United States",
+          "sourceType": "manufacturer"
+        }
+      ],
+      "currentUsBudgetBenchmark": 4000,
       "identitySources": [
         {
           "label": "Bell & Ross reference source",
@@ -2785,8 +3315,26 @@
       "collection": "Lange 1",
       "reference": "191-032",
       "path": "/collections/a-lange-and-sohne/lange-1/191-032",
-      "status": "research-pending",
-      "prices": [],
+      "status": "sourced-list-price",
+      "prices": [
+        {
+          "brand": "A. Lange & Söhne",
+          "reference": "191-032",
+          "manufacturerReference": "191.032",
+          "configuration": "Argenté solid-silver dial / 38.5 mm pink gold / brown alligator strap / manual L121.1",
+          "amount": 49500,
+          "currency": "USD",
+          "market": "United States",
+          "taxBasis": "unconfirmed",
+          "basis": "current-list",
+          "checkedAt": "2026-10-28",
+          "effectiveDate": null,
+          "sourceUrl": "https://www.alange-soehne.com/us-en/timepieces/lange-1/lange-1/lange-1-in-750-pink-gold-191-032",
+          "sourceName": "A. Lange & Söhne United States",
+          "sourceType": "manufacturer"
+        }
+      ],
+      "currentUsBudgetBenchmark": 49500,
       "identitySources": [
         {
           "label": "A. Lange & Söhne reference source",
@@ -2801,6 +3349,7 @@
       "path": "/collections/breguet/classique/5177",
       "status": "research-pending",
       "prices": [],
+      "currentUsBudgetBenchmark": null,
       "identitySources": [
         {
           "label": "Breguet reference source",
@@ -2813,8 +3362,26 @@
       "collection": "Laureato",
       "reference": "81010-11-431-11A",
       "path": "/collections/girard-perregaux/laureato/81010-11-431-11a",
-      "status": "research-pending",
-      "prices": [],
+      "status": "sourced-list-price",
+      "prices": [
+        {
+          "brand": "Girard-Perregaux",
+          "reference": "81010-11-431-11A",
+          "manufacturerReference": "81010-11-431-11A",
+          "configuration": "Blue dial / 42 mm steel / integrated steel bracelet / automatic GP01800",
+          "amount": 15000,
+          "currency": "USD",
+          "market": "United States",
+          "taxBasis": "unconfirmed",
+          "basis": "current-list",
+          "checkedAt": "2026-10-28",
+          "effectiveDate": null,
+          "sourceUrl": "https://www.girard-perregaux.com/en-us/watches/laureato/81010-11-431-11a",
+          "sourceName": "Girard-Perregaux United States",
+          "sourceType": "manufacturer"
+        }
+      ],
+      "currentUsBudgetBenchmark": 15000,
       "identitySources": [
         {
           "label": "Girard-Perregaux reference source",
@@ -2827,8 +3394,26 @@
       "collection": "Chronomaster Sport",
       "reference": "03.3100.3600/69.M3100",
       "path": "/collections/zenith/chronomaster-sport/03-3100-3600-69-m3100",
-      "status": "research-pending",
-      "prices": [],
+      "status": "sourced-list-price",
+      "prices": [
+        {
+          "brand": "Zenith",
+          "reference": "03.3100.3600/69.M3100",
+          "manufacturerReference": "03.3100.3600/69.M3100",
+          "configuration": "White tricolor dial / 41 mm steel / black ceramic bezel / steel bracelet / El Primero 3600",
+          "amount": 12300,
+          "currency": "USD",
+          "market": "United States",
+          "taxBasis": "unconfirmed",
+          "basis": "current-list",
+          "checkedAt": "2026-10-28",
+          "effectiveDate": null,
+          "sourceUrl": "https://www.zenith-watches.com/en_us/product/chronomaster-sport-03-3100-3600-69-m3100",
+          "sourceName": "Zenith United States",
+          "sourceType": "manufacturer"
+        }
+      ],
+      "currentUsBudgetBenchmark": 12300,
       "identitySources": [
         {
           "label": "Reference identity and specifications",
@@ -2843,6 +3428,7 @@
       "path": "/collections/omega/seamaster/2531-80",
       "status": "research-pending",
       "prices": [],
+      "currentUsBudgetBenchmark": null,
       "identitySources": [
         {
           "label": "Omega reference source",
@@ -2857,6 +3443,7 @@
       "path": "/collections/omega/seamaster/2220-80",
       "status": "research-pending",
       "prices": [],
+      "currentUsBudgetBenchmark": null,
       "identitySources": [
         {
           "label": "Omega reference source",
@@ -2888,6 +3475,7 @@
           "sourceType": "manufacturer"
         }
       ],
+      "currentUsBudgetBenchmark": 6700,
       "identitySources": [
         {
           "label": "Omega reference source",
@@ -2919,6 +3507,7 @@
           "sourceType": "manufacturer"
         }
       ],
+      "currentUsBudgetBenchmark": 6300,
       "identitySources": [
         {
           "label": "Omega reference source",
@@ -2950,6 +3539,7 @@
           "sourceType": "manufacturer"
         }
       ],
+      "currentUsBudgetBenchmark": 9400,
       "identitySources": [
         {
           "label": "Omega reference source",
@@ -2981,6 +3571,7 @@
           "sourceType": "manufacturer"
         }
       ],
+      "currentUsBudgetBenchmark": 6700,
       "identitySources": [
         {
           "label": "Omega reference source",
@@ -3012,6 +3603,7 @@
           "sourceType": "manufacturer"
         }
       ],
+      "currentUsBudgetBenchmark": 6300,
       "identitySources": [
         {
           "label": "Omega reference source",
@@ -3043,6 +3635,7 @@
           "sourceType": "manufacturer"
         }
       ],
+      "currentUsBudgetBenchmark": 6900,
       "identitySources": [
         {
           "label": "Omega reference source",
@@ -3074,6 +3667,7 @@
           "sourceType": "manufacturer"
         }
       ],
+      "currentUsBudgetBenchmark": 6300,
       "identitySources": [
         {
           "label": "Omega reference source",
@@ -3105,6 +3699,7 @@
           "sourceType": "manufacturer"
         }
       ],
+      "currentUsBudgetBenchmark": 6700,
       "identitySources": [
         {
           "label": "Omega reference source",
@@ -3136,6 +3731,7 @@
           "sourceType": "manufacturer"
         }
       ],
+      "currentUsBudgetBenchmark": 6300,
       "identitySources": [
         {
           "label": "Omega reference source",
@@ -3167,6 +3763,7 @@
           "sourceType": "manufacturer"
         }
       ],
+      "currentUsBudgetBenchmark": 6300,
       "identitySources": [
         {
           "label": "Omega reference source",
@@ -3198,6 +3795,7 @@
           "sourceType": "manufacturer"
         }
       ],
+      "currentUsBudgetBenchmark": 11300,
       "identitySources": [
         {
           "label": "Omega reference source",
@@ -3229,6 +3827,7 @@
           "sourceType": "manufacturer"
         }
       ],
+      "currentUsBudgetBenchmark": 6700,
       "identitySources": [
         {
           "label": "Omega reference source",
@@ -3243,6 +3842,7 @@
       "path": "/collections/omega/seamaster/210-32-42-20-01-006",
       "status": "research-pending",
       "prices": [],
+      "currentUsBudgetBenchmark": null,
       "identitySources": [
         {
           "label": "Omega reference source",
@@ -3274,6 +3874,7 @@
           "sourceType": "manufacturer"
         }
       ],
+      "currentUsBudgetBenchmark": 6700,
       "identitySources": [
         {
           "label": "Omega reference source",
@@ -3305,6 +3906,7 @@
           "sourceType": "manufacturer"
         }
       ],
+      "currentUsBudgetBenchmark": 10000,
       "identitySources": [
         {
           "label": "Omega reference source",
@@ -3336,6 +3938,7 @@
           "sourceType": "manufacturer"
         }
       ],
+      "currentUsBudgetBenchmark": 10500,
       "identitySources": [
         {
           "label": "Omega reference source",
@@ -3367,6 +3970,7 @@
           "sourceType": "manufacturer"
         }
       ],
+      "currentUsBudgetBenchmark": 7100,
       "identitySources": [
         {
           "label": "Omega reference source",
@@ -3398,6 +4002,7 @@
           "sourceType": "manufacturer"
         }
       ],
+      "currentUsBudgetBenchmark": 14700,
       "identitySources": [
         {
           "label": "Omega reference source",
@@ -3429,6 +4034,7 @@
           "sourceType": "manufacturer"
         }
       ],
+      "currentUsBudgetBenchmark": 9600,
       "identitySources": [
         {
           "label": "Omega reference source",
@@ -3460,6 +4066,7 @@
           "sourceType": "manufacturer"
         }
       ],
+      "currentUsBudgetBenchmark": 9600,
       "identitySources": [
         {
           "label": "Omega reference source",
@@ -3491,6 +4098,7 @@
           "sourceType": "manufacturer"
         }
       ],
+      "currentUsBudgetBenchmark": 14700,
       "identitySources": [
         {
           "label": "Omega reference source",
@@ -3522,6 +4130,7 @@
           "sourceType": "manufacturer"
         }
       ],
+      "currentUsBudgetBenchmark": 15500,
       "identitySources": [
         {
           "label": "Omega reference source",
@@ -3553,6 +4162,7 @@
           "sourceType": "manufacturer"
         }
       ],
+      "currentUsBudgetBenchmark": 35000,
       "identitySources": [
         {
           "label": "Omega reference source",
@@ -3584,6 +4194,7 @@
           "sourceType": "manufacturer"
         }
       ],
+      "currentUsBudgetBenchmark": 10500,
       "identitySources": [
         {
           "label": "Omega reference source",
@@ -3615,6 +4226,7 @@
           "sourceType": "manufacturer"
         }
       ],
+      "currentUsBudgetBenchmark": 6700,
       "identitySources": [
         {
           "label": "Omega reference source",
@@ -3629,6 +4241,7 @@
       "path": "/collections/omega/planet-ocean/2201-50",
       "status": "research-pending",
       "prices": [],
+      "currentUsBudgetBenchmark": null,
       "identitySources": [
         {
           "label": "Omega reference source",
@@ -3643,6 +4256,7 @@
       "path": "/collections/omega/planet-ocean/232-30-42-21-01-001",
       "status": "research-pending",
       "prices": [],
+      "currentUsBudgetBenchmark": null,
       "identitySources": [
         {
           "label": "Omega reference source",
@@ -3657,6 +4271,7 @@
       "path": "/collections/omega/planet-ocean/215-30-44-21-04-001",
       "status": "research-pending",
       "prices": [],
+      "currentUsBudgetBenchmark": null,
       "identitySources": [
         {
           "label": "Omega reference source",
@@ -3671,6 +4286,7 @@
       "path": "/collections/omega/planet-ocean/232-63-42-21-01-001",
       "status": "research-pending",
       "prices": [],
+      "currentUsBudgetBenchmark": null,
       "identitySources": [
         {
           "label": "Omega reference source",
@@ -3685,6 +4301,7 @@
       "path": "/collections/omega/aqua-terra/220-10-41-21-03-001",
       "status": "research-pending",
       "prices": [],
+      "currentUsBudgetBenchmark": null,
       "identitySources": []
     },
     {
@@ -3694,6 +4311,7 @@
       "path": "/collections/omega/aqua-terra/220-12-41-21-03-002",
       "status": "research-pending",
       "prices": [],
+      "currentUsBudgetBenchmark": null,
       "identitySources": [
         {
           "label": "Omega reference source",
@@ -3725,6 +4343,7 @@
           "sourceType": "manufacturer"
         }
       ],
+      "currentUsBudgetBenchmark": 7400,
       "identitySources": [
         {
           "label": "Omega reference source",
@@ -3756,6 +4375,7 @@
           "sourceType": "manufacturer"
         }
       ],
+      "currentUsBudgetBenchmark": 7400,
       "identitySources": [
         {
           "label": "Omega reference source",
@@ -3787,6 +4407,7 @@
           "sourceType": "manufacturer"
         }
       ],
+      "currentUsBudgetBenchmark": 7400,
       "identitySources": [
         {
           "label": "Omega reference source",
@@ -3818,6 +4439,7 @@
           "sourceType": "manufacturer"
         }
       ],
+      "currentUsBudgetBenchmark": 7400,
       "identitySources": [
         {
           "label": "Omega reference source",
@@ -3832,6 +4454,7 @@
       "path": "/collections/omega/aqua-terra/220-10-41-21-03-004",
       "status": "research-pending",
       "prices": [],
+      "currentUsBudgetBenchmark": null,
       "identitySources": [
         {
           "label": "Omega reference source",
@@ -3863,6 +4486,7 @@
           "sourceType": "manufacturer"
         }
       ],
+      "currentUsBudgetBenchmark": 7800,
       "identitySources": [
         {
           "label": "Omega reference source",
@@ -3894,6 +4518,7 @@
           "sourceType": "manufacturer"
         }
       ],
+      "currentUsBudgetBenchmark": 42200,
       "identitySources": [
         {
           "label": "Omega reference source",
@@ -3925,6 +4550,7 @@
           "sourceType": "manufacturer"
         }
       ],
+      "currentUsBudgetBenchmark": 12200,
       "identitySources": [
         {
           "label": "Omega reference source",
@@ -3956,6 +4582,7 @@
           "sourceType": "manufacturer"
         }
       ],
+      "currentUsBudgetBenchmark": 7100,
       "identitySources": [
         {
           "label": "Omega reference source",
@@ -3987,6 +4614,7 @@
           "sourceType": "manufacturer"
         }
       ],
+      "currentUsBudgetBenchmark": 22500,
       "identitySources": [
         {
           "label": "Omega reference source",
@@ -4001,6 +4629,7 @@
       "path": "/collections/audemars-piguet/royal-oak-jumbo/15202st",
       "status": "research-pending",
       "prices": [],
+      "currentUsBudgetBenchmark": null,
       "identitySources": [
         {
           "label": "Audemars Piguet reference source",
@@ -4013,8 +4642,26 @@
       "collection": "Royal Oak Jumbo",
       "reference": "16202ST",
       "path": "/collections/audemars-piguet/royal-oak-jumbo/16202st",
-      "status": "research-pending",
-      "prices": [],
+      "status": "sourced-list-price",
+      "prices": [
+        {
+          "brand": "Audemars Piguet",
+          "reference": "16202ST",
+          "manufacturerReference": "16202ST.OO.1240ST.02",
+          "configuration": "39 mm stainless steel / Bleu Nuit, Nuage 50 Petite Tapisserie dial / stainless-steel bracelet",
+          "amount": 40100,
+          "currency": "USD",
+          "market": "United States",
+          "taxBasis": "excluded",
+          "basis": "current-list",
+          "checkedAt": "2026-10-28",
+          "effectiveDate": null,
+          "sourceUrl": "https://www.audemarspiguet.com/us/en/watch-collection/royal-oak/16202ST.OO.1240ST.02",
+          "sourceName": "Audemars Piguet United States",
+          "sourceType": "manufacturer"
+        }
+      ],
+      "currentUsBudgetBenchmark": 40100,
       "identitySources": [
         {
           "label": "Audemars Piguet reference source",
@@ -4027,8 +4674,26 @@
       "collection": "Royal Oak Chronograph",
       "reference": "26331ST",
       "path": "/collections/audemars-piguet/royal-oak-chronograph/26331st",
-      "status": "research-pending",
-      "prices": [],
+      "status": "sourced-list-price",
+      "prices": [
+        {
+          "brand": "Audemars Piguet",
+          "reference": "26331ST",
+          "manufacturerReference": "26331ST.OO.1220ST.01",
+          "configuration": "41 mm stainless steel / blue Grande Tapisserie dial with rhodium-toned counters / stainless-steel bracelet",
+          "amount": 43000,
+          "currency": "USD",
+          "market": "United States",
+          "taxBasis": "excluded",
+          "basis": "current-list",
+          "checkedAt": "2026-10-28",
+          "effectiveDate": null,
+          "sourceUrl": "https://www.audemarspiguet.com/us/en/watch-collection/royal-oak/26331ST.OO.1220ST.01",
+          "sourceName": "Audemars Piguet United States",
+          "sourceType": "manufacturer"
+        }
+      ],
+      "currentUsBudgetBenchmark": 43000,
       "identitySources": [
         {
           "label": "Audemars Piguet reference source",
@@ -4041,8 +4706,26 @@
       "collection": "Royal Oak Chronograph",
       "reference": "26240ST",
       "path": "/collections/audemars-piguet/royal-oak-chronograph/26240st",
-      "status": "research-pending",
-      "prices": [],
+      "status": "sourced-list-price",
+      "prices": [
+        {
+          "brand": "Audemars Piguet",
+          "reference": "26240ST",
+          "manufacturerReference": "26240ST.OO.1320ST.06",
+          "configuration": "41 mm stainless steel / black Grande Tapisserie dial and black counters / stainless-steel bracelet",
+          "amount": 44400,
+          "currency": "USD",
+          "market": "United States",
+          "taxBasis": "excluded",
+          "basis": "current-list",
+          "checkedAt": "2026-10-28",
+          "effectiveDate": null,
+          "sourceUrl": "https://www.audemarspiguet.com/us/en/watch-collection/royal-oak/26240ST.OO.1320ST.06",
+          "sourceName": "Audemars Piguet United States",
+          "sourceType": "manufacturer"
+        }
+      ],
+      "currentUsBudgetBenchmark": 44400,
       "identitySources": [
         {
           "label": "Audemars Piguet reference source",
@@ -4055,8 +4738,26 @@
       "collection": "Offshore Diver",
       "reference": "15710ST",
       "path": "/collections/audemars-piguet/offshore-diver/15710st",
-      "status": "research-pending",
-      "prices": [],
+      "status": "sourced-list-price",
+      "prices": [
+        {
+          "brand": "Audemars Piguet",
+          "reference": "15710ST",
+          "manufacturerReference": "15710ST.OO.A002CA.01",
+          "configuration": "42 mm stainless steel / black Mega Tapisserie dial / black rubber strap",
+          "amount": 28900,
+          "currency": "USD",
+          "market": "United States",
+          "taxBasis": "excluded",
+          "basis": "current-list",
+          "checkedAt": "2026-10-28",
+          "effectiveDate": null,
+          "sourceUrl": "https://www.audemarspiguet.com/us/en/watch-collection/royal-oak-offshore/15710ST.OO.A002CA.01",
+          "sourceName": "Audemars Piguet United States",
+          "sourceType": "manufacturer"
+        }
+      ],
+      "currentUsBudgetBenchmark": 28900,
       "identitySources": [
         {
           "label": "Audemars Piguet reference source",
@@ -4069,8 +4770,26 @@
       "collection": "Offshore Diver",
       "reference": "15720ST",
       "path": "/collections/audemars-piguet/offshore-diver/15720st",
-      "status": "research-pending",
-      "prices": [],
+      "status": "sourced-list-price",
+      "prices": [
+        {
+          "brand": "Audemars Piguet",
+          "reference": "15720ST",
+          "manufacturerReference": "15720ST.OO.A027CA.01",
+          "configuration": "42 mm stainless steel / blue Mega Tapisserie dial / blue interchangeable rubber strap; additional black rubber strap",
+          "amount": 33600,
+          "currency": "USD",
+          "market": "United States",
+          "taxBasis": "excluded",
+          "basis": "current-list",
+          "checkedAt": "2026-10-28",
+          "effectiveDate": null,
+          "sourceUrl": "https://www.audemarspiguet.com/us/en/watch-collection/royal-oak-offshore/15720ST.OO.A027CA.01",
+          "sourceName": "Audemars Piguet United States",
+          "sourceType": "manufacturer"
+        }
+      ],
+      "currentUsBudgetBenchmark": 33600,
       "identitySources": [
         {
           "label": "Audemars Piguet reference source",
@@ -4083,8 +4802,26 @@
       "collection": "Code 11.59",
       "reference": "Code 11.59 Selfwinding",
       "path": "/collections/audemars-piguet/code-1159/code-11-59-selfwinding",
-      "status": "research-pending",
-      "prices": [],
+      "status": "sourced-list-price",
+      "prices": [
+        {
+          "brand": "Audemars Piguet",
+          "reference": "Code 11.59 Selfwinding",
+          "manufacturerReference": "15210BC.OO.A021CR.01",
+          "configuration": "41 mm 18-carat white gold / blue sodalite dial with baguette diamond markers / blue alligator strap",
+          "amount": 70100,
+          "currency": "USD",
+          "market": "United States",
+          "taxBasis": "excluded",
+          "basis": "current-list",
+          "checkedAt": "2026-10-28",
+          "effectiveDate": null,
+          "sourceUrl": "https://www.audemarspiguet.com/us/en/watch-collection/code-1159/15210BC.OO.A021CR.01",
+          "sourceName": "Audemars Piguet United States",
+          "sourceType": "manufacturer"
+        }
+      ],
+      "currentUsBudgetBenchmark": 70100,
       "identitySources": [
         {
           "label": "Audemars Piguet reference source",
@@ -4097,8 +4834,26 @@
       "collection": "Code 11.59",
       "reference": "Code 11.59 Chronograph",
       "path": "/collections/audemars-piguet/code-1159/code-11-59-chronograph",
-      "status": "research-pending",
-      "prices": [],
+      "status": "sourced-list-price",
+      "prices": [
+        {
+          "brand": "Audemars Piguet",
+          "reference": "Code 11.59 Chronograph",
+          "manufacturerReference": "26393OR.OO.A056KB.01",
+          "configuration": "41 mm 18-carat pink gold / green chronograph dial / green rubber-coated strap",
+          "amount": 54800,
+          "currency": "USD",
+          "market": "United States",
+          "taxBasis": "excluded",
+          "basis": "current-list",
+          "checkedAt": "2026-10-28",
+          "effectiveDate": null,
+          "sourceUrl": "https://www.audemarspiguet.com/us/en/watch-collection/code-1159/26393OR.OO.A056KB.01",
+          "sourceName": "Audemars Piguet United States",
+          "sourceType": "manufacturer"
+        }
+      ],
+      "currentUsBudgetBenchmark": 54800,
       "identitySources": [
         {
           "label": "Audemars Piguet reference source",
@@ -4113,6 +4868,7 @@
       "path": "/collections/audemars-piguet/code-1159/26393bc-oo-a321cr-01",
       "status": "research-pending",
       "prices": [],
+      "currentUsBudgetBenchmark": null,
       "identitySources": [
         {
           "label": "Audemars Piguet reference source",
@@ -4144,6 +4900,7 @@
           "sourceType": "manufacturer"
         }
       ],
+      "currentUsBudgetBenchmark": 12400,
       "identitySources": [
         {
           "label": "Cartier reference source",
@@ -4175,6 +4932,7 @@
           "sourceType": "manufacturer"
         }
       ],
+      "currentUsBudgetBenchmark": 4400,
       "identitySources": [
         {
           "label": "Cartier reference source",
@@ -4189,6 +4947,7 @@
       "path": "/collections/cartier/ballon-bleu/ballon-bleu-40-mm",
       "status": "research-pending",
       "prices": [],
+      "currentUsBudgetBenchmark": null,
       "identitySources": [
         {
           "label": "Cartier reference source",
@@ -4203,6 +4962,7 @@
       "path": "/collections/cartier/ballon-bleu/ballon-bleu-42-mm",
       "status": "research-pending",
       "prices": [],
+      "currentUsBudgetBenchmark": null,
       "identitySources": [
         {
           "label": "Cartier reference source",
@@ -4217,6 +4977,7 @@
       "path": "/collections/cartier/pasha/pasha-de-cartier-41-mm",
       "status": "research-pending",
       "prices": [],
+      "currentUsBudgetBenchmark": null,
       "identitySources": [
         {
           "label": "Cartier reference source",
@@ -4231,6 +4992,7 @@
       "path": "/collections/cartier/pasha/pasha-chronograph-41-mm",
       "status": "research-pending",
       "prices": [],
+      "currentUsBudgetBenchmark": null,
       "identitySources": [
         {
           "label": "Cartier reference source",
@@ -4245,6 +5007,7 @@
       "path": "/collections/patek-philippe/calatrava/5196",
       "status": "research-pending",
       "prices": [],
+      "currentUsBudgetBenchmark": null,
       "identitySources": [
         {
           "label": "Patek Philippe reference source",
@@ -4276,6 +5039,7 @@
           "sourceType": "manufacturer"
         }
       ],
+      "currentUsBudgetBenchmark": 37510,
       "identitySources": [
         {
           "label": "Patek Philippe reference source",
@@ -4307,6 +5071,7 @@
           "sourceType": "manufacturer"
         }
       ],
+      "currentUsBudgetBenchmark": 47262,
       "identitySources": [
         {
           "label": "Patek Philippe reference source",
@@ -4338,6 +5103,7 @@
           "sourceType": "manufacturer"
         }
       ],
+      "currentUsBudgetBenchmark": 45512,
       "identitySources": [
         {
           "label": "Patek Philippe reference source",
@@ -4369,6 +5135,7 @@
           "sourceType": "manufacturer"
         }
       ],
+      "currentUsBudgetBenchmark": 97525,
       "identitySources": [
         {
           "label": "Patek Philippe reference source",
@@ -4383,6 +5150,7 @@
       "path": "/collections/panerai/submersible/pam00683",
       "status": "research-pending",
       "prices": [],
+      "currentUsBudgetBenchmark": null,
       "identitySources": [
         {
           "label": "Panerai reference source",
@@ -4397,6 +5165,7 @@
       "path": "/collections/panerai/submersible/pam01305",
       "status": "research-pending",
       "prices": [],
+      "currentUsBudgetBenchmark": null,
       "identitySources": [
         {
           "label": "Panerai reference source",
@@ -4411,6 +5180,7 @@
       "path": "/collections/panerai/submersible/pam01616",
       "status": "research-pending",
       "prices": [],
+      "currentUsBudgetBenchmark": null,
       "identitySources": [
         {
           "label": "Panerai reference source",
@@ -4425,6 +5195,7 @@
       "path": "/collections/tudor/royal/tudor-royal-38-mm",
       "status": "research-pending",
       "prices": [],
+      "currentUsBudgetBenchmark": null,
       "identitySources": [
         {
           "label": "Tudor reference source",
@@ -4439,6 +5210,7 @@
       "path": "/collections/tudor/royal/tudor-royal-41-mm",
       "status": "research-pending",
       "prices": [],
+      "currentUsBudgetBenchmark": null,
       "identitySources": [
         {
           "label": "Tudor reference source",
@@ -4453,6 +5225,7 @@
       "path": "/collections/tudor/prince/prince-date",
       "status": "research-pending",
       "prices": [],
+      "currentUsBudgetBenchmark": null,
       "identitySources": [
         {
           "label": "Tudor reference source",
@@ -4467,6 +5240,7 @@
       "path": "/collections/tudor/prince/prince-chronograph",
       "status": "research-pending",
       "prices": [],
+      "currentUsBudgetBenchmark": null,
       "identitySources": [
         {
           "label": "Tudor reference source",
@@ -4481,6 +5255,7 @@
       "path": "/collections/ulysse-nardin/marine/marine-chronometer",
       "status": "research-pending",
       "prices": [],
+      "currentUsBudgetBenchmark": null,
       "identitySources": [
         {
           "label": "Ulysse Nardin reference source",
@@ -4493,8 +5268,26 @@
       "collection": "Marine",
       "reference": "Marine Torpilleur",
       "path": "/collections/ulysse-nardin/marine/marine-torpilleur",
-      "status": "research-pending",
-      "prices": [],
+      "status": "sourced-list-price",
+      "prices": [
+        {
+          "brand": "Ulysse Nardin",
+          "reference": "Marine Torpilleur",
+          "manufacturerReference": "1183-310-0A/0A",
+          "configuration": "White Roman dial / 42 mm steel / black fabric strap / UN-118",
+          "amount": 11800,
+          "currency": "USD",
+          "market": "United States",
+          "taxBasis": "unconfirmed",
+          "basis": "current-list",
+          "checkedAt": "2026-10-28",
+          "effectiveDate": null,
+          "sourceUrl": "https://www.ulysse-nardin.com/en-us/watches/marine/1183-310-0a-0a",
+          "sourceName": "Ulysse Nardin United States",
+          "sourceType": "manufacturer"
+        }
+      ],
+      "currentUsBudgetBenchmark": 11800,
       "identitySources": [
         {
           "label": "Ulysse Nardin reference source",
@@ -4509,6 +5302,7 @@
       "path": "/collections/ulysse-nardin/marine/1506-150le-3-63-vb",
       "status": "research-pending",
       "prices": [],
+      "currentUsBudgetBenchmark": null,
       "identitySources": [
         {
           "label": "Ulysse Nardin reference source",
@@ -4523,6 +5317,7 @@
       "path": "/collections/ulysse-nardin/marine/266-67",
       "status": "research-pending",
       "prices": [],
+      "currentUsBudgetBenchmark": null,
       "identitySources": [
         {
           "label": "Ulysse Nardin reference source",
@@ -4535,8 +5330,26 @@
       "collection": "Marine",
       "reference": "1183-310/40",
       "path": "/collections/ulysse-nardin/marine/1183-310-40",
-      "status": "research-pending",
-      "prices": [],
+      "status": "sourced-list-price",
+      "prices": [
+        {
+          "brand": "Ulysse Nardin",
+          "reference": "1183-310/40",
+          "manufacturerReference": "1183-310/40",
+          "configuration": "White Roman dial / 42 mm steel / black alligator strap / UN-118",
+          "amount": 11800,
+          "currency": "USD",
+          "market": "United States",
+          "taxBasis": "unconfirmed",
+          "basis": "current-list",
+          "checkedAt": "2026-10-28",
+          "effectiveDate": null,
+          "sourceUrl": "https://www.ulysse-nardin.com/en-us/watches/marine/1183-310-40",
+          "sourceName": "Ulysse Nardin United States",
+          "sourceType": "manufacturer"
+        }
+      ],
+      "currentUsBudgetBenchmark": 11800,
       "identitySources": [
         {
           "label": "Ulysse Nardin reference source",
@@ -4549,8 +5362,26 @@
       "collection": "Marine",
       "reference": "1183-310-3A/0A",
       "path": "/collections/ulysse-nardin/marine/1183-310-3a-0a",
-      "status": "research-pending",
-      "prices": [],
+      "status": "sourced-list-price",
+      "prices": [
+        {
+          "brand": "Ulysse Nardin",
+          "reference": "1183-310-3A/0A",
+          "manufacturerReference": "1183-310-3A/0A",
+          "configuration": "Blue Roman dial / 42 mm steel / blue fabric strap / UN-118",
+          "amount": 11800,
+          "currency": "USD",
+          "market": "United States",
+          "taxBasis": "unconfirmed",
+          "basis": "current-list",
+          "checkedAt": "2026-10-28",
+          "effectiveDate": null,
+          "sourceUrl": "https://www.ulysse-nardin.com/en-us/watches/marine/1183-310-3a-0a",
+          "sourceName": "Ulysse Nardin United States",
+          "sourceType": "manufacturer"
+        }
+      ],
+      "currentUsBudgetBenchmark": 11800,
       "identitySources": [
         {
           "label": "Ulysse Nardin reference source",
@@ -4563,8 +5394,26 @@
       "collection": "Marine",
       "reference": "1183-310-3/40",
       "path": "/collections/ulysse-nardin/marine/1183-310-3-40",
-      "status": "research-pending",
-      "prices": [],
+      "status": "sourced-list-price",
+      "prices": [
+        {
+          "brand": "Ulysse Nardin",
+          "reference": "1183-310-3/40",
+          "manufacturerReference": "1183-310-3/40",
+          "configuration": "White Roman dial / 42 mm steel / black rubber and titanium strap / UN-118",
+          "amount": 11800,
+          "currency": "USD",
+          "market": "United States",
+          "taxBasis": "unconfirmed",
+          "basis": "current-list",
+          "checkedAt": "2026-10-28",
+          "effectiveDate": null,
+          "sourceUrl": "https://www.ulysse-nardin.com/en-us/watches/marine/1183-310-3-40",
+          "sourceName": "Ulysse Nardin United States",
+          "sourceType": "manufacturer"
+        }
+      ],
+      "currentUsBudgetBenchmark": 11800,
       "identitySources": [
         {
           "label": "Ulysse Nardin reference source",
@@ -4577,8 +5426,26 @@
       "collection": "Diver",
       "reference": "Diver Chronograph",
       "path": "/collections/ulysse-nardin/diver/diver-chronograph",
-      "status": "research-pending",
-      "prices": [],
+      "status": "sourced-list-price",
+      "prices": [
+        {
+          "brand": "Ulysse Nardin",
+          "reference": "Diver Chronograph",
+          "manufacturerReference": "1503-170LE-2A-TOR/3A",
+          "configuration": "Black dial / 44 mm titanium and black DLC / black rubber and ceramic strap / Ocean Race chronograph",
+          "amount": 18900,
+          "currency": "USD",
+          "market": "United States",
+          "taxBasis": "unconfirmed",
+          "basis": "current-list",
+          "checkedAt": "2026-10-28",
+          "effectiveDate": null,
+          "sourceUrl": "https://www.ulysse-nardin.com/en-us/watches/diver/1503-170le-2a-tor-3a",
+          "sourceName": "Ulysse Nardin United States",
+          "sourceType": "manufacturer"
+        }
+      ],
+      "currentUsBudgetBenchmark": 18900,
       "identitySources": [
         {
           "label": "Ulysse Nardin reference source",
@@ -4591,8 +5458,26 @@
       "collection": "Diver",
       "reference": "Diver X Skeleton",
       "path": "/collections/ulysse-nardin/diver/diver-x-skeleton",
-      "status": "research-pending",
-      "prices": [],
+      "status": "sourced-list-price",
+      "prices": [
+        {
+          "brand": "Ulysse Nardin",
+          "reference": "Diver X Skeleton",
+          "manufacturerReference": "3723-170-2B/3A",
+          "configuration": "Black skeleton display with azure accents / 44 mm titanium and carbon composite / blue rubber and ceramic strap",
+          "amount": 33000,
+          "currency": "USD",
+          "market": "United States",
+          "taxBasis": "unconfirmed",
+          "basis": "current-list",
+          "checkedAt": "2026-10-28",
+          "effectiveDate": null,
+          "sourceUrl": "https://www.ulysse-nardin.com/en-us/watches/diver/3723-170-2b-3a",
+          "sourceName": "Ulysse Nardin United States",
+          "sourceType": "manufacturer"
+        }
+      ],
+      "currentUsBudgetBenchmark": 33000,
       "identitySources": [
         {
           "label": "Ulysse Nardin reference source",
@@ -4607,6 +5492,7 @@
       "path": "/collections/ulysse-nardin/diver/maxi-marine-diver",
       "status": "research-pending",
       "prices": [],
+      "currentUsBudgetBenchmark": null,
       "identitySources": [
         {
           "label": "Ulysse Nardin reference source",
@@ -4621,6 +5507,7 @@
       "path": "/collections/ulysse-nardin/diver/1502-151-3-93",
       "status": "research-pending",
       "prices": [],
+      "currentUsBudgetBenchmark": null,
       "identitySources": [
         {
           "label": "Ulysse Nardin reference source",
@@ -4635,6 +5522,7 @@
       "path": "/collections/ulysse-nardin/diver/266-10-3-92",
       "status": "research-pending",
       "prices": [],
+      "currentUsBudgetBenchmark": null,
       "identitySources": [
         {
           "label": "Ulysse Nardin reference source",
@@ -4649,6 +5537,7 @@
       "path": "/collections/ulysse-nardin/diver/265-90-3c-93",
       "status": "research-pending",
       "prices": [],
+      "currentUsBudgetBenchmark": null,
       "identitySources": [
         {
           "label": "Ulysse Nardin reference source",
@@ -4661,8 +5550,26 @@
       "collection": "Diver",
       "reference": "1183-170-7M/92",
       "path": "/collections/ulysse-nardin/diver/1183-170-7m-92",
-      "status": "research-pending",
-      "prices": [],
+      "status": "sourced-list-price",
+      "prices": [
+        {
+          "brand": "Ulysse Nardin",
+          "reference": "1183-170-7M/92",
+          "manufacturerReference": "1183-170-7M/92",
+          "configuration": "Black dial / 44 mm titanium / titanium bracelet / UN-118",
+          "amount": 13400,
+          "currency": "USD",
+          "market": "United States",
+          "taxBasis": "unconfirmed",
+          "basis": "current-list",
+          "checkedAt": "2026-10-28",
+          "effectiveDate": null,
+          "sourceUrl": "https://www.ulysse-nardin.com/en-us/watches/diver/1183-170-7m-92",
+          "sourceName": "Ulysse Nardin United States",
+          "sourceType": "manufacturer"
+        }
+      ],
+      "currentUsBudgetBenchmark": 13400,
       "identitySources": [
         {
           "label": "Ulysse Nardin reference source",
@@ -4675,8 +5582,26 @@
       "collection": "Diver",
       "reference": "1183-170-3/93",
       "path": "/collections/ulysse-nardin/diver/1183-170-3-93",
-      "status": "research-pending",
-      "prices": [],
+      "status": "sourced-list-price",
+      "prices": [
+        {
+          "brand": "Ulysse Nardin",
+          "reference": "1183-170-3/93",
+          "manufacturerReference": "1183-170-3/93",
+          "configuration": "Blue dial / 44 mm titanium / blue rubber and titanium strap / UN-118",
+          "amount": 12400,
+          "currency": "USD",
+          "market": "United States",
+          "taxBasis": "unconfirmed",
+          "basis": "current-list",
+          "checkedAt": "2026-10-28",
+          "effectiveDate": null,
+          "sourceUrl": "https://www.ulysse-nardin.com/en-us/watches/diver/1183-170-3-93",
+          "sourceName": "Ulysse Nardin United States",
+          "sourceType": "manufacturer"
+        }
+      ],
+      "currentUsBudgetBenchmark": 12400,
       "identitySources": [
         {
           "label": "Ulysse Nardin reference source",
@@ -4689,8 +5614,26 @@
       "collection": "Diver",
       "reference": "1183-170-3/92",
       "path": "/collections/ulysse-nardin/diver/1183-170-3-92",
-      "status": "research-pending",
-      "prices": [],
+      "status": "sourced-list-price",
+      "prices": [
+        {
+          "brand": "Ulysse Nardin",
+          "reference": "1183-170-3/92",
+          "manufacturerReference": "1183-170-3/92",
+          "configuration": "Black dial / 44 mm titanium / black rubber and titanium strap / UN-118",
+          "amount": 12400,
+          "currency": "USD",
+          "market": "United States",
+          "taxBasis": "unconfirmed",
+          "basis": "current-list",
+          "checkedAt": "2026-10-28",
+          "effectiveDate": null,
+          "sourceUrl": "https://www.ulysse-nardin.com/en-us/watches/diver/1183-170-3-92",
+          "sourceName": "Ulysse Nardin United States",
+          "sourceType": "manufacturer"
+        }
+      ],
+      "currentUsBudgetBenchmark": 12400,
       "identitySources": [
         {
           "label": "Ulysse Nardin reference source",
@@ -4703,8 +5646,26 @@
       "collection": "Executive",
       "reference": "Executive Dual Time",
       "path": "/collections/ulysse-nardin/executive/executive-dual-time",
-      "status": "research-pending",
-      "prices": [],
+      "status": "sourced-list-price",
+      "prices": [
+        {
+          "brand": "Ulysse Nardin",
+          "reference": "Executive Dual Time",
+          "manufacturerReference": "243-20-3/43",
+          "configuration": "Blue Roman dial / 42 mm steel / blue rubber strap / UN-24 dual time",
+          "amount": 11900,
+          "currency": "USD",
+          "market": "United States",
+          "taxBasis": "unconfirmed",
+          "basis": "current-list",
+          "checkedAt": "2026-10-28",
+          "effectiveDate": null,
+          "sourceUrl": "https://www.ulysse-nardin.com/en-us/watches/blast/243-20-3-43",
+          "sourceName": "Ulysse Nardin United States",
+          "sourceType": "manufacturer"
+        }
+      ],
+      "currentUsBudgetBenchmark": 11900,
       "identitySources": [
         {
           "label": "Ulysse Nardin reference source",
@@ -4717,8 +5678,29 @@
       "collection": "Blast",
       "reference": "Blast",
       "path": "/collections/ulysse-nardin/blast/blast",
-      "status": "research-pending",
-      "prices": [],
+      "status": "sourced-list-price",
+      "prices": [
+        {
+          "brand": "Ulysse Nardin",
+          "reference": "3713-260-3/03",
+          "referenceAliases": [
+            "Blast"
+          ],
+          "manufacturerReference": "3713-260-3/03",
+          "configuration": "Blue skeleton display / 42 mm titanium / blue rubber strap / manual UN-371",
+          "amount": 27900,
+          "currency": "USD",
+          "market": "United States",
+          "taxBasis": "unconfirmed",
+          "basis": "current-list",
+          "checkedAt": "2026-10-28",
+          "effectiveDate": null,
+          "sourceUrl": "https://www.ulysse-nardin.com/en-us/watches/blast/3713-260-3-03",
+          "sourceName": "Ulysse Nardin United States",
+          "sourceType": "manufacturer"
+        }
+      ],
+      "currentUsBudgetBenchmark": 27900,
       "identitySources": [
         {
           "label": "Ulysse Nardin reference source",
@@ -4731,8 +5713,26 @@
       "collection": "Blast",
       "reference": "Blast Tourbillon",
       "path": "/collections/ulysse-nardin/blast/blast-tourbillon",
-      "status": "research-pending",
-      "prices": [],
+      "status": "sourced-list-price",
+      "prices": [
+        {
+          "brand": "Ulysse Nardin",
+          "reference": "Blast Tourbillon",
+          "manufacturerReference": "1725-400-3A/3A",
+          "configuration": "Blue skeleton display / 45 mm titanium and 18 ct gold / blue velvet rubber strap",
+          "amount": 80400,
+          "currency": "USD",
+          "market": "United States",
+          "taxBasis": "unconfirmed",
+          "basis": "current-list",
+          "checkedAt": "2026-10-28",
+          "effectiveDate": null,
+          "sourceUrl": "https://www.ulysse-nardin.com/en-us/watches/blast/1725-400-3a-3a",
+          "sourceName": "Ulysse Nardin United States",
+          "sourceType": "manufacturer"
+        }
+      ],
+      "currentUsBudgetBenchmark": 80400,
       "identitySources": [
         {
           "label": "Ulysse Nardin reference source",
@@ -4745,8 +5745,29 @@
       "collection": "Blast",
       "reference": "3713-260-3/03",
       "path": "/collections/ulysse-nardin/blast/3713-260-3-03",
-      "status": "research-pending",
-      "prices": [],
+      "status": "sourced-list-price",
+      "prices": [
+        {
+          "brand": "Ulysse Nardin",
+          "reference": "3713-260-3/03",
+          "referenceAliases": [
+            "Blast"
+          ],
+          "manufacturerReference": "3713-260-3/03",
+          "configuration": "Blue skeleton display / 42 mm titanium / blue rubber strap / manual UN-371",
+          "amount": 27900,
+          "currency": "USD",
+          "market": "United States",
+          "taxBasis": "unconfirmed",
+          "basis": "current-list",
+          "checkedAt": "2026-10-28",
+          "effectiveDate": null,
+          "sourceUrl": "https://www.ulysse-nardin.com/en-us/watches/blast/3713-260-3-03",
+          "sourceName": "Ulysse Nardin United States",
+          "sourceType": "manufacturer"
+        }
+      ],
+      "currentUsBudgetBenchmark": 27900,
       "identitySources": [
         {
           "label": "Ulysse Nardin reference source",
@@ -4759,8 +5780,26 @@
       "collection": "Moonstruck",
       "reference": "Moonstruck",
       "path": "/collections/ulysse-nardin/moonstruck/moonstruck",
-      "status": "research-pending",
-      "prices": [],
+      "status": "sourced-list-price",
+      "prices": [
+        {
+          "brand": "Ulysse Nardin",
+          "reference": "Moonstruck",
+          "manufacturerReference": "1063-400-2A/3B",
+          "configuration": "Earth astronomical display / 45 mm titanium and ceramic / black Craters rubber strap",
+          "amount": 107700,
+          "currency": "USD",
+          "market": "United States",
+          "taxBasis": "unconfirmed",
+          "basis": "current-list",
+          "checkedAt": "2026-10-28",
+          "effectiveDate": null,
+          "sourceUrl": "https://www.ulysse-nardin.com/en-us/watches/blast/1063-400-2a-3b",
+          "sourceName": "Ulysse Nardin United States",
+          "sourceType": "manufacturer"
+        }
+      ],
+      "currentUsBudgetBenchmark": 107700,
       "identitySources": [
         {
           "label": "Ulysse Nardin reference source",
@@ -4775,6 +5814,7 @@
       "path": "/collections/bell-and-ross/br-01/br0192-bl-st",
       "status": "research-pending",
       "prices": [],
+      "currentUsBudgetBenchmark": null,
       "identitySources": [
         {
           "label": "Bell & Ross reference source",
@@ -4789,6 +5829,7 @@
       "path": "/collections/bell-and-ross/br-01/br0192-compass-ca",
       "status": "research-pending",
       "prices": [],
+      "currentUsBudgetBenchmark": null,
       "identitySources": [
         {
           "label": "Bell & Ross reference source",
@@ -4803,6 +5844,7 @@
       "path": "/collections/bell-and-ross/br-01/br0192-redradar",
       "status": "research-pending",
       "prices": [],
+      "currentUsBudgetBenchmark": null,
       "identitySources": [
         {
           "label": "Bell & Ross reference source",
@@ -4834,6 +5876,7 @@
           "sourceType": "manufacturer"
         }
       ],
+      "currentUsBudgetBenchmark": 27257,
       "identitySources": [
         {
           "label": "Patek Philippe official reference",
@@ -4852,6 +5895,7 @@
       "path": "/collections/patek-philippe/aquanaut/5167-1a-001",
       "status": "research-pending",
       "prices": [],
+      "currentUsBudgetBenchmark": null,
       "identitySources": [
         {
           "label": "Patek Philippe reference source",
@@ -4883,6 +5927,7 @@
           "sourceType": "manufacturer"
         }
       ],
+      "currentUsBudgetBenchmark": 6025,
       "identitySources": [
         {
           "label": "Tudor official reference",
@@ -4918,6 +5963,7 @@
           "sourceType": "manufacturer"
         }
       ],
+      "currentUsBudgetBenchmark": 5625,
       "identitySources": [
         {
           "label": "Tudor reference source",
@@ -4949,6 +5995,7 @@
           "sourceType": "manufacturer"
         }
       ],
+      "currentUsBudgetBenchmark": 5900,
       "identitySources": [
         {
           "label": "Breitling official reference",
@@ -4984,6 +6031,7 @@
           "sourceType": "manufacturer"
         }
       ],
+      "currentUsBudgetBenchmark": 5700,
       "identitySources": [
         {
           "label": "Breitling official reference",
@@ -5015,6 +6063,7 @@
           "sourceType": "manufacturer"
         }
       ],
+      "currentUsBudgetBenchmark": 8700,
       "identitySources": [
         {
           "label": "Hublot official reference",
@@ -5050,6 +6099,7 @@
           "sourceType": "manufacturer"
         }
       ],
+      "currentUsBudgetBenchmark": 11400,
       "identitySources": [
         {
           "label": "Hublot reference source",
@@ -5081,6 +6131,7 @@
           "sourceType": "manufacturer"
         }
       ],
+      "currentUsBudgetBenchmark": 10700,
       "identitySources": [
         {
           "label": "Hublot reference source",
@@ -5112,6 +6163,7 @@
           "sourceType": "manufacturer"
         }
       ],
+      "currentUsBudgetBenchmark": 17100,
       "identitySources": [
         {
           "label": "Hublot official reference",
@@ -5130,6 +6182,7 @@
       "path": "/collections/hublot/big-bang-unico/441-nx-1171-rx",
       "status": "research-pending",
       "prices": [],
+      "currentUsBudgetBenchmark": null,
       "identitySources": [
         {
           "label": "Hublot official reference",
@@ -5148,6 +6201,7 @@
       "path": "/collections/hublot/big-bang-unico/411-om-1180-rx",
       "status": "research-pending",
       "prices": [],
+      "currentUsBudgetBenchmark": null,
       "identitySources": [
         {
           "label": "Hublot reference source",
@@ -5162,6 +6216,7 @@
       "path": "/collections/hublot/big-bang-unico/411-ox-1180-rx",
       "status": "research-pending",
       "prices": [],
+      "currentUsBudgetBenchmark": null,
       "identitySources": [
         {
           "label": "Hublot reference source",
@@ -5193,6 +6248,7 @@
           "sourceType": "manufacturer"
         }
       ],
+      "currentUsBudgetBenchmark": 26400,
       "identitySources": [
         {
           "label": "Hublot official reference",
@@ -5209,8 +6265,26 @@
       "collection": "Historiques",
       "reference": "4200H/222A-B934",
       "path": "/collections/vacheron-constantin/historiques/4200h-222a-b934",
-      "status": "research-pending",
-      "prices": [],
+      "status": "sourced-list-price",
+      "prices": [
+        {
+          "brand": "Vacheron Constantin",
+          "reference": "4200H/222A-B934",
+          "manufacturerReference": "4200H/222A-B934",
+          "configuration": "Blue dial / 37 mm steel / integrated steel bracelet / caliber 2455/2",
+          "amount": 36500,
+          "currency": "USD",
+          "market": "United States",
+          "taxBasis": "excluded",
+          "basis": "current-list",
+          "checkedAt": "2026-10-28",
+          "effectiveDate": null,
+          "sourceUrl": "https://www.vacheron-constantin.com/us/en/collections/historiques/4200h-222a-b934.html",
+          "sourceName": "Vacheron Constantin United States",
+          "sourceType": "manufacturer"
+        }
+      ],
+      "currentUsBudgetBenchmark": 36500,
       "identitySources": [
         {
           "label": "Vacheron Constantin official reference",
@@ -5227,8 +6301,26 @@
       "collection": "Traditionnelle",
       "reference": "82172/000R-9382",
       "path": "/collections/vacheron-constantin/traditionnelle/82172-000r-9382",
-      "status": "research-pending",
-      "prices": [],
+      "status": "sourced-list-price",
+      "prices": [
+        {
+          "brand": "Vacheron Constantin",
+          "reference": "82172/000R-9382",
+          "manufacturerReference": "82172/000R-9382",
+          "configuration": "Silvered small-seconds dial / 38 mm pink gold / dark brown alligator strap / manual 4400 AS",
+          "amount": 28400,
+          "currency": "USD",
+          "market": "United States",
+          "taxBasis": "excluded",
+          "basis": "current-list",
+          "checkedAt": "2026-10-28",
+          "effectiveDate": null,
+          "sourceUrl": "https://www.vacheron-constantin.com/us/en/collections/traditionnelle/82172-000r-9382.html",
+          "sourceName": "Vacheron Constantin United States",
+          "sourceType": "manufacturer"
+        }
+      ],
+      "currentUsBudgetBenchmark": 28400,
       "identitySources": [
         {
           "label": "Vacheron Constantin official reference",
@@ -5247,6 +6339,7 @@
       "path": "/collections/vacheron-constantin/traditionnelle/6000t-000p-h025",
       "status": "research-pending",
       "prices": [],
+      "currentUsBudgetBenchmark": null,
       "identitySources": [
         {
           "label": "Vacheron Constantin reference source",
@@ -5259,8 +6352,26 @@
       "collection": "American 1921",
       "reference": "82035/000R-H114",
       "path": "/collections/vacheron-constantin/american-1921/82035-000r-h114",
-      "status": "research-pending",
-      "prices": [],
+      "status": "sourced-list-price",
+      "prices": [
+        {
+          "brand": "Vacheron Constantin",
+          "reference": "82035/000R-H114",
+          "manufacturerReference": "82035/000R-H114",
+          "configuration": "Grained silver-toned dial with blue Arabic numerals / 40 x 40 mm pink gold / dark blue calfskin strap / manual 4400 AS",
+          "amount": 45000,
+          "currency": "USD",
+          "market": "United States",
+          "taxBasis": "excluded",
+          "basis": "current-list",
+          "checkedAt": "2026-10-28",
+          "effectiveDate": null,
+          "sourceUrl": "https://www.vacheron-constantin.com/us/en/collections/historiques/82035-000r-h114.html",
+          "sourceName": "Vacheron Constantin United States",
+          "sourceType": "manufacturer"
+        }
+      ],
+      "currentUsBudgetBenchmark": 45000,
       "identitySources": [
         {
           "label": "Vacheron Constantin official reference",
@@ -5296,6 +6407,7 @@
           "sourceType": "manufacturer"
         }
       ],
+      "currentUsBudgetBenchmark": 7000,
       "identitySources": [
         {
           "label": "Tudor official reference",
@@ -5331,6 +6443,7 @@
           "sourceType": "manufacturer"
         }
       ],
+      "currentUsBudgetBenchmark": 7000,
       "identitySources": [
         {
           "label": "Tudor official reference",
@@ -5349,6 +6462,7 @@
       "path": "/collections/franck-muller/rabbit/v-41-sc-dt-fr2-gfgrnr-nr",
       "status": "research-pending",
       "prices": [],
+      "currentUsBudgetBenchmark": null,
       "identitySources": [
         {
           "label": "Cortina Watch collaboration reference",
@@ -5367,6 +6481,7 @@
       "path": "/collections/franck-muller/crazy-hours/8880chaclb",
       "status": "research-pending",
       "prices": [],
+      "currentUsBudgetBenchmark": null,
       "identitySources": [
         {
           "label": "Franck Muller official reference",
@@ -5385,6 +6500,7 @@
       "path": "/collections/franck-muller/yachting/v45scyachtacbl",
       "status": "research-pending",
       "prices": [],
+      "currentUsBudgetBenchmark": null,
       "identitySources": [
         {
           "label": "Franck Muller official reference",
@@ -5399,6 +6515,7 @@
       "path": "/collections/franck-muller/yachting/v-45-sc-dt-yacht-cr-bl-bl",
       "status": "research-pending",
       "prices": [],
+      "currentUsBudgetBenchmark": null,
       "identitySources": [
         {
           "label": "Franck Muller official reference",
@@ -5415,8 +6532,26 @@
       "collection": "Master Control",
       "reference": "Q4018421",
       "path": "/collections/jaeger-lecoultre/master-control/q4018421",
-      "status": "research-pending",
-      "prices": [],
+      "status": "sourced-list-price",
+      "prices": [
+        {
+          "brand": "Jaeger-LeCoultre",
+          "reference": "Q4018421",
+          "manufacturerReference": "Q4018421",
+          "configuration": "Silvered gray sunray dial / 40 mm steel / interchangeable strap / automatic caliber 899",
+          "amount": 10500,
+          "currency": "USD",
+          "market": "United States",
+          "taxBasis": "excluded",
+          "basis": "current-list",
+          "checkedAt": "2026-10-28",
+          "effectiveDate": null,
+          "sourceUrl": "https://www.jaeger-lecoultre.com/us-en/watches/master-control/master-control-date-stainless-steel-q4018421",
+          "sourceName": "Jaeger-LeCoultre United States",
+          "sourceType": "manufacturer"
+        }
+      ],
+      "currentUsBudgetBenchmark": 10500,
       "identitySources": [
         {
           "label": "Jaeger-LeCoultre official reference",
@@ -5435,6 +6570,7 @@
       "path": "/collections/jaeger-lecoultre/master-grande-tradition/q52334e1",
       "status": "research-pending",
       "prices": [],
+      "currentUsBudgetBenchmark": null,
       "identitySources": [
         {
           "label": "Jaeger-LeCoultre official reference",
@@ -5451,8 +6587,26 @@
       "collection": "DEFY Skyline",
       "reference": "03.9300.3620/51.I001",
       "path": "/collections/zenith/defy-skyline/03-9300-3620-51-i001",
-      "status": "research-pending",
-      "prices": [],
+      "status": "sourced-list-price",
+      "prices": [
+        {
+          "brand": "Zenith",
+          "reference": "03.9300.3620/51.I001",
+          "manufacturerReference": "03.9300.3620/51.I001",
+          "configuration": "Blue star-patterned dial / 41 mm steel / steel bracelet plus blue rubber strap / El Primero 3620",
+          "amount": 10000,
+          "currency": "USD",
+          "market": "United States",
+          "taxBasis": "unconfirmed",
+          "basis": "current-list",
+          "checkedAt": "2026-10-28",
+          "effectiveDate": null,
+          "sourceUrl": "https://www.zenith-watches.com/en_us/product/defy-skyline-03-9300-3620-51-i001",
+          "sourceName": "Zenith United States",
+          "sourceType": "manufacturer"
+        }
+      ],
+      "currentUsBudgetBenchmark": 10000,
       "identitySources": [
         {
           "label": "Reference identity and specifications",
@@ -5469,8 +6623,26 @@
       "collection": "DEFY Skyline",
       "reference": "03.9300.3620/79.I001",
       "path": "/collections/zenith/defy-skyline/03-9300-3620-79-i001",
-      "status": "research-pending",
-      "prices": [],
+      "status": "sourced-list-price",
+      "prices": [
+        {
+          "brand": "Zenith",
+          "reference": "03.9300.3620/79.I001",
+          "manufacturerReference": "03.9300.3620/79.I001",
+          "configuration": "Blue skeleton dial / 41 mm steel / steel bracelet plus blue rubber strap / El Primero 3620 SK",
+          "amount": 12300,
+          "currency": "USD",
+          "market": "United States",
+          "taxBasis": "unconfirmed",
+          "basis": "current-list",
+          "checkedAt": "2026-10-28",
+          "effectiveDate": null,
+          "sourceUrl": "https://www.zenith-watches.com/en_us/product/defy-skyline-03-9300-3620-79-i001",
+          "sourceName": "Zenith United States",
+          "sourceType": "manufacturer"
+        }
+      ],
+      "currentUsBudgetBenchmark": 12300,
       "identitySources": [
         {
           "label": "Reference identity and specifications",
@@ -5487,8 +6659,26 @@
       "collection": "DEFY Skyline",
       "reference": "03.9300.3620/15.I001",
       "path": "/collections/zenith/defy-skyline/03-9300-3620-15-i001",
-      "status": "research-pending",
-      "prices": [],
+      "status": "sourced-list-price",
+      "prices": [
+        {
+          "brand": "Zenith",
+          "reference": "03.9300.3620/15.I001",
+          "manufacturerReference": "03.9300.3620/15.I001",
+          "configuration": "Ice blue star-patterned dial / 41 mm steel / steel bracelet plus ice blue rubber strap / El Primero 3620",
+          "amount": 10000,
+          "currency": "USD",
+          "market": "United States",
+          "taxBasis": "unconfirmed",
+          "basis": "current-list",
+          "checkedAt": "2026-10-28",
+          "effectiveDate": null,
+          "sourceUrl": "https://www.zenith-watches.com/en_us/product/defy-skyline-03-9300-3620-15-i001",
+          "sourceName": "Zenith United States",
+          "sourceType": "manufacturer"
+        }
+      ],
+      "currentUsBudgetBenchmark": 10000,
       "identitySources": [
         {
           "label": "Reference identity and specifications",
@@ -5524,6 +6714,7 @@
           "sourceType": "manufacturer"
         }
       ],
+      "currentUsBudgetBenchmark": 13500,
       "identitySources": [
         {
           "label": "Reference identity and specifications",
@@ -5559,6 +6750,7 @@
           "sourceType": "manufacturer"
         }
       ],
+      "currentUsBudgetBenchmark": 7800,
       "identitySources": [
         {
           "label": "Reference identity and specifications",
@@ -5594,6 +6786,7 @@
           "sourceType": "manufacturer"
         }
       ],
+      "currentUsBudgetBenchmark": 9200,
       "identitySources": [
         {
           "label": "Reference identity and specifications",
@@ -5629,6 +6822,7 @@
           "sourceType": "manufacturer"
         }
       ],
+      "currentUsBudgetBenchmark": 10200,
       "identitySources": [
         {
           "label": "Reference identity and specifications",
@@ -5664,6 +6858,7 @@
           "sourceType": "manufacturer"
         }
       ],
+      "currentUsBudgetBenchmark": 86200,
       "identitySources": [
         {
           "label": "Reference identity and specifications",
@@ -5699,6 +6894,7 @@
           "sourceType": "manufacturer"
         }
       ],
+      "currentUsBudgetBenchmark": 102000,
       "identitySources": [
         {
           "label": "Reference identity and specifications",
@@ -5734,6 +6930,7 @@
           "sourceType": "manufacturer"
         }
       ],
+      "currentUsBudgetBenchmark": 5400,
       "identitySources": [
         {
           "label": "Reference identity and specifications",
@@ -5769,6 +6966,7 @@
           "sourceType": "manufacturer"
         }
       ],
+      "currentUsBudgetBenchmark": 6900,
       "identitySources": [
         {
           "label": "Reference identity and specifications",
@@ -5804,6 +7002,7 @@
           "sourceType": "manufacturer"
         }
       ],
+      "currentUsBudgetBenchmark": 5800,
       "identitySources": [
         {
           "label": "Reference identity and specifications",
@@ -5839,6 +7038,7 @@
           "sourceType": "manufacturer"
         }
       ],
+      "currentUsBudgetBenchmark": 7150,
       "identitySources": [
         {
           "label": "Reference identity and specifications",
@@ -5855,8 +7055,26 @@
       "collection": "Carrera",
       "reference": "CAR2A1Z.FT6044",
       "path": "/collections/tag-heuer/carrera/car2a1z-ft6044",
-      "status": "research-pending",
-      "prices": [],
+      "status": "sourced-list-price",
+      "prices": [
+        {
+          "brand": "TAG Heuer",
+          "reference": "CAR2A1Z.FT6044",
+          "manufacturerReference": "CAR2A1Z.FT6044",
+          "configuration": "Black dial / 45 mm black PVD steel / black rubber strap / Calibre HEUER01 automatic",
+          "amount": 6950,
+          "currency": "USD",
+          "market": "United States",
+          "taxBasis": "unconfirmed",
+          "basis": "historical-list",
+          "checkedAt": "2026-10-28",
+          "effectiveDate": null,
+          "sourceUrl": "https://www.tagheuer.com/us/en/timepieces/collections/tag-heuer-carrera/45-mm-calibre-heuer01-automatic/CAR2A1Z.FT6044.html",
+          "sourceName": "TAG Heuer United States",
+          "sourceType": "manufacturer"
+        }
+      ],
+      "currentUsBudgetBenchmark": null,
       "identitySources": [
         {
           "label": "Reference identity and specifications",
@@ -5875,6 +7093,7 @@
       "path": "/collections/tag-heuer/monaco/cbl2111-fc6453",
       "status": "research-pending",
       "prices": [],
+      "currentUsBudgetBenchmark": null,
       "identitySources": [
         {
           "label": "Reference identity and specifications",
@@ -5893,6 +7112,7 @@
       "path": "/collections/richard-mille/rm-67/rm-67-01",
       "status": "research-pending",
       "prices": [],
+      "currentUsBudgetBenchmark": null,
       "identitySources": [
         {
           "label": "Reference identity and specifications",
@@ -5911,6 +7131,7 @@
       "path": "/collections/richard-mille/rm-27/rm-27-05",
       "status": "research-pending",
       "prices": [],
+      "currentUsBudgetBenchmark": null,
       "identitySources": [
         {
           "label": "Reference identity and specifications",
@@ -5946,6 +7167,7 @@
           "sourceType": "manufacturer"
         }
       ],
+      "currentUsBudgetBenchmark": 16100,
       "identitySources": [
         {
           "label": "Reference identity and specifications",
@@ -5964,6 +7186,7 @@
       "path": "/collections/omega/dark-side-of-the-moon/311-92-44-51-01-003",
       "status": "research-pending",
       "prices": [],
+      "currentUsBudgetBenchmark": null,
       "identitySources": [
         {
           "label": "Reference identity and specifications",
@@ -5982,6 +7205,7 @@
       "path": "/collections/franck-muller/vanguard-encrypto/v-45-sc-dt-btc-tt-br-nr",
       "status": "research-pending",
       "prices": [],
+      "currentUsBudgetBenchmark": null,
       "identitySources": [
         {
           "label": "Reference identity and specifications",
@@ -6000,6 +7224,7 @@
       "path": "/collections/franck-muller/vanguard-beach/v-41-sc-dt-beach-bu-bl-gf1",
       "status": "research-pending",
       "prices": [],
+      "currentUsBudgetBenchmark": null,
       "identitySources": [
         {
           "label": "Reference identity and specifications",
@@ -6018,6 +7243,7 @@
       "path": "/collections/franck-muller/fr2nck-vanguard-beach/v-41-sc-dt-beach-fr2-gfbubl-bc",
       "status": "research-pending",
       "prices": [],
+      "currentUsBudgetBenchmark": null,
       "identitySources": [
         {
           "label": "Reference identity and specifications",
@@ -6036,6 +7262,7 @@
       "path": "/collections/franck-muller/fr2nck-vanguard-beach/v-41-sc-dt-beach-fr2-gfrgfrg-bc",
       "status": "research-pending",
       "prices": [],
+      "currentUsBudgetBenchmark": null,
       "identitySources": [
         {
           "label": "Reference identity and specifications",
@@ -6054,6 +7281,7 @@
       "path": "/collections/franck-muller/fr2nck-vanguard-beach/v-41-sc-dt-beach-fr2-gfvrve-bc",
       "status": "research-pending",
       "prices": [],
+      "currentUsBudgetBenchmark": null,
       "identitySources": [
         {
           "label": "Reference identity and specifications",
@@ -6072,6 +7300,7 @@
       "path": "/collections/franck-muller/vanguard-smurfette/v-32-sc-at-fo-smurfette-bl",
       "status": "research-pending",
       "prices": [],
+      "currentUsBudgetBenchmark": null,
       "identitySources": [
         {
           "label": "Reference identity and specifications",
@@ -6090,6 +7319,7 @@
       "path": "/collections/franck-muller/vanguard-smurfette/v-32-sc-at-fo-smurfette-rs",
       "status": "research-pending",
       "prices": [],
+      "currentUsBudgetBenchmark": null,
       "identitySources": [
         {
           "label": "Reference identity and specifications",
@@ -6108,6 +7338,7 @@
       "path": "/collections/franck-muller/bamford-collaborations/v-45-sc-popeye-ltd-tt-nr-br-nr",
       "status": "research-pending",
       "prices": [],
+      "currentUsBudgetBenchmark": null,
       "identitySources": [
         {
           "label": "Reference identity and specifications",
@@ -6126,6 +7357,7 @@
       "path": "/collections/franck-muller/bamford-collaborations/7880-ch-pnts-nr",
       "status": "research-pending",
       "prices": [],
+      "currentUsBudgetBenchmark": null,
       "identitySources": [
         {
           "label": "Reference identity and specifications",
@@ -6161,6 +7393,7 @@
           "sourceType": "manufacturer"
         }
       ],
+      "currentUsBudgetBenchmark": 29800,
       "identitySources": [
         {
           "label": "Reference identity and specifications",
@@ -6179,6 +7412,7 @@
       "path": "/collections/panerai/radiomir-gmt/pam00502",
       "status": "research-pending",
       "prices": [],
+      "currentUsBudgetBenchmark": null,
       "identitySources": [
         {
           "label": "Reference identity and specifications",
@@ -6214,6 +7448,7 @@
           "sourceType": "manufacturer"
         }
       ],
+      "currentUsBudgetBenchmark": 51500,
       "identitySources": [
         {
           "label": "Reference identity and specifications",
@@ -6249,6 +7484,7 @@
           "sourceType": "manufacturer"
         }
       ],
+      "currentUsBudgetBenchmark": 10200,
       "identitySources": [
         {
           "label": "Reference identity and specifications",
@@ -6265,8 +7501,26 @@
       "collection": "DEFY Extreme",
       "reference": "95.9100.9004/01.I001",
       "path": "/collections/zenith/defy-extreme/95-9100-9004-01-i001",
-      "status": "research-pending",
-      "prices": [],
+      "status": "sourced-list-price",
+      "prices": [
+        {
+          "brand": "Zenith",
+          "reference": "95.9100.9004/01.I001",
+          "manufacturerReference": "95.9100.9004/01.I001",
+          "configuration": "Openworked sapphire dial / 45 mm titanium / titanium bracelet / El Primero 21",
+          "amount": 20100,
+          "currency": "USD",
+          "market": "United States",
+          "taxBasis": "unconfirmed",
+          "basis": "current-list",
+          "checkedAt": "2026-10-28",
+          "effectiveDate": null,
+          "sourceUrl": "https://www.zenith-watches.com/en_us/product/defy-extreme-95-9100-9004-01-i001",
+          "sourceName": "Zenith United States",
+          "sourceType": "manufacturer"
+        }
+      ],
+      "currentUsBudgetBenchmark": 20100,
       "identitySources": [
         {
           "label": "Reference identity and specifications",
@@ -6285,6 +7539,7 @@
       "path": "/collections/breitling/colt/a17388101b1a1",
       "status": "research-pending",
       "prices": [],
+      "currentUsBudgetBenchmark": null,
       "identitySources": [
         {
           "label": "Reference identity and specifications",
@@ -6303,6 +7558,7 @@
       "path": "/collections/breitling/avenger-ii/a32390111g1a1",
       "status": "research-pending",
       "prices": [],
+      "currentUsBudgetBenchmark": null,
       "identitySources": [
         {
           "label": "Reference identity and specifications",
@@ -6321,6 +7577,7 @@
       "path": "/collections/omega/seamaster-300/233-32-41-21-01-001",
       "status": "research-pending",
       "prices": [],
+      "currentUsBudgetBenchmark": null,
       "identitySources": [
         {
           "label": "Reference identity and specifications",
@@ -6356,6 +7613,7 @@
           "sourceType": "manufacturer"
         }
       ],
+      "currentUsBudgetBenchmark": 10900,
       "identitySources": [
         {
           "label": "Reference identity and specifications",
@@ -6391,6 +7649,7 @@
           "sourceType": "manufacturer"
         }
       ],
+      "currentUsBudgetBenchmark": 11200,
       "identitySources": [
         {
           "label": "Reference identity and specifications",
@@ -6409,6 +7668,7 @@
       "path": "/collections/omega/planet-ocean-gmt/215-30-44-22-01-001",
       "status": "research-pending",
       "prices": [],
+      "currentUsBudgetBenchmark": null,
       "identitySources": [
         {
           "label": "Reference identity and specifications",
@@ -6444,6 +7704,7 @@
           "sourceType": "manufacturer"
         }
       ],
+      "currentUsBudgetBenchmark": 11600,
       "identitySources": [
         {
           "label": "Reference identity and specifications",
@@ -6462,6 +7723,7 @@
       "path": "/collections/omega/constellation/131-63-41-21-03-001",
       "status": "research-pending",
       "prices": [],
+      "currentUsBudgetBenchmark": null,
       "identitySources": [
         {
           "label": "Reference identity and specifications",
@@ -6497,6 +7759,7 @@
           "sourceType": "manufacturer"
         }
       ],
+      "currentUsBudgetBenchmark": 8200,
       "identitySources": [
         {
           "label": "Reference identity and specifications",
@@ -6532,6 +7795,7 @@
           "sourceType": "manufacturer"
         }
       ],
+      "currentUsBudgetBenchmark": 10500,
       "identitySources": [
         {
           "label": "Reference identity and specifications",
@@ -6567,6 +7831,7 @@
           "sourceType": "manufacturer"
         }
       ],
+      "currentUsBudgetBenchmark": 4500,
       "identitySources": [
         {
           "label": "Reference identity and specifications",
@@ -6602,6 +7867,7 @@
           "sourceType": "manufacturer"
         }
       ],
+      "currentUsBudgetBenchmark": 4500,
       "identitySources": [
         {
           "label": "Reference identity and specifications",
@@ -6620,6 +7886,7 @@
       "path": "/collections/omega/constellation/131-10-28-60-56-001",
       "status": "research-pending",
       "prices": [],
+      "currentUsBudgetBenchmark": null,
       "identitySources": [
         {
           "label": "Reference identity and specifications",
@@ -6655,6 +7922,7 @@
           "sourceType": "manufacturer"
         }
       ],
+      "currentUsBudgetBenchmark": 5800,
       "identitySources": [
         {
           "label": "Reference identity and specifications",
@@ -6673,6 +7941,7 @@
       "path": "/collections/omega/de-ville-prestige/434-10-41-21-03-001",
       "status": "research-pending",
       "prices": [],
+      "currentUsBudgetBenchmark": null,
       "identitySources": [
         {
           "label": "Reference identity and specifications",
@@ -6708,6 +7977,7 @@
           "sourceType": "manufacturer"
         }
       ],
+      "currentUsBudgetBenchmark": 6200,
       "identitySources": [
         {
           "label": "Reference identity and specifications",
@@ -6743,6 +8013,7 @@
           "sourceType": "manufacturer"
         }
       ],
+      "currentUsBudgetBenchmark": 6800,
       "identitySources": [
         {
           "label": "Reference identity and specifications",
@@ -6778,6 +8049,7 @@
           "sourceType": "manufacturer"
         }
       ],
+      "currentUsBudgetBenchmark": 120656,
       "identitySources": [
         {
           "label": "Reference identity and specifications",
@@ -6813,6 +8085,7 @@
           "sourceType": "manufacturer"
         }
       ],
+      "currentUsBudgetBenchmark": 156039,
       "identitySources": [
         {
           "label": "Reference identity and specifications",
@@ -6848,6 +8121,7 @@
           "sourceType": "manufacturer"
         }
       ],
+      "currentUsBudgetBenchmark": 248813,
       "identitySources": [
         {
           "label": "Reference identity and specifications",
@@ -6864,8 +8138,26 @@
       "collection": "Patrimony",
       "reference": "4000U/000P-H003",
       "path": "/collections/vacheron-constantin/patrimony/4000u-000p-h003",
-      "status": "research-pending",
-      "prices": [],
+      "status": "sourced-list-price",
+      "prices": [
+        {
+          "brand": "Vacheron Constantin",
+          "reference": "4000U/000P-H003",
+          "manufacturerReference": "4000U/000P-H003",
+          "configuration": "Salmon sunburst dial / 42.5 mm platinum / dark blue alligator strap / automatic 2460 R31R7/3",
+          "amount": 68500,
+          "currency": "USD",
+          "market": "United States",
+          "taxBasis": "excluded",
+          "basis": "current-list",
+          "checkedAt": "2026-10-28",
+          "effectiveDate": null,
+          "sourceUrl": "https://www.vacheron-constantin.com/us/en/collections/patrimony/4000u-000p-h003.html",
+          "sourceName": "Vacheron Constantin United States",
+          "sourceType": "manufacturer"
+        }
+      ],
+      "currentUsBudgetBenchmark": 68500,
       "identitySources": [
         {
           "label": "Reference identity and specifications",

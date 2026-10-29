@@ -14,10 +14,13 @@ const prices = getVerifiedRetailPrices(asset, brand);
     <article>
       <p><strong>{formatRetailPrice(price)} {price.currency}</strong> · {price.market} · {formatRetailTaxBasis(price)}</p>
       <p>{price.configuration} · {price.manufacturerReference}</p>
+      {price.configurationScope === "base-reference" && <p>Base-reference list benchmark. The price of the pictured configuration is not fully verified.</p>}
       <p>{price.basis === "historical-list" ? "Historical list price" : "Published list price"} checked {price.checkedAt}.
         {price.effectiveDate && ` Manufacturer effective date: ${price.effectiveDate}.`}
+        {!price.effectiveDate && price.effectivePeriod && ` Manufacturer price period: ${price.effectivePeriod}; finer effective date not stated.`}
         <a href={price.sourceUrl} target="_blank" rel="noopener noreferrer external">{price.sourceName}</a>
       </p>
+      {price.basis === "historical-list" && <p>Historical benchmark only. Current list price and market value remain unverified; this amount is excluded from current-budget matching.</p>}
     </article>
   )) : <p>Verified MSRP is being researched for this exact reference and configuration.</p>}
   <p class="note">List price is a retail benchmark. Availability and the price of a specific new or pre-owned watch require a sourcing quote.</p>

@@ -1,0 +1,396 @@
+{
+  "title": "Remaining current manufacturer observations — October 28",
+  "scope": "Read-only research, excludes assigned Rolex/AP/Franck Muller lanes.",
+  "prices": [
+    {
+      "brand": "Vacheron Constantin",
+      "reference": "4200H/222A-B934",
+      "manufacturerReference": "4200H/222A-B934",
+      "configuration": "Blue dial / 37 mm steel / integrated steel bracelet / caliber 2455/2",
+      "amount": 36500,
+      "currency": "USD",
+      "market": "United States",
+      "taxBasis": "excluded",
+      "basis": "current-list",
+      "checkedAt": "2026-10-28",
+      "effectiveDate": null,
+      "sourceUrl": "https://www.vacheron-constantin.com/us/en/collections/historiques/4200h-222a-b934.html",
+      "sourceName": "Vacheron Constantin United States",
+      "sourceType": "manufacturer",
+      "catalogPath": "/collections/vacheron-constantin/historiques/4200h-222a-b934",
+      "evidence": {
+        "priceLabel": "$36,500",
+        "priceData": {
+          "price": 36500,
+          "priceCurrency": "USD"
+        },
+        "taxStatement": "Excluding Tax",
+        "currencyBasis": "Exact selected manufacturer US product page meta priceCurrency USD or selected Product/Offer USD.",
+        "catalogManifest": {
+          "file": "src/data/photography-cleared-sprint.ts",
+          "reference": "4200H/222A-B934",
+          "exactReference": "4200H/222A-B934",
+          "configuration": {
+            "dial": "Blue",
+            "bracelet": "Stainless-steel integrated bracelet",
+            "caseSize": "37 mm",
+            "movement": "Self-winding calibre 2455/2",
+            "waterResistance": "50 m"
+          },
+          "sourceUrl": "https://wristaficionado.com/products/vacheron-constantin-historiques-222-4200h-222a-b934-stainless-steel-blue-dial-2025"
+        },
+        "catalogMatch": "Exact full selected SKU, case, dial and bracelet/strap match canonical pictured identity.",
+        "availabilityNote": "Manufacturer list benchmark; boutique enquiry or reservation is required separately."
+      }
+    },
+    {
+      "brand": "Vacheron Constantin",
+      "reference": "82172/000R-9382",
+      "manufacturerReference": "82172/000R-9382",
+      "configuration": "Silvered small-seconds dial / 38 mm pink gold / dark brown alligator strap / manual 4400 AS",
+      "amount": 28400,
+      "currency": "USD",
+      "market": "United States",
+      "taxBasis": "excluded",
+      "basis": "current-list",
+      "checkedAt": "2026-10-28",
+      "effectiveDate": null,
+      "sourceUrl": "https://www.vacheron-constantin.com/us/en/collections/traditionnelle/82172-000r-9382.html",
+      "sourceName": "Vacheron Constantin United States",
+      "sourceType": "manufacturer",
+      "catalogPath": "/collections/vacheron-constantin/traditionnelle/82172-000r-9382",
+      "evidence": {
+        "priceLabel": "$28,400",
+        "priceData": {
+          "price": 28400,
+          "priceCurrency": "USD"
+        },
+        "taxStatement": "Excluding Tax",
+        "currencyBasis": "Exact selected manufacturer US product page meta priceCurrency USD or selected Product/Offer USD.",
+        "catalogManifest": {
+          "file": "src/data/photography-cleared-sprint.ts",
+          "reference": "82172/000R-9382",
+          "exactReference": "82172/000R-9382",
+          "configuration": {
+            "dial": "Silvered with small seconds",
+            "bracelet": "Dark-brown alligator leather strap",
+            "caseSize": "38 mm",
+            "movement": "Manual-winding calibre 4400 AS",
+            "waterResistance": "30 m"
+          },
+          "sourceUrl": "https://www.watches-of-switzerland.co.uk/Vacheron-Constantin-Traditionnelle-Watch-82172/000R%2B9382/p/17510052"
+        },
+        "catalogMatch": "Exact full selected SKU, case, dial and bracelet/strap match canonical pictured identity.",
+        "availabilityNote": "Manufacturer list benchmark; boutique enquiry or reservation is required separately."
+      }
+    },
+    {
+      "brand": "Vacheron Constantin",
+      "reference": "82035/000R-H114",
+      "manufacturerReference": "82035/000R-H114",
+      "configuration": "Grained silver-toned dial with blue Arabic numerals / 40 x 40 mm pink gold / dark blue calfskin strap / manual 4400 AS",
+      "amount": 45000,
+      "currency": "USD",
+      "market": "United States",
+      "taxBasis": "excluded",
+      "basis": "current-list",
+      "checkedAt": "2026-10-28",
+      "effectiveDate": null,
+      "sourceUrl": "https://www.vacheron-constantin.com/us/en/collections/historiques/82035-000r-h114.html",
+      "sourceName": "Vacheron Constantin United States",
+      "sourceType": "manufacturer",
+      "catalogPath": "/collections/vacheron-constantin/american-1921/82035-000r-h114",
+      "evidence": {
+        "priceLabel": "$45,000",
+        "priceData": {
+          "price": 45000,
+          "priceCurrency": "USD"
+        },
+        "taxStatement": "Excluding Tax",
+        "currencyBasis": "Exact selected manufacturer US product page meta priceCurrency USD or selected Product/Offer USD.",
+        "catalogManifest": {
+          "file": "src/data/photography-cleared-sprint.ts",
+          "reference": "82035/000R-H114",
+          "exactReference": "82035/000R-H114",
+          "configuration": {
+            "dial": "Grained silver-toned with blue Arabic numerals and hands",
+            "bracelet": "Dark-blue calfskin leather strap",
+            "caseSize": "40 x 40 mm",
+            "movement": "Manual-winding calibre 4400 AS",
+            "waterResistance": "30 m"
+          },
+          "sourceUrl": "https://www.watchswiss.com/brands/vacheron-constantin/historiques-collection/american-1921-82035-000r-h114/"
+        },
+        "catalogMatch": "Exact full selected SKU, case, dial and bracelet/strap match canonical pictured identity.",
+        "availabilityNote": "Manufacturer list benchmark; boutique enquiry or reservation is required separately."
+      }
+    },
+    {
+      "brand": "Vacheron Constantin",
+      "reference": "4520V",
+      "manufacturerReference": "4520V/210A-B128",
+      "configuration": "Blue lacquered sunburst dial / 41 mm steel / steel bracelet / caliber 5100",
+      "amount": 29200,
+      "currency": "USD",
+      "market": "United States",
+      "taxBasis": "excluded",
+      "basis": "current-list",
+      "checkedAt": "2026-10-28",
+      "effectiveDate": null,
+      "sourceUrl": "https://www.vacheron-constantin.com/us/en/collections/overseas/4520v-210a-b128.html",
+      "sourceName": "Vacheron Constantin United States",
+      "sourceType": "manufacturer",
+      "catalogPath": "/collections/vacheron-constantin/overseas/4520v",
+      "evidence": {
+        "priceLabel": "$29,200",
+        "priceData": {
+          "price": 29200,
+          "priceCurrency": "USD"
+        },
+        "taxStatement": "Excluding Tax",
+        "currencyBasis": "Exact selected manufacturer US product page meta priceCurrency USD or selected Product/Offer USD.",
+        "catalogManifest": {
+          "file": "src/data/watch-photography.ts",
+          "line": 368,
+          "reference": "4520V",
+          "exactReference": "4520V/210A-B128",
+          "sourceUrl": "https://www.vacheron-constantin.com/fr/fr/collections/overseas/4520v-210a-b128.html",
+          "configuration": "Blue lacquered sunburst / steel bracelet / steel / 41 mm"
+        },
+        "catalogMatch": "Exact full selected SKU, case, dial and bracelet/strap match canonical pictured identity.",
+        "availabilityNote": "Manufacturer list benchmark; boutique enquiry or reservation is required separately."
+      }
+    },
+    {
+      "brand": "Vacheron Constantin",
+      "reference": "4300V/220G-H151",
+      "manufacturerReference": "4300V/220G-H151",
+      "configuration": "Burgundy lacquered sunburst dial / 41.5 mm white gold / white gold bracelet plus burgundy and white rubber straps / 1120 QP",
+      "amount": 132000,
+      "currency": "USD",
+      "market": "United States",
+      "taxBasis": "excluded",
+      "basis": "current-list",
+      "checkedAt": "2026-10-28",
+      "effectiveDate": null,
+      "sourceUrl": "https://www.vacheron-constantin.com/us/en/collections/overseas/4300v-220g-h151.html",
+      "sourceName": "Vacheron Constantin United States",
+      "sourceType": "manufacturer",
+      "catalogPath": "/collections/vacheron-constantin/overseas/4300v-220g-h151",
+      "evidence": {
+        "priceLabel": "$132,000",
+        "priceData": {
+          "price": 132000,
+          "priceCurrency": "USD"
+        },
+        "taxStatement": "Excluding Tax",
+        "currencyBasis": "Exact selected manufacturer US product page meta priceCurrency USD or selected Product/Offer USD.",
+        "catalogManifest": {
+          "file": "src/data/photography-cleared-sprint.ts",
+          "reference": "4300V/220G-H151",
+          "exactReference": "4300V/220G-H151",
+          "configuration": {
+            "caseSize": "41.5 mm",
+            "movement": "1120 QP automatic",
+            "dial": "Burgundy lacquered sunburst",
+            "bracelet": "18K white-gold bracelet; additional burgundy and white rubber straps"
+          },
+          "sourceUrl": "https://www.vacheron-constantin.com/ww/en/collections/overseas/4300v-220g-h151.html"
+        },
+        "catalogMatch": "Exact full selected SKU, case, dial and bracelet/strap match canonical pictured identity.",
+        "availabilityNote": "Manufacturer list benchmark; boutique enquiry or reservation is required separately."
+      }
+    },
+    {
+      "brand": "Girard-Perregaux",
+      "reference": "81010-11-431-11A",
+      "manufacturerReference": "81010-11-431-11A",
+      "configuration": "Blue dial / 42 mm steel / integrated steel bracelet / automatic GP01800",
+      "amount": 15000,
+      "currency": "USD",
+      "market": "United States",
+      "taxBasis": "unconfirmed",
+      "basis": "current-list",
+      "checkedAt": "2026-10-28",
+      "effectiveDate": null,
+      "sourceUrl": "https://www.girard-perregaux.com/en-us/watches/laureato/81010-11-431-11a",
+      "sourceName": "Girard-Perregaux United States",
+      "sourceType": "manufacturer",
+      "catalogPath": "/collections/girard-perregaux/laureato/81010-11-431-11a",
+      "evidence": {
+        "priceLabel": "USD 15,000",
+        "priceData": {
+          "price": 15000,
+          "priceCurrency": "USD"
+        },
+        "taxStatement": "No explicit selected-price tax inclusion/exclusion statement observed; retain unconfirmed.",
+        "currencyBasis": "Exact selected manufacturer US product page meta priceCurrency USD or selected Product/Offer USD.",
+        "catalogManifest": {
+          "file": "src/data/photography-cleared-sprint.ts",
+          "reference": "81010-11-431-11A",
+          "exactReference": "81010-11-431-11A",
+          "configuration": {
+            "dial": "Blue",
+            "bracelet": "Stainless-steel integrated bracelet",
+            "caseSize": "42 mm",
+            "movement": "Self-winding GP01800"
+          },
+          "sourceUrl": "https://www.girard-perregaux.com/en-us/watches/laureato/81010-11-431-11a"
+        },
+        "catalogMatch": "Exact full selected SKU, case, dial and bracelet/strap match canonical pictured identity.",
+        "availabilityNote": "Manufacturer list benchmark; boutique enquiry or reservation is required separately."
+      }
+    },
+    {
+      "brand": "Vacheron Constantin",
+      "reference": "4000U/000P-H003",
+      "manufacturerReference": "4000U/000P-H003",
+      "configuration": "Salmon sunburst dial / 42.5 mm platinum / dark blue alligator strap / automatic 2460 R31R7/3",
+      "amount": 68500,
+      "currency": "USD",
+      "market": "United States",
+      "taxBasis": "excluded",
+      "basis": "current-list",
+      "checkedAt": "2026-10-28",
+      "effectiveDate": null,
+      "sourceUrl": "https://www.vacheron-constantin.com/us/en/collections/patrimony/4000u-000p-h003.html",
+      "sourceName": "Vacheron Constantin United States",
+      "sourceType": "manufacturer",
+      "catalogPath": "/collections/vacheron-constantin/patrimony/4000u-000p-h003",
+      "evidence": {
+        "priceLabel": "$68,500",
+        "priceData": {
+          "price": 68500,
+          "priceCurrency": "USD"
+        },
+        "currencyBasis": "Official US exact selected product HTML Product/Offer or priceCurrency metadata confirms USD.",
+        "taxStatement": "Excluding Tax",
+        "catalogManifest": {
+          "file": "src/data/photography-cleared-sprint.ts",
+          "reference": "4000U/000P-H003",
+          "exactReference": "4000U/000P-H003",
+          "configuration": {
+            "caseSize": "42.5 mm",
+            "movement": "2460 R31R7/3 automatic",
+            "dial": "Salmon-toned sunburst",
+            "bracelet": "Dark blue alligator leather strap"
+          },
+          "sourceUrl": "https://www.vacheron-constantin.com/ca/en/collections/patrimony/4000u-000p-h003.html"
+        },
+        "catalogMatch": "Exact full selected manufacturer reference and pictured configuration agree; punctuation-only 191-032 versus 191.032 normalized without variant substitution."
+      }
+    },
+    {
+      "brand": "A. Lange & Söhne",
+      "reference": "191-032",
+      "manufacturerReference": "191.032",
+      "configuration": "Argenté solid-silver dial / 38.5 mm pink gold / brown alligator strap / manual L121.1",
+      "amount": 49500,
+      "currency": "USD",
+      "market": "United States",
+      "taxBasis": "unconfirmed",
+      "basis": "current-list",
+      "checkedAt": "2026-10-28",
+      "effectiveDate": null,
+      "sourceUrl": "https://www.alange-soehne.com/us-en/timepieces/lange-1/lange-1/lange-1-in-750-pink-gold-191-032",
+      "sourceName": "A. Lange & Söhne United States",
+      "sourceType": "manufacturer",
+      "catalogPath": "/collections/a-lange-and-sohne/lange-1/191-032",
+      "evidence": {
+        "priceLabel": "$49,500",
+        "priceData": {
+          "price": 49500,
+          "priceCurrency": "USD"
+        },
+        "currencyBasis": "Official US exact selected product HTML Product/Offer or priceCurrency metadata confirms USD.",
+        "taxStatement": "No explicit selected-price tax treatment observed; retain unconfirmed.",
+        "catalogManifest": {
+          "file": "src/data/photography-cleared-sprint.ts",
+          "reference": "191-032",
+          "exactReference": "191.032",
+          "configuration": {
+            "dial": "Argenté solid silver",
+            "bracelet": "Brown alligator leather strap",
+            "caseSize": "38.5 mm",
+            "movement": "Manual-winding L121.1",
+            "waterResistance": "3 bar"
+          },
+          "sourceUrl": "https://www.alange-soehne.com/gb-en/timepieces/lange-1/lange-1/lange-1-in-750-pink-gold-191-032"
+        },
+        "catalogMatch": "Exact full selected manufacturer reference and pictured configuration agree; punctuation-only 191-032 versus 191.032 normalized without variant substitution."
+      }
+    }
+  ],
+  "held": [
+    {
+      "brand": "Vacheron Constantin",
+      "reference": "6000V/110A-B544",
+      "sourceUrl": "https://www.vacheron-constantin.com/us/en/collections/overseas/6000v-110a-b544.html",
+      "checkedAt": "2026-10-28",
+      "reason": "Manufacturer exact US page explicitly states price on request; USD metadata price field has no numeric value. No price inferred."
+    },
+    {
+      "brand": "Vacheron Constantin",
+      "reference": "6000T/000P-H025",
+      "sourceUrl": "https://www.vacheron-constantin.com/us/en/collections/traditionnelle/6000t-000p-h025.html",
+      "checkedAt": "2026-10-28",
+      "reason": "Manufacturer exact US page explicitly states price on request; USD metadata price field has no numeric value. No price inferred."
+    },
+    {
+      "brand": "Cartier",
+      "reference": "Pasha de Cartier 41 mm",
+      "sourceUrl": "https://www.cartier.com/en-us/watches/collections/pasha-de-cartier/pasha-de-cartier-watch-CRWSPA0038.html",
+      "checkedAt": "2026-10-28",
+      "reason": "Exact inferred manufacturer WSPA0038 URL returns 404; no selected price verified. Existing picture is not replaced by a newer Pasha SKU."
+    },
+    {
+      "brand": "Cartier",
+      "reference": "Pasha Chronograph 41 mm",
+      "sourceUrl": "https://www.cartier.com/en-us/watches/collections/pasha-de-cartier/pasha-de-cartier-watch--CRWGPA0017.html",
+      "checkedAt": "2026-10-28",
+      "reason": "Exact manufacturer WGPA0017 address resolves to a 404 page; no selected product price verified."
+    },
+    {
+      "brand": "Panerai",
+      "reference": "PAM00683",
+      "sourceUrl": "https://www.panerai.com/us/en/collections/watch-collection/submersible/pam00683-submersible.html",
+      "checkedAt": "2026-10-28",
+      "reason": "Exact inferred US product URL returns manufacturer 404; no price verified."
+    },
+    {
+      "brand": "Panerai",
+      "reference": "PAM01305",
+      "sourceUrl": "https://www.panerai.com/us/en/collections/watch-collection/submersible/pam01305-submersible.html",
+      "checkedAt": "2026-10-28",
+      "reason": "Original exact-model URL redirects to Submersible collection with different SKUs; no own price verified."
+    },
+    {
+      "brand": "Hublot",
+      "reference": "411.OM.1180.RX",
+      "sourceUrl": "https://www.hublot.com/en-us/watches/big-bang/big-bang-unico-king-gold-ceramic-45-mm",
+      "checkedAt": "2026-10-28",
+      "reason": "Old 45 mm URL redirects to 44 mm 421.OM.1180.RX, USD45,700. Different exact reference, size and movement; replacement price excluded."
+    },
+    {
+      "brand": "Hublot",
+      "reference": "411.OX.1180.RX",
+      "sourceUrl": "https://www.hublot.com/en-us/watches/big-bang/big-bang-unico-king-gold-45-mm",
+      "checkedAt": "2026-10-28",
+      "reason": "Old 45 mm URL redirects to 44 mm 421.OX.1180.RX, USD49,300. Different exact reference, size and movement; replacement price excluded."
+    }
+  ],
+  "checkedAt": "2026-10-28",
+  "status": "immutable-ready-for-root-review",
+  "summary": {
+    "readyCanonicalReferences": 8,
+    "manufacturerObservations": 8,
+    "reviewedHolds": 8
+  },
+  "cautions": [
+    "All eight ready rows are current official United States manufacturer list benchmarks in USD, with exact pictured variant mappings.",
+    "Vacheron prices explicitly exclude tax. Lange and Girard-Perregaux tax treatment remains unconfirmed.",
+    "4520V maps only to full pictured SKU4520V/210A-B128. Lange191-032 normalizes punctuation to manufacturer191.032 without changing variant.",
+    "Current prices are observation-date benchmarks; effectiveDate remains null, no original/launch MSRP implied.",
+    "Two Vacheron tourbillons are price-on-request and remain unknown. Redirected Hublot and Panerai successor prices are excluded."
+  ]
+}

@@ -2,7 +2,7 @@
 import type { QuestLuxoAsset } from "../types/questLuxo";
 import { watchPhotographs } from "../data/watch-photography";
 import { approvedPhotograph } from "../lib/media/watchPhotography";
-import { getVerifiedRetailPrices, formatRetailPrice, formatRetailTaxBasis } from "../lib/intelligence/watchRetailPricing";
+import { getVerifiedRetailPrices, getRetailPriceSummary, formatRetailPrice, formatRetailTaxBasis } from "../lib/intelligence/watchRetailPricing";
 import { buildBeginYourQuestUrl } from "../lib/leads/leadIntakeContext";
 interface Props {
   asset: QuestLuxoAsset; href: string; brand?: string; collection?: string;
@@ -16,7 +16,8 @@ const configurations = asset.configurations ?? [];
 const photograph = approvedPhotograph(asset, watchPhotographs);
 const referenceSource = asset.specificationSources?.find(source => source.url.startsWith("https://"))?.url;
 const primary = configurations.find(c => photograph && c.dial === photograph.configuration.dial && c.bracelet === photograph.configuration.bracelet) ?? configurations[0];
-const prices = getVerifiedRetailPrices(asset, brand).toSorted((a,b) => a.amount - b.amount);
+const prices = getVerifiedRetailPrices(asset, brand);
+const retail = getRetailPriceSummary(prices);
 const sourcingUrl = buildBeginYourQuestUrl({ intent: "request-this-watch", brand, collection, reference: asset.reference });
 ---
 <article class="card">
@@ -34,11 +35,13 @@ const sourcingUrl = buildBeginYourQuestUrl({ intent: "request-this-watch", brand
     <p class="configuration">{[primary?.caseSize, primary?.dial, primary?.bracelet].filter(Boolean).join(" · ")}</p>
     <div class="tags">{asset.productionStatus && <span>{asset.productionStatus}</span>}{asset.material && <span>{asset.material}</span>}</div>
     {showMsrp && <div class="retail">
-      {prices.length ? <>
-        <strong>Published list {prices.length > 1 ? "from " : ""}{formatRetailPrice(prices[0])}</strong>
-        <span>{prices[0].currency} · {prices[0].market} · {formatRetailTaxBasis(prices[0])}</span>
-        <a href={prices[0].sourceUrl} target="_blank" rel="noopener noreferrer external">{prices[0].sourceName} · checked {prices[0].checkedAt}</a>
-        <span>{prices.length > 1 ? "Configuration-specific prices in reference profile." : prices[0].configuration} List benchmark; sourcing quote confirmed separately.</span>
+      {retail ? <>
+        <strong>{retail.price.basis === "historical-list" ? "Historical list" : "Published list"} {retail.hasRange ? "from " : ""}{formatRetailPrice(retail.price)}</strong>
+        <span>{retail.price.currency} · {retail.price.market} · {formatRetailTaxBasis(retail.price)}</span>
+        {retail.price.basis === "historical-list" && <span>Manufacturer price period: {retail.price.effectiveDate ?? retail.price.effectivePeriod ?? "Date unconfirmed"}. Current list price unverified.</span>}
+        {retail.price.configurationScope === "base-reference" && <span>Base-reference benchmark; pictured configuration not fully priced.</span>}
+        <a href={retail.price.sourceUrl} target="_blank" rel="noopener noreferrer external">{retail.price.sourceName} · checked {retail.price.checkedAt}</a>
+        <span>{prices.length > 1 ? "Configuration-specific prices in reference profile." : retail.price.configuration} List benchmark; sourcing quote confirmed separately.</span>
       </> : <span>Verified list price being researched.</span>}
     </div>}
     <div class="actions"><a class="button" href={href}>{linkLabel}</a>{showMsrp && <a class="source-link" href={sourcingUrl}>Source this watch →</a>}</div>

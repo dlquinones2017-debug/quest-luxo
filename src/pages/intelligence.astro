@@ -90,7 +90,7 @@ const photos = Object.fromEntries(catalog.flatMap(record => {
       <noscript><p>Enable JavaScript for personalized search, or <a href="/collections">browse the watch collections</a>.</p></noscript>
 
       <p class="disclaimer">
-        Budget filtering uses verified published U.S. manufacturer list prices, rather than market asking prices.
+        Budget filtering uses verified current U.S. manufacturer list prices, rather than market asking prices or historical/international benchmarks.
         References awaiting price verification are excluded from budget matches unless you include them above.
         Recommendations are based on currently modeled Quest Luxo catalog data. Price, availability,
         condition, fit, service history, and secondary-market evidence require transaction-level verification.
@@ -114,7 +114,7 @@ const photos = Object.fromEntries(catalog.flatMap(record => {
 
 <script>
   import { askQuestLuxo } from "../lib/intelligence/askQuestLuxo";
-  import { getVerifiedRetailPrices, formatRetailTaxBasis } from "../lib/intelligence/watchRetailPricing";
+  import { getVerifiedRetailPrices, getRetailPriceSummary, formatRetailPrice, formatRetailTaxBasis } from "../lib/intelligence/watchRetailPricing";
   import { buildBeginYourQuestUrl } from "../lib/leads/leadIntakeContext";
 
   const form = document.querySelector<HTMLFormElement>("#ask-form");
@@ -200,7 +200,7 @@ const photos = Object.fromEntries(catalog.flatMap(record => {
       const price = document.createElement("p");
       price.className = "price";
       price.textContent = recommendation.estimatedPrice === null
-        ? "Price verification pending"
+        ? "Current U.S. price unverified"
         : `Published MSRP from ${formatCurrency(recommendation.estimatedPrice)}`;
       top.append(identity, price);
 
@@ -219,14 +219,20 @@ const photos = Object.fromEntries(catalog.flatMap(record => {
 
       item.append(top, details);
 
-      const retailPrice = getVerifiedRetailPrices(recommendation.asset, recommendation.brand)
-        .find((entry) => entry.amount === recommendation.estimatedPrice && entry.currency === "USD");
+      const retailPrices = getVerifiedRetailPrices(recommendation.asset, recommendation.brand);
+      const retailPrice = retailPrices.find((entry) => entry.amount === recommendation.estimatedPrice && entry.currency === "USD" && entry.basis === "current-list" && entry.configurationScope !== "base-reference")
+        ?? getRetailPriceSummary(retailPrices)?.price;
       if (retailPrice) {
+        if (recommendation.estimatedPrice === null) {
+          const label = retailPrice.basis === "historical-list" ? "Historical list" : "Published list";
+          const period = retailPrice.effectiveDate ?? retailPrice.effectivePeriod;
+          price.textContent = `${label}: ${formatRetailPrice(retailPrice)} ${retailPrice.currency}${period ? ` (${period})` : ""}. Current U.S. benchmark unverified.`;
+        }
         const source = document.createElement("a");
         source.href = retailPrice.sourceUrl;
         source.target = "_blank";
         source.rel = "noopener noreferrer external";
-        source.textContent = `${retailPrice.configuration} · Manufacturer source · checked ${retailPrice.checkedAt} · U.S.; ${formatRetailTaxBasis(retailPrice)}`;
+        source.textContent = `${retailPrice.configuration}${retailPrice.configurationScope === "base-reference" ? " · Base-reference benchmark; pictured configuration not fully priced" : ""} · ${retailPrice.sourceName} · checked ${retailPrice.checkedAt} · ${retailPrice.market}; ${formatRetailTaxBasis(retailPrice)}`;
         source.className = "retail-source";
         item.append(source);
       }

@@ -1,0 +1,613 @@
+{
+  "checkedAt": "2026-10-28",
+  "status": "AP_BATCH_READY_FRANCK_HELD",
+  "scope": "Remaining Audemars Piguet and Franck Muller canonical references only",
+  "summary": {
+    "readyPrices": 11,
+    "readyBrand": "Audemars Piguet",
+    "APReviewedHolds": 12,
+    "FranckReviewedHolds": 15
+  },
+  "ready": [
+    {
+      "brand": "Audemars Piguet",
+      "reference": "15510ST",
+      "manufacturerReference": "15510ST.OO.1320ST.06",
+      "configuration": "41 mm stainless steel / Bleu Nuit, Nuage 50 Grande Tapisserie dial / stainless-steel bracelet",
+      "amount": 31900,
+      "currency": "USD",
+      "market": "United States",
+      "taxBasis": "excluded",
+      "basis": "current-list",
+      "checkedAt": "2026-10-28",
+      "effectiveDate": null,
+      "sourceUrl": "https://www.audemarspiguet.com/us/en/watch-collection/royal-oak/15510ST.OO.1320ST.06",
+      "sourceName": "Audemars Piguet United States",
+      "sourceType": "manufacturer",
+      "provenance": {
+        "scrapeId": "01a1853b-a482-7665-80e1-0838dc651bf7",
+        "httpStatus": 200,
+        "liveFetch": true,
+        "priceText": "$31,900",
+        "taxText": "Non-binding recommended public price in the USA (taxes excluded).",
+        "configurationMatch": "Exact manufacturer SKU agrees with existing photography mapping and page dial/case/bracelet. Publication is not a statement of stock or ongoing production.",
+        "basisNote": "Price displayed on exact current manufacturer page at observation; no launch/historical effective date inferred."
+      }
+    },
+    {
+      "brand": "Audemars Piguet",
+      "reference": "16202ST",
+      "manufacturerReference": "16202ST.OO.1240ST.02",
+      "configuration": "39 mm stainless steel / Bleu Nuit, Nuage 50 Petite Tapisserie dial / stainless-steel bracelet",
+      "amount": 40100,
+      "currency": "USD",
+      "market": "United States",
+      "taxBasis": "excluded",
+      "basis": "current-list",
+      "checkedAt": "2026-10-28",
+      "effectiveDate": null,
+      "sourceUrl": "https://www.audemarspiguet.com/us/en/watch-collection/royal-oak/16202ST.OO.1240ST.02",
+      "sourceName": "Audemars Piguet United States",
+      "sourceType": "manufacturer",
+      "provenance": {
+        "scrapeId": "01a1853b-a48c-7594-8967-dd6543fa0e73",
+        "httpStatus": 200,
+        "liveFetch": true,
+        "priceText": "$40,100",
+        "taxText": "Non-binding recommended public price in the USA (taxes excluded).",
+        "configurationMatch": "Exact manufacturer SKU agrees with existing photography mapping and page dial/case/bracelet. Publication is not a statement of stock or ongoing production.",
+        "basisNote": "Price displayed on exact current manufacturer page at observation; no launch/historical effective date inferred."
+      }
+    },
+    {
+      "brand": "Audemars Piguet",
+      "reference": "15500ST",
+      "manufacturerReference": "15500ST.OO.1220ST.02",
+      "configuration": "41 mm stainless steel / slate-grey Grande Tapisserie dial / stainless-steel bracelet",
+      "amount": 31900,
+      "currency": "USD",
+      "market": "United States",
+      "taxBasis": "excluded",
+      "basis": "current-list",
+      "checkedAt": "2026-10-28",
+      "effectiveDate": null,
+      "sourceUrl": "https://www.audemarspiguet.com/us/en/watch-collection/royal-oak/15500ST.OO.1220ST.02",
+      "sourceName": "Audemars Piguet United States",
+      "sourceType": "manufacturer",
+      "provenance": {
+        "scrapeId": "01a1853c-a0b9-7485-a3b6-d3f50efae7c7",
+        "httpStatus": 200,
+        "liveFetch": true,
+        "priceText": "$31,900",
+        "taxText": "Non-binding recommended public price in the USA (taxes excluded).",
+        "configurationMatch": "Exact manufacturer SKU agrees with existing photography mapping and page dial/case/bracelet. Publication is not a statement of stock or ongoing production.",
+        "basisNote": "Price displayed on exact current manufacturer page at observation; no launch/historical effective date inferred."
+      }
+    },
+    {
+      "brand": "Audemars Piguet",
+      "reference": "15500ST.OO.1220ST.03",
+      "manufacturerReference": "15500ST.OO.1220ST.03",
+      "configuration": "41 mm stainless steel / black Grande Tapisserie dial / stainless-steel bracelet",
+      "amount": 31900,
+      "currency": "USD",
+      "market": "United States",
+      "taxBasis": "excluded",
+      "basis": "current-list",
+      "checkedAt": "2026-10-28",
+      "effectiveDate": null,
+      "sourceUrl": "https://www.audemarspiguet.com/us/en/watch-collection/royal-oak/15500ST.OO.1220ST.03",
+      "sourceName": "Audemars Piguet United States",
+      "sourceType": "manufacturer",
+      "provenance": {
+        "scrapeId": "01a1853c-a055-769d-aacb-d1f525589614",
+        "httpStatus": 200,
+        "liveFetch": true,
+        "priceText": "$31,900",
+        "taxText": "Non-binding recommended public price in the USA (taxes excluded).",
+        "configurationMatch": "Exact manufacturer SKU agrees with existing photography mapping and page dial/case/bracelet. Publication is not a statement of stock or ongoing production.",
+        "basisNote": "Price displayed on exact current manufacturer page at observation; no launch/historical effective date inferred."
+      }
+    },
+    {
+      "brand": "Audemars Piguet",
+      "reference": "26331ST",
+      "manufacturerReference": "26331ST.OO.1220ST.01",
+      "configuration": "41 mm stainless steel / blue Grande Tapisserie dial with rhodium-toned counters / stainless-steel bracelet",
+      "amount": 43000,
+      "currency": "USD",
+      "market": "United States",
+      "taxBasis": "excluded",
+      "basis": "current-list",
+      "checkedAt": "2026-10-28",
+      "effectiveDate": null,
+      "sourceUrl": "https://www.audemarspiguet.com/us/en/watch-collection/royal-oak/26331ST.OO.1220ST.01",
+      "sourceName": "Audemars Piguet United States",
+      "sourceType": "manufacturer",
+      "provenance": {
+        "scrapeId": "01a1853c-a12b-726f-9743-3e88521ad034",
+        "httpStatus": 200,
+        "liveFetch": true,
+        "priceText": "$43,000",
+        "taxText": "Non-binding recommended public price in the USA (taxes excluded).",
+        "configurationMatch": "Exact manufacturer SKU agrees with existing photography mapping and page dial/case/bracelet. Publication is not a statement of stock or ongoing production.",
+        "basisNote": "Price displayed on exact current manufacturer page at observation; no launch/historical effective date inferred."
+      }
+    },
+    {
+      "brand": "Audemars Piguet",
+      "reference": "26240ST",
+      "manufacturerReference": "26240ST.OO.1320ST.06",
+      "configuration": "41 mm stainless steel / black Grande Tapisserie dial and black counters / stainless-steel bracelet",
+      "amount": 44400,
+      "currency": "USD",
+      "market": "United States",
+      "taxBasis": "excluded",
+      "basis": "current-list",
+      "checkedAt": "2026-10-28",
+      "effectiveDate": null,
+      "sourceUrl": "https://www.audemarspiguet.com/us/en/watch-collection/royal-oak/26240ST.OO.1320ST.06",
+      "sourceName": "Audemars Piguet United States",
+      "sourceType": "manufacturer",
+      "provenance": {
+        "scrapeId": "01a1853c-a079-7238-b810-f3c853886b57",
+        "httpStatus": 200,
+        "liveFetch": true,
+        "priceText": "$44,400",
+        "taxText": "Non-binding recommended public price in the USA (taxes excluded).",
+        "configurationMatch": "Exact manufacturer SKU agrees with existing photography mapping and page dial/case/bracelet. Publication is not a statement of stock or ongoing production.",
+        "basisNote": "Price displayed on exact current manufacturer page at observation; no launch/historical effective date inferred."
+      }
+    },
+    {
+      "brand": "Audemars Piguet",
+      "reference": "26615TI.OO.1220TI.01",
+      "manufacturerReference": "26615TI.OO.1220TI.01",
+      "configuration": "41 mm titanium / salmon Grande Tapisserie dial / titanium bracelet",
+      "amount": 124200,
+      "currency": "USD",
+      "market": "United States",
+      "taxBasis": "excluded",
+      "basis": "current-list",
+      "checkedAt": "2026-10-28",
+      "effectiveDate": null,
+      "sourceUrl": "https://www.audemarspiguet.com/us/en/watch-collection/royal-oak/26615TI.OO.1220TI.01",
+      "sourceName": "Audemars Piguet United States",
+      "sourceType": "manufacturer",
+      "provenance": {
+        "scrapeId": "01a1853c-a046-745b-b02a-30b4ebac935a",
+        "httpStatus": 200,
+        "liveFetch": true,
+        "priceText": "$124,200",
+        "taxText": "Non-binding recommended public price in the USA (taxes excluded).",
+        "configurationMatch": "Exact manufacturer SKU agrees with existing photography mapping and page dial/case/bracelet. Publication is not a statement of stock or ongoing production.",
+        "basisNote": "Price displayed on exact current manufacturer page at observation; no launch/historical effective date inferred."
+      }
+    },
+    {
+      "brand": "Audemars Piguet",
+      "reference": "Code 11.59 Chronograph",
+      "manufacturerReference": "26393OR.OO.A056KB.01",
+      "configuration": "41 mm 18-carat pink gold / green chronograph dial / green rubber-coated strap",
+      "amount": 54800,
+      "currency": "USD",
+      "market": "United States",
+      "taxBasis": "excluded",
+      "basis": "current-list",
+      "checkedAt": "2026-10-28",
+      "effectiveDate": null,
+      "sourceUrl": "https://www.audemarspiguet.com/us/en/watch-collection/code-1159/26393OR.OO.A056KB.01",
+      "sourceName": "Audemars Piguet United States",
+      "sourceType": "manufacturer",
+      "provenance": {
+        "scrapeId": "01a1853d-ec6b-7089-b17f-f236dec78cfe",
+        "httpStatus": 200,
+        "liveFetch": true,
+        "priceText": "$54,800",
+        "taxText": "Non-binding recommended public price in the USA (taxes excluded).",
+        "configurationMatch": "Exact manufacturer SKU agrees with existing photography mapping and page dial/case/bracelet. Publication is not a statement of stock or ongoing production.",
+        "basisNote": "Price displayed on exact current manufacturer page at observation; no launch/historical effective date inferred."
+      }
+    },
+    {
+      "brand": "Audemars Piguet",
+      "reference": "Code 11.59 Selfwinding",
+      "manufacturerReference": "15210BC.OO.A021CR.01",
+      "configuration": "41 mm 18-carat white gold / blue sodalite dial with baguette diamond markers / blue alligator strap",
+      "amount": 70100,
+      "currency": "USD",
+      "market": "United States",
+      "taxBasis": "excluded",
+      "basis": "current-list",
+      "checkedAt": "2026-10-28",
+      "effectiveDate": null,
+      "sourceUrl": "https://www.audemarspiguet.com/us/en/watch-collection/code-1159/15210BC.OO.A021CR.01",
+      "sourceName": "Audemars Piguet United States",
+      "sourceType": "manufacturer",
+      "provenance": {
+        "scrapeId": "01a1853f-2561-737c-be2d-480089df16e9",
+        "httpStatus": 200,
+        "liveFetch": true,
+        "priceText": "$70,100",
+        "taxText": "Non-binding recommended public price in the USA (taxes excluded).",
+        "configurationMatch": "Exact SKU, dial, case and strap match existing approved photography mapping.",
+        "basisNote": "Currently displayed manufacturer page benchmark; no stock or production assertion and no historic effective date inferred."
+      }
+    },
+    {
+      "brand": "Audemars Piguet",
+      "reference": "15710ST",
+      "manufacturerReference": "15710ST.OO.A002CA.01",
+      "configuration": "42 mm stainless steel / black Mega Tapisserie dial / black rubber strap",
+      "amount": 28900,
+      "currency": "USD",
+      "market": "United States",
+      "taxBasis": "excluded",
+      "basis": "current-list",
+      "checkedAt": "2026-10-28",
+      "effectiveDate": null,
+      "sourceUrl": "https://www.audemarspiguet.com/us/en/watch-collection/royal-oak-offshore/15710ST.OO.A002CA.01",
+      "sourceName": "Audemars Piguet United States",
+      "sourceType": "manufacturer",
+      "provenance": {
+        "scrapeId": "01a1853f-2521-770e-8ef8-4d64b862fbf2",
+        "httpStatus": 200,
+        "liveFetch": true,
+        "priceText": "$28,900",
+        "taxText": "Non-binding recommended public price in the USA (taxes excluded).",
+        "configurationMatch": "Exact SKU, dial, case and strap match existing approved photography mapping.",
+        "basisNote": "Currently displayed manufacturer page benchmark; no stock or production assertion and no historic effective date inferred."
+      }
+    },
+    {
+      "brand": "Audemars Piguet",
+      "reference": "15720ST",
+      "manufacturerReference": "15720ST.OO.A027CA.01",
+      "configuration": "42 mm stainless steel / blue Mega Tapisserie dial / blue interchangeable rubber strap; additional black rubber strap",
+      "amount": 33600,
+      "currency": "USD",
+      "market": "United States",
+      "taxBasis": "excluded",
+      "basis": "current-list",
+      "checkedAt": "2026-10-28",
+      "effectiveDate": null,
+      "sourceUrl": "https://www.audemarspiguet.com/us/en/watch-collection/royal-oak-offshore/15720ST.OO.A027CA.01",
+      "sourceName": "Audemars Piguet United States",
+      "sourceType": "manufacturer",
+      "provenance": {
+        "scrapeId": "01a1853f-2584-762d-a19b-289b296fb4be",
+        "httpStatus": 200,
+        "liveFetch": true,
+        "priceText": "$33,600",
+        "taxText": "Non-binding recommended public price in the USA (taxes excluded).",
+        "configurationMatch": "Exact SKU, dial, case and strap match existing approved photography mapping.",
+        "basisNote": "Currently displayed manufacturer page benchmark; no stock or production assertion and no historic effective date inferred."
+      }
+    }
+  ],
+  "reviewedHolds": [
+    {
+      "brand": "Audemars Piguet",
+      "manufacturerReference": "26607BC.OO.1220BC.01",
+      "status": "UNKNOWN_HOLD",
+      "reason": "Exact manufacturer page returns 404; no successor substituted.",
+      "sourceUrl": "https://www.audemarspiguet.com/us/en/watch-collection/royal-oak/26607BC.OO.1220BC.01",
+      "httpStatus": 404,
+      "scrapeId": "01a1853c-a0da-71fc-a76e-08b8fa971ad7",
+      "checkedAt": "2026-10-28",
+      "reference": "26607BC.OO.1220BC.01"
+    },
+    {
+      "brand": "Audemars Piguet",
+      "manufacturerReference": "26585CE.OO.1225CE.01",
+      "status": "UNKNOWN_HOLD",
+      "reason": "Exact manufacturer page retrieved without a numerical public price; no price-on-request wording inferred.",
+      "sourceUrl": "https://www.audemarspiguet.com/us/en/watch-collection/royal-oak/26585CE.OO.1225CE.01",
+      "httpStatus": 200,
+      "scrapeId": "01a1853c-a0f8-72f8-9217-5de70ed1f073",
+      "checkedAt": "2026-10-28",
+      "reference": "26585CE.OO.1225CE.01"
+    },
+    {
+      "brand": "Audemars Piguet",
+      "manufacturerReference": "26585XT.OO.1220XT.01",
+      "status": "UNKNOWN_HOLD",
+      "reason": "Exact manufacturer page retrieved without a numerical public price; no price-on-request wording inferred.",
+      "sourceUrl": "https://www.audemarspiguet.com/us/en/watch-collection/royal-oak/26585XT.OO.1220XT.01",
+      "httpStatus": 200,
+      "scrapeId": "01a1853c-a08a-709e-8f5e-b48ef6ff71a8",
+      "checkedAt": "2026-10-28",
+      "reference": "26585XT.OO.1220XT.01"
+    },
+    {
+      "brand": "Audemars Piguet",
+      "manufacturerReference": "26585CM.OO.D301VE.01",
+      "status": "UNKNOWN_HOLD",
+      "reason": "Exact manufacturer page retrieved without a numerical public price; no price-on-request wording inferred.",
+      "sourceUrl": "https://www.audemarspiguet.com/us/en/watch-collection/royal-oak/26585CM.OO.D301VE.01",
+      "httpStatus": 200,
+      "scrapeId": "01a1853d-eb8a-72f9-841e-726fc6772a63",
+      "checkedAt": "2026-10-28",
+      "reference": "26585CM.OO.D301VE.01"
+    },
+    {
+      "brand": "Audemars Piguet",
+      "manufacturerReference": "15412BC.ZZ.1220BC.01",
+      "status": "UNKNOWN_HOLD",
+      "reason": "Exact manufacturer page returns 404; no successor substituted.",
+      "sourceUrl": "https://www.audemarspiguet.com/us/en/watch-collection/royal-oak/15412BC.ZZ.1220BC.01",
+      "httpStatus": 404,
+      "scrapeId": "01a1853d-ebb2-74ac-9a93-cda041b72f00",
+      "checkedAt": "2026-10-28",
+      "reference": "15412BC.ZZ.1220BC.01"
+    },
+    {
+      "brand": "Audemars Piguet",
+      "manufacturerReference": "15412OR.ZZ.1220OR.01",
+      "status": "UNKNOWN_HOLD",
+      "reason": "Exact manufacturer page returns 404; no successor substituted.",
+      "sourceUrl": "https://www.audemarspiguet.com/us/en/watch-collection/royal-oak/15412OR.ZZ.1220OR.01",
+      "httpStatus": 404,
+      "scrapeId": "01a1853d-ec3d-7234-8af4-cb31199b0a34",
+      "checkedAt": "2026-10-28",
+      "reference": "15412OR.ZZ.1220OR.01"
+    },
+    {
+      "brand": "Audemars Piguet",
+      "manufacturerReference": "15412BA.ZG.1224BA.01",
+      "status": "UNKNOWN_HOLD",
+      "reason": "Exact manufacturer page retrieved without a numerical public price; no price-on-request wording inferred.",
+      "sourceUrl": "https://www.audemarspiguet.com/us/en/watch-collection/royal-oak/15412BA.ZG.1224BA.01",
+      "httpStatus": 200,
+      "scrapeId": "01a1853d-ec4e-7616-af77-5d94cc726448",
+      "checkedAt": "2026-10-28",
+      "reference": "15412BA.ZG.1224BA.01"
+    },
+    {
+      "brand": "Audemars Piguet",
+      "manufacturerReference": "26341ST.OO.1105ST.01",
+      "status": "UNKNOWN_HOLD",
+      "reason": "Exact manufacturer page retrieved without a numerical public price; no price-on-request wording inferred.",
+      "sourceUrl": "https://www.audemarspiguet.com/us/en/watch-collection/royal-oak/26341ST.OO.1105ST.01",
+      "httpStatus": 200,
+      "scrapeId": "01a1853d-ebce-72a2-a24b-a2a2f02620f1",
+      "checkedAt": "2026-10-28",
+      "reference": "26341ST.OO.1105ST.01"
+    },
+    {
+      "brand": "Audemars Piguet",
+      "manufacturerReference": "15202ST.OO.1240ST.01",
+      "status": "UNKNOWN_HOLD",
+      "reason": "Exact manufacturer page returns 404; no successor substituted.",
+      "sourceUrl": "https://www.audemarspiguet.com/us/en/watch-collection/royal-oak/15202ST.OO.1240ST.01",
+      "httpStatus": 404,
+      "scrapeId": "01a1853d-ebd8-77ca-b739-3f4ef69f51d4",
+      "checkedAt": "2026-10-28",
+      "reference": "15202ST"
+    },
+    {
+      "brand": "Audemars Piguet",
+      "manufacturerReference": "14790ST.OO.0789ST.02",
+      "status": "UNKNOWN_HOLD",
+      "reason": "Exact manufacturer page returns 404; no successor substituted.",
+      "sourceUrl": "https://www.audemarspiguet.com/us/en/watch-collection/royal-oak/14790ST.OO.0789ST.02",
+      "httpStatus": 404,
+      "scrapeId": "01a1853d-ebb6-710a-a350-c77a18a8f899",
+      "checkedAt": "2026-10-28",
+      "reference": "14790ST"
+    },
+    {
+      "brand": "Audemars Piguet",
+      "manufacturerReference": "15400ST.OO.1220ST.02",
+      "status": "UNKNOWN_HOLD",
+      "reason": "Exact manufacturer URL returns 404; no successor or alternate configuration substituted.",
+      "sourceUrl": "https://www.audemarspiguet.com/us/en/watch-collection/royal-oak/15400ST.OO.1220ST.02",
+      "httpStatus": 404,
+      "scrapeId": "01a1853f-2607-7442-8de2-e85ed6075ad1",
+      "checkedAt": "2026-10-28",
+      "reference": "15400ST"
+    },
+    {
+      "brand": "Audemars Piguet",
+      "manufacturerReference": "26393BC.OO.A321CR.01",
+      "status": "UNKNOWN_HOLD",
+      "reason": "Exact manufacturer URL returns 404; no successor or alternate configuration substituted.",
+      "sourceUrl": "https://www.audemarspiguet.com/us/en/watch-collection/code-1159/26393BC.OO.A321CR.01",
+      "httpStatus": 404,
+      "scrapeId": "01a1853f-253e-75f7-9e53-c7fca666adea",
+      "checkedAt": "2026-10-28",
+      "reference": "26393BC.OO.A321CR.01"
+    },
+    {
+      "brand": "Franck Muller",
+      "reference": "8880CHACLB",
+      "manufacturerReference": "8880CHACLB",
+      "status": "AFFILIATION_AND_PRICE_BASIS_HOLD",
+      "displayedAmount": 28900,
+      "displayedCurrencySymbol": "$",
+      "proposedCurrency": "USD",
+      "proposedMarket": "United States",
+      "taxBasis": "unconfirmed",
+      "sourceType": "UNCLASSIFIED_REGIONAL_PUBLISHER",
+      "sourceUrl": "https://franckmuller-usa.com/cintree_curvex_men_crazy_hours/8880CHACLB_Cintr%C3%A9e_Curvex_Crazy_Hours",
+      "scrapeId": "01a1853b-8546-71ce-b156-5966269f5aef",
+      "checkedAt": "2026-10-28",
+      "reason": "Regional site names Franck Muller USA Inc. but this review has not yet independently established manufacturer ownership/affiliation or that displayed amount is manufacturer recommended retail price. Do not import as MSRP.",
+      "supportingSources": [
+        "https://franckmuller-usa.com/page/contactus",
+        "https://www.franckmuller.com/contact",
+        "https://www.franckmuller.com/legal"
+      ]
+    },
+    {
+      "brand": "Franck Muller",
+      "reference": "V45SCYACHTACBL",
+      "manufacturerReference": "V45SCYACHTACBL",
+      "status": "AFFILIATION_AND_PRICE_BASIS_HOLD",
+      "displayedAmount": 12000,
+      "displayedCurrencySymbol": "$",
+      "proposedCurrency": "USD",
+      "proposedMarket": "United States",
+      "taxBasis": "unconfirmed",
+      "sourceType": "UNCLASSIFIED_REGIONAL_PUBLISHER",
+      "sourceUrl": "https://franckmuller-usa.com/vanguard_yachting/V45SCYACHTACBL_Vanguard_Yachting",
+      "scrapeId": "01a1853b-a418-7728-9d16-17e8fe37c21f",
+      "checkedAt": "2026-10-28",
+      "reason": "Regional site names Franck Muller USA Inc. but this review has not yet independently established manufacturer ownership/affiliation or that displayed amount is manufacturer recommended retail price. Do not import as MSRP.",
+      "supportingSources": [
+        "https://franckmuller-usa.com/page/contactus",
+        "https://www.franckmuller.com/contact",
+        "https://www.franckmuller.com/legal"
+      ]
+    },
+    {
+      "brand": "Franck Muller",
+      "reference": "V45",
+      "manufacturerReference": "V 45 SC DT TT NR BR ER",
+      "status": "UNKNOWN_HOLD",
+      "sourceUrl": "https://www.franckmuller.com/vanguard",
+      "reason": "No numerical price found on manufacturer family page; exact red-accented titanium SKU remains unpriced. Different Vanguard configurations are not interchangeable.",
+      "checkedAt": "2026-10-28"
+    },
+    {
+      "brand": "Franck Muller",
+      "reference": "V 45 T BR (TT)",
+      "manufacturerReference": "V 45 T BR (TT)",
+      "status": "UNKNOWN_HOLD",
+      "sourceUrl": "https://www.franckmuller.com/vanguard",
+      "reason": "Manufacturer family/tourbillon page has no numerical price located; no generic Vanguard price applied.",
+      "checkedAt": "2026-10-28"
+    },
+    {
+      "brand": "Franck Muller",
+      "reference": "V 41 SC DT FR2 GFGRNR (NR)",
+      "manufacturerReference": "V 41 SC DT FR2 GFGRNR (NR)",
+      "status": "UNKNOWN_HOLD",
+      "sourceUrl": "https://www.franckmuller.com/zh/news/fr2nckmuller-vanguard",
+      "reason": "Manufacturer collaboration publication confirms original Rabbit release; no numeric manufacturer price located. Do not substitute later FR2 Beach.",
+      "checkedAt": "2026-10-28"
+    },
+    {
+      "brand": "Franck Muller",
+      "reference": "V 45 SC DT YACHT CR BL (BL)",
+      "manufacturerReference": "V 45 SC DT YACHT CR BL (BL)",
+      "status": "UNKNOWN_HOLD",
+      "sourceUrl": "https://www.franckmuller.com/fr/vanguard-yachting-ceramic",
+      "reason": "Exact manufacturer configuration page provides price-request link without numeric price. Do not apply the steel USA Yachting price.",
+      "checkedAt": "2026-10-28"
+    },
+    {
+      "brand": "Franck Muller",
+      "reference": "V 45 SC DT BTC TT BR (NR)",
+      "manufacturerReference": "V 45 SC DT BTC TT BR (NR)",
+      "status": "UNKNOWN_HOLD",
+      "sourceUrl": "https://www.franckmuller.com/fr/vanguard-encrypto-",
+      "reason": "Exact manufacturer SKU published with price-request link; no numeric price. Page links a separate Encrypto commerce site; no order/asking price substituted.",
+      "checkedAt": "2026-10-28"
+    },
+    {
+      "brand": "Franck Muller",
+      "reference": "V 41 SC DT BEACH BU BL GF1",
+      "manufacturerReference": "V 41 SC DT BEACH BU BL GF1",
+      "status": "UNKNOWN_HOLD",
+      "sourceUrl": "https://franckmuller-asiapacific.com/timepieces/vanguard-beach/",
+      "reason": "Regional family page retrieved. Regional legal publisher is Franck Muller Private Limited, with Cortina-group policy references; manufacturer ownership and exact SKU-level MSRP basis not established in bounded review.",
+      "checkedAt": "2026-10-28"
+    },
+    {
+      "brand": "Franck Muller",
+      "reference": "V 41 SC DT BEACH FR2 GFBUBL (BC)",
+      "manufacturerReference": "V 41 SC DT BEACH FR2 GFBUBL (BC)",
+      "status": "UNKNOWN_HOLD",
+      "sourceUrl": "https://franckmuller-asiapacific.com/timepieces/fr2nck-muller-vanguard-beach/",
+      "reason": "Regional collection displays SGD19,400 (also other currencies) for three colourways; exact SKU text and manufacturer MSRP authority not established. Do not import family price as exact-reference MSRP.",
+      "checkedAt": "2026-10-28"
+    },
+    {
+      "brand": "Franck Muller",
+      "reference": "V 41 SC DT BEACH FR2 GFRGFRG (BC)",
+      "manufacturerReference": "V 41 SC DT BEACH FR2 GFRGFRG (BC)",
+      "status": "UNKNOWN_HOLD",
+      "sourceUrl": "https://franckmuller-asiapacific.com/timepieces/fr2nck-muller-vanguard-beach/",
+      "reason": "Regional collection displays SGD19,400 (also other currencies) for three colourways; exact SKU text and manufacturer MSRP authority not established.",
+      "checkedAt": "2026-10-28"
+    },
+    {
+      "brand": "Franck Muller",
+      "reference": "V 41 SC DT BEACH FR2 GFVRVE (BC)",
+      "manufacturerReference": "V 41 SC DT BEACH FR2 GFVRVE (BC)",
+      "status": "UNKNOWN_HOLD",
+      "sourceUrl": "https://franckmuller-asiapacific.com/timepieces/fr2nck-muller-vanguard-beach/",
+      "reason": "Regional collection displays SGD19,400 (also other currencies) for three colourways; exact SKU text and manufacturer MSRP authority not established.",
+      "checkedAt": "2026-10-28"
+    },
+    {
+      "brand": "Franck Muller",
+      "reference": "V 32 SC AT FO SMURFETTE (BL)",
+      "manufacturerReference": "V 32 SC AT FO SMURFETTE (BL)",
+      "status": "UNKNOWN_HOLD",
+      "sourceUrl": "https://www.franckmuller.com/it/news/vanguard-smurfette",
+      "reason": "Manufacturer collection release retrieved without a numeric price. No reseller asking price applied.",
+      "checkedAt": "2026-10-28"
+    },
+    {
+      "brand": "Franck Muller",
+      "reference": "V 32 SC AT FO SMURFETTE (RS)",
+      "manufacturerReference": "V 32 SC AT FO SMURFETTE (RS)",
+      "status": "UNKNOWN_HOLD",
+      "sourceUrl": "https://www.franckmuller.com/it/news/vanguard-smurfette",
+      "reason": "Manufacturer collection release retrieved without a numeric price. No reseller asking price applied.",
+      "checkedAt": "2026-10-28"
+    },
+    {
+      "brand": "Franck Muller",
+      "reference": "V 45 SC POPEYE LTD TT NR BR NR",
+      "manufacturerReference": "V 45 SC POPEYE LTD TT NR BR NR",
+      "status": "UNKNOWN_HOLD",
+      "sourceUrl": null,
+      "reason": "No exact manufacturer price publication located in bounded primary-domain search. Existing trade press/auction evidence is identity context only, not manufacturer MSRP.",
+      "checkedAt": "2026-10-28"
+    },
+    {
+      "brand": "Franck Muller",
+      "reference": "7880 CH PNTS NR",
+      "manufacturerReference": "7880 CH PNTS NR",
+      "status": "UNKNOWN_HOLD",
+      "sourceUrl": null,
+      "reason": "No exact Crazy Love Snoopy manufacturer price publication located in bounded primary-domain search. An Arctic Snoopy result is a different model and was excluded.",
+      "checkedAt": "2026-10-28"
+    }
+  ],
+  "regionalAffiliationReview": {
+    "status": "UNRESOLVED_DO_NOT_CLASSIFY_AS_MANUFACTURER",
+    "usa": {
+      "legalPublisher": "Franck Muller USA Inc. (regional site footer self-identification)",
+      "address": "207 West 25th Street, 8th Floor, New York, NY 10001",
+      "sourceUrls": [
+        "https://franckmuller-usa.com/",
+        "https://franckmuller-usa.com/page/contactus"
+      ],
+      "conclusion": "Self-description and branding alone do not establish corporate ownership or manufacturer MSRP basis. Two numerical prices retained only as unclassified regional observations."
+    },
+    "global": {
+      "legalPublisher": "GFM Watchland, legal entity of the Franck Muller group",
+      "sourceUrl": "https://www.franckmuller.com/legal",
+      "pricePolicyUrl": "https://www.franckmuller.com/contact",
+      "pricePolicy": "Global manufacturer directs specific-price requests to nearest boutique or authorized retailer.",
+      "storeLocatorReviewed": [
+        "https://www.boutiques.franckmuller.com/usa",
+        "https://www.boutiques.franckmuller.com/usa/new-york"
+      ],
+      "conclusion": "Reviewed global official home/contact/legal/store locator did not produce a cross-link or corporate evidence establishing USA regional ownership."
+    },
+    "apac": {
+      "legalPublisher": "Franck Muller Private Limited; privacy policy also refers to Cortina group for Australia.",
+      "sourceUrl": "https://franckmuller-asiapacific.com/privacy-policy/",
+      "conclusion": "Regional brand domain, local prices and legal name are insufficient here to classify as manufacturer MSRP. No currency conversion made."
+    }
+  },
+  "researchIncomplete": "Useful verified batch rather than exhaustive historical archive search. Unknown holds may be researched further; exact manufacturer price-request pages are not assigned invented amounts.",
+  "sourcePolicy": "Primary manufacturer numeric published prices only. Unclassified regional prices retained as holds. No FX conversion, successor/configuration substitution or dealer asking prices.",
+  "publicNotes": "Observed current publication is not stock or ongoing-production confirmation. Checked date is not manufacturer effective date; all effectiveDate values null because no actual effective date stated.",
+  "mutations": "Local review artifact only; root remains sole source-code writer. No UI/cloud/outreach actions."
+}

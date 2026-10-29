@@ -1,0 +1,123 @@
+{
+  "title": "Frozen first Rolex historical manufacturer MSRP batch - October 28, 2026",
+  "status": "immutable-ready-for-independent-root-review",
+  "frozenAt": "2026-10-28",
+  "scope": "Three exact photographed configurations. Research only; no application source changes or publication.",
+  "important": "Historical manufacturer list prices, not current MSRP or market asking prices. Third-party archive hosting is disclosed. Do not use for current-budget matching, appreciation, current discount claims, or cross-currency comparisons.",
+  "prices": [
+    {
+      "brand": "Rolex",
+      "reference": "126710BLRO",
+      "manufacturerReference": "126710BLRO-0002",
+      "configuration": "Oystersteel / black dial / red-and-blue bezel / Oyster bracelet 79200",
+      "amount": 10700,
+      "currency": "USD",
+      "market": "United States",
+      "taxBasis": "excluded",
+      "basis": "historical-list",
+      "checkedAt": "2026-10-28",
+      "effectiveDate": "2024-06-01",
+      "sourceUrl": "https://davidsw.com/wp-content/uploads/2024/05/Rolex-Brochure-HIGH-RES-24.05.30-01.pdf",
+      "sourceName": "Rolex Watch U.S.A. - June 2024 manufacturer MSRP list (archived by DavidSW)",
+      "sourceType": "manufacturer",
+      "evidence": {
+        "physicalPdfPage": 46,
+        "zeroBasedPdfPageIndex": 45,
+        "printedPage": 40,
+        "match": "Exact reference suffix -0002, black dial and Oyster 79200 row; Jubilee -0001 is a different row and price.",
+        "photographyManifest": "watch-intelligence/docs/WATCH_IMAGE_COVERAGE.json",
+        "photoAssetId": "cleared-nine-1chIHABPvHKFOpnh-lHY4CKGXkj8Q3veX",
+        "photoSourceUrl": "https://www.the1916company.com/rolex-certified-pre-owned/gmt-master-ii/5077201/",
+        "image": "/images/watches/rolex/reviewed-126710blro-white-web.webp",
+        "proofImage": "rolex-source-evidence/2024-price-table-46.png"
+      }
+    },
+    {
+      "brand": "Rolex",
+      "reference": "126719BLRO",
+      "manufacturerReference": "126719BLRO-0003",
+      "configuration": "18 ct white gold / midnight blue dial / red-and-blue bezel / Oyster bracelet 79209",
+      "amount": 42300,
+      "currency": "USD",
+      "market": "United States",
+      "taxBasis": "excluded",
+      "basis": "historical-list",
+      "checkedAt": "2026-10-28",
+      "effectiveDate": "2024-06-01",
+      "sourceUrl": "https://davidsw.com/wp-content/uploads/2024/05/Rolex-Brochure-HIGH-RES-24.05.30-01.pdf",
+      "sourceName": "Rolex Watch U.S.A. - June 2024 manufacturer MSRP list (archived by DavidSW)",
+      "sourceType": "manufacturer",
+      "evidence": {
+        "physicalPdfPage": 46,
+        "zeroBasedPdfPageIndex": 45,
+        "printedPage": 40,
+        "match": "Pictured manifest specifies blue dial, white gold and white-gold Oyster; manufacturer's midnight-blue row resolves suffix -0003. Meteorite -0002 is expressly excluded.",
+        "photographyManifest": "watch-intelligence/docs/WATCH_IMAGE_COVERAGE.json",
+        "photoAssetId": "cleared-20261023-offshore-126719blro",
+        "photoSourceUrl": "https://www.grayandsons.com/w525913-unused-rolex-gmt-master-ii-pepsi-40mm/",
+        "image": "/images/watches/rolex/reviewed-126719blro-20261023-web.webp",
+        "proofImage": "rolex-source-evidence/2024-price-table-46.png"
+      }
+    },
+    {
+      "brand": "Rolex",
+      "reference": "126619LB",
+      "manufacturerReference": "126619LB-0003",
+      "configuration": "18 ct white gold / black dial / blue bezel / Oyster bracelet 97JA09",
+      "amount": 43700,
+      "currency": "USD",
+      "market": "United States",
+      "taxBasis": "excluded",
+      "basis": "historical-list",
+      "checkedAt": "2026-10-28",
+      "effectiveDate": "2024-06-01",
+      "sourceUrl": "https://davidsw.com/wp-content/uploads/2024/05/Rolex-Brochure-HIGH-RES-24.05.30-01.pdf",
+      "sourceName": "Rolex Watch U.S.A. - June 2024 manufacturer MSRP list (archived by DavidSW)",
+      "sourceType": "manufacturer",
+      "evidence": {
+        "physicalPdfPage": 45,
+        "zeroBasedPdfPageIndex": 44,
+        "printedPage": 39,
+        "match": "Exact canonical reference, black dial, white gold, blue bezel and Oyster bracelet agree with pictured manifest and manufacturer's -0003 row.",
+        "photographyManifest": "watch-intelligence/docs/WATCH_IMAGE_COVERAGE.json",
+        "photoAssetId": "cleared-20261023-four-126619lb",
+        "photoSourceUrl": "https://www.grayandsons.com/w525030-unused-rolex-submariner-cookie-monste/",
+        "image": "/images/watches/rolex/reviewed-126619lb-20261023-web.webp",
+        "proofImage": "rolex-source-evidence/2024-price-table-45.png"
+      }
+    }
+  ],
+  "documentEvidence": {
+    "publisher": "Rolex Watch U.S.A.",
+    "host": "davidsw.com",
+    "provenance": "Manufacturer-authored price-list document rehosted by third party. No claim that the host is the manufacturer or an authorized Rolex retailer. Publisher identification and effective date visually inspected on cover; price/tax headers and exact rows visually inspected.",
+    "manufacturerHostAvailable": false,
+    "localPdf": "rolex-source-evidence/rolex-usa-june-2024.pdf",
+    "localPdfSha256": "B6D678A2A2729772C00A5FE60E839E96825E659CC3AA91F0996475DC4CC26DDE",
+    "proofSha256": {
+      "2024-cover.png": "9783871F2F7EC9982C31EB48979508D26F13D9BB13C1A9CC8F366066D596E38E",
+      "2024-price-table-45.png": "C754E08D13BDF5C49ADA031695D9C27C77F75AEB60F7DC0E7D0F998C2C0E747E",
+      "2024-price-table-46.png": "955BC6D7E89E62F8D6A2FCB2E12FEDFEA23426954747B34B98F2917F818EC397"
+    },
+    "coverProof": "rolex-source-evidence/2024-cover.png",
+    "coverPhysicalPdfPage": 1,
+    "coverZeroBasedPdfPageIndex": 0,
+    "coverEffectiveDate": "June 1, 2024",
+    "tableTaxLabel": "MSRP USD USA (TAX EXCL.)",
+    "currentOfficialReadResults": "Exact official model URLs returned 404 on October 28, 2026. That alone does not establish discontinuation. No current price inferred.",
+    "noFxConversion": true
+  },
+  "reviewedHolds": [
+    {"reference":"116710BLNR","status":"continue-separate-ledger","reason":"Historical manufacturer documents found; independently verifying market/date/configuration."},
+    {"reference":"116710LN","status":"continue-separate-ledger","reason":"June 2012 US manufacturer list has black-dial/Oyster row; visual check completed; separate proposal pending."},
+    {"reference":"116500LN","status":"hold","reason":"Pictured black dial; no accepted manufacturer price document yet. Dealer/secondary tables excluded."},
+    {"reference":"116520","status":"continue-separate-ledger","reason":"June 2012 US manufacturer list has steel/Oyster row; black-dial suffix-specific evidence still being assessed."},
+    {"reference":"16520","status":"hold","reason":"Pictured black dial. No accessible accepted manufacturer historical MSRP evidence yet."},
+    {"reference":"116610LV","status":"continue-separate-ledger","reason":"June 2012 US manufacturer list has exact green-dial/green-bezel/Oyster row; separate proposal pending."},
+    {"reference":"228206","status":"hold","reason":"Pictured ice-blue diagonal motif; historical generic base row found, exact dial treatment still to confirm."},
+    {"reference":"118238","status":"hold","reason":"Pictured white Roman/President; historical generic base row found, exact dial treatment still to confirm."},
+    {"reference":"326934","status":"hold","reason":"Pictured WHITE dial on JUBILEE -0002; Oyster price and replacement 336934 excluded."},
+    {"reference":"124300","status":"hold","reason":"Pictured YELLOW dial; not listed in June 2024 manufacturer price list. Other dial prices excluded."},
+    {"reference":"116400GV","status":"continue-separate-ledger","reason":"Pictured BLACK dial; June 2012 US manufacturer list has model/Oyster/green-crystal row. Separate proposal pending."}
+  ]
+}
