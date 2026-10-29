@@ -1,0 +1,3 @@
+// Canonical Luxury signature from the founder-approved quest-luxo-email skill router (2026-10-28).
+export const luxurySignatureText = "Denzel Quinones\nFounder | Quest Luxo Luxury Advisory\nQuelux Enterprises LLC\ndenzel@questluxo.com\n(470) 801-5421\nhttps://questluxo.com/begin-your-quest";
+export const luxurySignatureHtml = "<div data-quest-luxo-signature=\"luxury\" style=\"font-family:Arial,sans-serif;font-size:13px;line-height:1.45\"><div>Denzel Quinones</div><div>Founder | Quest Luxo Luxury Advisory</div><div>Quelux Enterprises LLC</div><div><a href=\"mailto:denzel@questluxo.com\">denzel@questluxo.com</a></div><div>(470) 801-5421</div><div><a href=\"https://questluxo.com/begin-your-quest\">Begin Your Quest</a></div></div>";

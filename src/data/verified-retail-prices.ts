@@ -1,3 +1,5 @@
+import { oct28RetailPrices } from "./verified-retail-prices-oct28.ts";
+
 export interface VerifiedRetailPrice {
   readonly brand: string;
   readonly reference: string;
@@ -27,6 +29,7 @@ const rolex = (reference: string, manufacturerReference: string, configuration: 
 });
 
 export const verifiedRetailPrices: readonly VerifiedRetailPrice[] = Object.freeze(([
+  ...oct28RetailPrices,
   rolex("124060", "m124060-0001", "Black dial / Oyster bracelet / black bezel", 10050, "submariner"),
   rolex("126610LN", "m126610ln-0001", "Black dial / Oyster bracelet / black bezel", 11350, "submariner"),
   rolex("126610LV", "m126610lv-0002", "Black dial / Oyster bracelet / green bezel", 11900, "submariner"),

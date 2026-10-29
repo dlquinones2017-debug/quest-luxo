@@ -1,4 +1,6 @@
 import type { LeadCapturePayload } from "./leadCapture.ts";
+import { getLeadNotificationContextFields, type LeadNotificationContext } from "./leadNotificationContext.ts";
+import { luxurySignatureText, luxurySignatureHtml } from "../config/luxuryEmailSignature.ts";
 
 const FALLBACK_VALUE = "Not provided";
 
@@ -99,25 +101,30 @@ export function createLeadNotificationSubject(
 }
 
 export function createLeadNotificationText(
-  payload: LeadCapturePayload
+  payload: LeadCapturePayload,
+  context?: LeadNotificationContext
 ): string {
+  const eventFields = getLeadNotificationContextFields(context);
   return [
+    ...(eventFields.length ? ["Quest Luxo canonical inquiry event", ...eventFields.map(([label, value]) => `${label}: ${value}`), "End-Canonical-Event", ""] : []),
     createLeadNotificationSubject(payload),
     "",
     ...leadNotificationFields.map(
       ([label, key]) => `${label}: ${getFieldValue(payload, key)}`
     ),
+    "", luxurySignatureText,
   ].join("\n");
 }
 
 export function createLeadNotificationHtml(
-  payload: LeadCapturePayload
+  payload: LeadCapturePayload,
+  context?: LeadNotificationContext
 ): string {
   const subject = escapeHtml(createLeadNotificationSubject(payload));
-  const rows = leadNotificationFields
-    .map(([label, key]) => {
+  const rows = [...getLeadNotificationContextFields(context), ...leadNotificationFields.map(([label, key]) => [label, getFieldValue(payload, key)] as const)]
+    .map(([label, value]) => {
       const safeLabel = escapeHtml(label);
-      const safeValue = escapeHtmlWithLineBreaks(getFieldValue(payload, key));
+      const safeValue = escapeHtmlWithLineBreaks(value);
 
       return `<tr><th scope="row" style="width:34%; padding:12px 0; border-bottom:1px solid #e5dac7; color:#5c4630; font-size:13px; line-height:1.5; text-align:left; vertical-align:top;">${safeLabel}</th><td style="padding:12px 0 12px 18px; border-bottom:1px solid #e5dac7; color:#1f1a17; font-size:14px; line-height:1.5; vertical-align:top;">${safeValue}</td></tr>`;
     })
@@ -145,6 +152,7 @@ export function createLeadNotificationHtml(
                 <table width="100%" cellspacing="0" cellpadding="0" style="border-collapse:collapse;">
                   ${rows}
                 </table>
+                <div style="margin-top:24px">${luxurySignatureHtml}</div>
               </td>
             </tr>
           </table>

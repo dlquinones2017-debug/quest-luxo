@@ -1,8 +1,17 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
 import { buildBeginYourQuestUrl } from "../lib/leads/leadIntakeContext";
+import { getAskQuestLuxoCatalog } from "../lib/intelligence/askQuestLuxo";
+import { approvedPhotograph } from "../lib/media/watchPhotography";
+import { watchPhotographs } from "../data/watch-photography";
 
 const sourcingHref = buildBeginYourQuestUrl({ intent: "request" });
+const catalog = getAskQuestLuxoCatalog();
+const brands = [...new Set(catalog.map(record => record.brand))].sort();
+const photos = Object.fromEntries(catalog.flatMap(record => {
+  const photo = approvedPhotograph(record.asset, watchPhotographs);
+  return photo ? [[record.id, { src: photo.src, alt: photo.alt }]] : [];
+}));
 ---
 
 <BaseLayout
@@ -26,15 +35,20 @@ const sourcingHref = buildBeginYourQuestUrl({ intent: "request" });
             id="ask-query"
             name="query"
             type="text"
-            value="best watches under $25000"
+            value=""
             autocomplete="off"
             placeholder="Example: I want a networking watch that is not a Rolex, for a large wrist, on a strap"
           />
           <button type="submit">Search</button>
         </div>
       </form>
+      <div class="browse-controls">
+        <label>Brand <select id="browse-brand"><option value="">All brands</option>{brands.map(brand => <option value={brand}>{brand}</option>)}</select></label>
+        <label>Feature <select id="browse-tag"><option value="">All features</option><option value="blue">Blue dial</option><option value="green">Green dial</option><option value="black">Black dial</option><option value="white">White dial</option><option value="rubber-strap">Rubber strap</option><option value="gmt">GMT / world time</option><option value="two-tone">Two-tone</option><option value="precious-metal">All precious metal</option></select></label>
+        <button type="button" id="clear-search">Clear filters</button>
+      </div>
 
-      <label class="unknown-price-option"><input id="include-unknown-price" type="checkbox" /> Include references awaiting price verification</label>
+      <label class="unknown-price-option"><input id="include-unknown-price" type="checkbox" /> For budget searches, include references awaiting price verification</label>
 
       <div class="presets" aria-label="Suggested searches">
         <button type="button" data-query="best watches under $5000">Under $5,000</button>
@@ -72,6 +86,8 @@ const sourcingHref = buildBeginYourQuestUrl({ intent: "request" });
       </p>
 
       <div id="recommendations-output" class="recommendations"></div>
+      <button type="button" id="show-more" hidden>Show more references</button>
+      <noscript><p>Enable JavaScript for personalized search, or <a href="/collections">browse the watch collections</a>.</p></noscript>
 
       <p class="disclaimer">
         Budget filtering uses verified published U.S. manufacturer list prices, rather than market asking prices.
@@ -94,10 +110,12 @@ const sourcingHref = buildBeginYourQuestUrl({ intent: "request" });
     </section>
   </main>
 </BaseLayout>
+<script is:inline id="catalog-photographs" type="application/json" set:html={JSON.stringify(photos).replace(/</g, "\\u003c")} />
 
 <script>
   import { askQuestLuxo } from "../lib/intelligence/askQuestLuxo";
   import { getVerifiedRetailPrices, formatRetailTaxBasis } from "../lib/intelligence/watchRetailPricing";
+  import { buildBeginYourQuestUrl } from "../lib/leads/leadIntakeContext";
 
   const form = document.querySelector<HTMLFormElement>("#ask-form");
   const input = document.querySelector<HTMLInputElement>("#ask-query");
@@ -106,6 +124,11 @@ const sourcingHref = buildBeginYourQuestUrl({ intent: "request" });
   const countOutput = document.querySelector<HTMLElement>("#count-output");
   const recommendationsOutput = document.querySelector<HTMLElement>("#recommendations-output");
   const presetButtons = document.querySelectorAll<HTMLButtonElement>("[data-query]");
+  const brandFilter = document.querySelector<HTMLSelectElement>("#browse-brand");
+  const tagFilter = document.querySelector<HTMLSelectElement>("#browse-tag");
+  const showMore = document.querySelector<HTMLButtonElement>("#show-more");
+  const photos: Record<string, { src: string; alt: string }> = JSON.parse(document.querySelector("#catalog-photographs")?.textContent ?? "{}");
+  let resultLimit = 8;
 
   const currencyFormatter = new Intl.NumberFormat("en-US", {
     style: "currency",
@@ -120,11 +143,13 @@ const sourcingHref = buildBeginYourQuestUrl({ intent: "request" });
   function renderQuery(query: string) {
     const answer = askQuestLuxo({
       query,
-      maxResults: 8,
+      maxResults: resultLimit,
+      browse: { brand: brandFilter?.value, tag: tagFilter?.value },
       includeUnknownPrice: includeUnknownPrice?.checked ?? false,
     });
 
     if (summary) summary.textContent = answer.summary;
+    if (showMore) showMore.hidden = answer.rankedResults.length >= answer.totalMatches;
     if (countOutput) {
       countOutput.textContent = `Showing ${answer.recommendations.length} of ${answer.totalMatches} matches`;
     }
@@ -150,6 +175,13 @@ const sourcingHref = buildBeginYourQuestUrl({ intent: "request" });
       const recommendation = result.recommendation;
       const item = document.createElement("article");
       item.className = "recommendation";
+      const photo = photos[result.record.id];
+      if (photo) {
+        const image = document.createElement("img");
+        image.src = photo.src; image.alt = photo.alt; image.width = 240; image.height = 240; image.loading = "lazy";
+        image.className = "recommendation-photo";
+        item.append(image);
+      }
 
       const top = document.createElement("div");
       top.className = "recommendation-top";
@@ -206,6 +238,11 @@ const sourcingHref = buildBeginYourQuestUrl({ intent: "request" });
         link.className = "reference-link";
         item.append(link);
       }
+      const sourceLink = document.createElement("a");
+      sourceLink.href = buildBeginYourQuestUrl({ intent: "request-this-watch", brand: result.record.brand, collection: result.record.collection, reference: result.record.reference });
+      sourceLink.textContent = "Begin Your Quest →";
+      sourceLink.className = "reference-link sourcing-link";
+      item.append(sourceLink);
 
       recommendationsOutput.append(item);
     });
@@ -213,23 +250,39 @@ const sourcingHref = buildBeginYourQuestUrl({ intent: "request" });
 
   form?.addEventListener("submit", (event) => {
     event.preventDefault();
-    renderQuery(input?.value.trim() || "best watches under $25000");
+    resultLimit = 8;
+    renderQuery(input?.value.trim() || "watches");
   });
 
-  includeUnknownPrice?.addEventListener("change", () => renderQuery(input?.value.trim() || "best watches under $25000"));
+  const refresh = () => { resultLimit = 8; renderQuery(input?.value.trim() || "watches"); };
+  includeUnknownPrice?.addEventListener("change", refresh);
+  brandFilter?.addEventListener("change", refresh);
+  tagFilter?.addEventListener("change", refresh);
+  showMore?.addEventListener("click", () => { resultLimit += 8; renderQuery(input?.value.trim() || "watches"); });
+  document.querySelector("#clear-search")?.addEventListener("click", () => {
+    if (input) input.value = "";
+    if (brandFilter) brandFilter.value = "";
+    if (tagFilter) tagFilter.value = "";
+    if (includeUnknownPrice) includeUnknownPrice.checked = false;
+    refresh();
+  });
 
   presetButtons.forEach((button) => {
     button.addEventListener("click", () => {
       const query = button.dataset.query ?? "";
       if (input) input.value = query;
+      resultLimit = 8;
       renderQuery(query);
     });
   });
 
-  renderQuery(input?.value.trim() || "best watches under $25000");
+  renderQuery(input?.value.trim() || "watches");
 </script>
 
 <style>
+  .browse-controls{display:flex;flex-wrap:wrap;align-items:end;gap:16px;margin:20px 0}.browse-controls label{display:grid;gap:8px;font-size:14px}.browse-controls select,.browse-controls button,#show-more{padding:12px;border:1px solid #c8c2b8;background:#fff;color:#173a5e;font:inherit;min-height:44px;max-width:100%}
+  :global(.recommendation-photo){display:block;width:180px;height:180px;object-fit:contain;background:#fff;margin-bottom:18px}
+  :global(.sourcing-link){margin-left:16px}
   .intelligence-page {
     background: #faf9f7;
     color: #07111f;

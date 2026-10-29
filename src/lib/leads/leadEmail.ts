@@ -1,4 +1,5 @@
 import type { LeadCapturePayload } from "./leadCapture.ts";
+import type { LeadNotificationContext } from "./leadNotificationContext.ts";
 import {
   getQuestLuxoServerConfig,
   validateQuestLuxoServerConfig,
@@ -72,7 +73,8 @@ const getLeadEmailConfig = (): LeadEmailConfig | LeadEmailDeliveryResult => {
 };
 
 export async function sendLeadNotificationEmail(
-  payload: LeadCapturePayload
+  payload: LeadCapturePayload,
+  context?: LeadNotificationContext
 ): Promise<LeadEmailDeliveryResult> {
   let configured = false;
 
@@ -87,8 +89,8 @@ export async function sendLeadNotificationEmail(
       from: config.from,
       to: config.to,
       subject: createLeadNotificationSubject(payload),
-      text: createLeadNotificationText(payload),
-      html: createLeadNotificationHtml(payload),
+      text: createLeadNotificationText(payload, context),
+      html: createLeadNotificationHtml(payload, context),
     };
     const response = await fetch(config.providerApiUrl, {
       method: "POST",

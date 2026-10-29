@@ -1,5 +1,9 @@
 # Quest Luxo launch status
 
+## Luxury buyer release candidate — October 28, 2026
+
+The isolated Luxury sprint adds compact source-backed reference cards, exact-reference intelligence browsing, documented collection facets and earlier contextual sourcing actions. Manufacturer pricing evidence covers 113 of 297 canonical references; 184 remain unknown. Saved-inquiry notifications carry validated server-derived ID, timestamp and stable event key; the public API and saved-success behavior remain compatible. Downstream CRM delivery and owner follow-up require separate workforce validation. This is a tested release candidate, not a deployment claim. See `LUXURY_BUYER_SPRINT_2026-10-28.md` for evidence and limits.
+
 ## Enterprise intake continuation — October 19, 2026
 
 Sprint 02 PR #65 is merged at `6af97d35ad2987d549020a60dfae1219bf908a38`; Render deploy `dep-dbauoj7lk1mc73d9cng0` was verified live. Runtime Gmail ingestion remains inactive. Production lead storage was observed at `/var/data/leads.jsonl`, but independent backup and production recoverability remain unverified.
