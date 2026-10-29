@@ -1,6 +1,7 @@
 import { oct29RetailPrices } from "./verified-retail-prices-oct29.ts";
 import { sourceCompletionRetailPrices } from "./verified-retail-prices-source-completion.ts";
 import { gphgHistoricalRetailPrices } from "./verified-retail-prices-gphg.ts";
+import { stockistContinuationRetailPrices } from "./verified-retail-prices-stockist-continuation.ts";
 import { oct28RetailPrices } from "./verified-retail-prices-oct28.ts";
 import { oct28NextRetailPrices } from "./verified-retail-prices-oct28-next.ts";
 import { oct28AdditionalRetailPrices } from "./verified-retail-prices-oct28-additional.ts";
@@ -49,6 +50,7 @@ export const verifiedRetailPrices: readonly VerifiedRetailPrice[] = Object.freez
   ...oct29RetailPrices,
   ...sourceCompletionRetailPrices,
   ...gphgHistoricalRetailPrices,
+  ...stockistContinuationRetailPrices,
   rolex("124060", "m124060-0001", "Black dial / Oyster bracelet / black bezel", 10050, "submariner"),
   rolex("126610LN", "m126610ln-0001", "Black dial / Oyster bracelet / black bezel", 11350, "submariner"),
   rolex("126610LV", "m126610lv-0002", "Black dial / Oyster bracelet / green bezel", 11900, "submariner"),

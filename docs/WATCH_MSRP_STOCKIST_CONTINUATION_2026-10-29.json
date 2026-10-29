@@ -1,0 +1,163 @@
+{
+  "checkedAt": "2026-10-29",
+  "prices": [
+    {
+      "reference": "434.10.41.21.03.001",
+      "amount": 5700,
+      "currency": "GBP",
+      "market": "United Kingdom",
+      "taxBasis": "unconfirmed",
+      "basis": "current-list",
+      "sourceType": "authorized-retailer",
+      "priceLabel": "RRP",
+      "sourceUrl": "https://www.bankslyon.co.uk/omega-de-ville-prestige-co-axial-master-chronometer-power-reserve-41mm/",
+      "httpStatus": 200,
+      "scrapeId": "01a188f8-764d-77be-b5ec-12847292839f",
+      "checkedAt": "2026-10-29",
+      "sourceMarkdownSha256": "cc05c6abad0a22980997bb5a13dd13d43548e21df74186672d355bf102ac0afd",
+      "selectedEvidence": "434.10.41.21.03.001; RRP explicitly \u00a35,700.00. Selected product configuration agrees with the approved photograph. No exact manufacturer effective date supplied. Not a US MSRP or launch/last-production price."
+    },
+    {
+      "reference": "215.30.44.22.01.001",
+      "amount": 8200,
+      "currency": "GBP",
+      "market": "United Kingdom",
+      "taxBasis": "unconfirmed",
+      "basis": "current-list",
+      "sourceType": "authorized-retailer",
+      "priceLabel": "RRP",
+      "sourceUrl": "https://www.bankslyon.co.uk/omega-seamaster-planet-ocean-600m-co-axial-watch-215-30-44-22-01-001/",
+      "httpStatus": 200,
+      "scrapeId": "01a188f9-33b1-7008-a42f-0587f11478cc",
+      "checkedAt": "2026-10-29",
+      "sourceMarkdownSha256": "8355200d8cb16b1bb9182cb5e9b09be684ebd6feec98bcface272ff16e3919b1",
+      "selectedEvidence": "215.30.44.22.01.001; RRP explicitly \u00a38,200.00. Selected product configuration agrees with the approved photograph. No exact manufacturer effective date supplied. Not a US MSRP or launch/last-production price."
+    }
+  ],
+  "retailerAuthorization": {
+    "sourceUrl": "https://www.bankslyon.co.uk/omega-watches/",
+    "httpStatus": 200,
+    "scrapeId": "01a188f9-33fc-73d6-98be-30c78ec270af",
+    "evidence": "Publisher explicitly identifies itself as an official OMEGA stockist and authorized OMEGA retailer since1985. This verifies the retailer provenance claim; records remain explicitly retailer RRP, not manufacturer-direct quotes."
+  },
+  "identityAmendments": [
+    {
+      "brand": "Rolex",
+      "path": "/collections/rolex/sky-dweller/326934",
+      "previousReference": "326934",
+      "displayReference": "326934-0002",
+      "evidence": "Exact pictured SKU already recorded in the founder-approved photography manifest or approved photograph license record; original image, source record and established URL preserved."
+    },
+    {
+      "brand": "Patek Philippe",
+      "path": "/collections/patek-philippe/nautilus/5711-1a",
+      "previousReference": "5711/1A",
+      "displayReference": "5711/1A-010",
+      "evidence": "Exact pictured SKU already recorded in the founder-approved photography manifest or approved photograph license record; original image, source record and established URL preserved."
+    },
+    {
+      "brand": "Patek Philippe",
+      "path": "/collections/patek-philippe/nautilus/5712-1a",
+      "previousReference": "5712/1A",
+      "displayReference": "5712/1A-001",
+      "evidence": "Exact pictured SKU already recorded in the founder-approved photography manifest or approved photograph license record; original image, source record and established URL preserved."
+    },
+    {
+      "brand": "Patek Philippe",
+      "path": "/collections/patek-philippe/nautilus/5980-1a",
+      "previousReference": "5980/1A",
+      "displayReference": "5980/1A-014",
+      "evidence": "Exact pictured SKU already recorded in the founder-approved photography manifest or approved photograph license record; original image, source record and established URL preserved."
+    },
+    {
+      "brand": "Audemars Piguet",
+      "path": "/collections/audemars-piguet/royal-oak/15400st",
+      "previousReference": "15400ST",
+      "displayReference": "15400ST.OO.1220ST.02",
+      "evidence": "Exact pictured SKU already recorded in the founder-approved photography manifest or approved photograph license record; original image, source record and established URL preserved."
+    },
+    {
+      "brand": "Audemars Piguet",
+      "path": "/collections/audemars-piguet/royal-oak/14790st",
+      "previousReference": "14790ST",
+      "displayReference": "14790ST.OO.0789ST.02",
+      "evidence": "Exact pictured SKU already recorded in the founder-approved photography manifest or approved photograph license record; original image, source record and established URL preserved."
+    },
+    {
+      "brand": "Hublot",
+      "path": "/collections/hublot/big-bang/441-nx-1171-rx",
+      "previousReference": "441-NX-1171-RX",
+      "displayReference": "441.NX.1171.RX",
+      "evidence": "Exact pictured SKU already recorded in the founder-approved photography manifest or approved photograph license record; original image, source record and established URL preserved."
+    },
+    {
+      "brand": "Franck Muller",
+      "path": "/collections/franck-muller/vanguard/v45",
+      "previousReference": "V45",
+      "displayReference": "V 45 SC DT TT NR BR ER",
+      "evidence": "Exact pictured SKU already recorded in the founder-approved photography manifest or approved photograph license record; original image, source record and established URL preserved."
+    },
+    {
+      "brand": "Omega",
+      "path": "/collections/omega/seamaster/2220-80",
+      "previousReference": "2220.80",
+      "displayReference": "2220.80.00",
+      "evidence": "Exact pictured SKU already recorded in the founder-approved photography manifest or approved photograph license record; original image, source record and established URL preserved."
+    },
+    {
+      "brand": "Omega",
+      "path": "/collections/omega/planet-ocean/2201-50",
+      "previousReference": "2201.50",
+      "displayReference": "2201.50.00",
+      "evidence": "Exact pictured SKU already recorded in the founder-approved photography manifest or approved photograph license record; original image, source record and established URL preserved."
+    },
+    {
+      "brand": "Patek Philippe",
+      "path": "/collections/patek-philippe/calatrava/5196",
+      "previousReference": "5196",
+      "displayReference": "5196R-001",
+      "evidence": "Exact pictured SKU already recorded in the founder-approved photography manifest or approved photograph license record; original image, source record and established URL preserved."
+    },
+    {
+      "brand": "Ulysse Nardin",
+      "path": "/collections/ulysse-nardin/marine/marine-chronometer",
+      "previousReference": "Marine Chronometer",
+      "displayReference": "1183-126-7M/42",
+      "evidence": "Exact pictured SKU already recorded in the founder-approved photography manifest or approved photograph license record; original image, source record and established URL preserved."
+    },
+    {
+      "brand": "Ulysse Nardin",
+      "path": "/collections/ulysse-nardin/marine/266-67",
+      "previousReference": "266-67",
+      "displayReference": "266-67-3/43",
+      "evidence": "Exact pictured SKU already recorded in the founder-approved photography manifest or approved photograph license record; original image, source record and established URL preserved."
+    },
+    {
+      "brand": "Ulysse Nardin",
+      "path": "/collections/ulysse-nardin/diver/maxi-marine-diver",
+      "previousReference": "Maxi Marine Diver",
+      "displayReference": "266-10-3/92",
+      "evidence": "Exact pictured SKU already recorded in the founder-approved photography manifest or approved photograph license record; original image, source record and established URL preserved."
+    }
+  ],
+  "limits": [
+    "Only the selected product RRP is accepted. Category-page amounts, recommendation prices and financing payments are excluded.",
+    "Both values remain in GBP with UK market and unconfirmed tax basis; no USD conversion or current-US budget eligibility.",
+    "The14 identity amendments reuse approved exact-photo evidence; they do not establish MSRP or freshness of manufacturer specifications.",
+    "Old Omega regional addresses redirected to US by default; fresh GB/HK/JP locale retrievals supplied no selected numeric price. No recommendation or service price used.",
+    "Banks Lyon Aqua Terra exact search returned zero product results; cached category entries and old product404s remain leads only.",
+    "Regional Franck Muller USA pages quote USD28900 and12000, but independent primary website affiliation and manufacturer recommended-price status remain insufficiently established. No amounts promoted. Corporate contact similarities alone do not establish the price basis.",
+    "Independent dealer/aggregator RRP reports from TudorSRus, TheWatchSource, WatchAgency, Jackroad, GMT-J, watch.de and Kakaku remain excluded from verified maker/authorized list evidence; authorization or original manufacturer document is needed.",
+    "AP2012 forum transcription has unavailable15400 price and lacks an original manufacturer document; no forum value used."
+  ],
+  "coverageAfterContinuation": {
+    "canonicalPages": 297,
+    "sourcedPages": 230,
+    "exactConfigurationPages": 225,
+    "historicalBaseReferenceOnlyPages": 5,
+    "unpricedPages": 67,
+    "currentUsBudgetEligiblePages": 198,
+    "currentInternationalOnlyPages": 12,
+    "historicalOnlyPages": 20
+  }
+}

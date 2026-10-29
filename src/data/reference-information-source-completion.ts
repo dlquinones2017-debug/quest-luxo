@@ -4,6 +4,18 @@ export const sourceCompletionReferenceInformation: readonly {
   brand: string; reference: string; sourceUrl: string; sourceLabel: string; configuration: QuestLuxoConfiguration;
 }[] = [
   {
+    brand: "Omega", reference: "434.10.41.21.03.001",
+    sourceUrl: "https://www.bankslyon.co.uk/omega-de-ville-prestige-co-axial-master-chronometer-power-reserve-41mm/",
+    sourceLabel: "Banks Lyon exact OMEGA De Ville reference and explicit RRP",
+    configuration: { movement: "Omega Master Co-Axial calibre 8810 automatic", waterResistance: "30 m" },
+  },
+  {
+    brand: "Omega", reference: "215.30.44.22.01.001",
+    sourceUrl: "https://www.bankslyon.co.uk/omega-seamaster-planet-ocean-600m-co-axial-watch-215-30-44-22-01-001/",
+    sourceLabel: "Banks Lyon exact OMEGA Planet Ocean GMT reference and explicit RRP",
+    configuration: { waterResistance: "600 m" },
+  },
+  {
     brand: "Ulysse Nardin", reference: "2505-250",
     sourceUrl: "https://www.gphg.org/en/watches/freak-vision",
     sourceLabel: "Ulysse Nardin 2018 GPHG manufacturer entry — exact Freak Vision configuration",

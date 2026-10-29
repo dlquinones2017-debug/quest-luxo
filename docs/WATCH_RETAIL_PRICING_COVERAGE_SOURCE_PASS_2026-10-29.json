@@ -1,13 +1,13 @@
 {
   "catalogReferences": 297,
   "duplicateCatalogRows": 1,
-  "sourcedReferences": 228,
-  "pendingReferences": 69,
+  "sourcedReferences": 230,
+  "pendingReferences": 67,
   "currentUsBudgetEligibleReferences": 198,
-  "currentInternationalOnlyReferences": 10,
+  "currentInternationalOnlyReferences": 12,
   "historicalOnlyReferences": 20,
   "baseReferenceOnlyBenchmarks": 5,
-  "exactConfigurationSourcedReferences": 223,
+  "exactConfigurationSourcedReferences": 225,
   "note": "Coverage counts canonical reference pages, including documented aliases. Sourced benchmarks may be current, historical or base-reference; current U.S. budget eligibility is counted separately. Checked dates record source observation, not manufacturer price-effective dates. Unknown values are never imputed.",
   "rows": [
     {
@@ -1298,7 +1298,7 @@
     {
       "brand": "Rolex",
       "collection": "Sky-Dweller",
-      "reference": "326934",
+      "reference": "326934-0002",
       "path": "/collections/rolex/sky-dweller/326934",
       "status": "research-pending",
       "prices": [],
@@ -1793,7 +1793,7 @@
     {
       "brand": "Patek Philippe",
       "collection": "Nautilus",
-      "reference": "5711/1A",
+      "reference": "5711/1A-010",
       "path": "/collections/patek-philippe/nautilus/5711-1a",
       "status": "research-pending",
       "prices": [],
@@ -1830,7 +1830,7 @@
     {
       "brand": "Patek Philippe",
       "collection": "Nautilus",
-      "reference": "5712/1A",
+      "reference": "5712/1A-001",
       "path": "/collections/patek-philippe/nautilus/5712-1a",
       "status": "research-pending",
       "prices": [],
@@ -1877,7 +1877,7 @@
     {
       "brand": "Patek Philippe",
       "collection": "Nautilus",
-      "reference": "5980/1A",
+      "reference": "5980/1A-014",
       "path": "/collections/patek-philippe/nautilus/5980-1a",
       "status": "research-pending",
       "prices": [],
@@ -1983,7 +1983,7 @@
     {
       "brand": "Audemars Piguet",
       "collection": "Royal Oak",
-      "reference": "15400ST",
+      "reference": "15400ST.OO.1220ST.02",
       "path": "/collections/audemars-piguet/royal-oak/15400st",
       "status": "research-pending",
       "prices": [],
@@ -2066,7 +2066,7 @@
     {
       "brand": "Audemars Piguet",
       "collection": "Royal Oak",
-      "reference": "14790ST",
+      "reference": "14790ST.OO.0789ST.02",
       "path": "/collections/audemars-piguet/royal-oak/14790st",
       "status": "research-pending",
       "prices": [],
@@ -2369,7 +2369,7 @@
     {
       "brand": "Hublot",
       "collection": "Big Bang",
-      "reference": "441-NX-1171-RX",
+      "reference": "441.NX.1171.RX",
       "path": "/collections/hublot/big-bang/441-nx-1171-rx",
       "status": "research-pending",
       "prices": [],
@@ -3376,7 +3376,7 @@
     {
       "brand": "Franck Muller",
       "collection": "Vanguard",
-      "reference": "V45",
+      "reference": "V 45 SC DT TT NR BR ER",
       "path": "/collections/franck-muller/vanguard/v45",
       "status": "research-pending",
       "prices": [],
@@ -3585,7 +3585,7 @@
     {
       "brand": "Omega",
       "collection": "Seamaster Diver 300M",
-      "reference": "2220.80",
+      "reference": "2220.80.00",
       "path": "/collections/omega/seamaster/2220-80",
       "status": "research-pending",
       "prices": [],
@@ -4408,7 +4408,7 @@
     {
       "brand": "Omega",
       "collection": "Seamaster Planet Ocean",
-      "reference": "2201.50",
+      "reference": "2201.50.00",
       "path": "/collections/omega/planet-ocean/2201-50",
       "status": "research-pending",
       "prices": [],
@@ -5258,7 +5258,7 @@
     {
       "brand": "Patek Philippe",
       "collection": "Calatrava",
-      "reference": "5196",
+      "reference": "5196R-001",
       "path": "/collections/patek-philippe/calatrava/5196",
       "status": "research-pending",
       "prices": [],
@@ -5539,7 +5539,7 @@
     {
       "brand": "Ulysse Nardin",
       "collection": "Marine",
-      "reference": "Marine Chronometer",
+      "reference": "1183-126-7M/42",
       "path": "/collections/ulysse-nardin/marine/marine-chronometer",
       "status": "research-pending",
       "prices": [],
@@ -5601,7 +5601,7 @@
     {
       "brand": "Ulysse Nardin",
       "collection": "Marine",
-      "reference": "266-67",
+      "reference": "266-67-3/43",
       "path": "/collections/ulysse-nardin/marine/266-67",
       "status": "research-pending",
       "prices": [],
@@ -5776,7 +5776,7 @@
     {
       "brand": "Ulysse Nardin",
       "collection": "Diver",
-      "reference": "Maxi Marine Diver",
+      "reference": "266-10-3/92",
       "path": "/collections/ulysse-nardin/diver/maxi-marine-diver",
       "status": "research-pending",
       "prices": [],
@@ -8248,8 +8248,29 @@
       "collection": "Seamaster Planet Ocean GMT",
       "reference": "215.30.44.22.01.001",
       "path": "/collections/omega/planet-ocean-gmt/215-30-44-22-01-001",
-      "status": "research-pending",
-      "prices": [],
+      "status": "sourced-list-price",
+      "prices": [
+        {
+          "brand": "Omega",
+          "reference": "215.30.44.22.01.001",
+          "manufacturerReference": "215.30.44.22.01.001",
+          "configuration": "43.5 mm steel / black ceramic dial / black-and-white bi-ceramic 24-hour bezel / steel bracelet with extendable folding clasp / central GMT hand / 600 m",
+          "amount": 8200,
+          "currency": "GBP",
+          "market": "United Kingdom",
+          "taxBasis": "unconfirmed",
+          "basis": "current-list",
+          "checkedAt": "2026-10-29",
+          "effectiveDate": null,
+          "sourceUrl": "https://www.bankslyon.co.uk/omega-seamaster-planet-ocean-600m-co-axial-watch-215-30-44-22-01-001/",
+          "sourceName": "Banks Lyon — explicitly published OMEGA RRP",
+          "sourceType": "authorized-retailer",
+          "priceLabel": "RRP",
+          "corroboratingUrls": [
+            "https://www.bankslyon.co.uk/omega-watches/"
+          ]
+        }
+      ],
       "currentUsBudgetBenchmark": null,
       "identitySources": [
         {
@@ -8259,6 +8280,10 @@
         {
           "label": "Omega reference source",
           "url": "https://www.watchfinder.com/watches/omega/planet-ocean/215-30-44-22-01-001/431503"
+        },
+        {
+          "label": "Banks Lyon exact OMEGA Planet Ocean GMT reference and explicit RRP",
+          "url": "https://www.bankslyon.co.uk/omega-seamaster-planet-ocean-600m-co-axial-watch-215-30-44-22-01-001/"
         }
       ]
     },
@@ -8546,8 +8571,29 @@
       "collection": "De Ville Prestige",
       "reference": "434.10.41.21.03.001",
       "path": "/collections/omega/de-ville-prestige/434-10-41-21-03-001",
-      "status": "research-pending",
-      "prices": [],
+      "status": "sourced-list-price",
+      "prices": [
+        {
+          "brand": "Omega",
+          "reference": "434.10.41.21.03.001",
+          "manufacturerReference": "434.10.41.21.03.001",
+          "configuration": "41 mm steel / PVD light-blue dial with stamped vertical pattern / steel bracelet / calibre 8810 / power-reserve indicator at 6 and small seconds at 9",
+          "amount": 5700,
+          "currency": "GBP",
+          "market": "United Kingdom",
+          "taxBasis": "unconfirmed",
+          "basis": "current-list",
+          "checkedAt": "2026-10-29",
+          "effectiveDate": null,
+          "sourceUrl": "https://www.bankslyon.co.uk/omega-de-ville-prestige-co-axial-master-chronometer-power-reserve-41mm/",
+          "sourceName": "Banks Lyon — explicitly published OMEGA RRP",
+          "sourceType": "authorized-retailer",
+          "priceLabel": "RRP",
+          "corroboratingUrls": [
+            "https://www.bankslyon.co.uk/omega-watches/"
+          ]
+        }
+      ],
       "currentUsBudgetBenchmark": null,
       "identitySources": [
         {
@@ -8557,6 +8603,10 @@
         {
           "label": "Omega reference source",
           "url": "https://www.cjcharles.com/collections/omega/products/de-ville-prestige-co-axial-master-chronometer-power-reserve-41-mm-434-10-41-21-03-001"
+        },
+        {
+          "label": "Banks Lyon exact OMEGA De Ville reference and explicit RRP",
+          "url": "https://www.bankslyon.co.uk/omega-de-ville-prestige-co-axial-master-chronometer-power-reserve-41mm/"
         }
       ]
     },

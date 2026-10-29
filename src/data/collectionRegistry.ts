@@ -716,6 +716,20 @@ for (const collection of collectionSources) {
 // These family routes already have a founder-approved exact pictured reference.
 // Keep their URLs, but lead with that watch's identity and reviewed configuration.
 const picturedReferenceAmendments: Record<string, string> = {
+  "Rolex|326934": "326934-0002",
+  "Patek Philippe|5711/1A": "5711/1A-010",
+  "Patek Philippe|5712/1A": "5712/1A-001",
+  "Patek Philippe|5980/1A": "5980/1A-014",
+  "Patek Philippe|5196": "5196R-001",
+  "Audemars Piguet|15400ST": "15400ST.OO.1220ST.02",
+  "Audemars Piguet|14790ST": "14790ST.OO.0789ST.02",
+  "Hublot|441-NX-1171-RX": "441.NX.1171.RX",
+  "Omega|2220.80": "2220.80.00",
+  "Omega|2201.50": "2201.50.00",
+  "Franck Muller|V45": "V 45 SC DT TT NR BR ER",
+  "Ulysse Nardin|Marine Chronometer": "1183-126-7M/42",
+  "Ulysse Nardin|Maxi Marine Diver": "266-10-3/92",
+  "Ulysse Nardin|266-67": "266-67-3/43",
   "Ulysse Nardin|Freak": "2505-250",
   "Cartier|Ballon Bleu 40 mm": "WSBB0061",
   "Cartier|Ballon Bleu 42 mm": "W6920042",
@@ -734,7 +748,7 @@ export const collectionRegistry: CollectionDefinition[] = [...mergedCollections.
     const monaco = collection.brand === "TAG Heuer" && asset.reference === "CBL2111.FC6453";
     if (!displayReference && !monaco) return amendSourceCompletionReference(asset, collection.brand, photographyExpansionAssets.find(candidate => candidate.brand === collection.brand && candidate.collection === collection.name && candidate.reference === asset.reference));
     const pictured = photographyExpansionAssets.find(candidate => candidate.brand === collection.brand && candidate.collection === collection.name && candidate.reference === asset.reference);
-    if (!pictured?.configurations?.length) return asset;
+    if (!pictured?.configurations?.length) return displayReference ? { ...asset, displayReference } : asset;
     const royal = collection.brand === "Tudor" && collection.name === "Royal";
     const configurations = pictured.configurations.map(configuration => ({
       ...configuration,

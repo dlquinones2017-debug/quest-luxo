@@ -1,6 +1,6 @@
 # MSRP evidence continuation — October 29, 2026
 
-The published source pass and GPHG follow-up add 13 distinct price observations covering 14 previously unpriced reference pages. All 297 canonical paths reconcile: 228 have a sourced list benchmark and 69 still lack accepted numeric evidence. Of the sourced pages, 223 have exact-configuration evidence and five have only a disclosed historical base-reference benchmark. There are 198 current US budget-eligible pages, 10 current international-only pages and 20 historical-only pages. Page coverage includes two AP15202ST routes sharing one observation; it is not a count of independent quotes. Full numeric population is not claimed.
+The published source passes, GPHG follow-up and stockist continuation add 15 distinct price observations covering 16 previously unpriced reference pages. All 297 canonical paths reconcile: 230 have a sourced list benchmark and 67 still lack accepted numeric evidence. Of the sourced pages, 225 have exact-configuration evidence and five have only a disclosed historical base-reference benchmark. There are 198 current US budget-eligible pages, 12 current international-only pages and 20 historical-only pages. Page coverage includes two AP15202ST routes sharing one observation; it is not a count of independent quotes. Full numeric population is not claimed.
 
 ## Accepted sources
 
@@ -22,12 +22,18 @@ The follow-up adds the exact Ulysse Nardin Freak Vision2505-250 manufacturer ent
 
 ## Reference information and unresolved evidence
 
-Source-linked specification updates cover the 14 priced paths, including AP2121/40h/39mm/50m, Cartier exact calibres, and distinct FM800-DT versus FR2 MVT2536-SCDT2H movements. Existing approved photograph dial/strap labels and URL keys are preserved. Panerai PAM01616 also receives manufacturer technical-sheet evidence for P.9010,72h and300m, visually verified on physical page4. That document supplies no price.
+Source-linked specification updates cover the 16 priced paths, including AP2121/40h/39mm/50m, Cartier exact calibres, and distinct FM800-DT versus FR2 MVT2536-SCDT2H movements. Existing approved photograph dial/strap labels and URL keys are preserved. Panerai PAM01616 also receives manufacturer technical-sheet evidence for P.9010,72h and300m, visually verified on physical page4. That document supplies no price.
 
 The JSON evidence ledger records successful source addresses, retrieval identifiers, configuration matching, publication limits, rejected alternatives and the Panerai source hash. The new coverage snapshot and remaining-source queue account for every public reference path. Earlier manufacturer retrieval outcomes retain their actual checked dates. Indexed PDF snippets, cached product pages whose fresh retrieval returns404, grey-market offers, successor models and unrelated configurations are not accepted as MSRP.
 
-The remaining69 exact numeric gaps need manufacturer-authored historical lists, exact authorized-retailer MSRP/RRP documentation, or direct manufacturer confirmation. A404 or blocked page does not prove no price was ever published. Manufacturer price-on-request is not converted to zero. Regional and historical figures remain outside current US budget matching.
+The remaining67 exact numeric gaps need manufacturer-authored historical lists, exact authorized-retailer MSRP/RRP documentation, or direct manufacturer confirmation. A404 or blocked page does not prove no price was ever published. Manufacturer price-on-request is not converted to zero. Regional and historical figures remain outside current US budget matching.
 
 ## Validation
 
 Astro diagnostics, regression tests, photography integrity, Omega queue and production build are run for this release. Production readback is recorded on the pull request after publication; this note alone does not assert deployment.
+
+## Authorized-stockist and reference-label continuation
+
+Fresh Banks Lyon selected-product pages explicitly publish RRP GBP5,700 for Omega434.10.41.21.03.001 and GBP8,200 for215.30.44.22.01.001. Exact light-blue De Ville/steel bracelet/calibre8810 and black Planet Ocean GMT/black-white bezel/steel bracelet configurations match the approved catalog pictures. Tax treatment remains unconfirmed and both foreign benchmarks remain outside current US budgets. Source IDs and source-content hashes are recorded in `WATCH_MSRP_STOCKIST_CONTINUATION_2026-10-29.json`.
+
+Fourteen still-unpriced profiles now display the full SKU already recorded in their approved photography evidence, including Patek5196R-001,5711/1A-010,5712/1A-001,5980/1A-014, AP15400ST.OO.1220ST.02 and14790ST.OO.0789ST.02, Rolex326934-0002, Hublot441.NX.1171.RX, Omega2220.80.00 and2201.50.00, the exact titanium Vanguard, and three Ulysse Nardin references. The established routes and image bytes remain unchanged; inquiry links carry the visible SKU. Existing material/dial/strap evidence is reused, and no numeric price is inferred from an identity amendment. The67-row remaining queue preserves old reference keys for reconciliation.
