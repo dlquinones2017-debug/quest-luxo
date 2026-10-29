@@ -164,3 +164,11 @@ test("tax labels distinguish verified inclusion/exclusion from source silence", 
   assert.equal(formatRetailTaxBasis({ taxBasis: "included" }), "Taxes included");
   assert.equal(formatRetailTaxBasis({ taxBasis: "excluded" }), "Taxes excluded");
 });
+
+test("Tudor Monochrome benchmark follows its pictured three-link configuration", () => {
+  const prices = getVerifiedRetailPrices({ brand: "Tudor", reference: "M7941A1A0NU" });
+  assert.equal(prices.length, 1);
+  assert.equal(prices[0].manufacturerReference, "M7941A1A0NU-0001");
+  assert.equal(prices[0].amount, 5325);
+  assert.ok(!prices.some(price => price.manufacturerReference.endsWith("-0003")));
+});

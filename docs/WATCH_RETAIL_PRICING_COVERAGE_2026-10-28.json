@@ -1,8 +1,8 @@
 {
   "catalogReferences": 297,
   "duplicateCatalogRows": 1,
-  "sourcedReferences": 136,
-  "pendingReferences": 161,
+  "sourcedReferences": 143,
+  "pendingReferences": 154,
   "note": "Checked dates record source observation, not manufacturer price-effective dates. Unknown values are never imputed.",
   "rows": [
     {
@@ -2376,8 +2376,25 @@
       "collection": "Black Bay",
       "reference": "M7941A1A0NU",
       "path": "/collections/tudor/black-bay/m7941a1a0nu",
-      "status": "research-pending",
-      "prices": [],
+      "status": "sourced-list-price",
+      "prices": [
+        {
+          "brand": "Tudor",
+          "reference": "M7941A1A0NU",
+          "manufacturerReference": "M7941A1A0NU-0001",
+          "configuration": "Black dial / 41 mm steel / black bezel / three-link steel T-fit bracelet",
+          "amount": 5325,
+          "currency": "USD",
+          "market": "United States",
+          "taxBasis": "unconfirmed",
+          "basis": "current-list",
+          "checkedAt": "2026-10-28",
+          "effectiveDate": null,
+          "sourceUrl": "https://www.tudorwatch.com/en/watches/black-bay/m7941a1a0nu-0001",
+          "sourceName": "Tudor",
+          "sourceType": "manufacturer"
+        }
+      ],
       "identitySources": [
         {
           "label": "Tudor reference source",
@@ -2390,8 +2407,25 @@
       "collection": "Black Bay",
       "reference": "M7941A1A0RU-0003",
       "path": "/collections/tudor/black-bay/m7941a1a0ru-0003",
-      "status": "research-pending",
-      "prices": [],
+      "status": "sourced-list-price",
+      "prices": [
+        {
+          "brand": "Tudor",
+          "reference": "M7941A1A0RU-0003",
+          "manufacturerReference": "M7941A1A0RU-0003",
+          "configuration": "Black dial / 41 mm steel / burgundy bezel / five-link steel T-fit bracelet",
+          "amount": 5450,
+          "currency": "USD",
+          "market": "United States",
+          "taxBasis": "unconfirmed",
+          "basis": "current-list",
+          "checkedAt": "2026-10-28",
+          "effectiveDate": null,
+          "sourceUrl": "https://www.tudorwatch.com/en/watches/black-bay/m7941a1a0ru-0003",
+          "sourceName": "Tudor",
+          "sourceType": "manufacturer"
+        }
+      ],
       "identitySources": [
         {
           "label": "Tudor reference source",
@@ -4830,8 +4864,25 @@
       "collection": "Pelagos",
       "reference": "M25600TN-0001",
       "path": "/collections/tudor/pelagos/m25600tn-0001",
-      "status": "research-pending",
-      "prices": [],
+      "status": "sourced-list-price",
+      "prices": [
+        {
+          "brand": "Tudor",
+          "reference": "M25600TN-0001",
+          "manufacturerReference": "M25600TN-0001",
+          "configuration": "Black dial / 42 mm titanium and steel / titanium bracelet plus black rubber strap",
+          "amount": 6025,
+          "currency": "USD",
+          "market": "United States",
+          "taxBasis": "unconfirmed",
+          "basis": "current-list",
+          "checkedAt": "2026-10-28",
+          "effectiveDate": null,
+          "sourceUrl": "https://www.tudorwatch.com/en/watches/pelagos/m25600tn-0001",
+          "sourceName": "Tudor",
+          "sourceType": "manufacturer"
+        }
+      ],
       "identitySources": [
         {
           "label": "Tudor official reference",
@@ -4848,8 +4899,25 @@
       "collection": "Pelagos",
       "reference": "M25407N-0001",
       "path": "/collections/tudor/pelagos/m25407n-0001",
-      "status": "research-pending",
-      "prices": [],
+      "status": "sourced-list-price",
+      "prices": [
+        {
+          "brand": "Tudor",
+          "reference": "M25407N-0001",
+          "manufacturerReference": "M25407N-0001",
+          "configuration": "Black sunray dial / 39 mm titanium / titanium T-fit bracelet plus black rubber strap",
+          "amount": 5625,
+          "currency": "USD",
+          "market": "United States",
+          "taxBasis": "unconfirmed",
+          "basis": "current-list",
+          "checkedAt": "2026-10-28",
+          "effectiveDate": null,
+          "sourceUrl": "https://www.tudorwatch.com/en/watches/pelagos/m25407n-0001",
+          "sourceName": "Tudor",
+          "sourceType": "manufacturer"
+        }
+      ],
       "identitySources": [
         {
           "label": "Tudor reference source",
@@ -4897,8 +4965,25 @@
       "collection": "Superocean",
       "reference": "A17376211B1S1",
       "path": "/collections/breitling/superocean/a17376211b1s1",
-      "status": "research-pending",
-      "prices": [],
+      "status": "sourced-list-price",
+      "prices": [
+        {
+          "brand": "Breitling",
+          "reference": "A17376211B1S1",
+          "manufacturerReference": "A17376211B1S1",
+          "configuration": "44 mm stainless steel / black rubber strap",
+          "amount": 5700,
+          "currency": "USD",
+          "market": "United States",
+          "taxBasis": "excluded",
+          "basis": "current-list",
+          "checkedAt": "2026-10-28",
+          "effectiveDate": null,
+          "sourceUrl": "https://www.breitling.com/us-en/watches/superocean/superocean-automatic-44-my22/A17376211B1S1/",
+          "sourceName": "Breitling United States",
+          "sourceType": "manufacturer"
+        }
+      ],
       "identitySources": [
         {
           "label": "Breitling official reference",
@@ -5192,8 +5277,25 @@
       "collection": "Black Bay Chrono",
       "reference": "M79360N-0024",
       "path": "/collections/tudor/black-bay-chrono/m79360n-0024",
-      "status": "research-pending",
-      "prices": [],
+      "status": "sourced-list-price",
+      "prices": [
+        {
+          "brand": "Tudor",
+          "reference": "M79360N-0024",
+          "manufacturerReference": "M79360N-0024",
+          "configuration": "Turquoise dial with black counters / 41 mm steel / five-link steel T-fit bracelet",
+          "amount": 7000,
+          "currency": "USD",
+          "market": "United States",
+          "taxBasis": "unconfirmed",
+          "basis": "current-list",
+          "checkedAt": "2026-10-28",
+          "effectiveDate": null,
+          "sourceUrl": "https://www.tudorwatch.com/en/watch-family/daring-watches/m79360n-0024",
+          "sourceName": "Tudor",
+          "sourceType": "manufacturer"
+        }
+      ],
       "identitySources": [
         {
           "label": "Tudor official reference",
@@ -5210,8 +5312,25 @@
       "collection": "Black Bay Chrono",
       "reference": "M79360N-0019",
       "path": "/collections/tudor/black-bay-chrono/m79360n-0019",
-      "status": "research-pending",
-      "prices": [],
+      "status": "sourced-list-price",
+      "prices": [
+        {
+          "brand": "Tudor",
+          "reference": "M79360N-0019",
+          "manufacturerReference": "M79360N-0019",
+          "configuration": "Pink dial with black counters / 41 mm steel / five-link steel T-fit bracelet",
+          "amount": 7000,
+          "currency": "USD",
+          "market": "United States",
+          "taxBasis": "unconfirmed",
+          "basis": "current-list",
+          "checkedAt": "2026-10-28",
+          "effectiveDate": null,
+          "sourceUrl": "https://www.tudorwatch.com/en/watch-family/daring-watches/m79360n-0019",
+          "sourceName": "Tudor",
+          "sourceType": "manufacturer"
+        }
+      ],
       "identitySources": [
         {
           "label": "Tudor official reference",
