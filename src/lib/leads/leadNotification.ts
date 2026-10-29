@@ -46,6 +46,10 @@ const getFieldValue = (
   return formatValue(payload[key]);
 };
 
+export function getLeadNotificationPayloadFields(payload: LeadCapturePayload): readonly (readonly [string, string])[] {
+  return leadNotificationFields.map(([label, key]) => [label, getFieldValue(payload, key)] as const);
+}
+
 const getWatchContext = (payload: LeadCapturePayload): string => {
   const desiredWatch = formatValue(payload.desiredWatch);
 
