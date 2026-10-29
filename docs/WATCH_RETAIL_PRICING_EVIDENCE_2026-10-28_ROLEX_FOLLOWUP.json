@@ -1,0 +1,389 @@
+{
+  "title": "Separate follow-up for eleven remaining Rolex references",
+  "status": "research-frozen-for-independent-root-review",
+  "checkedAt": "2026-10-28",
+  "readyCount": 5,
+  "reviewedHoldCount": 6,
+  "firstBatch": "rolex-remaining-research-oct28.json",
+  "constraints": [
+    "Historical-list only; retain original market/currency/tax basis and publication month.",
+    "Do not invent exact effective day when document prints only month.",
+    "Archive host is not manufacturer; document publisher is manufacturer.",
+    "No current-budget matching, cross-currency comparison, FX conversion or market asking prices.",
+    "Pictured configuration from existing approved photography manifest; no photo or catalog edits."
+  ],
+  "prices": [
+    {
+      "brand": "Rolex",
+      "reference": "116710LN",
+      "manufacturerReference": "116710LN",
+      "configuration": "Steel / black dial / black ceramic bezel / Oysterlock bracelet 78200",
+      "amount": 8450,
+      "currency": "USD",
+      "market": "United States",
+      "taxBasis": "unconfirmed",
+      "basis": "historical-list",
+      "checkedAt": "2026-10-28",
+      "effectiveDate": "2012-06-01",
+      "sourceUrl": "https://www.minus4plus6.com/pdf/Rolex_Price_List_June-1-2012.pdf",
+      "sourceName": "Rolex Watch U.S.A., Inc. - 2012-06 manufacturer MSRP list (archived by minus4plus6.com)",
+      "sourceType": "manufacturer",
+      "evidence": {
+        "sourceId": "us2012",
+        "publicationMonth": "2012-06",
+        "zeroBasedPdfPageIndex": 37,
+        "physicalPdfPage": 38,
+        "printedPage": 35,
+        "proofImage": "rolex-source-evidence/2012-price-table-38.png",
+        "configurationMatch": "Exact manufacturer row explicitly names black dial, black ceramic bezel and Oysterlock; pictured manifest has 116710LN-0001 in this configuration. Source prints base reference, not suffix.",
+        "photography": {
+          "reference": "116710LN",
+          "photoAssetId": "cleared-nine-1YgpzqiySv7YfYcUpFnuQbm5jBGRVixkg",
+          "existingImage": "/images/watches/rolex/reviewed-116710ln-white-web.webp",
+          "sourceUrl": "https://www.the1916company.com/rolex-certified-pre-owned/gmt-master-ii/5073462/",
+          "licenseRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for these exact nine originals and white-background derivatives with no additional restrictions on October15,2026 Eastern. Record docs/PHOTOGRAPHY_NINE_FOUNDER_RIGHTS_2026-10-15.json. Authentic complete RAW and final white WEB individually visually reviewed; source credits retained separately. Preserved RAW file: 1YgpzqiySv7YfYcUpFnuQbm5jBGRVixkg. Pictured full reference 116710LN-0001; Oystersteel, Black, Oyster. Exact configuration reviewed against preserved source evidence and the original photograph.",
+          "routes": [
+            "/collections/rolex/gmt-master-ii/116710ln"
+          ]
+        }
+      }
+    },
+    {
+      "brand": "Rolex",
+      "reference": "116610LV",
+      "manufacturerReference": "116610LV",
+      "configuration": "Steel / green dial / green ceramic bezel / Oyster Glidelock bracelet 97200",
+      "amount": 9050,
+      "currency": "USD",
+      "market": "United States",
+      "taxBasis": "unconfirmed",
+      "basis": "historical-list",
+      "checkedAt": "2026-10-28",
+      "effectiveDate": "2012-06-01",
+      "sourceUrl": "https://www.minus4plus6.com/pdf/Rolex_Price_List_June-1-2012.pdf",
+      "sourceName": "Rolex Watch U.S.A., Inc. - 2012-06 manufacturer MSRP list (archived by minus4plus6.com)",
+      "sourceType": "manufacturer",
+      "evidence": {
+        "sourceId": "us2012",
+        "publicationMonth": "2012-06",
+        "zeroBasedPdfPageIndex": 39,
+        "physicalPdfPage": 40,
+        "printedPage": 36,
+        "proofImage": "rolex-source-evidence/2012-price-table-40.png",
+        "configurationMatch": "Exact manufacturer row explicitly specifies green ceramic bezel and green dial, steel and 97200 Oyster Glidelock. Pictured manifest has 116610LV-0002. Source prints base reference, not suffix.",
+        "photography": {
+          "reference": "116610LV",
+          "photoAssetId": "cleared-nine-17jFt18kdnucTOPqXxdQUd3zIM3dkRByI",
+          "existingImage": "/images/watches/rolex/reviewed-116610lv-white-web.webp",
+          "sourceUrl": "https://www.the1916company.com/rolex-certified-pre-owned/submariner/5077993/",
+          "licenseRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for these exact nine originals and white-background derivatives with no additional restrictions on October15,2026 Eastern. Record docs/PHOTOGRAPHY_NINE_FOUNDER_RIGHTS_2026-10-15.json. Authentic complete RAW and final white WEB individually visually reviewed; source credits retained separately. Preserved RAW file: 17jFt18kdnucTOPqXxdQUd3zIM3dkRByI. Pictured full reference 116610LV-0002; Oystersteel, Green, Oyster. Exact configuration reviewed against preserved source evidence and the original photograph.",
+          "routes": [
+            "/collections/rolex/submariner/116610lv"
+          ]
+        }
+      }
+    },
+    {
+      "brand": "Rolex",
+      "reference": "116710BLNR",
+      "manufacturerReference": "116710BLNR",
+      "configuration": "Steel / black dial / black-and-blue ceramic bezel / Oyster bracelet 78200",
+      "amount": 8250,
+      "currency": "EUR",
+      "market": "Netherlands",
+      "taxBasis": "included",
+      "basis": "historical-list",
+      "checkedAt": "2026-10-28",
+      "effectiveDate": null,
+      "sourceUrl": "https://rolexforum.nl/prijslijst-rolex-NL2016.pdf",
+      "sourceName": "Rolex SA - 2016-02 manufacturer MSRP list (archived by rolexforum.nl)",
+      "sourceType": "manufacturer",
+      "evidence": {
+        "sourceId": "nl2016",
+        "publicationMonth": "2016-02",
+        "zeroBasedPdfPageIndex": 22,
+        "physicalPdfPage": 23,
+        "printedPage": 20,
+        "proofImage": "rolex-source-evidence/2016-blnr.png",
+        "configurationMatch": "Exact manufacturer row explicitly specifies black dial, black-and-blue ceramic and Oyster bracelet 78200. Pictured manifest has 116710BLNR-0002. Source prints base reference, not suffix. EUR Netherlands historical price; no USD conversion.",
+        "photography": {
+          "reference": "116710BLNR",
+          "photoAssetId": "cleared-nine-1M52sjy7nkxx59Pn2GtcOZa0tcN1teLRM",
+          "existingImage": "/images/watches/rolex/reviewed-116710blnr-white-web.webp",
+          "sourceUrl": "https://www.the1916company.com/rolex-certified-pre-owned/gmt-master-ii/5078846/",
+          "licenseRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for these exact nine originals and white-background derivatives with no additional restrictions on October15,2026 Eastern. Record docs/PHOTOGRAPHY_NINE_FOUNDER_RIGHTS_2026-10-15.json. Authentic complete RAW and final white WEB individually visually reviewed; source credits retained separately. Preserved RAW file: 1M52sjy7nkxx59Pn2GtcOZa0tcN1teLRM. Pictured full reference 116710BLNR-0002; Oystersteel, Black, Oyster. Exact configuration reviewed against preserved source evidence and the original photograph.",
+          "routes": [
+            "/collections/rolex/gmt-master-ii/116710blnr"
+          ]
+        }
+      }
+    },
+    {
+      "brand": "Rolex",
+      "reference": "116520",
+      "manufacturerReference": "116520",
+      "configuration": "Steel / standard black dial / engraved steel bezel / Oysterlock bracelet 78590",
+      "amount": 12000,
+      "currency": "USD",
+      "market": "United States",
+      "taxBasis": "unconfirmed",
+      "basis": "historical-list",
+      "checkedAt": "2026-10-28",
+      "effectiveDate": "2012-06-01",
+      "sourceUrl": "https://www.minus4plus6.com/pdf/Rolex_Price_List_June-1-2012.pdf",
+      "sourceName": "Rolex Watch U.S.A., Inc. - 2012-06 manufacturer MSRP list (archived by minus4plus6.com)",
+      "sourceType": "manufacturer",
+      "evidence": {
+        "sourceId": "us2012",
+        "publicationMonth": "2012-06",
+        "zeroBasedPdfPageIndex": 42,
+        "physicalPdfPage": 43,
+        "printedPage": 39,
+        "proofImage": "rolex-source-evidence/2012-daytona.png",
+        "configurationMatch": "Pictured manifest specifies 116520-0015 black dial on Oyster. Manufacturer standard steel Daytona row uses Oysterlock 78590 with no separate black/white dial pricing; it does not print a dial-specific suffix. Standard ungemmed model row, not dealer ask.",
+        "photography": {
+          "reference": "116520",
+          "photoAssetId": "cleared-nine-1KnjAq-sgzhXdr0dI0PrP_5q8KqNqOmUY",
+          "existingImage": "/images/watches/rolex/reviewed-116520-white-web.webp",
+          "sourceUrl": "https://www.the1916company.com/rolex-certified-pre-owned/daytona/5059316/",
+          "licenseRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for these exact nine originals and white-background derivatives with no additional restrictions on October15,2026 Eastern. Record docs/PHOTOGRAPHY_NINE_FOUNDER_RIGHTS_2026-10-15.json. Authentic complete RAW and final white WEB individually visually reviewed; source credits retained separately. Preserved RAW file: 1KnjAq-sgzhXdr0dI0PrP_5q8KqNqOmUY. Pictured full reference 116520-0015; Oystersteel, Black, Oyster. Exact configuration reviewed against preserved source evidence and the original photograph.",
+          "routes": [
+            "/collections/rolex/daytona/116520"
+          ]
+        }
+      }
+    },
+    {
+      "brand": "Rolex",
+      "reference": "116400GV",
+      "manufacturerReference": "116400GV",
+      "configuration": "Steel / standard black dial / green sapphire crystal / Oyster bracelet 72400",
+      "amount": 8200,
+      "currency": "USD",
+      "market": "United States",
+      "taxBasis": "unconfirmed",
+      "basis": "historical-list",
+      "checkedAt": "2026-10-28",
+      "effectiveDate": "2012-06-01",
+      "sourceUrl": "https://www.minus4plus6.com/pdf/Rolex_Price_List_June-1-2012.pdf",
+      "sourceName": "Rolex Watch U.S.A., Inc. - 2012-06 manufacturer MSRP list (archived by minus4plus6.com)",
+      "sourceType": "manufacturer",
+      "evidence": {
+        "sourceId": "us2012",
+        "publicationMonth": "2012-06",
+        "zeroBasedPdfPageIndex": 37,
+        "physicalPdfPage": 38,
+        "printedPage": 35,
+        "proofImage": "rolex-source-evidence/2012-price-table-38.png",
+        "configurationMatch": "Pictured manifest specifies 116400GV-0001 black dial on Oyster. Manufacturer lists steel GV model with green sapphire crystal and Oyster 72400 at one price; it does not print a dial-specific suffix. Exact base model, not 116400 without GV.",
+        "photography": {
+          "reference": "116400GV",
+          "photoAssetId": "cleared-nine-1b_4BYcLpF1JMlRe2H8PKBGR56en_mzD_",
+          "existingImage": "/images/watches/rolex/reviewed-116400gv-white-web.webp",
+          "sourceUrl": "https://www.the1916company.com/rolex-certified-pre-owned/milgauss/5079641/",
+          "licenseRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for these exact nine originals and white-background derivatives with no additional restrictions on October15,2026 Eastern. Record docs/PHOTOGRAPHY_NINE_FOUNDER_RIGHTS_2026-10-15.json. Authentic complete RAW and final white WEB individually visually reviewed; source credits retained separately. Preserved RAW file: 1b_4BYcLpF1JMlRe2H8PKBGR56en_mzD_. Pictured full reference 116400GV-0001; Oystersteel, Black, Oyster. Exact configuration reviewed against preserved source evidence and the original photograph.",
+          "routes": [
+            "/collections/rolex/milgauss/116400gv"
+          ]
+        }
+      }
+    }
+  ],
+  "sources": {
+    "us2012": {
+      "publisher": "Rolex Watch U.S.A., Inc.",
+      "host": "minus4plus6.com",
+      "url": "https://www.minus4plus6.com/pdf/Rolex_Price_List_June-1-2012.pdf",
+      "file": "rolex-usa-june-2012.pdf",
+      "currency": "USD",
+      "market": "United States",
+      "taxBasis": "unconfirmed",
+      "effectiveDate": "2012-06-01",
+      "publicationMonth": "2012-06",
+      "cover": "2012-cover.png",
+      "publisherProof": "2012-cover.png",
+      "coverPdfIndex": 0,
+      "publisherPdfIndex": 0,
+      "taxEvidence": "No explicit tax inclusion/exclusion statement located; retain unconfirmed.",
+      "sha256": "9AFCF17E902BBE0F2B682F980609F17389912487A1F3C55D9240B624ADE8E881",
+      "provenance": "Manufacturer-authored historical price-list document archived by unrelated third party; host is not claimed to be Rolex or an authorized dealer. Cover, publisher identification and relevant rows visually checked."
+    },
+    "nl2016": {
+      "publisher": "Rolex SA",
+      "host": "rolexforum.nl",
+      "url": "https://rolexforum.nl/prijslijst-rolex-NL2016.pdf",
+      "file": "rolex-netherlands-feb-2016.pdf",
+      "currency": "EUR",
+      "market": "Netherlands",
+      "taxBasis": "included",
+      "effectiveDate": null,
+      "publicationMonth": "2016-02",
+      "cover": "2016-front-01.png",
+      "publisherProof": "2016-front-03.png",
+      "coverPdfIndex": 0,
+      "publisherPdfIndex": 2,
+      "taxEvidence": "Cover explicitly states EUR V.A.T. included; table header confirms Netherlands VAT included. Day of month not published; no invented effective day.",
+      "sha256": "B51A312D24C390D2C95A65D2B24F306643442AD65F7640E84B27902F3DCBB3AE",
+      "provenance": "Manufacturer-authored historical price-list document archived by unrelated third party; host is not claimed to be Rolex or an authorized dealer. Cover, publisher identification and relevant rows visually checked."
+    },
+    "nl2020": {
+      "publisher": "Rolex SA",
+      "host": "rolexforum.nl",
+      "url": "https://www.rolexforum.nl/prijslijst-rolex-NL2020.pdf",
+      "file": "rolex-netherlands-jan-2020.pdf",
+      "currency": "EUR",
+      "market": "Netherlands",
+      "taxBasis": "included",
+      "effectiveDate": null,
+      "publicationMonth": "2020-01",
+      "cover": "2020-cover.png",
+      "publisherProof": "2020-publisher.png",
+      "coverPdfIndex": 0,
+      "publisherPdfIndex": 2,
+      "taxEvidence": "Cover explicitly states EUR V.A.T. included; no day of month published.",
+      "sha256": "7DFE8F574205306BCEEB6F1A4CFC70853C1B3E7A44AA4B6D8904AA654A5C12F8",
+      "provenance": "Manufacturer-authored historical price-list document archived by unrelated third party; host is not claimed to be Rolex or an authorized dealer. Cover, publisher identification and relevant rows visually checked."
+    }
+  },
+  "reviewedHolds": [
+    {
+      "reference": "116500LN",
+      "photography": {
+        "reference": "116500LN",
+        "photoAssetId": "cleared-20261023-116500ln",
+        "existingImage": "/images/watches/rolex/reviewed-116500ln-20261023-web.webp",
+        "sourceUrl": "https://www.grayandsons.com/w527052-rolex-daytona-40mm-116500ln/",
+        "licenseRecord": "Direct founder answer call_a32e683bc58149f587d610e0ebc5942e: Rights cover both originals and derivatives; no restrictions. Record docs/PHOTOGRAPHY_ROLEX_PAIR_RIGHTS_2026-10-23.json. Untouched authentic RAW SHA256 c159b70a703f1b1e5b401b08d7583b14d0f73a50486f9f25b10b1022e8db0349. Complete native and1200whiteWEB individually reviewed; archive readbacks matched. Only original near-white exterior background excluded; internal contour filled to retain all white highlights and original watch pixels. Proportional resize and center on blank2400white master/1200WEB. No recoloring, sharpening or generated watch detail. No price, availability or new alloy grade inferred. Preserved RAW file: 1zujJ7sIkxPx73uFsYVAdLmKBooVzSnhT. Pictured full reference 116500LN; Oystersteel, Black, Oyster. Exact configuration reviewed against preserved source evidence and the original photograph.",
+        "routes": [
+          "/collections/rolex/daytona/116500ln"
+        ]
+      },
+      "status": "hold-exact-dial-review",
+      "candidate": {
+        "amount": 12500,
+        "currency": "EUR",
+        "market": "Netherlands",
+        "taxBasis": "included",
+        "publicationMonth": "2020-01",
+        "sourceId": "nl2020",
+        "zeroBasedPdfPageIndex": 17,
+        "physicalPdfPage": 18,
+        "printedPage": 15,
+        "proofImage": "rolex-source-evidence/2020-daytona.png"
+      },
+      "reason": "Manufacturer row for Oystersteel/black ceramic/Oyster78590 verified; pictured black standard dial. Row omits dial color and exact suffix. Kept outside ready batch until independent root accepts standard-dial/base-row match. No unsupported current MSRP."
+    },
+    {
+      "reference": "118238",
+      "photography": {
+        "reference": "118238",
+        "photoAssetId": "cleared-20261023-118238",
+        "existingImage": "/images/watches/rolex/reviewed-118238-20261023-web.webp",
+        "sourceUrl": "https://www.grayandsons.com/w524561-rolex-day-date-36mm-118238/",
+        "licenseRecord": "Direct founder answer call_a32e683bc58149f587d610e0ebc5942e: Rights cover both originals and derivatives; no restrictions. Record docs/PHOTOGRAPHY_ROLEX_PAIR_RIGHTS_2026-10-23.json. Untouched authentic RAW SHA256 069bfbf46610a2fa445c7ea7712d5b26e5a14a1a5e6f076691c0d274e6d95c29. Complete native and1200whiteWEB individually reviewed; archive readbacks matched. Only original near-white exterior background excluded; internal contour filled to retain all white highlights and original watch pixels. Proportional resize and center on blank2400white master/1200WEB. No recoloring, sharpening or generated watch detail. No price, availability or new alloy grade inferred. Preserved RAW file: 1-Fd9nuJVh8D0IVN2aY5SXorD8yl2w2gR. Pictured full reference 118238; 18k Yellow Gold, White with yellow-gold Roman numerals, President. Exact configuration reviewed against preserved source evidence and the original photograph.",
+        "routes": [
+          "/collections/rolex/day-date/118238"
+        ]
+      },
+      "status": "hold-exact-dial-review",
+      "candidate": {
+        "amount": 31350,
+        "currency": "USD",
+        "market": "United States",
+        "taxBasis": "unconfirmed",
+        "effectiveDate": "2012-06-01",
+        "sourceId": "us2012",
+        "zeroBasedPdfPageIndex": 9,
+        "physicalPdfPage": 10,
+        "printedPage": 8,
+        "proofImage": "rolex-source-evidence/2012-daydate.png"
+      },
+      "reason": "Verified yellow gold/fluted bezel/President83208 base row. Pictured white Roman dial is not named in price row; additional-cost dial schedule exists on following page. Exact dial/suffix price confirmation required."
+    },
+    {
+      "reference": "228206",
+      "photography": {
+        "reference": "228206",
+        "photoAssetId": "cleared-20261023-four-228206",
+        "existingImage": "/images/watches/rolex/reviewed-228206-20261023-web.webp",
+        "sourceUrl": "https://www.watchguynyc.com/products/rolex-day-date-40-platinum-ice-blue-diagonal-motif-dial-men-s-watch-228206",
+        "licenseRecord": "Direct founder answer call_8868cb23862b4c248198bc88b991e735: Rights cover all four and derivatives; no restrictions. Record docs/PHOTOGRAPHY_FOUR_RIGHTS_2026-10-23.json. Untouched RAW SHA256 fe1127c80d7aa9ce7f5291b447c2d79598f16fdd9261e06bf30e92de6e926095. Full watch, source/configuration and final1200whiteWEB individually reviewed; all archival readbacks matched. Classical exterior filled silhouette. Original interior RGB retained; no generated, reconstructed, recolored or sharpened watch detail. Proportional resize and centered2400 white master/1200WEB. No price, availability or new alloy grade inferred. Preserved RAW file: 1umCLRwA9fLuYSNheBdRzLk7Z4NHRUewT. Pictured full reference 228206; 950 Platinum, Ice blue diagonal motif, Platinum President. Exact configuration reviewed against preserved source evidence and the original photograph.",
+        "routes": [
+          "/collections/rolex/day-date/228206"
+        ]
+      },
+      "status": "hold-exact-dial-review",
+      "candidate": {
+        "amount": 60100,
+        "currency": "EUR",
+        "market": "Netherlands",
+        "taxBasis": "included",
+        "publicationMonth": "2020-01",
+        "sourceId": "nl2020",
+        "zeroBasedPdfPageIndex": 5,
+        "physicalPdfPage": 6,
+        "printedPage": 4
+      },
+      "reason": "Manufacturer base platinum/smooth/President83416 row is EUR60100. Exact ice-blue diagonal motif not named. Scribd-hosted Jan2022 list has precise M228206-0004 ice-blue diagonal at59100 but source currency/market/authorship not established sufficiently; not promoted."
+    },
+    {
+      "reference": "326934",
+      "photography": {
+        "reference": "326934",
+        "photoAssetId": "cleared-nine-1jqHp2GYHDwVwKf8t2wVPTJY_v4bw7Oj3",
+        "existingImage": "/images/watches/rolex/reviewed-326934-white-web.webp",
+        "sourceUrl": "https://www.the1916company.com/rolex-certified-pre-owned/sky-dweller/5076865/",
+        "licenseRecord": "Founder directly confirmed commercial Quest Luxo website-use rights for these exact nine originals and white-background derivatives with no additional restrictions on October15,2026 Eastern. Record docs/PHOTOGRAPHY_NINE_FOUNDER_RIGHTS_2026-10-15.json. Authentic complete RAW and final white WEB individually visually reviewed; source credits retained separately. Preserved RAW file: 1jqHp2GYHDwVwKf8t2wVPTJY_v4bw7Oj3. Pictured full reference 326934-0002; Oystersteel / White Gold, White, Jubilee. Exact configuration reviewed against preserved source evidence and the original photograph.",
+        "routes": [
+          "/collections/rolex/sky-dweller/326934"
+        ]
+      },
+      "status": "hold-manufacturer-evidence",
+      "reason": "Pictured WHITE dial/JUBILEE full326934-0002. January2020 official-author document lists Oyster72220 atEUR14100, wrong bracelet. Scribd2022 text includes white/Jubilee62220 row14450 but original manufacturer document and market/currency provenance not verified; exclude. Do not substitute successor336934."
+    },
+    {
+      "reference": "124300",
+      "photography": {
+        "reference": "124300",
+        "photoAssetId": "cleared-20261023-offshore-124300",
+        "existingImage": "/images/watches/rolex/reviewed-124300-20261023-web.webp",
+        "sourceUrl": "https://www.grayandsons.com/w525633-rolex-oyster-perpetual-41mm-124300/",
+        "licenseRecord": "Direct founder answer call_b08e9ca28dbf4d55ae1eb5c615d3224b: Rights cover all four and derivatives; no restrictions. Record docs/PHOTOGRAPHY_OFFSHORE_ROLEX_RIGHTS_2026-10-23.json. Untouched RAW SHA256 17d244c5debcd7fd5bd4bc224804715fe5eab6c6b2672e35e78cb8206186f4b9. Full watch, source/configuration and final1200whiteWEB individually reviewed; all archival readbacks matched. Classical exterior filled silhouette. Original interior RGB retained; no generated, reconstructed, recolored or sharpened watch detail. Proportional resize and centered2400 white master/1200WEB. No price, availability or new alloy grade inferred. Preserved RAW file: 1l-lDcDcXqPUhJgaH-6ZiyDkDtL4EeLWu. Pictured full reference 124300; Oystersteel, Yellow, Oyster. Exact configuration reviewed against preserved source evidence and the original photograph.",
+        "routes": [
+          "/collections/rolex/oyster-perpetual/124300"
+        ]
+      },
+      "status": "hold-manufacturer-evidence",
+      "reason": "Pictured YELLOW dial; no yellow124300 row in June2024 list. Scribd2022 text has exactyellowM124300-0004 at5700 but manufacturer document and market/currency provenance not verified. Secondary2021USD5900/2022USD6150 reports excluded; no other dial price substituted."
+    },
+    {
+      "reference": "16520",
+      "photography": {
+        "reference": "16520",
+        "photoAssetId": "cleared-20261020-16520",
+        "existingImage": "/images/watches/rolex/reviewed-16520-20261020-web.webp",
+        "sourceUrl": "https://www.grayandsons.com/w526018-rolex-daytona-40mm-16520/",
+        "licenseRecord": "Direct founder answer call_1cc95e139f8a42c3a7ec4d651678fd4a: Rights cover this original and derivatives; no restrictions. Record docs/PHOTOGRAPHY_TWO_RIGHTS_2026-10-20.json. Untouched native original SHA256 97dab53026393c29cfcaf8eb4d1b08b3da36cc7be43d8b318942d80d8fa6b356. Complete native and final1200whiteWEB individually reviewed. Only original near-white exterior background excluded; internal contour filled to retain all white highlights and original watch pixels. Proportional resize and center on blank2400white master/1200WEB. No recoloring, sharpening or generated watch detail. Existing reference material terminology retained; no new alloy grade, price or availability inferred. Preserved RAW file: 1nsKaAIHW0pxRYNcXKIxlXCHqgUFP0p9S. Pictured full reference 16520; Oystersteel, Black, Oyster. Exact configuration reviewed against preserved source evidence and the original photograph.",
+        "routes": [
+          "/collections/rolex/daytona/16520"
+        ]
+      },
+      "status": "hold-manufacturer-evidence",
+      "reason": "Pictured black dial/Oyster. No original historical manufacturer MSRP table found. June2012 list mentions16520 only in replacement bracelet section; replacement bracelet price is NOT watch MSRP. Collector sales of1999Spain price booklet do not establish usable USD/EUR manufacturer price."
+    }
+  ],
+  "secondaryOnlyLeads": [
+    {
+      "url": "https://de.scribd.com/document/602521478/RMC-Preisliste-Rolex-01-01-2022",
+      "status": "not-accepted",
+      "reason": "Precise reference/dial/bracelet text found, but manufacturer authorship/market/currency not independently established from original document. No purchase, login or download attempted."
+    },
+    {
+      "url": "https://gentlemansreference.com/rolex/gmt-master-ii/126710blro/",
+      "status": "not-accepted",
+      "reason": "Links exact archived official pages. Attempt to retrieve official Wayback OysterPepsi snapshot20241108050936 returned cache miss; no newer price adopted."
+    }
+  ],
+  "applicationChanges": false,
+  "cloudOrAccountChanges": false
+}

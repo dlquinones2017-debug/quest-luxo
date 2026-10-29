@@ -1,0 +1,66 @@
+{
+  "title": "Historical or non-USD manufacturer observations — October 28",
+  "scope": "Separate from current US budget benchmarks. No FX conversion. No dealer asking prices. No repository changes.",
+  "prices": [
+    {
+      "brand": "TAG Heuer",
+      "reference": "CAR2A1Z.FT6044",
+      "manufacturerReference": "CAR2A1Z.FT6044",
+      "configuration": "Black dial / 45 mm black PVD steel / black rubber strap / Calibre HEUER01 automatic",
+      "amount": 6950,
+      "currency": "USD",
+      "market": "United States",
+      "taxBasis": "unconfirmed",
+      "basis": "historical-list",
+      "checkedAt": "2026-10-28",
+      "effectiveDate": null,
+      "sourceUrl": "https://www.tagheuer.com/us/en/timepieces/collections/tag-heuer-carrera/45-mm-calibre-heuer01-automatic/CAR2A1Z.FT6044.html",
+      "sourceName": "TAG Heuer United States",
+      "sourceType": "manufacturer",
+      "catalogPath": "/collections/tag-heuer/carrera/car2a1z-ft6044",
+      "evidence": {
+        "priceLabel": "$6,950.00",
+        "priceData": {
+          "price": 6950,
+          "priceCurrency": "USD"
+        },
+        "statusStatement": "This product is discontinued.",
+        "currencyBasis": "Exact selected manufacturer product Offer schema explicitly lists USD6950 on US product page.",
+        "dateCaution": "Undated manufacturer listed price for discontinued reference. Not asserted to be launch MSRP or a specifically dated last retail price.",
+        "taxStatement": "No explicit selected-price tax treatment observed; retain unconfirmed.",
+        "catalogMatch": "Exact full reference and HEUER01 movement, black PVD45mm case and black rubber strap match current catalog. No successor model substituted."
+      }
+    }
+  ],
+  "held": [
+    {
+      "brand": "Tudor",
+      "reference": "79030N",
+      "sourceUrl": "https://media.tudorwatch.com/image/upload/fl_attachment/v1/tudorwatch/pressroom/products/black-bay-58/pdf/bw18-tudor-black-bay-fifty-eight-en.pdf",
+      "checkedAt": "2026-10-28",
+      "sourceYear": 2018,
+      "currency": "CHF",
+      "market": "Switzerland",
+      "taxBasis": "included",
+      "basis": "historical-list",
+      "observedTableAmounts": [
+        3400,
+        3100,
+        3100
+      ],
+      "reason": "Official 2018 manufacturer PDF page5 gives Swiss VAT-included prices for three 79030N strap/bracelet variants. Needs visual confirmation of each price-to-variant column before assigning an exact configuration. Source PDF could not be rendered in this research surface; candidate only, not a ready price."
+    }
+  ],
+  "checkedAt": "2026-10-28",
+  "status": "immutable-historical-only-ready-for-root-review",
+  "summary": {
+    "readyHistoricalObservations": 1,
+    "heldTableCandidates": 1
+  },
+  "cautions": [
+    "USD 6,950 is the manufacturer's currently displayed undated listed price for a discontinued exact reference. It is not asserted to be original launch MSRP, final MSRP or a price effective in a particular historical year.",
+    "Keep all historical-list observations outside current US budget benchmarks. Manufacturer effective date is unknown; checkedAt is source observation date only.",
+    "No conversion or dealer asking price. Source Product/Offer explicitly supplies USD for exact CAR2A1Z.FT6044.",
+    "Tudor 2018 Swiss CHF table remains a candidate only until each price is visually associated with its exact bracelet/strap."
+  ]
+}
