@@ -1,6 +1,6 @@
 import { rolexAssets } from "../../data/rolex";
 import { collectionRegistry } from "../../data/collectionRegistry";
-import { getReferenceFilterTags } from "../catalog/referenceFacets";
+import { getReferenceFilterTags } from "../catalog/referenceFacets.ts";
 import { referencePath } from "../routes/collectionRoutes";
 import type { QuestLuxoAsset } from "../../types/questLuxo";
 import {

@@ -1,4 +1,4 @@
-import { oct28RetailPrices } from "./verified-retail-prices-oct28";
+import { oct28RetailPrices } from "./verified-retail-prices-oct28.ts";
 
 export interface VerifiedRetailPrice {
   readonly brand: string;
