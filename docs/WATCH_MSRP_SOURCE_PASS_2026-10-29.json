@@ -1,0 +1,355 @@
+{
+  "checkedAt": "2026-10-29",
+  "scope": "Continuation of all 83 outstanding public reference-page records; 82 distinct brand/reference identities. Existing reference-by-reference source outcomes retained and broad public searches reviewed, then fresh exact sources validated.",
+  "policy": "No estimates, currency conversions, zero placeholders, successor-reference substitutions, grey-market asking prices, or unconfirmed launch/last-production dates. Remaining source failures do not establish that a manufacturer never published a price.",
+  "prices": [
+    {
+      "brand": "Audemars Piguet",
+      "reference": "15202ST",
+      "manufacturerReference": "15202ST.OO.1240ST.01.A",
+      "configuration": "39 mm steel / blue Petite Tapisserie dial / steel bracelet with AP folding clasp / calibre 2121; manufacturer's currently displayed indicative price for the legacy .01.A blue configuration, not an original launch or last-production price",
+      "amount": 40100,
+      "currency": "USD",
+      "market": "United States",
+      "taxBasis": "excluded",
+      "basis": "current-list",
+      "checkedAt": "2026-10-29",
+      "effectiveDate": null,
+      "sourceUrl": "https://www.audemarspiguet.com/us/en/watch-collection/royal-oak/15202ST.OO.1240ST.01.A",
+      "sourceName": "Audemars Piguet United States \u2014 indicative recommended public price",
+      "sourceType": "manufacturer"
+    },
+    {
+      "brand": "Cartier",
+      "reference": "WGPA0017",
+      "manufacturerReference": "WGPA0017",
+      "configuration": "41 mm yellow gold / silvered flinqu\u00e9 chronograph dial / dark-grey and navy alligator straps / calibre 1904-CH MC",
+      "amount": 133000,
+      "currency": "SAR",
+      "market": "Saudi Arabia",
+      "taxBasis": "unconfirmed",
+      "basis": "current-list",
+      "checkedAt": "2026-10-29",
+      "effectiveDate": null,
+      "sourceUrl": "https://www.cartier.com/en-sa/watches/collections/pasha-de-cartier/pasha-de-cartier-watch--CRWGPA0017.html",
+      "sourceName": "Cartier Saudi Arabia",
+      "sourceType": "manufacturer"
+    },
+    {
+      "brand": "Cartier",
+      "reference": "WSPA0038",
+      "manufacturerReference": "WSPA0038",
+      "configuration": "41 mm steel / blue sunray dial / SmartLink steel bracelet and blue alligator strap / calibre 1847 MC",
+      "amount": 34100,
+      "currency": "SAR",
+      "market": "Saudi Arabia",
+      "taxBasis": "unconfirmed",
+      "basis": "current-list",
+      "checkedAt": "2026-10-29",
+      "effectiveDate": null,
+      "sourceUrl": "https://www.cartier.com/en-sa/watches/collections/pasha-de-cartier/pasha-de-cartier-watch-CRWSPA0038.html",
+      "sourceName": "Cartier Saudi Arabia",
+      "sourceType": "manufacturer"
+    },
+    {
+      "brand": "Cartier",
+      "reference": "WSBB0061",
+      "manufacturerReference": "WSBB0061",
+      "configuration": "40 mm steel / blue sunray dial / interchangeable steel bracelet / date at 3 o'clock / calibre 1847 MC",
+      "amount": 33600,
+      "currency": "SAR",
+      "market": "Saudi Arabia",
+      "taxBasis": "unconfirmed",
+      "basis": "current-list",
+      "checkedAt": "2026-10-29",
+      "effectiveDate": null,
+      "sourceUrl": "https://www.cartier.com/en-sa/watches/collections/ballon-de-cartier/ballon-bleu-de-cartier-watch-CRWSBB0061.html",
+      "sourceName": "Cartier Saudi Arabia",
+      "sourceType": "manufacturer"
+    },
+    {
+      "brand": "Franck Muller",
+      "reference": "V 32 SC AT FO SMURFETTE (BL)",
+      "manufacturerReference": "V 32 SC AT FO SMURFETTE (BL)",
+      "configuration": "32 mm polished steel / blue standard non-diamond Smurfette version / matching alligator strap; manufacturer publication prices standard versions separately from diamond versions",
+      "amount": 9800,
+      "currency": "CHF",
+      "market": "Market not stated (manufacturer CHF publication)",
+      "taxBasis": "excluded",
+      "basis": "historical-list",
+      "checkedAt": "2026-10-29",
+      "effectiveDate": null,
+      "sourceUrl": "https://www.franckmuller.com/news/vanguard-smurfette-party",
+      "sourceName": "Franck Muller \u2014 November 2025 standard Smurfette price publication",
+      "sourceType": "manufacturer",
+      "effectivePeriod": "2025-11",
+      "corroboratingUrls": [
+        "https://www.franckmuller.com/it/news/vanguard-smurfette"
+      ]
+    },
+    {
+      "brand": "Franck Muller",
+      "reference": "V 32 SC AT FO SMURFETTE (RS)",
+      "manufacturerReference": "V 32 SC AT FO SMURFETTE (RS)",
+      "configuration": "32 mm polished steel / pink standard non-diamond Smurfette version / matching alligator strap; manufacturer publication prices standard versions separately from diamond versions",
+      "amount": 9800,
+      "currency": "CHF",
+      "market": "Market not stated (manufacturer CHF publication)",
+      "taxBasis": "excluded",
+      "basis": "historical-list",
+      "checkedAt": "2026-10-29",
+      "effectiveDate": null,
+      "sourceUrl": "https://www.franckmuller.com/news/vanguard-smurfette-party",
+      "sourceName": "Franck Muller \u2014 November 2025 standard Smurfette price publication",
+      "sourceType": "manufacturer",
+      "effectivePeriod": "2025-11",
+      "corroboratingUrls": [
+        "https://www.franckmuller.com/it/news/vanguard-smurfette"
+      ]
+    },
+    {
+      "brand": "Franck Muller",
+      "reference": "V 41 SC DT BEACH BU BL GF1",
+      "manufacturerReference": "V 41 SC DT BEACH GFBUBL",
+      "configuration": "41 mm Ocean Blue glass-fibre composite / matte blue Arabic dial / blue fabric Velcro strap / FM 800-DT; same reviewed manufacturer Ocean Blue product photograph, regional naming GFBUBL",
+      "amount": 15300,
+      "currency": "SGD",
+      "market": "Singapore",
+      "taxBasis": "unconfirmed",
+      "basis": "current-list",
+      "checkedAt": "2026-10-29",
+      "effectiveDate": null,
+      "sourceUrl": "https://franckmuller-asiapacific.com/timepieces/vanguard-beach/",
+      "sourceName": "Franck Muller Asia Pacific \u2014 Singapore regional list",
+      "sourceType": "manufacturer",
+      "corroboratingUrls": [
+        "https://www.boutiques.franckmuller.com/singapore-boutique"
+      ]
+    },
+    {
+      "brand": "Franck Muller",
+      "reference": "V 41 SC DT BEACH FR2 GFBUBL (BC)",
+      "manufacturerReference": "V 41 SC DT BEACH FR2 GFBUBL (BC)",
+      "configuration": "41 mm Surf Blue glass-fibre composite / matte-white FR2 graphic dial / printed white nylon strap with leather underside and Velcro closure / MVT 2536-SCDT2H",
+      "amount": 19400,
+      "currency": "SGD",
+      "market": "Singapore",
+      "taxBasis": "unconfirmed",
+      "basis": "current-list",
+      "checkedAt": "2026-10-29",
+      "effectiveDate": null,
+      "sourceUrl": "https://franckmuller-asiapacific.com/timepieces/fr2nck-muller-vanguard-beach/",
+      "sourceName": "Franck Muller Asia Pacific \u2014 Singapore regional list",
+      "sourceType": "manufacturer",
+      "corroboratingUrls": [
+        "https://www.boutiques.franckmuller.com/singapore-boutique",
+        "https://www.franckmuller.com/de/news/fr2nckmuller-vanguard-beach"
+      ]
+    },
+    {
+      "brand": "Franck Muller",
+      "reference": "V 41 SC DT BEACH FR2 GFVRVE (BC)",
+      "manufacturerReference": "V 41 SC DT BEACH FR2 GFVRVE (BC)",
+      "configuration": "41 mm Tropical Green glass-fibre composite / matte-white FR2 graphic dial / printed white nylon strap with leather underside and Velcro closure / MVT 2536-SCDT2H",
+      "amount": 19400,
+      "currency": "SGD",
+      "market": "Singapore",
+      "taxBasis": "unconfirmed",
+      "basis": "current-list",
+      "checkedAt": "2026-10-29",
+      "effectiveDate": null,
+      "sourceUrl": "https://franckmuller-asiapacific.com/timepieces/fr2nck-muller-vanguard-beach/",
+      "sourceName": "Franck Muller Asia Pacific \u2014 Singapore regional list",
+      "sourceType": "manufacturer",
+      "corroboratingUrls": [
+        "https://www.boutiques.franckmuller.com/singapore-boutique",
+        "https://www.franckmuller.com/de/news/fr2nckmuller-vanguard-beach"
+      ]
+    },
+    {
+      "brand": "Franck Muller",
+      "reference": "V 41 SC DT BEACH FR2 GFRGFRG (BC)",
+      "manufacturerReference": "V 41 SC DT BEACH FR2 GFRGFRG (BC)",
+      "configuration": "41 mm Heatwave Red glass-fibre composite / matte-white FR2 graphic dial / printed white nylon strap with leather underside and Velcro closure / MVT 2536-SCDT2H",
+      "amount": 19400,
+      "currency": "SGD",
+      "market": "Singapore",
+      "taxBasis": "unconfirmed",
+      "basis": "current-list",
+      "checkedAt": "2026-10-29",
+      "effectiveDate": null,
+      "sourceUrl": "https://franckmuller-asiapacific.com/timepieces/fr2nck-muller-vanguard-beach/",
+      "sourceName": "Franck Muller Asia Pacific \u2014 Singapore regional list",
+      "sourceType": "manufacturer",
+      "corroboratingUrls": [
+        "https://www.boutiques.franckmuller.com/singapore-boutique",
+        "https://www.franckmuller.com/de/news/fr2nckmuller-vanguard-beach"
+      ]
+    },
+    {
+      "brand": "Omega",
+      "reference": "131.63.41.21.03.001",
+      "manufacturerReference": "131.63.41.21.03.001",
+      "configuration": "41 mm 18 ct Sedna gold / blue ceramic Roman-numeral bezel / blue dial / blue leather strap with rubber lining / calibre 8901",
+      "amount": 23800,
+      "currency": "GBP",
+      "market": "United Kingdom",
+      "taxBasis": "unconfirmed",
+      "basis": "current-list",
+      "checkedAt": "2026-10-29",
+      "effectiveDate": null,
+      "sourceUrl": "https://www.bankslyon.co.uk/omega-constellation-co-axial-master-chronometer-41mm-watch-131-63-41-21-03-001/",
+      "sourceName": "Banks Lyon \u2014 explicitly published OMEGA RRP",
+      "sourceType": "authorized-retailer",
+      "corroboratingUrls": [
+        "https://www.bankslyon.co.uk/omega-watches/"
+      ],
+      "priceLabel": "RRP"
+    },
+    {
+      "brand": "Omega",
+      "reference": "210.32.42.20.01.006",
+      "manufacturerReference": "210.32.42.20.01.006",
+      "configuration": "42 mm steel / black aluminium dial and bezel / orange accents / integrated orange rubber strap with foldover clasp / calibre 8806",
+      "amount": 5800,
+      "currency": "GBP",
+      "market": "United Kingdom",
+      "taxBasis": "unconfirmed",
+      "basis": "current-list",
+      "checkedAt": "2026-10-29",
+      "effectiveDate": null,
+      "sourceUrl": "https://www.bankslyon.co.uk/omega-seamaster-diver-300m-42mm-210-32-42-20-01-006/",
+      "sourceName": "Banks Lyon \u2014 explicitly published OMEGA RRP",
+      "sourceType": "authorized-retailer",
+      "corroboratingUrls": [
+        "https://www.bankslyon.co.uk/omega-watches/"
+      ],
+      "priceLabel": "RRP"
+    }
+  ],
+  "sources": [
+    {
+      "key": "AP15202fresh",
+      "references": [
+        "15202ST"
+      ],
+      "facts": "USD 40100; US non-binding recommended public price, taxes excluded. Live legacy .01.A SKU, 39 mm blue Petite Tapisserie steel bracelet, calibre 2121 / 40 hours / 50 m. Same blue .01 watch configuration as approved photographs on two public routes. No launch date, last-production MSRP, availability or resumption of production inferred.",
+      "url": "https://www.audemarspiguet.com/us/en/watch-collection/royal-oak/15202ST.OO.1240ST.01.A",
+      "httpStatus": 200,
+      "scrapeId": "01a188ce-7120-728c-9c4e-934739a11fb9",
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "key": "freshC-0",
+      "references": [
+        "WGPA0017"
+      ],
+      "facts": "Selected WGPA0017 SAR 133000. Yellow gold, silver flinque chronograph dial, two alligator straps, 1904-CH MC, 41 mm, 100 m. Tax treatment not stated in selected evidence.",
+      "url": "https://www.cartier.com/en-sa/watches/collections/pasha-de-cartier/pasha-de-cartier-watch--CRWGPA0017.html",
+      "httpStatus": 200,
+      "scrapeId": "01a188d4-8f77-7760-a630-1937009c5816",
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "key": "freshC-1",
+      "references": [
+        "WSPA0038"
+      ],
+      "facts": "Selected WSPA0038 SAR 34100. Blue sunray dial, steel SmartLink bracelet plus blue alligator, 1847 MC, 41 mm, 100 m. Tax treatment not stated in selected evidence.",
+      "url": "https://www.cartier.com/en-sa/watches/collections/pasha-de-cartier/pasha-de-cartier-watch-CRWSPA0038.html",
+      "httpStatus": 200,
+      "scrapeId": "01a188d4-8f2d-700f-82c5-6120c9ee54d0",
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "key": "cartierBallonSaudi",
+      "references": [
+        "WSBB0061"
+      ],
+      "facts": "Selected WSBB0061 SAR 33600 appears before related-product cards. Blue dial, interchangeable steel bracelet, 1847 MC, 40 mm, 30 m. Related-watch amounts 34800 etc are excluded; tax basis unconfirmed.",
+      "url": "https://www.cartier.com/en-sa/watches/collections/ballon-de-cartier/ballon-bleu-de-cartier-watch-CRWSBB0061.html",
+      "httpStatus": 200,
+      "scrapeId": "01a188d5-8cce-7464-a16e-6ac28da423a9",
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "key": "fmSource-0",
+      "references": [
+        "V 32 SC AT FO SMURFETTE (BL)",
+        "V 32 SC AT FO SMURFETTE (RS)"
+      ],
+      "facts": "Manufacturer November 17 2025 article prices standard blue/pink/floral versions at CHF 9800 excluding taxes, separately from CHF 20800 diamond versions. Original currency retained. Publication does not establish a current US price, exact effective day, or Swiss sales market. Standard BL and non-floral RS identifiers matched to approved non-diamond photographs; no D gem-set SKU priced.",
+      "url": "https://www.franckmuller.com/news/vanguard-smurfette-party",
+      "httpStatus": 200,
+      "scrapeId": "01a188d0-564f-7639-8eb6-cd9084128423",
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "key": "fmSource-2",
+      "references": [
+        "V 41 SC DT BEACH BU BL GF1"
+      ],
+      "facts": "Ocean Blue V41, SGD 15300, current regional Singapore list; blue product image filename V-41-SC-DT-BEACH-GFBUBL-1 matches approved original source/product identity. Plain matte-blue Arabic dial, fabric Velcro, glass-fibre case, FM 800-DT / 42 hours / 30 m. Regional naming is disclosed; not a FR2 collaboration price. Official global boutique locator establishes regional affiliation through Singapore boutique contact domain and matching boutique locations.",
+      "url": "https://franckmuller-asiapacific.com/timepieces/vanguard-beach/",
+      "httpStatus": 200,
+      "scrapeId": "01a188d0-567b-75dc-a4ee-105a98e078e4",
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "key": "fmSource-1",
+      "references": [
+        "V 41 SC DT BEACH FR2 GFBUBL (BC)",
+        "V 41 SC DT BEACH FR2 GFVRVE (BC)",
+        "V 41 SC DT BEACH FR2 GFRGFRG (BC)"
+      ],
+      "facts": "Each specifically pictured blue/green/red variant has its own SGD 19400 price block. Matte white FR2 graphic dial, nylon/leather Velcro, MVT 2536-SCDT2H / 42 hours / 30 m. No tax assumption or currency conversion. Exact catalog SKUs and images recorded in founder-approved photographic manifests; global manufacturer FR2 article corroborates collection.",
+      "url": "https://franckmuller-asiapacific.com/timepieces/fr2nck-muller-vanguard-beach/",
+      "httpStatus": 200,
+      "scrapeId": "01a188d0-567c-7409-8f4d-1ab53eac8fcd",
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "key": "banksGoldFresh",
+      "references": [
+        "131.63.41.21.03.001"
+      ],
+      "facts": "Exact full SKU explicitly labelled RRP GBP 23800, not inferred from its sale or finance amount. Sedna gold / blue dial and ceramic bezel / blue leather with rubber lining / 8901 / 50 m. Publisher identifies itself as official OMEGA stockist and authorized retailer since 1985 at corroborating brand page. Retained as authorized-retailer RRP, not manufacturer-direct evidence.",
+      "url": "https://www.bankslyon.co.uk/omega-constellation-co-axial-master-chronometer-41mm-watch-131-63-41-21-03-001/",
+      "httpStatus": 200,
+      "scrapeId": "01a188d6-1dcd-77db-8e38-7d6b2e97061d",
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "key": "banksOrange",
+      "references": [
+        "210.32.42.20.01.006"
+      ],
+      "facts": "Exact full SKU explicitly labelled RRP GBP 5800. Black aluminium dial/bezel with orange accents, orange rubber/foldover, 8806, 300 m matches approved picture. Same authorization corroboration and provenance limits as other Banks Lyon record.",
+      "url": "https://www.bankslyon.co.uk/omega-seamaster-diver-300m-42mm-210-32-42-20-01-006/",
+      "httpStatus": 200,
+      "scrapeId": "01a188d6-1dd3-76a5-b5e5-df4531118ea0",
+      "checkedAt": "2026-10-29"
+    }
+  ],
+  "excludedAlternatives": [
+    "Tourneau 2024 corporate PDF is indexed with PAM01312 retail USD8800 and manufacturer-retail terms, but actual original document retrieval returned404. Search excerpt alone was not promoted to verified price.",
+    "Banks Lyon Aqua Terra 220.12.41.21.03.002 indexed RRP5700 and 220.10.41.21.03.004 listing5900: actual fresh product fetches404; retained as leads only.",
+    "Mayors current Pasha prices and Tourneau DeVille USD6800 are dealer asking prices without an explicit MSRP/RRP label; not substituted for manufacturer list evidence.",
+    "Franck regional third-party US dollars sometimes conflict with manufacturer CHF. Manufacturer CHF9800 retained for Smurfette, never relabelled USD.",
+    "Patek5167A rubber-strap price cannot price pictured5167/1A steel bracelet.",
+    "Hublot445 43mm replacement price cannot price original441 42mm.",
+    "Six AP .A addresses for other retired references returned404 and supplied no numeric price.",
+    "Bamford Crazy Love Snoopy product retrieval supplied no usable original price; journalism and resale offers not promoted.",
+    "F.P.Journe and RM public figures without exact manufacturer/authorized list evidence remain unresolved."
+  ],
+  "specificationOnlySources": [
+    {
+      "reference": "PAM01616",
+      "url": "https://www.panerai.com/content/dam/pan-assets/016-presskit/pdf/carbotech/PR_PANERAI_SUBMERSIBLE_CARBOTECH_PAM00960_PAM01616_ENG.pdf",
+      "httpStatus": 200,
+      "physicalPageVisuallyReviewed": 4,
+      "sha256": "7ad3b84fc3baf0b8f31cfee7cfcce81129e7f50724da36a1fe4ae8f527770613",
+      "facts": "Manufacturer physical page4 shows exact pictured47mm Carbotech, P.9010 automatic, 72-hour reserve, 300m and black rubber/titanium-DLC buckle. No list price in the4-page document. Technical evidence does not establish MSRP."
+    }
+  ]
+}

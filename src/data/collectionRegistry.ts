@@ -21,6 +21,7 @@ import type { QuestLuxoAsset } from "../types/questLuxo";
 import { launchCatalogCollections } from "./launch-catalog";
 import { verifiedCatalogExpansionCollections } from "./verified-catalog-expansion";
 import { photographyExpansionAssets } from "./photography-expansion";
+import { amendSourceCompletionReference } from "./reference-information-source-completion";
 
 export interface CollectionDefinition {
   brand: string;
@@ -730,7 +731,7 @@ export const collectionRegistry: CollectionDefinition[] = [...mergedCollections.
   assets: collection.assets.map(asset => {
     const displayReference = picturedReferenceAmendments[`${collection.brand}|${asset.reference}`];
     const monaco = collection.brand === "TAG Heuer" && asset.reference === "CBL2111.FC6453";
-    if (!displayReference && !monaco) return asset;
+    if (!displayReference && !monaco) return amendSourceCompletionReference(asset, collection.brand, photographyExpansionAssets.find(candidate => candidate.brand === collection.brand && candidate.collection === collection.name && candidate.reference === asset.reference));
     const pictured = photographyExpansionAssets.find(candidate => candidate.brand === collection.brand && candidate.collection === collection.name && candidate.reference === asset.reference);
     if (!pictured?.configurations?.length) return asset;
     const royal = collection.brand === "Tudor" && collection.name === "Royal";
@@ -744,7 +745,7 @@ export const collectionRegistry: CollectionDefinition[] = [...mergedCollections.
       : `This profile represents pictured reference ${displayReference}, rather than every configuration in the ${asset.model} family.`;
     const source = royal ? { label: "TUDOR 2020 Royal technical specifications (page 7)", url: royalSource }
       : monaco ? { label: "TAG Heuer current TH20-00 configuration and list benchmark", url: "https://www.tagheuer.com/us/en/timepieces/collections/tag-heuer-monaco/39-mm-th20-00/CBL2111.FC6453.html" } : null;
-    return {
+    return amendSourceCompletionReference({
       ...asset,
       ...(displayReference ? { displayReference } : {}),
       configurations,
@@ -759,7 +760,7 @@ export const collectionRegistry: CollectionDefinition[] = [...mergedCollections.
         overview: scope,
         configurationSummary: Object.entries(configurations[0]).filter(([key, value]) => ["caseSize", "movement", "dial", "bracelet", "waterResistance"].includes(key) && value).map(([, value]) => value).join("; "),
       } } : {}),
-    };
+    }, collection.brand, pictured);
   }),
 }));
 
