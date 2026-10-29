@@ -8,13 +8,15 @@ import {
   saveLeadSubmission,
   updateLeadSubmissionEmailDelivery,
 } from "./leadStorage.ts";
-import type { LeadStorageResult } from "./leadStorageTypes.ts";
+import type { LeadStorageResult, LeadSubmissionRecord } from "./leadStorageTypes.ts";
+import { createLeadNotificationContext, type LeadNotificationContext } from "./leadNotificationContext.ts";
 
 export interface LeadSubmissionDependencies {
   readonly ensureReady: () => Promise<void>;
   readonly persist: (payload: LeadCapturePayload) => Promise<LeadStorageResult>;
   readonly notify: (
-    payload: LeadCapturePayload
+    payload: LeadCapturePayload,
+    context?: LeadNotificationContext
   ) => Promise<LeadEmailDeliveryResult>;
   readonly recordDelivery: (
     id: string,
@@ -55,6 +57,14 @@ const createNotificationFailure = (error: unknown): LeadEmailDeliveryResult =>
         : "Lead notification failed unexpectedly.",
   });
 
+// A retry uses an already saved record. It must never call the intake/persistence path.
+export function notifySavedLead(
+  record: Pick<LeadSubmissionRecord, "id" | "savedAt" | "payload">,
+  notify: LeadSubmissionDependencies["notify"] = sendLeadNotificationEmail
+): Promise<LeadEmailDeliveryResult> {
+  return notify(record.payload, createLeadNotificationContext(record));
+}
+
 export async function processLeadSubmission(
   payload: LeadCapturePayload,
   dependencies: LeadSubmissionDependencies = defaultDependencies
@@ -86,7 +96,7 @@ export async function processLeadSubmission(
   let delivery: LeadEmailDeliveryResult;
 
   try {
-    delivery = await dependencies.notify(payload);
+    delivery = await notifySavedLead({ ...storage, payload }, dependencies.notify);
   } catch (error) {
     delivery = createNotificationFailure(error);
   }

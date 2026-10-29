@@ -1,5 +1,6 @@
 import { rolexAssets } from "../../data/rolex";
 import { collectionRegistry } from "../../data/collectionRegistry";
+import { getReferenceFilterTags } from "../catalog/referenceFacets";
 import { referencePath } from "../routes/collectionRoutes";
 import type { QuestLuxoAsset } from "../../types/questLuxo";
 import {
@@ -10,9 +11,6 @@ import {
   type RankedSearchResult,
   type SearchableWatchRecord,
 } from "./searchIndexGenerator";
-import { cartierSantosSearchRecords } from "./cartierSantosSearchIndex";
-import { vacheronConstantinOverseasSearchRecords } from "./vacheronConstantinSearchIndex";
-import { ulysseNardinSearchRecords } from "./ulysseNardinSearchIndex";
 import {
   parseWatchIntent,
   type WatchIntent,
@@ -29,6 +27,7 @@ export interface AskQuestLuxoInput<
   readonly includeUnknownPrice?: boolean;
   readonly defaultBrand?: string;
   readonly defaultCollection?: string;
+  readonly browse?: { readonly brand?: string; readonly tag?: string };
 }
 
 export interface AskQuestLuxoEmptyState {
@@ -72,14 +71,15 @@ const registrySearchRecords = collectionRegistry.flatMap((collection) =>
   )
 );
 
-const defaultSearchRecords = Object.freeze([
-  ...registrySearchRecords,
-  ...vacheronConstantinOverseasSearchRecords,
-  ...cartierSantosSearchRecords,
-  ...ulysseNardinSearchRecords,
-].filter((record, index, records) =>
-  records.findIndex((candidate) => candidate.id === record.id) === index
-));
+// Recommendations point to exact, active reference routes. Legacy collection/family
+// search records can describe several configurations and must not pose as one watch.
+const defaultSearchRecords = Object.freeze(
+  [...new Map(registrySearchRecords.map(record => [record.url, record])).values()]
+);
+
+export function getAskQuestLuxoCatalog(): readonly SearchableWatchRecord[] {
+  return defaultSearchRecords;
+}
 
 const formatCurrency = (value: number): string =>
   new Intl.NumberFormat("en-US", {
@@ -158,7 +158,7 @@ export function generateAskQuestLuxoSummary(
       ? ` with a verified published U.S. MSRP benchmark from ${formatCurrency(topRecommendation.estimatedPrice)}`
       : " with price research pending";
 
-  return `Found ${recommendations.length} Quest Luxo match${
+  return `Showing ${recommendations.length} Quest Luxo match${
     recommendations.length === 1 ? "" : "es"
   }${budgetText}${intentText}. Top result: ${topRecommendation.brand} ${
     topRecommendation.reference
@@ -183,7 +183,10 @@ export function askQuestLuxo<
           defaultCollection: input.defaultCollection,
         }));
   const matchingRecords = searchWatchRecords({
-    records,
+    records: records.filter(record =>
+      (!input.browse?.brand || record.brand === input.browse.brand) &&
+      (!input.browse?.tag || getReferenceFilterTags(record.asset).includes(input.browse.tag))
+    ),
     query: input.query,
     includeUnknownPrice: input.includeUnknownPrice,
     rankResults: false,

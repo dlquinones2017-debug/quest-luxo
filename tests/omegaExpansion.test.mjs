@@ -12,7 +12,7 @@ registerHooks({ resolve(specifier, context, next) {
 }});
 const { verifiedExpansionRows, verifiedExpansionAssets } = await import("../src/data/verified-catalog-expansion.ts");
 const { collectionRegistry, getCollectionsForBrand } = await import("../src/data/collectionRegistry.ts");
-const { getReferenceFilterTags, omegaDirectoryFilters } = await import("../src/lib/catalog/referenceFacets.ts");
+const { getReferenceFilterTags, getCollectionDirectoryFilters, omegaDirectoryFilters } = await import("../src/lib/catalog/referenceFacets.ts");
 
 test("Omega expansion includes color, Sedna Gold, rubber, wave/non-wave and GMT variants", () => {
   const omega = verifiedExpansionRows.filter(row => row[1] === "omega");
@@ -37,7 +37,7 @@ test("Omega expansion includes color, Sedna Gold, rubber, wave/non-wave and GMT 
     ["215.30.44.22.01.001", ["gmt"], []],
     ["310.32.42.50.04.002", ["white", "rubber-strap", "non-wave-dial"], ["wave-dial"]],
     ["131.10.28.60.60.002", ["other-colors", "non-wave-dial"], ["wave-dial", "rubber-strap"]],
-    ["131.23.41.21.03.001", ["blue", "sedna-gold", "precious-metal", "two-tone", "non-wave-dial"], ["rubber-strap"]],
+    ["131.23.41.21.03.001", ["blue", "sedna-gold", "two-tone", "non-wave-dial"], ["rubber-strap", "precious-metal"]],
     ["434.13.41.20.10.001", ["green", "non-wave-dial"], ["wave-dial", "rubber-strap"]],
   ];
   for (const [ref, includes, excludes] of cases) {
@@ -90,10 +90,22 @@ test("Omega filters are wired through the shared live directory, not a parallel 
     readFile(new URL("../src/components/QuestLuxoReferenceGrid.astro", import.meta.url), "utf8"),
     readFile(new URL("../src/components/QuestLuxoDirectoryToolbar.astro", import.meta.url), "utf8"),
   ]);
-  assert.match(experience, /collection\.brandSlug === "omega" \? \[\.\.\.omegaDirectoryFilters\]/);
+  assert.match(experience, /filters=\{getCollectionDirectoryFilters\(collection.assets\)\}/);
   assert.match(grid, /getReferenceFilterTags\(asset\)\.join\(" "\)/);
   assert.match(grid, /data-directory-filter/);
   assert.match(grid, /activeFilter === "all" \|\| tags\.includes\(activeFilter\)/);
   assert.match(toolbar, /data-directory-filter/);
   assert.match(experience, /QuestLuxoReferenceGrid/);
+});
+
+test("collection filters expose only documented choices and separate all-gold from two-tone", () => {
+  const asset = { reference: "T2", model: "Watch", material: "Stainless steel and Sedna gold", productionStatus: "Current production", configurations: [{ dial: "Blue", bracelet: "Steel" }] };
+  const tags = getReferenceFilterTags(asset);
+  assert.ok(tags.includes("current"));
+  assert.ok(tags.includes("two-tone"));
+  assert.ok(!tags.includes("precious-metal"));
+  const filters = getCollectionDirectoryFilters([asset]);
+  assert.ok(filters.some(filter => filter.value === "blue"));
+  assert.ok(!filters.some(filter => filter.value === "oystersteel" || filter.value === "rubber-strap"));
+  assert.equal(new Set(filters.map(filter => filter.value)).size, filters.length);
 });

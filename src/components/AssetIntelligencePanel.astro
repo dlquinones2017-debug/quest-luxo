@@ -11,23 +11,27 @@ interface Props {
 }
 
 const {
-  collectorDemand = 0,
-  liquidity = 0,
-  wearability = 0,
-  collectability = 0,
-  allocationDifficulty = 0,
-  versatility = 0,
+  collectorDemand,
+  liquidity,
+  wearability,
+  collectability,
+  allocationDifficulty,
+  versatility,
   summary,
 } = Astro.props;
 
-const stars = (rating: number) =>
-  "★".repeat(rating) + "☆".repeat(5 - rating);
+const stars = (rating?: number) => {
+  if (typeof rating !== "number" || !Number.isFinite(rating)) return "Not assessed";
+  const bounded = Math.max(0, Math.min(5, Math.round(rating)));
+  return "★".repeat(bounded) + "☆".repeat(5 - bounded);
+};
 ---
 
 <section class="panel">
   <div class="header">
     <p class="eyebrow">QUEST LUXO INTELLIGENCE</p>
     <h2>Reference Assessment</h2>
+    <p>Qualitative Quest Luxo assessments on a five-point scale, based on catalog observations. These are not return forecasts or measured confidence levels.</p>
   </div>
 
   <div class="grid">

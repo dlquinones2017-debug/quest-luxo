@@ -1,0 +1,638 @@
+{
+  "title": "Immutable follow-up MSRP tranche — 2026-10-28",
+  "schemaVersion": 1,
+  "status": "finalized-for-root-integration",
+  "baseline": {
+    "previousReadyTranche": "msrp-ready-tranche-2026-10-28.json",
+    "previousReadyReferences": 51,
+    "originalCanonicalCoverage": 43,
+    "totalCanonical": 297
+  },
+  "summary": {
+    "ready": 19,
+    "held": 9,
+    "combinedNewReferences": 70,
+    "possibleCanonicalCoverage": 113,
+    "totalCanonical": 297,
+    "unknownAfterBothTranches": 184
+  },
+  "prices": [
+    {
+      "brand": "Omega",
+      "reference": "220.10.30.20.60.001",
+      "manufacturerReference": "220.10.30.20.60.001",
+      "configuration": "Pine green dial / 30 mm, steel on steel",
+      "amount": 7800,
+      "currency": "USD",
+      "market": "United States",
+      "taxBasis": "unconfirmed",
+      "basis": "current-list",
+      "checkedAt": "2026-10-28",
+      "effectiveDate": null,
+      "sourceUrl": "https://www.omegawatches.com/en-us/watch-omega-seamaster-aqua-terra-150m-co-axial-master-chronometer-30-mm-22010302060001",
+      "sourceName": "OMEGA United States",
+      "sourceType": "manufacturer",
+      "catalogPath": "/collections/omega/aqua-terra/220-10-30-20-60-001",
+      "evidence": {
+        "priceLabel": "$7,800",
+        "taxStatement": "No explicit selected-price tax statement observed; retain unconfirmed.",
+        "configurationFacts": {
+          "dial": "Pine green",
+          "diameter": "30 mm",
+          "caseMaterial": "Steel"
+        },
+        "catalogMatch": "Exact canonical visible reference matches selected manufacturer reference.",
+        "currencyBasis": "Official /en-us/ page title/metadata specifies OMEGA US."
+      }
+    },
+    {
+      "brand": "Omega",
+      "reference": "220.50.38.20.03.001",
+      "manufacturerReference": "220.50.38.20.03.001",
+      "configuration": "Blue dial / 38 mm, Moonshine™ gold on Moonshine™ gold",
+      "amount": 42200,
+      "currency": "USD",
+      "market": "United States",
+      "taxBasis": "unconfirmed",
+      "basis": "current-list",
+      "checkedAt": "2026-10-28",
+      "effectiveDate": null,
+      "sourceUrl": "https://www.omegawatches.com/en-us/watch-omega-seamaster-aqua-terra-150m-co-axial-master-chronometer-38-mm-22050382003001",
+      "sourceName": "OMEGA United States",
+      "sourceType": "manufacturer",
+      "catalogPath": "/collections/omega/aqua-terra/220-50-38-20-03-001",
+      "evidence": {
+        "priceLabel": "$42,200",
+        "taxStatement": "No explicit selected-price tax statement observed; retain unconfirmed.",
+        "configurationFacts": {
+          "dial": "Blue",
+          "diameter": "38 mm",
+          "caseMaterial": "Moonshine™ gold"
+        },
+        "catalogMatch": "Exact canonical visible reference matches selected manufacturer reference.",
+        "currencyBasis": "Official /en-us/ page title/metadata specifies OMEGA US."
+      }
+    },
+    {
+      "brand": "Omega",
+      "reference": "220.20.30.20.10.002",
+      "manufacturerReference": "220.20.30.20.10.002",
+      "configuration": "Pine green dial / 30 mm, steel ‑ Sedna™ gold on steel ‑ Sedna™ gold",
+      "amount": 12200,
+      "currency": "USD",
+      "market": "United States",
+      "taxBasis": "unconfirmed",
+      "basis": "current-list",
+      "checkedAt": "2026-10-28",
+      "effectiveDate": null,
+      "sourceUrl": "https://www.omegawatches.com/en-us/watch-omega-seamaster-aqua-terra-150m-co-axial-master-chronometer-30-mm-22020302010002",
+      "sourceName": "OMEGA United States",
+      "sourceType": "manufacturer",
+      "catalogPath": "/collections/omega/aqua-terra/220-20-30-20-10-002",
+      "evidence": {
+        "priceLabel": "$12,200",
+        "taxStatement": "No explicit selected-price tax statement observed; retain unconfirmed.",
+        "configurationFacts": {
+          "dial": "Pine green",
+          "diameter": "30 mm",
+          "caseMaterial": "Steel ‑ Sedna™ gold"
+        },
+        "catalogMatch": "Exact canonical visible reference matches selected manufacturer reference.",
+        "currencyBasis": "Official /en-us/ page title/metadata specifies OMEGA US."
+      }
+    },
+    {
+      "brand": "Omega",
+      "reference": "220.10.30.20.09.001",
+      "manufacturerReference": "220.10.30.20.09.001",
+      "configuration": "Sandstone dial / 30 mm, steel on steel",
+      "amount": 7100,
+      "currency": "USD",
+      "market": "United States",
+      "taxBasis": "unconfirmed",
+      "basis": "current-list",
+      "checkedAt": "2026-10-28",
+      "effectiveDate": null,
+      "sourceUrl": "https://www.omegawatches.com/en-us/watch-omega-seamaster-aqua-terra-150m-co-axial-master-chronometer-30-mm-22010302009001",
+      "sourceName": "OMEGA United States",
+      "sourceType": "manufacturer",
+      "catalogPath": "/collections/omega/aqua-terra/220-10-30-20-09-001",
+      "evidence": {
+        "priceLabel": "$7,100",
+        "taxStatement": "No explicit selected-price tax statement observed; retain unconfirmed.",
+        "configurationFacts": {
+          "dial": "Sandstone",
+          "diameter": "30 mm",
+          "caseMaterial": "Steel"
+        },
+        "catalogMatch": "Exact canonical visible reference matches selected manufacturer reference.",
+        "currencyBasis": "Official /en-us/ page title/metadata specifies OMEGA US."
+      }
+    },
+    {
+      "brand": "Omega",
+      "reference": "210.62.44.20.01.001",
+      "manufacturerReference": "210.62.44.20.01.001",
+      "configuration": "Black dial / 43.5 mm, black ceramic on rubber strap",
+      "amount": 15500,
+      "currency": "USD",
+      "market": "United States",
+      "taxBasis": "unconfirmed",
+      "basis": "current-list",
+      "checkedAt": "2026-10-28",
+      "effectiveDate": null,
+      "sourceUrl": "https://www.omegawatches.com/en-us/watch-omega-seamaster-diver-300m-co-axial-master-chronometer-43-5-mm-21062442001001",
+      "sourceName": "OMEGA United States",
+      "sourceType": "manufacturer",
+      "catalogPath": "/collections/omega/seamaster/210-62-44-20-01-001",
+      "evidence": {
+        "priceLabel": "$15,500",
+        "taxStatement": "No explicit selected-price tax statement observed; retain unconfirmed.",
+        "configurationFacts": {
+          "dial": "Black",
+          "diameter": "43.5 mm",
+          "caseMaterial": "Black ceramic"
+        },
+        "catalogMatch": "Exact canonical visible reference matches selected manufacturer reference.",
+        "currencyBasis": "Official /en-us/ page title/metadata specifies OMEGA US."
+      }
+    },
+    {
+      "brand": "Omega",
+      "reference": "131.23.41.21.03.001",
+      "manufacturerReference": "131.23.41.21.03.001",
+      "configuration": "Blue dial / 41 mm, steel ‑ Sedna™ gold on leather strap",
+      "amount": 11600,
+      "currency": "USD",
+      "market": "United States",
+      "taxBasis": "unconfirmed",
+      "basis": "current-list",
+      "checkedAt": "2026-10-28",
+      "effectiveDate": null,
+      "sourceUrl": "https://www.omegawatches.com/en-us/watch-omega-constellation-co-axial-master-chronometer-41-mm-13123412103001",
+      "sourceName": "OMEGA United States",
+      "sourceType": "manufacturer",
+      "catalogPath": "/collections/omega/constellation/131-23-41-21-03-001",
+      "evidence": {
+        "priceLabel": "$11,600",
+        "taxStatement": "No explicit selected-price tax statement observed; retain unconfirmed.",
+        "configurationFacts": {
+          "dial": "Blue",
+          "diameter": "41 mm",
+          "caseMaterial": "Steel ‑ Sedna™ gold"
+        },
+        "catalogMatch": "Exact canonical visible reference matches selected manufacturer reference.",
+        "currencyBasis": "Official /en-us/ page title/metadata specifies OMEGA US."
+      }
+    },
+    {
+      "brand": "Omega",
+      "reference": "131.30.41.21.04.001",
+      "manufacturerReference": "131.30.41.21.04.001",
+      "configuration": "White dial / 41 mm, steel on steel",
+      "amount": 8200,
+      "currency": "USD",
+      "market": "United States",
+      "taxBasis": "unconfirmed",
+      "basis": "current-list",
+      "checkedAt": "2026-10-28",
+      "effectiveDate": null,
+      "sourceUrl": "https://www.omegawatches.com/en-us/watch-omega-constellation-co-axial-master-chronometer-41-mm-13130412104001",
+      "sourceName": "OMEGA United States",
+      "sourceType": "manufacturer",
+      "catalogPath": "/collections/omega/constellation/131-30-41-21-04-001",
+      "evidence": {
+        "priceLabel": "$8,200",
+        "taxStatement": "No explicit selected-price tax statement observed; retain unconfirmed.",
+        "configurationFacts": {
+          "dial": "White",
+          "diameter": "41 mm",
+          "caseMaterial": "Steel"
+        },
+        "catalogMatch": "Exact canonical visible reference matches selected manufacturer reference.",
+        "currencyBasis": "Official /en-us/ product page title and metadata identify OMEGA US.",
+        "note": "List benchmark, not market ask or Quest Luxo offer."
+      }
+    },
+    {
+      "brand": "Omega",
+      "reference": "131.30.41.21.99.003",
+      "manufacturerReference": "131.30.41.21.99.003",
+      "configuration": "Blue dial / 41 mm, steel on steel",
+      "amount": 10500,
+      "currency": "USD",
+      "market": "United States",
+      "taxBasis": "unconfirmed",
+      "basis": "current-list",
+      "checkedAt": "2026-10-28",
+      "effectiveDate": null,
+      "sourceUrl": "https://www.omegawatches.com/en-us/watch-omega-constellation-co-axial-master-chronometer-41-mm-13130412199003",
+      "sourceName": "OMEGA United States",
+      "sourceType": "manufacturer",
+      "catalogPath": "/collections/omega/constellation/131-30-41-21-99-003",
+      "evidence": {
+        "priceLabel": "$10,500",
+        "taxStatement": "No explicit selected-price tax statement observed; retain unconfirmed.",
+        "configurationFacts": {
+          "dial": "Blue",
+          "diameter": "41 mm",
+          "caseMaterial": "Steel"
+        },
+        "catalogMatch": "Exact canonical visible reference matches selected manufacturer reference.",
+        "currencyBasis": "Official /en-us/ product page title and metadata identify OMEGA US.",
+        "note": "List benchmark, not market ask or Quest Luxo offer."
+      }
+    },
+    {
+      "brand": "Omega",
+      "reference": "131.10.28.60.60.002",
+      "manufacturerReference": "131.10.28.60.60.002",
+      "configuration": "Purple dial / 28 mm, steel on steel",
+      "amount": 4500,
+      "currency": "USD",
+      "market": "United States",
+      "taxBasis": "unconfirmed",
+      "basis": "current-list",
+      "checkedAt": "2026-10-28",
+      "effectiveDate": null,
+      "sourceUrl": "https://www.omegawatches.com/en-us/watch-omega-constellation-quartz-28-mm-13110286060002",
+      "sourceName": "OMEGA United States",
+      "sourceType": "manufacturer",
+      "catalogPath": "/collections/omega/constellation/131-10-28-60-60-002",
+      "evidence": {
+        "priceLabel": "$4,500",
+        "taxStatement": "No explicit selected-price tax statement observed; retain unconfirmed.",
+        "configurationFacts": {
+          "dial": "Purple",
+          "diameter": "28 mm",
+          "caseMaterial": "Steel"
+        },
+        "catalogMatch": "Exact canonical visible reference matches selected manufacturer reference.",
+        "currencyBasis": "Official /en-us/ product page title and metadata identify OMEGA US.",
+        "note": "List benchmark, not market ask or Quest Luxo offer."
+      }
+    },
+    {
+      "brand": "Omega",
+      "reference": "131.10.28.60.60.001",
+      "manufacturerReference": "131.10.28.60.60.001",
+      "configuration": "Green dial / 28 mm, steel on steel",
+      "amount": 4500,
+      "currency": "USD",
+      "market": "United States",
+      "taxBasis": "unconfirmed",
+      "basis": "current-list",
+      "checkedAt": "2026-10-28",
+      "effectiveDate": null,
+      "sourceUrl": "https://www.omegawatches.com/en-us/watch-omega-constellation-quartz-28-mm-13110286060001",
+      "sourceName": "OMEGA United States",
+      "sourceType": "manufacturer",
+      "catalogPath": "/collections/omega/constellation/131-10-28-60-60-001",
+      "evidence": {
+        "priceLabel": "$4,500",
+        "taxStatement": "No explicit selected-price tax statement observed; retain unconfirmed.",
+        "configurationFacts": {
+          "dial": "Green",
+          "diameter": "28 mm",
+          "caseMaterial": "Steel"
+        },
+        "catalogMatch": "Exact canonical visible reference matches selected manufacturer reference.",
+        "currencyBasis": "Official /en-us/ product page title and metadata identify OMEGA US.",
+        "note": "List benchmark, not market ask or Quest Luxo offer."
+      }
+    },
+    {
+      "brand": "Omega",
+      "reference": "434.13.41.20.10.001",
+      "manufacturerReference": "434.13.41.20.10.001",
+      "configuration": "Green dial / 41 mm, steel on leather strap",
+      "amount": 5800,
+      "currency": "USD",
+      "market": "United States",
+      "taxBasis": "unconfirmed",
+      "basis": "current-list",
+      "checkedAt": "2026-10-28",
+      "effectiveDate": null,
+      "sourceUrl": "https://www.omegawatches.com/en-us/watch-omega-de-ville-prestige-co-axial-master-chronometer-small-seconds-41-mm-43413412010001",
+      "sourceName": "OMEGA United States",
+      "sourceType": "manufacturer",
+      "catalogPath": "/collections/omega/de-ville-prestige/434-13-41-20-10-001",
+      "evidence": {
+        "priceLabel": "$5,800",
+        "taxStatement": "No explicit selected-price tax statement observed; retain unconfirmed.",
+        "configurationFacts": {
+          "dial": "Green",
+          "diameter": "41 mm",
+          "caseMaterial": "Steel"
+        },
+        "catalogMatch": "Exact canonical visible reference matches selected manufacturer reference.",
+        "currencyBasis": "Official /en-us/ product page title and metadata identify OMEGA US.",
+        "note": "List benchmark, not market ask or Quest Luxo offer."
+      }
+    },
+    {
+      "brand": "Omega",
+      "reference": "220.53.38.20.10.001",
+      "manufacturerReference": "220.53.38.20.10.001",
+      "configuration": "Bay green dial / 38 mm, Moonshine™ gold on leather",
+      "amount": 22500,
+      "currency": "USD",
+      "market": "United States",
+      "taxBasis": "unconfirmed",
+      "basis": "current-list",
+      "checkedAt": "2026-10-28",
+      "effectiveDate": null,
+      "sourceUrl": "https://www.omegawatches.com/en-us/watch-omega-seamaster-aqua-terra-shades-co-axial-master-chronometer-38-mm-22053382010001",
+      "sourceName": "OMEGA United States",
+      "sourceType": "manufacturer",
+      "catalogPath": "/collections/omega/aqua-terra/220-53-38-20-10-001",
+      "evidence": {
+        "priceLabel": "$22,500",
+        "taxStatement": "No explicit selected-price tax statement observed; retain unconfirmed.",
+        "configurationFacts": {
+          "dial": "Bay green",
+          "diameter": "38 mm",
+          "caseMaterial": "Moonshine™ gold"
+        },
+        "catalogMatch": "Exact canonical visible reference matches selected manufacturer reference.",
+        "currencyBasis": "Official /en-us/ product page title and metadata identify OMEGA US.",
+        "note": "List benchmark, not market ask or Quest Luxo offer."
+      }
+    },
+    {
+      "brand": "Omega",
+      "reference": "220.12.43.22.03.001",
+      "manufacturerReference": "220.12.43.22.03.001",
+      "configuration": "Blue dial / 43 mm, steel on rubber strap",
+      "amount": 10900,
+      "currency": "USD",
+      "market": "United States",
+      "taxBasis": "unconfirmed",
+      "basis": "current-list",
+      "checkedAt": "2026-10-28",
+      "effectiveDate": null,
+      "sourceUrl": "https://www.omegawatches.com/en-us/watch-omega-seamaster-aqua-terra-150m-co-axial-master-chronometer-gmt-worldtimer-43-mm-22012432203001",
+      "sourceName": "OMEGA United States",
+      "sourceType": "manufacturer",
+      "catalogPath": "/collections/omega/aqua-terra-worldtimer/220-12-43-22-03-001",
+      "evidence": {
+        "priceLabel": "$10,900",
+        "taxStatement": "No explicit selected-price tax statement observed; retain unconfirmed.",
+        "configurationFacts": {
+          "dial": "Blue",
+          "diameter": "43 mm",
+          "caseMaterial": "Steel"
+        },
+        "catalogMatch": "Exact canonical visible reference matches selected manufacturer reference.",
+        "currencyBasis": "Official /en-us/ product page title and metadata identify OMEGA US.",
+        "note": "List benchmark, not market ask or Quest Luxo offer."
+      }
+    },
+    {
+      "brand": "Omega",
+      "reference": "220.10.43.22.03.001",
+      "manufacturerReference": "220.10.43.22.03.001",
+      "configuration": "Blue dial / 43 mm, steel on steel",
+      "amount": 11200,
+      "currency": "USD",
+      "market": "United States",
+      "taxBasis": "unconfirmed",
+      "basis": "current-list",
+      "checkedAt": "2026-10-28",
+      "effectiveDate": null,
+      "sourceUrl": "https://www.omegawatches.com/en-us/watch-omega-seamaster-aqua-terra-150m-co-axial-master-chronometer-gmt-worldtimer-43-mm-22010432203001",
+      "sourceName": "OMEGA United States",
+      "sourceType": "manufacturer",
+      "catalogPath": "/collections/omega/aqua-terra-worldtimer/220-10-43-22-03-001",
+      "evidence": {
+        "priceLabel": "$11,200",
+        "taxStatement": "No explicit selected-price tax statement observed; retain unconfirmed.",
+        "configurationFacts": {
+          "dial": "Blue",
+          "diameter": "43 mm",
+          "caseMaterial": "Steel"
+        },
+        "catalogMatch": "Exact canonical visible reference matches selected manufacturer reference.",
+        "currencyBasis": "Official /en-us/ product page title and metadata identify OMEGA US.",
+        "note": "List price shown; currently unavailable online. Not a promise of availability."
+      }
+    },
+    {
+      "brand": "Omega",
+      "reference": "235.10.38.20.06.001",
+      "manufacturerReference": "235.10.38.20.06.001",
+      "configuration": "Grey dial / 38 mm, steel on steel",
+      "amount": 6200,
+      "currency": "USD",
+      "market": "United States",
+      "taxBasis": "unconfirmed",
+      "basis": "current-list",
+      "checkedAt": "2026-10-28",
+      "effectiveDate": null,
+      "sourceUrl": "https://www.omegawatches.com/en-us/watch-omega-seamaster-railmaster-co-axial-master-chronometer-38-mm-23510382006001",
+      "sourceName": "OMEGA United States",
+      "sourceType": "manufacturer",
+      "catalogPath": "/collections/omega/railmaster/235-10-38-20-06-001",
+      "evidence": {
+        "priceLabel": "$6,200",
+        "taxStatement": "No explicit selected-price tax statement observed; retain unconfirmed.",
+        "configurationFacts": {
+          "dial": "Grey",
+          "diameter": "38 mm",
+          "caseMaterial": "Steel"
+        },
+        "catalogMatch": "Exact canonical visible reference matches selected manufacturer reference.",
+        "currencyBasis": "Official /en-us/ product page title and metadata identify OMEGA US.",
+        "note": "List benchmark, not market ask or Quest Luxo offer."
+      }
+    },
+    {
+      "brand": "Omega",
+      "reference": "310.92.44.50.01.001",
+      "manufacturerReference": "310.92.44.50.01.001",
+      "configuration": "Black dial / 44.25 mm, black ceramic on rubber strap / Apollo 8",
+      "amount": 16100,
+      "currency": "USD",
+      "market": "United States",
+      "taxBasis": "unconfirmed",
+      "basis": "current-list",
+      "checkedAt": "2026-10-28",
+      "effectiveDate": null,
+      "sourceUrl": "https://www.omegawatches.com/en-us/watch-omega-speedmaster-dark-side-of-the-moon-co-axial-master-chronometer-chronograph-44-25-mm-31092445001001",
+      "sourceName": "OMEGA United States",
+      "sourceType": "manufacturer",
+      "catalogPath": "/collections/omega/dark-side-of-the-moon/310-92-44-50-01-001",
+      "evidence": {
+        "priceLabel": "$16,100",
+        "taxStatement": "No explicit selected-price tax statement observed; retain unconfirmed.",
+        "configurationFacts": {
+          "dial": "Black",
+          "diameter": "44.25 mm",
+          "caseMaterial": "Black ceramic"
+        },
+        "catalogMatch": "Exact canonical visible reference matches selected manufacturer reference; edition configuration read directly.",
+        "currencyBasis": "Official /en-us/ page title and metadata identify OMEGA US.",
+        "note": "Manufacturer list price; no conversion or dealer market ask."
+      }
+    },
+    {
+      "brand": "Omega",
+      "reference": "522.92.44.20.04.002",
+      "manufacturerReference": "522.92.44.20.04.002",
+      "configuration": "White dial / 43.5 mm, white ceramic ‑ titanium on rubber strap / Milano Cortina 2026 Paralympic",
+      "amount": 10500,
+      "currency": "USD",
+      "market": "United States",
+      "taxBasis": "unconfirmed",
+      "basis": "current-list",
+      "checkedAt": "2026-10-28",
+      "effectiveDate": null,
+      "sourceUrl": "https://www.omegawatches.com/en-us/watch-omega-seamaster-diver-300m-co-axial-master-chronometer-43-5-mm-52292442004002",
+      "sourceName": "OMEGA United States",
+      "sourceType": "manufacturer",
+      "catalogPath": "/collections/omega/seamaster/522-92-44-20-04-002",
+      "evidence": {
+        "priceLabel": "$10,500",
+        "taxStatement": "No explicit selected-price tax statement observed; retain unconfirmed.",
+        "configurationFacts": {
+          "dial": "White",
+          "diameter": "43.5 mm",
+          "caseMaterial": "White ceramic ‑ titanium"
+        },
+        "catalogMatch": "Exact canonical visible reference matches selected manufacturer reference; edition configuration read directly.",
+        "currencyBasis": "Official /en-us/ page title and metadata identify OMEGA US.",
+        "note": "List price displayed; currently unavailable online. Not availability confirmation."
+      }
+    },
+    {
+      "brand": "Omega",
+      "reference": "235.10.38.20.13.001",
+      "manufacturerReference": "235.10.38.20.13.001",
+      "configuration": "Brown dial / 38 mm, steel on steel / small seconds",
+      "amount": 6800,
+      "currency": "USD",
+      "market": "United States",
+      "taxBasis": "unconfirmed",
+      "basis": "current-list",
+      "checkedAt": "2026-10-28",
+      "effectiveDate": null,
+      "sourceUrl": "https://www.omegawatches.com/en-us/watch-omega-seamaster-railmaster-co-axial-master-chronometer-small-seconds-38-mm-23510382013001",
+      "sourceName": "OMEGA United States",
+      "sourceType": "manufacturer",
+      "catalogPath": "/collections/omega/railmaster/235-10-38-20-13-001",
+      "evidence": {
+        "priceLabel": "$6,800",
+        "taxStatement": "No explicit selected-price tax statement observed; retain unconfirmed.",
+        "configurationFacts": {
+          "dial": "Brown",
+          "diameter": "38 mm",
+          "caseMaterial": "Steel"
+        },
+        "catalogMatch": "Exact canonical visible reference matches selected manufacturer reference; edition configuration read directly.",
+        "currencyBasis": "Official /en-us/ page title and metadata identify OMEGA US.",
+        "note": "Manufacturer list price; no conversion or dealer market ask."
+      }
+    },
+    {
+      "brand": "Omega",
+      "reference": "522.92.44.20.04.001",
+      "manufacturerReference": "522.92.44.20.04.001",
+      "configuration": "White dial / 43.5 mm, white ceramic ‑ titanium on rubber strap / Milano Cortina 2026 Olympic",
+      "amount": 10500,
+      "currency": "USD",
+      "market": "United States",
+      "taxBasis": "unconfirmed",
+      "basis": "current-list",
+      "checkedAt": "2026-10-28",
+      "effectiveDate": null,
+      "sourceUrl": "https://www.omegawatches.com/en-us/watch-omega-seamaster-diver-300m-co-axial-master-chronometer-43-5-mm-52292442004001",
+      "sourceName": "OMEGA United States",
+      "sourceType": "manufacturer",
+      "catalogPath": "/collections/omega/seamaster/522-92-44-20-04-001",
+      "evidence": {
+        "priceLabel": "$10,500",
+        "taxStatement": "No explicit selected-price tax statement observed; retain unconfirmed.",
+        "configurationFacts": {
+          "dial": "White",
+          "diameter": "43.5 mm",
+          "caseMaterial": "White ceramic ‑ titanium"
+        },
+        "catalogMatch": "Exact canonical visible reference matches selected manufacturer reference; edition configuration read directly.",
+        "currencyBasis": "Official /en-us/ page title and metadata identify OMEGA US.",
+        "note": "List price displayed; currently unavailable online. Not availability confirmation."
+      }
+    }
+  ],
+  "held": [
+    {
+      "brand": "Omega",
+      "reference": "220.10.41.21.03.004",
+      "sourceUrl": "https://www.omegawatches.com/en-us/watch-omega-seamaster-aqua-terra-150m-co-axial-master-chronometer-41-mm-22010412103004",
+      "checkedAt": "2026-10-28",
+      "reason": "Exact official page says no longer available and omits selected-reference price. Historical manufacturer MSRP research required."
+    },
+    {
+      "brand": "Omega",
+      "reference": "233.32.41.21.01.001",
+      "sourceUrl": "https://www.omegawatches.com/en-us/watch-omega-seamaster-300-master-co-axial-chronometer-41-mm-23332412101001",
+      "checkedAt": "2026-10-28",
+      "reason": "Exact official page says no longer available and omits selected-reference price. Historical manufacturer MSRP research required."
+    },
+    {
+      "brand": "Omega",
+      "reference": "215.30.44.22.01.001",
+      "sourceUrl": "https://www.omegawatches.com/en-us/watch-omega-seamaster-planet-ocean-600m-co-axial-master-chronometer-gmt-43-5-mm-21530442201001",
+      "checkedAt": "2026-10-28",
+      "reason": "Exact official page says no longer available and omits selected-reference price. Historical manufacturer MSRP research required."
+    },
+    {
+      "brand": "Omega",
+      "reference": "131.63.41.21.03.001",
+      "sourceUrl": "https://www.omegawatches.com/en-us/watch-omega-constellation-co-axial-master-chronometer-41-mm-13163412103001",
+      "checkedAt": "2026-10-28",
+      "reason": "Exact official product page says no longer available and shows no selected-reference price. Historical manufacturer MSRP needed."
+    },
+    {
+      "brand": "Omega",
+      "reference": "131.10.28.60.56.001",
+      "sourceUrl": "https://www.omegawatches.com/en-us/watch-omega-constellation-quartz-28-mm-13110286056001",
+      "checkedAt": "2026-10-28",
+      "reason": "Exact official product page says no longer available and shows no selected-reference price. Historical manufacturer MSRP needed."
+    },
+    {
+      "brand": "Omega",
+      "reference": "434.10.41.21.03.001",
+      "sourceUrl": "https://www.omegawatches.com/en-us/watch-omega-de-ville-prestige-co-axial-master-chronometer-power-reserve-41-mm-43410412103001",
+      "checkedAt": "2026-10-28",
+      "reason": "Exact official product page says no longer available and shows no selected-reference price. Historical manufacturer MSRP needed."
+    },
+    {
+      "brand": "Omega",
+      "reference": "311.92.44.51.01.003",
+      "sourceUrl": "https://www.omegawatches.com/en-us/watch-omega-speedmaster-dark-side-of-the-moon-co-axial-chronometer-chronograph-44-25-mm-31192445101003",
+      "checkedAt": "2026-10-28",
+      "reason": "Exact official reference page says no longer available and omits its own price. Historical manufacturer MSRP research needed."
+    },
+    {
+      "brand": "Omega",
+      "reference": "215.30.44.21.04.001",
+      "sourceUrl": "https://www.omegawatches.com/en-us/watch-omega-seamaster-planet-ocean-600m-co-axial-master-chronometer-43-5-mm-21530442104001",
+      "checkedAt": "2026-10-28",
+      "reason": "Exact official reference page says no longer available and omits its own price. Historical manufacturer MSRP research needed."
+    },
+    {
+      "brand": "Omega",
+      "reference": "311.30.42.30.01.005",
+      "sourceUrl": "https://www.omegawatches.com/en-us/watch-omega-speedmaster-moonwatch-professional-chronograph-42-mm-31130423001005",
+      "checkedAt": "2026-10-28",
+      "reason": "Exact official reference page says no longer available and omits its own price. Historical manufacturer MSRP research needed."
+    }
+  ],
+  "cautions": [
+    "All 19 ready rows are current official OMEGA United States list prices in USD. No conversions or dealer asking prices.",
+    "Tax inclusion/exclusion is not explicit in selected product-price areas; every row retains taxBasis unconfirmed.",
+    "checkedAt is a source observation date, not the manufacturer's effective date; effectiveDate remains null.",
+    "A displayed price does not guarantee availability. White Olympic and Paralympic 2026 references are distinct exact SKUs and both show $10,500.",
+    "Existing routes and visible catalog identities are preserved. Catalog path mappings come from the existing 297-reference canonical coverage ledger."
+  ]
+}

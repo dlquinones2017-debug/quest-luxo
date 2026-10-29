@@ -6,6 +6,7 @@ import ReferenceCard from "./ReferenceCard.astro";
 import ReferenceRetailPricing from "./ReferenceRetailPricing.astro";
 import type { QuestLuxoAsset } from "../types/questLuxo";
 import { normalizeReferenceSlug } from "../lib/factory/referenceGenerator";
+import { buildBeginYourQuestUrl } from "../lib/leads/leadIntakeContext";
 
 interface Props {
   brand: string;
@@ -43,6 +44,7 @@ if (!asset) {
 }
 
 const displayReference = asset.displayReference ?? asset.reference;
+const sourcingUrl = buildBeginYourQuestUrl({ intent: "request-this-watch", brand, collection, reference: asset.reference });
 const configurations = asset.configurations ?? [];
 const brokerageIntelligence = asset.brokerageIntelligence;
 const brokerageIntelligenceItems = brokerageIntelligence
@@ -121,7 +123,7 @@ const pageTitle = seoTitle ?? `${brand} ${displayReference} | Quest Luxo`;
   description={seoDescription}
   canonicalUrl={canonicalUrl}
 >
-  <main class="reference-page">
+  <main id="main-content" class="reference-page">
     <section class="hero">
       <a href={basePath} class="back-link">
         &larr; Back to {collection}
@@ -130,11 +132,14 @@ const pageTitle = seoTitle ?? `${brand} ${displayReference} | Quest Luxo`;
       <p class="eyebrow">{brand} {collection} Reference</p>
       <h1>{brand} {displayReference}</h1>
       <p>{asset.questLuxoView}</p>
+      <p><a class="sourcing-link" href={sourcingUrl}>Begin Your Quest — source this reference →</a></p>
     </section>
 
     <section class="profile">
       <ReferenceCard
         asset={asset}
+        brand={brand}
+        collection={collection}
         href={basePath}
         showIntelligenceProfile={!brokerageIntelligence}
         showMissingImagePlaceholder={true}
@@ -222,6 +227,7 @@ const pageTitle = seoTitle ?? `${brand} ${displayReference} | Quest Luxo`;
 </BaseLayout>
 
 <style>
+  .sourcing-link{display:inline-block;background:#d4b06a;color:#07111f;padding:16px 22px;text-decoration:none;font-weight:700}
   .reference-page {
     background: #07111f;
     color: #ffffff;

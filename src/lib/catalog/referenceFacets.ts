@@ -16,6 +16,18 @@ export const omegaDirectoryFilters = [
   { label: "GMT / Worldtimer", value: "gmt" },
 ] as const;
 
+export function getCollectionDirectoryFilters(assets: readonly QuestLuxoAsset[]) {
+  const available = new Set(assets.flatMap(getReferenceFilterTags));
+  return [
+    { label: "All", value: "all" },
+    { label: "Current", value: "current" },
+    { label: "Discontinued", value: "discontinued" },
+    { label: "Oystersteel", value: "oystersteel" },
+    { label: "Two-tone", value: "two-tone" },
+    ...omegaDirectoryFilters.filter(filter => filter.value !== "all"),
+  ].filter(filter => available.has(filter.value));
+}
+
 // Derive filter tags only from documented case, dial, strap and complication fields.
 // Unknown features remain untagged; do not infer a watch's dial from its collection.
 export function getReferenceFilterTags(asset: QuestLuxoAsset): string[] {
@@ -28,10 +40,10 @@ export function getReferenceFilterTags(asset: QuestLuxoAsset): string[] {
 
   const tags = new Set<string>(["all"]);
   const status = asset.productionStatus?.toLowerCase();
-  if (status === "current") tags.add("current");
-  if (status === "discontinued") tags.add("discontinued");
+  if (status?.startsWith("current")) tags.add("current");
+  if (status?.startsWith("discontinued")) tags.add("discontinued");
   if (material.includes("oystersteel")) tags.add("oystersteel");
-  if (/gold|platinum/i.test(material)) tags.add("precious-metal");
+  if (/gold|platinum/i.test(material) && !/steel|rolesor|two[- ]tone/i.test(material)) tags.add("precious-metal");
   if (material.includes("rolesor") || material.includes("two-tone") ||
       (material.includes("steel") && material.includes("gold"))) tags.add("two-tone");
   if ((asset.intelligence?.collectorDemand ?? 0) >= 5) tags.add("peak-demand");
