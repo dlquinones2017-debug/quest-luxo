@@ -38,6 +38,7 @@ const sourcingUrl = buildBeginYourQuestUrl({ intent: "request-this-watch", brand
       {retail ? <>
         <strong>{retail.price.basis === "historical-list" ? "Historical list" : "Published list"} {retail.hasRange ? "from " : ""}{formatRetailPrice(retail.price)}</strong>
         <span>{retail.price.currency} · {retail.price.market} · {formatRetailTaxBasis(retail.price)}</span>
+        {retail.price.sourceType === "authorized-retailer" && <span>RRP published by an authorized retailer.</span>}
         {retail.price.basis === "current-list" && (retail.price.currency !== "USD" || retail.price.market !== "United States") && <span>International list benchmark; U.S. list price unverified.</span>}
         {retail.price.basis === "historical-list" && <span>Manufacturer price period: {retail.price.effectiveDate ?? retail.price.effectivePeriod ?? "Date unconfirmed"}. Current list price unverified.</span>}
         {retail.price.configurationScope === "base-reference" && <span>Base-reference benchmark; pictured configuration not fully priced.</span>}

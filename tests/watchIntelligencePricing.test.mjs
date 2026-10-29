@@ -101,14 +101,24 @@ test("all public retail entries carry auditable configuration, market and date e
   const identities = new Set();
   for (const price of verifiedRetailPrices) {
     assert.ok(price.amount > 0 && Number.isFinite(price.amount));
-    assert.ok(["USD", "CHF", "EUR", "GBP", "IDR"].includes(price.currency));
+    assert.ok(["USD", "CHF", "EUR", "GBP", "IDR", "SAR", "SGD"].includes(price.currency));
     assert.ok(price.market.trim().length > 0);
     assert.ok(["unconfirmed", "included", "excluded"].includes(price.taxBasis));
     if (price.checkedAt === "2026-10-24" && ["Rolex", "Tudor"].includes(price.brand)) assert.equal(price.taxBasis, "unconfirmed", "source silence must not establish a tax basis");
-    assert.equal(price.sourceType, "manufacturer");
+    assert.ok(["manufacturer", "authorized-retailer"].includes(price.sourceType));
     const officialHosts = { Rolex: "www.rolex.com", Tudor: "www.tudorwatch.com", IWC: "www.iwc.com", Omega: "www.omegawatches.com", Breitling: "www.breitling.com", Cartier: "www.cartier.com", Hublot: "www.hublot.com", Panerai: "www.panerai.com", "Patek Philippe": "www.patek.com", "Audemars Piguet": "www.audemarspiguet.com", "Ulysse Nardin": "www.ulysse-nardin.com", Zenith: "www.zenith-watches.com", "Jaeger-LeCoultre": "www.jaeger-lecoultre.com", "Bell & Ross": "bellross.com", Blancpain: "www.blancpain.com", "Vacheron Constantin": "www.vacheron-constantin.com", "Girard-Perregaux": "www.girard-perregaux.com", "A. Lange & Söhne": "www.alange-soehne.com" };
     const archive = price.brand === "Rolex" && price.basis === "historical-list";
-    if (archive) {
+    if (price.sourceType === "authorized-retailer") {
+      assert.equal(price.brand, "Omega");
+      assert.equal(new URL(price.sourceUrl).hostname, "www.bankslyon.co.uk");
+      assert.ok(["131.63.41.21.03.001", "210.32.42.20.01.006"].includes(price.manufacturerReference));
+      assert.equal(price.priceLabel, "RRP", "a retailer asking price must not become MSRP");
+      assert.ok(price.corroboratingUrls.includes("https://www.bankslyon.co.uk/omega-watches/"));
+    } else if (price.brand === "Franck Muller" && new URL(price.sourceUrl).hostname === "franckmuller-asiapacific.com") {
+      assert.equal(price.currency, "SGD");
+      assert.equal(price.market, "Singapore");
+      assert.ok(price.corroboratingUrls.includes("https://www.boutiques.franckmuller.com/singapore-boutique"));
+    } else if (archive) {
       assert.ok(["davidsw.com", "www.minus4plus6.com", "rolexforum.nl"].includes(new URL(price.sourceUrl).hostname));
       assert.match(price.sourceName, /manufacturer.*archived by/i);
     } else if (price.brand === "Tudor" && new URL(price.sourceUrl).hostname === "media.tudorwatch.com") {
