@@ -124,6 +124,14 @@ test('lost contact response blocks same-email writes until positive contact reco
   assert.equal((await s.engine.deliver(s.event())).status,'COMPLETE'); assert.equal(s.counts.contactCreates,1);
 });
 
+test('a transient source-side provider read failure retries without inventing an uncertain write', async t => {
+  const s=await setup(t),event=s.event();let failRead=true;
+  const adapter={...s.adapter,findContact:async email=>{if(failRead)throw Error('temporary read failure');return s.adapter.findContact(email);}};
+  const engine=new WorkforceContactTaskDelivery(s.journal,adapter,s.clock);
+  assert.equal((await engine.deliver(event)).status,'PENDING');assert.deepEqual(s.counts,{contactCreates:0,taskCreates:0,notifications:0});
+  failRead=false;assert.equal((await engine.deliver(event)).status,'COMPLETE');assert.deepEqual(s.counts,{contactCreates:1,taskCreates:1,notifications:1});
+});
+
 test('lost task response survives reopening and empty search never recreates it', async t => {
   const s=await setup(t), event=s.event(); s.flags.loseTask=true; s.flags.hideTask=true;
   assert.equal((await s.engine.deliver(event)).status,'UNCERTAIN'); s.advance(121000);
@@ -135,7 +143,7 @@ test('lost task response survives reopening and empty search never recreates it'
 
 test('contact-success failure resumes from its native ID without another contact create', async t => {
   const s=await setup(t), event=s.event(); s.flags.failBeforeTask=true;
-  const failed=await s.engine.deliver(event); assert.equal(failed.contactId,'5001'); assert.equal(failed.taskId,null);
+  const failed=await s.engine.deliver(event); assert.equal(failed.contactId,'5001'); assert.equal(failed.taskId,null);assert.equal(failed.status,'PENDING');
   s.advance(121000); s.flags.failBeforeTask=false;
   const recovered=await new WorkforceContactTaskDelivery(await s.open(),s.adapter,s.clock).deliver(event);
   assert.equal(recovered.status,'COMPLETE'); assert.equal(s.counts.contactCreates,1); assert.equal(s.counts.taskCreates,1);

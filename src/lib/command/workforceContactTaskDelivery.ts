@@ -158,7 +158,19 @@ export class WorkforceContactTaskDelivery {
       if (!notification.accepted || !notification.providerId) return uncertain("NOTIFICATION_ACCEPTANCE_UNKNOWN");
       update(entry => { entry.notification = "ACCEPTED_BY_PROVIDER"; entry.notificationId = notification.providerId; entry.phase = "DONE"; entry.state = "COMPLETE"; entry.operation = null; entry.reason = null; });
       return this.report(event.eventKey);
-    } catch { return uncertain("PROVIDER_OR_RECEIPT_OUTCOME_UNCERTAIN"); }
+    } catch {
+      const latest = current();
+      // A failed read before any durable write intent is retryable. An attempted write is never inferred absent.
+      if (latest.attempt === token && latest.operation === null && latest.state === "ACTIVE") {
+        this.journal.mutate(s => {
+          const e = s.entries.find(e => e.eventKey === event.eventKey)!;
+          if (e.attempt !== token || e.operation !== null || e.state !== "ACTIVE") return;
+          e.state = "PENDING"; e.reason = "READ_RETRY_REQUIRED"; e.attempt = null; e.leaseUntil = 0;
+        });
+        return this.report(event.eventKey);
+      }
+      return uncertain("PROVIDER_OR_RECEIPT_OUTCOME_UNCERTAIN");
+    }
   }
   /** Explicit provider-ID reconciliation. No replay POST and no inbox/human inference. */
   async reconcileNotification(event: LuxuryWorkforceEvent, providerId: string) {

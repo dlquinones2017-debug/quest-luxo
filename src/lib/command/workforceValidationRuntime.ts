@@ -28,11 +28,11 @@ function journal(): Promise<WorkforcePhaseJournal> {
     const key = Buffer.from(process.env.WORKFORCE_JOURNAL_KEY_HEX!, "hex");
     try { return await WorkforcePhaseJournal.open(join(config.leadStorage.directory, "workforce-validation-v2"), key); }
     finally { key.fill(0); }
-  })();
+  })().catch(error => { journalPromise = undefined; throw error; });
   return journalPromise;
 }
 function delivery(): Promise<WorkforceContactTaskDelivery> {
-  if (!deliveryPromise) deliveryPromise = (async () => new WorkforceContactTaskDelivery(await journal(), await createHubspotWorkforceAdapter(process.env.WORKFORCE_HUBSPOT_ACCESS_TOKEN!)))();
+  if (!deliveryPromise) deliveryPromise = (async () => new WorkforceContactTaskDelivery(await journal(), await createHubspotWorkforceAdapter(process.env.WORKFORCE_HUBSPOT_ACCESS_TOKEN!)))().catch(error => { deliveryPromise = undefined; throw error; });
   return deliveryPromise;
 }
 function validationEvent(record: SavedRecord) {
