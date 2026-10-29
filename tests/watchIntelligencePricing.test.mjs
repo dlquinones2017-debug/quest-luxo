@@ -1,6 +1,7 @@
 import assert from "node:assert/strict";
 import { registerHooks } from "node:module";
 import test from "node:test";
+import { readFile } from "node:fs/promises";
 
 registerHooks({ resolve(specifier, context, next) {
   try { return next(specifier, context); } catch (error) {
@@ -105,16 +106,36 @@ test("all public retail entries carry exact configuration and auditable manufact
     assert.ok(["unconfirmed", "included", "excluded"].includes(price.taxBasis));
     if (price.brand === "Rolex" || price.brand === "Tudor") assert.equal(price.taxBasis, "unconfirmed", "source silence must not establish a tax basis");
     assert.equal(price.sourceType, "manufacturer");
-    const officialHosts = { Rolex: "www.rolex.com", Tudor: "www.tudorwatch.com", IWC: "www.iwc.com", Omega: "www.omegawatches.com", Breitling: "www.breitling.com" };
+    const officialHosts = { Rolex: "www.rolex.com", Tudor: "www.tudorwatch.com", IWC: "www.iwc.com", Omega: "www.omegawatches.com", Breitling: "www.breitling.com", Cartier: "www.cartier.com", Hublot: "www.hublot.com", Panerai: "www.panerai.com", "Patek Philippe": "www.patek.com" };
     assert.equal(new URL(price.sourceUrl).hostname, officialHosts[price.brand]);
     const compact = value => value.toLowerCase().replace(/[^a-z0-9]/g, "");
-    assert.ok(compact(price.sourceUrl).includes(compact(price.manufacturerReference)), price.sourceUrl);
+    assert.equal(new URL(price.sourceUrl).protocol, "https:");
+    // Hublot uses descriptive product URLs; its exact selected SKU is in page evidence.
+    if (price.brand !== "Hublot") assert.ok(compact(price.sourceUrl).includes(compact(price.manufacturerReference)), price.sourceUrl);
     assert.match(price.checkedAt, /^\d{4}-\d{2}-\d{2}$/);
     assert.equal(price.effectiveDate, null, "observation date must not become a claimed effective date");
     const identity = `${price.brand}:${price.manufacturerReference}`;
     assert.ok(!identities.has(identity), identity);
     identities.add(identity);
     assert.ok(collectionRegistry.some(collection => collection.brand === price.brand && collection.assets.some(asset => (asset.displayReference ?? asset.reference) === price.reference)) || rolexAssets.some(asset => asset.reference === price.reference), `missing public reference: ${price.reference}`);
+  }
+});
+
+test("descriptive manufacturer URLs and generic catalog labels have exact configuration evidence", async () => {
+  const evidence = JSON.parse(await readFile(new URL("../docs/WATCH_RETAIL_PRICING_EVIDENCE_2026-10-28_NEXT.json", import.meta.url), "utf8"));
+  for (const price of verifiedRetailPrices.filter(price => ["Hublot", "Cartier", "Panerai", "Patek Philippe"].includes(price.brand))) {
+    const row = evidence.prices.find(row => row.brand === price.brand && row.manufacturerReference === price.manufacturerReference);
+    assert.ok(row, price.manufacturerReference);
+    assert.equal(row.reference, price.reference);
+    assert.equal(row.configuration, price.configuration);
+    assert.equal(row.sourceUrl, price.sourceUrl);
+    assert.equal(row.amount, price.amount);
+    assert.match(row.evidence.catalogMatch, /exact|match|manufacturer technical reference/i);
+    if (price.brand === "Patek Philippe") {
+      assert.equal(row.evidence.priceData.currency, "USD");
+      assert.equal(row.evidence.priceData.isoCode, "US");
+      assert.equal(row.evidence.priceData.amount, price.amount);
+    }
   }
 });
 
