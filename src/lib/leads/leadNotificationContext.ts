@@ -11,8 +11,14 @@ export interface LeadNotificationContext {
 export function createLeadNotificationContext(
   storage: Pick<LeadStorageResult, "id" | "savedAt">
 ): LeadNotificationContext {
-  if (!/^lead_[0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i.test(storage.id) ||
-      !Number.isFinite(Date.parse(storage.savedAt)) || new Date(storage.savedAt).toISOString() !== storage.savedAt) {
+  // Older normalized records include hash IDs and ISO timestamps without milliseconds
+  // or with explicit offsets. Preserve their stored identity/time on retry.
+  const safeId = /^[a-z0-9][a-z0-9_-]{0,127}$/i.test(storage.id);
+  const isoTimestamp = /^\d{4}-\d{2}-\d{2}T(?:[01]\d|2[0-3]):[0-5]\d:[0-5]\d(?:\.\d{1,3})?(?:Z|[+-](?:[01]\d|2[0-3]):[0-5]\d)$/;
+  const dateOnly = new Date(`${storage.savedAt.slice(0,10)}T00:00:00.000Z`);
+  const validTimestamp = isoTimestamp.test(storage.savedAt) && Number.isFinite(Date.parse(storage.savedAt)) &&
+    Number.isFinite(dateOnly.getTime()) && dateOnly.toISOString().slice(0,10) === storage.savedAt.slice(0,10);
+  if (!safeId || !validTimestamp) {
     throw new Error("Invalid persisted inquiry identity.");
   }
   return Object.freeze({ version: 1, sourceSystem: "luxury-canonical-jsonl", leadId: storage.id, savedAt: storage.savedAt });

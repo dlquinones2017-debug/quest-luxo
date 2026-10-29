@@ -20,7 +20,7 @@ Collection facets are derived from the actual collection. All-precious-metal exc
 
 ## Saved-inquiry notification contract
 
-The active TypeScript submission path persists first, then constructs validated context from the returned `lead_<UUID>` and canonical saved timestamp. The first bounded plain-text event block contains:
+The active TypeScript submission path persists first, then constructs validated context from the returned ID and saved timestamp. Current records use `lead_<UUID>`; bounded opaque legacy IDs, including storage's fallback hashes, and valid ISO timestamp variants remain supported on retry. The stored values are preserved. The first bounded plain-text event block contains:
 
 ```text
 Quest Luxo canonical inquiry event

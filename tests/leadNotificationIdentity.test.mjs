@@ -51,10 +51,21 @@ test("malformed IDs, timestamps and contracts fail before notification", async (
   }
   assert.throws(() => getLeadNotificationContextFields({ version: 2, sourceSystem: "other", leadId: stored.id, savedAt: stored.savedAt }), /Unsupported/);
   let notified = false;
-  const result = await processLeadSubmission(payload, dependencies({ persist: async () => ({ ...stored, id: "bad" }), notify: async () => { notified = true; return sent; } }));
+  const result = await processLeadSubmission(payload, dependencies({ persist: async () => ({ ...stored, id: "bad\nidentity" }), notify: async () => { notified = true; return sent; } }));
   assert.equal(notified, false);
   assert.equal(result.success, true);
   assert.equal(result.delivery.status, "failed");
+});
+
+test("saved legacy hash IDs and valid ISO timestamp variants survive retry unchanged", async () => {
+  for (const savedAt of ["2026-10-28T18:00:00Z", "2026-10-28T14:00:00-04:00"]) {
+    const legacy = { ...stored, id: "lead_a0123456789bcdef01234567", savedAt, payload };
+    let observed;
+    await notifySavedLead(legacy, async (body, context) => { observed = context; return sent; });
+    assert.equal(observed.leadId, legacy.id);
+    assert.equal(observed.savedAt, savedAt);
+    assert.equal(Object.fromEntries(getLeadNotificationContextFields(observed))["Event-Key"], `luxury-inquiry-v1/${legacy.id}`);
+  }
 });
 
 test("event block preserves subject and fields, escapes HTML and includes the Luxury signature once", () => {
