@@ -20,7 +20,7 @@ SQLite uses short `BEGIN IMMEDIATE` transactions, a verified 100 ms busy timeout
 
 Provider writes have durable intent before dispatch. Known contact IDs are retained before task work. Native contact and task readback verify email, event/fingerprint metadata, owner, due date, task type/status and task-to-contact association. Empty search, a 404, timeout, malformed response or expired write claim cannot authorize another create. Ambiguous writes stay UNCERTAIN until positive native evidence resolves them. Changed content for an existing canonical event becomes HOLD.
 
-Record origins distinguish runtime creation, existing records, bound-contact reuse, recovery after uncertainty and the operator baseline. The existing October 28/29 fixture is restricted to its known manual contact/task IDs and cannot create a replacement or send another owner notification. Reconciling that pair is never first-create automation proof.
+Record origins distinguish runtime creation, existing records, bound-contact reuse, recovery after uncertainty and the operator baseline. The existing October 28/29 fixture is restricted to its known manual contact/task IDs and cannot create a replacement or send another owner notification. A separate read-only legacy validator pins its independently verified source fingerprint, contact identity/owner/lifecycle, task subject and exact historical notes, owner, association, type/status and original due time `2026-10-30T01:01:31Z`. It does not require or backfill new runtime metadata or recalculate the historical due time. Altered evidence stays UNCERTAIN. Successful reconciliation remains HOLD with `OPERATOR_BASELINE` origins and is never first-create automation proof.
 
 The journal opens existing state by default. Missing files, an existing empty directory, or loss of both DB and marker fail closed. Only the explicit initialization command may initialize a newly created directory. This prevents source replay from silently rebuilding an empty dispatch-enabled journal after state loss.
 
@@ -37,7 +37,7 @@ Required configuration names are:
 - `WORKFORCE_VALIDATION_LEAD_IDS`: explicit comma-separated server-generated IDs for approved internal fixture events. This is an allowlist, not a wildcard.
 - `QUEST_WORKFORCE_VALIDATION_ENABLED=true`: validation-only dispatch, applied only after secure configuration, initialization, source approval and acceptance-owner coordination. Absence or any other value remains disabled. Commercial processing stays unavailable.
 
-The existing Resend configuration supplies owner notifications to `denzel@questluxo.com` only, with the exact Luxury signature once. Provider acceptance, inbox receipt and human acknowledgment/completion remain separate. Notification timeouts stay UNCERTAIN; explicit provider-ID reconciliation performs a read, not another send. Provider read permission may be necessary for that optional recovery operation.
+The existing Resend configuration supplies owner notifications to `denzel@questluxo.com` only, with the exact Luxury signature once. Provider acceptance, inbox receipt and human acknowledgment/completion remain separate. Notification timeouts stay UNCERTAIN; explicit provider-ID reconciliation performs a read, not another send. It requires the exact expected recipient, subject, event metadata and journal-bound contact/task links in the returned message; mismatched native IDs do not release the hold. Provider read permission may be necessary for that optional recovery operation.
 
 ## Operator commands
 
@@ -52,7 +52,7 @@ node --experimental-strip-types scripts/workforce-validation.mjs restore-backup 
 node --experimental-strip-types scripts/workforce-validation.mjs reconcile-notification APPROVED_LEAD_ID POSITIVE_PROVIDER_EMAIL_ID
 ```
 
-Initialization and restore never replace an existing journal. Stop the validation drain during operator recovery. Export archives must be retained through an independently verified existing backup channel; another file on the same disk is not independent protection. Restoring does not clear its dispatch hold.
+Initialization and restore never replace an existing journal. Stop the validation drain during operator recovery. Export archives must be retained through an independently verified existing backup channel; another file on the same disk is not independent protection. Existing four-store backup acceptance does not cover this v2 journal or its managed key. Restoring does not clear its dispatch hold, and no restore-to-live release operation is implemented in this validation lane.
 
 ## Acceptance boundary
 

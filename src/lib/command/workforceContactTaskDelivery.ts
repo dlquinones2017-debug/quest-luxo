@@ -4,9 +4,10 @@ import type { LuxuryWorkforceEvent } from "./luxuryWorkforceEvent.ts";
 import { WORKFORCE_OWNER, APPROVED_VALIDATION_FIXTURE } from "./luxuryWorkforceEvent.ts";
 import type { WorkforceJournalEntry, WorkforceOperation } from "./workforcePhaseJournal.ts";
 import { WorkforcePhaseJournal } from "./workforcePhaseJournal.ts";
+import { matchesLegacyOperatorBaseline } from "./workforceLegacyBaseline.ts";
 
-export interface WorkforceContact { id: string; email: string; archived?: boolean }
-export interface WorkforceTask { id: string; body: string; ownerId: string; contactIds: readonly string[]; archived?: boolean; dueAt: string; status: string; type: string }
+export interface WorkforceContact { id: string; email: string; archived?: boolean; ownerId?: string; lifecycleStage?: string }
+export interface WorkforceTask { id: string; body: string; subject?: string; ownerId: string; contactIds: readonly string[]; archived?: boolean; dueAt: string; status: string; type: string }
 export interface WorkforceCRMAdapter {
   findContact(email: string): Promise<WorkforceContact | null>;
   getContact(id: string): Promise<WorkforceContact | null>;
@@ -15,7 +16,7 @@ export interface WorkforceCRMAdapter {
   getTask(id: string): Promise<WorkforceTask | null>;
   createTask(event: LuxuryWorkforceEvent, contactId: string): Promise<WorkforceTask>;
   notifyOwner(event: LuxuryWorkforceEvent, contactId: string, taskId: string): Promise<{ accepted: boolean; providerId: string }>;
-  getNotification?(providerId: string, event: LuxuryWorkforceEvent): Promise<boolean>;
+  getNotification?(providerId: string, event: LuxuryWorkforceEvent, contactId: string, taskId: string): Promise<boolean>;
 }
 export const workforceTaskMetadata = (event: LuxuryWorkforceEvent) => [
   "Quest Luxo internal validation event", `Event-Key: ${event.eventKey}`, `Fingerprint-v1: ${event.fingerprint}`, "End-Quest-Task-Metadata",
@@ -132,7 +133,8 @@ export class WorkforceContactTaskDelivery {
         entry.contactOrigin = contactOrigin;
         Object.assign(c, { contactId: contact!.id, state: "KNOWN", eventKey: null, attempt: null, leaseUntil: 0 });
       });
-      if (!matchContact(await this.adapter.getContact(contact.id), event)) return uncertain("CONTACT_NATIVE_READBACK_UNVERIFIED");
+      const verifiedContact = await this.adapter.getContact(contact.id);
+      if (!matchContact(verifiedContact, event) || verifiedContact!.id !== contact.id) return uncertain("CONTACT_NATIVE_READBACK_UNVERIFIED");
       e = current();
       const pendingTaskWrite = taskWriteUncertain || e.operation === "TASK_CREATE";
       let taskOrigin = e.taskOrigin ?? (baseline ? "OPERATOR_BASELINE" : taskWriteUncertain ? "RECONCILED_AFTER_UNCERTAIN" : "RECONCILED_EXISTING");
@@ -146,11 +148,13 @@ export class WorkforceContactTaskDelivery {
       if (!validId(task.id)) return uncertain("TASK_NATIVE_ID_INVALID");
       update(entry => { entry.taskId = task!.id; entry.taskOrigin = taskOrigin; entry.phase = "VERIFY"; });
       const verifiedTask = await this.adapter.getTask(task.id);
-      if (!matchTask(verifiedTask, event, contact.id)) return uncertain("TASK_ASSOCIATION_OR_OWNER_UNVERIFIED");
+      if (verifiedTask?.id !== task.id) return uncertain("TASK_NATIVE_READBACK_UNVERIFIED");
       if (baseline) {
+        if (!verifiedContact || !matchesLegacyOperatorBaseline(event, verifiedContact, verifiedTask)) return uncertain("LEGACY_OPERATOR_BASELINE_UNVERIFIED");
         update(entry => { entry.state = "HOLD"; entry.associationVerified = true; entry.operation = null; entry.reason = "OPERATOR_BASELINE_NOT_AUTOMATED_CREATION"; });
         return this.report(event.eventKey, "BASELINE_RECONCILED");
       }
+      if (!matchTask(verifiedTask, event, contact.id)) return uncertain("TASK_ASSOCIATION_OR_OWNER_UNVERIFIED");
       update(entry => { entry.associationVerified = true; entry.phase = "NOTIFY"; entry.operation = null; entry.state = "ACTIVE"; entry.reason = null; });
       if (this.journal.read().state.recoveryHold) return uncertain("RESTORED_JOURNAL_DISPATCH_HELD");
       if (!begin("NOTIFY")) return uncertain("NOTIFICATION_CLAIM_UNAVAILABLE");
@@ -177,10 +181,11 @@ export class WorkforceContactTaskDelivery {
     const entry = this.journal.read().state.entries.find(e => e.eventKey === event.eventKey);
     if (!entry || entry.fingerprint !== event.fingerprint || !entry.taskId || !entry.contactId || !entry.associationVerified ||
         entry.state !== "UNCERTAIN" || entry.operation !== "NOTIFY" || !this.adapter.getNotification || !/^[a-zA-Z0-9_-]{1,128}$/.test(providerId)) throw Error("Notification reconciliation evidence required.");
-    if (!(await this.adapter.getNotification(providerId, event))) return this.report(event.eventKey, "UNCERTAIN");
+    if (!(await this.adapter.getNotification(providerId, event, entry.contactId, entry.taskId))) return this.report(event.eventKey, "UNCERTAIN");
     this.journal.mutate(s => {
       const e = s.entries.find(e => e.eventKey === event.eventKey)!;
-      if (e.fingerprint !== event.fingerprint || e.state !== "UNCERTAIN" || e.operation !== "NOTIFY" || e.attempt !== entry.attempt) throw Error("Stale notification reconciliation.");
+      if (e.fingerprint !== event.fingerprint || e.state !== "UNCERTAIN" || e.operation !== "NOTIFY" || e.attempt !== entry.attempt ||
+          e.contactId !== entry.contactId || e.taskId !== entry.taskId || !e.associationVerified) throw Error("Stale notification reconciliation.");
       e.notification = "ACCEPTED_BY_PROVIDER"; e.notificationId = providerId; e.state = "COMPLETE"; e.phase = "DONE"; e.operation = null; e.reason = null; e.attempt = null; e.leaseUntil = 0;
     });
     return this.report(event.eventKey);

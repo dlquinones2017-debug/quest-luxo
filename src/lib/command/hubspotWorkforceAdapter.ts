@@ -12,6 +12,8 @@ const fail = (): never => { throw Error("CRM provider result is unavailable or u
 const subject = (event: LuxuryWorkforceEvent) => `[INTERNAL VALIDATION] Quest Luxo ${event.leadId}`;
 const taskSubject = (event: LuxuryWorkforceEvent) => `[INTERNAL VALIDATION] ${event.eventKey}`;
 const due = (event: LuxuryWorkforceEvent) => new Date(Date.parse(event.savedAt) + 86_400_000).toISOString();
+const notificationMessage = (event: LuxuryWorkforceEvent, contactId: string, taskId: string) =>
+  `This is a controlled Luxury Advisory workforce validation event.\n${workforceTaskMetadata(event)}\nContact: https://app.hubspot.com/contacts/${WORKFORCE_PORTAL}/contact/${id(contactId)}\nTask: https://app.hubspot.com/tasks/${WORKFORCE_PORTAL}/view/all/task/${id(taskId)}\nProvider acceptance does not establish inbox receipt or human completion.`;
 
 interface WorkforceEmailProviderConfig { readonly from: string | null; readonly providerApiKey: string | null; readonly providerApiUrl: string }
 export async function createHubspotWorkforceAdapter(token: string, request: typeof fetch = fetch, emailConfig: () => WorkforceEmailProviderConfig = () => getQuestLuxoServerConfig().leadEmail): Promise<WorkforceCRMAdapter> {
@@ -34,19 +36,21 @@ export async function createHubspotWorkforceAdapter(token: string, request: type
       !["crm.objects.contacts.read", "crm.objects.contacts.write"].every(scope => access.scopes.includes(scope))) return fail();
   const contact = (value: any): WorkforceContact | null => value === null ? null : {
     id: id(value.id), email: typeof value.properties?.email === "string" ? value.properties.email : fail(), archived: value.archived === false ? false : fail(),
+    ownerId: typeof value.properties?.hubspot_owner_id === "string" ? value.properties.hubspot_owner_id : undefined,
+    lifecycleStage: typeof value.properties?.lifecyclestage === "string" ? value.properties.lifecyclestage : undefined,
   };
   const task = (value: any): WorkforceTask | null => value === null ? null : {
     id: id(value.id), body: typeof value.properties?.hs_task_body === "string" ? value.properties.hs_task_body : fail(),
+    subject: typeof value.properties?.hs_task_subject === "string" ? value.properties.hs_task_subject : undefined,
     ownerId: id(value.properties?.hubspot_owner_id), contactIds: value.associations?.contacts?.paging ? fail() : (value.associations?.contacts?.results ?? []).map((x: any) => id(x.id)),
     archived: value.archived === false ? false : fail(), dueAt: String(value.properties?.hs_timestamp ?? ""),
     status: String(value.properties?.hs_task_status ?? ""), type: String(value.properties?.hs_task_type ?? ""),
   };
-  const getTask = async (nativeId: string) => task(await api(`/crm/v3/objects/tasks/${id(nativeId)}?properties=hs_task_body,hs_timestamp,hs_task_status,hs_task_type,hubspot_owner_id&associations=contacts`, "GET", undefined, true));
+  const getTask = async (nativeId: string) => task(await api(`/crm/v3/objects/tasks/${id(nativeId)}?properties=hs_task_body,hs_task_subject,hs_timestamp,hs_task_status,hs_task_type,hubspot_owner_id&associations=contacts`, "GET", undefined, true));
   const provider = async (event: LuxuryWorkforceEvent, method: "GET" | "POST", providerId?: string, contactId?: string, taskId?: string) => {
     const config = emailConfig();
     if (!config.providerApiKey || !config.from || config.providerApiUrl !== "https://api.resend.com/emails") return fail();
-    const crmLinks = `Contact: https://app.hubspot.com/contacts/${WORKFORCE_PORTAL}/contact/${contactId}\nTask: https://app.hubspot.com/tasks/${WORKFORCE_PORTAL}/view/all/task/${taskId}`;
-    const message = `This is a controlled Luxury Advisory workforce validation event.\n${workforceTaskMetadata(event)}\n${crmLinks}\nProvider acceptance does not establish inbox receipt or human completion.`;
+    const message = method === "POST" ? notificationMessage(event, contactId!, taskId!) : "";
     const result = await request(`https://api.resend.com/emails${method === "GET" ? `/${providerId}` : ""}`, {
       method, redirect: "error", signal: AbortSignal.timeout(8000),
       headers: { Authorization: `Bearer ${config.providerApiKey}`, "Content-Type": "application/json", ...(method === "POST" ? { "Idempotency-Key": createHash("sha256").update(`workforce-notification-v2:${event.eventKey}`).digest("hex") } : {}) },
@@ -59,7 +63,7 @@ export async function createHubspotWorkforceAdapter(token: string, request: type
   };
   return {
     findContact: async email => contact(await api(`/crm/v3/objects/contacts/${encodeURIComponent(email.trim().toLowerCase())}?idProperty=email&properties=email`, "GET", undefined, true)),
-    getContact: async nativeId => contact(await api(`/crm/v3/objects/contacts/${id(nativeId)}?properties=email`, "GET", undefined, true)),
+    getContact: async nativeId => contact(await api(`/crm/v3/objects/contacts/${id(nativeId)}?properties=email,hubspot_owner_id,lifecyclestage`, "GET", undefined, true)),
     createContact: async event => contact(await api("/crm/v3/objects/contacts", "POST", { properties: { email: event.payload.email, firstname: event.payload.name, lifecyclestage: "other" } })) ?? fail(),
     getTask,
     findTask: async event => {
@@ -78,11 +82,11 @@ export async function createHubspotWorkforceAdapter(token: string, request: type
       const result = await provider(event, "POST", undefined, id(contactId), id(taskId));
       return { accepted: typeof result.id === "string" && /^[a-zA-Z0-9_-]{1,128}$/.test(result.id), providerId: result.id };
     },
-    getNotification: async (providerId, event) => {
-      if (!/^[a-zA-Z0-9_-]{1,128}$/.test(providerId)) return false;
+    getNotification: async (providerId, event, contactId, taskId) => {
+      if (!/^[a-zA-Z0-9_-]{1,128}$/.test(providerId) || !/^[1-9]\d{0,30}$/.test(contactId) || !/^[1-9]\d{0,30}$/.test(taskId)) return false;
       const result = await provider(event, "GET", providerId);
       return result.id === providerId && Array.isArray(result.to) && result.to.length === 1 && result.to[0] === WORKFORCE_MAILBOX && result.subject === subject(event) &&
-        typeof result.text === "string" && result.text.includes(workforceTaskMetadata(event));
+        result.text === `${notificationMessage(event, contactId, taskId)}\n\n${luxurySignatureText}`;
     },
   };
 }

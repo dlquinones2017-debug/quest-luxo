@@ -1,0 +1,11 @@
+{
+  "id": "412987647734",
+  "archived": false,
+  "subject": "QL INTERNAL TEST | Luxury | luxury-inquiry-v1/lead_f77e95ab-e8a1-4cac-9953-37ecaaba2945",
+  "dueAt": "2026-10-30T01:01:31Z",
+  "status": "NOT_STARTED",
+  "type": "TODO",
+  "ownerId": "101804786",
+  "contactIds": ["580059137778"],
+  "body": "QUEST LUXO INTERNAL TEST / SYNTHETIC — not a customer, genuine lead, qualified opportunity, or revenue.\nControlled integration receipt: QL-E2E-20261028-2102.\nDivision: Luxury Advisory. Category: Other / needs review (test).\nCanonical origin: https://questluxo.com/.\nContract-Version: 1\nSource-System: luxury-canonical-jsonl\nLead-ID: lead_f77e95ab-e8a1-4cac-9953-37ecaaba2945\nSaved-At: 2026-10-29T00:58:39.757Z\nEvent-Key: luxury-inquiry-v1/lead_f77e95ab-e8a1-4cac-9953-37ecaaba2945\nGmail message ID: 1a1852a8d798e628\nRFC Message-ID: &lt;010001a1852a8ac5-a9b7a853-fef9-4a59-b6db-999183d3e055-000000@email.amazonses.com&gt;\nReceipt timestamp: 2026-10-29T00:58:40Z. Aligned questluxo.com DKIM and DMARC PASS.\nSource receipt: https://mail.google.com/mail/u/?authuser=denzel%40questluxo.com#all/1a1852a8d798e628\nProvider-sharing consent: Not requested. Marketing consent: Not granted by this test.\nNext action: Denzel reviews this synthetic task/receipt linkage only. Do not contact customers, source a watch, enroll marketing, create deals, or submit to providers.\nExecution: controlled operator connector test; existing production Inquiry Intake synthetic exclusion preserved. Does not prove unattended workflow."
+}

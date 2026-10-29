@@ -21,6 +21,9 @@ const record = (id = 'lead_unit-event-1', overrides = {}) => ({
     intent: 'request-this-watch', createdAt: '2026-10-29T00:58:39.748Z', ...overrides,
   }),
 });
+const legacyTask = JSON.parse(await readFile(new URL('./fixtures/workforce-legacy-operator-task.json',import.meta.url),'utf8'));
+const legacyRecord = () => record(APPROVED_VALIDATION_FIXTURE.leadId,{intent:null,message:'SYNTHETIC controlled inquiry QL-E2E-20261028-2102. Founder-authorized integration verification only. No real watch request, customer, consent, marketing enrollment, lead, deal or revenue.'});
+const legacyContact = () => ({id:APPROVED_VALIDATION_FIXTURE.contactId,email:APPROVED_VALIDATION_FIXTURE.email,archived:false,ownerId:'101804786',lifecycleStage:'other'});
 async function setup(t) {
   const root = await mkdtemp(join(tmpdir(), 'ql-workforce-test-'));
   const key = randomBytes(32), directory = join(root, 'journal');
@@ -54,7 +57,7 @@ async function setup(t) {
       tasks.push(task); if (flags.loseTask) throw Error('task response lost'); return task;
     },
     notifyOwner: async event => { counts.notifications++; notifications.push(event.eventKey); if (flags.loseNotification) throw Error('notification response lost'); return { accepted: true, providerId: 'email-receipt-1' }; },
-    getNotification: async (providerId, event) => providerId === 'email-receipt-1' && notifications.includes(event.eventKey),
+    getNotification: async (providerId, event, contactId, taskId) => providerId === 'email-receipt-1' && notifications.includes(event.eventKey) && contacts.some(c=>c.id===contactId) && tasks.some(t=>t.id===taskId && t.contactIds.includes(contactId)),
   };
   const engine = new WorkforceContactTaskDelivery(journal, adapter, () => now);
   return { root, directory, key, journal, open, track: j => opened.push(j), adapter, engine, flags, counts, contacts, tasks, clock: () => now, advance: ms => { now += ms; }, event: (r = record()) => createLuxuryWorkforceEvent(r, key) };
@@ -86,10 +89,30 @@ test('approved existing internal receipt matches the independently verified gold
 });
 
 test('the existing operator-created fixture is reconciliation-only and never creates or sends', async t => {
-  const s=await setup(t),event=s.event(record(APPROVED_VALIDATION_FIXTURE.leadId));
-  s.contacts.push({id:APPROVED_VALIDATION_FIXTURE.contactId,email:event.payload.email,archived:false});
-  s.tasks.push({id:APPROVED_VALIDATION_FIXTURE.taskId,body:workforceTaskMetadata(event),ownerId:'101804786',contactIds:[APPROVED_VALIDATION_FIXTURE.contactId],archived:false,dueAt:new Date(Date.parse(event.savedAt)+86400000).toISOString(),status:'NOT_STARTED',type:'TODO'});
+  const s=await setup(t),event=s.event(legacyRecord());
+  s.contacts.push(legacyContact());s.tasks.push(structuredClone(legacyTask));
+  assert.ok(!legacyTask.body.includes('Fingerprint-v1'));assert.notEqual(Date.parse(legacyTask.dueAt),Date.parse(event.savedAt)+86400000);
   const result=await s.engine.deliver(event);assert.equal(result.status,'BASELINE_RECONCILED');assert.equal(result.contactOrigin,'OPERATOR_BASELINE');assert.equal(result.taskOrigin,'OPERATOR_BASELINE');assert.equal(result.notification,'NOT_ATTEMPTED');assert.deepEqual(s.counts,{contactCreates:0,taskCreates:0,notifications:0});
+  assert.equal(s.journal.read().state.entries[0].state,'HOLD');assert.deepEqual(s.tasks[0],legacyTask);
+});
+
+test('altered legacy evidence fails closed without rewriting CRM or sending a notification', async t => {
+  const alterations=[
+    (c,x,e)=>{x.body=workforceTaskMetadata(e);},(c,x)=>{x.body+='\n';},(c,x)=>{x.body=x.body.replace('&lt;','<').replace('&gt;','>');},
+    (c,x)=>{x.body=x.body.replace('1a1852a8d798e628','wrong-receipt');},(c,x,e)=>{x.dueAt=new Date(Date.parse(e.savedAt)+86400000).toISOString();},
+    (c,x)=>{x.ownerId='999';},(c,x)=>{x.contactIds=[];},(c,x)=>{x.contactIds.push('999');},(c,x)=>{x.id='999';},
+    (c,x)=>{x.subject+=' changed';},(c,x)=>{x.archived=true;},(c,x)=>{x.status='COMPLETED';},(c,x)=>{x.type='CALL';},
+    c=>{c.id='999';},c=>{c.email='other@questluxo.com';},c=>{c.ownerId='999';},c=>{c.lifecycleStage='customer';},c=>{c.archived=true;},
+  ];
+  for(const alter of alterations){
+    const s=await setup(t),event=s.event(legacyRecord()),c=legacyContact(),x=structuredClone(legacyTask);alter(c,x,event);
+    s.contacts.push(c);s.tasks.push(x);const before=structuredClone({c,x});
+    const result=await s.engine.deliver(event);assert.equal(result.status,'UNCERTAIN');assert.equal(result.notification,'NOT_ATTEMPTED');
+    assert.deepEqual(s.counts,{contactCreates:0,taskCreates:0,notifications:0});assert.deepEqual({c,x},before);
+  }
+  const s=await setup(t);s.contacts.push(legacyContact());s.tasks.push(structuredClone(legacyTask));
+  const changed=s.event({...legacyRecord(),payload:{...legacyRecord().payload,message:'changed '+APPROVED_VALIDATION_FIXTURE.marker}});
+  assert.equal((await s.engine.deliver(changed)).status,'UNCERTAIN');assert.deepEqual(s.counts,{contactCreates:0,taskCreates:0,notifications:0});
 });
 
 test('same-event replay and concurrent duplicates return one contact/task pair without outreach duplication', async t => {
@@ -162,6 +185,19 @@ test('notification timeout stays uncertain until explicit positive provider-ID r
   assert.equal((await s.engine.deliver(event)).status,'UNCERTAIN'); assert.equal(s.counts.notifications,1);
   assert.equal((await s.engine.reconcileNotification(event,'wrong-receipt')).status,'UNCERTAIN');
   const verified=await s.engine.reconcileNotification(event,'email-receipt-1'); assert.equal(verified.status,'COMPLETE'); assert.equal(verified.inboxReceipt,'UNKNOWN'); assert.equal(verified.humanAction,'UNKNOWN');
+});
+
+test('notification recovery supplies exact journal native IDs and rejects mismatched readback without another send', async t => {
+  const s=await setup(t),event=s.event();s.flags.loseNotification=true;
+  await s.engine.deliver(event);const before={...s.counts};let wrongIds=true;
+  const adapter={...s.adapter,getNotification:async(providerId,readEvent,contactId,taskId)=>{
+    assert.equal(readEvent.eventKey,event.eventKey);assert.equal(contactId,'5001');assert.equal(taskId,'9001');
+    return s.adapter.getNotification(providerId,readEvent,wrongIds?'5999':contactId,wrongIds?'9999':taskId);
+  }};
+  const engine=new WorkforceContactTaskDelivery(s.journal,adapter,s.clock);
+  assert.equal((await engine.reconcileNotification(event,'email-receipt-1')).status,'UNCERTAIN');
+  assert.equal(s.journal.read().state.entries[0].notification,'UNCERTAIN');assert.deepEqual(s.counts,before);
+  wrongIds=false;assert.equal((await engine.reconcileNotification(event,'email-receipt-1')).status,'COMPLETE');assert.deepEqual(s.counts,before);
 });
 
 test('encrypted backup restore preserves uncertain bindings and dispatches nothing from stale pending snapshots', async t => {
@@ -241,6 +277,14 @@ test('native API adapter pins portal, association direction, exact string IDs an
   const adapter=await createHubspotWorkforceAdapter('test-token',request,()=>({from:'info@questluxo.com',providerApiKey:'test-email-key',providerApiUrl:'https://api.resend.com/emails'}));
   assert.equal((await adapter.createContact(event)).id,contactId);assert.equal((await adapter.getContact(contactId)).id,contactId);
   assert.equal((await adapter.createTask(event,contactId)).id,taskId);assert.deepEqual((await adapter.getTask(taskId)).contactIds,[contactId]);
-  assert.equal((await adapter.notifyOwner(event,contactId,taskId)).accepted,true);assert.equal(await adapter.getNotification('provider-email-1',event),true);
+  assert.equal((await adapter.notifyOwner(event,contactId,taskId)).accepted,true);assert.equal(await adapter.getNotification('provider-email-1',event,contactId,taskId),true);
+  const sentText=emailPayload.text;
+  for(const [wrongContact,wrongTask] of [['9007199254740993124',taskId],[contactId,'9007199254740993457']]){
+    assert.equal(await adapter.getNotification('provider-email-1',event,wrongContact,wrongTask),false);
+  }
+  for(const altered of [sentText.replace(contactId,'9007199254740993124'),sentText.replace(taskId,'9007199254740993457'),sentText+'\nContact: https://app.hubspot.com/contacts/247778505/contact/9999']){
+    emailPayload.text=altered;assert.equal(await adapter.getNotification('provider-email-1',event,contactId,taskId),false);
+  }
+  emailPayload.text=sentText;
   assert.deepEqual(mutations,['contact','task','notification']);
 });
