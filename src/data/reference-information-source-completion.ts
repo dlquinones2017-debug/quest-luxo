@@ -4,6 +4,12 @@ export const sourceCompletionReferenceInformation: readonly {
   brand: string; reference: string; sourceUrl: string; sourceLabel: string; configuration: QuestLuxoConfiguration;
 }[] = [
   {
+    brand: "Ulysse Nardin", reference: "2505-250",
+    sourceUrl: "https://www.gphg.org/en/watches/freak-vision",
+    sourceLabel: "Ulysse Nardin 2018 GPHG manufacturer entry — exact Freak Vision configuration",
+    configuration: { movement: "Self-winding UN-250; 50-hour power reserve", waterResistance: "30 m" },
+  },
+  {
     brand: "Panerai", reference: "PAM01616",
     sourceUrl: "https://www.panerai.com/content/dam/pan-assets/016-presskit/pdf/carbotech/PR_PANERAI_SUBMERSIBLE_CARBOTECH_PAM00960_PAM01616_ENG.pdf",
     sourceLabel: "Panerai Submersible Carbotech manufacturer technical sheet (page 4; no price)",

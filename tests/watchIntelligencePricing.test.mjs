@@ -105,10 +105,17 @@ test("all public retail entries carry auditable configuration, market and date e
     assert.ok(price.market.trim().length > 0);
     assert.ok(["unconfirmed", "included", "excluded"].includes(price.taxBasis));
     if (price.checkedAt === "2026-10-24" && ["Rolex", "Tudor"].includes(price.brand)) assert.equal(price.taxBasis, "unconfirmed", "source silence must not establish a tax basis");
-    assert.ok(["manufacturer", "authorized-retailer"].includes(price.sourceType));
+    assert.ok(["manufacturer", "authorized-retailer", "manufacturer-submission"].includes(price.sourceType));
     const officialHosts = { Rolex: "www.rolex.com", Tudor: "www.tudorwatch.com", IWC: "www.iwc.com", Omega: "www.omegawatches.com", Breitling: "www.breitling.com", Cartier: "www.cartier.com", Hublot: "www.hublot.com", Panerai: "www.panerai.com", "Patek Philippe": "www.patek.com", "Audemars Piguet": "www.audemarspiguet.com", "Ulysse Nardin": "www.ulysse-nardin.com", Zenith: "www.zenith-watches.com", "Jaeger-LeCoultre": "www.jaeger-lecoultre.com", "Bell & Ross": "bellross.com", Blancpain: "www.blancpain.com", "Vacheron Constantin": "www.vacheron-constantin.com", "Girard-Perregaux": "www.girard-perregaux.com", "A. Lange & Söhne": "www.alange-soehne.com" };
     const archive = price.brand === "Rolex" && price.basis === "historical-list";
-    if (price.sourceType === "authorized-retailer") {
+    if (price.sourceType === "manufacturer-submission") {
+      assert.equal(price.brand, "Ulysse Nardin");
+      assert.equal(price.manufacturerReference, "2505-250");
+      assert.equal(price.sourceUrl, "https://www.gphg.org/en/watches/freak-vision");
+      assert.equal(price.basis, "historical-list");
+      assert.equal(price.effectivePeriod, "2018");
+      assert.ok(price.corroboratingUrls.includes("https://www.gphg.org/en/gphg-2018/rules"));
+    } else if (price.sourceType === "authorized-retailer") {
       assert.equal(price.brand, "Omega");
       assert.equal(new URL(price.sourceUrl).hostname, "www.bankslyon.co.uk");
       assert.ok(["131.63.41.21.03.001", "210.32.42.20.01.006"].includes(price.manufacturerReference));
@@ -127,7 +134,7 @@ test("all public retail entries carry auditable configuration, market and date e
     const compact = value => value.toLowerCase().replace(/[^a-z0-9]/g, "");
     assert.equal(new URL(price.sourceUrl).protocol, "https:");
     // Hublot uses descriptive product URLs; its exact selected SKU is in page evidence.
-    if (!archive && !price.sourceUrl.endsWith(".pdf") && !["Hublot", "Bell & Ross", "Franck Muller"].includes(price.brand)) assert.ok(compact(price.sourceUrl).includes(compact(price.manufacturerReference)), price.sourceUrl);
+    if (!archive && price.sourceType !== "manufacturer-submission" && !price.sourceUrl.endsWith(".pdf") && !["Hublot", "Bell & Ross", "Franck Muller"].includes(price.brand)) assert.ok(compact(price.sourceUrl).includes(compact(price.manufacturerReference)), price.sourceUrl);
     assert.match(price.checkedAt, /^\d{4}-\d{2}-\d{2}$/);
     if (price.effectiveDate) {
       assert.match(price.effectiveDate, /^\d{4}-\d{2}-\d{2}$/);
