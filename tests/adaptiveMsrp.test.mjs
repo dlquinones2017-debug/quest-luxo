@@ -16,16 +16,15 @@ test("adaptive MSRP schema preserves historical and verified-current fields", as
   assert.match(schema, /msrpSource\?: string \| null/);
 });
 
-test("reference cards separate historical MSRP from verified current retail metadata", async () => {
+test("reference cards use sourced retail metadata and never promote legacy prices", async () => {
   const card = await source("src", "components", "ReferenceCard.astro");
 
-  assert.match(card, /Original MSRP/);
-  assert.match(card, /Current MSRP/);
-  assert.match(card, /Retail price requires verification/);
-  assert.match(card, /MSRP effective date/);
-  assert.match(card, /Official source/);
-  assert.match(card, /hasVerifiedCurrentMsrp\(config\.currentMSRP\)/);
-  assert.doesNotMatch(card, /currentMSRP\s*:\s*config\.originalMSRP/);
+  assert.match(card, /getVerifiedRetailPrices\(asset, brand\)/);
+  assert.match(card, /Verified list price being researched/);
+  assert.match(card, /formatRetailTaxBasis/);
+  assert.match(card, /sourceUrl/);
+  assert.match(card, /checkedAt/);
+  assert.doesNotMatch(card, /config\.(?:currentMSRP|originalMSRP)/);
 });
 
 test("Wave 1 applies only approved MSRP records and leaves unverified generic seeds unpriced", async () => {
