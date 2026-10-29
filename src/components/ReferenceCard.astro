@@ -18,7 +18,7 @@ const referenceSource = asset.specificationSources?.find(source => source.url.st
 const primary = configurations.find(c => photograph && c.dial === photograph.configuration.dial && c.bracelet === photograph.configuration.bracelet) ?? configurations[0];
 const prices = getVerifiedRetailPrices(asset, brand);
 const retail = getRetailPriceSummary(prices);
-const sourcingUrl = buildBeginYourQuestUrl({ intent: "request-this-watch", brand, collection, reference: asset.reference });
+const sourcingUrl = buildBeginYourQuestUrl({ intent: "request-this-watch", brand, collection, reference: displayReference });
 ---
 <article class="card">
   {(photograph || showMissingImagePlaceholder) && <div class="image-card">

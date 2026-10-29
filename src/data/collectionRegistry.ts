@@ -43,13 +43,13 @@ const defineCollection = (
   const assets = definition.assets.map(asset => {
     const addition = additions.find(candidate => candidate.reference === asset.reference);
     if (!addition) return asset;
-    const configurations = (asset.configurations ?? []).map(configuration => {
-      const reviewed = addition.configurations?.find(candidate => candidate.dial === configuration.dial && candidate.bracelet === configuration.bracelet);
-      return reviewed ? { ...configuration, ...reviewed, originalMSRP: configuration.originalMSRP ?? reviewed.originalMSRP, currentMSRP: configuration.currentMSRP ?? reviewed.currentMSRP } : configuration;
+    const configurations = (addition.configurations ?? []).map(reviewed => {
+      const configuration = asset.configurations?.find(candidate => candidate.dial === reviewed.dial && candidate.bracelet === reviewed.bracelet);
+      return { ...configuration, ...reviewed, originalMSRP: configuration?.originalMSRP ?? reviewed.originalMSRP, currentMSRP: configuration?.currentMSRP ?? reviewed.currentMSRP };
     });
-    const extraConfigurations = (addition.configurations ?? []).filter(reviewed => !configurations.some(configuration => configuration.dial === reviewed.dial && configuration.bracelet === reviewed.bracelet));
+    const extraConfigurations = (asset.configurations ?? []).filter(configuration => !configurations.some(reviewed => configuration.dial === reviewed.dial && configuration.bracelet === reviewed.bracelet));
     // Source-reviewed pictured material and dimensions supersede broad family placeholders.
-    return { ...asset, material: addition.material ?? asset.material, configurations: [...configurations, ...extraConfigurations], specificationSources: [...(asset.specificationSources ?? []), ...(addition.specificationSources ?? [])], specificationsReviewedAt: "2026-10-13" };
+    return { ...asset, material: addition.material ?? asset.material, configurations: [...configurations, ...extraConfigurations], specificationSources: [...(asset.specificationSources ?? []), ...(addition.specificationSources ?? [])], specificationsReviewedAt: [asset.specificationsReviewedAt, addition.specificationsReviewedAt].filter(Boolean).sort().at(-1) };
   });
   assets.push(...additions.filter(addition => !assets.some(asset => asset.reference === addition.reference)));
   return {
@@ -712,7 +712,56 @@ for (const collection of collectionSources) {
   mergedCollections.set(key, { ...existing, assets: [...assets.values()] });
 }
 
-export const collectionRegistry: CollectionDefinition[] = [...mergedCollections.values()];
+// These family routes already have a founder-approved exact pictured reference.
+// Keep their URLs, but lead with that watch's identity and reviewed configuration.
+const picturedReferenceAmendments: Record<string, string> = {
+  "Cartier|Ballon Bleu 40 mm": "WSBB0061",
+  "Cartier|Ballon Bleu 42 mm": "W6920042",
+  "Cartier|Pasha de Cartier 41 mm": "WSPA0038",
+  "Cartier|Pasha Chronograph 41 mm": "WGPA0017",
+  "Tudor|Tudor Royal 38 mm": "M28500-0006",
+  "Tudor|Tudor Royal 41 mm": "M28600-0005",
+  "Tudor|Prince Date": "74000",
+  "Tudor|Prince Chronograph": "79280",
+};
+const royalSource = "https://media.tudorwatch.com/image/upload/fl_attachment/v1/tudorwatch/pressroom/products/tudor-royal/pdf/tudor2020-tudorroyal-en.pdf";
+export const collectionRegistry: CollectionDefinition[] = [...mergedCollections.values()].map(collection => ({
+  ...collection,
+  assets: collection.assets.map(asset => {
+    const displayReference = picturedReferenceAmendments[`${collection.brand}|${asset.reference}`];
+    const monaco = collection.brand === "TAG Heuer" && asset.reference === "CBL2111.FC6453";
+    if (!displayReference && !monaco) return asset;
+    const pictured = photographyExpansionAssets.find(candidate => candidate.brand === collection.brand && candidate.collection === collection.name && candidate.reference === asset.reference);
+    if (!pictured?.configurations?.length) return asset;
+    const royal = collection.brand === "Tudor" && collection.name === "Royal";
+    const configurations = pictured.configurations.map(configuration => ({
+      ...configuration,
+      ...(royal ? { movement: `${displayReference === "M28600-0005" ? "T603" : "T601"} self-winding; approximately 38-hour power reserve`, waterResistance: "100 m" } : {}),
+      ...(monaco ? { movement: "TH20-00 automatic chronograph; 80-hour power reserve", waterResistance: "100 m" } : {}),
+    }));
+    const scope = monaco
+      ? "Current manufacturer configuration uses TH20-00. Earlier Heuer 02 examples share this reference; confirm the movement of the individual watch. The current benchmark is not original Heuer 02 MSRP."
+      : `This profile represents pictured reference ${displayReference}, rather than every configuration in the ${asset.model} family.`;
+    const source = royal ? { label: "TUDOR 2020 Royal technical specifications (page 7)", url: royalSource }
+      : monaco ? { label: "TAG Heuer current TH20-00 configuration and list benchmark", url: "https://www.tagheuer.com/us/en/timepieces/collections/tag-heuer-monaco/39-mm-th20-00/CBL2111.FC6453.html" } : null;
+    return {
+      ...asset,
+      ...(displayReference ? { displayReference } : {}),
+      configurations,
+      ...(monaco ? { bezel: "Fixed steel bezel" } : {}),
+      ...(royal ? { productionStatus: "2020-generation reference; current production status unconfirmed" } : {}),
+      questLuxoView: `${scope} ${asset.questLuxoView ?? "Quest Luxo coordinates reference-specific sourcing."}`,
+      collectorNotes: `${scope} ${asset.collectorNotes ?? "Confirm exact reference, condition, delivery contents and service history before purchase."}`,
+      specificationSources: [...(asset.specificationSources ?? []), ...(source ? [source] : [])],
+      specificationsReviewedAt: "2026-10-29",
+      ...(asset.brokerageIntelligence ? { brokerageIntelligence: {
+        ...asset.brokerageIntelligence,
+        overview: scope,
+        configurationSummary: Object.entries(configurations[0]).filter(([key, value]) => ["caseSize", "movement", "dial", "bracelet", "waterResistance"].includes(key) && value).map(([, value]) => value).join("; "),
+      } } : {}),
+    };
+  }),
+}));
 
 export const getCollection = (brandSlug: string, collectionSlug: string) =>
   collectionRegistry.find(

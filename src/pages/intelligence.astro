@@ -246,7 +246,7 @@ const photos = Object.fromEntries(catalog.flatMap(record => {
         item.append(link);
       }
       const sourceLink = document.createElement("a");
-      sourceLink.href = buildBeginYourQuestUrl({ intent: "request-this-watch", brand: result.record.brand, collection: result.record.collection, reference: result.record.reference });
+      sourceLink.href = buildBeginYourQuestUrl({ intent: "request-this-watch", brand: result.record.brand, collection: result.record.collection, reference: result.record.asset.displayReference ?? result.record.reference });
       sourceLink.textContent = "Begin Your Quest →";
       sourceLink.className = "reference-link sourcing-link";
       item.append(sourceLink);

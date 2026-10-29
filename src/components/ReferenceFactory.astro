@@ -44,7 +44,7 @@ if (!asset) {
 }
 
 const displayReference = asset.displayReference ?? asset.reference;
-const sourcingUrl = buildBeginYourQuestUrl({ intent: "request-this-watch", brand, collection, reference: asset.reference });
+const sourcingUrl = buildBeginYourQuestUrl({ intent: "request-this-watch", brand, collection, reference: displayReference });
 const configurations = asset.configurations ?? [];
 const brokerageIntelligence = asset.brokerageIntelligence;
 const brokerageIntelligenceItems = brokerageIntelligence

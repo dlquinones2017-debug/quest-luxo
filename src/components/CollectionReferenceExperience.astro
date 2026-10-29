@@ -25,7 +25,7 @@ const photograph = approvedPhotograph(asset, watchPhotographs);
 const imageAlt = photograph?.alt ?? `${displayReference} ${asset.model}`;
 const referenceSource = asset.specificationSources?.find(source => source.url.startsWith("https://"))?.url;
 const primaryConfiguration = asset.configurations?.find(configuration => photograph && configuration.dial === photograph.configuration.dial && configuration.bracelet === photograph.configuration.bracelet) ?? asset.configurations?.[0];
-const sourcingUrl = buildBeginYourQuestUrl({ intent: "request-this-watch", brand: collection.brand, collection: collection.name, reference: asset.reference });
+const sourcingUrl = buildBeginYourQuestUrl({ intent: "request-this-watch", brand: collection.brand, collection: collection.name, reference: displayReference });
 const collectionUrl = collectionPath(collection.brandSlug, collection.slug);
 const canonicalPath = referencePath(
   collection.brandSlug,

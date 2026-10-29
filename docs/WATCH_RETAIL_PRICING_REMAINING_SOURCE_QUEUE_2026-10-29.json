@@ -1,0 +1,1144 @@
+{
+  "title": "Remaining MSRP documentation queue after October 29 continuation",
+  "canonicalReferencePages": 297,
+  "sourcedReferencePages": 214,
+  "remainingPages": 83,
+  "unmatchedPages": 0,
+  "note": "Source outcomes retain their original checked dates. Reconciled against the October29 catalog; new exact evidence and historical base-reference benchmarks are recorded separately. Unknown values remain unknown.",
+  "rows": [
+    {
+      "brand": "Rolex",
+      "collection": "Daytona",
+      "reference": "16520",
+      "path": "/collections/rolex/daytona/16520",
+      "status": "hold-manufacturer-evidence",
+      "checkedAt": "2026-10-28",
+      "sourceUrl": null,
+      "outcome": "Pictured black dial/Oyster. No original historical manufacturer MSRP table found. June2012 list mentions16520 only in replacement bracelet section; replacement bracelet price is NOT watch MSRP. Collector sales of1999Spain price booklet do not establish usable USD/EUR manufacturer price.",
+      "requiredEvidence": [
+        "Manufacturer-authored historical watch price table with verified exact dial/bracelet configuration, currency, market and period. Replacement parts and successor references do not establish MSRP."
+      ],
+      "ledger": "WATCH_RETAIL_PRICING_EVIDENCE_2026-10-28_ROLEX_FOLLOWUP.json"
+    },
+    {
+      "brand": "Rolex",
+      "collection": "Sky-Dweller",
+      "reference": "326934",
+      "path": "/collections/rolex/sky-dweller/326934",
+      "status": "hold-manufacturer-evidence",
+      "checkedAt": "2026-10-28",
+      "sourceUrl": null,
+      "outcome": "Pictured WHITE dial/JUBILEE full326934-0002. January2020 official-author document lists Oyster72220 atEUR14100, wrong bracelet. Scribd2022 text includes white/Jubilee62220 row14450 but original manufacturer document and market/currency provenance not verified; exclude. Do not substitute successor336934.",
+      "requiredEvidence": [
+        "Manufacturer-authored historical watch price table with verified exact dial/bracelet configuration, currency, market and period. Replacement parts and successor references do not establish MSRP."
+      ],
+      "ledger": "WATCH_RETAIL_PRICING_EVIDENCE_2026-10-28_ROLEX_FOLLOWUP.json"
+    },
+    {
+      "brand": "Rolex",
+      "collection": "Oyster Perpetual",
+      "reference": "124300",
+      "path": "/collections/rolex/oyster-perpetual/124300",
+      "status": "hold-manufacturer-evidence",
+      "checkedAt": "2026-10-28",
+      "sourceUrl": null,
+      "outcome": "Pictured YELLOW dial; no yellow124300 row in June2024 list. Scribd2022 text has exactyellowM124300-0004 at5700 but manufacturer document and market/currency provenance not verified. Secondary2021USD5900/2022USD6150 reports excluded; no other dial price substituted.",
+      "requiredEvidence": [
+        "Manufacturer-authored historical watch price table with verified exact dial/bracelet configuration, currency, market and period. Replacement parts and successor references do not establish MSRP."
+      ],
+      "ledger": "WATCH_RETAIL_PRICING_EVIDENCE_2026-10-28_ROLEX_FOLLOWUP.json"
+    },
+    {
+      "brand": "Patek Philippe",
+      "collection": "Nautilus",
+      "reference": "5711/1A",
+      "path": "/collections/patek-philippe/nautilus/5711-1a",
+      "status": "primary-address-404-no-price",
+      "checkedAt": "2026-10-28",
+      "sourceUrl": "https://www.patek.com/en/collection/nautilus/5711-1a-010",
+      "outcome": "Exact pictured-reference manufacturer product address was actually retrieved and returned Page Not Found (HTTP404). No selected product/list price. A missing page does not prove manufacturer never published a price.",
+      "requiredEvidence": [
+        "Dated manufacturer historical price list/catalog or authorized-retailer original list price for this exact suffix/configuration and market.",
+        "Do not substitute later Nautilus generations, green-dial5711/1A-014, rose-gold5712, or rubber-strap5167A price."
+      ],
+      "ledger": "WATCH_RETAIL_PRICING_EVIDENCE_2026-10-28_FINAL_OTHER_PASS.json"
+    },
+    {
+      "brand": "Patek Philippe",
+      "collection": "Nautilus",
+      "reference": "5712/1A",
+      "path": "/collections/patek-philippe/nautilus/5712-1a",
+      "status": "primary-address-404-no-price",
+      "checkedAt": "2026-10-28",
+      "sourceUrl": "https://www.patek.com/en/collection/nautilus/5712-1a-001",
+      "outcome": "Exact pictured-reference manufacturer product address was actually retrieved and returned Page Not Found (HTTP404). No selected product/list price. A missing page does not prove manufacturer never published a price.",
+      "requiredEvidence": [
+        "Dated manufacturer historical price list/catalog or authorized-retailer original list price for this exact suffix/configuration and market.",
+        "Do not substitute later Nautilus generations, green-dial5711/1A-014, rose-gold5712, or rubber-strap5167A price."
+      ],
+      "ledger": "WATCH_RETAIL_PRICING_EVIDENCE_2026-10-28_FINAL_OTHER_PASS.json"
+    },
+    {
+      "brand": "Patek Philippe",
+      "collection": "Nautilus",
+      "reference": "5980/1A",
+      "path": "/collections/patek-philippe/nautilus/5980-1a",
+      "status": "primary-address-404-no-price",
+      "checkedAt": "2026-10-28",
+      "sourceUrl": "https://www.patek.com/en/collection/nautilus/5980-1a-014",
+      "outcome": "Exact pictured-reference manufacturer product address was actually retrieved and returned Page Not Found (HTTP404). No selected product/list price. A missing page does not prove manufacturer never published a price.",
+      "requiredEvidence": [
+        "Dated manufacturer historical price list/catalog or authorized-retailer original list price for this exact suffix/configuration and market.",
+        "Do not substitute later Nautilus generations, green-dial5711/1A-014, rose-gold5712, or rubber-strap5167A price."
+      ],
+      "ledger": "WATCH_RETAIL_PRICING_EVIDENCE_2026-10-28_FINAL_OTHER_PASS.json"
+    },
+    {
+      "brand": "Audemars Piguet",
+      "collection": "Royal Oak",
+      "reference": "15400ST",
+      "path": "/collections/audemars-piguet/royal-oak/15400st",
+      "status": "EXACT_MANUFACTURER_PAGE_404_HOLD",
+      "checkedAt": "2026-10-28",
+      "sourceUrl": "https://www.audemarspiguet.com/us/en/watch-collection/royal-oak/15400ST.OO.1220ST.02",
+      "outcome": "Exact manufacturer URL returns 404; no successor or alternate configuration substituted.",
+      "requiredEvidence": [
+        "Exact pictured configuration, original market/currency/tax and manufacturer or authorized-retailer list-price documentation."
+      ],
+      "ledger": "WATCH_RETAIL_PRICING_EVIDENCE_2026-10-28_FINAL_AP_FRANCK_PASS.json"
+    },
+    {
+      "brand": "Audemars Piguet",
+      "collection": "Royal Oak",
+      "reference": "15202ST",
+      "path": "/collections/audemars-piguet/royal-oak/15202st",
+      "status": "EXACT_MANUFACTURER_PAGE_404_HOLD",
+      "checkedAt": "2026-10-28",
+      "sourceUrl": "https://www.audemarspiguet.com/us/en/watch-collection/royal-oak/15202ST.OO.1240ST.01",
+      "outcome": "Exact manufacturer page returns 404; no successor substituted.",
+      "requiredEvidence": [
+        "Exact pictured configuration, original market/currency/tax and manufacturer or authorized-retailer list-price documentation."
+      ],
+      "ledger": "WATCH_RETAIL_PRICING_EVIDENCE_2026-10-28_FINAL_AP_FRANCK_PASS.json"
+    },
+    {
+      "brand": "Audemars Piguet",
+      "collection": "Royal Oak",
+      "reference": "14790ST",
+      "path": "/collections/audemars-piguet/royal-oak/14790st",
+      "status": "EXACT_MANUFACTURER_PAGE_404_HOLD",
+      "checkedAt": "2026-10-28",
+      "sourceUrl": "https://www.audemarspiguet.com/us/en/watch-collection/royal-oak/14790ST.OO.0789ST.02",
+      "outcome": "Exact manufacturer page returns 404; no successor substituted.",
+      "requiredEvidence": [
+        "Exact pictured configuration, original market/currency/tax and manufacturer or authorized-retailer list-price documentation."
+      ],
+      "ledger": "WATCH_RETAIL_PRICING_EVIDENCE_2026-10-28_FINAL_AP_FRANCK_PASS.json"
+    },
+    {
+      "brand": "Audemars Piguet",
+      "collection": "Royal Oak",
+      "reference": "26607BC.OO.1220BC.01",
+      "path": "/collections/audemars-piguet/royal-oak/26607bc-oo-1220bc-01",
+      "status": "EXACT_MANUFACTURER_PAGE_404_HOLD",
+      "checkedAt": "2026-10-28",
+      "sourceUrl": "https://www.audemarspiguet.com/us/en/watch-collection/royal-oak/26607BC.OO.1220BC.01",
+      "outcome": "Exact manufacturer page returns 404; no successor substituted.",
+      "requiredEvidence": [
+        "Exact pictured configuration, original market/currency/tax and manufacturer or authorized-retailer list-price documentation."
+      ],
+      "ledger": "WATCH_RETAIL_PRICING_EVIDENCE_2026-10-28_FINAL_AP_FRANCK_PASS.json"
+    },
+    {
+      "brand": "Audemars Piguet",
+      "collection": "Royal Oak",
+      "reference": "26585CE.OO.1225CE.01",
+      "path": "/collections/audemars-piguet/royal-oak/26585ce-oo-1225ce-01",
+      "status": "MANUFACTURER_NUMERIC_PRICE_NOT_PUBLISHED_HOLD",
+      "checkedAt": "2026-10-28",
+      "sourceUrl": "https://www.audemarspiguet.com/us/en/watch-collection/royal-oak/26585CE.OO.1225CE.01",
+      "outcome": "Exact manufacturer page retrieved without a numerical public price; no price-on-request wording inferred.",
+      "requiredEvidence": [
+        "Exact pictured configuration, original market/currency/tax and manufacturer or authorized-retailer list-price documentation."
+      ],
+      "ledger": "WATCH_RETAIL_PRICING_EVIDENCE_2026-10-28_FINAL_AP_FRANCK_PASS.json"
+    },
+    {
+      "brand": "Audemars Piguet",
+      "collection": "Royal Oak",
+      "reference": "26585XT.OO.1220XT.01",
+      "path": "/collections/audemars-piguet/royal-oak/26585xt-oo-1220xt-01",
+      "status": "MANUFACTURER_NUMERIC_PRICE_NOT_PUBLISHED_HOLD",
+      "checkedAt": "2026-10-28",
+      "sourceUrl": "https://www.audemarspiguet.com/us/en/watch-collection/royal-oak/26585XT.OO.1220XT.01",
+      "outcome": "Exact manufacturer page retrieved without a numerical public price; no price-on-request wording inferred.",
+      "requiredEvidence": [
+        "Exact pictured configuration, original market/currency/tax and manufacturer or authorized-retailer list-price documentation."
+      ],
+      "ledger": "WATCH_RETAIL_PRICING_EVIDENCE_2026-10-28_FINAL_AP_FRANCK_PASS.json"
+    },
+    {
+      "brand": "Audemars Piguet",
+      "collection": "Royal Oak",
+      "reference": "26585CM.OO.D301VE.01",
+      "path": "/collections/audemars-piguet/royal-oak/26585cm-oo-d301ve-01",
+      "status": "MANUFACTURER_NUMERIC_PRICE_NOT_PUBLISHED_HOLD",
+      "checkedAt": "2026-10-28",
+      "sourceUrl": "https://www.audemarspiguet.com/us/en/watch-collection/royal-oak/26585CM.OO.D301VE.01",
+      "outcome": "Exact manufacturer page retrieved without a numerical public price; no price-on-request wording inferred.",
+      "requiredEvidence": [
+        "Exact pictured configuration, original market/currency/tax and manufacturer or authorized-retailer list-price documentation."
+      ],
+      "ledger": "WATCH_RETAIL_PRICING_EVIDENCE_2026-10-28_FINAL_AP_FRANCK_PASS.json"
+    },
+    {
+      "brand": "Audemars Piguet",
+      "collection": "Royal Oak",
+      "reference": "15412BC.ZZ.1220BC.01",
+      "path": "/collections/audemars-piguet/royal-oak/15412bc-zz-1220bc-01",
+      "status": "EXACT_MANUFACTURER_PAGE_404_HOLD",
+      "checkedAt": "2026-10-28",
+      "sourceUrl": "https://www.audemarspiguet.com/us/en/watch-collection/royal-oak/15412BC.ZZ.1220BC.01",
+      "outcome": "Exact manufacturer page returns 404; no successor substituted.",
+      "requiredEvidence": [
+        "Exact pictured configuration, original market/currency/tax and manufacturer or authorized-retailer list-price documentation."
+      ],
+      "ledger": "WATCH_RETAIL_PRICING_EVIDENCE_2026-10-28_FINAL_AP_FRANCK_PASS.json"
+    },
+    {
+      "brand": "Audemars Piguet",
+      "collection": "Royal Oak",
+      "reference": "15412OR.ZZ.1220OR.01",
+      "path": "/collections/audemars-piguet/royal-oak/15412or-zz-1220or-01",
+      "status": "EXACT_MANUFACTURER_PAGE_404_HOLD",
+      "checkedAt": "2026-10-28",
+      "sourceUrl": "https://www.audemarspiguet.com/us/en/watch-collection/royal-oak/15412OR.ZZ.1220OR.01",
+      "outcome": "Exact manufacturer page returns 404; no successor substituted.",
+      "requiredEvidence": [
+        "Exact pictured configuration, original market/currency/tax and manufacturer or authorized-retailer list-price documentation."
+      ],
+      "ledger": "WATCH_RETAIL_PRICING_EVIDENCE_2026-10-28_FINAL_AP_FRANCK_PASS.json"
+    },
+    {
+      "brand": "Audemars Piguet",
+      "collection": "Royal Oak",
+      "reference": "15412BA.ZG.1224BA.01",
+      "path": "/collections/audemars-piguet/royal-oak/15412ba-zg-1224ba-01",
+      "status": "MANUFACTURER_NUMERIC_PRICE_NOT_PUBLISHED_HOLD",
+      "checkedAt": "2026-10-28",
+      "sourceUrl": "https://www.audemarspiguet.com/us/en/watch-collection/royal-oak/15412BA.ZG.1224BA.01",
+      "outcome": "Exact manufacturer page retrieved without a numerical public price; no price-on-request wording inferred.",
+      "requiredEvidence": [
+        "Exact pictured configuration, original market/currency/tax and manufacturer or authorized-retailer list-price documentation."
+      ],
+      "ledger": "WATCH_RETAIL_PRICING_EVIDENCE_2026-10-28_FINAL_AP_FRANCK_PASS.json"
+    },
+    {
+      "brand": "Audemars Piguet",
+      "collection": "Royal Oak",
+      "reference": "26341ST.OO.1105ST.01",
+      "path": "/collections/audemars-piguet/royal-oak/26341st-oo-1105st-01",
+      "status": "MANUFACTURER_NUMERIC_PRICE_NOT_PUBLISHED_HOLD",
+      "checkedAt": "2026-10-28",
+      "sourceUrl": "https://www.audemarspiguet.com/us/en/watch-collection/royal-oak/26341ST.OO.1105ST.01",
+      "outcome": "Exact manufacturer page retrieved without a numerical public price; no price-on-request wording inferred.",
+      "requiredEvidence": [
+        "Exact pictured configuration, original market/currency/tax and manufacturer or authorized-retailer list-price documentation."
+      ],
+      "ledger": "WATCH_RETAIL_PRICING_EVIDENCE_2026-10-28_FINAL_AP_FRANCK_PASS.json"
+    },
+    {
+      "brand": "Richard Mille",
+      "collection": "RM 11",
+      "reference": "RM11-03",
+      "path": "/collections/richard-mille/rm-11/rm11-03",
+      "status": "manufacturer-history-no-numeric-price",
+      "checkedAt": "2026-10-28",
+      "sourceUrl": "https://www.richardmille.com/historical-models/rm-11-03-automatic-flyback-chronograph",
+      "outcome": "Actual Richard Mille historical-models page identifies RM11-03 and2016, with specs, but publishes no numeric manufacturer price. Earlier /collections/ address was obsolete; actual history source is now verified.",
+      "requiredEvidence": [
+        "Exact titanium configuration historical manufacturer price or authorized-retailer original list price, market/currency and date."
+      ],
+      "ledger": "WATCH_RETAIL_PRICING_EVIDENCE_2026-10-28_FINAL_OTHER_PASS.json"
+    },
+    {
+      "brand": "Vacheron Constantin",
+      "collection": "Overseas",
+      "reference": "6000V/110A-B544",
+      "path": "/collections/vacheron-constantin/overseas/6000v-110a-b544",
+      "status": "manufacturer-price-on-request",
+      "checkedAt": "2026-10-28",
+      "sourceUrl": "https://www.vacheron-constantin.com/us/en/collections/overseas/6000v-110a-b544.html",
+      "outcome": "Manufacturer exact US page explicitly states price on request; USD metadata price field has no numeric value. No price inferred.",
+      "requiredEvidence": [
+        "Written manufacturer/boutique or authorized retailer list-price confirmation for exact reference, market/currency and date."
+      ],
+      "ledger": "WATCH_RETAIL_PRICING_EVIDENCE_2026-10-28_FINAL_OTHER_PASS.json"
+    },
+    {
+      "brand": "F.P. Journe",
+      "collection": "Chronom\u00e8tre Bleu",
+      "reference": "CB",
+      "path": "/collections/fp-journe/chronometre-bleu/cb",
+      "status": "manufacturer-no-numeric-price",
+      "checkedAt": "2026-10-28",
+      "sourceUrl": "https://www.fpjourne.com/en/collection/classique-collection/chronometre-bleu",
+      "outcome": "Exact manufacturer Chronom\u00e8tre Bleu page read; no numeric manufacturer list price observed. Need manufacturer pricing confirmation or dated official historical list.",
+      "requiredEvidence": [
+        "Manufacturer pricing confirmation or dated official list price for the exact catalog configuration; no dealer asking price or inference from limited-edition size."
+      ],
+      "ledger": "WATCH_RETAIL_PRICING_EVIDENCE_2026-10-28_FINAL_OTHER_PASS.json"
+    },
+    {
+      "brand": "Hublot",
+      "collection": "Big Bang",
+      "reference": "441-NX-1171-RX",
+      "path": "/collections/hublot/big-bang/441-nx-1171-rx",
+      "status": "manufacturer-address-redirect-no-exact-price",
+      "checkedAt": "2026-10-28",
+      "sourceUrl": "https://www.hublot.com/en-us/watches/big-bang/big-bang-unico-titanium-42-mm",
+      "outcome": "Original42mm manufacturer address resolves to Hublot homepage; no selected441.NX.1171.RX price. Catalog Big Bang hyphen reference aliases the Big Bang Unico dotted SKU; preserve both canonical paths.",
+      "requiredEvidence": [
+        "Exact441.NX.1171.RX42mm official current or historical list price; no421/43mm successor."
+      ],
+      "ledger": "WATCH_RETAIL_PRICING_EVIDENCE_2026-10-28_FINAL_OTHER_PASS.json"
+    },
+    {
+      "brand": "Omega",
+      "collection": "Speedmaster",
+      "reference": "311.30.42.30.01.005",
+      "path": "/collections/omega/speedmaster/311-30-42-30-01-005",
+      "status": "hold-manufacturer-price-not-published",
+      "checkedAt": "2026-10-28",
+      "sourceUrl": "https://www.omegawatches.com/en-us/watch-omega-speedmaster-moonwatch-professional-chronograph-42-mm-31130423001005",
+      "outcome": "Exact selected model matches photographed identity. Manufacturer US panel gives an unavailable notice without selected list price. No accepted current or historical MSRP was obtained.",
+      "requiredEvidence": "An archived Omega US product page or manufacturer price list with a dated, explicitly USD price for exact 311.30.42.30.01.005 / Stainless Steel, Black, Stainless Steel Bracelet; alternatively a manufacturer publication with explicit original market, currency, tax basis and date. Preserve unknown until obtained.",
+      "ledger": "WATCH_RETAIL_PRICING_EVIDENCE_2026-10-28_FINAL_OMEGA_PASS.json"
+    },
+    {
+      "brand": "Panerai",
+      "collection": "Luminor",
+      "reference": "PAM01312",
+      "path": "/collections/panerai/luminor/pam01312",
+      "status": "manufacturer-redirect-no-exact-price",
+      "checkedAt": "2026-10-28",
+      "sourceUrl": "https://www.panerai.com/us/en/collections/watch-collection/luminor/pam01312-luminor-marina.html",
+      "outcome": "Requested PAM01312 redirects to different PAM03312 ($9,500). Replacement SKU price explicitly excluded.",
+      "requiredEvidence": [
+        "Historical manufacturer or authorized-retailer list price for exact PAM code and strap/dial configuration; collection/replacement prices excluded."
+      ],
+      "ledger": "WATCH_RETAIL_PRICING_EVIDENCE_2026-10-28_FINAL_OTHER_PASS.json"
+    },
+    {
+      "brand": "Jaeger-LeCoultre",
+      "collection": "Reverso",
+      "reference": "Q3848422",
+      "path": "/collections/jaeger-lecoultre/reverso/q3848422",
+      "status": "manufacturer-retired-no-numeric-price",
+      "checkedAt": "2026-10-28",
+      "sourceUrl": "https://www.jaeger-lecoultre.com/us-en/watches/reverso/reverso-classic/reverso-classic-duoface-small-seconds-stainless-steel-q3848422",
+      "outcome": "Manufacturer explicitly says out of current collection, no selected product price. Recommendations and strap prices excluded.",
+      "requiredEvidence": [
+        "Dated exact Q3848422 manufacturer/authorized-retailer historical list price; unrelated recommendation and strap prices are excluded."
+      ],
+      "ledger": "WATCH_RETAIL_PRICING_EVIDENCE_2026-10-28_FINAL_OTHER_PASS.json"
+    },
+    {
+      "brand": "Ulysse Nardin",
+      "collection": "Freak",
+      "reference": "Freak",
+      "path": "/collections/ulysse-nardin/freak/freak",
+      "status": "manufacturer-retired-no-numeric-price",
+      "checkedAt": "2026-10-28",
+      "sourceUrl": "https://www.ulysse-nardin.com/en-us/watches/discontinued-models/2505-250",
+      "outcome": "Exact manufacturer earlier-edition page names Freak Vision2505-250 and states this piece has found its collectors and is no longer available. No numeric selected price.",
+      "requiredEvidence": [
+        "Exact2505-250 Freak Vision manufacturer/authorized-retailer historical list price, market/currency/date."
+      ],
+      "ledger": "WATCH_RETAIL_PRICING_EVIDENCE_2026-10-28_FINAL_OTHER_PASS.json"
+    },
+    {
+      "brand": "Franck Muller",
+      "collection": "Vanguard",
+      "reference": "V45",
+      "path": "/collections/franck-muller/vanguard/v45",
+      "status": "UNKNOWN_HOLD",
+      "checkedAt": "2026-10-28",
+      "sourceUrl": "https://www.franckmuller.com/vanguard",
+      "outcome": "No numerical price found on manufacturer family page; exact red-accented titanium SKU remains unpriced. Different Vanguard configurations are not interchangeable.",
+      "requiredEvidence": [
+        "Exact pictured configuration, original market/currency/tax and manufacturer or authorized-retailer list-price documentation."
+      ],
+      "ledger": "WATCH_RETAIL_PRICING_EVIDENCE_2026-10-28_FINAL_AP_FRANCK_PASS.json"
+    },
+    {
+      "brand": "Franck Muller",
+      "collection": "Vanguard",
+      "reference": "V 45 T BR (TT)",
+      "path": "/collections/franck-muller/vanguard/v-45-t-br-tt",
+      "status": "UNKNOWN_HOLD",
+      "checkedAt": "2026-10-28",
+      "sourceUrl": "https://www.franckmuller.com/vanguard",
+      "outcome": "Manufacturer family/tourbillon page has no numerical price located; no generic Vanguard price applied.",
+      "requiredEvidence": [
+        "Exact pictured configuration, original market/currency/tax and manufacturer or authorized-retailer list-price documentation."
+      ],
+      "ledger": "WATCH_RETAIL_PRICING_EVIDENCE_2026-10-28_FINAL_AP_FRANCK_PASS.json"
+    },
+    {
+      "brand": "Omega",
+      "collection": "Seamaster Diver 300M",
+      "reference": "2531.80",
+      "path": "/collections/omega/seamaster/2531-80",
+      "status": "hold-manufacturer-price-not-published",
+      "checkedAt": "2026-10-28",
+      "sourceUrl": "https://www.omegawatches.com/en-us/watch-omega-seamaster-300-m-chronometer-25318000",
+      "outcome": "Exact selected model matches photographed identity. Manufacturer US panel gives an unavailable notice without selected list price. No accepted current or historical MSRP was obtained.",
+      "requiredEvidence": "An archived Omega US product page or manufacturer price list with a dated, explicitly USD price for exact 2531.80.00 / Stainless Steel, Blue wave dial, Stainless-steel bracelet; alternatively a manufacturer publication with explicit original market, currency, tax basis and date. Preserve unknown until obtained.",
+      "ledger": "WATCH_RETAIL_PRICING_EVIDENCE_2026-10-28_FINAL_OMEGA_PASS.json"
+    },
+    {
+      "brand": "Omega",
+      "collection": "Seamaster Diver 300M",
+      "reference": "2220.80",
+      "path": "/collections/omega/seamaster/2220-80",
+      "status": "hold-manufacturer-price-not-published",
+      "checkedAt": "2026-10-28",
+      "sourceUrl": "https://www.omegawatches.com/en-us/watch-omega-seamaster-diver-300m-co-axial-chronometer-41-mm-22208000",
+      "outcome": "Exact selected model matches photographed identity. Manufacturer US panel gives an unavailable notice without selected list price. No accepted current or historical MSRP was obtained.",
+      "requiredEvidence": "An archived Omega US product page or manufacturer price list with a dated, explicitly USD price for exact 2220.80.00 / Stainless Steel, Blue wave, Stainless-steel bracelet; alternatively a manufacturer publication with explicit original market, currency, tax basis and date. Preserve unknown until obtained.",
+      "ledger": "WATCH_RETAIL_PRICING_EVIDENCE_2026-10-28_FINAL_OMEGA_PASS.json"
+    },
+    {
+      "brand": "Omega",
+      "collection": "Seamaster Diver 300M",
+      "reference": "210.32.42.20.01.006",
+      "path": "/collections/omega/seamaster/210-32-42-20-01-006",
+      "status": "hold-manufacturer-price-not-published",
+      "checkedAt": "2026-10-28",
+      "sourceUrl": "https://www.omegawatches.com/en-us/watch-omega-seamaster-diver-300m-co-axial-master-chronometer-42-mm-21032422001006",
+      "outcome": "Exact selected model matches photographed identity. Manufacturer US panel gives an unavailable notice without selected list price. No accepted current or historical MSRP was obtained.",
+      "requiredEvidence": "An archived Omega US product page or manufacturer price list with a dated, explicitly USD price for exact 210.32.42.20.01.006 / Stainless Steel, Black with orange accents, Orange rubber strap; alternatively a manufacturer publication with explicit original market, currency, tax basis and date. Preserve unknown until obtained.",
+      "ledger": "WATCH_RETAIL_PRICING_EVIDENCE_2026-10-28_FINAL_OMEGA_PASS.json"
+    },
+    {
+      "brand": "Omega",
+      "collection": "Seamaster Planet Ocean",
+      "reference": "2201.50",
+      "path": "/collections/omega/planet-ocean/2201-50",
+      "status": "hold-manufacturer-price-not-published",
+      "checkedAt": "2026-10-28",
+      "sourceUrl": "https://www.omegawatches.com/en-us/watch-omega-seamaster-planet-ocean-22015000",
+      "outcome": "Exact selected model matches photographed identity. Manufacturer US panel gives an unavailable notice without selected list price. No accepted current or historical MSRP was obtained.",
+      "requiredEvidence": "An archived Omega US product page or manufacturer price list with a dated, explicitly USD price for exact 2201.50.00 / Stainless Steel, Black, Stainless-steel bracelet; alternatively a manufacturer publication with explicit original market, currency, tax basis and date. Preserve unknown until obtained.",
+      "ledger": "WATCH_RETAIL_PRICING_EVIDENCE_2026-10-28_FINAL_OMEGA_PASS.json"
+    },
+    {
+      "brand": "Omega",
+      "collection": "Seamaster Planet Ocean",
+      "reference": "232.30.42.21.01.001",
+      "path": "/collections/omega/planet-ocean/232-30-42-21-01-001",
+      "status": "hold-manufacturer-price-not-published",
+      "checkedAt": "2026-10-28",
+      "sourceUrl": "https://www.omegawatches.com/en-us/watch-omega-seamaster-planet-ocean-600m-omega-co-axial-42-mm-23230422101001",
+      "outcome": "Exact selected model matches photographed identity. Manufacturer US panel gives an unavailable notice without selected list price. No accepted current or historical MSRP was obtained.",
+      "requiredEvidence": "An archived Omega US product page or manufacturer price list with a dated, explicitly USD price for exact 232.30.42.21.01.001 / Stainless Steel, Black, Stainless-steel bracelet; alternatively a manufacturer publication with explicit original market, currency, tax basis and date. Preserve unknown until obtained.",
+      "ledger": "WATCH_RETAIL_PRICING_EVIDENCE_2026-10-28_FINAL_OMEGA_PASS.json"
+    },
+    {
+      "brand": "Omega",
+      "collection": "Seamaster Planet Ocean",
+      "reference": "215.30.44.21.04.001",
+      "path": "/collections/omega/planet-ocean/215-30-44-21-04-001",
+      "status": "hold-manufacturer-price-not-published",
+      "checkedAt": "2026-10-28",
+      "sourceUrl": "https://www.omegawatches.com/en-us/watch-omega-seamaster-planet-ocean-600m-co-axial-master-chronometer-43-5-mm-21530442104001",
+      "outcome": "Exact selected model matches photographed identity. Manufacturer US panel gives an unavailable notice without selected list price. No accepted current or historical MSRP was obtained.",
+      "requiredEvidence": "An archived Omega US product page or manufacturer price list with a dated, explicitly USD price for exact 215.30.44.21.04.001 / Stainless Steel, White ceramic with orange bezel, Stainless-steel bracelet; alternatively a manufacturer publication with explicit original market, currency, tax basis and date. Preserve unknown until obtained.",
+      "ledger": "WATCH_RETAIL_PRICING_EVIDENCE_2026-10-28_FINAL_OMEGA_PASS.json"
+    },
+    {
+      "brand": "Omega",
+      "collection": "Seamaster Planet Ocean",
+      "reference": "232.63.42.21.01.001",
+      "path": "/collections/omega/planet-ocean/232-63-42-21-01-001",
+      "status": "hold-manufacturer-price-not-published",
+      "checkedAt": "2026-10-28",
+      "sourceUrl": "https://www.omegawatches.com/en-us/watch-omega-seamaster-planet-ocean-600m-omega-co-axial-42-mm-23263422101001",
+      "outcome": "Exact selected model matches photographed identity. Manufacturer US panel gives an unavailable notice without selected list price. No accepted current or historical MSRP was obtained.",
+      "requiredEvidence": "An archived Omega US product page or manufacturer price list with a dated, explicitly USD price for exact 232.63.42.21.01.001 / 18K rose gold, Black with luminous Arabic and baton hour markers, Black alligator leather strap; alternatively a manufacturer publication with explicit original market, currency, tax basis and date. Preserve unknown until obtained.",
+      "ledger": "WATCH_RETAIL_PRICING_EVIDENCE_2026-10-28_FINAL_OMEGA_PASS.json"
+    },
+    {
+      "brand": "Omega",
+      "collection": "Aqua Terra",
+      "reference": "220.10.41.21.03.001",
+      "path": "/collections/omega/aqua-terra/220-10-41-21-03-001",
+      "status": "hold-manufacturer-price-not-published",
+      "checkedAt": "2026-10-28",
+      "sourceUrl": "https://www.omegawatches.com/en-us/watch-omega-seamaster-aqua-terra-150m-co-axial-master-chronometer-41-mm-22010412103001",
+      "outcome": "Exact selected model matches photographed identity. Manufacturer US panel gives an unavailable notice without selected list price. No accepted current or historical MSRP was obtained.",
+      "requiredEvidence": "An archived Omega US product page or manufacturer price list with a dated, explicitly USD price for exact 220.10.41.21.03.001 / Stainless steel / blue horizontal teak dial / stainless steel bracelet; alternatively a manufacturer publication with explicit original market, currency, tax basis and date. Preserve unknown until obtained.",
+      "ledger": "WATCH_RETAIL_PRICING_EVIDENCE_2026-10-28_FINAL_OMEGA_PASS.json"
+    },
+    {
+      "brand": "Omega",
+      "collection": "Aqua Terra",
+      "reference": "220.12.41.21.03.002",
+      "path": "/collections/omega/aqua-terra/220-12-41-21-03-002",
+      "status": "hold-manufacturer-price-not-published",
+      "checkedAt": "2026-10-28",
+      "sourceUrl": "https://www.omegawatches.com/en-us/watch-omega-seamaster-aqua-terra-150m-co-axial-master-chronometer-41-mm-22012412103002",
+      "outcome": "Exact selected model matches photographed identity. Manufacturer US panel gives an unavailable notice without selected list price. No accepted current or historical MSRP was obtained.",
+      "requiredEvidence": "An archived Omega US product page or manufacturer price list with a dated, explicitly USD price for exact 220.12.41.21.03.002 / Stainless Steel, Blue teak-pattern, Rubber strap; alternatively a manufacturer publication with explicit original market, currency, tax basis and date. Preserve unknown until obtained.",
+      "ledger": "WATCH_RETAIL_PRICING_EVIDENCE_2026-10-28_FINAL_OMEGA_PASS.json"
+    },
+    {
+      "brand": "Omega",
+      "collection": "Aqua Terra",
+      "reference": "220.10.41.21.03.004",
+      "path": "/collections/omega/aqua-terra/220-10-41-21-03-004",
+      "status": "hold-manufacturer-price-not-published",
+      "checkedAt": "2026-10-28",
+      "sourceUrl": "https://www.omegawatches.com/en-us/watch-omega-seamaster-aqua-terra-150m-co-axial-master-chronometer-41-mm-22010412103004",
+      "outcome": "Exact selected model matches photographed identity. Manufacturer US panel gives an unavailable notice without selected list price. No accepted current or historical MSRP was obtained.",
+      "requiredEvidence": "An archived Omega US product page or manufacturer price list with a dated, explicitly USD price for exact 220.10.41.21.03.004 / Stainless Steel, Blue sun-brushed teak-stripe non-wave, Stainless-steel bracelet; alternatively a manufacturer publication with explicit original market, currency, tax basis and date. Preserve unknown until obtained.",
+      "ledger": "WATCH_RETAIL_PRICING_EVIDENCE_2026-10-28_FINAL_OMEGA_PASS.json"
+    },
+    {
+      "brand": "Audemars Piguet",
+      "collection": "Royal Oak Jumbo",
+      "reference": "15202ST",
+      "path": "/collections/audemars-piguet/royal-oak-jumbo/15202st",
+      "status": "EXACT_MANUFACTURER_PAGE_404_HOLD",
+      "checkedAt": "2026-10-28",
+      "sourceUrl": "https://www.audemarspiguet.com/us/en/watch-collection/royal-oak/15202ST.OO.1240ST.01",
+      "outcome": "Exact manufacturer page returns 404; no successor substituted.",
+      "requiredEvidence": [
+        "Exact pictured configuration, original market/currency/tax and manufacturer or authorized-retailer list-price documentation."
+      ],
+      "ledger": "WATCH_RETAIL_PRICING_EVIDENCE_2026-10-28_FINAL_AP_FRANCK_PASS.json"
+    },
+    {
+      "brand": "Audemars Piguet",
+      "collection": "Code 11.59",
+      "reference": "26393BC.OO.A321CR.01",
+      "path": "/collections/audemars-piguet/code-1159/26393bc-oo-a321cr-01",
+      "status": "EXACT_MANUFACTURER_PAGE_404_HOLD",
+      "checkedAt": "2026-10-28",
+      "sourceUrl": "https://www.audemarspiguet.com/us/en/watch-collection/code-1159/26393BC.OO.A321CR.01",
+      "outcome": "Exact manufacturer URL returns 404; no successor or alternate configuration substituted.",
+      "requiredEvidence": [
+        "Exact pictured configuration, original market/currency/tax and manufacturer or authorized-retailer list-price documentation."
+      ],
+      "ledger": "WATCH_RETAIL_PRICING_EVIDENCE_2026-10-28_FINAL_AP_FRANCK_PASS.json"
+    },
+    {
+      "brand": "Cartier",
+      "collection": "Ballon Bleu",
+      "reference": "WSBB0061",
+      "path": "/collections/cartier/ballon-bleu/ballon-bleu-40-mm",
+      "status": "primary-address-404-no-price",
+      "checkedAt": "2026-10-28",
+      "sourceUrl": "https://www.cartier.com/en-us/watches/collections/ballon-de-cartier/ballon-bleu-de-cartier-watch-CRWSBB0061.html",
+      "outcome": "Actually retrieved exact-SKU inferred manufacturer address returned404/no selected price. Existing pictured reference isWSBB0061; no successor generation or visually similar dial substituted.404 is an address outcome, not proof of discontinuation.",
+      "requiredEvidence": [
+        "ExactWSBB0061 manufacturer or authorized-retailer current/historical list price with market/currency and date."
+      ],
+      "ledger": "WATCH_RETAIL_PRICING_EVIDENCE_2026-10-28_FINAL_OTHER_PASS.json"
+    },
+    {
+      "brand": "Cartier",
+      "collection": "Ballon Bleu",
+      "reference": "W6920042",
+      "path": "/collections/cartier/ballon-bleu/ballon-bleu-42-mm",
+      "status": "primary-address-404-no-price",
+      "checkedAt": "2026-10-28",
+      "sourceUrl": "https://www.cartier.com/en-us/watches/collections/ballon-de-cartier/ballon-bleu-de-cartier-watch-CRW6920042.html",
+      "outcome": "Actually retrieved exact-SKU inferred manufacturer address returned404/no selected price. Existing pictured reference isW6920042; no successor generation or visually similar dial substituted.404 is an address outcome, not proof of discontinuation.",
+      "requiredEvidence": [
+        "ExactW6920042 manufacturer or authorized-retailer current/historical list price with market/currency and date."
+      ],
+      "ledger": "WATCH_RETAIL_PRICING_EVIDENCE_2026-10-28_FINAL_OTHER_PASS.json"
+    },
+    {
+      "brand": "Cartier",
+      "collection": "Pasha",
+      "reference": "WSPA0038",
+      "path": "/collections/cartier/pasha/pasha-de-cartier-41-mm",
+      "status": "primary-address-404-no-price",
+      "checkedAt": "2026-10-28",
+      "sourceUrl": "https://www.cartier.com/en-us/watches/collections/pasha-de-cartier/pasha-de-cartier-watch-CRWSPA0038.html",
+      "outcome": "Actually retrieved exact-SKU inferred manufacturer address returned404/no selected price. Existing pictured reference isWSPA0038; no successor generation or visually similar dial substituted.404 is an address outcome, not proof of discontinuation.",
+      "requiredEvidence": [
+        "ExactWSPA0038 manufacturer or authorized-retailer current/historical list price with market/currency and date."
+      ],
+      "ledger": "WATCH_RETAIL_PRICING_EVIDENCE_2026-10-28_FINAL_OTHER_PASS.json"
+    },
+    {
+      "brand": "Cartier",
+      "collection": "Pasha",
+      "reference": "WGPA0017",
+      "path": "/collections/cartier/pasha/pasha-chronograph-41-mm",
+      "status": "primary-address-404-no-price",
+      "checkedAt": "2026-10-28",
+      "sourceUrl": "https://www.cartier.com/en-us/watches/collections/pasha-de-cartier/pasha-de-cartier-watch--CRWGPA0017.html",
+      "outcome": "Actually retrieved exact-SKU inferred manufacturer address returned404/no selected price. Existing pictured reference isWGPA0017; no successor generation or visually similar dial substituted.404 is an address outcome, not proof of discontinuation.",
+      "requiredEvidence": [
+        "ExactWGPA0017 manufacturer or authorized-retailer current/historical list price with market/currency and date."
+      ],
+      "ledger": "WATCH_RETAIL_PRICING_EVIDENCE_2026-10-28_FINAL_OTHER_PASS.json"
+    },
+    {
+      "brand": "Patek Philippe",
+      "collection": "Calatrava",
+      "reference": "5196",
+      "path": "/collections/patek-philippe/calatrava/5196",
+      "status": "primary-address-404-no-price",
+      "checkedAt": "2026-10-28",
+      "sourceUrl": "https://www.patek.com/en/collection/calatrava/5196R-001",
+      "outcome": "Exact pictured-reference manufacturer product address was actually retrieved and returned Page Not Found (HTTP404). No selected product/list price. A missing page does not prove manufacturer never published a price.",
+      "requiredEvidence": [
+        "Dated manufacturer historical price list/catalog or authorized-retailer original list price for this exact suffix/configuration and market.",
+        "Do not substitute later Nautilus generations, green-dial5711/1A-014, rose-gold5712, or rubber-strap5167A price."
+      ],
+      "ledger": "WATCH_RETAIL_PRICING_EVIDENCE_2026-10-28_FINAL_OTHER_PASS.json"
+    },
+    {
+      "brand": "Panerai",
+      "collection": "Submersible",
+      "reference": "PAM00683",
+      "path": "/collections/panerai/submersible/pam00683",
+      "status": "primary-address-404-no-price",
+      "checkedAt": "2026-10-28",
+      "sourceUrl": "https://www.panerai.com/us/en/collections/watch-collection/submersible/pam00683-submersible.html",
+      "outcome": "Exact inferred US product URL returns manufacturer 404; no price verified.",
+      "requiredEvidence": [
+        "Dated exact PAM00683 original/current list price from manufacturer archive or authorized retailer, with market and currency."
+      ],
+      "ledger": "WATCH_RETAIL_PRICING_EVIDENCE_2026-10-28_FINAL_OTHER_PASS.json"
+    },
+    {
+      "brand": "Panerai",
+      "collection": "Submersible",
+      "reference": "PAM01305",
+      "path": "/collections/panerai/submersible/pam01305",
+      "status": "manufacturer-redirect-no-exact-price",
+      "checkedAt": "2026-10-28",
+      "sourceUrl": "https://www.panerai.com/us/en/collections/watch-collection/submersible/pam01305-submersible.html",
+      "outcome": "Original exact-model URL redirects to Submersible collection with different SKUs; no own price verified.",
+      "requiredEvidence": [
+        "Historical manufacturer or authorized-retailer list price for exact PAM code and strap/dial configuration; collection/replacement prices excluded."
+      ],
+      "ledger": "WATCH_RETAIL_PRICING_EVIDENCE_2026-10-28_FINAL_OTHER_PASS.json"
+    },
+    {
+      "brand": "Panerai",
+      "collection": "Submersible",
+      "reference": "PAM01616",
+      "path": "/collections/panerai/submersible/pam01616",
+      "status": "manufacturer-redirect-no-exact-price",
+      "checkedAt": "2026-10-28",
+      "sourceUrl": "https://www.panerai.com/us/en/collections/watch-collection/submersible/pam01616-submersible-carbotech.html",
+      "outcome": "Original exact-model URL redirects to Submersible collection with different SKUs. No exact current manufacturer price verified.",
+      "requiredEvidence": [
+        "Historical manufacturer or authorized-retailer list price for exact PAM code and strap/dial configuration; collection/replacement prices excluded."
+      ],
+      "ledger": "WATCH_RETAIL_PRICING_EVIDENCE_2026-10-28_FINAL_OTHER_PASS.json"
+    },
+    {
+      "brand": "Tudor",
+      "collection": "Royal",
+      "reference": "M28500-0006",
+      "path": "/collections/tudor/royal/tudor-royal-38-mm",
+      "status": "manufacturer-redirect-different-configuration",
+      "checkedAt": "2026-10-28",
+      "sourceUrl": "https://www.tudorwatch.com/en/watches/tudor-royal/m28500-0006",
+      "outcome": "Actually opened exact old model URL redirects to new Royal collection featuring different36/40mm references. No price for picturedM28500-000638/41mm established.",
+      "requiredEvidence": [
+        "ExactM28500-0006 historical manufacturer price list or dated authorized-retailer list price."
+      ],
+      "ledger": "WATCH_RETAIL_PRICING_EVIDENCE_2026-10-28_FINAL_OTHER_PASS.json"
+    },
+    {
+      "brand": "Tudor",
+      "collection": "Prince",
+      "reference": "74000",
+      "path": "/collections/tudor/prince/prince-date",
+      "status": "primary-search-no-exact-price-provenance",
+      "checkedAt": "2026-10-28",
+      "sourceUrl": "https://www.tudorwatch.com/en/inside-tudor/history",
+      "outcome": "Bounded manufacturer exact-reference search produced postal-code false matches; no manufacturer74000 retail price or valid watch-model primary source established. Existing Watchfinder source is picture identity only.",
+      "requiredEvidence": [
+        "Manufacturer historical catalog or authorized-retailer original list-price record for74000 silver-dial bracelet configuration, with date/market/currency."
+      ],
+      "ledger": "WATCH_RETAIL_PRICING_EVIDENCE_2026-10-28_FINAL_OTHER_PASS.json"
+    },
+    {
+      "brand": "Tudor",
+      "collection": "Prince",
+      "reference": "79280",
+      "path": "/collections/tudor/prince/prince-chronograph",
+      "status": "manufacturer-history-identity-no-price",
+      "checkedAt": "2026-10-28",
+      "sourceUrl": "https://www.tudorwatch.com/en/inside-tudor/history/tudor-history-chronographs-1995-to-2000",
+      "outcome": "Actually read manufacturer1995\u20132000 chronograph history; it identifies Prince Oysterdate79280 and steel engraved tachymeter bezel, but no numeric MSRP. Identity history cannot establish original price.",
+      "requiredEvidence": [
+        "Dated exact79280 manufacturer or authorized-retailer original list price; dial/configuration match or explicitly base-reference-only scope."
+      ],
+      "ledger": "WATCH_RETAIL_PRICING_EVIDENCE_2026-10-28_FINAL_OTHER_PASS.json"
+    },
+    {
+      "brand": "Ulysse Nardin",
+      "collection": "Marine",
+      "reference": "Marine Chronometer",
+      "path": "/collections/ulysse-nardin/marine/marine-chronometer",
+      "status": "primary-address-404-no-exact-price",
+      "checkedAt": "2026-10-28",
+      "sourceUrl": "https://www.ulysse-nardin.com/en-us/watches/discontinued-models/1183-126-7m-42",
+      "outcome": "Bounded inferred manufacturer discontinued-model archive lookup was actually retrieved and returned404; official site-scoped exact-reference search yielded no corresponding indexed price source. This is not proof of discontinuation or that MSRP never existed. Recommendation prices excluded.",
+      "requiredEvidence": [
+        "Manufacturer archive/dated list or authorized-retailer historical list price for exact1183-126-7M/42configuration, including currency/market and date."
+      ],
+      "ledger": "WATCH_RETAIL_PRICING_EVIDENCE_2026-10-28_FINAL_OTHER_PASS.json"
+    },
+    {
+      "brand": "Ulysse Nardin",
+      "collection": "Marine",
+      "reference": "1506-150LE-3/63-VB",
+      "path": "/collections/ulysse-nardin/marine/1506-150le-3-63-vb",
+      "status": "primary-address-404-no-exact-price",
+      "checkedAt": "2026-10-28",
+      "sourceUrl": "https://www.ulysse-nardin.com/en-us/watches/discontinued-models/1506-150le-3-63-vb",
+      "outcome": "Bounded inferred manufacturer discontinued-model archive lookup was actually retrieved and returned404; official site-scoped exact-reference search yielded no corresponding indexed price source. This is not proof of discontinuation or that MSRP never existed. Recommendation prices excluded.",
+      "requiredEvidence": [
+        "Manufacturer archive/dated list or authorized-retailer historical list price for exact1506-150LE-3/63-VBconfiguration, including currency/market and date."
+      ],
+      "ledger": "WATCH_RETAIL_PRICING_EVIDENCE_2026-10-28_FINAL_OTHER_PASS.json"
+    },
+    {
+      "brand": "Ulysse Nardin",
+      "collection": "Marine",
+      "reference": "266-67",
+      "path": "/collections/ulysse-nardin/marine/266-67",
+      "status": "primary-address-404-no-exact-price",
+      "checkedAt": "2026-10-28",
+      "sourceUrl": "https://www.ulysse-nardin.com/en-us/watches/discontinued-models/266-67-3-43",
+      "outcome": "Bounded inferred manufacturer discontinued-model archive lookup was actually retrieved and returned404; official site-scoped exact-reference search yielded no corresponding indexed price source. This is not proof of discontinuation or that MSRP never existed. Recommendation prices excluded.",
+      "requiredEvidence": [
+        "Manufacturer archive/dated list or authorized-retailer historical list price for exact266-67-3/43configuration, including currency/market and date."
+      ],
+      "ledger": "WATCH_RETAIL_PRICING_EVIDENCE_2026-10-28_FINAL_OTHER_PASS.json"
+    },
+    {
+      "brand": "Ulysse Nardin",
+      "collection": "Diver",
+      "reference": "Maxi Marine Diver",
+      "path": "/collections/ulysse-nardin/diver/maxi-marine-diver",
+      "status": "primary-address-404-no-exact-price",
+      "checkedAt": "2026-10-28",
+      "sourceUrl": "https://www.ulysse-nardin.com/en-us/watches/discontinued-models/266-10-3-92",
+      "outcome": "Bounded inferred manufacturer discontinued-model archive lookup was actually retrieved and returned404; official site-scoped exact-reference search yielded no corresponding indexed price source. This is not proof of discontinuation or that MSRP never existed. Recommendation prices excluded.",
+      "requiredEvidence": [
+        "Manufacturer archive/dated list or authorized-retailer historical list price for exact266-10-3/92configuration, including currency/market and date."
+      ],
+      "ledger": "WATCH_RETAIL_PRICING_EVIDENCE_2026-10-28_FINAL_OTHER_PASS.json"
+    },
+    {
+      "brand": "Ulysse Nardin",
+      "collection": "Diver",
+      "reference": "1502-151-3/93",
+      "path": "/collections/ulysse-nardin/diver/1502-151-3-93",
+      "status": "primary-address-404-no-exact-price",
+      "checkedAt": "2026-10-28",
+      "sourceUrl": "https://www.ulysse-nardin.com/en-us/watches/discontinued-models/1502-151-3-93",
+      "outcome": "Bounded inferred manufacturer discontinued-model archive lookup was actually retrieved and returned404; official site-scoped exact-reference search yielded no corresponding indexed price source. This is not proof of discontinuation or that MSRP never existed. Recommendation prices excluded.",
+      "requiredEvidence": [
+        "Manufacturer archive/dated list or authorized-retailer historical list price for exact1502-151-3/93configuration, including currency/market and date."
+      ],
+      "ledger": "WATCH_RETAIL_PRICING_EVIDENCE_2026-10-28_FINAL_OTHER_PASS.json"
+    },
+    {
+      "brand": "Ulysse Nardin",
+      "collection": "Diver",
+      "reference": "266-10-3/92",
+      "path": "/collections/ulysse-nardin/diver/266-10-3-92",
+      "status": "primary-address-404-no-exact-price",
+      "checkedAt": "2026-10-28",
+      "sourceUrl": "https://www.ulysse-nardin.com/en-us/watches/discontinued-models/266-10-3-92",
+      "outcome": "Bounded inferred manufacturer discontinued-model archive lookup was actually retrieved and returned404; official site-scoped exact-reference search yielded no corresponding indexed price source. This is not proof of discontinuation or that MSRP never existed. Recommendation prices excluded.",
+      "requiredEvidence": [
+        "Manufacturer archive/dated list or authorized-retailer historical list price for exact266-10-3/92configuration, including currency/market and date."
+      ],
+      "ledger": "WATCH_RETAIL_PRICING_EVIDENCE_2026-10-28_FINAL_OTHER_PASS.json"
+    },
+    {
+      "brand": "Ulysse Nardin",
+      "collection": "Diver",
+      "reference": "265-90-3c/93",
+      "path": "/collections/ulysse-nardin/diver/265-90-3c-93",
+      "status": "primary-address-404-no-exact-price",
+      "checkedAt": "2026-10-28",
+      "sourceUrl": "https://www.ulysse-nardin.com/en-us/watches/discontinued-models/265-90-3c-93",
+      "outcome": "Bounded inferred manufacturer discontinued-model archive lookup was actually retrieved and returned404; official site-scoped exact-reference search yielded no corresponding indexed price source. This is not proof of discontinuation or that MSRP never existed. Recommendation prices excluded.",
+      "requiredEvidence": [
+        "Manufacturer archive/dated list or authorized-retailer historical list price for exact265-90-3c/93configuration, including currency/market and date."
+      ],
+      "ledger": "WATCH_RETAIL_PRICING_EVIDENCE_2026-10-28_FINAL_OTHER_PASS.json"
+    },
+    {
+      "brand": "Patek Philippe",
+      "collection": "Aquanaut",
+      "reference": "5167/1A-001",
+      "path": "/collections/patek-philippe/aquanaut/5167-1a-001",
+      "status": "primary-address-404-no-price",
+      "checkedAt": "2026-10-28",
+      "sourceUrl": "https://www.patek.com/en/collection/aquanaut/5167-1a-001",
+      "outcome": "Exact pictured-reference manufacturer product address was actually retrieved and returned Page Not Found (HTTP404). No selected product/list price. A missing page does not prove manufacturer never published a price.",
+      "requiredEvidence": [
+        "Dated manufacturer historical price list/catalog or authorized-retailer original list price for this exact suffix/configuration and market.",
+        "Do not substitute later Nautilus generations, green-dial5711/1A-014, rose-gold5712, or rubber-strap5167A price."
+      ],
+      "ledger": "WATCH_RETAIL_PRICING_EVIDENCE_2026-10-28_FINAL_OTHER_PASS.json"
+    },
+    {
+      "brand": "Hublot",
+      "collection": "Big Bang Unico",
+      "reference": "441.NX.1171.RX",
+      "path": "/collections/hublot/big-bang-unico/441-nx-1171-rx",
+      "status": "manufacturer-address-redirect-no-exact-price",
+      "checkedAt": "2026-10-28",
+      "sourceUrl": "https://www.hublot.com/en-us/watches/big-bang/big-bang-unico-titanium-42-mm",
+      "outcome": "Same manufacturer lookup as canonical alias441-NX-1171-RX:42mm source resolves to Hublot homepage, no exact product price.",
+      "requiredEvidence": [
+        "Exact441.NX.1171.RX42mm official current or historical list price."
+      ],
+      "ledger": "WATCH_RETAIL_PRICING_EVIDENCE_2026-10-28_FINAL_OTHER_PASS.json"
+    },
+    {
+      "brand": "Hublot",
+      "collection": "Big Bang Unico",
+      "reference": "411.OM.1180.RX",
+      "path": "/collections/hublot/big-bang-unico/411-om-1180-rx",
+      "status": "manufacturer-redirect-different-configuration",
+      "checkedAt": "2026-10-28",
+      "sourceUrl": "https://www.hublot.com/en-us/watches/big-bang/big-bang-unico-king-gold-ceramic-45-mm",
+      "outcome": "Old 45 mm URL redirects to 44 mm 421.OM.1180.RX, USD45,700. Different exact reference, size and movement; replacement price excluded.",
+      "requiredEvidence": [
+        "Dated exact411-series45mm/HUB1242 original list-price source. Current421-series44mm/HUB1280 retail prices are not interchangeable."
+      ],
+      "ledger": "WATCH_RETAIL_PRICING_EVIDENCE_2026-10-28_FINAL_OTHER_PASS.json"
+    },
+    {
+      "brand": "Hublot",
+      "collection": "Big Bang Unico",
+      "reference": "411.OX.1180.RX",
+      "path": "/collections/hublot/big-bang-unico/411-ox-1180-rx",
+      "status": "manufacturer-redirect-different-configuration",
+      "checkedAt": "2026-10-28",
+      "sourceUrl": "https://www.hublot.com/en-us/watches/big-bang/big-bang-unico-king-gold-45-mm",
+      "outcome": "Old 45 mm URL redirects to 44 mm 421.OX.1180.RX, USD49,300. Different exact reference, size and movement; replacement price excluded.",
+      "requiredEvidence": [
+        "Dated exact411-series45mm/HUB1242 original list-price source. Current421-series44mm/HUB1280 retail prices are not interchangeable."
+      ],
+      "ledger": "WATCH_RETAIL_PRICING_EVIDENCE_2026-10-28_FINAL_OTHER_PASS.json"
+    },
+    {
+      "brand": "Vacheron Constantin",
+      "collection": "Traditionnelle",
+      "reference": "6000T/000P-H025",
+      "path": "/collections/vacheron-constantin/traditionnelle/6000t-000p-h025",
+      "status": "manufacturer-price-on-request",
+      "checkedAt": "2026-10-28",
+      "sourceUrl": "https://www.vacheron-constantin.com/us/en/collections/traditionnelle/6000t-000p-h025.html",
+      "outcome": "Manufacturer exact US page explicitly states price on request; USD metadata price field has no numeric value. No price inferred.",
+      "requiredEvidence": [
+        "Written manufacturer/boutique or authorized retailer list-price confirmation for exact reference, market/currency and date."
+      ],
+      "ledger": "WATCH_RETAIL_PRICING_EVIDENCE_2026-10-28_FINAL_OTHER_PASS.json"
+    },
+    {
+      "brand": "Franck Muller",
+      "collection": "Rabbit",
+      "reference": "V 41 SC DT FR2 GFGRNR (NR)",
+      "path": "/collections/franck-muller/rabbit/v-41-sc-dt-fr2-gfgrnr-nr",
+      "status": "UNKNOWN_HOLD",
+      "checkedAt": "2026-10-28",
+      "sourceUrl": "https://www.franckmuller.com/zh/news/fr2nckmuller-vanguard",
+      "outcome": "Manufacturer collaboration publication confirms original Rabbit release; no numeric manufacturer price located. Do not substitute later FR2 Beach.",
+      "requiredEvidence": [
+        "Exact pictured configuration, original market/currency/tax and manufacturer or authorized-retailer list-price documentation."
+      ],
+      "ledger": "WATCH_RETAIL_PRICING_EVIDENCE_2026-10-28_FINAL_AP_FRANCK_PASS.json"
+    },
+    {
+      "brand": "Franck Muller",
+      "collection": "Crazy Hours",
+      "reference": "8880CHACLB",
+      "path": "/collections/franck-muller/crazy-hours/8880chaclb",
+      "status": "AFFILIATION_AND_PRICE_BASIS_HOLD",
+      "checkedAt": "2026-10-28",
+      "sourceUrl": "https://franckmuller-usa.com/cintree_curvex_men_crazy_hours/8880CHACLB_Cintr%C3%A9e_Curvex_Crazy_Hours",
+      "outcome": "Regional site names Franck Muller USA Inc. but this review has not yet independently established manufacturer ownership/affiliation or that displayed amount is manufacturer recommended retail price. Do not import as MSRP.",
+      "requiredEvidence": [
+        "Exact pictured configuration, original market/currency/tax and manufacturer or authorized-retailer list-price documentation."
+      ],
+      "ledger": "WATCH_RETAIL_PRICING_EVIDENCE_2026-10-28_FINAL_AP_FRANCK_PASS.json"
+    },
+    {
+      "brand": "Franck Muller",
+      "collection": "Yachting",
+      "reference": "V45SCYACHTACBL",
+      "path": "/collections/franck-muller/yachting/v45scyachtacbl",
+      "status": "AFFILIATION_AND_PRICE_BASIS_HOLD",
+      "checkedAt": "2026-10-28",
+      "sourceUrl": "https://franckmuller-usa.com/vanguard_yachting/V45SCYACHTACBL_Vanguard_Yachting",
+      "outcome": "Regional site names Franck Muller USA Inc. but this review has not yet independently established manufacturer ownership/affiliation or that displayed amount is manufacturer recommended retail price. Do not import as MSRP.",
+      "requiredEvidence": [
+        "Exact pictured configuration, original market/currency/tax and manufacturer or authorized-retailer list-price documentation."
+      ],
+      "ledger": "WATCH_RETAIL_PRICING_EVIDENCE_2026-10-28_FINAL_AP_FRANCK_PASS.json"
+    },
+    {
+      "brand": "Franck Muller",
+      "collection": "Yachting",
+      "reference": "V 45 SC DT YACHT CR BL (BL)",
+      "path": "/collections/franck-muller/yachting/v-45-sc-dt-yacht-cr-bl-bl",
+      "status": "UNKNOWN_HOLD",
+      "checkedAt": "2026-10-28",
+      "sourceUrl": "https://www.franckmuller.com/fr/vanguard-yachting-ceramic",
+      "outcome": "Exact manufacturer configuration page provides price-request link without numeric price. Do not apply the steel USA Yachting price.",
+      "requiredEvidence": [
+        "Exact pictured configuration, original market/currency/tax and manufacturer or authorized-retailer list-price documentation."
+      ],
+      "ledger": "WATCH_RETAIL_PRICING_EVIDENCE_2026-10-28_FINAL_AP_FRANCK_PASS.json"
+    },
+    {
+      "brand": "Jaeger-LeCoultre",
+      "collection": "Master Grande Tradition",
+      "reference": "Q52334E1",
+      "path": "/collections/jaeger-lecoultre/master-grande-tradition/q52334e1",
+      "status": "manufacturer-price-on-request",
+      "checkedAt": "2026-10-28",
+      "sourceUrl": "https://www.jaeger-lecoultre.com/us-en/watches/master-grande-tradition/master-grande-tradition-calibre-950-white-gold-q52334e1",
+      "outcome": "Manufacturer exact reference says price available upon request. No numeric price inferred from similar minute repeaters or recommendations.",
+      "requiredEvidence": [
+        "Written manufacturer/boutique or authorized retailer list-price confirmation for exact reference, market/currency and date."
+      ],
+      "ledger": "WATCH_RETAIL_PRICING_EVIDENCE_2026-10-28_FINAL_OTHER_PASS.json"
+    },
+    {
+      "brand": "Richard Mille",
+      "collection": "RM 67",
+      "reference": "RM 67-01",
+      "path": "/collections/richard-mille/rm-67/rm-67-01",
+      "status": "manufacturer-no-numeric-price",
+      "checkedAt": "2026-10-28",
+      "sourceUrl": "https://www.richardmille.com/collections/rm-67-01-automatic-extra-flat",
+      "outcome": "Exact manufacturer model page read; no numeric manufacturer list price observed. No dealer ask used.",
+      "requiredEvidence": [
+        "Manufacturer pricing confirmation or dated official list price for the exact catalog configuration; no dealer asking price or inference from limited-edition size."
+      ],
+      "ledger": "WATCH_RETAIL_PRICING_EVIDENCE_2026-10-28_FINAL_OTHER_PASS.json"
+    },
+    {
+      "brand": "Richard Mille",
+      "collection": "RM 27",
+      "reference": "RM 27-05",
+      "path": "/collections/richard-mille/rm-27/rm-27-05",
+      "status": "manufacturer-no-numeric-price",
+      "checkedAt": "2026-10-28",
+      "sourceUrl": "https://www.richardmille.com/collections/rm-27-05-flying-tourbillon-rafael-nadal",
+      "outcome": "Exact manufacturer model page read; no numeric manufacturer price observed. No estimate inferred from its limited edition or other Richard Mille references.",
+      "requiredEvidence": [
+        "Manufacturer pricing confirmation or dated official list price for the exact catalog configuration; no dealer asking price or inference from limited-edition size."
+      ],
+      "ledger": "WATCH_RETAIL_PRICING_EVIDENCE_2026-10-28_FINAL_OTHER_PASS.json"
+    },
+    {
+      "brand": "Omega",
+      "collection": "Speedmaster Dark Side of the Moon",
+      "reference": "311.92.44.51.01.003",
+      "path": "/collections/omega/dark-side-of-the-moon/311-92-44-51-01-003",
+      "status": "hold-manufacturer-price-not-published",
+      "checkedAt": "2026-10-28",
+      "sourceUrl": "https://www.omegawatches.com/en-us/watch-omega-speedmaster-dark-side-of-the-moon-co-axial-chronometer-chronograph-44-25-mm-31192445101003",
+      "outcome": "Exact selected model matches photographed identity. Manufacturer US panel gives an unavailable notice without selected list price. No accepted current or historical MSRP was obtained.",
+      "requiredEvidence": "An archived Omega US product page or manufacturer price list with a dated, explicitly USD price for exact 311.92.44.51.01.003 / Black Ceramic, Black, Black nylon fabric strap; alternatively a manufacturer publication with explicit original market, currency, tax basis and date. Preserve unknown until obtained.",
+      "ledger": "WATCH_RETAIL_PRICING_EVIDENCE_2026-10-28_FINAL_OMEGA_PASS.json"
+    },
+    {
+      "brand": "Franck Muller",
+      "collection": "Vanguard Encrypto",
+      "reference": "V 45 SC DT BTC TT BR (NR)",
+      "path": "/collections/franck-muller/vanguard-encrypto/v-45-sc-dt-btc-tt-br-nr",
+      "status": "UNKNOWN_HOLD",
+      "checkedAt": "2026-10-28",
+      "sourceUrl": "https://www.franckmuller.com/fr/vanguard-encrypto-",
+      "outcome": "Exact manufacturer SKU published with price-request link; no numeric price. Page links a separate Encrypto commerce site; no order/asking price substituted.",
+      "requiredEvidence": [
+        "Exact pictured configuration, original market/currency/tax and manufacturer or authorized-retailer list-price documentation."
+      ],
+      "ledger": "WATCH_RETAIL_PRICING_EVIDENCE_2026-10-28_FINAL_AP_FRANCK_PASS.json"
+    },
+    {
+      "brand": "Franck Muller",
+      "collection": "Vanguard Beach",
+      "reference": "V 41 SC DT BEACH BU BL GF1",
+      "path": "/collections/franck-muller/vanguard-beach/v-41-sc-dt-beach-bu-bl-gf1",
+      "status": "UNKNOWN_HOLD",
+      "checkedAt": "2026-10-28",
+      "sourceUrl": "https://franckmuller-asiapacific.com/timepieces/vanguard-beach/",
+      "outcome": "Regional family page retrieved. Regional legal publisher is Franck Muller Private Limited, with Cortina-group policy references; manufacturer ownership and exact SKU-level MSRP basis not established in bounded review.",
+      "requiredEvidence": [
+        "Exact pictured configuration, original market/currency/tax and manufacturer or authorized-retailer list-price documentation."
+      ],
+      "ledger": "WATCH_RETAIL_PRICING_EVIDENCE_2026-10-28_FINAL_AP_FRANCK_PASS.json"
+    },
+    {
+      "brand": "Franck Muller",
+      "collection": "FR2NCK Vanguard Beach",
+      "reference": "V 41 SC DT BEACH FR2 GFBUBL (BC)",
+      "path": "/collections/franck-muller/fr2nck-vanguard-beach/v-41-sc-dt-beach-fr2-gfbubl-bc",
+      "status": "UNKNOWN_HOLD",
+      "checkedAt": "2026-10-28",
+      "sourceUrl": "https://franckmuller-asiapacific.com/timepieces/fr2nck-muller-vanguard-beach/",
+      "outcome": "Regional collection displays SGD19,400 (also other currencies) for three colourways; exact SKU text and manufacturer MSRP authority not established. Do not import family price as exact-reference MSRP.",
+      "requiredEvidence": [
+        "Exact pictured configuration, original market/currency/tax and manufacturer or authorized-retailer list-price documentation."
+      ],
+      "ledger": "WATCH_RETAIL_PRICING_EVIDENCE_2026-10-28_FINAL_AP_FRANCK_PASS.json"
+    },
+    {
+      "brand": "Franck Muller",
+      "collection": "FR2NCK Vanguard Beach",
+      "reference": "V 41 SC DT BEACH FR2 GFRGFRG (BC)",
+      "path": "/collections/franck-muller/fr2nck-vanguard-beach/v-41-sc-dt-beach-fr2-gfrgfrg-bc",
+      "status": "UNKNOWN_HOLD",
+      "checkedAt": "2026-10-28",
+      "sourceUrl": "https://franckmuller-asiapacific.com/timepieces/fr2nck-muller-vanguard-beach/",
+      "outcome": "Regional collection displays SGD19,400 (also other currencies) for three colourways; exact SKU text and manufacturer MSRP authority not established.",
+      "requiredEvidence": [
+        "Exact pictured configuration, original market/currency/tax and manufacturer or authorized-retailer list-price documentation."
+      ],
+      "ledger": "WATCH_RETAIL_PRICING_EVIDENCE_2026-10-28_FINAL_AP_FRANCK_PASS.json"
+    },
+    {
+      "brand": "Franck Muller",
+      "collection": "FR2NCK Vanguard Beach",
+      "reference": "V 41 SC DT BEACH FR2 GFVRVE (BC)",
+      "path": "/collections/franck-muller/fr2nck-vanguard-beach/v-41-sc-dt-beach-fr2-gfvrve-bc",
+      "status": "UNKNOWN_HOLD",
+      "checkedAt": "2026-10-28",
+      "sourceUrl": "https://franckmuller-asiapacific.com/timepieces/fr2nck-muller-vanguard-beach/",
+      "outcome": "Regional collection displays SGD19,400 (also other currencies) for three colourways; exact SKU text and manufacturer MSRP authority not established.",
+      "requiredEvidence": [
+        "Exact pictured configuration, original market/currency/tax and manufacturer or authorized-retailer list-price documentation."
+      ],
+      "ledger": "WATCH_RETAIL_PRICING_EVIDENCE_2026-10-28_FINAL_AP_FRANCK_PASS.json"
+    },
+    {
+      "brand": "Franck Muller",
+      "collection": "Vanguard Smurfette",
+      "reference": "V 32 SC AT FO SMURFETTE (BL)",
+      "path": "/collections/franck-muller/vanguard-smurfette/v-32-sc-at-fo-smurfette-bl",
+      "status": "UNKNOWN_HOLD",
+      "checkedAt": "2026-10-28",
+      "sourceUrl": "https://www.franckmuller.com/it/news/vanguard-smurfette",
+      "outcome": "Manufacturer collection release retrieved without a numeric price. No reseller asking price applied.",
+      "requiredEvidence": [
+        "Exact pictured configuration, original market/currency/tax and manufacturer or authorized-retailer list-price documentation."
+      ],
+      "ledger": "WATCH_RETAIL_PRICING_EVIDENCE_2026-10-28_FINAL_AP_FRANCK_PASS.json"
+    },
+    {
+      "brand": "Franck Muller",
+      "collection": "Vanguard Smurfette",
+      "reference": "V 32 SC AT FO SMURFETTE (RS)",
+      "path": "/collections/franck-muller/vanguard-smurfette/v-32-sc-at-fo-smurfette-rs",
+      "status": "UNKNOWN_HOLD",
+      "checkedAt": "2026-10-28",
+      "sourceUrl": "https://www.franckmuller.com/it/news/vanguard-smurfette",
+      "outcome": "Manufacturer collection release retrieved without a numeric price. No reseller asking price applied.",
+      "requiredEvidence": [
+        "Exact pictured configuration, original market/currency/tax and manufacturer or authorized-retailer list-price documentation."
+      ],
+      "ledger": "WATCH_RETAIL_PRICING_EVIDENCE_2026-10-28_FINAL_AP_FRANCK_PASS.json"
+    },
+    {
+      "brand": "Franck Muller",
+      "collection": "Bamford Collaborations",
+      "reference": "7880 CH PNTS NR",
+      "path": "/collections/franck-muller/bamford-collaborations/7880-ch-pnts-nr",
+      "status": "PRIMARY_COLLABORATOR_SOLD_OUT_NO_NUMERIC_PRICE_HOLD",
+      "checkedAt": "2026-10-28",
+      "sourceUrl": "https://www.bamfordwatchdepartment.com/product/franck-muller-x-bwd-crazy-love-snoopy-limited-edition/",
+      "outcome": "Exact primary collaboration page lists MODEL REF7880 CH PNTS NR and SOLD OUT. No numerical public price is present; current MSRP remains unknown.",
+      "requiredEvidence": [
+        "Exact pictured configuration, original market/currency/tax and manufacturer or authorized-retailer list-price documentation."
+      ],
+      "ledger": "WATCH_RETAIL_PRICING_EVIDENCE_2026-10-28_FINAL_AP_FRANCK_PASS.json"
+    },
+    {
+      "brand": "Omega",
+      "collection": "Seamaster 300",
+      "reference": "233.32.41.21.01.001",
+      "path": "/collections/omega/seamaster-300/233-32-41-21-01-001",
+      "status": "hold-manufacturer-price-not-published",
+      "checkedAt": "2026-10-28",
+      "sourceUrl": "https://www.omegawatches.com/en-us/watch-omega-seamaster-300-master-co-axial-chronometer-41-mm-23332412101001",
+      "outcome": "Exact selected model matches photographed identity. Manufacturer US panel gives an unavailable notice without selected list price. No accepted current or historical MSRP was obtained.",
+      "requiredEvidence": "An archived Omega US product page or manufacturer price list with a dated, explicitly USD price for exact 233.32.41.21.01.001 / Stainless Steel, Black, Black-and-grey striped NATO strap; alternatively a manufacturer publication with explicit original market, currency, tax basis and date. Preserve unknown until obtained.",
+      "ledger": "WATCH_RETAIL_PRICING_EVIDENCE_2026-10-28_FINAL_OMEGA_PASS.json"
+    },
+    {
+      "brand": "Omega",
+      "collection": "Seamaster Planet Ocean GMT",
+      "reference": "215.30.44.22.01.001",
+      "path": "/collections/omega/planet-ocean-gmt/215-30-44-22-01-001",
+      "status": "hold-manufacturer-price-not-published",
+      "checkedAt": "2026-10-28",
+      "sourceUrl": "https://www.omegawatches.com/en-us/watch-omega-seamaster-planet-ocean-600m-co-axial-master-chronometer-gmt-43-5-mm-21530442201001",
+      "outcome": "Exact selected model matches photographed identity. Manufacturer US panel gives an unavailable notice without selected list price. No accepted current or historical MSRP was obtained.",
+      "requiredEvidence": "An archived Omega US product page or manufacturer price list with a dated, explicitly USD price for exact 215.30.44.22.01.001 / Stainless Steel, Black, Stainless-steel bracelet; alternatively a manufacturer publication with explicit original market, currency, tax basis and date. Preserve unknown until obtained.",
+      "ledger": "WATCH_RETAIL_PRICING_EVIDENCE_2026-10-28_FINAL_OMEGA_PASS.json"
+    },
+    {
+      "brand": "Omega",
+      "collection": "Constellation",
+      "reference": "131.63.41.21.03.001",
+      "path": "/collections/omega/constellation/131-63-41-21-03-001",
+      "status": "hold-manufacturer-price-not-published",
+      "checkedAt": "2026-10-28",
+      "sourceUrl": "https://www.omegawatches.com/en-us/watch-omega-constellation-co-axial-master-chronometer-41-mm-13163412103001",
+      "outcome": "Exact selected model matches photographed identity. Manufacturer US panel gives an unavailable notice without selected list price. No accepted current or historical MSRP was obtained.",
+      "requiredEvidence": "An archived Omega US product page or manufacturer price list with a dated, explicitly USD price for exact 131.63.41.21.03.001 / 18K Sedna gold, Blue sun-brushed, Blue leather strap; alternatively a manufacturer publication with explicit original market, currency, tax basis and date. Preserve unknown until obtained.",
+      "ledger": "WATCH_RETAIL_PRICING_EVIDENCE_2026-10-28_FINAL_OMEGA_PASS.json"
+    },
+    {
+      "brand": "Omega",
+      "collection": "Constellation",
+      "reference": "131.10.28.60.56.001",
+      "path": "/collections/omega/constellation/131-10-28-60-56-001",
+      "status": "hold-manufacturer-price-not-published",
+      "checkedAt": "2026-10-28",
+      "sourceUrl": "https://www.omegawatches.com/en-us/watch-omega-constellation-quartz-28-mm-13110286056001",
+      "outcome": "Exact selected model matches photographed identity. Manufacturer US panel gives an unavailable notice without selected list price. No accepted current or historical MSRP was obtained.",
+      "requiredEvidence": "An archived Omega US product page or manufacturer price list with a dated, explicitly USD price for exact 131.10.28.60.56.001 / Stainless Steel, Gray sun-brushed non-wave with diamonds, Stainless-steel bracelet; alternatively a manufacturer publication with explicit original market, currency, tax basis and date. Preserve unknown until obtained.",
+      "ledger": "WATCH_RETAIL_PRICING_EVIDENCE_2026-10-28_FINAL_OMEGA_PASS.json"
+    },
+    {
+      "brand": "Omega",
+      "collection": "De Ville Prestige",
+      "reference": "434.10.41.21.03.001",
+      "path": "/collections/omega/de-ville-prestige/434-10-41-21-03-001",
+      "status": "hold-manufacturer-price-not-published",
+      "checkedAt": "2026-10-28",
+      "sourceUrl": "https://www.omegawatches.com/en-us/watch-omega-de-ville-prestige-co-axial-master-chronometer-power-reserve-41-mm-43410412103001",
+      "outcome": "Exact selected model matches photographed identity. Manufacturer US panel gives an unavailable notice without selected list price. No accepted current or historical MSRP was obtained.",
+      "requiredEvidence": "An archived Omega US product page or manufacturer price list with a dated, explicitly USD price for exact 434.10.41.21.03.001 / Stainless Steel, Blue non-wave, Stainless-steel bracelet; alternatively a manufacturer publication with explicit original market, currency, tax basis and date. Preserve unknown until obtained.",
+      "ledger": "WATCH_RETAIL_PRICING_EVIDENCE_2026-10-28_FINAL_OMEGA_PASS.json"
+    }
+  ],
+  "reconciledAt": "2026-10-29"
+}
