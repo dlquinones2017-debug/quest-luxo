@@ -20,7 +20,7 @@ test("reference cards use sourced retail metadata and never promote legacy price
   const card = await source("src", "components", "ReferenceCard.astro");
 
   assert.match(card, /getVerifiedRetailPrices\(asset, brand\)/);
-  assert.match(card, /List price unverified\. Request a sourcing quote/);
+  assert.match(card, /MSRP unverified\. Request a sourcing quote/);
   assert.match(card, /formatRetailTaxBasis/);
   assert.match(card, /sourceUrl/);
   assert.match(card, /checkedAt/);

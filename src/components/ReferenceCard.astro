@@ -2,7 +2,7 @@
 import type { QuestLuxoAsset } from "../types/questLuxo";
 import { watchPhotographs } from "../data/watch-photography";
 import { approvedPhotograph } from "../lib/media/watchPhotography";
-import { getVerifiedRetailPrices, getRetailPriceSummary, formatRetailPrice, formatRetailTaxBasis } from "../lib/intelligence/watchRetailPricing";
+import { getVerifiedRetailPrices, getRetailPriceSummary, formatRetailPrice, formatRetailTaxBasis, formatRetailPriceLabel } from "../lib/intelligence/watchRetailPricing";
 import { buildBeginYourQuestUrl } from "../lib/leads/leadIntakeContext";
 interface Props {
   asset: QuestLuxoAsset; href: string; brand?: string; collection?: string;
@@ -36,16 +36,16 @@ const sourcingUrl = buildBeginYourQuestUrl({ intent: "request-this-watch", brand
     <div class="tags">{asset.productionStatus && <span>{asset.productionStatus}</span>}{asset.material && <span>{asset.material}</span>}</div>
     {showMsrp && <div class="retail">
       {retail ? <>
-        <strong>{retail.price.basis === "historical-list" ? "Historical list" : "Published list"} {retail.hasRange ? "from " : ""}{formatRetailPrice(retail.price)}</strong>
+        <strong>{formatRetailPriceLabel(retail.price)} {retail.hasRange ? "from " : ""}{formatRetailPrice(retail.price)}</strong>
         <span>{retail.price.currency} · {retail.price.market} · {formatRetailTaxBasis(retail.price)}</span>
         {retail.price.sourceType === "authorized-retailer" && <span>RRP published by an authorized retailer.</span>}
         {retail.price.sourceType === "manufacturer-submission" && <span>Historical manufacturer-entry retail price published by GPHG.</span>}
-        {retail.price.basis === "current-list" && (retail.price.currency !== "USD" || retail.price.market !== "United States") && <span>International list benchmark; U.S. list price unverified.</span>}
-        {retail.price.basis === "historical-list" && <span>Manufacturer price period: {retail.price.effectiveDate ?? retail.price.effectivePeriod ?? "Date unconfirmed"}. Current list price unverified.</span>}
+        {retail.price.basis === "current-list" && (retail.price.currency !== "USD" || retail.price.market !== "United States") && <span>International retail benchmark; U.S. MSRP unverified.</span>}
+        {retail.price.basis === "historical-list" && <span>Manufacturer price period: {retail.price.effectiveDate ?? retail.price.effectivePeriod ?? "Date unconfirmed"}. Current MSRP unverified.</span>}
         {retail.price.configurationScope === "base-reference" && <span>Base-reference benchmark; pictured configuration not fully priced.</span>}
         <a href={retail.price.sourceUrl} target="_blank" rel="noopener noreferrer external">{retail.price.sourceName} · checked {retail.price.checkedAt}</a>
-        <span>{prices.length > 1 ? "Configuration-specific prices in reference profile." : retail.price.configuration} List benchmark; sourcing quote confirmed separately.</span>
-      </> : <span>List price unverified. Request a sourcing quote.</span>}
+        <span>{prices.length > 1 ? "Configuration-specific prices in reference profile." : retail.price.configuration} Retail benchmark; sourcing quote confirmed separately.</span>
+      </> : <span>MSRP unverified. Request a sourcing quote.</span>}
     </div>}
     <div class="actions"><a class="button" href={href}>{linkLabel}</a>{showMsrp && <a class="source-link" href={sourcingUrl}>Source this watch →</a>}</div>
     <details>
