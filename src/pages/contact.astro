@@ -96,6 +96,8 @@ import BaseLayout from "../layouts/BaseLayout.astro";
           data-form-status
           role="status"
           aria-live="polite"
+          aria-atomic="true"
+          tabindex="-1"
         ></p>
         <button type="submit" data-submit>Begin My Quest</button>
       </form>
@@ -136,9 +138,11 @@ import BaseLayout from "../layouts/BaseLayout.astro";
   }
 
   if (started) started.value = String(Date.now());
+  let submitting = false;
 
   form?.addEventListener("submit", async (event) => {
     event.preventDefault();
+    if (submitting) return;
     status?.classList.remove("error", "success");
     if (status) status.textContent = "";
 
@@ -157,6 +161,8 @@ import BaseLayout from "../layouts/BaseLayout.astro";
       source: "contact",
     };
 
+    submitting = true;
+    form.setAttribute("aria-busy", "true");
     if (submit) {
       submit.disabled = true;
       submit.textContent = "Submitting…";
@@ -173,11 +179,13 @@ import BaseLayout from "../layouts/BaseLayout.astro";
         throw new Error(result.error || "Unable to submit your inquiry.");
       }
       if (status) {
-        status.textContent = result.message;
+        status.textContent = "Your request has been received. A Quest Luxo advisor will review it.";
         status.classList.add("success");
+        status.focus();
       }
       form.reset();
       if (started) started.value = String(Date.now());
+      window.dispatchEvent(new Event("questluxo:lead-submitted"));
     } catch (error) {
       if (status) {
         status.textContent =
@@ -185,8 +193,11 @@ import BaseLayout from "../layouts/BaseLayout.astro";
             ? error.message
             : "Unable to submit. Please email info@questluxo.com.";
         status.classList.add("error");
+        status.focus();
       }
     } finally {
+      submitting = false;
+      form.setAttribute("aria-busy", "false");
       if (submit) {
         submit.disabled = false;
         submit.textContent = "Begin My Quest";
@@ -302,6 +313,11 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 
   .form-status.success {
     color: #245d31;
+  }
+
+  .form-status:focus-visible {
+    outline: 3px solid #173a5e;
+    outline-offset: 3px;
   }
 
   button {
