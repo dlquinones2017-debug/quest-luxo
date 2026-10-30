@@ -47,3 +47,8 @@ export function formatRetailTaxBasis(price: Pick<VerifiedRetailPrice, "taxBasis"
   return price.taxBasis === "unconfirmed" ? "Tax basis unconfirmed"
     : price.taxBasis === "excluded" ? "Taxes excluded" : "Taxes included";
 }
+
+export function formatRetailPriceLabel(price: Pick<VerifiedRetailPrice, "basis" | "sourceType">): string {
+  const label = price.sourceType === "authorized-retailer" ? "RRP" : "MSRP";
+  return price.basis === "historical-list" ? `Original ${label}` : label;
+}

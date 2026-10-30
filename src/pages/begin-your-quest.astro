@@ -8,9 +8,10 @@ import BaseLayout from "../layouts/BaseLayout.astro";
       <p class="eyebrow">Private Sourcing</p>
       <h1>Begin Your Quest</h1>
       <p>
-        Tell Quest Luxo what you want sourced. We will perform a market check,
-        review availability through our dealer network, and provide guidance on
-        pricing, timing, and next steps.
+        Tell Quest Luxo what you want sourced. A broker will review your request
+        and confirm your requirements, quoted watch price, and sourcing timeline.
+        Active sourcing begins after we receive your signed sourcing agreement
+        and 10% deposit.
       </p>
     </section>
 
@@ -111,6 +112,12 @@ import BaseLayout from "../layouts/BaseLayout.astro";
             placeholder="Preferred configuration, condition, box/papers, trade or valuation details. For a gift: needed-by date, delivery region and timing flexibility."
           ></textarea>
         </label>
+
+        <section class="sourcing-terms" aria-labelledby="sourcing-terms-title">
+          <h3 id="sourcing-terms-title">Activating your sourcing request</h3>
+          <p>Submitting this form starts an inquiry. Your sourcing request becomes active only after Quest Luxo receives your signed sourcing agreement and a deposit of 10% of the quoted watch price. The deposit is credited in full toward your final invoice if the transaction closes.</p>
+          <p>Deposit return and cancellation terms are confirmed in the written sourcing agreement. <a href="/faq#faq">Review our sourcing and deposit terms</a>.</p>
+        </section>
 
         <p id="quest-form-error" class="form-message form-message--error" data-lead-error role="alert" aria-atomic="true" tabindex="-1" hidden></p>
         <p class="form-message form-message--success" data-lead-success role="status" aria-live="polite" aria-atomic="true" tabindex="-1" hidden></p>
@@ -255,6 +262,28 @@ import BaseLayout from "../layouts/BaseLayout.astro";
     min-height: 150px;
     resize: vertical;
   }
+
+  .sourcing-terms {
+    border: 1px solid #d8d1c3;
+    background: #ffffff;
+    padding: 20px;
+  }
+
+  .sourcing-terms h3 {
+    font-size: 20px;
+    margin: 0 0 12px;
+  }
+
+  .sourcing-terms p {
+    color: #4e5661;
+    font-size: 16px;
+    line-height: 1.65;
+    margin: 0 0 12px;
+  }
+
+  .sourcing-terms p:last-child { margin-bottom: 0; }
+  .sourcing-terms a { color: #173a5e; text-underline-offset: 3px; }
+  .sourcing-terms a:focus-visible { outline: 3px solid #173a5e; outline-offset: 3px; }
 
   .form-message {
     border: 1px solid;
@@ -503,7 +532,7 @@ import BaseLayout from "../layouts/BaseLayout.astro";
         }
 
         showSuccess(
-          "Your request has been received. A Quest Luxo broker will review it."
+          "Your request has been received. A Quest Luxo broker will review it and confirm next steps. Your sourcing request becomes active only after we receive your signed sourcing agreement and a deposit of 10% of the quoted watch price."
         );
         window.dispatchEvent(new Event("questluxo:lead-submitted"));
       } catch (error) {
