@@ -33,6 +33,7 @@ import BaseLayout from "../layouts/BaseLayout.astro";
             Share the essentials and a Quest Luxo broker will review your request
             and follow up with the next steps. Buying for a gift or milestone? Include your needed-by date, delivery region and whether your timing is flexible. Availability and delivery are confirmed before any commitment.
           </p>
+          <p class="required-note">Full name and email are required. All other fields are optional.</p>
         </div>
 
         <div class="form-grid">
@@ -111,8 +112,8 @@ import BaseLayout from "../layouts/BaseLayout.astro";
           ></textarea>
         </label>
 
-        <p class="form-message form-message--error" data-lead-error hidden></p>
-        <p class="form-message form-message--success" data-lead-success hidden></p>
+        <p id="quest-form-error" class="form-message form-message--error" data-lead-error role="alert" aria-atomic="true" tabindex="-1" hidden></p>
+        <p class="form-message form-message--success" data-lead-success role="status" aria-live="polite" aria-atomic="true" tabindex="-1" hidden></p>
 
         <button type="submit" data-lead-submit>Begin My Quest</button>
       </form>
@@ -199,11 +200,16 @@ import BaseLayout from "../layouts/BaseLayout.astro";
     max-width: 720px;
   }
 
-  .form-intro p:last-child {
+  .form-intro p:not(.eyebrow) {
     color: #4e5661;
     font-size: 18px;
     line-height: 1.7;
     margin: 0;
+  }
+
+  .form-intro .required-note {
+    font-size: 14px;
+    margin-top: 12px;
   }
 
   .form-grid {
@@ -237,7 +243,12 @@ import BaseLayout from "../layouts/BaseLayout.astro";
   select:focus,
   textarea:focus {
     border-color: #f0d7a0;
-    outline: 2px solid rgba(212, 176, 106, 0.22);
+    outline: 3px solid #173a5e;
+    outline-offset: 2px;
+  }
+
+  input[aria-invalid="true"] {
+    border-color: #7b2417;
   }
 
   textarea {
@@ -277,10 +288,14 @@ import BaseLayout from "../layouts/BaseLayout.astro";
     cursor: pointer;
   }
 
-  button:hover,
-  button:focus-visible {
+  button:hover {
     background: #c6a05b;
-    outline: none;
+  }
+
+  button:focus-visible,
+  .form-message:focus-visible {
+    outline: 3px solid #173a5e;
+    outline-offset: 3px;
   }
 
   button:disabled {
@@ -329,6 +344,9 @@ import BaseLayout from "../layouts/BaseLayout.astro";
   const submitButton =
     document.querySelector<HTMLButtonElement>("[data-lead-submit]");
   const defaultSubmitText = submitButton?.textContent || "Begin My Quest";
+  const nameInput = form?.querySelector<HTMLInputElement>('input[name="name"]');
+  const emailInput = form?.querySelector<HTMLInputElement>('input[name="email"]');
+  let submitting = false;
 
   const params = new URLSearchParams(window.location.search);
   const leadContext = createLeadIntakeContext({
@@ -353,6 +371,8 @@ import BaseLayout from "../layouts/BaseLayout.astro";
   };
 
   const setSubmitting = (isSubmitting: boolean): void => {
+    submitting = isSubmitting;
+    form?.setAttribute("aria-busy", String(isSubmitting));
     if (!submitButton) return;
 
     submitButton.disabled = isSubmitting;
@@ -361,7 +381,7 @@ import BaseLayout from "../layouts/BaseLayout.astro";
       : defaultSubmitText;
   };
 
-  const showError = (message: string): void => {
+  const showError = (message: string, invalidField?: HTMLInputElement): void => {
     if (successTarget) {
       successTarget.hidden = true;
     }
@@ -369,6 +389,13 @@ import BaseLayout from "../layouts/BaseLayout.astro";
     if (errorTarget) {
       errorTarget.textContent = message;
       errorTarget.hidden = false;
+      if (invalidField) {
+        invalidField.setAttribute("aria-invalid", "true");
+        invalidField.setAttribute("aria-describedby", errorTarget.id);
+        invalidField.focus();
+      } else {
+        errorTarget.focus();
+      }
     }
   };
 
@@ -380,6 +407,7 @@ import BaseLayout from "../layouts/BaseLayout.astro";
     if (successTarget) {
       successTarget.textContent = message;
       successTarget.hidden = false;
+      successTarget.focus();
     }
   };
 
@@ -414,8 +442,24 @@ import BaseLayout from "../layouts/BaseLayout.astro";
     );
 
   if (form) {
+    for (const input of [nameInput, emailInput]) {
+      input?.addEventListener("input", () => {
+        if (input.getAttribute("aria-invalid") !== "true") return;
+        input.removeAttribute("aria-invalid");
+        input.removeAttribute("aria-describedby");
+        if (errorTarget) errorTarget.hidden = true;
+      });
+    }
     form.addEventListener("submit", async (event) => {
       event.preventDefault();
+      if (submitting) return;
+      if (errorTarget) errorTarget.hidden = true;
+      if (successTarget) successTarget.hidden = true;
+
+      for (const input of [nameInput, emailInput]) {
+        input?.removeAttribute("aria-invalid");
+        input?.removeAttribute("aria-describedby");
+      }
 
       const formData = new FormData(form);
       const payload = createLeadCapturePayload({
@@ -435,7 +479,8 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 
       if (!hasRequiredLeadContactFields(payload)) {
         showError(
-          "Please enter your full name and a valid email before beginning your quest."
+          !payload.name ? "Please enter your full name." : "Please enter a valid email address.",
+          (!payload.name ? nameInput : emailInput) ?? undefined
         );
 
         return;
@@ -458,7 +503,7 @@ import BaseLayout from "../layouts/BaseLayout.astro";
         }
 
         showSuccess(
-          "Your Quest Luxo lead has been submitted. A broker will review the request."
+          "Your request has been received. A Quest Luxo broker will review it."
         );
         window.dispatchEvent(new Event("questluxo:lead-submitted"));
       } catch (error) {
