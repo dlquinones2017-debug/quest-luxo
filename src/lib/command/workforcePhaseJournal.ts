@@ -1,4 +1,5 @@
 import { createCipheriv, createDecipheriv, createHash, randomBytes } from "node:crypto";
+import { constants, type Stats } from "node:fs";
 import { chmod, lstat, mkdir, open, readFile, realpath } from "node:fs/promises";
 import { dirname, join, resolve } from "node:path";
 import type { DatabaseSync } from "node:sqlite";
@@ -106,18 +107,50 @@ async function syncDirectory(path: string): Promise<void> {
   try { await fd.sync(); } finally { await fd.close(); }
 }
 
+const samePath = (a: string, b: string) => process.platform === "win32" ? a.toLowerCase() === b.toLowerCase() : a === b;
+const sameDirectory = (a: Stats, b: Stats) => a.isDirectory() && !a.isSymbolicLink() && b.isDirectory() && !b.isSymbolicLink() &&
+  a.dev === b.dev && a.ino === b.ino && a.uid === b.uid && a.gid === b.gid;
+async function boundDirectory(dir: string, created: Stats, parent: Stats): Promise<void> {
+  const current = await lstat(dir), currentParent = await lstat(dirname(dir));
+  if (!sameDirectory(current, created) || current.mode !== created.mode || !sameDirectory(currentParent, parent) || currentParent.mode !== parent.mode ||
+      !samePath(await realpath(dir), dir) || !samePath(await realpath(dirname(dir)), dirname(dir))) fail();
+}
+/** Only the successful non-recursive mkdir branch may call this. Never repair an existing target. */
+async function protectCreatedDirectory(dir: string, parent: Stats): Promise<Stats> {
+  const created = await lstat(dir);
+  await boundDirectory(dir, created, parent);
+  // Windows does not implement POSIX directory modes/ownership or O_DIRECTORY/O_NOFOLLOW.
+  if (process.platform === "win32") { await privateDirectory(dir); return created; }
+  const handle = await open(dir, constants.O_RDONLY | constants.O_DIRECTORY | constants.O_NOFOLLOW);
+  try {
+    const opened = await handle.stat(), mode = opened.mode & 0o7777;
+    if (!sameDirectory(opened, created) || opened.uid !== process.geteuid!() || opened.gid !== process.getegid!() ||
+        (mode !== 0o700 && mode !== 0o2700)) fail();
+    await boundDirectory(dir, opened, parent);
+    // Linux inherits setgid from /var/data. Change this descriptor, never a path or the parent.
+    if (mode === 0o2700) await handle.chmod(0o700);
+    const protectedStat = await handle.stat();
+    if (!sameDirectory(protectedStat, opened) || (protectedStat.mode & 0o7777) !== 0o700) fail();
+    await boundDirectory(dir, protectedStat, parent);
+    await handle.sync();
+    return protectedStat;
+  } finally { await handle.close(); }
+}
+
 export class WorkforcePhaseJournal {
   private readonly key: Buffer;
   private readonly db: DatabaseSync;
   readonly directory: string;
   private constructor(db: DatabaseSync, key: Buffer, directory: string) { this.db = db; this.key = Buffer.from(key); this.directory = directory; }
-  static async open(directory: string, key: Buffer, options: { initialize?: boolean } = {}): Promise<WorkforcePhaseJournal> {
+  static async open(directory: string, key: Buffer, options: { initialize?: boolean; requireNewDirectory?: boolean } = {}): Promise<WorkforcePhaseJournal> {
     if (!Buffer.isBuffer(key) || key.length !== 32) return fail();
+    if (options.requireNewDirectory && !options.initialize) return fail();
     const dir = resolve(directory), file = join(dir, FILE), marker = join(dir, MARKER);
     const parent = await lstat(dirname(dir));
-    if (!parent.isDirectory() || parent.isSymbolicLink()) return fail();
+    if (!parent.isDirectory() || parent.isSymbolicLink() || !samePath(await realpath(dirname(dir)), dirname(dir))) return fail();
     let createdDirectory = false;
-    if (options.initialize) await mkdir(dir, { mode: 0o700 }).then(() => { createdDirectory = true; }).catch(e => { if (e.code !== "EEXIST") throw e; });
+    if (options.initialize) await mkdir(dir, { mode: 0o700 }).then(() => { createdDirectory = true; }).catch(e => { if (e.code !== "EEXIST" || options.requireNewDirectory) throw e; });
+    const created = createdDirectory ? await protectCreatedDirectory(dir, parent) : null;
     await privateDirectory(dir);
     let fresh = false;
     try { await privateFile(marker); if ((await lstat(marker)).size !== Buffer.byteLength(MARKER_TEXT) || await readFile(marker, "utf8") !== MARKER_TEXT) return fail(); await privateFile(file); }
@@ -127,12 +160,15 @@ export class WorkforcePhaseJournal {
       // Missing an initialized DB must not silently reset claims. Initialization intent precedes DB creation.
       try { await lstat(marker); return fail(); } catch (missing) { if (!(missing instanceof Error && "code" in missing && missing.code === "ENOENT")) throw missing; }
       try { await lstat(file); return fail(); } catch (missing) { if (!(missing instanceof Error && "code" in missing && missing.code === "ENOENT")) throw missing; }
+      await boundDirectory(dir, created!, parent);
       const handle = await open(marker, "wx", 0o600);
       try { await handle.writeFile(MARKER_TEXT); await handle.sync(); } finally { await handle.close(); }
       await syncDirectory(dir); await syncDirectory(dirname(dir));
       fresh = true;
     }
+    if (created) await boundDirectory(dir, created, parent);
     const { DatabaseSync: Database } = await import("node:sqlite");
+    if (created) await boundDirectory(dir, created, parent);
     const db = new Database(file);
     await chmod(file, 0o600);
     try {

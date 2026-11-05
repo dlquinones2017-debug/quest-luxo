@@ -19,7 +19,7 @@ try {
     const key = Buffer.from(process.env.WORKFORCE_JOURNAL_KEY_HEX, "hex");
     let store;
     try {
-      if (command === "initialize" && !args.length) store = await WorkforcePhaseJournal.open(directory, key, { initialize: true });
+      if (command === "initialize" && !args.length) store = await WorkforcePhaseJournal.open(directory, key, { initialize: true, requireNewDirectory: true });
       else if (command === "export-backup" && args.length === 1) {
         store = await WorkforcePhaseJournal.open(directory, key);
         console.log(JSON.stringify(await store.exportBackup(args[0])));
