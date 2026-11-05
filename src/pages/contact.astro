@@ -359,4 +359,10 @@ import BaseLayout from "../layouts/BaseLayout.astro";
       padding: 24px 20px;
     }
   }
+
+  @media (max-width: 360px) {
+    :global(body:has([data-lead-form])) {
+      min-width: 0;
+    }
+  }
 </style>

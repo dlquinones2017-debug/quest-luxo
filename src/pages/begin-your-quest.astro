@@ -349,6 +349,16 @@ import BaseLayout from "../layouts/BaseLayout.astro";
       grid-template-columns: 1fr;
     }
   }
+
+  @media (max-width: 360px) {
+    :global(body:has([data-lead-capture-form])) {
+      min-width: 0;
+    }
+
+    .lead-form {
+      padding-inline: 8px;
+    }
+  }
 </style>
 
 <script>
