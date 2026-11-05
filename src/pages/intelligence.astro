@@ -1,5 +1,6 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
+import LuxuryEmailUpdatesInvitation from "../components/LuxuryEmailUpdatesInvitation.astro";
 import { buildBeginYourQuestUrl } from "../lib/leads/leadIntakeContext";
 import { getAskQuestLuxoCatalog } from "../lib/intelligence/askQuestLuxo";
 import { approvedPhotograph } from "../lib/media/watchPhotography";
@@ -109,6 +110,7 @@ const photos = Object.fromEntries(catalog.flatMap(record => {
       </div>
       <a href={sourcingHref}>Begin Your Quest</a>
     </section>
+    <LuxuryEmailUpdatesInvitation />
   </main>
 </BaseLayout>
 <script is:inline id="catalog-photographs" type="application/json" set:html={JSON.stringify(photos).replace(/</g, "\\u003c")} />
