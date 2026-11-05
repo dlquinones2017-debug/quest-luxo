@@ -54,7 +54,8 @@ import BaseLayout from "../layouts/BaseLayout.astro";
           </label>
           <label>
             Desired watch
-            <input name="desiredWatch" type="text" maxlength="240" />
+            <input name="desiredWatch" type="text" maxlength="240" aria-describedby="desired-watch-help" />
+            <small id="desired-watch-help">You can change this description to request a different watch.</small>
           </label>
           <label>
             Budget range
@@ -114,8 +115,8 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 </BaseLayout>
 
 <script>
-  const params = new URLSearchParams(window.location.search);
-  const requestedCollection = params.get("collection");
+  import { createLeadIntakeContext } from "../lib/leads/leadIntakeContext.ts";
+  import { bindLeadWatchSelection } from "../lib/leads/leadWatchSelection.ts";
   const intro = document.querySelector<HTMLElement>("[data-contact-intro]");
   const contactLink =
     document.querySelector<HTMLAnchorElement>("[data-contact-link]");
@@ -125,17 +126,24 @@ import BaseLayout from "../layouts/BaseLayout.astro";
   const started =
     document.querySelector<HTMLInputElement>("[data-form-started]");
 
-  if (requestedCollection) {
-    if (intro) {
-      intro.textContent = `Start a private conversation about ${requestedCollection}.`;
-    }
-    if (contactLink) {
-      const subject = encodeURIComponent(
-        `Quest Luxo inquiry: ${requestedCollection}`
-      );
-      contactLink.href = `mailto:info@questluxo.com?subject=${subject}`;
-    }
-  }
+  const readLeadContext = () => {
+    const params = new URLSearchParams(window.location.search);
+    return createLeadIntakeContext({
+      intent: params.get("intent"), brand: params.get("brand"),
+      collection: params.get("collection"), reference: params.get("reference"),
+    });
+  };
+  const watchInput = form?.querySelector<HTMLInputElement>('input[name="desiredWatch"]');
+  const watchSelection = watchInput && bindLeadWatchSelection(watchInput, readLeadContext, (context) => {
+    if (intro) intro.textContent = context.collection
+      ? `Start a private conversation about ${context.collection}.`
+      : "Start a private conversation with Quest Luxo about the timepiece or collection you are seeking.";
+    if (contactLink) contactLink.href = `mailto:info@questluxo.com?subject=${encodeURIComponent(
+      context.collection ? `Quest Luxo inquiry: ${context.collection}` : "Quest Luxo private sourcing inquiry"
+    )}`;
+  });
+  window.addEventListener("pageshow", () => watchSelection?.sync());
+  window.addEventListener("popstate", () => watchSelection?.sync());
 
   if (started) started.value = String(Date.now());
   let submitting = false;
@@ -151,13 +159,14 @@ import BaseLayout from "../layouts/BaseLayout.astro";
       return;
     }
 
+    const context = watchSelection?.sync() ?? {};
     const data = Object.fromEntries(new FormData(form).entries());
     const payload = {
       ...data,
-      intent: params.get("intent") ?? "private-sourcing",
-      brand: params.get("brand") ?? "",
-      collection: requestedCollection ?? "",
-      reference: params.get("reference") ?? "",
+      intent: context.intent ?? "private-sourcing",
+      brand: context.brand ?? "",
+      collection: context.collection ?? "",
+      reference: context.reference ?? "",
       source: "contact",
     };
 
@@ -184,6 +193,7 @@ import BaseLayout from "../layouts/BaseLayout.astro";
         status.focus();
       }
       form.reset();
+      watchSelection?.sync();
       if (started) started.value = String(Date.now());
       window.dispatchEvent(new Event("questluxo:lead-submitted"));
     } catch (error) {
@@ -256,6 +266,7 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 
   .form-grid {
     display: grid;
+    align-items: start;
     grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 18px;
   }

@@ -75,8 +75,11 @@ import BaseLayout from "../layouts/BaseLayout.astro";
             <input
               type="text"
               name="desiredWatch"
+              maxlength="240"
+              aria-describedby="desired-watch-help"
               placeholder="Example: Omega Speedmaster Silver Snoopy"
             />
+            <small id="desired-watch-help">You can change this description to request a different watch.</small>
           </label>
 
           <label>
@@ -221,6 +224,7 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 
   .form-grid {
     display: grid;
+    align-items: start;
     grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 18px;
   }
@@ -357,6 +361,7 @@ import BaseLayout from "../layouts/BaseLayout.astro";
     createLeadCapturePayload,
     hasRequiredLeadContactFields,
   } from "../lib/leads/leadCapture.ts";
+  import { bindLeadWatchSelection } from "../lib/leads/leadWatchSelection.ts";
 
   const contextPanel = document.querySelector<HTMLElement>(
     "[data-brokerage-context]"
@@ -377,21 +382,21 @@ import BaseLayout from "../layouts/BaseLayout.astro";
   const emailInput = form?.querySelector<HTMLInputElement>('input[name="email"]');
   let submitting = false;
 
-  const params = new URLSearchParams(window.location.search);
-  const leadContext = createLeadIntakeContext({
-    intent: params.get("intent"),
-    brand: params.get("brand"),
-    collection: params.get("collection"),
-    reference: params.get("reference"),
+  const readLeadContext = () => {
+    const params = new URLSearchParams(window.location.search);
+    return createLeadIntakeContext({
+      intent: params.get("intent"), brand: params.get("brand"),
+      collection: params.get("collection"), reference: params.get("reference"),
+    });
+  };
+  const watchInput = form?.querySelector<HTMLInputElement>('input[name="desiredWatch"]');
+  const watchSelection = watchInput && bindLeadWatchSelection(watchInput, readLeadContext, (context) => {
+    if (!contextPanel || !messageTarget) return;
+    contextPanel.hidden = !hasMeaningfulLeadContext(context);
+    messageTarget.textContent = createLeadContextSummary(context);
   });
-
-  const hasContext = hasMeaningfulLeadContext(leadContext);
-  const message = hasContext ? createLeadContextSummary(leadContext) : "";
-
-  if (contextPanel && messageTarget && hasContext && message) {
-    messageTarget.textContent = message;
-    contextPanel.hidden = false;
-  }
+  window.addEventListener("pageshow", () => watchSelection?.sync());
+  window.addEventListener("popstate", () => watchSelection?.sync());
 
   const getFormValue = (formData: FormData, fieldName: string): string => {
     const value = formData.get(fieldName);
@@ -490,6 +495,7 @@ import BaseLayout from "../layouts/BaseLayout.astro";
         input?.removeAttribute("aria-describedby");
       }
 
+      const leadContext = watchSelection?.sync() ?? {};
       const formData = new FormData(form);
       const payload = createLeadCapturePayload({
         name: getFormValue(formData, "name"),
