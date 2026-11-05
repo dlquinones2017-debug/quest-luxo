@@ -46,6 +46,10 @@ export function documentationReadiness(i: BorrowerIntake): FundingEvent {
   return event(i.borrowerId,"DOCUMENTATION","READY","Core intake evidence is verified.");
 }
 export function complianceDecision(borrowerId:string, source:CapitalSource, gate:ComplianceGate): FundingEvent {
+  if (source.requirementsVerified !== "VERIFIED")
+    return event(borrowerId,"COMPLIANCE","BLOCKED","Lender requirements require verification.");
+  if (source.pullType !== "SOFT" && source.pullType !== "HARD")
+    return event(borrowerId,"COMPLIANCE","BLOCKED","Credit pull type requires verification.");
   if (gate.jurisdictionVerified !== "VERIFIED" || gate.productComplianceVerified !== "VERIFIED" || gate.disclosuresReady !== "VERIFIED")
     return event(borrowerId,"COMPLIANCE","BLOCKED","Compliance or disclosure status requires verification.");
   if (source.pullType === "HARD" && !gate.hardPullConsentEvidenceId)
