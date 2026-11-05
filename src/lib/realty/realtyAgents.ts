@@ -14,8 +14,11 @@ export function underwrite(p:PropertyLead,e:DealEvidence):UnderwriteResult{
  if(!p.askingPrice||p.askingPrice<=0)throw new Error("Verified positive acquisition basis is required.");
  const rehab=e.rehabState==="VERIFIED"&&typeof e.rehab==="number"?e.rehab:0;
  const assumptions:string[]=[]; if(e.rehabState!=="VERIFIED")assumptions.push("Rehab UNKNOWN; zero is not a validated rehab estimate.");
- const arv=e.arvState==="VERIFIED"&&typeof e.arv==="number"?e.arv:null;
- if(!e.compEvidenceIds.length||arv===null)assumptions.push("ARV/comp evidence REQUIRES_VERIFICATION.");
+ const matchingIdentity=p.leadId.trim().length>0&&p.leadId===e.leadId;
+ const hasComparableEvidence=e.compEvidenceIds.some(id=>id.trim().length>0);
+ const arv=matchingIdentity&&hasComparableEvidence&&e.arvState==="VERIFIED"&&typeof e.arv==="number"&&Number.isFinite(e.arv)&&e.arv>0?e.arv:null;
+ if(!matchingIdentity)assumptions.push("Property/evidence identity REQUIRES_VERIFICATION.");
+ if(arv===null)assumptions.push("ARV/comp evidence REQUIRES_VERIFICATION.");
  return Object.freeze({basis:p.askingPrice,rehab,allIn:p.askingPrice+rehab,arv,grossSpread:arv===null?null:arv-p.askingPrice-rehab,assumptions:Object.freeze(assumptions)});
 }
 export function strategyFit(e:DealEvidence):readonly string[]{

@@ -10,3 +10,41 @@ test("diligence uncertainty blocks",()=>assert.equal(diligenceGate("P1",{title:"
 test("passed diligence still requires founder",()=>assert.equal(diligenceGate("P1",{title:"VERIFIED",flood:"VERIFIED",zoning:"VERIFIED",occupancy:"VERIFIED",evidenceIds:["T","F","Z","O"]}).status,"REQUIRES_FOUNDER"));
 test("agent cannot autonomously offer",()=>assert.equal(prohibitRealtyAction("P1","OFFER").status,"REQUIRES_FOUNDER"));
 test("outcome requires evidence",()=>assert.equal(recordRealtyOutcome("P1","ACQUIRED").status,"BLOCKED"));
+
+const verifiedDeal = {leadId:"P1",compEvidenceIds:["COMP-1"],arv:160000,rehab:20000,arvState:"VERIFIED",rentState:"UNKNOWN",rehabState:"VERIFIED"};
+function assertSuppressedArv(result) {
+  assert.equal(result.arv, null);
+  assert.equal(result.grossSpread, null);
+  assert.match(result.assumptions.join(" "), /ARV\/comp evidence REQUIRES_VERIFICATION/);
+}
+test("a verified ARV label without comparable evidence cannot produce a spread", () => {
+  assertSuppressedArv(underwrite(p, {...verifiedDeal, compEvidenceIds:[]}));
+});
+test("blank comparable IDs are not supporting evidence", () => {
+  assertSuppressedArv(underwrite(p, {...verifiedDeal, compEvidenceIds:["", "  ", "\t"]}));
+});
+test("another property's evidence cannot support the requested property's ARV", () => {
+  const result = underwrite(p, {...verifiedDeal, leadId:"OTHER-PROPERTY"});
+  assertSuppressedArv(result);
+  assert.match(result.assumptions.join(" "), /property.*identity.*REQUIRES_VERIFICATION/i);
+});
+test("matching blank property IDs do not establish identity", () => {
+  const result = underwrite({...p, leadId:" "}, {...verifiedDeal, leadId:" "});
+  assertSuppressedArv(result);
+  assert.match(result.assumptions.join(" "), /identity.*REQUIRES_VERIFICATION/i);
+});
+for (const arv of [NaN, Infinity, -Infinity, 0, -1]) {
+  test(`nonfinite or nonpositive ARV is suppressed: ${String(arv)}`, () => {
+    assertSuppressedArv(underwrite(p, {...verifiedDeal, arv}));
+  });
+}
+test("valid matched comparable evidence preserves economics, result contract and input immutability", () => {
+  const property = Object.freeze({...p});
+  const evidence = Object.freeze({...verifiedDeal, compEvidenceIds:Object.freeze(["  ", "COMP-1"])});
+  const result = underwrite(property, evidence);
+  assert.deepEqual(result, {basis:100000,rehab:20000,allIn:120000,arv:160000,grossSpread:40000,assumptions:[]});
+  assert.ok(Object.isFrozen(result));
+  assert.ok(Object.isFrozen(result.assumptions));
+  assert.deepEqual(evidence.compEvidenceIds, ["  ", "COMP-1"]);
+  assert.equal(evidence.arv, 160000);
+});
