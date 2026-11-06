@@ -5,7 +5,6 @@
  const button = form.querySelector('button[type=submit]');
  const topics = {
   luxury:{list:'Y9Yjy2',division:'luxury',label:'Luxury Advisory'},
-  capital:{list:'VyesVT',division:'capital',label:'Capital Advisory'},
   property:{list:'WtKwMz',division:'realty',label:'Property Acquisitions'}
  };
  let busy = false;
@@ -13,8 +12,13 @@
   event.preventDefault();
   if (busy || !form.reportValidity()) return;
   if (form.elements.website.value) return;
-  const topic = topics[form.elements.topic.value];
-  if (!topic || !form.elements.consent.checked) return;
+  const topicKey = form.elements.topic.value;
+  if (!Object.hasOwn(topics, topicKey)) {
+   status.textContent = 'Choose an available email-update topic before continuing.';
+   return;
+  }
+  const topic = topics[topicKey];
+  if (!form.elements.consent.checked) return;
   busy = true; button.disabled = true;
   status.textContent = 'Sending your confirmation request…';
   const controller = new AbortController();
