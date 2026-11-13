@@ -51,9 +51,9 @@ export const QLUX_AGENTIC_TEAM: readonly AgentDefinition[] = Object.freeze([
   { id:"website-product", division:"WEBSITE_PRODUCT", name:"Website Product Agent", mission:"Maintain the Quest Luxo product roadmap, defects, content surfaces, and launch readiness.", status:"PARTIAL", founderGate:true, canWriteExternally:false, dependencies:["command-orchestrator"] },
   { id:"lead-operations", division:"WEBSITE_PRODUCT", name:"Lead Operations Agent", mission:"Monitor lead capture, storage, notification, and operational readiness signals.", status:"PARTIAL", founderGate:true, canWriteExternally:false, dependencies:["website-product"] },
 
-  { id:"enterprise-risk", division:"ENTERPRISE_OPERATIONS", name:"Enterprise Risk Agent", mission:"Identify evidence, compliance, security, and execution risks before external action.", status:"SPECIFIED", founderGate:true, canWriteExternally:false, dependencies:["command-orchestrator"] },
-  { id:"finance-operations", division:"ENTERPRISE_OPERATIONS", name:"Finance Operations Agent", mission:"Coordinate enterprise cash, obligations, capital allocation, and financial operating signals.", status:"SPECIFIED", founderGate:true, canWriteExternally:false, dependencies:["command-orchestrator"] },
-  { id:"sop-operations", division:"ENTERPRISE_OPERATIONS", name:"SOP Operations Agent", mission:"Turn proven workflows into documented, repeatable agent procedures.", status:"SPECIFIED", founderGate:false, canWriteExternally:false, dependencies:["command-orchestrator"] },
+  { id:"enterprise-risk", division:"ENTERPRISE_OPERATIONS", name:"Enterprise Risk Agent", mission:"Identify evidence, compliance, security, and execution risks before external action.", status:"PARTIAL", founderGate:true, canWriteExternally:false, dependencies:["command-orchestrator"] },
+  { id:"finance-operations", division:"ENTERPRISE_OPERATIONS", name:"Finance Operations Agent", mission:"Coordinate enterprise cash, obligations, capital allocation, and financial operating signals.", status:"PARTIAL", founderGate:true, canWriteExternally:false, dependencies:["command-orchestrator"] },
+  { id:"sop-operations", division:"ENTERPRISE_OPERATIONS", name:"SOP Operations Agent", mission:"Turn proven workflows into documented, repeatable agent procedures.", status:"PARTIAL", founderGate:false, canWriteExternally:false, dependencies:["command-orchestrator"] },
 ]);
 
 export function getAgent(id: string): AgentDefinition | undefined {
