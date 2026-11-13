@@ -6,6 +6,7 @@ import ts from "typescript";
 import * as intake from "../src/lib/leads/leadIntakeContext.ts";
 import * as capture from "../src/lib/leads/leadCapture.ts";
 import * as selection from "../src/lib/leads/leadWatchSelection.ts";
+import * as campaign from "../src/lib/leads/campaignAttribution.ts";
 
 const patek = { intent: "request-this-watch", brand: "Patek Philippe", collection: "Nautilus", reference: "5726/1A" };
 const omega = { ...patek, brand: "Omega", collection: "Speedmaster", reference: "310.32.42.50.01.002" };
@@ -56,6 +57,7 @@ async function formHarness(route, context = patek, restoredWatch = "") {
     "../lib/leads/leadIntakeContext.ts": intake,
     "../lib/leads/leadCapture.ts": capture,
     "../lib/leads/leadWatchSelection.ts": selection,
+    "../lib/leads/campaignAttribution.ts": campaign,
   };
   const source = await readFile(new URL(`../src/pages/${route}.astro`, import.meta.url), "utf8");
   const script = source.match(/<script>([\s\S]*?)<\/script>/)?.[1];
@@ -85,6 +87,17 @@ function assertNoCatalogIdentity(payload) {
 }
 
 for (const route of ["begin-your-quest", "contact"]) {
+  test(`${route}: only known campaign codes enter the existing source field`, async () => {
+    const h = await formHarness(route, { ...patek, utm_source: "chatgpt", utm_medium: "paid", utm_campaign: "quest_luxo_collector_sourcing_pilot", utm_term: "private@example.invalid", click_id: "private-id" });
+    await h.submit();
+    assert.equal(h.requests[0].source, `${route};utm_source=chatgpt&utm_medium=paid&utm_campaign=quest_luxo_collector_sourcing_pilot`);
+    assert.ok(!h.requests[0].source.includes("private"));
+    assert.equal(h.requests[0].campaign, undefined, "Canonical payload shape stays unchanged");
+    h.fail();
+    await h.submit();
+    assert.equal(h.events.filter(x => x === "questluxo:lead-submitted").length, 1, "Rejected response cannot create a conversion event");
+  });
+
   test(`${route}: unchanged visible selection retains exact catalog identity`, async () => {
     const h = await formHarness(route);
     assert.equal(h.fields.desiredWatch.value, intake.buildLeadContextLabel(patek));

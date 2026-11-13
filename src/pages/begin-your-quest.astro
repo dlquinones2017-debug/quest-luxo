@@ -372,6 +372,7 @@ import BaseLayout from "../layouts/BaseLayout.astro";
     hasRequiredLeadContactFields,
   } from "../lib/leads/leadCapture.ts";
   import { bindLeadWatchSelection } from "../lib/leads/leadWatchSelection.ts";
+  import { createCampaignLeadSource } from "../lib/leads/campaignAttribution.ts";
 
   const contextPanel = document.querySelector<HTMLElement>(
     "[data-brokerage-context]"
@@ -519,7 +520,7 @@ import BaseLayout from "../layouts/BaseLayout.astro";
         budget: getFormValue(formData, "budget"),
         timeline: getFormValue(formData, "timeline"),
         message: getFormValue(formData, "message"),
-        source: "begin-your-quest",
+        source: createCampaignLeadSource("begin-your-quest", window.location.search),
       });
 
       if (!hasRequiredLeadContactFields(payload)) {
