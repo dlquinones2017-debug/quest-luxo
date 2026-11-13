@@ -117,6 +117,7 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 <script>
   import { createLeadIntakeContext } from "../lib/leads/leadIntakeContext.ts";
   import { bindLeadWatchSelection } from "../lib/leads/leadWatchSelection.ts";
+  import { createCampaignLeadSource } from "../lib/leads/campaignAttribution.ts";
   const intro = document.querySelector<HTMLElement>("[data-contact-intro]");
   const contactLink =
     document.querySelector<HTMLAnchorElement>("[data-contact-link]");
@@ -167,7 +168,7 @@ import BaseLayout from "../layouts/BaseLayout.astro";
       brand: context.brand ?? "",
       collection: context.collection ?? "",
       reference: context.reference ?? "",
-      source: "contact",
+      source: createCampaignLeadSource("contact", window.location.search),
     };
 
     submitting = true;

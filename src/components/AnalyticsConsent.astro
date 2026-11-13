@@ -1,4 +1,5 @@
 ---
+import { luxuryCampaignRules } from "../lib/leads/campaignAttribution.ts";
 // Existing Quest Luxo Luxury Advisory GA4 web stream, verified in Google Analytics.
 const measurementId = "G-PJPDS9FJVT";
 ---
@@ -14,7 +15,7 @@ const measurementId = "G-PJPDS9FJVT";
   </div>
 </aside>
 
-<script is:inline define:vars={{ measurementId }}>
+<script is:inline define:vars={{ measurementId, luxuryCampaignRules }}>
   (() => {
     // Ask again because this version adds Apollo to the optional services.
     const key = "quest-luxo-analytics-consent-v2";
@@ -33,6 +34,24 @@ const measurementId = "G-PJPDS9FJVT";
     // Preserve only the referrer origin; URLs may contain private inquiry context.
     let safeReferrer = "";
     try { safeReferrer = new URL(document.referrer).origin + "/"; } catch { /* Direct visit. */ }
+
+    // Preserve known non-personal campaign codes without passing a query URL.
+    // Unknown values, duplicate fields, terms and click IDs are never forwarded.
+    const campaignParams = new URLSearchParams(location.search);
+    const campaignKeys = ["utm_source", "utm_medium", "utm_campaign"];
+    const campaignRule = campaignKeys.every((field) => campaignParams.getAll(field).length === 1) &&
+      campaignParams.getAll("utm_content").length <= 1 && luxuryCampaignRules.find((rule) =>
+        campaignParams.get("utm_source") === rule.source &&
+        campaignParams.get("utm_medium") === rule.medium &&
+        campaignParams.get("utm_campaign") === rule.name &&
+        (!campaignParams.has("utm_content") || rule.contents.includes(campaignParams.get("utm_content")))
+      );
+    const campaignFields = campaignRule ? {
+      campaign_source: campaignRule.source,
+      campaign_medium: campaignRule.medium,
+      campaign_name: campaignRule.name,
+      ...(campaignParams.has("utm_content") ? { campaign_content: campaignParams.get("utm_content") } : {}),
+    } : {};
 
     const startAnalytics = () => {
       if (window.__questLuxoAnalyticsStarted) return;
@@ -59,6 +78,7 @@ const measurementId = "G-PJPDS9FJVT";
       gtag("js", new Date());
       gtag("consent", "update", { analytics_storage: "granted" });
       gtag("config", measurementId, {
+        ...campaignFields,
         send_page_view: false,
         page_location: location.origin + location.pathname,
         page_referrer: safeReferrer,
@@ -71,6 +91,7 @@ const measurementId = "G-PJPDS9FJVT";
       document.head.appendChild(script);
       // Strip query strings: they can contain lead context or other user-provided data.
       gtag("event", "page_view", {
+        ...campaignFields,
         send_to: measurementId,
         page_location: location.origin + location.pathname,
         page_referrer: safeReferrer,
@@ -100,6 +121,7 @@ const measurementId = "G-PJPDS9FJVT";
     window.addEventListener("questluxo:lead-submitted", () => {
       if (read() !== "granted" || !window.__questLuxoAnalyticsStarted) return;
       window.gtag?.("event", "generate_lead", {
+        ...campaignFields,
         send_to: measurementId,
         business_division: "luxury",
         form_type: "watch_sourcing",
