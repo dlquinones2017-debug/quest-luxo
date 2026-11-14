@@ -8,7 +8,9 @@ import { matchesLegacyOperatorBaseline } from "./workforceLegacyBaseline.ts";
 
 export interface WorkforceContact { id: string; email: string; archived?: boolean; ownerId?: string; lifecycleStage?: string }
 export interface WorkforceTask { id: string; body: string; subject?: string; ownerId: string; contactIds: readonly string[]; archived?: boolean; dueAt: string; status: string; type: string }
+export type WorkforceDeliveryMode = "INTERNAL_VALIDATION" | "GENUINE_INQUIRY";
 export interface WorkforceCRMAdapter {
+  readonly deliveryMode?: WorkforceDeliveryMode;
   findContact(email: string): Promise<WorkforceContact | null>;
   getContact(id: string): Promise<WorkforceContact | null>;
   createContact(event: LuxuryWorkforceEvent): Promise<WorkforceContact>;
@@ -18,21 +20,25 @@ export interface WorkforceCRMAdapter {
   notifyOwner(event: LuxuryWorkforceEvent, contactId: string, taskId: string): Promise<{ accepted: boolean; providerId: string }>;
   getNotification?(providerId: string, event: LuxuryWorkforceEvent, contactId: string, taskId: string): Promise<boolean>;
 }
-export const workforceTaskMetadata = (event: LuxuryWorkforceEvent) => [
-  "Quest Luxo internal validation event", `Event-Key: ${event.eventKey}`, `Fingerprint-v1: ${event.fingerprint}`, "End-Quest-Task-Metadata",
+export const workforceTaskMetadata = (event: LuxuryWorkforceEvent, mode: WorkforceDeliveryMode = "INTERNAL_VALIDATION") => [
+  mode === "GENUINE_INQUIRY" ? "Quest Luxo genuine Luxury inquiry" : "Quest Luxo internal validation event", `Event-Key: ${event.eventKey}`, `Fingerprint-v1: ${event.fingerprint}`, "End-Quest-Task-Metadata",
 ].join("\n");
 const validId = (id: string) => /^[1-9]\d{0,30}$/.test(id);
 const matchContact = (c: WorkforceContact | null, event: LuxuryWorkforceEvent) => !!c && validId(c.id) && !c.archived && c.email.trim().toLowerCase() === event.payload.email!.trim().toLowerCase();
-const matchTask = (t: WorkforceTask | null, event: LuxuryWorkforceEvent, contactId: string) => !!t && validId(t.id) && !t.archived && t.ownerId === WORKFORCE_OWNER && t.contactIds.includes(contactId) &&
+const matchTask = (t: WorkforceTask | null, event: LuxuryWorkforceEvent, contactId: string, mode: WorkforceDeliveryMode) => !!t && validId(t.id) && !t.archived && t.ownerId === WORKFORCE_OWNER && t.contactIds.includes(contactId) &&
   t.type === "TODO" && ["NOT_STARTED", "COMPLETED"].includes(t.status) && Date.parse(t.dueAt) === Date.parse(event.savedAt) + 86_400_000 &&
-  (t.body === workforceTaskMetadata(event) || t.body.startsWith(workforceTaskMetadata(event) + "\n"));
+  (t.body === workforceTaskMetadata(event, mode) || t.body.startsWith(workforceTaskMetadata(event, mode) + "\n"));
 const LEASE_MS = 120_000;
 
 export class WorkforceContactTaskDelivery {
   private readonly journal: WorkforcePhaseJournal;
   private readonly adapter: WorkforceCRMAdapter;
   private readonly clock: () => number;
-  constructor(journal: WorkforcePhaseJournal, adapter: WorkforceCRMAdapter, clock: () => number = Date.now) { this.journal = journal; this.adapter = adapter; this.clock = clock; }
+  readonly mode: WorkforceDeliveryMode;
+  constructor(journal: WorkforcePhaseJournal, adapter: WorkforceCRMAdapter, clock: () => number = Date.now, mode: WorkforceDeliveryMode = "INTERNAL_VALIDATION") {
+    if (!["INTERNAL_VALIDATION", "GENUINE_INQUIRY"].includes(mode) || mode === "GENUINE_INQUIRY" && adapter.deliveryMode !== mode) throw Error("Reviewed matching workforce delivery profile required.");
+    this.journal = journal; this.adapter = adapter; this.clock = clock; this.mode = mode;
+  }
   enqueue(event: LuxuryWorkforceEvent): string {
     return WorkforceContactTaskDelivery.enqueueSavedEvent(this.journal, event, this.clock);
   }
@@ -154,7 +160,7 @@ export class WorkforceContactTaskDelivery {
         update(entry => { entry.state = "HOLD"; entry.associationVerified = true; entry.operation = null; entry.reason = "OPERATOR_BASELINE_NOT_AUTOMATED_CREATION"; });
         return this.report(event.eventKey, "BASELINE_RECONCILED");
       }
-      if (!matchTask(verifiedTask, event, contact.id)) return uncertain("TASK_ASSOCIATION_OR_OWNER_UNVERIFIED");
+      if (!matchTask(verifiedTask, event, contact.id, this.mode)) return uncertain("TASK_ASSOCIATION_OR_OWNER_UNVERIFIED");
       update(entry => { entry.associationVerified = true; entry.phase = "NOTIFY"; entry.operation = null; entry.state = "ACTIVE"; entry.reason = null; });
       if (this.journal.read().state.recoveryHold) return uncertain("RESTORED_JOURNAL_DISPATCH_HELD");
       if (!begin("NOTIFY")) return uncertain("NOTIFICATION_CLAIM_UNAVAILABLE");
