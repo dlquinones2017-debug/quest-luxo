@@ -5,10 +5,14 @@ import { WORKFORCE_OWNER, APPROVED_VALIDATION_FIXTURE } from "./luxuryWorkforceE
 import type { WorkforceJournalEntry, WorkforceOperation } from "./workforcePhaseJournal.ts";
 import { WorkforcePhaseJournal } from "./workforcePhaseJournal.ts";
 import { matchesLegacyOperatorBaseline } from "./workforceLegacyBaseline.ts";
+import type { ExistingIntakeNotificationReceipt } from "./luxuryExistingIntakeNotification.ts";
+import { isBoundWorkforceOwnerInboxReceipt, type WorkforceOwnerInboxReceiptReader } from "./workforceOwnerInboxReceipt.ts";
 
 export interface WorkforceContact { id: string; email: string; archived?: boolean; ownerId?: string; lifecycleStage?: string }
 export interface WorkforceTask { id: string; body: string; subject?: string; ownerId: string; contactIds: readonly string[]; archived?: boolean; dueAt: string; status: string; type: string }
+export type WorkforceDeliveryMode = "INTERNAL_VALIDATION" | "GENUINE_INQUIRY";
 export interface WorkforceCRMAdapter {
+  readonly deliveryMode?: WorkforceDeliveryMode;
   findContact(email: string): Promise<WorkforceContact | null>;
   getContact(id: string): Promise<WorkforceContact | null>;
   createContact(event: LuxuryWorkforceEvent): Promise<WorkforceContact>;
@@ -17,22 +21,27 @@ export interface WorkforceCRMAdapter {
   createTask(event: LuxuryWorkforceEvent, contactId: string): Promise<WorkforceTask>;
   notifyOwner(event: LuxuryWorkforceEvent, contactId: string, taskId: string): Promise<{ accepted: boolean; providerId: string }>;
   getNotification?(providerId: string, event: LuxuryWorkforceEvent, contactId: string, taskId: string): Promise<boolean>;
+  getExistingIntakeNotification?(event: LuxuryWorkforceEvent): Promise<ExistingIntakeNotificationReceipt>;
 }
-export const workforceTaskMetadata = (event: LuxuryWorkforceEvent) => [
-  "Quest Luxo internal validation event", `Event-Key: ${event.eventKey}`, `Fingerprint-v1: ${event.fingerprint}`, "End-Quest-Task-Metadata",
+export const workforceTaskMetadata = (event: LuxuryWorkforceEvent, mode: WorkforceDeliveryMode = "INTERNAL_VALIDATION") => [
+  mode === "GENUINE_INQUIRY" ? "Quest Luxo genuine Luxury inquiry" : "Quest Luxo internal validation event", `Event-Key: ${event.eventKey}`, `Fingerprint-v1: ${event.fingerprint}`, "End-Quest-Task-Metadata",
 ].join("\n");
 const validId = (id: string) => /^[1-9]\d{0,30}$/.test(id);
 const matchContact = (c: WorkforceContact | null, event: LuxuryWorkforceEvent) => !!c && validId(c.id) && !c.archived && c.email.trim().toLowerCase() === event.payload.email!.trim().toLowerCase();
-const matchTask = (t: WorkforceTask | null, event: LuxuryWorkforceEvent, contactId: string) => !!t && validId(t.id) && !t.archived && t.ownerId === WORKFORCE_OWNER && t.contactIds.includes(contactId) &&
+const matchTask = (t: WorkforceTask | null, event: LuxuryWorkforceEvent, contactId: string, mode: WorkforceDeliveryMode) => !!t && validId(t.id) && !t.archived && t.ownerId === WORKFORCE_OWNER && t.contactIds.includes(contactId) &&
   t.type === "TODO" && ["NOT_STARTED", "COMPLETED"].includes(t.status) && Date.parse(t.dueAt) === Date.parse(event.savedAt) + 86_400_000 &&
-  (t.body === workforceTaskMetadata(event) || t.body.startsWith(workforceTaskMetadata(event) + "\n"));
+  (t.body === workforceTaskMetadata(event, mode) || t.body.startsWith(workforceTaskMetadata(event, mode) + "\n"));
 const LEASE_MS = 120_000;
 
 export class WorkforceContactTaskDelivery {
   private readonly journal: WorkforcePhaseJournal;
   private readonly adapter: WorkforceCRMAdapter;
   private readonly clock: () => number;
-  constructor(journal: WorkforcePhaseJournal, adapter: WorkforceCRMAdapter, clock: () => number = Date.now) { this.journal = journal; this.adapter = adapter; this.clock = clock; }
+  readonly mode: WorkforceDeliveryMode;
+  constructor(journal: WorkforcePhaseJournal, adapter: WorkforceCRMAdapter, clock: () => number = Date.now, mode: WorkforceDeliveryMode = "INTERNAL_VALIDATION") {
+    if (!["INTERNAL_VALIDATION", "GENUINE_INQUIRY"].includes(mode) || mode === "GENUINE_INQUIRY" && adapter.deliveryMode !== mode) throw Error("Reviewed matching workforce delivery profile required.");
+    this.journal = journal; this.adapter = adapter; this.clock = clock; this.mode = mode;
+  }
   enqueue(event: LuxuryWorkforceEvent): string {
     return WorkforceContactTaskDelivery.enqueueSavedEvent(this.journal, event, this.clock);
   }
@@ -57,6 +66,21 @@ export class WorkforceContactTaskDelivery {
       recoveryHold: snapshot.state.recoveryHold, contactOrigin: e.contactOrigin, taskOrigin: e.taskOrigin };
   }
   async deliver(event: LuxuryWorkforceEvent) {
+    // Genuine intake already has one canonical owner notice. A second email is
+    // forbidden; require the existing source's current acceptance metadata.
+    const intakeAccepted = async () => {
+      if (this.mode !== "GENUINE_INQUIRY") return true;
+      try {
+        const receipt = await this.adapter.getExistingIntakeNotification?.(event);
+        return receipt?.status === "ACCEPTANCE_RECORDED" && receipt.sourceRecordId === event.leadId &&
+          receipt.savedAt === event.savedAt && receipt.fingerprint === event.fingerprint;
+      } catch { return false; }
+    };
+    if (!await intakeAccepted()) {
+      if (this.journal.read().state.entries.some(e => e.eventKey === event.eventKey)) return this.report(event.eventKey, "EXISTING_INTAKE_NOTICE_UNVERIFIED");
+      return { status: "EXISTING_INTAKE_NOTICE_UNVERIFIED", phase: "CONTACT", eventKey: event.eventKey,
+        contactId: null, taskId: null, associationVerified: false, notification: "NOT_ATTEMPTED", inboxReceipt: "UNKNOWN", humanAction: "UNKNOWN" };
+    }
     this.enqueue(event);
     const baseline = event.leadId === APPROVED_VALIDATION_FIXTURE.leadId;
     const token = randomBytes(32).toString("hex"), now = this.clock();
@@ -154,7 +178,13 @@ export class WorkforceContactTaskDelivery {
         update(entry => { entry.state = "HOLD"; entry.associationVerified = true; entry.operation = null; entry.reason = "OPERATOR_BASELINE_NOT_AUTOMATED_CREATION"; });
         return this.report(event.eventKey, "BASELINE_RECONCILED");
       }
-      if (!matchTask(verifiedTask, event, contact.id)) return uncertain("TASK_ASSOCIATION_OR_OWNER_UNVERIFIED");
+      if (!matchTask(verifiedTask, event, contact.id, this.mode)) return uncertain("TASK_ASSOCIATION_OR_OWNER_UNVERIFIED");
+      if (this.mode === "GENUINE_INQUIRY") {
+        if (!await intakeAccepted() || this.journal.read().state.recoveryHold) return uncertain("EXISTING_INTAKE_NOTICE_UNVERIFIED");
+        update(entry => { entry.associationVerified = true; entry.notification = "EXISTING_INTAKE_ACCEPTANCE_RECORDED"; entry.notificationId = null;
+          entry.phase = "DONE"; entry.state = "COMPLETE"; entry.operation = null; entry.reason = null; });
+        return this.report(event.eventKey);
+      }
       update(entry => { entry.associationVerified = true; entry.phase = "NOTIFY"; entry.operation = null; entry.state = "ACTIVE"; entry.reason = null; });
       if (this.journal.read().state.recoveryHold) return uncertain("RESTORED_JOURNAL_DISPATCH_HELD");
       if (!begin("NOTIFY")) return uncertain("NOTIFICATION_CLAIM_UNAVAILABLE");
@@ -175,6 +205,42 @@ export class WorkforceContactTaskDelivery {
       }
       return uncertain("PROVIDER_OR_RECEIPT_OUTCOME_UNCERTAIN");
     }
+  }
+  /** Separately attest inbox receipt from a trusted read-only native mailbox capability.
+   * No provider-ID correlation is inferred from a Gmail/SES Message-ID. In particular,
+   * unknown-ID notification ambiguity stays UNCERTAIN and cannot authorize a resend. */
+  async reconcileOwnerInboxReceipt(event: LuxuryWorkforceEvent, messageId: string, reader: WorkforceOwnerInboxReceiptReader) {
+    const snapshot = this.journal.read(), entry = snapshot.state.entries.find(e => e.eventKey === event.eventKey);
+    const eligible = (e: WorkforceJournalEntry | undefined) => !!e && e.fingerprint === event.fingerprint && e.emailKey === event.emailKey && e.sourceRecordId === event.leadId && e.savedAt === event.savedAt &&
+      !!e.contactId && !!e.taskId && e.ownerId === WORKFORCE_OWNER && e.associationVerified &&
+      (e.state === "COMPLETE" && e.notification === "ACCEPTED_BY_PROVIDER" && !!e.notificationId ||
+       e.state === "UNCERTAIN" && e.operation === "NOTIFY" && e.notification === "UNCERTAIN");
+    if (!eligible(entry)) throw Error("Bound notification receipt reconciliation required.");
+    if (snapshot.state.recoveryHold) return { ...this.report(event.eventKey), receiptStatus: "UNAVAILABLE", receiptReason: "RESTORE_RECONCILIATION_REQUIRED" };
+    try {
+      const verifyNativeBinding = async () => {
+        const [contact, task] = await Promise.all([this.adapter.getContact(entry!.contactId!), this.adapter.getTask(entry!.taskId!)]);
+        if (!matchContact(contact, event) || contact!.id !== entry!.contactId || !matchTask(task, event, entry!.contactId!, this.mode) || task!.id !== entry!.taskId || task!.contactIds.length !== 1 || task!.contactIds[0] !== entry!.contactId) throw Error();
+      };
+      await verifyNativeBinding();
+      const request = { messageId, event, contactId: entry!.contactId!, taskId: entry!.taskId!, mode: this.mode };
+      const receipt = await reader.read(request);
+      if (receipt.status !== "VERIFIED") return { ...this.report(event.eventKey), receiptStatus: receipt.status, receiptReason: receipt.reason };
+      // Reader objects are trusted server capabilities, not caller-supplied JSON or
+      // unauthenticated evidence imports. Enforce the receipt's narrow semantics too.
+      if (!isBoundWorkforceOwnerInboxReceipt(receipt, request, this.clock())) throw Error();
+      await verifyNativeBinding();
+      const latest = this.journal.read();
+      const fresh = latest.state.entries.find(e => e.eventKey === event.eventKey);
+      if (latest.state.recoveryHold || !eligible(fresh) || JSON.stringify(fresh) !== JSON.stringify(entry)) throw Error();
+      if (fresh!.inboxReceipt !== "VERIFIED") this.journal.mutate(s => {
+        const e = s.entries.find(e => e.eventKey === event.eventKey);
+        if (s.recoveryHold || !eligible(e) || JSON.stringify(e) !== JSON.stringify(entry)) throw Error("Stale inbox receipt reconciliation.");
+        e!.inboxReceipt = "VERIFIED"; // Notification/provider-ID/state/human-action remain unchanged.
+      });
+      return { ...this.report(event.eventKey), receiptStatus: "VERIFIED", receipt,
+        providerGetReceipt: "NOT_USED", notificationRecovery: entry!.state === "UNCERTAIN" ? "PROVIDER_ID_OR_PROVIDER_RECEIPT_UNRESOLVED" : "ALREADY_COMPLETE" };
+    } catch { return { ...this.report(event.eventKey), receiptStatus: "UNVERIFIED", receiptReason: "NATIVE_BINDING_OR_RECEIPT_UNVERIFIED" }; }
   }
   /** Explicit provider-ID reconciliation. No replay POST and no inbox/human inference. */
   async reconcileNotification(event: LuxuryWorkforceEvent, providerId: string) {
