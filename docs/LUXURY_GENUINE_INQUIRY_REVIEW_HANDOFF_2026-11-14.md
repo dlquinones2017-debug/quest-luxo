@@ -1,5 +1,7 @@
 # Bounded genuine Luxury inquiry runtime
 
+Current implementation: [November 15 admission and notification integration](LUXURY_GENUINE_ADMISSION_2026-11-15.md) supersedes the missing-reader and extra-owner-notice statements below. This document retains the earlier review checkpoint.
+
 `runLuxuryGenuineInquiryOnce()` adds a callable internal contact/task path using
 the existing phase journal, delivery worker and provider adapter. It introduces
 no route, startup import, scheduler, store, service or credential configuration.

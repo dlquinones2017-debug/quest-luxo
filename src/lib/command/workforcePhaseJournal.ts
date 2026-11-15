@@ -19,7 +19,7 @@ export interface WorkforceJournalEntry {
   contactOrigin: "CREATED_BY_RUNTIME" | "RECONCILED_EXISTING" | "RECONCILED_AFTER_UNCERTAIN" | "REUSED_BOUND_CONTACT" | "OPERATOR_BASELINE" | null;
   taskOrigin: "CREATED_BY_RUNTIME" | "RECONCILED_EXISTING" | "RECONCILED_AFTER_UNCERTAIN" | "OPERATOR_BASELINE" | null;
   operation: WorkforceOperation | null; attempt: string | null; leaseUntil: number; runId: string | null;
-  notification: "NOT_ATTEMPTED" | "ACCEPTED_BY_PROVIDER" | "UNCERTAIN";
+  notification: "NOT_ATTEMPTED" | "ACCEPTED_BY_PROVIDER" | "EXISTING_INTAKE_ACCEPTANCE_RECORDED" | "UNCERTAIN";
   notificationId: string | null;
   inboxReceipt: "UNKNOWN" | "VERIFIED"; humanAction: "UNKNOWN" | "ACKNOWLEDGED" | "COMPLETED";
   reason: string | null; updatedAt: string;
@@ -50,9 +50,11 @@ function validate(s: WorkforceJournalState): void {
         !(e.operation === null || ["CONTACT_CREATE", "TASK_CREATE", "ASSOCIATE", "NOTIFY"].includes(e.operation)) ||
         !(e.attempt === null || SHA.test(e.attempt)) || !Number.isSafeInteger(e.leaseUntil) || e.leaseUntil < 0 ||
         !(e.runId === null || /^[a-zA-Z0-9_-]{1,128}$/.test(e.runId)) ||
-        !["NOT_ATTEMPTED", "ACCEPTED_BY_PROVIDER", "UNCERTAIN"].includes(e.notification) || !(e.notificationId === null || /^[a-zA-Z0-9_-]{1,128}$/.test(e.notificationId)) || !["UNKNOWN", "VERIFIED"].includes(e.inboxReceipt) ||
+        !["NOT_ATTEMPTED", "ACCEPTED_BY_PROVIDER", "EXISTING_INTAKE_ACCEPTANCE_RECORDED", "UNCERTAIN"].includes(e.notification) || !(e.notificationId === null || /^[a-zA-Z0-9_-]{1,128}$/.test(e.notificationId)) || !["UNKNOWN", "VERIFIED"].includes(e.inboxReceipt) ||
         !["UNKNOWN", "ACKNOWLEDGED", "COMPLETED"].includes(e.humanAction) || !(e.reason === null || /^[A-Z0-9_]{1,100}$/.test(e.reason))) fail();
-    if (e.state === "COMPLETE" && (!e.contactId || !e.taskId || !e.associationVerified || e.phase !== "DONE" || e.notification !== "ACCEPTED_BY_PROVIDER" || !e.notificationId)) fail();
+    if (e.notification === "EXISTING_INTAKE_ACCEPTANCE_RECORDED" && (e.notificationId !== null || e.inboxReceipt !== "UNKNOWN")) fail();
+    if (e.state === "COMPLETE" && (!e.contactId || !e.taskId || !e.associationVerified || e.phase !== "DONE" ||
+        !(e.notification === "ACCEPTED_BY_PROVIDER" && e.notificationId || e.notification === "EXISTING_INTAKE_ACCEPTANCE_RECORDED" && e.notificationId === null))) fail();
     keys.add(e.eventKey);
   }
   const emails = new Set<string>();

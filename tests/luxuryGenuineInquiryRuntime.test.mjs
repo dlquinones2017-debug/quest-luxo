@@ -28,10 +28,11 @@ async function setup(t) {
   const deps = { key, clock: () => now, isReleaseCurrent: async () => flags.active,
     readCanonicalSnapshot: async () => { counts.snapshot++; return { status: flags.snapshot, records }; },
     readAdmission: async e => flags.admission ? ({ source: 'AUTHENTICATED_CANONICAL_SNAPSHOT', division: 'luxury', leadId: e.leadId, fingerprint: e.fingerprint,
-      reviewRef: 'synthetic-review', reviewedAt: start, expiresAt: new Date(Date.parse(start) + 900000).toISOString(), purpose: 'REQUESTED_INQUIRY_INTERNAL_HANDLING', permission: 'VERIFIED', suppression: 'CLEAR', doNotContact: false }) : null,
+      reviewRef: 'synthetic-review', reviewedAt: start, expiresAt: new Date(Date.parse(start) + 900000).toISOString(), purpose: 'REQUESTED_INQUIRY_INTERNAL_HANDLING', permission: 'VERIFIED', suppression: 'CLEAR', doNotContact: false, scope: 'LUXURY_INTERNAL_CONTACT_TASK_ONLY', customerCommunication: 'NOT_GRANTED' }) : null,
     openExistingJournal: async () => { counts.journal++; return journal; },
     createGenuineAdapter: async beforeWrite => { counts.adapter++; return {
       deliveryMode: 'GENUINE_INQUIRY',
+      getExistingIntakeNotification: async e => ({ status: 'ACCEPTANCE_RECORDED', providerId: null, sourceRecordId: e.leadId, savedAt: e.savedAt, fingerprint: e.fingerprint }),
       findContact: async email => contacts.find(c => c.email === email) ?? null,
       getContact: async id => contacts.find(c => c.id === id) ?? null,
       createContact: async e => { assert.equal(await beforeWrite(), true); counts.contact++; const c = { id: String(100 + counts.contact), email: e.payload.email, archived: false }; contacts.push(c); if (flags.revokeAfterContact) flags.active = false; return c; },
@@ -101,12 +102,12 @@ test('founder fixtures and unrecognized source/campaign strings are excluded fro
   assert.equal(f.counts.adapter, 0);
 });
 
-test('same-event replay/concurrency uses one durable contact/task and one owner-only notification', async t => {
+test('same-event replay/concurrency uses one durable contact/task and zero additional owner notifications', async t => {
   const f = await setup(t);
   const results = await Promise.all([runLuxuryGenuineInquiryOnce(f.release, f.deps), runLuxuryGenuineInquiryOnce(f.release, f.deps)]);
   assert.equal(results.every(r => r.results[0].status === 'COMPLETE'), true);
   await runLuxuryGenuineInquiryOnce(f.release, f.deps);
-  assert.deepEqual([f.counts.contact, f.counts.task, f.counts.ownerNotifications], [1, 1, 1]);
+  assert.deepEqual([f.counts.contact, f.counts.task, f.counts.ownerNotifications], [1, 1, 0]);
   assert.match(f.tasks[0].body, /^Quest Luxo genuine Luxury inquiry/);
   assert.equal(results[0].customerMessages, 0); assert.equal(results[0].qualification, 'NOT_ASSESSED'); assert.equal(results[0].collectedRevenue, null);
 });
@@ -115,7 +116,7 @@ test('different approved inquiry/same email reuses contact and retains separate 
   const f = await setup(t); const second = { ...f.records[0], id: 'lead_synthetic-unit-2' }; f.records.push(second);
   f.release.approvedEvents.push({ leadId: second.id, fingerprint: f.event(second).fingerprint });
   await runLuxuryGenuineInquiryOnce(f.release, f.deps);
-  assert.deepEqual([f.counts.contact, f.counts.task, f.counts.ownerNotifications], [1, 2, 2]);
+  assert.deepEqual([f.counts.contact, f.counts.task, f.counts.ownerNotifications], [1, 2, 0]);
 });
 
 test('lost task response holds against empty search, then positive readback recovers without duplicate', async t => {
@@ -125,7 +126,7 @@ test('lost task response holds against empty search, then positive readback reco
   assert.equal((await runLuxuryGenuineInquiryOnce(f.release, f.deps)).results[0].status, 'UNCERTAIN');
   assert.equal(f.counts.task, 1); f.flags.hideTask = false;
   assert.equal((await runLuxuryGenuineInquiryOnce(f.release, f.deps)).results[0].status, 'COMPLETE');
-  assert.deepEqual([f.counts.contact, f.counts.task, f.counts.ownerNotifications], [1, 1, 1]);
+  assert.deepEqual([f.counts.contact, f.counts.task, f.counts.ownerNotifications], [1, 1, 0]);
 });
 
 test('restore hold and admission expiry dispatch nothing', async t => {
@@ -155,22 +156,20 @@ test('actual provider adapter requires genuine write guard and checks it before 
   assert.equal(calls.length, 1); assert.match(calls[0].url, /access-token-info$/);
 });
 
-test('genuine provider profile keeps exact owner-only destination and separate genuine labels', async t => {
-  const f = await setup(t), calls = []; let sent;
+test('genuine provider profile creates its internal task but cannot send another owner email', async t => {
+  const f = await setup(t), calls = [];
   const request = async (url, init) => {
     const body = init.body ? JSON.parse(init.body) : null; calls.push({ url, method: init.method, body });
     const value = url.endsWith('access-token-info') ? { hubId: Number(WORKFORCE_PORTAL), scopes: ['crm.objects.contacts.read', 'crm.objects.contacts.write'] }
-      : url === 'https://api.hubapi.com/crm/v3/objects/tasks' ? { id: '456' }
-      : url === 'https://api.resend.com/emails' ? (sent = body, { id: 'synthetic-notification' })
-      : url === 'https://api.resend.com/emails/synthetic-notification' ? { id: 'synthetic-notification', ...sent } : {};
+      : url === 'https://api.hubapi.com/crm/v3/objects/tasks' ? { id: '456' } : {};
     return new Response(JSON.stringify(value), { status: 200 });
   };
   const email = () => ({ from: 'unit@example.invalid', providerApiKey: 'synthetic-key', providerApiUrl: 'https://api.resend.com/emails' });
   const adapter = await createHubspotWorkforceAdapter('synthetic-token', request, email, 'GENUINE_INQUIRY', async () => true);
-  const e = f.event(f.records[0]); await adapter.createTask(e, '123'); await adapter.notifyOwner(e, '123', '456');
+  const e = f.event(f.records[0]); await adapter.createTask(e, '123');
+  await assert.rejects(adapter.notifyOwner(e, '123', '456'), /existing intake/);
   const task = calls.find(x => x.url === 'https://api.hubapi.com/crm/v3/objects/tasks').body;
   assert.match(task.properties.hs_task_subject, /^\[LUXURY INQUIRY\]/); assert.match(task.properties.hs_task_body, /^Quest Luxo genuine Luxury inquiry/);
-  assert.equal(task.properties.hubspot_owner_id, WORKFORCE_OWNER); assert.deepEqual(sent.to, [WORKFORCE_MAILBOX]);
-  assert.match(sent.subject, /^\[LUXURY INQUIRY\]/); assert.equal(sent.text.includes(f.records[0].payload.email), false);
-  assert.equal(await adapter.getNotification('synthetic-notification', e, '123', '456'), true);
+  assert.equal(task.properties.hubspot_owner_id, WORKFORCE_OWNER);
+  assert.equal(calls.some(x => x.url.startsWith('https://api.resend.com/')), false);
 });

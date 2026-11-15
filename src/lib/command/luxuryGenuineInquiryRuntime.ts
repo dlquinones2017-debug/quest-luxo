@@ -12,13 +12,14 @@ export interface GenuineInquiryRelease {
   enabled: boolean; businessHold: boolean; scope: "LUXURY_INTERNAL_CONTACT_TASK_ONLY";
   portal: string; ownerId: string; acceptedAt: string; expiresAt: string;
   releaseApprovalRef: string; recoveryAcceptanceRef: string; runtimeAcceptanceRef: string;
-  approvedEvents: readonly { leadId: string; fingerprint: string }[];
+  approvedEvents: readonly { leadId: string; fingerprint: string; reviewRef?: string }[];
 }
 export interface GenuineInquiryAdmission {
   source: "AUTHENTICATED_CANONICAL_SNAPSHOT"; division: "luxury";
   leadId: string; fingerprint: string; reviewRef: string; reviewedAt: string; expiresAt: string;
   purpose: "REQUESTED_INQUIRY_INTERNAL_HANDLING";
   permission: "VERIFIED"; suppression: "CLEAR"; doNotContact: false;
+  scope: "LUXURY_INTERNAL_CONTACT_TASK_ONLY"; customerCommunication: "NOT_GRANTED";
 }
 export interface GenuineInquiryDependencies {
   clock?: () => number;
@@ -37,16 +38,16 @@ function currentWindow(start: string, end: string, now: number, maxAge: number, 
   const a = Date.parse(start), b = Date.parse(end);
   return Number.isFinite(a) && Number.isFinite(b) && a <= now && now < b && now - a <= maxAge && b > a && b - a <= maxWindow;
 }
-function releaseValid(r: GenuineInquiryRelease | null | undefined, now: number): r is GenuineInquiryRelease {
+export function isGenuineInquiryReleaseValid(r: GenuineInquiryRelease | null | undefined, now: number): r is GenuineInquiryRelease {
   return !!r && r.enabled === true && r.businessHold === false && r.scope === "LUXURY_INTERNAL_CONTACT_TASK_ONLY" &&
     r.portal === WORKFORCE_PORTAL && r.ownerId === WORKFORCE_OWNER &&
     currentWindow(r.acceptedAt, r.expiresAt, now, 86_400_000, 86_400_000) &&
     [r.releaseApprovalRef, r.recoveryAcceptanceRef, r.runtimeAcceptanceRef].every(ref) &&
     Array.isArray(r.approvedEvents) && r.approvedEvents.length > 0 && r.approvedEvents.length <= 5 &&
-    r.approvedEvents.every(e => e && leadId(e.leadId) && hash(e.fingerprint)) &&
+    r.approvedEvents.every(e => e && leadId(e.leadId) && hash(e.fingerprint) && (e.reviewRef === undefined || ref(e.reviewRef))) &&
     new Set(r.approvedEvents.map(e => e.leadId)).size === r.approvedEvents.length;
 }
-function genuineSource(event: LuxuryWorkforceEvent, now: number) {
+export function isGenuineLuxuryCanonicalEvent(event: LuxuryWorkforceEvent, now: number) {
   const p = event.payload;
   const [route, ...query] = (p.source ?? "").split(";");
   if (route !== "begin-your-quest" && route !== "contact" || query.length > 1 ||
@@ -59,7 +60,7 @@ function admitted(a: GenuineInquiryAdmission | null, event: LuxuryWorkforceEvent
     a.leadId === event.leadId && a.fingerprint === event.fingerprint && ref(a.reviewRef) &&
     currentWindow(a.reviewedAt, a.expiresAt, now, 900_000, 900_000) &&
     a.purpose === "REQUESTED_INQUIRY_INTERNAL_HANDLING" && a.permission === "VERIFIED" &&
-    a.suppression === "CLEAR" && a.doNotContact === false;
+    a.suppression === "CLEAR" && a.doNotContact === false && a.scope === "LUXURY_INTERNAL_CONTACT_TASK_ONLY" && a.customerCommunication === "NOT_GRANTED";
 }
 const hold = (reason: string) => ({ mode: "GENUINE_INQUIRY", businessHold: true, processed: 0, reason, customerMessages: 0 });
 
@@ -69,7 +70,7 @@ const hold = (reason: string) => ({ mode: "GENUINE_INQUIRY", businessHold: true,
  */
 export async function runLuxuryGenuineInquiryOnce(release: GenuineInquiryRelease | null | undefined, deps: GenuineInquiryDependencies) {
   const clock = deps.clock ?? Date.now;
-  if (!releaseValid(release, clock())) return hold("EXACT_ACCEPTED_RELEASE_REQUIRED");
+  if (!isGenuineInquiryReleaseValid(release, clock())) return hold("EXACT_ACCEPTED_RELEASE_REQUIRED");
   if (!Buffer.isBuffer(deps.key) || deps.key.length !== 32 || !await deps.isReleaseCurrent(release)) return hold("RELEASE_OR_MANAGED_KEY_UNVERIFIED");
   const snapshot = await deps.readCanonicalSnapshot();
   if (snapshot.status !== "COMPLETE" || !Array.isArray(snapshot.records)) return hold("CANONICAL_SNAPSHOT_INCOMPLETE");
@@ -79,8 +80,9 @@ export async function runLuxuryGenuineInquiryOnce(release: GenuineInquiryRelease
   for (const record of rows) {
     let event: LuxuryWorkforceEvent;
     try { event = createLuxuryWorkforceEvent({ ...record, payload: Object.freeze({ ...record.payload }) }, deps.key); } catch { return hold("CANONICAL_EVENT_INVALID"); }
-    if (release.approvedEvents.find(e => e.leadId === event.leadId)?.fingerprint !== event.fingerprint || !genuineSource(event, clock())) return hold("SOURCE_IDENTITY_OR_FINGERPRINT_UNVERIFIED");
-    if (!admitted(await deps.readAdmission(event), event, clock())) return hold("FRESH_PERMISSION_SUPPRESSION_REVIEW_REQUIRED");
+    if (release.approvedEvents.find(e => e.leadId === event.leadId)?.fingerprint !== event.fingerprint || !isGenuineLuxuryCanonicalEvent(event, clock())) return hold("SOURCE_IDENTITY_OR_FINGERPRINT_UNVERIFIED");
+    const admission = await deps.readAdmission(event);
+    if (!admitted(admission, event, clock()) || release.approvedEvents.find(e => e.leadId === event.leadId)?.reviewRef && release.approvedEvents.find(e => e.leadId === event.leadId)!.reviewRef !== admission!.reviewRef) return hold("FRESH_PERMISSION_SUPPRESSION_REVIEW_REQUIRED");
     events.push(event);
   }
   // All source and admission checks complete before opening state or building a
@@ -89,8 +91,11 @@ export async function runLuxuryGenuineInquiryOnce(release: GenuineInquiryRelease
   if (journal.read().state.recoveryHold) return hold("RESTORED_JOURNAL_DISPATCH_HELD");
   const results = [];
   for (const event of events) {
-    const beforeWrite = async () => releaseValid(release, clock()) && release.approvedEvents.some(e => e.leadId === event.leadId && e.fingerprint === event.fingerprint) && await deps.isReleaseCurrent(release) &&
-      !journal.read().state.recoveryHold && admitted(await deps.readAdmission(event), event, clock());
+    const beforeWrite = async () => isGenuineInquiryReleaseValid(release, clock()) && release.approvedEvents.some(e => e.leadId === event.leadId && e.fingerprint === event.fingerprint) && await deps.isReleaseCurrent(release) &&
+      !journal.read().state.recoveryHold && await (async () => {
+        const admission = await deps.readAdmission(event), expected = release.approvedEvents.find(e => e.leadId === event.leadId)?.reviewRef;
+        return admitted(admission, event, clock()) && (!expected || expected === admission!.reviewRef);
+      })();
     if (!await beforeWrite()) return { ...hold("RELEASE_OR_ADMISSION_CHANGED"), processed: results.length, results };
     const adapter = await deps.createGenuineAdapter(beforeWrite);
     if (adapter.deliveryMode !== "GENUINE_INQUIRY") return { ...hold("MATCHING_GENUINE_PROVIDER_PROFILE_REQUIRED"), processed: results.length, results };

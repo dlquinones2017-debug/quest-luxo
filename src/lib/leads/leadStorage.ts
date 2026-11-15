@@ -1,3 +1,4 @@
+import { normalizeInternalHandlingReviews, type InternalHandlingReview } from "./leadInternalHandlingReview.ts";
 import { createHash, randomUUID } from "node:crypto";
 import { mkdir, open, readFile, rename, unlink } from "node:fs/promises";
 import { join, resolve } from "node:path";
@@ -128,6 +129,8 @@ const normalizeLeadSubmissionRecord = (
   const economicsSnapshots = normalizeBrokerageEconomicsSnapshots(
     value.economicsSnapshots
   );
+  const internalHandlingReviews = normalizeInternalHandlingReviews(value.internalHandlingReviews);
+  if (!internalHandlingReviews) return null;
   const emailDelivery = isRecord(value.emailDelivery)
     ? (value.emailDelivery as unknown as LeadEmailDeliveryResult)
     : undefined;
@@ -142,6 +145,7 @@ const normalizeLeadSubmissionRecord = (
     economicsSnapshots,
     payload: value.payload as unknown as LeadCapturePayload,
     savedAt: value.savedAt.trim(),
+    ...(value.internalHandlingReviews !== undefined ? { internalHandlingReviews } : {}),
     ...(emailDelivery ? { emailDelivery } : {}),
   });
 };
@@ -378,6 +382,34 @@ const updateJsonlLeadSubmissionEmailDelivery = async (
   return updatedRecord;
 };
 
+const appendJsonlLeadInternalHandlingReview = async (
+  paths: LeadStoragePaths, id: string, expectedPreviousReviewId: string | null,
+  makeReview: (record: LeadSubmissionRecord) => InternalHandlingReview
+): Promise<LeadSubmissionRecord | null> => {
+  const snapshot = await readJsonlLeadSnapshotAt(paths);
+  if (snapshot.status !== "COMPLETE") throw Error("Canonical source integrity required.");
+  const records = [...snapshot.records], matches = records.filter(r => r.id === id);
+  if (!matches.length) return null;
+  if (matches.length !== 1) throw Error("Unique persisted source identity required.");
+  // Do not let the legacy normalizer's fallback ID authorize a policy mutation.
+  const raw = (await readFile(paths.file, "utf8")).split(/\r?\n/).filter(x => x.trim()).map(x => JSON.parse(x));
+  if (raw.length !== records.length || new Set(raw.map(x => x.id)).size !== raw.length ||
+      raw.some(x => typeof x.id !== "string" || x.id !== x.id.trim() || !records.some(r => r.id === x.id && r.savedAt === x.savedAt)) ||
+      raw.filter(x => x.id === id).length !== 1) throw Error("Persisted source identity required.");
+  const record = matches[0], previous = record.internalHandlingReviews?.at(-1)?.id ?? null;
+  if (previous !== expectedPreviousReviewId) throw Error("Internal handling review changed; refresh required.");
+  const review = makeReview(record);
+  if (review.leadId !== record.id || review.previousReviewId !== previous) throw Error("Review identity mismatch.");
+  const history = normalizeInternalHandlingReviews([...(record.internalHandlingReviews ?? []), review]);
+  if (!history) throw Error("Invalid internal handling review.");
+  const updated = Object.freeze({ ...record, internalHandlingReviews: history });
+  // Retain unknown historical root metadata instead of rewriting normalized rows.
+  // Only the typed review history changes; payload and every unrelated field stay.
+  const persisted = raw.map(row => row.id === id ? { ...row, internalHandlingReviews: history } : row);
+  await writeLeadSubmissions(paths, persisted as LeadSubmissionRecord[]);
+  return updated;
+};
+
 const addJsonlLeadSubmissionEconomicsSnapshot = async (
   paths: LeadStoragePaths,
   id: string,
@@ -437,6 +469,8 @@ export const createJsonlLeadStorageAdapter = (
       mutate(() => updateJsonlLeadSubmissionTags(paths, id, tags)),
     updateLeadSubmissionEmailDelivery: (id, emailDelivery) =>
       mutate(() => updateJsonlLeadSubmissionEmailDelivery(paths, id, emailDelivery)),
+    appendLeadInternalHandlingReview: (id, previous, makeReview) =>
+      mutate(() => appendJsonlLeadInternalHandlingReview(paths, id, previous, makeReview)),
     addLeadSubmissionEconomicsSnapshot: (id, economicsInput, brokerNote) =>
       mutate(() => addJsonlLeadSubmissionEconomicsSnapshot(
         paths,

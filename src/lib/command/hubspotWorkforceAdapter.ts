@@ -1,6 +1,7 @@
 import { createHash } from "node:crypto";
 import { getQuestLuxoServerConfig } from "../config/questLuxoConfig.ts";
-import { luxurySignatureHtml, luxurySignatureText } from "../config/luxuryEmailSignature.ts";
+import { workforceOwnerNotification } from "./workforceOwnerNotification.ts";
+import { WorkforceNotificationReadUnavailable } from "./workforceOwnerInboxReceipt.ts";
 import { WORKFORCE_MAILBOX, WORKFORCE_OWNER, WORKFORCE_PORTAL, type LuxuryWorkforceEvent } from "./luxuryWorkforceEvent.ts";
 import { workforceTaskMetadata, type WorkforceContact, type WorkforceTask, type WorkforceCRMAdapter, type WorkforceDeliveryMode } from "./workforceContactTaskDelivery.ts";
 
@@ -9,11 +10,8 @@ const id = (value: unknown): string => {
   return value;
 };
 const fail = (): never => { throw Error("CRM provider result is unavailable or unverified."); };
-const subject = (event: LuxuryWorkforceEvent, mode: WorkforceDeliveryMode) => `${mode === "GENUINE_INQUIRY" ? "[LUXURY INQUIRY]" : "[INTERNAL VALIDATION]"} Quest Luxo ${event.leadId}`;
 const taskSubject = (event: LuxuryWorkforceEvent, mode: WorkforceDeliveryMode) => `${mode === "GENUINE_INQUIRY" ? "[LUXURY INQUIRY]" : "[INTERNAL VALIDATION]"} ${event.eventKey}`;
 const due = (event: LuxuryWorkforceEvent) => new Date(Date.parse(event.savedAt) + 86_400_000).toISOString();
-const notificationMessage = (event: LuxuryWorkforceEvent, contactId: string, taskId: string, mode: WorkforceDeliveryMode) =>
-  `${mode === "GENUINE_INQUIRY" ? "A genuine Luxury Advisory inquiry needs internal owner follow-up. No customer acknowledgement or marketing message was sent by this path." : "This is a controlled Luxury Advisory workforce validation event."}\n${workforceTaskMetadata(event, mode)}\nContact: https://app.hubspot.com/contacts/${WORKFORCE_PORTAL}/contact/${id(contactId)}\nTask: https://app.hubspot.com/tasks/${WORKFORCE_PORTAL}/view/all/task/${id(taskId)}\nProvider acceptance does not establish inbox receipt or human completion.`;
 
 interface WorkforceEmailProviderConfig { readonly from: string | null; readonly providerApiKey: string | null; readonly providerApiUrl: string }
 export async function createHubspotWorkforceAdapter(token: string, request: typeof fetch = fetch, emailConfig: () => WorkforceEmailProviderConfig = () => getQuestLuxoServerConfig().leadEmail, mode: WorkforceDeliveryMode = "INTERNAL_VALIDATION", beforeWrite?: () => Promise<boolean>): Promise<WorkforceCRMAdapter> {
@@ -53,15 +51,21 @@ export async function createHubspotWorkforceAdapter(token: string, request: type
   const provider = async (event: LuxuryWorkforceEvent, method: "GET" | "POST", providerId?: string, contactId?: string, taskId?: string) => {
     const config = emailConfig();
     if (!config.providerApiKey || !config.from || config.providerApiUrl !== "https://api.resend.com/emails") return fail();
-    const message = method === "POST" ? notificationMessage(event, contactId!, taskId!, mode) : "";
+    const message = method === "POST" ? workforceOwnerNotification(event, id(contactId), id(taskId), mode) : null;
     if (method === "POST") await checkWrite();
     const result = await request(`https://api.resend.com/emails${method === "GET" ? `/${providerId}` : ""}`, {
       method, redirect: "error", signal: AbortSignal.timeout(8000),
       headers: { Authorization: `Bearer ${config.providerApiKey}`, "Content-Type": "application/json", ...(method === "POST" ? { "Idempotency-Key": createHash("sha256").update(`workforce-notification-v2:${event.eventKey}`).digest("hex") } : {}) },
-      ...(method === "POST" ? { body: JSON.stringify({ from: config.from, to: [WORKFORCE_MAILBOX], subject: subject(event, mode),
-        text: `${message}\n\n${luxurySignatureText}`, html: `<p>${mode === "GENUINE_INQUIRY" ? "Luxury Advisory inquiry for internal follow-up." : "Controlled Luxury Advisory workforce validation."}</p><pre>${message.replace(/[&<>]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;" })[c]!)}</pre><div>${luxurySignatureHtml}</div>` }) } : {}),
+      ...(message ? { body: JSON.stringify({ from: config.from, to: [message.to], subject: message.subject, text: message.text, html: message.html }) } : {}),
     });
-    if (!result.ok) return fail();
+    if (!result.ok) {
+      if (method === "GET") {
+        let restricted = false;
+        try { const error = await result.text(); restricted = error.length <= 10_000 && result.status === 401 && JSON.parse(error).name === "restricted_api_key"; } catch {}
+        throw new WorkforceNotificationReadUnavailable(restricted ? "RESTRICTED_SEND_ONLY_KEY" : "PROVIDER_READ_UNAVAILABLE");
+      }
+      return fail();
+    }
     const text = await result.text(); if (Buffer.byteLength(text) > 100_000) return fail();
     return JSON.parse(text);
   };
@@ -84,14 +88,17 @@ export async function createHubspotWorkforceAdapter(token: string, request: type
       return { id: id(created.id), body: workforceTaskMetadata(event, mode), ownerId: WORKFORCE_OWNER, contactIds: [], archived: false, dueAt: due(event), status: "NOT_STARTED", type: "TODO" };
     },
     notifyOwner: async (event, contactId, taskId) => {
+      if (mode === "GENUINE_INQUIRY") throw Error("Genuine inquiry must reuse its existing intake notification.");
       const result = await provider(event, "POST", undefined, id(contactId), id(taskId));
       return { accepted: typeof result.id === "string" && /^[a-zA-Z0-9_-]{1,128}$/.test(result.id), providerId: result.id };
     },
     getNotification: async (providerId, event, contactId, taskId) => {
       if (!/^[a-zA-Z0-9_-]{1,128}$/.test(providerId) || !/^[1-9]\d{0,30}$/.test(contactId) || !/^[1-9]\d{0,30}$/.test(taskId)) return false;
-      const result = await provider(event, "GET", providerId);
-      return result.id === providerId && Array.isArray(result.to) && result.to.length === 1 && result.to[0] === WORKFORCE_MAILBOX && result.subject === subject(event, mode) &&
-        result.text === `${notificationMessage(event, contactId, taskId, mode)}\n\n${luxurySignatureText}`;
+      let result;
+      try { result = await provider(event, "GET", providerId); }
+      catch (error) { if (error instanceof WorkforceNotificationReadUnavailable) throw error; throw new WorkforceNotificationReadUnavailable("PROVIDER_READ_UNAVAILABLE"); }
+      const expected = workforceOwnerNotification(event, contactId, taskId, mode);
+      return result.id === providerId && Array.isArray(result.to) && result.to.length === 1 && result.to[0] === WORKFORCE_MAILBOX && result.subject === expected.subject && result.text === expected.text;
     },
   };
 }

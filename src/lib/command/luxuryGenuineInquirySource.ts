@@ -1,3 +1,5 @@
+import { readExistingIntakeNotification } from "./luxuryExistingIntakeNotification.ts";
+import { readCurrentInternalHandlingReview } from "../leads/leadInternalHandlingReview.ts";
 import { constants } from "node:fs";
 import { lstat, open, realpath } from "node:fs/promises";
 import { resolve } from "node:path";
@@ -6,7 +8,7 @@ import { getQuestLuxoServerConfig, type QuestLuxoServerConfig } from "../config/
 import { createLeadNotificationContext } from "../leads/leadNotificationContext.ts";
 import type { LeadSubmissionRecord } from "../leads/leadStorageTypes.ts";
 import type { LuxuryWorkforceEvent } from "./luxuryWorkforceEvent.ts";
-import { runLuxuryGenuineInquiryOnce, type GenuineInquiryDependencies, type GenuineInquiryRelease } from "./luxuryGenuineInquiryRuntime.ts";
+import { runLuxuryGenuineInquiryOnce, type GenuineInquiryDependencies, type GenuineInquiryRelease, type GenuineInquiryAdmission } from "./luxuryGenuineInquiryRuntime.ts";
 
 type StorageConfig = QuestLuxoServerConfig["leadStorage"];
 const MAX_BYTES = 8_000_000;
@@ -20,7 +22,7 @@ const samePayload = (a: unknown, b: unknown) => !!a && !!b && typeof a === "obje
  * before its legacy normalizer can synthesize a missing ID. No mutation methods
  * from that adapter are called and no journal/key/provider is accessed here.
  */
-export function createExistingLuxuryGenuineSource(storage: StorageConfig = getQuestLuxoServerConfig().leadStorage) {
+export function createExistingLuxuryGenuineSource(storage: StorageConfig = getQuestLuxoServerConfig().leadStorage, policy?: { readonly key: Buffer; readonly clock?: () => number }) {
   let lastReason = "SOURCE_NOT_READ";
   const readCanonicalSnapshot = async () => {
     if (storage.provider !== "jsonl" || storage.providerStatus !== "configured" || storage.directoryStatus !== "configured") {
@@ -71,26 +73,33 @@ export function createExistingLuxuryGenuineSource(storage: StorageConfig = getQu
       return blocked(lastReason);
     }
   };
-  const readAdmission = async (event: LuxuryWorkforceEvent): Promise<null> => {
+  const readAdmission = async (event: LuxuryWorkforceEvent): Promise<GenuineInquiryAdmission | null> => {
     const snapshot = await readCanonicalSnapshot();
     const record = snapshot.records.find(r => r.id === event.leadId);
     if (snapshot.status !== "COMPLETE" || !record || record.savedAt !== event.savedAt || !samePayload(record.payload, event.payload)) {
       lastReason = "CURRENT_CANONICAL_EVENT_BINDING_UNVERIFIED"; return null;
     }
-    // Current main's13 payload fields and record fields contain no typed internal
-    // permission review, identity-bound suppression/DND verdict or release record.
-    // status/notes/tags, analytics consent and subscription state cannot supply it.
-    // Do not invent VERIFIED/CLEAR/false flags from an authentic inquiry alone.
-    lastReason = "PERMISSION_REVIEW_FIELD_AND_SUPPRESSION_IDENTITY_SOURCE_ABSENT";
-    return null;
+    const review = policy && readCurrentInternalHandlingReview(record, event, policy.key, (policy.clock ?? Date.now)());
+    if (!review) {
+      lastReason = record.internalHandlingReviews?.length ? "CURRENT_SIGNED_INTERNAL_REVIEW_DENIED_OR_UNVERIFIED" : "PERMISSION_REVIEW_FIELD_AND_SUPPRESSION_IDENTITY_SOURCE_ABSENT";
+      return null;
+    }
+    if (!policy || readExistingIntakeNotification(record, event, policy.key).status !== "ACCEPTANCE_RECORDED") {
+      lastReason = "EXISTING_INTAKE_NOTICE_EVIDENCE_UNVERIFIED"; return null;
+    }
+    lastReason = "EXPLICIT_AUTHENTICATED_OPERATOR_REVIEW_CLEAR_FOR_INTERNAL_HANDLING";
+    return Object.freeze({ source: "AUTHENTICATED_CANONICAL_SNAPSHOT", division: "luxury", leadId: event.leadId,
+      fingerprint: event.fingerprint, reviewRef: `canonical-review:${review.id}`, reviewedAt: review.recordedAt, expiresAt: review.expiresAt,
+      purpose: "REQUESTED_INQUIRY_INTERNAL_HANDLING", permission: "VERIFIED", suppression: "CLEAR", doNotContact: false,
+      scope: "LUXURY_INTERNAL_CONTACT_TASK_ONLY", customerCommunication: "NOT_GRANTED" });
   };
   return Object.freeze({ readCanonicalSnapshot, readAdmission,
-    diagnostics: () => Object.freeze({ reason: lastReason, admissionImplemented: "FAIL_CLOSED_CURRENT_CONTRACT", permissionGranted: false,
-      missing: ["typed event-bound internal handling review", "authoritative current identity suppression/DND source", "authoritative runtime release/revocation source"] }) });
+    diagnostics: () => Object.freeze({ reason: lastReason, admissionImplemented: "SIGNED_EXPLICIT_OPERATOR_REVIEW_REQUIRED", permissionGranted: lastReason === "EXPLICIT_AUTHENTICATED_OPERATOR_REVIEW_CLEAR_FOR_INTERNAL_HANDLING", customerCommunication: "NOT_GRANTED",
+      missing: lastReason === "EXPLICIT_AUTHENTICATED_OPERATOR_REVIEW_CLEAR_FOR_INTERNAL_HANDLING" ? [] : ["current signed operator handling/suppression review for the exact identity"] }) });
 }
 
 /** Concrete source wiring for the earlier isolated callable. It cannot dispatch
- * using current main's contracts because readAdmission never mints permission.
+ * without a current signed explicit operator review; it never infers permission.
  * Journal/provider/release lifecycle remains owned by the original runtime owner.
  */
 export async function runLuxuryGenuineInquiryFromExistingSource(
@@ -98,7 +107,7 @@ export async function runLuxuryGenuineInquiryFromExistingSource(
   runtime: Omit<GenuineInquiryDependencies, "readCanonicalSnapshot" | "readAdmission">,
   storage: StorageConfig = getQuestLuxoServerConfig().leadStorage,
 ) {
-  const source = createExistingLuxuryGenuineSource(storage);
+  const source = createExistingLuxuryGenuineSource(storage, { key: runtime.key, clock: runtime.clock });
   const result = await runLuxuryGenuineInquiryOnce(release, { ...runtime, readCanonicalSnapshot: source.readCanonicalSnapshot, readAdmission: source.readAdmission });
   return { ...result, sourceAdmission: source.diagnostics() };
 }

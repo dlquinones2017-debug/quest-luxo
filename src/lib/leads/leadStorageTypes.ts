@@ -1,3 +1,4 @@
+import type { InternalHandlingReview } from "./leadInternalHandlingReview.ts";
 import type { BrokerageEconomicsInput } from "../brokerage/brokerageEconomics.ts";
 import type { BrokerageEconomicsSnapshot } from "../brokerage/brokerageEconomicsSnapshot.ts";
 import type { LeadCapturePayload } from "./leadCapture.ts";
@@ -29,6 +30,7 @@ export interface LeadSubmissionRecord {
   readonly payload: LeadCapturePayload;
   readonly savedAt: string;
   readonly emailDelivery?: LeadEmailDeliveryResult;
+  readonly internalHandlingReviews?: readonly InternalHandlingReview[];
 }
 
 export interface LeadStorageResult {
@@ -66,6 +68,11 @@ export interface LeadStorageAdapter {
   updateLeadSubmissionEmailDelivery(
     id: string,
     emailDelivery: LeadEmailDeliveryResult
+  ): Promise<LeadSubmissionRecord | null>;
+  appendLeadInternalHandlingReview(
+    id: string,
+    expectedPreviousReviewId: string | null,
+    makeReview: (record: LeadSubmissionRecord) => InternalHandlingReview
   ): Promise<LeadSubmissionRecord | null>;
   addLeadSubmissionEconomicsSnapshot(
     id: string,

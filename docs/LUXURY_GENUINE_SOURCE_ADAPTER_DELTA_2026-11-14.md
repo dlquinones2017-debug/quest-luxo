@@ -1,5 +1,7 @@
 # Existing canonical source adapter
 
+Current implementation: [November 15 admission and notification integration](LUXURY_GENUINE_ADMISSION_2026-11-15.md) adds a signed same-record review reader and trusted release configuration. Earlier always-null admission is superseded; actual live decisions and release remain absent.
+
 `createExistingLuxuryGenuineSource()` binds the configured JSONL source using the
 existing storage adapter. It calls no storage mutation method and accesses no
 journal, key or provider. `runLuxuryGenuineInquiryFromExistingSource()` connects
