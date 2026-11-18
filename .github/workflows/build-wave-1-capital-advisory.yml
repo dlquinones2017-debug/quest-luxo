@@ -4,7 +4,12 @@ on:
     branches: [main]
     paths:
       - "src/lib/capital/**"
+      - "src/lib/trust/verifiedClaims.ts"
       - "tests/funding*.test.mjs"
+      - "tests/creditReportingPlan.test.mjs"
+      - "tests/universalCapitalIntake.test.mjs"
+      - "tests/businessCreditDIYBlueprint.test.mjs"
+      - "tests/verifiedClaims.test.mjs"
       - ".github/workflows/build-wave-1-capital-advisory.yml"
   workflow_dispatch:
 jobs:
@@ -17,8 +22,8 @@ jobs:
           node-version: "22.12.0"
           cache: npm
       - run: npm ci
-      - name: Funding boundary and lifecycle tests
-        run: node --experimental-strip-types --test tests/fundingAgents.test.mjs tests/fundingLifecycle.test.mjs
+      - name: Capital funding and credit reporting boundary tests
+        run: node --experimental-strip-types --test tests/fundingAgents.test.mjs tests/fundingLifecycle.test.mjs tests/creditReportingPlan.test.mjs tests/universalCapitalIntake.test.mjs tests/businessCreditDIYBlueprint.test.mjs tests/verifiedClaims.test.mjs
       - name: Astro / TypeScript check
         run: npm run check
       - name: Production build
