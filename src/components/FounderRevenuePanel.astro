@@ -28,9 +28,21 @@ const { hidden=false }=Astro.props;
     <p>Provider acceptance does not confirm inbox delivery. No observed inquiries does not mean a form failed. This view does not qualify clients or authorize contact.</p>
     <p>Connecting Capital and Realty inquiries, confirming retention, and testing recovery require founder approval. Opening this panel does not start background collection.</p>
   </section>
+  <section class="founder-intake" aria-label="Capital and Realty intake to CRM reconciliation">
+    <h3>Intake-to-CRM evidence gaps</h3>
+    <p data-founder-reconciliation-state aria-live="polite">Waiting for read-only reconciliation check.</p>
+    <p class="founder-intake-scroll-note">Scroll across for division-specific gaps.</p>
+    <div class="founder-intake-table" tabindex="0" role="region" aria-label="Intake and case linking by division">
+      <table>
+        <thead><tr><th scope="col">Division</th><th scope="col">Collection</th><th scope="col">Receipts</th><th scope="col">Source review</th><th scope="col">Links missing</th><th scope="col">Records missing</th><th scope="col">Evidence missing</th><th scope="col">In-memory match</th><th scope="col">Action</th></tr></thead>
+        <tbody data-founder-reconciliation-rows></tbody>
+      </table>
+    </div>
+    <p>All matches are to volatile in-memory pipeline snapshots, not durable CRM records. An unconnected or missing source is unknown, not a verified zero. No case is created, assigned, or contacted by this report.</p>
+  </section>
 </section>
 <script>
- import { loadFounderRevenueModel, founderIntakeRows } from "../lib/broker/founderRevenueClient.ts";
+ import { loadFounderRevenueModel, founderIntakeRows, founderReconciliationRows } from "../lib/broker/founderRevenueClient.ts";
  const panel=document.querySelector<HTMLElement>("[data-founder-revenue-panel]");
  const state=panel?.querySelector<HTMLElement>("[data-founder-revenue-state]");
  const set=(key:string,value:string)=>{const el=panel?.querySelector<HTMLElement>(`[data-founder-revenue="${key}"]`);if(el)el.textContent=value;};
@@ -57,8 +69,21 @@ const { hidden=false }=Astro.props;
           rows.append(tr);
         }
       }
+      const reconciliationState=panel.querySelector<HTMLElement>("[data-founder-reconciliation-state]");
+      if(reconciliationState)reconciliationState.textContent="Read-only source-to-case comparison; durable CRM recovery remains unverified.";
+      const reconciliationRows=panel.querySelector<HTMLElement>("[data-founder-reconciliation-rows]");
+      if(reconciliationRows){
+        reconciliationRows.replaceChildren();
+        for(const row of founderReconciliationRows(model)){
+          const tr=document.createElement("tr");
+          for(const value of [row.division,row.collection,row.receipts,row.sourceReview,row.missingLinks,row.missingRecords,row.evidenceMissing,row.inMemoryOnly,row.review]){
+            const td=document.createElement("td");td.textContent=value;tr.append(td);
+          }
+          reconciliationRows.append(tr);
+        }
+      }
     })
-    .catch(()=>{if(state)state.textContent="Unable to load enterprise revenue state.";const intakeState=panel.querySelector<HTMLElement>("[data-founder-intake-state]");if(intakeState)intakeState.textContent="Inquiry collection could not be checked. No zero or healthy state has been inferred.";});
+    .catch(()=>{if(state)state.textContent="Unable to load enterprise revenue state.";const intakeState=panel.querySelector<HTMLElement>("[data-founder-intake-state]");if(intakeState)intakeState.textContent="Inquiry collection could not be checked. No zero or healthy state has been inferred.";const reconciliationState=panel.querySelector<HTMLElement>("[data-founder-reconciliation-state]");if(reconciliationState)reconciliationState.textContent="CRM reconciliation unavailable. No missing or matched count has been inferred.";});
  }
 </script>
 <style>
